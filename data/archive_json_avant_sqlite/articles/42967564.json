@@ -1,0 +1,129 @@
+{
+  "pmid": "42967564",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42967564",
+    "titre": "Psychiatry of ophthalmology: proposing the ophthalmo-psychiatric disorders framework.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42967564/",
+    "doi": "10.1016/j.survophthal.2026.10.012",
+    "pmcid": null,
+    "revue": "Survey of ophthalmology",
+    "date_entree_pubmed": "2026-11-01",
+    "date_publication": "2026-Nov-01",
+    "types_publication": [
+      "Journal Article",
+      "Review"
+    ],
+    "resume_present": true,
+    "resume": "We propose the ophthalmo-psychiatric disorders (OPD) framework as an organizing clinical and research model at the interface of vision science and mental health, and to synthesize, with wording calibrated to evidence strength, bidirectional relationships between ophthalmic disease, visual function, and psychiatric states. Visual impairment and common mental disorders co-distribute globally, with adults with vision loss showing roughly two-to three-fold higher prevalence of depressive and anxiety symptoms than visually normal peers. Elevated psychiatric comorbidity across glaucoma, dry eye disease, and age-related macular degeneration is supported by systematic reviews and meta-analyses, as is the benefit of psychological and stepped-care intervention. Mechanistic claims are weaker: hypothalamic-pituitary-adrenal and autonomic dysregulation, inflammation, circadian disruption, central sensitization, and retinal neurodegeneration remain candidate pathways resting largely on cross-sectional data, and retinal findings in severe mental illness are group-level associations confounded by lifestyle, metabolic, medication, and imaging factors. The eye and the mind are anatomically and physiologically connected. The concept of OPD provides a pragmatic biopsychosocial framework that moves beyond an \"organic versus non-organic (functional)\" dichotomy and highlights the clinical intersection of the 2 fields. Progress will depend on interdisciplinary training, longitudinal research with harmonized definitions, and culturally sensitive implementation of eye-mind care.",
+    "mots_cles_auteurs": [
+      "Biopsychosocial care",
+      "Eye-brain axis",
+      "Mental disorders",
+      "Neuro-ophthalmology",
+      "OPD",
+      "Ophthalmo-psychiatric disorders",
+      "Ophthalmology",
+      "Psychiatry",
+      "Visual impairment"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 6,
+    "affiliations_auteurs": [
+      "Department of Ophthalmology, Centro Médico Nacional de Occidente, Guadalajara, Jalisco, Mexico; School of Medicine, Centro Universitario de Ciencias de la Salud, Universidad de Guadalajara, Guadalajara, Jalisco, Mexico; Oftanova, Tesistán, Zapopan, Jalisco, Mexico; Department of Ophthalmology, Blanton Eye Institute, Houston Methodist Hospital, Houston, TX, USA.",
+      "School of Medicine, Centro Universitario de Ciencias de la Salud, Universidad de Guadalajara, Guadalajara, Jalisco, Mexico; Oftanova, Tesistán, Zapopan, Jalisco, Mexico.",
+      "School of Medicine, Baylor College of Medicine, Houston, TX, USA.",
+      "Department of Psychiatry & Behavioral Health, Houston Methodist, Houston, TX 77030, USA.",
+      "Department of Ophthalmology, Blanton Eye Institute, Houston Methodist Hospital, Houston, TX, USA; Department of Ophthalmology, Cullen Eye Institute, Baylor College of Medicine, Houston, TX, USA; Departments of Ophthalmology, Neurology, and Neurosurgery, Weill Cornell Medicine, New York, New York, USA; Department of Ophthalmology, University of Texas MD Anderson Cancer Center, Houston, TX, USA; Texas A&M College of Medicine, Bryan, TX, USA; Department of Ophthalmology, University of Iowa Hospitals and Clinics, Iowa City, IA, USA. Electronic address: aglee@houstonmethodist.org."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7225035729",
+      "doi": "10.1016/j.survophthal.2026.10.012",
+      "pmid": "42967564",
+      "pmcid": null,
+      "titre": "Psychiatry of ophthalmology: proposing the ophthalmo-psychiatric disorders framework",
+      "lien": "https://openalex.org/W7225035729",
+      "date_publication": "2026-11-01",
+      "type": "review",
+      "revue": "Survey of Ophthalmology",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "pubmed"
+      ],
+      "financeurs": null,
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "Houston Methodist",
+          "pays": "US",
+          "type": "healthcare",
+          "ror": "https://ror.org/027zt9171"
+        },
+        {
+          "nom": "Universidad de Guadalajara",
+          "pays": "MX",
+          "type": "education",
+          "ror": "https://ror.org/043xj7k26"
+        },
+        {
+          "nom": "Baylor College of Medicine",
+          "pays": "US",
+          "type": "education",
+          "ror": "https://ror.org/02pttbw34"
+        },
+        {
+          "nom": "The University of Texas MD Anderson Cancer Center",
+          "pays": "US",
+          "type": "healthcare",
+          "ror": "https://ror.org/04twxam07"
+        },
+        {
+          "nom": "University of Iowa Hospitals and Clinics",
+          "pays": "US",
+          "type": "healthcare",
+          "ror": "https://ror.org/04g2swc55"
+        },
+        {
+          "nom": "Weill Cornell Medicine",
+          "pays": "US",
+          "type": "education",
+          "ror": "https://ror.org/02r109517"
+        }
+      ],
+      "acces_ouvert": false,
+      "statut_acces": "closed",
+      "url_texte": null,
+      "url_pdf": null,
+      "licence": null,
+      "texte_integral_indexe": false,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Ophthalmology and Visual Impairment Studies",
+      "resume_present": false,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": []
+  }
+}

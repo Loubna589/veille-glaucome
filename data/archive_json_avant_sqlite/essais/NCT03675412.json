@@ -1,0 +1,90 @@
+{
+  "nct": "NCT03675412",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "nct": "NCT03675412",
+    "titre": "Caffeine Consumption in Glaucoma Patients and Healthy Subjects",
+    "titre_officiel": "Acute Changes in Optic Nerve Head (ONH) and Macular Blood Flow After Caffeine Consumption in Glaucoma Patients and Healthy Subjects: A Quantitative Optic Coherence Tomography Angiography (OCTA) Study",
+    "lien": "https://clinicaltrials.gov/study/NCT03675412",
+    "date_premiere_publication": "2018-09-18",
+    "date_derniere_mise_a_jour": "2026-10-13",
+    "type_etude": "INTERVENTIONAL",
+    "phases_declarees": [
+      "NA"
+    ],
+    "statut": "COMPLETED",
+    "raison_arret": null,
+    "date_debut": "2018-12-30",
+    "date_fin_principale": "2024-02-16",
+    "promoteur": "Wills Eye",
+    "type_promoteur": "OTHER",
+    "collaborateurs": null,
+    "conditions": [
+      "Glaucoma, Primary Open Angle"
+    ],
+    "interventions": [
+      {
+        "type": "DIETARY_SUPPLEMENT",
+        "nom": "Caffeine tablet"
+      }
+    ],
+    "participants_nombre": 18,
+    "participants_type": "ACTUAL",
+    "criteres_principaux": [
+      {
+        "critere": "Blood flow change in back of eye before and after caffeine",
+        "delai": "Baseline, Hour 1, Hour 2"
+      }
+    ],
+    "resultats_deposes": false,
+    "publications_declarees": null,
+    "resume_source": "Caffeine is the most widely consumed drinking nutrient in the world. Caffeine effects various organs and the vascular system. It decreases ocular blood flow due to vasoconstriction.",
+    "citations_declarees": null,
+    "plan": {
+      "repartition": "NON_RANDOMIZED",
+      "modele": "PARALLEL",
+      "but_principal": "DIAGNOSTIC",
+      "insu": "NONE",
+      "insu_pour": null,
+      "insu_description": null,
+      "modele_observationnel": null
+    },
+    "bras": [
+      {
+        "libelle": "Glaucoma Patients",
+        "type": "ACTIVE_COMPARATOR",
+        "description": "Eligible participants include patients with mild, moderate or advanced primary open angle glaucoma (POAG) or primary angle closure glaucoma (PACG). Each participant will complete baseline study tasks. Each participant will then receive one 200 mg caffeine tablet to ingest. Study tasks will be performed 1 hour and 2 hours after caffeine ingestion.",
+        "interventions": [
+          "Dietary Supplement: Caffeine tablet"
+        ]
+      },
+      {
+        "libelle": "Healthy controls",
+        "type": "ACTIVE_COMPARATOR",
+        "description": "Eligible participants include healthy subjects with no eye diseases. Each participant will complete baseline study tasks. Each participant will then receive one 200 mg caffeine tablet to ingest. Study tasks will be performed 1 hour and 2 hours after caffeine ingestion.",
+        "interventions": [
+          "Dietary Supplement: Caffeine tablet"
+        ]
+      }
+    ],
+    "eligibilite": {
+      "criteres": "Inclusion Criteria:\n\n* age 18 to 90 years\n* diagnosis of primary open angle glaucoma (Mild, Moderate and Advanced)\n* healthy subjects with no eye disease\n\nExclusion Criteria:\n\n* Diseases, ophthalmic or systemic, that are likely to affect OCTA results\n* greater than moderate cataract\n* nystagmus\n* inability to look at target\n* macular degeneration other than mild drusen or pigmentary changes\n* diabetic retinopathy\n* neovascular glaucoma or non-glaucoma optic neuropathies\n* current macular edema, prior laser to retina, inflammatory retinopathy or choroidopathy\n* keratoconus, corneal ectasia, central corneal scarring\n* rheumatologic diseases or Raynaud's phenomena\n* pregnant and lactating women\n* mental illness or alcohol addiction\n* pre-existing bladder symptoms, cardiac disease or sleep disorder\n* refractive spherical diopter greater than 5 or cylinder greater than 3\n* possible tolerance to caffeine (drinking more than 1 cup coffee per day).",
+      "age_min": "18 Years",
+      "age_max": "90 Years",
+      "sexe": "ALL",
+      "volontaires_sains": true
+    },
+    "criteres_secondaires": null,
+    "responsables": [
+      {
+        "nom": "M. Reza Razeghinejad, MD",
+        "affiliation": "Wills Eye Hospital",
+        "role": "PRINCIPAL_INVESTIGATOR"
+      }
+    ],
+    "date_depot_resultats": null,
+    "resultats": null
+  },
+  "modifications": []
+}

@@ -1,0 +1,144 @@
+{
+  "pmid": "42941551",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42941551",
+    "titre": "Patterns and Predictors of Repeated Medication Nonadherence in Glaucoma: A Population-Based Study.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42941551/",
+    "doi": "10.3390/jcm15208038",
+    "pmcid": "PMC13705910",
+    "revue": "Journal of clinical medicine",
+    "date_entree_pubmed": "2026-10-27",
+    "date_publication": "2026-Oct-16",
+    "types_publication": [
+      "Journal Article"
+    ],
+    "resume_present": true,
+    "resume": "Background/Objectives: We aimed to evaluate nonadherence to topical glaucoma therapy and identify risk factors for repeated prescription fulfillment failure in a large national population-based cohort. Methods: The electronic medical records from a large health maintenance organization were retrospectively reviewed for all patients aged 18 years or older with a diagnosis of glaucoma from 2000 to 2023. Data on patients who had purchased at least one anti-glaucoma medication were retrieved. Compliance was defined as prescription fulfillment within predefined expiration windows of 1, 2, and 3 months. Repeated nonadherence was defined as three unfulfilled prescriptions within a 3-month expiration window. Multivariable Cox proportional hazards models were used to identify risk factors for repeated failure. Results: Among 40,200 treated patients, ≥80% cumulative prescription fulfillment was achieved in 80.3% of the population under a 3-month expiration definition. Under a strict 1-month definition, the incidence rate of the third compliance failure was 335 per 1000 person-years. In multivariable Cox analysis, obesity (HR 1.37, 95% CI 1.29-1.45) and current smoking (HR 1.07, 95% CI 1.04-1.11) were independently associated with increased risk of repeated failure. Older age (≥70 years: HR 0.73, 95% CI 0.62-0.87) and higher baseline intraocular pressure (≥25 mmHg: HR 0.65, 95% CI 0.61-0.68) were associated with reduced risk. Initiation with prostaglandin analogs was associated with lower hazard compared with alpha-2 adrenergic agonists (HR 0.53, 95% CI 0.49-0.57), whereas treatment alterations (≥3 changes) were associated with increased hazard (HR 1.64, 95% CI 1.39-1.95). Conclusions: Repeated nonadherence to topical glaucoma therapy is common and is associated with identifiable behavioral and treatment-related factors. Recognition of patients at elevated risk may support targeted strategies to enhance long-term treatment stability.",
+    "mots_cles_auteurs": [
+      "cohort studies",
+      "glaucoma",
+      "medication adherence",
+      "medication nonadherence",
+      "prescription refill"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 8,
+    "affiliations_auteurs": [
+      "FOKUS AUGE Ophthalmology Clinic, 83022 Rosenheim, Germany.",
+      "Department of Military Medicine, Faculty of Medicine, The Hebrew University of Jerusalem, Jerusalem 9190500, Israel.",
+      "Department of Ophthalmology, Rabin Medical Center-Beilinson Hospital, Petach Tikva 4941492, Israel.",
+      "Gray Faculty of Medical and Health Sciences, Tel Aviv University, Tel Aviv 6997801, Israel.",
+      "Kahn Sagol Maccabi (KSM) Research & Innovation Center, Maccabi Healthcare Services, Tel Aviv 6812509, Israel.",
+      "Laboratory of Eye Research, Felsenstein Medical Research Center, Rabin Medical Center, Petach Tikva 4941492, Israel."
+    ],
+    "financeurs_declares": [
+      {
+        "organisme": "Maccabi Healthcare Services",
+        "pays": "",
+        "reference": null
+      }
+    ],
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7222397242",
+      "doi": "10.3390/jcm15208038",
+      "pmid": "42941551",
+      "pmcid": "13705910",
+      "titre": "Patterns and Predictors of Repeated Medication Nonadherence in Glaucoma: A Population-Based Study",
+      "lien": "https://openalex.org/W7222397242",
+      "date_publication": "2026-10-16",
+      "type": "article",
+      "revue": "Journal of Clinical Medicine",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "pubmed"
+      ],
+      "financeurs": null,
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "Hebrew University of Jerusalem",
+          "pays": "IL",
+          "type": "education",
+          "ror": "https://ror.org/03qxff017"
+        },
+        {
+          "nom": "Tel Aviv University",
+          "pays": "IL",
+          "type": "education",
+          "ror": "https://ror.org/04mhzgx49"
+        },
+        {
+          "nom": "Rabin Medical Center",
+          "pays": "IL",
+          "type": "healthcare",
+          "ror": "https://ror.org/01vjtf564"
+        },
+        {
+          "nom": "Maccabi Healthcare Services",
+          "pays": "IL",
+          "type": "healthcare",
+          "ror": "https://ror.org/04k1f6611"
+        }
+      ],
+      "acces_ouvert": true,
+      "statut_acces": "gold",
+      "url_texte": "https://doi.org/10.3390/jcm15208038",
+      "url_pdf": null,
+      "licence": "cc-by",
+      "texte_integral_indexe": true,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Medication Adherence and Compliance",
+      "resume_present": true,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": [
+      {
+        "nom": "Maccabi Healthcare Services",
+        "statut": "CONFIRMÉ — déclaré dans la notice PubMed (GrantList)",
+        "references": null,
+        "notices": [
+          [
+            "notice PubMed",
+            "https://pubmed.ncbi.nlm.nih.gov/42941551/?format=pubmed"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": null,
+        "statut": "CONFIRMÉ — déclaré par l'éditeur dans Crossref (absent d'OpenAlex)",
+        "references": null,
+        "notices": [
+          [
+            "notice justificative Crossref (déclaration de l'éditeur)",
+            "https://api.crossref.org/works/10.3390/jcm15208038"
+          ]
+        ],
+        "note": null
+      }
+    ]
+  }
+}

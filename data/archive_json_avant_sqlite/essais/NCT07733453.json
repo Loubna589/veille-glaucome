@@ -1,0 +1,109 @@
+{
+  "nct": "NCT07733453",
+  "premiere_detection": "2026-09-25",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "nct": "NCT07733453",
+    "titre": "Baerveldt Versus Paul Study",
+    "titre_officiel": "The Baerveldt Versus Paul (BvP) Study: a Registry-based Randomised Controlled Trial",
+    "lien": "https://clinicaltrials.gov/study/NCT07733453",
+    "date_premiere_publication": "2026-07-29",
+    "date_derniere_mise_a_jour": "2026-08-03",
+    "type_etude": "INTERVENTIONAL",
+    "phases_declarees": [
+      "PHASE4"
+    ],
+    "statut": "NOT_YET_RECRUITING",
+    "raison_arret": null,
+    "date_debut": "2026-10-12",
+    "date_fin_principale": "2033-04",
+    "promoteur": "University of Sydney",
+    "type_promoteur": "OTHER",
+    "collaborateurs": null,
+    "conditions": [
+      "Glaucoma"
+    ],
+    "interventions": [
+      {
+        "type": "DEVICE",
+        "nom": "Baerveldt Glaucoma Implant"
+      },
+      {
+        "type": "DEVICE",
+        "nom": "Paul Glaucoma Implant"
+      }
+    ],
+    "participants_nombre": 150,
+    "participants_type": "ESTIMATED",
+    "criteres_principaux": [
+      {
+        "critere": "Surgical Failure",
+        "delai": "From enrollment until the end of follow up at 5 years postoperative."
+      }
+    ],
+    "resultats_deposes": false,
+    "publications_declarees": null,
+    "resume_source": "The Baerveldt Versus Paul (BvP) Study is a Registry-based Randomised Controlled Trial, Comparing the Baerveldt Glaucoma Implant (BGI) and the Paul Glaucoma Implant (PGI). Participants will Include patients requiring aqueous shunt surgery for control of intraocular pressure and glaucoma.\n\nThe objective of this study is to compare the long-term safety and effectiveness of placement of a BGI and PGI for patients who are undergoing aqueous shunt implant surgery. Patients who qualify for the study are randomized to receive either a BGI or PGI aqueous shunt.",
+    "citations_declarees": null,
+    "plan": {
+      "repartition": "RANDOMIZED",
+      "modele": "PARALLEL",
+      "but_principal": "TREATMENT",
+      "insu": "NONE",
+      "insu_pour": null,
+      "insu_description": null,
+      "modele_observationnel": null
+    },
+    "bras": [
+      {
+        "libelle": "Baerveldt Glaucoma Implant",
+        "type": "ACTIVE_COMPARATOR",
+        "description": "Patients randomised to this arm will undergo insertion of a Baerveldt Glaucoma Implant.",
+        "interventions": [
+          "Device: Baerveldt Glaucoma Implant"
+        ]
+      },
+      {
+        "libelle": "Paul Glaucoma Implant",
+        "type": "ACTIVE_COMPARATOR",
+        "description": "Patients randomised to this arm will undergo insertion of a Paul Glaucoma Implant.",
+        "interventions": [
+          "Device: Paul Glaucoma Implant"
+        ]
+      }
+    ],
+    "eligibilite": {
+      "criteres": "Inclusion Criteria:\n\n1. Age ≥ 18 years of age\n2. Glaucoma that is inadequately controlled on tolerated medical therapy with intraocular pressure greater than or equal to 16 mm Hg.\n3. An aqueous shunt implant as planned surgical procedure\n4. A diagnosis of ocular hypertension, primary open angle glaucoma, primary angle closure glaucoma, or secondary glaucoma.\n\nExclusion Criteria:\n\n1. Unwilling or unable to give consent, unwilling to accept randomization, or unable to return for scheduled protocol visits.\n2. Pregnant or nursing women.\n3. No light perception vision.\n4. Uveitis secondary to Juvenile Idiopathic Arthritis\n5. Previous cyclodestructive procedure or previous aqueous shunt device implanted in the same eye\n6. Supero-temporal buckling or other external impediment to supero-temporal aqueous shunt implantation\n7. Silicone oil-filled eyes or sufficient residual intraocular silicone oil to preclude supero-temporal aqueous shunt implantation\n8. Vitreous present in the anterior chamber, sufficient to require a vitrectomy at the time of surgery\n9. Condition with high episcleral pressure, such as Sturge-Weber or nanophthalmos\n10. Acute trauma (within 3 months)\n11. Need for glaucoma surgery combined with other ocular procedures (i.e. cataract surgery, penetrating keratoplasty, or retinal surgery) or anticipated need for additional ocular surgery.",
+      "age_min": "18 Years",
+      "age_max": null,
+      "sexe": "ALL",
+      "volontaires_sains": true
+    },
+    "criteres_secondaires": [
+      {
+        "critere": "Intraocular Pressure",
+        "delai": "From enrollment until the end of follow up at 5 years postoperative."
+      },
+      {
+        "critere": "Number of glaucoma medications",
+        "delai": "From enrollment until the end of follow up at 5 years postoperative."
+      },
+      {
+        "critere": "Visual acuity",
+        "delai": "From enrollment until the end of follow up at 5 years postoperative."
+      },
+      {
+        "critere": "Visual field outcomes",
+        "delai": "From enrollment until the end of follow up at 5 years postoperative."
+      },
+      {
+        "critere": "Safety Outcomes",
+        "delai": "From enrollment until the end of follow up at 5 years postoperative."
+      }
+    ],
+    "responsables": null,
+    "date_depot_resultats": null,
+    "resultats": null
+  },
+  "modifications": []
+}

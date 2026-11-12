@@ -1,0 +1,90 @@
+{
+  "pmid": "42956246",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42956246",
+    "titre": "Longitudinal OCT Angiography Versus Structural OCT for Predicting Visual Field Progression in Glaucoma.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42956246/",
+    "doi": "10.1097/IJG.0000000000002798",
+    "pmcid": null,
+    "revue": "Journal of glaucoma",
+    "date_entree_pubmed": "2026-10-29",
+    "date_publication": "2026-Oct-28",
+    "types_publication": [
+      "Journal Article"
+    ],
+    "resume_present": true,
+    "resume": "PRCIS: In this longitudinal study, the rate of OCT angiography vessel density loss was an independent predictor of visual field progression in glaucoma, whereas the rate of structural OCT thinning was not.\nPURPOSE: To compare longitudinal OCT angiography vessel density and structural OCT changes as predictors of visual field (VF) progression in open-angle glaucoma (OAG).\nMETHODS: This prospective study included 333 OAG eyes (110 normal-tension) followed quarterly for 4.1±0.9 years and 60 age-matched healthy controls examined at baseline and 6 months. Peripapillary capillary vessel density (pcVD), macular vessel density (mVD), peripapillary retinal nerve fibre layer thickness (pRNFLT) and macular ganglion cell-inner plexiform layer thickness (mGCIPLT) were measured. VF progression was defined by combined event- and trend-based criteria. Linear mixed-effects models compared rates of change; Cox models used cumulatively updated rates as time-dependent predictors.\nRESULTS: Controls showed minimal change, with small statistically detectable declines in some parameters. Ninety-eight eyes (29.4%) progressed. Progressors showed faster pcVD (-0.73 vs. -0.56%/year, P=0.022) and parafoveal mVD loss (-1.12 vs. -0.40%/year, P<0.001). In advanced glaucoma, mVD loss remained associated with progression (P<0.001), whereas mGCIPLT (P=0.104) and pRNFLT (P=0.118) changes did not. In multivariable Cox analysis, parafoveal mVD rate (HR 2.15 per 1%/year faster loss, 95% CI 1.52-3.04) and pcVD rate (HR 1.82, 95% CI 1.34-2.47) were independent predictors (both P<0.001), whereas pRNFLT (HR 1.28 per 1 μm/y, P=0.158) and mGCIPLT (HR 1.41, P=0.071) were not.\nCONCLUSION: Vessel density loss independently predicted VF progression, whereas structural OCT thinning was not; in advanced glaucoma, vessel density loss remained associated with progression in mixed-model analyses. Formal head-to-head comparisons were not performed.",
+    "mots_cles_auteurs": [
+      "glaucoma",
+      "optical coherence tomography angiography",
+      "peripapillary capillaries",
+      "vessel density",
+      "visual field progression"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 2,
+    "affiliations_auteurs": [
+      "Department of Ophthalmology, SBU Van Training and Research Hospital, Van, Turkey."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7224214541",
+      "doi": "10.1097/ijg.0000000000002798",
+      "pmid": "42956246",
+      "pmcid": null,
+      "titre": "Longitudinal OCT Angiography Versus Structural OCT for Predicting Visual Field Progression in Glaucoma",
+      "lien": "https://openalex.org/W7224214541",
+      "date_publication": "2026-10-28",
+      "type": "article",
+      "revue": "Journal of Glaucoma",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "pubmed"
+      ],
+      "financeurs": null,
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "Sağlık Bilimleri Üniversitesi",
+          "pays": "TR",
+          "type": "education",
+          "ror": "https://ror.org/03k7bde87"
+        }
+      ],
+      "acces_ouvert": false,
+      "statut_acces": "closed",
+      "url_texte": null,
+      "url_pdf": null,
+      "licence": null,
+      "texte_integral_indexe": false,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Glaucoma and retinal disorders",
+      "resume_present": true,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": []
+  }
+}

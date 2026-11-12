@@ -1,0 +1,103 @@
+{
+  "pmid": "42898636",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42898636",
+    "titre": "One-Year Outcomes of Green Laser Endoscopic Cyclophotocoagulation and Factors Associated with Surgical Failure: A Retrospective Observational Study.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42898636/",
+    "doi": "10.2147/OPTH.S625216",
+    "pmcid": "PMC13678429",
+    "revue": "Clinical ophthalmology (Auckland, N.Z.)",
+    "date_entree_pubmed": "2026-10-20",
+    "date_publication": "2026",
+    "types_publication": [
+      "Journal Article"
+    ],
+    "resume_present": true,
+    "resume": "PURPOSE: We evaluated the 1-year outcomes of green laser endoscopic cyclophotocoagulation (ECP), a newly developed procedure approved in Japan.\nPATIENTS AND METHODS: We retrospectively analyzed 29 eyes of 26 patients who underwent green laser ECP. Intraocular pressure (IOP), glaucoma medication burden, and laser flare were evaluated preoperatively and at 1, 3, 6, 9, and 12 months postoperatively. Kaplan-Meier survival analysis was used to estimate the 12-month success rate. Surgical success was defined as meeting all of the following criteria: IOP ≤21 mmHg, a ≥20% reduction from baseline, and no additional glaucoma surgery. Univariate and multivariable Cox proportional hazards analyses were performed to evaluate factors associated with surgical failure.\nRESULTS: The mean IOP decreased from 23.4 ± 8.5 mmHg preoperatively to 17.4 ± 6.9, 16.9 ± 5.2, and 17.5 ± 7.3 mmHg at 1, 3, and 6 months postoperatively, respectively, with significant reductions maintained through 6 months (p < 0.01). However, IOP increased to 21.1 ± 7.9 and 22.3 ± 11.8 mmHg at 9 and 12 months, respectively, with no significant differences from baseline. The glaucoma medication score decreased significantly through 3 months postoperatively (p = 0.02) but returned to baseline levels thereafter. Laser flare increased significantly through 1 month postoperatively (p < 0.01) and decreased numerically through 3 months. The 12-month estimated success rate was 0.36. In multivariable Cox analysis, higher preoperative IOP was significantly associated with a greater risk of surgical failure (HR, 1.10; 95% CI, 1.05-1.15; p < 0.001), whereas age and postoperative laser flare were not significantly associated with failure.\nCONCLUSION: Green laser ECP significantly lowered IOP through 6 months postoperatively; however, the estimated 12-month surgical success rate was 36%. Optimization of laser parameters and treatment strategies may be needed to improve long-term outcomes.",
+    "mots_cles_auteurs": [
+      "glaucoma",
+      "glaucoma surgery",
+      "green laser endoscopic cyclophotocoagulation",
+      "laser flare"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 7,
+    "affiliations_auteurs": [
+      "Department of Ophthalmology, Shinshu University School of Medicine, Matsumoto, Nagano, Japan.",
+      "Department of Ophthalmology, The University of Tokyo Hospital, Tokyo, Japan."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7221825322",
+      "doi": "10.2147/opth.s625216",
+      "pmid": "42898636",
+      "pmcid": "13678429",
+      "titre": "One-Year Outcomes of Green Laser Endoscopic Cyclophotocoagulation and Factors Associated with Surgical Failure: A Retrospective Observational Study",
+      "lien": "https://openalex.org/W7221825322",
+      "date_publication": "2026-10-01",
+      "type": "article",
+      "revue": "Clinical ophthalmology",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "doaj",
+        "pubmed"
+      ],
+      "financeurs": null,
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "Shinshu University",
+          "pays": "JP",
+          "type": "education",
+          "ror": "https://ror.org/0244rem06"
+        },
+        {
+          "nom": "Shinshu University Hospital",
+          "pays": "JP",
+          "type": "healthcare",
+          "ror": "https://ror.org/03a2hf118"
+        },
+        {
+          "nom": "University of Tokyo Hospital",
+          "pays": "JP",
+          "type": "healthcare",
+          "ror": "https://ror.org/022cvpj02"
+        }
+      ],
+      "acces_ouvert": true,
+      "statut_acces": "gold",
+      "url_texte": "https://www.dovepress.com/article/download/120898",
+      "url_pdf": "https://www.dovepress.com/article/download/120898",
+      "licence": "cc-by-nc",
+      "texte_integral_indexe": true,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Glaucoma and retinal disorders",
+      "resume_present": true,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": []
+  }
+}

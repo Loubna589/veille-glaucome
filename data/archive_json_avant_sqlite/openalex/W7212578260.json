@@ -1,0 +1,52 @@
+{
+  "openalex_id": "W7212578260",
+  "premiere_detection": "2026-09-25",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "openalex_id": "W7212578260",
+    "doi": "10.1016/j.ajoc.2026.102662",
+    "pmid": null,
+    "pmcid": null,
+    "titre": "Paul glaucoma implant extrusion following post-surgical scleritis in patients with uveitic glaucoma: A case series",
+    "lien": "https://openalex.org/W7212578260",
+    "date_publication": "2026-09-14",
+    "type": "article",
+    "revue": "American Journal of Ophthalmology Case Reports",
+    "type_source": "journal",
+    "langue": "en",
+    "indexe_dans": [
+      "crossref",
+      "doaj"
+    ],
+    "financeurs": null,
+    "subventions": null,
+    "institutions": null,
+    "acces_ouvert": true,
+    "statut_acces": "gold",
+    "url_texte": "https://doi.org/10.1016/j.ajoc.2026.102662",
+    "url_pdf": null,
+    "licence": "cc-by-nc-nd",
+    "texte_integral_indexe": false,
+    "retracte": false,
+    "citations": 0,
+    "sujet_principal": "Ocular Disorders and Treatments",
+    "resume_present": false,
+    "resume": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "present_dans_pubmed": false
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "pmid": "42877613",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42877613",
+    "titre": "Nudix hydrolase 15 deficiency and azathioprine toxicity in a liver transplant recipient: A case report.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42877613/",
+    "doi": "10.1002/jpr3.70243",
+    "pmcid": "PMC13662887",
+    "revue": "JPGN reports",
+    "date_entree_pubmed": "2026-10-15",
+    "date_publication": "2026-Oct-14",
+    "types_publication": [
+      "Journal Article"
+    ],
+    "resume_present": true,
+    "resume": "Thiopurines, such as azathioprine (AZA), are among the immunosuppressants used to prevent allograft rejection. Thiopurines are metabolized by thiopurine S-methyltransferase (TPMT) and nudix hydrolase 15 (NUDT15) enzymes, and their functions are highly influenced by genetic variation. We present a 6-year-old female with recurrent acute cellular rejection and steroid-induced glaucoma due to high-dose corticosteroid therapy. Consequently, AZA was incorporated into her calcineurin-inhibitor-based regimen to reduce steroid dose. Within 33 days of initiating AZA, alopecia and pancytopenia developed despite confirmed TPMT enzyme activity with normal phenotype and low 6-Thioguanine and 6-Methylmercaptopurine levels in the blood. Pharmacogenomic analysis revealed an NUDT15 *3/*3 genotype, indicating two \"no function\" alleles, classified as NUDT15 poor metabolizer at high risk of myelosuppression with standard thiopurine doses. Liver donor pharmacogenomic testing was not performed. This case highlights the consideration of pharmacogenomic testing for recipient and donor prior to thiopurine use in liver-transplant recipients.",
+    "mots_cles_auteurs": [
+      "immunosuppression",
+      "pharmacogenetics",
+      "thiopurines"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 5,
+    "affiliations_auteurs": [
+      "Personalized Care Program Children's Hospital Los Angeles Los Angeles California USA.",
+      "Division of Gastroenterology, Hepatology, and Nutrition Children's Hospital Los Angeles Los Angeles California USA.",
+      "Division of Medical Genetics Children's Hospital Los Angeles Los Angeles California USA.",
+      "Department of Pediatrics Keck School of Medicine of University of Southern California Los Angeles California USA.",
+      "Departments of Pathology and Pediatrics Keck School of Medicine of University of Southern California Los Angeles California USA.",
+      "Departments of Pathology and Pediatrics Children's Hospital Los Angeles Los Angeles California USA."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7221820552",
+      "doi": "10.1002/jpr3.70243",
+      "pmid": "42877613",
+      "pmcid": "13662887",
+      "titre": "Nudix hydrolase 15 deficiency and azathioprine toxicity in a liver transplant recipient: A case report",
+      "lien": "https://openalex.org/W7221820552",
+      "date_publication": "2026-10-14",
+      "type": "article",
+      "revue": "JPGN Reports",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "pubmed"
+      ],
+      "financeurs": null,
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "Children's Hospital Los Angeles",
+          "pays": "US",
+          "type": "healthcare",
+          "ror": "https://ror.org/00412ts95"
+        },
+        {
+          "nom": "University of Southern California",
+          "pays": "US",
+          "type": "education",
+          "ror": "https://ror.org/03taz7m60"
+        }
+      ],
+      "acces_ouvert": true,
+      "statut_acces": "hybrid",
+      "url_texte": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/jpr3.70243",
+      "url_pdf": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/jpr3.70243",
+      "licence": "cc-by-nc-nd",
+      "texte_integral_indexe": true,
+      "retracte": false,
+      "citations": 1,
+      "sujet_principal": "Pharmacogenetics and Drug Metabolism",
+      "resume_present": true,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": []
+  }
+}

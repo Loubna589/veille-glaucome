@@ -1,0 +1,446 @@
+{
+  "nct": "NCT04620135",
+  "premiere_detection": "2026-09-25",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "nct": "NCT04620135",
+    "titre": "Efficacy and Safety Study of Netarsudil 0.02% Ophthalmic Solution Compared to Ripasudil Hydrochloride Hydrate 0.4% Ophthalmic Solution in Japanese Subjects With Primary Open Angle Glaucoma or Ocular Hypertension",
+    "titre_officiel": "A Single-masked, Randomized, Multi-center, Parallel-group, 4-week Study Evaluating the Efficacy and Safety of Once Daily Netarsudil Ophthalmic Solution 0.02% Compared to Twice Daily Ripasudil Hydrochloride Hydrate Ophthalmic Solution 0.4% in Japanese Subjects With Primary Open Angle Glaucoma (POAG) or Ocular Hypertension (OHT)",
+    "lien": "https://clinicaltrials.gov/study/NCT04620135",
+    "date_premiere_publication": "2020-11-06",
+    "date_derniere_mise_a_jour": "2023-02-27",
+    "type_etude": "INTERVENTIONAL",
+    "phases_declarees": [
+      "PHASE3"
+    ],
+    "statut": "COMPLETED",
+    "raison_arret": null,
+    "date_debut": "2020-11-30",
+    "date_fin_principale": "2021-07-09",
+    "promoteur": "Aerie Pharmaceuticals",
+    "type_promoteur": "INDUSTRY",
+    "collaborateurs": null,
+    "conditions": [
+      "Primary Open Angle Glaucoma",
+      "Ocular Hypertension"
+    ],
+    "interventions": [
+      {
+        "type": "DRUG",
+        "nom": "Netarsudil ophthalmic solution 0.02%"
+      },
+      {
+        "type": "DRUG",
+        "nom": "Ripasudil hydrochloride hydrate ophthalmic solution 0.4%"
+      }
+    ],
+    "participants_nombre": 245,
+    "participants_type": "ACTUAL",
+    "criteres_principaux": [
+      {
+        "critere": "Intraocular Pressure (IOP)",
+        "delai": "29 Days"
+      }
+    ],
+    "resultats_deposes": true,
+    "publications_declarees": [
+      {
+        "pmid": "37603205",
+        "type": "DERIVED"
+      }
+    ],
+    "resume_source": "A Phase 3 Study Comparing the Efficacy and Safety of Netarsudil Ophthalmic Solution 0.02% QD to Ripasudil Hydrochloride Hydrate Ophthalmic Solution 0.4% BID, for Treatment of Primary Open-Angle Glaucoma or Ocular Hypertension Over A 4-Week Period.",
+    "citations_declarees": [
+      {
+        "pmid": "37603205",
+        "type": "DERIVED",
+        "citation": "Araie M, Sugiyama K, Aso K, Kanemoto K, Iwata R, Hollander DA, Senchyna M, Kopczynski CC. Phase 3 Clinical Trial Comparing the Safety and Efficacy of Netarsudil to Ripasudil in Patients with Primary Open-Angle Glaucoma or Ocular Hypertension: Japan Rho Kinase Elevated Intraocular Pressure Treatment Trial (J-ROCKET). Adv Ther. 2023 Oct;40(10):4639-4656. doi: 10.1007/s12325-023-02550-w. Epub 2023 Aug 21."
+      }
+    ],
+    "plan": {
+      "repartition": "RANDOMIZED",
+      "modele": "PARALLEL",
+      "but_principal": "TREATMENT",
+      "insu": "DOUBLE",
+      "insu_pour": [
+        "PARTICIPANT",
+        "INVESTIGATOR"
+      ],
+      "insu_description": "This study adopted a single-masked study design. Treatment assignments were masked to the Investigator, the clinical study team (Sponsor, designated personnel involved in day-to-day study management, Monitors, Data Managers, and Statisticians), and the subjects for the duration of the study. The netarsudil and ripasudil bottles were different in the study, however, investigators and subjects were masked to study drug assignment.",
+      "modele_observationnel": null
+    },
+    "bras": [
+      {
+        "libelle": "Netarsudil ophthalmic solution 0.02% and netarsudil ophthalmic solution vehicle",
+        "type": "EXPERIMENTAL",
+        "description": "1 drop netarsudil 0.02% in the evening and 1 drop netarsudil vehicle in the morning in each eye.",
+        "interventions": [
+          "Drug: Netarsudil ophthalmic solution 0.02%"
+        ]
+      },
+      {
+        "libelle": "Ripasudil hydrochloride hydrate ophthalmic solution 0.4%",
+        "type": "ACTIVE_COMPARATOR",
+        "description": "1 drop ripasudil twice daily in the morning and evening in each eye.",
+        "interventions": [
+          "Drug: Ripasudil hydrochloride hydrate ophthalmic solution 0.4%"
+        ]
+      }
+    ],
+    "eligibilite": {
+      "criteres": "Inclusion Criteria:\n\n* 20 years of age or older\n* Diagnosis of POAG or OHT in both eyes (POAG in one eye and OHT in the fellow eye was acceptable)\n* Medicated intraocular pressure (IOP) ≥ 14 mmHg in at least one eye and \\< 30 mmHg in both eyes at screening visit\n* For POAG eyes, unmedicated (post washout) IOP ≥ 15 mmHg and \\< 35 mmHg in the study eye at 2 qualification visits (09:00 hours), 2-7 days apart. At second qualification visit IOP ≥ 15 mmHg and \\< 35 mmHg at 11:00 and 16:00 hour (in the same eye).\n* For OHT eyes, unmedicated (post washout) IOP ≥ 22 mmHg and \\< 35 mmHg in the study eye at 2 qualification visits (09:00 hours), 2-7 days apart. At second qualification visit IOP ≥ 22 mmHg and \\< 35 mmHg at 11:00 and 16:00 hours (in the same eye)\n* Best-corrected visual acuity (BCVA) +0.7 log MAR or better (20/100 Snellen or better or 0.20 or better in decimal unit) in each eye\n* Willingness and ability to give signed informed consent and follow study instructions\n\nExclusion Criteria:\n\n* Clinically significant ocular disease\n* Retinal diseases that may progress during the study period\n* Pseudoexfoliation or pigment dispersion component glaucoma, history of angle closure glaucoma, or narrow angles\n* Previous glaucoma intraocular surgery\n* Refractive surgery in either eye\n* Ocular hyperemia score of moderate (+2) or severe (+3) at Qualification Visit #2\n* Ocular trauma\n* Ocular infection or inflammation\n* Any corneal disease that may confound assessment\n* Evidence of corneal deposits or cornea verticillata\n* Known hypersensitivity to any component of netarsudil ophthalmic solution 0.02%, ripasudil hydrochloride hydrate ophthalmic solution 0.4%, or to topical anesthetic.\n* Mean central corneal thickness \\>620 um\n* Any abnormality preventing reliable Goldmann applanation tonometry of either eye (e.g. keratoconus)\n* Cannot demonstrate proper delivery of the eye drop\n* Clinically significant systemic disease\n* Participation in any investigational study within 30 days prior to screening\n* Women of childbearing potential who are pregnant, nursing, planning a pregnancy, or not using a medically acceptable form of birth control.",
+      "age_min": "20 Years",
+      "age_max": null,
+      "sexe": "ALL",
+      "volontaires_sains": false
+    },
+    "criteres_secondaires": [
+      {
+        "critere": "IOP at Weeks 1 and 2",
+        "delai": "Day 8, Day 15"
+      },
+      {
+        "critere": "Mean Change IOP From Baseline at Days 8, 15, 29",
+        "delai": "Baseline (Day 1), Days 8, 15, 29"
+      }
+    ],
+    "responsables": [
+      {
+        "nom": "Joella Kittrell",
+        "affiliation": "Aerie Pharmaceuticals",
+        "role": "STUDY_DIRECTOR"
+      }
+    ],
+    "date_depot_resultats": "2023-02-27",
+    "resultats": {
+      "flux_participants": [
+        {
+          "etape": "STARTED",
+          "par_groupe": [
+            {
+              "groupe": "Netarsudil Ophthalmic Solution 0.02% and Netarsudil Ophthalmic Solution Vehicle",
+              "nombre": "122"
+            },
+            {
+              "groupe": "Ripasudil Hydrochloride Hydrate Ophthalmic Solution 0.4%",
+              "nombre": "123"
+            }
+          ]
+        },
+        {
+          "etape": "COMPLETED",
+          "par_groupe": [
+            {
+              "groupe": "Netarsudil Ophthalmic Solution 0.02% and Netarsudil Ophthalmic Solution Vehicle",
+              "nombre": "118"
+            },
+            {
+              "groupe": "Ripasudil Hydrochloride Hydrate Ophthalmic Solution 0.4%",
+              "nombre": "120"
+            }
+          ]
+        },
+        {
+          "etape": "NOT COMPLETED",
+          "par_groupe": [
+            {
+              "groupe": "Netarsudil Ophthalmic Solution 0.02% and Netarsudil Ophthalmic Solution Vehicle",
+              "nombre": "4"
+            },
+            {
+              "groupe": "Ripasudil Hydrochloride Hydrate Ophthalmic Solution 0.4%",
+              "nombre": "3"
+            }
+          ]
+        }
+      ],
+      "criteres": [
+        {
+          "type": "PRIMARY",
+          "titre": "Intraocular Pressure (IOP)",
+          "description": "Comparison of both groups mean diurnal IOP at Week 4 (Day 29). IOP will be measured by Goldmann applanation tonometry and reported in millimeters mercury (mmHg). A higher IOP can be a greater risk factor for developing glaucoma or glaucoma progression (leading to optic nerve damage). Mean diurnal IOP was calculated as the average of 3 IOP values across 09:00, 11:00 and 16:00 time points.",
+          "delai": "29 Days",
+          "parametre": "LEAST_SQUARES_MEAN",
+          "dispersion_type": "Standard Error",
+          "unite": "mmHg",
+          "population": "The intent-to-treat (ITT) population was used for the primary analysis of the efficacy variables and included all randomized subjects (as randomized) who received at least 1 dose of study medication.",
+          "valeurs": [
+            {
+              "groupe": "Netarsudil Ophthalmic Solution 0.02% and Netarsudil Ophthalmic Solution Vehicle",
+              "sous_groupe": null,
+              "valeur": "15.96",
+              "dispersion": "0.157",
+              "borne_basse": null,
+              "borne_haute": null,
+              "effectif_analyse": "122"
+            },
+            {
+              "groupe": "Ripasudil Hydrochloride Hydrate Ophthalmic Solution 0.4%",
+              "sous_groupe": null,
+              "valeur": "17.71",
+              "dispersion": "0.155",
+              "borne_basse": null,
+              "borne_haute": null,
+              "effectif_analyse": "123"
+            }
+          ],
+          "analyses": [
+            {
+              "groupes": [
+                "Netarsudil Ophthalmic Solution 0.02% and Netarsudil Ophthalmic Solution Vehicle",
+                "Ripasudil Hydrochloride Hydrate Ophthalmic Solution 0.4%"
+              ],
+              "p": "<0.00001",
+              "methode": "ANCOVA",
+              "parametre": "The least squares (LS) mean difference",
+              "estimation": "-1.74",
+              "ic_pct": "95",
+              "ic_bas": "-2.17",
+              "ic_haut": "-1.31",
+              "hypothese": "SUPERIORITY"
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "titre": "IOP at Weeks 1 and 2",
+          "description": "Mean diurnal IOP as measured in mmHg at each post-treatment visit.",
+          "delai": "Day 8, Day 15",
+          "parametre": "MEAN",
+          "dispersion_type": "Standard Error",
+          "unite": "mmHg",
+          "population": "ITT",
+          "valeurs": [
+            {
+              "groupe": "Netarsudil Ophthalmic Solution 0.02% and Netarsudil Ophthalmic Solution Vehicle",
+              "sous_groupe": "Mean diurnal IOP at Weeks 1 (Days 8)",
+              "valeur": "16.28",
+              "dispersion": "0.143",
+              "borne_basse": null,
+              "borne_haute": null,
+              "effectif_analyse": "122"
+            },
+            {
+              "groupe": "Ripasudil Hydrochloride Hydrate Ophthalmic Solution 0.4%",
+              "sous_groupe": "Mean diurnal IOP at Weeks 1 (Days 8)",
+              "valeur": "17.87",
+              "dispersion": "0.141",
+              "borne_basse": null,
+              "borne_haute": null,
+              "effectif_analyse": "123"
+            },
+            {
+              "groupe": "Netarsudil Ophthalmic Solution 0.02% and Netarsudil Ophthalmic Solution Vehicle",
+              "sous_groupe": "Mean diurnal IOP at Weeks 2 (Days 15)",
+              "valeur": "16.02",
+              "dispersion": "0.168",
+              "borne_basse": null,
+              "borne_haute": null,
+              "effectif_analyse": "122"
+            },
+            {
+              "groupe": "Ripasudil Hydrochloride Hydrate Ophthalmic Solution 0.4%",
+              "sous_groupe": "Mean diurnal IOP at Weeks 2 (Days 15)",
+              "valeur": "17.83",
+              "dispersion": "0.166",
+              "borne_basse": null,
+              "borne_haute": null,
+              "effectif_analyse": "123"
+            }
+          ],
+          "analyses": null
+        },
+        {
+          "type": "SECONDARY",
+          "titre": "Mean Change IOP From Baseline at Days 8, 15, 29",
+          "description": "Mean change from baseline in mean diurnal IOP as measured in mmHg at each post-treatment visit.",
+          "delai": "Baseline (Day 1), Days 8, 15, 29",
+          "parametre": "MEAN",
+          "dispersion_type": "Standard Error",
+          "unite": "mmHg",
+          "population": "ITT",
+          "valeurs": [
+            {
+              "groupe": "Netarsudil Ophthalmic Solution 0.02% and Netarsudil Ophthalmic Solution Vehicle",
+              "sous_groupe": "Baseline IOP mean diurnal IOP",
+              "valeur": "20.475",
+              "dispersion": "0.2510",
+              "borne_basse": null,
+              "borne_haute": null,
+              "effectif_analyse": "122"
+            },
+            {
+              "groupe": "Ripasudil Hydrochloride Hydrate Ophthalmic Solution 0.4%",
+              "sous_groupe": "Baseline IOP mean diurnal IOP",
+              "valeur": "20.830",
+              "dispersion": "0.3198",
+              "borne_basse": null,
+              "borne_haute": null,
+              "effectif_analyse": "123"
+            },
+            {
+              "groupe": "Netarsudil Ophthalmic Solution 0.02% and Netarsudil Ophthalmic Solution Vehicle",
+              "sous_groupe": "V4: Week 1 (Day 8) Change from Baseline",
+              "valeur": "-4.341",
+              "dispersion": "0.1603",
+              "borne_basse": null,
+              "borne_haute": null,
+              "effectif_analyse": "122"
+            },
+            {
+              "groupe": "Ripasudil Hydrochloride Hydrate Ophthalmic Solution 0.4%",
+              "sous_groupe": "V4: Week 1 (Day 8) Change from Baseline",
+              "valeur": "-2.814",
+              "dispersion": "0.1397",
+              "borne_basse": null,
+              "borne_haute": null,
+              "effectif_analyse": "123"
+            },
+            {
+              "groupe": "Netarsudil Ophthalmic Solution 0.02% and Netarsudil Ophthalmic Solution Vehicle",
+              "sous_groupe": "V5: Week 2 (Day 15) Change from Baseline",
+              "valeur": "-4.601",
+              "dispersion": "0.1728",
+              "borne_basse": null,
+              "borne_haute": null,
+              "effectif_analyse": "122"
+            },
+            {
+              "groupe": "Ripasudil Hydrochloride Hydrate Ophthalmic Solution 0.4%",
+              "sous_groupe": "V5: Week 2 (Day 15) Change from Baseline",
+              "valeur": "-2.852",
+              "dispersion": "0.1759",
+              "borne_basse": null,
+              "borne_haute": null,
+              "effectif_analyse": "123"
+            },
+            {
+              "groupe": "Netarsudil Ophthalmic Solution 0.02% and Netarsudil Ophthalmic Solution Vehicle",
+              "sous_groupe": "V6: Week 4 (Day 29) Change from Baseline",
+              "valeur": "-4.653",
+              "dispersion": "0.1701",
+              "borne_basse": null,
+              "borne_haute": null,
+              "effectif_analyse": "122"
+            },
+            {
+              "groupe": "Ripasudil Hydrochloride Hydrate Ophthalmic Solution 0.4%",
+              "sous_groupe": "V6: Week 4 (Day 29) Change from Baseline",
+              "valeur": "-2.983",
+              "dispersion": "0.1622",
+              "borne_basse": null,
+              "borne_haute": null,
+              "effectif_analyse": "123"
+            }
+          ],
+          "analyses": null
+        }
+      ],
+      "evenements_indesirables": {
+        "periode": "Volunteered or solicited AEs were collected from the time the subject received the first dose of study medication until Week 4 (Day 29) or study discontinuation. Unresolved AEs at the time of study exit were followed with proper medical care until the event was considered resolved or stabilized, the subject was lost to follow-up, or another resolution to the event was identified.",
+        "seuil_frequence_pct": "5",
+        "par_groupe": [
+          {
+            "groupe": "Netarsudil Ophthalmic Solution 0.02% and Netarsudil Ophthalmic Solution Vehicle",
+            "exposes": 122,
+            "graves": 0,
+            "autres": 73,
+            "deces": 0
+          },
+          {
+            "groupe": "Ripasudil Hydrochloride Hydrate Ophthalmic Solution 0.4%",
+            "exposes": 123,
+            "graves": 2,
+            "autres": 82,
+            "deces": 0
+          }
+        ],
+        "graves": [
+          {
+            "terme": "Infections and infestations",
+            "systeme": "Respiratory, thoracic and mediastinal disorders",
+            "par_groupe": [
+              {
+                "groupe": "Netarsudil Ophthalmic Solution 0.02% and Netarsudil Ophthalmic Solution Vehicle",
+                "touches": 0,
+                "exposes": 122
+              },
+              {
+                "groupe": "Ripasudil Hydrochloride Hydrate Ophthalmic Solution 0.4%",
+                "touches": 1,
+                "exposes": 123
+              }
+            ]
+          },
+          {
+            "terme": "Skin and subcutaneous tissue disorders",
+            "systeme": "Skin and subcutaneous tissue disorders",
+            "par_groupe": [
+              {
+                "groupe": "Netarsudil Ophthalmic Solution 0.02% and Netarsudil Ophthalmic Solution Vehicle",
+                "touches": 0,
+                "exposes": 122
+              },
+              {
+                "groupe": "Ripasudil Hydrochloride Hydrate Ophthalmic Solution 0.4%",
+                "touches": 1,
+                "exposes": 123
+              }
+            ]
+          },
+          {
+            "terme": "Treatment-Emergent Serious Adverse Event (TE-SAE)",
+            "systeme": "General disorders",
+            "par_groupe": [
+              {
+                "groupe": "Netarsudil Ophthalmic Solution 0.02% and Netarsudil Ophthalmic Solution Vehicle",
+                "touches": 0,
+                "exposes": 122
+              },
+              {
+                "groupe": "Ripasudil Hydrochloride Hydrate Ophthalmic Solution 0.4%",
+                "touches": 2,
+                "exposes": 123
+              }
+            ]
+          }
+        ],
+        "autres": [
+          {
+            "terme": "Conjunctival hyperaemia",
+            "systeme": "Eye disorders",
+            "par_groupe": [
+              {
+                "groupe": "Netarsudil Ophthalmic Solution 0.02% and Netarsudil Ophthalmic Solution Vehicle",
+                "touches": 67,
+                "exposes": 122
+              },
+              {
+                "groupe": "Ripasudil Hydrochloride Hydrate Ophthalmic Solution 0.4%",
+                "touches": 77,
+                "exposes": 123
+              }
+            ]
+          },
+          {
+            "terme": "Eye irritation",
+            "systeme": "Eye disorders",
+            "par_groupe": [
+              {
+                "groupe": "Netarsudil Ophthalmic Solution 0.02% and Netarsudil Ophthalmic Solution Vehicle",
+                "touches": 7,
+                "exposes": 122
+              },
+              {
+                "groupe": "Ripasudil Hydrochloride Hydrate Ophthalmic Solution 0.4%",
+                "touches": 7,
+                "exposes": 123
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "modifications": []
+}

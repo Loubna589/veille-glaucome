@@ -1,0 +1,51 @@
+{
+  "openalex_id": "W7221362495",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "openalex_id": "W7221362495",
+    "doi": "10.82333/j0bz-6j95",
+    "pmid": null,
+    "pmcid": null,
+    "titre": "Real-World Excimer Laser Trabeculostomy Combined With Cataract Surgery In Patients With Primary Open Angle Glaucoma Or Ocular Hypertension: Safety And Effectiveness At 1 Month",
+    "lien": "https://openalex.org/W7221362495",
+    "date_publication": "2026-10-10",
+    "type": "article",
+    "revue": "ESCRS Abstracts",
+    "type_source": "repository",
+    "langue": "en",
+    "indexe_dans": [
+      "datacite"
+    ],
+    "financeurs": null,
+    "subventions": null,
+    "institutions": null,
+    "acces_ouvert": true,
+    "statut_acces": "green",
+    "url_texte": "https://doi.org/10.82333/j0bz-6j95",
+    "url_pdf": null,
+    "licence": null,
+    "texte_integral_indexe": false,
+    "retracte": false,
+    "citations": 0,
+    "sujet_principal": "Glaucoma and retinal disorders",
+    "resume_present": false,
+    "resume": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "present_dans_pubmed": false
+  }
+}

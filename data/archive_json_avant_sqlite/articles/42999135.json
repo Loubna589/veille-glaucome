@@ -1,0 +1,180 @@
+{
+  "pmid": "42999135",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42999135",
+    "titre": "TBX3 is required for the differentiation of a subset of retinal ganglion and cone photoreceptor cells.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42999135/",
+    "doi": "10.64898/2026.10.10.758237",
+    "pmcid": "PMC13742577",
+    "revue": "bioRxiv : the preprint server for biology",
+    "date_entree_pubmed": "2026-11-08",
+    "date_publication": "2026-Oct-13",
+    "types_publication": [
+      "Journal Article",
+      "Preprint"
+    ],
+    "resume_present": true,
+    "resume": "UNLABELLED: Retinogenesis is a key step driving the formation of the neurons that later coordinate angiogenesis in the retina. Understanding these complex interactions requires dissecting apart its cellular and molecular drivers. To tease apart the molecular links coupling retinogenesis to vascular development, we utilized conditional knockout mouse models to selectively delete the transcription factor T-box 3 ( Tbx3 ) in 1) astrocytes, 2) postnatal retinal ganglion cells (RGCs), or 3) retinal progenitors. We demonstrate that the hypovascular retina phenotype observed upon Tbx3 loss most likely stems from a disruption of early retinogenesis. Embryonic analyses revealed that TBX3 is required during a critical retinogenic window coinciding with ATOH7 activity. While ATOH7 + progenitors are more abundant in Tbx3 mutants, the expression of key RGC and cone precursor factors (including TBX5, RXRγ, ISL1/2, POU4F2, SHH, LHX4 and OTX2) is severely diminished, halting proper RGC and cone differentiation. Utilizing birthdating experiments and developmental immunostaining, we establish TBX3 as a novel upstream regulator of RGC and cone photoreceptor specification. Because the degeneration of RGCs is the definitive hallmark of diseases like glaucoma, identifying TBX3 as a driver of early RGC formation positions it as a promising new candidate biomarker for early-stage glaucoma diagnosis and potentially therapeutic targeting.\nSUMMARY STATEMENT: This study demonstrates for the first time that TBX3 plays a role in mammalian retinogenesis and in the establishment of retinal ganglion cell and cone photoreceptor subtypes.",
+    "mots_cles_auteurs": null,
+    "langue": "eng",
+    "nombre_auteurs": 9,
+    "affiliations_auteurs": null,
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7221688334",
+      "doi": "10.64898/2026.10.10.758237",
+      "pmid": "42999135",
+      "pmcid": "13742577",
+      "titre": "TBX3 is required for the differentiation of a subset of retinal ganglion and cone photoreceptor cells",
+      "lien": "https://openalex.org/W7221688334",
+      "date_publication": "2026-10-13",
+      "type": "preprint",
+      "revue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "type_source": "repository",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "pubmed"
+      ],
+      "financeurs": [
+        {
+          "nom": "American Heart Association",
+          "ror": "https://ror.org/013kjyp64"
+        },
+        {
+          "nom": "Research to Prevent Blindness",
+          "ror": "https://ror.org/04drjs621"
+        },
+        {
+          "nom": "National Institutes of Health",
+          "ror": "https://ror.org/01cwqze88"
+        }
+      ],
+      "subventions": [
+        {
+          "financeur": "American Heart Association",
+          "reference": "25POST1374112"
+        }
+      ],
+      "institutions": [
+        {
+          "nom": "SUNY Upstate Medical University",
+          "pays": "US",
+          "type": "education",
+          "ror": "https://ror.org/040kfrw16"
+        }
+      ],
+      "acces_ouvert": true,
+      "statut_acces": "green",
+      "url_texte": "https://www.biorxiv.org/content/biorxiv/early/2026/10/13/2026.10.10.758237.full.pdf",
+      "url_pdf": "https://www.biorxiv.org/content/biorxiv/early/2026/10/13/2026.10.10.758237.full.pdf",
+      "licence": null,
+      "texte_integral_indexe": true,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Retinal Development and Disorders",
+      "resume_present": true,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": [
+      {
+        "nom": "American Heart Association",
+        "statut": "CONFIRMÉ — déclaré par l'éditeur dans Crossref",
+        "references": [
+          "25POST1374112"
+        ],
+        "notices": [
+          [
+            "notice justificative Crossref (déclaration de l'éditeur)",
+            "https://api.crossref.org/works/10.64898/2026.10.10.758237"
+          ],
+          [
+            "notice OpenAlex",
+            "https://api.openalex.org/works/W7221688334"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "Research to Prevent Blindness",
+        "statut": "À VÉRIFIER — trouvé par OpenAlex seulement (absent de la déclaration de l'éditeur dans Crossref) ; à contrôler dans le texte de l'article",
+        "references": null,
+        "notices": [
+          [
+            "notice OpenAlex",
+            "https://api.openalex.org/works/W7221688334"
+          ],
+          [
+            "notice Crossref consultée (ne confirme pas ce financeur)",
+            "https://api.crossref.org/works/10.64898/2026.10.10.758237"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "National Institutes of Health",
+        "statut": "À VÉRIFIER — trouvé par OpenAlex seulement (absent de la déclaration de l'éditeur dans Crossref) ; à contrôler dans le texte de l'article",
+        "references": null,
+        "notices": [
+          [
+            "notice OpenAlex",
+            "https://api.openalex.org/works/W7221688334"
+          ],
+          [
+            "notice Crossref consultée (ne confirme pas ce financeur)",
+            "https://api.crossref.org/works/10.64898/2026.10.10.758237"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "National Eye Institute",
+        "statut": "CONFIRMÉ — déclaré par l'éditeur dans Crossref (absent d'OpenAlex)",
+        "references": [
+          "R01 EY012676"
+        ],
+        "notices": [
+          [
+            "notice justificative Crossref (déclaration de l'éditeur)",
+            "https://api.crossref.org/works/10.64898/2026.10.10.758237"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": null,
+        "statut": "CONFIRMÉ — déclaré par l'éditeur dans Crossref (absent d'OpenAlex)",
+        "references": [
+          "Unrestricted grant"
+        ],
+        "notices": [
+          [
+            "notice justificative Crossref (déclaration de l'éditeur)",
+            "https://api.crossref.org/works/10.64898/2026.10.10.758237"
+          ]
+        ],
+        "note": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "nct": "NCT07804277",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "nct": "NCT07804277",
+    "titre": "Comparative Study of the Tomey FT-1000, and Goldmann Applanation Tonometer (GAT)",
+    "titre_officiel": "Comparative Study of the Tomey FT-1000, and Goldmann Applanation Tonometer (GAT)",
+    "lien": "https://clinicaltrials.gov/study/NCT07804277",
+    "date_premiere_publication": "2026-09-04",
+    "date_derniere_mise_a_jour": "2026-10-06",
+    "type_etude": "OBSERVATIONAL",
+    "phases_declarees": null,
+    "statut": "RECRUITING",
+    "raison_arret": null,
+    "date_debut": "2026-09-23",
+    "date_fin_principale": "2026-09-28",
+    "promoteur": "Tomey Corporation",
+    "type_promoteur": "INDUSTRY",
+    "collaborateurs": null,
+    "conditions": [
+      "Glaucoma"
+    ],
+    "interventions": [
+      {
+        "type": "DEVICE",
+        "nom": "Non Contact Tonometer and Applanation Tonometer"
+      }
+    ],
+    "participants_nombre": 30,
+    "participants_type": "ESTIMATED",
+    "criteres_principaux": [
+      {
+        "critere": "Agreement of the Intraocular pressure (IOP) mmHg between the test devices and predicate device",
+        "delai": "Through study completion, approximately 3 days"
+      },
+      {
+        "critere": "Safety of the test devices",
+        "delai": "Through study completion, approximately 3 days"
+      }
+    ],
+    "resultats_deposes": false,
+    "publications_declarees": null,
+    "resume_source": "This study is intended to evaluate the agreement between Intraocular pressure(IOP) measurements obtained with the FT-1000 non-contact tonometer and a GAT to confirm the feasibility of the measurement procedures.\n\nThis is a prospective comparative study that will be conducted at one clinical site in the United States. Subjects who sign an informed consent form and fulfill all inclusion and exclusion criteria will undergo FT-1000 measurements followed by Goldmann applanation tonometry during a single study visit.\n\nThe primary analysis will be performed using one preselected study eye from each subject. Measurements from the fellow eye, when available, may be summarized as exploratory analyses but will not contribute to the primary effectiveness analysis.\n\nIn general, descriptive statistics (n, mean, standard deviation, median, minimum and maximum) will be used to summarize continuous variables. Frequencies and percentages will be used to summarize categorical variables. The number of accepted scans and the total number of scans evaluated will be summarized by scan type, device, and subject population.\n\nAgreement between the FT-1000 and the Goldmann applanation tonometer will be evaluated using the study eye measurements by calculating the mean difference, standard deviation (SD), 95% limits of agreement (LOA), Bland-Altman plots, Deming regression, and Pearson correlation coefficient.\n\nExploratory analyses may also be performed using fellow-eye measurements.",
+    "citations_declarees": null,
+    "plan": {
+      "repartition": null,
+      "modele": null,
+      "but_principal": null,
+      "insu": null,
+      "insu_pour": null,
+      "insu_description": null,
+      "modele_observationnel": "COHORT"
+    },
+    "bras": [
+      {
+        "libelle": "Low Intraocular pressure(IOP) Group: 7-16 mmHg",
+        "type": null,
+        "description": "Group with IOP of 7-16 mmHg; 10 subjects.",
+        "interventions": [
+          "Device: Non Contact Tonometer and Applanation Tonometer"
+        ]
+      },
+      {
+        "libelle": "Middle Intraocular pressure(IOP) Group: >16 to <23 mmHg",
+        "type": null,
+        "description": "Group with IOP of \\>16 to \\<23 mmHg; 10 subjects.",
+        "interventions": [
+          "Device: Non Contact Tonometer and Applanation Tonometer"
+        ]
+      },
+      {
+        "libelle": "High Intraocular pressure(IOP)Group: ≥23 mmHg",
+        "type": null,
+        "description": "Group with IOP of ≥23 mmHg; 10 subjects.",
+        "interventions": [
+          "Device: Non Contact Tonometer and Applanation Tonometer"
+        ]
+      }
+    ],
+    "eligibilite": {
+      "criteres": "Inclusion Criteria:\n\n1. Male or female subjects 22 years of age or older who have full legal capacity to volunteer on the date the informed consent is signed.\n2. Subjects who are able to understand and follow the study procedures and instructions provided by the clinical staff.\n3. Subjects who voluntarily provide written informed consent.\n4. Subjects who satisfy all study eligibility requirements and are able to undergo both FT-1000 and Goldmann applanation tonometry measurements during the study visit.\n\nExclusion Criteria:\n\n1. Subjects with only one functional eye.\n2. Subjects with poor or eccentric fixation in either eye.\n3. Subjects with a history of corneal surgery, including corneal laser or refractive surgery (e.g., LASIK).\n4. Subjects with corneal scarring, keratoconus, or any other clinically significant corneal pathology.\n5. Subjects with an active corneal or conjunctival infection or inflammation in either eye.\n6. Subjects with microphthalmos or buphthalmos.\n7. Subjects who are unable or unwilling to remove contact lenses before study measurements.\n8. Subjects with clinically significant dry eye disease that, in the investigator's opinion, may affect tonometry measurements.\n9. Subjects with blepharospasm (lid squeezing) or nystagmus that may interfere with accurate measurements.\n10. Subjects with abnormal central corneal thickness (CCT).\n11. Subjects with any condition or circumstance that, in the opinion of the investigator, could place the subject at significant risk, interfere with study participation, or confound interpretation of the study results.",
+      "age_min": "22 Years",
+      "age_max": null,
+      "sexe": "ALL",
+      "volontaires_sains": true
+    },
+    "criteres_secondaires": null,
+    "responsables": null,
+    "date_depot_resultats": null,
+    "resultats": null
+  },
+  "modifications": []
+}

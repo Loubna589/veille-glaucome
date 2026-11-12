@@ -1,0 +1,171 @@
+{
+  "pmid": "42835583",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42835583",
+    "titre": "Win Ratios in Ophthalmology-a Hierarchical Metric to Evaluate Adverse Outcomes in Comparative Studies.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42835583/",
+    "doi": "10.1016/j.xops.2026.101382",
+    "pmcid": "PMC13636062",
+    "revue": "Ophthalmology science",
+    "date_entree_pubmed": "2026-10-06",
+    "date_publication": "2026-Nov",
+    "types_publication": [
+      "Journal Article"
+    ],
+    "resume_present": true,
+    "resume": "PURPOSE: Clinical trials in ophthalmology frequently report multiple efficacy and safety outcomes of varying clinical importance analyzed either in isolation or as simple composites. The Win Ratio (WR) is a hierarchical composite metric originally developed to address such limitations in cardiovascular research by integrating outcomes according to their clinical priority. In this study, we assess its potential utility in ophthalmology outcomes with glaucoma surgery as the exemplar.\nDESIGN: Retrospective registry-based study.\nSUBJECTS: There are 1257 eyes that underwent a Xen gel stent (Xen) implantation or trabeculectomy (Trab) with a minimum 12 months of follow-up.\nMETHODS: Propensity score matching yielded two comparable cohorts (212 eyes each) without significant differences in age, baseline intraocular pressure, number of medications, visual acuity, or visual field mean deviation. A predefined hierarchy of eight adverse outcomes was constructed, headed by loss of light perception vision, secondary glaucoma surgery, followed by early postoperative complications (e.g., hypotony and hyphaema) or bleb needling. Each Xen-Trab pair was evaluated sequentially and classified as a win, loss, or tie.\nMAIN OUTCOME MEASURES: The overall WR with 95% confidence intervals (CIs) and P value was estimated, and sensitivity analyses examined the robustness of results under alternative outcome hierarchies and random permutations.\nRESULTS: The Xen group accumulated fewer wins than Trab (WR 0.83, 95% CI 0.63-1.10, P = 0.19), although the difference was not significant. Differences were driven by higher rates of secondary glaucoma surgery (18.4% vs. 12.7%) and bleb needling within the first 6 months (28.8% vs. 13.2%) in the Xen group, with remaining outcomes occurring infrequently and evenly distributed in each group. Sensitivity analyses with alternative hierarchies yielded consistent results (WR range 0.80-0.98), and random permutations of lower-ranked outcomes clustered around WR 0.77, supporting the consistency of the final outcome.\nCONCLUSIONS: The WR offers a clinically meaningful, hierarchical approach to comparing multidimensional treatments that respects clinical priorities. Our findings illustrate the potential utility of this metric in the prospective evaluation of trial outcomes in ophthalmology.\nFINANCIAL DISCLOSURES: The authors have no proprietary or commercial interest in any materials discussed in this article.",
+    "mots_cles_auteurs": [
+      "Glaucoma filtration surgery",
+      "Minimally invasive glaucoma surgery",
+      "Trabeculectomy",
+      "Xen45 gel stent"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 10,
+    "affiliations_auteurs": [
+      "Save Sight Institute, Faculty of Medicine and Health, University of Sydney, Sydney, New South Wales, Australia.",
+      "School of Clinical Medicine, University of New South Wales, Kensington, New South Wales, Australia.",
+      "Department of Ophthalmology, Prince of Wales Hospital, Randwick, New South Wales, Australia.",
+      "Glaucoma Investigation and Research Unit, Royal Victorian Eye and Ear Hospital, East Melbourne, Victoria, Australia.",
+      "Centre for Eye Research Australia, The University of Melbourne, Parkville, Victoria, Australia.",
+      "Department of Glaucoma, Sydney Eye Hospital, Sydney, New South Wales, Australia.",
+      "Faculty of Medical and Health Sciences, University of Auckland, Auckland, New Zealand.",
+      "Department of Ophthalmology, Dijon University Hospital, Dijon, France.",
+      "Pathophysiology and Epidemiology of Cerebro-Cardiovascular Diseases (PEC2), (EA 7460), Faculty of Health Sciences, Université de Bourgogne, Dijon, France.",
+      "National Institute for Health and Care Research Biomedical Research Centre at Moorfields Eye Hospital National Health Service Foundation Trust and University College London Institute of Ophthalmology, London, United Kingdom."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7204196337",
+      "doi": "10.1016/j.xops.2026.101382",
+      "pmid": "42835583",
+      "pmcid": "13636062",
+      "titre": "Win Ratios in Ophthalmology—a Hierarchical Metric to Evaluate Adverse Outcomes in Comparative Studies",
+      "lien": "https://openalex.org/W7204196337",
+      "date_publication": "2026-08-25",
+      "type": "article",
+      "revue": "Ophthalmology Science",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "doaj",
+        "pubmed"
+      ],
+      "financeurs": null,
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "The University of Sydney",
+          "pays": "AU",
+          "type": "education",
+          "ror": "https://ror.org/0384j8v12"
+        },
+        {
+          "nom": "UNSW Sydney",
+          "pays": "AU",
+          "type": "education",
+          "ror": "https://ror.org/03r8z3t63"
+        },
+        {
+          "nom": "Prince of Wales Hospital",
+          "pays": "AU",
+          "type": "healthcare",
+          "ror": "https://ror.org/022arq532"
+        },
+        {
+          "nom": "The University of Melbourne",
+          "pays": "AU",
+          "type": "education",
+          "ror": "https://ror.org/01ej9dk98"
+        },
+        {
+          "nom": "The Royal Victorian Eye & Ear Hospital",
+          "pays": "AU",
+          "type": "healthcare",
+          "ror": "https://ror.org/008q4kt04"
+        },
+        {
+          "nom": "Centre for Eye Research Australia",
+          "pays": "AU",
+          "type": "facility",
+          "ror": "https://ror.org/01sqdef20"
+        },
+        {
+          "nom": "University of Auckland",
+          "pays": "NZ",
+          "type": "education",
+          "ror": "https://ror.org/03b94tp07"
+        },
+        {
+          "nom": "Université de Bourgogne",
+          "pays": "FR",
+          "type": "education",
+          "ror": "https://ror.org/03k1bsr36"
+        },
+        {
+          "nom": "CHU Dijon Bourgogne",
+          "pays": "FR",
+          "type": "healthcare",
+          "ror": "https://ror.org/0377z4z10"
+        },
+        {
+          "nom": "National Health Service",
+          "pays": "GB",
+          "type": "healthcare",
+          "ror": "https://ror.org/02wnqcb97"
+        },
+        {
+          "nom": "National Institute for Health and Care Research",
+          "pays": "GB",
+          "type": "government",
+          "ror": "https://ror.org/0187kwz08"
+        },
+        {
+          "nom": "Moorfields Eye Hospital",
+          "pays": "GB",
+          "type": "healthcare",
+          "ror": "https://ror.org/03tb37539"
+        },
+        {
+          "nom": "University College London",
+          "pays": "GB",
+          "type": "education",
+          "ror": "https://ror.org/02jx3x895"
+        }
+      ],
+      "acces_ouvert": true,
+      "statut_acces": "gold",
+      "url_texte": "https://doi.org/10.1016/j.xops.2026.101382",
+      "url_pdf": null,
+      "licence": "cc-by",
+      "texte_integral_indexe": true,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Statistical Methods in Clinical Trials",
+      "resume_present": true,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": []
+  }
+}

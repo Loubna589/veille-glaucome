@@ -1,0 +1,91 @@
+{
+  "pmid": "42790525",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42790525",
+    "titre": "Hidden angle melanocytoma in a patient with refractory open-angle glaucoma.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42790525/",
+    "doi": "10.1016/j.jcjo.2026.09.005",
+    "pmcid": null,
+    "revue": "Canadian journal of ophthalmology. Journal canadien d'ophtalmologie",
+    "date_entree_pubmed": "2026-09-25",
+    "date_publication": "2026-Oct-30",
+    "types_publication": [
+      "Journal Article"
+    ],
+    "resume_present": false,
+    "resume": null,
+    "mots_cles_auteurs": null,
+    "langue": "eng",
+    "nombre_auteurs": 3,
+    "affiliations_auteurs": [
+      "Ocular Oncology Service, Wills Eye Hospital, Thomas Jefferson University, Philadelphia, PA, USA.",
+      "Ocular Oncology Service, Wills Eye Hospital, Thomas Jefferson University, Philadelphia, PA, USA. Electronic address: carolshields@gmail.com."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7214448955",
+      "doi": "10.1016/j.jcjo.2026.09.005",
+      "pmid": "42790525",
+      "pmcid": null,
+      "titre": "Hidden angle melanocytoma in a patient with refractory open-angle glaucoma",
+      "lien": "https://openalex.org/W7214448955",
+      "date_publication": "2026-10-01",
+      "type": "article",
+      "revue": "Canadian Journal of Ophthalmology",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "pubmed"
+      ],
+      "financeurs": null,
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "Thomas Jefferson University",
+          "pays": "US",
+          "type": "education",
+          "ror": "https://ror.org/00ysqcn41"
+        },
+        {
+          "nom": "Wills Eye Hospital",
+          "pays": "US",
+          "type": "healthcare",
+          "ror": "https://ror.org/03qygnx22"
+        }
+      ],
+      "acces_ouvert": false,
+      "statut_acces": "closed",
+      "url_texte": null,
+      "url_pdf": null,
+      "licence": null,
+      "texte_integral_indexe": false,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Glaucoma and retinal disorders",
+      "resume_present": false,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": []
+  }
+}

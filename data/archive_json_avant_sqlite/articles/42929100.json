@@ -1,0 +1,148 @@
+{
+  "pmid": "42929100",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42929100",
+    "titre": "Anatomopathological Aspects and Clinical Correlation of Conjunctival Bleb Fibrosis Following Encapsulation of a Biodegradable Collagen Matrix Implant in Glaucoma Surgery.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42929100/",
+    "doi": "10.4274/tjo.galenos.2026.26895",
+    "pmcid": "PMC13697051",
+    "revue": "Turkish journal of ophthalmology",
+    "date_entree_pubmed": "2026-10-26",
+    "date_publication": "2026-Oct-23",
+    "types_publication": [
+      "Journal Article",
+      "Case Reports"
+    ],
+    "resume_present": true,
+    "resume": "This study reports a case series of glaucoma patients in whom a biodegradable collagen-glycosaminoglycan implant (Ologen®) failed to prevent fibrosis after non-penetrating deep sclerectomy (NPDS) and describes the associated histopathological findings. This single-centre retrospective study included four patients with progressive glaucoma and inadequate intraocular pressure (IOP) control despite maximal medical therapy. All underwent NPDS with implantation of a collagen-glycosaminoglycan matrix and adjunctive mitomycin C. Postoperative follow-up included IOP monitoring, slit-lamp examination, and photographic documentation. Patients with bleb failure required surgical revision, and excised tissue, including the implant and surrounding Tenon's capsule, was analysed histologically. All cases developed progressive bleb fibrosis. The implants remained intact, encapsulated by dense fibrotic tissue (\"ring-of-steel\" appearance), with minimal fibroblast infiltration, extensive collagen deposition, and no significant degradation for up to three years. These findings highlight variability in tissue response and suggest a potential role of patient-specific fibrotic predisposition in surgical outcomes.",
+    "mots_cles_auteurs": [
+      "Biodegradable collagen-glycosaminoglycan implant",
+      "biodegradation",
+      "fibrosis",
+      "glaucoma surgery",
+      "wound modulation"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 5,
+    "affiliations_auteurs": [
+      "St Paul's Eye Unit, Royal Liverpool University Hospital, Liverpool, United Kingdom.",
+      "Institut Català de Retina, Barcelona, Spain.",
+      "Admiravision, Department of Ophthalmology, Barcelona, Spain.",
+      "Biomedical Diagnostic Center, Hospital Clínic de Barcelona/Universitat de Barcelona, Department of Surgical Pathology, Barcelona, Spain.",
+      "Hospital Clínic de Barcelona/Universitat de Barcelona, Department of Ophthalmology, Barcelona, Spain."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": [
+      "Humans",
+      "Collagen",
+      "Female",
+      "Retrospective Studies",
+      "Absorbable Implants",
+      "Male",
+      "Fibrosis",
+      "Glaucoma",
+      "Conjunctiva",
+      "Intraocular Pressure",
+      "Aged",
+      "Glycosaminoglycans",
+      "Middle Aged",
+      "Follow-Up Studies",
+      "Postoperative Complications",
+      "Sclerostomy"
+    ]
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": null,
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7223312672",
+      "doi": "10.4274/tjo.galenos.2026.26895",
+      "pmid": "42929100",
+      "pmcid": "13697051",
+      "titre": "Anatomopathological Aspects and Clinical Correlation of Conjunctival Bleb Fibrosis Following Encapsulation of a Biodegradable Collagen Matrix Implant in Glaucoma Surgery",
+      "lien": "https://openalex.org/W7223312672",
+      "date_publication": "2026-10-23",
+      "type": "article",
+      "revue": "Turkish Journal of Ophthalmology",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "doaj",
+        "pubmed"
+      ],
+      "financeurs": null,
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "Royal Liverpool University Hospital",
+          "pays": "GB",
+          "type": "healthcare",
+          "ror": "https://ror.org/01ycr6b80"
+        },
+        {
+          "nom": "Institut Català de Retina",
+          "pays": "ES",
+          "type": "healthcare",
+          "ror": "https://ror.org/01skcdk50"
+        },
+        {
+          "nom": "Hospital Clínic de Barcelona",
+          "pays": "ES",
+          "type": "healthcare",
+          "ror": "https://ror.org/02a2kzf50"
+        },
+        {
+          "nom": "Universitat de Barcelona",
+          "pays": "ES",
+          "type": "education",
+          "ror": "https://ror.org/021018s57"
+        }
+      ],
+      "acces_ouvert": true,
+      "statut_acces": "diamond",
+      "url_texte": "https://oftalmoloji.org/pdf/bda9171a-fae8-4995-8276-2138323f1e16/articles/tjo.galenos.2026.26895/339-350..pdf",
+      "url_pdf": "https://oftalmoloji.org/pdf/bda9171a-fae8-4995-8276-2138323f1e16/articles/tjo.galenos.2026.26895/339-350..pdf",
+      "licence": "cc-by-nc-nd",
+      "texte_integral_indexe": true,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Glaucoma and retinal disorders",
+      "resume_present": true,
+      "mesh": [
+        "Aged",
+        "Collagen",
+        "Conjunctiva",
+        "Female",
+        "Fibrosis",
+        "Follow-Up Studies",
+        "Glaucoma",
+        "Glycosaminoglycans",
+        "Humans",
+        "Intraocular Pressure",
+        "Male",
+        "Middle Aged",
+        "Postoperative Complications",
+        "Retrospective Studies",
+        "Sclerostomy",
+        "Absorbable Implants"
+      ]
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": []
+  }
+}

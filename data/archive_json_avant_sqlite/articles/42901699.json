@@ -1,0 +1,102 @@
+{
+  "pmid": "42901699",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42901699",
+    "titre": "Management of brimonidine-associated uveitis and conjunctivitis.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42901699/",
+    "doi": "10.1136/bcr-2026-275201",
+    "pmcid": null,
+    "revue": "BMJ case reports",
+    "date_entree_pubmed": "2026-10-20",
+    "date_publication": "2026-Oct-20",
+    "types_publication": [
+      "Journal Article"
+    ],
+    "resume_present": false,
+    "resume": null,
+    "mots_cles_auteurs": [
+      "Adverse Drug Reaction",
+      "Glaucoma"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 4,
+    "affiliations_auteurs": [
+      "Geneeskunde en Farmacie, Vrije Universiteit Brussel, Brussels, Belgium yasmina.amrani@vub.be.",
+      "Geneeskunde en Farmacie, Vrije Universiteit Brussel, Brussels, Belgium.",
+      "Universitair Ziekenhuis Brussel, Brussels, Belgium.",
+      "Algemeen Ziekenhuis Jan Portaels, Vilvoorde, Flanders, Belgium."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": true,
+      "produit_suivi_etudie_suggere": true,
+      "produits_suivis": [
+        {
+          "produit": "brimonidine",
+          "role": "étudié",
+          "statut_role": "rôle suggéré, à vérifier (règle automatique appliquée au titre)"
+        }
+      ],
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7223022064",
+      "doi": "10.1136/bcr-2026-275201",
+      "pmid": "42901699",
+      "pmcid": null,
+      "titre": "Management of brimonidine-associated uveitis and conjunctivitis",
+      "lien": "https://openalex.org/W7223022064",
+      "date_publication": "2026-10-01",
+      "type": "article",
+      "revue": "BMJ Case Reports",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "pubmed"
+      ],
+      "financeurs": null,
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "Vrije Universiteit Brussel",
+          "pays": "BE",
+          "type": "education",
+          "ror": "https://ror.org/006e5kg04"
+        },
+        {
+          "nom": "Universitair Ziekenhuis Brussel",
+          "pays": "BE",
+          "type": "healthcare",
+          "ror": "https://ror.org/038f7y939"
+        }
+      ],
+      "acces_ouvert": false,
+      "statut_acces": "closed",
+      "url_texte": null,
+      "url_pdf": null,
+      "licence": null,
+      "texte_integral_indexe": false,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Ocular Diseases and Behçet’s Syndrome",
+      "resume_present": true,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": []
+  }
+}

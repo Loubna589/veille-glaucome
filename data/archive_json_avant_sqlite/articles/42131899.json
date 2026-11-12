@@ -1,0 +1,118 @@
+{
+  "pmid": "42131899",
+  "premiere_detection": "2026-09-25",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42131899",
+    "titre": "Is the interventional glaucoma paradigm reflected in real-world practice? Insights from iStent combined with cataract surgery (2010-2022).",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42131899/",
+    "doi": "10.1177/11206721261452042",
+    "pmcid": null,
+    "revue": "European journal of ophthalmology",
+    "date_entree_pubmed": "2026-05-14",
+    "date_publication": "2026-May-14",
+    "types_publication": [
+      "Journal Article"
+    ],
+    "resume_present": true,
+    "resume": "PurposeTo analyze trends in the clinical use of the iStent device, characterize the evolving baseline profile of treated patients, and assess surgical outcomes over time.MethodsThis retrospective longitudinal study included 145 eyes undergoing iStent implantation between 2010 and 2022. Data included intraocular pressure (IOP), medications, and functional and structural parameters. Surgical success was defined using three criteria: (1) IOP <21 mmHg with medication reduction, (2) IOP <18 mmHg with medication reduction, and (3) IOP <21 mmHg with a ≥ 20% reduction from baseline.ResultsiStent use increased from 3.4% to 9.4% of glaucoma surgeries (p = 0.0125). Combined phaco-iStent surgery was performed in 95.9% of eyes. At 12-month, mean IOP decreased from 19.2 ± 4.5 mmHg to 16.4 ± 2.5 mmHg, with medications reduced from 1.9 ± 0.8 to 0.6 ± 0.8. Surgical success was achieved in 81.0% of eyes according to Criterion 1, 64.9% according to Criterion 2, and 49.6% according to Criterion 3. Over time, surgical success progressively improved, reaching 89.8% (Criterion 1), 78.0% (Criterion 2), and 57.6% (Criterion 3) between 2020 and 2022, while surgeries were increasingly performed in patients with lower baseline IOP and less advanced visual field loss.ConclusionOver the past decade, the iStent has become increasingly integrated into routine clinical practice. Compared with its early use, indications have expanded toward earlier stages of glaucoma, accompanied by improved surgical success and reduced medication burden. These results support the idea that the surgical treatment of glaucoma is gradually evolving towards earlier and more individualized surgical intervention.",
+    "mots_cles_auteurs": [
+      "Glaucoma",
+      "IOP",
+      "MIGS",
+      "clinical profile",
+      "microbypass.",
+      "trabecular"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 6,
+    "affiliations_auteurs": [
+      "Ophthalmology Unit, Hospital Clinico San Carlos, Instituto de Investigacion Sanitaria del Hospital Clinico San Carlos (IdISSC), Madrid, Spain.",
+      "Ophthalmology Unit, Hospital Universitario Quironsalud Madrid, Madrid, Spain.",
+      "Ophthalmology Unit, Dept. of Ophthalmology and ORL, Faculty of Medicine, Hospital Clinico San Carlos, Universidad Complutense de Madrid, Instituto de Investigacion Sanitaria del Hospital Clinico San Carlos (IdISSC), Madrid, Spain.",
+      "Instituto de Investigaciones Oftalmologicas Ramon Castroviejo, Universidad Complutense de Madrid, Madrid, Spain."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7161180031",
+      "doi": "10.1177/11206721261452042",
+      "pmid": "42131899",
+      "pmcid": null,
+      "titre": "Is the interventional glaucoma paradigm reflected in real-world practice? Insights from iStent combined with cataract surgery (2010–2022)",
+      "lien": "https://openalex.org/W7161180031",
+      "date_publication": "2026-05-14",
+      "type": "article",
+      "revue": "European Journal of Ophthalmology",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "pubmed"
+      ],
+      "financeurs": null,
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "Instituto de Investigación Sanitaria del Hospital Clínico San Carlos",
+          "pays": "ES",
+          "type": "healthcare",
+          "ror": "https://ror.org/014v12a39"
+        },
+        {
+          "nom": "Hospital Universitario Quirónsalud Madrid",
+          "pays": "ES",
+          "type": "healthcare",
+          "ror": "https://ror.org/018q88z15"
+        },
+        {
+          "nom": "IDCQ Hospitales y Sanidad, S.L.U.",
+          "pays": "ES",
+          "type": "healthcare",
+          "ror": "https://ror.org/04k611z44"
+        },
+        {
+          "nom": "Universidad Complutense de Madrid",
+          "pays": "ES",
+          "type": "education",
+          "ror": "https://ror.org/02p0gd045"
+        },
+        {
+          "nom": "Hospital Clínico San Carlos",
+          "pays": "ES",
+          "type": "healthcare",
+          "ror": "https://ror.org/04d0ybj29"
+        }
+      ],
+      "acces_ouvert": false,
+      "statut_acces": "closed",
+      "url_texte": null,
+      "url_pdf": null,
+      "licence": null,
+      "texte_integral_indexe": false,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Glaucoma and retinal disorders",
+      "resume_present": true,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-09-25",
+    "financements": []
+  }
+}

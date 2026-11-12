@@ -1,0 +1,99 @@
+{
+  "pmid": "42776232",
+  "premiere_detection": "2026-09-25",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42776232",
+    "titre": "[Ophthalmological care of senior citizens in residential nursing facilities : Care gaps, the TOVIS study and ways to an improved ophthalmological care].",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42776232/",
+    "doi": "10.1007/s00391-026-02649-z",
+    "pmcid": null,
+    "revue": "Zeitschrift fur Gerontologie und Geriatrie",
+    "date_entree_pubmed": "2026-09-23",
+    "date_publication": "2026-Sep-23",
+    "types_publication": [
+      "English Abstract",
+      "Journal Article",
+      "Review"
+    ],
+    "resume_present": true,
+    "resume": "BACKGROUND: Around 800,000 older people live in approximately 16,500 nursing and old people's homes in Germany and this number will continue to rise due to demographic change. Visual impairment and eye diseases in need of treatment are among the most common yet most neglected health problems in this vulnerable population. This article summarizes the current state of ophthalmological care for nursing home residents in Germany, the barriers involved and the potential contribution of novel tele-ophthalmological care models to closing this care gap.\nMATERIAL AND METHODS: Narrative review based on a selective literature search (PubMed, Google Scholar, professional society documents) on ophthalmological care of institutionalized older people with particular focus on the German OVIS and SÄVIP studies, the international literature on prevalence and care models in nursing homes and both published reports on the TOVIS study (TeleOphthalmologische Versorgung In Seniorenheimen).\nRESULTS: The OVIS study (2017; n = 600; 32 homes) found an ophthalmological result requiring treatment in 61% of residents, most frequently cataract (53%), age-related macular degeneration (AMD, 39%) and glaucoma (11% suspected); the last ophthalmologist visit occurred on average 4 years earlier. Comparable deficits are described across numerous other countries. The TOVIS pilot study (2023; n = 109 of 139 enrolled residents) tested a telemedical shared-eye-care model in which trained nonmedical personnel performed on-site examinations while ophthalmologists provided remote assessment. A vision-relevant cataract was found in 48.5%, typical AMD lesions in 34.1% and inadequately fitted eyeglasses in 60.6%; only 31.2% of the examined residents were aware of their diagnosis. At 6‑month follow-up only 14 of 52 residents (26.9%) with a referral recommendation actually attended a specialist appointment, despite over 80% rating the tele-examination positively.\nCONCLUSION: Ophthalmological care in German nursing homes has been insufficient for years, a pattern that is consistently mirrored across numerous other healthcare systems in the international literature. Tele-ophthalmological shared-eye-care models such as TOVIS are feasible and well accepted but do not by themselves solve the aftercare problem. A substantial gap remains between diagnosis and actual specialist treatment, which requires structured appointment management, transport and accompaniment solutions and closer collaboration between nursing staff, primary care and ophthalmology.",
+    "mots_cles_auteurs": [
+      "Aftercare",
+      "Health services research",
+      "Nursing home",
+      "Ophthalmology",
+      "Telemedicine"
+    ],
+    "langue": "ger",
+    "nombre_auteurs": 2,
+    "affiliations_auteurs": [
+      "Augenklinik, Universitätsklinikum Bonn, Venusberg-Campus 1, 53127, Bonn, Deutschland. thomas.ach@ukbonn.de.",
+      "Augenklinik, Universitätsklinikum Bonn, Venusberg-Campus 1, 53127, Bonn, Deutschland."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7214077095",
+      "doi": "10.1007/s00391-026-02649-z",
+      "pmid": "42776232",
+      "pmcid": null,
+      "titre": "Ophthalmologische Versorgung von Senioren in Langzeitpflegeeinrichtungen",
+      "lien": "https://openalex.org/W7214077095",
+      "date_publication": "2026-09-23",
+      "type": "article",
+      "revue": "Zeitschrift für Gerontologie und Geriatrie",
+      "type_source": "journal",
+      "langue": "de",
+      "indexe_dans": [
+        "crossref",
+        "pubmed"
+      ],
+      "financeurs": null,
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "Universitäts-Augenklinik Bonn",
+          "pays": "DE",
+          "type": "healthcare",
+          "ror": "https://ror.org/01xkmcr24"
+        },
+        {
+          "nom": "University Hospital Bonn",
+          "pays": "DE",
+          "type": "healthcare",
+          "ror": "https://ror.org/01xnwqx93"
+        }
+      ],
+      "acces_ouvert": false,
+      "statut_acces": "closed",
+      "url_texte": null,
+      "url_pdf": null,
+      "licence": null,
+      "texte_integral_indexe": false,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Ophthalmology and Visual Impairment Studies",
+      "resume_present": false,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-09-25",
+    "financements": []
+  }
+}

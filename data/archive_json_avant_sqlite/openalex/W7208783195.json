@@ -1,0 +1,58 @@
+{
+  "openalex_id": "W7208783195",
+  "premiere_detection": "2026-09-25",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "openalex_id": "W7208783195",
+    "doi": "10.23736/s0393-3660.25.06069-3",
+    "pmid": null,
+    "pmcid": null,
+    "titre": "The potential of antioxidants as glaucoma therapy",
+    "lien": "https://openalex.org/W7208783195",
+    "date_publication": "2026-09-01",
+    "type": "article",
+    "revue": "Gazzetta Medica Italiana Archivio per le Scienze Mediche",
+    "type_source": "journal",
+    "langue": null,
+    "indexe_dans": [
+      "crossref"
+    ],
+    "financeurs": null,
+    "subventions": null,
+    "institutions": [
+      {
+        "nom": "Hasanuddin University",
+        "pays": "ID",
+        "type": "education",
+        "ror": "https://ror.org/00da1gf19"
+      }
+    ],
+    "acces_ouvert": false,
+    "statut_acces": "closed",
+    "url_texte": null,
+    "url_pdf": null,
+    "licence": null,
+    "texte_integral_indexe": false,
+    "retracte": false,
+    "citations": 0,
+    "sujet_principal": "Glaucoma and retinal disorders",
+    "resume_present": true,
+    "resume": "BACKGROUND: Glaucoma is a form of progressively worsening optic neuropathy evidenced by the loss of retinal ganglion cells (RGCs), with consequent visual impairment. While an elevated intraocular pressure (IOP) and oxidative stress are cornerstones in the pathological study of glaucoma, there is growing evidence that antioxidant supplementation may enhance ocular blood flow, reduce IOP, protect mitochondrial function, and decrease neuroinflammation, thus serving as a possible adjunctive treatment for glaucoma.METHODS: A systematic search of the literature was performed with the databases PubMed, ScienceDirect, and Springer Link using the keywords “antioxidant,” “glaucoma,” and “ocular hypertension” for studies published from the years 2020 to 2024. There were 4797 articles in the beginning, so all but the most relevant 13 were selected based on criteria such as randomized control trials, original research design, and systematic reviews predominantly focused on the proposed topic.RESULTS: The selected studies showed that oxidative stress is a significant contributing factor in the reduced blood flow to eyes, and that certain antioxidants, for example, vitamins C and E, Coenzyme Q10, hesperidin, as well as some natural extracts significantly improved the perfusion as well as lowers the IOP whilst protecting the RGCs from oxidized and apoptotic damage. A number of trials reported marked improvements.CONCLUSIONS: The information analyzed proves that antioxidants may be helpful as part of caring for persons with glaucoma. Antioxidant supplementation could lead to improved ocular blood circulation and reduced IOP because of enhanced mitochondral activity, and less oxidative stress to RGCs and trabecular meshwork (TM). These findings, however, need to be substantiated by better clinical trials capable of determining their ideal values in regard to dosage and long-term benefits. Studies, however, suggest that incorporating antioxidants into glaucoma management strategies is likely to ameliorate progressive glaucomatous damage and enhance the patient’s quality of life.",
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "present_dans_pubmed": false
+  }
+}

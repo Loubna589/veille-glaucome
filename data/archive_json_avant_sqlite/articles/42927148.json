@@ -1,0 +1,64 @@
+{
+  "pmid": "42927148",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42927148",
+    "titre": "GLLaucoMed: A Secure Large Language Model-Powered Agentic Workflow for Automated Medication Extraction from Free-Text Glaucoma Clinical Notes.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42927148/",
+    "doi": "10.1016/j.xops.2026.101366",
+    "pmcid": "PMC13694788",
+    "revue": "Ophthalmology science",
+    "date_entree_pubmed": "2026-10-25",
+    "date_publication": "2026-Nov",
+    "types_publication": [
+      "Journal Article"
+    ],
+    "resume_present": true,
+    "resume": "PURPOSE: To evaluate the efficacy of large language models (LLMs) in extracting medication-related information from glaucoma clinical notes in the electronic health record.\nDESIGN: Cross-sectional.\nSUBJECTS: One thousand two hundred fifty subjects in the Bascom Palmer Ophthalmic Repository.\nMETHODS: Extracted clinical notes from glaucoma-related encounters between 2014 and 2024 were randomly sampled and labeled by 2 glaucoma specialists, with a third serving as an adjudicator. Graders were asked to label current topical medications (CTM), proposed changes to topical medications (ΔTM), current oral medications (COM), and proposed changes to oral medications (ΔOM) in a structured fashion. The data set was split into development (10%), validation (10%), and test (80%) sets stratified by clinician. Development and validation sets were used to engineer and refine prompts, and the held-out test set was used for model assessment. Five LLMs (Claude Opus 4.6, DeepSeek-V3.2, GPT 5.2, Grok 4.1, and Qwen3.6-35B-A3B) were accessed via Microsoft Azure AI Foundry within a Health Insurance Portability and Accountability Act-compliant environment. Intergrader agreement was assessed with Gwet AC1. Large language model performance was initially assessed in a binary fashion with F1 scores, and the degree of text match among positive cases was evaluated using exact match accuracy and Jaccard Index (JI).\nMAIN OUTCOME MEASURES: F1 score, exact match accuracy, JI.\nRESULTS: Gwet AC1 for intergrader agreement was 0.799, 0.888, 0.985, and 0.988 for CTM, ΔTM, COM, and ΔOM, respectively. F1 scores for CTM were 0.985, 0.971, 0.978, 0.968, and 0.970 for Claude, DeepSeek, GPT, Grok, and Qwen, respectively; for ΔTM: 0.905, 0.826, 0.897, 0.842, and 0.865, respectively; for COM: 0.923, 0.887, 0.899, 0.906, and 0.894, respectively; for ΔOM: 0.958, 0.815, 0.937, 0.835, and 0.940, respectively. Among positive cases, range of exact match accuracies for CTM (n = 1354) was 0.730-0.882, and range of JIs was 0.809-0.918. For ΔTM (n = 404), exact match accuracy range was 0.619 to 0.780, and JI range was 0.668-0.827. For COM (n = 47), exact match accuracy range was 0.766 to 0.872, and JI range was 0.765 to 0.870. For ΔOM (n = 25), exact match accuracy range was 0.583 to 0.920, and JI range was 0.583 to 0.922.\nCONCLUSIONS: The GLLaucoMed pipeline demonstrated high performance in extracting and standardizing medication data from unstructured clinical notes, including both current medications and proposed changes. Claude and GPT exhibited the strongest performance.\nFINANCIAL DISCLOSURES: Proprietary or commercial disclosure may be found in the Footnotes and Disclosures at the end of this article.",
+    "mots_cles_auteurs": [
+      "Clinical notes",
+      "Electronic health records",
+      "Glaucoma",
+      "Large language model",
+      "Unstructured data"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 7,
+    "affiliations_auteurs": [
+      "Bascom Palmer Eye Institute, University of Miami Miller School of Medicine, Miami, Florida.",
+      "Department of Ophthalmology and Visual Sciences, Escola Paulista de Medicina Universidade Federal de São Paulo, São Paulo, São Paulo, Brazil.",
+      "Department of Ophthalmology, Olive View - UCLA Medical Center, Sylmar, California.",
+      "Miller School of Medicine, University of Miami, Miami, Florida."
+    ],
+    "financeurs_declares": [
+      {
+        "organisme": "NEI NIH HHS",
+        "pays": "United States",
+        "reference": "K23 EY033831"
+      },
+      {
+        "organisme": "NEI NIH HHS",
+        "pays": "United States",
+        "reference": "R01 EY036593"
+      }
+    ],
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    }
+  }
+}

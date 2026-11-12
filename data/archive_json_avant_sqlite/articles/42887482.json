@@ -1,0 +1,138 @@
+{
+  "pmid": "42887482",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42887482",
+    "titre": "Advancing nanomaterials for treatment of eye diseases: a review.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42887482/",
+    "doi": "10.1016/j.yexmp.2026.105087",
+    "pmcid": null,
+    "revue": "Experimental and molecular pathology",
+    "date_entree_pubmed": "2026-10-16",
+    "date_publication": "2026-Oct-16",
+    "types_publication": [
+      "Journal Article",
+      "Review"
+    ],
+    "resume_present": true,
+    "resume": "Ocular diseases involving both the anterior and posterior segments-such as dry eye disease, keratitis, glaucoma, cataracts, diabetic retinopathy, retinal vein occlusion, and ocular tumors-remain major contributors to global visual impairment. Conventional topical and systemic therapies are limited by rapid clearance, restricted penetration across ocular barriers, and poor bioavailability, particularly for posterior-segment targets. Nanotechnology has introduced a transformative therapeutic paradigm by enabling controlled pharmacokinetics, enhanced tissue penetration, and site-specific delivery. A wide range of engineered nanomaterials-including polymeric nanoparticles, lipid-based carriers, dendrimers, metallic and metal-oxide nanoparticles, mesoporous silica systems, cerium oxide nanozymes, carbon quantum dots, nanogels, and electrospun nanofibers-has demonstrated improved drug loading, sustained release, ocular surface retention, and compatibility with biologics and gene-based agents. Emerging minimally invasive platforms, such as 4D printed smart scaffolds, dissolving microneedles and magnetically driven microrobots, further enable precise transscleral or intravitreal delivery, active navigation through the vitreous, and targeted interaction with retinal lesions. Parallel clinical advances, including FDA-approved nanoformulations and ongoing trials, confirm the translational potential of these technologies. Plus, artificial intelligence now accelerates both ophthalmic diagnosis and nanocarrier design, enabling predictive modeling of nano-bio interactions, personalized delivery strategies, and real-time disease assessment. This review integrates current advances in nanomaterial engineering and AI-guided innovation, outlining their convergent roles in shaping next-generation precision therapeutics for vision preservation and restoration.",
+    "mots_cles_auteurs": [
+      "AI design",
+      "Biomaterials",
+      "Eye disease",
+      "Precision therapy",
+      "Targeted drug delivery"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 8,
+    "affiliations_auteurs": [
+      "Immunology Research Center, Tabriz University of Medical Sciences, Tabriz, Iran; Department of Medical Biotechnology, Faculty of Advanced Medical Sciences, Tabriz University of Medical Sciences, Tabriz, Iran.",
+      "Immunology Research Center, Tabriz University of Medical Sciences, Tabriz, Iran.",
+      "Stem Cell Research Center, Tabriz University of Medical Sciences, Tabriz, Iran.",
+      "Nano Drug Delivery Research Centre, Health Technology Institute, Kermanshah University of Medical Sciences, Kermanshah, Iran; Student Research Committee, Kermanshah University of Medical Sciences, Kermanshah, Iran.",
+      "Immunology Research Center, Tabriz University of Medical Sciences, Tabriz, Iran. Electronic address: mortezaakbari25@yahoo.com.",
+      "Department of Neurosurgery, The Second Affiliated Hospital of Chongqing Medical University, Chongqing, 400016, China. Electronic address: 304678@hospital.cqmu.edu.cn.",
+      "Immunology Research Center, Tabriz University of Medical Sciences, Tabriz, Iran; Department of Medical Biotechnology, Faculty of Advanced Medical Sciences, Tabriz University of Medical Sciences, Tabriz, Iran. Electronic address: jahanbanr@tbzmed.ac.ir."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": [
+        "sustained release",
+        "drug delivery",
+        "nanoparticle*"
+      ],
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7222811010",
+      "doi": "10.1016/j.yexmp.2026.105087",
+      "pmid": "42887482",
+      "pmcid": null,
+      "titre": "Advancing nanomaterials for treatment of eye diseases: a review",
+      "lien": "https://openalex.org/W7222811010",
+      "date_publication": "2026-10-17",
+      "type": "review",
+      "revue": "Experimental and Molecular Pathology",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "doaj",
+        "pubmed"
+      ],
+      "financeurs": [
+        {
+          "nom": "Tabriz University of Medical Sciences",
+          "ror": "https://ror.org/04krpx645"
+        }
+      ],
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "Tabriz University of Medical Sciences",
+          "pays": "IR",
+          "type": "education",
+          "ror": "https://ror.org/04krpx645"
+        },
+        {
+          "nom": "Kermanshah University of Medical Sciences",
+          "pays": "IR",
+          "type": "education",
+          "ror": "https://ror.org/05vspf741"
+        },
+        {
+          "nom": "Second Affiliated Hospital of Chongqing Medical University",
+          "pays": "CN",
+          "type": "healthcare",
+          "ror": "https://ror.org/00r67fz39"
+        }
+      ],
+      "acces_ouvert": true,
+      "statut_acces": "gold",
+      "url_texte": "https://doi.org/10.1016/j.yexmp.2026.105087",
+      "url_pdf": null,
+      "licence": "cc-by",
+      "texte_integral_indexe": false,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Advanced Drug Delivery Systems",
+      "resume_present": true,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": [
+      {
+        "nom": "Tabriz University of Medical Sciences",
+        "statut": "CONFIRMÉ — déclaré par l'éditeur dans Crossref",
+        "references": [
+          "77756"
+        ],
+        "notices": [
+          [
+            "notice justificative Crossref (déclaration de l'éditeur)",
+            "https://api.crossref.org/works/10.1016/j.yexmp.2026.105087"
+          ],
+          [
+            "notice OpenAlex",
+            "https://api.openalex.org/works/W7222811010"
+          ]
+        ],
+        "note": "cet organisme figure AUSSI parmi les institutions des auteurs : c'est une affiliation, information distincte"
+      }
+    ]
+  }
+}

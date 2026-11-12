@@ -1,0 +1,86 @@
+{
+  "openalex_id": "W7213981338",
+  "premiere_detection": "2026-09-25",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "openalex_id": "W7213981338",
+    "doi": "10.3390/jcm15187275",
+    "pmid": null,
+    "pmcid": null,
+    "titre": "Multimodal Deep Learning for Humphrey 24-2 Visual Field Prediction: Evaluating the Contribution of Fellow-Eye Information in Glaucoma and Ocular Hypertension",
+    "lien": "https://openalex.org/W7213981338",
+    "date_publication": "2026-09-19",
+    "type": "article",
+    "revue": "Journal of Clinical Medicine",
+    "type_source": "journal",
+    "langue": "en",
+    "indexe_dans": [
+      "crossref"
+    ],
+    "financeurs": [
+      {
+        "nom": "Firat Üniversitesi",
+        "ror": "https://ror.org/05teb7b63"
+      }
+    ],
+    "subventions": [
+      {
+        "financeur": "Firat Üniversitesi",
+        "reference": "MF.26.97"
+      }
+    ],
+    "institutions": [
+      {
+        "nom": "Malatya Turgut Özal Üniversitesi",
+        "pays": "TR",
+        "type": "education",
+        "ror": "https://ror.org/01v2xem26"
+      },
+      {
+        "nom": "Turgut Özal University",
+        "pays": "TR",
+        "type": "education",
+        "ror": "https://ror.org/03r7b1f79"
+      },
+      {
+        "nom": "Inonu University",
+        "pays": "TR",
+        "type": "education",
+        "ror": "https://ror.org/04asck240"
+      },
+      {
+        "nom": "Fırat University",
+        "pays": "TR",
+        "type": "education",
+        "ror": "https://ror.org/05teb7b63"
+      }
+    ],
+    "acces_ouvert": true,
+    "statut_acces": "gold",
+    "url_texte": "https://doi.org/10.3390/jcm15187275",
+    "url_pdf": null,
+    "licence": "cc-by",
+    "texte_integral_indexe": false,
+    "retracte": false,
+    "citations": 0,
+    "sujet_principal": "Glaucoma and retinal disorders",
+    "resume_present": true,
+    "resume": "Background/Objectives: To develop a multimodal deep learning framework for Humphrey 24-2 visual field prediction using multimodal OCT-derived structural information and to investigate whether incorporating fellow-eye information improves pointwise threshold sensitivity estimation in glaucoma and ocular hypertension. Methods: This retrospective study included 591 patients, 892 eyes, and 1099 eye-visit samples. Four OCT-derived image modalities were combined with demographic, optic disc, RNFL, and image-quality variables. Three architectures were evaluated using a patient-level 60/20/20 split: A0, a single-eye baseline; A1, bilateral Siamese feature fusion; and A2, fellow-eye-guided α-gated residual refinement applied exclusively to the 52-point threshold sensitivity output (TS52). Results: The baseline A0 model achieved MAEs of 2.97 dB (MD), 1.62 dB (PSD), and 3.26 dB (mean TS), with corresponding RMSEs of 4.40, 2.30, and 4.74 dB, respectively. Overall predictive performance remained comparable across architectures. Among the bilateral models, A1 achieved the lowest RMSE for mean threshold sensitivity (4.66 dB), whereas A2 achieved the lowest MAE (3.13 dB). In the paired-eye test subset (102 eyes from 51 patients), enabling fellow-eye input did not significantly improve TS52 prediction in A1 but significantly reduced TS52 RMSE (Δ = 0.08 dB, p = 0.0004) and MAE (Δ = 0.07 dB, p < 0.0001) in A2. Spatial analyses further demonstrated that A1 mainly induced a global calibration-like shift, whereas A2 selectively refined central and paracentral threshold sensitivity predictions. Conclusions: Fellow-eye information contributed to pointwise visual field prediction in a model-dependent manner. Within the paired-eye test subset, A2 achieved modest but statistically significant reductions in prediction error, supporting controlled residual refinement as a promising approach to incorporating fellow-eye information.",
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "present_dans_pubmed": false
+  }
+}

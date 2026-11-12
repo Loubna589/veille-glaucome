@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Poser une question — Glaucoma Intelligence</title>
+  <link rel="stylesheet" href="/site/css/style.css">
+  <style>
+    .reponse { white-space: pre-line; line-height: 1.7; }
+    .cite { font-size: .78rem; font-weight: 600; text-decoration: none; background: var(--accent-doux); color: var(--accent-fort);
+            padding: 1px 6px; border-radius: 6px; margin-left: 2px; white-space: nowrap; }
+    .cite:hover { background: var(--accent); color: #fff; }
+  </style>
+</head>
+<body>
+  <div id="nav"></div>
+  <main class="page">
+    <header class="hero">
+      <h1>Poser une question</h1>
+      <p>La question est cherchée dans la base (recherche sémantique), puis les extraits retrouvés sont envoyés à un modèle
+        de langage qui doit répondre <strong>uniquement</strong> à partir d'eux, en citant chaque affirmation. Chaque citation
+        est vérifiée ; chaque échange est journalisé. <span id="etat-jeton"></span></p>
+    </header>
+    <form class="recherche" id="form">
+      <label for="q" class="sr">Question</label>
+      <input id="q" type="search" maxlength="500">
+      <button type="submit">Demander</button>
+    </form>
+    <div class="puces" style="margin-top:10px"><button class="puce" id="demo" type="button" hidden>Réponse de démo (hors ligne)</button></div>
+    <p class="compteur" id="statut"></p>
+    <section class="encadre" id="bloc-reponse" hidden><h2 style="font-size:1.05rem;margin-bottom:8px">Réponse</h2><div class="reponse" id="reponse"></div>
+      <p style="margin-top:10px"><small id="trace"></small></p></section>
+    <h2 class="titre-section">Sources retrouvées</h2>
+    <div id="sources"><p class="vide">Posez une question.</p></div>
+  </main>
+  <footer class="pied" id="pied"></footer>
+  <script src="/site/js/app.js"></script>
+  <script>Veille.monterNavigation("assistant");</script>
+  <script>
+    const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+    const lien = c => c.startsWith("PMID:") ? `https://pubmed.ncbi.nlm.nih.gov/${c.slice(5)}/` : c.startsWith("NCT") ?
+      `https://clinicaltrials.gov/study/${c}` : `https://openalex.org/${c.split(":")[1]}`;
+    const LIB = { ok: "réponse vérifiée : toutes les citations renvoient à un extrait fourni", je_ne_sais_pas: "le modèle indique que les extraits ne suffisent pas",
+      sans_jeton: "pas de jeton GitHub : sources seules, sans synthèse", citations_invalides: "réponse REFUSÉE : citation d'un document non fourni",
+      sans_citation: "réponse REFUSÉE : affirmations sans citation", erreur: "erreur d'appel au modèle" };
+    function afficher(r, demo) {
+      const valide = r.statut === "ok" || r.statut === "je_ne_sais_pas";
+      document.getElementById("statut").innerHTML = `<span class="badge ${valide ? "ok" : (r.statut === "sans_jeton" ? "" : "ver")}">${esc(r.statut)}</span> ` +
+        esc(LIB[r.statut] || "") + (r.erreur ? ` — ${esc(r.erreur)}` : "") + (demo ? ' <span class="badge att">réponse enregistrée (démo hors ligne)</span>' : "");
+      const bloc = document.getElementById("bloc-reponse");
+      bloc.hidden = !(r.reponse && valide);
+      if (!bloc.hidden) {
+        document.getElementById("reponse").innerHTML = esc(r.reponse).replace(/\[(PMID:\d+|NCT\d{8}|OpenAlex:W\d+)\]/g,
+          (m, c) => `<a class="cite" href="${lien(c)}" target="_blank" rel="noopener">${c}</a>`);
+        document.getElementById("trace").textContent = `Modèle ${r.modele} · prompt ${r.version_prompt} · ${r.duree_ms} ms · ` +
+          `question encodée : ${r.question_etendue}`;
+      }
+      document.getElementById("sources").innerHTML = r.sources.map((s, i) =>
+        `<article class="carte"><span class="badge">${i + 1}</span><span class="badge reg">${esc(s.type)}</span>` +
+        `<span class="badge ok">score ${s.score.toFixed(3)}</span>${r.citations.includes(s.citation) ? ' <span class="badge">citée</span>' : ""}` +
+        `<h3><a href="${esc(s.lien)}" target="_blank" rel="noopener">${esc(s.titre || s.id)}</a></h3>` +
+        `<div class="meta"><span>[${esc(s.citation)}]</span></div></article>`).join("");
+    }
+    async function demander(question) {
+      document.getElementById("statut").textContent = "Recherche des extraits et rédaction de la réponse…";
+      try {
+        const r = await fetch("/api/question", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ question }) });
+        const d = await r.json().catch(() => ({ erreur: `erreur du serveur (HTTP ${r.status}) : voir la fenêtre de l'assistant` }));
+        if (!r.ok) { document.getElementById("statut").textContent = d.erreur; return; }
+        afficher(d, false);
+      } catch (e) {
+        document.getElementById("statut").textContent = "Assistant injoignable : est-il lancé (python assistant.py) ?";
+      }
+    }
+    fetch("/api/etat").then(r => r.json()).then(e => {
+      document.getElementById("q").value = e.question_demo;
+      document.getElementById("etat-jeton").innerHTML = `${e.documents} documents indexés · modèle ${esc(e.modele)} · prompt ${esc(e.version_prompt)} · ` +
+        (e.jeton ? '<span class="badge ok">jeton GitHub présent</span>' : '<span class="badge att">sans jeton : sources seules</span>');
+      if (e.demo_disponible) {
+        const b = document.getElementById("demo"); b.hidden = false;
+        b.onclick = () => fetch("/api/demo").then(r => r.json()).then(d => afficher(d, true));
+      }
+    });
+    document.getElementById("form").addEventListener("submit", ev => { ev.preventDefault(); demander(document.getElementById("q").value); });
+  </script>
+</body>
+</html>

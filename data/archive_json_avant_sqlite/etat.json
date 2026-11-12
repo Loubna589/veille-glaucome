@@ -1,0 +1,19 @@
+{
+  "derniere_execution": "2026-11-11",
+  "dernier_bilan": {
+    "date": "2026-11-11",
+    "depuis": "2026-09-25",
+    "essais": {
+      "nouveau": 63,
+      "modifie": 3
+    },
+    "articles_nouveaux": 298,
+    "articles_enrichis": 281,
+    "decouvertes_openalex": 15,
+    "alertes": [
+      "PubMed : plafond de 300 articles atteint, relancer"
+    ],
+    "sources_en_echec": [],
+    "appels_openalex": 8
+  }
+}

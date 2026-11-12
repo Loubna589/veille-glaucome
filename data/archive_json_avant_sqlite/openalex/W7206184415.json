@@ -1,0 +1,51 @@
+{
+  "openalex_id": "W7206184415",
+  "premiere_detection": "2026-09-25",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "openalex_id": "W7206184415",
+    "doi": "10.5281/zenodo.22241871",
+    "pmid": null,
+    "pmcid": null,
+    "titre": "Glaucoma: The Silent Thief of Sight as the End-Stage of the Brain's Ocular Decree",
+    "lien": "https://openalex.org/W7206184415",
+    "date_publication": "2026-09-02",
+    "type": "preprint",
+    "revue": "Zenodo (CERN European Organization for Nuclear Research)",
+    "type_source": "repository",
+    "langue": null,
+    "indexe_dans": [
+      "datacite"
+    ],
+    "financeurs": null,
+    "subventions": null,
+    "institutions": null,
+    "acces_ouvert": true,
+    "statut_acces": "green",
+    "url_texte": "https://doi.org/10.5281/zenodo.22241871",
+    "url_pdf": null,
+    "licence": "cc-by",
+    "texte_integral_indexe": false,
+    "retracte": false,
+    "citations": 0,
+    "sujet_principal": "Glaucoma and retinal disorders",
+    "resume_present": true,
+    "resume": "Background: Glaucoma is currently defined as a progressive optic neuropathy characterised by retinal ganglion cell death and visual field loss, with elevated intraocular pressure (IOP) as the primary modifiable risk factor. Yet many patients continue to lose vision despite well-controlled IOP, and some develop glaucoma without ever having elevated pressure. This manuscript proposes that glaucoma is not primarily a pressure disease but the end-stage of the brain's ocular vasoconstrictive decree, executed over decades through chronic retinal and optic nerve head hypoxia. Framework: The brain's primary function is the maintenance of temperature and blood pH through the control of blood flow. Under chronic, unresolvable threat, the brain becomes a miser for blood. It constricts the choroid, retinal arterioles, and posterior ciliary arteries, producing the Stasis-Acidosis-Proteinopathy (SAP) cascade in the inner retina and optic nerve head. Retinal ganglion cells—among the most metabolically demanding neurons in the body—are starved. The amacrine network, especially the AII bridge, fails first functionally. Then the retinal ganglion cells die structurally. Intraocular pressure is an aggravating factor, not the root cause. Why Pressure-Lowering Alone Fails: Pressure-lowering drops suppress one mechanical blade. They do not restore choroidal or optic nerve perfusion. They do not resolve the brain's threat state. The Law of Pressure Reflection predicts that the hypoxic cascade continues despite normal IOP. This explains the clinical observation of progressive glaucoma in eyes with \"controlled\" pressure. Clinical Integration: The Ocular UBTI provides a non-invasive readout of the brain's ocular decree: choroidal thickness, retinal vessel calibre, OCTA perfusion density, RNFL thickness, and pupillary dynamics. The environmental path—quieting the knock, restoring sleep, reducing social threat—is primary. The starter motor (low-dose PDE5 inhibitor ± GLP-1 receptor agonist) is proposed as a time-limited vascular thaw for the starving optic nerve before irreversible cell death. Conclusion: Glaucoma is the silent thief because the brain steals blood from the optic nerve long before pressure rises. The eye appears normal until the retinal ganglion cells are already dying. The current model treats the thief's accomplice—pressure—while the real thief remains untouched. The framework redirects attention upstream, to the brain's decree and the hypoxic retina. Keywords: Glaucoma; retinal ganglion cells; optic nerve; hypoxia; choroid; vasoconstriction; SAP cascade; Ocular UBTI; intraocular pressure; Law of Pressure Reflection; environmental path; starter motor; PDE5 inhibitor; GLP-1",
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "present_dans_pubmed": false
+  }
+}

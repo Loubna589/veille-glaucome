@@ -1,0 +1,51 @@
+{
+  "openalex_id": "W7204997802",
+  "premiere_detection": "2026-09-25",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "openalex_id": "W7204997802",
+    "doi": "10.36489/nursing.2026v32i340p17953-17956",
+    "pmid": null,
+    "pmcid": null,
+    "titre": "Efeitos Vasculares no Glaucoma de Pressão Normal",
+    "lien": "https://openalex.org/W7204997802",
+    "date_publication": "2026-08-27",
+    "type": "article",
+    "revue": "Nursing Edição Brasileira",
+    "type_source": "journal",
+    "langue": null,
+    "indexe_dans": [
+      "crossref"
+    ],
+    "financeurs": null,
+    "subventions": null,
+    "institutions": null,
+    "acces_ouvert": true,
+    "statut_acces": "diamond",
+    "url_texte": "https://revistanursing.com.br/index.php/revistanursing/article/download/4595/5848",
+    "url_pdf": "https://revistanursing.com.br/index.php/revistanursing/article/download/4595/5848",
+    "licence": "cc-by",
+    "texte_integral_indexe": true,
+    "retracte": false,
+    "citations": 0,
+    "sujet_principal": "Glaucoma and retinal disorders",
+    "resume_present": true,
+    "resume": "O glaucoma de pressão normal representa uma variante clínica complexa do glaucoma primário de ângulo aberto, caracterizada pelo desenvolvimento de neuropatia óptica típica e perda progressiva de campo visual, mesmo com a pressão intraocular mantendo-se constantemente em níveis estatisticamente normais, ou seja, menores ou iguais a vinte e um milímetros de mercúrio. Tradicionalmente, o manejo do glaucoma concentrava-se de forma quase exclusiva nos fatores mecânicos pressóricos, porém a persistência da progressão do dano axonal em uma parcela significativa de pacientes com pressão controlada direcionou a atenção da comunidade científica para mecanismos alternativos de lesão celular. Diante desse cenário patogênico multifatorial, o presente estudo tem como objetivo realizar uma revisão sistemática da literatura para analisar os efeitos vasculares no glaucoma de pressão normal, discutindo as principais alterações na perfusão ocular, a regulação do fluxo sanguíneo e suas implicações clínicas na população brasileira. Para tanto, foi conduzido um levantamento bibliográfico nas bases de dados SciELO e LILACS utilizando descritores de saúde específicos para selecionar artigos de alta relevância científica no país. Os resultados evidenciam que a desregulação vascular primária, episódios frequentes de hipotensão arterial noturna e o fenômeno de vasoespasmo exercem um papel preponderante na indução de crises de isquemia e reperfusão na cabeça do nervo óptico. Conclui-se que o glaucoma de pressão normal deve ser compreendido como uma manifestação ocular de um distúrbio circulatório sistêmico, tornando indispensável a avaliação do perfil hemodinâmico global do paciente para instituir terapias neuroprotetoras e vasculares complementares eficazes.",
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "present_dans_pubmed": false
+  }
+}

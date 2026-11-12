@@ -1,0 +1,143 @@
+{
+  "pmid": "42880426",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42880426",
+    "titre": "Reporting quality assessment of sham acupuncture randomized controlled trials for acupuncture intervention in glaucoma.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42880426/",
+    "doi": "10.1016/j.ctim.2026.103452",
+    "pmcid": null,
+    "revue": "Complementary therapies in medicine",
+    "date_entree_pubmed": "2026-10-15",
+    "date_publication": "2026-Oct-15",
+    "types_publication": [
+      "Journal Article",
+      "Review"
+    ],
+    "resume_present": true,
+    "resume": "OBJECTIVE: To systematically evaluate the reporting quality of sham-acupuncture-randomized controlled trials (RCTs) investigating acupuncture intervention for glaucoma.\nMETHODS: A systematic search was conducted in PubMed, the Cochrane Library, Embase, Scopus, Web of Science, EBSCO, China National Knowledge Infrastructure (CNKI), Wanfang Database, SinoMed, and China Science and Technology Journal Database (VIP) for Chinese and English RCTs on acupuncture intervention for glaucoma published from database inception until August 2025. The Consolidated Standards of Reporting Trials 2025 (CONSORT), Standards for Reporting Interventions in Clinical Trials of Acupuncture (STRICTA), and the Sham Acupuncture Reporting Guidelines and a Checklist in Clinical Trials (SHARE) were used by the investigators to assess the Overall Quality Score (OQS) of the RCTs that met the pre-defined inclusion criteria. Inter-rater agreement was evaluated using Cohen's κ coefficient.\nRESULTS: The systematic search initially identified 1289 relevant records. After a stepwise screening process, it was found that RCTs utilizing sham acupuncture controls were very limited; consequently, only 6 RCTs meeting the pre-defined criteria were ultimately included. According to the CONSORT statement, the median OQS for the 6 RCTs was 16 items (range: 10-23). Among all CONSORT items, the positive rate for 9 items (21%) was greater than 80%, while for 20 items (48%) it was below 20%. Based on the STRICTA guidelines, the median OQS for the 6 RCTs was 10.5 items (range: 8-14). For the STRICTA guidelines, the positive rate for 6 items (35%) was greater than 80%, and for 1 item (6%) it was below 20%. According to the SHARE guidelines, the median OQS for the 6 RCTs was 6.5 items (range: 3-10). For the SHARE checklist, 3 items (18%) had a reporting rate > 80%, while 10 items (53%) had a rate < 20%. The overall average reporting rates based on CONSORT, STRICTA, and SHARE were 39.7%, 62.7%, and 35.1%, respectively.\nCONCLUSION: The current reporting quality of sham acupuncture RCTs on acupuncture intervention for glaucoma is generally suboptimal. There is a particular and urgent need to improve the reporting of detailed information regarding the sham acupuncture control. It is recommended that future relevant RCTs strictly adhere to the CONSORT statement, STRICTA standards, and SHARE checklist for standardized reporting.",
+    "mots_cles_auteurs": [
+      "Acupuncture",
+      "Clinical trial",
+      "Completeness of reporting",
+      "Glaucoma",
+      "Sham acupuncture"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 8,
+    "affiliations_auteurs": [
+      "Yueyang Hospital of Integrated Traditional Chinese and Western Medicine, Shanghai University of Traditional Chinese Medicine, Shanghai, China.",
+      "Longhua Hospital, Shanghai University of Traditional Chinese Medicine, Shanghai, China.",
+      "Eye & ENT Hospital of Fudan University, Shanghai, China.",
+      "Yueyang Hospital of Integrated Traditional Chinese and Western Medicine, Shanghai University of Traditional Chinese Medicine, Shanghai, China; Shanghai Research Institute of Acupuncture and Meridian, Shanghai, China.",
+      "Yueyang Hospital of Integrated Traditional Chinese and Western Medicine, Shanghai University of Traditional Chinese Medicine, Shanghai, China; Shanghai Research Institute of Acupuncture and Meridian, Shanghai, China. Electronic address: pengpengma@163.com."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7222330170",
+      "doi": "10.1016/j.ctim.2026.103452",
+      "pmid": "42880426",
+      "pmcid": null,
+      "titre": "Reporting quality assessment of sham acupuncture randomized controlled trials for acupuncture intervention in glaucoma",
+      "lien": "https://openalex.org/W7222330170",
+      "date_publication": "2026-10-15",
+      "type": "review",
+      "revue": "Complementary Therapies in Medicine",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "datacite",
+        "doaj",
+        "pubmed"
+      ],
+      "financeurs": [
+        {
+          "nom": "Key Technologies Research and Development Program",
+          "ror": null
+        }
+      ],
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "Shanghai University of Traditional Chinese Medicine",
+          "pays": "CN",
+          "type": "education",
+          "ror": "https://ror.org/00z27jk27"
+        },
+        {
+          "nom": "Yueyang Hospital",
+          "pays": "CN",
+          "type": "healthcare",
+          "ror": "https://ror.org/03yd12021"
+        },
+        {
+          "nom": "Longhua Hospital Shanghai University of Traditional Chinese Medicine",
+          "pays": "CN",
+          "type": "healthcare",
+          "ror": "https://ror.org/016yezh07"
+        },
+        {
+          "nom": "Eye & ENT Hospital of Fudan University",
+          "pays": "CN",
+          "type": "healthcare",
+          "ror": "https://ror.org/02wc1yz29"
+        },
+        {
+          "nom": "Shanghai Research Center for Acupuncture and Meridians",
+          "pays": "CN",
+          "type": "facility",
+          "ror": "https://ror.org/02fc7xd23"
+        }
+      ],
+      "acces_ouvert": true,
+      "statut_acces": "gold",
+      "url_texte": "https://doi.org/10.1016/j.ctim.2026.103452",
+      "url_pdf": null,
+      "licence": "cc-by-nc-nd",
+      "texte_integral_indexe": false,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Acupuncture Treatment Research Studies",
+      "resume_present": true,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": [
+      {
+        "nom": "Key Technologies Research and Development Program",
+        "statut": "CONFIRMÉ — déclaré par l'éditeur dans Crossref",
+        "references": null,
+        "notices": [
+          [
+            "notice justificative Crossref (déclaration de l'éditeur)",
+            "https://api.crossref.org/works/10.1016/j.ctim.2026.103452"
+          ],
+          [
+            "notice OpenAlex",
+            "https://api.openalex.org/works/W7222330170"
+          ]
+        ],
+        "note": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "openalex_id": "W7225128217",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "openalex_id": "W7225128217",
+    "doi": "10.7860/jcdr/2026/81018.24730",
+    "pmid": null,
+    "pmcid": null,
+    "titre": "Evaluation of Postoperative Steroid-induced Ocular Hypertension after Phacoemulsification: An Observational Study",
+    "lien": "https://openalex.org/W7225128217",
+    "date_publication": "2026-11-02",
+    "type": "article",
+    "revue": "JOURNAL OF CLINICAL AND DIAGNOSTIC RESEARCH",
+    "type_source": "journal",
+    "langue": "en",
+    "indexe_dans": [
+      "crossref",
+      "doaj"
+    ],
+    "financeurs": null,
+    "subventions": null,
+    "institutions": null,
+    "acces_ouvert": true,
+    "statut_acces": "gold",
+    "url_texte": "https://doi.org/10.7860/jcdr/2026/81018.24730",
+    "url_pdf": null,
+    "licence": "cc-by-nc-nd",
+    "texte_integral_indexe": false,
+    "retracte": false,
+    "citations": 0,
+    "sujet_principal": "Glaucoma and retinal disorders",
+    "resume_present": true,
+    "resume": "Introduction: Topical corticosteroids are routinely prescribed after cataract surgery to control postoperative inflammation. However, these agents may induce ocular hypertension, with a subset of individuals exhibiting significant Intraocular Pressure (IOP) elevation. Understanding the magnitude and timing of steroid-induced IOP rise is essential for early detection and prevention of glaucomatous damage. Aim: To evaluate changes in IOP and determine the prevalence of steroid-induced ocular hypertension in patients receiving topical prednisolone acetate 1% following uncomplicated phacoemulsification. Materials and Methods: This hospital-based prospective observational study was conducted in the Department of Ophthalmology at Jagjivan Ram Hospital (JRH), Mumbai Central, Maharashtra, India, from October 2022 to October 2023. It included 53 patients undergoing uncomplicated cataract surgery at a tertiary eye care hospital. Eligible participants had normal preoperative IOP and received topical prednisolone acetate 1% in tapering doses for four weeks. Patients with glaucoma, ocular hypertension, complicated cataract, intraoperative complications, or prior steroid use were excluded. IOP was measured using Goldmann applanation tonometry preoperatively and at 1, 4, and 6 weeks postoperatively. Steroid responsiveness was classified as low (<5 mmHg rise), intermediate (6–15 mmHg), or high (>16 mmHg). The Statistical Package for Social Sciences (SPSS) version 25.0 was used for statistical analysis. The p-value<0.05 considered significant. Results: The mean baseline IOP was 17.02±2.85 mmHg, which increased significantly to 19.23±2.10 mmHg at the first week IOP remained elevated at week 4 (18.80±2.26 mmHg) and week 6 (18.92±2.59 mmHg), without returning to baseline levels (p<0.001). Most patients were low responders (73.4%), followed by intermediate responders (22.6%). High steroid responsiveness was observed in 4% of subjects. Conclusion: Topical prednisolone acetate 1% following cataract surgery leads to a significant early rise in IOP, with persistent elevation up to six weeks. Although the majority exhibit a mild response, a small but important proportion demonstrate marked IOP elevation. Routine postoperative IOP monitoringparticularly within the first week- is recommended to promptly identify high steroid responders.",
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "present_dans_pubmed": false
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "pmid": "42920388",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42920388",
+    "titre": "Therapeutic efficacy and systemic pharmacokinetics of a dual-drug hydrogel contact lens for sustained glaucoma therapy.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42920388/",
+    "doi": "10.1111/aos.70260",
+    "pmcid": null,
+    "revue": "Acta ophthalmologica",
+    "date_entree_pubmed": "2026-10-24",
+    "date_publication": "2026-Oct-24",
+    "types_publication": [
+      "Journal Article"
+    ],
+    "resume_present": true,
+    "resume": "BACKGROUND: Conventional topical therapy for glaucoma is limited by poor ocular bioavailability, rapid precorneal drug loss, frequent dosing and systemic absorption through the nasolacrimal pathway, which may reduce therapeutic efficacy and increase the risk of adverse effects. Drug-eluting hydrogel contact lenses have emerged as a promising strategy to overcome these limitations by enabling sustained ocular drug delivery.\nOBJECTIVE: This study aimed to evaluate the therapeutic efficacy, ocular biocompatibility and systemic pharmacokinetic profile of an optimized dual-drug-loaded HEMA-based hydrogel contact lens delivering timolol maleate (TM) and brimonidine tartrate (BT) for sustained glaucoma management.\nMETHODS: Optimized hydrogel contact lenses composed of 2-hydroxyethyl methacrylate (HEMA), N, N-dimethylacrylamide (DMA), N-vinylpyrrolidone (NVP) and ethylene glycol dimethacrylate (EGDMA) were fabricated by UV photopolymerization and loaded with TM and BT (4 mg/mL each). Ocular biocompatibility was assessed using the modified Draize irritation test. Therapeutic efficacy was evaluated in a steroid-induced ocular hypertension New Zealand White rabbit model by monitoring intraocular pressure (IOP) for 24 h. Systemic drug exposure was determined by validated high-performance liquid chromatography (HPLC) analysis of plasma samples, while ocular safety was further confirmed through histopathological examination.\nRESULTS: The optimized hydrogel lens exhibited excellent ocular biocompatibility, with a maximum Draize score of 0.33 ± 0.12 that resolved completely within 48 h and no histopathological evidence of ocular tissue damage. In hypertensive rabbits, the dual-drug hydrogel lens maintained normotensive IOP (16.1 ± 0.8 mmHg) for 24 h, representing a 43.5% reduction from baseline and significantly outperforming conventional eye drops beyond 4 h (p < 0.01). Plasma concentrations of both TM and BT remained below the limit of quantification (<2.0 ng/mL) throughout the study, whereas conventional eye drops produced measurable systemic exposure (TM: 18.4 ± 2.1 ng/mL; BT: 8.2 ± 1.2 ng/mL), demonstrating effective minimization of systemic drug absorption.\nCONCLUSION: The optimized dual-drug-loaded hydrogel contact lens provided sustained intraocular pressure reduction, excellent ocular biocompatibility and negligible systemic drug exposure compared with conventional topical therapy. These findings highlight its potential as a sustained ocular drug-delivery platform capable of improving therapeutic efficacy, reducing systemic adverse effects and enhancing long-term treatment adherence in glaucoma management. Further long-term preclinical investigations and clinical studies are warranted to support clinical translation.",
+    "mots_cles_auteurs": [
+      "brimonidine tartrate",
+      "glaucoma",
+      "hydrogel contact lens",
+      "intraocular pressure",
+      "ocular drug delivery",
+      "pharmacokinetics",
+      "sustained drug release",
+      "timolol maleate"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 2,
+    "affiliations_auteurs": [
+      "Department of Pharmaceutics, Vels Institute of Science, Technology & Advanced Studies (VISTAS), Chennai, Tamil Nadu, India."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": true,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": [
+        {
+          "produit": "timolol",
+          "role": "non déterminé",
+          "statut_role": "cité dans le résumé ou les mots-clés"
+        },
+        {
+          "produit": "brimonidine",
+          "role": "non déterminé",
+          "statut_role": "cité dans le résumé ou les mots-clés"
+        }
+      ],
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": [
+        "brimonidine + timolol"
+      ],
+      "formulations_voies": [
+        "drug delivery",
+        "drug-eluting",
+        "contact lens*"
+      ],
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7223469287",
+      "doi": "10.1111/aos.70260",
+      "pmid": "42920388",
+      "pmcid": null,
+      "titre": "Therapeutic efficacy and systemic pharmacokinetics of a dual‐drug hydrogel contact lens for sustained glaucoma therapy",
+      "lien": "https://openalex.org/W7223469287",
+      "date_publication": "2026-10-24",
+      "type": "article",
+      "revue": "Acta Ophthalmologica",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "pubmed"
+      ],
+      "financeurs": null,
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "Vels University",
+          "pays": "IN",
+          "type": "education",
+          "ror": "https://ror.org/00tscx035"
+        }
+      ],
+      "acces_ouvert": false,
+      "statut_acces": "closed",
+      "url_texte": null,
+      "url_pdf": null,
+      "licence": null,
+      "texte_integral_indexe": false,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Advanced Drug Delivery Systems",
+      "resume_present": true,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": []
+  }
+}

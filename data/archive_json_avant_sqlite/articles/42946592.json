@@ -1,0 +1,127 @@
+{
+  "pmid": "42946592",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42946592",
+    "titre": "Real-World Safety Profile of Mirvetuximab Soravtansine: A Population-Based Pharmacovigilance Study Leveraging FAERS and EudraVigilance Databases.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42946592/",
+    "doi": "10.1016/j.clinthera.2026.09.015",
+    "pmcid": null,
+    "revue": "Clinical therapeutics",
+    "date_entree_pubmed": "2026-10-27",
+    "date_publication": "2026-Oct-27",
+    "types_publication": [
+      "Journal Article"
+    ],
+    "resume_present": true,
+    "resume": "PURPOSE: Mirvetuximab soravtansine (MIRV) is the first FDA-approved antibody-drug conjugate targeting folate receptor-α (FRα)-positive platinum-resistant ovarian cancer. Despite its clinical adoption, comprehensive post-marketing real-world evidence regarding its safety profile remains limited. This study aimed to systematically characterize the adverse event (AE) profile of MIRV in real-world settings and to identify potential safety signals using large-scale pharmacovigilance databases.\nMETHODS: A retrospective pharmacovigilance analysis was conducted using adverse event reports from the FDA Adverse Event Reporting System (FAERS, 2022-2025). We excluded all reports submitted for male patients. Safety signals were assessed at the system organ class (SOC), standardized MedDRA query (SMQ), and preferred term (PT) levels. Disproportionality analyses were performed using 4 algorithms: reporting odds ratio (ROR), proportional reporting ratio (PRR), Bayesian confidence propagation neural network (BCPNN), and multi-item gamma Poisson shrinker (MGPS). Time-to-onset (TTO) analysis was conducted to evaluate onset patterns. External validation was performed using the EudraVigilance database.\nFINDINGS: A total of 1,249 MIRV-related reports corresponding to 2,577 AEs were identified in FAERS. At the SOC level, eye disorders were the most frequently reported AEs (n = 593) and demonstrated the strongest disproportionality signal (ROR: 13.79, 95% CI: 12.58-15.12). At the PT level, the 3 most frequently reported AEs were vision blurred (n = 97), neuropathy peripheral (n = 95), and cataract (n = 75). Among detected safety signals, the strongest disproportionality signals (ranked by IC025 value) were observed for keratitis (ROR: 390.64, PRR: 383.08, EBGM05: 269.06, IC025: 5.06), keratopathy (ROR: 487.9, PRR: 479.78, EBGM05: 323.68, IC025: 4.87), and pneumonitis (ROR: 56.93, PRR: 55.37, EBGM05: 43.35, IC0254.64). Overall, 44 positive PT-level signals were identified. Common labeled AEs included blurred vision, peripheral neuropathy, cataract, diarrhoea, and abdominal pain. Potentially novel (unlabeled) signals included blindness, colitis, pulmonary fibrosis, glaucoma, intestinal perforation, and astigmatism. Time-to-onset analysis showed that 42.9% of AEs occurred within the first month after treatment initiation, indicating an early-onset pattern. In the EudraVigilance database, 527 MIRV-related reports were identified. At the SOC level, eye disorders again demonstrated the strongest disproportionality signal, consistent with the findings from FAERS. At the PT level, the most frequently reported AEs were pneumonitis (n = 47), peripheral neuropathy (n = 45), and vision blurred (n = 43), whereas keratitis, keratopathy, and pneumonitis exhibited the strongest disproportionality signals. A total of 29 overlapping positive signals were identified between FAERS and EudraVigilance, further supporting the robustness of the observed safety signals.\nIMPLICATIONS: This dual-database pharmacovigilance study provides consistent real-world evidence supporting the established ocular toxicity profile of MIRV and identifies additional potential safety signals requiring further clinical attention. These findings may assist clinicians in optimizing risk assessment and monitoring strategies for patients receiving MIRV.",
+    "mots_cles_auteurs": [
+      "Corneal disorders",
+      "EudraVigilance",
+      "FAERS",
+      "MIRV",
+      "Pharmacovigilance"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 8,
+    "affiliations_auteurs": [
+      "Department of Obstetrics and Gynecology, The Second Affiliated Hospital of Xi'an Jiaotong University, Xi'an, Shaanxi, China.",
+      "Department of Human Anatomy, Histology and Embryology, School of Basic Medical Sciences, Xi'an Jiaotong University Health Science Center, Xi'an, Shaanxi, China.",
+      "Department of Geriatrics, Shaanxi Provincial People's Hospital, Xi'an, Shaanxi, China.",
+      "Department of Tuberculosis, Shanghai Pulmonary Hospital, School of Medicine, Tongji University, Shanghai, China.",
+      "School of Public Health, Xi'an Jiaotong University, Xi'an, Shaanxi, China.",
+      "Department of Information Management, School of Management, Xi'an University of Finance and Economics, Xi'an, Shaanxi, China.",
+      "Comprehensive Breast Care Center, The Second Affiliated Hospital of Xi'an Jiaotong University, Xi'an, Shaanxi, China.",
+      "Comprehensive Breast Care Center, The Second Affiliated Hospital of Xi'an Jiaotong University, Xi'an, Shaanxi, China. Electronic address: zhaizhen@xjtu.edu.cn."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7223806677",
+      "doi": "10.1016/j.clinthera.2026.09.015",
+      "pmid": "42946592",
+      "pmcid": null,
+      "titre": "Real-World Safety Profile of Mirvetuximab Soravtansine: A Population-Based Pharmacovigilance Study Leveraging FAERS and EudraVigilance Databases",
+      "lien": "https://openalex.org/W7223806677",
+      "date_publication": "2026-10-01",
+      "type": "article",
+      "revue": "Clinical Therapeutics",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "pubmed"
+      ],
+      "financeurs": null,
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "Second Affiliated Hospital of Xi'an Jiaotong University",
+          "pays": "CN",
+          "type": "healthcare",
+          "ror": "https://ror.org/03aq7kf18"
+        },
+        {
+          "nom": "Xi'an Jiaotong University",
+          "pays": "CN",
+          "type": "education",
+          "ror": "https://ror.org/017zhmm22"
+        },
+        {
+          "nom": "Shaanxi Provincial People's Hospital",
+          "pays": "CN",
+          "type": "healthcare",
+          "ror": "https://ror.org/009czp143"
+        },
+        {
+          "nom": "Tongji University",
+          "pays": "CN",
+          "type": "education",
+          "ror": "https://ror.org/03rc6as71"
+        },
+        {
+          "nom": "Shanghai Pulmonary Hospital",
+          "pays": "CN",
+          "type": "healthcare",
+          "ror": "https://ror.org/033nbnf69"
+        },
+        {
+          "nom": "Xi'an University of Finance and Economics",
+          "pays": "CN",
+          "type": "education",
+          "ror": "https://ror.org/01b9y2p27"
+        }
+      ],
+      "acces_ouvert": true,
+      "statut_acces": "hybrid",
+      "url_texte": "https://www.clinicaltherapeutics.com/article/S0149-2918(26)00354-1/pdf",
+      "url_pdf": "https://www.clinicaltherapeutics.com/article/S0149-2918(26)00354-1/pdf",
+      "licence": "cc-by",
+      "texte_integral_indexe": true,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Pharmacovigilance and Adverse Drug Reactions",
+      "resume_present": true,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": []
+  }
+}

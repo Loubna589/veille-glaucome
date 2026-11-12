@@ -1,0 +1,113 @@
+{
+  "nct": "NCT06629649",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "nct": "NCT06629649",
+    "titre": "Implementing AI-based Glaucoma Screening Within Federally Qualified Health Centers",
+    "titre_officiel": "Implementing AI-based Glaucoma Screening Within Federally Qualified Health Centers",
+    "lien": "https://clinicaltrials.gov/study/NCT06629649",
+    "date_premiere_publication": "2024-10-08",
+    "date_derniere_mise_a_jour": "2026-11-06",
+    "type_etude": "INTERVENTIONAL",
+    "phases_declarees": [
+      "NA"
+    ],
+    "statut": "RECRUITING",
+    "raison_arret": null,
+    "date_debut": "2025-10-22",
+    "date_fin_principale": "2029-09-29",
+    "promoteur": "University of Alabama at Birmingham",
+    "type_promoteur": "OTHER",
+    "collaborateurs": [
+      "Centers for Disease Control and Prevention",
+      "University of California, San Diego"
+    ],
+    "conditions": [
+      "Glaucoma",
+      "Ocular Hypertension"
+    ],
+    "interventions": [
+      {
+        "type": "OTHER",
+        "nom": "Glaucoma screening using an AI-algorithm and screening for diabetic retinopathy, cataract, and visual acuity impairment."
+      }
+    ],
+    "participants_nombre": 1800,
+    "participants_type": "ESTIMATED",
+    "criteres_principaux": [
+      {
+        "critere": "Rate of participants where the glaucoma screening protocol leads to a screening diagnosis of glaucoma",
+        "delai": "up to 2-3 days"
+      },
+      {
+        "critere": "Rate of participants who decide to attend the follow up exam by optometrist or ophthalmologist",
+        "delai": "up to 4 months"
+      },
+      {
+        "critere": "Rate of participants where the screening protocol leads to a screening diagnosis of cataract, diabetic retinopathy, or visual acuity impairment",
+        "delai": "up to 2-3 days"
+      },
+      {
+        "critere": "Compare cost of screening program in FQHC to the cost of an ophthalmologist or optometrist guided assessment",
+        "delai": "up to 4 years"
+      }
+    ],
+    "resultats_deposes": false,
+    "publications_declarees": null,
+    "resume_source": "The goal of this clinical trial is to learn if implementation of an eye screening program at Federally Qualified Health Center (FQHC) clinics provides results that participants may have glaucoma, and/or other eye conditions (diabetic retinopathy, cataract, visual acuity impairment). The glaucoma screening will incorporate use of an artificial intelligence (AI)-assisted screening tool. This project is called AI-RONA. The main questions it aims to answer are:\n\n* How does this eye screening program compare to the rate of glaucoma and other eye conditions detected at other FQHC clinics where the screening program has not been implemented?\n* Do particpants who screen positive for these conditions adhere to the physician's recommendation for a follow-up examination by an optometrist or ophthalmologist?\n* Are referral rates for a follow-up comprehensive eye exam by an optometrist or ophthalmologist similar to those implemented by an ophthalmologist using telemedicine (that is, using the results of the screening to make a diagnosis remotely)?\n* What is the cost-effectiveness of the AI-assisted screening program in diagnosing glaucoma as compared to a physician-guided program?\n* Are participants completing the screening satisfied with it?\n* Are physicians at the FQHC clinics administering the screening satisfied with it?\n\nParticipants will:\n\n* Undergo an ocular screening whose goal is to detect glaucoma, diabetic retinopathy, cataract, and/or impairment in visual acuity. If the screening indicates that participants may have these conditions, participants will be referred for a comprehensive eye examination by an optometrist or ophthalmologist.\n* Following the screening, participants and physicians will complete a survey on their satisfaction with the program.",
+    "citations_declarees": null,
+    "plan": {
+      "repartition": "RANDOMIZED",
+      "modele": "CROSSOVER",
+      "but_principal": "SCREENING",
+      "insu": "NONE",
+      "insu_pour": null,
+      "insu_description": null,
+      "modele_observationnel": null
+    },
+    "bras": [
+      {
+        "libelle": "The Federally Qualified Health Centers (FQHCs)",
+        "type": "EXPERIMENTAL",
+        "description": "Eight FQHCs will participate in this project. Four FQHCs will implement a glaucoma screening protocol and a protocol for detecting diabetic retinopathy, cataract, and visual acuity impairment, while the other four will be standard of care without the above screening protocol.",
+        "interventions": [
+          "Other: Glaucoma screening using an AI-algorithm and screening for diabetic retinopathy, cataract, and visual acuity impairment."
+        ]
+      },
+      {
+        "libelle": "Primary Standard of Care",
+        "type": "NO_INTERVENTION",
+        "description": "Primary care provider asks participants if they are having symptoms or problems with their eyes or vision.",
+        "interventions": null
+      }
+    ],
+    "eligibilite": {
+      "criteres": "Inclusion Criteria:\n\n* African American or Hispanic persons ≥ 40 years old\n* Non-Hispanic white persons ≥ 50 years old\n* Anyone ≥ 18 years old with diabetes type 1 or type 2\n* Anyone ≥ 18 years old who already has a glaucoma associated disease\n* Anyone ≥ 18 years old with a family history of glaucoma\n\nExclusion Criteria:\n\n* Cannot communicate in English",
+      "age_min": "18 Years",
+      "age_max": null,
+      "sexe": "ALL",
+      "volontaires_sains": false
+    },
+    "criteres_secondaires": [
+      {
+        "critere": "Rate of primary care provider who state they agree with intervention acceptability, appropriateness, and feasibility",
+        "delai": "up to 6 months"
+      },
+      {
+        "critere": "Rate of participants who state they agree with the acceptability of the screening intervention",
+        "delai": "up to 1 day"
+      }
+    ],
+    "responsables": [
+      {
+        "nom": "Cynthia Owsley, PhD",
+        "affiliation": "University of Alabama at Birmingham",
+        "role": "PRINCIPAL_INVESTIGATOR"
+      }
+    ],
+    "date_depot_resultats": null,
+    "resultats": null
+  },
+  "modifications": []
+}

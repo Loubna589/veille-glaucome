@@ -1,0 +1,159 @@
+{
+  "pmid": "42837043",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42837043",
+    "titre": "Association of Topical Therapy and Surgical Management with Corneal Parameters in Congenital PAX6-Related Classical Aniridia: a Cross-Sectional Study.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42837043/",
+    "doi": "10.1007/s40123-026-01520-z",
+    "pmcid": "PMC13694570",
+    "revue": "Ophthalmology and therapy",
+    "date_entree_pubmed": "2026-10-06",
+    "date_publication": "2026-Nov",
+    "types_publication": [
+      "Journal Article"
+    ],
+    "resume_present": true,
+    "resume": "INTRODUCTION: This study aimed to investigate associations of topical therapy and surgical management with the severity of aniridia-associated keratopathy (AAK), limbal stem cell deficiency (LSCD) and corneal microstructural alterations in patients with PAX6-related congenital aniridia (CA).\nMETHODS: This cross-sectional study included eyes with genetically confirmed CA. Medical history, including preservative-free artificial tears, antiglaucoma medications (beta-blockers, brimonidine, carbonic anhydrase inhibitors, prostaglandin analogues), and ocular surgery was recorded. AAK and LSCD were graded. Anterior segment optical coherence tomography (AS-OCT) assessed epithelial and total corneal thickness, while in vivo confocal microscopy (IVCM) assessed subbasal nerve plexus parameters, Langerhans cell density (LCD), and stromal keratocyte density. Associations were analyzed using generalized estimating equations.\nRESULTS: Sixty-one eyes of 31 patients were analyzed. More advanced AAK and LSCD were associated with more frequent preservative-free artificial tear use. Antiglaucoma medications were associated with differences in corneal thickness, keratocyte and Langerhans cell densities, and subbasal nerve plexus parameters. Prostaglandin analogue use was associated with a heterogeneous pattern, including higher corneal nerve fiber density and length, higher middle stromal keratocyte density, and lower LCD. Previous ocular surgery showed limited associations with corneal microstructural parameters but was associated with lower corneal nerve network complexity. All findings were exploratory and hypothesis-generating.\nCONCLUSIONS: Topical therapy use is associated with differences in corneal structural and cellular parameters in congenital aniridia. Preservative-free artificial tear use is associated with more advanced AAK and LSCD, while antiglaucoma medications are associated with differences in corneal thickness, keratocyte and Langerhans cell densities, and corneal nerve parameters. Prostaglandin-treated eyes show a heterogeneous pattern of associations with corneal microstructural parameters. Given the cross-sectional design, whether these treatment-associated differences reflect medication effects, underlying disease severity, treatment selection, concomitant therapies, or residual confounding cannot be determined. These findings require longitudinal confirmation.",
+    "mots_cles_auteurs": [
+      "PAX6",
+      "Aniridia-associated keratopathy",
+      "Congenital aniridia",
+      "Glaucoma medications",
+      "In vivo confocal microscopy",
+      "Limbal stem cell deficiency",
+      "Prostaglandin analogues"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 16,
+    "affiliations_auteurs": [
+      "Department of Ophthalmology, Semmelweis University, Mária utca 39, 1085, Budapest, Hungary. yubolidr@gmail.com.",
+      "Department of Ophthalmology, Semmelweis University, Mária utca 39, 1085, Budapest, Hungary.",
+      "Dr. Rolf M. Schwiete Center for Limbal Stem Cell and Congenital Aniridia Research, Saarland University, Homburg, Saar, Germany.",
+      "Heim Pál National Pediatric Institute, Budapest, Hungary.",
+      "Department of Genetics and Genomics, Instituto de Investigación Sanitaria-Fundación Jiménez Díaz University Hospital, Universidad Autónoma de Madrid (IIS-FJD, UAM), Madrid, Spain.",
+      "Biomedical Research Networking Center on Rare Diseases (CIBERER), Instituto de Salud Carlos III, Madrid, Spain.",
+      "MTA-SE Lendület Nephrogenetic Laboratory, Hungarian Academy of Sciences, Budapest, Hungary.",
+      "1 st Department of Pediatrics, Semmelweis University, Budapest, Hungary.",
+      "Experimental Ophthalmology, Saarland University, Homburg, Saar, Germany.",
+      "Centre for Translational Medicine, Semmelweis University, Budapest, Hungary.",
+      "Institute of Pancreatic Diseases, Semmelweis University, Budapest, Hungary."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": true,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": [
+        {
+          "produit": "brimonidine",
+          "role": "non déterminé",
+          "statut_role": "cité dans le résumé ou les mots-clés"
+        }
+      ],
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": [
+        "preservative-free"
+      ],
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7220723367",
+      "doi": "10.1007/s40123-026-01520-z",
+      "pmid": "42837043",
+      "pmcid": "13694570",
+      "titre": "Association of Topical Therapy and Surgical Management with Corneal Parameters in Congenital PAX6-Related Classical Aniridia: a Cross-Sectional Study",
+      "lien": "https://openalex.org/W7220723367",
+      "date_publication": "2026-10-06",
+      "type": "article",
+      "revue": "Ophthalmology and Therapy",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "doaj",
+        "pubmed"
+      ],
+      "financeurs": null,
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "Semmelweis University",
+          "pays": "HU",
+          "type": "education",
+          "ror": "https://ror.org/01g9ty582"
+        },
+        {
+          "nom": "Saarland University",
+          "pays": "DE",
+          "type": "education",
+          "ror": "https://ror.org/01jdpyv68"
+        },
+        {
+          "nom": "Heim Pál Országos Gyermekgyógyászati Intézet",
+          "pays": "HU",
+          "type": "healthcare",
+          "ror": "https://ror.org/00d0r9b26"
+        },
+        {
+          "nom": "Instituto de Salud Carlos III",
+          "pays": "ES",
+          "type": "nonprofit",
+          "ror": "https://ror.org/00ca2c886"
+        },
+        {
+          "nom": "Centre for Biomedical Network Research on Rare Diseases",
+          "pays": "ES",
+          "type": "facility",
+          "ror": "https://ror.org/01ygm5w19"
+        },
+        {
+          "nom": "Hospital Universitario Fundación Jiménez Díaz",
+          "pays": "ES",
+          "type": "healthcare",
+          "ror": "https://ror.org/049nvyb15"
+        },
+        {
+          "nom": "Instituto de Investigación Sanitaria Fundación Jiménez Díaz",
+          "pays": "ES",
+          "type": "facility",
+          "ror": "https://ror.org/02whsjy88"
+        },
+        {
+          "nom": "Universidad Autónoma de Madrid",
+          "pays": "ES",
+          "type": "education",
+          "ror": "https://ror.org/01cby8j38"
+        },
+        {
+          "nom": "Hungarian Academy of Sciences",
+          "pays": "HU",
+          "type": "government",
+          "ror": "https://ror.org/02ks8qq67"
+        }
+      ],
+      "acces_ouvert": true,
+      "statut_acces": "gold",
+      "url_texte": "https://link.springer.com/content/pdf/10.1007/s40123-026-01520-z.pdf",
+      "url_pdf": "https://link.springer.com/content/pdf/10.1007/s40123-026-01520-z.pdf",
+      "licence": "cc-by-nc",
+      "texte_integral_indexe": true,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Ocular Disorders and Treatments",
+      "resume_present": true,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": []
+  }
+}

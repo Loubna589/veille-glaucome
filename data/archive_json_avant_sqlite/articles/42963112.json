@@ -1,0 +1,248 @@
+{
+  "pmid": "42963112",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42963112",
+    "titre": "Evaluating the impact of clinic spatial arrangements on glaucoma patient journey times: a comparative analysis of iterative changes in project HERCULES.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42963112/",
+    "doi": "10.1136/bjo-2026-330227",
+    "pmcid": null,
+    "revue": "The British journal of ophthalmology",
+    "date_entree_pubmed": "2026-10-30",
+    "date_publication": "2026-Oct-30",
+    "types_publication": [
+      "Journal Article"
+    ],
+    "resume_present": false,
+    "resume": null,
+    "mots_cles_auteurs": [
+      "Covid-19",
+      "Glaucoma",
+      "Public health"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 18,
+    "affiliations_auteurs": [
+      "Institute of Ophthalmology, UCL, London, UK email.giovanni@gmail.com.",
+      "NIHR Moorfields Biomedical Research Centre, London, UK.",
+      "Glaucoma Department, Moorfields Eye Hospital NHS Foundation Trust, London, UK.",
+      "Moorfields Eye Hospital NHS Foundation Trust, London, UK.",
+      "Ubisense Ltd, Cambridge, UK.",
+      "The Bartlett School of Architecture, UCL, London, UK.",
+      "UCL Bartlett Faculty of the Built Environment, University College London, London, UK.",
+      "UCL Research Department of Behavioural Science and Health, University College London, London, UK.",
+      "UCL Research Department of Primary Care and Population Health, University College London, London, UK.",
+      "Glaucoma Service, Moorfields Eye Hospital NHS Foundation Trust, London, UK.",
+      "Institute of Ophthalmology, UCL, London, UK."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7224914582",
+      "doi": "10.1136/bjo-2026-330227",
+      "pmid": "42963112",
+      "pmcid": null,
+      "titre": "Evaluating the impact of clinic spatial arrangements on glaucoma patient journey times: a comparative analysis of iterative changes in project HERCULES",
+      "lien": "https://openalex.org/W7224914582",
+      "date_publication": "2026-10-30",
+      "type": "article",
+      "revue": "British Journal of Ophthalmology",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "pubmed"
+      ],
+      "financeurs": [
+        {
+          "nom": "National Institute for Health and Care Research",
+          "ror": "https://ror.org/0187kwz08"
+        },
+        {
+          "nom": "Moorfields Eye Hospital NHS Foundation Trust",
+          "ror": "https://ror.org/03tb37539"
+        },
+        {
+          "nom": "Moorfields Eye Charity",
+          "ror": "https://ror.org/017hm5p20"
+        },
+        {
+          "nom": "National Institute for Health Research Biomedical Research Centre at Moorfields Eye Hospital NHS Foundation Trust and UCL Institute of Ophthalmology",
+          "ror": "https://ror.org/004hydx84"
+        }
+      ],
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "NIHR Moorfields Biomedical Research Centre",
+          "pays": "GB",
+          "type": "facility",
+          "ror": "https://ror.org/004hydx84"
+        },
+        {
+          "nom": "University College London",
+          "pays": "GB",
+          "type": "education",
+          "ror": "https://ror.org/02jx3x895"
+        },
+        {
+          "nom": "Moorfields Eye Hospital NHS Foundation Trust",
+          "pays": "GB",
+          "type": "healthcare",
+          "ror": "https://ror.org/03zaddr67"
+        },
+        {
+          "nom": "Moorfields Eye Hospital",
+          "pays": "GB",
+          "type": "healthcare",
+          "ror": "https://ror.org/03tb37539"
+        },
+        {
+          "nom": "Ubisense",
+          "pays": "GB",
+          "type": "company",
+          "ror": "https://ror.org/05gj0xf20"
+        }
+      ],
+      "acces_ouvert": true,
+      "statut_acces": "hybrid",
+      "url_texte": "https://bjo.bmj.com/content/bjophthalmol/early/2026/10/30/bjo-2026-330227.full.pdf",
+      "url_pdf": "https://bjo.bmj.com/content/bjophthalmol/early/2026/10/30/bjo-2026-330227.full.pdf",
+      "licence": "cc-by-nc",
+      "texte_integral_indexe": true,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Healthcare Operations and Scheduling Optimization",
+      "resume_present": true,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": [
+      {
+        "nom": "National Institute for Health and Care Research",
+        "statut": "À VÉRIFIER — trouvé par OpenAlex seulement (absent de la déclaration de l'éditeur dans Crossref) ; à contrôler dans le texte de l'article",
+        "references": null,
+        "notices": [
+          [
+            "notice OpenAlex",
+            "https://api.openalex.org/works/W7224914582"
+          ],
+          [
+            "notice Crossref consultée (ne confirme pas ce financeur)",
+            "https://api.crossref.org/works/10.1136/bjo-2026-330227"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "Moorfields Eye Hospital NHS Foundation Trust",
+        "statut": "À VÉRIFIER — trouvé par OpenAlex seulement (absent de la déclaration de l'éditeur dans Crossref) ; à contrôler dans le texte de l'article",
+        "references": null,
+        "notices": [
+          [
+            "notice OpenAlex",
+            "https://api.openalex.org/works/W7224914582"
+          ],
+          [
+            "notice Crossref consultée (ne confirme pas ce financeur)",
+            "https://api.crossref.org/works/10.1136/bjo-2026-330227"
+          ]
+        ],
+        "note": "cet organisme figure AUSSI parmi les institutions des auteurs : c'est une affiliation, information distincte"
+      },
+      {
+        "nom": "Moorfields Eye Charity",
+        "statut": "CONFIRMÉ — déclaré par l'éditeur dans Crossref",
+        "references": [
+          "Not applicable"
+        ],
+        "notices": [
+          [
+            "notice justificative Crossref (déclaration de l'éditeur)",
+            "https://api.crossref.org/works/10.1136/bjo-2026-330227"
+          ],
+          [
+            "notice OpenAlex",
+            "https://api.openalex.org/works/W7224914582"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "National Institute for Health Research Biomedical Research Centre at Moorfields Eye Hospital NHS Foundation Trust and UCL Institute of Ophthalmology",
+        "statut": "À VÉRIFIER — trouvé par OpenAlex seulement (absent de la déclaration de l'éditeur dans Crossref) ; à contrôler dans le texte de l'article",
+        "references": null,
+        "notices": [
+          [
+            "notice OpenAlex",
+            "https://api.openalex.org/works/W7224914582"
+          ],
+          [
+            "notice Crossref consultée (ne confirme pas ce financeur)",
+            "https://api.crossref.org/works/10.1136/bjo-2026-330227"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "Ubisense",
+        "statut": "CONFIRMÉ — déclaré par l'éditeur dans Crossref (absent d'OpenAlex)",
+        "references": [
+          "Not applicable"
+        ],
+        "notices": [
+          [
+            "notice justificative Crossref (déclaration de l'éditeur)",
+            "https://api.crossref.org/works/10.1136/bjo-2026-330227"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "Moorfields Eye Hospital NHS Foundation Trust via the NIHR Moorfields Biomedical Research Centre at Moorfields Eye Hospital and UCL Institute of Ophthalmology",
+        "statut": "CONFIRMÉ — déclaré par l'éditeur dans Crossref (absent d'OpenAlex)",
+        "references": [
+          "186321"
+        ],
+        "notices": [
+          [
+            "notice justificative Crossref (déclaration de l'éditeur)",
+            "https://api.crossref.org/works/10.1136/bjo-2026-330227"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "Optos",
+        "statut": "CONFIRMÉ — déclaré par l'éditeur dans Crossref (absent d'OpenAlex)",
+        "references": [
+          "Not applicable"
+        ],
+        "notices": [
+          [
+            "notice justificative Crossref (déclaration de l'éditeur)",
+            "https://api.crossref.org/works/10.1136/bjo-2026-330227"
+          ]
+        ],
+        "note": null
+      }
+    ]
+  }
+}

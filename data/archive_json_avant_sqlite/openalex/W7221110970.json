@@ -1,0 +1,58 @@
+{
+  "openalex_id": "W7221110970",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "openalex_id": "W7221110970",
+    "doi": "10.82333/ht80-hf39",
+    "pmid": null,
+    "pmcid": null,
+    "titre": "Femtosecond Laser-Assisted Cataract Surgery In Ocular Hypertension And Glaucoma",
+    "lien": "https://openalex.org/W7221110970",
+    "date_publication": "2026-10-09",
+    "type": "article",
+    "revue": "ESCRS Abstracts",
+    "type_source": "repository",
+    "langue": "en",
+    "indexe_dans": [
+      "datacite"
+    ],
+    "financeurs": null,
+    "subventions": null,
+    "institutions": [
+      {
+        "nom": "Institut Català de Retina",
+        "pays": "ES",
+        "type": "healthcare",
+        "ror": "https://ror.org/01skcdk50"
+      }
+    ],
+    "acces_ouvert": true,
+    "statut_acces": "green",
+    "url_texte": "https://doi.org/10.82333/ht80-hf39",
+    "url_pdf": null,
+    "licence": null,
+    "texte_integral_indexe": false,
+    "retracte": false,
+    "citations": 0,
+    "sujet_principal": "Intraocular Surgery and Lenses",
+    "resume_present": false,
+    "resume": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "present_dans_pubmed": false
+  }
+}

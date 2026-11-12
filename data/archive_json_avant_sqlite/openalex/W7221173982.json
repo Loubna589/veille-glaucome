@@ -1,0 +1,58 @@
+{
+  "openalex_id": "W7221173982",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "openalex_id": "W7221173982",
+    "doi": "10.82333/3xkr-hv63",
+    "pmid": null,
+    "pmcid": null,
+    "titre": "Ocular Hypertension After Phakic Intraocular Collamer Lens Implantation: The Lens Is Not Always To Blame",
+    "lien": "https://openalex.org/W7221173982",
+    "date_publication": "2026-10-09",
+    "type": "article",
+    "revue": "ESCRS Abstracts",
+    "type_source": "repository",
+    "langue": "en",
+    "indexe_dans": [
+      "datacite"
+    ],
+    "financeurs": null,
+    "subventions": null,
+    "institutions": [
+      {
+        "nom": "Hospital Clínico San Carlos",
+        "pays": "ES",
+        "type": "healthcare",
+        "ror": "https://ror.org/04d0ybj29"
+      }
+    ],
+    "acces_ouvert": true,
+    "statut_acces": "green",
+    "url_texte": "https://doi.org/10.82333/3xkr-hv63",
+    "url_pdf": null,
+    "licence": null,
+    "texte_integral_indexe": false,
+    "retracte": false,
+    "citations": 0,
+    "sujet_principal": "Intraocular Surgery and Lenses",
+    "resume_present": false,
+    "resume": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "present_dans_pubmed": false
+  }
+}

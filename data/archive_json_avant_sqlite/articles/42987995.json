@@ -1,0 +1,180 @@
+{
+  "pmid": "42987995",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42987995",
+    "titre": "Baseline Macular OCT Thickness of Ocular Hypertensive Patients Improves Prediction of Glaucoma.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42987995/",
+    "doi": "10.1016/j.ajo.2026.11.003",
+    "pmcid": null,
+    "revue": "American journal of ophthalmology",
+    "date_entree_pubmed": "2026-11-05",
+    "date_publication": "2026-Nov-05",
+    "types_publication": [
+      "Journal Article"
+    ],
+    "resume_present": true,
+    "resume": "PURPOSE: To determine whether baseline macular ganglion cell-inner plexiform layer (GCIPL) and circumpapillary retinal nerve fiber layer (cpRNFL) thickness add prognostic value for glaucomatous visual field (VF) damage in patients with ocular hypertension.\nDESIGN: Retrospective clinical cohort study.\nPARTICIPANTS: 330 eyes of 235 patients with ocular hypertension, defined by intraocular pressure of 22 mmHg or higher or an International Classification of Diseases coded diagnosis, without repeatable glaucomatous VF damage at baseline. Eyes came from both the African Descent and Glaucoma Evaluation Study and a clinical cohort at the Shiley Eye Institute.\nMETHODS: Baseline GCIPL and cpRNFL thickness were measured from the first good-quality Cirrus optical coherence tomography (OCT) macular and optic-disc cubes. Clinical predictors were assessed with the Ocular Hypertension Treatment Study (OHTS)-European Glaucoma Prevention Study (EGPS) Risk Calculator. Repeatable glaucomatous VF damage required a Glaucoma Hemifield Test outside normal limits or a pattern standard deviation at the 5% level or worse on three consecutive reliable Humphrey 24-2 examinations.\nMAIN OUTCOME MEASURES: Hazard ratios per 1 standard deviation (SD) of thinner global and sectoral GCIPL or cpRNFL, and the change in the Harrell concordance (C) index (ΔC) after adding each measure to the Risk Calculator.\nRESULTS: Glaucomatous VF damage developed in 47 of 330 eyes (14%) over a median 4.4 years. Adjusted for the Risk Calculator, thinner macular GCIPL was associated with conversion (hazard ratio [HR] 1.89 per 1-SD thinner; 95% confidence interval [CI], 1.50 to 2.37; P < .001), and every macular sector was significant (HR 1.71 to 2.02). The Risk Calculator alone showed modest discrimination (Harrell C-index, 0.57). Adding macular GCIPL improved discrimination (ΔC +0.101; 95% CI, +0.022 to +0.220). Global cpRNFL thickness did not improve discrimination (ΔC +0.004; 95% CI, -0.021 to +0.133); among cpRNFL quadrants, only the inferior quadrant was associated with conversion (HR 1.50; 95% CI, 1.02 to 2.22).\nCONCLUSIONS: In patients with ocular hypertension, thinner baseline macular GCIPL was associated with glaucomatous VF damage and improved the discrimination of the OHTS-EGPS Risk Calculator, whereas global cpRNFL thickness did not.",
+    "mots_cles_auteurs": [
+      "ganglion cell–inner plexiform layer",
+      "glaucoma",
+      "ocular hypertension",
+      "optical coherence tomography",
+      "risk prediction",
+      "visual field"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 12,
+    "affiliations_auteurs": [
+      "Hamilton Glaucoma Center, Shiley Eye Institute and the Viterbi Family Department of Ophthalmology, University of California San Diego, La Jolla, CA, United States.",
+      "Bernard and Shirlee Brown Glaucoma Research Laboratory, Harkness Eye Institute, Columbia University Medical Center, New York, NY, United States.",
+      "Department of Ophthalmology, School of Medicine, The University of Alabama at Birmingham, Birmingham, AL, United States; Discoveries in Sight, Devers Eye Institute, Legacy Health, Portland, OR, United States.",
+      "Hamilton Glaucoma Center, Shiley Eye Institute and the Viterbi Family Department of Ophthalmology, University of California San Diego, La Jolla, CA, United States. Electronic address: rweinreb@health.ucsd.edu."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7225338035",
+      "doi": "10.1016/j.ajo.2026.11.003",
+      "pmid": "42987995",
+      "pmcid": null,
+      "titre": "Baseline Macular OCT Thickness of Ocular Hypertensive Patients Improves Prediction of Glaucoma",
+      "lien": "https://openalex.org/W7225338035",
+      "date_publication": "2026-11-01",
+      "type": "article",
+      "revue": "American Journal of Ophthalmology",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "pubmed"
+      ],
+      "financeurs": [
+        {
+          "nom": "Research to Prevent Blindness",
+          "ror": "https://ror.org/04drjs621"
+        },
+        {
+          "nom": "Tobacco-Related Disease Research Program",
+          "ror": "https://ror.org/00pjdza24"
+        },
+        {
+          "nom": "National Institutes of Health",
+          "ror": "https://ror.org/01cwqze88"
+        }
+      ],
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "University of California San Diego",
+          "pays": "US",
+          "type": "education",
+          "ror": "https://ror.org/0168r3w48"
+        },
+        {
+          "nom": "Columbia University Irving Medical Center",
+          "pays": "US",
+          "type": "healthcare",
+          "ror": "https://ror.org/01esghr10"
+        },
+        {
+          "nom": "Legacy Health",
+          "pays": "US",
+          "type": "nonprofit",
+          "ror": "https://ror.org/04g9xj393"
+        },
+        {
+          "nom": "University of Alabama at Birmingham",
+          "pays": "US",
+          "type": "education",
+          "ror": "https://ror.org/008s83205"
+        },
+        {
+          "nom": "UAB Medicine",
+          "pays": "US",
+          "type": "healthcare",
+          "ror": "https://ror.org/036554539"
+        }
+      ],
+      "acces_ouvert": false,
+      "statut_acces": "closed",
+      "url_texte": null,
+      "url_pdf": null,
+      "licence": null,
+      "texte_integral_indexe": false,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Glaucoma and retinal disorders",
+      "resume_present": false,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": [
+      {
+        "nom": "Research to Prevent Blindness",
+        "statut": "CONFIRMÉ — déclaré par l'éditeur dans Crossref",
+        "references": null,
+        "notices": [
+          [
+            "notice justificative Crossref (déclaration de l'éditeur)",
+            "https://api.crossref.org/works/10.1016/j.ajo.2026.11.003"
+          ],
+          [
+            "notice OpenAlex",
+            "https://api.openalex.org/works/W7225338035"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "Tobacco-Related Disease Research Program",
+        "statut": "CONFIRMÉ — déclaré par l'éditeur dans Crossref",
+        "references": null,
+        "notices": [
+          [
+            "notice justificative Crossref (déclaration de l'éditeur)",
+            "https://api.crossref.org/works/10.1016/j.ajo.2026.11.003"
+          ],
+          [
+            "notice OpenAlex",
+            "https://api.openalex.org/works/W7225338035"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "National Institutes of Health",
+        "statut": "CONFIRMÉ — déclaré par l'éditeur dans Crossref",
+        "references": null,
+        "notices": [
+          [
+            "notice justificative Crossref (déclaration de l'éditeur)",
+            "https://api.crossref.org/works/10.1016/j.ajo.2026.11.003"
+          ],
+          [
+            "notice OpenAlex",
+            "https://api.openalex.org/works/W7225338035"
+          ]
+        ],
+        "note": null
+      }
+    ]
+  }
+}

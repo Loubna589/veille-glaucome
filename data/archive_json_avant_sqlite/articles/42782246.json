@@ -1,0 +1,58 @@
+{
+  "pmid": "42782246",
+  "premiere_detection": "2026-09-25",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42782246",
+    "titre": "Sparse Cell Labeling Reveals Morphologic Diversity Among Mouse Scleral Fibroblasts.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42782246/",
+    "doi": "10.1167/iovs.67.11.45",
+    "pmcid": null,
+    "revue": "Investigative ophthalmology & visual science",
+    "date_entree_pubmed": "2026-09-24",
+    "date_publication": "2026-Sep-01",
+    "types_publication": [
+      "Journal Article"
+    ],
+    "resume_present": true,
+    "resume": "PURPOSE: The purpose of this study was to investigate mouse scleral cell morphology in healthy and ocular hypertensive eyes.\nMETHODS: B6.Cg-Ndor1Tg (UBC-cre/ERT2) 1Ejb/1J (UBC-Cre-ERT2) (Strain # 007001; Jackson Labs, Bar Harbor, ME, USA) were crossed with Gt(ROSA)26 Sor tm1(CAG-Brainbow2.1)Cle /J (R26R-Confetti) (Strain # 017492, Jackson Labs) to obtain hemizygous offsprings (UBC-Confetti). This enables tamoxifen-induced recombination of the Brainbow 2.1 cassette, inducing random expression of fluorescent proteins in all cells. Two weeks after tamoxifen treatment (intraperitoneal injection, n = 7 mice), anterior chamber bead injection raised the intraocular pressure (IOP). Eyes were enucleated 3 days after bead injection. YFP and GFP-labeled peripapillary scleral (PPS) and peripheral scleral cells were imaged, cell volume was measured, and individual cell morphology was highlighted using Imaris (version 9.3; 89 control and 136 glaucomatous cells).\nRESULTS: Imaging of YFP/GFP-labeled cells allowed visualization of individual scleral cells. Differences in the intensity of the Confetti YFP/GFP signal compared to nuclear and fibrillar actin (FA) labels enabled visualization of FA and nuclear structure within YFP/GFP-labeled cells. Under baseline conditions, cells were morphologically diverse, displayed migratory structures, and extensions into the surrounding extracellular matrix (ECM). Mean PPS cell volume (692 µm3, interquartile range [IQR] = 419.8-1304 µm3, n = 62 cells) was greater than peripheral cell volume (336 µm3, IQR = 217-488 µm3, n = 27 cells, P < 0.0001). Cells in glaucomatous eyes exhibited similar morphologic diversity and had reduced PPS cell volume compared with controls (277 µm3, IQR = 154-532, n = 83 cells, P < 0.0001).\nCONCLUSIONS: Sparse cell labeling allowed visualization of individual cell morphology in the scleral environment. Cells demonstrated diverse morphologies, and PPS cells responded to IOP elevation.",
+    "mots_cles_auteurs": null,
+    "langue": "eng",
+    "nombre_auteurs": 5,
+    "affiliations_auteurs": [
+      "Department of Ophthalmology, The Johns Hopkins University School of Medicine, Baltimore, Maryland, United States.",
+      "Department of Ophthalmology and Visual Sciences, John A. Moran Eye Center, University of Utah, Salt Lake City, Utah, United States.",
+      "Crandall Center for Glaucoma Innovation, John A. Moran Eye Center, University of Utah, Salt Lake City, Utah, United States."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": [
+      "Animals",
+      "Sclera",
+      "Mice",
+      "Fibroblasts",
+      "Intraocular Pressure",
+      "Mice, Inbred C57BL",
+      "Ocular Hypertension",
+      "Disease Models, Animal",
+      "Female",
+      "Staining and Labeling",
+      "Green Fluorescent Proteins"
+    ]
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Préclinique",
+      "stade_source": "indexation MeSH de PubMed (modèle animal / animaux sans humains)",
+      "hors_veille_principale": false
+    }
+  }
+}

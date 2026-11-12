@@ -1,0 +1,84 @@
+{
+  "pmid": "42769994",
+  "premiere_detection": "2026-09-25",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42769994",
+    "titre": "Deep Stromal Honeybee Sting Injury Causing Toxic Keratouveitis, Secondary Ocular Hypertension, and Iris Atrophy With Excellent Visual Recovery: A Case Report.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42769994/",
+    "doi": "10.7759/cureus.114971",
+    "pmcid": "PMC13592013",
+    "revue": "Cureus",
+    "date_entree_pubmed": "2026-09-22",
+    "date_publication": "2026-Aug",
+    "types_publication": [
+      "Case Reports",
+      "Journal Article"
+    ],
+    "resume_present": true,
+    "resume": "Honeybee sting injuries involving the cornea are uncommon but can result in severe visual morbidity because of mechanical injury and venom-induced toxicity. A 29-year-old man presented with severe pain, redness, watering, and profound visual loss in the right eye following accidental entry of a honeybee while driving. Visual acuity was perception of light with accurate projection of rays in all four quadrants. Slit-lamp examination revealed marked corneal edema, Descemet membrane folds, and a deep stromal foreign body in the superotemporal cornea. Intraocular pressure was elevated to 42 mmHg. Urgent foreign body removal and corneal scraping were performed, followed by intensive medical management including topical antibiotics, cycloplegics, antiglaucoma therapy, and systemic medications. Serial follow-up demonstrated progressive resolution of corneal edema and inflammation. Although diffuse iris atrophy and a fixed dilated pupil developed, final visual acuity improved remarkably to 6/6 partial. Early recognition and prompt intervention can result in excellent visual outcomes despite severe initial presentation.",
+    "mots_cles_auteurs": [
+      "corneal edema",
+      "corneal foreign body",
+      "honeybee sting",
+      "keratouveitis",
+      "ocular hypertension"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 3,
+    "affiliations_auteurs": [
+      "Ophthalmology, Sewa Sadan Eye Hospital, Bhopal, Bhopal, IND."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7203969360",
+      "doi": "10.7759/cureus.114971",
+      "pmid": "42769994",
+      "pmcid": null,
+      "titre": "Deep Stromal Honeybee Sting Injury Causing Toxic Keratouveitis, Secondary Ocular Hypertension, and Iris Atrophy With Excellent Visual Recovery: A Case Report",
+      "lien": "https://openalex.org/W7203969360",
+      "date_publication": "2026-08-22",
+      "type": "article",
+      "revue": "Cureus",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "pubmed"
+      ],
+      "financeurs": null,
+      "subventions": null,
+      "institutions": null,
+      "acces_ouvert": true,
+      "statut_acces": "diamond",
+      "url_texte": "https://doi.org/10.7759/cureus.114971",
+      "url_pdf": null,
+      "licence": "cc-by",
+      "texte_integral_indexe": false,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Healthcare and Venom Research",
+      "resume_present": true,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-09-25",
+    "financements": []
+  }
+}

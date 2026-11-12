@@ -1,0 +1,126 @@
+{
+  "pmid": "42933823",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42933823",
+    "titre": "Corneal epithelial defects following micropulse transscleral cyclophotocoagulation: incidence, clinical course and associated ocular phenotypes.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42933823/",
+    "doi": "10.1136/bjo-2026-331008",
+    "pmcid": null,
+    "revue": "The British journal of ophthalmology",
+    "date_entree_pubmed": "2026-10-26",
+    "date_publication": "2026-Oct-26",
+    "types_publication": [
+      "Journal Article"
+    ],
+    "resume_present": false,
+    "resume": null,
+    "mots_cles_auteurs": [
+      "Cornea",
+      "Glaucoma",
+      "Neovascularisation",
+      "Ocular surface",
+      "Treatment Lasers"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 9,
+    "affiliations_auteurs": [
+      "Department of Ophthalmology, The University of Hong Kong, Hong Kong, Hong Kong lam.thomasch@gmail.com.",
+      "Department of Ophthalmology and Visual Sciences, The Chinese University of Hong Kong, Hong Kong, Hong Kong.",
+      "Department of Ophthalmology, Grantham Hospital, Hong Kong, Hong Kong.",
+      "Department of Ophthalmology, Queen Mary Hospital, Hong Kong, Hong Kong.",
+      "Department of Ophthalmology, United Christian Hospital, Hong Kong, Hong Kong.",
+      "Department of Ophthalmology, The University of Hong Kong, Hong Kong, Hong Kong.",
+      "Department of Ophthalmology, Hong Kong Eye Hospital, Hong Kong, Hong Kong."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7223700788",
+      "doi": "10.1136/bjo-2026-331008",
+      "pmid": "42933823",
+      "pmcid": null,
+      "titre": "Corneal epithelial defects following micropulse transscleral cyclophotocoagulation: incidence, clinical course and associated ocular phenotypes",
+      "lien": "https://openalex.org/W7223700788",
+      "date_publication": "2026-10-26",
+      "type": "article",
+      "revue": "British Journal of Ophthalmology",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "pubmed"
+      ],
+      "financeurs": null,
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "Chinese University of Hong Kong",
+          "pays": "HK",
+          "type": "education",
+          "ror": "https://ror.org/00t33hh48"
+        },
+        {
+          "nom": "Queen Mary Hospital",
+          "pays": "CN",
+          "type": "healthcare",
+          "ror": "https://ror.org/02xkx3e48"
+        },
+        {
+          "nom": "Grantham Hospital",
+          "pays": "CN",
+          "type": "healthcare",
+          "ror": "https://ror.org/01t54q348"
+        },
+        {
+          "nom": "University of Hong Kong",
+          "pays": "HK",
+          "type": "education",
+          "ror": "https://ror.org/02zhqgq86"
+        },
+        {
+          "nom": "United Christian Hospital",
+          "pays": "CN",
+          "type": "healthcare",
+          "ror": "https://ror.org/02vhmfv49"
+        },
+        {
+          "nom": "Hong Kong Eye Hospital",
+          "pays": "CN",
+          "type": "healthcare",
+          "ror": "https://ror.org/03fttgk04"
+        }
+      ],
+      "acces_ouvert": false,
+      "statut_acces": "closed",
+      "url_texte": null,
+      "url_pdf": null,
+      "licence": null,
+      "texte_integral_indexe": false,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Glaucoma and retinal disorders",
+      "resume_present": true,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": []
+  }
+}

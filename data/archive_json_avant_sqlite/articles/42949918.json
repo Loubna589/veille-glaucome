@@ -1,0 +1,356 @@
+{
+  "pmid": "42949918",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42949918",
+    "titre": "Neuroprotectant development from small molecule inhibitors of CHOP/ATF4 expression.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42949918/",
+    "doi": "10.1016/j.celrep.2026.118225",
+    "pmcid": null,
+    "revue": "Cell reports",
+    "date_entree_pubmed": "2026-10-28",
+    "date_publication": "2026-Oct-27",
+    "types_publication": [
+      "Journal Article"
+    ],
+    "resume_present": true,
+    "resume": "Glaucoma is a neurodegenerative disease that is in urgent need of neuroprotective therapies. We previously revealed the critical role of neuronal endoplasmic reticulum (ER) stress induced by optic nerve injury in glaucomatous neurodegeneration. We also demonstrated that modulation of the ATF4-CHOP branch of ER stress provides significant neuroprotection. Here, we present multiple new chemical series identified by high-throughput screening that inhibit ER stress-induced C/EBP homologous protein (CHOP) expression. We perform a structure-activity relationship analysis of one \"hit\" compound and establish two analogs with potent activities on inhibiting the expression of CHOP and activating transcription factor 4 (ATF4). We further demonstrate their neuroprotective efficacy in two optic neuropathy models; in both models, they increase survival of retinal ganglion cell somata and axons and preserve visual function. Together, this proof-of-concept evidence establishes the new ER stress modulators as promising candidates for further drug development to provide neuroprotective therapy for glaucoma and other optic neuropathies, and potentially for diverse CNS axonopathies.",
+    "mots_cles_auteurs": [
+      "CHOP",
+      "CP: neuroscience",
+      "ER stress",
+      "glaucoma",
+      "neuroprotection",
+      "small molecules"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 12,
+    "affiliations_auteurs": [
+      "Spencer Center for Vision Research, Department of Ophthalmology, Byers Eye Institute at Stanford University School of Medicine, Palo Alto, CA 94304, USA.",
+      "High-Throughput Bioscience Center, Stanford University School of Medicine, Palo Alto, CA 94305, USA.",
+      "SPARK Program, Stanford University, Palo Alto, CA 94305, USA.",
+      "Spencer Center for Vision Research, Department of Ophthalmology, Byers Eye Institute at Stanford University School of Medicine, Palo Alto, CA 94304, USA. Electronic address: dongliux@stanford.edu.",
+      "Spencer Center for Vision Research, Department of Ophthalmology, Byers Eye Institute at Stanford University School of Medicine, Palo Alto, CA 94304, USA. Electronic address: huyang@stanford.edu."
+    ],
+    "financeurs_declares": [
+      {
+        "organisme": "NEI NIH HHS",
+        "pays": "United States",
+        "reference": "R01 EY034353"
+      },
+      {
+        "organisme": "NEI NIH HHS",
+        "pays": "United States",
+        "reference": "P30 EY026877"
+      },
+      {
+        "organisme": "NEI NIH HHS",
+        "pays": "United States",
+        "reference": "R01 EY024932"
+      },
+      {
+        "organisme": "NEI NIH HHS",
+        "pays": "United States",
+        "reference": "R01 EY036943"
+      },
+      {
+        "organisme": "NEI NIH HHS",
+        "pays": "United States",
+        "reference": "R01 EY032518"
+      },
+      {
+        "organisme": "NEI NIH HHS",
+        "pays": "United States",
+        "reference": "R01 EY023295"
+      }
+    ],
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7223910993",
+      "doi": "10.1016/j.celrep.2026.118225",
+      "pmid": "42949918",
+      "pmcid": null,
+      "titre": "Neuroprotectant development from small molecule inhibitors of CHOP/ATF4 expression",
+      "lien": "https://openalex.org/W7223910993",
+      "date_publication": "2026-10-27",
+      "type": "article",
+      "revue": "Cell Reports",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "doaj",
+        "pubmed"
+      ],
+      "financeurs": [
+        {
+          "nom": "Glaucoma Research Foundation",
+          "ror": "https://ror.org/05ez53b31"
+        },
+        {
+          "nom": "Stanford University",
+          "ror": "https://ror.org/00f54p054"
+        },
+        {
+          "nom": "Chan Zuckerberg Initiative",
+          "ror": "https://ror.org/02qenvm24"
+        },
+        {
+          "nom": "National Institutes of Health",
+          "ror": "https://ror.org/01cwqze88"
+        },
+        {
+          "nom": "National Eye Institute",
+          "ror": "https://ror.org/03wkg3b53"
+        }
+      ],
+      "subventions": [
+        {
+          "financeur": "National Eye Institute",
+          "reference": "R01EY023295"
+        },
+        {
+          "financeur": "National Eye Institute",
+          "reference": "EY036943"
+        },
+        {
+          "financeur": "National Eye Institute",
+          "reference": "R01EY032518"
+        },
+        {
+          "financeur": "National Eye Institute",
+          "reference": "R01EY036943"
+        },
+        {
+          "financeur": "National Eye Institute",
+          "reference": "R01EY024932"
+        },
+        {
+          "financeur": "National Eye Institute",
+          "reference": "R01EY034353"
+        },
+        {
+          "financeur": "National Eye Institute",
+          "reference": "P30EY026877"
+        }
+      ],
+      "institutions": [
+        {
+          "nom": "Stanford University",
+          "pays": "US",
+          "type": "education",
+          "ror": "https://ror.org/00f54p054"
+        },
+        {
+          "nom": "Stanford Medicine",
+          "pays": "US",
+          "type": "healthcare",
+          "ror": "https://ror.org/03mtd9a03"
+        }
+      ],
+      "acces_ouvert": true,
+      "statut_acces": "gold",
+      "url_texte": "https://www.cell.com/cell-reports/pdf/S2211-1247(26)01304-5.pdf",
+      "url_pdf": "https://www.cell.com/cell-reports/pdf/S2211-1247(26)01304-5.pdf",
+      "licence": "cc-by-nc-nd",
+      "texte_integral_indexe": true,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Endoplasmic Reticulum Stress and Disease",
+      "resume_present": true,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": [
+      {
+        "nom": "NEI NIH HHS",
+        "statut": "CONFIRMÉ — déclaré dans la notice PubMed (GrantList)",
+        "references": [
+          "R01 EY034353"
+        ],
+        "notices": [
+          [
+            "notice PubMed",
+            "https://pubmed.ncbi.nlm.nih.gov/42949918/?format=pubmed"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "NEI NIH HHS",
+        "statut": "CONFIRMÉ — déclaré dans la notice PubMed (GrantList)",
+        "references": [
+          "P30 EY026877"
+        ],
+        "notices": [
+          [
+            "notice PubMed",
+            "https://pubmed.ncbi.nlm.nih.gov/42949918/?format=pubmed"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "NEI NIH HHS",
+        "statut": "CONFIRMÉ — déclaré dans la notice PubMed (GrantList)",
+        "references": [
+          "R01 EY024932"
+        ],
+        "notices": [
+          [
+            "notice PubMed",
+            "https://pubmed.ncbi.nlm.nih.gov/42949918/?format=pubmed"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "NEI NIH HHS",
+        "statut": "CONFIRMÉ — déclaré dans la notice PubMed (GrantList)",
+        "references": [
+          "R01 EY036943"
+        ],
+        "notices": [
+          [
+            "notice PubMed",
+            "https://pubmed.ncbi.nlm.nih.gov/42949918/?format=pubmed"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "NEI NIH HHS",
+        "statut": "CONFIRMÉ — déclaré dans la notice PubMed (GrantList)",
+        "references": [
+          "R01 EY032518"
+        ],
+        "notices": [
+          [
+            "notice PubMed",
+            "https://pubmed.ncbi.nlm.nih.gov/42949918/?format=pubmed"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "NEI NIH HHS",
+        "statut": "CONFIRMÉ — déclaré dans la notice PubMed (GrantList)",
+        "references": [
+          "R01 EY023295"
+        ],
+        "notices": [
+          [
+            "notice PubMed",
+            "https://pubmed.ncbi.nlm.nih.gov/42949918/?format=pubmed"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "Glaucoma Research Foundation",
+        "statut": "CONFIRMÉ — déclaré par l'éditeur dans Crossref",
+        "references": null,
+        "notices": [
+          [
+            "notice justificative Crossref (déclaration de l'éditeur)",
+            "https://api.crossref.org/works/10.1016/j.celrep.2026.118225"
+          ],
+          [
+            "notice OpenAlex",
+            "https://api.openalex.org/works/W7223910993"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "Stanford University",
+        "statut": "CONFIRMÉ — déclaré par l'éditeur dans Crossref",
+        "references": null,
+        "notices": [
+          [
+            "notice justificative Crossref (déclaration de l'éditeur)",
+            "https://api.crossref.org/works/10.1016/j.celrep.2026.118225"
+          ],
+          [
+            "notice OpenAlex",
+            "https://api.openalex.org/works/W7223910993"
+          ]
+        ],
+        "note": "cet organisme figure AUSSI parmi les institutions des auteurs : c'est une affiliation, information distincte"
+      },
+      {
+        "nom": "Chan Zuckerberg Initiative",
+        "statut": "CONFIRMÉ — déclaré par l'éditeur dans Crossref",
+        "references": null,
+        "notices": [
+          [
+            "notice justificative Crossref (déclaration de l'éditeur)",
+            "https://api.crossref.org/works/10.1016/j.celrep.2026.118225"
+          ],
+          [
+            "notice OpenAlex",
+            "https://api.openalex.org/works/W7223910993"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "National Institutes of Health",
+        "statut": "À VÉRIFIER — trouvé par OpenAlex seulement (absent de la déclaration de l'éditeur dans Crossref) ; à contrôler dans le texte de l'article",
+        "references": null,
+        "notices": [
+          [
+            "notice OpenAlex",
+            "https://api.openalex.org/works/W7223910993"
+          ],
+          [
+            "notice Crossref consultée (ne confirme pas ce financeur)",
+            "https://api.crossref.org/works/10.1016/j.celrep.2026.118225"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "National Eye Institute",
+        "statut": "CONFIRMÉ — déclaré par l'éditeur dans Crossref",
+        "references": [
+          "R01EY023295",
+          "EY036943",
+          "R01EY032518",
+          "R01EY036943",
+          "R01EY024932",
+          "R01EY034353",
+          "P30EY026877"
+        ],
+        "notices": [
+          [
+            "notice justificative Crossref (déclaration de l'éditeur)",
+            "https://api.crossref.org/works/10.1016/j.celrep.2026.118225"
+          ],
+          [
+            "notice OpenAlex",
+            "https://api.openalex.org/works/W7223910993"
+          ]
+        ],
+        "note": null
+      }
+    ]
+  }
+}

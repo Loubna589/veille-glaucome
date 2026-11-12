@@ -1,0 +1,138 @@
+{
+  "pmid": "42972053",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42972053",
+    "titre": "The Royal College of Ophthalmologists' National Ophthalmology Database: report 15, severe vision loss following cataract surgery.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42972053/",
+    "doi": "10.1038/s41433-026-04974-4",
+    "pmcid": null,
+    "revue": "Eye (London, England)",
+    "date_entree_pubmed": "2026-11-02",
+    "date_publication": "2026-Nov-02",
+    "types_publication": [
+      "Journal Article"
+    ],
+    "resume_present": true,
+    "resume": "BACKGROUND/OBJECTIVES: To investigate rates of severe vision loss post-cataract surgery.\nSUBJECTS/METHODS: Post-cataract severe vision loss (SVL) was defined as a loss of ≥0.60 LogMAR between preoperative presenting visual acuity and postoperative visual acuity. The term 'legally blind' was used for eyes with a corrected visual acuity worse than 1.30 LogMAR. Between 2010 and 2024, there were 1,750,553 eligible operations performed on 1,217,267 patients by 3766 surgeons from 132 centres supplying data to the Royal College of Ophthalmologists National Ophthalmology Database Cataract Audit.\nRESULTS: Severe vision loss was recorded in 3723 (0.21%) eyes, including 3 eyes (2 patients) from 2 718 immediate sequential bilateral cataract surgery (ISBCS) eyes. The highest observed SVL rate was 10.68% for eyes recorded as left aphakic after surgery and the second highest observed SVL rate (3.32%) was when posterior capsular rupture occurred. The SVL rate was higher than the overall rate for eyes with previous intravitreal injections (0.76%), eyes with optic nerve or central nervous system problems (0.74%), age-related macular degeneration (0.52%), previous vitrectomy surgery (0.49%), diabetic retinopathy (0.45%), glaucoma (0.42%) or corneal pathology (0.33%). Of 1,642,386 (93.8%) eyes that were not preoperatively legally blind, 2731 (0.2%) were postoperatively legally blind. Of these, 2294 (84.0%) eyes experienced severe vision loss.\nCONCLUSIONS: Severe vision loss from any cause following cataract surgery occurs infrequently. However, it has a higher prevalence in eyes left aphakic, when PCR occurs and for certain ocular comorbidities.",
+    "mots_cles_auteurs": null,
+    "langue": "eng",
+    "nombre_auteurs": 5,
+    "affiliations_auteurs": [
+      "Royal Devon University Healthcare NHS Foundation Trust, Exeter, UK. conor.ramsden@nhs.net.",
+      "University of Exeter, RILD, Exeter, UK. conor.ramsden@nhs.net.",
+      "The Royal College of Ophthalmologists' National Ophthalmology Database Audit, London, UK.",
+      "Gloucestershire Hospitals NHS Foundation Trust, Cheltenham, UK.",
+      "Bristol Eye Hospital, Lower Maudlin St, Bristol, UK.",
+      "International Centre for Eye Health, London School of Hygiene and Tropical Medicine, London, UK.",
+      "The Leeds Teaching Hospitals NHS Trust, Leeds, UK."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7148738278",
+      "doi": "10.1038/s41433-026-04974-4",
+      "pmid": "42972053",
+      "pmcid": null,
+      "titre": "The Royal College of Ophthalmologists’ National Ophthalmology Database: report 15, severe vision loss following cataract surgery",
+      "lien": "https://openalex.org/W7148738278",
+      "date_publication": "2026-11-02",
+      "type": "article",
+      "revue": "Eye",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "pubmed"
+      ],
+      "financeurs": null,
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "University of Exeter",
+          "pays": "GB",
+          "type": "education",
+          "ror": "https://ror.org/03yghzc09"
+        },
+        {
+          "nom": "Royal Devon & Exeter NHS Foundation Trust",
+          "pays": "GB",
+          "type": "healthcare",
+          "ror": "https://ror.org/03085z545"
+        },
+        {
+          "nom": "Royal Devon University Healthcare NHS Foundation Trust",
+          "pays": "GB",
+          "type": "healthcare",
+          "ror": "https://ror.org/05e5ahc59"
+        },
+        {
+          "nom": "Royal College of Ophthalmologists",
+          "pays": "GB",
+          "type": "education",
+          "ror": "https://ror.org/05s86pb97"
+        },
+        {
+          "nom": "Gloucestershire Hospitals NHS Foundation Trust",
+          "pays": "GB",
+          "type": "healthcare",
+          "ror": "https://ror.org/04mw34986"
+        },
+        {
+          "nom": "Bristol Eye Hospital",
+          "pays": "GB",
+          "type": "healthcare",
+          "ror": "https://ror.org/01w151e64"
+        },
+        {
+          "nom": "Leeds Teaching Hospitals NHS Trust",
+          "pays": "GB",
+          "type": "healthcare",
+          "ror": "https://ror.org/00v4dac24"
+        },
+        {
+          "nom": "London School of Hygiene & Tropical Medicine",
+          "pays": "GB",
+          "type": "education",
+          "ror": "https://ror.org/00a0jsq62"
+        },
+        {
+          "nom": "International Centre for Eye Health",
+          "pays": "GB",
+          "type": "other",
+          "ror": "https://ror.org/04aj9p642"
+        }
+      ],
+      "acces_ouvert": true,
+      "statut_acces": "hybrid",
+      "url_texte": "https://www.nature.com/articles/s41433-026-04974-4.pdf",
+      "url_pdf": "https://www.nature.com/articles/s41433-026-04974-4.pdf",
+      "licence": "cc-by",
+      "texte_integral_indexe": true,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Intraocular Surgery and Lenses",
+      "resume_present": true,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": []
+  }
+}

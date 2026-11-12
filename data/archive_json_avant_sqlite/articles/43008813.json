@@ -1,0 +1,48 @@
+{
+  "pmid": "43008813",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "43008813",
+    "titre": "Risk of angle-closure glaucoma after lens extraction versus laser peripheral iridotomy in primary angle-closure suspects.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/43008813/",
+    "doi": "10.1016/j.jcjo.2026.10.010",
+    "pmcid": null,
+    "revue": "Canadian journal of ophthalmology. Journal canadien d'ophtalmologie",
+    "date_entree_pubmed": "2026-11-10",
+    "date_publication": "2026-Nov-10",
+    "types_publication": [
+      "Journal Article"
+    ],
+    "resume_present": true,
+    "resume": "OBJECTIVE: To evaluate the association between lens extraction versus laser peripheral iridotomy (LPI) and progression from primary angle-closure suspect (PACS) to coded angle-closure glaucoma (ACG).\nDESIGN: Retrospective propensity score-matched cohort study.\nPARTICIPANTS: Patients with PACS undergoing lens extraction or LPI (January 2014 to February 2026) in the TriNetX Global Collaborative Network and matched 1:1 on demographics, systemic and ocular comorbidities, medications, and body mass index, yielding 6059 patients per group (mean age, 68 years; 69% female; 59% White).\nMETHODS: The primary outcome was a new coded ACG diagnosis assessed using Cox regression. Prespecified subgroup analyses by age (<60, 60-70, >70 years) and sex used separately matched cohorts, with optic neuritis as a negative control outcome.\nRESULTS: Coded ACG occurred in 3.5% of the lens-extraction group versus 5.4% of the LPI group (hazard ratio [HR] 0.66, 95% CI 0.56-0.79, P < 0.001). A significant benefit was observed in patients >70 years (HR 0.62, P < 0.001), but not in patients <60 years (HR 0.85, P = 0.63) nor 60-70 years (HR 0.78, P = 0.16). Among patients with LPI, 45% subsequently underwent lens extraction, with lower risk than LPI alone (HR 0.60, P = 0.001). Corneal edema, retinal detachment, and macular hole occurred more frequently after lens extraction than after LPI.\nCONCLUSIONS: Lens extraction was associated with lower risk of coded ACG than LPI in patients with PACS, most consistently in those >70 years, but was also associated with more frequent complications. Given the observational design, prospective studies are needed to confirm these findings and identify which patients are most likely to benefit from early lens extraction.",
+    "mots_cles_auteurs": null,
+    "langue": "eng",
+    "nombre_auteurs": 6,
+    "affiliations_auteurs": [
+      "Scheie Eye Institute, Department of Ophthalmology, University of Pennsylvania, Philadelphia, PA.",
+      "Department of Ophthalmology, University of California San Francisco, San Francisco, CA.",
+      "Beijing Tongren Eye Center, Beijing Tongren Hospital, Beijing, China.",
+      "Department of Ophthalmology, University of California San Francisco, San Francisco, CA; The Francis I. Proctor Foundation for Research in Ophthalmology, University of California San Francisco, San Francisco, CA; Ophthalmology Section, Surgical Service, San Francisco Veterans Affairs Medical Center, San Francisco, CA.",
+      "Scheie Eye Institute, Department of Ophthalmology, University of Pennsylvania, Philadelphia, PA. Electronic address: gsying@pennmedicine.upenn.edu."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    }
+  }
+}

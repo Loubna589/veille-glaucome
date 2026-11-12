@@ -1,0 +1,133 @@
+{
+  "pmid": "42944869",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42944869",
+    "titre": "Twelve-month outcomes of a tube-in-tube PreserFlo MicroShunt-Baerveldt glaucoma implant connection as a salvage procedure in refractory glaucoma: a pilot series.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42944869/",
+    "doi": "10.1007/s00417-026-07576-8",
+    "pmcid": null,
+    "revue": "Graefe's archive for clinical and experimental ophthalmology = Albrecht von Graefes Archiv fur klinische und experimentelle Ophthalmologie",
+    "date_entree_pubmed": "2026-10-27",
+    "date_publication": "2026-Oct-27",
+    "types_publication": [
+      "Journal Article"
+    ],
+    "resume_present": true,
+    "resume": "PURPOSE: To report 12-month outcomes of a tube-in-tube connection between an existing PreserFlo MicroShunt (PFMS) and a Baerveldt glaucoma implant (BGI) used as a salvage procedure after PFMS failure or conjunctival/tube-related complications.\nMETHODS: Retrospective, single-center, consecutive case series of 6 pseudophakic eyes of 6 patients. A 350-mm² BGI was connected to the extraocular segment of the PFMS, which was retained as the anterior chamber entry and flow-restricting conduit while the Baerveldt plate served as a posterior reservoir. Outcome parameters at 12 months were intraocular pressure (IOP), number of topical antiglaucoma medications, surgical success, complications, and reinterventions.\nRESULTS: Mean IOP decreased from 29.8 ± 15.0 mmHg preoperatively to 13.7 ± 4.6 mmHg at 12 months. Mean topical medications decreased from 3.0 ± 1.1 to 1.7 ± 1.9; systemic acetazolamide, used in 5 of 6 eyes preoperatively, was discontinued in all eyes. Qualified and complete success were achieved in 2 of 6 (33%) and 1 of 6 eyes (17%), respectively; 4 of 6 eyes were within their individualized target range. No clinically significant hypotony occurred. When the 2 eyes that underwent additional IOP-lowering surgery were excluded, the mean 12-month IOP in the remaining 4 eyes was 13.0 mmHg. Reinterventions comprised bleb revision with device exchange in 1 eye, scleral patch graft for tube exposure in 1 eye, and conjunctival reconstruction followed by micropulse cyclophotocoagulation in 1 eye.\nCONCLUSION: The tube-in-tube PFMS-BGI connection lowered IOP and medication burden at 12 months while preserving the original anterior chamber entry, but composite success was modest and conjunctival or tube complications were common. The technique should be reserved for selected salvage cases and is distinct from primary combined PFMS-BGI implantation.",
+    "mots_cles_auteurs": [
+      "Baerveldt glaucoma implant",
+      "Glaucoma drainage device",
+      "PreserFlo MicroShunt",
+      "Refractory glaucoma",
+      "Surgical salvage",
+      "Tube-in-tube connection"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 5,
+    "affiliations_auteurs": [
+      "Department of Ophthalmology, Hannover Medical School, Hannover, Germany. helalbirjandi.alireza@mh-hannover.de.",
+      "Department of Ophthalmology, University of Leipzig, Leipzig, Germany.",
+      "Department of Ophthalmology, Klinikum Dortmund, University Witten/Herdecke, Dortmund, Germany.",
+      "Department of Ophthalmology, Hannover Medical School, Hannover, Germany.",
+      "Department of Ophthalmology, Hannover Medical School, Hannover, Germany. panermioni@googlemail.com.",
+      "Regensburg Eye Institute, Regensburg, Germany. panermioni@googlemail.com."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": true,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": [
+        {
+          "produit": "acetazolamide",
+          "role": "non déterminé",
+          "statut_role": "cité dans le résumé ou les mots-clés"
+        }
+      ],
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7224001453",
+      "doi": "10.1007/s00417-026-07576-8",
+      "pmid": "42944869",
+      "pmcid": null,
+      "titre": "Twelve-month outcomes of a tube-in-tube PreserFlo MicroShunt–Baerveldt glaucoma implant connection as a salvage procedure in refractory glaucoma: a pilot series",
+      "lien": "https://openalex.org/W7224001453",
+      "date_publication": "2026-10-27",
+      "type": "article",
+      "revue": "Graefe s Archive for Clinical and Experimental Ophthalmology",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "pubmed"
+      ],
+      "financeurs": null,
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "Medizinische Hochschule Hannover",
+          "pays": "DE",
+          "type": "education",
+          "ror": "https://ror.org/00f2yqf98"
+        },
+        {
+          "nom": "Leipzig University",
+          "pays": "DE",
+          "type": "education",
+          "ror": "https://ror.org/03s7gtk40"
+        },
+        {
+          "nom": "Witten/Herdecke University",
+          "pays": "DE",
+          "type": "education",
+          "ror": "https://ror.org/00yq55g44"
+        },
+        {
+          "nom": "Klinikum Dortmund",
+          "pays": "DE",
+          "type": "healthcare",
+          "ror": "https://ror.org/037pq2a43"
+        }
+      ],
+      "acces_ouvert": true,
+      "statut_acces": "hybrid",
+      "url_texte": "https://link.springer.com/content/pdf/10.1007/s00417-026-07576-8.pdf",
+      "url_pdf": "https://link.springer.com/content/pdf/10.1007/s00417-026-07576-8.pdf",
+      "licence": "cc-by",
+      "texte_integral_indexe": true,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Glaucoma and retinal disorders",
+      "resume_present": true,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": [
+      {
+        "nom": "Medizinische Hochschule Hannover (MHH)",
+        "statut": "CONFIRMÉ — déclaré par l'éditeur dans Crossref (absent d'OpenAlex)",
+        "references": null,
+        "notices": [
+          [
+            "notice justificative Crossref (déclaration de l'éditeur)",
+            "https://api.crossref.org/works/10.1007/s00417-026-07576-8"
+          ]
+        ],
+        "note": null
+      }
+    ]
+  }
+}

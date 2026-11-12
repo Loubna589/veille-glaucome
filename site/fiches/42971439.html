@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>PMID 42971439 — fiche article</title><style>
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
+:root{--fond:#f4f7fb;--carte:#fff;--texte:#0f1d33;--doux:#52627a;--bord:#e2e8f0;--accent:#0b4f8a;
+--ok:#146c43;--ok-fond:#e3f4ea;--att:#8a5300;--att-fond:#fdf1d8;--ver:#b42318;--ver-fond:#fdeceb;
+--reg:#3f3c9e;--reg-fond:#ecebfb;--src-fond:#f1f5f9;--mark:#fff1a8;--manque:#b42318;--turquoise:#14b8a6;}
+@media (prefers-color-scheme:dark){:root{--fond:#0a1120;--carte:#101a2c;--texte:#e6edf7;--doux:#9db0ca;
+--bord:#1e2b42;--accent:#6fb4ff;--ok:#6fd6a0;--ok-fond:#12301f;--att:#f3c15e;--att-fond:#352a10;--ver:#ff9a8f;
+--ver-fond:#3a1714;--reg:#b4b2ff;--reg-fond:#24234a;--src-fond:#0d1626;--mark:#5a4d10;--manque:#ff9a8f;--turquoise:#2dd4bf;}}
+*{box-sizing:border-box}body{margin:0;background:var(--fond);color:var(--texte);
+font:15.5px/1.6 "Inter",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+:focus-visible{outline:3px solid var(--turquoise);outline-offset:2px;border-radius:6px}
+main{max-width:1000px;margin:0 auto;padding:20px 18px 64px}
+.bandeau{display:flex;align-items:center;gap:10px;font-weight:800;letter-spacing:-.02em;padding:6px 0 14px;color:var(--texte);text-decoration:none}
+.bandeau i{width:30px;height:30px;border-radius:9px;background:linear-gradient(135deg,#0b4f8a,#14b8a6);display:inline-block}
+header,section{background:var(--carte);border:1px solid var(--bord);border-radius:16px;padding:20px 24px;margin:0 0 16px;
+box-shadow:0 1px 2px rgba(15,29,51,.04),0 6px 20px -8px rgba(15,29,51,.12)}
+h1{font-size:1.45rem;line-height:1.3;margin:.2em 0 .5em}h2{font-size:1.1rem;margin:0 0 .6em;color:var(--accent)}
+h3{font-size:1rem;margin:1.1em 0 .4em}.surtitre{color:var(--doux);margin:0;font-size:.9rem}
+a{color:var(--accent)}small,.def{color:var(--doux)}.def{font-size:.88rem;margin:.2em 0 .6em}
+.grille{display:grid;grid-template-columns:max-content 1fr;gap:4px 16px;margin:12px 0 0}
+.grille dt{color:var(--doux)}.grille dd{margin:0}
+.badge{display:inline-block;font-size:.72rem;font-weight:600;padding:2px 8px;border-radius:999px;margin:2px 4px 2px 0;
+vertical-align:middle;background:var(--src-fond);color:var(--doux)}
+.badge.confirme{background:var(--ok-fond);color:var(--ok)}.badge.attente{background:var(--att-fond);color:var(--att)}
+.badge.verifier{background:var(--ver-fond);color:var(--ver)}.badge.regle{background:var(--reg-fond);color:var(--reg)}
+.rubrique{font-weight:600}.manque{color:var(--manque);font-style:italic}
+mark{background:var(--mark);color:inherit;padding:0 2px;border-radius:3px}
+blockquote{margin:.5em 0;padding:.5em .9em;border-left:3px solid var(--bord);background:var(--src-fond);border-radius:0 6px 6px 0}
+pre{white-space:pre-wrap;font-size:.85rem;background:var(--src-fond);padding:10px;border-radius:6px}
+.defile{overflow-x:auto}table{border-collapse:collapse;width:100%;font-size:.92rem;margin:.4em 0}
+th,td{border:1px solid var(--bord);padding:6px 8px;text-align:left;vertical-align:top}th{background:var(--src-fond)}
+.analyse{background:var(--src-fond);padding:6px 10px;border-radius:6px;font-size:.92rem}
+.acteurs{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px}
+.acteurs>div{border:1px solid var(--bord);border-radius:8px;padding:10px 12px}.acteurs h3{margin-top:0}
+.copier{position:sticky;top:0;z-index:2;display:flex;gap:12px;align-items:center;flex-wrap:wrap;
+background:var(--fond);padding:10px 0;margin-bottom:8px}
+button{font:inherit;font-weight:600;background:var(--accent);color:#fff;border:0;border-radius:8px;padding:9px 16px;cursor:pointer}
+@media (prefers-color-scheme:dark){button{color:#10141a}}
+textarea{width:100%;min-height:260px;font:13px/1.4 ui-monospace,Consolas,monospace;background:var(--src-fond);
+color:var(--texte);border:1px solid var(--bord);border-radius:6px;padding:8px}
+details{margin:.5em 0}summary{cursor:pointer;color:var(--accent)}
+.retour{font-size:.92rem;margin:0 0 4px}
+@media (max-width:600px){.grille{grid-template-columns:1fr}.grille dt{margin-top:6px}header,section{padding:14px}}
+</style></head>
+<body><main>
+<a class="bandeau" href="../index.html"><i aria-hidden="true"></i>Glaucoma Intelligence</a><nav class="retour"><a href="../index.html">Accueil</a> · <a href="../etudes.html">← Essais &amp; articles</a> · <a href="../recherche.html">Rechercher</a> · <a href="../carte.html">Carte des acteurs</a> · <a href="../alertes.html">Alertes</a></nav>
+<div class="copier"><button id="bouton-copier" type="button" onclick="copierFiche()">Copier pour Claude / ChatGPT</button>
+<small>Copie une consigne + les faits de cette fiche, à coller dans votre assistant.</small></div>
+
+    <header>
+      <p class="surtitre">Fiche article · PMID 42971439 · <a href="https://pubmed.ncbi.nlm.nih.gov/42971439/" target="_blank" rel="noopener">voir sur PubMed</a>
+         · <a href="https://doi.org/10.1016/j.ophtha.2026.10.030" target="_blank" rel="noopener">DOI 10.1016/j.ophtha.2026.10.030</a></p>
+      <h1 lang="en">External validation of a deep-learning algorithm for perimetric glaucoma detection on color fundus photographs in the Rotterdam Study.</h1>
+      <p><span class="badge confirme">PUBLICATION — le résumé rapporte des résultats</span> <span class="badge verifier">Synthèse fondée UNIQUEMENT sur le résumé PubMed : le texte intégral n'a pas été lu.</span></p>
+      <dl class="grille">
+        <dt>Revue</dt><dd>Ophthalmology</dd>
+        <dt>Entrée dans PubMed</dt><dd>2026-11-02 · publication : 2026-Nov-02</dd>
+        <dt>Type(s) de publication (PubMed)</dt><dd lang="en">Journal Article</dd>
+        <dt>Stade</dt><dd>Non renseigné <small>(pas d'indexation MeSH disponible)</small></dd>
+        <dt>Accès au texte (OpenAlex)</dt><dd>libre (article ouvert dans une revue payante) · <a href="https://www.aaojournal.org/article/S0161-6420(26)00846-8/pdf" target="_blank" rel="noopener">ouvrir le texte</a></dd>
+        <dt>Détecté par l'outil le</dt><dd>2026-11-11</dd>
+      </dl>
+      <p class="rubriques"><strong>Rubrique :</strong> <span class="rubrique">Diagnostic et IA</span> <small>mot du titre : « deep-learning »; mot du titre : « detection »; mot du titre : « perimetric »</small> <span class="badge regle">classement automatique — règles dans config/rubriques.ini</span></p>
+    </header>
+<section><h2>Question étudiée <span class="badge source">Résumé PubMed (texte source)</span></h2><blockquote lang="en"><strong>PURPOSE</strong> To externally validate a deep-learning (DL) algorithm detecting perimetric glaucoma on color fundus photographs (CFPs) in a population-based cohort.</blockquote></section><section><h2>Traitement ou technologie, et comparateur <span class="badge regle">règle automatique de l'outil</span></h2><ul><li><span class="manque">Aucun produit suivi ni molécule repérés automatiquement</span></li></ul><p class="def">Aucun rôle n'est confirmé : PubMed ne décrit pas les bras d'une étude. Un rôle pourrait être confirmé par le registre d'un essai lié de façon confirmée.</p></section><section><h2>Type d'étude et méthode <span class="badge source">Résumé PubMed (texte source)</span><span class="badge source">PubMed (types de publication)</span></h2><p>Type(s) de publication déclaré(s) par PubMed : <span lang="en">Journal Article</span></p><blockquote lang="en"><strong>DESIGN</strong> External validation in a prospective population-based cohort.</blockquote><blockquote lang="en"><strong>PARTICIPANTS</strong> Participants aged <mark>50</mark>-<mark>80</mark> years from three Rotterdam Study cohorts.</blockquote><blockquote lang="en"><strong>METHODS</strong> We applied the winning Artificial Intelligence for Robust Glaucoma Screening (AIROGS) challenge algorithm, trained on <mark>101,442</mark> macula-centered CFPs to detect referable presumed perimetric glaucoma. Performance was assessed at eye and participant level, with participant-level cluster bootstrap confidence intervals. Misclassified cases underwent qualitative review. Longitudinal detection was evaluated by Kaplan-Meier analysis. Additionally, paired analyses compared macula- with disc-centered CFPs. A post-hoc analysis examined the effect of image quality on positive predictive value (PPV).</blockquote><blockquote lang="en"><strong>MAIN OUTCOME MEASURES</strong> Sensitivity at <mark>95%</mark> specificity, area under the receiver operating characteristic curve (ROC-AUC), partial AUC (pAUC) for <mark>90</mark>-<mark>100%</mark> specificity, PPV, and precision-recall AUC (PR-AUC).</blockquote></section><section><h2>Population et participants (phrases du résumé) <span class="badge source">Résumé PubMed (texte source)</span></h2><blockquote lang="en">Among <mark>19,088</mark> eyes (<mark>9,837</mark> participants), <mark>201</mark> eyes (<mark>1.1%</mark>) had perimetric glaucoma.</blockquote></section><section><h2>Résultats disponibles <span class="badge source">Résumé PubMed (texte source)</span></h2><p class="def">Valeurs chiffrées surlignées telles qu'elles figurent dans le résumé. Elles n'ont pas été vérifiées dans le texte intégral.</p><blockquote lang="en"><strong>RESULTS</strong> Among <mark>19,088</mark> eyes (<mark>9,837</mark> participants), <mark>201</mark> eyes (<mark>1.1%</mark>) had perimetric glaucoma. At eye level, sensitivity at <mark>95%</mark> specificity was <mark>70.6%</mark> (<mark>95%</mark> CI: <mark>63.8</mark>-<mark>76.8</mark>), with an ROC-AUC of <mark>0.911</mark> (<mark>95%</mark> CI: <mark>0.887</mark>-<mark>0.934</mark>) and a PR-AUC of <mark>0.343</mark> (<mark>95%</mark> CI: <mark>0.274</mark>-<mark>0.427</mark>). At participant level, sensitivity was <mark>68.8%</mark> (<mark>95%</mark> CI: <mark>61.8</mark>-<mark>75.9</mark>) and ROC-AUC <mark>0.909</mark> (<mark>95%</mark> CI: <mark>0.882</mark>-<mark>0.934</mark>). Overall, this resulted in <mark>5.1</mark> referrals per detected glaucoma case. True positives showed more advanced visual field damage than false negatives (median mean deviation <mark>-10.8</mark> vs <mark>-5.8</mark> dB; P &lt; <mark>0.001</mark>). Among true positives with prior imaging, <mark>33</mark> of <mark>61</mark> (<mark>54%</mark>) were flagged before conversion, typically <mark>4</mark>-<mark>7</mark> years before diagnosis. Discrimination in the <mark>90</mark>-<mark>100%</mark> specificity range was higher for disc- than macula-centered CFPs (pAUC <mark>0.860</mark> vs <mark>0.802</mark>; P <mark>= 0.003</mark>). PPV improved substantially after excluding CFPs with incomplete optic nerve head (ONH) visibility.</blockquote></section><section><h2>Données de tolérance (phrases du résumé) <span class="badge source">Résumé PubMed (texte source)</span></h2><p><span class="manque">Aucune donnée de tolérance dans le résumé</span></p></section><section><h2>Conclusion des auteurs (citée telle quelle, non évaluée par l'outil) <span class="badge source">Résumé PubMed (texte source)</span></h2><blockquote lang="en"><strong>CONCLUSIONS</strong> The DL-algorithm achieved meaningful discrimination for perimetric glaucoma in an external population-based dataset. Correctly identified cases were frequently flagged at an earlier examination, years before the perimetric diagnosis. Despite having been trained exclusively on macula-centered CFPs, the DL-algorithm showed no loss of discriminative performance on disc-centered CFPs. Incomplete ONH visibility was an important source of false positives. These findings support CFP-based deep learning as a scalable triage tool for glaucoma screening and highlight image acquisition standards for implementation.</blockquote></section><section><h2>Essai clinique lié <span class="badge source">PubMed (DataBankList et texte)</span></h2><ul><li><span class="manque">Aucun essai lié identifié</span></li></ul></section><section><h2>Promoteur, financeur et affiliations <span class="badge source">PubMed</span><span class="badge source">OpenAlex</span><span class="badge source">Crossref</span></h2><div class="acteurs">
+      <div><h3>Promoteur d'essai</h3><p class="def">Organisme responsable d'un essai, déclaré au registre.</p><p><span class="manque">Non affiché : aucun essai lié de façon confirmée</span></p></div>
+      <div><h3>Financeur</h3><p class="def">Organisme qui a financé la recherche, avec la notice qui le justifie.</p><ul><li><strong>European Commission</strong> <span class="badge verifier">À VÉRIFIER — trouvé par OpenAlex seulement (absent de la déclaration de l'éditeur dans Crossref) ; à contrôler dans le texte de l'article</span><br><small><a href="https://api.openalex.org/works/W7225092149" target="_blank" rel="noopener">notice OpenAlex</a> · <a href="https://api.crossref.org/works/10.1016/j.ophtha.2026.10.030" target="_blank" rel="noopener">notice Crossref consultée (ne confirme pas ce financeur)</a></small></li><li><strong>ZonMw</strong> <span class="badge verifier">À VÉRIFIER — trouvé par OpenAlex seulement (absent de la déclaration de l'éditeur dans Crossref) ; à contrôler dans le texte de l'article</span><br><small><a href="https://api.openalex.org/works/W7225092149" target="_blank" rel="noopener">notice OpenAlex</a> · <a href="https://api.crossref.org/works/10.1016/j.ophtha.2026.10.030" target="_blank" rel="noopener">notice Crossref consultée (ne confirme pas ce financeur)</a></small></li><li><strong>Stichting Combined Ophthalmic Research Rotterdam</strong> <span class="badge verifier">À VÉRIFIER — trouvé par OpenAlex seulement (absent de la déclaration de l'éditeur dans Crossref) ; à contrôler dans le texte de l'article</span><br><small><a href="https://api.openalex.org/works/W7225092149" target="_blank" rel="noopener">notice OpenAlex</a> · <a href="https://api.crossref.org/works/10.1016/j.ophtha.2026.10.030" target="_blank" rel="noopener">notice Crossref consultée (ne confirme pas ce financeur)</a></small></li><li><strong>Stichting Wetenschappelijk Onderzoek Oogziekenhuis</strong> <span class="badge verifier">À VÉRIFIER — trouvé par OpenAlex seulement (absent de la déclaration de l'éditeur dans Crossref) ; à contrôler dans le texte de l'article</span><br><small><a href="https://api.openalex.org/works/W7225092149" target="_blank" rel="noopener">notice OpenAlex</a> · <a href="https://api.crossref.org/works/10.1016/j.ophtha.2026.10.030" target="_blank" rel="noopener">notice Crossref consultée (ne confirme pas ce financeur)</a></small></li><li><strong>Combined Ophthalmic Research Rotterdam Foundation</strong> <span class="badge confirme">CONFIRMÉ — déclaré par l'éditeur dans Crossref (absent d'OpenAlex)</span><br><small><a href="https://api.crossref.org/works/10.1016/j.ophtha.2026.10.030" target="_blank" rel="noopener">notice justificative Crossref (déclaration de l'éditeur)</a></small></li><li><strong>SWOO Flieringa</strong> <span class="badge confirme">CONFIRMÉ — déclaré par l'éditeur dans Crossref (absent d'OpenAlex)</span><br><small><a href="https://api.crossref.org/works/10.1016/j.ophtha.2026.10.030" target="_blank" rel="noopener">notice justificative Crossref (déclaration de l'éditeur)</a></small></li></ul></div>
+      <div><h3>Affiliations des auteurs</h3><p class="def">Établissements où travaillent les auteurs (pas un financement).</p><p><small>Institutions normalisées (OpenAlex) :</small></p><ul><li>Erasmus MC <small>(NL, santé/hôpital)</small></li><li>Rotterdam Eye Hospital <small>(NL, santé/hôpital)</small></li><li>Radboud University Medical Center <small>(NL, santé/hôpital)</small></li><li>Institute of Molecular and Clinical Ophthalmology Basel <small>(CH, fondation/association)</small></li></ul><details><summary>Affiliations telles que déclarées dans PubMed (5)</summary><ul><li>The Rotterdam Eye Hospital, Rotterdam, The Netherlands; Department of Ophthalmology, Erasmus Medical Center, Rotterdam, The Netherlands; Department of Epidemiology, Erasmus Medical Center, Rotterdam, The Netherlands. Electronic address: s.vanmeyel@erasmusmc.nl.</li><li>Department of Ophthalmology, Erasmus Medical Center, Rotterdam, The Netherlands; Department of Epidemiology, Erasmus Medical Center, Rotterdam, The Netherlands.</li><li>The Rotterdam Eye Hospital, Rotterdam, The Netherlands.</li><li>Department of Ophthalmology, Erasmus Medical Center, Rotterdam, The Netherlands.</li><li>Department of Ophthalmology, Erasmus Medical Center, Rotterdam, The Netherlands; Department of Epidemiology, Erasmus Medical Center, Rotterdam, The Netherlands; Department of Ophthalmology, Radboud University Medical Center, Nijmegen, The Netherlands; Institute of Molecular and Clinical Ophthalmology Basel, Basel, Switzerland.</li></ul></details></div>
+    </div></section>
+<section><h2>Ce qui manque <span class="badge regle">calculé par l'outil</span></h2><ul><li>données de tolérance</li></ul></section>
+<section><h2>Limites, intérêt pour la veille marketing, à retenir <span class="badge attente">non produit par l'outil</span></h2><p><span class="manque">Non rédigé automatiquement : les données extraites ne suffisent pas à produire une analyse fiable sans interprétation. Utilisez le bouton « Copier pour Claude / ChatGPT » pour obtenir une proposition, à vérifier.</span></p></section>
+<section><details><summary>Voir le texte copié par le bouton</summary>
+<textarea id="a-copier" readonly>Tu es assistant de veille scientifique sur le glaucome. À partir UNIQUEMENT des informations ci-dessous, rédige en français une fiche de synthèse avec ces rubriques :
+1. Question étudiée
+2. Traitement ou technologie
+3. Type d&#x27;étude
+4. Population et nombre de participants
+5. Comparateur
+6. Critères évalués
+7. Principaux résultats chiffrés (recopie les valeurs exactes et indique leur source)
+8. Données de tolérance
+9. Limites
+10. Intérêt potentiel pour une veille marketing — présenté comme une INTERPRÉTATION, séparé des faits
+11. À retenir (une phrase)
+
+Règles :
+- N&#x27;invente rien. Si une information manque, écris « non rapporté ».
+- Distingue un essai simplement enregistré, un protocole, des résultats déposés dans un registre et une publication de résultats.
+- Si la source est seulement le résumé d&#x27;un article, indique que la synthèse repose uniquement sur ce résumé.
+- Les rôles « suggérés » (traitement étudié / comparateur) sont à vérifier dans le texte source.
+- Ne confonds pas promoteur d&#x27;essai, financeur et affiliation des auteurs.
+- Termine par la liste des points à vérifier.
+
+=== INFORMATIONS ===
+SOURCE : PubMed, PMID 42971439 — https://pubmed.ncbi.nlm.nih.gov/42971439/ · DOI https://doi.org/10.1016/j.ophtha.2026.10.030
+BASE : résumé PubMed uniquement (texte intégral non lu)
+Titre : External validation of a deep-learning algorithm for perimetric glaucoma detection on color fundus photographs in the Rotterdam Study.
+Revue : Ophthalmology · entrée PubMed : 2026-11-02
+Types de publication (PubMed) : Journal Article
+Produits repérés automatiquement (rôles SUGGÉRÉS, à vérifier) : aucun
+Molécules hors liste (repérage automatique, à vérifier) : aucune
+Essai lié : aucun
+Financeurs : European Commission [À VÉRIFIER — trouvé par OpenAlex seulement (absent de la déclaration de l&#x27;éditeur dans Crossref) ; à contrôler dans le texte de l&#x27;article]; ZonMw [À VÉRIFIER — trouvé par OpenAlex seulement (absent de la déclaration de l&#x27;éditeur dans Crossref) ; à contrôler dans le texte de l&#x27;article]; Stichting Combined Ophthalmic Research Rotterdam [À VÉRIFIER — trouvé par OpenAlex seulement (absent de la déclaration de l&#x27;éditeur dans Crossref) ; à contrôler dans le texte de l&#x27;article]; Stichting Wetenschappelijk Onderzoek Oogziekenhuis [À VÉRIFIER — trouvé par OpenAlex seulement (absent de la déclaration de l&#x27;éditeur dans Crossref) ; à contrôler dans le texte de l&#x27;article]; Combined Ophthalmic Research Rotterdam Foundation [CONFIRMÉ — déclaré par l&#x27;éditeur dans Crossref (absent d&#x27;OpenAlex)]; SWOO Flieringa [CONFIRMÉ — déclaré par l&#x27;éditeur dans Crossref (absent d&#x27;OpenAlex)]
+Affiliations (institutions, pas des financeurs) : Erasmus MC (NL, healthcare); Rotterdam Eye Hospital (NL, healthcare); Radboud University Medical Center (NL, healthcare); Institute of Molecular and Clinical Ophthalmology Basel (CH, nonprofit)
+
+RÉSUMÉ (texte source) :
+PURPOSE: To externally validate a deep-learning (DL) algorithm detecting perimetric glaucoma on color fundus photographs (CFPs) in a population-based cohort.
+DESIGN: External validation in a prospective population-based cohort.
+PARTICIPANTS: Participants aged 50-80 years from three Rotterdam Study cohorts.
+METHODS: We applied the winning Artificial Intelligence for Robust Glaucoma Screening (AIROGS) challenge algorithm, trained on 101,442 macula-centered CFPs to detect referable presumed perimetric glaucoma. Performance was assessed at eye and participant level, with participant-level cluster bootstrap confidence intervals. Misclassified cases underwent qualitative review. Longitudinal detection was evaluated by Kaplan-Meier analysis. Additionally, paired analyses compared macula- with disc-centered CFPs. A post-hoc analysis examined the effect of image quality on positive predictive value (PPV).
+MAIN OUTCOME MEASURES: Sensitivity at 95% specificity, area under the receiver operating characteristic curve (ROC-AUC), partial AUC (pAUC) for 90-100% specificity, PPV, and precision-recall AUC (PR-AUC).
+RESULTS: Among 19,088 eyes (9,837 participants), 201 eyes (1.1%) had perimetric glaucoma. At eye level, sensitivity at 95% specificity was 70.6% (95% CI: 63.8-76.8), with an ROC-AUC of 0.911 (95% CI: 0.887-0.934) and a PR-AUC of 0.343 (95% CI: 0.274-0.427). At participant level, sensitivity was 68.8% (95% CI: 61.8-75.9) and ROC-AUC 0.909 (95% CI: 0.882-0.934). Overall, this resulted in 5.1 referrals per detected glaucoma case. True positives showed more advanced visual field damage than false negatives (median mean deviation -10.8 vs -5.8 dB; P &lt; 0.001). Among true positives with prior imaging, 33 of 61 (54%) were flagged before conversion, typically 4-7 years before diagnosis. Discrimination in the 90-100% specificity range was higher for disc- than macula-centered CFPs (pAUC 0.860 vs 0.802; P = 0.003). PPV improved substantially after excluding CFPs with incomplete optic nerve head (ONH) visibility.
+CONCLUSIONS: The DL-algorithm achieved meaningful discrimination for perimetric glaucoma in an external population-based dataset. Correctly identified cases were frequently flagged at an earlier examination, years before the perimetric diagnosis. Despite having been trained exclusively on macula-centered CFPs, the DL-algorithm showed no loss of discriminative performance on disc-centered CFPs. Incomplete ONH visibility was an important source of false positives. These findings support CFP-based deep learning as a scalable triage tool for glaucoma screening and highlight image acquisition standards for implementation.</textarea></details></section>
+<p><small>Fiche générée le 2026-11-11 22:40 par Glaucoma Intelligence. Extraits des sources en langue originale.</small></p>
+</main><script>
+function copierFiche(){
+  var zone=document.getElementById('a-copier'), bouton=document.getElementById('bouton-copier');
+  function fait(){bouton.textContent='Copié ✓ — collez dans Claude ou ChatGPT';setTimeout(function(){bouton.textContent='Copier pour Claude / ChatGPT'},3000);}
+  function secours(){zone.parentElement.open=true;zone.select();try{document.execCommand('copy');fait();}
+    catch(err){bouton.textContent='Sélectionnez le texte ci-dessous puis Ctrl+C';}}
+  if(navigator.clipboard&&window.isSecureContext){navigator.clipboard.writeText(zone.value).then(fait,secours);}else{secours();}
+}
+</script></body></html>

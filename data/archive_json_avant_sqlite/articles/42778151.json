@@ -1,0 +1,111 @@
+{
+  "pmid": "42778151",
+  "premiere_detection": "2026-09-25",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42778151",
+    "titre": "Cataract surgery complications in individuals who previously received intravitreal injections: a population-based cohort analysis.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42778151/",
+    "doi": "10.1016/j.jcjo.2026.09.002",
+    "pmcid": null,
+    "revue": "Canadian journal of ophthalmology. Journal canadien d'ophtalmologie",
+    "date_entree_pubmed": "2026-09-23",
+    "date_publication": "2026-Sep-23",
+    "types_publication": [
+      "Journal Article"
+    ],
+    "resume_present": true,
+    "resume": "OBJECTIVE: To determine differences in the risk of cataract surgery-related complications in patients with retinal disease who previously received intravitreal injections (IVI) compared with those without a history of IVI.\nDESIGN: A retrospective population-based cohort study was conducted using physician billing data from a publicly funded health care system.\nPARTICIPANTS: Adults (≥20 years) with retinal disease who had cataract surgery between 2009 and 2018 were identified.\nMETHODS: Patients who received bilateral IVI were in the exposed group, and those without any record of IVI were in the unexposed group. Nonclearing vitreous hemorrhage, retinal tear, retinal detachment, and retained lens fragments at 3 months, and intraocular lens exchange, intraocular lensrepositioning, lens dislocation, anterior vitrectomy, glaucoma surgery, and corneal transplant at 2 years postoperatively were examined. Adjusted hazards ratios (aHRs) with 95% confidence intervals (CIs) were derived from multivariable Cox proportional-hazards models.\nRESULTS: Of the 55 030 adults identified, 1453 had previously received IVI. Patients who previously received IVI and underwent cataract surgery were associated with a greater risk of nonclearing vitreous hemorrhage (aHR 2.90, 95% CI 2.07-4.06), retinal detachment (aHR 3.01, 95% CI 1.84-4.91), retinal tear (aHR 3.56, 95% CI 2.43-5.21), and glaucoma surgery (aHR 2.38, 95% CI 1.47-3.85). No significant risk associations were detected for other examined outcomes.\nCONCLUSIONS: Patients with retinal disease who underwent cataract surgery and had IVI had a greater risk of multiple cataract surgery-related complications compared with those without IVI history. Findings should be considered in informed operative counselling.",
+    "mots_cles_auteurs": null,
+    "langue": "eng",
+    "nombre_auteurs": 7,
+    "affiliations_auteurs": [
+      "Temerty Faculty of Medicine, University of Toronto, Toronto ON.",
+      "Temerty Faculty of Medicine, University of Toronto, Toronto ON; Department of Ophthalmology and Vision Sciences, University of Toronto, Toronto ON; Department of Ophthalmology, St. Michael's Hospital, Unity Health Toronto, Toronto ON.",
+      "Temerty Faculty of Medicine, University of Toronto, Toronto ON; Department of Ophthalmology and Vision Sciences, University of Toronto, Toronto ON.",
+      "Temerty Faculty of Medicine, University of Toronto, Toronto ON; Department of Ophthalmology and Vision Sciences, University of Toronto, Toronto ON; Kensington Eye Institute, University of Toronto, Toronto ON.",
+      "Temerty Faculty of Medicine, University of Toronto, Toronto ON; Department of Ophthalmology and Vision Sciences, University of Toronto, Toronto ON; Kensington Eye Institute, University of Toronto, Toronto ON; John and Liz Tory Eye Centre, Sunnybrook Health Science Centre, Toronto ON. Electronic address: peter.kertes@sunnybrook.ca."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7214198291",
+      "doi": "10.1016/j.jcjo.2026.09.002",
+      "pmid": "42778151",
+      "pmcid": null,
+      "titre": "Cataract surgery complications in individuals who previously received intravitreal injections: a population-based cohort analysis.",
+      "lien": "https://openalex.org/W7214198291",
+      "date_publication": "2026-09-23",
+      "type": "article",
+      "revue": "PubMed",
+      "type_source": "repository",
+      "langue": "en",
+      "indexe_dans": [
+        "pubmed"
+      ],
+      "financeurs": null,
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "University of Toronto",
+          "pays": "CA",
+          "type": "education",
+          "ror": "https://ror.org/03dbr7087"
+        },
+        {
+          "nom": "St. Michael's Hospital",
+          "pays": "CA",
+          "type": "healthcare",
+          "ror": "https://ror.org/04skqfp25"
+        },
+        {
+          "nom": "Toronto General Hospital",
+          "pays": "CA",
+          "type": "healthcare",
+          "ror": "https://ror.org/026pg9j08"
+        },
+        {
+          "nom": "Kensington Health",
+          "pays": "CA",
+          "type": "nonprofit",
+          "ror": "https://ror.org/02qcscp23"
+        },
+        {
+          "nom": "Sunnybrook Health Science Centre",
+          "pays": "CA",
+          "type": "healthcare",
+          "ror": "https://ror.org/03wefcv03"
+        }
+      ],
+      "acces_ouvert": false,
+      "statut_acces": "closed",
+      "url_texte": null,
+      "url_pdf": null,
+      "licence": null,
+      "texte_integral_indexe": false,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Ocular Infections and Treatments",
+      "resume_present": true,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-09-25",
+    "financements": []
+  }
+}

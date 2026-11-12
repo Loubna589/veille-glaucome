@@ -1,0 +1,93 @@
+{
+  "pmid": "42895668",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42895668",
+    "titre": "Emerging microfluidic diagnostic systems for anterior segment diseases: a systematic review.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42895668/",
+    "doi": "10.1007/s00417-026-07548-y",
+    "pmcid": null,
+    "revue": "Graefe's archive for clinical and experimental ophthalmology = Albrecht von Graefes Archiv fur klinische und experimentelle Ophthalmologie",
+    "date_entree_pubmed": "2026-10-19",
+    "date_publication": "2026-Oct-19",
+    "types_publication": [
+      "Journal Article",
+      "Review"
+    ],
+    "resume_present": true,
+    "resume": "PURPOSE: To evaluate emerging microfluidic diagnostic systems for anterior segment ocular diseases, emphasizing translational diagnostic relevance, clinical innovation, and current limitations.\nMETHODS: This systematic review followed the PRISMA guidelines. A comprehensive PubMed search was conducted for studies assessing microfluidic diagnostic systems applied to anterior segment diseases, including ectatic corneal disorders, dry eye and tear-film abnormalities, infectious keratitis, and glaucoma, up to September 09, 2025. Methodological quality was assessed using the Standards for Reporting of Diagnostic Accuracy Studies (STARD) framework.\nRESULTS: The literature search identified 228 publications, of which 11 studies met inclusion criteria after screening and quality assessment. In ectatic corneal diseases, cornea-on-a-chip models reproduced multilayer corneal architecture under dynamic conditions, enabling quantitative assessment of wound healing, barrier function, and biomechanical responses. For dry eye and tear-film disorders, paper-based and wearable microfluidic platforms enabled objective microliter-scale tear analysis, with electrochemical sensing demonstrating strong correlation with conventional measurement methods (R² ≥0.99) and reduced analytical costs. In infectious keratitis, integrated microfluidic real-time polymerase chain reaction (RT-PCR) systems achieved rapid multiplex pathogen detection with markedly shortened diagnostic times compared with culture methods. In glaucoma, implantable and wearable microfluidic sensors enabled continuous intraocular pressure monitoring with detection limits near 1 mm Hg and strong agreement with reference methods (R²>0.99), although some systems required individual calibration (R²≈0.78).\nCONCLUSIONS: Microfluidic technologies provide a rapid, low-cost, and minimally invasive approach for real-time physiological assessment in anterior segment diagnostics and represent a promising strategy for earlier detection and more personalized, evidence-based ophthalmic care.",
+    "mots_cles_auteurs": [
+      "Anterior segment",
+      "Lab-on-chip",
+      "Microfluidics",
+      "Ocular diagnostics",
+      "Organ-on-chip",
+      "Tear biosensors"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 3,
+    "affiliations_auteurs": [
+      "Department of Mechanical and Mechatronics Engineering, Lakehead University, Thunder Bay, ON P7B 5E1, 955 Oliver Road, Canada. zheidar1@lakeheadu.ca.",
+      "Department of Mechanical and Mechatronics Engineering, Lakehead University, Thunder Bay, ON P7B 5E1, 955 Oliver Road, Canada."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7222931782",
+      "doi": "10.1007/s00417-026-07548-y",
+      "pmid": "42895668",
+      "pmcid": null,
+      "titre": "Emerging microfluidic diagnostic systems for anterior segment diseases: a systematic review",
+      "lien": "https://openalex.org/W7222931782",
+      "date_publication": "2026-10-19",
+      "type": "review",
+      "revue": "Graefe s Archive for Clinical and Experimental Ophthalmology",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "pubmed"
+      ],
+      "financeurs": null,
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "Lakehead University",
+          "pays": "CA",
+          "type": "education",
+          "ror": "https://ror.org/023p7mg82"
+        }
+      ],
+      "acces_ouvert": false,
+      "statut_acces": "closed",
+      "url_texte": null,
+      "url_pdf": null,
+      "licence": null,
+      "texte_integral_indexe": false,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Biosensors and Analytical Detection",
+      "resume_present": false,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": []
+  }
+}

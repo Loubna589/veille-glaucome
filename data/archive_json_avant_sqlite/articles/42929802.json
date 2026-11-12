@@ -1,0 +1,108 @@
+{
+  "pmid": "42929802",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42929802",
+    "titre": "In Vivo Study of Topical Bimatoprost, Latanoprost, Travoprost in Comparison with Minoxidil on Hair Growth in C57BL/6 Mice.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42929802/",
+    "doi": "10.4103/idoj.idoj_774_25",
+    "pmcid": null,
+    "revue": "Indian dermatology online journal",
+    "date_entree_pubmed": "2026-10-26",
+    "date_publication": "2026-Nov-01",
+    "types_publication": [
+      "Journal Article"
+    ],
+    "resume_present": true,
+    "resume": "BACKGROUND: Alopecia significantly affects psychological well-being and social functioning. Standard treatments, like minoxidil and finasteride, are limited by delayed efficacy, need for lifelong use, and adverse effects. Prostaglandin analogs (PGAs), originally developed for ocular hypertension, have shown promise in promoting hair growth. This study compares their effects with minoxidil in a murine model.\nAIM AND OBJECTIVES: To compare the effects of bimatoprost, latanoprost, and travoprost on hair growth in C57BL/6 mice, with evaluation of hair density, follicle diameter, and growth rate using minoxidil as the comparator.\nMATERIALS AND METHODS: After Institutional Animal Ethics Committee approval, 40 male C57BL/6 mice (aged 6-7 weeks, weighing 20-25 g) were randomized into five groups ( n = 8 in each group): (1) vehicle control, (2) minoxidil 5%, (3) latanoprost 0.005%, (4) bimatoprost 0.03%, and (5) travoprost 0.004%. Drugs were applied topically to shaved dorsal skin daily for 28 days. Hair growth was assessed by follicle density, bulb diameter, and area of regrowth using ImageJ from photographs taken on days 1, 7, 15, and 28.\nRESULTS: All PGAs significantly increased hair density compared to vehicle control (vehicle control: 1.50 ± 0.55 vs. latanoprost: 7.50 ± 1.69, bimatoprost: 7.75 ± 2.87, travoprost: 6.87 ± 3.40; P = 0.001). Latanoprost and bimatoprost showed higher hair density than minoxidil (3.75 ± 2.87; P = 0.038 and 0.010, respectively). Hair follicle diameter was greater with PGAs (latanoprost: 53.12 ± 5.30, bimatoprost: 51.87 ± 7.52, travoprost: 48.12 ± 3.47 µm) versus vehicle control (27.91 ± 5.57 µm, P = 0.001) and minoxidil (38.12 ± 5.46 µm, P = 0.001). Bimatoprost showed the greatest regrowth by day 28, while latanoprost demonstrated earlier onset by day 15. PGAs also caused darker pigmentation and longer hair.\nLIMITATIONS: The present study duration was limited to 4 weeks. Minoxidil (positive control) did not show noticeable hair growth because its effects usually take 6-8 weeks to appear.\nCONCLUSION: Topical PGAs improved key hair growth parameters. Bimatoprost and latanoprost showed early and superior efficacy by day 28.",
+    "mots_cles_auteurs": null,
+    "langue": "eng",
+    "nombre_auteurs": 3,
+    "affiliations_auteurs": [
+      "Department of Pharmacology and Therapeutics, Seth Gordhandas Sunderdas Medical College, and King Edward Memorial Hospital, Mumbai, Maharashtra, India.",
+      "Department of Dermatology, Venerology and Leprosy, Dr. D. Y. Patil Medical College and Hospital and Research Centre, Navi Mumbai, Maharashtra, India."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": true,
+      "produit_suivi_etudie_suggere": true,
+      "produits_suivis": [
+        {
+          "produit": "bimatoprost",
+          "role": "étudié",
+          "statut_role": "rôle suggéré, à vérifier (règle automatique appliquée au titre)"
+        },
+        {
+          "produit": "latanoprost",
+          "role": "étudié",
+          "statut_role": "rôle suggéré, à vérifier (règle automatique appliquée au titre)"
+        },
+        {
+          "produit": "travoprost",
+          "role": "étudié",
+          "statut_role": "rôle suggéré, à vérifier (règle automatique appliquée au titre)"
+        }
+      ],
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7223685830",
+      "doi": "10.4103/idoj.idoj_774_25",
+      "pmid": "42929802",
+      "pmcid": null,
+      "titre": "In Vivo Study of Topical Bimatoprost, Latanoprost, Travoprost in Comparison with Minoxidil on Hair Growth in C57BL/6 Mice",
+      "lien": "https://openalex.org/W7223685830",
+      "date_publication": "2026-10-26",
+      "type": "article",
+      "revue": "Indian Dermatology Online Journal",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "doaj",
+        "pubmed"
+      ],
+      "financeurs": null,
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "King Edward Memorial Hospital and Seth G.S. Medical College",
+          "pays": "IN",
+          "type": "education",
+          "ror": "https://ror.org/03vcw1x21"
+        },
+        {
+          "nom": "DY Patil Deemed to be University",
+          "pays": "IN",
+          "type": "education",
+          "ror": "https://ror.org/045qb5273"
+        }
+      ],
+      "acces_ouvert": true,
+      "statut_acces": "diamond",
+      "url_texte": "https://doi.org/10.4103/idoj.idoj_774_25",
+      "url_pdf": null,
+      "licence": "cc-by-nc-nd",
+      "texte_integral_indexe": false,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Hair Growth and Disorders",
+      "resume_present": true,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": []
+  }
+}

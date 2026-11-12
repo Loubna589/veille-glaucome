@@ -1,0 +1,90 @@
+{
+  "pmid": "42969576",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42969576",
+    "titre": "Outcomes of the Paul Glaucoma Implant for Refractory Glaucoma in an Indonesian Population.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42969576/",
+    "doi": "10.1097/IJG.0000000000002800",
+    "pmcid": null,
+    "revue": "Journal of glaucoma",
+    "date_entree_pubmed": "2026-11-02",
+    "date_publication": "2026-Nov-02",
+    "types_publication": [
+      "Journal Article"
+    ],
+    "resume_present": true,
+    "resume": "PRECIS: The Paul Glaucoma Implant demonstrated favorable short- to mid-term outcomes in patients with refractory glaucoma in the Indonesian population. Low rates of postoperative hypotony following implantation were observed with the use of intraluminal 6/0 prolene stent.\nPURPOSE: To evaluate the efficacy and safety of the Paul Glaucoma Implant in managing refractory glaucoma in the Indonesian population.\nPATIENTS AND METHODS: This retrospective study reviewed patients who underwent implantation of the Paul Glaucoma Implant at the Kedoya and Menteng branches of the Jakarta Eye Center between September 2022 and January 2025.\nRESULTS: 121 implantations from 113 patients were included, with a median follow-up of 12.00 (12.00 - 24.00) months. Median intraocular pressure decreased from 35.00 (28.25 - 43.00) mmHg preoperatively to 15.00 (11.00 - 18.00) mmHg at one year and 15.00 (12.00 - 18.00) mmHg at two years. Median glaucoma medication use decreased from 3.00 (3.00 - 4.00) to 1.00 (0.00 - 1.00). Median best-corrected visual acuity improved from 0.30 (0.02 - 1.47) logarithm of the minimum angle of resolution preoperatively to 0.15 (0.00 - 1.00) at one year and 0.10 (0.00 - 0.60) at two years. Overall success rate of the Paul Glaucoma Implant was 98.08% at one year and 92.68% at two years. Four implantations (3.30%) failed, including two requiring explantation and two failing to achieve the target intraocular pressure reduction. Hypotony occurred in six eyes (4.96%), all self-resolving. An intraluminal 6/0 prolene stent was employed for implantations and removed in 81 eyes (66.94%), with a median removal time of 3.00 (2.00 - 4.00) weeks.\nCONCLUSION: The Paul Glaucoma Implant demonstrated favorable short- to mid-term outcomes, with substantial reductions in intraocular pressure and glaucoma medication use and a low rate of postoperative hypotony.",
+    "mots_cles_auteurs": [
+      "glaucoma drainage device",
+      "glaucoma surgery",
+      "intraluminal stent",
+      "tube shunts"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 7,
+    "affiliations_auteurs": [
+      "Glaucoma Division, Department of Ophthalmology, Jakarta Eye Center Hospitals and Clinics, Central Jakarta, Jakarta, Indonesia.",
+      "Research Division, Department of Ophthalmology, Jakarta Eye Center Hospitals and Clinics, Central Jakarta, Jakarta, Indonesia."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7225080558",
+      "doi": "10.1097/ijg.0000000000002800",
+      "pmid": "42969576",
+      "pmcid": null,
+      "titre": "Outcomes of the Paul Glaucoma Implant for Refractory Glaucoma in an Indonesian Population",
+      "lien": "https://openalex.org/W7225080558",
+      "date_publication": "2026-11-02",
+      "type": "article",
+      "revue": "Journal of Glaucoma",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "pubmed"
+      ],
+      "financeurs": null,
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "JEC Eye Hospitals and Clinics",
+          "pays": "ID",
+          "type": "healthcare",
+          "ror": "https://ror.org/01ntfcg22"
+        }
+      ],
+      "acces_ouvert": true,
+      "statut_acces": "hybrid",
+      "url_texte": "https://doi.org/10.1097/ijg.0000000000002800",
+      "url_pdf": null,
+      "licence": "cc-by-nc-nd",
+      "texte_integral_indexe": false,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Glaucoma and retinal disorders",
+      "resume_present": true,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": []
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "nct": "NCT06979752",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "nct": "NCT06979752",
+    "titre": "Efficacy and Safety of Tran Cannula in Combined Pseudoexfoliative Glaucoma and Cataract Surgery Compared With Augmented Ocular Irrigation",
+    "titre_officiel": "Efficacy and Safety of Tran Cannula in Combined Pseudoexfoliative Glaucoma and Cataract Surgery Compared With Augmented Ocular Irrigation",
+    "lien": "https://clinicaltrials.gov/study/NCT06979752",
+    "date_premiere_publication": "2025-05-20",
+    "date_derniere_mise_a_jour": "2026-09-30",
+    "type_etude": "INTERVENTIONAL",
+    "phases_declarees": [
+      "NA"
+    ],
+    "statut": "RECRUITING",
+    "raison_arret": null,
+    "date_debut": "2025-06-04",
+    "date_fin_principale": "2028-02-02",
+    "promoteur": "Hôpital Privé de la Baie",
+    "type_promoteur": "OTHER",
+    "collaborateurs": null,
+    "conditions": [
+      "Glaucoma, Open Angle, Pseudo-exfoliative",
+      "Cataract"
+    ],
+    "interventions": [
+      {
+        "type": "PROCEDURE",
+        "nom": "Tran canula"
+      },
+      {
+        "type": "PROCEDURE",
+        "nom": "augmented irrigation"
+      }
+    ],
+    "participants_nombre": 58,
+    "participants_type": "ESTIMATED",
+    "criteres_principaux": [
+      {
+        "critere": "Intraocular pressure measure",
+        "delai": "day 1, day 30, month 3, month 6 and month 12 after surgery"
+      }
+    ],
+    "resultats_deposes": false,
+    "publications_declarees": null,
+    "resume_source": "Pseudoexfoliative glaucoma is a glaucoma secondary to pseudoexfoliative syndrome; cataract surgery is often more difficult, with more complications. Tran's cannula is a single-use irrigation system designed for cleaning, with the pseudoexfoliative material remaining in the trabecular meshwork.\n\nThe main objective of this study is to evaluate the efficacy of the Tran cannula, in comparison with increased irrigation, in lowering intraocular pressure (IOP) in patients with pseudoexfoliative glaucoma and treated for glaucoma, and with an indication for isolated cataract surgery.",
+    "citations_declarees": null,
+    "plan": {
+      "repartition": "RANDOMIZED",
+      "modele": "PARALLEL",
+      "but_principal": "TREATMENT",
+      "insu": "DOUBLE",
+      "insu_pour": [
+        "PARTICIPANT",
+        "OUTCOMES_ASSESSOR"
+      ],
+      "insu_description": null,
+      "modele_observationnel": null
+    },
+    "bras": [
+      {
+        "libelle": "Tran cannula surgery",
+        "type": "EXPERIMENTAL",
+        "description": "Patients treated with Tran cannula",
+        "interventions": [
+          "Procedure: Tran canula"
+        ]
+      },
+      {
+        "libelle": "augmented irrigation surgery",
+        "type": "ACTIVE_COMPARATOR",
+        "description": "Patients treated with augmented irrigation cannula.",
+        "interventions": [
+          "Procedure: augmented irrigation"
+        ]
+      }
+    ],
+    "eligibilite": {
+      "criteres": "Inclusion Criteria:\n\n* Patients with cataract and early-to-moderate pseudoexfoliative glaucoma (GPX) scheduled for isolated cataract surgery.\n* Reliable visual field, Humphrey 24-2, Sita-Fast, with typical glaucoma alterations, and with mean deviation ≤-12 dB.\n* OCT with ganglion cell alterations and fibers typical of glaucoma.\n* Typical glaucomatous neuropathy\n* Slit-lamp signs of pseudoexfoliation.\n* Open angle (2 to 4, according to Shaffer classification) determined by gonioscopy.\n* Untreated eye pressure \\>21 mmHg and \\<33 mmHg\n\nExclusion Criteria:\n\n* Presence of other ophthalmological pathologies (except cataract or mild dry eye)\n* History of intraocular surgery in the last 12 months, history of trauma\n* History of laser trabeculoplasty (TLA or SLT) in the previous 12 months\n* Visual acuity below \"finger count\n* Myopia ≥ 6 dioptres, hyperopia ≥ 5 dioptres\n* Iridocorneal angle closure (and angle-closure glaucoma), any other type of non-pseudoexfoliative glaucoma, iris neovascularization\n* Pachymetry \\< 490 μm or \\> 620 μm; or corneal pathology or other condition that makes accurate IOP measurements with flattening tonometry, ultrasonic pachymetry or specular microscopy impossible.\n* Presence of severe systemic pathologies",
+      "age_min": "18 Years",
+      "age_max": null,
+      "sexe": "ALL",
+      "volontaires_sains": false
+    },
+    "criteres_secondaires": null,
+    "responsables": null,
+    "date_depot_resultats": null,
+    "resultats": null
+  },
+  "modifications": []
+}

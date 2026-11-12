@@ -1,0 +1,104 @@
+{
+  "pmid": "42878788",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42878788",
+    "titre": "Evaluation of anterior segment and lamina cribrosa parameters in primary open-angle glaucoma, pseudoexfoliation glaucoma, and healthy controls.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42878788/",
+    "doi": "10.1007/s00417-026-07562-0",
+    "pmcid": null,
+    "revue": "Graefe's archive for clinical and experimental ophthalmology = Albrecht von Graefes Archiv fur klinische und experimentelle Ophthalmologie",
+    "date_entree_pubmed": "2026-10-15",
+    "date_publication": "2026-Oct-15",
+    "types_publication": [
+      "Journal Article"
+    ],
+    "resume_present": true,
+    "resume": "PURPOSE: To compare anterior segment and lamina cribrosa parameters between primary open-angle glaucoma (POAG) and pseudoexfoliation glaucoma (PEXG) using swept-source optical coherence tomography (SS-OCT).\nMETHODS: This cross-sectional, observational study included 34 POAG, 30 PEXG, and 30 healthy control eyes. The groups were comparable for age, sex, axial length, and anterior chamber depth. Temporal corneoscleral sections and optic disc radial scans were obtained via SS-OCT. Schlemm's canal area (SCA), trabecular meshwork thickness (TMT), scleral spur length (SSL), and anterior scleral thickness (AST) were measured using ImageJ. Lamina cribrosa thickness (LCT) and curvature index (LCCI) were assessed.\nRESULTS: SCA was significantly reduced in both glaucoma groups compared to controls (adjusted p = 0.001 for PEXG, adjusted p = 0.003 for POAG; overall p < 0.001). In POAG, perilimbal AST (AST0, AST1), TMT and SSL were significantly lower than in controls (p < 0.05); these perilimbal measurements did not differ significantly from those of healthy controls in PEXG (all p > 0.18). LCCI was highest in POAG, while LCT was thinnest in PEXG (p < 0.001). A nominal positive correlation was observed between SSL and AST0 in healthy eyes, alongside nominal negative correlations between SSL and LCCI in both glaucoma groups (all uncorrected p < 0.05); however, none remained statistically significant after false discovery rate (FDR) correction (all q > 0.05).\nCONCLUSION: Differences in anterior scleral, iridocorneal angle, and lamina cribrosa parameters indicate shared structural features but distinct anatomical profiles in POAG and PEXG. Because correlational findings did not survive FDR correction, the proposed structural links between the anterior and posterior segments must be interpreted as exploratory, warranting further longitudinal studies.",
+    "mots_cles_auteurs": [
+      "Anterior scleral thickness",
+      "Lamina cribrosa",
+      "Primary open-angle glaucoma",
+      "Pseudoexfoliation glaucoma",
+      "Schlemm’s canal"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 3,
+    "affiliations_auteurs": [
+      "Department of Ophthalmology, Sabuncuoğlu Şerefeddin Training and Research Hospital, Amasya, Türkiye. dr.omersagir@hotmail.com.",
+      "Department of Ophthalmology, Haydarpaşa Numune Training and Research Hospital, İstanbul, Türkiye.",
+      "Department of Ophthalmology, Etlik City Hospital, Ankara, Türkiye."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7222340855",
+      "doi": "10.1007/s00417-026-07562-0",
+      "pmid": "42878788",
+      "pmcid": null,
+      "titre": "Evaluation of anterior segment and lamina cribrosa parameters in primary open-angle glaucoma, pseudoexfoliation glaucoma, and healthy controls",
+      "lien": "https://openalex.org/W7222340855",
+      "date_publication": "2026-10-15",
+      "type": "article",
+      "revue": "Graefe s Archive for Clinical and Experimental Ophthalmology",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "pubmed"
+      ],
+      "financeurs": null,
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "Amasya Üniversitesi",
+          "pays": "TR",
+          "type": "education",
+          "ror": "https://ror.org/00sbx0y13"
+        },
+        {
+          "nom": "Haydarpaşa Numune Eğitim ve Araştırma Hastanesi",
+          "pays": "TR",
+          "type": "healthcare",
+          "ror": "https://ror.org/03pdc2j75"
+        },
+        {
+          "nom": "Ankara Etlik City Hospital",
+          "pays": "TR",
+          "type": "healthcare",
+          "ror": "https://ror.org/01nk6sj42"
+        }
+      ],
+      "acces_ouvert": false,
+      "statut_acces": "closed",
+      "url_texte": null,
+      "url_pdf": null,
+      "licence": null,
+      "texte_integral_indexe": false,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Glaucoma and retinal disorders",
+      "resume_present": false,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": []
+  }
+}

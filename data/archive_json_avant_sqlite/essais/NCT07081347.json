@@ -1,0 +1,78 @@
+{
+  "nct": "NCT07081347",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "nct": "NCT07081347",
+    "titre": "This Follow-up Extension Study is Aimed to Monitor the Long-term IOP-lowering Performance/Efficacy and Safety of the MINT® Procedure in Open Angle Glaucoma Eyes.",
+    "titre_officiel": "Minimally Invasive Nasal Trabeculostomy: Long-Term Follow-Up Extension Study",
+    "lien": "https://clinicaltrials.gov/study/NCT07081347",
+    "date_premiere_publication": "2025-07-23",
+    "date_derniere_mise_a_jour": "2026-10-15",
+    "type_etude": "INTERVENTIONAL",
+    "phases_declarees": [
+      "NA"
+    ],
+    "statut": "COMPLETED",
+    "raison_arret": null,
+    "date_debut": "2025-06-16",
+    "date_fin_principale": "2025-08-02",
+    "promoteur": "Sanoculis Ltd",
+    "type_promoteur": "INDUSTRY",
+    "collaborateurs": null,
+    "conditions": [
+      "Glaucoma",
+      "Ocular Hypertension",
+      "Open-Angle Glaucoma"
+    ],
+    "interventions": [
+      {
+        "type": "DEVICE",
+        "nom": "MINT Minimally Invasive Nasal Trabeculostomy"
+      }
+    ],
+    "participants_nombre": 47,
+    "participants_type": "ACTUAL",
+    "criteres_principaux": [
+      {
+        "critere": "Success will be evaluated as following:",
+        "delai": "• Success rates 36 months post-MINT® surgery"
+      }
+    ],
+    "resultats_deposes": false,
+    "publications_declarees": null,
+    "resume_source": "This follow-up extension study is planned to invite all patients who underwent the MINT® surgery and completed Month 24 Visit in the prior MMS EEU-7 study.\n\nIt is assumed that approximately 20 patients/eyes, achieved qualified success of ≥20% IOP reduction from baseline without reoperation for glaucoma and with same or less medications in the prior MMS EEU-7 study, will be available for assessment in this study. The data from these patients will be included in the IOP performance and medication use analysis.\n\nIn addition to these subjects, data from subjects defined as failure in the prior investigations with MINT® (see: STUDY ID: MMS EEU-4; STUDY ID: MMS EEU-7) will be included in the overall success analysis (i.e., Kaplan Mayer survival analysis).\n\nBased on recommendations of the EGS expert discussion group (European Glaucoma Society (EGS), 2023), the IOP levels of 2-3 mmHg and 20%-30% medication free patients have been proposed as the minimal clinically important difference (MCID) for surgical interventions for glaucoma.\n\nIn this study, by 3 years post MINT® surgery, a sample size of 20 patients is expected to be adequate to demonstrate a reduction of at least -6 mmHg with 95% confidence interval (CI) lower limit of at least -4.6 mmHg which is higher than the MCID required; and at least 45% of free-medication patients with 95%CI lower limit of 21.8% which is in line with the minimum MCID recommendations.",
+    "citations_declarees": null,
+    "plan": {
+      "repartition": "NA",
+      "modele": "SINGLE_GROUP",
+      "but_principal": "TREATMENT",
+      "insu": "NONE",
+      "insu_pour": null,
+      "insu_description": null,
+      "modele_observationnel": null
+    },
+    "bras": [
+      {
+        "libelle": "MINT® Surgical Intervention",
+        "type": "EXPERIMENTAL",
+        "description": "Participants will undergo a single MINT® (Minimally Invasive Nasal Trabeculostomy) procedure as a standalone or combined intervention for the treatment of glaucoma. All participants will be followed for 36 months to evaluate intraocular pressure (IOP) outcomes, reduction in IOP-lowering medications, and safety parameters.",
+        "interventions": [
+          "Device: MINT Minimally Invasive Nasal Trabeculostomy"
+        ]
+      }
+    ],
+    "eligibilite": {
+      "criteres": "Inclusion Criteria:\n\n1. Male or female ≥ 18 years to ≤ 85 years old\n2. Subject who underwent MINT, in continuation of the previous clinical investigation with the MINT® device (see: STUDY ID: MMS EEU-4), and surgery was performed not earlier than 30 months from enrollment\n3. Subject is able and willing to attend all scheduled follow-up exams\n4. Subject understands and signs the informed consent\n\nExclusion Criteria:\n\n1. Subject who was withdrawn from the previous studies (MMS EEU-4 and MMS EEU-7)\n2. Any ocular surgery since the MINT® surgery in the study eye\n3. Severe trauma in the study eye since the MINT® surgery in the study eye (except for uncomplicated cataract surgery or laser therapy)\n4. Current participation in another investigational drug or device clinical trial or participation is such trial within the last 30 days before enrollment into the study\n5. Pregnant or lactating women",
+      "age_min": "18 Years",
+      "age_max": "85 Years",
+      "sexe": "ALL",
+      "volontaires_sains": true
+    },
+    "criteres_secondaires": null,
+    "responsables": null,
+    "date_depot_resultats": null,
+    "resultats": null
+  },
+  "modifications": []
+}

@@ -1,0 +1,98 @@
+{
+  "pmid": "42950163",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42950163",
+    "titre": "Glaucoma Treatment Trends in Australia Over a 10-Year Period.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42950163/",
+    "doi": "10.1080/09286586.2026.2754994",
+    "pmcid": null,
+    "revue": "Ophthalmic epidemiology",
+    "date_entree_pubmed": "2026-10-28",
+    "date_publication": "2026-Oct-28",
+    "types_publication": [
+      "Journal Article"
+    ],
+    "resume_present": true,
+    "resume": "PURPOSE: To characterise trends in the use of selective laser trabeculoplasty (SLT), glaucoma surgery and medication prescribing in Australia between 2015 and 2024.\nSTUDY DESIGN: Nationwide, population-based cross-sectional analysis.\nMETHODS: Medicare Benefits Schedule (MBS) procedure claims and Pharmaceutical Benefits Scheme (PBS)/Repatriation PBS dispensing data were analysed from 2015 to 2024. Procedure and prescription rates were expressed per 100,000 Australian residents using Australian Bureau of Statistics population estimates.\nRESULTS: Between 2015 and 2024, 344,370 SLT procedures were recorded. Rates rose from 127 to 150 per 100,000 (β = 1,335 procedures/year; 95% CI 969-1,701; p < 0.001). Annual glaucoma medication prescriptions decreased from 4,167,417 to 3,390,394 (17,498 to 12,466 per 100,000), without a statistically significant linear trend (β = -52,005/year; 95% CI - 104,373-363; p = 0.051). Overall, 113,466 glaucoma surgeries were recorded: annual procedures increased from 4,953 (20.8 per 100,000) to 15,334 (56.4 per 100,000). Minimally invasive glaucoma surgeries (MIGS) increased from 2,177 in 2017 to 10,501 in 2024, compared with 4,080 to 4,386 filtration procedures and 292 to 409 drainage device procedures. Negative binomial regression found no significant annual rate trends for MIGS (IRR 1.16; 95% CI 0.86-1.57; p = 0.34), filtration procedures (IRR 1.00; 95% CI 0.81-1.24; p = 0.97), or drainage devices (IRR 1.03; 95% CI 0.83-1.28; p = 0.79). Optometrists' share of glaucoma prescriptions increased from 1.25% to 5.63%.\nCONCLUSIONS: Our findings demonstrate changing glaucoma treatment trends in Australia. SLT and MIGS procedure volumes increased as medication prescriptions declined, while optometrists accounted for an increasing proportion of medication prescribing.",
+    "mots_cles_auteurs": [
+      "Glaucoma",
+      "Pharmaceutical Benefits Scheme",
+      "glaucoma therapy",
+      "selective laser trabeculoplasty",
+      "treatment"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 6,
+    "affiliations_auteurs": [
+      "Department of Ophthalmology & Visual Sciences, University of Adelaide, Adelaide, SA, Australia.",
+      "Department of Ophthalmology, Queen Elizabeth Hospital, Woodville South, SA, Australia.",
+      "Sydney Medical School, Faculty of Medicine and Health, The University of Sydney, Sydney, Australia."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7224137716",
+      "doi": "10.1080/09286586.2026.2754994",
+      "pmid": "42950163",
+      "pmcid": null,
+      "titre": "Glaucoma Treatment Trends in Australia Over a 10-Year Period",
+      "lien": "https://openalex.org/W7224137716",
+      "date_publication": "2026-10-28",
+      "type": "article",
+      "revue": "Ophthalmic Epidemiology",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "pubmed"
+      ],
+      "financeurs": null,
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "The University of Adelaide",
+          "pays": "AU",
+          "type": "education",
+          "ror": "https://ror.org/00892tw58"
+        },
+        {
+          "nom": "The University of Sydney",
+          "pays": "AU",
+          "type": "education",
+          "ror": "https://ror.org/0384j8v12"
+        }
+      ],
+      "acces_ouvert": true,
+      "statut_acces": "hybrid",
+      "url_texte": "https://www.tandfonline.com/doi/pdf/10.1080/09286586.2026.2754994?needAccess=true",
+      "url_pdf": "https://www.tandfonline.com/doi/pdf/10.1080/09286586.2026.2754994?needAccess=true",
+      "licence": "cc-by",
+      "texte_integral_indexe": true,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Glaucoma and retinal disorders",
+      "resume_present": true,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": []
+  }
+}

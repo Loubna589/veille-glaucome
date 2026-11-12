@@ -1,0 +1,122 @@
+{
+  "nct": "NCT04673201",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "nct": "NCT04673201",
+    "titre": "Management Pediatric Steroid Induced Glaucoma",
+    "titre_officiel": "Ab Externo Circumferential Suture Trabeculotomy Versus Non-Penetrating Deep Sclerectomy for Pediatric Steroid-Induced Ocular Hypertension and Glaucoma: A 2-Year Randomized Controlled Trial",
+    "lien": "https://clinicaltrials.gov/study/NCT04673201",
+    "date_premiere_publication": "2020-12-17",
+    "date_derniere_mise_a_jour": "2026-11-06",
+    "type_etude": "INTERVENTIONAL",
+    "phases_declarees": [
+      "NA"
+    ],
+    "statut": "COMPLETED",
+    "raison_arret": null,
+    "date_debut": "2020-11-20",
+    "date_fin_principale": "2026-10-31",
+    "promoteur": "Mansoura University",
+    "type_promoteur": "OTHER",
+    "collaborateurs": null,
+    "conditions": [
+      "Pediatric Steroid-Induced Ocular Hypertension and Glaucoma"
+    ],
+    "interventions": [
+      {
+        "type": "PROCEDURE",
+        "nom": "Group B: Non-Penetrating Deep Sclerectomy (NPDS)"
+      },
+      {
+        "type": "PROCEDURE",
+        "nom": "Group A: Ab Externo Circumferential Suture Trabeculotomy (ACST)"
+      }
+    ],
+    "participants_nombre": 54,
+    "participants_type": "ACTUAL",
+    "criteres_principaux": [
+      {
+        "critere": "complete success",
+        "delai": "2 years"
+      },
+      {
+        "critere": "qualified success",
+        "delai": "2 years"
+      },
+      {
+        "critere": "Failure",
+        "delai": "2 years"
+      }
+    ],
+    "resultats_deposes": false,
+    "publications_declarees": null,
+    "resume_source": "Purpose: To compare the efficacy and safety of ab externo circumferential suture trabeculotomy (ACST) and non-penetrating deep sclerectomy (NPDS) in children with steroid-induced ocular hypertension or glaucoma over 24 months.\n\nMethods: In this prospective, randomized, controlled trial conducted at the Mansoura Ophthalmic Center, 54 children aged 7 to 17 years with steroid-induced intraocular pressure (IOP) elevation uncontrolled despite steroid withdrawal and maximal tolerated medical therapy were randomized 1:1 to ACST (n = 27) or NPDS (n = 27); one eye per child was analyzed. The primary outcome was mean IOP at 24 months. Secondary outcomes were anti-glaucoma medication use, complete and qualified success (IOP ≤18 mmHg without and with medication), best-corrected visual acuity (BCVA), visual-field mean deviation, complications, and additional interventions.\n\nKeywords:\n\nSteroid induced glaucoma, trabeculectomy, trabeculotomy .",
+    "citations_declarees": null,
+    "plan": {
+      "repartition": "RANDOMIZED",
+      "modele": "PARALLEL",
+      "but_principal": "TREATMENT",
+      "insu": "QUADRUPLE",
+      "insu_pour": [
+        "PARTICIPANT",
+        "CARE_PROVIDER",
+        "INVESTIGATOR",
+        "OUTCOMES_ASSESSOR"
+      ],
+      "insu_description": null,
+      "modele_observationnel": null
+    },
+    "bras": [
+      {
+        "libelle": "Group A: Ab Externo Circumferential Suture Trabeculotomy (ACST)",
+        "type": "ACTIVE_COMPARATOR",
+        "description": "A superior fornix-based conjunctival flap was created, and hemostasis was achieved. A superficial rectangular scleral flap measuring 4 × 4 mm and approximately two-thirds of the scleral thickness was fashioned and carefully dissected anteriorly toward the limbus. A deeper 2 × 2 mm scleral flap was then created beneath the superficial flap, extending toward the limbus to expose the scleral spur and unroof Schlemm's canal. Viscoelastic was gently introduced into the ostia of Schlemm's canal using a standard 30-gauge viscocanalostomy cannula to dilate the canal and facilitate suture advancement. A 5-0 polypropylene suture was prepared by cauterizing its tip to create a blunt end, minimizing the risk of trauma during canal probing. The blunt suture tip was introduced into the left ostium of Schlemm's canal with microsurgical forceps and advanced circumferentially along the entire canal. Traction.Traction was then applied to approximate the two ends of the suture.",
+        "interventions": [
+          "Procedure: Group A: Ab Externo Circumferential Suture Trabeculotomy (ACST)"
+        ]
+      },
+      {
+        "libelle": "Group B: Non-Penetrating Deep Sclerectomy (NPDS)",
+        "type": "ACTIVE_COMPARATOR",
+        "description": "A fornix-based superior conjunctival flap was created. A superficial scleral flap (one-third scleral depth) measuring 5 × 5 mm was dissected anteriorly until clear cornea was reached. Mitomycin C (MMC) 0.02% was applied for 2 minutes using soaked sponges under the scleral flap and conjunctiva, followed by thorough irrigation with balanced salt solution. A deeper 4 × 4 mm scleral flap was then dissected anteriorly to Schlemm's canal and extended further into the cornea to create a trabeculo-Descemet's window. The deep scleral flap was excised. A collagen implant was placed to maintain the created space and secured with a single 10-0 suture. The superficial scleral flap was closed with 10-0 nylon sutures, and the conjunctiva was sutured with 8-0 absorbable sutures.",
+        "interventions": [
+          "Procedure: Group B: Non-Penetrating Deep Sclerectomy (NPDS)"
+        ]
+      }
+    ],
+    "eligibilite": {
+      "criteres": "Inclusion Criteria:\n\n(1) age 7 to 17 years; (2) elevated intraocular pressure (IOP ≥ 22 mmHg) secondary to corticosteroid use that persisted after discontinuation of steroids and maximal tolerated medical therapy; (3) ability to comply with the study follow-up schedule; and (4) written informed consent from a parent or legal guardian and assent from the child when appropriate.\n\nSteroid-induced ocular hypertension was defined as IOP ≥ 22 mmHg after corticosteroid exposure without optic-nerve or visual-field damage. Steroid-induced glaucoma was defined as elevated IOP with glaucomatous optic-disc changes (cup-to-disc ratio ≥ 0.6 or asymmetry ≥ 0.2) and/or a corresponding visual-field defect on standard automated perimetry, in the absence of other identifiable causes of glaucoma.\n\nExclusion Criteria:\n\n(1) history of previous glaucoma surgery; (2) other forms of glaucoma unrelated to steroid use; (3) congenital glaucoma; and (4) complicated cataract or other significant ocular comorbidity.",
+      "age_min": "2 Years",
+      "age_max": "70 Years",
+      "sexe": "ALL",
+      "volontaires_sains": true
+    },
+    "criteres_secondaires": [
+      {
+        "critere": "number of anti-glaucoma medications",
+        "delai": "2 years"
+      },
+      {
+        "critere": "best-corrected visual acuity (BCVA)",
+        "delai": "2 years"
+      },
+      {
+        "critere": "visual-field mean deviation (MD)",
+        "delai": "2 years"
+      },
+      {
+        "critere": "postoperative complications",
+        "delai": "2 years"
+      },
+      {
+        "critere": "additional surgical interventions.",
+        "delai": "2 years"
+      }
+    ],
+    "responsables": null,
+    "date_depot_resultats": null,
+    "resultats": null
+  },
+  "modifications": []
+}

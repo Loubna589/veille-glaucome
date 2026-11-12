@@ -1,0 +1,110 @@
+{
+  "pmid": "43003355",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "43003355",
+    "titre": "Late-onset filtering bleb complications: A review.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/43003355/",
+    "doi": "10.1016/j.survophthal.2026.11.004",
+    "pmcid": null,
+    "revue": "Survey of ophthalmology",
+    "date_entree_pubmed": "2026-11-09",
+    "date_publication": "2026-Nov-09",
+    "types_publication": [
+      "Journal Article",
+      "Review"
+    ],
+    "resume_present": true,
+    "resume": "Late-onset filtering bleb dysfunction remains an important determinant of long-term outcomes following glaucoma filtration surgery. Although trabeculectomy provides sustained intraocular pressure (IOP) reduction, progressive changes in bleb architecture and wound healing can result in filtration failure, hypotony, leakage, ocular discomfort, and sight-threatening infection. This review examines the clinical characteristics, underlying mechanisms, assessment, prevention, and management of late-onset bleb complications, with emphasis on individualized, mechanism-directed care. Standardized bleb grading systems facilitate documentation of morphology and longitudinal assessment. Anterior segment optical coherence tomography and ultrasound biomicroscopy complement clinical examination by delineating bleb architecture and identifying potential sites of outflow obstruction, while optical coherence tomography angiography offers an evolving approach to evaluating bleb vascularity. Elevated IOP may arise from internal ostial obstruction, scleral flap adhesion, subconjunctival fibrosis, or encapsulation. Management depends on the site and extent of dysfunction and includes medical therapy, laser intervention, antifibrotic-augmented needling, and surgical revision. Conversely, excessive filtration and compromised conjunctival integrity may cause persistent hypotony, bleb leakage, and hypotony-related structural changes. Treatment ranges from selected conservative measures to compression sutures, conjunctival advancement, and tissue grafting, according to the underlying defect and associated complications. Bleb-related infection requires urgent recognition and treatment, with management determined by the extent of intraocular involvement. Related complications following glaucoma drainage device implantation, nonpenetrating surgery, and subconjunctival microstent procedures are also considered. Successful long-term care requires balancing adequate aqueous drainage against the risks of overfiltration, tissue fragility, and infection. Lifelong surveillance, patient education, and timely intervention remain central to preserving visual function. Future advances in quantitative imaging, targeted wound modulation, and safer filtration strategies may improve the durability and safety of bleb-dependent glaucoma surgery.",
+    "mots_cles_auteurs": [
+      "antimetabolites",
+      "bleb classification",
+      "bleb grading",
+      "bleb imaging",
+      "bleb re",
+      "bleb repair",
+      "dysesthetic bleb",
+      "dysfunctional filtering blebs",
+      "late bleb leaks, management",
+      "late complications of trabeculectomy",
+      "late onset dysfunctional filtering blebs",
+      "late onset hypotony",
+      "management of late hypotony",
+      "management of late onset"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 6,
+    "affiliations_auteurs": [
+      "Glaucoma Research & Clinical Facility, Dr Rajendra Prasad Centre for Ophthalmic Sciences, All India Institute of Medical Sciences, New Delhi. Electronic address: dewang45@gmail.com.",
+      "Glaucoma Research & Clinical Facility, Dr Rajendra Prasad Centre for Ophthalmic Sciences, All India Institute of Medical Sciences, New Delhi.",
+      "Department of Ophthalmology, All India Institute of Medical Sciences- Central Armed Police Forces Institute of Medical Sciences, New Delhi, India."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": [
+        "subconjunctival"
+      ],
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7225624166",
+      "doi": "10.1016/j.survophthal.2026.11.004",
+      "pmid": "43003355",
+      "pmcid": null,
+      "titre": "Late-onset filtering bleb complications: A review",
+      "lien": "https://openalex.org/W7225624166",
+      "date_publication": "2026-11-01",
+      "type": "review",
+      "revue": "Survey of Ophthalmology",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "pubmed"
+      ],
+      "financeurs": null,
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "All India Institute of Medical Sciences",
+          "pays": "IN",
+          "type": "education",
+          "ror": "https://ror.org/02dwcqs71"
+        },
+        {
+          "nom": "Central Armed Police Forces",
+          "pays": "IN",
+          "type": "government",
+          "ror": "https://ror.org/01qpebh25"
+        }
+      ],
+      "acces_ouvert": false,
+      "statut_acces": "closed",
+      "url_texte": null,
+      "url_pdf": null,
+      "licence": null,
+      "texte_integral_indexe": false,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Glaucoma and retinal disorders",
+      "resume_present": false,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": []
+  }
+}

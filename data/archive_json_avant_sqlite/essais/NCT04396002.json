@@ -1,0 +1,146 @@
+{
+  "nct": "NCT04396002",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "nct": "NCT04396002",
+    "titre": "Glaucoma, Visual Field Loss, and Their Association With Life Space in Older Adults",
+    "titre_officiel": "Glaucoma, Visual Field Loss, and Their Association With Life Space in Older Adults",
+    "lien": "https://clinicaltrials.gov/study/NCT04396002",
+    "date_premiere_publication": "2020-05-20",
+    "date_derniere_mise_a_jour": "2026-10-27",
+    "type_etude": "OBSERVATIONAL",
+    "phases_declarees": null,
+    "statut": "ACTIVE_NOT_RECRUITING",
+    "raison_arret": null,
+    "date_debut": "2019-06-01",
+    "date_fin_principale": "2027-05-30",
+    "promoteur": "University of Alabama at Birmingham",
+    "type_promoteur": "OTHER",
+    "collaborateurs": null,
+    "conditions": [
+      "Primary Open Angle Glaucoma"
+    ],
+    "interventions": [
+      {
+        "type": "DIAGNOSTIC_TEST",
+        "nom": "Life Space Questionnaire"
+      },
+      {
+        "type": "DIAGNOSTIC_TEST",
+        "nom": "Low Luminance Questionnaire"
+      },
+      {
+        "type": "DIAGNOSTIC_TEST",
+        "nom": "Contrast sensitivity under dim illumination"
+      },
+      {
+        "type": "DIAGNOSTIC_TEST",
+        "nom": "Visual field under dim illumination (MAIA)"
+      },
+      {
+        "type": "DIAGNOSTIC_TEST",
+        "nom": "Macular Pigment Optical Density (MPOD)"
+      },
+      {
+        "type": "DIAGNOSTIC_TEST",
+        "nom": "Dark Adaptation"
+      }
+    ],
+    "participants_nombre": 100,
+    "participants_type": "ESTIMATED",
+    "criteres_principaux": [
+      {
+        "critere": "Assessment of life space measured with the Life Space Questionnaire",
+        "delai": "Through study completion, an average of 1 year"
+      },
+      {
+        "critere": "Assessment of vision under low luminance conditions",
+        "delai": "Through study completion, an average of 1 year"
+      },
+      {
+        "critere": "Differences in contrast sensitivity functions between controls and patients",
+        "delai": "Through study completion, an average of 1 year"
+      },
+      {
+        "critere": "Differences in dark adaptation between controls and patients",
+        "delai": "Through study completion, an average of 1 year"
+      },
+      {
+        "critere": "Differences in visual sensitivity under dim illumination between controls and patients",
+        "delai": "Through study completion, an average of 1 year"
+      },
+      {
+        "critere": "Differences in Macular Pigment Optical Density between controls and patients",
+        "delai": "Through study completion, an average of 1 year"
+      },
+      {
+        "critere": "Assessment of the relationship between each the measure of visual function and life space",
+        "delai": "Through study completion, an average of 1 year"
+      },
+      {
+        "critere": "Assessment of the relationship between each the measure of visual function and self-reported visual function under dim illumination",
+        "delai": "Through study completion, an average of 1 year"
+      }
+    ],
+    "resultats_deposes": false,
+    "publications_declarees": null,
+    "resume_source": "Mobility refers to a person's purposeful movement through the environment from one place to another and can be conceptualized as a continuum from bed bound (immobility) on one extreme to making excursions to distant locations on the other extreme. Primary open-angle glaucoma (POAG) is a chronic, progressive optic neuropathy that can lead to gradual loss of vision in the peripheral field and central vision. Older adults with POAG have an increased risk for motor vehicle collisions and falls. Moreover, existing studies suggest that patients with POAG exhibit more postural sway while standing as measured by a balance platform and also tend to walk more slowly than those who are normally sighted and free of ocular disease. While these disturbances likely influence mobility, there has been little research directly assessing the impact of POAG on mobility. This study will assess the impact of POAG on life space (one aspect of mobility) and will determine whether difficulties with life space are associated with difficulties experienced under conditions of dim lighting.",
+    "citations_declarees": null,
+    "plan": {
+      "repartition": null,
+      "modele": null,
+      "but_principal": null,
+      "insu": null,
+      "insu_pour": null,
+      "insu_description": null,
+      "modele_observationnel": "CASE_CONTROL"
+    },
+    "bras": [
+      {
+        "libelle": "Primary Open-Angle Glaucoma",
+        "type": null,
+        "description": "Patients diagnosed with primary open-angle glaucoma.",
+        "interventions": [
+          "Diagnostic Test: Life Space Questionnaire",
+          "Diagnostic Test: Low Luminance Questionnaire",
+          "Diagnostic Test: Contrast sensitivity under dim illumination",
+          "Diagnostic Test: Visual field under dim illumination (MAIA)",
+          "Diagnostic Test: Macular Pigment Optical Density (MPOD)",
+          "Diagnostic Test: Dark Adaptation"
+        ]
+      },
+      {
+        "libelle": "Control",
+        "type": null,
+        "description": "Participants with healthy eyes.",
+        "interventions": [
+          "Diagnostic Test: Life Space Questionnaire",
+          "Diagnostic Test: Low Luminance Questionnaire",
+          "Diagnostic Test: Contrast sensitivity under dim illumination",
+          "Diagnostic Test: Visual field under dim illumination (MAIA)",
+          "Diagnostic Test: Macular Pigment Optical Density (MPOD)",
+          "Diagnostic Test: Dark Adaptation"
+        ]
+      }
+    ],
+    "eligibilite": {
+      "criteres": "Inclusion Criteria (Patients):\n\n* Participants that are enrolled in the Early Detection of Glaucoma Progression using a Novel Individualized Approach (IRB-300000301) or in the African Descent and Glaucoma Evaluation (ADAGES) IV: Alterations of the Lamina Cribrosa in Progression (IRB-161115004).\n\nExclusion Criteria (Patients):\n\n* Not being enrolled in one of the following two NIH-funded studies: 1. African Descent and Glaucoma Evaluation (ADAGES) IV: Alterations of the lamina cribrosa in progression (EY026574) or 2. Early detection of glaucoma progression using a novel individualized approach (EY025756)\n\nInclusion Criteria (Controls):\n\n* No diagnosis of eye disease\n\nExclusion Criteria (Controls):\n\n* Cognitive impairment that would preclude ability to take the tests",
+      "age_min": "18 Years",
+      "age_max": "100 Years",
+      "sexe": "ALL",
+      "volontaires_sains": true
+    },
+    "criteres_secondaires": null,
+    "responsables": [
+      {
+        "nom": "Lyne Racette, PhD",
+        "affiliation": "University of Alabama at Birmingham",
+        "role": "PRINCIPAL_INVESTIGATOR"
+      }
+    ],
+    "date_depot_resultats": null,
+    "resultats": null
+  },
+  "modifications": []
+}

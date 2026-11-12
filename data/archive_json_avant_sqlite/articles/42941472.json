@@ -1,0 +1,153 @@
+{
+  "pmid": "42941472",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42941472",
+    "titre": "Artificial Intelligence in Eye Disease: A Systematic Review of Screening, Diagnosis, Prognosis, Treatment-Response Prediction, and Clinical Decision Support.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42941472/",
+    "doi": "10.3390/jcm15207957",
+    "pmcid": "PMC13706016",
+    "revue": "Journal of clinical medicine",
+    "date_entree_pubmed": "2026-10-27",
+    "date_publication": "2026-Oct-14",
+    "types_publication": [
+      "Journal Article",
+      "Review"
+    ],
+    "resume_present": true,
+    "resume": "Background/Objectives: Artificial intelligence (AI) is expanding eye care beyond image-based detection toward prognosis, treatment-response prediction, monitoring, triage, and clinician-facing decision support. We evaluated AI across eye-disease screening, diagnosis, prognosis, treatment response, and decision support, emphasizing validation, explainability, and clinical readiness. Methods: This PROSPERO-registered review followed the Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA) 2020 statement. Six databases plus supplementary routes identified English-language literature published from 1 January 2015 through 10 August 2026. Included studies underwent design-mapped Joanna Briggs Institute (JBI)/adapted-JBI item-level appraisal; heterogeneity precluded meta-analysis. Results: The evidence base comprised 270 studies. Diabetic retinopathy/diabetic macular oedema was the largest clinical area (82), followed by retinal/multi-disease AI (52), glaucoma (46), and age-related macular degeneration (AMD)/macular disease (29); convolutional neural network (CNN)/convolutional deep learning was the largest primary method group (136). External validation was confirmed in 130 studies, including 95 with a clinical/geographic/prospective/real-world external-validation component (86 clinical-only and nine mixed clinical + technical); 49 had a strict direct clinical comparator and 90 used explainability. Pediatric/pediatric-relevant evidence accounted for 30 studies, while explicit optometry/optometrist involvement appeared in only three. Conclusions: Ophthalmic AI spans diagnosis through clinical management, but translation remains limited by heterogeneous outcomes, incomplete independent validation, few direct comparators, and sparse evaluation of safety, workflow effects, and patient outcomes.",
+    "mots_cles_auteurs": [
+      "artificial intelligence",
+      "clinical decision support",
+      "clinical management",
+      "explainable artificial intelligence",
+      "fundus photography",
+      "ophthalmology",
+      "optical coherence tomography",
+      "systematic review",
+      "treatment-response prediction"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 7,
+    "affiliations_auteurs": [
+      "Department of Optometry, College of Applied Medical Sciences, King Saud University, Riyadh 11433, Saudi Arabia.",
+      "Department of Clinical Pharmacy, College of Pharmacy, King Saud University, Riyadh 11451, Saudi Arabia.",
+      "Research Department, Prince Sultan Cardiac Center, Ministry of Defense Health Services, Riyadh 12426, Saudi Arabia.",
+      "Research and Innovation Institute, Ministry of Defense Health Services, Riyadh 12426, Saudi Arabia.",
+      "College of Medicine, King Saud University, Riyadh 11472, Saudi Arabia."
+    ],
+    "financeurs_declares": [
+      {
+        "organisme": "King Saud University",
+        "pays": "",
+        "reference": null
+      }
+    ],
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7221773579",
+      "doi": "10.3390/jcm15207957",
+      "pmid": "42941472",
+      "pmcid": "13706016",
+      "titre": "Artificial Intelligence in Eye Disease: A Systematic Review of Screening, Diagnosis, Prognosis, Treatment-Response Prediction, and Clinical Decision Support",
+      "lien": "https://openalex.org/W7221773579",
+      "date_publication": "2026-10-14",
+      "type": "review",
+      "revue": "Journal of Clinical Medicine",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "pubmed"
+      ],
+      "financeurs": [
+        {
+          "nom": "King Saud University",
+          "ror": "https://ror.org/02f81g417"
+        }
+      ],
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "King Saud University",
+          "pays": "SA",
+          "type": "education",
+          "ror": "https://ror.org/02f81g417"
+        },
+        {
+          "nom": "King Saud bin Abdulaziz University for Health Sciences",
+          "pays": "SA",
+          "type": "education",
+          "ror": "https://ror.org/0149jvn88"
+        },
+        {
+          "nom": "Ministry of Defense",
+          "pays": "SA",
+          "type": "government",
+          "ror": "https://ror.org/03dtp6w69"
+        },
+        {
+          "nom": "Research and Innovation Institute",
+          "pays": "SA",
+          "type": "government",
+          "ror": "https://ror.org/05ttvc873"
+        }
+      ],
+      "acces_ouvert": true,
+      "statut_acces": "gold",
+      "url_texte": "https://doi.org/10.3390/jcm15207957",
+      "url_pdf": null,
+      "licence": "cc-by",
+      "texte_integral_indexe": true,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Retinal Imaging and Analysis",
+      "resume_present": true,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": [
+      {
+        "nom": "King Saud University",
+        "statut": "CONFIRMÉ — déclaré dans la notice PubMed (GrantList)",
+        "references": null,
+        "notices": [
+          [
+            "notice PubMed",
+            "https://pubmed.ncbi.nlm.nih.gov/42941472/?format=pubmed"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": null,
+        "statut": "CONFIRMÉ — déclaré par l'éditeur dans Crossref (absent d'OpenAlex)",
+        "references": null,
+        "notices": [
+          [
+            "notice justificative Crossref (déclaration de l'éditeur)",
+            "https://api.crossref.org/works/10.3390/jcm15207957"
+          ]
+        ],
+        "note": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "openalex_id": "W7213376725",
+  "premiere_detection": "2026-09-25",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "openalex_id": "W7213376725",
+    "doi": null,
+    "pmid": null,
+    "pmcid": null,
+    "titre": "Clinical and Patient-Reported Outcomes of Premium Intraocular Lenses in Glaucoma Patients Undergoing Combined Cataract and Minimally Invasive Glaucoma Surgery",
+    "lien": "https://openalex.org/W7213376725",
+    "date_publication": "2026-09-01",
+    "type": "article",
+    "revue": "DOAJ (DOAJ: Directory of Open Access Journals)",
+    "type_source": "repository",
+    "langue": "en",
+    "indexe_dans": [
+      "doaj"
+    ],
+    "financeurs": null,
+    "subventions": null,
+    "institutions": null,
+    "acces_ouvert": false,
+    "statut_acces": "closed",
+    "url_texte": null,
+    "url_pdf": null,
+    "licence": null,
+    "texte_integral_indexe": false,
+    "retracte": false,
+    "citations": 0,
+    "sujet_principal": "Ophthalmology and Visual Impairment Studies",
+    "resume_present": true,
+    "resume": "Jack Wolsky,1 Christianah Jemiyo,1 Michael Greenwood21School of Medicine and Health Sciences, University of North Dakota, Grand Forks, ND, USA; 2Vance Thompson Vision, West Fargo, ND, USACorrespondence: Jack Wolsky, School of Medicine and Health Sciences, University of North Dakota, 1301 N Columbia Rd Stop 9037, Grand Forks, ND, 58202-9037, USA, Tel +1 701 509-9883, Email jack.wolsky@und.eduBackground: Premium intraocular lenses (IOLs), including multifocal, extended depth-of-focus (EDOF), and light adjustable lenses (LALs) are used to reduce spectacle dependence after cataract surgery. However, their use in glaucoma patients remains controversial due to concerns that reduced contrast sensitivity and pre-existing visual field loss limits functional benefits from these optics. Increasing use of minimally invasive glaucoma surgery (MIGS) at the time of cataract surgery has made combined refractive and glaucoma management more common, but data on real world outcomes remains limited.Methods: This single-center, IRB-approved retrospective observational study with cross-sectional survey analysis included glaucoma patients who underwent bilateral cataract surgery with implantation of multifocal, EDOF, or LAL IOLs with concurrent MIGS from 2020 to 2025. Postoperative visual outcomes, intraocular pressure (IOP), glaucoma medication burden, spectacle dependence, dysphotopsias, and patient satisfaction were assessed. Longitudinal outcomes were analyzed using mixed-effects models adjusted for baseline glaucoma severity (mean deviation). Satisfaction was evaluated using proportional odds logistic regression adjusting for age and baseline disease severity.Results: Seventy-nine patients (Multifocal n=43, EDOF n=24, LAL n=12) were included. All groups demonstrated significant postoperative improvement in distance visual acuity and reduction in IOP and glaucoma medication burden. Adjusted IOP trajectories and most recent IOP were similar between groups. Distance visual acuity outcomes were similar between groups after adjustment for baseline glaucoma severity. Near visual acuity favored multifocal IOLs, while LAL demonstrated the highest spectacle dependence. Dysphotopsias were more frequent with multifocal lenses and lowest in LAL. Satisfaction was high across all groups, with predicted probabilities of being \"very” or \"somewhat satisfied” of 94% (multifocal), 88% (EDOF), and 87% (LAL).Conclusions: In appropriately selected glaucoma patients undergoing cataract surgery with MIGS, multifocal, EDOF, and LAL IOLs provide comparable visual outcomes, excellent IOP control, and high satisfaction. Differences in spectacle dependence and dysphotopsia support individualized IOL selection.Keywords: glaucoma, intraocular lens, patient-reported outcomes, spectacle independence, visual acuity",
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "present_dans_pubmed": false
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "pmid": "42990792",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42990792",
+    "titre": "Delayed blood reflux-related secondary open-angle glaucoma with ghost cells more than 3 years after ab-interno goniotomy.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42990792/",
+    "doi": "10.1016/j.ajoc.2026.102686",
+    "pmcid": "PMC13734763",
+    "revue": "American journal of ophthalmology case reports",
+    "date_entree_pubmed": "2026-11-06",
+    "date_publication": "2026-Dec",
+    "types_publication": [
+      "Case Reports",
+      "Journal Article"
+    ],
+    "resume_present": true,
+    "resume": "PURPOSE: To report delayed blood reflux-related secondary open-angle glaucoma with a pathology-supported ghost-cell component more than 3 years after ab-interno goniotomy.\nOBSERVATIONS: A 73-year-old man with primary open-angle glaucoma underwent left ab-interno goniotomy using a Tanito microhook (TMH) over 120° about 45 months before presentation; a 1-mm hyphema was documented on postoperative day 1. IOP was 17.0 mmHg at 3 months, 14.0 mmHg at 1 year, 18.0 mmHg at postoperative month 36, and 15.3 mmHg at postoperative month 44, but increased to 45.3 mmHg approximately 2 weeks before admission and 45.1 mmHg at admission despite topical therapy. Gonioscopy showed an open angle with a small inferior hyphema, and B-scan showed no clinically evident vitreous hemorrhage. During early anterior chamber paracentesis/decompression, 0.1 mL of aqueous humor was aspirated for direct-smear examination with routine hematoxylin-eosin staining; during decompression/washout, blood-tinged reflux was observed from the nasal angle corresponding to the prior goniotomy site. Pathology showed degenerated erythrocytes and ghost cells. Because washout did not provide sustained IOP control, trabeculectomy with mitomycin C and two adjustable scleral-flap sutures was performed. At postoperative month 11 after trabeculectomy, IOP was 10.0 mmHg with a clear anterior chamber.\nCONCLUSIONS AND IMPORTANCE: Delayed blood-reflux-related secondary open-angle glaucoma may occur years after ab-interno goniotomy. These findings indicate that the surgically opened trabecular pathway remains a potential route for retrograde bleeding whenever episcleral venous pressure exceeds intraocular pressure. Clinicians should be mindful of this late phenomenon, which warrants further clinical observation and mechanistic research.",
+    "mots_cles_auteurs": [
+      "Blood reflux",
+      "Ghost cells",
+      "Hyphema",
+      "Micro-invasive glaucoma surgery",
+      "ab-interno goniotomy"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 4,
+    "affiliations_auteurs": [
+      "State Key Laboratory of Ophthalmology, Zhongshan Ophthalmic Center, Sun Yat-sen University, Guangdong Provincial Key Laboratory of Ophthalmology and Visual Science, Guangdong Provincial Clinical Research Center for Ocular Diseases, Guangzhou, 510060, China.",
+      "Department of Ophthalmology, Xi'an International Medical Center Hospital, Xi'an, Shaanxi, 710100, China.",
+      "Department of Ophthalmology, The First People's Hospital of Guangyuan, Guangyuan, Sichuan, 628000, China."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7223106839",
+      "doi": "10.1016/j.ajoc.2026.102686",
+      "pmid": "42990792",
+      "pmcid": "13734763",
+      "titre": "Delayed blood reflux-related secondary open-angle glaucoma with ghost cells more than 3 years after ab-interno goniotomy",
+      "lien": "https://openalex.org/W7223106839",
+      "date_publication": "2026-10-21",
+      "type": "article",
+      "revue": "American Journal of Ophthalmology Case Reports",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "doaj",
+        "pubmed"
+      ],
+      "financeurs": null,
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "State Key Laboratory of Ophthalmology",
+          "pays": "CN",
+          "type": "facility",
+          "ror": "https://ror.org/003mfbe21"
+        },
+        {
+          "nom": "Zhongshan Ophthalmic Center, Sun Yat-sen University",
+          "pays": "CN",
+          "type": "healthcare",
+          "ror": "https://ror.org/02z2yec16"
+        },
+        {
+          "nom": "The First People's Hospital of Guangyuan",
+          "pays": "CN",
+          "type": "healthcare",
+          "ror": "https://ror.org/004v3m339"
+        }
+      ],
+      "acces_ouvert": true,
+      "statut_acces": "gold",
+      "url_texte": "https://doi.org/10.1016/j.ajoc.2026.102686",
+      "url_pdf": null,
+      "licence": "cc-by-nc-nd",
+      "texte_integral_indexe": true,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Glaucoma and retinal disorders",
+      "resume_present": true,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": []
+  }
+}

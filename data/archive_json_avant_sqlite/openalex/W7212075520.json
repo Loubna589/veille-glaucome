@@ -1,0 +1,57 @@
+{
+  "openalex_id": "W7212075520",
+  "premiere_detection": "2026-09-25",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "openalex_id": "W7212075520",
+    "doi": "10.48550/arxiv.2609.06699",
+    "pmid": null,
+    "pmcid": null,
+    "titre": "Attention-Enhanced Deep Features with Heterogeneous Ensemble Learning for Glaucoma Detection",
+    "lien": "https://openalex.org/W7212075520",
+    "date_publication": "2026-09-06",
+    "type": "preprint",
+    "revue": "arXiv (Cornell University)",
+    "type_source": "repository",
+    "langue": null,
+    "indexe_dans": [
+      "arxiv",
+      "datacite"
+    ],
+    "financeurs": [
+      {
+        "nom": "Green University",
+        "ror": "https://ror.org/04f7afq11"
+      }
+    ],
+    "subventions": null,
+    "institutions": null,
+    "acces_ouvert": true,
+    "statut_acces": "green",
+    "url_texte": "https://arxiv.org/pdf/2609.06699",
+    "url_pdf": "https://arxiv.org/pdf/2609.06699",
+    "licence": null,
+    "texte_integral_indexe": true,
+    "retracte": false,
+    "citations": 0,
+    "sujet_principal": "Retinal Imaging and Analysis",
+    "resume_present": true,
+    "resume": "Glaucoma is a progressive optic neuropathy characterized by irreversible damage to the optic nerve, making timely diagnosis critical to prevent permanent vision loss. Although deep learning has demonstrated promising performance in automated glaucoma detection, existing approaches often overlook feature refinement, suffer from class imbalance, and rely on individual classifiers that limit prediction robustness. To address these challenges, this paper proposes a hybrid glaucoma detection framework that integrates attention-enhanced deep feature extraction with heterogeneous ensemble learning. Specifically, deep representations are extracted using InceptionV3 and subsequently refined by incorporating the Convolutional Block Attention Module (CBAM) to enhance discriminative retinal features. To improve classification robustness, the extracted features are classified using multiple machine learning models together with Single-Level Ensemble (SLE) and Double-Level Ensemble (DLE) strategies, while SMOTE combined with Tomek Links (SMOTE+TL) is employed to alleviate class imbalance. Furthermore, a systematic comparison of handcrafted, deep, and attention-enhanced deep feature representations is conducted. Experimental evaluation on two public retinal fundus datasets demonstrates that deep feature-based methods consistently outperform handcrafted feature-based methods, while the proposed attention-enhanced framework achieves the best overall performance. Furthermore, Grad-CAM visualizations confirm that the proposed model focuses on clinically relevant retinal regions, providing interpretable evidence on the model's prediction process.",
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "present_dans_pubmed": false
+  }
+}

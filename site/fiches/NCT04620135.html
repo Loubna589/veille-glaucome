@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>NCT04620135 — fiche essai</title><style>
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
+:root{--fond:#f4f7fb;--carte:#fff;--texte:#0f1d33;--doux:#52627a;--bord:#e2e8f0;--accent:#0b4f8a;
+--ok:#146c43;--ok-fond:#e3f4ea;--att:#8a5300;--att-fond:#fdf1d8;--ver:#b42318;--ver-fond:#fdeceb;
+--reg:#3f3c9e;--reg-fond:#ecebfb;--src-fond:#f1f5f9;--mark:#fff1a8;--manque:#b42318;--turquoise:#14b8a6;}
+@media (prefers-color-scheme:dark){:root{--fond:#0a1120;--carte:#101a2c;--texte:#e6edf7;--doux:#9db0ca;
+--bord:#1e2b42;--accent:#6fb4ff;--ok:#6fd6a0;--ok-fond:#12301f;--att:#f3c15e;--att-fond:#352a10;--ver:#ff9a8f;
+--ver-fond:#3a1714;--reg:#b4b2ff;--reg-fond:#24234a;--src-fond:#0d1626;--mark:#5a4d10;--manque:#ff9a8f;--turquoise:#2dd4bf;}}
+*{box-sizing:border-box}body{margin:0;background:var(--fond);color:var(--texte);
+font:15.5px/1.6 "Inter",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+:focus-visible{outline:3px solid var(--turquoise);outline-offset:2px;border-radius:6px}
+main{max-width:1000px;margin:0 auto;padding:20px 18px 64px}
+.bandeau{display:flex;align-items:center;gap:10px;font-weight:800;letter-spacing:-.02em;padding:6px 0 14px;color:var(--texte);text-decoration:none}
+.bandeau i{width:30px;height:30px;border-radius:9px;background:linear-gradient(135deg,#0b4f8a,#14b8a6);display:inline-block}
+header,section{background:var(--carte);border:1px solid var(--bord);border-radius:16px;padding:20px 24px;margin:0 0 16px;
+box-shadow:0 1px 2px rgba(15,29,51,.04),0 6px 20px -8px rgba(15,29,51,.12)}
+h1{font-size:1.45rem;line-height:1.3;margin:.2em 0 .5em}h2{font-size:1.1rem;margin:0 0 .6em;color:var(--accent)}
+h3{font-size:1rem;margin:1.1em 0 .4em}.surtitre{color:var(--doux);margin:0;font-size:.9rem}
+a{color:var(--accent)}small,.def{color:var(--doux)}.def{font-size:.88rem;margin:.2em 0 .6em}
+.grille{display:grid;grid-template-columns:max-content 1fr;gap:4px 16px;margin:12px 0 0}
+.grille dt{color:var(--doux)}.grille dd{margin:0}
+.badge{display:inline-block;font-size:.72rem;font-weight:600;padding:2px 8px;border-radius:999px;margin:2px 4px 2px 0;
+vertical-align:middle;background:var(--src-fond);color:var(--doux)}
+.badge.confirme{background:var(--ok-fond);color:var(--ok)}.badge.attente{background:var(--att-fond);color:var(--att)}
+.badge.verifier{background:var(--ver-fond);color:var(--ver)}.badge.regle{background:var(--reg-fond);color:var(--reg)}
+.rubrique{font-weight:600}.manque{color:var(--manque);font-style:italic}
+mark{background:var(--mark);color:inherit;padding:0 2px;border-radius:3px}
+blockquote{margin:.5em 0;padding:.5em .9em;border-left:3px solid var(--bord);background:var(--src-fond);border-radius:0 6px 6px 0}
+pre{white-space:pre-wrap;font-size:.85rem;background:var(--src-fond);padding:10px;border-radius:6px}
+.defile{overflow-x:auto}table{border-collapse:collapse;width:100%;font-size:.92rem;margin:.4em 0}
+th,td{border:1px solid var(--bord);padding:6px 8px;text-align:left;vertical-align:top}th{background:var(--src-fond)}
+.analyse{background:var(--src-fond);padding:6px 10px;border-radius:6px;font-size:.92rem}
+.acteurs{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px}
+.acteurs>div{border:1px solid var(--bord);border-radius:8px;padding:10px 12px}.acteurs h3{margin-top:0}
+.copier{position:sticky;top:0;z-index:2;display:flex;gap:12px;align-items:center;flex-wrap:wrap;
+background:var(--fond);padding:10px 0;margin-bottom:8px}
+button{font:inherit;font-weight:600;background:var(--accent);color:#fff;border:0;border-radius:8px;padding:9px 16px;cursor:pointer}
+@media (prefers-color-scheme:dark){button{color:#10141a}}
+textarea{width:100%;min-height:260px;font:13px/1.4 ui-monospace,Consolas,monospace;background:var(--src-fond);
+color:var(--texte);border:1px solid var(--bord);border-radius:6px;padding:8px}
+details{margin:.5em 0}summary{cursor:pointer;color:var(--accent)}
+.retour{font-size:.92rem;margin:0 0 4px}
+@media (max-width:600px){.grille{grid-template-columns:1fr}.grille dt{margin-top:6px}header,section{padding:14px}}
+</style></head>
+<body><main>
+<a class="bandeau" href="../index.html"><i aria-hidden="true"></i>Glaucoma Intelligence</a><nav class="retour"><a href="../index.html">Accueil</a> · <a href="../etudes.html">← Essais &amp; articles</a> · <a href="../recherche.html">Rechercher</a> · <a href="../carte.html">Carte des acteurs</a> · <a href="../alertes.html">Alertes</a></nav>
+<div class="copier"><button id="bouton-copier" type="button" onclick="copierFiche()">Copier pour Claude / ChatGPT</button>
+<small>Copie une consigne + les faits de cette fiche, à coller dans votre assistant.</small></div>
+
+    <header>
+      <p class="surtitre">Fiche essai clinique · NCT04620135 · <a href="https://clinicaltrials.gov/study/NCT04620135" target="_blank" rel="noopener">voir sur ClinicalTrials.gov</a></p>
+      <h1>Efficacy and Safety Study of Netarsudil 0.02% Ophthalmic Solution Compared to Ripasudil Hydrochloride Hydrate 0.4% Ophthalmic Solution in Japanese Subjects With Primary Open Angle Glaucoma or Ocular Hypertension</h1>
+      <p><span class="badge confirme">RÉSULTATS DÉPOSÉS AU REGISTRE (le 2023-02-27)</span></p>
+      <dl class="grille">
+        <dt>Phase (déclarée)</dt><dd>Phase 3</dd>
+        <dt>Statut</dt><dd>Terminé</dd>
+        <dt>Type d'étude</dt><dd>Interventionnelle</dd>
+        <dt>Participants</dt><dd>245 (réel)</dd>
+        <dt>Première publication au registre</dt><dd>2020-11-06</dd>
+        <dt>Dernière mise à jour au registre</dt><dd>2023-02-27</dd>
+        <dt>Début · fin principale</dt><dd>2020-11-30 · 2021-07-09</dd>
+        <dt>Détecté par l'outil le</dt><dd>2026-09-25 · 0 modification(s) repérée(s) depuis</dd>
+      </dl>
+      <p class="rubriques"><strong>Rubrique :</strong> <span class="rubrique">Médicaments</span> <small>bras expérimental de type DRUG déclaré au registre : Netarsudil ophthalmic solution 0.02%</small> <span class="badge regle">classement automatique — règles dans config/rubriques.ini</span></p>
+    </header>
+<section><h2>Question étudiée <span class="badge source">Registre ClinicalTrials.gov</span></h2><p><strong>Titre officiel :</strong> A Single-masked, Randomized, Multi-center, Parallel-group, 4-week Study Evaluating the Efficacy and Safety of Once Daily Netarsudil Ophthalmic Solution 0.02% Compared to Twice Daily Ripasudil Hydrochloride Hydrate Ophthalmic Solution 0.4% in Japanese Subjects With Primary Open Angle Glaucoma (POAG) or Ocular Hypertension (OHT)</p><blockquote lang="en">A Phase 3 Study Comparing the Efficacy and Safety of Netarsudil Ophthalmic Solution 0.02% QD to Ripasudil Hydrochloride Hydrate Ophthalmic Solution 0.4% BID, for Treatment of Primary Open-Angle Glaucoma or Ocular Hypertension Over A 4-Week Period.</blockquote></section><section><h2>Traitement ou technologie, et comparateur <span class="badge source">Registre ClinicalTrials.gov</span><span class="badge confirme">rôles CONFIRMÉS : type de bras déclaré au registre</span></h2><div class="defile"><table><thead><tr><th>Bras</th><th>Rôle déclaré</th><th>Interventions</th><th>Description (registre)</th></tr></thead><tbody><tr><td><strong>Netarsudil ophthalmic solution 0.02% and netarsudil ophthalmic solution vehicle</strong></td><td>Expérimental (traitement étudié)</td><td>Drug: Netarsudil ophthalmic solution 0.02%</td><td><small lang="en">1 drop netarsudil 0.02% in the evening and 1 drop netarsudil vehicle in the morning in each eye.</small></td></tr><tr><td><strong>Ripasudil hydrochloride hydrate ophthalmic solution 0.4%</strong></td><td>Comparateur actif</td><td>Drug: Ripasudil hydrochloride hydrate ophthalmic solution 0.4%</td><td><small lang="en">1 drop ripasudil twice daily in the morning and evening in each eye.</small></td></tr></tbody></table></div></section><section><h2>Type d'étude <span class="badge source">Registre ClinicalTrials.gov</span></h2><ul><li>Type : Interventionnelle · phase déclarée : Phase 3</li><li>Répartition : randomisée</li><li>Modèle : groupes parallèles</li><li>Insu : double insu <small>(PARTICIPANT, INVESTIGATOR)</small></li><li>But principal : traitement</li></ul><details><summary>Description de l'insu (texte du registre)</summary><p lang="en">This study adopted a single-masked study design. Treatment assignments were masked to the Investigator, the clinical study team (Sponsor, designated personnel involved in day-to-day study management, Monitors, Data Managers, and Statisticians), and the subjects for the duration of the study. The netarsudil and ripasudil bottles were different in the study, however, investigators and subjects were masked to study drug assignment.</p><p class="def">À comparer avec le niveau d'insu déclaré ci-dessus : le registre peut être incohérent.</p></details></section><section><h2>Population et participants <span class="badge source">Registre ClinicalTrials.gov</span></h2><ul><li>Conditions déclarées : Primary Open Angle Glaucoma, Ocular Hypertension</li><li>Âge : 20 Years → max. non rapporté</li><li>Sexe : tous</li><li>Volontaires sains acceptés : non</li><li>Nombre de participants : <mark>245 (réel)</mark></li></ul><details><summary>Critères d'inclusion et d'exclusion (texte du registre)</summary><pre lang="en">Inclusion Criteria:
+
+* 20 years of age or older
+* Diagnosis of POAG or OHT in both eyes (POAG in one eye and OHT in the fellow eye was acceptable)
+* Medicated intraocular pressure (IOP) ≥ 14 mmHg in at least one eye and \&lt; 30 mmHg in both eyes at screening visit
+* For POAG eyes, unmedicated (post washout) IOP ≥ 15 mmHg and \&lt; 35 mmHg in the study eye at 2 qualification visits (09:00 hours), 2-7 days apart. At second qualification visit IOP ≥ 15 mmHg and \&lt; 35 mmHg at 11:00 and 16:00 hour (in the same eye).
+* For OHT eyes, unmedicated (post washout) IOP ≥ 22 mmHg and \&lt; 35 mmHg in the study eye at 2 qualification visits (09:00 hours), 2-7 days apart. At second qualification visit IOP ≥ 22 mmHg and \&lt; 35 mmHg at 11:00 and 16:00 hours (in the same eye)
+* Best-corrected visual acuity (BCVA) +0.7 log MAR or better (20/100 Snellen or better or 0.20 or better in decimal unit) in each eye
+* Willingness and ability to give signed informed consent and follow study instructions
+
+Exclusion Criteria:
+
+* Clinically significant ocular disease
+* Retinal diseases that may progress during the study period
+* Pseudoexfoliation or pigment dispersion component glaucoma, history of angle closure glaucoma, or narrow angles
+* Previous glaucoma intraocular surgery
+* Refractive surgery in either eye
+* Ocular hyperemia score of moderate (+2) or severe (+3) at Qualification Visit #2
+* Ocular trauma
+* Ocular infection or inflammation
+* Any corneal disease that may confound assessment
+* Evidence of corneal deposits or cornea verticillata
+* Known hypersensitivity to any component of netarsudil ophthalmic solution 0.02%, ripasudil hydrochloride hydrate ophthalmic solution 0.4%, or to topical anesthetic.
+* Mean central corneal thickness \&gt;620 um
+* Any abnormality preventing reliable Goldmann applanation tonometry of either eye (e.g. keratoconus)
+* Cannot demonstrate proper delivery of the eye drop
+* Clinically significant systemic disease
+* Participation in any investigational study within 30 days prior to screening
+* Women of childbearing potential who are pregnant, nursing, planning a pregnancy, or not using a medically acceptable form of birth control.</pre></details></section><section><h2>Critères évalués (tels que déclarés) <span class="badge source">Registre ClinicalTrials.gov</span></h2><ul><li><strong>Principal :</strong> Intraocular Pressure (IOP) <small>[29 Days]</small></li><li>Secondaire : IOP at Weeks 1 and 2 <small>[Day 8, Day 15]</small></li><li>Secondaire : Mean Change IOP From Baseline at Days 8, 15, 29 <small>[Baseline (Day 1), Days 8, 15, 29]</small></li></ul></section><section><h2>Résultats disponibles <span class="badge confirme">Résultats déposés au registre le 2023-02-27</span></h2><p>Valeurs recopiées telles quelles depuis <a href="https://clinicaltrials.gov/study/NCT04620135?tab=results" target="_blank" rel="noopener">l’onglet Résultats du registre</a>.</p><h3>Flux des participants</h3><div class="defile"><table><thead><tr><th>Étape</th><th>Par groupe</th></tr></thead><tbody><tr><td>Ont commencé</td><td>Netarsudil Ophthalmic Solution 0.02% and Netarsudil Ophthalmic Solution Vehicle : <mark>122</mark><br>Ripasudil Hydrochloride Hydrate Ophthalmic Solution 0.4% : <mark>123</mark></td></tr><tr><td>Ont terminé</td><td>Netarsudil Ophthalmic Solution 0.02% and Netarsudil Ophthalmic Solution Vehicle : <mark>118</mark><br>Ripasudil Hydrochloride Hydrate Ophthalmic Solution 0.4% : <mark>120</mark></td></tr><tr><td>N'ont pas terminé</td><td>Netarsudil Ophthalmic Solution 0.02% and Netarsudil Ophthalmic Solution Vehicle : <mark>4</mark><br>Ripasudil Hydrochloride Hydrate Ophthalmic Solution 0.4% : <mark>3</mark></td></tr></tbody></table></div><h3>Critère principal — <span lang="en">Intraocular Pressure (IOP)</span></h3><p><small>Délai : 29 Days · Mesure : moyenne des moindres carrés · Unité : mmHg</small></p><div class="defile"><table><thead><tr><th>Groupe</th><th>Effectif analysé</th><th>Valeur</th></tr></thead><tbody><tr><td>Netarsudil Ophthalmic Solution 0.02% and Netarsudil Ophthalmic Solution Vehicle</td><td>122</td><td><mark>15.96</mark> ± 0.157 <small>(Standard Error)</small></td></tr><tr><td>Ripasudil Hydrochloride Hydrate Ophthalmic Solution 0.4%</td><td>123</td><td><mark>17.71</mark> ± 0.155 <small>(Standard Error)</small></td></tr></tbody></table></div><p class="analyse">Comparaison (Netarsudil Ophthalmic Solution 0.02% and Netarsudil Ophthalmic Solution Vehicle vs Ripasudil Hydrochloride Hydrate Ophthalmic Solution 0.4%) : The least squares (LS) mean difference = <mark>-1.74</mark> · IC 95 % : [-2.17 ; -1.31] · p = <mark>&lt;0.00001</mark> · méthode : ANCOVA · hypothèse : SUPERIORITY</p><details><summary>Population analysée (registre)</summary><p lang="en">The intent-to-treat (ITT) population was used for the primary analysis of the efficacy variables and included all randomized subjects (as randomized) who received at least 1 dose of study medication.</p></details><h3>Critère secondaire — <span lang="en">IOP at Weeks 1 and 2</span></h3><p><small>Délai : Day 8, Day 15 · Mesure : moyenne · Unité : mmHg</small></p><div class="defile"><table><thead><tr><th>Groupe</th><th>Effectif analysé</th><th>Valeur</th></tr></thead><tbody><tr><td>Netarsudil Ophthalmic Solution 0.02% and Netarsudil Ophthalmic Solution Vehicle <small>(Mean diurnal IOP at Weeks 1 (Days 8))</small></td><td>122</td><td><mark>16.28</mark> ± 0.143 <small>(Standard Error)</small></td></tr><tr><td>Ripasudil Hydrochloride Hydrate Ophthalmic Solution 0.4% <small>(Mean diurnal IOP at Weeks 1 (Days 8))</small></td><td>123</td><td><mark>17.87</mark> ± 0.141 <small>(Standard Error)</small></td></tr><tr><td>Netarsudil Ophthalmic Solution 0.02% and Netarsudil Ophthalmic Solution Vehicle <small>(Mean diurnal IOP at Weeks 2 (Days 15))</small></td><td>122</td><td><mark>16.02</mark> ± 0.168 <small>(Standard Error)</small></td></tr><tr><td>Ripasudil Hydrochloride Hydrate Ophthalmic Solution 0.4% <small>(Mean diurnal IOP at Weeks 2 (Days 15))</small></td><td>123</td><td><mark>17.83</mark> ± 0.166 <small>(Standard Error)</small></td></tr></tbody></table></div><details><summary>Population analysée (registre)</summary><p lang="en">ITT</p></details><h3>Critère secondaire — <span lang="en">Mean Change IOP From Baseline at Days 8, 15, 29</span></h3><p><small>Délai : Baseline (Day 1), Days 8, 15, 29 · Mesure : moyenne · Unité : mmHg</small></p><div class="defile"><table><thead><tr><th>Groupe</th><th>Effectif analysé</th><th>Valeur</th></tr></thead><tbody><tr><td>Netarsudil Ophthalmic Solution 0.02% and Netarsudil Ophthalmic Solution Vehicle <small>(Baseline IOP mean diurnal IOP)</small></td><td>122</td><td><mark>20.475</mark> ± 0.2510 <small>(Standard Error)</small></td></tr><tr><td>Ripasudil Hydrochloride Hydrate Ophthalmic Solution 0.4% <small>(Baseline IOP mean diurnal IOP)</small></td><td>123</td><td><mark>20.830</mark> ± 0.3198 <small>(Standard Error)</small></td></tr><tr><td>Netarsudil Ophthalmic Solution 0.02% and Netarsudil Ophthalmic Solution Vehicle <small>(V4: Week 1 (Day 8) Change from Baseline)</small></td><td>122</td><td><mark>-4.341</mark> ± 0.1603 <small>(Standard Error)</small></td></tr><tr><td>Ripasudil Hydrochloride Hydrate Ophthalmic Solution 0.4% <small>(V4: Week 1 (Day 8) Change from Baseline)</small></td><td>123</td><td><mark>-2.814</mark> ± 0.1397 <small>(Standard Error)</small></td></tr><tr><td>Netarsudil Ophthalmic Solution 0.02% and Netarsudil Ophthalmic Solution Vehicle <small>(V5: Week 2 (Day 15) Change from Baseline)</small></td><td>122</td><td><mark>-4.601</mark> ± 0.1728 <small>(Standard Error)</small></td></tr><tr><td>Ripasudil Hydrochloride Hydrate Ophthalmic Solution 0.4% <small>(V5: Week 2 (Day 15) Change from Baseline)</small></td><td>123</td><td><mark>-2.852</mark> ± 0.1759 <small>(Standard Error)</small></td></tr><tr><td>Netarsudil Ophthalmic Solution 0.02% and Netarsudil Ophthalmic Solution Vehicle <small>(V6: Week 4 (Day 29) Change from Baseline)</small></td><td>122</td><td><mark>-4.653</mark> ± 0.1701 <small>(Standard Error)</small></td></tr><tr><td>Ripasudil Hydrochloride Hydrate Ophthalmic Solution 0.4% <small>(V6: Week 4 (Day 29) Change from Baseline)</small></td><td>123</td><td><mark>-2.983</mark> ± 0.1622 <small>(Standard Error)</small></td></tr></tbody></table></div><details><summary>Population analysée (registre)</summary><p lang="en">ITT</p></details></section><section><h2>Données de tolérance <span class="badge confirme">Résultats déposés au registre</span></h2><div class="defile"><table><thead><tr><th>Groupe</th><th>Exposés</th><th>Événements graves (participants)</th><th>Autres événements (participants)</th><th>Décès</th></tr></thead><tbody><tr><td>Netarsudil Ophthalmic Solution 0.02% and Netarsudil Ophthalmic Solution Vehicle</td><td><mark>122</mark></td><td><mark>0</mark></td><td><mark>73</mark></td><td><mark>0</mark></td></tr><tr><td>Ripasudil Hydrochloride Hydrate Ophthalmic Solution 0.4%</td><td><mark>123</mark></td><td><mark>2</mark></td><td><mark>82</mark></td><td><mark>0</mark></td></tr></tbody></table></div><h3>Événements non graves les plus fréquents (seuil déclaré : 5 %)</h3><div class="defile"><table><thead><tr><th>Événement</th><th>Participants touchés / exposés</th></tr></thead><tbody><tr><td><span lang="en">Conjunctival hyperaemia</span></td><td>Netarsudil Ophthalmic Solution 0.02% and Netarsudil Ophthalmic Solution Vehicle : <mark>67</mark>/122<br>Ripasudil Hydrochloride Hydrate Ophthalmic Solution 0.4% : <mark>77</mark>/123</td></tr><tr><td><span lang="en">Eye irritation</span></td><td>Netarsudil Ophthalmic Solution 0.02% and Netarsudil Ophthalmic Solution Vehicle : <mark>7</mark>/122<br>Ripasudil Hydrochloride Hydrate Ophthalmic Solution 0.4% : <mark>7</mark>/123</td></tr></tbody></table></div><h3>Événements graves</h3><div class="defile"><table><thead><tr><th>Événement</th><th>Participants touchés / exposés</th></tr></thead><tbody><tr><td><span lang="en">Infections and infestations</span></td><td>Netarsudil Ophthalmic Solution 0.02% and Netarsudil Ophthalmic Solution Vehicle : <mark>0</mark>/122<br>Ripasudil Hydrochloride Hydrate Ophthalmic Solution 0.4% : <mark>1</mark>/123</td></tr><tr><td><span lang="en">Skin and subcutaneous tissue disorders</span></td><td>Netarsudil Ophthalmic Solution 0.02% and Netarsudil Ophthalmic Solution Vehicle : <mark>0</mark>/122<br>Ripasudil Hydrochloride Hydrate Ophthalmic Solution 0.4% : <mark>1</mark>/123</td></tr><tr><td><span lang="en">Treatment-Emergent Serious Adverse Event (TE-SAE)</span></td><td>Netarsudil Ophthalmic Solution 0.02% and Netarsudil Ophthalmic Solution Vehicle : <mark>0</mark>/122<br>Ripasudil Hydrochloride Hydrate Ophthalmic Solution 0.4% : <mark>2</mark>/123</td></tr></tbody></table></div><details><summary>Période de recueil (registre)</summary><p lang="en">Volunteered or solicited AEs were collected from the time the subject received the first dose of study medication until Week 4 (Day 29) or study discontinuation. Unresolved AEs at the time of study exit were followed with proper medical care until the event was considered resolved or stabilized, the subject was lost to follow-up, or another resolution to the event was identified.</p></details></section><section><h2>Publications liées <span class="badge source">Registre ClinicalTrials.gov</span></h2><ul><li><span class="badge confirme">lien confirmé</span> <a href="https://pubmed.ncbi.nlm.nih.gov/37603205/" target="_blank" rel="noopener">PMID 37603205</a> — lien établi par PubMed à partir du NCT déclaré dans l'article<br><small lang="en">Araie M, Sugiyama K, Aso K, Kanemoto K, Iwata R, Hollander DA, Senchyna M, Kopczynski CC. Phase 3 Clinical Trial Comparing the Safety and Efficacy of Netarsudil to Ripasudil in Patients with Primary Open-Angle Glaucoma or Ocular Hypertension: Japan Rho Kinase Elevated Intraocular Pressure Treatment Trial (J-ROCKET). Adv Ther. 2023 Oct;40(10):4639-4656. doi: 10.1007/s12325-023-02550-w. Epub 2023 Aug 21.</small></li></ul></section><section><h2>Promoteur, financeur et affiliations <span class="badge source">Registre ClinicalTrials.gov</span></h2><div class="acteurs">
+      <div><h3>Promoteur</h3><p class="def">Organisme responsable de l'essai, déclaré au registre.</p>
+        <p><strong>Aerie Pharmaceuticals</strong> (industriel)</p>
+        <p>Collaborateurs déclarés : aucun déclaré</p></div>
+      <div><h3>Financeur</h3><p class="def">Organisme qui finance la recherche.</p>
+        <p><span class="manque">Non déclaré séparément dans le registre.</span> Le promoteur n'est pas présenté ici comme financeur : le registre ne le précise pas.</p></div>
+      <div><h3>Affiliations</h3><p class="def">Établissement des responsables de l'étude.</p>
+        <ul><li>Joella Kittrell — directeur d'étude — affiliation : Aerie Pharmaceuticals</li></ul></div>
+    </div></section>
+<section><h2>Ce qui manque <span class="badge regle">calculé par l'outil</span></h2><p>Toutes les rubriques ont au moins une information.</p></section>
+<section><h2>Limites, intérêt pour la veille marketing, à retenir <span class="badge attente">non produit par l'outil</span></h2><p><span class="manque">Non rédigé automatiquement : les données extraites ne suffisent pas à produire une analyse fiable sans interprétation. Utilisez le bouton « Copier pour Claude / ChatGPT » pour obtenir une proposition, à vérifier.</span></p></section>
+<section><details><summary>Voir le texte copié par le bouton</summary>
+<textarea id="a-copier" readonly>Tu es assistant de veille scientifique sur le glaucome. À partir UNIQUEMENT des informations ci-dessous, rédige en français une fiche de synthèse avec ces rubriques :
+1. Question étudiée
+2. Traitement ou technologie
+3. Type d&#x27;étude
+4. Population et nombre de participants
+5. Comparateur
+6. Critères évalués
+7. Principaux résultats chiffrés (recopie les valeurs exactes et indique leur source)
+8. Données de tolérance
+9. Limites
+10. Intérêt potentiel pour une veille marketing — présenté comme une INTERPRÉTATION, séparé des faits
+11. À retenir (une phrase)
+
+Règles :
+- N&#x27;invente rien. Si une information manque, écris « non rapporté ».
+- Distingue un essai simplement enregistré, un protocole, des résultats déposés dans un registre et une publication de résultats.
+- Si la source est seulement le résumé d&#x27;un article, indique que la synthèse repose uniquement sur ce résumé.
+- Les rôles « suggérés » (traitement étudié / comparateur) sont à vérifier dans le texte source.
+- Ne confonds pas promoteur d&#x27;essai, financeur et affiliation des auteurs.
+- Termine par la liste des points à vérifier.
+
+=== INFORMATIONS ===
+SOURCE : registre ClinicalTrials.gov, essai NCT04620135 — https://clinicaltrials.gov/study/NCT04620135
+NIVEAU DE PREUVE : résultats déposés au registre le 2023-02-27
+Titre : Efficacy and Safety Study of Netarsudil 0.02% Ophthalmic Solution Compared to Ripasudil Hydrochloride Hydrate 0.4% Ophthalmic Solution in Japanese Subjects With Primary Open Angle Glaucoma or Ocular Hypertension
+Titre officiel : A Single-masked, Randomized, Multi-center, Parallel-group, 4-week Study Evaluating the Efficacy and Safety of Once Daily Netarsudil Ophthalmic Solution 0.02% Compared to Twice Daily Ripasudil Hydrochloride Hydrate Ophthalmic Solution 0.4% in Japanese Subjects With Primary Open Angle Glaucoma (POAG) or Ocular Hypertension (OHT)
+Phase déclarée : Phase 3 · Statut : Terminé · Type : Interventionnelle
+Promoteur (déclaré) : Aerie Pharmaceuticals (INDUSTRY) · Collaborateurs : aucun
+Financeur : non déclaré séparément dans le registre
+Participants : 245 (réel) · Conditions : Primary Open Angle Glaucoma, Ocular Hypertension
+Plan : {&#x27;but_principal&#x27;: &#x27;TREATMENT&#x27;, &#x27;insu&#x27;: &#x27;DOUBLE&#x27;, &#x27;insu_description&#x27;: &#x27;This study adopted a single-masked study design. Treatment assignments were masked to the Investigator, the clinical study team (Sponsor, designated personnel involved in day-to-day study management, Monitors, Data Managers, and Statisticians), and the subjects for the duration of the study. The netarsudil and ripasudil bottles were different in the study, however, investigators and subjects were masked to study drug assignment.&#x27;, &#x27;insu_pour&#x27;: [&#x27;PARTICIPANT&#x27;, &#x27;INVESTIGATOR&#x27;], &#x27;modele&#x27;: &#x27;PARALLEL&#x27;, &#x27;modele_observationnel&#x27;: None, &#x27;repartition&#x27;: &#x27;RANDOMIZED&#x27;}
+Bras (rôle déclaré) :
+  - Netarsudil ophthalmic solution 0.02% and netarsudil ophthalmic solution vehicle [EXPERIMENTAL] : Drug: Netarsudil ophthalmic solution 0.02%
+  - Ripasudil hydrochloride hydrate ophthalmic solution 0.4% [ACTIVE_COMPARATOR] : Drug: Ripasudil hydrochloride hydrate ophthalmic solution 0.4%
+Critères principaux : Intraocular Pressure (IOP) [29 Days]
+Critères secondaires : IOP at Weeks 1 and 2 [Day 8, Day 15]; Mean Change IOP From Baseline at Days 8, 15, 29 [Baseline (Day 1), Days 8, 15, 29]
+
+DESCRIPTION (registre, texte source) :
+A Phase 3 Study Comparing the Efficacy and Safety of Netarsudil Ophthalmic Solution 0.02% QD to Ripasudil Hydrochloride Hydrate Ophthalmic Solution 0.4% BID, for Treatment of Primary Open-Angle Glaucoma or Ocular Hypertension Over A 4-Week Period.
+
+RÉSULTATS DÉPOSÉS AU REGISTRE (valeurs exactes) :
+* PRIMARY — Intraocular Pressure (IOP) [29 Days] (LEAST_SQUARES_MEAN, mmHg, dispersion : Standard Error)
+    Netarsudil Ophthalmic Solution 0.02% and Netarsudil Ophthalmic Solution Vehicle : 15.96 ± 0.157 (n=122)
+    Ripasudil Hydrochloride Hydrate Ophthalmic Solution 0.4% : 17.71 ± 0.155 (n=123)
+    Comparaison : The least squares (LS) mean difference = -1.74 (IC 95 % -2.17 ; -1.31), p = &lt;0.00001, ANCOVA, SUPERIORITY
+* SECONDARY — IOP at Weeks 1 and 2 [Day 8, Day 15] (MEAN, mmHg, dispersion : Standard Error)
+    Netarsudil Ophthalmic Solution 0.02% and Netarsudil Ophthalmic Solution Vehicle / Mean diurnal IOP at Weeks 1 (Days 8) : 16.28 ± 0.143 (n=122)
+    Ripasudil Hydrochloride Hydrate Ophthalmic Solution 0.4% / Mean diurnal IOP at Weeks 1 (Days 8) : 17.87 ± 0.141 (n=123)
+    Netarsudil Ophthalmic Solution 0.02% and Netarsudil Ophthalmic Solution Vehicle / Mean diurnal IOP at Weeks 2 (Days 15) : 16.02 ± 0.168 (n=122)
+    Ripasudil Hydrochloride Hydrate Ophthalmic Solution 0.4% / Mean diurnal IOP at Weeks 2 (Days 15) : 17.83 ± 0.166 (n=123)
+* SECONDARY — Mean Change IOP From Baseline at Days 8, 15, 29 [Baseline (Day 1), Days 8, 15, 29] (MEAN, mmHg, dispersion : Standard Error)
+    Netarsudil Ophthalmic Solution 0.02% and Netarsudil Ophthalmic Solution Vehicle / Baseline IOP mean diurnal IOP : 20.475 ± 0.2510 (n=122)
+    Ripasudil Hydrochloride Hydrate Ophthalmic Solution 0.4% / Baseline IOP mean diurnal IOP : 20.830 ± 0.3198 (n=123)
+    Netarsudil Ophthalmic Solution 0.02% and Netarsudil Ophthalmic Solution Vehicle / V4: Week 1 (Day 8) Change from Baseline : -4.341 ± 0.1603 (n=122)
+    Ripasudil Hydrochloride Hydrate Ophthalmic Solution 0.4% / V4: Week 1 (Day 8) Change from Baseline : -2.814 ± 0.1397 (n=123)
+    Netarsudil Ophthalmic Solution 0.02% and Netarsudil Ophthalmic Solution Vehicle / V5: Week 2 (Day 15) Change from Baseline : -4.601 ± 0.1728 (n=122)
+    Ripasudil Hydrochloride Hydrate Ophthalmic Solution 0.4% / V5: Week 2 (Day 15) Change from Baseline : -2.852 ± 0.1759 (n=123)
+    Netarsudil Ophthalmic Solution 0.02% and Netarsudil Ophthalmic Solution Vehicle / V6: Week 4 (Day 29) Change from Baseline : -4.653 ± 0.1701 (n=122)
+    Ripasudil Hydrochloride Hydrate Ophthalmic Solution 0.4% / V6: Week 4 (Day 29) Change from Baseline : -2.983 ± 0.1622 (n=123)
+  Tolérance — Netarsudil Ophthalmic Solution 0.02% and Netarsudil Ophthalmic Solution Vehicle : exposés 122, graves 0, autres 73, décès 0
+  Tolérance — Ripasudil Hydrochloride Hydrate Ophthalmic Solution 0.4% : exposés 123, graves 2, autres 82, décès 0</textarea></details></section>
+<p><small>Fiche générée le 2026-11-11 22:40 par Glaucoma Intelligence. Extraits des sources en langue originale.</small></p>
+</main><script>
+function copierFiche(){
+  var zone=document.getElementById('a-copier'), bouton=document.getElementById('bouton-copier');
+  function fait(){bouton.textContent='Copié ✓ — collez dans Claude ou ChatGPT';setTimeout(function(){bouton.textContent='Copier pour Claude / ChatGPT'},3000);}
+  function secours(){zone.parentElement.open=true;zone.select();try{document.execCommand('copy');fait();}
+    catch(err){bouton.textContent='Sélectionnez le texte ci-dessous puis Ctrl+C';}}
+  if(navigator.clipboard&&window.isSecureContext){navigator.clipboard.writeText(zone.value).then(fait,secours);}else{secours();}
+}
+</script></body></html>

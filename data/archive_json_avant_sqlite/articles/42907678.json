@@ -1,0 +1,121 @@
+{
+  "pmid": "42907678",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42907678",
+    "titre": "Association between rheumatic diseases and glaucoma risk: a systematic review and meta-analysis of 5.7 million individuals.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42907678/",
+    "doi": "10.1007/s10792-026-04299-x",
+    "pmcid": null,
+    "revue": "International ophthalmology",
+    "date_entree_pubmed": "2026-10-22",
+    "date_publication": "2026-Oct-21",
+    "types_publication": [
+      "Journal Article",
+      "Systematic Review",
+      "Meta-Analysis",
+      "Review"
+    ],
+    "resume_present": true,
+    "resume": "PURPOSE: Some studies suggest that rheumatic diseases (RD) may be associated with the development of glaucoma; however, findings remain inconsistent. We therefore conducted a meta-analysis to estimate the incidence of glaucoma and assess its risk among patients with RD, to inform evidence-based diagnostic decision-making.\nMETHODS: Following a pre-registered PROSPERO protocol (CRD42024604067), we performed a systematic search of PubMed, the Cochrane Library, and Embase. Pooled incidence estimates, odds ratios (ORs), and 95% confidence intervals (CIs) were calculated using RevMan 5.4 and STATA 15.0.\nRESULTS: Eighteen studies comprising 5,766,143 participants were included. RD was significantly associated with glaucoma. The pooled incidence of glaucoma among patients with RD was 4% (rate = 0.04; 95% CI, 0.03-0.06; P < 0.001). By study design, incidence/prevalence estimates were 3% in cohort studies, 9% in case-control studies, and 8% in cross-sectional studies. Compared with the general population, individuals with RD have a 66% higher risk of developing glaucoma (OR = 1.66; 95% CI, 1.15-2.40; P = 0.007).\nCONCLUSION: Both the incidence and risk of glaucoma are elevated in patients with RD. These findings highlight the importance of increased ophthalmologic surveillance in this population.",
+    "mots_cles_auteurs": [
+      "Glaucoma",
+      "Meta-analysis",
+      "Rheumatic diseases",
+      "Systematic review"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 3,
+    "affiliations_auteurs": [
+      "Qiqihar Medical University, Qiqihar, Heilongjiang, China.",
+      "Department of Otorhinolaryngology, Head and Neck Surgery, The Second Affiliated Hospital, Jiangxi Medical College, Nanchang University, Nanchang, 330006, China. entzzq1216@163.com."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": [
+      "Humans",
+      "Rheumatic Diseases",
+      "Glaucoma",
+      "Incidence",
+      "Risk Factors",
+      "Global Health",
+      "Risk Assessment"
+    ]
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": null,
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7223092749",
+      "doi": "10.1007/s10792-026-04299-x",
+      "pmid": "42907678",
+      "pmcid": null,
+      "titre": "Association between rheumatic diseases and glaucoma risk: a systematic review and meta-analysis of 5.7 million individuals",
+      "lien": "https://openalex.org/W7223092749",
+      "date_publication": "2026-10-21",
+      "type": "review",
+      "revue": "International Ophthalmology",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "pubmed"
+      ],
+      "financeurs": null,
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "Qiqihar Medical University",
+          "pays": "CN",
+          "type": "education",
+          "ror": "https://ror.org/01kzgyz42"
+        },
+        {
+          "nom": "Nanchang University",
+          "pays": "CN",
+          "type": "education",
+          "ror": "https://ror.org/042v6xz23"
+        },
+        {
+          "nom": "Second Affiliated Hospital of Nanchang University",
+          "pays": "CN",
+          "type": "healthcare",
+          "ror": "https://ror.org/01nxv5c88"
+        }
+      ],
+      "acces_ouvert": false,
+      "statut_acces": "closed",
+      "url_texte": null,
+      "url_pdf": null,
+      "licence": null,
+      "texte_integral_indexe": false,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Glaucoma and retinal disorders",
+      "resume_present": false,
+      "mesh": [
+        "Glaucoma",
+        "Humans",
+        "Rheumatic Diseases",
+        "Risk Factors",
+        "Global Health",
+        "Incidence",
+        "Risk Assessment"
+      ]
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": []
+  }
+}

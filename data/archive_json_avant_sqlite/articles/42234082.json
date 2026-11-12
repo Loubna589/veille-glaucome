@@ -1,0 +1,115 @@
+{
+  "pmid": "42234082",
+  "premiere_detection": "2026-09-25",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42234082",
+    "titre": "A Multimodal Approach to Open-Angle Glaucoma with Travoprost Intracameral Implant and Minimally Invasive Glaucoma Surgery with or Without Concurrent Cataract Surgery.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42234082/",
+    "doi": "10.1007/s40123-026-01408-y",
+    "pmcid": "PMC13315072",
+    "revue": "Ophthalmology and therapy",
+    "date_entree_pubmed": "2026-06-03",
+    "date_publication": "2026-Jul",
+    "types_publication": [
+      "Journal Article"
+    ],
+    "resume_present": true,
+    "resume": "INTRODUCTION: This study aimed to characterize reductions in intraocular pressure (IOP) and the need for topical IOP-lowering medications in eyes undergoing implantation of a travoprost implant (iDose TR®; Glaukos) and either trabecular micro-bypass stent (iStent infinite®; Glaukos) implant or canaloplasty with or without cataract surgery in eyes with open-angle glaucoma (OAG).\nMETHODS: Adults undergoing the procedures of interest with ≥ 3 months of postoperative follow-up were included. The primary outcomes were changes in mean IOP and topical medication use from baseline to 3 months postoperatively. Analyses were conducted in the overall cohort and stratified by surgical context (with and without concurrent cataract surgery) and minimally invasive glaucoma surgery (MIGS) modality (iStent infinite and canaloplasty), resulting in four subgroups: iDose TR + iStent infinite with phacoemulsification, iDose TR + iStent infinite, iDose TR + canaloplasty with phacoemulsification, and iDose TR + canaloplasty.\nRESULTS: Data from 107 eyes were analyzed. Overall, mean (standard deviation) IOP decreased from 19.0 (5.9) mmHg at baseline to 15.3 (4.6) mmHg at month 3 (p < 0.0001). In the phaco+ subgroup (66 eyes), mean IOP decreased from 17.5 (4.0) mmHg at baseline to 14.3 (2.4) mmHg (p < 0.0001) at month 3; in the phaco- subgroup, (41 eyes), mean IOP decreased from 21.6 (7.6) mmHg at baseline to 16.8 (6.5) mmHg (p = 0.001) at month 3. At month 3, topical medication-free rates were 59.4% overall, 67.7% in the phaco+ subgroup, and 46.3% in the phaco- subgroup. Similar reductions were observed in eyes undergoing iDose TR plus iStent infinite or canaloplasty with/without cataract surgery.\nCONCLUSION: The iDose TR travoprost implant combined with either iStent infinite implantation or canaloplasty was associated with significant reductions in IOP and topical IOP-lowering medications in most subgroups, with or without concurrent cataract surgery. These data support the shift to an interventional glaucoma paradigm and the utilization of multimodal therapy for glaucoma management.",
+    "mots_cles_auteurs": [
+      "Canaloplasty",
+      "Intraocular pressure",
+      "Multimechanism",
+      "Multimodal",
+      "Open-angle glaucoma",
+      "Procedural pharmaceutical",
+      "iDose TR",
+      "iStent infinite"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 2,
+    "affiliations_auteurs": [
+      "Barnet Dulaney Perkins Eye Center, Phoenix, AZ, USA. cfunke525@gmail.com.",
+      ", 63 S Rockford Dr., Tempe, AZ, 85281, USA. cfunke525@gmail.com.",
+      "Creighton University Medical School, Phoenix, USA."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": true,
+      "produit_suivi_etudie_suggere": true,
+      "produits_suivis": [
+        {
+          "produit": "travoprost",
+          "role": "étudié",
+          "statut_role": "rôle suggéré, à vérifier (règle automatique appliquée au titre)"
+        },
+        {
+          "produit": "iDose",
+          "role": "non déterminé",
+          "statut_role": "cité dans le résumé ou les mots-clés"
+        }
+      ],
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": [
+        "intracameral"
+      ],
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7163366812",
+      "doi": "10.1007/s40123-026-01408-y",
+      "pmid": "42234082",
+      "pmcid": null,
+      "titre": "A Multimodal Approach to Open-Angle Glaucoma with Travoprost Intracameral Implant and Minimally Invasive Glaucoma Surgery with or Without Concurrent Cataract Surgery",
+      "lien": "https://openalex.org/W7163366812",
+      "date_publication": "2026-06-03",
+      "type": "article",
+      "revue": "Ophthalmology and Therapy",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "doaj",
+        "pubmed"
+      ],
+      "financeurs": null,
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "Creighton University",
+          "pays": "US",
+          "type": "education",
+          "ror": "https://ror.org/05wf30g94"
+        },
+        {
+          "nom": "CHI Health Creighton University Medical Center - Bergan Mercy",
+          "pays": "US",
+          "type": "healthcare",
+          "ror": "https://ror.org/03z1w3b90"
+        }
+      ],
+      "acces_ouvert": true,
+      "statut_acces": "gold",
+      "url_texte": "https://link.springer.com/content/pdf/10.1007/s40123-026-01408-y.pdf",
+      "url_pdf": "https://link.springer.com/content/pdf/10.1007/s40123-026-01408-y.pdf",
+      "licence": "cc-by-nc",
+      "texte_integral_indexe": true,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Glaucoma and retinal disorders",
+      "resume_present": true,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-09-25",
+    "financements": []
+  }
+}

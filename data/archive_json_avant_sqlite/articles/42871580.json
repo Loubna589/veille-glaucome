@@ -1,0 +1,342 @@
+{
+  "pmid": "42871580",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42871580",
+    "titre": "Breaking the Rules: Museum Data Reveal Divergent Support for Classic Ecogeographical Rules in North American Flying Squirrels.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42871580/",
+    "doi": "10.1002/ece3.74470",
+    "pmcid": "PMC13658933",
+    "revue": "Ecology and evolution",
+    "date_entree_pubmed": "2026-10-14",
+    "date_publication": "2026-Oct",
+    "types_publication": [
+      "Journal Article"
+    ],
+    "resume_present": true,
+    "resume": "Ecogeographic generalizations or \"rules\", such as Bergmann's rule and Allen's rule, propose that endotherms in colder climates evolve larger bodies and shorter appendages to minimize heat loss. These patterns are hypothesized to reflect physiological adaptations to thermal stress through reduced surface area-to-volume ratios. Although these rules have been extensively evaluated across birds and mammals, their applicability to arboreal gliders remains untested, with little consideration of how alternative ecological and evolutionary drivers may structure morphological variation in flying squirrels across environmental gradients. Using digitized museum specimens of North American flying squirrels (Glaucomys sabrinus, Glaucomys oregonensis, and Glaucomys volans), we tested these classic ecogeographic principles by examining how weight, total length, tail length, and ear length vary across a latitudinal gradient. We found significant support for Bergmann's rule, with body mass and total length increasing with latitude. In contrast, patterns in appendage morphology provided limited support for Allen's rule. Ear length exhibited a weak positive relationship with latitude, while tail length strongly increased with latitude, contradicting the prediction that appendages become shorter in colder climates. These findings suggest that thermoregulatory selection alone cannot explain morphological variation in North American flying squirrels and that functional demands, particularly those associated with gliding performance, may play a stronger role in shaping tail morphology. Overall, our results demonstrate that although classic ecogeographic rules provide a useful framework for understanding morphological variation, they do not fully capture the multiple selective pressures acting on Glaucomys species.",
+    "mots_cles_auteurs": [
+      "Allen's rule",
+      "Bergmann's rule",
+      "Glaucomys",
+      "North America",
+      "flying squirrel",
+      "morphology",
+      "museum data"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 5,
+    "affiliations_auteurs": [
+      "Department of Natural and Applied Sciences University of Wisconsin-Green Bay Green Bay Wisconsin USA.",
+      "Division of Marine Science and Conservation, Nicholas School of the Environment Duke University Beaufort North Carolina USA."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7221606271",
+      "doi": "10.1002/ece3.74470",
+      "pmid": "42871580",
+      "pmcid": "13658933",
+      "titre": "Breaking the Rules: Museum Data Reveal Divergent Support for Classic Ecogeographical Rules in North American Flying Squirrels",
+      "lien": "https://openalex.org/W7221606271",
+      "date_publication": "2026-10-01",
+      "type": "article",
+      "revue": "Ecology and Evolution",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "doaj",
+        "pubmed"
+      ],
+      "financeurs": [
+        {
+          "nom": "Smithsonian Institution",
+          "ror": "https://ror.org/01pp8nd67"
+        },
+        {
+          "nom": "Texas Tech University",
+          "ror": "https://ror.org/0405mnx93"
+        },
+        {
+          "nom": "University of Washington",
+          "ror": "https://ror.org/00cvxb145"
+        },
+        {
+          "nom": "Emporia State University",
+          "ror": "https://ror.org/04e6r1478"
+        },
+        {
+          "nom": "Northern Michigan University",
+          "ror": "https://ror.org/01epvyf46"
+        },
+        {
+          "nom": "Kentucky Science and Technology Corporation",
+          "ror": null
+        },
+        {
+          "nom": "Eastern Michigan University",
+          "ror": "https://ror.org/02ehshm78"
+        },
+        {
+          "nom": "National Museum of Natural History",
+          "ror": "https://ror.org/00cz47042"
+        },
+        {
+          "nom": "Museum of Comparative Zoology, Harvard University",
+          "ror": null
+        },
+        {
+          "nom": "University of North Carolina at Greensboro",
+          "ror": "https://ror.org/04fnxsj42"
+        },
+        {
+          "nom": "Nicholas School of the Environment, Duke University",
+          "ror": null
+        },
+        {
+          "nom": "Burke Museum, University of Washington",
+          "ror": "https://ror.org/015ypce77"
+        }
+      ],
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "University of Wisconsin–Green Bay",
+          "pays": "US",
+          "type": "education",
+          "ror": "https://ror.org/05hbexn54"
+        },
+        {
+          "nom": "Duke University",
+          "pays": "US",
+          "type": "education",
+          "ror": "https://ror.org/00py81415"
+        }
+      ],
+      "acces_ouvert": true,
+      "statut_acces": "gold",
+      "url_texte": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/ece3.74470",
+      "url_pdf": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/ece3.74470",
+      "licence": "cc-by",
+      "texte_integral_indexe": true,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Physiological and biochemical adaptations",
+      "resume_present": true,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": [
+      {
+        "nom": "Smithsonian Institution",
+        "statut": "À VÉRIFIER — trouvé par OpenAlex seulement (l'éditeur n'a déclaré aucun financeur dans Crossref) ; à contrôler dans le texte de l'article",
+        "references": null,
+        "notices": [
+          [
+            "notice OpenAlex",
+            "https://api.openalex.org/works/W7221606271"
+          ],
+          [
+            "notice Crossref consultée (ne confirme pas ce financeur)",
+            "https://api.crossref.org/works/10.1002/ece3.74470"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "Texas Tech University",
+        "statut": "À VÉRIFIER — trouvé par OpenAlex seulement (l'éditeur n'a déclaré aucun financeur dans Crossref) ; à contrôler dans le texte de l'article",
+        "references": null,
+        "notices": [
+          [
+            "notice OpenAlex",
+            "https://api.openalex.org/works/W7221606271"
+          ],
+          [
+            "notice Crossref consultée (ne confirme pas ce financeur)",
+            "https://api.crossref.org/works/10.1002/ece3.74470"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "University of Washington",
+        "statut": "À VÉRIFIER — trouvé par OpenAlex seulement (l'éditeur n'a déclaré aucun financeur dans Crossref) ; à contrôler dans le texte de l'article",
+        "references": null,
+        "notices": [
+          [
+            "notice OpenAlex",
+            "https://api.openalex.org/works/W7221606271"
+          ],
+          [
+            "notice Crossref consultée (ne confirme pas ce financeur)",
+            "https://api.crossref.org/works/10.1002/ece3.74470"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "Emporia State University",
+        "statut": "À VÉRIFIER — trouvé par OpenAlex seulement (l'éditeur n'a déclaré aucun financeur dans Crossref) ; à contrôler dans le texte de l'article",
+        "references": null,
+        "notices": [
+          [
+            "notice OpenAlex",
+            "https://api.openalex.org/works/W7221606271"
+          ],
+          [
+            "notice Crossref consultée (ne confirme pas ce financeur)",
+            "https://api.crossref.org/works/10.1002/ece3.74470"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "Northern Michigan University",
+        "statut": "À VÉRIFIER — trouvé par OpenAlex seulement (l'éditeur n'a déclaré aucun financeur dans Crossref) ; à contrôler dans le texte de l'article",
+        "references": null,
+        "notices": [
+          [
+            "notice OpenAlex",
+            "https://api.openalex.org/works/W7221606271"
+          ],
+          [
+            "notice Crossref consultée (ne confirme pas ce financeur)",
+            "https://api.crossref.org/works/10.1002/ece3.74470"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "Kentucky Science and Technology Corporation",
+        "statut": "À VÉRIFIER — trouvé par OpenAlex seulement (l'éditeur n'a déclaré aucun financeur dans Crossref) ; à contrôler dans le texte de l'article",
+        "references": null,
+        "notices": [
+          [
+            "notice OpenAlex",
+            "https://api.openalex.org/works/W7221606271"
+          ],
+          [
+            "notice Crossref consultée (ne confirme pas ce financeur)",
+            "https://api.crossref.org/works/10.1002/ece3.74470"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "Eastern Michigan University",
+        "statut": "À VÉRIFIER — trouvé par OpenAlex seulement (l'éditeur n'a déclaré aucun financeur dans Crossref) ; à contrôler dans le texte de l'article",
+        "references": null,
+        "notices": [
+          [
+            "notice OpenAlex",
+            "https://api.openalex.org/works/W7221606271"
+          ],
+          [
+            "notice Crossref consultée (ne confirme pas ce financeur)",
+            "https://api.crossref.org/works/10.1002/ece3.74470"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "National Museum of Natural History",
+        "statut": "À VÉRIFIER — trouvé par OpenAlex seulement (l'éditeur n'a déclaré aucun financeur dans Crossref) ; à contrôler dans le texte de l'article",
+        "references": null,
+        "notices": [
+          [
+            "notice OpenAlex",
+            "https://api.openalex.org/works/W7221606271"
+          ],
+          [
+            "notice Crossref consultée (ne confirme pas ce financeur)",
+            "https://api.crossref.org/works/10.1002/ece3.74470"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "Museum of Comparative Zoology, Harvard University",
+        "statut": "À VÉRIFIER — trouvé par OpenAlex seulement (l'éditeur n'a déclaré aucun financeur dans Crossref) ; à contrôler dans le texte de l'article",
+        "references": null,
+        "notices": [
+          [
+            "notice OpenAlex",
+            "https://api.openalex.org/works/W7221606271"
+          ],
+          [
+            "notice Crossref consultée (ne confirme pas ce financeur)",
+            "https://api.crossref.org/works/10.1002/ece3.74470"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "University of North Carolina at Greensboro",
+        "statut": "À VÉRIFIER — trouvé par OpenAlex seulement (l'éditeur n'a déclaré aucun financeur dans Crossref) ; à contrôler dans le texte de l'article",
+        "references": null,
+        "notices": [
+          [
+            "notice OpenAlex",
+            "https://api.openalex.org/works/W7221606271"
+          ],
+          [
+            "notice Crossref consultée (ne confirme pas ce financeur)",
+            "https://api.crossref.org/works/10.1002/ece3.74470"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "Nicholas School of the Environment, Duke University",
+        "statut": "À VÉRIFIER — trouvé par OpenAlex seulement (l'éditeur n'a déclaré aucun financeur dans Crossref) ; à contrôler dans le texte de l'article",
+        "references": null,
+        "notices": [
+          [
+            "notice OpenAlex",
+            "https://api.openalex.org/works/W7221606271"
+          ],
+          [
+            "notice Crossref consultée (ne confirme pas ce financeur)",
+            "https://api.crossref.org/works/10.1002/ece3.74470"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "Burke Museum, University of Washington",
+        "statut": "À VÉRIFIER — trouvé par OpenAlex seulement (l'éditeur n'a déclaré aucun financeur dans Crossref) ; à contrôler dans le texte de l'article",
+        "references": null,
+        "notices": [
+          [
+            "notice OpenAlex",
+            "https://api.openalex.org/works/W7221606271"
+          ],
+          [
+            "notice Crossref consultée (ne confirme pas ce financeur)",
+            "https://api.crossref.org/works/10.1002/ece3.74470"
+          ]
+        ],
+        "note": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "nct": "NCT07847073",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "nct": "NCT07847073",
+    "titre": "Adaptive Optics OCT Evaluation of Rhopressa's Effects on the Retinal Ganglion Cells in Glaucoma Patients",
+    "titre_officiel": "Adaptive Optics OCT Evaluation of Rhopressa's Effects on the Retinal Ganglion Cells in Glaucoma Patients",
+    "lien": "https://clinicaltrials.gov/study/NCT07847073",
+    "date_premiere_publication": "2026-09-29",
+    "date_derniere_mise_a_jour": "2026-10-28",
+    "type_etude": "INTERVENTIONAL",
+    "phases_declarees": [
+      "PHASE4"
+    ],
+    "statut": "RECRUITING",
+    "raison_arret": null,
+    "date_debut": "2026-10",
+    "date_fin_principale": "2028-01",
+    "promoteur": "Brett King",
+    "type_promoteur": "OTHER",
+    "collaborateurs": [
+      "Alcon Research"
+    ],
+    "conditions": [
+      "Open Angle Glaucoma (OAG)",
+      "Glaucoma"
+    ],
+    "interventions": [
+      {
+        "type": "DRUG",
+        "nom": "Netarsudil 0.02% Ophthalmic Solution [RHOPRESSA]"
+      },
+      {
+        "type": "DRUG",
+        "nom": "Timolol Maleate 0.25% Ophthalmic Solution"
+      }
+    ],
+    "participants_nombre": 13,
+    "participants_type": "ESTIMATED",
+    "criteres_principaux": [
+      {
+        "critere": "Change in GC soma density (cells/mm²)",
+        "delai": "Baseline, 6 months, and 12 months"
+      }
+    ],
+    "resultats_deposes": false,
+    "publications_declarees": null,
+    "resume_source": "The purpose of this study is to compare how two FDA-approved eye drops: netarsudil (Rhopressa) and timolol, protect nerve cells in the eye of adults with open-angle glaucoma. Both medications lower pressure inside the eye, but researchers want to learn if Rhopressa is more effective at slowing down or preventing the loss of retinal ganglion cells. These cells are essential for sight because they carry visual signals from the eye to the brain.\n\nParticipants in this study will complete a total of 6 study visits over 12 months:\n\n* Participants will spend 6 months using Rhopressa eye drops and 6 months using Timolol eye drops. The order of the two eye drops will be chosen randomly.\n* At scheduled study visits, researchers will examine participants' eyes and measure eye pressure.\n* Researchers will take detailed pictures of the back of the eye using a specialized high-resolution camera called adaptive optics optical coherence tomography (AO-OCT).\n* Participants will also complete specialized visual field testing to measure eye function.\n\nResearchers will count and track individual nerve cells over time to determine if one medication offers better protection against cell loss than the other.",
+    "citations_declarees": null,
+    "plan": {
+      "repartition": "RANDOMIZED",
+      "modele": "CROSSOVER",
+      "but_principal": "OTHER",
+      "insu": "DOUBLE",
+      "insu_pour": [
+        "INVESTIGATOR",
+        "OUTCOMES_ASSESSOR"
+      ],
+      "insu_description": "This is an investigator-masked study. Randomization will occur from an unmasked key personnel member on the study. The principal investigator and other key members of the study will be masked. Unmasked personnel maintain the randomization schedule and manage drug distribution, but have no role in clinical evaluations, AO-OCT image acquisition, ganglion cell counting, or outcome data analysis.",
+      "modele_observationnel": null
+    },
+    "bras": [
+      {
+        "libelle": "Rhopressa first, then Timolol",
+        "type": "EXPERIMENTAL",
+        "description": "Participants will instill netarsudil 0.02% (Rhopressa) ophthalmic solution (1 drop in the study eye once daily in the evening) for the first 6 months (Months 0-6). At the Month 6 visit, participants will cross over to instill timolol maleate 0.25% ophthalmic solution (1 drop in the study eye twice daily) for the remaining 6 months (Months 6-12).",
+        "interventions": [
+          "Drug: Netarsudil 0.02% Ophthalmic Solution [RHOPRESSA]",
+          "Drug: Timolol Maleate 0.25% Ophthalmic Solution"
+        ]
+      },
+      {
+        "libelle": "Timolol first, then Rhopressa",
+        "type": "EXPERIMENTAL",
+        "description": "Participants will instill timolol maleate 0.25% ophthalmic solution (1 drop in the study eye twice daily) for the first 6 months (Months 0-6). At the Month 6 visit, participants will cross over to instill netarsudil 0.02% (Rhopressa) ophthalmic solution (1 drop in the study eye once daily in the evening) for the remaining 6 months (Months 6-12).",
+        "interventions": [
+          "Drug: Netarsudil 0.02% Ophthalmic Solution [RHOPRESSA]",
+          "Drug: Timolol Maleate 0.25% Ophthalmic Solution"
+        ]
+      }
+    ],
+    "eligibilite": {
+      "criteres": "Inclusion Criteria:\n\n* All subjects will be 18 years of age or older\n* Subjects must be diagnosed with open-angle glaucoma and have had an eye exam within the past year\n* Subjects with glaucoma will have structural (optic nerve and retinal nerve fiber layer) and functional (visual field testing) defects consistent with the diagnosis of glaucoma\n* Subjects will have a corrected acuity of 20/50 or better and be able to fixate\n* Naïve to medication subjects or post washout IOP between 18 and 34 mmHg\n* Spherical equivalent from +3 diopters to -6 diopters, with a cylinder of \\<-3 diopters\n* Subject is willing and able to comply with the protocol requirements and to remain in the study for its full duration, including all scheduled visits and follow-up assessments\n\nExclusion Criteria:\n\n* Subjects with a known intolerance to netarsudil ophthalmic solution\n* Subjects with a known intolerance to, or contraindication for, timolol maleate\n* Any subject whom the investigator determines to be at unacceptable risk for the washout or believes is unlikely to complete the study\n* Subjects with retinal disease or optic neuropathies other than glaucoma that, in the opinion of the investigator, could confound the study assessments or outcome\n* Female subjects who are pregnant, breastfeeding, or of childbearing age who are not sterile or using an acceptable method of contraception during the study",
+      "age_min": "18 Years",
+      "age_max": null,
+      "sexe": "ALL",
+      "volontaires_sains": false
+    },
+    "criteres_secondaires": [
+      {
+        "critere": "Changes in GC soma counts (number of cells)",
+        "delai": "Baseline, 6 months, and 12 months"
+      },
+      {
+        "critere": "Changes in GCL thickness (micrometers (µm))",
+        "delai": "Baseline, 6 months, and 12 months"
+      }
+    ],
+    "responsables": null,
+    "date_depot_resultats": null,
+    "resultats": null
+  },
+  "modifications": []
+}

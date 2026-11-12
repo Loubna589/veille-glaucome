@@ -1,0 +1,190 @@
+{
+  "pmid": "42418463",
+  "premiere_detection": "2026-09-25",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42418463",
+    "titre": "Pascal selective laser trabeculoplasty (PSLT) in the treatment of ocular hypertension and open-angle glaucoma compared to travoprost eye drops: A non-inferiority clinical trial.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42418463/",
+    "doi": "10.1371/journal.pone.0350897",
+    "pmcid": "PMC13345268",
+    "revue": "PloS one",
+    "date_entree_pubmed": "2026-07-08",
+    "date_publication": "2026",
+    "types_publication": [
+      "Journal Article",
+      "Randomized Controlled Trial",
+      "Equivalence Trial",
+      "Comparative Study"
+    ],
+    "resume_present": true,
+    "resume": "AIMS: To compare the effectiveness of PSLT and the use of topical prostaglandin eye drops in the treatment of ocular hypertensive (OHT) or open-angle glaucoma patients (POAG) in reducing intraocular pressure (IOP) and peak IOP.\nMETHODS: This is a non-inferiority randomized clinical trial, after washout, both patients eyes were randomized, one eye treated with PSLT (intervention group) and the contralateral eye treated with travoprost eye drops (controls). IOP, peak IOP by water drinking test (WDT), visual field (VF) and OCT were performed at baseline and at 7 days, 2, 6, 9 and 12 months after treatment. The primary outcome measure was to assess if the impact of PSLT on IOP and peak IOP is not inferior to that of the standard treatment (travoprost eye drops) by a margin not greater than the predefined threshold of 1.5 mmHg.\nRESULTS: A total of 30 patients participated in this trial. The mean baseline IOP was similar in both groups, 18.8 ± 4.0 mmHg and 18.8 ± 4.2 mmHg, intervention and control respectively. At 2, 6 and 9 months of treatment no significant difference in IOP was found between the two groups. At 12 months of follow-up the PSLT group showed lower average IOP (13.5 ± 2.3 mmHg versus 14.9 ± 2.7 and p < 0.001). Similar results were found for peak IOP in the WDT. On average there was no progression over time and no significant difference between groups regarding VF and OCT parameters.\nCONCLUSION: PSLT was as effective as prostaglandin eye drops in reducing IOP and IOP peak in POAG and OHT patients. These findings are especially important as interest grows in minimally invasive glaucoma treatments and reducing reliance on topical medications.\nTRIAL REGISTRATION: Clinicaltrials.gov NCT05241938.",
+    "mots_cles_auteurs": null,
+    "langue": "eng",
+    "nombre_auteurs": 12,
+    "affiliations_auteurs": [
+      "Ophthalmology, Universidade Federal do Rio Grande do Sul, Porto Alegre, RS, Brazil.",
+      "Hospital de Clínicas de Porto Alegre, RS, Brazil.",
+      "Wills Eye Hospital, Philadelphia, Pennsylvania, United States of America.",
+      "GEPO (Group of Studies and Research in Ophthalmology), Lavinsky Eye Institute, Porto Alegre, Brazil.",
+      "Ophthalmology, Grupo Hospitalar Conceição, Porto Alegre, RS, Brazil."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": [
+      "NCT05241938"
+    ],
+    "nct_mentionnes_texte": null,
+    "mesh": [
+      "Humans",
+      "Travoprost",
+      "Glaucoma, Open-Angle",
+      "Ocular Hypertension",
+      "Ophthalmic Solutions",
+      "Intraocular Pressure",
+      "Female",
+      "Trabeculectomy",
+      "Male",
+      "Aged",
+      "Middle Aged",
+      "Laser Therapy",
+      "Antihypertensive Agents",
+      "Treatment Outcome"
+    ]
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": true,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": [
+        {
+          "produit": "travoprost",
+          "role": "comparateur",
+          "statut_role": "rôle suggéré, à vérifier (règle automatique appliquée au titre)"
+        }
+      ],
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": null,
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7167697416",
+      "doi": "10.1371/journal.pone.0350897",
+      "pmid": "42418463",
+      "pmcid": null,
+      "titre": "Pascal selective laser trabeculoplasty (PSLT) in the treatment of ocular hypertension and open-angle glaucoma compared to travoprost eye drops: A non-inferiority clinical trial",
+      "lien": "https://openalex.org/W7167697416",
+      "date_publication": "2026-07-08",
+      "type": "article",
+      "revue": "PLoS ONE",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "doaj",
+        "pubmed"
+      ],
+      "financeurs": [
+        {
+          "nom": "Hospital de Clínicas de Porto Alegre",
+          "ror": "https://ror.org/010we4y38"
+        },
+        {
+          "nom": "Fundação Instituto de Pesquisas Econômicas",
+          "ror": "https://ror.org/00ngrh496"
+        }
+      ],
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "Universidade Federal do Rio Grande do Sul",
+          "pays": "BR",
+          "type": "education",
+          "ror": "https://ror.org/041yk2d64"
+        },
+        {
+          "nom": "Hospital de Clínicas de Porto Alegre",
+          "pays": "BR",
+          "type": "healthcare",
+          "ror": "https://ror.org/010we4y38"
+        },
+        {
+          "nom": "Wills Eye Hospital",
+          "pays": "US",
+          "type": "healthcare",
+          "ror": "https://ror.org/03qygnx22"
+        },
+        {
+          "nom": "Grupo Hospitalar Conceição",
+          "pays": "BR",
+          "type": "healthcare",
+          "ror": "https://ror.org/0387j8q89"
+        }
+      ],
+      "acces_ouvert": true,
+      "statut_acces": "gold",
+      "url_texte": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0350897&type=printable",
+      "url_pdf": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0350897&type=printable",
+      "licence": "cc-by",
+      "texte_integral_indexe": true,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Glaucoma and retinal disorders",
+      "resume_present": true,
+      "mesh": [
+        "Travoprost",
+        "Aged",
+        "Antihypertensive Agents",
+        "Female",
+        "Glaucoma, Open-Angle",
+        "Humans",
+        "Intraocular Pressure",
+        "Male",
+        "Middle Aged",
+        "Ocular Hypertension",
+        "Ophthalmic Solutions",
+        "Trabeculectomy",
+        "Treatment Outcome",
+        "Laser Therapy"
+      ]
+    },
+    "openalex_verifie_le": "2026-09-25",
+    "financements": [
+      {
+        "nom": "Hospital de Clínicas de Porto Alegre",
+        "statut": "À VÉRIFIER — trouvé par OpenAlex seulement (l'éditeur n'a déclaré aucun financeur dans Crossref) ; à contrôler dans le texte de l'article",
+        "references": null,
+        "notices": [
+          [
+            "notice OpenAlex",
+            "https://api.openalex.org/works/W7167697416"
+          ],
+          [
+            "notice Crossref consultée (ne confirme pas ce financeur)",
+            "https://api.crossref.org/works/10.1371/journal.pone.0350897"
+          ]
+        ],
+        "note": "cet organisme figure AUSSI parmi les institutions des auteurs : c'est une affiliation, information distincte"
+      },
+      {
+        "nom": "Fundação Instituto de Pesquisas Econômicas",
+        "statut": "À VÉRIFIER — trouvé par OpenAlex seulement (l'éditeur n'a déclaré aucun financeur dans Crossref) ; à contrôler dans le texte de l'article",
+        "references": null,
+        "notices": [
+          [
+            "notice OpenAlex",
+            "https://api.openalex.org/works/W7167697416"
+          ],
+          [
+            "notice Crossref consultée (ne confirme pas ce financeur)",
+            "https://api.crossref.org/works/10.1371/journal.pone.0350897"
+          ]
+        ],
+        "note": null
+      }
+    ]
+  }
+}

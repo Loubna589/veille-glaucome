@@ -1,0 +1,83 @@
+{
+  "nct": "NCT07845357",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "nct": "NCT07845357",
+    "titre": "Switching From Preserved Glaucoma Therapy to Preservative-Free ZOLYMBUS",
+    "titre_officiel": "Effect of Switching From Preserved Glaucoma Therapy to Preservative-Free ZOLYMBUS on Dry Eye Symptoms and Ocular Surface Health in Participants With Glaucoma or Ocular Hypertension",
+    "lien": "https://clinicaltrials.gov/study/NCT07845357",
+    "date_premiere_publication": "2026-09-28",
+    "date_derniere_mise_a_jour": "2026-09-28",
+    "type_etude": "INTERVENTIONAL",
+    "phases_declarees": [
+      "PHASE4"
+    ],
+    "statut": "NOT_YET_RECRUITING",
+    "raison_arret": null,
+    "date_debut": "2026-10-05",
+    "date_fin_principale": "2027-02-15",
+    "promoteur": "Southern College of Optometry",
+    "type_promoteur": "OTHER",
+    "collaborateurs": null,
+    "conditions": [
+      "Eye Drops Self-instillation",
+      "Glaucoma",
+      "Dry Eye"
+    ],
+    "interventions": [
+      {
+        "type": "DRUG",
+        "nom": "preservative free ZOLYMBUS™ 0.01%."
+      }
+    ],
+    "participants_nombre": 40,
+    "participants_type": "ESTIMATED",
+    "criteres_principaux": [
+      {
+        "critere": "Change in Eye Dryness (0-100 visual analog scale) scores at 3-month compared to baseline.",
+        "delai": "Baseline to 3 months"
+      }
+    ],
+    "resultats_deposes": false,
+    "publications_declarees": null,
+    "resume_source": "Glaucoma is a large group of intraocular pressure-sensitive conditions that can cause progressive retinal ganglion cell (RGC) damage/loss and ultimately results in visual field loss that can produce irreversible blindness. The literature suggests that about 3.5% of the world's population has glaucoma and that is expected to grow as life expectancy increases and individuals continue to live longer lives. The first line of defense against progressive glaucoma includes eye drops that lower intraocular pressure. Which unfortunately comes with side effects that can damage the ocular surface of the eye. Nearly 60% of those who use these persevered eye drops experience symptoms commonly associated with dry eye disease (DED). Such as burning, stinging and itching. Thus the purpose of this study is to determine the effectiveness of switching from a preserved topical glaucoma drop to a preservative free topical glaucoma drop in glaucoma patients who also have symptomatic dry eye disease.",
+    "citations_declarees": null,
+    "plan": {
+      "repartition": "NA",
+      "modele": "SINGLE_GROUP",
+      "but_principal": "TREATMENT",
+      "insu": "NONE",
+      "insu_pour": null,
+      "insu_description": null,
+      "modele_observationnel": null
+    },
+    "bras": [
+      {
+        "libelle": "Zolymbus preservative free eye drop",
+        "type": "EXPERIMENTAL",
+        "description": "Participants will be given and instructed on how to use the product.",
+        "interventions": [
+          "Drug: preservative free ZOLYMBUS™ 0.01%."
+        ]
+      }
+    ],
+    "eligibilite": {
+      "criteres": "Inclusion Criteria:\n\n1. Adults ≥18 years of age.\n2. Have a history of glaucoma or ocular hypertension.\n3. Currently being treated with a preserved topical glaucoma medication and currently have well-controlled intraocular pressure (≤ 21 mmHg).\n4. Currently using any type of prostaglandin analog glaucoma monotherapy.\n5. Have a history of dry eye disease for at least the past 6 months.\n6. Have dry eye disease as determined by the following: Eye Dryness VAS score of ≥40 plus OSDI ≥23 (moderate to severe) plus TBUT \\<10 seconds.8, 9\n7. Have corrected distance visual acuity of 20/40 or better.\n8. Willing to discontinue contact lens wear 24 hours prior to screening visit and throughout the study.\n\nExclusion Criteria:\n\n1. Aqueous deficient dry eye disease as defined by Schirmer's test \\<10 mm.\n2. Have a systemic health condition that is known to alter tear film physiology (e.g., primary and secondary Sjögren's syndrome).\n3. Have a history of ocular surgery within the past 12 months.\n4. Have a history of severe ocular trauma, active ocular infection or inflammation that is not dry eye related.\n5. Punctal plugs in place for \\<3 months and/or Lacrifill in place for \\>5 months.\n6. Have ever used Accutane.\n7. Currently using other ocular medications, including topical anti-inflammatory drops at the time of enrollment.\n8. Are pregnant or breast feeding.\n9. Have had a physical meibomian gland treatment withing 1 month of enrollment.\n10. Initiated, discontinued, or changed dose of a systemic medication known to cause ocular drying (e.g., antihistamines or tricyclic antidepressants) within 14 days of the screening visit.\n11. Have a condition or be in a situation, which in the investigator's opinion, may put the participant at significant risk, may confound the results, or may significantly interfere with their study participation.",
+      "age_min": "18 Years",
+      "age_max": null,
+      "sexe": "ALL",
+      "volontaires_sains": false
+    },
+    "criteres_secondaires": [
+      {
+        "critere": "Change in Eye Dryness (0-100 visual analog scale) scores at 1-month compared to baseline.",
+        "delai": "baseline 1 month"
+      }
+    ],
+    "responsables": null,
+    "date_depot_resultats": null,
+    "resultats": null
+  },
+  "modifications": []
+}

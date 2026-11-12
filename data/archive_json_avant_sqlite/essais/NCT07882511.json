@@ -1,0 +1,84 @@
+{
+  "nct": "NCT07882511",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "nct": "NCT07882511",
+    "titre": "Efficacy and Safety of Minimally Invasive Suprachoroidal Drainage",
+    "titre_officiel": "Efficacy and Safety of Minimally Invasive Suprachoroidal Drainage for the Treatment of Advanced Neovascular Glaucoma",
+    "lien": "https://clinicaltrials.gov/study/NCT07882511",
+    "date_premiere_publication": "2026-10-20",
+    "date_derniere_mise_a_jour": "2026-10-20",
+    "type_etude": "OBSERVATIONAL",
+    "phases_declarees": null,
+    "statut": "COMPLETED",
+    "raison_arret": null,
+    "date_debut": "2024-07-01",
+    "date_fin_principale": "2026-04-30",
+    "promoteur": "Zhongnan Hospital",
+    "type_promoteur": "OTHER",
+    "collaborateurs": null,
+    "conditions": [
+      "Neovascular Glaucoma"
+    ],
+    "interventions": null,
+    "participants_nombre": 50,
+    "participants_type": "ACTUAL",
+    "criteres_principaux": [
+      {
+        "critere": "intraocular pressure",
+        "delai": "Pre-operative, post-operative follow-up at 1 month, 3 months, 6 months."
+      },
+      {
+        "critere": "visual acuity",
+        "delai": "Pre-operative, post-operative follow-up at 1 month, 3 months, 6 months."
+      },
+      {
+        "critere": "Number of anti-glaucoma medications",
+        "delai": "Time Frame: Pre-operative, post-operative follow-up at 1 month, 3 months, 6 months."
+      }
+    ],
+    "resultats_deposes": false,
+    "publications_declarees": null,
+    "resume_source": "This study primarily involved a retrospective analysis of clinical and follow-up data from patients with advanced neovascular glaucoma who underwent minimally invasive suprachoroidal drainage surgery at the Department of Ophthalmology, Zhongnan Hospital of Wuhan University, to evaluate the safety and efficacy of this procedure in patients with advanced neovascular glaucoma.",
+    "citations_declarees": null,
+    "plan": {
+      "repartition": null,
+      "modele": null,
+      "but_principal": null,
+      "insu": null,
+      "insu_pour": null,
+      "insu_description": null,
+      "modele_observationnel": "COHORT"
+    },
+    "bras": [
+      {
+        "libelle": "NVG group",
+        "type": null,
+        "description": null,
+        "interventions": null
+      }
+    ],
+    "eligibilite": {
+      "criteres": "Inclusion Criteria:\n\n* Patients who met the diagnostic criteria for advanced NVG.\n\nExclusion Criteria:\n\n* Patients with incomplete clinical data and information.\n* Severe systemic diseases (such as chronic renal failure requiring dialysis, severe neurological diseases, immune diseases), pregnancy or lactation.",
+      "age_min": "18 Years",
+      "age_max": "90 Years",
+      "sexe": "ALL",
+      "volontaires_sains": false
+    },
+    "criteres_secondaires": [
+      {
+        "critere": "complications",
+        "delai": "Pre-operative, post-operative follow-up at 1 month, 3 months, 6 months."
+      },
+      {
+        "critere": "NRS",
+        "delai": "Pre-operative (pain scores at baseline) and post-operative (pain scores at the time of the patient's discharge, ranging from 3 to 7 days postoperatively)"
+      }
+    ],
+    "responsables": null,
+    "date_depot_resultats": null,
+    "resultats": null
+  },
+  "modifications": []
+}

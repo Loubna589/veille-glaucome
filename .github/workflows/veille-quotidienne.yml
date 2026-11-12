@@ -1,0 +1,111 @@
+# Pipeline QUOTIDIEN de la veille, exécuté sur les serveurs de GitHub (même ordinateur éteint) :
+#   tests → collecte des 11 sources publiques → SQLite → IA (GitHub Models) → export JSON contrôlé → alertes
+#   → enregistrement dans le dépôt → publication sur GitHub Pages.
+# Si un test échoue, rien n'est collecté ni publié.
+name: Veille quotidienne
+
+on:
+  schedule:
+    - cron: "30 5 * * *"   # 5 h 30 UTC = 7 h 30 à Paris l'été, 6 h 30 l'hiver
+  workflow_dispatch:
+    inputs:
+      casser_test_demo:
+        description: "Démo : faire échouer exprès un test (la publication doit être bloquée)"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write            # enregistrer la base et les exports dans le dépôt
+  models: read               # IA gratuite via GitHub Models (jeton automatique)
+
+concurrency:
+  group: veille-quotidienne  # jamais deux exécutions en même temps
+  cancel-in-progress: false
+
+jobs:
+  mise-a-jour:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - name: Récupérer le dépôt (code + base SQLite)
+        uses: actions/checkout@v4
+
+      - name: Installer Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Installer les bibliothèques
+        run: pip install -r requirements-dev.txt
+
+      - name: Garder en cache le modèle d'embeddings (118 Mo, téléchargé une seule fois)
+        uses: actions/cache@v4
+        with:
+          path: data/local/modeles
+          key: modele-multilingual-e5-small-q8
+
+      - name: Tests automatiques (pytest)
+        env:
+          CASSER_TEST_DEMO: ${{ inputs.casser_test_demo && '1' || '0' }}
+        run: python -m pytest -q
+
+      - name: Collecte, base SQLite, export contrôlé, alertes
+        env:
+          # Secrets FACULTATIFS (Settings > Secrets and variables > Actions). Aucune valeur dans ce fichier.
+          CONTACT_EMAIL: ${{ secrets.CONTACT_EMAIL }}
+          NCBI_API_KEY: ${{ secrets.NCBI_API_KEY }}
+          OPENALEX_API_KEY: ${{ secrets.OPENALEX_API_KEY }}
+          PBS_API_KEY: ${{ secrets.PBS_API_KEY }}
+          SMTP_HOTE: ${{ secrets.SMTP_HOTE }}
+          SMTP_UTILISATEUR: ${{ secrets.SMTP_UTILISATEUR }}
+          SMTP_MOT_DE_PASSE: ${{ secrets.SMTP_MOT_DE_PASSE }}
+          ALERTES_DESTINATAIRE: ${{ secrets.ALERTES_DESTINATAIRE }}
+        run: python mise_a_jour.py
+
+      - name: IA traçable (résumé + classification, GitHub Models)
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}   # jeton automatique de GitHub, rien à créer
+        run: python resumer_ia.py
+
+      - name: Garder les journaux de l'exécution
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: logs-${{ github.run_id }}
+          path: data/logs/
+          retention-days: 30
+
+      - name: Enregistrer la base et les exports dans le dépôt
+        run: |
+          git config user.name "veille-automatique"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/veille.db data/historique/marche.json site alertes.md
+          if git diff --cached --quiet; then
+            echo "Aucune nouveauté à enregistrer."
+          else
+            git commit -m "Veille du $(date -u +%Y-%m-%d)"
+            git push
+          fi
+
+  # Publication sur GitHub Pages, seulement si la mise à jour (et donc les tests) a réussi.
+  # Un envoi fait par le jeton automatique ne relance pas les autres workflows : la publication se fait ici.
+  publier:
+    needs: mise-a-jour
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deploiement.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}   # la version qui vient d'être enregistrée
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+      - id: deploiement
+        uses: actions/deploy-pages@v4

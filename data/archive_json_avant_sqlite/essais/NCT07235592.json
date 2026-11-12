@@ -1,0 +1,79 @@
+{
+  "nct": "NCT07235592",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "nct": "NCT07235592",
+    "titre": "PRESERFLO™ MicroShunt XI Observational PMCF Study With no Control Group",
+    "titre_officiel": "Post Market Clinical Follow-Up Study to Demonstrate the Safety and Performance of the PRESERFLO™ MicroShunt XI in Patients With Primary Open Angle Glaucoma",
+    "lien": "https://clinicaltrials.gov/study/NCT07235592",
+    "date_premiere_publication": "2025-11-19",
+    "date_derniere_mise_a_jour": "2026-10-28",
+    "type_etude": "OBSERVATIONAL",
+    "phases_declarees": null,
+    "statut": "RECRUITING",
+    "raison_arret": null,
+    "date_debut": "2026-03-19",
+    "date_fin_principale": "2027-09",
+    "promoteur": "Santen SAS",
+    "type_promoteur": "INDUSTRY",
+    "collaborateurs": null,
+    "conditions": [
+      "Primary Open Angle Glaucoma"
+    ],
+    "interventions": [
+      {
+        "type": "DEVICE",
+        "nom": "Microshunt XI"
+      }
+    ],
+    "participants_nombre": 112,
+    "participants_type": "ESTIMATED",
+    "criteres_principaux": [
+      {
+        "critere": "Primary Performance Outcome to determine the change in the proportion of eyes with change in intraocular pressure",
+        "delai": "Screening to 12 months"
+      }
+    ],
+    "resultats_deposes": false,
+    "publications_declarees": null,
+    "resume_source": "The purpose of this study is to collect safety and performance data on the PRESERFLO™ MicroShunt XI in patients diagnosed with primary open angle glaucoma who are inadequately controlled on maximum tolerated medical therapy with intraocular pressure ≥18 mmHg and ≤35 mmHg and/or where glaucoma progression warrants surgery.",
+    "citations_declarees": null,
+    "plan": {
+      "repartition": null,
+      "modele": null,
+      "but_principal": null,
+      "insu": null,
+      "insu_pour": null,
+      "insu_description": null,
+      "modele_observationnel": "COHORT"
+    },
+    "bras": [
+      {
+        "libelle": "Microshunt XI treatment group",
+        "type": null,
+        "description": "MicroShunt XI will be surgically implanted in eyes of patients with primary open angle glaucoma where intra ocular pressure (IOP) remains uncontrollable while on maximum tolerated medical therapy and/or where glaucoma progression warrants surgery.",
+        "interventions": [
+          "Device: Microshunt XI"
+        ]
+      }
+    ],
+    "eligibilite": {
+      "criteres": "Inclusion Criteria:\n\n1. Male or female, age 18 to 85 years, inclusive\n2. Patient diagnosed with primary open glaucoma where the IOP is not adequately controlled on maximum tolerated medical therapy and has intraocular pressure ≥18 mmHg and ≤35 mmHg while on glaucoma medications\n3. Patient willing to comply with study requirements\n4. Patient who has signed an approved informed consent form\n\nExclusion Criteria:\n\n1. Angle closure glaucoma\n2. Presence of conjunctival scarring, previous incisional ophthalmic surgery involving the conjunctiva or conjunctival pathologies (e.g., thin conjunctiva, pterygium)\n3. Active iris neovascularization\n4. Active inflammation (e.g., blepharitis, conjunctivitis, scleritis, keratitis, uveitis)\n5. Vitreous in the anterior chamber\n6. Presence of an anterior chamber intraocular lens (ACIOL)\n7. Intraocular silicone oil\n8. Need for glaucoma surgery combined with other ocular procedures (e.g., cataract surgery with IOL implantation) or anticipated need for additional ocular surgery during the investigational period\n9. Central corneal thickness that is less than 450 microns or greater than 620 microns\n10. Previous cilioablative procedure\n11. Neovascular glaucoma\n12. Uveitic Glaucoma\n13. Pseudoexfoliative or pigmentary glaucoma\n14. Chronic inflammation\n15. Previous incisional ophthalmic surgery within 6 months prior to study\n16. Enrolled in this or another study (only one eye can participate in this study) or completed their participation in another study within 30 calendar days of the screening exam\n17. Ocular pathology or medical condition for which, in the investigator's judgment, the following factors would either place the patient at increased risk of complications or contraindicate device implantation or interfere with compliance to elements of the Protocol",
+      "age_min": "18 Years",
+      "age_max": "85 Years",
+      "sexe": "ALL",
+      "volontaires_sains": false
+    },
+    "criteres_secondaires": [
+      {
+        "critere": "Secondary Performance Outcome to determine the change in the proportion of eyes with change in intraocular pressure",
+        "delai": "At 12 months"
+      }
+    ],
+    "responsables": null,
+    "date_depot_resultats": null,
+    "resultats": null
+  },
+  "modifications": []
+}

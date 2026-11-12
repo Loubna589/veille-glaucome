@@ -1,0 +1,58 @@
+{
+  "openalex_id": "W7204181742",
+  "premiere_detection": "2026-09-25",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "openalex_id": "W7204181742",
+    "doi": "10.64898/2026.08.23.26361135",
+    "pmid": null,
+    "pmcid": null,
+    "titre": "CHIASM: A Self-Supervised Visual Field Encoder for Neuro-Ophthalmology",
+    "lien": "https://openalex.org/W7204181742",
+    "date_publication": "2026-08-25",
+    "type": "preprint",
+    "revue": "medRxiv",
+    "type_source": "repository",
+    "langue": null,
+    "indexe_dans": [
+      "crossref"
+    ],
+    "financeurs": null,
+    "subventions": null,
+    "institutions": [
+      {
+        "nom": "New York University",
+        "pays": "US",
+        "type": "education",
+        "ror": "https://ror.org/0190ak572"
+      }
+    ],
+    "acces_ouvert": true,
+    "statut_acces": "green",
+    "url_texte": "https://www.medrxiv.org/content/medrxiv/early/2026/08/25/2026.08.23.26361135.full.pdf",
+    "url_pdf": "https://www.medrxiv.org/content/medrxiv/early/2026/08/25/2026.08.23.26361135.full.pdf",
+    "licence": "cc-by-nc-nd",
+    "texte_integral_indexe": true,
+    "retracte": false,
+    "citations": 0,
+    "sujet_principal": "Glaucoma and retinal disorders",
+    "resume_present": true,
+    "resume": "Abstract Importance Artificial intelligence (AI) is under active development to support diagnosis and prognostication of glaucoma from visual fields (VF). These systems do not audit for vertical- meridian-respecting field loss patterns—known sequelae of stroke, hemorrhage, and neoplasm. Objective To develop a self-supervised encoder of automated perimetry that learns anatomically interpretable visual field structure without labels and to evaluate its capacity to identify suspected neurologic VF patterns in an independent public glaucoma dataset. Design, Setting, and Participants Diagnostic study (TRIPOD+AI). Pretraining: 23,223 unlabeled Humphrey VFs (patient-grouped training split of 28,943 fields from 3,871 University of Washington patients; UWHVF, all-comers perimetry). External evaluation: Harvard-Glaucoma Fairness dataset (Harvard-GF; 3,300 patients with paired VF and OCT from a single academic center). The encoder was never exposed to Harvard-GF during training. Exposures A 128-dimensional masked autoencoder of monocular Humphrey VF pattern- deviation data, with a supervised linear classifier on vertical-midline latent dimensions trained on per-eye expert neurological/nonneurological labels. Main Outcomes and Measures Primary: classifier accuracy under hard-negative evaluation (cross-validated balanced accuracy and AUC). Secondary: held-out specificity on structurally separated UWHVF controls; expert confirmation and OCT structural correlates of classifier- identified Harvard-GF suspects. Results Masked reconstruction recovered structure concordant with retinal neuroanatomy; 50 of 128 latent dimensions emerged spatially specialized (vs 23 for the TD encoder). Under hard- negative evaluation the classifier achieved cross-validated balanced accuracy 0.78 (95% CI, 0.75-0.82) and AUC 0.85 (95% CI, 0.82-0.89), with no false positives among 100 held-out controls. Applied to Harvard-GF without fine-tuning, it identified a top-20 of 1,748 glaucoma- labeled patients (1.1%) with morphology inconsistent with glaucoma; all 20 were NHT-positive (mean 62.4), and OCT showed preserved superior (Cohen d = +0.68; P < .001) and inferior (d = +0.63; P = .003) RNFL versus severity-matched controls. Conclusions and Relevance A self-supervised VF encoder learned anatomically interpretable visual field structure from unlabeled data and identified suspected neurological cases in a curated glaucoma dataset, with expert, rule-based, and OCT corroboration. Visual field datasets used to train glaucoma AI may benefit from neurological screening; the encoder reported here supports such audits and provides a foundation for neuro-ophthalmic AI beyond fundus photography and OCT. Key Points Question Can self-supervised learning learn anatomically interpretable visual field structure from unlabeled visual fields and identify neurological field loss? Findings Trained on 28,943 unlabeled visual fields, the encoder learned anatomically interpretable visual field structure and revealed ≥20 of 1,748 patients (≥1.1%) in an external glaucoma dataset with vertical-midline loss and retinal nerve fiber layer preservation. Meaning A self-supervised encoder learned anatomically interpretable visual field structure, and can audit glaucoma datasets for neurological field loss, reducing the risk that future AI misclassifies intracranial disease.",
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "present_dans_pubmed": false
+  }
+}

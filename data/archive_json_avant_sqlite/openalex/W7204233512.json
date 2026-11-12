@@ -1,0 +1,51 @@
+{
+  "openalex_id": "W7204233512",
+  "premiere_detection": "2026-09-25",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "openalex_id": "W7204233512",
+    "doi": "10.5281/zenodo.22112125",
+    "pmid": null,
+    "pmcid": null,
+    "titre": "AEGIS P15: Ocular Disease Recognition Augmenting System (ORAS)",
+    "lien": "https://openalex.org/W7204233512",
+    "date_publication": "2026-08-26",
+    "type": "preprint",
+    "revue": "Zenodo (CERN European Organization for Nuclear Research)",
+    "type_source": "repository",
+    "langue": null,
+    "indexe_dans": [
+      "datacite"
+    ],
+    "financeurs": null,
+    "subventions": null,
+    "institutions": null,
+    "acces_ouvert": true,
+    "statut_acces": "green",
+    "url_texte": "https://doi.org/10.5281/zenodo.22112125",
+    "url_pdf": null,
+    "licence": "cc-by",
+    "texte_integral_indexe": false,
+    "retracte": false,
+    "citations": 0,
+    "sujet_principal": "Retinal Imaging and Analysis",
+    "resume_present": true,
+    "resume": "AEGIS P15: Ocular Disease Recognition Augmenting System (ORAS) presents a deep-learning ensemble for automated detection of four major ocular diseases — Diabetic Retinopathy (AUC 0.977), Age-related Macular Degeneration (AUC 0.953), Glaucoma (AUC 0.899), and Hypertensive Retinopathy (AUC 0.993) — from fundus photographs. The system employs four dedicated specialist models, surpassing the ODIR benchmark baseline. AEGIS ORAS is part of the AEGIS Human-AI Augmenting System suite. Full interactive application and all AEGIS projects are available at https://aegishumanai.com",
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "present_dans_pubmed": false
+  }
+}

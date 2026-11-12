@@ -1,0 +1,89 @@
+{
+  "pmid": "42770455",
+  "premiere_detection": "2026-09-25",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42770455",
+    "titre": "Exosomes in Ophthalmology: Bridging Physiological Barriers for Precision Ocular Drug Delivery.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42770455/",
+    "doi": "10.2174/0113894501468995260904090347",
+    "pmcid": null,
+    "revue": "Current drug targets",
+    "date_entree_pubmed": "2026-09-22",
+    "date_publication": "2026-Sep-18",
+    "types_publication": [
+      "Journal Article"
+    ],
+    "resume_present": true,
+    "resume": "INTRODUCTION: Eye disorders such as age-related macular degeneration, diabetic retinopathy, glaucoma, and uveitis persist as prominent contributors to visual impairment on a global scale. Conventional ocular drug delivery systems face a range of physiological hurdles, including tear film clearance, epithelium absorption, conjunctival absorption, and the formidable blood-retinal barrier. These challenges culminate in suboptimal ocular bioavailability, frequently compelling healthcare providers to resort to invasive drug administration methods.\nMETHODS: This review systematically evaluates recent literature focusing on exosome-based ocular drug delivery systems. Published preclinical and clinical studies were identified through structured searches of PubMed, Scopus, and Web of Science using the keywords \"exosomes\", \"extracellular vesicles\", \"ocular drug delivery\", \"retina\", and \"ophthalmology\". The search covered studies published between 2000 and 2025 to understand exosome biology, isolation and characterization techniques, drug-loading strategies, and their ability to overcome ocular physiological barriers.\nRESULTS: Exosomes are naturally occurring extracellular vesicles enriched with proteins, lipids, and nucleic acids, exhibiting excellent biocompatibility and intrinsic targeting capabilities. Evidence from preclinical studies demonstrates their ability to traverse ocular barriers and enhance drug retention and bioavailability. Emerging clinical investigations highlight their therapeutic promise in retinal and anterior segment disorders.\nDISCUSSION: Compared with synthetic nanocarriers, exosomes offer superior biological stability, reduced immunogenicity, and enhanced tissue penetration. However, challenges related to largescale production, standardization, storage stability, immunological safety, and regulatory approval remain critical barriers to clinical translation.\nCONCLUSION: Exosome-based ocular drug delivery represents a promising precision medicine strategy that addresses long-standing limitations of conventional ophthalmic therapies. Continued advances in formulation optimization, scalable manufacturing, and regulatory frameworks are expected to accelerate their clinical and commercial translation for patient-centered eye care.",
+    "mots_cles_auteurs": [
+      "Exosomes",
+      "age-related macular degeneration (AMD)",
+      "diabetic retinopathy (DR)",
+      "extracellular vesicles",
+      "nanomedicine",
+      "ocular drug delivery",
+      "ophthalmology",
+      "precision medicine",
+      "uveitis"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 6,
+    "affiliations_auteurs": [
+      "Department of Pharmaceutics, Raghavendra Institute of Pharmaceutical Education and Research (Autonomous), KR. Palli Cross, 515721, Ananthapuramu, Andhra Pradesh, India."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": [
+        "drug delivery"
+      ],
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7213973093",
+      "doi": "10.2174/0113894501468995260904090347",
+      "pmid": "42770455",
+      "pmcid": null,
+      "titre": "Exosomes in Ophthalmology: Bridging Physiological Barriers for Precision Ocular Drug Delivery",
+      "lien": "https://openalex.org/W7213973093",
+      "date_publication": "2026-09-18",
+      "type": "article",
+      "revue": "Current Drug Targets",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "pubmed"
+      ],
+      "financeurs": null,
+      "subventions": null,
+      "institutions": null,
+      "acces_ouvert": false,
+      "statut_acces": "closed",
+      "url_texte": null,
+      "url_pdf": null,
+      "licence": null,
+      "texte_integral_indexe": false,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Extracellular vesicles in disease",
+      "resume_present": true,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-09-25",
+    "financements": []
+  }
+}

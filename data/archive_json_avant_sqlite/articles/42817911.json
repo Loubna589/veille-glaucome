@@ -1,0 +1,300 @@
+{
+  "pmid": "42817911",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42817911",
+    "titre": "The Heterogeneity of the Neurovascular Unit in the Optic Nerve Head During Glaucomatous Neurodegeneration Based on Single-Cell RNA Sequencing.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42817911/",
+    "doi": "10.1096/fj.202602523RR",
+    "pmcid": null,
+    "revue": "FASEB journal : official publication of the Federation of American Societies for Experimental Biology",
+    "date_entree_pubmed": "2026-10-01",
+    "date_publication": "2026-Oct-15",
+    "types_publication": [
+      "Journal Article"
+    ],
+    "resume_present": true,
+    "resume": "Glaucoma is a multifactorial neurodegenerative disease, and the dysfunction of the neurovascular unit (NVU) in optic nerve head (ONH) has been gradually recognized to contribute to the neurodegeneration progression, yet its heterogeneity features remain poorly understood. Here, we established rat models of high intraocular pressure (HIOP) and lipopolysaccharide-induced ocular inflammation (LPS), and performed single-cell RNA sequencing (scRNA-seq) of ONH-centered tissues to characterize the cellular and molecular characteristics of NVU and its main cell components. Distinct alterations in the cellular composition and intercellular communication of the ONH-NVU were observed among Ctrl, HIOP and LPS conditions. Astrocytes showed a prominent increase of relative proportion in the HIOP group, whereas microglia were preferentially expanded under LPS stimulation. Astrocytes, microglia and endothelial cells showed a firm interaction via cell-cell communication analysis, in which the interactions within astrocytes and endothelial cells were the highest. Reclustering of main NVU cell types were further identified distinct subpopulations, including Dcn+Myoc+ astrocytes, S100a8+S100a9+ microglia and Nebl+Cytl1+ endothelial cells with prominent heterogeneity features, and their cellular interactions exhibited a prominent integrin-collagen network in orchestrating ECM restructuring under HIOP conditions. Additional histomorphological analysis further verified the early collapse of ONH astrocytic network and RGC degeneration. Therefore, these findings reveal the distinct ONH-NVU heterogeneity under HIOP condition, the astrocyte-mediated ECM remodeling may serve as a key early mechanobiological event for subsequent ONH cupping and glaucomatous neurodegeneration.",
+    "mots_cles_auteurs": [
+      "glaucoma",
+      "heterogeneity",
+      "neurovascular unit",
+      "optic nerve head",
+      "single‐cell RNA sequencing"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 8,
+    "affiliations_auteurs": [
+      "Department of Ophthalmology, The First Affiliated Hospital of Xi'an Jiaotong University, Xi'an, Shaanxi, China.",
+      "Beijing Institute of Ophthalmology, Beijing Tongren Eye Center, Beijing Tongren Hospital, Capital Medical University, Beijing Key Laboratory of Intelligent Diagnosis Technology and Equipment for Optic Nerve-Related Eye Diseases, Beijing, China.",
+      "Henan Academy of Innovations in Medical Science, Zhengzhou, Henan, China."
+    ],
+    "financeurs_declares": [
+      {
+        "organisme": "MOST | National Natural Science Foundation of China (NSFC)",
+        "pays": "",
+        "reference": "82401256"
+      },
+      {
+        "organisme": "MOST | National Natural Science Foundation of China (NSFC)",
+        "pays": "",
+        "reference": "82130029"
+      },
+      {
+        "organisme": "Beijing Municipal Public Welfare Development and Reform Pilot Project for Medical Research Institutes",
+        "pays": "",
+        "reference": "PWD&RPP-MRI"
+      },
+      {
+        "organisme": "Beijing Municipal Public Welfare Development and Reform Pilot Project for Medical Research Institutes",
+        "pays": "",
+        "reference": "YY2023-6"
+      },
+      {
+        "organisme": "Xi'an Jiaotong University Basic Scientific Research Funding, Free Exploration and Innovation - Teacher Category Project",
+        "pays": "",
+        "reference": "xzy012024131"
+      },
+      {
+        "organisme": "The First Affiliated Hospital of Xi'an Jiaotong University, Excellent Young Medical Talent Training Program",
+        "pays": "",
+        "reference": "2023"
+      },
+      {
+        "organisme": "Key Research & Development Program of Shaanxi Province",
+        "pays": "",
+        "reference": "2020SF-265"
+      }
+    ],
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": [
+      "Animals",
+      "Glaucoma",
+      "Rats",
+      "Optic Disk",
+      "Microglia",
+      "Single-Cell Analysis",
+      "Male",
+      "Astrocytes",
+      "Sequence Analysis, RNA",
+      "Rats, Sprague-Dawley",
+      "Endothelial Cells",
+      "Single-Cell Gene Expression Analysis",
+      "Neurodegenerative Diseases"
+    ]
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Préclinique",
+      "stade_source": "indexation MeSH de PubMed (modèle animal / animaux sans humains)",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7215051903",
+      "doi": "10.1096/fj.202602523rr",
+      "pmid": "42817911",
+      "pmcid": null,
+      "titre": "The Heterogeneity of the Neurovascular Unit in the Optic Nerve Head During Glaucomatous Neurodegeneration Based on Single‐Cell RNA Sequencing",
+      "lien": "https://openalex.org/W7215051903",
+      "date_publication": "2026-10-01",
+      "type": "article",
+      "revue": "The FASEB Journal",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "pubmed"
+      ],
+      "financeurs": [
+        {
+          "nom": "National Natural Science Foundation of China",
+          "ror": "https://ror.org/01h0zpd94"
+        }
+      ],
+      "subventions": [
+        {
+          "financeur": "National Natural Science Foundation of China",
+          "reference": "82130029"
+        },
+        {
+          "financeur": "National Natural Science Foundation of China",
+          "reference": "82401256"
+        }
+      ],
+      "institutions": [
+        {
+          "nom": "First Affiliated Hospital of Xi'an Jiaotong University",
+          "pays": "CN",
+          "type": "healthcare",
+          "ror": "https://ror.org/02tbvhh96"
+        },
+        {
+          "nom": "Beijing Tongren Hospital",
+          "pays": "CN",
+          "type": "healthcare",
+          "ror": "https://ror.org/013e4n276"
+        },
+        {
+          "nom": "Capital Medical University",
+          "pays": "CN",
+          "type": "education",
+          "ror": "https://ror.org/013xs5b60"
+        }
+      ],
+      "acces_ouvert": true,
+      "statut_acces": "bronze",
+      "url_texte": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1096/fj.202602523RR",
+      "url_pdf": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1096/fj.202602523RR",
+      "licence": null,
+      "texte_integral_indexe": true,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Glaucoma and retinal disorders",
+      "resume_present": true,
+      "mesh": [
+        "Single-Cell Gene Expression Analysis",
+        "Animals",
+        "Astrocytes",
+        "Glaucoma",
+        "Male",
+        "Optic Disk",
+        "Rats, Sprague-Dawley",
+        "Sequence Analysis, RNA",
+        "Microglia",
+        "Neurodegenerative Diseases",
+        "Endothelial Cells",
+        "Rats",
+        "Single-Cell Analysis"
+      ]
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": [
+      {
+        "nom": "MOST | National Natural Science Foundation of China (NSFC)",
+        "statut": "CONFIRMÉ — déclaré dans la notice PubMed (GrantList)",
+        "references": [
+          "82401256"
+        ],
+        "notices": [
+          [
+            "notice PubMed",
+            "https://pubmed.ncbi.nlm.nih.gov/42817911/?format=pubmed"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "MOST | National Natural Science Foundation of China (NSFC)",
+        "statut": "CONFIRMÉ — déclaré dans la notice PubMed (GrantList)",
+        "references": [
+          "82130029"
+        ],
+        "notices": [
+          [
+            "notice PubMed",
+            "https://pubmed.ncbi.nlm.nih.gov/42817911/?format=pubmed"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "Beijing Municipal Public Welfare Development and Reform Pilot Project for Medical Research Institutes",
+        "statut": "CONFIRMÉ — déclaré dans la notice PubMed (GrantList)",
+        "references": [
+          "PWD&RPP-MRI"
+        ],
+        "notices": [
+          [
+            "notice PubMed",
+            "https://pubmed.ncbi.nlm.nih.gov/42817911/?format=pubmed"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "Beijing Municipal Public Welfare Development and Reform Pilot Project for Medical Research Institutes",
+        "statut": "CONFIRMÉ — déclaré dans la notice PubMed (GrantList)",
+        "references": [
+          "YY2023-6"
+        ],
+        "notices": [
+          [
+            "notice PubMed",
+            "https://pubmed.ncbi.nlm.nih.gov/42817911/?format=pubmed"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "Xi'an Jiaotong University Basic Scientific Research Funding, Free Exploration and Innovation - Teacher Category Project",
+        "statut": "CONFIRMÉ — déclaré dans la notice PubMed (GrantList)",
+        "references": [
+          "xzy012024131"
+        ],
+        "notices": [
+          [
+            "notice PubMed",
+            "https://pubmed.ncbi.nlm.nih.gov/42817911/?format=pubmed"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "The First Affiliated Hospital of Xi'an Jiaotong University, Excellent Young Medical Talent Training Program",
+        "statut": "CONFIRMÉ — déclaré dans la notice PubMed (GrantList)",
+        "references": [
+          "2023"
+        ],
+        "notices": [
+          [
+            "notice PubMed",
+            "https://pubmed.ncbi.nlm.nih.gov/42817911/?format=pubmed"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "Key Research & Development Program of Shaanxi Province",
+        "statut": "CONFIRMÉ — déclaré dans la notice PubMed (GrantList)",
+        "references": [
+          "2020SF-265"
+        ],
+        "notices": [
+          [
+            "notice PubMed",
+            "https://pubmed.ncbi.nlm.nih.gov/42817911/?format=pubmed"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "National Natural Science Foundation of China",
+        "statut": "CONFIRMÉ — déclaré par l'éditeur dans Crossref",
+        "references": [
+          "82130029",
+          "82401256"
+        ],
+        "notices": [
+          [
+            "notice justificative Crossref (déclaration de l'éditeur)",
+            "https://api.crossref.org/works/10.1096/fj.202602523rr"
+          ],
+          [
+            "notice OpenAlex",
+            "https://api.openalex.org/works/W7215051903"
+          ]
+        ],
+        "note": null
+      }
+    ]
+  }
+}

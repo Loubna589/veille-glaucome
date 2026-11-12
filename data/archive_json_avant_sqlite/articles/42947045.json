@@ -1,0 +1,109 @@
+{
+  "pmid": "42947045",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42947045",
+    "titre": "Optic disc and cup segmentation using Vision Mamba UNet with enhanced edge-guided attention in fundus images.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42947045/",
+    "doi": "10.1186/s12886-026-05371-x",
+    "pmcid": "PMC13711713",
+    "revue": "BMC ophthalmology",
+    "date_entree_pubmed": "2026-10-28",
+    "date_publication": "2026-Oct-23",
+    "types_publication": [
+      "Journal Article"
+    ],
+    "resume_present": true,
+    "resume": "BACKGROUND: Glaucoma is an irreversible blinding disease for which early detection is essential. Precise segmentation of the optic disc (OD) and optic cup (OC) enables accurate cup-to-disc ratio (CDR) calculation, which serves as an important reference for glaucoma evaluation. However, the ambiguous boundaries between these structures make manual segmentation time-consuming and highly subjective.\nMETHODS: This study proposes a hybrid framework for OD and OC segmentation in fundus images. The framework first adopts YOLOv10 to achieve coarse localization and extraction of the OD region, followed by fine-grained segmentation using the proposed EEGA-VMUNet network. Based on a Vision Mamba-UNet backbone, we design an enhanced edge-guided attention (EEGA) module to adaptively integrate multi-scale contextual information. This module strengthens the representation of edges and fine structural features. A multi-scale loss function is also used to improve robustness to scale variations.\nRESULTS: Experiments on four benchmark datasets demonstrate that EEGA-VMUNet achieves competitive segmentation performance. On the same-domain test sets, OD Dice coefficients range from 95.20% to 97.65% and OC Dice coefficients range from 87.51% to 89.95%. Zero-shot cross-domain experiments achieve an OD Dice of 95.18% and an OC Dice of 85.13%.\nCONCLUSION: The proposed model achieves competitive performance in both OD and OC segmentation tasks. Bland-Altman analysis suggests that the derived vertical cup-to-disc ratio (VCDR) holds potential as a diagnostic aid for glaucoma screening, although its precision may require further improvement for longitudinal monitoring.",
+    "mots_cles_auteurs": [
+      "Edge-guided attention",
+      "Fundus images",
+      "Glaucoma",
+      "Optic disc and cup segmentation",
+      "Vision Mamba"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 3,
+    "affiliations_auteurs": [
+      "School of Medicine and Health, Guangzhou Xinhua University, Guangzhou, 510520, China.",
+      "School of Medicine and Health, Guangzhou Xinhua University, Guangzhou, 510520, China. houkeke@xhsysu.edu.cn."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": [
+      "Humans",
+      "Optic Disk",
+      "Fundus Oculi",
+      "Glaucoma",
+      "Algorithms",
+      "Detection Algorithms",
+      "Image Processing, Computer-Assisted"
+    ]
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": null,
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7223316712",
+      "doi": "10.1186/s12886-026-05371-x",
+      "pmid": "42947045",
+      "pmcid": "13711713",
+      "titre": "Optic disc and cup segmentation using Vision Mamba UNet with enhanced edge-guided attention in fundus images",
+      "lien": "https://openalex.org/W7223316712",
+      "date_publication": "2026-10-23",
+      "type": "article",
+      "revue": "BMC Ophthalmology",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "datacite",
+        "doaj",
+        "pubmed"
+      ],
+      "financeurs": null,
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "Guangzhou Xinhua University",
+          "pays": "CN",
+          "type": "education",
+          "ror": "https://ror.org/0068n3903"
+        }
+      ],
+      "acces_ouvert": true,
+      "statut_acces": "gold",
+      "url_texte": "https://link.springer.com/content/pdf/10.1186/s12886-026-05371-x.pdf",
+      "url_pdf": "https://link.springer.com/content/pdf/10.1186/s12886-026-05371-x.pdf",
+      "licence": "cc-by",
+      "texte_integral_indexe": true,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Retinal Imaging and Analysis",
+      "resume_present": true,
+      "mesh": [
+        "Detection Algorithms",
+        "Algorithms",
+        "Fundus Oculi",
+        "Glaucoma",
+        "Humans",
+        "Image Processing, Computer-Assisted",
+        "Optic Disk"
+      ]
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": []
+  }
+}

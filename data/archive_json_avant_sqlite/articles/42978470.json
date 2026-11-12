@@ -1,0 +1,167 @@
+{
+  "pmid": "42978470",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42978470",
+    "titre": "Exploring Elimination Profiles and Metabolite Patterns of Brinzolamide and Dorzolamide After Transdermal Exposure for Doping Control Purposes.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42978470/",
+    "doi": "10.1002/elps.70182",
+    "pmcid": null,
+    "revue": "Electrophoresis",
+    "date_entree_pubmed": "2026-11-04",
+    "date_publication": "2026-Nov-04",
+    "types_publication": [
+      "Journal Article"
+    ],
+    "resume_present": true,
+    "resume": "Brinzolamide (BA) and dorzolamide (DA) are carbonic anhydrase inhibitors (CAIs), commonly used for glaucoma treatment via topical application. Under the World Anti-Doping Agency Prohibited List, both substances are prohibited in- and out-of-competition, except when administered ophthalmically. In anti-doping testing, adverse analytical findings (AAFs) may arise not only from intentional misuse but also from unintentional exposure or contamination. Although elimination characteristics after oral or ocular administration have been described, little is known about the systemic uptake and metabolic behaviour of these substances following dermal exposure. Therefore, the present study investigates the transdermal absorption of BA and DA under controlled conditions to characterize elimination profiles and metabolite patterns. Two groups of 12 volunteers received dermal applications of AZOPT brinzolamide (10 mg/mL) and TRUSOPT dorzolamide (20 mg/mL) at doses of 1 and 6 mg per substance, applied to the lower forearm skin. Urine samples were collected before application and up to 168 h post-application, and dried blood spot (DBS) samples were collected for up to 3 weeks. Samples were analysed by liquid chromatography-high-resolution tandem mass spectrometry (LC-HRMS/MS) for parent compounds and selected metabolites. Concentrations in DBS and urine samples were corrected for haematocrit (Hct) and urine specific gravity (SG), respectively. Subsequently, relative metabolite-to-parent ratios were calculated to describe matrix-dependent metabolic profiles after dermal exposure. BA and DA were detectable in both urine and DBS after transdermal application, with detection windows increasing in a dose-dependent manner. In the low-dose group, only four participants showed detectable urinary concentrations within the first 2 days post-application, whereas both compounds remained detectable in DBS for up to 3 weeks. High doses resulted in greater peak concentrations and prolonged detectability. Parent compounds and N-desethyl metabolites were identified, with matrix-dependent differences in detectability and relative abundance. Systemic absorption was confirmed at concentration levels that may lead to AAFs in routine doping controls.",
+    "mots_cles_auteurs": [
+      "carbonic anhydrase inhibitors",
+      "dermal exposure",
+      "doping control",
+      "dried blood spots",
+      "liquid chromatography–high‐resolution tandem mass spectrometry (LC–HRMS/MS)"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 3,
+    "affiliations_auteurs": [
+      "Institute of Biochemistry, Center for Preventive Doping Research, German Sport University Cologne, Cologne, Germany.",
+      "European Monitoring Center for Emerging Doping Agents (EuMoCEDA), Cologne/Bonn, Germany."
+    ],
+    "financeurs_declares": [
+      {
+        "organisme": "World Anti-Doping Agency",
+        "pays": "",
+        "reference": "23C05MT"
+      },
+      {
+        "organisme": "Manfred Donike Institute for Doping Analysis e.V",
+        "pays": "",
+        "reference": null
+      },
+      {
+        "organisme": "Federal Chancellery of the Federal Republic of Germany",
+        "pays": "",
+        "reference": null
+      }
+    ],
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": true,
+      "produit_suivi_etudie_suggere": true,
+      "produits_suivis": [
+        {
+          "produit": "dorzolamide",
+          "role": "étudié",
+          "statut_role": "rôle suggéré, à vérifier (règle automatique appliquée au titre)"
+        },
+        {
+          "produit": "brinzolamide",
+          "role": "étudié",
+          "statut_role": "rôle suggéré, à vérifier (règle automatique appliquée au titre)"
+        }
+      ],
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7225268424",
+      "doi": "10.1002/elps.70182",
+      "pmid": "42978470",
+      "pmcid": null,
+      "titre": "Exploring Elimination Profiles and Metabolite Patterns of Brinzolamide and Dorzolamide After Transdermal Exposure for Doping Control Purposes",
+      "lien": "https://openalex.org/W7225268424",
+      "date_publication": "2026-11-04",
+      "type": "article",
+      "revue": "Electrophoresis",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "pubmed"
+      ],
+      "financeurs": [
+        {
+          "nom": "World Anti-Doping Agency",
+          "ror": "https://ror.org/00v3jqn19"
+        }
+      ],
+      "subventions": [
+        {
+          "financeur": "World Anti-Doping Agency",
+          "reference": "23C05MT"
+        }
+      ],
+      "institutions": [
+        {
+          "nom": "German Sport University Cologne",
+          "pays": "DE",
+          "type": "education",
+          "ror": "https://ror.org/0189raq88"
+        }
+      ],
+      "acces_ouvert": true,
+      "statut_acces": "hybrid",
+      "url_texte": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/elps.70182",
+      "url_pdf": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/elps.70182",
+      "licence": "cc-by",
+      "texte_integral_indexe": true,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Doping in Sports",
+      "resume_present": true,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": [
+      {
+        "nom": "World Anti-Doping Agency",
+        "statut": "CONFIRMÉ — déclaré dans la notice PubMed (GrantList)",
+        "references": [
+          "23C05MT"
+        ],
+        "notices": [
+          [
+            "notice PubMed",
+            "https://pubmed.ncbi.nlm.nih.gov/42978470/?format=pubmed"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "Manfred Donike Institute for Doping Analysis e.V",
+        "statut": "CONFIRMÉ — déclaré dans la notice PubMed (GrantList)",
+        "references": null,
+        "notices": [
+          [
+            "notice PubMed",
+            "https://pubmed.ncbi.nlm.nih.gov/42978470/?format=pubmed"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "Federal Chancellery of the Federal Republic of Germany",
+        "statut": "CONFIRMÉ — déclaré dans la notice PubMed (GrantList)",
+        "references": null,
+        "notices": [
+          [
+            "notice PubMed",
+            "https://pubmed.ncbi.nlm.nih.gov/42978470/?format=pubmed"
+          ]
+        ],
+        "note": null
+      }
+    ]
+  }
+}

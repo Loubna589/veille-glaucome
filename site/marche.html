@@ -1,0 +1,436 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Autorisations &amp; remboursement — Glaucoma Intelligence</title>
+  <meta name="description" content="Autorisation, avis HAS (SMR, ASMR), remboursement et prix en France, autorisations EMA et approbations FDA des traitements du glaucome : latanoprost, timolol, netarsudil, Roclanda…">
+  <link rel="canonical" href="https://loubna589.github.io/veille-glaucome/marche.html">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="fr_FR">
+  <meta property="og:site_name" content="Veille glaucome">
+  <meta property="og:title" content="Accès au marché des traitements du glaucome">
+  <meta property="og:description" content="France (BDPM, HAS), Union européenne (EMA) et États-Unis (FDA) : autorisations, évaluation, remboursement et prix.">
+  <meta property="og:url" content="https://loubna589.github.io/veille-glaucome/marche.html">
+  <meta name="twitter:card" content="summary">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div id="nav"></div>
+  <main class="page">
+    <header class="hero">
+      <h1>Autorisations &amp; remboursement</h1>
+      <p>Pour chaque molécule suivie : autorisation, évaluation et remboursement dans 7 zones — France (BDPM : ANSM, HAS,
+        Assurance maladie), Union européenne (EMA), États-Unis (FDA), Canada (Santé Canada), Espagne (AEMPS), Italie (AIFA)
+        et Suisse (Swissmedic). Seul ce que la source déclare est affiché, avec sa date et le laboratoire titulaire.</p>
+    </header>
+
+    <form class="filtres filtres--marche" id="filtres" onsubmit="return false">
+      <label>Recherche<input type="search" id="f-texte" placeholder="molécule, médicament, laboratoire…"></label>
+      <label>Laboratoire<select id="f-labo"><option value="">Tous les laboratoires</option></select></label>
+      <fieldset class="zones" id="f-zones"><legend>Pays et zones</legend></fieldset>
+    </form>
+    <p class="sous-titre" id="filtre-info" aria-live="polite"></p>
+
+    <h2 class="titre-section" style="margin-top:0">Dernières nouveautés</h2>
+    <p class="sous-titre" id="nouveautes-info"></p>
+    <div id="nouveautes"></div>
+
+    <h2 class="titre-section">Délais d'accès au marché</h2>
+    <p class="sous-titre">Pour chaque molécule, les étapes dans l'ordre où elles ont eu lieu, avec le nombre de mois entre deux étapes
+      et le laboratoire concerné. Uniquement des dates déclarées par les sources : une étape sans date reste « non déclarée ».</p>
+    <div id="delais"></div>
+
+    <h2 class="titre-section">Tableau par molécule</h2>
+    <div class="encadre" style="margin-bottom:18px">
+      <strong>Comment lire le tableau</strong>
+      <ul>
+        <li><b>Absent d'une source ne veut pas dire « non autorisé ».</b> L'EMA ne liste que les médicaments autorisés
+          par la procédure européenne centralisée ; beaucoup de collyres sont autorisés pays par pays.</li>
+        <li>Un médicament est rattaché à une ligne si ses substances actives sont <b>exactement</b> celles de la ligne
+          (le timolol seul et l'association dorzolamide + timolol sont deux lignes). Usage ophtalmique uniquement.</li>
+        <li><b>Laboratoire</b> : le titulaire de l'autorisation (ou le demandeur) tel que <b>chaque source</b> le déclare —
+          jamais déduit d'une autre source. Les noms sont regroupés (Santen Oy, Santen SA → Santen) ; passez la souris
+          sur un nom pour voir le nom exact et le champ d'origine.</li>
+        <li><b>SMR</b> : service médical rendu (HAS). <b>ASMR</b> : amélioration du service médical rendu, de I (majeure)
+          à V (absence). <b>NDA</b> : médicament de marque ; <b>ANDA</b> : générique (FDA).</li>
+        <li>Prix : prix public d'une boîte, honoraire de dispensation du pharmacien compris (BDPM).</li>
+      </ul>
+    </div>
+    <p class="compteur" id="sources"></p>
+    <div class="tableau-defile">
+      <table class="marche" id="tableau">
+        <thead><tr id="entetes"></tr></thead>
+        <tbody></tbody>
+      </table>
+    </div>
+    <p class="sous-titre mention-titulaire">Titulaire actuel déclaré par la source. Il peut différer du titulaire à la date de l'autorisation (rachats, licences).</p>
+    <h2 class="titre-section">Pays non couverts et pourquoi</h2>
+    <div class="encadre" id="non-couverts"></div>
+
+    <h2 class="titre-section">Détail par molécule</h2>
+    <p class="sous-titre">Chaque médicament trouvé, avec son laboratoire et le lien vers sa notice dans la source.</p>
+    <div id="details"></div>
+  </main>
+  <footer class="pied" id="pied"></footer>
+  <script src="js/app.js"></script>
+  <script>
+    Veille.pret(function () {
+      var V = Veille, M = V.donnees.marche;
+      V.monterNavigation("marche");
+      if (!M) {
+        document.getElementById("tableau").outerHTML =
+          '<p class="vide">Aucune donnée d\'accès au marché : lancez <code>python collecter_marche.py</code> puis ' +
+          '<code>python construire_site.py</code>.</p>';
+        return;
+      }
+      var esc = V.esc, date = V.date;
+      var vide = function (t) { return '<span class="vide">' + esc(t) + "</span>"; };
+      var lien = function (url, texte) {
+        return url ? '<a href="' + esc(url) + '" target="_blank" rel="noopener">' + esc(texte) + " ↗</a>" : esc(texte);
+      };
+      function uniques(liste) { return liste.filter(function (x, i) { return x && liste.indexOf(x) === i; }); }
+      function prix(n) { return n == null ? null : n.toFixed(2).replace(".", ",") + " €"; }
+      var S = M.sources || {};
+
+      /* ---------- Zones (drapeaux) ---------- */
+      var ZONES = [
+        { cle: "france", nom: "France", entete: "France" },
+        { cle: "ue", nom: "Union européenne", entete: "Union européenne (EMA)" },
+        { cle: "usa", nom: "États-Unis", entete: "États-Unis (FDA)" },
+        { cle: "canada", nom: "Canada", entete: "Canada" },
+        { cle: "espagne", nom: "Espagne", entete: "Espagne" },
+        { cle: "italie", nom: "Italie", entete: "Italie" },
+        { cle: "suisse", nom: "Suisse", entete: "Suisse" },
+        { cle: "australie", nom: "Australie", entete: "Australie (PBS)" }
+      ];
+      function pays(nom) { return '<span class="pays">' + V.drapeau(nom) + esc(nom) + "</span>"; }
+      var zonesActives = {};
+      ZONES.forEach(function (z) { zonesActives[z.nom] = true; });
+      document.getElementById("entetes").innerHTML = "<th>Molécule</th>" + ZONES.map(function (z, i) {
+        return '<th class="col-' + z.cle + '">' + V.drapeau(z.nom) + esc(z.entete) + "</th>";
+      }).join("");
+      document.getElementById("f-zones").insertAdjacentHTML("beforeend", ZONES.map(function (z) {
+        return '<button type="button" class="zone" aria-pressed="true" data-zone="' + esc(z.nom) + '">' + V.drapeau(z.nom) + esc(z.nom) + "</button>";
+      }).join(""));
+
+      /* ---------- Laboratoire déclaré par la source ---------- */
+      var NON_DECL = "non déclaré par la source";
+      var filtreLabo = "";
+      function infoLabo(l) {
+        return l && l.declare ? "Nom exact déclaré : " + l.declare + " — champ : " + l.champ
+          : "Aucun laboratoire déclaré" + (l && l.champ ? " (champ attendu : " + l.champ + ")" : "");
+      }
+      var MENTION = "Titulaire actuel déclaré par la source. Il peut différer du titulaire à la date de l'autorisation (rachats, licences).";
+      function labo(l, note) {
+        var titre = infoLabo(l) + (note ? "\n" + note : "");
+        if (!l || !l.declare) return '<span class="labo-nom labo-nom--vide" title="' + esc(titre) + '">' + NON_DECL + "</span>";
+        return '<span class="labo-nom' + (l.groupe === filtreLabo ? " actif" : "") + '" title="' + esc(titre) + '">' + esc(l.groupe) + "</span>";
+      }
+      /* Plusieurs produits : laboratoires distincts, les plus fréquents d'abord (le laboratoire filtré en tête) */
+      function labos(liste, max) {
+        var g = {};
+        liste.forEach(function (x) {
+          var l = x.laboratoire || x, k = l && l.declare ? l.groupe : NON_DECL;
+          g[k] = g[k] || { n: 0, exacts: [] };
+          g[k].n++;
+          if (l && l.declare && g[k].exacts.indexOf(l.declare) < 0) g[k].exacts.push(l.declare);
+        });
+        var cles = Object.keys(g).sort(function (a, b) {
+          return (b === filtreLabo) - (a === filtreLabo) || g[b].n - g[a].n || a.localeCompare(b);
+        });
+        if (!cles.length) return vide(NON_DECL);
+        max = max || 3;
+        var rendu = cles.slice(0, max).map(function (k) {
+          return '<span class="labo-nom' + (k === filtreLabo ? " actif" : "") + (k === NON_DECL ? " labo-nom--vide" : "") +
+            '" title="' + esc(g[k].exacts.length ? "Nom(s) exact(s) déclaré(s) : " + g[k].exacts.join(" · ") : "Aucun laboratoire déclaré par la source") + '">' +
+            esc(k) + (g[k].n > 1 ? " ×" + g[k].n : "") + "</span>";
+        }).join(", ");
+        var reste = cles.slice(max);
+        return rendu + (reste.length ? ' <small title="' + esc(reste.join(", ")) + '">+ ' + reste.length + " autre(s)</small>" : "");
+      }
+      function aLabo(liste) {
+        return !filtreLabo || liste.some(function (x) { return (x.laboratoire || x).groupe === filtreLabo; });
+      }
+      var sel = document.getElementById("f-labo");
+      (M.laboratoires || []).forEach(function (g) {
+        var o = document.createElement("option");
+        o.value = g.groupe;
+        o.textContent = g.groupe + " (" + g.produits + " produit" + (g.produits > 1 ? "s" : "") + ")";
+        o.title = "Noms déclarés : " + g.variantes.join(" · ");
+        sel.appendChild(o);
+      });
+
+      /* ---------- Sources et dates ---------- */
+      document.getElementById("sources").innerHTML = Object.keys(S).map(function (c) {
+        var s = S[c] || {};
+        return '<span class="badge ' + (s.ok ? "ok" : "ver") + '">' + esc(s.nom || c) + " · " +
+          (s.ok ? "téléchargé le " + esc(date(s.telecharge_le)) : "n'a pas répondu" + (s.telecharge_le ? ", données du " + esc(date(s.telecharge_le)) : "")) + "</span>";
+      }).join(" ") + " <small>Collecte du " + esc(date(M.collecte_le)) + "</small>";
+
+      /* ---------- Dernières nouveautés : chaque événement daté, avec son laboratoire ---------- */
+      var evs = [];
+      (function () {
+        var vus = {};
+        Object.keys(M.molecules).forEach(function (mol) {
+          var m = M.molecules[mol];
+          function ev(d, p, type, quoi, l, x) { evs.push({ date: d, pays: p, type: type, quoi: quoi, lien: l, mol: mol, labo: x.laboratoire }); }
+          (m.france || []).forEach(function (s) {
+            if (s.date_amm) ev(s.date_amm, "France", "Autorisation de mise sur le marché (AMM)", s.nom, s.lien, s);
+            [].concat((s.smr || []).slice(0, 1), (s.asmr || []).slice(0, 1)).forEach(function (a) {
+              var cle = a.code_dossier + "|" + s.cis + "|" + a.valeur;
+              if (!a.date || vus[cle]) return; vus[cle] = 1;
+              ev(a.date, "France", "Avis HAS : " + ((s.smr || [])[0] === a ? "SMR " : "ASMR ") + a.valeur, s.nom, a.lien,
+                { laboratoire: s.laboratoire && s.laboratoire.declare ? Object.assign({}, s.laboratoire, { champ: "BDPM — titulaire de la spécialité évaluée" }) : s.laboratoire });
+            });
+          });
+          (m.ue || []).forEach(function (x) {
+            if (x.date_autorisation) ev(x.date_autorisation, "Union européenne", "Autorisation EMA", x.nom, x.lien, x);
+            if (x.date_retrait) ev(x.date_retrait, "Union européenne", "Retrait EMA", x.nom, x.lien, x);
+          });
+          (m.usa || []).forEach(function (x) {
+            if (x.date_approbation) ev(x.date_approbation, "États-Unis", "Approbation FDA — " + (/^ANDA/.test(x.numero) ? "générique" : "marque"),
+              x.marques.join(", ") || x.numero, x.lien, x);
+          });
+          (m.espagne || []).forEach(function (x) { if (x.date_autorisation) ev(x.date_autorisation, "Espagne", "Autorisation AEMPS", x.nom, x.lien, x); });
+          (m.suisse || []).forEach(function (x) { if (x.date_autorisation) ev(x.date_autorisation, "Suisse", "Autorisation Swissmedic", x.nom, null, x); });
+          (m.australie || []).forEach(function (x) { if (x.date_inscription) ev(x.date_inscription, "Australie", "Inscription au PBS", x.nom, x.lien, x); });
+          (m.canada || []).forEach(function (x) { if (x.date_commercialisation) ev(x.date_commercialisation, "Canada", "1re commercialisation", x.nom, x.lien, x); });
+        });
+        evs.sort(function (a, b) { return a.date < b.date ? 1 : -1; });
+      })();
+      function nouveautes() {
+        var liste = evs.filter(function (e) { return zonesActives[e.pays] && (!filtreLabo || (e.labo && e.labo.groupe === filtreLabo)); });
+        var collecte = M.collecte_le, recent = liste[0];
+        var jours = recent ? Math.round((new Date(collecte) - new Date(recent.date)) / 86400000) : null;
+        document.getElementById("nouveautes-info").innerHTML = "Dernière vérification des sources : <strong>" + esc(date(collecte)) + "</strong>" +
+          (recent ? " · événement le plus récent" + (filtreLabo ? " pour " + esc(filtreLabo) : "") + " : <strong>" + esc(date(recent.date)) + "</strong>" : "") + ".";
+        var alerte = !recent ? '<div class="encadre"><p class="vide">Aucun événement daté' + (filtreLabo ? " pour ce laboratoire" : "") + ".</p></div>" :
+          jours > 90 ? '<div class="aide" style="grid-template-columns:1fr;margin:0 0 14px"><div><strong>Rien de récent :</strong> aucune nouvelle autorisation ni aucun nouvel avis depuis ' +
+            jours + " jours (dernier événement le " + esc(date(recent.date)) + ", vérifié le " + esc(date(collecte)) + "). Voici les 12 plus récents.</div></div>" : "";
+        document.getElementById("nouveautes").innerHTML = alerte + (liste.length ? '<div class="tableau-defile"><table class="marche"><thead><tr><th>Date</th><th>Pays</th><th>Événement</th><th>Médicament</th><th>Laboratoire</th><th>Molécule</th></tr></thead><tbody>' +
+          liste.slice(0, 12).map(function (e) {
+            return "<tr><td><strong>" + esc(date(e.date)) + "</strong></td><td>" + pays(e.pays) + '</td><td><span class="badge">' + esc(e.type) + "</span></td><td>" +
+              lien(e.lien, e.quoi) + "</td><td>" + labo(e.labo) + "</td><td>" + esc(e.mol) + "</td></tr>";
+          }).join("") + "</tbody></table></div>" : "");
+      }
+
+      /* ---------- Résumés pour le tableau ---------- */
+      function ligneLabos(liste) { return "<dt>Labo.</dt><dd>" + labos(liste) + "</dd>"; }
+      function france(specs) {
+        if (!specs.length) return vide("Absente de la BDPM (aucune spécialité ophtalmique)");
+        var actives = specs.filter(function (s) { return s.statut_amm === "Autorisation active"; });
+        var commerc = specs.filter(function (s) { return s.commercialisation === "Commercialisée"; });
+        var dates = specs.map(function (s) { return s.date_amm; }).filter(Boolean).sort();
+        var derniersSmr = specs.map(function (s) { return s.smr[0]; }).filter(Boolean);
+        var derniersAsmr = specs.map(function (s) { return s.asmr[0]; }).filter(Boolean);
+        var pres = [].concat.apply([], specs.map(function (s) { return s.presentations; }))
+          .filter(function (p) { return p.statut === "Présentation active"; });
+        var taux = uniques(pres.map(function (p) { return p.taux_remboursement; }));
+        var prixListe = pres.map(function (p) { return p.prix; }).filter(function (x) { return x != null; }).sort(function (a, b) { return a - b; });
+        function compte(avis) {
+          var c = {};
+          avis.forEach(function (a) { c[a.valeur] = (c[a.valeur] || 0) + 1; });
+          return Object.keys(c).map(function (k) { return esc(k) + (c[k] > 1 ? " ×" + c[k] : ""); }).join(", ");
+        }
+        return '<dl class="cellule">' +
+          "<dt>AMM</dt><dd>" + actives.length + " spécialité(s) active(s), " + commerc.length + " commercialisée(s)" +
+          (dates.length ? "<br><small>1re AMM : " + esc(date(dates[0])) + "</small>" : "") + "</dd>" + ligneLabos(specs) +
+          "<dt>SMR</dt><dd>" + (derniersSmr.length ? compte(derniersSmr) + "<br><small>dernier avis : " +
+            esc(date(derniersSmr.map(function (a) { return a.date; }).sort().pop())) + "</small>" : vide("aucun avis")) + "</dd>" +
+          "<dt>ASMR</dt><dd>" + (derniersAsmr.length ? compte(derniersAsmr) : vide("aucun avis")) + "</dd>" +
+          "<dt>Remb.</dt><dd>" + (taux.length ? esc(taux.join(" · ")) : vide("non renseigné")) + "</dd>" +
+          "<dt>Prix</dt><dd>" + (prixListe.length ? esc(prix(prixListe[0])) + (prixListe.length > 1 && prixListe[prixListe.length - 1] !== prixListe[0]
+            ? " à " + esc(prix(prixListe[prixListe.length - 1])) : "") : vide("non renseigné")) + "</dd></dl>";
+      }
+      /* Statuts EMA traduits ; le terme d'origine reste visible au survol */
+      var STATUTS = { "Authorised": "Autorisé", "Withdrawn": "Retiré", "Application withdrawn": "Demande retirée",
+        "Refused": "Refusé", "Suspended": "Suspendu", "Not renewed": "Non renouvelé", "Lapsed": "Caduc", "Opinion": "Avis rendu" };
+      function statutEma(s) {
+        return s ? '<span title="EMA : ' + esc(s) + '">' + esc(STATUTS[s] || s) + "</span>" : "statut non renseigné";
+      }
+      function ue(meds) {
+        if (!meds.length) return vide("Pas d'autorisation centralisée EMA (peut être autorisée pays par pays)");
+        return "<ul class=\"cellule-liste\">" + meds.map(function (m) {
+          return "<li><b>" + lien(m.lien, m.nom) + "</b>" + (m.generique ? ' <span class="badge">générique</span>' : "") +
+            "<br><small>" + labo(m.laboratoire) + " · " + (m.statut === "Authorised" && m.date_autorisation
+              ? '<span title="EMA : Authorised">autorisé le ' + esc(date(m.date_autorisation)) + "</span>"
+              : statutEma(m.statut) + (m.date_autorisation ? " · autorisé le " + esc(date(m.date_autorisation)) : "")) +
+            (m.date_retrait ? " · retrait le " + esc(date(m.date_retrait)) : "") + "</small></li>";
+        }).join("") + "</ul>";
+      }
+      function usa(dem) {
+        if (!dem.length) return vide("Aucune demande trouvée dans Drugs@FDA");
+        var nda = dem.filter(function (d) { return /^NDA/.test(d.numero); });
+        var anda = dem.filter(function (d) { return /^ANDA/.test(d.numero) && d.date_approbation; });
+        var premiere = nda.filter(function (d) { return d.date_approbation; })[0];
+        return '<dl class="cellule">' +
+          "<dt>1re marque</dt><dd>" + (premiere ? "<b>" + lien(premiere.lien, premiere.marques.join(", ") || premiere.numero) + "</b><br><small>" +
+            labo(premiere.laboratoire) + " · approuvé le " + esc(date(premiere.date_approbation)) + "</small>" : vide("aucune NDA approuvée")) + "</dd>" +
+          "<dt>Marques</dt><dd>" + nda.length + " NDA</dd>" +
+          "<dt>Génériques</dt><dd>" + anda.length + " ANDA approuvée(s)</dd>" + ligneLabos(dem) + "</dl>";
+      }
+      function premiere(liste, champ) {
+        return liste.map(function (x) { return x[champ]; }).filter(Boolean).sort()[0];
+      }
+      function cellulePays(liste, champDate, libelleDate, absent) {
+        if (!liste.length) return vide(absent);
+        var d = premiere(liste, champDate);
+        return '<dl class="cellule"><dt>Produits</dt><dd>' + liste.length + "</dd>" +
+          (d ? "<dt>" + esc(libelleDate) + "</dt><dd>" + esc(date(d)) + "</dd>" : "") + ligneLabos(liste) + "</dl>";
+      }
+      function celluleItalie(liste) {
+        if (!liste.length) return vide("Absente des listes A/H de l'AIFA");
+        var a = liste.filter(function (x) { return x.classe === "A"; }), px = a.map(function (x) { return x.prix; }).filter(function (x) { return x != null; }).sort(function (x, y) { return x - y; });
+        return '<dl class="cellule"><dt>Classe A</dt><dd>' + a.length + " (remboursé)</dd><dt>Classe H</dt><dd>" + (liste.length - a.length) + "</dd>" +
+          (px.length ? "<dt>Prix</dt><dd>" + esc(prix(px[0])) + (px.length > 1 && px[px.length - 1] !== px[0] ? " à " + esc(prix(px[px.length - 1])) : "") + "</dd>" : "") +
+          ligneLabos(liste) + "</dl>";
+      }
+
+      /* ---------- Détail par molécule ---------- */
+      function sousTitre(nom, source) { return '<h3 style="margin:12px 0 6px">' + pays(nom) + " — " + esc(source) + "</h3>"; }
+      function detail(nom, m) {
+        var fr = (m.france || []).map(function (s) {
+          var smr = s.smr[0], asmr = s.asmr[0];
+          var pres = s.presentations.filter(function (p) { return p.statut === "Présentation active"; });
+          return "<tr><td>" + lien(s.lien, s.nom) + "</td><td>" + labo(s.laboratoire) + "</td>" +
+            "<td>" + esc(s.statut_amm || "?") + "<br><small>" + esc(s.procedure || "") + " · " + esc(date(s.date_amm)) +
+            (s.commercialisation ? " · " + esc(s.commercialisation) : "") + "</small></td>" +
+            "<td>" + (smr ? "<b>" + esc(smr.valeur) + "</b> " + lien(smr.lien, "avis du " + date(smr.date)) : vide("aucun")) + "</td>" +
+            "<td>" + (asmr ? "<b>" + esc(asmr.valeur) + "</b> " + lien(asmr.lien, "avis du " + date(asmr.date)) : vide("aucun")) + "</td>" +
+            "<td>" + (pres.length ? pres.map(function (p) {
+              return esc(p.taux_remboursement || "non remboursé ou non renseigné") + (p.prix != null ? " · " + esc(prix(p.prix)) : "");
+            }).join("<br>") : vide("aucune présentation active")) + "</td></tr>";
+        }).join("");
+        var eu = (m.ue || []).map(function (x) {
+          return "<li>" + lien(x.lien, x.nom) + " — " + labo(x.laboratoire) + " · " + statutEma(x.statut) +
+            (x.date_autorisation ? " · autorisé le " + esc(date(x.date_autorisation)) : "") +
+            (x.date_avis_chmp ? " (avis CHMP du " + esc(date(x.date_avis_chmp)) + ")" : "") + "</li>";
+        }).join("");
+        var us = (m.usa || []).map(function (x) {
+          return "<li>" + lien(x.lien, (x.marques.join(", ") || x.numero)) + " — " + esc(x.numero) + " · " + esc(x.type) + " · " +
+            labo(x.laboratoire) + " · " + (x.date_approbation ? "approuvé le " + esc(date(x.date_approbation)) : "pas d'approbation originale (AP)") +
+            (x.statuts_commerciaux.length ? " · " + esc(x.statuts_commerciaux.join(", ")) : "") + "</li>";
+        }).join("");
+        var z = zonesActives;
+        return '<details class="labo" id="m-' + esc(V.norm(nom).replace(/[^a-z0-9]+/g, "-")) + '"><summary><h2 style="display:inline">' + esc(nom) + "</h2> <small>" +
+          (m.france || []).length + " en France · " + (m.ue || []).length + " EMA · " + (m.usa || []).length + " FDA</small></summary>" +
+          (z["France"] ? sousTitre("France", "BDPM") + (fr ? '<div class="tableau-defile"><table class="marche petit"><thead><tr><th>Spécialité</th><th>Laboratoire (titulaire)</th><th>AMM</th><th>SMR (dernier)</th><th>ASMR (dernier)</th><th>Remboursement · prix</th></tr></thead><tbody>' + fr + "</tbody></table></div>" : '<p class="vide">Aucune spécialité ophtalmique dans la BDPM.</p>') : "") +
+          (z["Union européenne"] ? sousTitre("Union européenne", "EMA") + (eu ? "<ul>" + eu + "</ul>" : '<p class="vide">Aucun médicament en procédure centralisée.</p>') : "") +
+          (z["États-Unis"] ? sousTitre("États-Unis", "FDA") + (us ? "<ul>" + us + "</ul>" : '<p class="vide">Aucune demande trouvée.</p>') : "") +
+          detailPays(m) + "</details>";
+      }
+      function detailPays(m) {
+        function liste(nom, source, elements, rendu, absent) {
+          if (!zonesActives[nom]) return "";
+          return sousTitre(nom, source) + (elements.length ? "<ul>" + elements.map(rendu).join("") + "</ul>" : '<p class="vide">' + absent + "</p>");
+        }
+        return liste("Canada", "Santé Canada (DPD)", m.canada || [], function (x) {
+            return "<li>" + lien(x.lien, x.nom) + " — DIN " + esc(x.din) + " · " + labo(x.laboratoire) + " · " + esc(x.statut) +
+              (x.date_commercialisation ? " · 1re commercialisation le " + esc(date(x.date_commercialisation)) : "") + "</li>"; }, "Aucun produit ophtalmique dans la DPD.") +
+          liste("Espagne", "AEMPS (CIMA)", m.espagne || [], function (x) {
+            return "<li>" + lien(x.lien, x.nom) + " — " + labo(x.laboratoire) + (x.date_autorisation ? " · autorisé le " + esc(date(x.date_autorisation)) : "") +
+              (x.commercialise ? " · commercialisé" : " · non commercialisé") + (x.generique ? " · générique" : "") + "</li>"; }, "Aucun médicament ophtalmique dans CIMA.") +
+          liste("Italie", "AIFA (listes A et H)", m.italie || [], function (x) {
+            return "<li>" + esc(x.nom) + " — " + labo(x.laboratoire) + " · " + esc(x.remboursement) + (x.prix != null ? " · " + esc(prix(x.prix)) : "") +
+              " <small>(liste du " + esc(date(x.date_liste)) + ")</small></li>"; }, "Absente des listes de remboursement.") +
+          liste("Suisse", "Swissmedic", m.suisse || [], function (x) {
+            return "<li>" + esc(x.nom) + " — " + labo(x.laboratoire) + (x.date_autorisation ? " · 1re autorisation le " + esc(date(x.date_autorisation)) : "") +
+              " · ATC " + esc(x.atc) + "</li>"; }, "Aucun médicament antiglaucomateux autorisé.") +
+          liste("Australie", "PBS (remboursement)", m.australie || [], function (x) {
+            return "<li>" + lien(x.lien, x.nom) + " — " + esc(x.medicament) + " · " + labo(x.laboratoire) + (x.date_inscription ? " · inscrit le " + esc(date(x.date_inscription)) : "") + "</li>"; },
+            S.australie && S.australie.ok ? "Absente du PBS." : "Non collectée : clé PBS non configurée (voir .env.example).");
+      }
+
+      /* ---------- Pays non couverts ---------- */
+      document.getElementById("non-couverts").innerHTML = (M.non_couverts || []).length
+        ? "<p>Ces pays ont été étudiés, mais aucune source <strong>gratuite, ouverte et lisible par un programme</strong> ne permet de les suivre sans scraping fragile ni accord préalable :</p><ul>" +
+          M.non_couverts.map(function (p) { return "<li><strong>" + pays(p.pays) + "</strong> (" + esc(p.sources) + ") — " + esc(p.raison) + "</li>"; }).join("") + "</ul>"
+        : '<p class="vide">Liste indisponible.</p>';
+
+      /* ---------- Délais d'accès au marché ---------- */
+      var D = null;
+      function frise() {
+        if (!D) return;
+        document.getElementById("delais").innerHTML = Object.keys(D).map(function (nom) {
+          var f = D[nom];
+          if (!f.datees.length) return "";
+          if (filtreLabo && !f.datees.concat(f.non_datees).some(function (e) {
+            return (e.laboratoire && e.laboratoire.groupe === filtreLabo) || (e.laboratoires || []).some(function (l) { return l.groupe === filtreLabo; });
+          })) return "";
+          var chips = f.datees.map(function (e, i) {
+            var estompe = !zonesActives[e.pays] || (filtreLabo && !(e.laboratoire && e.laboratoire.groupe === filtreLabo));
+            return (i ? '<span class="frise__fleche">' + (e.mois_depuis_precedente != null ? "+" + e.mois_depuis_precedente + " mois" : "") + "</span>" : "") +
+              '<span class="frise__etape' + (estompe ? " estompe" : "") + '" title="' + esc(MENTION) + '"><b>' + pays(e.pays) + "</b><span>" + esc(e.libelle) + "</span><strong>" + esc(date(e.date)) + "</strong>" +
+              (e.detail ? "<small>" + esc(e.detail) + "</small>" : "") + "<small>" + labo(e.laboratoire, MENTION) + "</small></span>";
+          }).join("");
+          var manquantes = f.non_datees.filter(function (e) { return zonesActives[e.pays]; }).map(function (e) {
+            return '<span class="badge badge--etape" title="' + esc(e.detail || "") + '">' + V.drapeau(e.pays) + esc(e.pays + " — " + e.libelle) + " : " +
+              (e.detail ? esc(e.detail.split(" (")[0]) + ", sans date dans la source" : "pas de date dans la source") +
+              // laboratoire seulement si l'étape existe (sinon il n'y a rien à attribuer)
+              (!e.detail ? "" : e.laboratoires ? " · " + (e.laboratoires.length ? labos(e.laboratoires, 4) : NON_DECL)
+                : (e.laboratoire !== undefined ? " · " + labo(e.laboratoire) : "")) + "</span>";
+          }).join("");
+          return '<section class="labo"><h2 style="font-size:1.02rem">' + esc(nom) + (f.duree_totale_mois != null ? ' <span class="badge reg">' + f.duree_totale_mois + " mois entre la 1re et la dernière étape</span>" : "") +
+            '</h2><div class="frise">' + chips + "</div>" + (manquantes ? '<div class="etapes-sans-date">' + manquantes + "</div>" : "") + "</section>";
+        }).join("") || '<p class="vide">Aucune frise pour ce laboratoire.</p>';
+      }
+      V.charger(["delais.json"]).then(function (r) { D = r[0]; frise(); })
+        .catch(function () { document.getElementById("delais").innerHTML = '<p class="vide">Frise indisponible.</p>'; });
+
+      /* ---------- Filtres ---------- */
+      function texteRecherche(nom, m) {
+        var morceaux = [nom];
+        ZONES.forEach(function (z) {
+          (m[z.cle] || []).forEach(function (x) {
+            var l = x.laboratoire || {};
+            morceaux.push((x.nom || "") + " " + (x.marques || []).join(" ") + " " + (l.declare || "") + " " + (l.groupe || ""));
+          });
+        });
+        return V.norm(morceaux.join(" "));
+      }
+      function afficher() {
+        var t = V.norm(document.getElementById("f-texte").value);
+        filtreLabo = sel.value;
+        var noms = Object.keys(M.molecules).filter(function (n) {
+          var m = M.molecules[n];
+          return (!t || texteRecherche(n, m).indexOf(t) >= 0) &&
+            (!filtreLabo || ZONES.some(function (z) { return zonesActives[z.nom] && aLabo(m[z.cle] || []) && (m[z.cle] || []).length; }));
+        });
+        document.querySelector("#tableau tbody").innerHTML = noms.map(function (n) {
+          var m = M.molecules[n];
+          return '<tr><th scope="row"><a href="#m-' + esc(V.norm(n).replace(/[^a-z0-9]+/g, "-")) + '">' + esc(n) + "</a></th>" +
+            '<td class="col-france">' + france(m.france || []) + '</td><td class="col-ue">' + ue(m.ue || []) + '</td><td class="col-usa">' + usa(m.usa || []) + "</td>" +
+            '<td class="col-canada">' + cellulePays(m.canada || [], "date_commercialisation", "1re commerc.", "Absente de la DPD") + "</td>" +
+            '<td class="col-espagne">' + cellulePays(m.espagne || [], "date_autorisation", "1re autorisation", "Absente de CIMA") + "</td>" +
+            '<td class="col-italie">' + celluleItalie(m.italie || []) + "</td>" +
+            '<td class="col-suisse">' + cellulePays(m.suisse || [], "date_autorisation", "1re autorisation", "Absente de la liste Swissmedic") + "</td>" +
+            '<td class="col-australie">' + (S.australie && S.australie.ok ? cellulePays(m.australie || [], "date_inscription", "1re inscription", "Absente du PBS")
+              : vide("Clé PBS non configurée")) + "</td></tr>";
+        }).join("") || '<tr><td colspan="9" class="vide">Aucune molécule ne correspond.</td></tr>';
+        // Colonnes des zones décochées masquées
+        ZONES.forEach(function (z) {
+          document.querySelectorAll("#tableau .col-" + z.cle).forEach(function (c) { c.hidden = !zonesActives[z.nom]; });
+        });
+        document.getElementById("details").innerHTML = noms.map(function (n) { return detail(n, M.molecules[n]); }).join("");
+        var g = (M.laboratoires || []).filter(function (x) { return x.groupe === filtreLabo; })[0];
+        document.getElementById("filtre-info").innerHTML = g ? "<strong>" + esc(g.groupe) + "</strong> : " + g.produits + " produit(s), " +
+          g.molecules.length + " molécule(s) · noms déclarés par les sources : " + esc(g.variantes.join(" · ")) : "";
+        nouveautes();
+        frise();
+      }
+      document.getElementById("filtres").addEventListener("input", afficher);
+      document.getElementById("f-zones").addEventListener("click", function (e) {
+        var b = e.target.closest(".zone");
+        if (!b) return;
+        var actif = b.getAttribute("aria-pressed") !== "true";
+        b.setAttribute("aria-pressed", String(actif));
+        zonesActives[b.getAttribute("data-zone")] = actif;
+        afficher();
+      });
+      if (V.param && V.param("labo")) sel.value = V.param("labo");
+      afficher();
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,276 @@
+{
+  "pmid": "42815706",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42815706",
+    "titre": "Knocking down FSTL1 reduces TGF-β2-induced trabecular meshwork fibrosis and ocular hypertension via inhibition of the Smad3 signaling pathway.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42815706/",
+    "doi": "10.1016/j.exer.2026.111260",
+    "pmcid": null,
+    "revue": "Experimental eye research",
+    "date_entree_pubmed": "2026-09-30",
+    "date_publication": "2026-Dec",
+    "types_publication": [
+      "Journal Article"
+    ],
+    "resume_present": true,
+    "resume": "BACKGROUND: Excessive accumulation of extracellular matrix (ECM) in the trabecular meshwork (TM) increases aqueous humor outflow resistance, leading to elevated intraocular pressure (IOP) and the development of primary open-angle glaucoma (POAG). Transforming growth factor-β2 (TGF-β2) is a well-established profibrotic mediator implicated in TM fibrosis. Despite its recognized role in promoting ECM deposition, the downstream regulatory mechanisms remain incompletely understood. Follistatin-like 1 (FSTL1), a secreted glycoprotein involved in various fibrotic diseases, has recently drawn attention, yet its role in TM fibrosis and IOP regulation in POAG remains unclear.\nMETHODS: TGF-β2-induced human trabecular meshwork (HTM) cells and a murine model of TGF-β2-induced ocular hypertension were employed. Proteomic analysis, Western blotting, quantitative real-time PCR, and immunofluorescence were used to assess ECM expression and TGF-β2/Smad3 signaling. Loss-of-function approaches were applied to examine the role of FSTL1 in trabecular meshwork fibrosis and intraocular pressure regulation.\nRESULTS: FSTL1 was induced by TGF-β2 and associated with enhanced ECM accumulation and Smad3 activation in HTM cells. Silencing FSTL1 reduced TGF-β2 induced ECM deposition and p-Smad3 accumulation in vitro, and intraocular FSTL1 knockdown mitigated TM fibrosis and lowered TGF-β2-induced ocular hypertension in mice.\nCONCLUSION: These findings identify FSTL1 as an important regulator of TGF-β2-induced TM fibrosis. FSTL1 contributes to ECM accumulation and IOP elevation with Smad3 signaling under profibrotic conditions. Targeting FSTL1 may represent a potential therapeutic strategy for limiting TM fibrosis and IOP elevation in POAG.",
+    "mots_cles_auteurs": [
+      "Extracellular matrix remodeling",
+      "FSTL1",
+      "Primary open-angle glaucoma",
+      "Smad3 signaling",
+      "TGF-β2",
+      "Trabecular meshwork"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 6,
+    "affiliations_auteurs": [
+      "Department of Ophthalmology, Ninth People's Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, China; Shanghai Key Laboratory of Orbital Diseases and Ocular Oncology, Shanghai, China; Bengbu Medical University, Bengbu, China.",
+      "Department of Ophthalmology, Ninth People's Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, China; Shanghai Key Laboratory of Orbital Diseases and Ocular Oncology, Shanghai, China.",
+      "Department of Ophthalmology, Ninth People's Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, China; Shanghai Key Laboratory of Orbital Diseases and Ocular Oncology, Shanghai, China. Electronic address: Sunhao6666@126.com.",
+      "Department of Ophthalmology, Ninth People's Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, China; Shanghai Key Laboratory of Orbital Diseases and Ocular Oncology, Shanghai, China. Electronic address: guotao9@hotmail.com."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": [
+      "Trabecular Meshwork",
+      "Follistatin-Related Proteins",
+      "Animals",
+      "Smad3 Protein",
+      "Transforming Growth Factor beta2",
+      "Humans",
+      "Fibrosis",
+      "Ocular Hypertension",
+      "Mice",
+      "Signal Transduction",
+      "Blotting, Western",
+      "Disease Models, Animal",
+      "Intraocular Pressure",
+      "Mice, Inbred C57BL",
+      "Real-Time Polymerase Chain Reaction",
+      "Cells, Cultured",
+      "Gene Knockdown Techniques",
+      "Gene Expression Regulation",
+      "Male"
+    ]
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Préclinique",
+      "stade_source": "indexation MeSH de PubMed (modèle animal / animaux sans humains)",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7214898127",
+      "doi": "10.1016/j.exer.2026.111260",
+      "pmid": "42815706",
+      "pmcid": null,
+      "titre": "Knocking down FSTL1 reduces TGF-β2–induced trabecular meshwork fibrosis and ocular hypertension via inhibition of the Smad3 signaling pathway",
+      "lien": "https://openalex.org/W7214898127",
+      "date_publication": "2026-09-30",
+      "type": "article",
+      "revue": "Experimental Eye Research",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "pubmed"
+      ],
+      "financeurs": [
+        {
+          "nom": "National Natural Science Foundation of China",
+          "ror": "https://ror.org/01h0zpd94"
+        },
+        {
+          "nom": "Ministry of Science and Technology of the People's Republic of China",
+          "ror": "https://ror.org/027s68j25"
+        },
+        {
+          "nom": "School of Medicine, Shanghai Jiao Tong University",
+          "ror": "https://ror.org/0220qvk04"
+        },
+        {
+          "nom": "National Key Research and Development Program of China",
+          "ror": null
+        }
+      ],
+      "subventions": [
+        {
+          "financeur": "National Natural Science Foundation of China",
+          "reference": "82371102"
+        },
+        {
+          "financeur": "National Key Research and Development Program of China",
+          "reference": "2024YFC2510900"
+        },
+        {
+          "financeur": "National Natural Science Foundation of China",
+          "reference": "82371054"
+        },
+        {
+          "financeur": "National Key Research and Development Program of China",
+          "reference": "2024YFC2510901"
+        },
+        {
+          "financeur": "National Natural Science Foundation of China",
+          "reference": "82571204"
+        },
+        {
+          "financeur": "School of Medicine, Shanghai Jiao Tong University",
+          "reference": "CCTS-202404"
+        }
+      ],
+      "institutions": [
+        {
+          "nom": "Bengbu Medical College",
+          "pays": "CN",
+          "type": "education",
+          "ror": "https://ror.org/01f8qvj05"
+        },
+        {
+          "nom": "Shanghai Jiao Tong University",
+          "pays": "CN",
+          "type": "education",
+          "ror": "https://ror.org/0220qvk04"
+        },
+        {
+          "nom": "Shanghai Ninth People's Hospital",
+          "pays": "CN",
+          "type": "healthcare",
+          "ror": "https://ror.org/010826a91"
+        }
+      ],
+      "acces_ouvert": false,
+      "statut_acces": "closed",
+      "url_texte": null,
+      "url_pdf": null,
+      "licence": null,
+      "texte_integral_indexe": false,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Glaucoma and retinal disorders",
+      "resume_present": false,
+      "mesh": [
+        "Animals",
+        "Cells, Cultured",
+        "Disease Models, Animal",
+        "Fibrosis",
+        "Gene Expression Regulation",
+        "Humans",
+        "Intraocular Pressure",
+        "Male",
+        "Mice, Inbred C57BL",
+        "Ocular Hypertension",
+        "Trabecular Meshwork",
+        "Blotting, Western",
+        "Signal Transduction",
+        "Follistatin-Related Proteins",
+        "Mice",
+        "Smad3 Protein",
+        "Transforming Growth Factor beta2",
+        "Gene Knockdown Techniques",
+        "Real-Time Polymerase Chain Reaction"
+      ]
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": [
+      {
+        "nom": "National Natural Science Foundation of China",
+        "statut": "CONFIRMÉ — déclaré par l'éditeur dans Crossref",
+        "references": [
+          "82371102",
+          "82371054",
+          "82571204"
+        ],
+        "notices": [
+          [
+            "notice justificative Crossref (déclaration de l'éditeur)",
+            "https://api.crossref.org/works/10.1016/j.exer.2026.111260"
+          ],
+          [
+            "notice OpenAlex",
+            "https://api.openalex.org/works/W7214898127"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "Ministry of Science and Technology of the People's Republic of China",
+        "statut": "CONFIRMÉ — déclaré par l'éditeur dans Crossref",
+        "references": null,
+        "notices": [
+          [
+            "notice justificative Crossref (déclaration de l'éditeur)",
+            "https://api.crossref.org/works/10.1016/j.exer.2026.111260"
+          ],
+          [
+            "notice OpenAlex",
+            "https://api.openalex.org/works/W7214898127"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "School of Medicine, Shanghai Jiao Tong University",
+        "statut": "À VÉRIFIER — trouvé par OpenAlex seulement (absent de la déclaration de l'éditeur dans Crossref) ; à contrôler dans le texte de l'article",
+        "references": [
+          "CCTS-202404"
+        ],
+        "notices": [
+          [
+            "notice OpenAlex",
+            "https://api.openalex.org/works/W7214898127"
+          ],
+          [
+            "notice Crossref consultée (ne confirme pas ce financeur)",
+            "https://api.crossref.org/works/10.1016/j.exer.2026.111260"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "National Key Research and Development Program of China",
+        "statut": "CONFIRMÉ — déclaré par l'éditeur dans Crossref",
+        "references": [
+          "2024YFC2510900",
+          "2024YFC2510901"
+        ],
+        "notices": [
+          [
+            "notice justificative Crossref (déclaration de l'éditeur)",
+            "https://api.crossref.org/works/10.1016/j.exer.2026.111260"
+          ],
+          [
+            "notice OpenAlex",
+            "https://api.openalex.org/works/W7214898127"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "Shanghai Jiao Tong University School of Medicine",
+        "statut": "CONFIRMÉ — déclaré par l'éditeur dans Crossref (absent d'OpenAlex)",
+        "references": [
+          "CCTS-202404"
+        ],
+        "notices": [
+          [
+            "notice justificative Crossref (déclaration de l'éditeur)",
+            "https://api.crossref.org/works/10.1016/j.exer.2026.111260"
+          ]
+        ],
+        "note": null
+      }
+    ]
+  }
+}

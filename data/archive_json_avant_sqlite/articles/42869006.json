@@ -1,0 +1,126 @@
+{
+  "pmid": "42869006",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42869006",
+    "titre": "Trabeculectomy versus Transscleral Cyclophotocoagulation as a Primary Surgical Procedure in Glaucoma: A Multicenter Randomized Controlled Trial.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42869006/",
+    "doi": "10.1097/IJG.0000000000002793",
+    "pmcid": null,
+    "revue": "Journal of glaucoma",
+    "date_entree_pubmed": "2026-10-13",
+    "date_publication": "2026-Oct-12",
+    "types_publication": [
+      "Journal Article"
+    ],
+    "resume_present": true,
+    "resume": "PRCIS: In this randomized multicenter trial, both TRAB and CPC lowered IOP at 12 months as primary glaucoma surgeries, with TRAB yielding lower final IOP with fewer medications, while both procedures demonstrated meaningful clinical effectiveness.\nPURPOSE: To compare the efficacy and safety of trabeculectomy (TRAB) and slow-burn transscleral cyclophotocoagulation (CPC) as primary surgical treatments for glaucoma.\nMETHODS: Prospective, randomized, multicenter trial including one eye per patient from July 2020 to July 2023, with 12-month follow-up. Participants were allocated to TRAB (GI) or CPC (GII). The primary endpoint was surgical success at 12 months, defined by intraocular pressure (IOP) between 6 and 18 mm Hg without non-protocol glaucoma surgery or serious complications.\nRESULTS: Eighty-six eyes were included; nine were excluded (four in GI; five in GII). Baseline demographics were similar between groups. Both significantly reduced IOP at 12 months (GI: 22.97±8.23 mm Hg to 10.14±2.89 mm Hg; GII: 23.47±6.34 mm Hg to 14.58±3.66 mm Hg; P<0.001 for both). Medication use decreased significantly in both groups, with a lower mean number of medications per year in GI (P<0.001). An IOP of 6-14 mm Hg was achieved in 91.4% of GI and 39.4% of GII (P=0.007). Final IOP between 6 and 18 mm Hg was reached by 97.1% of GI and 90.9% of GII (P=0.708). Qualified success rates were high and comparable (GI: 97.4%; GII: 86.8%; P=0.08), while complications were infrequent (four in GI; one in GII; P=0.3). Quality of life improved after TRAB (EQ-5D: 0.71±0.19 to 0.78±0.14; P=0.031) but remained unchanged after CPC (P=0.424).\nCONCLUSIONS: Both procedures reduced IOP at 12 months as primary glaucoma surgeries. TRAB achieved lower final IOP, required fewer medications, and was associated with improved quality of life, whereas CPC required more adjunctive medication and retreatment in some eyes.",
+    "mots_cles_auteurs": [
+      "diode laser",
+      "glaucoma",
+      "glaucoma surgery",
+      "trabeculectomy",
+      "transscleral cyclophotocoagulation"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 12,
+    "affiliations_auteurs": [
+      "Reference Center in Ophthalmology, Federal University of Goiás (Goiânia, GO, Brazil).",
+      "Department of Ophthalmology, Federal University of São Paulo (São Paulo, SP, Brazil).",
+      "Glaucoma Institute (Belo Horizonte, MG, Brazil).",
+      "Department of Ophthalmology, Mayo Clinic (Jacksonville, FL, USA).",
+      "Hospital das Clínicas, Ribeirão Preto Medical School, University of São Paulo (USP) (Ribeirão Preto, SP, Brazil).",
+      "Univisão Ophthalmology Clinic (Salvador, BA, Brazil).",
+      "VER Hospital (Goiânia, GO, Brazil)."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7221604317",
+      "doi": "10.1097/ijg.0000000000002793",
+      "pmid": "42869006",
+      "pmcid": null,
+      "titre": "Trabeculectomy versus Transscleral Cyclophotocoagulation as a Primary Surgical Procedure in Glaucoma: A Multicenter Randomized Controlled Trial",
+      "lien": "https://openalex.org/W7221604317",
+      "date_publication": "2026-10-12",
+      "type": "article",
+      "revue": "Journal of Glaucoma",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "pubmed"
+      ],
+      "financeurs": null,
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "Universidade Federal de Goiás",
+          "pays": "BR",
+          "type": "education",
+          "ror": "https://ror.org/0039d5757"
+        },
+        {
+          "nom": "Mayo Clinic",
+          "pays": "US",
+          "type": "healthcare",
+          "ror": "https://ror.org/02qp3tb03"
+        },
+        {
+          "nom": "Mayo Clinic in Florida",
+          "pays": "US",
+          "type": "healthcare",
+          "ror": "https://ror.org/03zzw1w08"
+        },
+        {
+          "nom": "Universidade Federal de São Paulo",
+          "pays": "BR",
+          "type": "education",
+          "ror": "https://ror.org/02k5swt12"
+        },
+        {
+          "nom": "Universidade de São Paulo",
+          "pays": "BR",
+          "type": "education",
+          "ror": "https://ror.org/036rp1748"
+        },
+        {
+          "nom": "Clinics Hospital of Ribeirão Preto",
+          "pays": "BR",
+          "type": "healthcare",
+          "ror": "https://ror.org/04n6fhj26"
+        }
+      ],
+      "acces_ouvert": false,
+      "statut_acces": "closed",
+      "url_texte": null,
+      "url_pdf": null,
+      "licence": null,
+      "texte_integral_indexe": false,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Glaucoma and retinal disorders",
+      "resume_present": true,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": []
+  }
+}

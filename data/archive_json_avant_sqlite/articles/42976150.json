@@ -1,0 +1,162 @@
+{
+  "pmid": "42976150",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42976150",
+    "titre": "Clinical and ocular factors associated with visual field progression following optic disc haemorrhage in glaucoma.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42976150/",
+    "doi": "10.1371/journal.pone.0361865",
+    "pmcid": "PMC13730382",
+    "revue": "PloS one",
+    "date_entree_pubmed": "2026-11-03",
+    "date_publication": "2026",
+    "types_publication": [
+      "Journal Article"
+    ],
+    "resume_present": true,
+    "resume": "BACKGROUND: To investigate the structural and clinical factors linked to visual field (VF) progression in glaucomatous eyes after the initial detection of optic disc haemorrhage (DH) in patients with primary open-angle glaucoma (POAG).\nMETHODS: This study included 92 eyes of 92 patients who presented with at least one optic DH on stereoscopic optic disc and red-free photography. The included patients had a minimum follow-up of 3 years after initial detection of DH and at least 5 reliable standard automated perimetry investigations. VF progression was assessed using event-based guided progression analysis (GPA). Baseline demographic, clinical, and ocular parameters were examined using Cox proportional hazards regression to identify the independent predictors of functional deterioration.\nRESULTS: Among the patients, 32 (34.8%) showed VF progression and 60 (65.2%) remained stable. In univariate analysis, recurrent DH, longer axial length, thinner central corneal thickness (CCT), and intraocular pressure (IOP) fluctuation were significantly associated with VF progression. In multivariate analysis, recurrent DH (HR 4.008, p < 0.001), longer axial length (HR 1.287, p = 0.005), thinner CCT (HR 0.865, p = 0.005), and greater IOP fluctuation (HR 1.997, p = 0.032) remained independently associated with VF progression.\nCONCLUSIONS: Recurrent DH, longer axial length, thinner CCT, and greater IOP fluctuation were independently associated with VF progression following optic DH. These factors may help identify glaucomatous eyes at higher risk of progression and support closer clinical monitoring after the initial detection of DH.",
+    "mots_cles_auteurs": null,
+    "langue": "eng",
+    "nombre_auteurs": 5,
+    "affiliations_auteurs": [
+      "Kangwon National University School of Medicine, Chuncheon, Republic of Korea.",
+      "Department of Ophthalmology, Kangwon National University Hospital, Chuncheon, Republic of Korea.",
+      "Department of Ophthalmology, CHA Bundang Medical Center, CHA University, Seongnam, Republic of Korea."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": [
+      "Humans",
+      "Female",
+      "Visual Fields",
+      "Disease Progression",
+      "Optic Disk",
+      "Male",
+      "Glaucoma, Open-Angle",
+      "Intraocular Pressure",
+      "Middle Aged",
+      "Aged",
+      "Retinal Hemorrhage",
+      "Visual Field Tests",
+      "Optic Nerve Diseases"
+    ]
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": null,
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7225166130",
+      "doi": "10.1371/journal.pone.0361865",
+      "pmid": "42976150",
+      "pmcid": "13730382",
+      "titre": "Clinical and ocular factors associated with visual field progression following optic disc haemorrhage in glaucoma",
+      "lien": "https://openalex.org/W7225166130",
+      "date_publication": "2026-11-03",
+      "type": "article",
+      "revue": "PLoS ONE",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "doaj",
+        "pubmed"
+      ],
+      "financeurs": [
+        {
+          "nom": "Korea Health Industry Development Institute",
+          "ror": "https://ror.org/00fdzyk40"
+        }
+      ],
+      "subventions": [
+        {
+          "financeur": "Korea Health Industry Development Institute",
+          "reference": "RS-2025-24535069"
+        }
+      ],
+      "institutions": [
+        {
+          "nom": "Kangwon National University",
+          "pays": "KR",
+          "type": "education",
+          "ror": "https://ror.org/01mh5ph17"
+        },
+        {
+          "nom": "Kangwon National University Hospital",
+          "pays": "KR",
+          "type": "healthcare",
+          "ror": "https://ror.org/01rf1rj96"
+        },
+        {
+          "nom": "CHA University Bundang Medical Center",
+          "pays": "KR",
+          "type": "healthcare",
+          "ror": "https://ror.org/04nbqb988"
+        },
+        {
+          "nom": "CHA University",
+          "pays": "KR",
+          "type": "education",
+          "ror": "https://ror.org/04yka3j04"
+        }
+      ],
+      "acces_ouvert": true,
+      "statut_acces": "gold",
+      "url_texte": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0361865&type=printable",
+      "url_pdf": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0361865&type=printable",
+      "licence": "cc-by",
+      "texte_integral_indexe": true,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Glaucoma and retinal disorders",
+      "resume_present": true,
+      "mesh": [
+        "Aged",
+        "Female",
+        "Glaucoma, Open-Angle",
+        "Humans",
+        "Intraocular Pressure",
+        "Male",
+        "Middle Aged",
+        "Optic Disk",
+        "Optic Nerve Diseases",
+        "Retinal Hemorrhage",
+        "Visual Fields",
+        "Disease Progression",
+        "Visual Field Tests"
+      ]
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": [
+      {
+        "nom": "Korea Health Industry Development Institute",
+        "statut": "CONFIRMÉ — déclaré par l'éditeur dans Crossref",
+        "references": [
+          "RS-2025-24535069"
+        ],
+        "notices": [
+          [
+            "notice justificative Crossref (déclaration de l'éditeur)",
+            "https://api.crossref.org/works/10.1371/journal.pone.0361865"
+          ],
+          [
+            "notice OpenAlex",
+            "https://api.openalex.org/works/W7225166130"
+          ]
+        ],
+        "note": null
+      }
+    ]
+  }
+}

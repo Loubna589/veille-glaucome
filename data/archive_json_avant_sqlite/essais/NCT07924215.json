@@ -1,0 +1,99 @@
+{
+  "nct": "NCT07924215",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "nct": "NCT07924215",
+    "titre": "PureSee EDOF Versus ZCB00 Monofocal IOLs in Mild-to-Moderate Glaucoma",
+    "titre_officiel": "Clinical Outcomes, Contrast Sensitivity, and Patient Satisfaction Following Bilateral PureSee EDOF Versus ZCB00 Monofocal IOL Implantation in Patients With Mild to Moderate Primary Open-Angle Glaucoma: An Ambispective Investigator-Initiated Trial",
+    "lien": "https://clinicaltrials.gov/study/NCT07924215",
+    "date_premiere_publication": "2026-11-09",
+    "date_derniere_mise_a_jour": "2026-11-09",
+    "type_etude": "OBSERVATIONAL",
+    "phases_declarees": null,
+    "statut": "NOT_YET_RECRUITING",
+    "raison_arret": null,
+    "date_debut": "2026-12-02",
+    "date_fin_principale": "2027-10-29",
+    "promoteur": "Mann Eye Institute",
+    "type_promoteur": "OTHER",
+    "collaborateurs": [
+      "Sengi"
+    ],
+    "conditions": [
+      "Primary Open-Angle Glaucoma"
+    ],
+    "interventions": [
+      {
+        "type": "DEVICE",
+        "nom": "TECNIS PureSee Intraocular Lens"
+      },
+      {
+        "type": "DEVICE",
+        "nom": "TECNIS ZCB00 Monofocal Intraocular Lens"
+      }
+    ],
+    "participants_nombre": 100,
+    "participants_type": "ESTIMATED",
+    "criteres_principaux": [
+      {
+        "critere": "Distance visual acuity - binocular distance-corrected visual acuity (DCVA)",
+        "delai": "3 to 18 months following second-eye cataract surgery"
+      }
+    ],
+    "resultats_deposes": false,
+    "publications_declarees": null,
+    "resume_source": "This study is a single center, ambispective study of visual outcomes after successful bilateral cataract surgery in patients with mild to moderate primary open-angle glaucoma (POAG). Two cohorts are compared: patients with bilateral implantation of the TECNIS PureSee non-diffractive extended depth of focus intraocular lens (EDOF IOL) and patients with bilateral implantation of the TECNIS ZCB00 monofocal IOL.",
+    "citations_declarees": null,
+    "plan": {
+      "repartition": null,
+      "modele": null,
+      "but_principal": null,
+      "insu": null,
+      "insu_pour": null,
+      "insu_description": null,
+      "modele_observationnel": "COHORT"
+    },
+    "bras": [
+      {
+        "libelle": "PureSee EDOF IOL cohort",
+        "type": null,
+        "description": "Subjects with bilateral implantation of the TECNIS PureSee Intraocular Lens (toric and non-toric) at cataract surgery.",
+        "interventions": [
+          "Device: TECNIS PureSee Intraocular Lens"
+        ]
+      },
+      {
+        "libelle": "TECNIS ZCB00 monofocal IOL cohort",
+        "type": null,
+        "description": "Subjects with bilateral implantation of the TECNIS Monofocal Intraocular Lens ZCB00 (toric and non-toric) at cataract surgery.",
+        "interventions": [
+          "Device: TECNIS ZCB00 Monofocal Intraocular Lens"
+        ]
+      }
+    ],
+    "eligibilite": {
+      "criteres": "Inclusion Criteria:\n\nAge ≥45 years. Prior bilateral cataract surgery with bilateral implantation of either PureSee EDOF or TECNIS ZCB00 on or after March 12, 2026.\n\nIntended postoperative refractive target between plano and -0.50 D in each eye. No intentional monovision. Bilateral mild or moderate POAG according to AAO ICD-10 staging criteria. Reliable glaucoma visual field available within approximately 18 months before cataract surgery or study enrollment, when available.\n\nReliable optical coherence tomography examination within 6 months. Adequately controlled IOP and clinically stable glaucoma in the investigator's opinion.\n\nPrior SLT is permitted. Concurrent MIGS at the time of cataract surgery is permitted when clinically indicated at the discretion of the treating surgeon.\n\nAbility to complete the study-specific examination and questionnaires. Study visit occurring 3-18 months following second-eye cataract surgery.\n\nExclusion Criteria:\n\nSevere POAG or glaucomatous visual field loss involving fixation. Secondary glaucoma, including pseudoexfoliative, pigmentary, angle-closure, neovascular, or uveitic glaucoma.\n\nGlaucoma surgery other than eligible concurrent MIGS that may materially influence study outcomes.\n\nCorneal pathology or irregular astigmatism affecting visual outcomes. Prior corneal refractive surgery. Macular or neuro-ophthalmic disease affecting visual function. Other ocular pathology expected to limit postoperative CDVA to worse than 20/30.\n\nInability to obtain reliable visual field testing when required for glaucoma characterization.\n\nIntentional monovision. The principal investigator reserves the right to declare a patient ineligible or non-evaluable based on medical evidence that indicates they are unsuitable for the trial.",
+      "age_min": "45 Years",
+      "age_max": null,
+      "sexe": "ALL",
+      "volontaires_sains": false
+    },
+    "criteres_secondaires": [
+      {
+        "critere": "Intermediate visual acuity - binocular distance-corrected intermediate visual acuity (DCIVA)",
+        "delai": "3 to 18 months following second-eye cataract surgery"
+      }
+    ],
+    "responsables": [
+      {
+        "nom": "Phillip Brunson, OD",
+        "affiliation": "Mann Eye Institute",
+        "role": "PRINCIPAL_INVESTIGATOR"
+      }
+    ],
+    "date_depot_resultats": null,
+    "resultats": null
+  },
+  "modifications": []
+}

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>PMID 42954153 — fiche article</title><style>
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
+:root{--fond:#f4f7fb;--carte:#fff;--texte:#0f1d33;--doux:#52627a;--bord:#e2e8f0;--accent:#0b4f8a;
+--ok:#146c43;--ok-fond:#e3f4ea;--att:#8a5300;--att-fond:#fdf1d8;--ver:#b42318;--ver-fond:#fdeceb;
+--reg:#3f3c9e;--reg-fond:#ecebfb;--src-fond:#f1f5f9;--mark:#fff1a8;--manque:#b42318;--turquoise:#14b8a6;}
+@media (prefers-color-scheme:dark){:root{--fond:#0a1120;--carte:#101a2c;--texte:#e6edf7;--doux:#9db0ca;
+--bord:#1e2b42;--accent:#6fb4ff;--ok:#6fd6a0;--ok-fond:#12301f;--att:#f3c15e;--att-fond:#352a10;--ver:#ff9a8f;
+--ver-fond:#3a1714;--reg:#b4b2ff;--reg-fond:#24234a;--src-fond:#0d1626;--mark:#5a4d10;--manque:#ff9a8f;--turquoise:#2dd4bf;}}
+*{box-sizing:border-box}body{margin:0;background:var(--fond);color:var(--texte);
+font:15.5px/1.6 "Inter",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+:focus-visible{outline:3px solid var(--turquoise);outline-offset:2px;border-radius:6px}
+main{max-width:1000px;margin:0 auto;padding:20px 18px 64px}
+.bandeau{display:flex;align-items:center;gap:10px;font-weight:800;letter-spacing:-.02em;padding:6px 0 14px;color:var(--texte);text-decoration:none}
+.bandeau i{width:30px;height:30px;border-radius:9px;background:linear-gradient(135deg,#0b4f8a,#14b8a6);display:inline-block}
+header,section{background:var(--carte);border:1px solid var(--bord);border-radius:16px;padding:20px 24px;margin:0 0 16px;
+box-shadow:0 1px 2px rgba(15,29,51,.04),0 6px 20px -8px rgba(15,29,51,.12)}
+h1{font-size:1.45rem;line-height:1.3;margin:.2em 0 .5em}h2{font-size:1.1rem;margin:0 0 .6em;color:var(--accent)}
+h3{font-size:1rem;margin:1.1em 0 .4em}.surtitre{color:var(--doux);margin:0;font-size:.9rem}
+a{color:var(--accent)}small,.def{color:var(--doux)}.def{font-size:.88rem;margin:.2em 0 .6em}
+.grille{display:grid;grid-template-columns:max-content 1fr;gap:4px 16px;margin:12px 0 0}
+.grille dt{color:var(--doux)}.grille dd{margin:0}
+.badge{display:inline-block;font-size:.72rem;font-weight:600;padding:2px 8px;border-radius:999px;margin:2px 4px 2px 0;
+vertical-align:middle;background:var(--src-fond);color:var(--doux)}
+.badge.confirme{background:var(--ok-fond);color:var(--ok)}.badge.attente{background:var(--att-fond);color:var(--att)}
+.badge.verifier{background:var(--ver-fond);color:var(--ver)}.badge.regle{background:var(--reg-fond);color:var(--reg)}
+.rubrique{font-weight:600}.manque{color:var(--manque);font-style:italic}
+mark{background:var(--mark);color:inherit;padding:0 2px;border-radius:3px}
+blockquote{margin:.5em 0;padding:.5em .9em;border-left:3px solid var(--bord);background:var(--src-fond);border-radius:0 6px 6px 0}
+pre{white-space:pre-wrap;font-size:.85rem;background:var(--src-fond);padding:10px;border-radius:6px}
+.defile{overflow-x:auto}table{border-collapse:collapse;width:100%;font-size:.92rem;margin:.4em 0}
+th,td{border:1px solid var(--bord);padding:6px 8px;text-align:left;vertical-align:top}th{background:var(--src-fond)}
+.analyse{background:var(--src-fond);padding:6px 10px;border-radius:6px;font-size:.92rem}
+.acteurs{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px}
+.acteurs>div{border:1px solid var(--bord);border-radius:8px;padding:10px 12px}.acteurs h3{margin-top:0}
+.copier{position:sticky;top:0;z-index:2;display:flex;gap:12px;align-items:center;flex-wrap:wrap;
+background:var(--fond);padding:10px 0;margin-bottom:8px}
+button{font:inherit;font-weight:600;background:var(--accent);color:#fff;border:0;border-radius:8px;padding:9px 16px;cursor:pointer}
+@media (prefers-color-scheme:dark){button{color:#10141a}}
+textarea{width:100%;min-height:260px;font:13px/1.4 ui-monospace,Consolas,monospace;background:var(--src-fond);
+color:var(--texte);border:1px solid var(--bord);border-radius:6px;padding:8px}
+details{margin:.5em 0}summary{cursor:pointer;color:var(--accent)}
+.retour{font-size:.92rem;margin:0 0 4px}
+@media (max-width:600px){.grille{grid-template-columns:1fr}.grille dt{margin-top:6px}header,section{padding:14px}}
+</style></head>
+<body><main>
+<a class="bandeau" href="../index.html"><i aria-hidden="true"></i>Glaucoma Intelligence</a><nav class="retour"><a href="../index.html">Accueil</a> · <a href="../etudes.html">← Essais &amp; articles</a> · <a href="../recherche.html">Rechercher</a> · <a href="../carte.html">Carte des acteurs</a> · <a href="../alertes.html">Alertes</a></nav>
+<div class="copier"><button id="bouton-copier" type="button" onclick="copierFiche()">Copier pour Claude / ChatGPT</button>
+<small>Copie une consigne + les faits de cette fiche, à coller dans votre assistant.</small></div>
+
+    <header>
+      <p class="surtitre">Fiche article · PMID 42954153 · <a href="https://pubmed.ncbi.nlm.nih.gov/42954153/" target="_blank" rel="noopener">voir sur PubMed</a>
+         · <a href="https://doi.org/10.2196/96026" target="_blank" rel="noopener">DOI 10.2196/96026</a></p>
+      <h1 lang="en">Secure Patient Messaging in Ophthalmology: Retrospective Natural Language Processing Study.</h1>
+      <p><span class="badge confirme">PUBLICATION — le résumé rapporte des résultats</span> <span class="badge verifier">Synthèse fondée UNIQUEMENT sur le résumé PubMed : le texte intégral n'a pas été lu.</span></p>
+      <dl class="grille">
+        <dt>Revue</dt><dd>JMIR medical informatics</dd>
+        <dt>Entrée dans PubMed</dt><dd>2026-10-29 · publication : 2026-Oct-28</dd>
+        <dt>Type(s) de publication (PubMed)</dt><dd lang="en">Journal Article</dd>
+        <dt>Stade</dt><dd>Non renseigné</dd>
+        <dt>Accès au texte (OpenAlex)</dt><dd>libre (revue en accès ouvert) · <a href="https://doi.org/10.2196/96026" target="_blank" rel="noopener">ouvrir le texte</a></dd>
+        <dt>Détecté par l'outil le</dt><dd>2026-11-11</dd>
+      </dl>
+      <p class="rubriques"><strong>Rubrique :</strong> <span class="rubrique">Autres sujets (clinique, épidémiologie…)</span> <small>aucune règle de rubrique ne s'applique</small> <span class="badge regle">classement automatique — règles dans config/rubriques.ini</span></p>
+    </header>
+<section><h2>Question étudiée <span class="badge source">Résumé PubMed (texte source)</span></h2><blockquote lang="en"><strong>BACKGROUND</strong> The rapid rise of secure patient messaging has transformed ophthalmic communication, with text volumes now exceeding prepandemic levels across health care systems. Our study uses a natural language processing (NLP) model to explore patterns in over <mark>30,000</mark> secure messages and identify common ocular complaints and differences by patient demographics.</blockquote><blockquote lang="en"><strong>OBJECTIVE</strong> The objective of this study is to characterize the clinical and administrative concerns communicated through secure ophthalmology messaging and to assess differences in message content across patient sociodemographic groups.</blockquote></section><section><h2>Traitement ou technologie, et comparateur <span class="badge regle">règle automatique de l'outil</span></h2><ul><li><span class="manque">Aucun produit suivi ni molécule repérés automatiquement</span></li></ul><p class="def">Aucun rôle n'est confirmé : PubMed ne décrit pas les bras d'une étude. Un rôle pourrait être confirmé par le registre d'un essai lié de façon confirmée.</p></section><section><h2>Type d'étude et méthode <span class="badge source">Résumé PubMed (texte source)</span><span class="badge source">PubMed (types de publication)</span></h2><p>Type(s) de publication déclaré(s) par PubMed : <span lang="en">Journal Article</span></p><blockquote lang="en"><strong>METHODS</strong> We conducted a cross-sectional study of deidentified, patient-initiated secure messages sent between June <mark>2014</mark> and July <mark>2024</mark>. Patients with ophthalmic conditions who initiated secure electronic health record (EHR) portal messages were included. Of the <mark>52,388</mark> extracted message threads, <mark>30,390</mark> (<mark>58%</mark>) patient medical advice request (PMAR) messages routed solely to the Department of Ophthalmology from <mark>4817</mark> unique patients were assessed after the exclusion of questionnaires, courtesy messages, clinician responses, and messages routed to other health care departments. Of these unique patients, <mark>2673</mark> (<mark>55.5%</mark>) were female, <mark>2740</mark> (<mark>56.9%</mark>) were aged <mark>50</mark> years or older, <mark>2346</mark> (<mark>48.7%</mark>) were White, <mark>4392</mark> (<mark>91.2%</mark>) were non-Hispanic, and <mark>2774</mark> (<mark>57.6%</mark>) were married. NLP and large language model (LLM)-assisted topic classification were used to categorize message content. The distribution of message topics and frequency of clinical concerns were assessed and stratified by age, sex, race, ethnicity, and marital status. Differences in message frequency by demographic subgroup were assessed using <mark>2</mark>-proportion z-tests.</blockquote></section><section><h2>Population et participants (phrases du résumé) <span class="badge source">Résumé PubMed (texte source)</span></h2><blockquote lang="en">Patients with ophthalmic conditions who initiated secure electronic health record (EHR) portal messages were included.</blockquote><blockquote lang="en">Following preprocessing and topic modeling, <mark>14,284</mark> (<mark>47%</mark>) of the <mark>30,390</mark> messages could be predefined in relation to a topic cluster and were included in the final analysis.</blockquote></section><section><h2>Résultats disponibles <span class="badge source">Résumé PubMed (texte source)</span></h2><p class="def">Valeurs chiffrées surlignées telles qu'elles figurent dans le résumé. Elles n'ont pas été vérifiées dans le texte intégral.</p><blockquote lang="en"><strong>RESULTS</strong> Following preprocessing and topic modeling, <mark>14,284</mark> (<mark>47%</mark>) of the <mark>30,390</mark> messages could be predefined in relation to a topic cluster and were included in the final analysis. Nearly half of all <mark>14,284</mark> predefined messages addressed administrative issues, including <mark>4166</mark> (<mark>29.2%</mark>) scheduling-related inquiries, <mark>1352</mark> (<mark>9.5%</mark>) pharmacy and medication refill requests, and <mark>581</mark> (<mark>4.1%</mark>) insurance document issues. Among clinical concerns, of the total <mark>14,284</mark> predefined messages, <mark>2975</mark> (<mark>20.8%</mark>) messages involved vision disturbances, <mark>1241</mark> (<mark>8.7%</mark>) involved glaucoma-related symptoms, <mark>1074</mark> (<mark>7.5%</mark>) involved tumor-related questions, and <mark>1064</mark> (<mark>7.4%</mark>) involved surgery-relevant concerns. Message content differed significantly by demographic characteristics. Non-White patients more frequently raised issues related to pharmacy refills, insurance, glaucoma, and disability documentation, whereas White patients more often reported surgical concerns. Older patients more frequently messaged about glaucoma, surgery, and tumor-related issues, while female patients more often reported complications and swelling or infection.</blockquote></section><section><h2>Données de tolérance (phrases du résumé) <span class="badge source">Résumé PubMed (texte source)</span></h2><blockquote lang="en">Older patients more frequently messaged about glaucoma, surgery, and tumor-related issues, while female patients more often reported complications and swelling or infection.</blockquote></section><section><h2>Conclusion des auteurs (citée telle quelle, non évaluée par l'outil) <span class="badge source">Résumé PubMed (texte source)</span></h2><blockquote lang="en"><strong>CONCLUSIONS</strong> Secure patient messages frequently include clinically relevant symptoms with potential triage implications and demonstrate demographic differences in care-seeking behavior. Systematic analysis of message content may support safer triage, improved workflow efficiency, and more equitable delivery of ophthalmic care.</blockquote></section><section><h2>Essai clinique lié <span class="badge source">PubMed (DataBankList et texte)</span></h2><ul><li><span class="manque">Aucun essai lié identifié</span></li></ul></section><section><h2>Promoteur, financeur et affiliations <span class="badge source">PubMed</span><span class="badge source">OpenAlex</span><span class="badge source">Crossref</span></h2><div class="acteurs">
+      <div><h3>Promoteur d'essai</h3><p class="def">Organisme responsable d'un essai, déclaré au registre.</p><p><span class="manque">Non affiché : aucun essai lié de façon confirmée</span></p></div>
+      <div><h3>Financeur</h3><p class="def">Organisme qui a financé la recherche, avec la notice qui le justifie.</p><ul><li><strong>NIMH NIH HHS</strong> <span class="badge confirme">CONFIRMÉ — déclaré dans la notice PubMed (GrantList)</span> · réf. K01 MH137386<br><small><a href="https://pubmed.ncbi.nlm.nih.gov/42954153/?format=pubmed" target="_blank" rel="noopener">notice PubMed</a></small></li><li><strong>NIAMS NIH HHS</strong> <span class="badge confirme">CONFIRMÉ — déclaré dans la notice PubMed (GrantList)</span> · réf. K24 AR075060<br><small><a href="https://pubmed.ncbi.nlm.nih.gov/42954153/?format=pubmed" target="_blank" rel="noopener">notice PubMed</a></small></li><li><strong>NEI NIH HHS</strong> <span class="badge confirme">CONFIRMÉ — déclaré dans la notice PubMed (GrantList)</span> · réf. P30 EY026877<br><small><a href="https://pubmed.ncbi.nlm.nih.gov/42954153/?format=pubmed" target="_blank" rel="noopener">notice PubMed</a></small></li><li><strong>NIAMS NIH HHS</strong> <span class="badge confirme">CONFIRMÉ — déclaré dans la notice PubMed (GrantList)</span> · réf. R01 AR082109<br><small><a href="https://pubmed.ncbi.nlm.nih.gov/42954153/?format=pubmed" target="_blank" rel="noopener">notice PubMed</a></small></li><li><strong>National Institutes of Health</strong> <span class="badge verifier">À VÉRIFIER — trouvé par OpenAlex seulement (l'éditeur n'a déclaré aucun financeur dans Crossref) ; à contrôler dans le texte de l'article</span><br><small><a href="https://api.openalex.org/works/W7204225124" target="_blank" rel="noopener">notice OpenAlex</a> · <a href="https://api.crossref.org/works/10.2196/96026" target="_blank" rel="noopener">notice Crossref consultée (ne confirme pas ce financeur)</a></small></li><li><strong>National Institute of Mental Health</strong> <span class="badge verifier">À VÉRIFIER — trouvé par OpenAlex seulement (l'éditeur n'a déclaré aucun financeur dans Crossref) ; à contrôler dans le texte de l'article</span> · réf. K01MH137386<br><small><a href="https://api.openalex.org/works/W7204225124" target="_blank" rel="noopener">notice OpenAlex</a> · <a href="https://api.crossref.org/works/10.2196/96026" target="_blank" rel="noopener">notice Crossref consultée (ne confirme pas ce financeur)</a></small></li><li><strong>National Eye Institute</strong> <span class="badge verifier">À VÉRIFIER — trouvé par OpenAlex seulement (l'éditeur n'a déclaré aucun financeur dans Crossref) ; à contrôler dans le texte de l'article</span> · réf. P30EY026877<br><small><a href="https://api.openalex.org/works/W7204225124" target="_blank" rel="noopener">notice OpenAlex</a> · <a href="https://api.crossref.org/works/10.2196/96026" target="_blank" rel="noopener">notice Crossref consultée (ne confirme pas ce financeur)</a></small></li><li><strong>National Institute of Arthritis and Musculoskeletal and Skin Diseases</strong> <span class="badge verifier">À VÉRIFIER — trouvé par OpenAlex seulement (l'éditeur n'a déclaré aucun financeur dans Crossref) ; à contrôler dans le texte de l'article</span> · réf. R01AR082109, K24AR075060<br><small><a href="https://api.openalex.org/works/W7204225124" target="_blank" rel="noopener">notice OpenAlex</a> · <a href="https://api.crossref.org/works/10.2196/96026" target="_blank" rel="noopener">notice Crossref consultée (ne confirme pas ce financeur)</a></small></li></ul></div>
+      <div><h3>Affiliations des auteurs</h3><p class="def">Établissements où travaillent les auteurs (pas un financement).</p><p><small>Institutions normalisées (OpenAlex) :</small></p><ul><li>Stanford Medicine <small>(US, santé/hôpital)</small></li><li>Stanford University <small>(US, enseignement/recherche)</small></li></ul><details><summary>Affiliations telles que déclarées dans PubMed (2)</summary><ul><li>Center for Digital Health, Stanford Medicine, Palo Alto, CA, United States.</li><li>Department of Ophthalmology, Byers Eye Institute, Stanford Medicine, 2370 Watson Court, Palo Alto, CA, 94303, United States, 1 6173081056, 1 6173081056.</li></ul></details></div>
+    </div></section>
+<section><h2>Ce qui manque <span class="badge regle">calculé par l'outil</span></h2><p>Toutes les rubriques ont au moins une information.</p></section>
+<section><h2>Limites, intérêt pour la veille marketing, à retenir <span class="badge attente">non produit par l'outil</span></h2><p><span class="manque">Non rédigé automatiquement : les données extraites ne suffisent pas à produire une analyse fiable sans interprétation. Utilisez le bouton « Copier pour Claude / ChatGPT » pour obtenir une proposition, à vérifier.</span></p></section>
+<section><details><summary>Voir le texte copié par le bouton</summary>
+<textarea id="a-copier" readonly>Tu es assistant de veille scientifique sur le glaucome. À partir UNIQUEMENT des informations ci-dessous, rédige en français une fiche de synthèse avec ces rubriques :
+1. Question étudiée
+2. Traitement ou technologie
+3. Type d&#x27;étude
+4. Population et nombre de participants
+5. Comparateur
+6. Critères évalués
+7. Principaux résultats chiffrés (recopie les valeurs exactes et indique leur source)
+8. Données de tolérance
+9. Limites
+10. Intérêt potentiel pour une veille marketing — présenté comme une INTERPRÉTATION, séparé des faits
+11. À retenir (une phrase)
+
+Règles :
+- N&#x27;invente rien. Si une information manque, écris « non rapporté ».
+- Distingue un essai simplement enregistré, un protocole, des résultats déposés dans un registre et une publication de résultats.
+- Si la source est seulement le résumé d&#x27;un article, indique que la synthèse repose uniquement sur ce résumé.
+- Les rôles « suggérés » (traitement étudié / comparateur) sont à vérifier dans le texte source.
+- Ne confonds pas promoteur d&#x27;essai, financeur et affiliation des auteurs.
+- Termine par la liste des points à vérifier.
+
+=== INFORMATIONS ===
+SOURCE : PubMed, PMID 42954153 — https://pubmed.ncbi.nlm.nih.gov/42954153/ · DOI https://doi.org/10.2196/96026
+BASE : résumé PubMed uniquement (texte intégral non lu)
+Titre : Secure Patient Messaging in Ophthalmology: Retrospective Natural Language Processing Study.
+Revue : JMIR medical informatics · entrée PubMed : 2026-10-29
+Types de publication (PubMed) : Journal Article
+Produits repérés automatiquement (rôles SUGGÉRÉS, à vérifier) : aucun
+Molécules hors liste (repérage automatique, à vérifier) : aucune
+Essai lié : aucun
+Financeurs : NIMH NIH HHS [CONFIRMÉ — déclaré dans la notice PubMed (GrantList)]; NIAMS NIH HHS [CONFIRMÉ — déclaré dans la notice PubMed (GrantList)]; NEI NIH HHS [CONFIRMÉ — déclaré dans la notice PubMed (GrantList)]; NIAMS NIH HHS [CONFIRMÉ — déclaré dans la notice PubMed (GrantList)]; National Institutes of Health [À VÉRIFIER — trouvé par OpenAlex seulement (l&#x27;éditeur n&#x27;a déclaré aucun financeur dans Crossref) ; à contrôler dans le texte de l&#x27;article]; National Institute of Mental Health [À VÉRIFIER — trouvé par OpenAlex seulement (l&#x27;éditeur n&#x27;a déclaré aucun financeur dans Crossref) ; à contrôler dans le texte de l&#x27;article]; National Eye Institute [À VÉRIFIER — trouvé par OpenAlex seulement (l&#x27;éditeur n&#x27;a déclaré aucun financeur dans Crossref) ; à contrôler dans le texte de l&#x27;article]; National Institute of Arthritis and Musculoskeletal and Skin Diseases [À VÉRIFIER — trouvé par OpenAlex seulement (l&#x27;éditeur n&#x27;a déclaré aucun financeur dans Crossref) ; à contrôler dans le texte de l&#x27;article]
+Affiliations (institutions, pas des financeurs) : Stanford Medicine (US, healthcare); Stanford University (US, education)
+
+RÉSUMÉ (texte source) :
+BACKGROUND: The rapid rise of secure patient messaging has transformed ophthalmic communication, with text volumes now exceeding prepandemic levels across health care systems. Our study uses a natural language processing (NLP) model to explore patterns in over 30,000 secure messages and identify common ocular complaints and differences by patient demographics.
+OBJECTIVE: The objective of this study is to characterize the clinical and administrative concerns communicated through secure ophthalmology messaging and to assess differences in message content across patient sociodemographic groups.
+METHODS: We conducted a cross-sectional study of deidentified, patient-initiated secure messages sent between June 2014 and July 2024. Patients with ophthalmic conditions who initiated secure electronic health record (EHR) portal messages were included. Of the 52,388 extracted message threads, 30,390 (58%) patient medical advice request (PMAR) messages routed solely to the Department of Ophthalmology from 4817 unique patients were assessed after the exclusion of questionnaires, courtesy messages, clinician responses, and messages routed to other health care departments. Of these unique patients, 2673 (55.5%) were female, 2740 (56.9%) were aged 50 years or older, 2346 (48.7%) were White, 4392 (91.2%) were non-Hispanic, and 2774 (57.6%) were married. NLP and large language model (LLM)-assisted topic classification were used to categorize message content. The distribution of message topics and frequency of clinical concerns were assessed and stratified by age, sex, race, ethnicity, and marital status. Differences in message frequency by demographic subgroup were assessed using 2-proportion z-tests.
+RESULTS: Following preprocessing and topic modeling, 14,284 (47%) of the 30,390 messages could be predefined in relation to a topic cluster and were included in the final analysis. Nearly half of all 14,284 predefined messages addressed administrative issues, including 4166 (29.2%) scheduling-related inquiries, 1352 (9.5%) pharmacy and medication refill requests, and 581 (4.1%) insurance document issues. Among clinical concerns, of the total 14,284 predefined messages, 2975 (20.8%) messages involved vision disturbances, 1241 (8.7%) involved glaucoma-related symptoms, 1074 (7.5%) involved tumor-related questions, and 1064 (7.4%) involved surgery-relevant concerns. Message content differed significantly by demographic characteristics. Non-White patients more frequently raised issues related to pharmacy refills, insurance, glaucoma, and disability documentation, whereas White patients more often reported surgical concerns. Older patients more frequently messaged about glaucoma, surgery, and tumor-related issues, while female patients more often reported complications and swelling or infection.
+CONCLUSIONS: Secure patient messages frequently include clinically relevant symptoms with potential triage implications and demonstrate demographic differences in care-seeking behavior. Systematic analysis of message content may support safer triage, improved workflow efficiency, and more equitable delivery of ophthalmic care.</textarea></details></section>
+<p><small>Fiche générée le 2026-11-11 22:40 par Glaucoma Intelligence. Extraits des sources en langue originale.</small></p>
+</main><script>
+function copierFiche(){
+  var zone=document.getElementById('a-copier'), bouton=document.getElementById('bouton-copier');
+  function fait(){bouton.textContent='Copié ✓ — collez dans Claude ou ChatGPT';setTimeout(function(){bouton.textContent='Copier pour Claude / ChatGPT'},3000);}
+  function secours(){zone.parentElement.open=true;zone.select();try{document.execCommand('copy');fait();}
+    catch(err){bouton.textContent='Sélectionnez le texte ci-dessous puis Ctrl+C';}}
+  if(navigator.clipboard&&window.isSecureContext){navigator.clipboard.writeText(zone.value).then(fait,secours);}else{secours();}
+}
+</script></body></html>

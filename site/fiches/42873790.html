@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>PMID 42873790 — fiche article</title><style>
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
+:root{--fond:#f4f7fb;--carte:#fff;--texte:#0f1d33;--doux:#52627a;--bord:#e2e8f0;--accent:#0b4f8a;
+--ok:#146c43;--ok-fond:#e3f4ea;--att:#8a5300;--att-fond:#fdf1d8;--ver:#b42318;--ver-fond:#fdeceb;
+--reg:#3f3c9e;--reg-fond:#ecebfb;--src-fond:#f1f5f9;--mark:#fff1a8;--manque:#b42318;--turquoise:#14b8a6;}
+@media (prefers-color-scheme:dark){:root{--fond:#0a1120;--carte:#101a2c;--texte:#e6edf7;--doux:#9db0ca;
+--bord:#1e2b42;--accent:#6fb4ff;--ok:#6fd6a0;--ok-fond:#12301f;--att:#f3c15e;--att-fond:#352a10;--ver:#ff9a8f;
+--ver-fond:#3a1714;--reg:#b4b2ff;--reg-fond:#24234a;--src-fond:#0d1626;--mark:#5a4d10;--manque:#ff9a8f;--turquoise:#2dd4bf;}}
+*{box-sizing:border-box}body{margin:0;background:var(--fond);color:var(--texte);
+font:15.5px/1.6 "Inter",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+:focus-visible{outline:3px solid var(--turquoise);outline-offset:2px;border-radius:6px}
+main{max-width:1000px;margin:0 auto;padding:20px 18px 64px}
+.bandeau{display:flex;align-items:center;gap:10px;font-weight:800;letter-spacing:-.02em;padding:6px 0 14px;color:var(--texte);text-decoration:none}
+.bandeau i{width:30px;height:30px;border-radius:9px;background:linear-gradient(135deg,#0b4f8a,#14b8a6);display:inline-block}
+header,section{background:var(--carte);border:1px solid var(--bord);border-radius:16px;padding:20px 24px;margin:0 0 16px;
+box-shadow:0 1px 2px rgba(15,29,51,.04),0 6px 20px -8px rgba(15,29,51,.12)}
+h1{font-size:1.45rem;line-height:1.3;margin:.2em 0 .5em}h2{font-size:1.1rem;margin:0 0 .6em;color:var(--accent)}
+h3{font-size:1rem;margin:1.1em 0 .4em}.surtitre{color:var(--doux);margin:0;font-size:.9rem}
+a{color:var(--accent)}small,.def{color:var(--doux)}.def{font-size:.88rem;margin:.2em 0 .6em}
+.grille{display:grid;grid-template-columns:max-content 1fr;gap:4px 16px;margin:12px 0 0}
+.grille dt{color:var(--doux)}.grille dd{margin:0}
+.badge{display:inline-block;font-size:.72rem;font-weight:600;padding:2px 8px;border-radius:999px;margin:2px 4px 2px 0;
+vertical-align:middle;background:var(--src-fond);color:var(--doux)}
+.badge.confirme{background:var(--ok-fond);color:var(--ok)}.badge.attente{background:var(--att-fond);color:var(--att)}
+.badge.verifier{background:var(--ver-fond);color:var(--ver)}.badge.regle{background:var(--reg-fond);color:var(--reg)}
+.rubrique{font-weight:600}.manque{color:var(--manque);font-style:italic}
+mark{background:var(--mark);color:inherit;padding:0 2px;border-radius:3px}
+blockquote{margin:.5em 0;padding:.5em .9em;border-left:3px solid var(--bord);background:var(--src-fond);border-radius:0 6px 6px 0}
+pre{white-space:pre-wrap;font-size:.85rem;background:var(--src-fond);padding:10px;border-radius:6px}
+.defile{overflow-x:auto}table{border-collapse:collapse;width:100%;font-size:.92rem;margin:.4em 0}
+th,td{border:1px solid var(--bord);padding:6px 8px;text-align:left;vertical-align:top}th{background:var(--src-fond)}
+.analyse{background:var(--src-fond);padding:6px 10px;border-radius:6px;font-size:.92rem}
+.acteurs{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px}
+.acteurs>div{border:1px solid var(--bord);border-radius:8px;padding:10px 12px}.acteurs h3{margin-top:0}
+.copier{position:sticky;top:0;z-index:2;display:flex;gap:12px;align-items:center;flex-wrap:wrap;
+background:var(--fond);padding:10px 0;margin-bottom:8px}
+button{font:inherit;font-weight:600;background:var(--accent);color:#fff;border:0;border-radius:8px;padding:9px 16px;cursor:pointer}
+@media (prefers-color-scheme:dark){button{color:#10141a}}
+textarea{width:100%;min-height:260px;font:13px/1.4 ui-monospace,Consolas,monospace;background:var(--src-fond);
+color:var(--texte);border:1px solid var(--bord);border-radius:6px;padding:8px}
+details{margin:.5em 0}summary{cursor:pointer;color:var(--accent)}
+.retour{font-size:.92rem;margin:0 0 4px}
+@media (max-width:600px){.grille{grid-template-columns:1fr}.grille dt{margin-top:6px}header,section{padding:14px}}
+</style></head>
+<body><main>
+<a class="bandeau" href="../index.html"><i aria-hidden="true"></i>Glaucoma Intelligence</a><nav class="retour"><a href="../index.html">Accueil</a> · <a href="../etudes.html">← Essais &amp; articles</a> · <a href="../recherche.html">Rechercher</a> · <a href="../carte.html">Carte des acteurs</a> · <a href="../alertes.html">Alertes</a></nav>
+<div class="copier"><button id="bouton-copier" type="button" onclick="copierFiche()">Copier pour Claude / ChatGPT</button>
+<small>Copie une consigne + les faits de cette fiche, à coller dans votre assistant.</small></div>
+
+    <header>
+      <p class="surtitre">Fiche article · PMID 42873790 · <a href="https://pubmed.ncbi.nlm.nih.gov/42873790/" target="_blank" rel="noopener">voir sur PubMed</a>
+         · <a href="https://doi.org/10.1371/journal.pgph.0005585" target="_blank" rel="noopener">DOI 10.1371/journal.pgph.0005585</a></p>
+      <h1 lang="en">Feasibility and immediate effects of a multimodal, dance-integrated educational video package on eye health knowledge and intentions in Nigeria: A pre-post pilot study.</h1>
+      <p><span class="badge attente">PUBLICATION — résultats non identifiés dans le résumé</span> <span class="badge verifier">Synthèse fondée UNIQUEMENT sur le résumé PubMed : le texte intégral n'a pas été lu.</span></p>
+      <dl class="grille">
+        <dt>Revue</dt><dd>PLOS global public health</dd>
+        <dt>Entrée dans PubMed</dt><dd>2026-10-14 · publication : 2026</dd>
+        <dt>Type(s) de publication (PubMed)</dt><dd lang="en">Journal Article</dd>
+        <dt>Stade</dt><dd>Non renseigné <small>(pas d'indexation MeSH disponible)</small></dd>
+        <dt>Accès au texte (OpenAlex)</dt><dd>libre (revue en accès ouvert) · <a href="https://journals.plos.org/globalpublichealth/article/file?id=10.1371/journal.pgph.0005585&amp;type=printable" target="_blank" rel="noopener">ouvrir le texte</a></dd>
+        <dt>Détecté par l'outil le</dt><dd>2026-11-11</dd>
+      </dl>
+      <p class="rubriques"><strong>Rubrique :</strong> <span class="rubrique">Autres sujets (clinique, épidémiologie…)</span> <small>aucune règle de rubrique ne s'applique</small> <span class="badge regle">classement automatique — règles dans config/rubriques.ini</span></p>
+    </header>
+<section><h2>Question étudiée <span class="badge source">Résumé PubMed (texte source)</span></h2><p><span class="manque">Pas de paragraphe « objectif » identifié dans le résumé</span></p></section><section><h2>Traitement ou technologie, et comparateur <span class="badge regle">règle automatique de l'outil</span></h2><ul><li><span class="manque">Aucun produit suivi ni molécule repérés automatiquement</span></li></ul><p class="def">Aucun rôle n'est confirmé : PubMed ne décrit pas les bras d'une étude. Un rôle pourrait être confirmé par le registre d'un essai lié de façon confirmée.</p></section><section><h2>Type d'étude et méthode <span class="badge source">Résumé PubMed (texte source)</span><span class="badge source">PubMed (types de publication)</span></h2><p>Type(s) de publication déclaré(s) par PubMed : <span lang="en">Journal Article</span></p><p><span class="manque">Pas de paragraphe « méthodes » dans le résumé</span></p></section><section><h2>Population et participants (phrases du résumé) <span class="badge source">Résumé PubMed (texte source)</span></h2><blockquote lang="en">Between April <mark>11</mark> and June <mark>22</mark>, <mark>2025</mark>, adults recruited through optometry clinics and community outreach programmes viewed culturally tailored educational videos addressing at least one eye condition (myopia, cataract, or glaucoma) and general eye health, including common myths and preventive practices.</blockquote><blockquote lang="en">Among <mark>438</mark> participants, <mark>77.7%</mark> were aged <mark>18</mark>-<mark>44</mark> years, <mark>52.5%</mark> were female, <mark>75.1%</mark> had higher education, <mark>80.0%</mark> reported existing health-promoting behaviours, and <mark>79.7%</mark> considered regular eye examinations important.</blockquote></section><section><h2>Résultats disponibles <span class="badge source">Résumé PubMed (texte source)</span></h2><p><span class="manque">Aucune partie « résultats » dans le résumé</span></p><h3>Résumé complet (non structuré)</h3><blockquote lang="en">Dance, as a culturally embedded and universally accessible form of art, offers a promising medium for health education in settings with diverse literacy levels. This pilot study evaluated the feasibility and immediate effects of a multimodal, dance-integrated educational video package designed to improve eye health knowledge, attitudes, and preventive intentions among Nigerian adults. Between April <mark>11</mark> and June <mark>22</mark>, <mark>2025</mark>, adults recruited through optometry clinics and community outreach programmes viewed culturally tailored educational videos addressing at least one eye condition (myopia, cataract, or glaucoma) and general eye health, including common myths and preventive practices. Pre-post changes were assessed using paired comparisons, with subgroup analyses by educational attainment. Among <mark>438</mark> participants, <mark>77.7%</mark> were aged <mark>18</mark>-<mark>44</mark> years, <mark>52.5%</mark> were female, <mark>75.1%</mark> had higher education, <mark>80.0%</mark> reported existing health-promoting behaviours, and <mark>79.7%</mark> considered regular eye examinations important. Following the intervention, perceived eye health knowledge increased from <mark>42.0%</mark> to <mark>68.0%</mark> (absolute increase, <mark>26.0</mark> percentage points; relative increase, <mark>61.9%</mark>; p <mark>= 0.013</mark>; Cramér's V <mark>= 0.279</mark>), while objective eye health knowledge scores increased by <mark>52.4</mark> percentage points (p <mark>= 0.013</mark>; Cramér's V <mark>= 0.069</mark>). Self-reported intentions to adopt protective practices, including wearing sunglasses, reducing screen time, and attending regular eye examinations, also increased. Overall intention to visit an eye clinic increased by <mark>10%</mark>, although this change was not statistically significant (p <mark>= 0.443</mark>), likely reflecting high baseline health-seeking intentions. The largest improvements in willingness to attend regular check-ups occurred among participants with secondary education (<mark>27.5%</mark> to <mark>96.3%</mark>, p &lt; <mark>0.001</mark>) and those with primary or no formal education (<mark>41.4%</mark> to <mark>96.6%</mark>, p &lt; <mark>0.001</mark>). Dance-integrated educational videos were associated with immediate improvements in eye health knowledge and preventive intentions, particularly among participants with lower educational attainment, supporting their potential as a culturally relevant and scalable approach to eye health communication in diverse, resource-limited settings and community-based health promotion programmes.</blockquote></section><section><h2>Données de tolérance (phrases du résumé) <span class="badge source">Résumé PubMed (texte source)</span></h2><p><span class="manque">Aucune donnée de tolérance dans le résumé</span></p></section><section><h2>Essai clinique lié <span class="badge source">PubMed (DataBankList et texte)</span></h2><ul><li><span class="manque">Aucun essai lié identifié</span></li></ul></section><section><h2>Promoteur, financeur et affiliations <span class="badge source">PubMed</span><span class="badge source">OpenAlex</span><span class="badge source">Crossref</span></h2><div class="acteurs">
+      <div><h3>Promoteur d'essai</h3><p class="def">Organisme responsable d'un essai, déclaré au registre.</p><p><span class="manque">Non affiché : aucun essai lié de façon confirmée</span></p></div>
+      <div><h3>Financeur</h3><p class="def">Organisme qui a financé la recherche, avec la notice qui le justifie.</p><ul><li><strong>VOSH International</strong> <span class="badge confirme">CONFIRMÉ — déclaré par l'éditeur dans Crossref (absent d'OpenAlex)</span><br><small><a href="https://api.crossref.org/works/10.1371/journal.pgph.0005585" target="_blank" rel="noopener">notice justificative Crossref (déclaration de l'éditeur)</a></small></li></ul></div>
+      <div><h3>Affiliations des auteurs</h3><p class="def">Établissements où travaillent les auteurs (pas un financement).</p><p><small>Institutions normalisées (OpenAlex) :</small></p><ul><li>University of Benin <small>(NG, enseignement/recherche)</small></li><li>Kwame Nkrumah University of Science and Technology <small>(GH, enseignement/recherche)</small></li><li>University of Tasmania <small>(AU, enseignement/recherche)</small></li><li>Western Sydney University <small>(AU, enseignement/recherche)</small></li><li>University of KwaZulu-Natal <small>(ZA, enseignement/recherche)</small></li></ul><details><summary>Affiliations telles que déclarées dans PubMed (7)</summary><ul><li>Department of Optometry and Vision Sciences, Faculty of Optometry, University of Benin, Benin City, Nigeria.</li><li>Magnificent Eyecare Centre Limited, Federal Capital City, Abuja, Nigeria.</li><li>Department of Animal and Environmental Biology, Laboratory of Parasitology Research, University of Benin, Benin City, Nigeria.</li><li>Department of Optometry and Visual Science, Kwame Nkrumah University of Science and Technology, Kumasi, Ghana.</li><li>Menzies Institute for Medical Research, University of Tasmania, Hobart, Tasmania, Australia.</li><li>Bathurst Rural Clinical School (BRCS), School of Medicine, Faculty of Health, Western Sydney University, Bathurst, New South Wales, Australia.</li><li>Centre for Eye and Public Health Intervention Initiative (CEPHII), African Vision Research Institute, Discipline of Optometry, University of KwaZulu-Natal, Durban, South Africa.</li></ul></details></div>
+    </div></section>
+<section><h2>Ce qui manque <span class="badge regle">calculé par l'outil</span></h2><ul><li>question / objectif (pas de paragraphe dédié dans le résumé)</li><li>méthodes (pas de paragraphe dédié dans le résumé)</li><li>résultats chiffrés</li><li>données de tolérance</li></ul></section>
+<section><h2>Limites, intérêt pour la veille marketing, à retenir <span class="badge attente">non produit par l'outil</span></h2><p><span class="manque">Non rédigé automatiquement : les données extraites ne suffisent pas à produire une analyse fiable sans interprétation. Utilisez le bouton « Copier pour Claude / ChatGPT » pour obtenir une proposition, à vérifier.</span></p></section>
+<section><details><summary>Voir le texte copié par le bouton</summary>
+<textarea id="a-copier" readonly>Tu es assistant de veille scientifique sur le glaucome. À partir UNIQUEMENT des informations ci-dessous, rédige en français une fiche de synthèse avec ces rubriques :
+1. Question étudiée
+2. Traitement ou technologie
+3. Type d&#x27;étude
+4. Population et nombre de participants
+5. Comparateur
+6. Critères évalués
+7. Principaux résultats chiffrés (recopie les valeurs exactes et indique leur source)
+8. Données de tolérance
+9. Limites
+10. Intérêt potentiel pour une veille marketing — présenté comme une INTERPRÉTATION, séparé des faits
+11. À retenir (une phrase)
+
+Règles :
+- N&#x27;invente rien. Si une information manque, écris « non rapporté ».
+- Distingue un essai simplement enregistré, un protocole, des résultats déposés dans un registre et une publication de résultats.
+- Si la source est seulement le résumé d&#x27;un article, indique que la synthèse repose uniquement sur ce résumé.
+- Les rôles « suggérés » (traitement étudié / comparateur) sont à vérifier dans le texte source.
+- Ne confonds pas promoteur d&#x27;essai, financeur et affiliation des auteurs.
+- Termine par la liste des points à vérifier.
+
+=== INFORMATIONS ===
+SOURCE : PubMed, PMID 42873790 — https://pubmed.ncbi.nlm.nih.gov/42873790/ · DOI https://doi.org/10.1371/journal.pgph.0005585
+BASE : résumé PubMed uniquement (texte intégral non lu)
+Titre : Feasibility and immediate effects of a multimodal, dance-integrated educational video package on eye health knowledge and intentions in Nigeria: A pre-post pilot study.
+Revue : PLOS global public health · entrée PubMed : 2026-10-14
+Types de publication (PubMed) : Journal Article
+Produits repérés automatiquement (rôles SUGGÉRÉS, à vérifier) : aucun
+Molécules hors liste (repérage automatique, à vérifier) : aucune
+Essai lié : aucun
+Financeurs : VOSH International [CONFIRMÉ — déclaré par l&#x27;éditeur dans Crossref (absent d&#x27;OpenAlex)]
+Affiliations (institutions, pas des financeurs) : University of Benin (NG, education); Kwame Nkrumah University of Science and Technology (GH, education); University of Tasmania (AU, education); Western Sydney University (AU, education); University of KwaZulu-Natal (ZA, education)
+
+RÉSUMÉ (texte source) :
+Dance, as a culturally embedded and universally accessible form of art, offers a promising medium for health education in settings with diverse literacy levels. This pilot study evaluated the feasibility and immediate effects of a multimodal, dance-integrated educational video package designed to improve eye health knowledge, attitudes, and preventive intentions among Nigerian adults. Between April 11 and June 22, 2025, adults recruited through optometry clinics and community outreach programmes viewed culturally tailored educational videos addressing at least one eye condition (myopia, cataract, or glaucoma) and general eye health, including common myths and preventive practices. Pre-post changes were assessed using paired comparisons, with subgroup analyses by educational attainment. Among 438 participants, 77.7% were aged 18-44 years, 52.5% were female, 75.1% had higher education, 80.0% reported existing health-promoting behaviours, and 79.7% considered regular eye examinations important. Following the intervention, perceived eye health knowledge increased from 42.0% to 68.0% (absolute increase, 26.0 percentage points; relative increase, 61.9%; p = 0.013; Cramér&#x27;s V = 0.279), while objective eye health knowledge scores increased by 52.4 percentage points (p = 0.013; Cramér&#x27;s V = 0.069). Self-reported intentions to adopt protective practices, including wearing sunglasses, reducing screen time, and attending regular eye examinations, also increased. Overall intention to visit an eye clinic increased by 10%, although this change was not statistically significant (p = 0.443), likely reflecting high baseline health-seeking intentions. The largest improvements in willingness to attend regular check-ups occurred among participants with secondary education (27.5% to 96.3%, p &lt; 0.001) and those with primary or no formal education (41.4% to 96.6%, p &lt; 0.001). Dance-integrated educational videos were associated with immediate improvements in eye health knowledge and preventive intentions, particularly among participants with lower educational attainment, supporting their potential as a culturally relevant and scalable approach to eye health communication in diverse, resource-limited settings and community-based health promotion programmes.</textarea></details></section>
+<p><small>Fiche générée le 2026-11-11 22:40 par Glaucoma Intelligence. Extraits des sources en langue originale.</small></p>
+</main><script>
+function copierFiche(){
+  var zone=document.getElementById('a-copier'), bouton=document.getElementById('bouton-copier');
+  function fait(){bouton.textContent='Copié ✓ — collez dans Claude ou ChatGPT';setTimeout(function(){bouton.textContent='Copier pour Claude / ChatGPT'},3000);}
+  function secours(){zone.parentElement.open=true;zone.select();try{document.execCommand('copy');fait();}
+    catch(err){bouton.textContent='Sélectionnez le texte ci-dessous puis Ctrl+C';}}
+  if(navigator.clipboard&&window.isSecureContext){navigator.clipboard.writeText(zone.value).then(fait,secours);}else{secours();}
+}
+</script></body></html>

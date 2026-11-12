@@ -1,0 +1,58 @@
+{
+  "openalex_id": "W7166706899",
+  "premiere_detection": "2026-09-25",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "openalex_id": "W7166706899",
+    "doi": "10.21203/rs.3.rs-10186246/v1",
+    "pmid": null,
+    "pmcid": null,
+    "titre": "Diagnostic Value of Anterior Segment Optical Coherence Tomography-Derived Schlemm's Canal Morphometry for Detecting Ocular Hypertension in Thyroid Eye Disease",
+    "lien": "https://openalex.org/W7166706899",
+    "date_publication": "2026-06-30",
+    "type": "preprint",
+    "revue": "Research Square",
+    "type_source": "repository",
+    "langue": null,
+    "indexe_dans": [
+      "crossref"
+    ],
+    "financeurs": null,
+    "subventions": null,
+    "institutions": [
+      {
+        "nom": "Tashkent Pediatric Medical Institute",
+        "pays": "UZ",
+        "type": "healthcare",
+        "ror": "https://ror.org/05s259e10"
+      }
+    ],
+    "acces_ouvert": true,
+    "statut_acces": "green",
+    "url_texte": "https://www.researchsquare.com/article/rs-10186246/latest.pdf",
+    "url_pdf": "https://www.researchsquare.com/article/rs-10186246/latest.pdf",
+    "licence": "cc-by",
+    "texte_integral_indexe": true,
+    "retracte": false,
+    "citations": 0,
+    "sujet_principal": "Glaucoma and retinal disorders",
+    "resume_present": false,
+    "resume": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "present_dans_pubmed": false
+  }
+}

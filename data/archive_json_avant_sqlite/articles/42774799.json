@@ -1,0 +1,100 @@
+{
+  "pmid": "42774799",
+  "premiere_detection": "2026-09-25",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42774799",
+    "titre": "Accuracy and Completeness of Online Patient Information on Nail-Patella Syndrome: A Pilot Cross-Sectional Study.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42774799/",
+    "doi": "10.7759/cureus.115019",
+    "pmcid": "PMC13595411",
+    "revue": "Cureus",
+    "date_entree_pubmed": "2026-09-23",
+    "date_publication": "2026-Aug",
+    "types_publication": [
+      "Journal Article"
+    ],
+    "resume_present": true,
+    "resume": "BACKGROUND: Nail-patella syndrome is a rare autosomal dominant multisystem disorder with musculoskeletal, renal, and ocular manifestations. Patients and families may rely on online resources, but the completeness and accuracy of this information have not been well characterized. This study evaluated English-language online information about nail-patella syndrome.\nMETHODS: A structured cross-sectional pilot search conducted on August 6, 2026, identified 24 candidate domains. Fifteen independent patient-facing websites were included in the primary analysis. Pages were grouped by source type and assessed using a 15-item Nail-Patella Syndrome Specific Content Score (range 0-15) and an accuracy-completeness score in which each item was rated 0 (absent), 1 (present but incomplete or partly inaccurate), or 2 (present and broadly accurate; range 0-30). GeneReviews and peer-reviewed literature formed the reference standard.\nRESULTS: The mean presence score was 13.2 of 15 (standard deviation 1.8; range 10-15), and the mean accuracy-completeness score was 23.7 of 30 (standard deviation 5.3; range 14-30). Government/non-profit websites had the highest mean accuracy-completeness score (26.0), followed by healthcare-provider (25.0), media/general-information (23.7), and commercial websites (20.0); differences were not statistically significant (Kruskal-Wallis H(3)=2.58, p=0.462). Nail, knee, and elbow manifestations were consistently described. Epidemiology was present on eight websites, while diagnosis/investigations, genetic counselling, and surveillance were each present on 11. Renal manifestations were mentioned on all websites, but only 10 were fully accurate; glaucoma was omitted by one website.\nCONCLUSIONS: This pilot study identified specific gaps in online patient-facing information about nail-patella syndrome, particularly concerning diagnosis, renal and ocular surveillance, and balanced management. These findings highlight areas for improvement in patient resources rather than establishing a definitive ranking of individual websites.",
+    "mots_cles_auteurs": [
+      "glaucoma",
+      "infodemiology",
+      "information accuracy",
+      "lmx1b",
+      "nail-patella syndrome",
+      "nephropathy",
+      "online health information",
+      "patient education"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 2,
+    "affiliations_auteurs": [
+      "Trauma and Orthopaedics, The Princess Alexandra Hospital National Health Service (NHS) Trust, Harlow, GBR.",
+      "Trauma and Orthopaedics, The Royal London Hospital, London, GBR."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7204034541",
+      "doi": "10.7759/cureus.115019",
+      "pmid": "42774799",
+      "pmcid": null,
+      "titre": "Accuracy and Completeness of Online Patient Information on Nail-Patella Syndrome: A Pilot Cross-Sectional Study",
+      "lien": "https://openalex.org/W7204034541",
+      "date_publication": "2026-08-23",
+      "type": "article",
+      "revue": "Cureus",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "pubmed"
+      ],
+      "financeurs": null,
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "Princess Alexandra Hospital NHS Trust",
+          "pays": "GB",
+          "type": "healthcare",
+          "ror": "https://ror.org/04kpzy923"
+        },
+        {
+          "nom": "Royal London Hospital",
+          "pays": "GB",
+          "type": "healthcare",
+          "ror": "https://ror.org/019my5047"
+        }
+      ],
+      "acces_ouvert": true,
+      "statut_acces": "diamond",
+      "url_texte": "https://doi.org/10.7759/cureus.115019",
+      "url_pdf": null,
+      "licence": "cc-by",
+      "texte_integral_indexe": false,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Renal Diseases and Glomerulopathies",
+      "resume_present": true,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-09-25",
+    "financements": []
+  }
+}

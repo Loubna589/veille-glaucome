@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>PMID 43012846 — fiche article</title><style>
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
+:root{--fond:#f4f7fb;--carte:#fff;--texte:#0f1d33;--doux:#52627a;--bord:#e2e8f0;--accent:#0b4f8a;
+--ok:#146c43;--ok-fond:#e3f4ea;--att:#8a5300;--att-fond:#fdf1d8;--ver:#b42318;--ver-fond:#fdeceb;
+--reg:#3f3c9e;--reg-fond:#ecebfb;--src-fond:#f1f5f9;--mark:#fff1a8;--manque:#b42318;--turquoise:#14b8a6;}
+@media (prefers-color-scheme:dark){:root{--fond:#0a1120;--carte:#101a2c;--texte:#e6edf7;--doux:#9db0ca;
+--bord:#1e2b42;--accent:#6fb4ff;--ok:#6fd6a0;--ok-fond:#12301f;--att:#f3c15e;--att-fond:#352a10;--ver:#ff9a8f;
+--ver-fond:#3a1714;--reg:#b4b2ff;--reg-fond:#24234a;--src-fond:#0d1626;--mark:#5a4d10;--manque:#ff9a8f;--turquoise:#2dd4bf;}}
+*{box-sizing:border-box}body{margin:0;background:var(--fond);color:var(--texte);
+font:15.5px/1.6 "Inter",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+:focus-visible{outline:3px solid var(--turquoise);outline-offset:2px;border-radius:6px}
+main{max-width:1000px;margin:0 auto;padding:20px 18px 64px}
+.bandeau{display:flex;align-items:center;gap:10px;font-weight:800;letter-spacing:-.02em;padding:6px 0 14px;color:var(--texte);text-decoration:none}
+.bandeau i{width:30px;height:30px;border-radius:9px;background:linear-gradient(135deg,#0b4f8a,#14b8a6);display:inline-block}
+header,section{background:var(--carte);border:1px solid var(--bord);border-radius:16px;padding:20px 24px;margin:0 0 16px;
+box-shadow:0 1px 2px rgba(15,29,51,.04),0 6px 20px -8px rgba(15,29,51,.12)}
+h1{font-size:1.45rem;line-height:1.3;margin:.2em 0 .5em}h2{font-size:1.1rem;margin:0 0 .6em;color:var(--accent)}
+h3{font-size:1rem;margin:1.1em 0 .4em}.surtitre{color:var(--doux);margin:0;font-size:.9rem}
+a{color:var(--accent)}small,.def{color:var(--doux)}.def{font-size:.88rem;margin:.2em 0 .6em}
+.grille{display:grid;grid-template-columns:max-content 1fr;gap:4px 16px;margin:12px 0 0}
+.grille dt{color:var(--doux)}.grille dd{margin:0}
+.badge{display:inline-block;font-size:.72rem;font-weight:600;padding:2px 8px;border-radius:999px;margin:2px 4px 2px 0;
+vertical-align:middle;background:var(--src-fond);color:var(--doux)}
+.badge.confirme{background:var(--ok-fond);color:var(--ok)}.badge.attente{background:var(--att-fond);color:var(--att)}
+.badge.verifier{background:var(--ver-fond);color:var(--ver)}.badge.regle{background:var(--reg-fond);color:var(--reg)}
+.rubrique{font-weight:600}.manque{color:var(--manque);font-style:italic}
+mark{background:var(--mark);color:inherit;padding:0 2px;border-radius:3px}
+blockquote{margin:.5em 0;padding:.5em .9em;border-left:3px solid var(--bord);background:var(--src-fond);border-radius:0 6px 6px 0}
+pre{white-space:pre-wrap;font-size:.85rem;background:var(--src-fond);padding:10px;border-radius:6px}
+.defile{overflow-x:auto}table{border-collapse:collapse;width:100%;font-size:.92rem;margin:.4em 0}
+th,td{border:1px solid var(--bord);padding:6px 8px;text-align:left;vertical-align:top}th{background:var(--src-fond)}
+.analyse{background:var(--src-fond);padding:6px 10px;border-radius:6px;font-size:.92rem}
+.acteurs{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px}
+.acteurs>div{border:1px solid var(--bord);border-radius:8px;padding:10px 12px}.acteurs h3{margin-top:0}
+.copier{position:sticky;top:0;z-index:2;display:flex;gap:12px;align-items:center;flex-wrap:wrap;
+background:var(--fond);padding:10px 0;margin-bottom:8px}
+button{font:inherit;font-weight:600;background:var(--accent);color:#fff;border:0;border-radius:8px;padding:9px 16px;cursor:pointer}
+@media (prefers-color-scheme:dark){button{color:#10141a}}
+textarea{width:100%;min-height:260px;font:13px/1.4 ui-monospace,Consolas,monospace;background:var(--src-fond);
+color:var(--texte);border:1px solid var(--bord);border-radius:6px;padding:8px}
+details{margin:.5em 0}summary{cursor:pointer;color:var(--accent)}
+.retour{font-size:.92rem;margin:0 0 4px}
+@media (max-width:600px){.grille{grid-template-columns:1fr}.grille dt{margin-top:6px}header,section{padding:14px}}
+</style></head>
+<body><main>
+<a class="bandeau" href="../index.html"><i aria-hidden="true"></i>Glaucoma Intelligence</a><nav class="retour"><a href="../index.html">Accueil</a> · <a href="../etudes.html">← Essais &amp; articles</a> · <a href="../recherche.html">Rechercher</a> · <a href="../carte.html">Carte des acteurs</a> · <a href="../alertes.html">Alertes</a></nav>
+<div class="copier"><button id="bouton-copier" type="button" onclick="copierFiche()">Copier pour Claude / ChatGPT</button>
+<small>Copie une consigne + les faits de cette fiche, à coller dans votre assistant.</small></div>
+
+    <header>
+      <p class="surtitre">Fiche article · PMID 43012846 · <a href="https://pubmed.ncbi.nlm.nih.gov/43012846/" target="_blank" rel="noopener">voir sur PubMed</a>
+         · <a href="https://doi.org/10.1097/MD.0000000000051326" target="_blank" rel="noopener">DOI 10.1097/MD.0000000000051326</a></p>
+      <h1 lang="en">Staged surgical management of an acute angle-closure crisis with medically refractory intraocular pressure elevation: A case report and literature review.</h1>
+      <p><span class="badge attente">PUBLICATION — résultats non identifiés dans le résumé</span> <span class="badge verifier">Synthèse fondée UNIQUEMENT sur le résumé PubMed : le texte intégral n'a pas été lu.</span></p>
+      <dl class="grille">
+        <dt>Revue</dt><dd>Medicine</dd>
+        <dt>Entrée dans PubMed</dt><dd>2026-11-11 · publication : 2026-Oct-30</dd>
+        <dt>Type(s) de publication (PubMed)</dt><dd lang="en">Journal Article, Case Reports, Review</dd>
+        <dt>Stade</dt><dd>Non renseigné</dd>
+        <dt>Accès au texte (OpenAlex)</dt><dd>non rapporté</dd>
+        <dt>Détecté par l'outil le</dt><dd>2026-11-11</dd>
+      </dl>
+      <p class="rubriques"><strong>Rubrique :</strong> <span class="rubrique">Dispositifs et chirurgie</span> <small>mot du titre : « surgical »</small> <span class="badge regle">classement automatique — règles dans config/rubriques.ini</span></p>
+    </header>
+<section><h2>Question étudiée <span class="badge source">Résumé PubMed (texte source)</span></h2><p><span class="manque">Pas de paragraphe « objectif » identifié dans le résumé</span></p></section><section><h2>Traitement ou technologie, et comparateur <span class="badge regle">règle automatique de l'outil</span></h2><ul><li><strong>carteolol</strong> — non déterminé <span class="badge regle">cité dans le résumé ou les mots-clés</span></li><li><strong>brinzolamide</strong> — non déterminé <span class="badge regle">cité dans le résumé ou les mots-clés</span></li><li><strong>pilocarpine</strong> — non déterminé <span class="badge regle">cité dans le résumé ou les mots-clés</span></li></ul><p class="def">Aucun rôle n'est confirmé : PubMed ne décrit pas les bras d'une étude. Un rôle pourrait être confirmé par le registre d'un essai lié de façon confirmée.</p></section><section><h2>Type d'étude et méthode <span class="badge source">Résumé PubMed (texte source)</span><span class="badge source">PubMed (types de publication)</span></h2><p>Type(s) de publication déclaré(s) par PubMed : <span lang="en">Journal Article, Case Reports, Review</span></p><blockquote lang="en"><strong>INTERVENTIONS</strong> During initial treatment with topical pilocarpine, carteolol, and brinzolamide, IOP in the RE increased from <mark>32</mark> to <mark>58 mm Hg</mark>. It remained markedly elevated despite <mark>2</mark> intravenous infusions of <mark>20%</mark> mannitol (<mark>50</mark> grams each), and emergency surgical peripheral iridectomy was performed. After the acute episode stabilized, the RE underwent phacoemulsification with intraocular lens implantation; the fellow eye subsequently underwent lens extraction with intraocular lens implantation.</blockquote></section><section><h2>Population et participants (phrases du résumé) <span class="badge source">Résumé PubMed (texte source)</span></h2><p><span class="manque">Nombre de participants non rapporté dans le résumé</span></p></section><section><h2>Résultats disponibles <span class="badge source">Résumé PubMed (texte source)</span></h2><p><span class="manque">Aucune partie « résultats » dans le résumé</span></p></section><section><h2>Données de tolérance (phrases du résumé) <span class="badge source">Résumé PubMed (texte source)</span></h2><p><span class="manque">Aucune donnée de tolérance dans le résumé</span></p></section><section><h2>Essai clinique lié <span class="badge source">PubMed (DataBankList et texte)</span></h2><ul><li><span class="manque">Aucun essai lié identifié</span></li></ul></section><section><h2>Promoteur, financeur et affiliations <span class="badge source">PubMed</span><span class="badge source">OpenAlex</span><span class="badge source">Crossref</span></h2><div class="acteurs">
+      <div><h3>Promoteur d'essai</h3><p class="def">Organisme responsable d'un essai, déclaré au registre.</p><p><span class="manque">Non affiché : aucun essai lié de façon confirmée</span></p></div>
+      <div><h3>Financeur</h3><p class="def">Organisme qui a financé la recherche, avec la notice qui le justifie.</p><p><span class="manque">Aucun financeur trouvé (PubMed, OpenAlex, Crossref)</span></p></div>
+      <div><h3>Affiliations des auteurs</h3><p class="def">Établissements où travaillent les auteurs (pas un financement).</p><details><summary>Affiliations telles que déclarées dans PubMed (1)</summary><ul><li>Department of Ophthalmology, The Fourth Affiliated Hospital of Soochow University, Suzhou, China.</li></ul></details></div>
+    </div></section>
+<section><h2>Ce qui manque <span class="badge regle">calculé par l'outil</span></h2><ul><li>question / objectif (pas de paragraphe dédié dans le résumé)</li><li>population et nombre de participants</li><li>résultats chiffrés</li><li>données de tolérance</li><li>financeur</li></ul></section>
+<section><h2>Limites, intérêt pour la veille marketing, à retenir <span class="badge attente">non produit par l'outil</span></h2><p><span class="manque">Non rédigé automatiquement : les données extraites ne suffisent pas à produire une analyse fiable sans interprétation. Utilisez le bouton « Copier pour Claude / ChatGPT » pour obtenir une proposition, à vérifier.</span></p></section>
+<section><details><summary>Voir le texte copié par le bouton</summary>
+<textarea id="a-copier" readonly>Tu es assistant de veille scientifique sur le glaucome. À partir UNIQUEMENT des informations ci-dessous, rédige en français une fiche de synthèse avec ces rubriques :
+1. Question étudiée
+2. Traitement ou technologie
+3. Type d&#x27;étude
+4. Population et nombre de participants
+5. Comparateur
+6. Critères évalués
+7. Principaux résultats chiffrés (recopie les valeurs exactes et indique leur source)
+8. Données de tolérance
+9. Limites
+10. Intérêt potentiel pour une veille marketing — présenté comme une INTERPRÉTATION, séparé des faits
+11. À retenir (une phrase)
+
+Règles :
+- N&#x27;invente rien. Si une information manque, écris « non rapporté ».
+- Distingue un essai simplement enregistré, un protocole, des résultats déposés dans un registre et une publication de résultats.
+- Si la source est seulement le résumé d&#x27;un article, indique que la synthèse repose uniquement sur ce résumé.
+- Les rôles « suggérés » (traitement étudié / comparateur) sont à vérifier dans le texte source.
+- Ne confonds pas promoteur d&#x27;essai, financeur et affiliation des auteurs.
+- Termine par la liste des points à vérifier.
+
+=== INFORMATIONS ===
+SOURCE : PubMed, PMID 43012846 — https://pubmed.ncbi.nlm.nih.gov/43012846/ · DOI https://doi.org/10.1097/MD.0000000000051326
+BASE : résumé PubMed uniquement (texte intégral non lu)
+Titre : Staged surgical management of an acute angle-closure crisis with medically refractory intraocular pressure elevation: A case report and literature review.
+Revue : Medicine · entrée PubMed : 2026-11-11
+Types de publication (PubMed) : Journal Article, Case Reports, Review
+Produits repérés automatiquement (rôles SUGGÉRÉS, à vérifier) : carteolol = non déterminé; brinzolamide = non déterminé; pilocarpine = non déterminé
+Molécules hors liste (repérage automatique, à vérifier) : aucune
+Essai lié : aucun
+Financeurs : aucun trouvé
+Affiliations (institutions, pas des financeurs) : voir PubMed
+
+RÉSUMÉ (texte source) :
+RATIONALE: Acute angle closure with markedly elevated intraocular pressure (IOP) is an ocular emergency. Initial management aims to lower IOP, reduce corneal edema and inflammation, and permit definitive relief of pupillary block, usually by laser peripheral iridotomy (LPI). When IOP remains uncontrolled and corneal edema or an extremely shallow anterior chamber precludes safe LPI, urgent surgical intervention may be required.
+PATIENT CONCERNS: A 61-year-old woman presented with a 7-hour history of pain, redness, and blurred vision in the right eye (RE), accompanied by headache.
+DIAGNOSES: Acute primary angle closure in the RE and primary angle-closure suspect status in the left eye (LE).
+INTERVENTIONS: During initial treatment with topical pilocarpine, carteolol, and brinzolamide, IOP in the RE increased from 32 to 58 mm Hg. It remained markedly elevated despite 2 intravenous infusions of 20% mannitol (50 grams each), and emergency surgical peripheral iridectomy was performed. After the acute episode stabilized, the RE underwent phacoemulsification with intraocular lens implantation; the fellow eye subsequently underwent lens extraction with intraocular lens implantation.
+OUTCOMES: After peripheral iridectomy, IOP in the RE decreased from 58 to 11 mm Hg without additional IOP-lowering medication, and central anterior chamber depth increased from 1.24 to 1.60 mm. At 6 months after subsequent bilateral lens extraction, IOP was 14 mm Hg in the RE and 15 mm Hg in the LE without IOP-lowering medication. Central anterior chamber depth increased from 1.24 to 4.36 mm in the RE and from 2.27 to 4.35 mm in the LE. Uncorrected visual acuity was 20/20 in the RE and 20/33 in the LE, and best-corrected visual acuity was 20/20 in both eyes.
+LESSONS: Emergency surgical peripheral iridectomy may serve as a rescue procedure in selected patients with medically uncontrolled acute angle closure when LPI is not feasible. Subsequent lens extraction may relieve residual lens-related anterior-segment crowding. However, this single case cannot establish the comparative effectiveness of the staged approach or whether peripheral iridectomy followed by lens extraction is the optimal treatment sequence.</textarea></details></section>
+<p><small>Fiche générée le 2026-11-11 22:40 par Glaucoma Intelligence. Extraits des sources en langue originale.</small></p>
+</main><script>
+function copierFiche(){
+  var zone=document.getElementById('a-copier'), bouton=document.getElementById('bouton-copier');
+  function fait(){bouton.textContent='Copié ✓ — collez dans Claude ou ChatGPT';setTimeout(function(){bouton.textContent='Copier pour Claude / ChatGPT'},3000);}
+  function secours(){zone.parentElement.open=true;zone.select();try{document.execCommand('copy');fait();}
+    catch(err){bouton.textContent='Sélectionnez le texte ci-dessous puis Ctrl+C';}}
+  if(navigator.clipboard&&window.isSecureContext){navigator.clipboard.writeText(zone.value).then(fait,secours);}else{secours();}
+}
+</script></body></html>

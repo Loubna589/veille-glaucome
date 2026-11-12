@@ -1,0 +1,125 @@
+{
+  "pmid": "42957245",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42957245",
+    "titre": "Macular Retinal Ganglion Cell Counts and Central Visual Field Sensitivity in Glaucoma: A Comparison of Logarithmic and Linear Scales.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42957245/",
+    "doi": "10.21873/invivo.14504",
+    "pmcid": "PMC13723984",
+    "revue": "In vivo (Athens, Greece)",
+    "date_entree_pubmed": "2026-10-29",
+    "date_publication": "2026",
+    "types_publication": [
+      "Journal Article"
+    ],
+    "resume_present": true,
+    "resume": "BACKGROUND/AIM: To evaluate the structure-function relationship between mean central differential light sensitivity, scaled in decibels (dB) and linear units (1/L), and estimated macular retinal ganglion cells (RGCs) counts derived using Medeiros' integrated algorithms in glaucoma patients.\nMATERIALS AND METHODS: In this study of 55 eyes, peripapillary retinal nerve fiber layer (RNFL) thickness was measured via spectral domain optical coherence tomography (SD-OCT), and functional sensitivity was assessed using 24-2 standard automated perimetry. Macular RGC counts were calculated from temporal sectors using Medeiros' formulas. Functional data averaged the 16 central perimetric points. Regression models and Pearson coefficients (r) compared both scaling methods.\nRESULTS: Macular RGC count averaged 465,939.5±213,096.2. The logarithmic model (dB) demonstrated an exceptional fit [y=-47.96+5.86ln(x); adjusted R2=0.8891; r=0.9440; p<0.0001]. The linear model (1/L) showed a strong correlation (y=-133.62+0.0019x; adjusted R2=0.7647; r=0.8770; p<0.0001), explaining 12% less variance overall.\nCONCLUSION: While the logarithmic scale offers superior overall fit, the linear scale (1/L) is clinically critical for detecting early, \"silent\" neural loss masked by perimetric data compression. These findings support optimizing the standard 24-2 grid through localized \"macular cluster indices\" to improve pre-perimetric glaucoma detection.",
+    "mots_cles_auteurs": [
+      "Glaucoma",
+      "ganglion cells",
+      "optical coherence tomography",
+      "visual field"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 6,
+    "affiliations_auteurs": [
+      "Hospital \"G. Mazzini\" of Teramo, Ophthalmology Department, Teramo, Italy; giampaolotroiano@gmail.com.",
+      "Department of Life, Health and Environmental Sciences, Section of Clinical and Molecular Medicine, University of L'Aquila, L'Aquila, Italy.",
+      "Department of Medical, Oral and Biotechnological Sciences, University \"G. D'Annunzio\" of Chieti-Pescara, Chieti, Italy."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": [
+      "Retinal Ganglion Cells",
+      "Humans",
+      "Glaucoma",
+      "Visual Fields",
+      "Tomography, Optical Coherence",
+      "Female",
+      "Visual Field Tests",
+      "Male",
+      "Cell Count",
+      "Middle Aged",
+      "Aged",
+      "Macula Lutea",
+      "Nerve Fibers"
+    ]
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": null,
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7224445433",
+      "doi": "10.21873/invivo.14504",
+      "pmid": "42957245",
+      "pmcid": "13723984",
+      "titre": "Macular Retinal Ganglion Cell Counts and Central Visual Field Sensitivity in Glaucoma: A Comparison of Logarithmic and Linear Scales",
+      "lien": "https://openalex.org/W7224445433",
+      "date_publication": "2026-10-29",
+      "type": "article",
+      "revue": "In Vivo",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "pubmed"
+      ],
+      "financeurs": null,
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "University of L'Aquila",
+          "pays": "IT",
+          "type": "education",
+          "ror": "https://ror.org/01j9p1r26"
+        },
+        {
+          "nom": "University of Chieti-Pescara",
+          "pays": "IT",
+          "type": "education",
+          "ror": "https://ror.org/00qjgza05"
+        }
+      ],
+      "acces_ouvert": true,
+      "statut_acces": "diamond",
+      "url_texte": "https://iv.iiarjournals.org/content/invivo/40/6/3657.full.pdf",
+      "url_pdf": "https://iv.iiarjournals.org/content/invivo/40/6/3657.full.pdf",
+      "licence": "cc-by-nc-nd",
+      "texte_integral_indexe": true,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Glaucoma and retinal disorders",
+      "resume_present": true,
+      "mesh": [
+        "Aged",
+        "Cell Count",
+        "Female",
+        "Glaucoma",
+        "Humans",
+        "Macula Lutea",
+        "Male",
+        "Middle Aged",
+        "Nerve Fibers",
+        "Retinal Ganglion Cells",
+        "Visual Fields",
+        "Tomography, Optical Coherence",
+        "Visual Field Tests"
+      ]
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": []
+  }
+}

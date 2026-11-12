@@ -1,0 +1,115 @@
+{
+  "pmid": "42902356",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42902356",
+    "titre": "Cost-effectiveness of iStent-based trabecular micro-bypass stenting combined with cataract surgery in mild-to-moderate open-angle glaucoma: a systematic review of analytic perspectives and time horizons.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42902356/",
+    "doi": "10.1186/s12962-026-00846-6",
+    "pmcid": "PMC13685196",
+    "revue": "Cost effectiveness and resource allocation : C/E",
+    "date_entree_pubmed": "2026-10-21",
+    "date_publication": "2026-Oct-20",
+    "types_publication": [
+      "Journal Article",
+      "Review"
+    ],
+    "resume_present": true,
+    "resume": "BACKGROUND: Glaucoma remains a major cause of irreversible blindness and was estimated to affect 64.3 million people worldwide in 2013. Despite growing clinical use of minimally invasive glaucoma surgery (MIGS), reimbursement and uptake remain constrained by uncertainty about long-term cost-effectiveness. iStent-based trabecular micro-bypass implantation is commonly performed at the time of cataract surgery in patients with mild-to-moderate open-angle glaucoma, yet its economic value has not been synthesised systematically across healthcare systems.\nOBJECTIVE: To evaluate the cost-effectiveness of iStent trabecular micro-bypass implantation performed concurrently with cataract surgery for mild-to-moderate open-angle glaucoma, and to examine how the analytic perspective and time horizon adopted in the underlying models relate to the decision the evidence is intended to inform.\nMETHODS: A systematic review was performed of published model-based economic evaluations. Eligible studies used a formal decision-analytic model, reported quality-adjusted life years (QALYs), and evaluated an iStent device implanted concurrently with cataract surgery. PubMed, Embase, the Cochrane Library and Web of Science were searched on 27 July 2026 without date, language or publication-type restriction. Incremental cost-effectiveness ratios (ICERs), QALYs, analytic perspectives, time horizons, discount rates and probabilistic results were extracted with a page reference for each value. Reporting was appraised item-by-item against CHEERS 2022. Findings were synthesised narratively; no quantitative pooling was attempted. Reporting followed PRISMA 2020.\nRESULTS: Of 418 records identified and 293 after de-duplication, eight economic evaluations from eight countries met the eligibility criteria. All eight compared the device added to cataract surgery against cataract surgery alone; seven used a cohort Markov model and one an individual-patient microsimulation. Six adopted a payer or health-system perspective and two a societal perspective; five used a lifetime horizon, one 35 years and two 15 years. No evaluation adopted a provider perspective or a base-case horizon shorter than 15 years. All eight reported a favourable base-case result in the mild-to-moderate target population: reported ratios included €1,154 per QALY in France, €12,676 in Spain, €13,037 in Italy, €10,955 to €15,673 in Germany, JPY 1,430,647 in Japan and A$2,430 in Australia, together with two instances of dominance. Six of the eight were funded by the device manufacturer. Incremental QALY gains were small throughout, between approximately 0.005 and 0.17, so the reported ratios are highly sensitive to small changes in the denominator. One study did not report a price year and for a second it could not be verified; no study reported a pre-specified health economic analysis plan, and none modelled long-term structural change in medication prices, prescribing practice or competing alternatives.\nCONCLUSIONS: The included peer-reviewed models generally project that adding an iStent-family device to cataract surgery can be cost-effective over long horizons. That projection depends on sustained medication reduction, on extrapolated glaucoma progression and on local device and treatment costs. Direct evidence that the modelled long-term clinical benefit is realised in practice and offsets the acquisition cost remains limited: the evidence base is small, concentrated in industry-funded analyses of a single device family drawing largely on the same two-year pivotal trial, and built on incremental QALY gains close to zero. All included evaluations adopt a payer, health-system or societal perspective over 15 years or longer, and none addresses whether the marginal cost of adding a stent to an already-scheduled cataract procedure is justified within an annual operating budget. This is a gap in the included QALY-based cost-utility literature; the review was not designed to identify provider-perspective budget-impact analyses outside these eligibility criteria.\nTRIAL REGISTRATION: Not applicable. This study is a systematic review of published economicevaluations; no clinical trial registration was required. The review was not registeredprospectively in PROSPERO.",
+    "mots_cles_auteurs": [
+      "Analytic perspective",
+      "Cost-utility analysis",
+      "Open-angle glaucoma",
+      "Time horizon",
+      "Trabecular micro-bypass stent"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 1,
+    "affiliations_auteurs": [
+      "Department of Clinical Neuroscience, Karolinska Institutet, Stockholm, Sweden. dan.drobin@ki.se."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7223012002",
+      "doi": "10.1186/s12962-026-00846-6",
+      "pmid": "42902356",
+      "pmcid": "13685196",
+      "titre": "Cost-effectiveness of iStent-based trabecular micro-bypass stenting combined with cataract surgery in mild-to-moderate open-angle glaucoma: a systematic review of analytic perspectives and time horizons",
+      "lien": "https://openalex.org/W7223012002",
+      "date_publication": "2026-10-20",
+      "type": "review",
+      "revue": "Cost Effectiveness and Resource Allocation",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "datacite",
+        "doaj",
+        "pubmed"
+      ],
+      "financeurs": [
+        {
+          "nom": "Karolinska Institutet",
+          "ror": "https://ror.org/056d84691"
+        }
+      ],
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "Karolinska Institutet",
+          "pays": "SE",
+          "type": "education",
+          "ror": "https://ror.org/056d84691"
+        }
+      ],
+      "acces_ouvert": true,
+      "statut_acces": "gold",
+      "url_texte": "https://link.springer.com/content/pdf/10.1186/s12962-026-00846-6.pdf",
+      "url_pdf": "https://link.springer.com/content/pdf/10.1186/s12962-026-00846-6.pdf",
+      "licence": "cc-by",
+      "texte_integral_indexe": true,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Glaucoma and retinal disorders",
+      "resume_present": true,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": [
+      {
+        "nom": "Karolinska Institutet",
+        "statut": "À VÉRIFIER — trouvé par OpenAlex seulement (l'éditeur n'a déclaré aucun financeur dans Crossref) ; à contrôler dans le texte de l'article",
+        "references": null,
+        "notices": [
+          [
+            "notice OpenAlex",
+            "https://api.openalex.org/works/W7223012002"
+          ],
+          [
+            "notice Crossref consultée (ne confirme pas ce financeur)",
+            "https://api.crossref.org/works/10.1186/s12962-026-00846-6"
+          ]
+        ],
+        "note": "cet organisme figure AUSSI parmi les institutions des auteurs : c'est une affiliation, information distincte"
+      }
+    ]
+  }
+}

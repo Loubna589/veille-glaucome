@@ -1,0 +1,137 @@
+{
+  "pmid": "42956176",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42956176",
+    "titre": "Development of a Corneal Biomechanical Risk Score for Visual Field Progression in Primary Open-Angle Glaucoma.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42956176/",
+    "doi": "10.1097/IJG.0000000000002796",
+    "pmcid": null,
+    "revue": "Journal of glaucoma",
+    "date_entree_pubmed": "2026-10-29",
+    "date_publication": "2026-Oct-28",
+    "types_publication": [
+      "Journal Article"
+    ],
+    "resume_present": true,
+    "resume": "PRECIS: This study developed and internally validated an exploratory risk score model based on four Corvis-ST parameters to predict visual field progression in POAG. The model demonstrated acceptable predictive and risk-stratification performance.\nPURPOSE: To develop a risk score model based on corneal biomechanical properties for predicting visual field (VF) progression in patients with primary open-angle glaucoma (POAG).\nMETHODS: This prospective clinical cohort study included POAG patients with a follow-up period exceeding 18 months and at least six reliable visual field examinations. The initial screening of relevant factors was identified using a dual-screening strategy that combined LASSO-Cox regression model and univariate Cox regression models. Then staged Cox regression models and Kaplan-Meier survival analysis were applied to evaluate the association between these factors and VF progression. Based on these analyses, a weighted integer risk score model was developed, and patients were stratified into low-risk, medium-risk, and high-risk groups.\nRESULTS: A total of 129 patients were included, 46.5% of eyes showed progression, with a median progression time of 45 months. The final model incorporated velocity of applanation 1 (A1V), length of applanation 2 (A2L), time of applanation 2 (A2T), and pachymetry-adjusted intraocular pressure (IOP pachy). The risk score model predicted the outcome with a C-index of 0.701 (95% confidence interval [CI]: 0.620 - 0.760). It successfully stratified patients into groups with markedly different progression rates (Low: 17.2%, Medium: 45.7%, High: 76.7%; P < 0.001).\nCONCLUSIONS: This internally validated, exploratory risk score based on four corneal biomechanical parameters stratified POAG patients by risk of VF progression. Further validation is needed to determine its clinical utility.",
+    "mots_cles_auteurs": [
+      "corneal biomechanical parameters",
+      "primary open-angle glaucoma",
+      "risk factors",
+      "risk score model",
+      "visual field progression"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 7,
+    "affiliations_auteurs": [
+      "National Clinical Research Center for Ocular Diseases, Eye Hospital, Wenzhou Medical University, Wenzhou, 325027, China.",
+      "Glaucoma Research Institute, Wenzhou Medical University, Wenzhou, Zhejiang, 325027, China."
+    ],
+    "financeurs_declares": [
+      {
+        "organisme": "Program for Zhejiang Leading Talent of S&T Innovation",
+        "pays": "",
+        "reference": "2021R52012"
+      },
+      {
+        "organisme": "Key Research and Development Projects of Zhejiang Province",
+        "pays": "",
+        "reference": "2022C03112"
+      }
+    ],
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7224651949",
+      "doi": "10.1097/ijg.0000000000002796",
+      "pmid": "42956176",
+      "pmcid": null,
+      "titre": "Development of a Corneal Biomechanical Risk Score for Visual Field Progression in Primary Open-Angle Glaucoma",
+      "lien": "https://openalex.org/W7224651949",
+      "date_publication": "2026-10-28",
+      "type": "article",
+      "revue": "Journal of Glaucoma",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "pubmed"
+      ],
+      "financeurs": null,
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "Wenzhou Medical University",
+          "pays": "CN",
+          "type": "education",
+          "ror": "https://ror.org/00rd5t069"
+        },
+        {
+          "nom": "Affiliated Eye Hospital of Wenzhou Medical College",
+          "pays": "CN",
+          "type": "healthcare",
+          "ror": "https://ror.org/000sxmx78"
+        }
+      ],
+      "acces_ouvert": false,
+      "statut_acces": "closed",
+      "url_texte": null,
+      "url_pdf": null,
+      "licence": null,
+      "texte_integral_indexe": false,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Glaucoma and retinal disorders",
+      "resume_present": true,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": [
+      {
+        "nom": "Program for Zhejiang Leading Talent of S&T Innovation",
+        "statut": "CONFIRMÉ — déclaré dans la notice PubMed (GrantList)",
+        "references": [
+          "2021R52012"
+        ],
+        "notices": [
+          [
+            "notice PubMed",
+            "https://pubmed.ncbi.nlm.nih.gov/42956176/?format=pubmed"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "Key Research and Development Projects of Zhejiang Province",
+        "statut": "CONFIRMÉ — déclaré dans la notice PubMed (GrantList)",
+        "references": [
+          "2022C03112"
+        ],
+        "notices": [
+          [
+            "notice PubMed",
+            "https://pubmed.ncbi.nlm.nih.gov/42956176/?format=pubmed"
+          ]
+        ],
+        "note": null
+      }
+    ]
+  }
+}

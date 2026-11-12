@@ -1,0 +1,59 @@
+{
+  "pmid": "43009040",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "43009040",
+    "titre": "Chronic Topical Water-Soluble Cannabidiol Formulation Reduces Intraocular Pressure and Corneal Mechanical Sensitivity in DBA/2J Mice.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/43009040/",
+    "doi": "10.1016/j.ejphar.2026.179549",
+    "pmcid": null,
+    "revue": "European journal of pharmacology",
+    "date_entree_pubmed": "2026-11-10",
+    "date_publication": "2026-Nov-10",
+    "types_publication": [
+      "Journal Article"
+    ],
+    "resume_present": true,
+    "resume": "Glaucoma is a multifactorial neurodegenerative disease and a leading cause of irreversible blindness worldwide. Although elevated intraocular pressure (IOP) is the main modifiable risk factor, current therapies often fail to fully prevent disease progression and may cause ocular discomfort. Cannabidiol (CBD) has attracted increasing interest due to its anti-inflammatory, analgesic and vasoregulatory properties, yet its ocular effects remain controversial, partly due to formulation-dependent limitations and short-term administration paradigms. We evaluated a novel water-soluble topical CBD formulation in a spontaneous murine model of glaucoma (DBA/2J mice), using CD-1 mice as a non-glaucomatous comparator strain. IOP, tear production, corneal mechanical sensitivity and body weight were assessed longitudinally in conscious animals following acute and chronic CBD administration (once or twice daily). Contralateral untreated eyes were analyzed to investigate potential systemic or bilateral effects. Following an initial transient IOP increase, topical CBD progressively induced a significant and sustained reduction of IOP in the treated eyes of DBA/2J mice, particularly during chronic twice-daily administration. IOP changes in contralateral eyes were smaller and inconsistent, supporting a predominantly local ocular effect. CBD also increased corneal touch threshold in DBA/2J mice, indicating reduced corneal mechanical sensitivity, with effects persisting after treatment withdrawal. Tear production and body weight were not significantly affected in either strain, suggesting good ocular and systemic tolerability. Overall, chronic topical administration of a water-soluble CBD formulation lowered IOP and modulated corneal sensitivity in a strain-dependent manner. These findings support CBD as a potential adjunctive therapeutic strategy targeting both ocular hypertension and sensory dysfunction.",
+    "mots_cles_auteurs": [
+      "Cannabidiol",
+      "Glaucoma",
+      "Intraocular Pressure",
+      "Mice",
+      "Nociception",
+      "Ophthalmic Solutions"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 9,
+    "affiliations_auteurs": [
+      "Area of Pharmacology, Nutrition and Bromatology, Department of Basic Health Sciences, Universidad Rey Juan Carlos, Unidad Asociada de I+D+i al Instituto de Química Médica (IQM) CSIC-URJC, Avda. de Atenas s/n, Alcorcon Madrid E-28922, Spain; High Performance Experimental Pharmacology Research Group, Universidad Rey Juan Carlos (PHARMAKOM), Avda. de Atenas s/n, Alcorcon Madrid E-28922, Spain. Electronic address: miguelangel.garcia@urjc.es.",
+      "Area of Pharmacology, Nutrition and Bromatology, Department of Basic Health Sciences, Universidad Rey Juan Carlos, Unidad Asociada de I+D+i al Instituto de Química Médica (IQM) CSIC-URJC, Avda. de Atenas s/n, Alcorcon Madrid E-28922, Spain; High Performance Experimental Pharmacology Research Group, Universidad Rey Juan Carlos (PHARMAKOM), Avda. de Atenas s/n, Alcorcon Madrid E-28922, Spain. Electronic address: nancy.paniagua@urjc.es.",
+      "Area of Pharmacology, Nutrition and Bromatology, Department of Basic Health Sciences, Universidad Rey Juan Carlos, Unidad Asociada de I+D+i al Instituto de Química Médica (IQM) CSIC-URJC, Avda. de Atenas s/n, Alcorcon Madrid E-28922, Spain; High Performance Experimental Pharmacology Research Group, Universidad Rey Juan Carlos (PHARMAKOM), Avda. de Atenas s/n, Alcorcon Madrid E-28922, Spain. Electronic address: carmen.rodriguez@urjc.es.",
+      "Area of Pharmacology, Nutrition and Bromatology, Department of Basic Health Sciences, Universidad Rey Juan Carlos, Unidad Asociada de I+D+i al Instituto de Química Médica (IQM) CSIC-URJC, Avda. de Atenas s/n, Alcorcon Madrid E-28922, Spain; High Performance Experimental Pharmacology Research Group, Universidad Rey Juan Carlos (PHARMAKOM), Avda. de Atenas s/n, Alcorcon Madrid E-28922, Spain. Electronic address: paola.paradas@urjc.es.",
+      "Dipartimento di Economia e Impresa. Università degli Studi di Catania, Corso Italia 55, IT-95129 Catania, Italy. Electronic address: luca.martino@unict.it.",
+      "Area of Pharmacology, Nutrition and Bromatology, Department of Basic Health Sciences, Universidad Rey Juan Carlos, Unidad Asociada de I+D+i al Instituto de Química Médica (IQM) CSIC-URJC, Avda. de Atenas s/n, Alcorcon Madrid E-28922, Spain; High Performance Experimental Pharmacology Research Group, Universidad Rey Juan Carlos (PHARMAKOM), Avda. de Atenas s/n, Alcorcon Madrid E-28922, Spain. Electronic address: miguel.molina@lasallecampus.es.",
+      "Area of Pharmacology, Nutrition and Bromatology, Department of Basic Health Sciences, Universidad Rey Juan Carlos, Unidad Asociada de I+D+i al Instituto de Química Médica (IQM) CSIC-URJC, Avda. de Atenas s/n, Alcorcon Madrid E-28922, Spain; High Performance Experimental Pharmacology Research Group, Universidad Rey Juan Carlos (PHARMAKOM), Avda. de Atenas s/n, Alcorcon Madrid E-28922, Spain. Electronic address: rocio.giron@urjc.es.",
+      "Area of Pharmacology, Nutrition and Bromatology, Department of Basic Health Sciences, Universidad Rey Juan Carlos, Unidad Asociada de I+D+i al Instituto de Química Médica (IQM) CSIC-URJC, Avda. de Atenas s/n, Alcorcon Madrid E-28922, Spain; High Performance Experimental Pharmacology Research Group, Universidad Rey Juan Carlos (PHARMAKOM), Avda. de Atenas s/n, Alcorcon Madrid E-28922, Spain. Electronic address: carlos.goicoechea@urjc.es.",
+      "Area of Pharmacology, Nutrition and Bromatology, Department of Basic Health Sciences, Universidad Rey Juan Carlos, Unidad Asociada de I+D+i al Instituto de Química Médica (IQM) CSIC-URJC, Avda. de Atenas s/n, Alcorcon Madrid E-28922, Spain; High Performance Experimental Pharmacology Research Group, Universidad Rey Juan Carlos (PHARMAKOM), Avda. de Atenas s/n, Alcorcon Madrid E-28922, Spain. Electronic address: eva.sanchez@urjc.es."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    }
+  }
+}

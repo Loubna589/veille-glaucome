@@ -1,0 +1,146 @@
+{
+  "pmid": "42965573",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42965573",
+    "titre": "Clinical Profile, Management Strategies, and Outcomes of Ocular Sarcoidosis: An Egyptian Multicenter Retrospective Study.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42965573/",
+    "doi": "10.1080/09273948.2026.2757561",
+    "pmcid": null,
+    "revue": "Ocular immunology and inflammation",
+    "date_entree_pubmed": "2026-10-31",
+    "date_publication": "2026-Oct-31",
+    "types_publication": [
+      "Journal Article"
+    ],
+    "resume_present": true,
+    "resume": "PURPOSE: To characterize the clinical spectrum, investigations, management, and outcomes of ocular sarcoidosis in Egyptian tertiary referral centers.\nMETHODS: A retrospective multicenter review included 170 patients presenting to 10 tertiary centers diagnosed with definite, presumed, or probable ocular sarcoidosis according to the 2019 International Workshop on Ocular Sarcoidosis criteria between 2020 and 2024. Demographic, clinical data, imaging/investigations, treatment, and visual and treatment outcome data were analyzed.\nRESULTS: Mean age was 37.2 ± 16.8 years, and 74.1% were female. Thirteen patients had definite sarcoidosis (7.6%), 53 patients presumed sarcoidosis (31.2%), and 104 probable sarcoidosis (61.2%). Bilateral disease occurred in 88.2% of patients. Uveitis was the predominant presentation, with panuveitis (43.4%) and intermediate uveitis (24.1%) being the most common. Cataract (46.5%), posterior synechiae (42.9%), cystoid macular edema (28.8%), and glaucoma (21.8%) were frequent complications. Serum ACE was elevated in 27% of patients, while chest imaging demonstrated hilar/mediastinal lymphadenopathy in 44%. Among 102 patients with available tuberculosis screening, 13.7% tested positive. Most patients received systemic corticosteroids with steroid-sparing immunosuppressive therapy. Categorical analysis of visual-loss severity demonstrated a significant shift, with 42 eyes improving by at least one category and 5 eyes worsening (p < 0.001).\nCONCLUSIONS: Ocular sarcoidosis in Egypt commonly presents as bilateral panuveitis in young women. The variable findings on serum ACE, chest imaging, and tuberculosis screening highlight the need for an integrated clinical, ocular, and systemic evaluation when diagnosing ocular sarcoidosis. Early immunomodulatory therapy was associated with improved inflammatory control.",
+    "mots_cles_auteurs": [
+      "Biologic therapy",
+      "Egypt",
+      "IWOS criteria",
+      "ocular sarcoidosis",
+      "sarcoid uveitis"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 18,
+    "affiliations_auteurs": [
+      "Department of Ophthalmology, Faculty of Medicine, Alexandria University, Alexandria, Egypt.",
+      "Department of Ophthalmology, Faculty of Medicine, Mansoura University, Mansoura, Egypt.",
+      "Department of Ophthalmology, Research Institute of Ophthalmology, Giza, Egypt.",
+      "Department of Ophthalmology, Watany Eye Hospital, Cairo, Egypt.",
+      "Department of Ophthalmology, Kasr Al-Ainy Faculty of Medicine, Cairo University, Cairo, Egypt.",
+      "Department of Ophthalmology, Faculty of Medicine, Assiut University, Asyut, Egypt.",
+      "Department of Ophthalmology, Memorial Institute of Ophthalmic Research (MIOR), Cairo, Egypt.",
+      "Department of Ophthalmology, Al-Ein Eye Center, Cairo, Egypt.",
+      "Department of Ophthalmology, Al-Mashreq Eye Center, Cairo, Egypt.",
+      "Department of Ophthalmology, Capital Eye Center, Cairo, Egypt.",
+      "Department of Ophthalmology, New Cairo Specialized hospital, Cairo, Egypt.",
+      "Department of Ophthalmology, Faculty of Medicine, Menoufia University, Shebeen El-Kom, Egypt.",
+      "Department of Ophthalmology, Faculty of Medicine for Girls, Al-Azhar University, Cairo, Egypt.",
+      "Department of Ophthalmology, Doctor Samir Eye Clinic, Alexandria, Egypt.",
+      "Department of Ophthalmology, Kafr Elsheikh Ophthalmology Hospital, Kafr Elsheikh, Egypt."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7225007061",
+      "doi": "10.1080/09273948.2026.2757561",
+      "pmid": "42965573",
+      "pmcid": null,
+      "titre": "Clinical Profile, Management Strategies, and Outcomes of Ocular Sarcoidosis: An Egyptian Multicenter Retrospective Study",
+      "lien": "https://openalex.org/W7225007061",
+      "date_publication": "2026-10-31",
+      "type": "article",
+      "revue": "Ocular Immunology and Inflammation",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "pubmed"
+      ],
+      "financeurs": null,
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "Alexandria University",
+          "pays": "EG",
+          "type": "education",
+          "ror": "https://ror.org/00mzz1w90"
+        },
+        {
+          "nom": "Mansoura University",
+          "pays": "EG",
+          "type": "education",
+          "ror": "https://ror.org/01k8vtd75"
+        },
+        {
+          "nom": "Research Institute of Ophthalmology",
+          "pays": "EG",
+          "type": "facility",
+          "ror": "https://ror.org/01h0ca774"
+        },
+        {
+          "nom": "Cairo University",
+          "pays": "EG",
+          "type": "education",
+          "ror": "https://ror.org/03q21mh05"
+        },
+        {
+          "nom": "Assiut University",
+          "pays": "EG",
+          "type": "education",
+          "ror": "https://ror.org/01jaj8n65"
+        },
+        {
+          "nom": "Eye Center",
+          "pays": "SA",
+          "type": "healthcare",
+          "ror": "https://ror.org/02jecxg34"
+        },
+        {
+          "nom": "Menoufia University",
+          "pays": "EG",
+          "type": "education",
+          "ror": "https://ror.org/05sjrb944"
+        },
+        {
+          "nom": "Al-Azhar University",
+          "pays": "EG",
+          "type": "education",
+          "ror": "https://ror.org/05fnp1145"
+        }
+      ],
+      "acces_ouvert": false,
+      "statut_acces": "closed",
+      "url_texte": null,
+      "url_pdf": null,
+      "licence": null,
+      "texte_integral_indexe": false,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Sarcoidosis and Beryllium Toxicity Research",
+      "resume_present": true,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": []
+  }
+}

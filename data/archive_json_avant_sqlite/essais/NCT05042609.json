@@ -1,0 +1,484 @@
+{
+  "nct": "NCT05042609",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "nct": "NCT05042609",
+    "titre": "TRS4Vision - A Study of TRS01 in Subjects With Active Non-infectious Anterior Uveitis Including Subjects With Uveitic Glaucoma",
+    "titre_officiel": "A Phase 3 Randomized, Active-Controlled, Double-Masked Study to Evaluate the Safety and Efficacy of TRS01 Eye Drops in the Treatment of Subjects With Active Non-infectious Anterior Uveitis Including Subjects With Uveitic Glaucoma",
+    "lien": "https://clinicaltrials.gov/study/NCT05042609",
+    "date_premiere_publication": "2021-09-13",
+    "date_derniere_mise_a_jour": "2026-10-22",
+    "type_etude": "INTERVENTIONAL",
+    "phases_declarees": [
+      "PHASE3"
+    ],
+    "statut": "COMPLETED",
+    "raison_arret": null,
+    "date_debut": "2021-09-20",
+    "date_fin_principale": "2023-06-29",
+    "promoteur": "Tarsier Pharma",
+    "type_promoteur": "INDUSTRY",
+    "collaborateurs": null,
+    "conditions": [
+      "Non-infectious Anterior Uveitis",
+      "Uveitic Glaucoma"
+    ],
+    "interventions": [
+      {
+        "type": "DRUG",
+        "nom": "TRS01"
+      },
+      {
+        "type": "DRUG",
+        "nom": "FDA approved steroid eye drop (masked)"
+      }
+    ],
+    "participants_nombre": 142,
+    "participants_type": "ACTUAL",
+    "criteres_principaux": [
+      {
+        "critere": "Anterior Chamber Cell (ACC) Grade = 0 on Day 28",
+        "delai": "28 days"
+      },
+      {
+        "critere": "Anterior Chamber Cell (ACC) Grade = 0 or 1 on Day 28",
+        "delai": "28 days"
+      }
+    ],
+    "resultats_deposes": true,
+    "publications_declarees": [
+      {
+        "pmid": "41485727",
+        "type": "RESULT"
+      }
+    ],
+    "resume_source": "The primary objective of this study is to evaluate the efficacy and safety of TRS01 eye drops compared to active comparator in subjects with active non-infectious anterior uveitis with or without uveitic glaucoma",
+    "citations_declarees": [
+      {
+        "pmid": "41485727",
+        "type": "RESULT",
+        "citation": "Chu DS, Tsui E, Rifkin LM, Palestine AG, Rich C, Thorne JE, Haim-Langford D, Milman Z, Fulcher E, Neumann R, DE Smet MD; TRS4Vision Study Group. Dazdotuftide: Novel Treatment for Noninfectious Uveitis with Superior Intraocular Pressure Safety Profile: A Randomized Clinical Trial. Am J Ophthalmol. 2026 Apr;284:78-87. doi: 10.1016/j.ajo.2025.12.034. Epub 2026 Jan 2."
+      }
+    ],
+    "plan": {
+      "repartition": "RANDOMIZED",
+      "modele": "PARALLEL",
+      "but_principal": "TREATMENT",
+      "insu": "QUADRUPLE",
+      "insu_pour": [
+        "PARTICIPANT",
+        "CARE_PROVIDER",
+        "INVESTIGATOR",
+        "OUTCOMES_ASSESSOR"
+      ],
+      "insu_description": null,
+      "modele_observationnel": null
+    },
+    "bras": [
+      {
+        "libelle": "TRS01",
+        "type": "EXPERIMENTAL",
+        "description": null,
+        "interventions": [
+          "Drug: TRS01"
+        ]
+      },
+      {
+        "libelle": "Active comparator",
+        "type": "ACTIVE_COMPARATOR",
+        "description": null,
+        "interventions": [
+          "Drug: FDA approved steroid eye drop (masked)"
+        ]
+      }
+    ],
+    "eligibilite": {
+      "criteres": "Inclusion Criteria:\n\n* At sites in the US: Male or female up to and including 75 years of age (including all pediatric age groups). At sites in the Europe: Male or female between 18 and 70 years of age, inclusive.\n* Diagnosed with active non-infectious anterior uveitis with anterior chamber cell Grade 2 (6-15 cells) or Grade 3 (16-30 cells) in the study eye that are without any treatment or with Stable Medical Therapy requiring further treatment.\n* Have Best Corrected Visual Acuity (BCVA) vision ≥ 65 letters in the non-study eye using Early Treatment Diabetic Retinopathy Study (ETDRS).\n\nExclusion Criteria:\n\n* Pregnant or breastfeeding females or females.\n* History of or active significant ocular disease in either eye.\n* Uncontrolled intraocular pressure (IOP; defined as \\>27mmHg) or narrow angle glaucoma in either eye and/or are at risk of angle closure with dilating.\n* Poor posterior view due to limitation of dilation or media opacity that limits ability to examine the posterior segment.\n* Cancer or melanoma that is actively treated with immunotherapy.\n* Certain clinically significant systemic diseases or conditions.\n* Receiving specific medication/interventions as specified per protocol.",
+      "age_min": "0 Years",
+      "age_max": "75 Years",
+      "sexe": "ALL",
+      "volontaires_sains": false
+    },
+    "criteres_secondaires": [
+      {
+        "critere": "Change From Baseline (Day 1) in ACC Grade on Day 28 in the Study Eye",
+        "delai": "28 days"
+      },
+      {
+        "critere": "Anterior Chamber Cell (ACC) Grade on Day 21",
+        "delai": "21 days"
+      },
+      {
+        "critere": "Change From Baseline in ACC Grade on Day 21.",
+        "delai": "21 days"
+      },
+      {
+        "critere": "Anterior Chamber Cell (ACC) Grade = 0 or 1 on Day 21",
+        "delai": "21 days"
+      }
+    ],
+    "responsables": [
+      {
+        "nom": "Lexitas Clinical Trials",
+        "affiliation": "Lexitas",
+        "role": "STUDY_DIRECTOR"
+      }
+    ],
+    "date_depot_resultats": "2026-05-20",
+    "resultats": {
+      "flux_participants": [
+        {
+          "etape": "STARTED",
+          "par_groupe": [
+            {
+              "groupe": "TRS01",
+              "nombre": "90"
+            },
+            {
+              "groupe": "Active Comparator",
+              "nombre": "49"
+            }
+          ]
+        },
+        {
+          "etape": "COMPLETED",
+          "par_groupe": [
+            {
+              "groupe": "TRS01",
+              "nombre": "81"
+            },
+            {
+              "groupe": "Active Comparator",
+              "nombre": "46"
+            }
+          ]
+        },
+        {
+          "etape": "NOT COMPLETED",
+          "par_groupe": [
+            {
+              "groupe": "TRS01",
+              "nombre": "9"
+            },
+            {
+              "groupe": "Active Comparator",
+              "nombre": "3"
+            }
+          ]
+        }
+      ],
+      "criteres": [
+        {
+          "type": "PRIMARY",
+          "titre": "Anterior Chamber Cell (ACC) Grade = 0 on Day 28",
+          "description": "For FDA submission: the percentage of subjects with Anterior Chamber Cell (ACC) Grade=0 (0 cells) on Day 28 in the study eye.\n\nACC=0 is complete resolution of inflammation (0 cells).",
+          "delai": "28 days",
+          "parametre": "COUNT_OF_PARTICIPANTS",
+          "dispersion_type": null,
+          "unite": "Participants",
+          "population": "Participants with non-missing observations",
+          "valeurs": [
+            {
+              "groupe": "TRS01",
+              "sous_groupe": "ACC grade = 0: Yes",
+              "valeur": "38",
+              "dispersion": null,
+              "borne_basse": null,
+              "borne_haute": null,
+              "effectif_analyse": "82"
+            },
+            {
+              "groupe": "Active Comparator",
+              "sous_groupe": "ACC grade = 0: Yes",
+              "valeur": "32",
+              "dispersion": null,
+              "borne_basse": null,
+              "borne_haute": null,
+              "effectif_analyse": "47"
+            },
+            {
+              "groupe": "TRS01",
+              "sous_groupe": "ACC grade = 0: No",
+              "valeur": "44",
+              "dispersion": null,
+              "borne_basse": null,
+              "borne_haute": null,
+              "effectif_analyse": "82"
+            },
+            {
+              "groupe": "Active Comparator",
+              "sous_groupe": "ACC grade = 0: No",
+              "valeur": "15",
+              "dispersion": null,
+              "borne_basse": null,
+              "borne_haute": null,
+              "effectif_analyse": "47"
+            }
+          ],
+          "analyses": null
+        },
+        {
+          "type": "PRIMARY",
+          "titre": "Anterior Chamber Cell (ACC) Grade = 0 or 1 on Day 28",
+          "description": "For submission to European Medicines Agency (EMA) related countries: the percentage of subjects with ACC Grade = 0 or 1 on Day 28 in the study eye.\n\nACC=0 is complete resolution of inflammation (0 cells), ACC=1 represent trace cells.",
+          "delai": "28 days",
+          "parametre": "COUNT_OF_PARTICIPANTS",
+          "dispersion_type": null,
+          "unite": "Participants",
+          "population": "Participants with non-missing observations",
+          "valeurs": [
+            {
+              "groupe": "TRS01",
+              "sous_groupe": null,
+              "valeur": "52",
+              "dispersion": null,
+              "borne_basse": null,
+              "borne_haute": null,
+              "effectif_analyse": "82"
+            },
+            {
+              "groupe": "Active Comparator",
+              "sous_groupe": null,
+              "valeur": "42",
+              "dispersion": null,
+              "borne_basse": null,
+              "borne_haute": null,
+              "effectif_analyse": "47"
+            }
+          ],
+          "analyses": null
+        },
+        {
+          "type": "SECONDARY",
+          "titre": "Change From Baseline (Day 1) in ACC Grade on Day 28 in the Study Eye",
+          "description": "Change from baseline in Anterior Chamber Cell (ACC) score (measures ocular inflammation).\n\nACC scale range: 0-4 ACC grade 0 = No cells ACC grade 4 = Severe ACC level\n\nChange from baseline measures the mean change in ACC grade on Day 28 in the study eye",
+          "delai": "28 days",
+          "parametre": "MEAN",
+          "dispersion_type": "Standard Deviation",
+          "unite": "score on a scale",
+          "population": null,
+          "valeurs": [
+            {
+              "groupe": "TRS01",
+              "sous_groupe": null,
+              "valeur": "-1.9",
+              "dispersion": "0.8",
+              "borne_basse": null,
+              "borne_haute": null,
+              "effectif_analyse": "59"
+            },
+            {
+              "groupe": "Active Comparator",
+              "sous_groupe": null,
+              "valeur": "-2.2",
+              "dispersion": "0.7",
+              "borne_basse": null,
+              "borne_haute": null,
+              "effectif_analyse": "42"
+            }
+          ],
+          "analyses": null
+        },
+        {
+          "type": "SECONDARY",
+          "titre": "Anterior Chamber Cell (ACC) Grade on Day 21",
+          "description": "Proportion of subjects with ACC Grade=0 on Day 21 in the study eye.",
+          "delai": "21 days",
+          "parametre": "COUNT_OF_PARTICIPANTS",
+          "dispersion_type": null,
+          "unite": "Participants",
+          "population": "Participants with non-missing observations",
+          "valeurs": [
+            {
+              "groupe": "TRS01",
+              "sous_groupe": null,
+              "valeur": "32",
+              "dispersion": null,
+              "borne_basse": null,
+              "borne_haute": null,
+              "effectif_analyse": "77"
+            },
+            {
+              "groupe": "Active Comparator",
+              "sous_groupe": null,
+              "valeur": "29",
+              "dispersion": null,
+              "borne_basse": null,
+              "borne_haute": null,
+              "effectif_analyse": "45"
+            }
+          ],
+          "analyses": null
+        },
+        {
+          "type": "SECONDARY",
+          "titre": "Change From Baseline in ACC Grade on Day 21.",
+          "description": "Change from baseline in Anterior Chamber Cell (ACC) score (measures ocular inflammation).\n\nACC scale range: 0-4 ACC grade 0 = No cells ACC grade 4 = Severe ACC level Change from baseline measures the mean change in ACC grade on Day 21 in the study eye",
+          "delai": "21 days",
+          "parametre": "MEAN",
+          "dispersion_type": "Standard Deviation",
+          "unite": "score on a scale",
+          "population": null,
+          "valeurs": [
+            {
+              "groupe": "TRS01",
+              "sous_groupe": null,
+              "valeur": "-1.7",
+              "dispersion": "1.0",
+              "borne_basse": null,
+              "borne_haute": null,
+              "effectif_analyse": "58"
+            },
+            {
+              "groupe": "Active Comparator",
+              "sous_groupe": null,
+              "valeur": "-2.1",
+              "dispersion": "0.7",
+              "borne_basse": null,
+              "borne_haute": null,
+              "effectif_analyse": "41"
+            }
+          ],
+          "analyses": null
+        },
+        {
+          "type": "SECONDARY",
+          "titre": "Anterior Chamber Cell (ACC) Grade = 0 or 1 on Day 21",
+          "description": "Proportions of subjects with ACC Grade = 0 or 1 on Day 21 in the study eye. ACC=0 is complete resolution of inflammation (0 cells), ACC=1 represent trace cells.",
+          "delai": "21 days",
+          "parametre": "COUNT_OF_PARTICIPANTS",
+          "dispersion_type": null,
+          "unite": "Participants",
+          "population": "Participants with non-missing observations",
+          "valeurs": [
+            {
+              "groupe": "TRS01",
+              "sous_groupe": null,
+              "valeur": "50",
+              "dispersion": null,
+              "borne_basse": null,
+              "borne_haute": null,
+              "effectif_analyse": "77"
+            },
+            {
+              "groupe": "Active Comparator",
+              "sous_groupe": null,
+              "valeur": "40",
+              "dispersion": null,
+              "borne_basse": null,
+              "borne_haute": null,
+              "effectif_analyse": "45"
+            }
+          ],
+          "analyses": null
+        }
+      ],
+      "evenements_indesirables": {
+        "periode": "6 weeks",
+        "seuil_frequence_pct": "5",
+        "par_groupe": [
+          {
+            "groupe": "TRS01",
+            "exposes": 90,
+            "graves": 2,
+            "autres": 7,
+            "deces": 0
+          },
+          {
+            "groupe": "Active Comparator",
+            "exposes": 49,
+            "graves": 0,
+            "autres": 8,
+            "deces": 0
+          }
+        ],
+        "graves": [
+          {
+            "terme": "Optic neuritis",
+            "systeme": "Nervous system disorders",
+            "par_groupe": [
+              {
+                "groupe": "TRS01",
+                "touches": 1,
+                "exposes": 90
+              },
+              {
+                "groupe": "Active Comparator",
+                "touches": 0,
+                "exposes": 49
+              }
+            ]
+          },
+          {
+            "terme": "Hospitalization Secondary to Diabetic Ketoacidosis and COVID-19",
+            "systeme": "Metabolism and nutrition disorders",
+            "par_groupe": [
+              {
+                "groupe": "TRS01",
+                "touches": 1,
+                "exposes": 90
+              },
+              {
+                "groupe": "Active Comparator",
+                "touches": null,
+                "exposes": 49
+              }
+            ]
+          }
+        ],
+        "autres": [
+          {
+            "terme": "Intra ocular pressure increased",
+            "systeme": "Investigations",
+            "par_groupe": [
+              {
+                "groupe": "TRS01",
+                "touches": 1,
+                "exposes": 90
+              },
+              {
+                "groupe": "Active Comparator",
+                "touches": 3,
+                "exposes": 49
+              }
+            ]
+          },
+          {
+            "terme": "Headache",
+            "systeme": "Nervous system disorders",
+            "par_groupe": [
+              {
+                "groupe": "TRS01",
+                "touches": 6,
+                "exposes": 90
+              },
+              {
+                "groupe": "Active Comparator",
+                "touches": 5,
+                "exposes": 49
+              }
+            ]
+          },
+          {
+            "terme": "Dysgeusia",
+            "systeme": "Nervous system disorders",
+            "par_groupe": [
+              {
+                "groupe": "TRS01",
+                "touches": 0,
+                "exposes": 90
+              },
+              {
+                "groupe": "Active Comparator",
+                "touches": 3,
+                "exposes": 49
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "modifications": []
+}

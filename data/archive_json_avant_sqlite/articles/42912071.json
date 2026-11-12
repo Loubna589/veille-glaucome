@@ -1,0 +1,121 @@
+{
+  "pmid": "42912071",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42912071",
+    "titre": "Fundus camera and artificial intelligence for diabetic retinopathy screening in a São Paulo shelter.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42912071/",
+    "doi": "10.1590/1806-9282.20260862",
+    "pmcid": "PMC13674949",
+    "revue": "Revista da Associacao Medica Brasileira (1992)",
+    "date_entree_pubmed": "2026-10-23",
+    "date_publication": "2026",
+    "types_publication": [
+      "Journal Article"
+    ],
+    "resume_present": true,
+    "resume": "OBJECTIVE: The aim of this study was to evaluate the applicability of a smartphone-based portable fundus camera for diabetic retinopathy screening in elderly residents of a specialized shelter in São Paulo, Brazil, considering image acquisition by non-ophthalmologist professionals and remote case classification.\nMETHODS: Prospective pilot interventional study at the Centro de Acolhida Especial para Idosos Morada São João. Thirty-eight participants (76 eyes) underwent retinal imaging using the Eyer® portable fundus camera (Phelcom Technologies, Brazil) by trained non-ophthalmologist professionals. Images were remotely evaluated by a retinal specialist and compared to the EyerMaps® artificial intelligence system.\nRESULTS: Mean age was 71.6±7.0 years; 78.9% male. Fifteen participants (39.5%) had confirmed diabetes mellitus. The specialist identified abnormalities in 70 of 76 eyes (92.1%), most frequently glaucoma suspicion, media opacity suggestive of cataract, chorioretinal changes, and age-related macular degeneration signs; no diabetic retinopathy was identified. Against the specialist's assessment of any ocular abnormality as the reference standard, the artificial intelligence system classified 22 eyes as abnormal, yielding sensitivity 25.7% (95%CI 16.9-37.0), specificity 33.3% (95%CI 9.7-70.0), positive predictive value 81.8% (95%CI 61.5-92.7), negative predictive value 3.7% (95%CI 1.0-12.5), and overall accuracy 26.3% (95%CI 17.7-37.2).\nCONCLUSION: The Eyer® device demonstrated operational feasibility for ocular screening by trained non-ophthalmologists. The high prevalence of media opacities and non-diabetic retinopathy conditions compromised artificial intelligence performance, highlighting the need for broader screening strategies in elderly and socially vulnerable populations.",
+    "mots_cles_auteurs": null,
+    "langue": "eng",
+    "nombre_auteurs": 4,
+    "affiliations_auteurs": [
+      "Irmandade da Santa Casa de Misericórdia de São Paulo - São Paulo (SP), Brazil.",
+      "Irmandade da Santa Casa de Misericórdia de São Paulo, Department of Ophthalmology - São Paulo (SP), Brazil."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": [
+      "Humans",
+      "Diabetic Retinopathy",
+      "Male",
+      "Aged",
+      "Female",
+      "Prospective Studies",
+      "Pilot Projects",
+      "Brazil",
+      "Artificial Intelligence",
+      "Sensitivity and Specificity",
+      "Smartphone",
+      "Photography",
+      "Mass Screening",
+      "Fundus Oculi",
+      "Reproducibility of Results",
+      "Aged, 80 and over",
+      "Middle Aged"
+    ]
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": null,
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7222505904",
+      "doi": "10.1590/1806-9282.20260862",
+      "pmid": "42912071",
+      "pmcid": "13674949",
+      "titre": "Fundus camera and artificial intelligence for diabetic retinopathy screening in a São Paulo shelter",
+      "lien": "https://openalex.org/W7222505904",
+      "date_publication": "2026-01-01",
+      "type": "article",
+      "revue": "Revista da Associação Médica Brasileira",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "pubmed"
+      ],
+      "financeurs": null,
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "Irmandade da Santa Casa de Misericórdia de São Paulo",
+          "pays": "BR",
+          "type": "healthcare",
+          "ror": "https://ror.org/003nnep52"
+        }
+      ],
+      "acces_ouvert": true,
+      "statut_acces": "diamond",
+      "url_texte": "https://www.scielo.br/j/ramb/a/NyNrXqhvrvTPN46Djt7G3mn/?lang=en&format=pdf",
+      "url_pdf": "https://www.scielo.br/j/ramb/a/NyNrXqhvrvTPN46Djt7G3mn/?lang=en&format=pdf",
+      "licence": "cc-by",
+      "texte_integral_indexe": true,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Retinal Imaging and Analysis",
+      "resume_present": true,
+      "mesh": [
+        "Smartphone",
+        "Aged",
+        "Aged, 80 and over",
+        "Artificial Intelligence",
+        "Brazil",
+        "Diabetic Retinopathy",
+        "Female",
+        "Fundus Oculi",
+        "Humans",
+        "Male",
+        "Mass Screening",
+        "Middle Aged",
+        "Photography",
+        "Pilot Projects",
+        "Prospective Studies",
+        "Sensitivity and Specificity",
+        "Reproducibility of Results"
+      ]
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": []
+  }
+}

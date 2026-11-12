@@ -1,0 +1,79 @@
+{
+  "pmid": "42972051",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42972051",
+    "titre": "Assessment of the association between superficial macular microvasculature and central 12° visual field in severe primary open angle glaucoma.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42972051/",
+    "doi": "10.1038/s41433-026-04978-0",
+    "pmcid": null,
+    "revue": "Eye (London, England)",
+    "date_entree_pubmed": "2026-11-02",
+    "date_publication": "2026-Nov-02",
+    "types_publication": [
+      "Journal Article"
+    ],
+    "resume_present": false,
+    "resume": null,
+    "mots_cles_auteurs": null,
+    "langue": "eng",
+    "nombre_auteurs": 4,
+    "affiliations_auteurs": [
+      "Department of Ophthalmology, University Hospital of Guadeloupe, Les Abymes, France. Drymonjulia@gmail.com.",
+      "Department of Ophthalmology, University Hospital of Guadeloupe, Les Abymes, France.",
+      "Clinical Investigation Center, University Hospital of Guadeloupe, Les Abymes, France."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7225129046",
+      "doi": "10.1038/s41433-026-04978-0",
+      "pmid": "42972051",
+      "pmcid": null,
+      "titre": "Assessment of the association between superficial macular microvasculature and central 12° visual field in severe primary open angle glaucoma",
+      "lien": "https://openalex.org/W7225129046",
+      "date_publication": "2026-11-02",
+      "type": "article",
+      "revue": "Eye",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "pubmed"
+      ],
+      "financeurs": null,
+      "subventions": null,
+      "institutions": null,
+      "acces_ouvert": false,
+      "statut_acces": "closed",
+      "url_texte": null,
+      "url_pdf": null,
+      "licence": null,
+      "texte_integral_indexe": false,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Glaucoma and retinal disorders",
+      "resume_present": false,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": []
+  }
+}

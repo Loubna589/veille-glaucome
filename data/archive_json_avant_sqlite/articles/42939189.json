@@ -1,0 +1,99 @@
+{
+  "pmid": "42939189",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42939189",
+    "titre": "Intraocular Pressure in Clinically Normal Alpacas: A Systematic Review and Meta-Analysis of Tono-Pen and TonoVet Tonometry.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42939189/",
+    "doi": "10.3390/ani16203259",
+    "pmcid": "PMC13700604",
+    "revue": "Animals : an open access journal from MDPI",
+    "date_entree_pubmed": "2026-10-27",
+    "date_publication": "2026-Oct-16",
+    "types_publication": [
+      "Journal Article",
+      "Review"
+    ],
+    "resume_present": true,
+    "resume": "Intraocular pressure (IOP) is a critical physiological indicator of ocular health in canines, felines, and equines, yet a precise, tool-independent baseline remains inconsistent in South American camelids. This study quantitatively evaluated the comparability and potential bias between Tono-Pen applanation and TonoVet rebound tonometry in clinically normal alpacas (Vicugna pacos). Following a systematic review of the literature published between 1990 and 2026 across MEDLINE, Web of Science, and CAB abstracts, data from six eligible studies encompassing 320 healthy eyes were extracted, including 500 tests. Tono-Pen pooled mean: 15.84 mmHg (95% CI: 14.06-17.62) and TonoVet pooled mean: 15.89 mmHg (95% CI: 13.79-17.99), respectively. Paired comparison demonstrated a clinically negligible pooled mean difference of +0.58 mmHg (95% CI: -1.85 to +3.02) between devices. Subgroup and meta-regression analyses confirmed that tonometer type did not significantly influence IOP measurements (β = -0.36 mmHg; 95% CI: -4.86 to +4.17; p = 0.85), though notable heterogeneity existed (tau2 ≒ 1.74-2.60; I2 > 90%) due to variations in populations and operator techniques. In conclusion, both Tono-Pen and TonoVet yield comparable intraocular pressure measurements. These findings provide an evidence-based pooled estimate of normal intraocular pressure in healthy alpacas, which is crucial for diagnosing ophthalmic pathologies like glaucoma and uveitis in camelid veterinary medicine.",
+    "mots_cles_auteurs": [
+      "Tono-Pen",
+      "TonoVet",
+      "Vicugna pacos",
+      "alpaca",
+      "applanation",
+      "intraocular pressure",
+      "meta-analysis",
+      "rebound",
+      "reference values",
+      "tonometry",
+      "veterinary ophthalmology"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 3,
+    "affiliations_auteurs": [
+      "Farm Animal Research Group, Department of Veterinary Medicine, National Chiayi University, No. 580, XinMin Rd., Chiayi City 60004, Taiwan.",
+      "Ph. D. Program of Agricultural Science, No.300 Syuefu Rd., Chiayi City 600048, Taiwan."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7222735804",
+      "doi": "10.3390/ani16203259",
+      "pmid": "42939189",
+      "pmcid": "13700604",
+      "titre": "Intraocular Pressure in Clinically Normal Alpacas: A Systematic Review and Meta-Analysis of Tono-Pen and TonoVet Tonometry",
+      "lien": "https://openalex.org/W7222735804",
+      "date_publication": "2026-10-16",
+      "type": "review",
+      "revue": "Animals",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "doaj",
+        "pubmed"
+      ],
+      "financeurs": null,
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "National Chiayi University",
+          "pays": "TW",
+          "type": "education",
+          "ror": "https://ror.org/04gknbs13"
+        }
+      ],
+      "acces_ouvert": true,
+      "statut_acces": "gold",
+      "url_texte": "https://doi.org/10.3390/ani16203259",
+      "url_pdf": null,
+      "licence": "cc-by",
+      "texte_integral_indexe": true,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Glaucoma and retinal disorders",
+      "resume_present": true,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": []
+  }
+}

@@ -1,0 +1,246 @@
+{
+  "pmid": "42896968",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42896968",
+    "titre": "Prescriptive Trends of Hyaluronic Acid Eye Drops: Analysis of Korean Health Insurance Claims Database.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42896968/",
+    "doi": "10.3341/kjo.2026.0061",
+    "pmcid": null,
+    "revue": "Korean journal of ophthalmology : KJO",
+    "date_entree_pubmed": "2026-10-19",
+    "date_publication": "2026-Oct-19",
+    "types_publication": [
+      "Journal Article"
+    ],
+    "resume_present": true,
+    "resume": "PURPOSE: Hyaluronic acid (HA) eye drops are widely prescribed in South Korea, where they are available only by prescription and reimbursed by the National Health Insurance Service, yet recent evidence on prescribing patterns is limited. This study described HA eye drop prescription trends using National Health Insurance claims data from 2017 to 2021.\nMETHODS: This retrospective descriptive study used serial annual cross-sectional claims data from a proportionally stratified 8.5% sample of HA eye drop users, extrapolated to national estimates. Prescriptions were analyzed by demographics, formulation, and annual prescription duration. Annual percentage changes (APCs) with 95% confidence intervals (CIs) were estimated using log-linear regression, confirmed by the exact Mann-Kendall trend test.\nRESULTS: The number of patients increased from 7,434,447 in 2017 to 7,929,058 in 2021 (+6.7%; APC 1.10%, 95% CI -2.26 to 4.59), and prescriptions by 6.3% (APC 1.06%, 95% CI -2.01 to 4.22); neither trend was significant. Total prescription quantity increased 75.4%, to 44,885,574 standardized units (APC 15.24%, 95% CI 9.09 to 21.73). Multi-dose quantity declined (APC -3.35%, 95% CI -4.78 to -1.90) while unit-dose quantity increased by 162% (APC 27.54%, 95% CI 16.76 to 39.30). Patients with cumulative annual supply exceeding 180 day-equivalents increased from 12.9% to 24.2%, accounting for 62.8% of total quantity in 2021. Mean annual quantity per patient increased by 64.4% (3.44 to 5.66 units). These long-term users had higher recorded prevalences of retinal and choroidal disease (18.8% versus 8.5%) and glaucoma (12.5% versus 5.1%) as the principal diagnosis than short-term users.\nCONCLUSIONS: The number of patients receiving HA eye drops increased without significant trend, whereas total prescription quantity rose by three-quarters, with increased supply per patient, marked shift toward unit-dose formulations, and growth concentrated among long-term users. These findings illustrate recent prescribing patterns of HA eye drops in South Korea and indicate that patient counts alone understate HA eye drop utilization growth.",
+    "mots_cles_auteurs": [
+      "Drug utilization",
+      "Hyaluronic acid",
+      "National Health Insurance",
+      "Ophthalmic solutions",
+      "Republic of Korea"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 8,
+    "affiliations_auteurs": [
+      "Department of Ophthalmology, Asan Medical Center, University of Ulsan College of Medicine, Seoul, Republic of Korea.",
+      "Yonsei University College of Medicine, Wonju, Republic of Korea.",
+      "Laboratory of Ophthalmology, SAMIL Pharmaceutical Co., Ltd., Seoul, Republic of Korea.",
+      "Department of Ophthalmology, Kangbuk Samsung Hospital, Sungkyunkwan University School of Medicine, Seoul, Republic of Korea.",
+      "Department of Ophthalmology, Pusan National University Hospital, Pusan National University School of Medicine and Medical Research Institute, Yangsan, Republic of Korea.",
+      "Department of Ophthalmology, Korea University College of Medicine, Seoul, Republic of Korea. amidfree@gmail.com.",
+      "Department of Ophthalmology, Asan Medical Center, University of Ulsan College of Medicine, Seoul, Republic of Korea. jykim2311@amc.seoul.kr."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7222973375",
+      "doi": "10.3341/kjo.2026.0061",
+      "pmid": "42896968",
+      "pmcid": null,
+      "titre": "Prescriptive Trends of Hyaluronic Acid Eye Drops: Analysis of Korean Health Insurance Claims Database",
+      "lien": "https://openalex.org/W7222973375",
+      "date_publication": "2026-10-19",
+      "type": "article",
+      "revue": "Korean Journal of Ophthalmology",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "doaj",
+        "pubmed"
+      ],
+      "financeurs": [
+        {
+          "nom": "National Research Foundation of Korea",
+          "ror": "https://ror.org/013aysd81"
+        },
+        {
+          "nom": "Ministry of Science and ICT, South Korea",
+          "ror": "https://ror.org/01wpjm123"
+        },
+        {
+          "nom": "Korea University Anam Hospital",
+          "ror": "https://ror.org/04gjj3027"
+        }
+      ],
+      "subventions": [
+        {
+          "financeur": "Korea University Anam Hospital",
+          "reference": "K2319651"
+        },
+        {
+          "financeur": "Korea University Anam Hospital",
+          "reference": "K2225511"
+        },
+        {
+          "financeur": "Ministry of Science and ICT, South Korea",
+          "reference": "RS-2023"
+        },
+        {
+          "financeur": "Ministry of Science and ICT, South Korea",
+          "reference": "RS-2023-00243720"
+        },
+        {
+          "financeur": "National Research Foundation of Korea",
+          "reference": "RS-2023-00243720"
+        },
+        {
+          "financeur": "National Research Foundation of Korea",
+          "reference": "K2319651"
+        },
+        {
+          "financeur": "National Research Foundation of Korea",
+          "reference": "K2225511"
+        }
+      ],
+      "institutions": [
+        {
+          "nom": "Asan Medical Center",
+          "pays": "KR",
+          "type": "healthcare",
+          "ror": "https://ror.org/03s5q0090"
+        },
+        {
+          "nom": "University of Ulsan",
+          "pays": "KR",
+          "type": "education",
+          "ror": "https://ror.org/02c2f8975"
+        },
+        {
+          "nom": "Yonsei University",
+          "pays": "KR",
+          "type": "education",
+          "ror": "https://ror.org/01wjejq96"
+        },
+        {
+          "nom": "Samil Pharm (South Korea)",
+          "pays": "KR",
+          "type": "company",
+          "ror": "https://ror.org/05ke98p93"
+        },
+        {
+          "nom": "Pusan National University Hospital",
+          "pays": "KR",
+          "type": "healthcare",
+          "ror": "https://ror.org/027zf7h57"
+        },
+        {
+          "nom": "Kangbuk Samsung Hospital",
+          "pays": "KR",
+          "type": "healthcare",
+          "ror": "https://ror.org/013e76m06"
+        },
+        {
+          "nom": "Sungkyunkwan University",
+          "pays": "KR",
+          "type": "education",
+          "ror": "https://ror.org/04q78tk20"
+        },
+        {
+          "nom": "Korea University",
+          "pays": "KR",
+          "type": "education",
+          "ror": "https://ror.org/047dqcg40"
+        },
+        {
+          "nom": "Korea University Medical Center",
+          "pays": "KR",
+          "type": "healthcare",
+          "ror": "https://ror.org/02cs2sd33"
+        }
+      ],
+      "acces_ouvert": true,
+      "statut_acces": "gold",
+      "url_texte": "https://www.ekjo.org/upload/pdf/kjo-2026-0061.pdf",
+      "url_pdf": "https://www.ekjo.org/upload/pdf/kjo-2026-0061.pdf",
+      "licence": "cc-by-nc",
+      "texte_integral_indexe": true,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Ocular Surface and Contact Lens",
+      "resume_present": true,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": [
+      {
+        "nom": "National Research Foundation of Korea",
+        "statut": "À VÉRIFIER — trouvé par OpenAlex seulement (l'éditeur n'a déclaré aucun financeur dans Crossref) ; à contrôler dans le texte de l'article",
+        "references": [
+          "RS-2023-00243720",
+          "K2319651",
+          "K2225511"
+        ],
+        "notices": [
+          [
+            "notice OpenAlex",
+            "https://api.openalex.org/works/W7222973375"
+          ],
+          [
+            "notice Crossref consultée (ne confirme pas ce financeur)",
+            "https://api.crossref.org/works/10.3341/kjo.2026.0061"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "Ministry of Science and ICT, South Korea",
+        "statut": "À VÉRIFIER — trouvé par OpenAlex seulement (l'éditeur n'a déclaré aucun financeur dans Crossref) ; à contrôler dans le texte de l'article",
+        "references": [
+          "RS-2023",
+          "RS-2023-00243720"
+        ],
+        "notices": [
+          [
+            "notice OpenAlex",
+            "https://api.openalex.org/works/W7222973375"
+          ],
+          [
+            "notice Crossref consultée (ne confirme pas ce financeur)",
+            "https://api.crossref.org/works/10.3341/kjo.2026.0061"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "Korea University Anam Hospital",
+        "statut": "À VÉRIFIER — trouvé par OpenAlex seulement (l'éditeur n'a déclaré aucun financeur dans Crossref) ; à contrôler dans le texte de l'article",
+        "references": [
+          "K2319651",
+          "K2225511"
+        ],
+        "notices": [
+          [
+            "notice OpenAlex",
+            "https://api.openalex.org/works/W7222973375"
+          ],
+          [
+            "notice Crossref consultée (ne confirme pas ce financeur)",
+            "https://api.crossref.org/works/10.3341/kjo.2026.0061"
+          ]
+        ],
+        "note": null
+      }
+    ]
+  }
+}

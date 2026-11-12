@@ -1,0 +1,78 @@
+{
+  "openalex_id": "W7213468904",
+  "premiere_detection": "2026-09-25",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "openalex_id": "W7213468904",
+    "doi": "10.21203/rs.3.rs-10587262/v1",
+    "pmid": null,
+    "pmcid": null,
+    "titre": "Core–Shell DOX-Loaded PLGA Electrospun Membrane Enables Sustained Local Drug Delivery for Preventing Postoperative Fibrosis after Glaucoma Filtration Surgery",
+    "lien": "https://openalex.org/W7213468904",
+    "date_publication": "2026-09-17",
+    "type": "preprint",
+    "revue": "Research Square",
+    "type_source": "repository",
+    "langue": null,
+    "indexe_dans": [
+      "crossref"
+    ],
+    "financeurs": null,
+    "subventions": null,
+    "institutions": [
+      {
+        "nom": "Fujian Medical University",
+        "pays": "CN",
+        "type": "education",
+        "ror": "https://ror.org/050s6ns64"
+      },
+      {
+        "nom": "First Affiliated Hospital of Fujian Medical University",
+        "pays": "CN",
+        "type": "healthcare",
+        "ror": "https://ror.org/030e09f60"
+      },
+      {
+        "nom": "Shanghai Jiao Tong University",
+        "pays": "CN",
+        "type": "education",
+        "ror": "https://ror.org/0220qvk04"
+      },
+      {
+        "nom": "Shanghai Ninth People's Hospital",
+        "pays": "CN",
+        "type": "healthcare",
+        "ror": "https://ror.org/010826a91"
+      }
+    ],
+    "acces_ouvert": true,
+    "statut_acces": "green",
+    "url_texte": "https://doi.org/10.21203/rs.3.rs-10587262/v1",
+    "url_pdf": null,
+    "licence": "cc-by",
+    "texte_integral_indexe": false,
+    "retracte": false,
+    "citations": 0,
+    "sujet_principal": "Advanced Drug Delivery Systems",
+    "resume_present": false,
+    "resume": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": [
+        "drug delivery"
+      ],
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "present_dans_pubmed": false
+  }
+}

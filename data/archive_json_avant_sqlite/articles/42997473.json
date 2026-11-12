@@ -1,0 +1,219 @@
+{
+  "pmid": "42997473",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42997473",
+    "titre": "Temporal trends in radiation-induced optic neuropathy: a meta-analysis.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42997473/",
+    "doi": "10.1016/j.ctro.2026.101327",
+    "pmcid": "PMC13742046",
+    "revue": "Clinical and translational radiation oncology",
+    "date_entree_pubmed": "2026-11-07",
+    "date_publication": "2027-Jan",
+    "types_publication": [
+      "Journal Article",
+      "Review"
+    ],
+    "resume_present": true,
+    "resume": "BACKGROUND: Radiation-induced optic neuropathy (RION) is a rare but disabling toxicity. This systematic review and meta-analysis aimed to evaluate temporal trends in the incidence of RION according to advances in radiotherapy techniques and fractionation schemes over time.\nMETHODS: A systematic search identified 1994-2025 studies reporting optic neuropathy in patients after radiotherapy (hereby defined as RION). Data on RION incidence, diagnostic criteria, ocular or extraocular tumor, radiotherapy modality, conventional fractionation or hypofractionation, and modeling strategies were extracted. Random effects meta-analysis was performed to estimate pooled incidence rates and assess heterogeneity.\nFINDINGS: The pooled RION incidence for ocular tumors was 17.0% (95%CI:12.1-23.5%; range 0.0-81.7%; 1.3-11.0-year follow-up) (brachytherapy studies = 33, proton therapy = 3). Risk factors included tumor proximity to the optic nerves, dose exceeding 50Gy in 2Gy-equivalent dose (EQ.D2), tumor size, and patient comorbidities. The pooled RION incidence for extraocular tumors was 4.7% for conventionally fractionated (39 studies, 5.1-year follow-up) and 2.1% for hypofractionated radiotherapy (28 studies, 3.4-year follow-up). Head-and-neck tumors were significantly associated with a greater incidence of RION (estimate = 0.7185, p = 0.0076). Among extraocular tumors, only central nervous system (CNS) tumors underwent hypofractionated radiotherapy. Using meta-regression, fractionation, fraction size, and EQ.D2 did not significantly influence RION incidence in CNS tumors. Median follow-up time varied widely between studies. Meta-regression using recruitment period as a covariate did not identify a statistically significant temporal trend in RION incidence (p = 0.183). Dedicated meta-regressions on publication year, with and without outlying studies, likewise showed no significant temporal trend in intraocular (odds ratio [OR] per decade 0.87, p = 0.51), conventionally fractionated extraocular (OR 0.94, p = 0.74) or CNS tumors (OR 0.90, p = 0.46).\nINTERPRETATION: RION incidence varies with tumor location, radiotherapy modality, and fractionation. Although strongly dose-dependent, RION is also influenced by pre-existing optic pathway damage, ocular comorbidities (e.g., glaucoma, diabetes), and multimodal treatments. These findings highlight the limits of dosimetric optimization alone and support a shift toward biologically driven strategies. Therapeutic development or repurposing requires a deeper mechanistic understanding of RION, for which high-resolution ophthalmological imaging offers a unique in vivo approach to identify actionable targets.",
+    "mots_cles_auteurs": [
+      "Brachytherapy",
+      "IMRT",
+      "Meta-analysis",
+      "Optic neuropathy",
+      "Proton therapy",
+      "Radiotherapy",
+      "Toxicity",
+      "Tumor"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 6,
+    "affiliations_auteurs": [
+      "Department of Radiation Oncology, Centre François Baclesse, Caen, Normandy, France.",
+      "Laboratoire de physique corpusculaire UMR6534 IN2P3/ENSICAEN, Caen-Normandy University, France.",
+      "CESP, INSERM U1018, Cancer and Radiation team, Gustave Roussy Institute, Villejuif, France.",
+      "Department of Radiation Oncology, Massachusetts General Hospital/Mass General Brigham, Harvard Medical School, Boston, MA, United States of America.",
+      "Department of Ophthalmology, University Hospital, Caen, Normandy, France."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7222895572",
+      "doi": "10.1016/j.ctro.2026.101327",
+      "pmid": "42997473",
+      "pmcid": "13742046",
+      "titre": "Temporal trends in radiation-induced optic neuropathy: a meta-analysis",
+      "lien": "https://openalex.org/W7222895572",
+      "date_publication": "2026-10-18",
+      "type": "review",
+      "revue": "Clinical and Translational Radiation Oncology",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "doaj",
+        "pubmed"
+      ],
+      "financeurs": [
+        {
+          "nom": "European Association for Cancer Research",
+          "ror": "https://ror.org/031p7wh32"
+        },
+        {
+          "nom": "European Regional Development Fund",
+          "ror": "https://ror.org/00k4n6c32"
+        }
+      ],
+      "subventions": [
+        {
+          "financeur": "European Regional Development Fund",
+          "reference": "FSE 2014-2020"
+        },
+        {
+          "financeur": "European Regional Development Fund",
+          "reference": "2014-2020’"
+        }
+      ],
+      "institutions": [
+        {
+          "nom": "École Nationale Supérieure d'Ingénieurs de Caen",
+          "pays": "FR",
+          "type": "education",
+          "ror": "https://ror.org/01fpqqe90"
+        },
+        {
+          "nom": "Laboratoire de Physique Corpusculaire de Caen",
+          "pays": "FR",
+          "type": "facility",
+          "ror": "https://ror.org/022txr781"
+        },
+        {
+          "nom": "Centre François Baclesse",
+          "pays": "FR",
+          "type": "healthcare",
+          "ror": "https://ror.org/02x9y0j10"
+        },
+        {
+          "nom": "Institut National de Physique Nucléaire et de Physique des Particules",
+          "pays": "FR",
+          "type": "facility",
+          "ror": "https://ror.org/03fd77x13"
+        },
+        {
+          "nom": "Université de Caen Normandie",
+          "pays": "FR",
+          "type": "education",
+          "ror": "https://ror.org/051kpcy16"
+        },
+        {
+          "nom": "Inserm",
+          "pays": "FR",
+          "type": "government",
+          "ror": "https://ror.org/02vjkv261"
+        },
+        {
+          "nom": "Institut Gustave Roussy",
+          "pays": "FR",
+          "type": "facility",
+          "ror": "https://ror.org/0321g0743"
+        },
+        {
+          "nom": "Centre de recherche en Epidémiologie et Santé des Populations",
+          "pays": "FR",
+          "type": "facility",
+          "ror": "https://ror.org/01ed4t417"
+        },
+        {
+          "nom": "Harvard University",
+          "pays": "US",
+          "type": "education",
+          "ror": "https://ror.org/03vek6s52"
+        },
+        {
+          "nom": "Massachusetts General Hospital",
+          "pays": "US",
+          "type": "healthcare",
+          "ror": "https://ror.org/002pd6e78"
+        },
+        {
+          "nom": "Mass General Brigham",
+          "pays": "US",
+          "type": "healthcare",
+          "ror": "https://ror.org/04py2rh25"
+        },
+        {
+          "nom": "Centre Hospitalier Universitaire de Caen Normandie",
+          "pays": "FR",
+          "type": "healthcare",
+          "ror": "https://ror.org/027arzy69"
+        }
+      ],
+      "acces_ouvert": true,
+      "statut_acces": "gold",
+      "url_texte": "https://www.ctro.science/article/S2405-6308(26)00222-3/pdf",
+      "url_pdf": "https://www.ctro.science/article/S2405-6308(26)00222-3/pdf",
+      "licence": "cc-by",
+      "texte_integral_indexe": true,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Effects of Radiation Exposure",
+      "resume_present": true,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": [
+      {
+        "nom": "European Association for Cancer Research",
+        "statut": "CONFIRMÉ — déclaré par l'éditeur dans Crossref",
+        "references": null,
+        "notices": [
+          [
+            "notice justificative Crossref (déclaration de l'éditeur)",
+            "https://api.crossref.org/works/10.1016/j.ctro.2026.101327"
+          ],
+          [
+            "notice OpenAlex",
+            "https://api.openalex.org/works/W7222895572"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "European Regional Development Fund",
+        "statut": "À VÉRIFIER — trouvé par OpenAlex seulement (absent de la déclaration de l'éditeur dans Crossref) ; à contrôler dans le texte de l'article",
+        "references": [
+          "FSE 2014-2020",
+          "2014-2020’"
+        ],
+        "notices": [
+          [
+            "notice OpenAlex",
+            "https://api.openalex.org/works/W7222895572"
+          ],
+          [
+            "notice Crossref consultée (ne confirme pas ce financeur)",
+            "https://api.crossref.org/works/10.1016/j.ctro.2026.101327"
+          ]
+        ],
+        "note": null
+      }
+    ]
+  }
+}

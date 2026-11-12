@@ -1,0 +1,121 @@
+{
+  "pmid": "42827409",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42827409",
+    "titre": "Bilateral Keratouveitis and Secondary Glaucoma in a Young Dog With Immune-Mediated Polyarthritis and Systemic Inflammatory Response Syndrome.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42827409/",
+    "doi": "10.1111/vop.70278",
+    "pmcid": null,
+    "revue": "Veterinary ophthalmology",
+    "date_entree_pubmed": "2026-10-03",
+    "date_publication": "2026-Nov",
+    "types_publication": [
+      "Case Reports",
+      "Journal Article"
+    ],
+    "resume_present": true,
+    "resume": "A 7-month-old intact female mixed-breed dog presented emergently for inability to walk, lethargy, and vomiting. The patient was diagnosed with immune-mediated polyarthritis (IMPA) and secondary systemic inflammatory response syndrome (SIRS). Bilateral keratouveitis and secondary glaucoma developed within 24 h of presentation. Thorough diagnostic testing failed to identify an underlying etiology. Despite aggressive medical management, the patient developed rapid vision loss. Due to poor visual prognosis and anticipated need for long-term medical management, both eyes were enucleated. Histopathological evaluation of both globes revealed severe corneal endothelial injury most consistent with endotheliitis with associated uveitis and endophthalmitis. Testing of ocular tissue with PCR and immunohistochemistry for canine adenovirus was negative, and comprehensive infectious disease screening, joint cultures, and ocular histopathology identified no other causative agents. Following enucleation, the dog systemically improved with anti-inflammatory and antimicrobial medical management. This report highlights a unique and severe case of bilateral keratouveitis with glaucoma following a systemic inflammatory event.",
+    "mots_cles_auteurs": [
+      "canine",
+      "endotheliitis",
+      "enucleation",
+      "glaucoma",
+      "keratouveitis",
+      "polyarthropathy"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 4,
+    "affiliations_auteurs": [
+      "Department of Veterinary Clinical Sciences, College of Veterinary Medicine, The Ohio State University, Columbus, Ohio, USA.",
+      "Department of Pathobiological Sciences, School of Veterinary Medicine, University of Wisconsin-Madison, Madison, Wisconsin, USA."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": [
+      "Animals",
+      "Dogs",
+      "Female",
+      "Dog Diseases",
+      "Glaucoma",
+      "Systemic Inflammatory Response Syndrome",
+      "Arthritis",
+      "Uveitis",
+      "Keratitis",
+      "Eye Enucleation"
+    ]
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Vétérinaire (animaux soignés) — hors veille principale",
+      "stade_source": "revue vétérinaire (Veterinary ophthalmology)",
+      "hors_veille_principale": true
+    },
+    "openalex": {
+      "openalex_id": "W7218876703",
+      "doi": "10.1111/vop.70278",
+      "pmid": "42827409",
+      "pmcid": null,
+      "titre": "Bilateral Keratouveitis and Secondary Glaucoma in a Young Dog With Immune‐Mediated Polyarthritis and Systemic Inflammatory Response Syndrome",
+      "lien": "https://openalex.org/W7218876703",
+      "date_publication": "2026-10-03",
+      "type": "article",
+      "revue": "Veterinary Ophthalmology",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "pubmed"
+      ],
+      "financeurs": null,
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "The Ohio State University",
+          "pays": "US",
+          "type": "education",
+          "ror": "https://ror.org/00rs6vg23"
+        },
+        {
+          "nom": "University of Wisconsin–Madison",
+          "pays": "US",
+          "type": "education",
+          "ror": "https://ror.org/01y2jtd41"
+        }
+      ],
+      "acces_ouvert": true,
+      "statut_acces": "bronze",
+      "url_texte": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/vop.70278",
+      "url_pdf": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/vop.70278",
+      "licence": null,
+      "texte_integral_indexe": true,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Ocular Diseases and Behçet’s Syndrome",
+      "resume_present": true,
+      "mesh": [
+        "Animals",
+        "Arthritis",
+        "Dog Diseases",
+        "Dogs",
+        "Female",
+        "Glaucoma",
+        "Keratitis",
+        "Uveitis",
+        "Eye Enucleation",
+        "Systemic Inflammatory Response Syndrome"
+      ]
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": []
+  }
+}

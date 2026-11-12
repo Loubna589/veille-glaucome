@@ -1,0 +1,227 @@
+{
+  "pmid": "43005409",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "43005409",
+    "titre": "Translational lipidomics in glaucoma: mechanisms, biomarkers, and therapeutic horizons.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/43005409/",
+    "doi": "10.3389/fphar.2026.1921097",
+    "pmcid": "PMC13746159",
+    "revue": "Frontiers in pharmacology",
+    "date_entree_pubmed": "2026-11-10",
+    "date_publication": "2026",
+    "types_publication": [
+      "Journal Article",
+      "Review"
+    ],
+    "resume_present": true,
+    "resume": "Glaucoma is a multifactorial optic neuropathy. Intraocular pressure (IOP), aging, vascular dysregulation, oxidative stress, mitochondrial failure, and chronic neuroinflammation converge on retinal ganglion cell (RGC) degeneration and optic nerve damage. Lipid mediators are central to this biology, linking membrane remodeling to aqueous humor (AH) dynamics, glial activation, vascular tone, extracellular matrix turnover, and neuronal survival. Lipidomics has widened the field beyond prostaglandin pharmacology to include oxylipins, lysophospholipids, sphingolipids, endocannabinoids, and specialized pro-resolving mediators (SPMs). Human studies in AH, tears, and plasma report reproducible perturbations in arachidonic acid (AA) metabolism, oxidized linoleate products, phosphatidylcholines, lysophosphatidylcholines, sphingomyelins, and ceramides; experimental models further implicate ceramide accumulation, phospholipase A2 activation, cyclooxygenase signaling, endocannabinoid tone, and failed inflammation resolution in retinal injury. Recent work also shows that latanoprost itself induces an aqueous-humor AA/LXA4 circuit in glaucoma patients, indicating that established prostaglandin therapy may engage endogenous resolution pathways and complicate the interpretation of treated-cohort lipidomic studies. This review covers the mechanistic roles of lipid mediators in IOP regulation, TM dysfunction, neuroinflammation, and neurodegeneration; the emerging biomarker literature in AH, tears, and plasma; and potential therapeutic directions, including soluble epoxide hydrolase (sEH) inhibition, sphingolipid modulation, endocannabinoid augmentation, and SPM-based neuroprotection. We conclude with the main barriers to translation: small ocular sample volumes, treatment confounding, limited longitudinal data, and the need for disease-subtype stratification.",
+    "mots_cles_auteurs": [
+      "IOP (intraocular pressure)",
+      "biomarker",
+      "glaucoma",
+      "lipidomics",
+      "therapeutic"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 4,
+    "affiliations_auteurs": [
+      "Schulich School of Medicine & Dentistry, Western University, London, ON, Canada.",
+      "Department of Ophthalmology & Vision Sciences, University of Toronto, Toronto, ON, Canada.",
+      "Donald K. Johnson Eye Institute, University Health Network, Toronto, ON, Canada."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": true,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": [
+        {
+          "produit": "latanoprost",
+          "role": "non déterminé",
+          "statut_role": "cité dans le résumé ou les mots-clés"
+        }
+      ],
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7223686658",
+      "doi": "10.3389/fphar.2026.1921097",
+      "pmid": "43005409",
+      "pmcid": "13746159",
+      "titre": "Translational lipidomics in glaucoma: mechanisms, biomarkers, and therapeutic horizons",
+      "lien": "https://openalex.org/W7223686658",
+      "date_publication": "2026-10-26",
+      "type": "review",
+      "revue": "Frontiers in Pharmacology",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "doaj",
+        "pubmed"
+      ],
+      "financeurs": [
+        {
+          "nom": "Glaucoma Research Society of Canada",
+          "ror": "https://ror.org/052h6a339"
+        },
+        {
+          "nom": "National Institutes of Health",
+          "ror": "https://ror.org/01cwqze88"
+        },
+        {
+          "nom": "University Health Network Foundation",
+          "ror": null
+        },
+        {
+          "nom": "Canadian Institutes of Health Research",
+          "ror": "https://ror.org/01gavpb45"
+        },
+        {
+          "nom": "National Eye Institute",
+          "ror": "https://ror.org/03wkg3b53"
+        }
+      ],
+      "subventions": [
+        {
+          "financeur": "National Eye Institute",
+          "reference": "R01EY030218"
+        }
+      ],
+      "institutions": [
+        {
+          "nom": "Western University",
+          "pays": "CA",
+          "type": "education",
+          "ror": "https://ror.org/02grkyz14"
+        },
+        {
+          "nom": "University of Toronto",
+          "pays": "CA",
+          "type": "education",
+          "ror": "https://ror.org/03dbr7087"
+        },
+        {
+          "nom": "University Health Network",
+          "pays": "CA",
+          "type": "healthcare",
+          "ror": "https://ror.org/042xt5161"
+        },
+        {
+          "nom": "Donald K. Johnson Eye Institute",
+          "pays": "CA",
+          "type": "facility",
+          "ror": "https://ror.org/05r3bjq62"
+        }
+      ],
+      "acces_ouvert": true,
+      "statut_acces": "gold",
+      "url_texte": "https://www.frontiersin.org/journals/pharmacology/articles/10.3389/fphar.2026.1921097/pdf",
+      "url_pdf": "https://www.frontiersin.org/journals/pharmacology/articles/10.3389/fphar.2026.1921097/pdf",
+      "licence": "cc-by",
+      "texte_integral_indexe": true,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Glaucoma and retinal disorders",
+      "resume_present": true,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": [
+      {
+        "nom": "Glaucoma Research Society of Canada",
+        "statut": "CONFIRMÉ — déclaré par l'éditeur dans Crossref",
+        "references": null,
+        "notices": [
+          [
+            "notice justificative Crossref (déclaration de l'éditeur)",
+            "https://api.crossref.org/works/10.3389/fphar.2026.1921097"
+          ],
+          [
+            "notice OpenAlex",
+            "https://api.openalex.org/works/W7223686658"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "National Institutes of Health",
+        "statut": "À VÉRIFIER — trouvé par OpenAlex seulement (absent de la déclaration de l'éditeur dans Crossref) ; à contrôler dans le texte de l'article",
+        "references": null,
+        "notices": [
+          [
+            "notice OpenAlex",
+            "https://api.openalex.org/works/W7223686658"
+          ],
+          [
+            "notice Crossref consultée (ne confirme pas ce financeur)",
+            "https://api.crossref.org/works/10.3389/fphar.2026.1921097"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "University Health Network Foundation",
+        "statut": "À VÉRIFIER — trouvé par OpenAlex seulement (absent de la déclaration de l'éditeur dans Crossref) ; à contrôler dans le texte de l'article",
+        "references": null,
+        "notices": [
+          [
+            "notice OpenAlex",
+            "https://api.openalex.org/works/W7223686658"
+          ],
+          [
+            "notice Crossref consultée (ne confirme pas ce financeur)",
+            "https://api.crossref.org/works/10.3389/fphar.2026.1921097"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "Canadian Institutes of Health Research",
+        "statut": "À VÉRIFIER — trouvé par OpenAlex seulement (absent de la déclaration de l'éditeur dans Crossref) ; à contrôler dans le texte de l'article",
+        "references": null,
+        "notices": [
+          [
+            "notice OpenAlex",
+            "https://api.openalex.org/works/W7223686658"
+          ],
+          [
+            "notice Crossref consultée (ne confirme pas ce financeur)",
+            "https://api.crossref.org/works/10.3389/fphar.2026.1921097"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "National Eye Institute",
+        "statut": "À VÉRIFIER — trouvé par OpenAlex seulement (absent de la déclaration de l'éditeur dans Crossref) ; à contrôler dans le texte de l'article",
+        "references": [
+          "R01EY030218"
+        ],
+        "notices": [
+          [
+            "notice OpenAlex",
+            "https://api.openalex.org/works/W7223686658"
+          ],
+          [
+            "notice Crossref consultée (ne confirme pas ce financeur)",
+            "https://api.crossref.org/works/10.3389/fphar.2026.1921097"
+          ]
+        ],
+        "note": null
+      }
+    ]
+  }
+}

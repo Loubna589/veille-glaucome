@@ -1,0 +1,213 @@
+{
+  "pmid": "42981387",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42981387",
+    "titre": "On-going retinal neuronal degeneration despite clinical stability in glaucoma.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42981387/",
+    "doi": "10.1126/sciadv.aef3222",
+    "pmcid": "PMC13733796",
+    "revue": "Science advances",
+    "date_entree_pubmed": "2026-11-04",
+    "date_publication": "2026-Nov-06",
+    "types_publication": [
+      "Journal Article"
+    ],
+    "resume_present": true,
+    "resume": "Glaucoma, a leading cause of irreversible blindness, involves progressive retinal ganglion cell loss. Early detection of this neurodegeneration is critical, yet current clinical methods often identify disease only after substantial damage has occurred. This preliminary study used high-resolution adaptive optics-optical coherence tomography (AO-OCT) to track individual retinal ganglion cells in patients and healthy volunteers over 3 to 5 years. Results revealed higher neurodegeneration in glaucoma compared to normal aging. We observed 4.16 to 6.86% annual decrease in cell density in glaucoma, far exceeding the 0.27% cell loss rate observed in the healthy volunteer group. Critically, AO-OCT detected progression significantly earlier, identifying cell loss 0.74 years before conventional OCT and 1.49 years before visual field testing. These findings demonstrate AO-OCT as a more sensitive tool capable of monitoring glaucomatous damage with superior precision, potentially representing a major advancement over current clinical imaging.",
+    "mots_cles_auteurs": null,
+    "langue": "eng",
+    "nombre_auteurs": 6,
+    "affiliations_auteurs": [
+      "Center for Devices and Radiological Health (CDRH), US Food and Drug Administration, Silver Spring, MD, USA.",
+      "Department of Ophthalmology and Visual Sciences, University of Maryland School of Medicine, Baltimore, MD, USA."
+    ],
+    "financeurs_declares": [
+      {
+        "organisme": "NEI NIH HHS",
+        "pays": "United States",
+        "reference": "R01 EY031731"
+      }
+    ],
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": [
+      "Humans",
+      "Glaucoma",
+      "Tomography, Optical Coherence",
+      "Retinal Ganglion Cells",
+      "Female",
+      "Retinal Degeneration",
+      "Male",
+      "Middle Aged",
+      "Aged",
+      "Disease Progression",
+      "Visual Fields"
+    ]
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": null,
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7225245071",
+      "doi": "10.1126/sciadv.aef3222",
+      "pmid": "42981387",
+      "pmcid": "13733796",
+      "titre": "On-going retinal neuronal degeneration despite clinical stability in glaucoma",
+      "lien": "https://openalex.org/W7225245071",
+      "date_publication": "2026-11-04",
+      "type": "article",
+      "revue": "Science Advances",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "doaj",
+        "pubmed"
+      ],
+      "financeurs": [
+        {
+          "nom": "University of Washington",
+          "ror": "https://ror.org/00cvxb145"
+        },
+        {
+          "nom": "National Institutes of Health",
+          "ror": "https://ror.org/01cwqze88"
+        },
+        {
+          "nom": "National Eye Institute",
+          "ror": "https://ror.org/03wkg3b53"
+        }
+      ],
+      "subventions": [
+        {
+          "financeur": "National Eye Institute",
+          "reference": "R01EY031731"
+        }
+      ],
+      "institutions": [
+        {
+          "nom": "United States Food and Drug Administration",
+          "pays": "US",
+          "type": "government",
+          "ror": "https://ror.org/034xvzb47"
+        },
+        {
+          "nom": "Center for Devices and Radiological Health",
+          "pays": "US",
+          "type": "healthcare",
+          "ror": "https://ror.org/007x9se63"
+        },
+        {
+          "nom": "University of Maryland, Baltimore",
+          "pays": "US",
+          "type": "education",
+          "ror": "https://ror.org/04rq5mt64"
+        }
+      ],
+      "acces_ouvert": true,
+      "statut_acces": "gold",
+      "url_texte": "https://doi.org/10.1126/sciadv.aef3222",
+      "url_pdf": null,
+      "licence": "cc-by-nc",
+      "texte_integral_indexe": true,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Glaucoma and retinal disorders",
+      "resume_present": true,
+      "mesh": [
+        "Aged",
+        "Female",
+        "Glaucoma",
+        "Humans",
+        "Male",
+        "Middle Aged",
+        "Retinal Degeneration",
+        "Retinal Ganglion Cells",
+        "Visual Fields",
+        "Disease Progression",
+        "Tomography, Optical Coherence"
+      ]
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": [
+      {
+        "nom": "NEI NIH HHS",
+        "statut": "CONFIRMÉ — déclaré dans la notice PubMed (GrantList)",
+        "references": [
+          "R01 EY031731"
+        ],
+        "notices": [
+          [
+            "notice PubMed",
+            "https://pubmed.ncbi.nlm.nih.gov/42981387/?format=pubmed"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "University of Washington",
+        "statut": "À VÉRIFIER — trouvé par OpenAlex seulement (absent de la déclaration de l'éditeur dans Crossref) ; à contrôler dans le texte de l'article",
+        "references": null,
+        "notices": [
+          [
+            "notice OpenAlex",
+            "https://api.openalex.org/works/W7225245071"
+          ],
+          [
+            "notice Crossref consultée (ne confirme pas ce financeur)",
+            "https://api.crossref.org/works/10.1126/sciadv.aef3222"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "National Institutes of Health",
+        "statut": "CONFIRMÉ — déclaré par l'éditeur dans Crossref",
+        "references": [
+          "1R01EY031731-01A1"
+        ],
+        "notices": [
+          [
+            "notice justificative Crossref (déclaration de l'éditeur)",
+            "https://api.crossref.org/works/10.1126/sciadv.aef3222"
+          ],
+          [
+            "notice OpenAlex",
+            "https://api.openalex.org/works/W7225245071"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "National Eye Institute",
+        "statut": "À VÉRIFIER — trouvé par OpenAlex seulement (absent de la déclaration de l'éditeur dans Crossref) ; à contrôler dans le texte de l'article",
+        "references": [
+          "R01EY031731"
+        ],
+        "notices": [
+          [
+            "notice OpenAlex",
+            "https://api.openalex.org/works/W7225245071"
+          ],
+          [
+            "notice Crossref consultée (ne confirme pas ce financeur)",
+            "https://api.crossref.org/works/10.1126/sciadv.aef3222"
+          ]
+        ],
+        "note": null
+      }
+    ]
+  }
+}

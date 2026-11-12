@@ -1,0 +1,192 @@
+{
+  "pmid": "42778338",
+  "premiere_detection": "2026-09-25",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42778338",
+    "titre": "Pregnancy-related risk factors for postpartum onset of glaucoma in pre-pregnancy glaucoma suspect: a retrospective cohort study.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42778338/",
+    "doi": "10.1136/bjo-2026-330376",
+    "pmcid": null,
+    "revue": "The British journal of ophthalmology",
+    "date_entree_pubmed": "2026-09-23",
+    "date_publication": "2026-Sep-23",
+    "types_publication": [
+      "Journal Article"
+    ],
+    "resume_present": true,
+    "resume": "BACKGROUND/AIMS: To evaluate the risk of postpartum glaucoma development in women with pre-pregnancy glaucoma suspect status and its association with pregnancy-related factors.\nMETHODS: This retrospective cohort study enrolled patients diagnosed with glaucoma suspect before pregnancy between January 2012 and December 2024. Demographic, obstetric and ophthalmic data were collected. The primary outcome was postpartum glaucoma development. Risk factors were analysed using mixed-effect Cox regression, with Kaplan-Meier and interaction analysis.\nRESULTS: Of 92 patients (184 eyes) 53 patients (57.6%) progressed to glaucoma, with a mean progression time of 2.42±1.97 years. Multivariable Cox regression analysis identified higher mean intraocular pressure (IOP) (HR=1.37, 95% CI 1.26 to 1.49, p<0.001) and pre-eclampsia (HR=4.30, 95% CI 2.33 to 7.93, p<0.001) as independent risk factors, whereas higher pre-pregnancy body mass index (BMI) was protective (HR=0.91, 95% CI 0.83 to 0.99, p=0.037). A significant interaction was observed between pre-eclampsia and mean IOP (HR=1.19, p=0.038). Kaplan-Meier analysis showed an increased cumulative incidence of glaucoma in patients with pre-eclampsia (p=0.022).\nCONCLUSION: For pre-pregnancy glaucoma suspect, higher mean follow-up IOP and pre-eclampsia increased the risk of postpartum glaucoma development, with a synergistic interaction between the two factors; higher pre-pregnancy BMI appears protective. These findings suggest that enhanced postpartum surveillance with individualised IOP monitoring and risk stratification should be particularly emphasised for glaucoma suspect women with a history of pre-eclampsia.",
+    "mots_cles_auteurs": [
+      "Glaucoma",
+      "Intraocular pressure",
+      "Risk Factors"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 12,
+    "affiliations_auteurs": [
+      "Department of Ophthalmology, Peking University Third Hospital, Beijing, China.",
+      "Beijing Key Laboratory of Restoration of Damaged Ocular Nerve, Peking University Third Hospital, Beijing, China.",
+      "Department of Obstetrics and Gynecology, Peking University Third Hospital, Beijing, China.",
+      "National Centre for Healthcare Quality Management in Obstetrics, Beijing, China.",
+      "Peking University Health Science Center, Beijing, China.",
+      "Department of Ophthalmology, Peking University Third Hospital, Beijing, China xurand@bjmu.edu.cn wtc17@pku.edu.cn hongjing1964@sina.com.",
+      "Department of Obstetrics and Gynecology, Peking University Third Hospital, Beijing, China xurand@bjmu.edu.cn wtc17@pku.edu.cn hongjing1964@sina.com."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7214091714",
+      "doi": "10.1136/bjo-2026-330376",
+      "pmid": "42778338",
+      "pmcid": null,
+      "titre": "Pregnancy-related risk factors for postpartum onset of glaucoma in pre-pregnancy glaucoma suspect: a retrospective cohort study",
+      "lien": "https://openalex.org/W7214091714",
+      "date_publication": "2026-09-23",
+      "type": "article",
+      "revue": "British Journal of Ophthalmology",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "pubmed"
+      ],
+      "financeurs": [
+        {
+          "nom": "National Natural Science Foundation of China",
+          "ror": "https://ror.org/01h0zpd94"
+        },
+        {
+          "nom": "Peking University",
+          "ror": "https://ror.org/02v51f717"
+        },
+        {
+          "nom": "Peking University Third Hospital",
+          "ror": "https://ror.org/04wwqze12"
+        }
+      ],
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "Peking University",
+          "pays": "CN",
+          "type": "education",
+          "ror": "https://ror.org/02v51f717"
+        },
+        {
+          "nom": "Peking University Third Hospital",
+          "pays": "CN",
+          "type": "healthcare",
+          "ror": "https://ror.org/04wwqze12"
+        }
+      ],
+      "acces_ouvert": true,
+      "statut_acces": "hybrid",
+      "url_texte": "https://bjo.bmj.com/content/bjophthalmol/early/2026/09/23/bjo-2026-330376.full.pdf",
+      "url_pdf": "https://bjo.bmj.com/content/bjophthalmol/early/2026/09/23/bjo-2026-330376.full.pdf",
+      "licence": "cc-by-nc",
+      "texte_integral_indexe": true,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Glaucoma and retinal disorders",
+      "resume_present": true,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-09-25",
+    "financements": [
+      {
+        "nom": "National Natural Science Foundation of China",
+        "statut": "CONFIRMÉ — déclaré par l'éditeur dans Crossref",
+        "references": [
+          "No. 32571704"
+        ],
+        "notices": [
+          [
+            "notice justificative Crossref (déclaration de l'éditeur)",
+            "https://api.crossref.org/works/10.1136/bjo-2026-330376"
+          ],
+          [
+            "notice OpenAlex",
+            "https://api.openalex.org/works/W7214091714"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "Peking University",
+        "statut": "À VÉRIFIER — trouvé par OpenAlex seulement (absent de la déclaration de l'éditeur dans Crossref) ; à contrôler dans le texte de l'article",
+        "references": null,
+        "notices": [
+          [
+            "notice OpenAlex",
+            "https://api.openalex.org/works/W7214091714"
+          ],
+          [
+            "notice Crossref consultée (ne confirme pas ce financeur)",
+            "https://api.crossref.org/works/10.1136/bjo-2026-330376"
+          ]
+        ],
+        "note": "cet organisme figure AUSSI parmi les institutions des auteurs : c'est une affiliation, information distincte"
+      },
+      {
+        "nom": "Peking University Third Hospital",
+        "statut": "À VÉRIFIER — trouvé par OpenAlex seulement (absent de la déclaration de l'éditeur dans Crossref) ; à contrôler dans le texte de l'article",
+        "references": null,
+        "notices": [
+          [
+            "notice OpenAlex",
+            "https://api.openalex.org/works/W7214091714"
+          ],
+          [
+            "notice Crossref consultée (ne confirme pas ce financeur)",
+            "https://api.crossref.org/works/10.1136/bjo-2026-330376"
+          ]
+        ],
+        "note": "cet organisme figure AUSSI parmi les institutions des auteurs : c'est une affiliation, information distincte"
+      },
+      {
+        "nom": "Beijing High-Level Innovation and Entrepreneurship Talent Support Program Young Backbone Talent Projects",
+        "statut": "CONFIRMÉ — déclaré par l'éditeur dans Crossref (absent d'OpenAlex)",
+        "references": [
+          "G202532211"
+        ],
+        "notices": [
+          [
+            "notice justificative Crossref (déclaration de l'éditeur)",
+            "https://api.crossref.org/works/10.1136/bjo-2026-330376"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "Key Clinical Projects of Peking University Third Hospital",
+        "statut": "CONFIRMÉ — déclaré par l'éditeur dans Crossref (absent d'OpenAlex)",
+        "references": [
+          "(BYSYZD2026007)"
+        ],
+        "notices": [
+          [
+            "notice justificative Crossref (déclaration de l'éditeur)",
+            "https://api.crossref.org/works/10.1136/bjo-2026-330376"
+          ]
+        ],
+        "note": null
+      }
+    ]
+  }
+}

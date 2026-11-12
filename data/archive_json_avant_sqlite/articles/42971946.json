@@ -1,0 +1,100 @@
+{
+  "pmid": "42971946",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42971946",
+    "titre": "Topical Cyclosporine in Ophthalmology: Current Formulations, Clinical Applications, Advantages, and Limitations.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42971946/",
+    "doi": "10.1177/10807683261501633",
+    "pmcid": null,
+    "revue": "Journal of ocular pharmacology and therapeutics : the official journal of the Association for Ocular Pharmacology and Therapeutics",
+    "date_entree_pubmed": "2026-11-02",
+    "date_publication": "2026-Nov-02",
+    "types_publication": [
+      "Journal Article",
+      "Review"
+    ],
+    "resume_present": true,
+    "resume": "Cyclosporine A (CsA) is a calcineurin-inhibiting immunomodulator that suppresses T cell-mediated inflammation, a central mechanism in the pathogenesis of many ocular surface diseases. Following the systemic use of CsA in ophthalmology, topical formulations were developed to provide local immunomodulation at the ocular surface while keeping systemic absorption negligible. Since the approval of the first commercial ophthalmic emulsion in 2002, topical CsA has become a cornerstone disease-modifying therapy. Unlike corticosteroids, topical CsA provides sustained anti-inflammatory control without the long-term risks of glaucoma and cataract. Its highly lipophilic and poorly water-soluble nature, however, has posed a persistent formulation challenge, driving the development of diverse delivery platforms, including anionic and cationic oil-in-water emulsions, aqueous nanomicellar and nanoemulsion solutions, and water-free semifluorinated alkane vehicles. Despite sharing the same active molecule, these formulations differ in concentration, ocular surface retention, bioavailability, and tolerability. This review comprehensively evaluates these formulations in terms of their pharmaceutical delivery systems, concentrations, and clinical applications, together with comparative data on efficacy and safety across dry eye disease, vernal and atopic keratoconjunctivitis, Sjögren's-associated dry eye, ocular graft-versus-host disease, and high-risk keratoplasty. Topical CsA demonstrates a consistently favorable systemic safety profile, with ocular tolerability and a slow onset of action remaining its principal practical limitations. Individualized formulation selection, together with standardized head-to-head trials and biomarker-based approaches, will be key to optimizing the clinical use of topical CsA.",
+    "mots_cles_auteurs": [
+      "anti-inflammatory",
+      "cyclosporine A",
+      "formulations",
+      "topical drug delivery"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 2,
+    "affiliations_auteurs": [
+      "Department of Ophthalmology, Izmir Demokrasi University, Izmir, Turkiye.",
+      "Faculty of Medicine, Department of Ophthalmology, Ege University, Izmir, Turkiye."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": [
+        "drug delivery",
+        "nanoemulsion*"
+      ],
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7225148492",
+      "doi": "10.1177/10807683261501633",
+      "pmid": "42971946",
+      "pmcid": null,
+      "titre": "Topical Cyclosporine in Ophthalmology: Current Formulations, Clinical Applications, Advantages, and Limitations",
+      "lien": "https://openalex.org/W7225148492",
+      "date_publication": "2026-11-02",
+      "type": "review",
+      "revue": "Journal of Ocular Pharmacology and Therapeutics",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "pubmed"
+      ],
+      "financeurs": null,
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "İzmir Demokrasi Üniversitesi",
+          "pays": "TR",
+          "type": "education",
+          "ror": "https://ror.org/04c152q53"
+        },
+        {
+          "nom": "Ege University",
+          "pays": "TR",
+          "type": "education",
+          "ror": "https://ror.org/02eaafc18"
+        }
+      ],
+      "acces_ouvert": false,
+      "statut_acces": "closed",
+      "url_texte": null,
+      "url_pdf": null,
+      "licence": null,
+      "texte_integral_indexe": false,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Ocular Surface and Contact Lens",
+      "resume_present": true,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": []
+  }
+}

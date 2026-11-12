@@ -1,0 +1,111 @@
+{
+  "pmid": "42886586",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42886586",
+    "titre": "Evaluating Long-Term Effectiveness and Safety of Glaucoma Surgical Innovations: A Systematic Review.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42886586/",
+    "doi": "10.1097/IJG.0000000000002770",
+    "pmcid": "PMC13722426",
+    "revue": "Journal of glaucoma",
+    "date_entree_pubmed": "2026-10-16",
+    "date_publication": "2026-Nov-01",
+    "types_publication": [
+      "Journal Article",
+      "Systematic Review"
+    ],
+    "resume_present": true,
+    "resume": "PRCIS: A systematic review examining the reporting of long-term safety of glaucoma surgical innovations. Twenty-seven studies met the inclusion criteria and demonstrated effectiveness over the short to medium term. Use of registries to optimise future long-term evaluation is recommended.\nPURPOSE: To synthesise evidence on the long-term effectiveness and safety of glaucoma surgical innovations introduced since 2004 and appraise reporting quality against IDEAL Stage 4 recommendations, designed to promote transparent study of the long-term impact of surgical innovations.\nMETHODS: MEDLINE, EMBASE, and CENTRAL were searched for studies published from January 1, 2014, to October 21, 2024. Eligible studies evaluated novel glaucoma surgery with ≥2 years' follow-up and ≥100 participants. Randomised controlled trials, observational studies, registry analyses, and case series were included. Reporting was assessed using a 16-item adaptation of the IDEAL Stage 4 checklist. Risk of bias was assessed using Cochrane RoB 2, the Newcastle-Ottawa Scale, and the Joanna Briggs Institute case-series checklist.\nRESULTS: The search strategy retrieved 1758 matches, with 27 studies meeting the inclusion criteria. Procedures included iStent, Xen-45 Gel stent, Hydrus microstent, Endoscopic photocoagulation, Trabectome and Kahook dual blade. Follow-up ranged from 2 to 6 years. All studies described design and 22 reported prespecified outcomes sufficiently; however, only 4 explained how missing data were handled. Intraocular-pressure and medication outcomes generally favoured the intervention, but heterogeneity in design, comparators, outcomes, and surgical context precluded pooled estimates. Adverse-event reporting was inconsistent. One cohort study was of poor quality; 14 case series had unclear or unreported methodological items; and 4 RCTs had at least one high-risk domain.\nCONCLUSIONS: Glaucoma surgical innovations appear effective over the medium term, but limited long-term follow-up and inconsistent safety reporting preclude firm conclusions about comparative effectiveness and long-term safety. Standardised reporting and prospective registries are needed.",
+    "mots_cles_auteurs": [
+      "IDEAL collaboration",
+      "glaucoma",
+      "minimally invasive glaucoma surgery",
+      "surgical innovations"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 6,
+    "affiliations_auteurs": [
+      "Centre of Public Health, Institute of Clinical Science, Queen's University Belfast, Belfast, UK.",
+      "Eye Clinic, Neuromuscular and Sense Organs Department, Careggi University Hospital, Florence, Italy."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": [
+      "Humans",
+      "Glaucoma",
+      "Intraocular Pressure",
+      "Glaucoma Drainage Implants",
+      "Filtering Surgery",
+      "Treatment Outcome"
+    ]
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": null,
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7222467537",
+      "doi": "10.1097/ijg.0000000000002770",
+      "pmid": "42886586",
+      "pmcid": "13722426",
+      "titre": "Evaluating Long-Term Effectiveness and Safety of Glaucoma Surgical Innovations: A Systematic Review",
+      "lien": "https://openalex.org/W7222467537",
+      "date_publication": "2026-10-16",
+      "type": "review",
+      "revue": "Journal of Glaucoma",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "pubmed"
+      ],
+      "financeurs": null,
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "Queen's University Belfast",
+          "pays": "GB",
+          "type": "education",
+          "ror": "https://ror.org/00hswnk62"
+        },
+        {
+          "nom": "Azienda Ospedaliero-Universitaria Careggi",
+          "pays": "IT",
+          "type": "healthcare",
+          "ror": "https://ror.org/02crev113"
+        }
+      ],
+      "acces_ouvert": true,
+      "statut_acces": "hybrid",
+      "url_texte": "https://doi.org/10.1097/ijg.0000000000002770",
+      "url_pdf": null,
+      "licence": "cc-by",
+      "texte_integral_indexe": true,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Glaucoma and retinal disorders",
+      "resume_present": true,
+      "mesh": [
+        "Glaucoma",
+        "Humans",
+        "Intraocular Pressure",
+        "Treatment Outcome",
+        "Filtering Surgery",
+        "Glaucoma Drainage Implants"
+      ]
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": []
+  }
+}

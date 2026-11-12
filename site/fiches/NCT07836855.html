@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>NCT07836855 — fiche essai</title><style>
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
+:root{--fond:#f4f7fb;--carte:#fff;--texte:#0f1d33;--doux:#52627a;--bord:#e2e8f0;--accent:#0b4f8a;
+--ok:#146c43;--ok-fond:#e3f4ea;--att:#8a5300;--att-fond:#fdf1d8;--ver:#b42318;--ver-fond:#fdeceb;
+--reg:#3f3c9e;--reg-fond:#ecebfb;--src-fond:#f1f5f9;--mark:#fff1a8;--manque:#b42318;--turquoise:#14b8a6;}
+@media (prefers-color-scheme:dark){:root{--fond:#0a1120;--carte:#101a2c;--texte:#e6edf7;--doux:#9db0ca;
+--bord:#1e2b42;--accent:#6fb4ff;--ok:#6fd6a0;--ok-fond:#12301f;--att:#f3c15e;--att-fond:#352a10;--ver:#ff9a8f;
+--ver-fond:#3a1714;--reg:#b4b2ff;--reg-fond:#24234a;--src-fond:#0d1626;--mark:#5a4d10;--manque:#ff9a8f;--turquoise:#2dd4bf;}}
+*{box-sizing:border-box}body{margin:0;background:var(--fond);color:var(--texte);
+font:15.5px/1.6 "Inter",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+:focus-visible{outline:3px solid var(--turquoise);outline-offset:2px;border-radius:6px}
+main{max-width:1000px;margin:0 auto;padding:20px 18px 64px}
+.bandeau{display:flex;align-items:center;gap:10px;font-weight:800;letter-spacing:-.02em;padding:6px 0 14px;color:var(--texte);text-decoration:none}
+.bandeau i{width:30px;height:30px;border-radius:9px;background:linear-gradient(135deg,#0b4f8a,#14b8a6);display:inline-block}
+header,section{background:var(--carte);border:1px solid var(--bord);border-radius:16px;padding:20px 24px;margin:0 0 16px;
+box-shadow:0 1px 2px rgba(15,29,51,.04),0 6px 20px -8px rgba(15,29,51,.12)}
+h1{font-size:1.45rem;line-height:1.3;margin:.2em 0 .5em}h2{font-size:1.1rem;margin:0 0 .6em;color:var(--accent)}
+h3{font-size:1rem;margin:1.1em 0 .4em}.surtitre{color:var(--doux);margin:0;font-size:.9rem}
+a{color:var(--accent)}small,.def{color:var(--doux)}.def{font-size:.88rem;margin:.2em 0 .6em}
+.grille{display:grid;grid-template-columns:max-content 1fr;gap:4px 16px;margin:12px 0 0}
+.grille dt{color:var(--doux)}.grille dd{margin:0}
+.badge{display:inline-block;font-size:.72rem;font-weight:600;padding:2px 8px;border-radius:999px;margin:2px 4px 2px 0;
+vertical-align:middle;background:var(--src-fond);color:var(--doux)}
+.badge.confirme{background:var(--ok-fond);color:var(--ok)}.badge.attente{background:var(--att-fond);color:var(--att)}
+.badge.verifier{background:var(--ver-fond);color:var(--ver)}.badge.regle{background:var(--reg-fond);color:var(--reg)}
+.rubrique{font-weight:600}.manque{color:var(--manque);font-style:italic}
+mark{background:var(--mark);color:inherit;padding:0 2px;border-radius:3px}
+blockquote{margin:.5em 0;padding:.5em .9em;border-left:3px solid var(--bord);background:var(--src-fond);border-radius:0 6px 6px 0}
+pre{white-space:pre-wrap;font-size:.85rem;background:var(--src-fond);padding:10px;border-radius:6px}
+.defile{overflow-x:auto}table{border-collapse:collapse;width:100%;font-size:.92rem;margin:.4em 0}
+th,td{border:1px solid var(--bord);padding:6px 8px;text-align:left;vertical-align:top}th{background:var(--src-fond)}
+.analyse{background:var(--src-fond);padding:6px 10px;border-radius:6px;font-size:.92rem}
+.acteurs{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px}
+.acteurs>div{border:1px solid var(--bord);border-radius:8px;padding:10px 12px}.acteurs h3{margin-top:0}
+.copier{position:sticky;top:0;z-index:2;display:flex;gap:12px;align-items:center;flex-wrap:wrap;
+background:var(--fond);padding:10px 0;margin-bottom:8px}
+button{font:inherit;font-weight:600;background:var(--accent);color:#fff;border:0;border-radius:8px;padding:9px 16px;cursor:pointer}
+@media (prefers-color-scheme:dark){button{color:#10141a}}
+textarea{width:100%;min-height:260px;font:13px/1.4 ui-monospace,Consolas,monospace;background:var(--src-fond);
+color:var(--texte);border:1px solid var(--bord);border-radius:6px;padding:8px}
+details{margin:.5em 0}summary{cursor:pointer;color:var(--accent)}
+.retour{font-size:.92rem;margin:0 0 4px}
+@media (max-width:600px){.grille{grid-template-columns:1fr}.grille dt{margin-top:6px}header,section{padding:14px}}
+</style></head>
+<body><main>
+<a class="bandeau" href="../index.html"><i aria-hidden="true"></i>Glaucoma Intelligence</a><nav class="retour"><a href="../index.html">Accueil</a> · <a href="../etudes.html">← Essais &amp; articles</a> · <a href="../recherche.html">Rechercher</a> · <a href="../carte.html">Carte des acteurs</a> · <a href="../alertes.html">Alertes</a></nav>
+<div class="copier"><button id="bouton-copier" type="button" onclick="copierFiche()">Copier pour Claude / ChatGPT</button>
+<small>Copie une consigne + les faits de cette fiche, à coller dans votre assistant.</small></div>
+
+    <header>
+      <p class="surtitre">Fiche essai clinique · NCT07836855 · <a href="https://clinicaltrials.gov/study/NCT07836855" target="_blank" rel="noopener">voir sur ClinicalTrials.gov</a></p>
+      <h1>A Fellow Eye Comparative Study of the Aquea Intracanalicular Glaucoma Micro-coil Stent and the Alcon Hydrus Glaucoma Microstent</h1>
+      <p><span class="badge attente">ESSAI ENREGISTRÉ — AUCUN RÉSULTAT DÉPOSÉ AU REGISTRE</span></p>
+      <dl class="grille">
+        <dt>Phase (déclarée)</dt><dd>Non applicable (déclaré)</dd>
+        <dt>Statut</dt><dd>Terminé</dd>
+        <dt>Type d'étude</dt><dd>Interventionnelle</dd>
+        <dt>Participants</dt><dd>16 (réel)</dd>
+        <dt>Première publication au registre</dt><dd>2026-09-23</dd>
+        <dt>Dernière mise à jour au registre</dt><dd>2026-09-23</dd>
+        <dt>Début · fin principale</dt><dd>2024-09-16 · 2026-06-15</dd>
+        <dt>Détecté par l'outil le</dt><dd>2026-09-25 · 0 modification(s) repérée(s) depuis</dd>
+      </dl>
+      <p class="rubriques"><strong>Rubrique :</strong> <span class="rubrique">Dispositifs et chirurgie</span> <small>bras expérimental de type DEVICE déclaré au registre : Aquea Zealix™</small> <span class="badge regle">classement automatique — règles dans config/rubriques.ini</span></p>
+    </header>
+<section><h2>Question étudiée <span class="badge source">Registre ClinicalTrials.gov</span></h2><p><strong>Titre officiel :</strong> A Fellow Eye Comparative Study of the Aquea Intracanalicular Glaucoma Micro-coil Stent and the Alcon Hydrus Glaucoma Microstent</p><blockquote lang="en">The purpose of this research study is to compare the safety and effectiveness of the Aquea Intracanalicular Glaucoma Stent to the Alcon Hydrus Glaucoma Microstent for the reduction of intraocular pressure (IOP) in patients with cataract and primary open angle glaucoma.</blockquote></section><section><h2>Traitement ou technologie, et comparateur <span class="badge source">Registre ClinicalTrials.gov</span><span class="badge confirme">rôles CONFIRMÉS : type de bras déclaré au registre</span></h2><div class="defile"><table><thead><tr><th>Bras</th><th>Rôle déclaré</th><th>Interventions</th><th>Description (registre)</th></tr></thead><tbody><tr><td><strong>The Aquea Zealix™</strong></td><td>Expérimental (traitement étudié)</td><td>Device: Aquea Zealix™</td><td><small lang="en">The Aquea Zealix™ is a helical shaped micro-coil stent with variable pitch across the length of the implant specifically designed to keep the Schlemm's canal adequately dilated to its natural healthy state</small></td></tr><tr><td><strong>The Hydrus® Microstent</strong></td><td>Comparateur actif</td><td>Device: Hydrus® Microstent</td><td><small lang="en">The Hydrus® Microstent is an FDA approved device. It is a crescent-shaped implantable microstent pre-loaded onto a hand-held delivery system.</small></td></tr></tbody></table></div></section><section><h2>Type d'étude <span class="badge source">Registre ClinicalTrials.gov</span></h2><ul><li>Type : Interventionnelle · phase déclarée : Non applicable (déclaré)</li><li>Répartition : randomisée</li><li>Modèle : groupes parallèles</li><li>Insu : ouvert (sans insu)</li><li>But principal : traitement</li></ul></section><section><h2>Population et participants <span class="badge source">Registre ClinicalTrials.gov</span></h2><ul><li>Conditions déclarées : Cataract Senile, Glaucoma, Open Angle</li><li>Âge : 45 Years → max. non rapporté</li><li>Sexe : tous</li><li>Volontaires sains acceptés : non</li><li>Nombre de participants : <mark>16 (réel)</mark></li></ul><details><summary>Critères d'inclusion et d'exclusion (texte du registre)</summary><pre lang="en">Inclusion Criteria:
+
+1. Individuals 45 years of age or older, of either gender or any race, at the time of surgery.
+2. Able to understand the requirements of the study and willing to follow study instructions, provide written informed consent, and agree to comply with all study requirements, including the required study follow-up visits.
+3. A diagnosis of cataract eligible for phacoemulsification cataract extraction and IOL implantation.
+4. A diagnosis of primary open angle glaucoma (POAG) substantiated using funduscopic exam and/or at least one reliable visual field test (i.e., mean deviation \&lt; 0 with fixation losses ≤ 30%, false positive errors ≤ 30% and false negative errors ≤ 30%) with the Humphrey automated perimeter using the SITA Standard 24-2 testing algorithm.
+5. At the Screening Visit, medicated IOP of ≤ 25 mmHg or unmedicated IOP of ≥ 21 mmHg and ≤ 33 mmHg.
+6. At the Baseline Visit, a mean unmedicated IOP of ≥ 21 mmHg and ≤ 33 mmHg. The mean will be derived from the diurnal IOP readings taken over the course of the Baseline Visit. Additionally, the baseline mean unmedicated diurnal IOP must be ≥ 3 mmHg higher than the medicated IOP measured at the Screening Visit.
+7. No changes in preoperative ocular hypotensive medication regimen for at least three months prior to Screening Visit.
+8. Gonioscopy confirming normal angle anatomy at site of implantation.
+9. Shaffer grade ≥ III in all four quadrants.
+
+Intraoperative Inclusion Criteria
+
+1. Uncomplicated cataract extraction
+2. A well-centered posterior chamber IOL implanted in the capsular bag.
+3. A clear view of an open angle and visualization of the angle with direct gonioscopy post intracameral miotic instillation.
+
+Exclusion Criteria:
+
+1. Use of more than 3 ocular hypotensive medications. (Combination medications count as 2 or 3 medications depending on number of active ingredients.)
+2. Use of oral hypotensive medication treatment for glaucoma in the either eye.
+3. Significant risk by a washout of medication including those subjects with advanced glaucoma evidenced by an afferent pupillary defect, a C:D ratio ≥ 0.9 or encroachment of field loss within the central 5 degrees as indicated by ≥ 2 depressed points of 0.5% probability on the 24-2 SITA Standard Humphrey visual field.
+4. Previous glaucoma procedure with or without an implantable glaucoma device (with exception of laser treatments to the trabecular meshwork such as a Laser Trabeculoplasty performed more than three months prior to study enrollment).
+5. Proliferative or severe nonproliferative diabetic retinopathy.
+6. Previous surgery for retinal detachment.
+7. Central corneal thickness \&gt; 620 microns.
+8. Clinically significant corneal dystrophy.
+9. Previous corneal surgery, except for pterygium excision and corneal relaxing incisions.
+10. Wet age-related macular degeneration.
+11. Clinically significant ocular pathology, other than glaucoma.
+12. Diagnosis of acute angle closure, traumatic, congenital, malignant, uveitic, pseudoexfoliative, elevated episcleral venous pressure, pigmentary or neovascular glaucoma.
+13. Best corrected visual acuity worse than 20/80 in either eye not attributable to cataract.
+14. Clinically significant ocular inflammation or infection in either eye within thirty days prior to screening.
+15. Uncontrolled systemic disease that in the opinion of the Investigator would put the subject's health at risk and/or prevent the subject from completing all study visits.
+16. Participation in any clinical trial within the 30 calendar days prior to Screening.
+17. Pregnant or nursing females. -</pre></details></section><section><h2>Critères évalués (tels que déclarés) <span class="badge source">Registre ClinicalTrials.gov</span></h2><ul><li><strong>Principal :</strong> Primary Effectiveness Endpoint <small>[12 Months]</small></li><li>Secondaire : Secondary Effectiveness Endpoint <small>[12 Months]</small></li></ul></section><section><h2>Résultats disponibles <span class="badge source">Registre ClinicalTrials.gov</span></h2><p><span class="manque">Aucun résultat n'est déposé au registre à ce jour. L'essai est terminé : des résultats pourraient être publiés ou déposés plus tard.</span></p></section><section><h2>Données de tolérance <span class="badge source">Registre ClinicalTrials.gov</span></h2><p><span class="manque">Non disponibles : aucun résultat déposé au registre</span></p></section><section><h2>Publications liées <span class="badge source">Registre ClinicalTrials.gov</span></h2><ul><li><span class="manque">Aucune publication liée identifiée</span></li></ul></section><section><h2>Promoteur, financeur et affiliations <span class="badge source">Registre ClinicalTrials.gov</span></h2><div class="acteurs">
+      <div><h3>Promoteur</h3><p class="def">Organisme responsable de l'essai, déclaré au registre.</p>
+        <p><strong>Aquea Health, Inc.</strong> (industriel)</p>
+        <p>Collaborateurs déclarés : aucun déclaré</p></div>
+      <div><h3>Financeur</h3><p class="def">Organisme qui finance la recherche.</p>
+        <p><span class="manque">Non déclaré séparément dans le registre.</span> Le promoteur n'est pas présenté ici comme financeur : le registre ne le précise pas.</p></div>
+      <div><h3>Affiliations</h3><p class="def">Établissement des responsables de l'étude.</p>
+        <p><span class="manque">Aucun responsable déclaré au registre</span></p></div>
+    </div></section>
+<section><h2>Ce qui manque <span class="badge regle">calculé par l'outil</span></h2><ul><li>résultats (aucun résultat déposé au registre)</li><li>données de tolérance</li><li>publication liée</li><li>responsables de l'étude et leur affiliation</li></ul></section>
+<section><h2>Limites, intérêt pour la veille marketing, à retenir <span class="badge attente">non produit par l'outil</span></h2><p><span class="manque">Non rédigé automatiquement : les données extraites ne suffisent pas à produire une analyse fiable sans interprétation. Utilisez le bouton « Copier pour Claude / ChatGPT » pour obtenir une proposition, à vérifier.</span></p></section>
+<section><details><summary>Voir le texte copié par le bouton</summary>
+<textarea id="a-copier" readonly>Tu es assistant de veille scientifique sur le glaucome. À partir UNIQUEMENT des informations ci-dessous, rédige en français une fiche de synthèse avec ces rubriques :
+1. Question étudiée
+2. Traitement ou technologie
+3. Type d&#x27;étude
+4. Population et nombre de participants
+5. Comparateur
+6. Critères évalués
+7. Principaux résultats chiffrés (recopie les valeurs exactes et indique leur source)
+8. Données de tolérance
+9. Limites
+10. Intérêt potentiel pour une veille marketing — présenté comme une INTERPRÉTATION, séparé des faits
+11. À retenir (une phrase)
+
+Règles :
+- N&#x27;invente rien. Si une information manque, écris « non rapporté ».
+- Distingue un essai simplement enregistré, un protocole, des résultats déposés dans un registre et une publication de résultats.
+- Si la source est seulement le résumé d&#x27;un article, indique que la synthèse repose uniquement sur ce résumé.
+- Les rôles « suggérés » (traitement étudié / comparateur) sont à vérifier dans le texte source.
+- Ne confonds pas promoteur d&#x27;essai, financeur et affiliation des auteurs.
+- Termine par la liste des points à vérifier.
+
+=== INFORMATIONS ===
+SOURCE : registre ClinicalTrials.gov, essai NCT07836855 — https://clinicaltrials.gov/study/NCT07836855
+NIVEAU DE PREUVE : essai enregistré, AUCUN résultat déposé au registre
+Titre : A Fellow Eye Comparative Study of the Aquea Intracanalicular Glaucoma Micro-coil Stent and the Alcon Hydrus Glaucoma Microstent
+Titre officiel : A Fellow Eye Comparative Study of the Aquea Intracanalicular Glaucoma Micro-coil Stent and the Alcon Hydrus Glaucoma Microstent
+Phase déclarée : Non applicable (déclaré) · Statut : Terminé · Type : Interventionnelle
+Promoteur (déclaré) : Aquea Health, Inc. (INDUSTRY) · Collaborateurs : aucun
+Financeur : non déclaré séparément dans le registre
+Participants : 16 (réel) · Conditions : Cataract Senile, Glaucoma, Open Angle
+Plan : {&#x27;but_principal&#x27;: &#x27;TREATMENT&#x27;, &#x27;insu&#x27;: &#x27;NONE&#x27;, &#x27;insu_description&#x27;: None, &#x27;insu_pour&#x27;: None, &#x27;modele&#x27;: &#x27;PARALLEL&#x27;, &#x27;modele_observationnel&#x27;: None, &#x27;repartition&#x27;: &#x27;RANDOMIZED&#x27;}
+Bras (rôle déclaré) :
+  - The Aquea Zealix™ [EXPERIMENTAL] : Device: Aquea Zealix™
+  - The Hydrus® Microstent [ACTIVE_COMPARATOR] : Device: Hydrus® Microstent
+Critères principaux : Primary Effectiveness Endpoint [12 Months]
+Critères secondaires : Secondary Effectiveness Endpoint [12 Months]
+
+DESCRIPTION (registre, texte source) :
+The purpose of this research study is to compare the safety and effectiveness of the Aquea Intracanalicular Glaucoma Stent to the Alcon Hydrus Glaucoma Microstent for the reduction of intraocular pressure (IOP) in patients with cataract and primary open angle glaucoma.
+
+RÉSULTATS : aucun résultat déposé au registre.</textarea></details></section>
+<p><small>Fiche générée le 2026-11-11 22:40 par Glaucoma Intelligence. Extraits des sources en langue originale.</small></p>
+</main><script>
+function copierFiche(){
+  var zone=document.getElementById('a-copier'), bouton=document.getElementById('bouton-copier');
+  function fait(){bouton.textContent='Copié ✓ — collez dans Claude ou ChatGPT';setTimeout(function(){bouton.textContent='Copier pour Claude / ChatGPT'},3000);}
+  function secours(){zone.parentElement.open=true;zone.select();try{document.execCommand('copy');fait();}
+    catch(err){bouton.textContent='Sélectionnez le texte ci-dessous puis Ctrl+C';}}
+  if(navigator.clipboard&&window.isSecureContext){navigator.clipboard.writeText(zone.value).then(fait,secours);}else{secours();}
+}
+</script></body></html>

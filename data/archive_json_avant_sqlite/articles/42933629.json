@@ -1,0 +1,100 @@
+{
+  "pmid": "42933629",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42933629",
+    "titre": "HYALURONIC ACID (HA)-INDUCED INCREASE IN ANATOMICAL ACCOMMODATION RESPONSE IN PRESBYOPIC MONKEYS.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42933629/",
+    "doi": "10.1016/j.exer.2026.111262",
+    "pmcid": null,
+    "revue": "Experimental eye research",
+    "date_entree_pubmed": "2026-10-26",
+    "date_publication": "2026-Oct-26",
+    "types_publication": [
+      "Journal Article"
+    ],
+    "resume_present": true,
+    "resume": "Our goal was to restore age related loss in HA levels in the vitreous of the presbyopic monkey eye to determine if intravitreal injection of HA restores the anatomical (i.e. accommodative lens thickening, forward movement of the posterior zonule insertion zone and thereby ciliary muscle forward movement etc.) and dioptric accommodative response and if so the duration of the response increase. We injected 0.3ml of HA (14mg/ml; Healon GV) into the vitreous near the optic nerve region, quantified the accommodative response to i.v. pilocarpine (2mg/kg wt) before and two weeks after HA injection, and compared accommodative responses at both time points and at 5, 8 and 16 months post HA. Accommodative amplitude was measured by Hartinger coincidence refractometry. Accommodative movements of the lens, and ciliary muscle were measured by ultrasound biomicroscopy (UBM; 50, 20 MHz) and choroidal movements in the region of the optic nerve were measured by OCT. RESULTS: Two weeks following HA injection the accommodative response to pilocarpine increased dramatically compared to baseline (ipsilateral eye; pre-HA); lens thickening ([increased] by 0.24 ± 0.05mm;p<0.022), forward ciliary muscle movement (by 0.42 + 0.09mm; p<0.019), centrifugal choroidal movement around the optic nerve (by 0.47 + 0.19mm;p<0.09) and accommodative amplitude (by 1.19 ± 0.79 diopters, and the anterior lens surface became more sharply curved (by 2.43 ± 0.49 mm radius of curvature; p<0.016). The forward movement of the posterior zonule insertion zone of the vitreous zonule reflects both forward movement of the vitreous zonule and forward movement of the muscle. Between experimental sessions in the contralateral control eye (no HA) there was no change in anatomical accommodation response as measured by insertion zone forward movement (-0.01±0.13mm) nor for any other parameter.(Croft et al., 2024) The HA anatomical accommodation effect was maintained up to 16 months following injection. Further, in response to Edinger-Westphal (EW) nucleus electrical stimulation to induce accommodation - the increased tissue movement response was also still present 5 to 8 months post HA injection (i.e., forward muscle movement by 0.28 ± 0.03mm and lens thickening by 0.13 ± 0.03mm; n=2) in absence of pilocarpine administration. The data suggests that HA levels are important to accommodative movements of the lens, muscle and choroid. These experiments may provide insights into presbyopia therapy, the mechanisms of accommodation, presbyopia, accommodating IOL function and perhaps glaucomatous optic neuropathy.",
+    "mots_cles_auteurs": [
+      "Accommodation",
+      "Choroid",
+      "Hyaluronic Acid",
+      "Lens",
+      "Monkey",
+      "Presbyopia",
+      "Vitreous"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 7,
+    "affiliations_auteurs": [
+      "Department of Ophthalmology and Visual Sciences.",
+      "Department of Biostatistics and Informatics.",
+      "Department of Ophthalmology and Visual Sciences; Wisconsin National Primate Research Center; McPherson Eye Research Institute, University of Wisconsin-Madison, Madison, WI 53792."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": true,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": [
+        {
+          "produit": "pilocarpine",
+          "role": "non déterminé",
+          "statut_role": "cité dans le résumé ou les mots-clés"
+        }
+      ],
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7223706321",
+      "doi": "10.1016/j.exer.2026.111262",
+      "pmid": "42933629",
+      "pmcid": null,
+      "titre": "HYALURONIC ACID (HA)-INDUCED INCREASE IN ANATOMICAL ACCOMMODATION RESPONSE IN PRESBYOPIC MONKEYS",
+      "lien": "https://openalex.org/W7223706321",
+      "date_publication": "2026-10-01",
+      "type": "article",
+      "revue": "Experimental Eye Research",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "pubmed"
+      ],
+      "financeurs": null,
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "University of Wisconsin–Madison",
+          "pays": "US",
+          "type": "education",
+          "ror": "https://ror.org/01y2jtd41"
+        }
+      ],
+      "acces_ouvert": false,
+      "statut_acces": "closed",
+      "url_texte": null,
+      "url_pdf": null,
+      "licence": null,
+      "texte_integral_indexe": false,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Ophthalmology and Visual Impairment Studies",
+      "resume_present": false,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": []
+  }
+}

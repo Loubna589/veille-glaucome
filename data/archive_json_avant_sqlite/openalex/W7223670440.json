@@ -1,0 +1,59 @@
+{
+  "openalex_id": "W7223670440",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "openalex_id": "W7223670440",
+    "doi": "10.48550/arxiv.2610.32511",
+    "pmid": null,
+    "pmcid": null,
+    "titre": "Augmentation Strategy for DINO in Glaucoma Classification",
+    "lien": "https://openalex.org/W7223670440",
+    "date_publication": "2026-10-23",
+    "type": "preprint",
+    "revue": "arXiv (Cornell University)",
+    "type_source": "repository",
+    "langue": "en",
+    "indexe_dans": [
+      "arxiv",
+      "datacite"
+    ],
+    "financeurs": null,
+    "subventions": null,
+    "institutions": [
+      {
+        "nom": "Indian Institute of Science Bangalore",
+        "pays": "IN",
+        "type": "education",
+        "ror": "https://ror.org/04dese585"
+      }
+    ],
+    "acces_ouvert": true,
+    "statut_acces": "green",
+    "url_texte": "https://arxiv.org/pdf/2610.32511",
+    "url_pdf": "https://arxiv.org/pdf/2610.32511",
+    "licence": "cc-by",
+    "texte_integral_indexe": true,
+    "retracte": false,
+    "citations": 0,
+    "sujet_principal": "Retinal Imaging and Analysis",
+    "resume_present": true,
+    "resume": "Self-supervised learning (SSL) offers a promising approach to medical image representation learning, yet augmentation strategies of SSL frameworks validated on natural images do not reliably transfer to specialized medical imaging domains. We analyze DINO, a knowledge-distillation based SSL framework, and empirically demonstrate that its default augmentation strategy produces unreliable representations for retinal fundus images, degrading downstream glaucoma classification performance. Guided by the principle that effective cropped views should share minimal redundant information while retaining clinically relevant signal, we redesign DINO's augmentation strategy. Our approach biases the learned representations toward diagnostically critical features rather than low-level image statistics. We evaluate our method for glaucoma classification by training a linear classifier on the frozen representations, achieving strong generalization across seven benchmark datasets. URL for code and weights: https://github.com/ashish-256/task_dino",
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "present_dans_pubmed": false
+  }
+}

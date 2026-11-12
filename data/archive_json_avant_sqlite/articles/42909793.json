@@ -1,0 +1,101 @@
+{
+  "pmid": "42909793",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42909793",
+    "titre": "Safety and Efficacy of Microhook Ab Interno Trabeculotomy Combined with Cataract Surgery in Older Patients with Glaucoma.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42909793/",
+    "doi": "10.1007/s40123-026-01529-4",
+    "pmcid": null,
+    "revue": "Ophthalmology and therapy",
+    "date_entree_pubmed": "2026-10-23",
+    "date_publication": "2026-Oct-23",
+    "types_publication": [
+      "Journal Article"
+    ],
+    "resume_present": true,
+    "resume": "INTRODUCTION: Evidence regarding minimally invasive glaucoma surgery in very old patients remains limited, making surgical decision-making challenging in this population. We investigated age-related differences in the safety and efficacy of microhook ab interno trabeculotomy combined with cataract surgery (combined µLOT).\nMETHODS: This single-center retrospective study in Japan included 67 consecutive glaucomatous eyes of 67 patients who underwent combined µLOT and were followed for at least 6 months. The cohort comprised 27 male and 40 female patients. Patients were divided by median age into younger (< 76 years, n = 32) and older (≥ 76 years, n = 35) groups. Qualified success was defined irrespective of postoperative glaucoma medication use and without the need for additional glaucoma surgery, and was evaluated using three intraocular pressure (IOP) criteria: criterion A, 6 ≤ IOP ≤ 18 mmHg; criterion B, 6 ≤ IOP ≤ 15 mmHg; and criterion C, 6 ≤ IOP ≤ 13 mmHg.\nRESULTS: The mean age of the older group was 82.5 years. At 6 months, qualified success probabilities were 94.0%, 82.1%, and 60.0% for criteria A, B, and C, respectively. Although the older group had higher qualified success under criterion C (71.4% vs. 46.9%; nominal P = 0.04) and lower IOP from week 2 to month 6, age was not independently associated with surgical failure in multivariable Cox analyses. Higher preoperative IOP, hypertension, and antithrombotic therapy showed exploratory associations with failure. Postoperative hyphema, transient IOP elevation, corneal endothelial cell loss, and systemic complications were not increased in the older group.\nCONCLUSION: Combined µLOT provided favorable short-term IOP control without an increased complication burden in older patients, although baseline medication burden may have confounded the age-group comparison. These real-world findings provide clinically relevant evidence for surgical decision-making in very old patients and may be informative for other aging societies.",
+    "mots_cles_auteurs": [
+      "Cataract surgery",
+      "Glaucoma",
+      "Japan",
+      "Microhook ab interno trabeculotomy",
+      "Minimally invasive glaucoma surgery",
+      "Older patients"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 4,
+    "affiliations_auteurs": [
+      "Department of Ophthalmology, Asao General Hospital, Kawasaki, Japan.",
+      "Department of Ophthalmology, St. Marianna University School of Medicine, Kawasaki, Japan.",
+      "Department of Ophthalmology, Asao General Hospital, Kawasaki, Japan. t-noro@jikei.ac.jp.",
+      "Department of Ophthalmology, The Jikei University School of Medicine, Tokyo, Japan. t-noro@jikei.ac.jp."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7223396962",
+      "doi": "10.1007/s40123-026-01529-4",
+      "pmid": "42909793",
+      "pmcid": null,
+      "titre": "Safety and Efficacy of Microhook Ab Interno Trabeculotomy Combined with Cataract Surgery in Older Patients with Glaucoma",
+      "lien": "https://openalex.org/W7223396962",
+      "date_publication": "2026-10-23",
+      "type": "article",
+      "revue": "Ophthalmology and Therapy",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "doaj",
+        "pubmed"
+      ],
+      "financeurs": null,
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "St. Marianna University School of Medicine",
+          "pays": "JP",
+          "type": "education",
+          "ror": "https://ror.org/043axf581"
+        },
+        {
+          "nom": "Jikei University School of Medicine",
+          "pays": "JP",
+          "type": "education",
+          "ror": "https://ror.org/039ygjf22"
+        }
+      ],
+      "acces_ouvert": true,
+      "statut_acces": "gold",
+      "url_texte": "https://link.springer.com/content/pdf/10.1007/s40123-026-01529-4.pdf",
+      "url_pdf": "https://link.springer.com/content/pdf/10.1007/s40123-026-01529-4.pdf",
+      "licence": "cc-by-nc",
+      "texte_integral_indexe": true,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Glaucoma and retinal disorders",
+      "resume_present": true,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": []
+  }
+}

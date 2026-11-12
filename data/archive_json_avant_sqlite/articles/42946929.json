@@ -1,0 +1,128 @@
+{
+  "pmid": "42946929",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42946929",
+    "titre": "Topographic and layer-specific mapping of anterior scleral complex thickness using anterior segment OCT: an anatomical reference with potential surgical relevance.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42946929/",
+    "doi": "10.1007/s10792-026-04307-0",
+    "pmcid": null,
+    "revue": "International ophthalmology",
+    "date_entree_pubmed": "2026-10-28",
+    "date_publication": "2026-Oct-27",
+    "types_publication": [
+      "Journal Article"
+    ],
+    "resume_present": true,
+    "resume": "PURPOSE: To provide a layer-specific surgical atlas of the anterior scleral complex and link the AS-OCT anatomy to the tissue planes and entry zones used during glaucoma filtration surgery, scleral-fixated IOL implantation, intravitreal injection and ocular surface surgery.\nMETHODS: This prospective cross-sectional study included 120 healthy Turkish volunteers. Thicknesses of the scleral stroma, episclera, Tenon's capsule and conjunctiva were measured at 1, 2, 3 and 4 mm from the scleral spur in four quadrants using wide-angle anterior segment optical coherence tomography with rectus muscle visualization. Measurement reliability was assessed using the ICC, SEM, TEM and repeatability coefficient.\nRESULTS: The mean age of participants was 42.74 ± 15.31 years; 72.5% were female. Layer-specific boundaries of all four tissues were feasible, with most parameters demonstrating good to excellent reliability. Notably, certain measurements of the thickness of the medial Tenon's capsule were significantly greater in females. Scleral stromal and episcleral thickness generally increased with age across most quadrants. The thickness of Tenon's capsule generally decreased with age. Conjunctival thickness changes were quadrant-specific, with a significant increases in the inferior and medial quadrants with age. Topographical analysis revealed that scleral stromal thickness progressively decreased toward the periphery, whereas episcleral thickness generally increased.\nCONCLUSION: Beyond establishing normative AS-OCT measurements, this study introduces anterior scleral anatomy into a potential clinically relevant surgical reference framework. The layer-specific topographical atlas and age-related remodeling patterns describe the tissue characteristics encountered at commonly used surgical locations and may inform surgeons in selecting flap depth, fixation sites, dissection planes and injection zones according to patient age and quadrant-specific anatomy.",
+    "mots_cles_auteurs": [
+      "Anterior segment optical coherence tomography",
+      "Conjunctival thickness",
+      "Normative data",
+      "Scleral stroma",
+      "Scleral thickness",
+      "Tenon’s capsule"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 2,
+    "affiliations_auteurs": [
+      "Department of Ophthalmology, Gülhane Training and Research Hospital, Merkez Ankara Konutları (D Blok 134), Ankara, Turkey. akutayk@outlook.com.",
+      "Department of Ophthalmology, Yozgat City Hospital, Yozgat, Turkey."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": [
+      "Humans",
+      "Female",
+      "Sclera",
+      "Tomography, Optical Coherence",
+      "Prospective Studies",
+      "Adult",
+      "Cross-Sectional Studies",
+      "Male",
+      "Middle Aged",
+      "Anterior Eye Segment",
+      "Reproducibility of Results",
+      "Young Adult",
+      "Healthy Volunteers",
+      "Aged",
+      "Reference Values",
+      "Conjunctiva",
+      "Glaucoma"
+    ]
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": null,
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7223970076",
+      "doi": "10.1007/s10792-026-04307-0",
+      "pmid": "42946929",
+      "pmcid": null,
+      "titre": "Topographic and layer-specific mapping of anterior scleral complex thickness using anterior segment OCT: an anatomical reference with potential surgical relevance",
+      "lien": "https://openalex.org/W7223970076",
+      "date_publication": "2026-10-27",
+      "type": "article",
+      "revue": "International Ophthalmology",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "pubmed"
+      ],
+      "financeurs": null,
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "Gülhane Eğitim ve Araştırma Hastanesi",
+          "pays": "TR",
+          "type": "healthcare",
+          "ror": "https://ror.org/00w7bw158"
+        }
+      ],
+      "acces_ouvert": false,
+      "statut_acces": "closed",
+      "url_texte": null,
+      "url_pdf": null,
+      "licence": null,
+      "texte_integral_indexe": false,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Glaucoma and retinal disorders",
+      "resume_present": false,
+      "mesh": [
+        "Adult",
+        "Aged",
+        "Anterior Eye Segment",
+        "Conjunctiva",
+        "Cross-Sectional Studies",
+        "Female",
+        "Glaucoma",
+        "Humans",
+        "Male",
+        "Middle Aged",
+        "Prospective Studies",
+        "Reference Values",
+        "Sclera",
+        "Reproducibility of Results",
+        "Tomography, Optical Coherence",
+        "Young Adult",
+        "Healthy Volunteers"
+      ]
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": []
+  }
+}

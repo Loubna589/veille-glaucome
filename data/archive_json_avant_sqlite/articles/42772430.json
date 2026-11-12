@@ -1,0 +1,109 @@
+{
+  "pmid": "42772430",
+  "premiere_detection": "2026-09-25",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42772430",
+    "titre": "Incidence of De Novo Glaucoma and Ocular Hypertension After DMEK vs DSAEK: A Systematic Review and Meta-Analysis.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42772430/",
+    "doi": "10.1016/j.ajo.2026.09.023",
+    "pmcid": null,
+    "revue": "American journal of ophthalmology",
+    "date_entree_pubmed": "2026-09-22",
+    "date_publication": "2026-Sep-22",
+    "types_publication": [
+      "Journal Article",
+      "Review"
+    ],
+    "resume_present": true,
+    "resume": "TOPIC: Post-keratoplasty glaucoma complicates endothelial keratoplasty, but its incidence with modern techniques remains uncertain. We conducted a systematic review estimating the pooled incidence of de novo glaucoma and ocular hypertension (OHT) in glaucoma-naïve adult eyes undergoing Descemet membrane endothelial keratoplasty (DMEK) or Descemet stripping automated endothelial keratoplasty (DSAEK).\nCLINICAL RELEVANCE: Post-keratoplasty glaucoma threatens optic nerve function and graft survival and may require therapy or surgery. Surgeons lack procedure-specific estimates to guide procedure selection and postoperative surveillance.\nMETHODS: We searched Embase, MEDLINE, Cochrane CENTRAL, CINAHL, Web of Science, Scopus, and ProQuest from inception to June 2025. Eligible studies enrolled adult eyes without pre-existing glaucoma undergoing DMEK or DSAEK and reported postoperative de novo glaucoma and/or OHT. Two reviewers screened and appraised studies; all counts were re-audited against source articles. Random-effects models pooled single-arm incidences by procedure and head-to-head odds ratios, with incidence rates per eye-year (Poisson) and meta-regression on keratoplasty type and steroid exposure. Certainty was evaluated using GRADE.\nRESULTS: Thirty-three studies including 5,235 eyes met inclusion criteria. Pooled incidence after DMEK versus DSAEK was 3% versus 11% for de novo glaucoma, 9% versus 34% for OHT, and 6% versus 20% for medication initiation/escalation (all p ≤ 0.0006); glaucoma surgery 1.0% versus 2.5% (p = 0.14). DSAEK cohorts were followed twice as long (68 vs 35 months), but Poisson rate ratios still favored DMEK (glaucoma 0.45, 95% CI 0.19-1.07; OHT 0.31, 0.14-0.71). Restricting glaucoma to optic-nerve or visual-field criteria narrowed this to 5.0% versus 8.1% (p = 0.38), and greater steroid exposure was independently associated with OHT. Head-to-head estimates favored DMEK but were non-significant (OR 0.51, 0.22-1.21); every randomized trial used ultrathin or microthin DSAEK. Certainty was low to very low.\nCONCLUSION: De novo glaucoma and OHT are common after endothelial keratoplasty, and the overall pattern of lower event rates after DMEK persisted after adjustment for observation time. The magnitude attributable to technique remains uncertain, given variable glaucoma definitions, confounding by steroid exposure, and randomized evidence limited to ultrathin or microthin DSAEK. Larger head-to-head studies with standardized definitions and steroid protocols are needed.",
+    "mots_cles_auteurs": [
+      "DMEK",
+      "DSAEK",
+      "Endothelial Keratoplasty",
+      "Glaucoma",
+      "Meta-analysis",
+      "Ocular Hypertension",
+      "Systematic review"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 6,
+    "affiliations_auteurs": [
+      "Cumming School of Medicine, University of Calgary, Calgary, Alberta, Canada.",
+      "Faculty of Medicine, University of British Columbia, Vancouver, British Columbia, Canada.",
+      "Department of Ophthalmology and Visual Sciences, University of Calgary, Calgary, Alberta, Canada.",
+      "Department of Ophthalmology, Université de Montréal, Montreal, Québec, Canada.",
+      "Department of Ophthalmology and Visual Sciences, University of Calgary, Calgary, Alberta, Canada. Electronic address: jamiebhamra@gmail.com."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7214009697",
+      "doi": "10.1016/j.ajo.2026.09.023",
+      "pmid": "42772430",
+      "pmcid": null,
+      "titre": "Incidence of De Novo Glaucoma and Ocular Hypertension After DMEK vs DSAEK: A Systematic Review and Meta-Analysis",
+      "lien": "https://openalex.org/W7214009697",
+      "date_publication": "2026-09-01",
+      "type": "review",
+      "revue": "American Journal of Ophthalmology",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "pubmed"
+      ],
+      "financeurs": null,
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "University of Calgary",
+          "pays": "CA",
+          "type": "education",
+          "ror": "https://ror.org/03yjb2x39"
+        },
+        {
+          "nom": "University of British Columbia",
+          "pays": "CA",
+          "type": "education",
+          "ror": "https://ror.org/03rmrcq20"
+        },
+        {
+          "nom": "Université de Montréal",
+          "pays": "CA",
+          "type": "education",
+          "ror": "https://ror.org/0161xgx34"
+        }
+      ],
+      "acces_ouvert": true,
+      "statut_acces": "hybrid",
+      "url_texte": "https://www.ajo.com/article/S0002-9394(26)00538-6/pdf",
+      "url_pdf": "https://www.ajo.com/article/S0002-9394(26)00538-6/pdf",
+      "licence": "cc-by-nc-nd",
+      "texte_integral_indexe": true,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Glaucoma and retinal disorders",
+      "resume_present": true,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-09-25",
+    "financements": []
+  }
+}

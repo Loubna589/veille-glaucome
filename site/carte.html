@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Carte des acteurs — Glaucoma Intelligence</title>
+  <meta name="description" content="Cartographie interactive des essais cliniques du glaucome, de leurs traitements, promoteurs, financeurs et publications liées.">
+  <link rel="canonical" href="https://loubna589.github.io/veille-glaucome/carte.html">
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    .carte-zone { display: grid; grid-template-columns: minmax(0, 1fr) 300px; gap: 14px; }
+    #cy { height: 640px; background: var(--carte); border: 1px solid var(--bord); border-radius: var(--rayon); box-shadow: var(--ombre); }
+    #fiche { background: var(--carte); border: 1px solid var(--bord); border-radius: var(--rayon); padding: 14px 16px; box-shadow: var(--ombre); font-size: .9rem; align-self: start; }
+    .legende { display: flex; flex-wrap: wrap; gap: 12px; font-size: .85rem; color: var(--doux); margin: 0 0 10px; }
+    .legende i { display: inline-block; width: 12px; height: 12px; border-radius: 50%; margin-right: 5px; vertical-align: -1px; }
+    @media (max-width: 860px) { .carte-zone { grid-template-columns: 1fr; } #cy { height: 480px; } }
+  </style>
+</head>
+<body>
+  <div id="nav"></div>
+  <main class="page">
+    <header class="hero">
+      <h1>Carte des acteurs</h1>
+      <p>Essais, traitements, organismes et publications. <strong>Chaque lien vient d'une donnée déclarée par une source</strong>
+        (promoteur et interventions au registre ClinicalTrials.gov, NCT déclaré dans PubMed, financeur confirmé par PubMed ou
+        Crossref) — aucun lien n'est déduit par l'outil. Cliquez sur un nœud pour voir sa fiche.</p>
+    </header>
+    <form class="filtres" id="filtres" onsubmit="return false">
+      <label class="case"><input type="checkbox" value="essai" checked> Essais</label>
+      <label class="case"><input type="checkbox" value="traitement" checked> Traitements</label>
+      <label class="case"><input type="checkbox" value="organisme" checked> Organismes</label>
+      <label class="case"><input type="checkbox" value="publication" checked> Publications</label>
+      <label>Statut des essais<select id="f-statut"><option value="">tous</option></select></label>
+      <label>Recherche<input type="search" id="f-texte" placeholder="netarsudil, Santen, NCT…"></label>
+    </form>
+    <div class="legende" id="legende"></div>
+    <p class="compteur" id="compteur"></p>
+    <div class="carte-zone">
+      <div id="cy" role="img" aria-label="Graphe interactif des essais, traitements et organismes"></div>
+      <aside id="fiche"><p class="vide">Cliquez sur un nœud.</p></aside>
+    </div>
+  </main>
+  <footer class="pied" id="pied"></footer>
+  <script src="js/app.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/cytoscape/3.30.2/cytoscape.min.js"></script>
+  <script>
+    Veille.pret(function () {
+      var V = Veille;
+      V.monterNavigation("carte");
+      if (!window.cytoscape) { V.erreurChargement(new Error("Cytoscape.js n'a pas pu être chargé (connexion internet nécessaire)")); return; }
+      var css = getComputedStyle(document.documentElement), c = function (v) { return css.getPropertyValue(v).trim(); };
+      var COULEURS = { essai: c("--g1"), traitement: c("--g2"), organisme: c("--g4"), publication: c("--g3") };
+      var NOMS = { essai: "Essai", traitement: "Traitement", organisme: "Organisme", publication: "Publication" };
+      var LIENS = { promoteur: "promoteur", collaborateur: "collaborateur", intervention: "intervention", financeur: "financeur", cite_essai: "cite l'essai" };
+      document.getElementById("legende").innerHTML = Object.keys(COULEURS).map(function (t) {
+        return '<span><i style="background:' + COULEURS[t] + '"></i>' + NOMS[t] + "</span>";
+      }).join("") + "<span>Taille = nombre de liens</span>";
+
+      V.charger(["graphe.json"]).then(function (r) {
+        var G = r[0];
+        var statuts = {};
+        G.noeuds.forEach(function (n) { if (n.statut) statuts[n.statut] = 1; });
+        Object.keys(statuts).sort().forEach(function (s) { document.getElementById("f-statut").insertAdjacentHTML("beforeend", "<option>" + V.esc(s) + "</option>"); });
+
+        var cy = cytoscape({
+          container: document.getElementById("cy"),
+          elements: G.noeuds.map(function (n) { return { data: Object.assign({}, n) }; })
+            .concat(G.liens.map(function (l) { return { data: Object.assign({}, l) }; })),
+          style: [
+            { selector: "node", style: { "background-color": function (n) { return COULEURS[n.data("type")]; },
+              width: function (n) { return 10 + 4 * Math.min(n.data("degre"), 12); }, height: function (n) { return 10 + 4 * Math.min(n.data("degre"), 12); },
+              label: function (n) { return n.data("degre") >= 3 ? (n.data("label") || "").slice(0, 28) : ""; },
+              "font-size": 9, color: c("--texte"), "text-valign": "bottom", "text-margin-y": 3 } },
+            { selector: "edge", style: { width: 1.2, "line-color": c("--bord"), "curve-style": "haystack", opacity: 0.8 } },
+            { selector: "node:selected", style: { "border-width": 3, "border-color": c("--nouveau"), label: "data(label)" } },
+            { selector: ".attenue", style: { opacity: 0.12 } },
+          ],
+          layout: { name: "cose", animate: false, nodeRepulsion: 6000, idealEdgeLength: 50, componentSpacing: 60 },
+          wheelSensitivity: 0.3,
+        });
+        window.carte = cy;  // accessible depuis la console (démonstration, tests)
+
+        function filtrer() {
+          var types = [].slice.call(document.querySelectorAll("#filtres input[type=checkbox]:checked")).map(function (x) { return x.value; });
+          var statut = document.getElementById("f-statut").value, texte = V.norm(document.getElementById("f-texte").value);
+          cy.batch(function () {
+            cy.nodes().forEach(function (n) {
+              var d = n.data(), visible = types.indexOf(d.type) >= 0 && (!statut || d.type !== "essai" || d.statut === statut);
+              n.style("display", visible ? "element" : "none");
+            });
+            // Un traitement ou un organisme dont tous les voisins sont masqués n'a plus de sens seul : on le masque aussi
+            cy.nodes().forEach(function (n) {
+              if (n.data("type") === "essai" || n.style("display") === "none") return;
+              var voisinVisible = n.neighborhood("node").some(function (m) { return m.style("display") === "element"; });
+              if (!voisinVisible) n.style("display", "none");
+            });
+            cy.nodes().removeClass("attenue");
+            if (texte) {
+              var trouves = cy.nodes().filter(function (n) { return V.norm(n.data("label") + " " + (n.data("titre") || "")).indexOf(texte) >= 0; });
+              cy.elements().not(trouves.closedNeighborhood()).addClass("attenue");
+            }
+          });
+          var visibles = cy.nodes().filter(function (n) { return n.style("display") === "element"; });
+          document.getElementById("compteur").textContent = visibles.length + " nœud(s) affiché(s) sur " + G.statistiques.noeuds +
+            " · " + G.statistiques.liens + " liens issus des sources";
+        }
+        document.getElementById("filtres").addEventListener("input", filtrer);
+        filtrer();
+
+        cy.on("tap", "node", function (ev) {
+          var d = ev.target.data();
+          var voisins = ev.target.connectedEdges().map(function (e) {
+            var autre = e.source().id() === d.id ? e.target() : e.source();
+            return "<li>" + V.esc(LIENS[e.data("type")] || e.data("type")) + " : <strong>" + V.esc(autre.data("label")) + "</strong> <small>(" + V.esc(e.data("origine")) + ")</small></li>";
+          }).join("");
+          document.getElementById("fiche").innerHTML = '<span class="badge" style="background:' + COULEURS[d.type] + ';color:#fff">' + NOMS[d.type] + "</span>" +
+            "<h2 style=\"font-size:1.05rem;margin:8px 0\">" + V.esc(d.label) + "</h2>" + (d.titre ? "<p>" + V.esc(d.titre) + "</p>" : "") +
+            '<p class="meta" style="margin:6px 0">' + (d.statut ? "<span>Statut : " + V.esc(d.statut) + "</span>" : "") +
+            (d.phase ? "<span>Phase : " + V.esc(d.phase) + "</span>" : "") + (d.categorie ? "<span>" + V.esc(d.categorie) + "</span>" : "") +
+            (d.hors_base ? "<span>essai cité, hors base</span>" : "") + "</p>" +
+            "<p><strong>" + ev.target.degree() + " lien(s)</strong></p><ul style=\"padding-left:1.1em;margin:4px 0 10px\">" + voisins + "</ul>" +
+            '<div class="actions">' + (d.fiche ? '<a href="' + V.esc(d.fiche) + '">Fiche détaillée →</a>' : "") +
+            (d.lien ? '<a href="' + V.esc(d.lien) + '" target="_blank" rel="noopener">Source ↗</a>' : "") +
+            (d.type === "organisme" ? '<a href="laboratoires.html?labo=' + encodeURIComponent(d.label) + '">Page Laboratoires →</a>' : "") + "</div>";
+        });
+      }).catch(V.erreurChargement);
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,122 @@
+{
+  "nct": "NCT07895537",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "nct": "NCT07895537",
+    "titre": "Short-Term Efficacy and Safety of Combined Deep Sclerectomy With Trabeculotomy in Advanced Glaucoma: A Prospective Interventional Study",
+    "titre_officiel": "Short-Term Efficacy and Safety of Combined Deep Sclerectomy With Trabeculotomy in Advanced Glaucoma: A Prospective Interventional Study",
+    "lien": "https://clinicaltrials.gov/study/NCT07895537",
+    "date_premiere_publication": "2026-10-26",
+    "date_derniere_mise_a_jour": "2026-10-26",
+    "type_etude": "INTERVENTIONAL",
+    "phases_declarees": [
+      "NA"
+    ],
+    "statut": "COMPLETED",
+    "raison_arret": null,
+    "date_debut": "2025-09-15",
+    "date_fin_principale": "2026-03-05",
+    "promoteur": "Minia University",
+    "type_promoteur": "OTHER",
+    "collaborateurs": null,
+    "conditions": [
+      "Deep Sclerectomy With Trabeculotomy in Advanced Glaucoma"
+    ],
+    "interventions": [
+      {
+        "type": "PROCEDURE",
+        "nom": "Combined Deep Sclerectomy with Trabeculotomy"
+      }
+    ],
+    "participants_nombre": 16,
+    "participants_type": "ACTUAL",
+    "criteres_principaux": [
+      {
+        "critere": "Change in Intraocular Pressure from Baseline to 3 Months After Surger",
+        "delai": "Baseline (preoperative) to 3 months after surger"
+      }
+    ],
+    "resultats_deposes": false,
+    "publications_declarees": [
+      {
+        "pmid": "36435917",
+        "type": "RESULT"
+      },
+      {
+        "pmid": "31114650",
+        "type": "RESULT"
+      },
+      {
+        "pmid": "18414886",
+        "type": "RESULT"
+      }
+    ],
+    "resume_source": "\\*\\*Brief Summary\\*\\*\n\nGlaucoma is a progressive eye disease that can lead to irreversible vision loss if intraocular pressure (IOP) is not adequately controlled. Some patients with advanced glaucoma require surgery when medications and/or laser treatment fail to achieve the desired pressure reduction.\n\nThis prospective, single-center interventional study aims to evaluate the short-term effectiveness and safety of a combined glaucoma surgery involving deep sclerectomy, trabeculotomy. The study will include 20 eyes of eligible adult patients with advanced glaucoma who require surgical treatment to lower intraocular pressure.\n\nAll participants will undergo the planned surgical procedure and receive postoperative care according to a standardized protocol. Follow-up examinations will be performed on the first postoperative day, at one week, and at one, three, and six months after surgery.\n\nThe primary outcome will be the change in intraocular pressure from baseline to three months after surgery. Secondary outcomes will include changes in the number of glaucoma medications required, visual acuity, surgical success, the need for additional treatment, and the occurrence of intraoperative or postoperative complications.\n\nThe findings are expected to provide information about the short-term effectiveness and safety of this modified surgical technique in patients with advanced glaucoma. As a single-center study without a comparison group, the results will be interpreted in the context of its design and sample size.",
+    "citations_declarees": [
+      {
+        "pmid": "36435917",
+        "type": "RESULT",
+        "citation": "Kotb MS, El Gharbawy SA, Abdelrahman AM, Makled HS. Sutureless versus conventional deep sclerectomy for management of open angle glaucoma. Graefes Arch Clin Exp Ophthalmol. 2023 Apr;261(4):1083-1090. doi: 10.1007/s00417-022-05910-4. Epub 2022 Nov 26."
+      },
+      {
+        "pmid": "31114650",
+        "type": "RESULT",
+        "citation": "Sharifipour F, Yazdani S, Asadi M, Saki A, Nouri-Mahdavi K. Modified Deep Sclerectomy for the Surgical Treatment of Glaucoma. J Ophthalmic Vis Res. 2019 Apr-Jun;14(2):144-150. doi: 10.4103/jovr.jovr_228_17."
+      },
+      {
+        "pmid": "18414886",
+        "type": "RESULT",
+        "citation": "Luke C, Dietlein TS, Luke M, Konen W, Krieglstein GK. A prospective trial of phaco-trabeculotomy combined with deep sclerectomy versus phaco-trabeculectomy. Graefes Arch Clin Exp Ophthalmol. 2008 Aug;246(8):1163-8. doi: 10.1007/s00417-008-0821-8. Epub 2008 Apr 15."
+      }
+    ],
+    "plan": {
+      "repartition": "NA",
+      "modele": "SINGLE_GROUP",
+      "but_principal": "TREATMENT",
+      "insu": "NONE",
+      "insu_pour": null,
+      "insu_description": null,
+      "modele_observationnel": null
+    },
+    "bras": [
+      {
+        "libelle": "Combined Deep Sclerectomy with Trabeculotomy and Sub-Flap Mattress Suture",
+        "type": "EXPERIMENTAL",
+        "description": "Participants with advanced glaucoma requiring surgical intraocular pressure reduction will undergo combined deep sclerectomy and trabeculotomy . The procedure is intended to reduce intraocular pressure by enhancing aqueous humor outflow while maintaining controlled separation of the superficial scleral flap from the underlying scleral bed. All participants will receive standardized postoperative treatment and follow-up for six months to assess intraocular pressure, antiglaucoma medication requirements, visual acuity, surgical success, and postoperative complications",
+        "interventions": [
+          "Procedure: Combined Deep Sclerectomy with Trabeculotomy"
+        ]
+      }
+    ],
+    "eligibilite": {
+      "criteres": "\\*\\*Inclusion Criteria\\*\\*\n\n1. Age 18 years or older.\n2. Established diagnosis of glaucoma requiring surgical intraocular pressure reduction.\n3. Advanced glaucomatous optic neuropathy, defined by structural and/or functional criteria, preferably including reliable visual field testing demonstrating advanced loss according to the Hodapp-Parrish-Anderson classification when feasible.\n4. Intraocular pressure above the individualized target despite maximally tolerated topical antiglaucoma therapy and/or previous laser treatment, or documented glaucoma progression despite apparently controlled intraocular pressure.\n5. Open or sufficiently accessible anterior chamber angle anatomy suitable for the planned trabeculotomy.\n6. Ability to understand the study procedures and provide written informed consent.\n7. Willingness and ability to attend all scheduled postoperative follow-up visits.\n\n\\*\\*Exclusion Criteria\\*\\*\n\n1. Previous glaucoma filtering surgery in the study eye that substantially alters the intended surgical site.\n2. Active ocular inflammation or uncontrolled uveitis.\n3. Active infectious ocular disease.\n4. Significant corneal opacity preventing adequate surgical visualization or reliable intraocular pressure measurement.\n5. Severe ocular surface disease interfering with postoperative assessment.\n6. Previous major conjunctival surgery in the planned filtration area.\n7. Neovascular glaucoma requiring a different surgical strategy.\n8. Uncontrolled active retinal disease requiring urgent vitreoretinal intervention.\n9. Severe ocular trauma or extensive conjunctival scarring.\n10. Inability to provide informed consent or comply with the follow-up schedule.\n11. Any systemic or ocular condition judged by the investigator to make participation inappropriate or unsafe.",
+      "age_min": "18 Years",
+      "age_max": null,
+      "sexe": "ALL",
+      "volontaires_sains": false
+    },
+    "criteres_secondaires": [
+      {
+        "critere": "Change in Antiglaucoma Medication Requirements",
+        "delai": "Baseline to 1, 3, and 6 months after surgery."
+      },
+      {
+        "critere": "Percentage Reduction in Intraocular Pressure",
+        "delai": "Baseline to 1, 3, and 6 months after surgery.."
+      },
+      {
+        "critere": "Percentage Reduction in Intraocular Pressure",
+        "delai": "Baseline to 1, 3, and 6 months after surgery."
+      },
+      {
+        "critere": "Proportion of Eyes Achieving Complete and Qualified Surgical Success",
+        "delai": "3 and 6 months after surgery."
+      }
+    ],
+    "responsables": null,
+    "date_depot_resultats": null,
+    "resultats": null
+  },
+  "modifications": []
+}

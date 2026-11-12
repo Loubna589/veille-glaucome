@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Poser une question — Glaucoma Intelligence</title>
+  <meta name="description" content="Assistant de veille : posez une question en français, obtenez une réponse courte où chaque phrase cite sa source (essai ou article).">
+  <link rel="canonical" href="https://loubna589.github.io/veille-glaucome/assistant.html">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div id="nav"></div>
+  <main class="page">
+    <header class="hero">
+      <h1>Poser une question</h1>
+      <p>L'assistant cherche d'abord les essais et articles qui parlent de votre question, puis demande à une IA de répondre
+        <strong>uniquement à partir de ces textes</strong>. Chaque phrase de la réponse cite sa source ; si les textes ne
+        suffisent pas, l'assistant répond « Je ne sais pas ».</p>
+    </header>
+
+    <div class="actions-principales">
+      <a class="action" id="ouvrir" href="http://127.0.0.1:8770/">
+        <span class="action__icone" id="icone-assistant"></span>
+        <b>Ouvrir l'assistant</b>
+        <span>L'assistant fonctionne sur cet ordinateur. Lancez d'abord le raccourci « Glaucoma Intelligence - Assistant » du Bureau, puis cliquez ici.</span>
+        <em>Ouvrir http://127.0.0.1:8770 →</em>
+      </a>
+    </div>
+
+    <h2 class="titre-section">Comment ça marche, en 3 étapes</h2>
+    <div class="etapes">
+      <div class="etape"><b>Vous posez une question</b><span>En français, avec vos mots. Exemple : « Quels traitements du glaucome sans conservateur font l'objet de recherches cliniques ? »</span></div>
+      <div class="etape"><b>L'outil retrouve les bons textes</b><span>La recherche sémantique sélectionne les 6 essais ou articles les plus proches de la question.</span></div>
+      <div class="etape"><b>L'IA répond en citant ses sources</b><span>Chaque citation [NCT…] ou [PMID:…] est vérifiée : une réponse qui cite un document non fourni est refusée.</span></div>
+    </div>
+
+    <h2 class="titre-section">Exemple de réponse</h2>
+    <div id="exemple"></div>
+  </main>
+  <footer class="pied" id="pied"></footer>
+  <script src="js/app.js"></script>
+  <script>
+    (function () {
+      var V = Veille;
+      V.monterNavigation("assistant");
+      document.getElementById("icone-assistant").innerHTML = V.icone("assistant");
+      function lien(c) {
+        return c.indexOf("PMID:") === 0 ? "https://pubmed.ncbi.nlm.nih.gov/" + c.slice(5) + "/" : c.indexOf("NCT") === 0 ?
+          "https://clinicaltrials.gov/study/" + c : "https://openalex.org/" + c.split(":")[1];
+      }
+      V.charger(["reponse_rag_demo.json"]).then(function (r) {
+        var d = r[0];
+        document.getElementById("exemple").innerHTML = '<div class="encadre"><p><strong>Question :</strong> ' + V.esc(d.question) + "</p>" +
+          '<div style="white-space:pre-line;margin:10px 0;line-height:1.7">' + V.esc(d.reponse).replace(/\[(PMID:\d+|NCT\d{8}|OpenAlex:W\d+)\]/g, function (m, c) {
+            return '<a class="badge" href="' + lien(c) + '" target="_blank" rel="noopener">' + c + "</a>"; }) + "</div>" +
+          "<small>Réponse réelle enregistrée · modèle " + V.esc(d.modele) + " · prompt " + V.esc(d.version_prompt) + " · citations vérifiées</small></div>";
+      }).catch(function () {
+        document.getElementById("exemple").innerHTML = '<div class="encadre"><p class="vide">L\'exemple de réponse apparaîtra ici quand le jeton GitHub ' +
+          "sera installé (une réponse réelle sera alors enregistrée). En attendant, l'assistant affiche les sources retrouvées, sans rédiger de réponse.</p></div>";
+      });
+    })();
+  </script>
+</body>
+</html>

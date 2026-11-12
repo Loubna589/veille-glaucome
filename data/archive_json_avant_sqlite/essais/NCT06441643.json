@@ -1,0 +1,225 @@
+{
+  "nct": "NCT06441643",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "nct": "NCT06441643",
+    "titre": "Next Generation Rocklatan",
+    "titre_officiel": "A Phase II, Prospective, Two-Stage, Double-Masked, Randomized, Multi-Center, Controlled, Dose-Response Study Assessing the Safety and Ocular Hypotensive Efficacy of AR-17043 and PG043 (AR-17043/Latanoprost) Ophthalmic Solutions in Subjects With Elevated Intraocular Pressure",
+    "lien": "https://clinicaltrials.gov/study/NCT06441643",
+    "date_premiere_publication": "2024-06-04",
+    "date_derniere_mise_a_jour": "2026-11-09",
+    "type_etude": "INTERVENTIONAL",
+    "phases_declarees": [
+      "PHASE2"
+    ],
+    "statut": "COMPLETED",
+    "raison_arret": null,
+    "date_debut": "2024-09-04",
+    "date_fin_principale": "2025-11-14",
+    "promoteur": "Alcon Research",
+    "type_promoteur": "INDUSTRY",
+    "collaborateurs": null,
+    "conditions": [
+      "Open Angle Glaucoma",
+      "Ocular Hypertension"
+    ],
+    "interventions": [
+      {
+        "type": "DRUG",
+        "nom": "AR-17043 Ophthalmic Solution"
+      },
+      {
+        "type": "DRUG",
+        "nom": "PG043 Ophthalmic Solution"
+      },
+      {
+        "type": "DRUG",
+        "nom": "Latanoprost 0.005% Ophthalmic Solution"
+      },
+      {
+        "type": "DRUG",
+        "nom": "Netarsudil 0.02% Ophthalmic Solution"
+      },
+      {
+        "type": "DRUG",
+        "nom": "Netarsudil 0.02%/Latanoprost 0.005% Ophthalmic Solution"
+      },
+      {
+        "type": "DRUG",
+        "nom": "AR-17043 Vehicle"
+      }
+    ],
+    "participants_nombre": 646,
+    "participants_type": "ACTUAL",
+    "criteres_principaux": [
+      {
+        "critere": "Mean diurnal IOP at Day 8 (Stage 1)",
+        "delai": "Day 8 (8:00, 10:00, 12:00, 16:00)"
+      },
+      {
+        "critere": "Mean diurnal IOP at Day 29 (Stage 2)",
+        "delai": "Day 29 (8:00, 10:00, 16:00)"
+      }
+    ],
+    "resultats_deposes": false,
+    "publications_declarees": null,
+    "resume_source": "The purpose of this two-stage clinical trial is to assess the safety and hypotensive efficacy of AR-17043 and PG043 ophthalmic solutions in subjects with open-angle glaucoma (OAG) or ocular hypertension (OHT).",
+    "citations_declarees": null,
+    "plan": {
+      "repartition": "RANDOMIZED",
+      "modele": "PARALLEL",
+      "but_principal": "TREATMENT",
+      "insu": "QUADRUPLE",
+      "insu_pour": [
+        "PARTICIPANT",
+        "CARE_PROVIDER",
+        "INVESTIGATOR",
+        "OUTCOMES_ASSESSOR"
+      ],
+      "insu_description": null,
+      "modele_observationnel": null
+    },
+    "bras": [
+      {
+        "libelle": "AR-17043 low concentration (Stage 1)",
+        "type": "EXPERIMENTAL",
+        "description": "AR-17043 Ophthalmic Solution, one drop in each eye in the morning on Day 1, followed by one drop in each eye in the evening on Days 2-7.",
+        "interventions": [
+          "Drug: AR-17043 Ophthalmic Solution"
+        ]
+      },
+      {
+        "libelle": "AR-17043 medium concentration (Stage 1)",
+        "type": "EXPERIMENTAL",
+        "description": "AR-17043 Ophthalmic Solution, one drop in each eye in the morning on Day 1, followed by one drop in each eye in the evening on Days 2-7.",
+        "interventions": [
+          "Drug: AR-17043 Ophthalmic Solution"
+        ]
+      },
+      {
+        "libelle": "AR-17043 high concentration (Stage 1)",
+        "type": "EXPERIMENTAL",
+        "description": "AR-17043 Ophthalmic Solution, one drop in each eye in the morning on Day 1, followed by one drop in each eye in the evening on Days 2-7.",
+        "interventions": [
+          "Drug: AR-17043 Ophthalmic Solution"
+        ]
+      },
+      {
+        "libelle": "AR-17043 vehicle (Stage 1)",
+        "type": "PLACEBO_COMPARATOR",
+        "description": "AR-17043 Vehicle, one drop in each eye in the morning on Day 1, followed by one drop in each eye in the evening on Days 2-7.",
+        "interventions": [
+          "Drug: AR-17043 Vehicle"
+        ]
+      },
+      {
+        "libelle": "Rhopressa (Stage 1)",
+        "type": "ACTIVE_COMPARATOR",
+        "description": "Netarsudil 0.02% Ophthalmic Solution, one drop in each eye in the morning on Day 1, followed by one drop in each eye in the evening on Days 2-7.",
+        "interventions": [
+          "Drug: Netarsudil 0.02% Ophthalmic Solution"
+        ]
+      },
+      {
+        "libelle": "PG043 low concentration (Stage 2)",
+        "type": "EXPERIMENTAL",
+        "description": "PG043 Ophthalmic Solution, one drop in each eye in the evening on Days 1-28.",
+        "interventions": [
+          "Drug: PG043 Ophthalmic Solution"
+        ]
+      },
+      {
+        "libelle": "PG043 high concentration (Stage 2)",
+        "type": "EXPERIMENTAL",
+        "description": "PG043 Ophthalmic Solution, one drop in each eye in the evening on Days 1-28.",
+        "interventions": [
+          "Drug: PG043 Ophthalmic Solution"
+        ]
+      },
+      {
+        "libelle": "AR-17043 high concentration (Stage 2)",
+        "type": "ACTIVE_COMPARATOR",
+        "description": "AR-17043 Ophthalmic Solution, one drop in each eye in the evening on Days 1-28.",
+        "interventions": [
+          "Drug: AR-17043 Ophthalmic Solution"
+        ]
+      },
+      {
+        "libelle": "Latanoprost (Stage 2)",
+        "type": "ACTIVE_COMPARATOR",
+        "description": "Latanoprost 0.005% Ophthalmic Solution, one drop in each eye in the evening on Days 1-28.",
+        "interventions": [
+          "Drug: Latanoprost 0.005% Ophthalmic Solution"
+        ]
+      },
+      {
+        "libelle": "Rocklatan (Stage 2)",
+        "type": "ACTIVE_COMPARATOR",
+        "description": "Netarsudil 0.02%/Latanoprost 0.005% Ophthalmic Solution, one drop in each eye in the evening on Days 1-28.",
+        "interventions": [
+          "Drug: Netarsudil 0.02%/Latanoprost 0.005% Ophthalmic Solution"
+        ]
+      }
+    ],
+    "eligibilite": {
+      "criteres": "Stage 1 Key Inclusion Criteria;\n\n* Diagnosis of OAG or OHT in both eyes.\n* High unmedicated IOP measurements in the study eye as specified in the protocol.\n* Corrected visual acuity equal to or better than +1.0 logMAR (Snellen equivalent equal to or better than 20/200) in the study eye.\n* Other protocol-specified inclusion criteria may apply.\n\nStage 2 Key Inclusion Criteria:\n\n* Diagnosis of OAG or OHT in both eyes.\n* High unmedicated IOP measurements in the study eye as specified in the protocol.\n* Corrected visual acuity equal to or better than +0.7 logMAR (Snellen equivalent equal to or better than 20/100) in the study eye.\n* Other protocol-specified inclusion criteria may apply.\n\nStage 1 and Stage 2 Key Exclusion Criteria:\n\n* Current use of more than 2 ocular hypotensive medications within 30 days (either eye).\n* Intraocular pressure greater than 36 millimeters mercury (mmHg) at Screening.\n* Glaucoma other than OAG.\n* Previous glaucoma surgery.\n* Any abnormality preventing reliable measurements.\n* Unable to demonstrate proper eyedrop instillation.\n* Other protocol-specified exclusion criteria may apply.",
+      "age_min": "18 Years",
+      "age_max": null,
+      "sexe": "ALL",
+      "volontaires_sains": false
+    },
+    "criteres_secondaires": [
+      {
+        "critere": "Mean IOP at each post-treatment timepoint (Stage 1)",
+        "delai": "Day 1 (8:00, 10:00, 12:00), Day 8 (8:00, 10:00, 12:00, 16:00)"
+      },
+      {
+        "critere": "Mean change from the diurnally adjusted baseline IOP at each post-treatment timepoint (Stage 1)",
+        "delai": "Baseline (8:00, 10:00, 12:00, 16:00), Day 1 (8:00, 10:00, 12:00), Day 8 (8:00, 10:00, 12:00, 16:00)"
+      },
+      {
+        "critere": "Mean percent change from diurnally adjusted baseline IOP at each post-treatment timepoint (Stage 1)",
+        "delai": "Baseline (8:00, 10:00, 12:00, 16:00), Day 1 (8:00, 10:00, 12:00), Day 8 (8:00, 10:00, 12:00, 16:00)"
+      },
+      {
+        "critere": "Mean change from baseline mean diurnal IOP at each post-treatment timepoint (Stage 1)",
+        "delai": "Baseline (8:00, 10:00, 12:00, 16:00), Day 1 (8:00, 10:00, 12:00), Day 8 (8:00, 10:00, 12:00, 16:00)"
+      },
+      {
+        "critere": "Mean percent change from baseline mean diurnal IOP at each post-treatment timepoint (Stage 1)",
+        "delai": "Baseline (8:00, 10:00, 12:00, 16:00); Day 1 (8:00, 10:00, 12:00), Day 8 (8:00, 10:00, 12:00, 16:00)"
+      },
+      {
+        "critere": "Mean IOP at each post-treatment timepoint (Stage 2)",
+        "delai": "Day 8 (8:00, 10:00, 16:00); Day 15 (8:00, 10:00, 16:00); Day 29 (8:00, 10:00, 16:00)"
+      },
+      {
+        "critere": "Mean change from the diurnally adjusted baseline IOP at each post-treatment timepoint (Stage 2)",
+        "delai": "Baseline (8:00, 10:00, 16:00); Day 8 (8:00, 10:00, 16:00); Day 15 (8:00, 10:00, 16:00); Day 29 (8:00, 10:00, 16:00)"
+      },
+      {
+        "critere": "Mean percent change from diurnally adjusted baseline IOP at each post-treatment timepoint (Stage 2)",
+        "delai": "Baseline (8:00, 10:00, 16:00); Day 8 (8:00, 10:00, 16:00); Day 15 (8:00, 10:00, 16:00); Day 29 (8:00, 10:00, 16:00)"
+      },
+      {
+        "critere": "Mean change from baseline mean diurnal IOP at each post-treatment timepoint (Stage 2)",
+        "delai": "Baseline (8:00, 10:00, 16:00); Day 8 (8:00, 10:00, 16:00); Day 15 (8:00, 10:00, 16:00); Day 29 (8:00, 10:00, 16:00)"
+      },
+      {
+        "critere": "Mean percent change from baseline mean diurnal IOP at each post-treatment timepoint (Stage 2)",
+        "delai": "Baseline (8:00, 10:00, 16:00); Day 8 (8:00, 10:00, 16:00); Day 15 (8:00, 10:00, 16:00); Day 29 (8:00, 10:00, 16:00)"
+      }
+    ],
+    "responsables": [
+      {
+        "nom": "Clinical Trial Lead, Pharma",
+        "affiliation": "Alcon Research, LLC",
+        "role": "STUDY_DIRECTOR"
+      }
+    ],
+    "date_depot_resultats": null,
+    "resultats": null
+  },
+  "modifications": []
+}

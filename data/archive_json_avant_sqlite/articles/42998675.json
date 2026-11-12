@@ -1,0 +1,111 @@
+{
+  "pmid": "42998675",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42998675",
+    "titre": "Role of smartphone-based digital adherence support for glaucoma medication therapy.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42998675/",
+    "doi": "10.1016/j.jcjo.2026.10.008",
+    "pmcid": null,
+    "revue": "Canadian journal of ophthalmology. Journal canadien d'ophtalmologie",
+    "date_entree_pubmed": "2026-11-07",
+    "date_publication": "2026-Nov-07",
+    "types_publication": [
+      "Journal Article",
+      "Review"
+    ],
+    "resume_present": true,
+    "resume": "Sustained adherence to intraocular pressure-lowering medications is essential for preventing progressive visual loss in patients with glaucoma on pharmacotherapy. However, adherence remains suboptimal across patient populations as the result of cognitive, behavioural, physical, and socioeconomic barriers. Recent advances in digital health have introduced smartphone-based adherence supports intended to reinforce glaucoma medication routines, improve treatment organization, and support self-management. This narrative review synthesises evidence examining smartphone-based reminder applications and related digital adherence supports in glaucoma care, with attention to usability, patient experience, behavioural determinants, and clinical feasibility. Preliminary studies have reported improvements in short-term self-reported adherence and glaucoma-specific quality of life, particularly among patients with low baseline adherence. However, reminder-based interventions may provide only temporary benefit if they do not address broader structural, behavioural, and situational barriers to adherence. Current evidence remains limited by short follow-up durations, reliance on self-reported adherence measures, and limited evaluation of long-term clinical outcomes such as intraocular pressure stability and visual field preservation. Digital adherence tools may therefore be most effective when integrated alongside broader behavioural and relationship-based support strategies, including patient education, clinician communication, and caregiver involvement. Emerging technologies such as automated messaging systems and artificial intelligence-assisted tools may represent future directions for adherence support, although evidence in glaucoma remains limited. Further research is required to establish personalised, durable, and equitable adherence support frameworks in glaucoma care.",
+    "mots_cles_auteurs": null,
+    "langue": "eng",
+    "nombre_auteurs": 4,
+    "affiliations_auteurs": [
+      "Michael G. DeGroote School of Medicine, McMaster University, Hamilton ON.",
+      "Temerty Faculty of Medicine, University of Toronto, Toronto ON.",
+      "Department of Ophthalmology and Vision Sciences, University of Toronto, Toronto ON.",
+      "Department of Ophthalmology and Vision Sciences, University of Toronto, Toronto ON; Donald K. Johnson Eye Institute, Krembil Research Institute, University Health Network, Toronto ON. Electronic address: david.mathew@mail.utoronto.ca."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7225563181",
+      "doi": "10.1016/j.jcjo.2026.10.008",
+      "pmid": "42998675",
+      "pmcid": null,
+      "titre": "Role of smartphone-based digital adherence support for glaucoma medication therapy.",
+      "lien": "https://openalex.org/W7225563181",
+      "date_publication": "2026-11-07",
+      "type": "article",
+      "revue": "PubMed",
+      "type_source": "repository",
+      "langue": "en",
+      "indexe_dans": [
+        "pubmed"
+      ],
+      "financeurs": null,
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "McMaster University",
+          "pays": "CA",
+          "type": "education",
+          "ror": "https://ror.org/02fa3aq29"
+        },
+        {
+          "nom": "University of Toronto",
+          "pays": "CA",
+          "type": "education",
+          "ror": "https://ror.org/03dbr7087"
+        },
+        {
+          "nom": "University Health Network",
+          "pays": "CA",
+          "type": "healthcare",
+          "ror": "https://ror.org/042xt5161"
+        },
+        {
+          "nom": "Krembil Research Institute",
+          "pays": "CA",
+          "type": "facility",
+          "ror": "https://ror.org/01f6jys10"
+        },
+        {
+          "nom": "Donald K. Johnson Eye Institute",
+          "pays": "CA",
+          "type": "facility",
+          "ror": "https://ror.org/05r3bjq62"
+        }
+      ],
+      "acces_ouvert": false,
+      "statut_acces": "closed",
+      "url_texte": null,
+      "url_pdf": null,
+      "licence": null,
+      "texte_integral_indexe": false,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Medication Adherence and Compliance",
+      "resume_present": true,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": []
+  }
+}

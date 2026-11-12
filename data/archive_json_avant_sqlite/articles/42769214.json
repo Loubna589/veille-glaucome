@@ -1,0 +1,102 @@
+{
+  "pmid": "42769214",
+  "premiere_detection": "2026-09-25",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42769214",
+    "titre": "Mannitol plus pilocarpine for primary acute angle-closure glaucoma: efficacy and safety analysis.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42769214/",
+    "doi": "10.62347/WXLV4056",
+    "pmcid": "PMC13590794",
+    "revue": "American journal of translational research",
+    "date_entree_pubmed": "2026-09-22",
+    "date_publication": "2026",
+    "types_publication": [
+      "Journal Article"
+    ],
+    "resume_present": true,
+    "resume": "OBJECTIVE: To retrospectively analyze the efficacy and safety of mannitol (MAN) combined with pilocarpine (PC) in patients with primary acute angle-closure glaucoma (PAACG).\nMETHODS: A total of 103 PAACG patients were retrospectively enrolled and assigned to either the control group (PC alone) or the research group (MAN + PC). Treatment response, safety profiles, intraocular pressure (IOP), visual acuity (VA), hemodynamic parameters (end diastolic velocity [EDV], peak systolic velocity [PSV], and resistance index [RI]), anxiety/depression, and quality of life (Short-Form 36-Item Health Survey [SF-36]) were compared between the two groups. Furthermore, factors potentially associated with therapeutic efficacy and safety were analyzed.\nRESULTS: The overall response rate was significantly higher in the research group than in the control group, whereas the incidence of adverse events were comparable between the two groups. After treatment, patients in the research group showed markedly lower IOP, PSV RI, and anxiety and depression scores, as well as significantly higher VA, EDV, and SF-36 scores, compared with the control group. However, none of these variables were independently associated with treatment efficacy or safety.\nCONCLUSION: MAN combined with PC is an effective and safe therapeutic strategy for PAACG patients. This combination therapy can improve patients' quality of life, reduce IOP, enhance VA, and improve central retinal artery hemodynamics.",
+    "mots_cles_auteurs": [
+      "Mannitol",
+      "efficacy and safety",
+      "pilocarpine",
+      "primary acute angle-closure glaucoma",
+      "quality of life"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 3,
+    "affiliations_auteurs": [
+      "Department of Ophthalmology, Pudong Gongli Hospital, Shanghai University of Medicine and Health Sciences Shanghai 200135, China."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": true,
+      "produit_suivi_etudie_suggere": true,
+      "produits_suivis": [
+        {
+          "produit": "pilocarpine",
+          "role": "étudié",
+          "statut_role": "rôle suggéré, à vérifier (règle automatique appliquée au titre)"
+        }
+      ],
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7204248307",
+      "doi": "10.62347/wxlv4056",
+      "pmid": "42769214",
+      "pmcid": null,
+      "titre": "Mannitol plus pilocarpine for primary acute angle-closure glaucoma: efficacy and safety analysis",
+      "lien": "https://openalex.org/W7204248307",
+      "date_publication": "2026-01-01",
+      "type": "article",
+      "revue": "American Journal of Translational Research",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "pubmed"
+      ],
+      "financeurs": null,
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "Second Military Medical University",
+          "pays": "CN",
+          "type": "education",
+          "ror": "https://ror.org/04tavpn47"
+        },
+        {
+          "nom": "Shanghai Pudong New Area Gongli Hospital",
+          "pays": "CN",
+          "type": "healthcare",
+          "ror": "https://ror.org/04v5gcw55"
+        }
+      ],
+      "acces_ouvert": true,
+      "statut_acces": "green",
+      "url_texte": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13590794/",
+      "url_pdf": null,
+      "licence": null,
+      "texte_integral_indexe": false,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Glaucoma and retinal disorders",
+      "resume_present": true,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-09-25",
+    "financements": []
+  }
+}

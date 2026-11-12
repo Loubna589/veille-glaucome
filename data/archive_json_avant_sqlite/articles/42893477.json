@@ -1,0 +1,123 @@
+{
+  "pmid": "42893477",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42893477",
+    "titre": "AKAP1 Protects Retinal Ganglion Cells and Preserves Vision by Improving Mitochondrial and Synaptic Health in Glaucomatous Neurodegeneration.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42893477/",
+    "doi": "10.1002/advs.78349",
+    "pmcid": "PMC13676990",
+    "revue": "Advanced science (Weinheim, Baden-Wurttemberg, Germany)",
+    "date_entree_pubmed": "2026-10-18",
+    "date_publication": "2026-Oct-18",
+    "types_publication": [
+      "Journal Article"
+    ],
+    "resume_present": true,
+    "resume": "Glaucoma, a leading cause of irreversible blindness, is characterized by progressive loss of retinal ganglion cells (RGCs) and lacks effective neuroprotective therapies. Despite evidence implicating mitochondrial dysfunction in glaucoma, the mechanisms linking elevated intraocular pressure, synaptic dysfunction, mitochondrial failure, and RGC death remain incompletely understood. Here we identify the mitochondrial scaffold protein A-kinase anchoring protein 1 (AKAP1) as a critical regulator of RGC resilience in glaucoma. AKAP1 expression is reduced in glaucomatous retinas and correlates with disrupted mitochondrial dynamics, oxidative stress, synaptic impairment, and visual decline. AAV2-mediated restoration of AKAP1 preserves RGC survival and visual function in two independent experimental glaucoma models. These data suggest that retinal AKAP1 promotes mitochondrial fusion, cristae integrity, and bioenergetic capacity in the inner retina and in stressed cultured RGCs, and is accompanied by increased mitochondrial content in presynaptic terminals of the inner plexiform layer. Retinal AKAP1 is further associated with higher PKA abundance, normalized CaMKII and synapsin phosphorylation, preserved synaptophysin, and lower complement C1q and glial activation markers; these associations do not, by themselves, establish causality. These findings identify AKAP1 as a candidate regulator of mitochondrial and synaptic homeostasis and highlight AAV2-AKAP1 gene therapy as a promising neuroprotective strategy for vision preservation in glaucoma.",
+    "mots_cles_auteurs": [
+      "biology",
+      "cell biology",
+      "mitochondrial biogenesis",
+      "mitochondrion",
+      "neurodegeneration",
+      "neuroprotection",
+      "neuroscience",
+      "retinal ganglion",
+      "synaptophysin"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 11,
+    "affiliations_auteurs": [
+      "Viterbi Family Department of Ophthalmology, Viterbi Family Vision Research Center, Shiley Eye Institute, University of California San Diego, La Jolla, California, USA.",
+      "National Center for Microscopy and Imaging Research, Department of Neurosciences, University of California San Diego, La Jolla, California, USA.",
+      "Department of Medicine, University of California San Diego, La Jolla, California, USA.",
+      "Institute of Engineering in Medicine, Shu Chien - Gene Lay Department of Bioengineering, University of California San Diego, La Jolla, California, USA."
+    ],
+    "financeurs_declares": [
+      {
+        "organisme": "NINDS NIH HHS",
+        "pays": "United States",
+        "reference": "5U01NS142013"
+      },
+      {
+        "organisme": "NIH HHS",
+        "pays": "United States",
+        "reference": "EY031697"
+      },
+      {
+        "organisme": "NEI NIH HHS",
+        "pays": "United States",
+        "reference": "P30 EY022589"
+      },
+      {
+        "organisme": "NEI NIH HHS",
+        "pays": "United States",
+        "reference": "EY031697"
+      },
+      {
+        "organisme": "NEI NIH HHS",
+        "pays": "United States",
+        "reference": "R01 EY031697"
+      },
+      {
+        "organisme": "NEI NIH HHS",
+        "pays": "United States",
+        "reference": "R01 EY034116"
+      },
+      {
+        "organisme": "NEI NIH HHS",
+        "pays": "United States",
+        "reference": "EY034116"
+      },
+      {
+        "organisme": "NINDS NIH HHS",
+        "pays": "United States",
+        "reference": "U01 NS142013"
+      },
+      {
+        "organisme": "NEI NIH HHS",
+        "pays": "United States",
+        "reference": "EY022589"
+      },
+      {
+        "organisme": "NIH HHS",
+        "pays": "United States",
+        "reference": "EY034116"
+      },
+      {
+        "organisme": "Research to Prevent Blindness",
+        "pays": "",
+        "reference": null
+      },
+      {
+        "organisme": "University of California Gene Therapy Initiative",
+        "pays": "",
+        "reference": null
+      },
+      {
+        "organisme": "NIH HHS",
+        "pays": "United States",
+        "reference": "EY022589"
+      }
+    ],
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    }
+  }
+}

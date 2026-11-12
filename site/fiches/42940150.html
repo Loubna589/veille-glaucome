@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>PMID 42940150 — fiche article</title><style>
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
+:root{--fond:#f4f7fb;--carte:#fff;--texte:#0f1d33;--doux:#52627a;--bord:#e2e8f0;--accent:#0b4f8a;
+--ok:#146c43;--ok-fond:#e3f4ea;--att:#8a5300;--att-fond:#fdf1d8;--ver:#b42318;--ver-fond:#fdeceb;
+--reg:#3f3c9e;--reg-fond:#ecebfb;--src-fond:#f1f5f9;--mark:#fff1a8;--manque:#b42318;--turquoise:#14b8a6;}
+@media (prefers-color-scheme:dark){:root{--fond:#0a1120;--carte:#101a2c;--texte:#e6edf7;--doux:#9db0ca;
+--bord:#1e2b42;--accent:#6fb4ff;--ok:#6fd6a0;--ok-fond:#12301f;--att:#f3c15e;--att-fond:#352a10;--ver:#ff9a8f;
+--ver-fond:#3a1714;--reg:#b4b2ff;--reg-fond:#24234a;--src-fond:#0d1626;--mark:#5a4d10;--manque:#ff9a8f;--turquoise:#2dd4bf;}}
+*{box-sizing:border-box}body{margin:0;background:var(--fond);color:var(--texte);
+font:15.5px/1.6 "Inter",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+:focus-visible{outline:3px solid var(--turquoise);outline-offset:2px;border-radius:6px}
+main{max-width:1000px;margin:0 auto;padding:20px 18px 64px}
+.bandeau{display:flex;align-items:center;gap:10px;font-weight:800;letter-spacing:-.02em;padding:6px 0 14px;color:var(--texte);text-decoration:none}
+.bandeau i{width:30px;height:30px;border-radius:9px;background:linear-gradient(135deg,#0b4f8a,#14b8a6);display:inline-block}
+header,section{background:var(--carte);border:1px solid var(--bord);border-radius:16px;padding:20px 24px;margin:0 0 16px;
+box-shadow:0 1px 2px rgba(15,29,51,.04),0 6px 20px -8px rgba(15,29,51,.12)}
+h1{font-size:1.45rem;line-height:1.3;margin:.2em 0 .5em}h2{font-size:1.1rem;margin:0 0 .6em;color:var(--accent)}
+h3{font-size:1rem;margin:1.1em 0 .4em}.surtitre{color:var(--doux);margin:0;font-size:.9rem}
+a{color:var(--accent)}small,.def{color:var(--doux)}.def{font-size:.88rem;margin:.2em 0 .6em}
+.grille{display:grid;grid-template-columns:max-content 1fr;gap:4px 16px;margin:12px 0 0}
+.grille dt{color:var(--doux)}.grille dd{margin:0}
+.badge{display:inline-block;font-size:.72rem;font-weight:600;padding:2px 8px;border-radius:999px;margin:2px 4px 2px 0;
+vertical-align:middle;background:var(--src-fond);color:var(--doux)}
+.badge.confirme{background:var(--ok-fond);color:var(--ok)}.badge.attente{background:var(--att-fond);color:var(--att)}
+.badge.verifier{background:var(--ver-fond);color:var(--ver)}.badge.regle{background:var(--reg-fond);color:var(--reg)}
+.rubrique{font-weight:600}.manque{color:var(--manque);font-style:italic}
+mark{background:var(--mark);color:inherit;padding:0 2px;border-radius:3px}
+blockquote{margin:.5em 0;padding:.5em .9em;border-left:3px solid var(--bord);background:var(--src-fond);border-radius:0 6px 6px 0}
+pre{white-space:pre-wrap;font-size:.85rem;background:var(--src-fond);padding:10px;border-radius:6px}
+.defile{overflow-x:auto}table{border-collapse:collapse;width:100%;font-size:.92rem;margin:.4em 0}
+th,td{border:1px solid var(--bord);padding:6px 8px;text-align:left;vertical-align:top}th{background:var(--src-fond)}
+.analyse{background:var(--src-fond);padding:6px 10px;border-radius:6px;font-size:.92rem}
+.acteurs{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px}
+.acteurs>div{border:1px solid var(--bord);border-radius:8px;padding:10px 12px}.acteurs h3{margin-top:0}
+.copier{position:sticky;top:0;z-index:2;display:flex;gap:12px;align-items:center;flex-wrap:wrap;
+background:var(--fond);padding:10px 0;margin-bottom:8px}
+button{font:inherit;font-weight:600;background:var(--accent);color:#fff;border:0;border-radius:8px;padding:9px 16px;cursor:pointer}
+@media (prefers-color-scheme:dark){button{color:#10141a}}
+textarea{width:100%;min-height:260px;font:13px/1.4 ui-monospace,Consolas,monospace;background:var(--src-fond);
+color:var(--texte);border:1px solid var(--bord);border-radius:6px;padding:8px}
+details{margin:.5em 0}summary{cursor:pointer;color:var(--accent)}
+.retour{font-size:.92rem;margin:0 0 4px}
+@media (max-width:600px){.grille{grid-template-columns:1fr}.grille dt{margin-top:6px}header,section{padding:14px}}
+</style></head>
+<body><main>
+<a class="bandeau" href="../index.html"><i aria-hidden="true"></i>Glaucoma Intelligence</a><nav class="retour"><a href="../index.html">Accueil</a> · <a href="../etudes.html">← Essais &amp; articles</a> · <a href="../recherche.html">Rechercher</a> · <a href="../carte.html">Carte des acteurs</a> · <a href="../alertes.html">Alertes</a></nav>
+<div class="copier"><button id="bouton-copier" type="button" onclick="copierFiche()">Copier pour Claude / ChatGPT</button>
+<small>Copie une consigne + les faits de cette fiche, à coller dans votre assistant.</small></div>
+
+    <header>
+      <p class="surtitre">Fiche article · PMID 42940150 · <a href="https://pubmed.ncbi.nlm.nih.gov/42940150/" target="_blank" rel="noopener">voir sur PubMed</a>
+         · <a href="https://doi.org/10.3390/biomedicines14102344" target="_blank" rel="noopener">DOI 10.3390/biomedicines14102344</a></p>
+      <h1 lang="en">Documented Dry Eye Disease in Patients Receiving Topical Antiglaucoma Therapy: Associations with Treatment Characteristics.</h1>
+      <p><span class="badge attente">PUBLICATION — résultats non identifiés dans le résumé</span> <span class="badge verifier">Synthèse fondée UNIQUEMENT sur le résumé PubMed : le texte intégral n'a pas été lu.</span></p>
+      <dl class="grille">
+        <dt>Revue</dt><dd>Biomedicines</dd>
+        <dt>Entrée dans PubMed</dt><dd>2026-10-27 · publication : 2026-Oct-15</dd>
+        <dt>Type(s) de publication (PubMed)</dt><dd lang="en">Journal Article</dd>
+        <dt>Stade</dt><dd>Non renseigné <small>(pas d'indexation MeSH disponible)</small></dd>
+        <dt>Accès au texte (OpenAlex)</dt><dd>libre (revue en accès ouvert) · <a href="https://doi.org/10.3390/biomedicines14102344" target="_blank" rel="noopener">ouvrir le texte</a></dd>
+        <dt>Détecté par l'outil le</dt><dd>2026-11-11</dd>
+      </dl>
+      <p class="rubriques"><strong>Rubrique :</strong> <span class="rubrique">Autres sujets (clinique, épidémiologie…)</span> <small>aucune règle de rubrique ne s'applique</small> <span class="badge regle">classement automatique — règles dans config/rubriques.ini</span></p>
+    </header>
+<section><h2>Question étudiée <span class="badge source">Résumé PubMed (texte source)</span></h2><p><span class="manque">Pas de paragraphe « objectif » identifié dans le résumé</span></p></section><section><h2>Traitement ou technologie, et comparateur <span class="badge regle">règle automatique de l'outil</span></h2><ul><li>Formulation / voie d'administration citée : preservative-free <span class="badge regle">repérage automatique</span></li></ul><p class="def">Aucun rôle n'est confirmé : PubMed ne décrit pas les bras d'une étude. Un rôle pourrait être confirmé par le registre d'un essai lié de façon confirmée.</p></section><section><h2>Type d'étude et méthode <span class="badge source">Résumé PubMed (texte source)</span><span class="badge source">PubMed (types de publication)</span></h2><p>Type(s) de publication déclaré(s) par PubMed : <span lang="en">Journal Article</span></p><p><span class="manque">Pas de paragraphe « méthodes » dans le résumé</span></p></section><section><h2>Population et participants (phrases du résumé) <span class="badge source">Résumé PubMed (texte source)</span></h2><blockquote lang="en">Methods: This retrospective cross-sectional study included <mark>357</mark> adults receiving topical antiglaucoma therapy at a tertiary center who had complete treatment and ocular-surface data.</blockquote><blockquote lang="en">Results: DED was documented in <mark>171</mark>/<mark>357</mark> patients within this selected sample (<mark>47.9%</mark>; <mark>95%</mark> CI <mark>42.8</mark>-<mark>53.1%</mark>).</blockquote></section><section><h2>Résultats disponibles <span class="badge source">Résumé PubMed (texte source)</span></h2><p><span class="manque">Aucune partie « résultats » dans le résumé</span></p><h3>Résumé complet (non structuré)</h3><blockquote lang="en">Background/Objectives: Chronic topical antiglaucoma therapy may affect the ocular surface. We assessed documented dry eye disease (DED) and its associations with active-ingredient burden, treatment duration, and preservative exposure. Methods: This retrospective cross-sectional study included <mark>357</mark> adults receiving topical antiglaucoma therapy at a tertiary center who had complete treatment and ocular-surface data. Ocular-surface testing was prompted by symptoms or clinical judgment. The first eligible visit identified during chronological record review was analyzed for each patient. DED was based on the treating ophthalmologist's documented diagnosis. Logistic regression evaluated treatment-related factors. Results: DED was documented in <mark>171</mark>/<mark>357</mark> patients within this selected sample (<mark>47.9%</mark>; <mark>95%</mark> CI <mark>42.8</mark>-<mark>53.1%</mark>). Prevalence was higher with at least two versus one active IOP-lowering ingredient (<mark>60.6%</mark> vs. <mark>23.1%</mark>; p &lt; <mark>0.001</mark>). Each additional ingredient was associated with higher DED odds after adjustment for age, sex, and glaucoma subtype (adjusted odds ratio [aOR] <mark>2.65</mark>, <mark>95%</mark> confidence interval [CI] <mark>1.88</mark>-<mark>3.74</mark>). Longer treatment duration was also associated with higher odds (aOR <mark>1.12</mark> per <mark>12</mark> months, <mark>95%</mark> CI <mark>1.05</mark>-<mark>1.20</mark>). In the linear extended model, active-ingredient count was not associated with documented DED (aOR <mark>1.02</mark>, <mark>95%</mark> CI <mark>0.69</mark>-<mark>1.51</mark>), whereas an exclusively preservative-free regimen was associated with lower odds (aOR <mark>0.011</mark>, <mark>95%</mark> CI <mark>0.001</mark>-<mark>0.084</mark>) and fixed-combination therapy with higher odds (aOR <mark>3.23</mark>, <mark>95%</mark> CI <mark>1.74</mark>-<mark>5.98</mark>). However, categorical modeling of ingredient count significantly improved extended-model fit (likelihood-ratio p &lt; <mark>0.001</mark>), indicating sensitivity to functional form. Documented DED occurred in <mark>1</mark>/<mark>91</mark> (<mark>1.1%</mark>) exclusively preservative-free patients versus <mark>170</mark>/<mark>266</mark> (<mark>63.9%</mark>) preserved-exposure patients, with sparse PF events limiting interpretation. Conclusions: Documented DED was common in this selected cohort undergoing ocular-surface assessment. Active-ingredient count was associated with DED in the primary adjusted model, but its interpretation in the extended model depended on the functional form used. The marked inverse association with an exclusively preservative-free regimen requires prospective confirmation because sparse data, limited overlap between treatment groups, treatment selection, and residual confounding preclude causal inference.</blockquote></section><section><h2>Données de tolérance (phrases du résumé) <span class="badge source">Résumé PubMed (texte source)</span></h2><p><span class="manque">Aucune donnée de tolérance dans le résumé</span></p></section><section><h2>Essai clinique lié <span class="badge source">PubMed (DataBankList et texte)</span></h2><ul><li><span class="manque">Aucun essai lié identifié</span></li></ul></section><section><h2>Promoteur, financeur et affiliations <span class="badge source">PubMed</span><span class="badge source">OpenAlex</span><span class="badge source">Crossref</span></h2><div class="acteurs">
+      <div><h3>Promoteur d'essai</h3><p class="def">Organisme responsable d'un essai, déclaré au registre.</p><p><span class="manque">Non affiché : aucun essai lié de façon confirmée</span></p></div>
+      <div><h3>Financeur</h3><p class="def">Organisme qui a financé la recherche, avec la notice qui le justifie.</p><p><span class="manque">Aucun financeur trouvé (PubMed, OpenAlex, Crossref)</span></p></div>
+      <div><h3>Affiliations des auteurs</h3><p class="def">Établissements où travaillent les auteurs (pas un financement).</p><p><small>Institutions normalisées (OpenAlex) :</small></p><ul><li>Klinički bolnički centar Osijek <small>(HR, santé/hôpital)</small></li><li>University of Osijek <small>(HR, enseignement/recherche)</small></li><li>University of Zagreb <small>(HR, enseignement/recherche)</small></li></ul><details><summary>Affiliations telles que déclarées dans PubMed (5)</summary><ul><li>Department of Ophthalmology, University Hospital Center Osijek, 31 000 Osijek, Croatia.</li><li>Faculty of Medicine, Josip Juraj Strossmayer University of Osijek, 31 000 Osijek, Croatia.</li><li>Faculty of Kinesiology Osijek, Josip Juraj Strossmayer University of Osijek, 31 000 Osijek, Croatia.</li><li>Department of Ophthalmology, General Hospital Virovitica, 33 000 Virovitica, Croatia.</li><li>School of Medicine, University of Zagreb, 10 000 Zagreb, Croatia.</li></ul></details></div>
+    </div></section>
+<section><h2>Ce qui manque <span class="badge regle">calculé par l'outil</span></h2><ul><li>question / objectif (pas de paragraphe dédié dans le résumé)</li><li>méthodes (pas de paragraphe dédié dans le résumé)</li><li>résultats chiffrés</li><li>données de tolérance</li><li>financeur</li></ul></section>
+<section><h2>Limites, intérêt pour la veille marketing, à retenir <span class="badge attente">non produit par l'outil</span></h2><p><span class="manque">Non rédigé automatiquement : les données extraites ne suffisent pas à produire une analyse fiable sans interprétation. Utilisez le bouton « Copier pour Claude / ChatGPT » pour obtenir une proposition, à vérifier.</span></p></section>
+<section><details><summary>Voir le texte copié par le bouton</summary>
+<textarea id="a-copier" readonly>Tu es assistant de veille scientifique sur le glaucome. À partir UNIQUEMENT des informations ci-dessous, rédige en français une fiche de synthèse avec ces rubriques :
+1. Question étudiée
+2. Traitement ou technologie
+3. Type d&#x27;étude
+4. Population et nombre de participants
+5. Comparateur
+6. Critères évalués
+7. Principaux résultats chiffrés (recopie les valeurs exactes et indique leur source)
+8. Données de tolérance
+9. Limites
+10. Intérêt potentiel pour une veille marketing — présenté comme une INTERPRÉTATION, séparé des faits
+11. À retenir (une phrase)
+
+Règles :
+- N&#x27;invente rien. Si une information manque, écris « non rapporté ».
+- Distingue un essai simplement enregistré, un protocole, des résultats déposés dans un registre et une publication de résultats.
+- Si la source est seulement le résumé d&#x27;un article, indique que la synthèse repose uniquement sur ce résumé.
+- Les rôles « suggérés » (traitement étudié / comparateur) sont à vérifier dans le texte source.
+- Ne confonds pas promoteur d&#x27;essai, financeur et affiliation des auteurs.
+- Termine par la liste des points à vérifier.
+
+=== INFORMATIONS ===
+SOURCE : PubMed, PMID 42940150 — https://pubmed.ncbi.nlm.nih.gov/42940150/ · DOI https://doi.org/10.3390/biomedicines14102344
+BASE : résumé PubMed uniquement (texte intégral non lu)
+Titre : Documented Dry Eye Disease in Patients Receiving Topical Antiglaucoma Therapy: Associations with Treatment Characteristics.
+Revue : Biomedicines · entrée PubMed : 2026-10-27
+Types de publication (PubMed) : Journal Article
+Produits repérés automatiquement (rôles SUGGÉRÉS, à vérifier) : aucun
+Molécules hors liste (repérage automatique, à vérifier) : aucune
+Essai lié : aucun
+Financeurs : aucun trouvé
+Affiliations (institutions, pas des financeurs) : Klinički bolnički centar Osijek (HR, healthcare); University of Osijek (HR, education); University of Zagreb (HR, education)
+
+RÉSUMÉ (texte source) :
+Background/Objectives: Chronic topical antiglaucoma therapy may affect the ocular surface. We assessed documented dry eye disease (DED) and its associations with active-ingredient burden, treatment duration, and preservative exposure. Methods: This retrospective cross-sectional study included 357 adults receiving topical antiglaucoma therapy at a tertiary center who had complete treatment and ocular-surface data. Ocular-surface testing was prompted by symptoms or clinical judgment. The first eligible visit identified during chronological record review was analyzed for each patient. DED was based on the treating ophthalmologist&#x27;s documented diagnosis. Logistic regression evaluated treatment-related factors. Results: DED was documented in 171/357 patients within this selected sample (47.9%; 95% CI 42.8-53.1%). Prevalence was higher with at least two versus one active IOP-lowering ingredient (60.6% vs. 23.1%; p &lt; 0.001). Each additional ingredient was associated with higher DED odds after adjustment for age, sex, and glaucoma subtype (adjusted odds ratio [aOR] 2.65, 95% confidence interval [CI] 1.88-3.74). Longer treatment duration was also associated with higher odds (aOR 1.12 per 12 months, 95% CI 1.05-1.20). In the linear extended model, active-ingredient count was not associated with documented DED (aOR 1.02, 95% CI 0.69-1.51), whereas an exclusively preservative-free regimen was associated with lower odds (aOR 0.011, 95% CI 0.001-0.084) and fixed-combination therapy with higher odds (aOR 3.23, 95% CI 1.74-5.98). However, categorical modeling of ingredient count significantly improved extended-model fit (likelihood-ratio p &lt; 0.001), indicating sensitivity to functional form. Documented DED occurred in 1/91 (1.1%) exclusively preservative-free patients versus 170/266 (63.9%) preserved-exposure patients, with sparse PF events limiting interpretation. Conclusions: Documented DED was common in this selected cohort undergoing ocular-surface assessment. Active-ingredient count was associated with DED in the primary adjusted model, but its interpretation in the extended model depended on the functional form used. The marked inverse association with an exclusively preservative-free regimen requires prospective confirmation because sparse data, limited overlap between treatment groups, treatment selection, and residual confounding preclude causal inference.</textarea></details></section>
+<p><small>Fiche générée le 2026-11-11 22:40 par Glaucoma Intelligence. Extraits des sources en langue originale.</small></p>
+</main><script>
+function copierFiche(){
+  var zone=document.getElementById('a-copier'), bouton=document.getElementById('bouton-copier');
+  function fait(){bouton.textContent='Copié ✓ — collez dans Claude ou ChatGPT';setTimeout(function(){bouton.textContent='Copier pour Claude / ChatGPT'},3000);}
+  function secours(){zone.parentElement.open=true;zone.select();try{document.execCommand('copy');fait();}
+    catch(err){bouton.textContent='Sélectionnez le texte ci-dessous puis Ctrl+C';}}
+  if(navigator.clipboard&&window.isSecureContext){navigator.clipboard.writeText(zone.value).then(fait,secours);}else{secours();}
+}
+</script></body></html>

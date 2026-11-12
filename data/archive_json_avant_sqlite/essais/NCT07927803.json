@@ -1,0 +1,92 @@
+{
+  "nct": "NCT07927803",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "nct": "NCT07927803",
+    "titre": "Targeted Minimally-Invasive Glaucoma Surgery",
+    "titre_officiel": "Angiographie Gezielte MIGS Chirurgie: Translationales Pilotprojekt",
+    "lien": "https://clinicaltrials.gov/study/NCT07927803",
+    "date_premiere_publication": "2026-11-10",
+    "date_derniere_mise_a_jour": "2026-11-10",
+    "type_etude": "INTERVENTIONAL",
+    "phases_declarees": [
+      "NA"
+    ],
+    "statut": "TERMINATED",
+    "raison_arret": "insufficient effect size at planned interim analysis",
+    "date_debut": "2024-10-03",
+    "date_fin_principale": "2026-07-10",
+    "promoteur": "Johannes Kepler University of Linz",
+    "type_promoteur": "OTHER",
+    "collaborateurs": null,
+    "conditions": [
+      "Open Angle Glaucoma (OAG)"
+    ],
+    "interventions": [
+      {
+        "type": "PROCEDURE",
+        "nom": "Excimer Laser Trabeculostomy (ELT)"
+      },
+      {
+        "type": "PROCEDURE",
+        "nom": "Excimer Laser Trabeculostomy (ELT)"
+      }
+    ],
+    "participants_nombre": 37,
+    "participants_type": "ACTUAL",
+    "criteres_principaux": [
+      {
+        "critere": "IOP",
+        "delai": "three months after intervention"
+      },
+      {
+        "critere": "number of IOP-lowering medications",
+        "delai": "three months after intervention"
+      }
+    ],
+    "resultats_deposes": false,
+    "publications_declarees": null,
+    "resume_source": "MIGS procedures are currently performed without targeting a specific region of the outflow pathway. The temporal surgical approach means that treatment is delivered to the nasal quadrant. Preclinical analyses have shown that targeted treatment of low-flow regions of the trabecular meshwork can improve efficacy. The aim of this study is to use aqueous angiography to guide the placement of an established MIGS procedure, excimer laser trabeculostomy (ELT; Elios Vision GmbH), in order to improve its efficacy.",
+    "citations_declarees": null,
+    "plan": {
+      "repartition": "RANDOMIZED",
+      "modele": "PARALLEL",
+      "but_principal": "TREATMENT",
+      "insu": "NONE",
+      "insu_pour": null,
+      "insu_description": null,
+      "modele_observationnel": null
+    },
+    "bras": [
+      {
+        "libelle": "High-Flow ELT",
+        "type": "OTHER",
+        "description": null,
+        "interventions": [
+          "Procedure: Excimer Laser Trabeculostomy (ELT)"
+        ]
+      },
+      {
+        "libelle": "Low-Flow ELT",
+        "type": "OTHER",
+        "description": null,
+        "interventions": [
+          "Procedure: Excimer Laser Trabeculostomy (ELT)"
+        ]
+      }
+    ],
+    "eligibilite": {
+      "criteres": "Inclusion Criteria:\n\n* age equal to or above 45 years\n* written informed consent\n* Cataract with indication for surgery\n* preperimetric to moderate open-angle glaucoma\n* central corneal thickness 480-620µm\n* availability, willingness and ability to understand and give consent to study participation\n\nExclusion Criteria:\n\n* participation in another interventional study\n* previous glaucoma surgery\n* previous selective laser trabeculoplasty\n* ambiguous glaucoma diagnosis\n* ocular hypertension\n* corneal pathology with influence on intraocular pressure measurement\n* inflammatory ocular disease\n* increases risk for intraoperative floppy iris syndrome\n* medical interventions planned in parallel, that interfere with the study intervention",
+      "age_min": "45 Years",
+      "age_max": null,
+      "sexe": "ALL",
+      "volontaires_sains": false
+    },
+    "criteres_secondaires": null,
+    "responsables": null,
+    "date_depot_resultats": null,
+    "resultats": null
+  },
+  "modifications": []
+}

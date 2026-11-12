@@ -1,0 +1,99 @@
+{
+  "nct": "NCT07592923",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "nct": "NCT07592923",
+    "titre": "Morphometric Markers of the Effectiveness of Micropulse Cyclophotocoagulation",
+    "titre_officiel": "Morphometric Markers of the Effectiveness of Micropulse Cyclophotocoagulation: The Influence of Choroidal Thickness on the Extent and Duration of the Hypotensive Effect",
+    "lien": "https://clinicaltrials.gov/study/NCT07592923",
+    "date_premiere_publication": "2026-05-18",
+    "date_derniere_mise_a_jour": "2026-10-16",
+    "type_etude": "INTERVENTIONAL",
+    "phases_declarees": [
+      "NA"
+    ],
+    "statut": "COMPLETED",
+    "raison_arret": null,
+    "date_debut": "2026-05-18",
+    "date_fin_principale": "2026-08-18",
+    "promoteur": "Kazakh Eye Research Institute",
+    "type_promoteur": "NETWORK",
+    "collaborateurs": null,
+    "conditions": [
+      "Glaucoma"
+    ],
+    "interventions": [
+      {
+        "type": "PROCEDURE",
+        "nom": "MicroPulse transscleral cyclophotocoagulation"
+      },
+      {
+        "type": "PROCEDURE",
+        "nom": "Conventional transscleral cyclophotocoagulation"
+      }
+    ],
+    "participants_nombre": 20,
+    "participants_type": "ACTUAL",
+    "criteres_principaux": [
+      {
+        "critere": "Changes in intraocular pressure measurements between baseline and postoperative follow-up visits",
+        "delai": "Day 1, Day 3, Week 1, Week 2, Month 1"
+      }
+    ],
+    "resultats_deposes": false,
+    "publications_declarees": null,
+    "resume_source": "This prospective study aims to evaluate morphometric markers of treatment response following micropulse transscleral cyclophotocoagulation (MP-CPC) in patients with glaucoma. The study will assess changes in choroidal thickness and the choroidal vascularity index (CVI) measured by optical coherence tomography (OCT) before treatment, 3-7 days after the procedure, and 1 month postoperatively.\n\nIntraocular pressure (IOP) will be measured at the same time points. The correlation between changes in choroidal thickness, the choroidal vascularity index (CVI) and IOP reduction will be analyzed. Additionally, the study seeks to determine the minimal baseline choroidal thickness associated with a clinically significant hypotensive effect after MP-CPC.",
+    "citations_declarees": null,
+    "plan": {
+      "repartition": "RANDOMIZED",
+      "modele": "PARALLEL",
+      "but_principal": "TREATMENT",
+      "insu": "NONE",
+      "insu_pour": null,
+      "insu_description": null,
+      "modele_observationnel": null
+    },
+    "bras": [
+      {
+        "libelle": "MicroPulse transscleral cyclophotocoagulation group",
+        "type": "EXPERIMENTAL",
+        "description": "Participants in this group will undergo MicroPulse transscleral cyclophotocoagulation for glaucoma. The procedure will be performed using a laser power of 2500 mW, with a treatment duration of 100-120 seconds per hemifield and 5-6 sweeps per hemifield.",
+        "interventions": [
+          "Procedure: MicroPulse transscleral cyclophotocoagulation"
+        ]
+      },
+      {
+        "libelle": "Conventional transscleral cyclophotocoagulation group",
+        "type": "EXPERIMENTAL",
+        "description": "Participants in this group will undergo conventional transscleral cyclophotocoagulation for glaucoma. The procedure will be performed using a laser power of 1.4-2.3 W, with an exposure duration of 1.4-1.8 seconds per coagulation spot.",
+        "interventions": [
+          "Procedure: Conventional transscleral cyclophotocoagulation"
+        ]
+      }
+    ],
+    "eligibilite": {
+      "criteres": "Inclusion Criteria:\n\n* Decision to treat by MP-CPC Laser\n* Patients diagnosed with Glaucoma\n* Patients aged 18 years old and above\n* Glaucoma that is inadequately controlled on medical therapy\n\nExclusion Criteria:\n\n* Patients age less than 18 years\n* Patients unable or unwilling to provide informed consent to participate in the study\n* Patients potentially unavailable for follow up visits\n* Patients with significant scleral thinning\n* Patients with ocular infection, inflammation or intraocular surgery in the study eye 2 months prior to enrollment in the study\n* Albino patients that have no iris pigmentation",
+      "age_min": "18 Years",
+      "age_max": null,
+      "sexe": "ALL",
+      "volontaires_sains": false
+    },
+    "criteres_secondaires": [
+      {
+        "critere": "Rate of post surgical complications",
+        "delai": "Day 1, Day 3, Week 1, Week 2, Months 1"
+      }
+    ],
+    "responsables": [
+      {
+        "nom": "Assiya Shaikenova, MD",
+        "affiliation": "Kazakh Eye Research Institute",
+        "role": "PRINCIPAL_INVESTIGATOR"
+      }
+    ],
+    "date_depot_resultats": null,
+    "resultats": null
+  },
+  "modifications": []
+}

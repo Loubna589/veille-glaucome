@@ -1,0 +1,95 @@
+{
+  "pmid": "42900571",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42900571",
+    "titre": "A New Frontier: Partial Cellular Reprogramming in Plastic Surgery.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42900571/",
+    "doi": "10.1097/PRS.0000000000013549",
+    "pmcid": null,
+    "revue": "Plastic and reconstructive surgery",
+    "date_entree_pubmed": "2026-10-20",
+    "date_publication": "2026-Oct-20",
+    "types_publication": [
+      "Journal Article"
+    ],
+    "resume_present": true,
+    "resume": "Partial cellular reprogramming employs Yamanaka factors to shift aging cells toward a younger epigenetic state without compromising cellular identity. Over two decades, this Nobel Prize winning breakthrough has advanced from the bench to a first in-human trial in 2026 for optic neuropathy and glaucoma. Here, we outline the foundation of partial cellular reprogramming and delineate its intersection with our field. Defined by innovation, plastic surgery can shape how partial reprogramming is applied in what may prove to be a transformative chapter for our specialty.",
+    "mots_cles_auteurs": [
+      "Partial Cellular Reprogramming",
+      "Rejuvenation",
+      "Yamanaka Factors"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 4,
+    "affiliations_auteurs": [
+      "Division of Plastic and Reconstructive Surgery, University of California Davis School of Medicine, Sacramento, CA 95817.",
+      "Dr. Copeland & Dr. Copeland-Halperin: Plastic Surgery in NYC,1001 Fifth Avenue New York, NY 10028."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7223000960",
+      "doi": "10.1097/prs.0000000000013549",
+      "pmid": "42900571",
+      "pmcid": null,
+      "titre": "A New Frontier: Partial Cellular Reprogramming in Plastic Surgery",
+      "lien": "https://openalex.org/W7223000960",
+      "date_publication": "2026-10-20",
+      "type": "article",
+      "revue": "Plastic & Reconstructive Surgery",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "pubmed"
+      ],
+      "financeurs": null,
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "University of California Davis Medical Center",
+          "pays": "US",
+          "type": "healthcare",
+          "ror": "https://ror.org/05t6gpm70"
+        },
+        {
+          "nom": "University of California, Davis",
+          "pays": "US",
+          "type": "education",
+          "ror": "https://ror.org/05rrcem69"
+        }
+      ],
+      "acces_ouvert": false,
+      "statut_acces": "closed",
+      "url_texte": null,
+      "url_pdf": null,
+      "licence": null,
+      "texte_integral_indexe": false,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Pluripotent Stem Cells Research",
+      "resume_present": true,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": []
+  }
+}

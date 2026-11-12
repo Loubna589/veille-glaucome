@@ -1,0 +1,112 @@
+{
+  "pmid": "42769369",
+  "premiere_detection": "2026-09-25",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42769369",
+    "titre": "Tau abnormalities and microglial remodeling in glaucoma: potential links to phagocytosis-related injury.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42769369/",
+    "doi": "10.3389/fneur.2026.1940010",
+    "pmcid": "PMC13591254",
+    "revue": "Frontiers in neurology",
+    "date_entree_pubmed": "2026-09-22",
+    "date_publication": "2026",
+    "types_publication": [
+      "Journal Article",
+      "Review"
+    ],
+    "resume_present": true,
+    "resume": "BACKGROUND: Glaucoma is a progressive optic neuropathy characterized by retinal ganglion cell degeneration and optic nerve damage. Increasing evidence indicates that glaucomatous injury is not limited to the retina, but may also involve downstream visual structures and neuroimmune responses. Tau abnormalities and microglial remodeling have each been reported in glaucoma models and human glaucomatous tissues, yet they are usually discussed as separate pathological findings. Whether these processes are connected, and how they might contribute to synaptic, dendritic, and axonal injury, remains insufficiently defined.\nREVIEW FOCUS: This review examines current evidence for tau dysregulation and glaucoma-associated microglial remodeling in glaucoma. Experimental studies support retinal tau accumulation, altered phosphorylation, and redistribution from axonal to somatodendritic compartments after intraocular pressure elevation, whereas evidence for oligomeric tau remains limited to a single rat ocular-hypertension study. In parallel, glaucoma-associated microglia show loss of homeostatic signatures and acquisition of neurodegeneration-associated features, including APOE/Galectin-3-related remodeling, complement activation, inflammatory signaling, and phagocytosis-related changes. Evidence from tauopathy research provides several plausible links between tau-related neuronal stress and microglial responses, including NF-κB signaling, TLR4-NLRP3 inflammasome activation, complement-mediated recognition, and glial clearance of tau-altered synaptic or neuronal substrates. However, most of these links have not been directly tested in glaucoma. Aqueous humor biomarkers, including total tau, phosphorylated tau, neurofilament light chain, glial fibrillary acidic protein, APOE, and Galectin-3, may offer clinically accessible readouts of neuronal and glial injury, but they cannot establish temporal order or causality.\nCONCLUSION: Available evidence supports tau dysregulation and glaucoma-associated microglial remodeling as relevant but not yet causally linked components of glaucomatous neurodegeneration. A cautious working model is that tau-related neuronal stress may alter dendritic, synaptic, or axonal substrates, while remodeled microglia and complement pathways may influence recognition and clearance of vulnerable structures. Future studies should test these interactions directly by combining tau species-specific analysis, microglial state profiling, engulfment assays, and visual pathway outcomes within the same experimental framework.",
+    "mots_cles_auteurs": [
+      "aqueous humor biomarkers",
+      "glaucoma",
+      "glaucoma-associated microglia",
+      "neuroimmune remodeling",
+      "phagocytosis-related injury",
+      "retinal ganglion cells",
+      "tau dysregulation"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 3,
+    "affiliations_auteurs": [
+      "Department of Ophthalmology, The Affiliated Hospital of Southwest Medical University, Southwest Medical University, Luzhou, Sichuan, China."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": [
+      "Glaucoma",
+      "Microglia",
+      "Humans",
+      "Animals",
+      "tau Proteins",
+      "Phagocytosis",
+      "Tauopathies",
+      "Retinal Ganglion Cells"
+    ]
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": null,
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7211916818",
+      "doi": "10.3389/fneur.2026.1940010",
+      "pmid": "42769369",
+      "pmcid": null,
+      "titre": "Tau abnormalities and microglial remodeling in glaucoma: potential links to phagocytosis-related injury",
+      "lien": "https://openalex.org/W7211916818",
+      "date_publication": "2026-09-07",
+      "type": "article",
+      "revue": "Frontiers in Neurology",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "doaj",
+        "pubmed"
+      ],
+      "financeurs": null,
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "Affiliated Hospital of Southwest Medical University",
+          "pays": "CN",
+          "type": "healthcare",
+          "ror": "https://ror.org/0014a0n68"
+        }
+      ],
+      "acces_ouvert": true,
+      "statut_acces": "gold",
+      "url_texte": "https://www.frontiersin.org/journals/neurology/articles/10.3389/fneur.2026.1940010/pdf",
+      "url_pdf": "https://www.frontiersin.org/journals/neurology/articles/10.3389/fneur.2026.1940010/pdf",
+      "licence": "cc-by",
+      "texte_integral_indexe": true,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Glaucoma and retinal disorders",
+      "resume_present": true,
+      "mesh": [
+        "Animals",
+        "Glaucoma",
+        "Humans",
+        "Phagocytosis",
+        "Retinal Ganglion Cells",
+        "tau Proteins",
+        "Microglia",
+        "Tauopathies"
+      ]
+    },
+    "openalex_verifie_le": "2026-09-25",
+    "financements": []
+  }
+}

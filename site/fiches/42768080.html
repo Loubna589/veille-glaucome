@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>PMID 42768080 — fiche article</title><style>
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
+:root{--fond:#f4f7fb;--carte:#fff;--texte:#0f1d33;--doux:#52627a;--bord:#e2e8f0;--accent:#0b4f8a;
+--ok:#146c43;--ok-fond:#e3f4ea;--att:#8a5300;--att-fond:#fdf1d8;--ver:#b42318;--ver-fond:#fdeceb;
+--reg:#3f3c9e;--reg-fond:#ecebfb;--src-fond:#f1f5f9;--mark:#fff1a8;--manque:#b42318;--turquoise:#14b8a6;}
+@media (prefers-color-scheme:dark){:root{--fond:#0a1120;--carte:#101a2c;--texte:#e6edf7;--doux:#9db0ca;
+--bord:#1e2b42;--accent:#6fb4ff;--ok:#6fd6a0;--ok-fond:#12301f;--att:#f3c15e;--att-fond:#352a10;--ver:#ff9a8f;
+--ver-fond:#3a1714;--reg:#b4b2ff;--reg-fond:#24234a;--src-fond:#0d1626;--mark:#5a4d10;--manque:#ff9a8f;--turquoise:#2dd4bf;}}
+*{box-sizing:border-box}body{margin:0;background:var(--fond);color:var(--texte);
+font:15.5px/1.6 "Inter",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+:focus-visible{outline:3px solid var(--turquoise);outline-offset:2px;border-radius:6px}
+main{max-width:1000px;margin:0 auto;padding:20px 18px 64px}
+.bandeau{display:flex;align-items:center;gap:10px;font-weight:800;letter-spacing:-.02em;padding:6px 0 14px;color:var(--texte);text-decoration:none}
+.bandeau i{width:30px;height:30px;border-radius:9px;background:linear-gradient(135deg,#0b4f8a,#14b8a6);display:inline-block}
+header,section{background:var(--carte);border:1px solid var(--bord);border-radius:16px;padding:20px 24px;margin:0 0 16px;
+box-shadow:0 1px 2px rgba(15,29,51,.04),0 6px 20px -8px rgba(15,29,51,.12)}
+h1{font-size:1.45rem;line-height:1.3;margin:.2em 0 .5em}h2{font-size:1.1rem;margin:0 0 .6em;color:var(--accent)}
+h3{font-size:1rem;margin:1.1em 0 .4em}.surtitre{color:var(--doux);margin:0;font-size:.9rem}
+a{color:var(--accent)}small,.def{color:var(--doux)}.def{font-size:.88rem;margin:.2em 0 .6em}
+.grille{display:grid;grid-template-columns:max-content 1fr;gap:4px 16px;margin:12px 0 0}
+.grille dt{color:var(--doux)}.grille dd{margin:0}
+.badge{display:inline-block;font-size:.72rem;font-weight:600;padding:2px 8px;border-radius:999px;margin:2px 4px 2px 0;
+vertical-align:middle;background:var(--src-fond);color:var(--doux)}
+.badge.confirme{background:var(--ok-fond);color:var(--ok)}.badge.attente{background:var(--att-fond);color:var(--att)}
+.badge.verifier{background:var(--ver-fond);color:var(--ver)}.badge.regle{background:var(--reg-fond);color:var(--reg)}
+.rubrique{font-weight:600}.manque{color:var(--manque);font-style:italic}
+mark{background:var(--mark);color:inherit;padding:0 2px;border-radius:3px}
+blockquote{margin:.5em 0;padding:.5em .9em;border-left:3px solid var(--bord);background:var(--src-fond);border-radius:0 6px 6px 0}
+pre{white-space:pre-wrap;font-size:.85rem;background:var(--src-fond);padding:10px;border-radius:6px}
+.defile{overflow-x:auto}table{border-collapse:collapse;width:100%;font-size:.92rem;margin:.4em 0}
+th,td{border:1px solid var(--bord);padding:6px 8px;text-align:left;vertical-align:top}th{background:var(--src-fond)}
+.analyse{background:var(--src-fond);padding:6px 10px;border-radius:6px;font-size:.92rem}
+.acteurs{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px}
+.acteurs>div{border:1px solid var(--bord);border-radius:8px;padding:10px 12px}.acteurs h3{margin-top:0}
+.copier{position:sticky;top:0;z-index:2;display:flex;gap:12px;align-items:center;flex-wrap:wrap;
+background:var(--fond);padding:10px 0;margin-bottom:8px}
+button{font:inherit;font-weight:600;background:var(--accent);color:#fff;border:0;border-radius:8px;padding:9px 16px;cursor:pointer}
+@media (prefers-color-scheme:dark){button{color:#10141a}}
+textarea{width:100%;min-height:260px;font:13px/1.4 ui-monospace,Consolas,monospace;background:var(--src-fond);
+color:var(--texte);border:1px solid var(--bord);border-radius:6px;padding:8px}
+details{margin:.5em 0}summary{cursor:pointer;color:var(--accent)}
+.retour{font-size:.92rem;margin:0 0 4px}
+@media (max-width:600px){.grille{grid-template-columns:1fr}.grille dt{margin-top:6px}header,section{padding:14px}}
+</style></head>
+<body><main>
+<a class="bandeau" href="../index.html"><i aria-hidden="true"></i>Glaucoma Intelligence</a><nav class="retour"><a href="../index.html">Accueil</a> · <a href="../etudes.html">← Essais &amp; articles</a> · <a href="../recherche.html">Rechercher</a> · <a href="../carte.html">Carte des acteurs</a> · <a href="../alertes.html">Alertes</a></nav>
+<div class="copier"><button id="bouton-copier" type="button" onclick="copierFiche()">Copier pour Claude / ChatGPT</button>
+<small>Copie une consigne + les faits de cette fiche, à coller dans votre assistant.</small></div>
+
+    <header>
+      <p class="surtitre">Fiche article · PMID 42768080 · <a href="https://pubmed.ncbi.nlm.nih.gov/42768080/" target="_blank" rel="noopener">voir sur PubMed</a>
+         · <a href="https://doi.org/10.1038/s41433-026-04876-5" target="_blank" rel="noopener">DOI 10.1038/s41433-026-04876-5</a></p>
+      <h1 lang="en">Endophthalmitis following glaucoma drainage device surgery.</h1>
+      <p><span class="badge confirme">PUBLICATION — le résumé rapporte des résultats</span> <span class="badge verifier">Synthèse fondée UNIQUEMENT sur le résumé PubMed : le texte intégral n'a pas été lu.</span></p>
+      <dl class="grille">
+        <dt>Revue</dt><dd>Eye (London, England)</dd>
+        <dt>Entrée dans PubMed</dt><dd>2026-09-21 · publication : 2026-Sep-21</dd>
+        <dt>Type(s) de publication (PubMed)</dt><dd lang="en">Journal Article</dd>
+        <dt>Stade</dt><dd>Non renseigné <small>(pas d'indexation MeSH disponible)</small></dd>
+        <dt>Accès au texte (OpenAlex)</dt><dd>fermé (payant)</dd>
+        <dt>Détecté par l'outil le</dt><dd>2026-09-25</dd>
+      </dl>
+      <p class="rubriques"><strong>Rubrique :</strong> <span class="rubrique">Dispositifs et chirurgie</span> <small>mot du titre : « drainage device »; mot du titre : « surgery »</small> <span class="badge regle">classement automatique — règles dans config/rubriques.ini</span></p>
+    </header>
+<section><h2>Question étudiée <span class="badge source">Résumé PubMed (texte source)</span></h2><blockquote lang="en"><strong>BACKGROUND</strong> To evaluate the risk of endophthalmitis in glaucoma patients undergoing glaucoma drainage device (GDD) surgery.</blockquote></section><section><h2>Traitement ou technologie, et comparateur <span class="badge regle">règle automatique de l'outil</span></h2><ul><li><span class="manque">Aucun produit suivi ni molécule repérés automatiquement</span></li></ul><p class="def">Aucun rôle n'est confirmé : PubMed ne décrit pas les bras d'une étude. Un rôle pourrait être confirmé par le registre d'un essai lié de façon confirmée.</p></section><section><h2>Type d'étude et méthode <span class="badge source">Résumé PubMed (texte source)</span><span class="badge source">PubMed (types de publication)</span></h2><p>Type(s) de publication déclaré(s) par PubMed : <span lang="en">Journal Article</span></p><blockquote lang="en"><strong>METHODS</strong> This retrospective cohort study identified glaucoma patients utilising TriNetX's database who underwent GDD between <mark>2004</mark> and <mark>2024</mark> without a prior history of glaucoma surgery. Kaplan-Meier survival analysis estimated the cumulative incidence of endophthalmitis and a Cox proportional hazards model, adjusted for demographic and clinical covariates, was used to calculate adjusted hazard ratios (aHRs) and confidence intervals (CIs) comparing outcomes between patients who underwent tube shunt surgery versus trabeculectomy. A scleral buckle (SB) cohort was added as a second comparator to GDD to contextualise infection risk related to hardware without bleb formation.</blockquote></section><section><h2>Population et participants (phrases du résumé) <span class="badge source">Résumé PubMed (texte source)</span></h2><blockquote lang="en">The GDD cohort included <mark>12,849</mark> patients (mean age <mark>62.7</mark> <mark>± 19</mark> years), compared with <mark>9,006</mark> trabeculectomy patients (<mark>67.9</mark> <mark>± 14.1</mark>) and <mark>3,097</mark> SB patients (<mark>45.1</mark> <mark>± 18.7</mark>).</blockquote></section><section><h2>Résultats disponibles <span class="badge source">Résumé PubMed (texte source)</span></h2><p class="def">Valeurs chiffrées surlignées telles qu'elles figurent dans le résumé. Elles n'ont pas été vérifiées dans le texte intégral.</p><blockquote lang="en"><strong>RESULTS</strong> The GDD cohort included <mark>12,849</mark> patients (mean age <mark>62.7</mark> <mark>± 19</mark> years), compared with <mark>9,006</mark> trabeculectomy patients (<mark>67.9</mark> <mark>± 14.1</mark>) and <mark>3,097</mark> SB patients (<mark>45.1</mark> <mark>± 18.7</mark>). After GDD surgery, the cumulative incidence of endophthalmitis was <mark>0.82%</mark> at <mark>1</mark>, <mark>1.57%</mark> at <mark>3</mark> and <mark>1.87%</mark> at <mark>5</mark> years, compared with <mark>0.47%</mark>, <mark>0.78%</mark> and <mark>0.96%</mark> following trabeculectomy and <mark>0.19%</mark>, <mark>0.23%</mark> and <mark>0.39%</mark> following SB. In Cox models, there was no significant difference in hazard between GDD and trabeculectomy at any timepoint. However, GDD was associated with higher risk than SB at <mark>30</mark> days (aHR <mark>5.43</mark>, CI: <mark>1.28</mark>-<mark>23.08</mark>, <mark>1</mark> year (aHR <mark>3.36</mark>, <mark>95%</mark> CI <mark>1.88</mark>-<mark>5.99</mark>) and <mark>5</mark> years (aHR <mark>3.71</mark>, <mark>95%</mark> CI <mark>2.40</mark>-<mark>5.73</mark>).</blockquote></section><section><h2>Données de tolérance (phrases du résumé) <span class="badge source">Résumé PubMed (texte source)</span></h2><p><span class="manque">Aucune donnée de tolérance dans le résumé</span></p></section><section><h2>Conclusion des auteurs (citée telle quelle, non évaluée par l'outil) <span class="badge source">Résumé PubMed (texte source)</span></h2><blockquote lang="en"><strong>CONCLUSION</strong> Endophthalmitis is an uncommon but persistent risk after GDD surgery. Although long-term risk was comparable between GDD and trabeculectomy, GDD implantation carried a higher risk than SB.</blockquote></section><section><h2>Essai clinique lié <span class="badge source">PubMed (DataBankList et texte)</span></h2><ul><li><span class="manque">Aucun essai lié identifié</span></li></ul></section><section><h2>Promoteur, financeur et affiliations <span class="badge source">PubMed</span><span class="badge source">OpenAlex</span><span class="badge source">Crossref</span></h2><div class="acteurs">
+      <div><h3>Promoteur d'essai</h3><p class="def">Organisme responsable d'un essai, déclaré au registre.</p><p><span class="manque">Non affiché : aucun essai lié de façon confirmée</span></p></div>
+      <div><h3>Financeur</h3><p class="def">Organisme qui a financé la recherche, avec la notice qui le justifie.</p><p><span class="manque">Aucun financeur trouvé (PubMed, OpenAlex, Crossref)</span></p></div>
+      <div><h3>Affiliations des auteurs</h3><p class="def">Établissements où travaillent les auteurs (pas un financement).</p><p><small>Institutions normalisées (OpenAlex) :</small></p><ul><li>Boston Children's Hospital <small>(US, santé/hôpital)</small></li><li>University of Miami <small>(US, enseignement/recherche)</small></li><li>University of Arkansas for Medical Sciences <small>(US, enseignement/recherche)</small></li><li>Illinois College <small>(US, enseignement/recherche)</small></li><li>University of Illinois Chicago <small>(US, enseignement/recherche)</small></li><li>Hamad Medical Corporation <small>(QA, fondation/association)</small></li><li>University of Arizona <small>(US, enseignement/recherche)</small></li><li>Texas A&amp;M University <small>(US, enseignement/recherche)</small></li><li>Miami Transplant Institute <small>(US, santé/hôpital)</small></li></ul><details><summary>Affiliations telles que déclarées dans PubMed (10)</summary><ul><li>Department of Ophthalmology, Harvey and Bernice Jones Eye Institute, University of Arkansas for Medical Sciences, Little Rock, AR, USA. amelhusseiny@uams.edu.</li><li>Department of Ophthalmology, Bascom Palmer Eye Institute, University of Miami, Miami, FL, USA. amelhusseiny@uams.edu.</li><li>Department of Ophthalmology, Boston Children's Hospital, Harvard Medical School, Boston, MA, USA. amelhusseiny@uams.edu.</li><li>University of Illinois College of Medicine, Chicago, IL, USA.</li><li>Department of Ophthalmology, Harvey and Bernice Jones Eye Institute, University of Arkansas for Medical Sciences, Little Rock, AR, USA.</li><li>Department of Ophthalmology, Hamad Medical Corporation, Doha, Qatar.</li><li>Department of Ophthalmology and Visual Sciences, University of Arizona College of Medicine, Phoenix, AZ, USA.</li><li>School of Medicine, Texas A&amp;M University, Houston, TX, USA.</li><li>Department of Ophthalmology, Bascom Palmer Eye Institute, University of Miami, Miami, FL, USA.</li><li>Department of Ophthalmology, Bascom Palmer Eye Institute, University of Miami, Miami, FL, USA. t.chang@med.miami.edu.</li></ul></details></div>
+    </div></section>
+<section><h2>Ce qui manque <span class="badge regle">calculé par l'outil</span></h2><ul><li>données de tolérance</li><li>financeur</li></ul></section>
+<section><h2>Limites, intérêt pour la veille marketing, à retenir <span class="badge attente">non produit par l'outil</span></h2><p><span class="manque">Non rédigé automatiquement : les données extraites ne suffisent pas à produire une analyse fiable sans interprétation. Utilisez le bouton « Copier pour Claude / ChatGPT » pour obtenir une proposition, à vérifier.</span></p></section>
+<section><details><summary>Voir le texte copié par le bouton</summary>
+<textarea id="a-copier" readonly>Tu es assistant de veille scientifique sur le glaucome. À partir UNIQUEMENT des informations ci-dessous, rédige en français une fiche de synthèse avec ces rubriques :
+1. Question étudiée
+2. Traitement ou technologie
+3. Type d&#x27;étude
+4. Population et nombre de participants
+5. Comparateur
+6. Critères évalués
+7. Principaux résultats chiffrés (recopie les valeurs exactes et indique leur source)
+8. Données de tolérance
+9. Limites
+10. Intérêt potentiel pour une veille marketing — présenté comme une INTERPRÉTATION, séparé des faits
+11. À retenir (une phrase)
+
+Règles :
+- N&#x27;invente rien. Si une information manque, écris « non rapporté ».
+- Distingue un essai simplement enregistré, un protocole, des résultats déposés dans un registre et une publication de résultats.
+- Si la source est seulement le résumé d&#x27;un article, indique que la synthèse repose uniquement sur ce résumé.
+- Les rôles « suggérés » (traitement étudié / comparateur) sont à vérifier dans le texte source.
+- Ne confonds pas promoteur d&#x27;essai, financeur et affiliation des auteurs.
+- Termine par la liste des points à vérifier.
+
+=== INFORMATIONS ===
+SOURCE : PubMed, PMID 42768080 — https://pubmed.ncbi.nlm.nih.gov/42768080/ · DOI https://doi.org/10.1038/s41433-026-04876-5
+BASE : résumé PubMed uniquement (texte intégral non lu)
+Titre : Endophthalmitis following glaucoma drainage device surgery.
+Revue : Eye (London, England) · entrée PubMed : 2026-09-21
+Types de publication (PubMed) : Journal Article
+Produits repérés automatiquement (rôles SUGGÉRÉS, à vérifier) : aucun
+Molécules hors liste (repérage automatique, à vérifier) : aucune
+Essai lié : aucun
+Financeurs : aucun trouvé
+Affiliations (institutions, pas des financeurs) : Boston Children&#x27;s Hospital (US, healthcare); University of Miami (US, education); University of Arkansas for Medical Sciences (US, education); Illinois College (US, education); University of Illinois Chicago (US, education); Hamad Medical Corporation (QA, nonprofit); University of Arizona (US, education); Texas A&amp;M University (US, education); Miami Transplant Institute (US, healthcare)
+
+RÉSUMÉ (texte source) :
+BACKGROUND: To evaluate the risk of endophthalmitis in glaucoma patients undergoing glaucoma drainage device (GDD) surgery.
+METHODS: This retrospective cohort study identified glaucoma patients utilising TriNetX&#x27;s database who underwent GDD between 2004 and 2024 without a prior history of glaucoma surgery. Kaplan-Meier survival analysis estimated the cumulative incidence of endophthalmitis and a Cox proportional hazards model, adjusted for demographic and clinical covariates, was used to calculate adjusted hazard ratios (aHRs) and confidence intervals (CIs) comparing outcomes between patients who underwent tube shunt surgery versus trabeculectomy. A scleral buckle (SB) cohort was added as a second comparator to GDD to contextualise infection risk related to hardware without bleb formation.
+RESULTS: The GDD cohort included 12,849 patients (mean age 62.7 ± 19 years), compared with 9,006 trabeculectomy patients (67.9 ± 14.1) and 3,097 SB patients (45.1 ± 18.7). After GDD surgery, the cumulative incidence of endophthalmitis was 0.82% at 1, 1.57% at 3 and 1.87% at 5 years, compared with 0.47%, 0.78% and 0.96% following trabeculectomy and 0.19%, 0.23% and 0.39% following SB. In Cox models, there was no significant difference in hazard between GDD and trabeculectomy at any timepoint. However, GDD was associated with higher risk than SB at 30 days (aHR 5.43, CI: 1.28-23.08, 1 year (aHR 3.36, 95% CI 1.88-5.99) and 5 years (aHR 3.71, 95% CI 2.40-5.73).
+CONCLUSION: Endophthalmitis is an uncommon but persistent risk after GDD surgery. Although long-term risk was comparable between GDD and trabeculectomy, GDD implantation carried a higher risk than SB.</textarea></details></section>
+<p><small>Fiche générée le 2026-11-11 22:40 par Glaucoma Intelligence. Extraits des sources en langue originale.</small></p>
+</main><script>
+function copierFiche(){
+  var zone=document.getElementById('a-copier'), bouton=document.getElementById('bouton-copier');
+  function fait(){bouton.textContent='Copié ✓ — collez dans Claude ou ChatGPT';setTimeout(function(){bouton.textContent='Copier pour Claude / ChatGPT'},3000);}
+  function secours(){zone.parentElement.open=true;zone.select();try{document.execCommand('copy');fait();}
+    catch(err){bouton.textContent='Sélectionnez le texte ci-dessous puis Ctrl+C';}}
+  if(navigator.clipboard&&window.isSecureContext){navigator.clipboard.writeText(zone.value).then(fait,secours);}else{secours();}
+}
+</script></body></html>

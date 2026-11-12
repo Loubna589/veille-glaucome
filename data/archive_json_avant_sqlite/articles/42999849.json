@@ -1,0 +1,92 @@
+{
+  "pmid": "42999849",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42999849",
+    "titre": "A Longitudinal Comparison of Baseline Predictors of Five-Year OAG Development.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42999849/",
+    "doi": "10.2147/OPTH.S654618",
+    "pmcid": "PMC13744252",
+    "revue": "Clinical ophthalmology (Auckland, N.Z.)",
+    "date_entree_pubmed": "2026-11-08",
+    "date_publication": "2026",
+    "types_publication": [
+      "Journal Article"
+    ],
+    "resume_present": true,
+    "resume": "PURPOSE: To compare sensitivities for prediction of development of open angle glaucoma (OAG) in 5 years in eyes initially assessed as clinically suspect open angle glaucoma in a prospective longitudinal study.\nMETHODS: Data were collected prospectively every fourth month for five years from both eyes of 88 subjects with at least one clinically glaucoma suspect eye. Presently, observations at occasions 1, 2, 15 and 16 were analyzed. An eye was considered clinically glaucoma suspect eye if it met at least one of the criteria: suspicious ophthalmoscopic optic nerve head appearance, ocular hypertension, pigment dispersion syndrome, exfoliation syndrome, or visual field asymmetry. Measurements of mean deviation (MD) with standardized automatic perimetry (SAP) were used for classification of OAG at 5 years follow-up. The OAG conversion criterion was defined as a mean SAP MD below the critical limit for normality (-3.7 dB) across occasions 15 and 16. At specificity of 95% for measurement at baseline, 95% confidence intervals for sensitivity were estimated for intraocular pressure (IOP), cup-to-disc ratio (C/D-vertical) and neuro-retinal rim area (NRA), both measured with confocal scanning laser ophthalmoscopy (CSLO) and nerve fiber layer thickness measured with laser scanning polarimetry (GDx TSNIT-global) and optical coherence tomography (OCT cpRNFLT-global), respectively. Confidence intervals were estimated using Hilgers, Delta-Wald with logit transformation, and Bootstrap strategies.\nRESULTS: During the 5-year follow-up, 20 clinically suspect eyes met the OAG conversion criterion. The different strategies resulted in confidence intervals of the same order. The 95% confidence intervals estimated with Bootstrap strategy were 0.57 [0.30;0.84] for OCT cpRNFLT, 0.32 [0.08;0.61] for GDx TSNIT, 0.30 [0.08;0.59] for HRT NRA, 0.26 [0.05;0.58] for HRT vertical C/D, and 0.11 [0.02;0.27] for IOP.\nCONCLUSIONS: For the currently used MD-based OAG conversion definition, OCT-cpRNFLT has the highest sensitivity for prediction of OAG development at the initial visit among the morphometric variables. The low sensitivity for IOP questions the value of IOP slightly above 21 mmHg for prediction of OAG at baseline.",
+    "mots_cles_auteurs": [
+      "diagnostic sensitivity",
+      "glaucoma suspect",
+      "open-angle glaucoma",
+      "optical coherence tomography",
+      "retinal nerve fiber layer",
+      "visual field"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 5,
+    "affiliations_auteurs": [
+      "Department of Surgical Sciences, Ophthalmology Unit, Uppsala University, Uppsala, Sweden."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7225180920",
+      "doi": "10.2147/opth.s654618",
+      "pmid": "42999849",
+      "pmcid": "13744252",
+      "titre": "A Longitudinal Comparison of Baseline Predictors of Five-Year OAG Development",
+      "lien": "https://openalex.org/W7225180920",
+      "date_publication": "2026-11-01",
+      "type": "article",
+      "revue": "Clinical ophthalmology",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "doaj",
+        "pubmed"
+      ],
+      "financeurs": null,
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "Uppsala University",
+          "pays": "SE",
+          "type": "education",
+          "ror": "https://ror.org/048a87296"
+        }
+      ],
+      "acces_ouvert": true,
+      "statut_acces": "gold",
+      "url_texte": "https://www.dovepress.com/article/download/121788",
+      "url_pdf": "https://www.dovepress.com/article/download/121788",
+      "licence": "cc-by-nc",
+      "texte_integral_indexe": true,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Glaucoma and retinal disorders",
+      "resume_present": true,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": []
+  }
+}

@@ -1,0 +1,243 @@
+{
+  "pmid": "42202976",
+  "premiere_detection": "2026-09-25",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42202976",
+    "titre": "Multi-omics identification and verification of Dnajb14 as a modulator of retinal ganglion cell survival in glaucoma through ferroptosis.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42202976/",
+    "doi": "10.1016/j.jgg.2026.05.011",
+    "pmcid": null,
+    "revue": "Journal of genetics and genomics = Yi chuan xue bao",
+    "date_entree_pubmed": "2026-05-27",
+    "date_publication": "2026-May-26",
+    "types_publication": [
+      "Journal Article"
+    ],
+    "resume_present": true,
+    "resume": "Glaucoma is a leading cause of irreversible blindness and necessitates the identification of unreported therapeutic targets. Here, we report eight stable plasma protein targets for glaucoma, identified through a large-scale proteome-wide association study integrated with Mendelian randomization and colocalization analyses. Among these candidates, we show that the DnaJ heat shock protein family member B14 (DNAJB14) acts as a critical neuroprotective factor. Using single-cell and bulk transcriptomics, we demonstrate that Dnajb14 is characteristically expressed in retinal ganglion cells (RGCs) and that its abundance is inversely correlated with ferroptosis under ischemic stress. Furthermore, our results reveal that Dnajb14 preserve RGC survival and structural and functional integrity in multiple acute and chronic murine models. Mechanistically, Dnajb14 overexpression robustly alleviate ischemia-reperfusion-induced retinal injury, whereas targeted knockdown exacerbate lipid peroxidation, mitochondrial dysfunction, and ferroptosis. Taken together, our findings highlight that Dnajb14 is a key regulator of RGC survival through inhibition of ferroptosis, thereby making it a promising therapeutic candidate for glaucoma treatment.",
+    "mots_cles_auteurs": [
+      "Ferroptosis",
+      "Glaucoma",
+      "Ischemia-reperfusion",
+      "Mendelian randomization",
+      "ScRNA-seq analysis"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 8,
+    "affiliations_auteurs": [
+      "Department of Ophthalmology, Xiangya Hospital, Central South University, Changsha, Hunan 410028, China; Hunan Key Laboratory of Ophthalmology, Central South University, Changsha, Hunan 410028, China; National Clinical Research Center for Geriatric Disorders, Xiangya Hospital, Central South University, Changsha, Hunan 410028, China.",
+      "Department of Neurosurgery, Xiangya Hospital, Central South University, Changsha, Hunan 410028, China.",
+      "Department of Ophthalmology, Changde Hospital (The first people's hospital of Changde city), Xiangya School of Medicine, Central South University, Changde, Hunan 415003, China. Electronic address: 18907421671@163.com.",
+      "Department of Neurosurgery, Xiangya Hospital, Central South University, Changsha, Hunan 410028, China. Electronic address: chengquan@csu.edu.cn.",
+      "Department of Ophthalmology, Xiangya Hospital, Central South University, Changsha, Hunan 410028, China; Hunan Key Laboratory of Ophthalmology, Central South University, Changsha, Hunan 410028, China; National Clinical Research Center for Geriatric Disorders, Xiangya Hospital, Central South University, Changsha, Hunan 410028, China. Electronic address: gree1333@csu.edu.cn."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7162458502",
+      "doi": "10.1016/j.jgg.2026.05.011",
+      "pmid": "42202976",
+      "pmcid": null,
+      "titre": "Multi-omics identification and verification of Dnajb14 as a modulator of retinal ganglion cell survival in glaucoma through ferroptosis",
+      "lien": "https://openalex.org/W7162458502",
+      "date_publication": "2026-05-01",
+      "type": "article",
+      "revue": "Journal of genetics and genomics/Journal of Genetics and Genomics",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "pubmed"
+      ],
+      "financeurs": [
+        {
+          "nom": "National Natural Science Foundation of China",
+          "ror": "https://ror.org/01h0zpd94"
+        },
+        {
+          "nom": "Natural Science Foundation of Hunan Province",
+          "ror": null
+        },
+        {
+          "nom": "National Key Research and Development Program of China",
+          "ror": null
+        },
+        {
+          "nom": "Fundamental Research Funds for Central Universities of the Central South University",
+          "ror": null
+        },
+        {
+          "nom": "National Key Research and Development Program of China Stem Cell and Translational Research",
+          "ror": null
+        }
+      ],
+      "subventions": [
+        {
+          "financeur": "National Key Research and Development Program of China",
+          "reference": "2021YFA1101200"
+        },
+        {
+          "financeur": "Fundamental Research Funds for Central Universities of the Central South University",
+          "reference": "2026ZZTS0053"
+        },
+        {
+          "financeur": "National Natural Science Foundation of China",
+          "reference": "82271091"
+        },
+        {
+          "financeur": "National Key Research and Development Program of China",
+          "reference": "2021YFA1101202"
+        },
+        {
+          "financeur": "National Natural Science Foundation of China",
+          "reference": "U23A20435"
+        },
+        {
+          "financeur": "Natural Science Foundation of Hunan Province",
+          "reference": "2024JJ7015"
+        }
+      ],
+      "institutions": [
+        {
+          "nom": "Central South University",
+          "pays": "CN",
+          "type": "education",
+          "ror": "https://ror.org/00f1zfq44"
+        },
+        {
+          "nom": "Xiangya Hospital Central South University",
+          "pays": "CN",
+          "type": "healthcare",
+          "ror": "https://ror.org/05c1yfj14"
+        },
+        {
+          "nom": "The First People's Hospital of Changde",
+          "pays": "CN",
+          "type": "healthcare",
+          "ror": "https://ror.org/02h2ywm64"
+        }
+      ],
+      "acces_ouvert": false,
+      "statut_acces": "closed",
+      "url_texte": null,
+      "url_pdf": null,
+      "licence": null,
+      "texte_integral_indexe": false,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Ferroptosis and cancer prognosis",
+      "resume_present": false,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-09-25",
+    "financements": [
+      {
+        "nom": "National Natural Science Foundation of China",
+        "statut": "CONFIRMÉ — déclaré par l'éditeur dans Crossref",
+        "references": [
+          "82271091",
+          "U23A20435"
+        ],
+        "notices": [
+          [
+            "notice justificative Crossref (déclaration de l'éditeur)",
+            "https://api.crossref.org/works/10.1016/j.jgg.2026.05.011"
+          ],
+          [
+            "notice OpenAlex",
+            "https://api.openalex.org/works/W7162458502"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "Natural Science Foundation of Hunan Province",
+        "statut": "CONFIRMÉ — déclaré par l'éditeur dans Crossref",
+        "references": [
+          "2024JJ7015"
+        ],
+        "notices": [
+          [
+            "notice justificative Crossref (déclaration de l'éditeur)",
+            "https://api.crossref.org/works/10.1016/j.jgg.2026.05.011"
+          ],
+          [
+            "notice OpenAlex",
+            "https://api.openalex.org/works/W7162458502"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "National Key Research and Development Program of China",
+        "statut": "CONFIRMÉ — déclaré par l'éditeur dans Crossref",
+        "references": [
+          "2021YFA1101200",
+          "2021YFA1101202"
+        ],
+        "notices": [
+          [
+            "notice justificative Crossref (déclaration de l'éditeur)",
+            "https://api.crossref.org/works/10.1016/j.jgg.2026.05.011"
+          ],
+          [
+            "notice OpenAlex",
+            "https://api.openalex.org/works/W7162458502"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "Fundamental Research Funds for Central Universities of the Central South University",
+        "statut": "CONFIRMÉ — déclaré par l'éditeur dans Crossref",
+        "references": [
+          "2026ZZTS0053"
+        ],
+        "notices": [
+          [
+            "notice justificative Crossref (déclaration de l'éditeur)",
+            "https://api.crossref.org/works/10.1016/j.jgg.2026.05.011"
+          ],
+          [
+            "notice OpenAlex",
+            "https://api.openalex.org/works/W7162458502"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "National Key Research and Development Program of China Stem Cell and Translational Research",
+        "statut": "CONFIRMÉ — déclaré par l'éditeur dans Crossref",
+        "references": null,
+        "notices": [
+          [
+            "notice justificative Crossref (déclaration de l'éditeur)",
+            "https://api.crossref.org/works/10.1016/j.jgg.2026.05.011"
+          ],
+          [
+            "notice OpenAlex",
+            "https://api.openalex.org/works/W7162458502"
+          ]
+        ],
+        "note": null
+      }
+    ]
+  }
+}

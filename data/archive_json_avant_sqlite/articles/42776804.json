@@ -1,0 +1,120 @@
+{
+  "pmid": "42776804",
+  "premiere_detection": "2026-09-25",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42776804",
+    "titre": "Global Ophthalmology Research Output Relative to Disease Burden and National Income, 2011-2021.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42776804/",
+    "doi": "10.3390/vision10040061",
+    "pmcid": "PMC13600168",
+    "revue": "Vision (Basel, Switzerland)",
+    "date_entree_pubmed": "2026-09-23",
+    "date_publication": "2026-Sep-01",
+    "types_publication": [
+      "Journal Article"
+    ],
+    "resume_present": true,
+    "resume": "PURPOSE: To characterize ophthalmology research output relative to disease burden and national economic capacity after accounting for population size.\nMETHODS: We analyzed Scopus publications, Global Burden of Disease disability-adjusted life years (DALYs), and World Bank economic and population data from 2011 to 2021. Negative binomial and Gamma models evaluated publication volume and positive citation-weighted impact, adjusting for DALYs, gross domestic product (GDP) per capita, population, disease category, and publication year.\nRESULTS: Refractive disorders accounted for 45.4% of DALYs and 23.2% of publication volume; cataract, 44.7% and 29.8%; glaucoma, 5.2% and 30.6%; and age-related macular degeneration, 3.8% and 15.2%. High-income countries accounted for 11.8% of burden, 67.2% of publication volume, and 74.2% of citation-weighted impact; lower-middle-income countries accounted for 49.1%, 7.9%, and 6.8%, respectively. DALYs were not independently associated with publication volume (adjusted count ratio [aCR], 0.99; 95% confidence interval [CI], 0.98-1.01; p = 0.278), whereas GDP per capita (aCR, 4.47) and population (aCR, 13.99) were strongly associated (both p < 0.001). For positive citation-weighted impact, DALYs had a small association (adjusted ratio of means [aRM], 1.05), whereas GDP per capita (aRM, 2.86) and population (aRM, 4.96) were strongly associated (all p < 0.001).\nCONCLUSIONS: After accounting for population size, absolute disease burden was not independently associated with publication volume, whereas national economic capacity remained strongly associated with both outcomes. These patterns should inform research and service-delivery priorities.",
+    "mots_cles_auteurs": [
+      "bibliometrics",
+      "disability-adjusted life years",
+      "global health",
+      "health disparities",
+      "ophthalmology",
+      "research prioritization"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 6,
+    "affiliations_auteurs": [
+      "Faculty of Medicine, Queen's University, Kingston, ON K7L 3J8, Canada.",
+      "Department of Ophthalmology and Vision Sciences, University of Toronto, Toronto, ON M5T 3A9, Canada.",
+      "Department of Ophthalmology, Queen's University, Kingston, ON K7L 5G2, Canada.",
+      "Toronto Western Hospital, University Health Network, University of Toronto, Toronto, ON M5T 2S8, Canada.",
+      "Kensington Vision and Research Center, 340 College Street, Suite 600, Toronto, ON M5T 3A9, Canada."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7204914755",
+      "doi": "10.3390/vision10040061",
+      "pmid": "42776804",
+      "pmcid": null,
+      "titre": "Global Ophthalmology Research Output Relative to Disease Burden and National Income, 2011–2021",
+      "lien": "https://openalex.org/W7204914755",
+      "date_publication": "2026-09-01",
+      "type": "article",
+      "revue": "Vision",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "doaj",
+        "pubmed"
+      ],
+      "financeurs": null,
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "Queen's University",
+          "pays": "CA",
+          "type": "education",
+          "ror": "https://ror.org/02y72wh86"
+        },
+        {
+          "nom": "University of Toronto",
+          "pays": "CA",
+          "type": "education",
+          "ror": "https://ror.org/03dbr7087"
+        },
+        {
+          "nom": "University Health Network",
+          "pays": "CA",
+          "type": "healthcare",
+          "ror": "https://ror.org/042xt5161"
+        },
+        {
+          "nom": "Toronto Western Hospital",
+          "pays": "CA",
+          "type": "healthcare",
+          "ror": "https://ror.org/03qv8yq19"
+        },
+        {
+          "nom": "Kensington Health",
+          "pays": "CA",
+          "type": "nonprofit",
+          "ror": "https://ror.org/02qcscp23"
+        }
+      ],
+      "acces_ouvert": true,
+      "statut_acces": "gold",
+      "url_texte": "https://doi.org/10.3390/vision10040061",
+      "url_pdf": null,
+      "licence": "cc-by",
+      "texte_integral_indexe": false,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Retinal Diseases and Treatments",
+      "resume_present": true,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-09-25",
+    "financements": []
+  }
+}

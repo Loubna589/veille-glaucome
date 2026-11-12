@@ -1,0 +1,51 @@
+{
+  "openalex_id": "W7212198189",
+  "premiere_detection": "2026-09-25",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "openalex_id": "W7212198189",
+    "doi": null,
+    "pmid": null,
+    "pmcid": null,
+    "titre": "Corneal Biomechanics in Glaucoma: Current Evidence for Diagnosis, Risk Stratification, and Prognosis",
+    "lien": "https://openalex.org/W7212198189",
+    "date_publication": "2026-09-01",
+    "type": "article",
+    "revue": "DOAJ (DOAJ: Directory of Open Access Journals)",
+    "type_source": "repository",
+    "langue": "en",
+    "indexe_dans": [
+      "doaj"
+    ],
+    "financeurs": null,
+    "subventions": null,
+    "institutions": null,
+    "acces_ouvert": false,
+    "statut_acces": "closed",
+    "url_texte": null,
+    "url_pdf": null,
+    "licence": null,
+    "texte_integral_indexe": false,
+    "retracte": false,
+    "citations": 0,
+    "sujet_principal": "Corneal surgery and disorders",
+    "resume_present": true,
+    "resume": "Xian Wu,1,2 Hongbo Luo,1 Huanping Chen,1,3 Rui Luo1,31Center for Rehabilitation Medicine, Department of Ophthalmology, Zhejiang Provincial People’s Hospital (Affiliated People’s Hospital, Hangzhou Medical College), Hangzhou, Zhejiang, People’s Republic of China; 2The Second Clinical Medical College, Zhejiang Chinese Medical University, Hangzhou, Zhejiang, People’s Republic of China; 3Postgraduate Training Base Alliance of Wenzhou Medical University (Zhejiang Provincial People’s Hospital), Wenzhou Medical University, Wenzhou, Zhejiang, People’s Republic of ChinaCorrespondence: Hongbo Luo, Center for Rehabilitation Medicine, Department of Ophthalmology, Zhejiang Provincial People’s Hospital (Affiliated People’s Hospital, Hangzhou Medical College), Hangzhou, Zhejiang, People’s Republic of China, Email luohongbo1213@163.comBackground: Corneal biomechanical measurements influence the interpretation of intraocular pressure and may also capture aspects of ocular-wall susceptibility that are not represented by central corneal thickness alone. Their diagnostic and prognostic relevance in glaucoma has therefore attracted increasing attention.Methods: A structured narrative search of PubMed/MEDLINE was performed from database inception through July 25, 2026, using combinations of terms related to glaucoma, ocular hypertension, corneal biomechanics, corneal hysteresis, the Ocular Response Analyzer, Corvis ST, dynamic Scheimpflug imaging, and emerging elastographic techniques. Reference lists of eligible publications and key reviews were also screened. Peer-reviewed clinical studies, systematic reviews, meta-analyses, authoritative reports, and selected foundational experimental studies were considered.Review Findings: The Ocular Response Analyzer and Corvis ST provide device-specific measurements that are not directly interchangeable. Lower corneal hysteresis is consistently associated with glaucoma and with faster structural or functional progression, whereas the diagnostic performance of Corvis ST-derived parameters is more heterogeneous and varies by glaucoma subtype, intraocular pressure, central corneal thickness, axial length, and treatment exposure. Unlike previous broad overviews, this review explicitly separates diagnostic from prognostic evidence, contrasts findings across glaucoma phenotypes and devices, and examines the effect of major confounders. Brillouin microscopy and optical coherence elastography may eventually provide spatially resolved tissue measurements, but neither has been validated for routine glaucoma management.Conclusion: Corneal biomechanical measurements should currently be regarded as complementary biomarkers rather than stand-alone diagnostic endpoints in glaucoma. Future progress will depend on standardized acquisition and reporting, subtype-specific prospective validation, and multimodal integration with structural and functional glaucoma assessments.Keywords: Corneal biomechanics, corneal hysteresis, ocular response analyzer, Corvis ST, glaucoma progression, ocular hypertension, risk stratification",
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "present_dans_pubmed": false
+  }
+}

@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>NCT05042609 — fiche essai</title><style>
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
+:root{--fond:#f4f7fb;--carte:#fff;--texte:#0f1d33;--doux:#52627a;--bord:#e2e8f0;--accent:#0b4f8a;
+--ok:#146c43;--ok-fond:#e3f4ea;--att:#8a5300;--att-fond:#fdf1d8;--ver:#b42318;--ver-fond:#fdeceb;
+--reg:#3f3c9e;--reg-fond:#ecebfb;--src-fond:#f1f5f9;--mark:#fff1a8;--manque:#b42318;--turquoise:#14b8a6;}
+@media (prefers-color-scheme:dark){:root{--fond:#0a1120;--carte:#101a2c;--texte:#e6edf7;--doux:#9db0ca;
+--bord:#1e2b42;--accent:#6fb4ff;--ok:#6fd6a0;--ok-fond:#12301f;--att:#f3c15e;--att-fond:#352a10;--ver:#ff9a8f;
+--ver-fond:#3a1714;--reg:#b4b2ff;--reg-fond:#24234a;--src-fond:#0d1626;--mark:#5a4d10;--manque:#ff9a8f;--turquoise:#2dd4bf;}}
+*{box-sizing:border-box}body{margin:0;background:var(--fond);color:var(--texte);
+font:15.5px/1.6 "Inter",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+:focus-visible{outline:3px solid var(--turquoise);outline-offset:2px;border-radius:6px}
+main{max-width:1000px;margin:0 auto;padding:20px 18px 64px}
+.bandeau{display:flex;align-items:center;gap:10px;font-weight:800;letter-spacing:-.02em;padding:6px 0 14px;color:var(--texte);text-decoration:none}
+.bandeau i{width:30px;height:30px;border-radius:9px;background:linear-gradient(135deg,#0b4f8a,#14b8a6);display:inline-block}
+header,section{background:var(--carte);border:1px solid var(--bord);border-radius:16px;padding:20px 24px;margin:0 0 16px;
+box-shadow:0 1px 2px rgba(15,29,51,.04),0 6px 20px -8px rgba(15,29,51,.12)}
+h1{font-size:1.45rem;line-height:1.3;margin:.2em 0 .5em}h2{font-size:1.1rem;margin:0 0 .6em;color:var(--accent)}
+h3{font-size:1rem;margin:1.1em 0 .4em}.surtitre{color:var(--doux);margin:0;font-size:.9rem}
+a{color:var(--accent)}small,.def{color:var(--doux)}.def{font-size:.88rem;margin:.2em 0 .6em}
+.grille{display:grid;grid-template-columns:max-content 1fr;gap:4px 16px;margin:12px 0 0}
+.grille dt{color:var(--doux)}.grille dd{margin:0}
+.badge{display:inline-block;font-size:.72rem;font-weight:600;padding:2px 8px;border-radius:999px;margin:2px 4px 2px 0;
+vertical-align:middle;background:var(--src-fond);color:var(--doux)}
+.badge.confirme{background:var(--ok-fond);color:var(--ok)}.badge.attente{background:var(--att-fond);color:var(--att)}
+.badge.verifier{background:var(--ver-fond);color:var(--ver)}.badge.regle{background:var(--reg-fond);color:var(--reg)}
+.rubrique{font-weight:600}.manque{color:var(--manque);font-style:italic}
+mark{background:var(--mark);color:inherit;padding:0 2px;border-radius:3px}
+blockquote{margin:.5em 0;padding:.5em .9em;border-left:3px solid var(--bord);background:var(--src-fond);border-radius:0 6px 6px 0}
+pre{white-space:pre-wrap;font-size:.85rem;background:var(--src-fond);padding:10px;border-radius:6px}
+.defile{overflow-x:auto}table{border-collapse:collapse;width:100%;font-size:.92rem;margin:.4em 0}
+th,td{border:1px solid var(--bord);padding:6px 8px;text-align:left;vertical-align:top}th{background:var(--src-fond)}
+.analyse{background:var(--src-fond);padding:6px 10px;border-radius:6px;font-size:.92rem}
+.acteurs{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px}
+.acteurs>div{border:1px solid var(--bord);border-radius:8px;padding:10px 12px}.acteurs h3{margin-top:0}
+.copier{position:sticky;top:0;z-index:2;display:flex;gap:12px;align-items:center;flex-wrap:wrap;
+background:var(--fond);padding:10px 0;margin-bottom:8px}
+button{font:inherit;font-weight:600;background:var(--accent);color:#fff;border:0;border-radius:8px;padding:9px 16px;cursor:pointer}
+@media (prefers-color-scheme:dark){button{color:#10141a}}
+textarea{width:100%;min-height:260px;font:13px/1.4 ui-monospace,Consolas,monospace;background:var(--src-fond);
+color:var(--texte);border:1px solid var(--bord);border-radius:6px;padding:8px}
+details{margin:.5em 0}summary{cursor:pointer;color:var(--accent)}
+.retour{font-size:.92rem;margin:0 0 4px}
+@media (max-width:600px){.grille{grid-template-columns:1fr}.grille dt{margin-top:6px}header,section{padding:14px}}
+</style></head>
+<body><main>
+<a class="bandeau" href="../index.html"><i aria-hidden="true"></i>Glaucoma Intelligence</a><nav class="retour"><a href="../index.html">Accueil</a> · <a href="../etudes.html">← Essais &amp; articles</a> · <a href="../recherche.html">Rechercher</a> · <a href="../carte.html">Carte des acteurs</a> · <a href="../alertes.html">Alertes</a></nav>
+<div class="copier"><button id="bouton-copier" type="button" onclick="copierFiche()">Copier pour Claude / ChatGPT</button>
+<small>Copie une consigne + les faits de cette fiche, à coller dans votre assistant.</small></div>
+
+    <header>
+      <p class="surtitre">Fiche essai clinique · NCT05042609 · <a href="https://clinicaltrials.gov/study/NCT05042609" target="_blank" rel="noopener">voir sur ClinicalTrials.gov</a></p>
+      <h1>TRS4Vision - A Study of TRS01 in Subjects With Active Non-infectious Anterior Uveitis Including Subjects With Uveitic Glaucoma</h1>
+      <p><span class="badge confirme">RÉSULTATS DÉPOSÉS AU REGISTRE (le 2026-05-20)</span></p>
+      <dl class="grille">
+        <dt>Phase (déclarée)</dt><dd>Phase 3</dd>
+        <dt>Statut</dt><dd>Terminé</dd>
+        <dt>Type d'étude</dt><dd>Interventionnelle</dd>
+        <dt>Participants</dt><dd>142 (réel)</dd>
+        <dt>Première publication au registre</dt><dd>2021-09-13</dd>
+        <dt>Dernière mise à jour au registre</dt><dd>2026-10-22</dd>
+        <dt>Début · fin principale</dt><dd>2021-09-20 · 2023-06-29</dd>
+        <dt>Détecté par l'outil le</dt><dd>2026-11-11 · 0 modification(s) repérée(s) depuis</dd>
+      </dl>
+      <p class="rubriques"><strong>Rubrique :</strong> <span class="rubrique">Médicaments</span> <small>bras expérimental de type DRUG déclaré au registre : TRS01</small> <span class="badge regle">classement automatique — règles dans config/rubriques.ini</span></p>
+    </header>
+<section><h2>Question étudiée <span class="badge source">Registre ClinicalTrials.gov</span></h2><p><strong>Titre officiel :</strong> A Phase 3 Randomized, Active-Controlled, Double-Masked Study to Evaluate the Safety and Efficacy of TRS01 Eye Drops in the Treatment of Subjects With Active Non-infectious Anterior Uveitis Including Subjects With Uveitic Glaucoma</p><blockquote lang="en">The primary objective of this study is to evaluate the efficacy and safety of TRS01 eye drops compared to active comparator in subjects with active non-infectious anterior uveitis with or without uveitic glaucoma</blockquote></section><section><h2>Traitement ou technologie, et comparateur <span class="badge source">Registre ClinicalTrials.gov</span><span class="badge confirme">rôles CONFIRMÉS : type de bras déclaré au registre</span></h2><div class="defile"><table><thead><tr><th>Bras</th><th>Rôle déclaré</th><th>Interventions</th><th>Description (registre)</th></tr></thead><tbody><tr><td><strong>TRS01</strong></td><td>Expérimental (traitement étudié)</td><td>Drug: TRS01</td><td><small lang="en"></small></td></tr><tr><td><strong>Active comparator</strong></td><td>Comparateur actif</td><td>Drug: FDA approved steroid eye drop (masked)</td><td><small lang="en"></small></td></tr></tbody></table></div></section><section><h2>Type d'étude <span class="badge source">Registre ClinicalTrials.gov</span></h2><ul><li>Type : Interventionnelle · phase déclarée : Phase 3</li><li>Répartition : randomisée</li><li>Modèle : groupes parallèles</li><li>Insu : quadruple insu <small>(PARTICIPANT, CARE_PROVIDER, INVESTIGATOR, OUTCOMES_ASSESSOR)</small></li><li>But principal : traitement</li></ul></section><section><h2>Population et participants <span class="badge source">Registre ClinicalTrials.gov</span></h2><ul><li>Conditions déclarées : Non-infectious Anterior Uveitis, Uveitic Glaucoma</li><li>Âge : 0 Years → 75 Years</li><li>Sexe : tous</li><li>Volontaires sains acceptés : non</li><li>Nombre de participants : <mark>142 (réel)</mark></li></ul><details><summary>Critères d'inclusion et d'exclusion (texte du registre)</summary><pre lang="en">Inclusion Criteria:
+
+* At sites in the US: Male or female up to and including 75 years of age (including all pediatric age groups). At sites in the Europe: Male or female between 18 and 70 years of age, inclusive.
+* Diagnosed with active non-infectious anterior uveitis with anterior chamber cell Grade 2 (6-15 cells) or Grade 3 (16-30 cells) in the study eye that are without any treatment or with Stable Medical Therapy requiring further treatment.
+* Have Best Corrected Visual Acuity (BCVA) vision ≥ 65 letters in the non-study eye using Early Treatment Diabetic Retinopathy Study (ETDRS).
+
+Exclusion Criteria:
+
+* Pregnant or breastfeeding females or females.
+* History of or active significant ocular disease in either eye.
+* Uncontrolled intraocular pressure (IOP; defined as \&gt;27mmHg) or narrow angle glaucoma in either eye and/or are at risk of angle closure with dilating.
+* Poor posterior view due to limitation of dilation or media opacity that limits ability to examine the posterior segment.
+* Cancer or melanoma that is actively treated with immunotherapy.
+* Certain clinically significant systemic diseases or conditions.
+* Receiving specific medication/interventions as specified per protocol.</pre></details></section><section><h2>Critères évalués (tels que déclarés) <span class="badge source">Registre ClinicalTrials.gov</span></h2><ul><li><strong>Principal :</strong> Anterior Chamber Cell (ACC) Grade = 0 on Day 28 <small>[28 days]</small></li><li><strong>Principal :</strong> Anterior Chamber Cell (ACC) Grade = 0 or 1 on Day 28 <small>[28 days]</small></li><li>Secondaire : Change From Baseline (Day 1) in ACC Grade on Day 28 in the Study Eye <small>[28 days]</small></li><li>Secondaire : Anterior Chamber Cell (ACC) Grade on Day 21 <small>[21 days]</small></li><li>Secondaire : Change From Baseline in ACC Grade on Day 21. <small>[21 days]</small></li><li>Secondaire : Anterior Chamber Cell (ACC) Grade = 0 or 1 on Day 21 <small>[21 days]</small></li></ul></section><section><h2>Résultats disponibles <span class="badge confirme">Résultats déposés au registre le 2026-05-20</span></h2><p>Valeurs recopiées telles quelles depuis <a href="https://clinicaltrials.gov/study/NCT05042609?tab=results" target="_blank" rel="noopener">l’onglet Résultats du registre</a>.</p><h3>Flux des participants</h3><div class="defile"><table><thead><tr><th>Étape</th><th>Par groupe</th></tr></thead><tbody><tr><td>Ont commencé</td><td>TRS01 : <mark>90</mark><br>Active Comparator : <mark>49</mark></td></tr><tr><td>Ont terminé</td><td>TRS01 : <mark>81</mark><br>Active Comparator : <mark>46</mark></td></tr><tr><td>N'ont pas terminé</td><td>TRS01 : <mark>9</mark><br>Active Comparator : <mark>3</mark></td></tr></tbody></table></div><h3>Critère principal — <span lang="en">Anterior Chamber Cell (ACC) Grade = 0 on Day 28</span></h3><p><small>Délai : 28 days · Mesure : nombre de participants · Unité : Participants</small></p><div class="defile"><table><thead><tr><th>Groupe</th><th>Effectif analysé</th><th>Valeur</th></tr></thead><tbody><tr><td>TRS01 <small>(ACC grade = 0: Yes)</small></td><td>82</td><td><mark>38</mark></td></tr><tr><td>Active Comparator <small>(ACC grade = 0: Yes)</small></td><td>47</td><td><mark>32</mark></td></tr><tr><td>TRS01 <small>(ACC grade = 0: No)</small></td><td>82</td><td><mark>44</mark></td></tr><tr><td>Active Comparator <small>(ACC grade = 0: No)</small></td><td>47</td><td><mark>15</mark></td></tr></tbody></table></div><details><summary>Population analysée (registre)</summary><p lang="en">Participants with non-missing observations</p></details><h3>Critère principal — <span lang="en">Anterior Chamber Cell (ACC) Grade = 0 or 1 on Day 28</span></h3><p><small>Délai : 28 days · Mesure : nombre de participants · Unité : Participants</small></p><div class="defile"><table><thead><tr><th>Groupe</th><th>Effectif analysé</th><th>Valeur</th></tr></thead><tbody><tr><td>TRS01</td><td>82</td><td><mark>52</mark></td></tr><tr><td>Active Comparator</td><td>47</td><td><mark>42</mark></td></tr></tbody></table></div><details><summary>Population analysée (registre)</summary><p lang="en">Participants with non-missing observations</p></details><h3>Critère secondaire — <span lang="en">Change From Baseline (Day 1) in ACC Grade on Day 28 in the Study Eye</span></h3><p><small>Délai : 28 days · Mesure : moyenne · Unité : score on a scale</small></p><div class="defile"><table><thead><tr><th>Groupe</th><th>Effectif analysé</th><th>Valeur</th></tr></thead><tbody><tr><td>TRS01</td><td>59</td><td><mark>-1.9</mark> ± 0.8 <small>(Standard Deviation)</small></td></tr><tr><td>Active Comparator</td><td>42</td><td><mark>-2.2</mark> ± 0.7 <small>(Standard Deviation)</small></td></tr></tbody></table></div><h3>Critère secondaire — <span lang="en">Anterior Chamber Cell (ACC) Grade on Day 21</span></h3><p><small>Délai : 21 days · Mesure : nombre de participants · Unité : Participants</small></p><div class="defile"><table><thead><tr><th>Groupe</th><th>Effectif analysé</th><th>Valeur</th></tr></thead><tbody><tr><td>TRS01</td><td>77</td><td><mark>32</mark></td></tr><tr><td>Active Comparator</td><td>45</td><td><mark>29</mark></td></tr></tbody></table></div><details><summary>Population analysée (registre)</summary><p lang="en">Participants with non-missing observations</p></details><h3>Critère secondaire — <span lang="en">Change From Baseline in ACC Grade on Day 21.</span></h3><p><small>Délai : 21 days · Mesure : moyenne · Unité : score on a scale</small></p><div class="defile"><table><thead><tr><th>Groupe</th><th>Effectif analysé</th><th>Valeur</th></tr></thead><tbody><tr><td>TRS01</td><td>58</td><td><mark>-1.7</mark> ± 1.0 <small>(Standard Deviation)</small></td></tr><tr><td>Active Comparator</td><td>41</td><td><mark>-2.1</mark> ± 0.7 <small>(Standard Deviation)</small></td></tr></tbody></table></div><h3>Critère secondaire — <span lang="en">Anterior Chamber Cell (ACC) Grade = 0 or 1 on Day 21</span></h3><p><small>Délai : 21 days · Mesure : nombre de participants · Unité : Participants</small></p><div class="defile"><table><thead><tr><th>Groupe</th><th>Effectif analysé</th><th>Valeur</th></tr></thead><tbody><tr><td>TRS01</td><td>77</td><td><mark>50</mark></td></tr><tr><td>Active Comparator</td><td>45</td><td><mark>40</mark></td></tr></tbody></table></div><details><summary>Population analysée (registre)</summary><p lang="en">Participants with non-missing observations</p></details></section><section><h2>Données de tolérance <span class="badge confirme">Résultats déposés au registre</span></h2><div class="defile"><table><thead><tr><th>Groupe</th><th>Exposés</th><th>Événements graves (participants)</th><th>Autres événements (participants)</th><th>Décès</th></tr></thead><tbody><tr><td>TRS01</td><td><mark>90</mark></td><td><mark>2</mark></td><td><mark>7</mark></td><td><mark>0</mark></td></tr><tr><td>Active Comparator</td><td><mark>49</mark></td><td><mark>0</mark></td><td><mark>8</mark></td><td><mark>0</mark></td></tr></tbody></table></div><h3>Événements non graves les plus fréquents (seuil déclaré : 5 %)</h3><div class="defile"><table><thead><tr><th>Événement</th><th>Participants touchés / exposés</th></tr></thead><tbody><tr><td><span lang="en">Headache</span></td><td>TRS01 : <mark>6</mark>/90<br>Active Comparator : <mark>5</mark>/49</td></tr><tr><td><span lang="en">Intra ocular pressure increased</span></td><td>TRS01 : <mark>1</mark>/90<br>Active Comparator : <mark>3</mark>/49</td></tr><tr><td><span lang="en">Dysgeusia</span></td><td>TRS01 : <mark>0</mark>/90<br>Active Comparator : <mark>3</mark>/49</td></tr></tbody></table></div><h3>Événements graves</h3><div class="defile"><table><thead><tr><th>Événement</th><th>Participants touchés / exposés</th></tr></thead><tbody><tr><td><span lang="en">Optic neuritis</span></td><td>TRS01 : <mark>1</mark>/90<br>Active Comparator : <mark>0</mark>/49</td></tr><tr><td><span lang="en">Hospitalization Secondary to Diabetic Ketoacidosis and COVID-19</span></td><td>TRS01 : <mark>1</mark>/90<br>Active Comparator : <mark>None</mark>/49</td></tr></tbody></table></div><details><summary>Période de recueil (registre)</summary><p lang="en">6 weeks</p></details></section><section><h2>Publications liées <span class="badge source">Registre ClinicalTrials.gov</span></h2><ul><li><span class="badge confirme">lien confirmé</span> <a href="https://pubmed.ncbi.nlm.nih.gov/41485727/" target="_blank" rel="noopener">PMID 41485727</a> — déclarée par le promoteur comme publication des résultats de l'essai<br><small lang="en">Chu DS, Tsui E, Rifkin LM, Palestine AG, Rich C, Thorne JE, Haim-Langford D, Milman Z, Fulcher E, Neumann R, DE Smet MD; TRS4Vision Study Group. Dazdotuftide: Novel Treatment for Noninfectious Uveitis with Superior Intraocular Pressure Safety Profile: A Randomized Clinical Trial. Am J Ophthalmol. 2026 Apr;284:78-87. doi: 10.1016/j.ajo.2025.12.034. Epub 2026 Jan 2.</small></li></ul></section><section><h2>Promoteur, financeur et affiliations <span class="badge source">Registre ClinicalTrials.gov</span></h2><div class="acteurs">
+      <div><h3>Promoteur</h3><p class="def">Organisme responsable de l'essai, déclaré au registre.</p>
+        <p><strong>Tarsier Pharma</strong> (industriel)</p>
+        <p>Collaborateurs déclarés : aucun déclaré</p></div>
+      <div><h3>Financeur</h3><p class="def">Organisme qui finance la recherche.</p>
+        <p><span class="manque">Non déclaré séparément dans le registre.</span> Le promoteur n'est pas présenté ici comme financeur : le registre ne le précise pas.</p></div>
+      <div><h3>Affiliations</h3><p class="def">Établissement des responsables de l'étude.</p>
+        <ul><li>Lexitas Clinical Trials — directeur d'étude — affiliation : Lexitas</li></ul></div>
+    </div></section>
+<section><h2>Ce qui manque <span class="badge regle">calculé par l'outil</span></h2><p>Toutes les rubriques ont au moins une information.</p></section>
+<section><h2>Limites, intérêt pour la veille marketing, à retenir <span class="badge attente">non produit par l'outil</span></h2><p><span class="manque">Non rédigé automatiquement : les données extraites ne suffisent pas à produire une analyse fiable sans interprétation. Utilisez le bouton « Copier pour Claude / ChatGPT » pour obtenir une proposition, à vérifier.</span></p></section>
+<section><details><summary>Voir le texte copié par le bouton</summary>
+<textarea id="a-copier" readonly>Tu es assistant de veille scientifique sur le glaucome. À partir UNIQUEMENT des informations ci-dessous, rédige en français une fiche de synthèse avec ces rubriques :
+1. Question étudiée
+2. Traitement ou technologie
+3. Type d&#x27;étude
+4. Population et nombre de participants
+5. Comparateur
+6. Critères évalués
+7. Principaux résultats chiffrés (recopie les valeurs exactes et indique leur source)
+8. Données de tolérance
+9. Limites
+10. Intérêt potentiel pour une veille marketing — présenté comme une INTERPRÉTATION, séparé des faits
+11. À retenir (une phrase)
+
+Règles :
+- N&#x27;invente rien. Si une information manque, écris « non rapporté ».
+- Distingue un essai simplement enregistré, un protocole, des résultats déposés dans un registre et une publication de résultats.
+- Si la source est seulement le résumé d&#x27;un article, indique que la synthèse repose uniquement sur ce résumé.
+- Les rôles « suggérés » (traitement étudié / comparateur) sont à vérifier dans le texte source.
+- Ne confonds pas promoteur d&#x27;essai, financeur et affiliation des auteurs.
+- Termine par la liste des points à vérifier.
+
+=== INFORMATIONS ===
+SOURCE : registre ClinicalTrials.gov, essai NCT05042609 — https://clinicaltrials.gov/study/NCT05042609
+NIVEAU DE PREUVE : résultats déposés au registre le 2026-05-20
+Titre : TRS4Vision - A Study of TRS01 in Subjects With Active Non-infectious Anterior Uveitis Including Subjects With Uveitic Glaucoma
+Titre officiel : A Phase 3 Randomized, Active-Controlled, Double-Masked Study to Evaluate the Safety and Efficacy of TRS01 Eye Drops in the Treatment of Subjects With Active Non-infectious Anterior Uveitis Including Subjects With Uveitic Glaucoma
+Phase déclarée : Phase 3 · Statut : Terminé · Type : Interventionnelle
+Promoteur (déclaré) : Tarsier Pharma (INDUSTRY) · Collaborateurs : aucun
+Financeur : non déclaré séparément dans le registre
+Participants : 142 (réel) · Conditions : Non-infectious Anterior Uveitis, Uveitic Glaucoma
+Plan : {&#x27;but_principal&#x27;: &#x27;TREATMENT&#x27;, &#x27;insu&#x27;: &#x27;QUADRUPLE&#x27;, &#x27;insu_description&#x27;: None, &#x27;insu_pour&#x27;: [&#x27;PARTICIPANT&#x27;, &#x27;CARE_PROVIDER&#x27;, &#x27;INVESTIGATOR&#x27;, &#x27;OUTCOMES_ASSESSOR&#x27;], &#x27;modele&#x27;: &#x27;PARALLEL&#x27;, &#x27;modele_observationnel&#x27;: None, &#x27;repartition&#x27;: &#x27;RANDOMIZED&#x27;}
+Bras (rôle déclaré) :
+  - TRS01 [EXPERIMENTAL] : Drug: TRS01
+  - Active comparator [ACTIVE_COMPARATOR] : Drug: FDA approved steroid eye drop (masked)
+Critères principaux : Anterior Chamber Cell (ACC) Grade = 0 on Day 28 [28 days]; Anterior Chamber Cell (ACC) Grade = 0 or 1 on Day 28 [28 days]
+Critères secondaires : Change From Baseline (Day 1) in ACC Grade on Day 28 in the Study Eye [28 days]; Anterior Chamber Cell (ACC) Grade on Day 21 [21 days]; Change From Baseline in ACC Grade on Day 21. [21 days]; Anterior Chamber Cell (ACC) Grade = 0 or 1 on Day 21 [21 days]
+
+DESCRIPTION (registre, texte source) :
+The primary objective of this study is to evaluate the efficacy and safety of TRS01 eye drops compared to active comparator in subjects with active non-infectious anterior uveitis with or without uveitic glaucoma
+
+RÉSULTATS DÉPOSÉS AU REGISTRE (valeurs exactes) :
+* PRIMARY — Anterior Chamber Cell (ACC) Grade = 0 on Day 28 [28 days] (COUNT_OF_PARTICIPANTS, Participants, dispersion : None)
+    TRS01 / ACC grade = 0: Yes : 38 (n=82)
+    Active Comparator / ACC grade = 0: Yes : 32 (n=47)
+    TRS01 / ACC grade = 0: No : 44 (n=82)
+    Active Comparator / ACC grade = 0: No : 15 (n=47)
+* PRIMARY — Anterior Chamber Cell (ACC) Grade = 0 or 1 on Day 28 [28 days] (COUNT_OF_PARTICIPANTS, Participants, dispersion : None)
+    TRS01 : 52 (n=82)
+    Active Comparator : 42 (n=47)
+* SECONDARY — Change From Baseline (Day 1) in ACC Grade on Day 28 in the Study Eye [28 days] (MEAN, score on a scale, dispersion : Standard Deviation)
+    TRS01 : -1.9 ± 0.8 (n=59)
+    Active Comparator : -2.2 ± 0.7 (n=42)
+* SECONDARY — Anterior Chamber Cell (ACC) Grade on Day 21 [21 days] (COUNT_OF_PARTICIPANTS, Participants, dispersion : None)
+    TRS01 : 32 (n=77)
+    Active Comparator : 29 (n=45)
+* SECONDARY — Change From Baseline in ACC Grade on Day 21. [21 days] (MEAN, score on a scale, dispersion : Standard Deviation)
+    TRS01 : -1.7 ± 1.0 (n=58)
+    Active Comparator : -2.1 ± 0.7 (n=41)
+* SECONDARY — Anterior Chamber Cell (ACC) Grade = 0 or 1 on Day 21 [21 days] (COUNT_OF_PARTICIPANTS, Participants, dispersion : None)
+    TRS01 : 50 (n=77)
+    Active Comparator : 40 (n=45)
+  Tolérance — TRS01 : exposés 90, graves 2, autres 7, décès 0
+  Tolérance — Active Comparator : exposés 49, graves 0, autres 8, décès 0</textarea></details></section>
+<p><small>Fiche générée le 2026-11-11 22:40 par Glaucoma Intelligence. Extraits des sources en langue originale.</small></p>
+</main><script>
+function copierFiche(){
+  var zone=document.getElementById('a-copier'), bouton=document.getElementById('bouton-copier');
+  function fait(){bouton.textContent='Copié ✓ — collez dans Claude ou ChatGPT';setTimeout(function(){bouton.textContent='Copier pour Claude / ChatGPT'},3000);}
+  function secours(){zone.parentElement.open=true;zone.select();try{document.execCommand('copy');fait();}
+    catch(err){bouton.textContent='Sélectionnez le texte ci-dessous puis Ctrl+C';}}
+  if(navigator.clipboard&&window.isSecureContext){navigator.clipboard.writeText(zone.value).then(fait,secours);}else{secours();}
+}
+</script></body></html>

@@ -1,0 +1,81 @@
+{
+  "nct": "NCT06760169",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "nct": "NCT06760169",
+    "titre": "Efficacy and Safety of the ELIOS Laser in Combined Cataract and Glaucoma Surgery",
+    "titre_officiel": "Efficacy and Safety of the ELIOS Laser in Combined Cataract and Glaucoma Surgery",
+    "lien": "https://clinicaltrials.gov/study/NCT06760169",
+    "date_premiere_publication": "2025-01-06",
+    "date_derniere_mise_a_jour": "2026-09-30",
+    "type_etude": "INTERVENTIONAL",
+    "phases_declarees": [
+      "NA"
+    ],
+    "statut": "RECRUITING",
+    "raison_arret": null,
+    "date_debut": "2025-01-05",
+    "date_fin_principale": "2027-12-31",
+    "promoteur": "Hôpital Privé de la Baie",
+    "type_promoteur": "OTHER",
+    "collaborateurs": null,
+    "conditions": [
+      "Glaucoma"
+    ],
+    "interventions": [
+      {
+        "type": "DEVICE",
+        "nom": "Surgery with ELIOS laser"
+      }
+    ],
+    "participants_nombre": 46,
+    "participants_type": "ESTIMATED",
+    "criteres_principaux": [
+      {
+        "critere": "Intraocular pressure (IOP)",
+        "delai": "day 0, 7 and 30, and month 3, 6 and 12 months after surgery"
+      }
+    ],
+    "resultats_deposes": false,
+    "publications_declarees": null,
+    "resume_source": "Glaucoma is an irreversible optic neuropathy. It is the second most common cause of blindness worldwide. Glaucoma can be treated with topical medications (eye drops), laser or surgery. Traditional surgery is invasive and has a high complication rate (hypotonia, endophthalmitis, cataracts, etc.). As a result, several types of micro-invasive surgery (MIGS) have been developed to reduce the risks of surgery while maintaining their effectiveness in lowering intraocular pressure (IOP). The ELIOS laser system is the only ophthalmological excimer laser designed for the surgical treatment of glaucoma. The aim of the procedure is to ablate the trabecular meshwork and inner wall of Schlemm´s canal ab interno, with the creation of 10 microchannels of 210 um in the trabeculum using the ELIOS laser with a wavelength of 308 nm, in order to improve trabecular outflow to achieve a reduction in IOP. The ELIOS laser is an example of Microinvasive Glaucoma surgery (MIGS) with published results demonstrating efficacy and safety. The ELIOS laser is already in use in France (AMM / CE mark achieved). Its use as part of a prospective interventional study will enable us to collect data in order to treat patients more effectively and improve the quality of care provided to glaucoma patients.",
+    "citations_declarees": null,
+    "plan": {
+      "repartition": "NA",
+      "modele": "SINGLE_GROUP",
+      "but_principal": "TREATMENT",
+      "insu": "NONE",
+      "insu_pour": null,
+      "insu_description": null,
+      "modele_observationnel": null
+    },
+    "bras": [
+      {
+        "libelle": "Elios",
+        "type": "EXPERIMENTAL",
+        "description": null,
+        "interventions": [
+          "Device: Surgery with ELIOS laser"
+        ]
+      }
+    ],
+    "eligibilite": {
+      "criteres": "Inclusion Criteria:\n\n* Patients ≥ 18 years of age who agree to take part in the study and have signed an informed consent form\n* Visually significant cataract with indication for surgery\n* Primary open-angle glaucoma, or secondary open-angle glaucoma (pseudoexfoliative glaucoma or pigmentary glaucoma) with indication for cataract surgery.\n* Open iridocorneal angle (Shaffer classification grade 2-4)\n* Early to moderate glaucoma (advanced glaucoma, with MD from VFs worse than -12dB, will be excluded)\n\nExclusion Criteria:\n\n* Presence of severe systemic pathologies 2024-A01891-46\\_Protocol\\_V6\\_21112024\\_Elios Page 20 / 58\n* Pregnant or breastfeeding women\n* \\<18 years of age\n* Presence of other ophthalmological pathologies (except cataracts), and exclusion of severe dry eye.\n* History of intraocular surgery, trauma, or conjunctival scarring in the quadrant intended for surgery\n* Visual acuity worse than \"counting fingers\".\n* Closure of the iridocorneal angle (and angle-closure glaucoma), angle-closure glaucoma secondary to iridocorneal synechiae, neovascular glaucoma or neovascularization of the iris.\n* Normal-pressure glaucoma\n* Pachymetry \\< 490 um or \\> 620 μm\n* Glaucomatous visual field with mean deviation worse than ≤-12 dB\n* IOP \\> 35 mmHg\n* Autoimmune disorder, especially collagenosis\n* Patient under protective supervision\n* Patient not covered by a social security scheme",
+      "age_min": "18 Years",
+      "age_max": "80 Years",
+      "sexe": "ALL",
+      "volontaires_sains": false
+    },
+    "criteres_secondaires": [
+      {
+        "critere": "Quality of life",
+        "delai": "before and after surgery (1, 3, 6 and 12 months)"
+      }
+    ],
+    "responsables": null,
+    "date_depot_resultats": null,
+    "resultats": null
+  },
+  "modifications": []
+}

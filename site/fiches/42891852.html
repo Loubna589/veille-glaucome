@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>PMID 42891852 — fiche article</title><style>
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
+:root{--fond:#f4f7fb;--carte:#fff;--texte:#0f1d33;--doux:#52627a;--bord:#e2e8f0;--accent:#0b4f8a;
+--ok:#146c43;--ok-fond:#e3f4ea;--att:#8a5300;--att-fond:#fdf1d8;--ver:#b42318;--ver-fond:#fdeceb;
+--reg:#3f3c9e;--reg-fond:#ecebfb;--src-fond:#f1f5f9;--mark:#fff1a8;--manque:#b42318;--turquoise:#14b8a6;}
+@media (prefers-color-scheme:dark){:root{--fond:#0a1120;--carte:#101a2c;--texte:#e6edf7;--doux:#9db0ca;
+--bord:#1e2b42;--accent:#6fb4ff;--ok:#6fd6a0;--ok-fond:#12301f;--att:#f3c15e;--att-fond:#352a10;--ver:#ff9a8f;
+--ver-fond:#3a1714;--reg:#b4b2ff;--reg-fond:#24234a;--src-fond:#0d1626;--mark:#5a4d10;--manque:#ff9a8f;--turquoise:#2dd4bf;}}
+*{box-sizing:border-box}body{margin:0;background:var(--fond);color:var(--texte);
+font:15.5px/1.6 "Inter",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+:focus-visible{outline:3px solid var(--turquoise);outline-offset:2px;border-radius:6px}
+main{max-width:1000px;margin:0 auto;padding:20px 18px 64px}
+.bandeau{display:flex;align-items:center;gap:10px;font-weight:800;letter-spacing:-.02em;padding:6px 0 14px;color:var(--texte);text-decoration:none}
+.bandeau i{width:30px;height:30px;border-radius:9px;background:linear-gradient(135deg,#0b4f8a,#14b8a6);display:inline-block}
+header,section{background:var(--carte);border:1px solid var(--bord);border-radius:16px;padding:20px 24px;margin:0 0 16px;
+box-shadow:0 1px 2px rgba(15,29,51,.04),0 6px 20px -8px rgba(15,29,51,.12)}
+h1{font-size:1.45rem;line-height:1.3;margin:.2em 0 .5em}h2{font-size:1.1rem;margin:0 0 .6em;color:var(--accent)}
+h3{font-size:1rem;margin:1.1em 0 .4em}.surtitre{color:var(--doux);margin:0;font-size:.9rem}
+a{color:var(--accent)}small,.def{color:var(--doux)}.def{font-size:.88rem;margin:.2em 0 .6em}
+.grille{display:grid;grid-template-columns:max-content 1fr;gap:4px 16px;margin:12px 0 0}
+.grille dt{color:var(--doux)}.grille dd{margin:0}
+.badge{display:inline-block;font-size:.72rem;font-weight:600;padding:2px 8px;border-radius:999px;margin:2px 4px 2px 0;
+vertical-align:middle;background:var(--src-fond);color:var(--doux)}
+.badge.confirme{background:var(--ok-fond);color:var(--ok)}.badge.attente{background:var(--att-fond);color:var(--att)}
+.badge.verifier{background:var(--ver-fond);color:var(--ver)}.badge.regle{background:var(--reg-fond);color:var(--reg)}
+.rubrique{font-weight:600}.manque{color:var(--manque);font-style:italic}
+mark{background:var(--mark);color:inherit;padding:0 2px;border-radius:3px}
+blockquote{margin:.5em 0;padding:.5em .9em;border-left:3px solid var(--bord);background:var(--src-fond);border-radius:0 6px 6px 0}
+pre{white-space:pre-wrap;font-size:.85rem;background:var(--src-fond);padding:10px;border-radius:6px}
+.defile{overflow-x:auto}table{border-collapse:collapse;width:100%;font-size:.92rem;margin:.4em 0}
+th,td{border:1px solid var(--bord);padding:6px 8px;text-align:left;vertical-align:top}th{background:var(--src-fond)}
+.analyse{background:var(--src-fond);padding:6px 10px;border-radius:6px;font-size:.92rem}
+.acteurs{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px}
+.acteurs>div{border:1px solid var(--bord);border-radius:8px;padding:10px 12px}.acteurs h3{margin-top:0}
+.copier{position:sticky;top:0;z-index:2;display:flex;gap:12px;align-items:center;flex-wrap:wrap;
+background:var(--fond);padding:10px 0;margin-bottom:8px}
+button{font:inherit;font-weight:600;background:var(--accent);color:#fff;border:0;border-radius:8px;padding:9px 16px;cursor:pointer}
+@media (prefers-color-scheme:dark){button{color:#10141a}}
+textarea{width:100%;min-height:260px;font:13px/1.4 ui-monospace,Consolas,monospace;background:var(--src-fond);
+color:var(--texte);border:1px solid var(--bord);border-radius:6px;padding:8px}
+details{margin:.5em 0}summary{cursor:pointer;color:var(--accent)}
+.retour{font-size:.92rem;margin:0 0 4px}
+@media (max-width:600px){.grille{grid-template-columns:1fr}.grille dt{margin-top:6px}header,section{padding:14px}}
+</style></head>
+<body><main>
+<a class="bandeau" href="../index.html"><i aria-hidden="true"></i>Glaucoma Intelligence</a><nav class="retour"><a href="../index.html">Accueil</a> · <a href="../etudes.html">← Essais &amp; articles</a> · <a href="../recherche.html">Rechercher</a> · <a href="../carte.html">Carte des acteurs</a> · <a href="../alertes.html">Alertes</a></nav>
+<div class="copier"><button id="bouton-copier" type="button" onclick="copierFiche()">Copier pour Claude / ChatGPT</button>
+<small>Copie une consigne + les faits de cette fiche, à coller dans votre assistant.</small></div>
+
+    <header>
+      <p class="surtitre">Fiche article · PMID 42891852 · <a href="https://pubmed.ncbi.nlm.nih.gov/42891852/" target="_blank" rel="noopener">voir sur PubMed</a>
+         · <a href="https://doi.org/10.1007/s00417-026-07529-1" target="_blank" rel="noopener">DOI 10.1007/s00417-026-07529-1</a></p>
+      <h1 lang="en">36-month multi-centre outcomes of XEN45 gel stent implantation in Asian versus non-Asian eyes with primary open angle glaucoma.</h1>
+      <p><span class="badge confirme">PUBLICATION — le résumé rapporte des résultats</span> <span class="badge verifier">Synthèse fondée UNIQUEMENT sur le résumé PubMed : le texte intégral n'a pas été lu.</span></p>
+      <dl class="grille">
+        <dt>Revue</dt><dd>Graefe's archive for clinical and experimental ophthalmology = Albrecht von Graefes Archiv fur klinische und experimentelle Ophthalmologie</dd>
+        <dt>Entrée dans PubMed</dt><dd>2026-10-18 · publication : 2026-Oct-17</dd>
+        <dt>Type(s) de publication (PubMed)</dt><dd lang="en">Journal Article</dd>
+        <dt>Stade</dt><dd>Non renseigné <small>(pas d'indexation MeSH disponible)</small></dd>
+        <dt>Accès au texte (OpenAlex)</dt><dd>fermé (payant)</dd>
+        <dt>Détecté par l'outil le</dt><dd>2026-11-11</dd>
+      </dl>
+      <p class="rubriques"><strong>Rubrique :</strong> <span class="rubrique">Dispositifs et chirurgie</span> <small>mot du titre : « stent »</small> <span class="badge regle">classement automatique — règles dans config/rubriques.ini</span></p>
+    </header>
+<section><h2>Question étudiée <span class="badge source">Résumé PubMed (texte source)</span></h2><blockquote lang="en"><strong>PURPOSE</strong> Ethnicity has been shown to influence outcomes of bleb-forming glaucoma filtering surgery. This study evaluated <mark>3</mark>-year outcomes of XEN45 Gel Stent (XGS) in Asian versus non-Asian eyes with primary open angle glaucoma (POAG).</blockquote></section><section><h2>Traitement ou technologie, et comparateur <span class="badge regle">règle automatique de l'outil</span></h2><ul><li><span class="manque">Aucun produit suivi ni molécule repérés automatiquement</span></li></ul><p class="def">Aucun rôle n'est confirmé : PubMed ne décrit pas les bras d'une étude. Un rôle pourrait être confirmé par le registre d'un essai lié de façon confirmée.</p></section><section><h2>Type d'étude et méthode <span class="badge source">Résumé PubMed (texte source)</span><span class="badge source">PubMed (types de publication)</span></h2><p>Type(s) de publication déclaré(s) par PubMed : <span lang="en">Journal Article</span></p><blockquote lang="en"><strong>METHODS</strong> This multicentre, retrospective cohort included <mark>117</mark> eyes with POAG undergoing XGS implantation, with or without concomitant phacoemulsification, between January <mark>2017</mark> and March <mark>2023</mark>. Eyes were categorized as Asian or non-Asian based on recorded ethnicity. The primary outcome was cumulative surgical success at three years using survival analyses across intraocular pressure (IOP) thresholds (<mark>≤ 18</mark>, <mark>≤ 15</mark>, and <mark>≤ 12 mmHg</mark> with <mark>≥ 20%</mark> reduction from baseline). Secondary analysis incorporating a medication reduction goal was performed. Secondary outcomes included longitudinal changes in IOP and medications, predictors of time-to-failure, and postoperative interventions and complications. Longitudinal outcomes were analysed using linear mixed-effects models. Multivariable Cox proportional hazards models evaluated predictors of failure.</blockquote></section><section><h2>Population et participants (phrases du résumé) <span class="badge source">Résumé PubMed (texte source)</span></h2><blockquote lang="en">This multicentre, retrospective cohort included <mark>117</mark> eyes with POAG undergoing XGS implantation, with or without concomitant phacoemulsification, between January <mark>2017</mark> and March <mark>2023</mark>.</blockquote><blockquote lang="en">Multivariable Cox proportional hazards models evaluated predictors of failure. <mark>92</mark> Asian and <mark>25</mark> non-Asian eyes were included.</blockquote></section><section><h2>Résultats disponibles <span class="badge source">Résumé PubMed (texte source)</span></h2><p class="def">Valeurs chiffrées surlignées telles qu'elles figurent dans le résumé. Elles n'ont pas été vérifiées dans le texte intégral.</p><blockquote lang="en"><strong>RESULTS</strong> <mark>92</mark> Asian and <mark>25</mark> non-Asian eyes were included. Both groups demonstrated sustained reductions in IOP and medication burden over <mark>36</mark> months. Three-year cumulative success rates were comparable between Asian and non-Asian eyes across all success definitions (AR-<mark>18</mark>: <mark>72.2%</mark> vs. <mark>76.5%</mark>; AR-<mark>15</mark>: <mark>72.7%</mark> vs. <mark>76.5%</mark>; AR-<mark>12</mark>: <mark>68.6%</mark> vs. <mark>63.9%</mark>; all p &gt; <mark>0.30</mark>). No significant differences in cumulative success were observed between Phaco-XEN and standalone XEN procedures. Ethnicity and concomitant phacoemulsification were not independently associated with time-to-failure. Post-operative interventions and complications were infrequent.</blockquote></section><section><h2>Données de tolérance (phrases du résumé) <span class="badge source">Résumé PubMed (texte source)</span></h2><blockquote lang="en">Secondary outcomes included longitudinal changes in IOP and medications, predictors of time-to-failure, and postoperative interventions and complications.</blockquote><blockquote lang="en">Post-operative interventions and complications were infrequent.</blockquote></section><section><h2>Conclusion des auteurs (citée telle quelle, non évaluée par l'outil) <span class="badge source">Résumé PubMed (texte source)</span></h2><blockquote lang="en"><strong>CONCLUSION</strong> XGS demonstrated no significant differences in <mark>3</mark>-year surgical success, safety, and durability between broadly categorized Asian and non-Asian eyes with POAG. Neither ethnicity nor concomitant phacoemulsification independently influenced failure risk.</blockquote></section><section><h2>Essai clinique lié <span class="badge source">PubMed (DataBankList et texte)</span></h2><ul><li><span class="manque">Aucun essai lié identifié</span></li></ul></section><section><h2>Promoteur, financeur et affiliations <span class="badge source">PubMed</span><span class="badge source">OpenAlex</span><span class="badge source">Crossref</span></h2><div class="acteurs">
+      <div><h3>Promoteur d'essai</h3><p class="def">Organisme responsable d'un essai, déclaré au registre.</p><p><span class="manque">Non affiché : aucun essai lié de façon confirmée</span></p></div>
+      <div><h3>Financeur</h3><p class="def">Organisme qui a financé la recherche, avec la notice qui le justifie.</p><p><span class="manque">Aucun financeur trouvé (PubMed, OpenAlex, Crossref)</span></p></div>
+      <div><h3>Affiliations des auteurs</h3><p class="def">Établissements où travaillent les auteurs (pas un financement).</p><p><small>Institutions normalisées (OpenAlex) :</small></p><ul><li>Tan Tock Seng Hospital <small>(SG, santé/hôpital)</small></li><li>National Healthcare Group <small>(SG, santé/hôpital)</small></li><li>National Yang Ming Chiao Tung University <small>(TW, enseignement/recherche)</small></li><li>Taipei Veterans General Hospital <small>(TW, santé/hôpital)</small></li><li>Massachusetts Eye and Ear Infirmary <small>(US, santé/hôpital)</small></li><li>Shin Kong WHS Memorial Hospital <small>(TW, santé/hôpital)</small></li><li>New York Eye and Ear Infirmary <small>(US, santé/hôpital)</small></li><li>Mayo Clinic in Florida <small>(US, santé/hôpital)</small></li><li>Mayo Clinic <small>(US, santé/hôpital)</small></li><li>Nanyang Technological University <small>(SG, enseignement/recherche)</small></li></ul><details><summary>Affiliations telles que déclarées dans PubMed (12)</summary><ul><li>Department of Ophthalmology, Tan Tock Seng Hospital, National Healthcare Group Eye Institute, 11 Jln Tan Tock Seng, Singapore, 308433, Singapore.</li><li>Department of Ophthalmology, Taipei Veterans General Hospital, Taipei, Taiwan.</li><li>Faculty of Medicine, National Yang Ming Chiao Tung University, Taipei, Taiwan.</li><li>Massachusetts Eye and Ear, Glaucoma Service, Boston, USA.</li><li>Shin Kong Wu Ho-Su Memorial Hospital, Taipei, Taiwan.</li><li>Department of Ophthalmology, Mayo Clinic, Jacksonville, USA.</li><li>New York Eye and Ear Infirmary of Mount Sinai, New York, New York, USA.</li><li>Massachusetts Eye and Ear, Glaucoma Service, Boston, USA. david_sola-delvalle@meei.harvard.edu.</li><li>Carle Illinois College of Medicine, Champaign, IL, USA. david_sola-delvalle@meei.harvard.edu.</li><li>Department of Ophthalmology, Tan Tock Seng Hospital, National Healthcare Group Eye Institute, 11 Jln Tan Tock Seng, Singapore, 308433, Singapore. drbryanang@gmail.com.</li><li>Department of Ophthalmology, Mayo Clinic, Jacksonville, USA. drbryanang@gmail.com.</li><li>Lee Kong Chian School of Medicine, Nanyang Technological University, Singapore, Singapore. drbryanang@gmail.com.</li></ul></details></div>
+    </div></section>
+<section><h2>Ce qui manque <span class="badge regle">calculé par l'outil</span></h2><ul><li>financeur</li></ul></section>
+<section><h2>Limites, intérêt pour la veille marketing, à retenir <span class="badge attente">non produit par l'outil</span></h2><p><span class="manque">Non rédigé automatiquement : les données extraites ne suffisent pas à produire une analyse fiable sans interprétation. Utilisez le bouton « Copier pour Claude / ChatGPT » pour obtenir une proposition, à vérifier.</span></p></section>
+<section><details><summary>Voir le texte copié par le bouton</summary>
+<textarea id="a-copier" readonly>Tu es assistant de veille scientifique sur le glaucome. À partir UNIQUEMENT des informations ci-dessous, rédige en français une fiche de synthèse avec ces rubriques :
+1. Question étudiée
+2. Traitement ou technologie
+3. Type d&#x27;étude
+4. Population et nombre de participants
+5. Comparateur
+6. Critères évalués
+7. Principaux résultats chiffrés (recopie les valeurs exactes et indique leur source)
+8. Données de tolérance
+9. Limites
+10. Intérêt potentiel pour une veille marketing — présenté comme une INTERPRÉTATION, séparé des faits
+11. À retenir (une phrase)
+
+Règles :
+- N&#x27;invente rien. Si une information manque, écris « non rapporté ».
+- Distingue un essai simplement enregistré, un protocole, des résultats déposés dans un registre et une publication de résultats.
+- Si la source est seulement le résumé d&#x27;un article, indique que la synthèse repose uniquement sur ce résumé.
+- Les rôles « suggérés » (traitement étudié / comparateur) sont à vérifier dans le texte source.
+- Ne confonds pas promoteur d&#x27;essai, financeur et affiliation des auteurs.
+- Termine par la liste des points à vérifier.
+
+=== INFORMATIONS ===
+SOURCE : PubMed, PMID 42891852 — https://pubmed.ncbi.nlm.nih.gov/42891852/ · DOI https://doi.org/10.1007/s00417-026-07529-1
+BASE : résumé PubMed uniquement (texte intégral non lu)
+Titre : 36-month multi-centre outcomes of XEN45 gel stent implantation in Asian versus non-Asian eyes with primary open angle glaucoma.
+Revue : Graefe&#x27;s archive for clinical and experimental ophthalmology = Albrecht von Graefes Archiv fur klinische und experimentelle Ophthalmologie · entrée PubMed : 2026-10-18
+Types de publication (PubMed) : Journal Article
+Produits repérés automatiquement (rôles SUGGÉRÉS, à vérifier) : aucun
+Molécules hors liste (repérage automatique, à vérifier) : aucune
+Essai lié : aucun
+Financeurs : aucun trouvé
+Affiliations (institutions, pas des financeurs) : Tan Tock Seng Hospital (SG, healthcare); National Healthcare Group (SG, healthcare); National Yang Ming Chiao Tung University (TW, education); Taipei Veterans General Hospital (TW, healthcare); Massachusetts Eye and Ear Infirmary (US, healthcare); Shin Kong WHS Memorial Hospital (TW, healthcare); New York Eye and Ear Infirmary (US, healthcare); Mayo Clinic in Florida (US, healthcare); Mayo Clinic (US, healthcare); Nanyang Technological University (SG, education)
+
+RÉSUMÉ (texte source) :
+PURPOSE: Ethnicity has been shown to influence outcomes of bleb-forming glaucoma filtering surgery. This study evaluated 3-year outcomes of XEN45 Gel Stent (XGS) in Asian versus non-Asian eyes with primary open angle glaucoma (POAG).
+METHODS: This multicentre, retrospective cohort included 117 eyes with POAG undergoing XGS implantation, with or without concomitant phacoemulsification, between January 2017 and March 2023. Eyes were categorized as Asian or non-Asian based on recorded ethnicity. The primary outcome was cumulative surgical success at three years using survival analyses across intraocular pressure (IOP) thresholds (≤ 18, ≤ 15, and ≤ 12 mmHg with ≥ 20% reduction from baseline). Secondary analysis incorporating a medication reduction goal was performed. Secondary outcomes included longitudinal changes in IOP and medications, predictors of time-to-failure, and postoperative interventions and complications. Longitudinal outcomes were analysed using linear mixed-effects models. Multivariable Cox proportional hazards models evaluated predictors of failure.
+RESULTS: 92 Asian and 25 non-Asian eyes were included. Both groups demonstrated sustained reductions in IOP and medication burden over 36 months. Three-year cumulative success rates were comparable between Asian and non-Asian eyes across all success definitions (AR-18: 72.2% vs. 76.5%; AR-15: 72.7% vs. 76.5%; AR-12: 68.6% vs. 63.9%; all p &gt; 0.30). No significant differences in cumulative success were observed between Phaco-XEN and standalone XEN procedures. Ethnicity and concomitant phacoemulsification were not independently associated with time-to-failure. Post-operative interventions and complications were infrequent.
+CONCLUSION: XGS demonstrated no significant differences in 3-year surgical success, safety, and durability between broadly categorized Asian and non-Asian eyes with POAG. Neither ethnicity nor concomitant phacoemulsification independently influenced failure risk.</textarea></details></section>
+<p><small>Fiche générée le 2026-11-11 22:40 par Glaucoma Intelligence. Extraits des sources en langue originale.</small></p>
+</main><script>
+function copierFiche(){
+  var zone=document.getElementById('a-copier'), bouton=document.getElementById('bouton-copier');
+  function fait(){bouton.textContent='Copié ✓ — collez dans Claude ou ChatGPT';setTimeout(function(){bouton.textContent='Copier pour Claude / ChatGPT'},3000);}
+  function secours(){zone.parentElement.open=true;zone.select();try{document.execCommand('copy');fait();}
+    catch(err){bouton.textContent='Sélectionnez le texte ci-dessous puis Ctrl+C';}}
+  if(navigator.clipboard&&window.isSecureContext){navigator.clipboard.writeText(zone.value).then(fait,secours);}else{secours();}
+}
+</script></body></html>

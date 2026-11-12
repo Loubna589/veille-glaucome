@@ -1,0 +1,155 @@
+{
+  "pmid": "42940161",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42940161",
+    "titre": "Biological Restoration of Conventional Aqueous Outflow Pathways in Glaucoma.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42940161/",
+    "doi": "10.3390/biomedicines14102355",
+    "pmcid": "PMC13702415",
+    "revue": "Biomedicines",
+    "date_entree_pubmed": "2026-10-27",
+    "date_publication": "2026-Oct-16",
+    "types_publication": [
+      "Journal Article",
+      "Review"
+    ],
+    "resume_present": true,
+    "resume": "Glaucoma causes progressive damage to the optic nerve, and reducing intraocular pressure is the only clinically proven way to slow the disease. Although current medical, laser, and surgical treatments mainly change aqueous humor dynamics, they do not counteract the cellular and extracellular abnormalities of the conventional outflow pathway. Growing evidence shows that loss and dysfunction of trabecular meshwork cells impair aqueous humor drainage, supporting regenerative approaches that rebuild the outflow system rather than bypass it. In this narrative review, we present novel stem cell-based strategies to regenerate the trabecular meshwork and Schlemm's canal, particularly trabecular meshwork (TM) stem cells, mesenchymal stem cells, pluripotent stem cell-derived TM-like cells, and neural crest-derived progenitors. We review recent evidence suggesting that transplanted cells may restore outflow not just through engraftment and cellular replacement, but also through paracrine signaling, stimulation of endogenous cell proliferation, extracellular matrix modification, and rejuvenation of the trabecular microenvironment. This review discusses advances in lineage specification, cell targeting and delivery, single-cell and transcriptomic characterization, mechanobiology, and bioengineered models of the human aqueous out-flow pathway. New approaches, such as magnetically guided cell delivery and the identification of cells that promote trabecular tissue regeneration and repopulation, show how rapidly this field has developed. We cover key translational barriers, including cell identity, manufacturing standardization, long-term engraftment, tumorigenicity, immune responses, off-target localization, and limited clinical efficacy data. Reconstructing the aqueous outflow pathway using stem cells remains a preclinical endeavor. However, it may shift the focus from chronic pressure control to biologically restoring outflow function in glaucoma.",
+    "mots_cles_auteurs": [
+      "Schlemm’s canal",
+      "glaucoma",
+      "intraocular pressure",
+      "regenerative medicine",
+      "stem cells",
+      "trabecular meshwork"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 9,
+    "affiliations_auteurs": [
+      "Eye Clinic, Catania University, Policlinico G. Rodolico, 95121 Catania, Italy.",
+      "Department of Ophthalmology, University Hospital of Udine, 33100 Udine, Italy.",
+      "Department of Medicine, Surgery and Health Sciences, University of Trieste, 34129 Trieste, Italy.",
+      "Biomedicine, Neuroscience and Advance Diagnostic (BIND) Department, University of Palermo, 90128 Palermo, Italy.",
+      "Unità Operativa Complessa di Oftalmologia, Azienda Ospedaliera per l'Emergenza \"Cannizzaro\", 95026 Catania, Italy.",
+      "Department of Ophthalmology, Ospedale Sant'Antonio, Azienda Ospedaliera, 35127 Padova, Italy.",
+      "Imperial College Ophthalmic Research Group (ICORG) Unit, Imperial College, 153-173 Marylebone Rd, London NW1 5QH, UK.",
+      "Department of Medicine and Surgery, University of Enna \"Kore\", Piazza dell'Università, 94100 Enna, Italy.",
+      "Mediterranean Foundation \"G.B. Morgagni\", 95125 Catania, Italy."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7222684696",
+      "doi": "10.3390/biomedicines14102355",
+      "pmid": "42940161",
+      "pmcid": "13702415",
+      "titre": "Biological Restoration of Conventional Aqueous Outflow Pathways in Glaucoma",
+      "lien": "https://openalex.org/W7222684696",
+      "date_publication": "2026-10-16",
+      "type": "review",
+      "revue": "Biomedicines",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "doaj",
+        "pubmed"
+      ],
+      "financeurs": null,
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "University of Catania",
+          "pays": "IT",
+          "type": "education",
+          "ror": "https://ror.org/03a64bh57"
+        },
+        {
+          "nom": "Policlinico Universitario di Catania",
+          "pays": "IT",
+          "type": "healthcare",
+          "ror": "https://ror.org/033xwx807"
+        },
+        {
+          "nom": "University of Udine",
+          "pays": "IT",
+          "type": "education",
+          "ror": "https://ror.org/05ht0mh31"
+        },
+        {
+          "nom": "University of Trieste",
+          "pays": "IT",
+          "type": "education",
+          "ror": "https://ror.org/02n742c10"
+        },
+        {
+          "nom": "University of Palermo",
+          "pays": "IT",
+          "type": "education",
+          "ror": "https://ror.org/044k9ta02"
+        },
+        {
+          "nom": "Ospedale Cannizzaro",
+          "pays": "IT",
+          "type": "healthcare",
+          "ror": "https://ror.org/03mtnpp42"
+        },
+        {
+          "nom": "Ospedale Sant Antonio",
+          "pays": "IT",
+          "type": "healthcare",
+          "ror": "https://ror.org/01eb9tc45"
+        },
+        {
+          "nom": "Azienda Ospedale - Università Padova",
+          "pays": "IT",
+          "type": "healthcare",
+          "ror": "https://ror.org/04bhk6583"
+        },
+        {
+          "nom": "Università degli Studi di Enna Kore",
+          "pays": "IT",
+          "type": "education",
+          "ror": "https://ror.org/04vd28p53"
+        },
+        {
+          "nom": "Imperial College London",
+          "pays": "GB",
+          "type": "education",
+          "ror": "https://ror.org/041kmwe10"
+        }
+      ],
+      "acces_ouvert": true,
+      "statut_acces": "gold",
+      "url_texte": "https://doi.org/10.3390/biomedicines14102355",
+      "url_pdf": null,
+      "licence": "cc-by",
+      "texte_integral_indexe": true,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Glaucoma and retinal disorders",
+      "resume_present": true,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": []
+  }
+}

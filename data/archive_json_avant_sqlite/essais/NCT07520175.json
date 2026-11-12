@@ -1,0 +1,80 @@
+{
+  "nct": "NCT07520175",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "nct": "NCT07520175",
+    "titre": "A Study of Outcomes Following Bio-Reinforced Canaloplasty in Eyes With Open-Angle Glaucoma",
+    "titre_officiel": "An Observational Study of Safety and Effectiveness Outcomes Following Bio-Reinforced Canaloplasty for Trabecular Outflow Enhancement in Eyes With Open-Angle Glaucoma (The BOOST Study)",
+    "lien": "https://clinicaltrials.gov/study/NCT07520175",
+    "date_premiere_publication": "2026-04-09",
+    "date_derniere_mise_a_jour": "2026-10-13",
+    "type_etude": "OBSERVATIONAL",
+    "phases_declarees": null,
+    "statut": "ENROLLING_BY_INVITATION",
+    "raison_arret": null,
+    "date_debut": "2026-04-01",
+    "date_fin_principale": "2028-12",
+    "promoteur": "Iantrek, Inc.",
+    "type_promoteur": "INDUSTRY",
+    "collaborateurs": null,
+    "conditions": [
+      "Open-Angle Glaucoma"
+    ],
+    "interventions": [
+      {
+        "type": "PROCEDURE",
+        "nom": "AlloSpan Canal Platform Bio-Reinforced Canaloplasty"
+      }
+    ],
+    "participants_nombre": 300,
+    "participants_type": "ESTIMATED",
+    "criteres_principaux": [
+      {
+        "critere": "Mean change in IOP",
+        "delai": "12 months, 24 months"
+      }
+    ],
+    "resultats_deposes": false,
+    "publications_declarees": null,
+    "resume_source": "The goal of this study is to learn about outcomes after bio-reinforced canaloplasty surgery in patients with OAG. The key question the study aims to answer is:\n\nHow much does the surgical procedure lower pressure inside the eye and what is the durability of this effect?\n\nParticipants will return for periodic eye exams for 2 years following surgery.",
+    "citations_declarees": null,
+    "plan": {
+      "repartition": null,
+      "modele": null,
+      "but_principal": null,
+      "insu": null,
+      "insu_pour": null,
+      "insu_description": null,
+      "modele_observationnel": "COHORT"
+    },
+    "bras": [
+      {
+        "libelle": "Bio-reinforced canaloplasty",
+        "type": null,
+        "description": "Participants with OAG who undergo canaloplasty followed by intraluminal placement of minimally manipulated, homologous-use scleral allograft tissue within Schlemm's canal lumen.",
+        "interventions": [
+          "Procedure: AlloSpan Canal Platform Bio-Reinforced Canaloplasty"
+        ]
+      }
+    ],
+    "eligibilite": {
+      "criteres": "Inclusion Criteria:\n\n1\\. Diagnosis of OAG in the study eye and a candidate for bio-reinforced canaloplasty for aqueous outflow enhancement, as determined by investigator\n\nExclusion Criteria:\n\n1\\. Diagnosis of acute angle closure, traumatic, congenital, malignant, uveitic, or neovascular glaucoma in the study eye 2. Previous minimally invasive or filtering glaucoma surgery in the study eye 3. Previous IOP-lowering procedure ≤ 12 weeks prior to bio-reinforced canaloplasty in the study eye 5. Previous investigational, or non-standard of care procedures and/or treatments ≤ 12 weeks prior to bio-reinforced canaloplasty\n\n\\-",
+      "age_min": null,
+      "age_max": null,
+      "sexe": "ALL",
+      "volontaires_sains": false
+    },
+    "criteres_secondaires": null,
+    "responsables": [
+      {
+        "nom": "Tsontcho Ianchulev, MD, MPH",
+        "affiliation": "Chief Medical Officer",
+        "role": "STUDY_CHAIR"
+      }
+    ],
+    "date_depot_resultats": null,
+    "resultats": null
+  },
+  "modifications": []
+}

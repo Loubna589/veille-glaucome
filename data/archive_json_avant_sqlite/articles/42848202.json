@@ -1,0 +1,164 @@
+{
+  "pmid": "42848202",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42848202",
+    "titre": "Shear Stress and Pressure Homeostasis in the Eye's Aqueous Outflow Pathway.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42848202/",
+    "doi": "10.1115/1.4072751",
+    "pmcid": null,
+    "revue": "Journal of biomechanical engineering",
+    "date_entree_pubmed": "2026-10-08",
+    "date_publication": "2026-Dec-01",
+    "types_publication": [
+      "Journal Article"
+    ],
+    "resume_present": true,
+    "resume": "Glaucoma is the most common cause of irreversible blindness. Many patients with glaucoma suffer from elevated intraocular pressure (IOP), due to impaired drainage of aqueous humor fluid from the eye, and all current treatments are designed to lower IOP, implicating dysregulation of IOP as an important clinical problem. Because IOP is maintained within a narrow range over a lifetime in a healthy eye, it is thought that mechanically driven feedback loops within the eye maintain IOP homeostasis, and in fact, good evidence for such loops now exists. Here we revisit the fluid mechanics of aqueous humor flow in the eye to estimate fluid shear stresses in relevant aqueous drainage tissues, in order to identify mechanical signals that may be involved in IOP homeostatic feedback loops. We find that shear stresses within the juxtacanalicular tissue are likely too small to play a significant role, except perhaps in the very immediate vicinity of the inner wall of Schlemm's canal. We estimate that the basement membrane underlying the inner wall of Schlemm's canal is exposed to high shear stresses. Furthermore, we find remarkably large shear stresses acting on the cell membrane-delimited pores passing through the inner wall of Schlemm's canal. Finally, the inner wall of Schlemm's canal is exposed to moderate shear stresses that, unlike other locations in the outflow pathway, increase as IOP increases. Thus, the inner wall endothelial cells of Schlemm's canal are well-suited to participate in a shear stress-driven IOP homeostatic feedback loop.",
+    "mots_cles_auteurs": null,
+    "langue": "eng",
+    "nombre_auteurs": 2,
+    "affiliations_auteurs": [
+      "Department of Biomedical Engineering, Northwestern University, Evanston, IL 60201; Department of Ophthalmology, Northwestern University, Evanston, IL 60611.",
+      "Department of Ophthalmology, Emory University, Atlanta, GA 30332; Department of Biomedical Engineering, Emory University, Atlanta, GA 30332."
+    ],
+    "financeurs_declares": [
+      {
+        "organisme": "NEI NIH HHS",
+        "pays": "United States",
+        "reference": "NIH R01 EY030124 (CRE), NIH EY033813 (MJ)"
+      }
+    ],
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": [
+      "Homeostasis",
+      "Stress, Mechanical",
+      "Aqueous Humor",
+      "Intraocular Pressure",
+      "Schlemm's Canal",
+      "Humans",
+      "Shear Strength",
+      "Animals",
+      "Biomechanical Phenomena",
+      "Models, Biological",
+      "Pressure"
+    ]
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": null,
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7221045091",
+      "doi": "10.1115/1.4072751",
+      "pmid": "42848202",
+      "pmcid": null,
+      "titre": "Shear Stress and Pressure Homeostasis in the Eye's Aqueous Outflow Pathway",
+      "lien": "https://openalex.org/W7221045091",
+      "date_publication": "2026-10-08",
+      "type": "article",
+      "revue": "Journal of Biomechanical Engineering",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "pubmed"
+      ],
+      "financeurs": [
+        {
+          "nom": "National Eye Institute",
+          "ror": "https://ror.org/03wkg3b53"
+        }
+      ],
+      "subventions": [
+        {
+          "financeur": "National Eye Institute",
+          "reference": "R01EY030124"
+        }
+      ],
+      "institutions": [
+        {
+          "nom": "Northwestern University",
+          "pays": "US",
+          "type": "education",
+          "ror": "https://ror.org/000e0be47"
+        },
+        {
+          "nom": "Emory University",
+          "pays": "US",
+          "type": "education",
+          "ror": "https://ror.org/03czfpz43"
+        }
+      ],
+      "acces_ouvert": false,
+      "statut_acces": "closed",
+      "url_texte": null,
+      "url_pdf": null,
+      "licence": null,
+      "texte_integral_indexe": false,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Glaucoma and retinal disorders",
+      "resume_present": true,
+      "mesh": [
+        "Schlemm's Canal",
+        "Animals",
+        "Aqueous Humor",
+        "Biomechanical Phenomena",
+        "Homeostasis",
+        "Humans",
+        "Intraocular Pressure",
+        "Models, Biological",
+        "Pressure",
+        "Stress, Mechanical",
+        "Shear Strength"
+      ]
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": [
+      {
+        "nom": "NEI NIH HHS",
+        "statut": "CONFIRMÉ — déclaré dans la notice PubMed (GrantList)",
+        "references": [
+          "NIH R01 EY030124 (CRE), NIH EY033813 (MJ)"
+        ],
+        "notices": [
+          [
+            "notice PubMed",
+            "https://pubmed.ncbi.nlm.nih.gov/42848202/?format=pubmed"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "National Eye Institute",
+        "statut": "CONFIRMÉ — déclaré par l'éditeur dans Crossref",
+        "references": [
+          "R01EY030124"
+        ],
+        "notices": [
+          [
+            "notice justificative Crossref (déclaration de l'éditeur)",
+            "https://api.crossref.org/works/10.1115/1.4072751"
+          ],
+          [
+            "notice OpenAlex",
+            "https://api.openalex.org/works/W7221045091"
+          ]
+        ],
+        "note": null
+      }
+    ]
+  }
+}

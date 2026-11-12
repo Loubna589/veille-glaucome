@@ -1,0 +1,96 @@
+{
+  "pmid": "42963471",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42963471",
+    "titre": "Seasonal intraocular pressure variation in patients with primary open-angle or exfoliation glaucoma: a bidirectional encoder representations from transformers -based natural language processing analysis.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42963471/",
+    "doi": "10.1007/s10384-026-01449-7",
+    "pmcid": null,
+    "revue": "Japanese journal of ophthalmology",
+    "date_entree_pubmed": "2026-10-31",
+    "date_publication": "2026-Oct-31",
+    "types_publication": [
+      "Journal Article"
+    ],
+    "resume_present": true,
+    "resume": "PURPOSE: Seasonal variations in intraocular pressure (IOP) are reported in glaucoma, but differences between subtypes and the influence of filtration surgery remain unclear. This study examined seasonal IOP patterns in primary open-angle glaucoma (POAG) and exfoliation glaucoma (EXG) using electronic medical records analyzed with a Bidirectional Encoder Representations from Transformers (BERT)-based natural language processing system.\nSTUDY DESIGN: Retrospective observational study.\nMETHODS: We analyzed 1,679 visits from 352 patients (238 with POAG and 114 with EXG) at a Japanese university hospital between August 2020 and May 2023. Clinical parameters were extracted from electronic medical records using a validated BERT-based natural language processing model. Seasonal IOP differences between winter and summer and factors associated with IOP were evaluated using mixed-effects regression analysis.\nRESULTS: Both POAG and EXG patients demonstrated significantly higher IOP in winter than in summer (POAG: 12.4 ± 3.3 mmHg vs. 12.0 ± 3.1 mmHg, p < 0.001; EXG: 12.4 ± 5.4 mmHg vs. 11.8 ± 4.2 mmHg, p < 0.001). The magnitude of seasonal IOP variations did not differ between glaucoma subtypes (p = 0.833); approximately 70% of patients in both groups exhibited higher winter IOP. Seasonal IOP elevation persisted regardless of filtration surgery history. Multivariate analysis identified age, systolic blood pressure, season, filtration surgery history, and medication score as independent predictors of IOP (all p < 0.05).\nCONCLUSIONS: Intraocular pressure is higher in winter, regardless of glaucoma subtype or filtration surgery status. Filtration surgery lowers baseline intraocular pressure but does not eliminate season-related physiological influences.",
+    "mots_cles_auteurs": [
+      "Glaucoma",
+      "Intraocular pressure",
+      "Natural language processing",
+      "Seasonal variation"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 6,
+    "affiliations_auteurs": [
+      "Department of Biomedical Engineering, Faculty of Life and Medical Sciences, Doshisha University, Kyotanabe, Japan.",
+      "Department of Ophthalmology, Shimane University Faculty of Medicine, Izumo, 693-8501, Japan. mtanito@med.shimane-u.ac.jp."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7224844244",
+      "doi": "10.1007/s10384-026-01449-7",
+      "pmid": "42963471",
+      "pmcid": null,
+      "titre": "Seasonal intraocular pressure variation in patients with primary open-angle or exfoliation glaucoma: a bidirectional encoder representations from transformers -based natural language processing analysis",
+      "lien": "https://openalex.org/W7224844244",
+      "date_publication": "2026-10-31",
+      "type": "article",
+      "revue": "Japanese Journal of Ophthalmology",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "pubmed"
+      ],
+      "financeurs": null,
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "Doshisha University",
+          "pays": "JP",
+          "type": "education",
+          "ror": "https://ror.org/01fxdkm29"
+        },
+        {
+          "nom": "Shimane University",
+          "pays": "JP",
+          "type": "education",
+          "ror": "https://ror.org/01jaaym28"
+        }
+      ],
+      "acces_ouvert": false,
+      "statut_acces": "closed",
+      "url_texte": null,
+      "url_pdf": null,
+      "licence": null,
+      "texte_integral_indexe": false,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Glaucoma and retinal disorders",
+      "resume_present": false,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": []
+  }
+}

@@ -1,0 +1,147 @@
+{
+  "pmid": "42978139",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42978139",
+    "titre": "Glucagon-Like Peptide-1 Receptor Agonists and the Eye: Ocular Safety, Retinal Outcomes, and Clinical Implications.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42978139/",
+    "doi": "10.3346/jkms.2026.41.e345",
+    "pmcid": "PMC13730651",
+    "revue": "Journal of Korean medical science",
+    "date_entree_pubmed": "2026-11-04",
+    "date_publication": "2026-Nov-02",
+    "types_publication": [
+      "Journal Article",
+      "Review"
+    ],
+    "resume_present": true,
+    "resume": "Glucagon-like peptide-1 receptor agonists have transformed the treatment of type 2 diabetes and obesity, but rapidly expanding use has generated concern about ocular adverse events. In Korea, newly established national health insurance reimbursement criteria for injectable semaglutide (Ozempic prefilled pen) took effect on February 1, 2026; as use among eligible patients may expand, proportionate ophthalmic preparedness is timely. This structured narrative review evaluates randomized trials, systematic reviews, large pharmacoepidemiologic studies, mechanistic investigations, and regulatory assessments through June 30, 2026. The evidence does not support a single class-wide syndrome of ocular toxicity. The most coherent retinal signal is early worsening of diabetic retinopathy during rapid glycemic improvement, particularly in eyes with substantial pre-existing disease; available trial and real-world evidence does not demonstrate a uniform sustained toxic effect. Nonarteritic anterior ischemic optic neuropathy is a rare but clinically important semaglutide safety signal. Multiple observational studies and regulatory action justify vigilance, although effect estimates remain heterogeneous and the absolute risk is low. Evidence for neovascular age-related macular degeneration is conflicting, whereas reported associations with retinal vein occlusion and glaucoma remain exploratory. For retina specialists, management should be phenotype based: identify active or advanced diabetic retinopathy, avoid delaying indicated retinal treatment, document the timing and trajectory of metabolic change, and urgently evaluate sudden painless visual loss or field defects. This approach preserves the substantial systemic benefits of incretin therapy while improving recognition of uncommon but consequential ocular events.",
+    "mots_cles_auteurs": [
+      "Diabetic Retinopathy",
+      "Drug-Related Side Effects and Adverse Reactions",
+      "Glucagon-Like Peptide-1 Receptor Agonists",
+      "Optic Neuropathy, Ischemic",
+      "Retina",
+      "Semaglutide"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 2,
+    "affiliations_auteurs": [
+      "Department of Anesthesiology and Pain Medicine, Bundang Jesaeng General Hospital, Daejin Medical Center, Seongnam, Korea.",
+      "Department of Ophthalmology, CHA Bundang Medical Center, CHA University, Seongnam, Korea. ophdrjhkim@gmail.com."
+    ],
+    "financeurs_declares": [
+      {
+        "organisme": "CHA Bundang Medical Center",
+        "pays": "Korea",
+        "reference": "BDCHA RND2025-010"
+      }
+    ],
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": [
+      "Humans",
+      "Glucagon-Like Peptide-1 Receptor Agonists",
+      "Glucagon-Like Peptides",
+      "Semaglutide",
+      "Diabetic Retinopathy",
+      "Diabetes Mellitus, Type 2",
+      "Hypoglycemic Agents",
+      "Retina",
+      "Glucagon-Like Peptide-1 Receptor"
+    ]
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": null,
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7222157790",
+      "doi": "10.3346/jkms.2026.41.e345",
+      "pmid": "42978139",
+      "pmcid": "13730651",
+      "titre": "Glucagon-Like Peptide-1 Receptor Agonists and the Eye: Ocular Safety, Retinal Outcomes, and Clinical Implications",
+      "lien": "https://openalex.org/W7222157790",
+      "date_publication": "2026-01-01",
+      "type": "review",
+      "revue": "Journal of Korean Medical Science",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "doaj",
+        "pubmed"
+      ],
+      "financeurs": null,
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "Bundang Jesaeng Hospital",
+          "pays": "KR",
+          "type": "healthcare",
+          "ror": "https://ror.org/03z0bdc81"
+        },
+        {
+          "nom": "CHA University Bundang Medical Center",
+          "pays": "KR",
+          "type": "healthcare",
+          "ror": "https://ror.org/04nbqb988"
+        },
+        {
+          "nom": "CHA University",
+          "pays": "KR",
+          "type": "education",
+          "ror": "https://ror.org/04yka3j04"
+        }
+      ],
+      "acces_ouvert": true,
+      "statut_acces": "gold",
+      "url_texte": "https://doi.org/10.3346/jkms.2026.41.e345",
+      "url_pdf": null,
+      "licence": "cc-by-nc",
+      "texte_integral_indexe": true,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Drug-Induced Ocular Toxicity",
+      "resume_present": true,
+      "mesh": [
+        "Glucagon-Like Peptide-1 Receptor",
+        "Glucagon-Like Peptide-1 Receptor Agonists",
+        "Semaglutide",
+        "Diabetes Mellitus, Type 2",
+        "Diabetic Retinopathy",
+        "Glucagon-Like Peptides",
+        "Humans",
+        "Hypoglycemic Agents",
+        "Retina"
+      ]
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": [
+      {
+        "nom": "CHA Bundang Medical Center",
+        "statut": "CONFIRMÉ — déclaré dans la notice PubMed (GrantList)",
+        "references": [
+          "BDCHA RND2025-010"
+        ],
+        "notices": [
+          [
+            "notice PubMed",
+            "https://pubmed.ncbi.nlm.nih.gov/42978139/?format=pubmed"
+          ]
+        ],
+        "note": null
+      }
+    ]
+  }
+}

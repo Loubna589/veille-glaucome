@@ -1,0 +1,85 @@
+{
+  "pmid": "42957014",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42957014",
+    "titre": "Reply to Comment on \"IOP Stress Testing Identifies Glaucoma Eyes at Risk of Fast Progression Despite Controlled Office Pressure\".",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42957014/",
+    "doi": "10.1016/j.ajo.2026.10.024",
+    "pmcid": null,
+    "revue": "American journal of ophthalmology",
+    "date_entree_pubmed": "2026-10-29",
+    "date_publication": "2026-Oct-29",
+    "types_publication": [
+      "Letter"
+    ],
+    "resume_present": false,
+    "resume": null,
+    "mots_cles_auteurs": null,
+    "langue": "eng",
+    "nombre_auteurs": 2,
+    "affiliations_auteurs": [
+      "Bascom Palmer Eye Institute, University of Miami Miller School of Medicine, Miami, FL, USA.",
+      "Bascom Palmer Eye Institute, University of Miami Miller School of Medicine, Miami, FL, USA. Electronic address: fmedeiros@med.miami.edu."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7224540079",
+      "doi": "10.1016/j.ajo.2026.10.024",
+      "pmid": "42957014",
+      "pmcid": null,
+      "titre": "Reply to Comment on “IOP Stress Testing Identifies Glaucoma Eyes at Risk of Fast Progression Despite Controlled Office Pressure”",
+      "lien": "https://openalex.org/W7224540079",
+      "date_publication": "2026-10-01",
+      "type": "letter",
+      "revue": "American Journal of Ophthalmology",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "pubmed"
+      ],
+      "financeurs": null,
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "University of Miami",
+          "pays": "US",
+          "type": "education",
+          "ror": "https://ror.org/02dgjyy92"
+        }
+      ],
+      "acces_ouvert": false,
+      "statut_acces": "closed",
+      "url_texte": null,
+      "url_pdf": null,
+      "licence": null,
+      "texte_integral_indexe": false,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Glaucoma and retinal disorders",
+      "resume_present": false,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": []
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "pmid": "42928543",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42928543",
+    "titre": "Competent Gonioscopy in the Age of Advanced Imaging.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42928543/",
+    "doi": "10.4274/tjo.galenos.2026.92771",
+    "pmcid": "PMC13697055",
+    "revue": "Turkish journal of ophthalmology",
+    "date_entree_pubmed": "2026-10-26",
+    "date_publication": "2026-Oct-23",
+    "types_publication": [
+      "Journal Article"
+    ],
+    "resume_present": false,
+    "resume": null,
+    "mots_cles_auteurs": [
+      "Gonioscopy",
+      "anterior chamber angle",
+      "anterior segment optical coherence tomography",
+      "glaucoma"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 2,
+    "affiliations_auteurs": [
+      "Dünyagöz Eye Hospital, Ankara, Türkiye.",
+      "Wills Eye Hospital, Philadelphia, PA, USA."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7223281167",
+      "doi": "10.4274/tjo.galenos.2026.92771",
+      "pmid": "42928543",
+      "pmcid": "13697055",
+      "titre": "Competent Gonioscopy in the Age of Advanced Imaging",
+      "lien": "https://openalex.org/W7223281167",
+      "date_publication": "2026-10-23",
+      "type": "article",
+      "revue": "Turkish Journal of Ophthalmology",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "doaj",
+        "pubmed"
+      ],
+      "financeurs": null,
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "Dünyagöz Hospital",
+          "pays": "TR",
+          "type": "healthcare",
+          "ror": "https://ror.org/050svx916"
+        },
+        {
+          "nom": "Wills Eye Hospital",
+          "pays": "US",
+          "type": "healthcare",
+          "ror": "https://ror.org/03qygnx22"
+        }
+      ],
+      "acces_ouvert": true,
+      "statut_acces": "diamond",
+      "url_texte": "https://oftalmoloji.org/pdf/bda9171a-fae8-4995-8276-2138323f1e16/articles/tjo.galenos.2026.92771/294-296..pdf",
+      "url_pdf": "https://oftalmoloji.org/pdf/bda9171a-fae8-4995-8276-2138323f1e16/articles/tjo.galenos.2026.92771/294-296..pdf",
+      "licence": "cc-by-nc-nd",
+      "texte_integral_indexe": true,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Glaucoma and retinal disorders",
+      "resume_present": true,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": []
+  }
+}

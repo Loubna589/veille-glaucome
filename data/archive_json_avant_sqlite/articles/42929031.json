@@ -1,0 +1,165 @@
+{
+  "pmid": "42929031",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42929031",
+    "titre": "Evaluation of Plasma Spermine and Spermidine Levels in Primary Open-Angle Glaucoma and Exfoliation Glaucoma.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42929031/",
+    "doi": "10.4274/tjo.galenos.2026.43884",
+    "pmcid": "PMC13697021",
+    "revue": "Turkish journal of ophthalmology",
+    "date_entree_pubmed": "2026-10-26",
+    "date_publication": "2026-Oct-23",
+    "types_publication": [
+      "Journal Article"
+    ],
+    "resume_present": true,
+    "resume": "OBJECTIVES: This study aimed to compare plasma spermine and spermidine concentrations in patients with primary open-angle glaucoma (POAG), patients with exfoliation glaucoma (EG), and healthy individuals, and to explore their potential association with disease severity.\nMATERIALS AND METHODS: This prospective case-control study was conducted at a tertiary referral center and included patients with an established diagnosis of POAG or EG for more than two years. The control group consisted of age- and sex-matched healthy individuals. Participants with predefined systemic comorbidities or ocular conditions that could potentially confound the study findings were excluded. Plasma concentrations of spermine and spermidine were measured using enzyme-linked immunosorbent assay. Glaucoma severity was assessed using the modified Hodapp-Parrish-Anderson glaucoma staging system.\nRESULTS: Significant differences in spermine and spermidine concentrations were observed among the three study groups (p=0.005 and p=0.037, respectively). Post-hoc analyses showed that spermine levels were significantly elevated in both the POAG and EG groups relative to controls, whereas spermidine levels were significantly increased only in the POAG group. In the EG group, spermidine levels showed a weak inverse correlation with glaucoma severity (Kendall's tau-b=-0.317, p=0.037).\nCONCLUSION: The observed alterations in plasma spermine and spermidine concentrations suggest a potential association between systemic polyamine metabolism and glaucoma. Given the proposed roles of polyamines in neurodegenerative processes, further studies are warranted to clarify the biological significance of these findings in glaucoma.",
+    "mots_cles_auteurs": [
+      "Primary open-angle glaucoma",
+      "exfoliation glaucoma",
+      "neurodegeneration",
+      "polyamines",
+      "spermidine",
+      "spermine"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 7,
+    "affiliations_auteurs": [
+      "İstinye University Faculty of Medicine, Department of Ophthalmology, İstanbul, Türkiye.",
+      "Hacettepe University Faculty of Medicine, Department of Ophthalmology, Ankara, Türkiye.",
+      "Hacettepe University Faculty of Medicine, Department of Medical Biochemistry, Ankara, Türkiye.",
+      "University of Health Sciences Türkiye, Haydarpaşa Numune Training and Research Hospital, Clinic of Ophthalmology, İstanbul, Türkiye."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": [
+      "Humans",
+      "Spermidine",
+      "Spermine",
+      "Glaucoma, Open-Angle",
+      "Female",
+      "Prospective Studies",
+      "Exfoliation Syndrome",
+      "Case-Control Studies",
+      "Enzyme-Linked Immunosorbent Assay",
+      "Male",
+      "Aged",
+      "Intraocular Pressure",
+      "Biomarkers",
+      "Middle Aged"
+    ]
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": null,
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7223355869",
+      "doi": "10.4274/tjo.galenos.2026.43884",
+      "pmid": "42929031",
+      "pmcid": "13697021",
+      "titre": "Evaluation of Plasma Spermine and Spermidine Levels in Primary Open-Angle Glaucoma and Exfoliation Glaucoma",
+      "lien": "https://openalex.org/W7223355869",
+      "date_publication": "2026-10-23",
+      "type": "article",
+      "revue": "Turkish Journal of Ophthalmology",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "doaj",
+        "pubmed"
+      ],
+      "financeurs": [
+        {
+          "nom": "Hacettepe Üniversitesi",
+          "ror": "https://ror.org/04kwvgz42"
+        }
+      ],
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "Istinye University",
+          "pays": "TR",
+          "type": "education",
+          "ror": "https://ror.org/03081nz23"
+        },
+        {
+          "nom": "Hacettepe University",
+          "pays": "TR",
+          "type": "education",
+          "ror": "https://ror.org/04kwvgz42"
+        },
+        {
+          "nom": "Haydarpaşa Numune Eğitim ve Araştırma Hastanesi",
+          "pays": "TR",
+          "type": "healthcare",
+          "ror": "https://ror.org/03pdc2j75"
+        },
+        {
+          "nom": "Sağlık Bilimleri Üniversitesi",
+          "pays": "TR",
+          "type": "education",
+          "ror": "https://ror.org/03k7bde87"
+        }
+      ],
+      "acces_ouvert": true,
+      "statut_acces": "diamond",
+      "url_texte": "https://oftalmoloji.org/pdf/bda9171a-fae8-4995-8276-2138323f1e16/articles/tjo.galenos.2026.43884/317-324..pdf",
+      "url_pdf": "https://oftalmoloji.org/pdf/bda9171a-fae8-4995-8276-2138323f1e16/articles/tjo.galenos.2026.43884/317-324..pdf",
+      "licence": "cc-by-nc-nd",
+      "texte_integral_indexe": true,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Glaucoma and retinal disorders",
+      "resume_present": true,
+      "mesh": [
+        "Aged",
+        "Enzyme-Linked Immunosorbent Assay",
+        "Female",
+        "Glaucoma, Open-Angle",
+        "Humans",
+        "Intraocular Pressure",
+        "Male",
+        "Middle Aged",
+        "Prospective Studies",
+        "Spermidine",
+        "Spermine",
+        "Biomarkers",
+        "Case-Control Studies",
+        "Exfoliation Syndrome"
+      ]
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": [
+      {
+        "nom": "Hacettepe Üniversitesi",
+        "statut": "À VÉRIFIER — trouvé par OpenAlex seulement (l'éditeur n'a déclaré aucun financeur dans Crossref) ; à contrôler dans le texte de l'article",
+        "references": null,
+        "notices": [
+          [
+            "notice OpenAlex",
+            "https://api.openalex.org/works/W7223355869"
+          ],
+          [
+            "notice Crossref consultée (ne confirme pas ce financeur)",
+            "https://api.crossref.org/works/10.4274/tjo.galenos.2026.43884"
+          ]
+        ],
+        "note": null
+      }
+    ]
+  }
+}

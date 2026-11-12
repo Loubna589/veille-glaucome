@@ -1,0 +1,201 @@
+{
+  "pmid": "42957283",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42957283",
+    "titre": "Long-term glaucoma medication adherence in Finland: a 13-year registry study with clinical outcomes and international cohort comparisons.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42957283/",
+    "doi": "10.1136/bjo-2026-330775",
+    "pmcid": null,
+    "revue": "The British journal of ophthalmology",
+    "date_entree_pubmed": "2026-10-29",
+    "date_publication": "2026-Oct-29",
+    "types_publication": [
+      "Journal Article"
+    ],
+    "resume_present": false,
+    "resume": null,
+    "mots_cles_auteurs": [
+      "Drugs",
+      "Glaucoma",
+      "Pharmacology"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 5,
+    "affiliations_auteurs": [
+      "Tays Eye Centre, Tampere University Hospital, Tampere, Finland.",
+      "Faculty of Medicine and Health Technology, Tampere Universities, Tampere, Finland.",
+      "Tays Eye Centre, Tampere University Hospital, Tampere, Finland hannele.uusitalo-jarvinen@pirha.fi."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7224553795",
+      "doi": "10.1136/bjo-2026-330775",
+      "pmid": "42957283",
+      "pmcid": null,
+      "titre": "Long-term glaucoma medication adherence in Finland: a 13-year registry study with clinical outcomes and international cohort comparisons",
+      "lien": "https://openalex.org/W7224553795",
+      "date_publication": "2026-10-29",
+      "type": "article",
+      "revue": "British Journal of Ophthalmology",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "pubmed"
+      ],
+      "financeurs": [
+        {
+          "nom": "Glaucoma Research Foundation",
+          "ror": "https://ror.org/05ez53b31"
+        },
+        {
+          "nom": "Tays",
+          "ror": "https://ror.org/02hvt5f17"
+        }
+      ],
+      "subventions": [
+        {
+          "financeur": "Tays",
+          "reference": "T63464"
+        }
+      ],
+      "institutions": [
+        {
+          "nom": "Tampere University",
+          "pays": "FI",
+          "type": "education",
+          "ror": "https://ror.org/033003e23"
+        },
+        {
+          "nom": "Tampere University Hospital",
+          "pays": "FI",
+          "type": "healthcare",
+          "ror": "https://ror.org/02hvt5f17"
+        }
+      ],
+      "acces_ouvert": true,
+      "statut_acces": "hybrid",
+      "url_texte": "https://bjo.bmj.com/content/bjophthalmol/early/2026/10/29/bjo-2026-330775.full.pdf",
+      "url_pdf": "https://bjo.bmj.com/content/bjophthalmol/early/2026/10/29/bjo-2026-330775.full.pdf",
+      "licence": "cc-by-nc",
+      "texte_integral_indexe": true,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Medication Adherence and Compliance",
+      "resume_present": true,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": [
+      {
+        "nom": "Glaucoma Research Foundation",
+        "statut": "À VÉRIFIER — trouvé par OpenAlex seulement (absent de la déclaration de l'éditeur dans Crossref) ; à contrôler dans le texte de l'article",
+        "references": null,
+        "notices": [
+          [
+            "notice OpenAlex",
+            "https://api.openalex.org/works/W7224553795"
+          ],
+          [
+            "notice Crossref consultée (ne confirme pas ce financeur)",
+            "https://api.crossref.org/works/10.1136/bjo-2026-330775"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "Tays",
+        "statut": "À VÉRIFIER — trouvé par OpenAlex seulement (absent de la déclaration de l'éditeur dans Crossref) ; à contrôler dans le texte de l'article",
+        "references": [
+          "T63464"
+        ],
+        "notices": [
+          [
+            "notice OpenAlex",
+            "https://api.openalex.org/works/W7224553795"
+          ],
+          [
+            "notice Crossref consultée (ne confirme pas ce financeur)",
+            "https://api.crossref.org/works/10.1136/bjo-2026-330775"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "Tampere University Hospital Support Foundation",
+        "statut": "CONFIRMÉ — déclaré par l'éditeur dans Crossref (absent d'OpenAlex)",
+        "references": [
+          "T64124"
+        ],
+        "notices": [
+          [
+            "notice justificative Crossref (déclaration de l'éditeur)",
+            "https://api.crossref.org/works/10.1136/bjo-2026-330775"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "Tampere University Hospital, Wellbeing Services County of Pirkanmaa",
+        "statut": "CONFIRMÉ — déclaré par l'éditeur dans Crossref (absent d'OpenAlex)",
+        "references": [
+          "T63464"
+        ],
+        "notices": [
+          [
+            "notice justificative Crossref (déclaration de l'éditeur)",
+            "https://api.crossref.org/works/10.1136/bjo-2026-330775"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "LUX-Foundation for Glaucoma Research",
+        "statut": "CONFIRMÉ — déclaré par l'éditeur dans Crossref (absent d'OpenAlex)",
+        "references": [
+          "N/A"
+        ],
+        "notices": [
+          [
+            "notice justificative Crossref (déclaration de l'éditeur)",
+            "https://api.crossref.org/works/10.1136/bjo-2026-330775"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "Sokeain Ystävät Foundation",
+        "statut": "CONFIRMÉ — déclaré par l'éditeur dans Crossref (absent d'OpenAlex)",
+        "references": [
+          "N/A"
+        ],
+        "notices": [
+          [
+            "notice justificative Crossref (déclaration de l'éditeur)",
+            "https://api.crossref.org/works/10.1136/bjo-2026-330775"
+          ]
+        ],
+        "note": null
+      }
+    ]
+  }
+}

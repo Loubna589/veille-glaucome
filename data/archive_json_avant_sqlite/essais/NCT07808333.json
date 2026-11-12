@@ -1,0 +1,119 @@
+{
+  "nct": "NCT07808333",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "nct": "NCT07808333",
+    "titre": "Nicotinamide for Retinal Protection in Primary Open-Angle Glaucoma (NADIR Trial)",
+    "titre_officiel": "NADIR Trial: A Principal Investigator-Initiated, Single-Center, Open-Label, Active-Controlled Phase 2a Study of High-Dose Nicotinamide (Vitamin B3) Supplementation in Adults With Mild to Moderate Primary Open-Angle Glaucoma (POAG)",
+    "lien": "https://clinicaltrials.gov/study/NCT07808333",
+    "date_premiere_publication": "2026-09-08",
+    "date_derniere_mise_a_jour": "2026-10-13",
+    "type_etude": "INTERVENTIONAL",
+    "phases_declarees": [
+      "PHASE2"
+    ],
+    "statut": "NOT_YET_RECRUITING",
+    "raison_arret": null,
+    "date_debut": "2027-06-01",
+    "date_fin_principale": "2029-12-31",
+    "promoteur": "University of Chicago",
+    "type_promoteur": "OTHER",
+    "collaborateurs": null,
+    "conditions": [
+      "Glaucoma, Open-angle",
+      "Primary Open Angle Glaucoma (POAG)"
+    ],
+    "interventions": [
+      {
+        "type": "DRUG",
+        "nom": "Nicotinamide"
+      },
+      {
+        "type": "OTHER",
+        "nom": "Standard Glaucoma Therapy"
+      }
+    ],
+    "participants_nombre": 96,
+    "participants_type": "ESTIMATED",
+    "criteres_principaux": [
+      {
+        "critere": "Annualized Rate of Macular Ganglion Cell-Inner Plexiform Layer (GCIPL) Thinning",
+        "delai": "Baseline (Month 0), Month 3, Month 6, and Month 12 (four repeated assessments over 12 months)"
+      }
+    ],
+    "resultats_deposes": false,
+    "publications_declarees": null,
+    "resume_source": "The goal of this clinical trial is to learn whether a high-dose vitamin B3 supplement called nicotinamide can protect retinal nerve cells in adults with primary open-angle glaucoma (POAG) who are already receiving standard glaucoma eye drops or laser treatment. The main question it aims to answer is: Does adding nicotinamide to standard glaucoma therapy slow the rate of thinning of the inner retinal nerve cell layer (measured by a non-invasive eye scan) compared to standard therapy alone over 12 months?\n\nParticipants will be randomly assigned to one of two groups. Participants in the treatment group will take nicotinamide tablets by mouth, starting at a lower dose (1.5 grams per day) for the first 6 weeks and increasing to the full dose (3.0 grams per day) for the remainder of the 12-month study. Participants in the control group will continue their standard glaucoma care without the supplement.\n\nResearchers will compare retinal imaging measurements between the two groups to see whether nicotinamide reduces the rate of retinal nerve cell thinning over time.",
+    "citations_declarees": null,
+    "plan": {
+      "repartition": "RANDOMIZED",
+      "modele": "PARALLEL",
+      "but_principal": "TREATMENT",
+      "insu": "SINGLE",
+      "insu_pour": [
+        "OUTCOMES_ASSESSOR"
+      ],
+      "insu_description": "Participants and investigators are unmasked to treatment assignment. Central SD-OCT, OCT-A, and visual field readers are masked to treatment assignment and use de-identified participant IDs.",
+      "modele_observationnel": null
+    },
+    "bras": [
+      {
+        "libelle": "High-Dose Oral Nicotinamide Plus Standard Glaucoma Care",
+        "type": "EXPERIMENTAL",
+        "description": "Participants receive immediate-release oral nicotinamide titrated from 1.5 g/day (500 mg three times daily with meals, Weeks 1 through 6) to 3.0 g/day (1,500 mg twice daily \\[three 500 mg tablets per administration, twice daily\\] with meals, Week 7 through Month 12), in addition to individualized standard glaucoma therapy. Dose advancement at Week 7 requires confirmation at the Month 1 remote safety contact that no Grade 2 or higher hepatic adverse event is present and gastrointestinal tolerability is acceptable.",
+        "interventions": [
+          "Drug: Nicotinamide",
+          "Other: Standard Glaucoma Therapy"
+        ]
+      },
+      {
+        "libelle": "Standard Glaucoma Care Alone (Active Control)",
+        "type": "ACTIVE_COMPARATOR",
+        "description": "Participants receive individualized intraocular pressure-lowering therapy per the AAO Primary Open-Angle Glaucoma Preferred Practice Pattern, which may include topical IOP-lowering medications (e.g., prostaglandin analogs) and/or selective laser trabeculoplasty, with monitoring by optical coherence tomography, perimetry, and intraocular pressure measurement at 3 to 6 month intervals. No supplemental nicotinamide is administered.",
+        "interventions": [
+          "Other: Standard Glaucoma Therapy"
+        ]
+      }
+    ],
+    "eligibilite": {
+      "criteres": "Inclusion Criteria:\n\n* Age 40 to 80 years, inclusive\n* Diagnosis of primary open-angle glaucoma (POAG) in at least one eye, confirmed by a licensed ophthalmologist or optometrist based on characteristic optic nerve head changes and/or visual field defects with an open anterior chamber angle\n* Mild to moderate glaucoma severity in the study eye: Humphrey Visual Field 24-2 mean deviation (MD) between -2.0 and -12.0 dB on at least one reliable test (fixation losses 33% or less, false positive rate 15% or less)\n* Best-corrected visual acuity (BCVA) of 20/40 or better (Snellen equivalent) in the study eye\n* Confirmed glaucomatous structural damage on SD-OCT (average GCIPL and/or RNFL below age-adjusted normative mean on device-generated classification) and/or a reproducible visual field defect on Humphrey Visual Field 24-2 consistent with glaucoma, as confirmed by the enrolling glaucoma specialist at screening\n* Macular GCIPL and peripapillary RNFL above device-specific SD-OCT floor effect in the study eye\n* Currently receiving stable intraocular pressure-lowering therapy (topical medications and/or prior selective laser trabeculoplasty) for at least 4 months prior to enrollment, with no planned changes to glaucoma therapy at the time of enrollment\n* Intraocular pressure of 21 mmHg or less on current therapy at the screening visit in the study eye\n* Established patient receiving ongoing glaucoma care at University of Chicago Medicine Duchossois Center for Advanced Medicine Eye Clinic\n* Willing and able to provide written informed consent and comply with all study visit schedules and procedures\n* Study eye selection: when POAG is present bilaterally, the study eye is defined as the eye with more severe disease (worse VF MD) that meets all eligibility criteria; if both eyes are equivalent in severity, the right eye is designated by default\n\nExclusion Criteria:\n\n* Advanced glaucoma: visual field MD worse than -12.0 dB in the study eye\n* Significant retinal disease affecting macular structure or visual field, including advanced age-related macular degeneration, diabetic retinopathy greater than mild non-proliferative, clinically significant diabetic macular edema, major retinal vein occlusion, or non-glaucomatous optic neuropathy\n* Ocular surgery other than uncomplicated cataract extraction or selective laser trabeculoplasty within the past 6 months\n* Hepatic dysfunction at baseline: AST or ALT greater than 2 times the upper limit of normal, or total bilirubin greater than 1.5 times the upper limit of normal\n* Renal dysfunction: eGFR less than 30 mL/min/1.73 m2\n* Current use of, or unwillingness to abstain from:\n\nnicotinamide, niacinamide, nicotinamide riboside (NR), nicotinamide mononucleotide (NMN), or any other NAD+-precursor supplement not dispensed by the study; high-dose niacin or vitamin B3; Ginkgo biloba; CoQ10; isoniazid; pyrazinamide; carbamazepine; phenobarbital; primidone; or sustained-release niacin or nicotinamide formulations\n\n* Poorly controlled diabetes mellitus: HbA1c greater than 9.0% at screening\n* Normal tension glaucoma with documented intraocular pressure consistently 21 mmHg or less without hypotensive therapy\n* Participation in another investigational drug trial within 30 days of screening\n* Pregnancy, lactation, or intent to become pregnant during the study period\n* Significant cognitive impairment or inability to comply with study requirements\n* Clinically significant media opacity (corneal, lenticular, or vitreal) sufficient to degrade OCT signal quality below device-minimum thresholds, even if BCVA of 20/40 or better is preserved\n* Active or recent uveitis or intraocular inflammation in the study eye within the past 3 months\n* Any condition that, in the investigator's judgment, would preclude safe participation or confound result interpretation",
+      "age_min": "40 Years",
+      "age_max": "80 Years",
+      "sexe": "ALL",
+      "volontaires_sains": false
+    },
+    "criteres_secondaires": [
+      {
+        "critere": "Annualized Rate of Peripapillary Retinal Nerve Fiber Layer (RNFL) Thinning",
+        "delai": "Baseline (Month 0), Month 3, Month 6, and Month 12 (four repeated assessments over 12 months)"
+      },
+      {
+        "critere": "Visual Field Mean Deviation Slope",
+        "delai": "Baseline through Month 12, assessed at Baseline (Month 0), Month 3, Month 6, and Month 12"
+      },
+      {
+        "critere": "Incidence of Grade 2 or Higher Hepatic and Gastrointestinal Adverse Events",
+        "delai": "From randomization through 30 days after the Month 12 visit (approximately 13 months)"
+      },
+      {
+        "critere": "Nicotinamide Adherence Rate",
+        "delai": "Maintenance phase: Week 7 (Month 1 remote contact) through Month 12"
+      },
+      {
+        "critere": "Study Retention Rate",
+        "delai": "Month 12 (52 weeks post-randomization)"
+      }
+    ],
+    "responsables": [
+      {
+        "nom": "Steven C Quan, OD",
+        "affiliation": "University of Chicago",
+        "role": "PRINCIPAL_INVESTIGATOR"
+      }
+    ],
+    "date_depot_resultats": null,
+    "resultats": null
+  },
+  "modifications": []
+}

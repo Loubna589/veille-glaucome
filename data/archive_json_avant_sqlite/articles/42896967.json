@@ -1,0 +1,85 @@
+{
+  "pmid": "42896967",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42896967",
+    "titre": "Directional OCT Assessment of Henle's Fiber Layer in Primary Open-Angle Glaucoma.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42896967/",
+    "doi": "10.3341/kjo.2026.0131",
+    "pmcid": null,
+    "revue": "Korean journal of ophthalmology : KJO",
+    "date_entree_pubmed": "2026-10-19",
+    "date_publication": "2026-Oct-19",
+    "types_publication": [
+      "Journal Article"
+    ],
+    "resume_present": true,
+    "resume": "PURPOSE: To evaluate the diagnostic accuracy of Henle's fiber layer (HFL) in eyes with mild to moderate primary open-angle glaucoma and to compare its performance with established optical coherence tomography (OCT) parameters, including the retinal nerve fiber layer (RNFL) and ganglion cell-inner plexiform layer (GC-IPL).\nDESIGN: Retrospective cross-sectional study.\nPARTICIPANTS: Twenty-five eyes of 25 patients with mild to moderate primary open-angle glaucoma and 50 age- and sex-matched healthy control eyes.\nMETHODS: Spectral-domain optical coherence tomography (SD-OCT) was used to obtain macular and peripapillary measurements. HFL was visualized with directional OCT and quantified using ImageJ within a standardized 6,000-μm horizontal region centered on the fovea. One eye from each participant was included in the analysis to avoid inter-eye correlation. Receiver operating characteristic (ROC) curve analysis was performed to evaluate diagnostic accuracy.\nMAIN OUTCOME MEASURES: HFL area and its ability to distinguish glaucomatous eyes from healthy controls in comparison with RNFL and GC-IPL measurements.\nRESULTS: HFL area was significantly smaller in glaucomatous eyes than in healthy controls (p < 0.001). ROC analysis showed excellent diagnostic accuracy for HFL (AUC, 0.990; 95% confidence interval, 0.974-1.000). HFL showed higher diagnostic performance than average RNFL and GC-IPL in DeLong analysis. All GC-IPL parameters and selected RNFL quadrants were significantly thinner in the glaucoma group (all p < 0.05).\nCONCLUSIONS: HFL was significantly reduced in eyes with primary open-angle glaucoma and showed high diagnostic accuracy. HFL assessment may provide complementary information about retinal structural changes in glaucoma. Because of the relatively small sample size, these findings should be interpreted with caution.",
+    "mots_cles_auteurs": [
+      "Henle's fiber layer",
+      "ganglion cell-inner plexiform layer",
+      "glaucoma",
+      "optical coherence tomography",
+      "retinal nerve fiber layer"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 2,
+    "affiliations_auteurs": [
+      "Department of Ophthalmology, Çarşamba State Hospital, Samsun, Turkey. serdarilguy@gmail.com.",
+      "Department of Ophthalmology, Çarşamba State Hospital, Samsun, Turkey."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7222948623",
+      "doi": "10.3341/kjo.2026.0131",
+      "pmid": "42896967",
+      "pmcid": null,
+      "titre": "Directional OCT Assessment of Henle’s Fiber Layer in Primary Open-Angle Glaucoma",
+      "lien": "https://openalex.org/W7222948623",
+      "date_publication": "2026-10-19",
+      "type": "article",
+      "revue": "Korean Journal of Ophthalmology",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "doaj",
+        "pubmed"
+      ],
+      "financeurs": null,
+      "subventions": null,
+      "institutions": null,
+      "acces_ouvert": true,
+      "statut_acces": "gold",
+      "url_texte": "https://www.ekjo.org/upload/pdf/kjo-2026-0131.pdf",
+      "url_pdf": "https://www.ekjo.org/upload/pdf/kjo-2026-0131.pdf",
+      "licence": "cc-by-nc",
+      "texte_integral_indexe": true,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Glaucoma and retinal disorders",
+      "resume_present": true,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": []
+  }
+}

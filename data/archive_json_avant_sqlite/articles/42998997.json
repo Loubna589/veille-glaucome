@@ -1,0 +1,86 @@
+{
+  "pmid": "42998997",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42998997",
+    "titre": "Glaucoma awareness and barriers to eye testing at a community event in a deprived urban setting.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42998997/",
+    "doi": "10.1038/s41433-026-04941-z",
+    "pmcid": null,
+    "revue": "Eye (London, England)",
+    "date_entree_pubmed": "2026-11-07",
+    "date_publication": "2026-Nov-07",
+    "types_publication": [
+      "Journal Article"
+    ],
+    "resume_present": false,
+    "resume": null,
+    "mots_cles_auteurs": null,
+    "langue": "eng",
+    "nombre_auteurs": 2,
+    "affiliations_auteurs": [
+      "St. Paul's Eye Unit, NHS University Hospitals of Liverpool Group, Liverpool, UK.",
+      "St. Paul's Eye Unit, NHS University Hospitals of Liverpool Group, Liverpool, UK. vallabh@liverpool.ac.uk.",
+      "Department of Eye and Vision Science, Institute of Life Course and Medical Sciences, University of Liverpool, Liverpool, UK. vallabh@liverpool.ac.uk."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7225458654",
+      "doi": "10.1038/s41433-026-04941-z",
+      "pmid": "42998997",
+      "pmcid": null,
+      "titre": "Glaucoma awareness and barriers to eye testing at a community event in a deprived urban setting",
+      "lien": "https://openalex.org/W7225458654",
+      "date_publication": "2026-11-07",
+      "type": "article",
+      "revue": "Eye",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "pubmed"
+      ],
+      "financeurs": null,
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "University of Liverpool",
+          "pays": "GB",
+          "type": "education",
+          "ror": "https://ror.org/04xs57h96"
+        }
+      ],
+      "acces_ouvert": true,
+      "statut_acces": "hybrid",
+      "url_texte": "https://www.nature.com/articles/s41433-026-04941-z.pdf",
+      "url_pdf": "https://www.nature.com/articles/s41433-026-04941-z.pdf",
+      "licence": "cc-by",
+      "texte_integral_indexe": true,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Glaucoma and retinal disorders",
+      "resume_present": true,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": []
+  }
+}

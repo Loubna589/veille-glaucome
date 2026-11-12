@@ -1,0 +1,153 @@
+{
+  "pmid": "42891852",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42891852",
+    "titre": "36-month multi-centre outcomes of XEN45 gel stent implantation in Asian versus non-Asian eyes with primary open angle glaucoma.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42891852/",
+    "doi": "10.1007/s00417-026-07529-1",
+    "pmcid": null,
+    "revue": "Graefe's archive for clinical and experimental ophthalmology = Albrecht von Graefes Archiv fur klinische und experimentelle Ophthalmologie",
+    "date_entree_pubmed": "2026-10-18",
+    "date_publication": "2026-Oct-17",
+    "types_publication": [
+      "Journal Article"
+    ],
+    "resume_present": true,
+    "resume": "PURPOSE: Ethnicity has been shown to influence outcomes of bleb-forming glaucoma filtering surgery. This study evaluated 3-year outcomes of XEN45 Gel Stent (XGS) in Asian versus non-Asian eyes with primary open angle glaucoma (POAG).\nMETHODS: This multicentre, retrospective cohort included 117 eyes with POAG undergoing XGS implantation, with or without concomitant phacoemulsification, between January 2017 and March 2023. Eyes were categorized as Asian or non-Asian based on recorded ethnicity. The primary outcome was cumulative surgical success at three years using survival analyses across intraocular pressure (IOP) thresholds (≤ 18, ≤ 15, and ≤ 12 mmHg with ≥ 20% reduction from baseline). Secondary analysis incorporating a medication reduction goal was performed. Secondary outcomes included longitudinal changes in IOP and medications, predictors of time-to-failure, and postoperative interventions and complications. Longitudinal outcomes were analysed using linear mixed-effects models. Multivariable Cox proportional hazards models evaluated predictors of failure.\nRESULTS: 92 Asian and 25 non-Asian eyes were included. Both groups demonstrated sustained reductions in IOP and medication burden over 36 months. Three-year cumulative success rates were comparable between Asian and non-Asian eyes across all success definitions (AR-18: 72.2% vs. 76.5%; AR-15: 72.7% vs. 76.5%; AR-12: 68.6% vs. 63.9%; all p > 0.30). No significant differences in cumulative success were observed between Phaco-XEN and standalone XEN procedures. Ethnicity and concomitant phacoemulsification were not independently associated with time-to-failure. Post-operative interventions and complications were infrequent.\nCONCLUSION: XGS demonstrated no significant differences in 3-year surgical success, safety, and durability between broadly categorized Asian and non-Asian eyes with POAG. Neither ethnicity nor concomitant phacoemulsification independently influenced failure risk.",
+    "mots_cles_auteurs": [
+      "Minimally invasive glaucoma surgery",
+      "Open angle glaucoma",
+      "XEN45"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 12,
+    "affiliations_auteurs": [
+      "Department of Ophthalmology, Tan Tock Seng Hospital, National Healthcare Group Eye Institute, 11 Jln Tan Tock Seng, Singapore, 308433, Singapore.",
+      "Department of Ophthalmology, Taipei Veterans General Hospital, Taipei, Taiwan.",
+      "Faculty of Medicine, National Yang Ming Chiao Tung University, Taipei, Taiwan.",
+      "Massachusetts Eye and Ear, Glaucoma Service, Boston, USA.",
+      "Shin Kong Wu Ho-Su Memorial Hospital, Taipei, Taiwan.",
+      "Department of Ophthalmology, Mayo Clinic, Jacksonville, USA.",
+      "New York Eye and Ear Infirmary of Mount Sinai, New York, New York, USA.",
+      "Massachusetts Eye and Ear, Glaucoma Service, Boston, USA. david_sola-delvalle@meei.harvard.edu.",
+      "Carle Illinois College of Medicine, Champaign, IL, USA. david_sola-delvalle@meei.harvard.edu.",
+      "Department of Ophthalmology, Tan Tock Seng Hospital, National Healthcare Group Eye Institute, 11 Jln Tan Tock Seng, Singapore, 308433, Singapore. drbryanang@gmail.com.",
+      "Department of Ophthalmology, Mayo Clinic, Jacksonville, USA. drbryanang@gmail.com.",
+      "Lee Kong Chian School of Medicine, Nanyang Technological University, Singapore, Singapore. drbryanang@gmail.com."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7222851764",
+      "doi": "10.1007/s00417-026-07529-1",
+      "pmid": "42891852",
+      "pmcid": null,
+      "titre": "36-month multi-centre outcomes of XEN45 gel stent implantation in Asian versus non-Asian eyes with primary open angle glaucoma",
+      "lien": "https://openalex.org/W7222851764",
+      "date_publication": "2026-10-17",
+      "type": "article",
+      "revue": "Graefe s Archive for Clinical and Experimental Ophthalmology",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "pubmed"
+      ],
+      "financeurs": null,
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "Tan Tock Seng Hospital",
+          "pays": "SG",
+          "type": "healthcare",
+          "ror": "https://ror.org/032d59j24"
+        },
+        {
+          "nom": "National Healthcare Group",
+          "pays": "SG",
+          "type": "healthcare",
+          "ror": "https://ror.org/05qkemg93"
+        },
+        {
+          "nom": "National Yang Ming Chiao Tung University",
+          "pays": "TW",
+          "type": "education",
+          "ror": "https://ror.org/00se2k293"
+        },
+        {
+          "nom": "Taipei Veterans General Hospital",
+          "pays": "TW",
+          "type": "healthcare",
+          "ror": "https://ror.org/03ymy8z76"
+        },
+        {
+          "nom": "Massachusetts Eye and Ear Infirmary",
+          "pays": "US",
+          "type": "healthcare",
+          "ror": "https://ror.org/04g3dn724"
+        },
+        {
+          "nom": "Shin Kong WHS Memorial Hospital",
+          "pays": "TW",
+          "type": "healthcare",
+          "ror": "https://ror.org/04x744g62"
+        },
+        {
+          "nom": "New York Eye and Ear Infirmary",
+          "pays": "US",
+          "type": "healthcare",
+          "ror": "https://ror.org/00tcb9k97"
+        },
+        {
+          "nom": "Mayo Clinic in Florida",
+          "pays": "US",
+          "type": "healthcare",
+          "ror": "https://ror.org/03zzw1w08"
+        },
+        {
+          "nom": "Mayo Clinic",
+          "pays": "US",
+          "type": "healthcare",
+          "ror": "https://ror.org/02qp3tb03"
+        },
+        {
+          "nom": "Nanyang Technological University",
+          "pays": "SG",
+          "type": "education",
+          "ror": "https://ror.org/02e7b5302"
+        }
+      ],
+      "acces_ouvert": false,
+      "statut_acces": "closed",
+      "url_texte": null,
+      "url_pdf": null,
+      "licence": null,
+      "texte_integral_indexe": false,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Glaucoma and retinal disorders",
+      "resume_present": false,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": []
+  }
+}

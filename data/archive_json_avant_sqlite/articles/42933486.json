@@ -1,0 +1,126 @@
+{
+  "pmid": "42933486",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42933486",
+    "titre": "Association between Metabolic Dysfunction-Associated Steatotic Liver Disease and Intraocular pressure-related outcomes: A systematic review.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42933486/",
+    "doi": "10.3341/kjo.2026.0099",
+    "pmcid": null,
+    "revue": "Korean journal of ophthalmology : KJO",
+    "date_entree_pubmed": "2026-10-26",
+    "date_publication": "2026-Oct-26",
+    "types_publication": [
+      "Journal Article"
+    ],
+    "resume_present": true,
+    "resume": "INTRODUCTION: Metabolic Dysfunction-Associated Steatotic Liver Disease (MASLD) is increasingly recognized as a systemic metabolic disorder with potential ocular manifestations. Emerging evidence suggests a relationship between MASLD and glaucoma; however, findings remain inconsistent. We conducted a systematic review to evaluate the association between MASLD and intraocular pressure (IOP) related outcomes.\nMETHODS: We retrieved relevant articles from four databases (PubMed, Embase, Scopus, and Cochrane) and adhered to Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA) guidelines. The primary outcomes were the proportion with glaucoma and the mean IOP among individuals with MASLD compared with those without fatty liver disease. A meta-analysis was performed to estimate the pooled mean difference (MD) with 95% confidence interval (CI) in IOP between the fatty liver and non-fatty liver groups, using a random-effects model.\nRESULTS: Five observational studies involving more than 370,000 participants were included, with four retrospective and one prospective cohort. Across studies, individuals with fatty liver consistently demonstrated higher IOP and a greater risk of glaucoma-related outcomes compared with those without fatty liver disease. Increasing severity of fatty liver was associated with higher IOP in three studies. A meta-analysis comprising 23,625 participants (7,409 with fatty liver and 16,216 healthy) demonstrated a significantly higher mean IOP in patients with fatty liver (MD: 0.81 mmHg; 95% CI: 0.51-1.10; p=0.007).\nCONCLUSIONS: Current evidence suggests that patients with MASLD have higher intraocular pressure. Individuals with MASLD may represent a high-risk population warranting ophthalmic screening and closer metabolic risk assessment.",
+    "mots_cles_auteurs": [
+      "Fatty liver",
+      "Glaucoma",
+      "Intraocular pressure",
+      "Metabolic syndrome",
+      "Steatosis"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 7,
+    "affiliations_auteurs": [
+      "Institute of Physiology and Experimental Medicine, Madras Medical College, Tamil Nadu, India.",
+      "Department of Community Medicine, Al-Azhar Medical College and Super Specialty Hospital, Thodupuzha, Idukki, Kerala, India.",
+      "Department of Ophthalmology, Fathima Eye Hospital, Thrissur, Kerala, India.",
+      "Division of Medical Research, SRM Medical College Hospital and Research Centre, SRM Institute of Science and Technology, Kattankulathur, Chengalpattu, Tamil Nadu, India.",
+      "Scientist E, Division of Non-Communicable Diseases, Indian Council of Medical Research - National Institute of Epidemiology, Chennai, Tamil Nadu, India.",
+      "Department of Clinical Research, Ganga Medical Centre and Hospital, Coimbatore, Tamil Nadu, India. moganka1994@gmail.com."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7223670923",
+      "doi": "10.3341/kjo.2026.0099",
+      "pmid": "42933486",
+      "pmcid": null,
+      "titre": "Association between Metabolic Dysfunction-Associated Steatotic Liver Disease and Intraocular pressure-related outcomes: A systematic review",
+      "lien": "https://openalex.org/W7223670923",
+      "date_publication": "2026-10-26",
+      "type": "review",
+      "revue": "Korean Journal of Ophthalmology",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "doaj",
+        "pubmed"
+      ],
+      "financeurs": null,
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "Madras Medical College",
+          "pays": "IN",
+          "type": "education",
+          "ror": "https://ror.org/050ztxn78"
+        },
+        {
+          "nom": "SRM Institute of Science and Technology",
+          "pays": "IN",
+          "type": "education",
+          "ror": "https://ror.org/050113w36"
+        },
+        {
+          "nom": "SRM Medical College Hospital and Research Centre",
+          "pays": "IN",
+          "type": "education",
+          "ror": "https://ror.org/00x0zah42"
+        },
+        {
+          "nom": "Indian Council of Medical Research",
+          "pays": "IN",
+          "type": "government",
+          "ror": "https://ror.org/0492wrx28"
+        },
+        {
+          "nom": "National Institute of Epidemiology",
+          "pays": "IN",
+          "type": "facility",
+          "ror": "https://ror.org/011471042"
+        },
+        {
+          "nom": "Ganga Hospital",
+          "pays": "IN",
+          "type": "healthcare",
+          "ror": "https://ror.org/04f8gc808"
+        }
+      ],
+      "acces_ouvert": true,
+      "statut_acces": "gold",
+      "url_texte": "https://www.ekjo.org/upload/pdf/kjo-2026-0099.pdf",
+      "url_pdf": "https://www.ekjo.org/upload/pdf/kjo-2026-0099.pdf",
+      "licence": "cc-by-nc",
+      "texte_integral_indexe": true,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Glaucoma and retinal disorders",
+      "resume_present": true,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": []
+  }
+}

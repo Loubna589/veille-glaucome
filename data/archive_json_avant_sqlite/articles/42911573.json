@@ -1,0 +1,84 @@
+{
+  "pmid": "42911573",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42911573",
+    "titre": "Incidence and Risk Factors of Recurrent Visual Field Progression in Glaucoma.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42911573/",
+    "doi": "10.1001/jamaophthalmol.2026.4609",
+    "pmcid": "PMC13691913",
+    "revue": "JAMA ophthalmology",
+    "date_entree_pubmed": "2026-10-23",
+    "date_publication": "2026-Oct-22",
+    "types_publication": [
+      "Journal Article"
+    ],
+    "resume_present": true,
+    "resume": "IMPORTANCE: A confirmed visual field progression event in glaucoma typically prompts intensification of intraocular pressure (IOP)-lowering therapy, yet the factors associated with recurrent progression after that first event remain poorly characterized.\nOBJECTIVE: To evaluate the incidence of recurrent visual field progression after an initial Guided Progression Analysis (GPA) likely-progression event and the factors associated with a recurrent event.\nDESIGN, SETTING, AND PARTICIPANTS: This cohort study was conducted among patients receiving routine ophthalmic care between 1998 and 2025 at a single tertiary academic center (Bascom Palmer Ophthalmic Registry). Data were analyzed from February 2026 to August 2026.\nMAIN OUTCOMES AND MEASURES: The primary outcomes were the cumulative probability of recurrent visual field progression and hazard ratios (HRs) for factors associated with recurrence.\nRESULTS: A total of 7457 eyes of 5086 patients with open-angle glaucoma or suspected glaucoma were included, with a mean (SD) follow-up of 12.4 (4.6) years. Mean (SD) patient age was 60.5 (13.1) years, and 4468 eyes (59.9%) were from female patients. By self-reported race and ethnicity, 203 eyes (2.7%) were from Asian patients, 1718 (23.0%) from Black patients, 1677 (22.5%) from Hispanic patients, and 5536 (74.2%) from White patients. A total of 1951 eyes (26.2%) developed initial GPA likely progression; 635 eyes had adequate follow-up after first progression and IOP data. Among those, 167 (26.3%) recurred. Kaplan-Meier cumulative recurrence was 13.8% at 3 years (95% CI, 11.6%-17.1%) and 43.5% at 10 years (95% CI, 35.8%-52.1%). In multivariable Cox analysis, faster mean deviation (MD) loss before first progression (HR, 1.73 per 1 decibel [dB]/y; 95% CI, 1.39-2.15), higher mean IOP after the first event (HR, 1.09 per 1 mm Hg; 95% CI, 1.05-1.13), less negative MD at first progression (HR, 1.08 per 1 dB; 95% CI, 1.04-1.12), and older age (HR, 1.11 per 5 years; 95% CI, 1.03-1.19) were independently associated with recurrence. Each 10% greater IOP reduction was associated with lower hazard (HR, 0.89; 95% CI, 0.83-0.94). Among eyes with pre-event MD slopes faster than -1.0 dB/y, recurrence occurred in 42.7% of eyes vs 23.4% in slower-progressing eyes (difference, 19.3%; 95% CI, 8.8%-29.9%).\nCONCLUSIONS AND RELEVANCE: Findings from this cohort study suggest that recurrent visual field progression after a first GPA progression event is common; eyes at highest risk had faster pre-event visual field loss, less advanced damage at first progression, higher postevent IOP, and older age. These results may help target intensified monitoring and IOP lowering toward higher-risk eyes.",
+    "mots_cles_auteurs": null,
+    "langue": "eng",
+    "nombre_auteurs": 4,
+    "affiliations_auteurs": [
+      "Bascom Palmer Eye Institute, University of Miami, Miami, Florida."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7223238325",
+      "doi": "10.1001/jamaophthalmol.2026.4609",
+      "pmid": "42911573",
+      "pmcid": "13691913",
+      "titre": "Incidence and Risk Factors of Recurrent Visual Field Progression in Glaucoma",
+      "lien": "https://openalex.org/W7223238325",
+      "date_publication": "2026-10-22",
+      "type": "article",
+      "revue": "JAMA Ophthalmology",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "pubmed"
+      ],
+      "financeurs": null,
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "University of Miami",
+          "pays": "US",
+          "type": "education",
+          "ror": "https://ror.org/02dgjyy92"
+        }
+      ],
+      "acces_ouvert": true,
+      "statut_acces": "green",
+      "url_texte": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13691913/",
+      "url_pdf": null,
+      "licence": "cc-by",
+      "texte_integral_indexe": false,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Glaucoma and retinal disorders",
+      "resume_present": true,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": []
+  }
+}

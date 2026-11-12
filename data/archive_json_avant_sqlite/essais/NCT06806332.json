@@ -1,0 +1,102 @@
+{
+  "nct": "NCT06806332",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "nct": "NCT06806332",
+    "titre": "Glaucoma Drop Aids Part 2",
+    "titre_officiel": "Glaucoma Drop Aids Part 2",
+    "lien": "https://clinicaltrials.gov/study/NCT06806332",
+    "date_premiere_publication": "2025-02-04",
+    "date_derniere_mise_a_jour": "2026-10-30",
+    "type_etude": "INTERVENTIONAL",
+    "phases_declarees": [
+      "NA"
+    ],
+    "statut": "NOT_YET_RECRUITING",
+    "raison_arret": null,
+    "date_debut": "2027-01",
+    "date_fin_principale": "2028-06",
+    "promoteur": "Boston Medical Center",
+    "type_promoteur": "OTHER",
+    "collaborateurs": [
+      "Boston Medical Center Patient Safety Grant"
+    ],
+    "conditions": [
+      "Glaucoma",
+      "Intraocular Pressure"
+    ],
+    "interventions": [
+      {
+        "type": "DEVICE",
+        "nom": "Nanodropper"
+      }
+    ],
+    "participants_nombre": 80,
+    "participants_type": "ESTIMATED",
+    "criteres_principaux": [
+      {
+        "critere": "Completion of topical ophthalmic drug bottle",
+        "delai": "12 weeks"
+      },
+      {
+        "critere": "Satisfaction with dispensing opthalmic medication",
+        "delai": "12 weeks"
+      }
+    ],
+    "resultats_deposes": false,
+    "publications_declarees": null,
+    "resume_source": "Glaucoma medications are vital to disease management and prevention of further loss of vision as over time glaucoma will lead to irreversible blindness. The average size of a glaucoma medication bottle is around 10cc and these medications when used 2-3 times daily are expected to last patients an entire month. The investigators found that at Boston Medical Center (BMC) a majority of Yawkey Eye Clinic patients are unable to deliver the drops into their eyes due to poor vision or difficulty squeezing drop bottles. These patients also often deliver more than a necessary amount leading to premature completion of the bottle. However, because the cost benefit ratio of these drop aids is unclear, they are not routinely offered to the patients. Although the efficacy of these drop aids has not been well studied, if effective, the cost of these drop aids would more than pay themselves by improving medication compliance and visual function of the patients. This study aims to determine the efficacy of the Nanodropper in the BMC Yawkey Eye Clinic patient population.",
+    "citations_declarees": null,
+    "plan": {
+      "repartition": "RANDOMIZED",
+      "modele": "CROSSOVER",
+      "but_principal": "SUPPORTIVE_CARE",
+      "insu": "NONE",
+      "insu_pour": null,
+      "insu_description": null,
+      "modele_observationnel": null
+    },
+    "bras": [
+      {
+        "libelle": "Drop aid used then no drop aid",
+        "type": "EXPERIMENTAL",
+        "description": "Participants randomized into this group will be assigned to use the Nanodropper over the first 4-6 weeks, and then no drop aid device over the next 4-6 weeks.",
+        "interventions": [
+          "Device: Nanodropper"
+        ]
+      },
+      {
+        "libelle": "No drop aid then drop aid",
+        "type": "EXPERIMENTAL",
+        "description": "Participants randomized into this group will be assigned to use no drop aid over the first 4-6 weeks, and then to use the Nanodropper over the next 4-6 weeks.",
+        "interventions": [
+          "Device: Nanodropper"
+        ]
+      }
+    ],
+    "eligibilite": {
+      "criteres": "Inclusion Criteria:\n\n* Currently on the same topical ophthalmic medications for treatment of glaucoma for a minimum of two months\n* Patient of Boston University Eye Associates\n\nExclusion Criteria:\n\n* Changed glaucoma medications within the past 2 months",
+      "age_min": "18 Years",
+      "age_max": null,
+      "sexe": "ALL",
+      "volontaires_sains": false
+    },
+    "criteres_secondaires": [
+      {
+        "critere": "Change in intraocular pressure with drop aid",
+        "delai": "before starting the drop aid, after 6 weeks of using the drop aid"
+      }
+    ],
+    "responsables": [
+      {
+        "nom": "Manishi Desai, MD",
+        "affiliation": "BostonMedical Center, Ophthalmology",
+        "role": "PRINCIPAL_INVESTIGATOR"
+      }
+    ],
+    "date_depot_resultats": null,
+    "resultats": null
+  },
+  "modifications": []
+}

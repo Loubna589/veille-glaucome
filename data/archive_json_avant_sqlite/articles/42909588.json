@@ -1,0 +1,168 @@
+{
+  "pmid": "42909588",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42909588",
+    "titre": "Psychological distress associated with glaucoma: potential predictors and contributing factors.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42909588/",
+    "doi": "10.1007/s00417-026-07395-x",
+    "pmcid": null,
+    "revue": "Graefe's archive for clinical and experimental ophthalmology = Albrecht von Graefes Archiv fur klinische und experimentelle Ophthalmologie",
+    "date_entree_pubmed": "2026-10-23",
+    "date_publication": "2026-Oct-23",
+    "types_publication": [
+      "Journal Article"
+    ],
+    "resume_present": true,
+    "resume": "PURPOSE: Glaucoma is a chronic, progressive optic neuropathy and one of the leading causes of irreversible blindness worldwide. Beyond visual impairment, the disease can impose a considerable psychological burden. This study aimed to investigate the relationship between glaucoma and psychological distress, and to identify clinical and psychosocial predictors that may contribute to heightened risk, with the aim of informing management strategies to improve patients' quality of life.\nMETHODS: A cross-sectional quantitative study was conducted involving 107 glaucoma patients treated at the University Eye Clinic Cologne. Data were collected using a standardized questionnaire, including demographic and clinical variables as well as the validated Patient Health Questionnaire-9 (PHQ-9). Statistical analyses included descriptive statistics, Spearman correlations, and multiple linear regression to identify predictors of psychological burden.\nRESULTS: 25.23% of patients exhibited mild to severe depressive symptoms according to PHQ-9 scores. Significant predictors of higher psychological burden were increased disease preoccupation (β = 0.237, p = 0.007), stronger fear of blindness (β = 0.315, p < 0.001), and poorer self-rated general health status (β = -0.382, p < 0.001).\nCONCLUSION: The findings demonstrate a strong link between glaucoma and psychological distress. These results highlight the need to consider psychosocial factors alongside intraocular pressure in glaucoma management. Interdisciplinary care involving ophthalmologists, psychologists, and nursing staff may improve patient outcomes and quality of life.",
+    "mots_cles_auteurs": [
+      "Depression",
+      "Glaucoma",
+      "Psychological burden",
+      "Quality of life",
+      "Stress",
+      "Well-being"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 7,
+    "affiliations_auteurs": [
+      "Department of Ophthalmology, University of Cologne, Cologne, Germany.",
+      "Department of Ophthalmology, University Medical Center Mainz, Mainz, Germany.",
+      "Department of Ophthalmology, University of Bonn, Bonn, Germany.",
+      "Department of Ophthalmology, University of Cologne, Cologne, Germany. verena.prokosch@uk-koeln.de.",
+      "Department of Ophthalmology, University Medical Center Mainz, Mainz, Germany. verena.prokosch@uk-koeln.de.",
+      "Department of Ophthalmology, Cologne University Hospital, Kerpener Str. 62, 50937, Cologne, Germany. verena.prokosch@uk-koeln.de.",
+      "Department of Ophthalmology, University Hospital RWTH Aachen, Aachen, Germany. verena.prokosch@uk-koeln.de."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7223208793",
+      "doi": "10.1007/s00417-026-07395-x",
+      "pmid": "42909588",
+      "pmcid": null,
+      "titre": "Psychological distress associated with glaucoma: potential predictors and contributing factors",
+      "lien": "https://openalex.org/W7223208793",
+      "date_publication": "2026-10-23",
+      "type": "article",
+      "revue": "Graefe s Archive for Clinical and Experimental Ophthalmology",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "pubmed"
+      ],
+      "financeurs": [
+        {
+          "nom": "Deutsche Forschungsgemeinschaft",
+          "ror": "https://ror.org/018mejw64"
+        }
+      ],
+      "subventions": [
+        {
+          "financeur": "Deutsche Forschungsgemeinschaft",
+          "reference": "SFB 1607"
+        }
+      ],
+      "institutions": [
+        {
+          "nom": "University of Cologne",
+          "pays": "DE",
+          "type": "education",
+          "ror": "https://ror.org/00rcxh774"
+        },
+        {
+          "nom": "University Medical Center of the Johannes Gutenberg University Mainz",
+          "pays": "DE",
+          "type": "healthcare",
+          "ror": "https://ror.org/00q1fsf04"
+        },
+        {
+          "nom": "University of Bonn",
+          "pays": "DE",
+          "type": "education",
+          "ror": "https://ror.org/041nas322"
+        },
+        {
+          "nom": "Universitätsklinikum Aachen",
+          "pays": "DE",
+          "type": "healthcare",
+          "ror": "https://ror.org/02gm5zw39"
+        },
+        {
+          "nom": "University Hospital Cologne",
+          "pays": "DE",
+          "type": "healthcare",
+          "ror": "https://ror.org/05mxhda18"
+        },
+        {
+          "nom": "RWTH Aachen University",
+          "pays": "DE",
+          "type": "education",
+          "ror": "https://ror.org/04xfq0f34"
+        }
+      ],
+      "acces_ouvert": true,
+      "statut_acces": "hybrid",
+      "url_texte": "https://link.springer.com/content/pdf/10.1007/s00417-026-07395-x.pdf",
+      "url_pdf": "https://link.springer.com/content/pdf/10.1007/s00417-026-07395-x.pdf",
+      "licence": "cc-by",
+      "texte_integral_indexe": true,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Glaucoma and retinal disorders",
+      "resume_present": true,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": [
+      {
+        "nom": "Deutsche Forschungsgemeinschaft",
+        "statut": "À VÉRIFIER — trouvé par OpenAlex seulement (absent de la déclaration de l'éditeur dans Crossref) ; à contrôler dans le texte de l'article",
+        "references": [
+          "SFB 1607"
+        ],
+        "notices": [
+          [
+            "notice OpenAlex",
+            "https://api.openalex.org/works/W7223208793"
+          ],
+          [
+            "notice Crossref consultée (ne confirme pas ce financeur)",
+            "https://api.crossref.org/works/10.1007/s00417-026-07395-x"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "Deutsche Forschungsgemeinschaft (DFG) Sonderforschungsbereich SFB 1607",
+        "statut": "CONFIRMÉ — déclaré par l'éditeur dans Crossref (absent d'OpenAlex)",
+        "references": null,
+        "notices": [
+          [
+            "notice justificative Crossref (déclaration de l'éditeur)",
+            "https://api.crossref.org/works/10.1007/s00417-026-07395-x"
+          ]
+        ],
+        "note": null
+      }
+    ]
+  }
+}

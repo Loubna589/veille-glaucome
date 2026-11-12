@@ -1,0 +1,103 @@
+{
+  "pmid": "42941712",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42941712",
+    "titre": "Real-World Treatment Patterns and Persistence of Omidenepag Isopropyl in Korean Patients with Normal-Tension Glaucoma.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42941712/",
+    "doi": "10.3390/jcm15208200",
+    "pmcid": "PMC13705832",
+    "revue": "Journal of clinical medicine",
+    "date_entree_pubmed": "2026-10-27",
+    "date_publication": "2026-Oct-21",
+    "types_publication": [
+      "Journal Article"
+    ],
+    "resume_present": true,
+    "resume": "Background/Objectives: Prostaglandin analogues may cause prostaglandin-associated periorbitopathy (PAP). Omidenepag isopropyl (OMDI), a selective EP2 receptor agonist, may provide an alternative, but real-world data in normal-tension glaucoma (NTG) are limited. We evaluated treatment patterns, persistence, and intraocular pressure (IOP) outcomes of OMDI in Korean patients with NTG. Methods: This retrospective study included 403 eyes of 218 patients with NTG who initiated OMDI and were followed for up to 12 months. Patients received monotherapy, adjunctive therapy, or switching therapy. IOP was analyzed using a three-level linear mixed-effects model, and persistence was assessed using Kaplan-Meier analysis. Results: OMDI was prescribed as monotherapy in 88 patients (40.4%), adjunctive therapy in 25 (11.5%), and switching therapy in 105 (48.2%). Among switchers, PAP was the most common reason (68.6%). IOP decreased significantly in all groups (all p < 0.001), with model-estimated 12-month changes of -4.08, -3.37, and -1.40 mmHg, respectively. Twelve-month persistence was 79.8%. OMDI was discontinued in 44 patients (20.2%), most commonly because of visual disturbance or decreased vision (38.6%). Conclusions: OMDI provided sustained IOP reduction and 79.8% 12-month persistence in Korean patients with NTG and was frequently selected as an alternative to prostaglandin analogues in patients with PAP.",
+    "mots_cles_auteurs": [
+      "EP2 receptor agonist",
+      "normal-tension glaucoma",
+      "omidenepag isopropyl",
+      "prostaglandin-associated periorbitopathy",
+      "real-world evidence",
+      "treatment persistence"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 2,
+    "affiliations_auteurs": [
+      "Department of Ophthalmology, Konkuk University Medical Center, Konkuk University School of Medicine, Seoul 05030, Republic of Korea."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": true,
+      "produit_suivi_etudie_suggere": true,
+      "produits_suivis": [
+        {
+          "produit": "omidenepag",
+          "role": "étudié",
+          "statut_role": "rôle suggéré, à vérifier (règle automatique appliquée au titre)"
+        }
+      ],
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7223183543",
+      "doi": "10.3390/jcm15208200",
+      "pmid": "42941712",
+      "pmcid": "13705832",
+      "titre": "Real-World Treatment Patterns and Persistence of Omidenepag Isopropyl in Korean Patients with Normal-Tension Glaucoma",
+      "lien": "https://openalex.org/W7223183543",
+      "date_publication": "2026-10-21",
+      "type": "article",
+      "revue": "Journal of Clinical Medicine",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "pubmed"
+      ],
+      "financeurs": null,
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "Konkuk University",
+          "pays": "KR",
+          "type": "education",
+          "ror": "https://ror.org/025h1m602"
+        },
+        {
+          "nom": "Konkuk University Medical Center",
+          "pays": "KR",
+          "type": "healthcare",
+          "ror": "https://ror.org/00jcx1769"
+        }
+      ],
+      "acces_ouvert": true,
+      "statut_acces": "gold",
+      "url_texte": "https://doi.org/10.3390/jcm15208200",
+      "url_pdf": null,
+      "licence": "cc-by",
+      "texte_integral_indexe": true,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Glaucoma and retinal disorders",
+      "resume_present": true,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": []
+  }
+}

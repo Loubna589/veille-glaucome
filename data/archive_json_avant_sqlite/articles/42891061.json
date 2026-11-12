@@ -1,0 +1,197 @@
+{
+  "pmid": "42891061",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42891061",
+    "titre": "Next-Generation Sequencing to Identify Genetic Causes of Chinese Patients Affected With Non-retinal Developmental Eye Disorders.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42891061/",
+    "doi": "10.1155/humu/4035027",
+    "pmcid": "PMC13673294",
+    "revue": "Human mutation",
+    "date_entree_pubmed": "2026-10-17",
+    "date_publication": "2026",
+    "types_publication": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ],
+    "resume_present": true,
+    "resume": "To investigate the genetic causes of non-retinal developmental eye disorders in 14 Chinese different families, we subjected participants to a specific hereditary eye disease enrichment panel (HEDEP) or whole exome sequencing. We further validated disease-causing variants and performed co-segregation analyses on the available family members by Sanger sequencing. We classified sequence changes according to the American College of Medical Genetics and Genomics and the Association for Molecular Pathology variant interpretation guidelines. Fourteen probands with diverse clinical diagnoses were analyzed, including microphthalmia (with or without microcornea and congenital cataract or congenital corneal opacification (CCO), four cases), anterior segment dysgenesis (ASD, six cases)-including Peter's anomaly (PA, one case), PA and microphthalmia (one case), iridocoloboma or aniridia (with microcornea and/or congenital cataract, two cases), and primary congenital glaucoma (PCG, two cases)-congenital cataract (with CCO or microcornea, three cases), and Rubinstein-Taybi syndrome (RSTS, one case). Initial inheritance patterns for 1, 5, and 8 cases were autosomal recessive, autosomal dominant, and sporadic, respectively. We identified 17 (likely) pathogenic variants and one variant of uncertain significance (VUS) in 16 genes, including BMP4, BCOR, PITX3, and PAX6. Among them, eight were novel variants, and two were de novo. We confirmed the pathogenicity of PAX6 intronic mutation using in vitro splice assays and redefined the pathogenicity of the variants of uncertain significance as likely pathogenic. Patients with developmental eye diseases typically have complex ocular and systemic phenotypes, possibly leading to significant visual impairment and high blindness rates. Identifying the genetic causes facilitates early diagnosis and effective treatment and rehabilitation strategies, thereby providing valuable insights for genetic and clinical counseling of these patients.",
+    "mots_cles_auteurs": [
+      "Rubinstein–Taybi syndrome",
+      "de novo variants",
+      "developmental eye disorders",
+      "hereditary eye disease enrichment panel",
+      "whole exome sequencing"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 7,
+    "affiliations_auteurs": [
+      "Department of Ophthalmology Peking University Third Hospital Beijing China puh3.net.cn."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": [
+      "Adolescent",
+      "Adult",
+      "Child",
+      "Child, Preschool",
+      "Female",
+      "Humans",
+      "Infant",
+      "Male",
+      "China",
+      "Exome Sequencing",
+      "Eye Abnormalities",
+      "Eye Diseases, Hereditary",
+      "Genetic Association Studies",
+      "Genetic Predisposition to Disease",
+      "High-Throughput Nucleotide Sequencing",
+      "Mutation",
+      "PAX6 Transcription Factor",
+      "Pedigree",
+      "East Asian People"
+    ]
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": null,
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7222474535",
+      "doi": "10.1155/humu/4035027",
+      "pmid": "42891061",
+      "pmcid": "13673294",
+      "titre": "Next‐Generation Sequencing to Identify Genetic Causes of Chinese Patients Affected With Non‐retinal Developmental Eye Disorders",
+      "lien": "https://openalex.org/W7222474535",
+      "date_publication": "2026-01-01",
+      "type": "article",
+      "revue": "Human Mutation",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "pubmed"
+      ],
+      "financeurs": [
+        {
+          "nom": "National Natural Science Foundation of China",
+          "ror": "https://ror.org/01h0zpd94"
+        },
+        {
+          "nom": "Peking University",
+          "ror": "https://ror.org/02v51f717"
+        },
+        {
+          "nom": "Fundamental Research Funds for the Central Universities",
+          "ror": null
+        }
+      ],
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "Peking University Third Hospital",
+          "pays": "CN",
+          "type": "healthcare",
+          "ror": "https://ror.org/04wwqze12"
+        }
+      ],
+      "acces_ouvert": true,
+      "statut_acces": "hybrid",
+      "url_texte": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1155/humu/4035027",
+      "url_pdf": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1155/humu/4035027",
+      "licence": "cc-by",
+      "texte_integral_indexe": true,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Ocular Disorders and Treatments",
+      "resume_present": true,
+      "mesh": [
+        "PAX6 Transcription Factor",
+        "Exome Sequencing",
+        "East Asian People",
+        "Adolescent",
+        "Adult",
+        "Child",
+        "Child, Preschool",
+        "China",
+        "Eye Abnormalities",
+        "Female",
+        "Humans",
+        "Infant",
+        "Male",
+        "Mutation",
+        "Pedigree",
+        "Eye Diseases, Hereditary",
+        "Genetic Predisposition to Disease",
+        "Genetic Association Studies",
+        "High-Throughput Nucleotide Sequencing"
+      ]
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": [
+      {
+        "nom": "National Natural Science Foundation of China",
+        "statut": "CONFIRMÉ — déclaré par l'éditeur dans Crossref",
+        "references": [
+          "82401215 to LXZ"
+        ],
+        "notices": [
+          [
+            "notice justificative Crossref (déclaration de l'éditeur)",
+            "https://api.crossref.org/works/10.1155/humu/4035027"
+          ],
+          [
+            "notice OpenAlex",
+            "https://api.openalex.org/works/W7222474535"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "Peking University",
+        "statut": "CONFIRMÉ — déclaré par l'éditeur dans Crossref",
+        "references": null,
+        "notices": [
+          [
+            "notice justificative Crossref (déclaration de l'éditeur)",
+            "https://api.crossref.org/works/10.1155/humu/4035027"
+          ],
+          [
+            "notice OpenAlex",
+            "https://api.openalex.org/works/W7222474535"
+          ]
+        ],
+        "note": "cet organisme figure AUSSI parmi les institutions des auteurs : c'est une affiliation, information distincte"
+      },
+      {
+        "nom": "Fundamental Research Funds for the Central Universities",
+        "statut": "CONFIRMÉ — déclaré par l'éditeur dans Crossref",
+        "references": [
+          "BMU2024YFJHPY019 to LXZ"
+        ],
+        "notices": [
+          [
+            "notice justificative Crossref (déclaration de l'éditeur)",
+            "https://api.crossref.org/works/10.1155/humu/4035027"
+          ],
+          [
+            "notice OpenAlex",
+            "https://api.openalex.org/works/W7222474535"
+          ]
+        ],
+        "note": null
+      }
+    ]
+  }
+}

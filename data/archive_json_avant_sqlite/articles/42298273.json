@@ -1,0 +1,187 @@
+{
+  "pmid": "42298273",
+  "premiere_detection": "2026-09-25",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42298273",
+    "titre": "Efficacy and safety of sepetaprost in patients with primary open-angle glaucoma or ocular hypertension: results from the randomised, phase 3 ANGEL-J1 study.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42298273/",
+    "doi": "10.1007/s10384-026-01350-3",
+    "pmcid": "PMC13452788",
+    "revue": "Japanese journal of ophthalmology",
+    "date_entree_pubmed": "2026-06-15",
+    "date_publication": "2026-Jul",
+    "types_publication": [
+      "Journal Article",
+      "Clinical Trial, Phase III",
+      "Randomized Controlled Trial",
+      "Multicenter Study",
+      "Equivalence Trial"
+    ],
+    "resume_present": true,
+    "resume": "PURPOSE: To evaluate the efficacy and safety of sepetaprost, a novel dual FP/EP3 receptor agonist, in patients with primary open-angle glaucoma (POAG) or ocular hypertension (OHT).\nSTUDY DESIGN: ANGEL-J1 (NCT05495061) was a phase 3, randomised, investigator-masked, active-controlled, parallel-group, non-inferiority study across 49 sites in Japan.\nMETHODS: Adults with POAG or OHT were randomised 1:1 to topical sepetaprost 0.002% or latanoprost 0.005%, once daily for 3 months. The primary endpoint was change in mean diurnal intraocular pressure (IOP) from baseline at week 4 (non-inferiority margin, 1.5 mmHg); a key secondary endpoint was mean change in IOP from baseline over 3 months. Safety outcomes included the incidence of adverse drug reactions (ADRs).\nRESULTS: In total, 325 patients were randomised to sepetaprost (n=162) or latanoprost (n=163). In mixed model for repeated measures analyses, ANGEL-J1 met its primary endpoint; the least-squares mean (± standard error) change in mean diurnal IOP from baseline at week 4 was -5.77±0.16 mmHg in the sepetaprost group, which was non-inferior to -6.10±0.16 mmHg in the latanoprost group (least-squares mean difference, 0.32 mmHg [95% confidence interval, -0.12, 0.77]). Non-inferiority for the key secondary endpoint was also established, with comparable mean reductions in IOP between groups maintained over 3 months. ADRs occurred in 59 patients (36.4%) receiving sepetaprost and 33 (20.2%) receiving latanoprost; the most common ADR was conjunctival hyperaemia (29.6% and 8.6%, respectively; mostly mild in severity).\nCONCLUSION: In patients with POAG or OHT, sepetaprost demonstrated IOP-lowering efficacy that was non-inferior to latanoprost, and an acceptable safety profile.",
+    "mots_cles_auteurs": [
+      "Dual FP/EP3 receptor agonist",
+      "Intraocular pressure",
+      "Ocular hypertension",
+      "Primary open-angle glaucoma",
+      "Sepetaprost"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 5,
+    "affiliations_auteurs": [
+      "Department of Ophthalmology, Faculty of Medical Sciences, University of Fukui, Yoshida, Japan.",
+      "Division of Ophthalmology, Department of Surgery, Kobe University Graduate School of Medicine, Kobe, Japan.",
+      "Kanamori Eye Clinic, Akashi, Japan.",
+      "Santen Pharmaceutical Co., Ltd., Osaka, Japan.",
+      "Santen Inc., 2100 Powell Street, Suite 800, Emeryville, CA, 94608, USA. Raymund.Angeles@santen.com."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": [
+      "NCT05495061"
+    ],
+    "mesh": [
+      "Humans",
+      "Glaucoma, Open-Angle",
+      "Intraocular Pressure",
+      "Female",
+      "Male",
+      "Ocular Hypertension",
+      "Middle Aged",
+      "Aged",
+      "Treatment Outcome",
+      "Ophthalmic Solutions",
+      "Antihypertensive Agents",
+      "Double-Blind Method",
+      "Follow-Up Studies",
+      "Tonometry, Ocular",
+      "Dose-Response Relationship, Drug",
+      "Adult"
+    ]
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": true,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": [
+        {
+          "produit": "latanoprost",
+          "role": "non déterminé",
+          "statut_role": "cité dans le résumé ou les mots-clés"
+        }
+      ],
+      "molecules_hors_liste": [
+        {
+          "molecule": "sepetaprost",
+          "role": "étudié",
+          "statut_role": "rôle suggéré, à vérifier (règle automatique appliquée au titre)",
+          "reperage": "suffixe de DCI dans le titre, à vérifier"
+        }
+      ],
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": null,
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7164856153",
+      "doi": "10.1007/s10384-026-01350-3",
+      "pmid": "42298273",
+      "pmcid": null,
+      "titre": "Efficacy and safety of sepetaprost in patients with primary open-angle glaucoma or ocular hypertension: results from the randomised, phase 3 ANGEL-J1 study",
+      "lien": "https://openalex.org/W7164856153",
+      "date_publication": "2026-06-16",
+      "type": "article",
+      "revue": "Japanese Journal of Ophthalmology",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "pubmed"
+      ],
+      "financeurs": [
+        {
+          "nom": "Santen",
+          "ror": "https://ror.org/032msy923"
+        }
+      ],
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "University of Fukui",
+          "pays": "JP",
+          "type": "education",
+          "ror": "https://ror.org/00msqp585"
+        },
+        {
+          "nom": "Kobe University",
+          "pays": "JP",
+          "type": "education",
+          "ror": "https://ror.org/03tgsfw79"
+        },
+        {
+          "nom": "Santen (Japan)",
+          "pays": "JP",
+          "type": "company",
+          "ror": "https://ror.org/032msy923"
+        },
+        {
+          "nom": "Santen (United States)",
+          "pays": "US",
+          "type": "company",
+          "ror": "https://ror.org/0108v8438"
+        }
+      ],
+      "acces_ouvert": true,
+      "statut_acces": "hybrid",
+      "url_texte": "https://link.springer.com/content/pdf/10.1007/s10384-026-01350-3.pdf",
+      "url_pdf": "https://link.springer.com/content/pdf/10.1007/s10384-026-01350-3.pdf",
+      "licence": "cc-by",
+      "texte_integral_indexe": true,
+      "retracte": false,
+      "citations": 1,
+      "sujet_principal": "Glaucoma and retinal disorders",
+      "resume_present": true,
+      "mesh": [
+        "Adult",
+        "Aged",
+        "Antihypertensive Agents",
+        "Dose-Response Relationship, Drug",
+        "Double-Blind Method",
+        "Female",
+        "Follow-Up Studies",
+        "Glaucoma, Open-Angle",
+        "Humans",
+        "Intraocular Pressure",
+        "Male",
+        "Middle Aged",
+        "Ocular Hypertension",
+        "Ophthalmic Solutions",
+        "Tonometry, Ocular",
+        "Treatment Outcome"
+      ]
+    },
+    "openalex_verifie_le": "2026-09-25",
+    "financements": [
+      {
+        "nom": "Santen",
+        "statut": "CONFIRMÉ — déclaré par l'éditeur dans Crossref",
+        "references": null,
+        "notices": [
+          [
+            "notice justificative Crossref (déclaration de l'éditeur)",
+            "https://api.crossref.org/works/10.1007/s10384-026-01350-3"
+          ],
+          [
+            "notice OpenAlex",
+            "https://api.openalex.org/works/W7164856153"
+          ]
+        ],
+        "note": "cet organisme figure AUSSI parmi les institutions des auteurs : c'est une affiliation, information distincte"
+      }
+    ]
+  }
+}

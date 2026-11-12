@@ -1,0 +1,51 @@
+{
+  "openalex_id": "W7214206741",
+  "premiere_detection": "2026-09-25",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "openalex_id": "W7214206741",
+    "doi": "10.5281/zenodo.22930256",
+    "pmid": null,
+    "pmcid": null,
+    "titre": "ALLOSTATIC LOAD AND JUVENILE GLAUCOMA: A REVIEW",
+    "lien": "https://openalex.org/W7214206741",
+    "date_publication": "2026-09-24",
+    "type": "article",
+    "revue": "Zenodo (CERN European Organization for Nuclear Research)",
+    "type_source": "repository",
+    "langue": null,
+    "indexe_dans": [
+      "datacite"
+    ],
+    "financeurs": null,
+    "subventions": null,
+    "institutions": null,
+    "acces_ouvert": true,
+    "statut_acces": "green",
+    "url_texte": "https://doi.org/10.5281/zenodo.22930256",
+    "url_pdf": null,
+    "licence": "cc-by",
+    "texte_integral_indexe": false,
+    "retracte": false,
+    "citations": 0,
+    "sujet_principal": "Glaucoma and retinal disorders",
+    "resume_present": true,
+    "resume": "Juvenile glaucoma is a rare but clinically important condition that may cause progressive optic nerve damage during childhood and adolescence. In addition to intraocular pressure (IOP), genetic predisposition and structural changes of the optic nerve, systemic physiological dysregulation may influence disease development and progression. Allostatic load (AL) reflects the cumulative physiological cost of repeated or chronic stress and integrates cardiovascular, metabolic, inflammatory and neuroendocrine components [1–3].",
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "present_dans_pubmed": false
+  }
+}

@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Laboratoires — Glaucoma Intelligence</title>
+  <meta name="description" content="Les laboratoires et organismes actifs dans le glaucome : promoteurs d'essais cliniques, financeurs de publications et affiliations d'auteurs, présentés séparément avec leurs sources.">
+  <link rel="canonical" href="https://loubna589.github.io/veille-glaucome/laboratoires.html">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="fr_FR">
+  <meta property="og:site_name" content="Veille glaucome">
+  <meta property="og:title" content="Laboratoires actifs dans le glaucome">
+  <meta property="og:description" content="Promoteurs d'essais, financeurs et affiliations : qui fait quoi dans le glaucome, à partir de sources publiques.">
+  <meta property="og:url" content="https://loubna589.github.io/veille-glaucome/laboratoires.html">
+  <meta name="twitter:card" content="summary">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div id="nav"></div>
+  <main class="page">
+    <header class="hero">
+      <h1>Laboratoires</h1>
+      <p>Chaque organisme est présenté selon trois rôles <strong>distincts</strong> : promoteur d'un essai (déclaré au
+        registre), financeur d'une publication (avec son statut : confirmé par PubMed ou l'éditeur, ou à vérifier),
+        et affiliation d'auteurs (l'organisme emploie des auteurs, ce n'est pas un financement).
+        Les variantes d'un même nom sont regroupées automatiquement ; les regroupements manuels se déclarent dans
+        <code>config/laboratoires.ini</code>.</p>
+    </header>
+
+    <form class="filtres" id="filtres" onsubmit="return false">
+      <label>Recherche<input type="search" id="f-texte" placeholder="nom du laboratoire…"></label>
+      <label class="case"><input type="checkbox" id="f-industriel"> Industriels uniquement</label>
+    </form>
+    <p class="compteur" id="compteur"></p>
+    <div id="liste"></div>
+  </main>
+  <footer class="pied" id="pied"></footer>
+  <script src="js/app.js"></script>
+  <script>
+    Veille.pret(function () {
+      var V = Veille, d = V.donnees;
+      V.monterNavigation("laboratoires");
+      var parId = {};
+      d.etudes.forEach(function (e) { parId[e.id] = e; });
+
+      var demande = V.param("labo");
+      if (demande) {
+        document.getElementById("f-texte").value = demande;
+        document.getElementById("f-industriel").checked = false;
+      }
+
+      function lienEtude(ref) {
+        var e = parId[ref.id];
+        if (!e) return V.esc(ref.id);
+        var cible = e.fiche || e.lien_source;
+        return '<a href="' + V.esc(cible) + '"' + (e.fiche ? "" : ' target="_blank" rel="noopener"') + ">" + V.esc(e.titre) + "</a>" +
+          '<br><small>' + V.esc(e.source) + " · " + V.esc(e.niveau) + (e.phase ? " · " + V.esc(e.phase) : "") +
+          (e.statut ? " · " + V.esc(e.statut) : "") + "</small>" +
+          (ref.statut ? ' <span class="badge ' + (ref.statut === "confirmé" ? "ok" : "ver") + '">' + V.esc(ref.statut) + "</span>" : "");
+      }
+      function role(titre, definition, refs) {
+        return "<div><h3>" + titre + " (" + refs.length + ')</h3><p class="def">' + definition + "</p>" +
+          (refs.length ? "<ul>" + refs.map(function (r) { return "<li>" + lienEtude(r) + "</li>"; }).join("") + "</ul>"
+            : '<p class="vide">aucun</p>') + "</div>";
+      }
+      function produits(labo) {
+        var noms = {};
+        labo.promoteur.forEach(function (r) {
+          ((parId[r.id] || {}).produits || []).forEach(function (p) { if (/^bras expérimental/.test(p.role)) noms[p.nom] = p.role; });
+        });
+        var liste = Object.keys(noms);
+        return liste.length ? '<p class="meta" style="margin-bottom:10px"><span>Interventions des bras expérimentaux de ses essais : ' +
+          liste.map(function (n) { return V.esc(n); }).join(" · ") + ' <span class="badge ok">déclaré au registre</span></span></p>' : "";
+      }
+      function afficher() {
+        var texte = V.norm(document.getElementById("f-texte").value);
+        var industriels = document.getElementById("f-industriel").checked;
+        var liste = d.laboratoires.filter(function (l) {
+          if (industriels && !l.industriel) return false;
+          return !texte || V.norm(l.nom + " " + l.variantes.join(" ")).indexOf(texte) >= 0;
+        });
+        document.getElementById("compteur").textContent = liste.length + " organisme(s)";
+        document.getElementById("liste").innerHTML = liste.map(function (l) {
+          return '<section class="labo"><h2>' + V.esc(l.nom) +
+            (l.industriel ? ' <span class="badge">industriel</span>' : ' <span class="badge reg">académique ou autre</span>') + "</h2>" +
+            '<p class="variantes">Noms rencontrés : ' + V.esc(l.variantes.join(" · ")) +
+            " — regroupement " + V.esc(l.regroupement) + "</p>" + produits(l) +
+            '<div class="roles">' +
+            role("Promoteur d'essais", "Organisme responsable de l'essai, déclaré au registre.", l.promoteur) +
+            role("Financeur de publications", "Financement déclaré (PubMed, éditeur via Crossref) ou repéré par OpenAlex.", l.financeur) +
+            role("Affiliation d'auteurs", "L'organisme emploie des auteurs (source : OpenAlex). Ce n'est pas un financement.", l.affiliation) +
+            "</div></section>";
+        }).join("") || '<p class="vide">Aucun organisme ne correspond.</p>';
+      }
+      document.getElementById("filtres").addEventListener("input", afficher);
+      afficher();
+    });
+  </script>
+</body>
+</html>

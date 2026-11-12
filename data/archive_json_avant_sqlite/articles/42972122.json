@@ -1,0 +1,85 @@
+{
+  "pmid": "42972122",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42972122",
+    "titre": "[Early detection of glaucoma: from what age and how often is it recommended?].",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42972122/",
+    "doi": "10.1007/s00347-026-02537-2",
+    "pmcid": null,
+    "revue": "Die Ophthalmologie",
+    "date_entree_pubmed": "2026-11-02",
+    "date_publication": "2026-Nov-02",
+    "types_publication": [
+      "Journal Article"
+    ],
+    "resume_present": false,
+    "resume": null,
+    "mots_cles_auteurs": null,
+    "langue": "ger",
+    "nombre_auteurs": 3,
+    "affiliations_auteurs": [
+      "Augenklinik und Poliklinik, Universitätsmedizin der Johannes Gutenberg-Universität Mainz, Langenbeckstr. 1, 55131, Mainz, Deutschland.",
+      "Augenklinik und Poliklinik, Universitätsmedizin der Johannes Gutenberg-Universität Mainz, Langenbeckstr. 1, 55131, Mainz, Deutschland. alexander.schuster@uni-mainz.de."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7225078230",
+      "doi": "10.1007/s00347-026-02537-2",
+      "pmid": "42972122",
+      "pmcid": null,
+      "titre": "Glaukomfrüherkennung: Ab welchem Alter und wie häufig wird sie empfohlen?",
+      "lien": "https://openalex.org/W7225078230",
+      "date_publication": "2026-11-02",
+      "type": "article",
+      "revue": "Die Ophthalmologie",
+      "type_source": "journal",
+      "langue": "de",
+      "indexe_dans": [
+        "crossref",
+        "pubmed"
+      ],
+      "financeurs": null,
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "University Medical Center of the Johannes Gutenberg University Mainz",
+          "pays": "DE",
+          "type": "healthcare",
+          "ror": "https://ror.org/00q1fsf04"
+        }
+      ],
+      "acces_ouvert": false,
+      "statut_acces": "closed",
+      "url_texte": null,
+      "url_pdf": null,
+      "licence": null,
+      "texte_integral_indexe": false,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Glaucoma and retinal disorders",
+      "resume_present": false,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": []
+  }
+}

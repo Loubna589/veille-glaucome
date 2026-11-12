@@ -1,0 +1,305 @@
+{
+  "nct": "NCT04339907",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "nct": "NCT04339907",
+    "titre": "Inflammatory Mediators of Glaucoma After Corneal Transplantation (AH-Tears)",
+    "titre_officiel": "Uncovering Inflammatory Mediators of Glaucoma Pathogenesis After Corneal Transplantation in Aqueous Humor and Tears",
+    "lien": "https://clinicaltrials.gov/study/NCT04339907",
+    "date_premiere_publication": "2020-04-09",
+    "date_derniere_mise_a_jour": "2026-10-23",
+    "type_etude": "INTERVENTIONAL",
+    "phases_declarees": [
+      "NA"
+    ],
+    "statut": "RECRUITING",
+    "raison_arret": null,
+    "date_debut": "2020-05-11",
+    "date_fin_principale": "2028-10",
+    "promoteur": "Centre hospitalier de l'Université de Montréal (CHUM)",
+    "type_promoteur": "OTHER",
+    "collaborateurs": null,
+    "conditions": [
+      "Glaucoma",
+      "Corneal Transplantation",
+      "Inflammation"
+    ],
+    "interventions": [
+      {
+        "type": "OTHER",
+        "nom": "Sampling of tears"
+      },
+      {
+        "type": "OTHER",
+        "nom": "Sampling of aqueous humor"
+      }
+    ],
+    "participants_nombre": 200,
+    "participants_type": "ESTIMATED",
+    "criteres_principaux": [
+      {
+        "critere": "Concentration of inflammatory mediators in aqueous humor",
+        "delai": "Baseline"
+      },
+      {
+        "critere": "Concentration of inflammatory mediators in tears",
+        "delai": "Baseline"
+      },
+      {
+        "critere": "Correlation between tears and aqueous humor",
+        "delai": "Baseline"
+      }
+    ],
+    "resultats_deposes": false,
+    "publications_declarees": [
+      {
+        "pmid": "32066560",
+        "type": "BACKGROUND"
+      },
+      {
+        "pmid": "25174898",
+        "type": "BACKGROUND"
+      },
+      {
+        "pmid": "24531120",
+        "type": "BACKGROUND"
+      },
+      {
+        "pmid": "19243830",
+        "type": "BACKGROUND"
+      },
+      {
+        "pmid": "28923582",
+        "type": "BACKGROUND"
+      },
+      {
+        "pmid": "21191292",
+        "type": "BACKGROUND"
+      },
+      {
+        "pmid": "27163643",
+        "type": "BACKGROUND"
+      },
+      {
+        "pmid": "25515579",
+        "type": "BACKGROUND"
+      },
+      {
+        "pmid": "24638257",
+        "type": "BACKGROUND"
+      },
+      {
+        "pmid": "23788371",
+        "type": "BACKGROUND"
+      },
+      {
+        "pmid": "32043817",
+        "type": "BACKGROUND"
+      },
+      {
+        "pmid": "27191670",
+        "type": "BACKGROUND"
+      },
+      {
+        "pmid": "10509659",
+        "type": "BACKGROUND"
+      },
+      {
+        "pmid": "12362079",
+        "type": "BACKGROUND"
+      },
+      {
+        "pmid": "20592224",
+        "type": "BACKGROUND"
+      },
+      {
+        "pmid": "31453878",
+        "type": "BACKGROUND"
+      }
+    ],
+    "resume_source": "Glaucoma is the most common threat to vision rehabilitation in patients with Boston keratoprosthesis type 1 (KPro) implantation. High intraocular pressure (IOP) is the most important risk factor for glaucoma and may lead to irreversible retinal and optic nerve damage. Glaucoma drainage device (GDD) surgery is used to divert aqueous humor (AH) from the anterior chamber to an external reservoir to regulate flow and decrease the IOP. The AH is in direct communication with any corneal damage or surgery undertaken in the anterior chamber and can serve as a source of potential biomarkers to detect early inflammatory or glaucomatous changes. Tears are also one of the most accessible and non-invasive source of biomarkers, especially in Kpro eyes where the central optic allows communication between aqueous humor and the tears at the surface of the eye. The investigators propose to test the hypothesis that distinct inflammatory mediators in the AH and tears can serve as biomarkers for glaucoma development and progression after CT, making them specifically amenable to targeted treatment strategies to minimize vision loss.",
+    "citations_declarees": [
+      {
+        "pmid": "32066560",
+        "type": "BACKGROUND",
+        "citation": "Szigiato AA, Bostan C, Nayman T, Harissi-Dagher M. Long-term visual outcomes of the Boston type I keratoprosthesis in Canada. Br J Ophthalmol. 2020 Nov;104(11):1601-1607. doi: 10.1136/bjophthalmol-2019-315345. Epub 2020 Feb 17."
+      },
+      {
+        "pmid": "25174898",
+        "type": "BACKGROUND",
+        "citation": "Wang Q, Harissi-Dagher M. Characteristics and management of patients with Boston type 1 keratoprosthesis explantation--the University of Montreal Hospital Center experience. Am J Ophthalmol. 2014 Dec;158(6):1297-1304.e1. doi: 10.1016/j.ajo.2014.08.037. Epub 2014 Aug 28."
+      },
+      {
+        "pmid": "24531120",
+        "type": "BACKGROUND",
+        "citation": "Crnej A, Paschalis EI, Salvador-Culla B, Tauber A, Drnovsek-Olup B, Shen LQ, Dohlman CH. Glaucoma progression and role of glaucoma surgery in patients with Boston keratoprosthesis. Cornea. 2014 Apr;33(4):349-54. doi: 10.1097/ICO.0000000000000067."
+      },
+      {
+        "pmid": "19243830",
+        "type": "BACKGROUND",
+        "citation": "Aldave AJ, Kamal KM, Vo RC, Yu F. The Boston type I keratoprosthesis: improving outcomes and expanding indications. Ophthalmology. 2009 Apr;116(4):640-51. doi: 10.1016/j.ophtha.2008.12.058. Epub 2009 Feb 25."
+      },
+      {
+        "pmid": "28923582",
+        "type": "BACKGROUND",
+        "citation": "Baltaziak M, Chew HF, Podbielski DW, Ahmed IIK. Glaucoma after corneal replacement. Surv Ophthalmol. 2018 Mar-Apr;63(2):135-148. doi: 10.1016/j.survophthal.2017.09.003. Epub 2017 Sep 18."
+      },
+      {
+        "pmid": "21191292",
+        "type": "BACKGROUND",
+        "citation": "Banitt M. Evaluation and management of glaucoma after keratoprosthesis. Curr Opin Ophthalmol. 2011 Mar;22(2):133-6. doi: 10.1097/ICU.0b013e328343723d."
+      },
+      {
+        "pmid": "27163643",
+        "type": "BACKGROUND",
+        "citation": "Cueva Vargas JL, Belforte N, Di Polo A. The glial cell modulator ibudilast attenuates neuroinflammation and enhances retinal ganglion cell viability in glaucoma through protein kinase A signaling. Neurobiol Dis. 2016 Sep;93:156-71. doi: 10.1016/j.nbd.2016.05.002. Epub 2016 May 6."
+      },
+      {
+        "pmid": "25515579",
+        "type": "BACKGROUND",
+        "citation": "Crnej A, Omoto M, Dohlman TH, Dohlman CH, Dana R. Corneal inflammation after miniature keratoprosthesis implantation. Invest Ophthalmol Vis Sci. 2014 Dec 16;56(1):185-9. doi: 10.1167/iovs.14-15884."
+      },
+      {
+        "pmid": "24638257",
+        "type": "BACKGROUND",
+        "citation": "Engel LA, Muether PS, Fauser S, Hueber A. The effect of previous surgery and topical eye drops for primary open-angle glaucoma on cytokine expression in aqueous humor. Graefes Arch Clin Exp Ophthalmol. 2014 May;252(5):791-9. doi: 10.1007/s00417-014-2607-5. Epub 2014 Mar 18."
+      },
+      {
+        "pmid": "23788371",
+        "type": "BACKGROUND",
+        "citation": "Freedman J, Iserovich P. Pro-inflammatory cytokines in glaucomatous aqueous and encysted Molteno implant blebs and their relationship to pressure. Invest Ophthalmol Vis Sci. 2013 Jul 18;54(7):4851-5. doi: 10.1167/iovs.13-12274."
+      },
+      {
+        "pmid": "32043817",
+        "type": "BACKGROUND",
+        "citation": "Burgos-Blasco B, Vidal-Villegas B, Saenz-Frances F, Morales-Fernandez L, Perucho-Gonzalez L, Garcia-Feijoo J, Martinez-de-la-Casa JM. Tear and aqueous humour cytokine profile in primary open-angle glaucoma. Acta Ophthalmol. 2020 Sep;98(6):e768-e772. doi: 10.1111/aos.14374. Epub 2020 Feb 11."
+      },
+      {
+        "pmid": "27191670",
+        "type": "BACKGROUND",
+        "citation": "Robert MC, Arafat SN, Spurr-Michaud S, Chodosh J, Dohlman CH, Gipson IK. Tear Matrix Metalloproteinases and Myeloperoxidase Levels in Patients With Boston Keratoprosthesis Type I. Cornea. 2016 Jul;35(7):1008-14. doi: 10.1097/ICO.0000000000000893."
+      },
+      {
+        "pmid": "10509659",
+        "type": "BACKGROUND",
+        "citation": "Chen KH, Wu CC, Roy S, Lee SM, Liu JH. Increased interleukin-6 in aqueous humor of neovascular glaucoma. Invest Ophthalmol Vis Sci. 1999 Oct;40(11):2627-32."
+      },
+      {
+        "pmid": "12362079",
+        "type": "BACKGROUND",
+        "citation": "Hu DN, Ritch R, Liebmann J, Liu Y, Cheng B, Hu MS. Vascular endothelial growth factor is increased in aqueous humor of glaucomatous eyes. J Glaucoma. 2002 Oct;11(5):406-10. doi: 10.1097/00061198-200210000-00006."
+      },
+      {
+        "pmid": "20592224",
+        "type": "BACKGROUND",
+        "citation": "Kuchtey J, Rezaei KA, Jaru-Ampornpan P, Sternberg P Jr, Kuchtey RW. Multiplex cytokine analysis reveals elevated concentration of interleukin-8 in glaucomatous aqueous humor. Invest Ophthalmol Vis Sci. 2010 Dec;51(12):6441-7. doi: 10.1167/iovs.10-5216. Epub 2010 Jun 30."
+      },
+      {
+        "pmid": "31453878",
+        "type": "BACKGROUND",
+        "citation": "Dohlman CH, Zhou C, Lei F, Cade F, Regatieri CV, Crnej A, Dohlman JG, Shen LQ, Paschalis EI. Glaucoma After Corneal Trauma or Surgery-A Rapid, Inflammatory, IOP-Independent Pathway. Cornea. 2019 Dec;38(12):1589-1594. doi: 10.1097/ICO.0000000000002106."
+      }
+    ],
+    "plan": {
+      "repartition": "NON_RANDOMIZED",
+      "modele": "FACTORIAL",
+      "but_principal": "BASIC_SCIENCE",
+      "insu": "NONE",
+      "insu_pour": null,
+      "insu_description": null,
+      "modele_observationnel": null
+    },
+    "bras": [
+      {
+        "libelle": "Cataract surgery only",
+        "type": "SHAM_COMPARATOR",
+        "description": "Participants needing cataract surgery, without glaucoma or any other corneal diseases.",
+        "interventions": [
+          "Other: Sampling of tears",
+          "Other: Sampling of aqueous humor"
+        ]
+      },
+      {
+        "libelle": "Glaucoma surgery only",
+        "type": "SHAM_COMPARATOR",
+        "description": "Participants needing glaucoma filtration surgery, without any prior corneal transplantation.",
+        "interventions": [
+          "Other: Sampling of tears",
+          "Other: Sampling of aqueous humor"
+        ]
+      },
+      {
+        "libelle": "Corneal transplantation",
+        "type": "EXPERIMENTAL",
+        "description": "Participants needing corneal transplantation (penetrating keratoplasty or Boston keratoprosthesis), with or without glaucoma.\n\nThis allows analyzing samples at baseline (time 0), at the time of the corneal transplantation procedure.",
+        "interventions": [
+          "Other: Sampling of tears",
+          "Other: Sampling of aqueous humor"
+        ]
+      },
+      {
+        "libelle": "Intraocular surgery following corneal transplantation",
+        "type": "EXPERIMENTAL",
+        "description": "Participants needing intraocular surgery (cataract, retina or glaucoma), with prior corneal transplantation (penetrating keratoplasty or Boston keratoprosthesis).\n\nThis allows analyzing samples during the potential development or progression of glaucoma in participants who have previously undergone corneal transplantation.",
+        "interventions": [
+          "Other: Sampling of tears",
+          "Other: Sampling of aqueous humor"
+        ]
+      },
+      {
+        "libelle": "Glaucoma surgery following corneal transplantation",
+        "type": "EXPERIMENTAL",
+        "description": "Participants needing glaucoma filtration surgery, with prior corneal transplantation (penetrating keratoplasty or Boston keratoprosthesis).\n\nThis allows analyzing samples once glaucoma is confirmed in participants who have previously undergone corneal transplantation.",
+        "interventions": [
+          "Other: Sampling of tears",
+          "Other: Sampling of aqueous humor"
+        ]
+      }
+    ],
+    "eligibilite": {
+      "criteres": "Inclusion Criteria:\n\n* Aged 18 years old or older\n* Informed consent\n* Ability to be followed for the duration of the study\n* Presence of ocular disease specified for each group\n\nSpecific criteria for each group:\n\n* Group 1 : have no glaucoma and no systemic diseases\n* Group 2 : need to have glaucoma filtration surgery without prior corneal transplantation\n* Group 3 : need to have corneal transplantation (penetrating keratoplasty or Boston keratoprosthesis), with or without glaucoma\n* Group 4 : need to have intraocular surgery after prior corneal transplantation (penetrating keratoplasty or Boston keratoprosthesis)\n* Group 5 : need to have glaucoma filtration surgery with prior corneal transplantation (penetrating keratoplasty or Boston keratoprosthesis)\n\nExclusion Criteria:\n\n* Aged less than 18\n* Inability to give informed consent\n* Presence of ocular diseases other than those studied herein",
+      "age_min": "18 Years",
+      "age_max": null,
+      "sexe": "ALL",
+      "volontaires_sains": true
+    },
+    "criteres_secondaires": [
+      {
+        "critere": "Incidence of anterior structural changes",
+        "delai": "Baseline, 3 months, 6 months, 12 months"
+      },
+      {
+        "critere": "Change of visual acuity through time",
+        "delai": "Baseline, 3 months, 6 months, 12 months"
+      },
+      {
+        "critere": "Proportion of participants with visual field loss of 30% or more",
+        "delai": "Baseline, 3 months, 6 months, 12 months"
+      },
+      {
+        "critere": "Intraocular pressure",
+        "delai": "Baseline, 3 months, 6 months, 12 months"
+      },
+      {
+        "critere": "Incidence of posterior structural changes",
+        "delai": "Baseline, 3 months, 6 months, 12 months"
+      }
+    ],
+    "responsables": [
+      {
+        "nom": "Younes Agoumi, MD",
+        "affiliation": "Centre hospitalier de l'Université de Montréal (CHUM)",
+        "role": "PRINCIPAL_INVESTIGATOR"
+      },
+      {
+        "nom": "Mona Harissi-Dagher, MD",
+        "affiliation": "Centre hospitalier de l'Université de Montréal (CHUM)",
+        "role": "STUDY_DIRECTOR"
+      }
+    ],
+    "date_depot_resultats": null,
+    "resultats": null
+  },
+  "modifications": []
+}

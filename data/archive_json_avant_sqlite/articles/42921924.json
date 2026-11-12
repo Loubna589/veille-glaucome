@@ -1,0 +1,84 @@
+{
+  "pmid": "42921924",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42921924",
+    "titre": "Fern-like corneal neovascularisation in end-stage neovascular glaucoma.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42921924/",
+    "doi": "10.1177/11206721261501699",
+    "pmcid": null,
+    "revue": "European journal of ophthalmology",
+    "date_entree_pubmed": "2026-10-24",
+    "date_publication": "2026-Oct-22",
+    "types_publication": [
+      "Journal Article"
+    ],
+    "resume_present": false,
+    "resume": null,
+    "mots_cles_auteurs": null,
+    "langue": "eng",
+    "nombre_auteurs": 2,
+    "affiliations_auteurs": [
+      "Department of Glaucoma, Aravind Eye Hospital and Postgraduate research institute, Madurai, India."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7223312224",
+      "doi": "10.1177/11206721261501699",
+      "pmid": "42921924",
+      "pmcid": null,
+      "titre": "Fern-like corneal neovascularisation in end-stage neovascular glaucoma",
+      "lien": "https://openalex.org/W7223312224",
+      "date_publication": "2026-10-22",
+      "type": "article",
+      "revue": "European Journal of Ophthalmology",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "pubmed"
+      ],
+      "financeurs": null,
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "Aravind Eye Hospital",
+          "pays": "IN",
+          "type": "healthcare",
+          "ror": "https://ror.org/05vg07g77"
+        }
+      ],
+      "acces_ouvert": false,
+      "statut_acces": "closed",
+      "url_texte": null,
+      "url_pdf": null,
+      "licence": null,
+      "texte_integral_indexe": false,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Corneal surgery and disorders",
+      "resume_present": false,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": []
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "nct": "NCT07891182",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "nct": "NCT07891182",
+    "titre": "VGFTe-(HD)-OD-2566: Adjunctive Aflibercept Ahmed Glaucoma Valve (AAA) Study",
+    "titre_officiel": "Adjunctive Aflibercept Ahmed Glaucoma Valve (AAA) Study",
+    "lien": "https://clinicaltrials.gov/study/NCT07891182",
+    "date_premiere_publication": "2026-10-23",
+    "date_derniere_mise_a_jour": "2026-10-23",
+    "type_etude": "INTERVENTIONAL",
+    "phases_declarees": [
+      "PHASE2"
+    ],
+    "statut": "NOT_YET_RECRUITING",
+    "raison_arret": null,
+    "date_debut": "2026-12",
+    "date_fin_principale": "2028-06",
+    "promoteur": "University of Miami",
+    "type_promoteur": "OTHER",
+    "collaborateurs": [
+      "Regeneron Pharmaceuticals"
+    ],
+    "conditions": [
+      "Glaucoma"
+    ],
+    "interventions": [
+      {
+        "type": "DRUG",
+        "nom": "Aflibercept Injection"
+      },
+      {
+        "type": "PROCEDURE",
+        "nom": "Ahmed Tube Surgery"
+      }
+    ],
+    "participants_nombre": 100,
+    "participants_type": "ESTIMATED",
+    "criteres_principaux": [
+      {
+        "critere": "Intraocular pressure",
+        "delai": "Postoperative day 1, week 1, month 1, month 2, and month 3"
+      }
+    ],
+    "resultats_deposes": false,
+    "publications_declarees": null,
+    "resume_source": "The purpose of this study is to determine if injections of aflibercept into the eye given at the end of the Ahmed tube surgery as well as at postoperative months one and two would improve eye pressure control compared to standard surgery with no aflibercept.",
+    "citations_declarees": null,
+    "plan": {
+      "repartition": "RANDOMIZED",
+      "modele": "PARALLEL",
+      "but_principal": "TREATMENT",
+      "insu": "NONE",
+      "insu_pour": null,
+      "insu_description": null,
+      "modele_observationnel": null
+    },
+    "bras": [
+      {
+        "libelle": "Ahmed Tube Surgery with Aflibercept Intravitreal Injection Group",
+        "type": "EXPERIMENTAL",
+        "description": "Participants will undergo standard of care Ahmed tube surgery and will receive one 8 mg injection of intravitreal aflibercept at three timepoints in the study: at the conclusion of surgery, Postoperative Month 1, Postoperative Month 2. Total duration of participation in this arm is 6 months",
+        "interventions": [
+          "Drug: Aflibercept Injection",
+          "Procedure: Ahmed Tube Surgery"
+        ]
+      },
+      {
+        "libelle": "Ahmed Tube Surgery without Perioperative Aflibercept (Control Group)",
+        "type": "ACTIVE_COMPARATOR",
+        "description": "Participants will undergo standard of care Ahmed tube surgery without any injections of intravitreal aflibercept. Total duration of participation in this arm is 6 months.",
+        "interventions": [
+          "Procedure: Ahmed Tube Surgery"
+        ]
+      }
+    ],
+    "eligibilite": {
+      "criteres": "Inclusion Criteria:\n\n* Age 18 to 85 years, inclusive.\n* Open-angle glaucoma (primary or secondary such as pseudoexfoliative, pigmentary, steroid response) that is inadequately controlled on tolerated medical therapy with intraocular pressure greater than or equal to 18 mm Hg and less than or equal to 40 mm Hg.\n\nExclusion Criteria:\n\n* Unwilling or unable to give consent, unwilling to accept randomization, or unable to return for scheduled protocol visits.\n* No light perception vision.\n* Prior aqueous shunt or cyclodestructive procedure.\n* Prior exposure to anti-VEGF in either eye.\n* Diabetic retinopathy.\n* Wet age-related macular degeneration.\n* Retinal vein occlusion.\n* Choroidal neovascular membrane.\n* History of cystoid macular edema.\n* Vitreous prolapse.\n* Previous or active ocular neovascularization.\n* Iridocorneal endothelial syndrome.\n* Epithelial or fibrous downgrowth.\n* Chronic or recurrent uveitis, or acute uveitis within 90 days of surgery.\n* Use of topical steroids within 30 days of surgery.\n* Conjunctival scarring sufficient to preclude Ahmed implantation in preferred quadrant.\n* Scleral buckle.\n* Severe posterior blepharitis.\n* Aphakia.\n* Unwilling to discontinue contact lens use after surgery.\n* Need for glaucoma surgery combined with other ocular procedures (i.e. cataract surgery, penetrating keratoplasty, or retinal surgery) or anticipated need for additional ocular surgery.\n* Best corrected visual acuity 20/200 or worse in fellow eye.\n* Uncontrolled blood pressure (systolic blood pressure \\>165 mmHg or diastolic blood pressure \\>95 mmHg) or the investigator is concerned would have unstable blood pressure during the course of the study, such as due to compliance issues.\n* History of cerebrovascular accident or myocardial infarction within 180 days of surgery.\n* Hemodialysis and/or history of renal transplant\n* Known history of sensitivity to any compounds of the study formulation\n* History of other disease, metabolic dysfunction, physical examination finding, or clinical laboratory finding giving reasonable suspicion of a disease or condition that contraindicates the use of aflibercept 8 mg or that might affect interpretation of the results of the study or render the patient at high risk for treatment complications\n* Participation in an investigational study within 30 days prior to screening visit that involved treatment with any drug (excluding vitamins and minerals) or device\n* Pregnant or nursing women.\n* Men or women of childbearing potential (WOCBP)\\* who are unwilling to practice highly effective contraception prior to the initial dose/start of the first treatment, during the study, and for at least 3 months after the last dose.\n\nHighly effective contraceptive measures include:\n\n1. stable use of combined (estrogen and progestogen-containing) hormonal contraception (oral, intravaginal, transdermal) or progestogen-only hormonal contraception (oral, injectable, implantable) associated with inhibition of ovulation initiated 2 or more menstrual cycles prior to screening\n2. intrauterine device (IUD); intrauterine hormone-releasing system (IUS)\n3. bilateral tubal ligation\n4. vasectomy\n5. condom plus contraceptive sponge, foam, or jelly, or diaphragm plus contraceptive sponge, foam, or jelly\n6. and/or sexual abstinence\n\n   * Postmenopausal women must be amenorrhoeic for at least 12 months without an alternative medical cause in order not to be considered of childbearing potential. Pregnancy testing and contraception are not required for women with documented hysterectomy or tubal ligation.\n   * Vasectomized partner or vasectomized study participant must have received medical assessment of the surgical success.\n   * Sexual abstinence is considered a highly effective method only if defined as refraining from heterosexual intercourse during the entire period of risk associated with the study treatments. The reliability of sexual abstinence needs to be evaluated in relation to the duration of the clinical trial and the preferred and usual lifestyle of the subject.\n   * Periodic abstinence (calendar, symptothermal, post-ovulation methods), withdrawal (coitus interruptus), spermicides only, and lactational amenorrhea method (LAM) are not acceptable methods of contraception. Female condom and male condom should not be used together.",
+      "age_min": "18 Years",
+      "age_max": "85 Years",
+      "sexe": "ALL",
+      "volontaires_sains": false
+    },
+    "criteres_secondaires": [
+      {
+        "critere": "Surgical failure",
+        "delai": "up to 6 months"
+      },
+      {
+        "critere": "Medication Burden",
+        "delai": "Postoperative day 1, week 1, month 1, month 2, month 3, and month 6"
+      },
+      {
+        "critere": "Hypertensive phase",
+        "delai": "Up to 3 months"
+      },
+      {
+        "critere": "Treatment adverse events and serious treatment adverse events",
+        "delai": "Up to 6 months"
+      }
+    ],
+    "responsables": [
+      {
+        "nom": "Adam Rothman, MD",
+        "affiliation": "University of Miami",
+        "role": "PRINCIPAL_INVESTIGATOR"
+      }
+    ],
+    "date_depot_resultats": null,
+    "resultats": null
+  },
+  "modifications": []
+}

@@ -1,0 +1,58 @@
+{
+  "openalex_id": "W7212033969",
+  "premiere_detection": "2026-09-25",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "openalex_id": "W7212033969",
+    "doi": "10.64898/2026.09.05.26362328",
+    "pmid": null,
+    "pmcid": null,
+    "titre": "Mitochondrial DNA Copy Number Is Associated With Visual Field Progression in Primary Open-Angle Glaucoma",
+    "lien": "https://openalex.org/W7212033969",
+    "date_publication": "2026-09-08",
+    "type": "preprint",
+    "revue": "medRxiv",
+    "type_source": "repository",
+    "langue": null,
+    "indexe_dans": [
+      "crossref"
+    ],
+    "financeurs": null,
+    "subventions": null,
+    "institutions": [
+      {
+        "nom": "University of Miami",
+        "pays": "US",
+        "type": "education",
+        "ror": "https://ror.org/02dgjyy92"
+      }
+    ],
+    "acces_ouvert": true,
+    "statut_acces": "green",
+    "url_texte": "https://www.medrxiv.org/content/medrxiv/early/2026/09/08/2026.09.05.26362328.full.pdf",
+    "url_pdf": "https://www.medrxiv.org/content/medrxiv/early/2026/09/08/2026.09.05.26362328.full.pdf",
+    "licence": null,
+    "texte_integral_indexe": true,
+    "retracte": false,
+    "citations": 0,
+    "sujet_principal": "Glaucoma and retinal disorders",
+    "resume_present": true,
+    "resume": "A bstract Purpose To investigate the association between mitochondrial DNA (mtDNA) copy number (CN) and the rate of visual field progression in patients with primary open-angle glaucoma. Design Retrospective cohort study Participants 200 patients with primary open-angle glaucoma (POAG) with a mean of 11 years of longitudinal clinical data and DNA extracted from peripheral blood. Methods DNA extraction was performed on peripheral blood leukocytes collected from 200 POAG patients who had an average follow-up of 11 years. Mitochondrial CN was quantified by multiplex quantitative TaqMan PCR using custom primers and probes against cytochrome b and ß-2 microglobulin as measures of mitochondrial and nuclear genes, respectively. Univariable and multivariable linear regression models were used to evaluate the association between mtDNA CN and rates of visual field progression, quantified by the slope of standard automated perimetry (SAP) mean deviation (MD) over time. Main Outcome Measures Association of mtDNA CN with MD slope. Results Mean mtDNA CN was 107.6 copies per cell (interquartile range, 70.5–126.7). Higher ln(mtDNA CN) was associated with slower rates of MD loss in both univariable ( β = 0.29, p < 0.001) and multivariable analyses ( β = 0.25, p = 0.003). Higher peak IOP was independently associated with faster visual field progression in both analyses. A significant interaction was observed between mtDNA CN and peak IOP ( β = −0.054, p < 0.001), with the association between lower mtDNA CN and faster SAP progression being more pronounced at lower levels of peak IOP. Conclusion Lower mtDNA CN was associated with faster SAP progression, with the association being most pronounced at lower levels of peak IOP. These findings support mtDNA CN as a potential systemic biomarker of mitochondrial genomic reserve and susceptibility to visual field loss.",
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "present_dans_pubmed": false
+  }
+}

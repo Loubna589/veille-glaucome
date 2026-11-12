@@ -1,0 +1,121 @@
+{
+  "nct": "NCT05626426",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "nct": "NCT05626426",
+    "titre": "Electrical Stimulation for the Treatment of Optic Neuropathies",
+    "titre_officiel": "An Open-Label Study to Evaluate the Safety and Efficacy of Repetitive, Transorbital Alternating Current Stimulation (rtACS) for the Treatment of Optic Neuropathies",
+    "lien": "https://clinicaltrials.gov/study/NCT05626426",
+    "date_premiere_publication": "2022-11-23",
+    "date_derniere_mise_a_jour": "2026-10-13",
+    "type_etude": "INTERVENTIONAL",
+    "phases_declarees": [
+      "NA"
+    ],
+    "statut": "ACTIVE_NOT_RECRUITING",
+    "raison_arret": null,
+    "date_debut": "2023-02-27",
+    "date_fin_principale": "2026-12",
+    "promoteur": "Stanford University",
+    "type_promoteur": "OTHER",
+    "collaborateurs": null,
+    "conditions": [
+      "Glaucoma",
+      "Glaucoma, Open-Angle",
+      "Optic Nerve Diseases"
+    ],
+    "interventions": [
+      {
+        "type": "DEVICE",
+        "nom": "Repetitive, Transorbital Alternating Current Stimulation (rtACS)"
+      }
+    ],
+    "participants_nombre": 40,
+    "participants_type": "ESTIMATED",
+    "criteres_principaux": [
+      {
+        "critere": "Change from baseline in visual field assessed by Humphrey Visual Field Index (VFI).",
+        "delai": "Baseline through 6 months"
+      },
+      {
+        "critere": "Change from baseline in visual field assessed by Humphrey Mean Deviation (MD).",
+        "delai": "Baseline through 6 months"
+      }
+    ],
+    "resultats_deposes": false,
+    "publications_declarees": null,
+    "resume_source": "The overall aim of this study is to see whether long-term electrical stimulation with a home-stimulation device works well and is safe for the treatment of open-angle glaucoma. Open-Angle Glaucoma is a disease where the nerves in the back of your eye die off faster than expected regardless of your eye pressure.",
+    "citations_declarees": null,
+    "plan": {
+      "repartition": "NA",
+      "modele": "SINGLE_GROUP",
+      "but_principal": "TREATMENT",
+      "insu": "NONE",
+      "insu_pour": null,
+      "insu_description": null,
+      "modele_observationnel": null
+    },
+    "bras": [
+      {
+        "libelle": "Active SASm",
+        "type": "EXPERIMENTAL",
+        "description": "Patients will receive active treatment with the device every other day over 8 weeks.",
+        "interventions": [
+          "Device: Repetitive, Transorbital Alternating Current Stimulation (rtACS)"
+        ]
+      }
+    ],
+    "eligibilite": {
+      "criteres": "Inclusion Criteria:\n\n1. Participant must be at least 18.\n2. Participant must has the ability to comply with the requirements of the study and complete the schedule of events (SOE).\n3. Participant's clinical diagnosis must be consistent with glaucoma characterized by the following features: Mean deviation (MD) worse than -3 on Humphrey Visual Field 24-2 testing. Reliable visual field measures, fixation losses do not exceed 20% and false postivies do not exeed 20%.\n4. In the opinion of the investigator the participant's eye pressure must be clinically stable.\n5. If a participant has two eyes meeting study criteria, the worse eye as determined by mean deviation. If both eyes qualify and have the same MD, the patient may choose which eye they are willing to enter, or else a randomization procedure will assign one eye to the study.\n6. Participant must understand and sign the informed consent. If the participant's vision is impaired to the point where he/she cannot read the informed consent document, the document will be read to the participant in its entirety.\n\nExclusion Criteria:\n\n1. Participant is unable to comply with study procedures or follow-up visits.\n2. Participant has a history of ocular herpes zoster.\n3. Participant has pathological nystagmus\n4. Participant has evidence of visually significant retinopathy including but not limited to Diabetic retinopathy or retinitis pigmentosa.\n5. Participant has evidence of corneal opacification or lack of optical clarity.\n6. Participant has uveitis or other ocular inflammatory disease.\n7. Participant has any electric or electroinc implants such as a pacemaker.\n8. Participant has acute conjunctivitis.\n9. Participant has acute autoimmune disease.\n10. Participant is pregnant or lactating.\n11. Participant has, in the opinion of the investigator, any physical or mental condition that would increase the risk of participation in the study or may interfere with the study procedures, evaluations and outcome assessments. Including but not limited to all forms of dementia.\n12. Unresected brain tumors\n13. Implanted intracranial magnetic metals (metallic implants in the head / skull such as clamps, coils, ventriculo-peritoneal shunts, endoprostheses, etc.), which are not MRI-compatible. Note: metallic dental implants and titanium screws or plates are acceptable\n14. Patients with any skin damage.\n15. Children and comatose patients.\n16. Patients with history of epileptic seizure within the last 10 years.\n17. Patients with uncontrolled systemic hypertension or uncontrolled diabetes.\n18. Participant is not able to travel, to comply with the requirements of the study or not willing to complete the schedule of events (SOE) and/or unable to confirm follow-up participation\n19. Prior participation in a vision training/stimulation study in the last 12 months",
+      "age_min": "18 Years",
+      "age_max": null,
+      "sexe": "ALL",
+      "volontaires_sains": false
+    },
+    "criteres_secondaires": [
+      {
+        "critere": "Change from baseline in ganglion cell layer as measured by optical coherence tomography (OCT, visible light and/or infrared).",
+        "delai": "Baseline through 6 months"
+      },
+      {
+        "critere": "Change from baseline in nerve fiber layer thickness as measured by optical coherence tomography (OCT, visible light and/or infrared).",
+        "delai": "Baseline through 6 months"
+      },
+      {
+        "critere": "Change from baseline in visual acuity as assessed by the Snellen visual acuity test.",
+        "delai": "Baseline through Month 6"
+      },
+      {
+        "critere": "Change from baseline in visual evoked potential.",
+        "delai": "Baseline through Month 6"
+      },
+      {
+        "critere": "Change from baseline in retinal metabolic analysis(RMA)/OcuMet imaging.",
+        "delai": "Baseline through Month 6"
+      },
+      {
+        "critere": "Change from baseline in adaptive optics retinal imaging.",
+        "delai": "Baseline through Month 6"
+      },
+      {
+        "critere": "Change from baseline in laser speckle flowgraphy",
+        "delai": "Baseline through Month 6"
+      },
+      {
+        "critere": "Change from baseline in OCT angiography",
+        "delai": "Baseline through Month 6"
+      }
+    ],
+    "responsables": [
+      {
+        "nom": "Jeffrey L Goldberg, MD PhD",
+        "affiliation": "Stanford University",
+        "role": "PRINCIPAL_INVESTIGATOR"
+      }
+    ],
+    "date_depot_resultats": null,
+    "resultats": null
+  },
+  "modifications": []
+}

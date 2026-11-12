@@ -1,0 +1,70 @@
+{
+  "openalex_id": "W7210263142",
+  "premiere_detection": "2026-09-25",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "openalex_id": "W7210263142",
+    "doi": "10.21203/rs.3.rs-10454812/v1",
+    "pmid": null,
+    "pmcid": null,
+    "titre": "GlaucoFusionNet: A Causal Inference Aware Multimodal Explainable AI Framework with Counterfactual Reasoning for Glaucoma Risk Prediction",
+    "lien": "https://openalex.org/W7210263142",
+    "date_publication": "2026-09-07",
+    "type": "preprint",
+    "revue": "Research Square",
+    "type_source": "repository",
+    "langue": null,
+    "indexe_dans": [
+      "crossref"
+    ],
+    "financeurs": null,
+    "subventions": null,
+    "institutions": [
+      {
+        "nom": "University of Ha'il",
+        "pays": "SA",
+        "type": "education",
+        "ror": "https://ror.org/013w98a82"
+      },
+      {
+        "nom": "Poornima University",
+        "pays": "IN",
+        "type": "education",
+        "ror": "https://ror.org/03gnqp653"
+      },
+      {
+        "nom": "Manipal University Jaipur",
+        "pays": null,
+        "type": "education",
+        "ror": "https://ror.org/040h76494"
+      }
+    ],
+    "acces_ouvert": true,
+    "statut_acces": "green",
+    "url_texte": "https://www.researchsquare.com/article/rs-10454812/latest.pdf",
+    "url_pdf": "https://www.researchsquare.com/article/rs-10454812/latest.pdf",
+    "licence": "cc-by",
+    "texte_integral_indexe": true,
+    "retracte": false,
+    "citations": 0,
+    "sujet_principal": "Retinal Imaging and Analysis",
+    "resume_present": false,
+    "resume": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "present_dans_pubmed": false
+  }
+}

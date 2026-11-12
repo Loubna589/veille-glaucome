@@ -1,0 +1,53 @@
+{
+  "pmid": "42785001",
+  "premiere_detection": "2026-09-25",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42785001",
+    "titre": "Comorbidities and infectious episodes in multiple sclerosis patients within general practices in the Netherlands.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42785001/",
+    "doi": "10.1016/j.msard.2026.107927",
+    "pmcid": null,
+    "revue": "Multiple sclerosis and related disorders",
+    "date_entree_pubmed": "2026-09-24",
+    "date_publication": "2026-Sep-14",
+    "types_publication": [
+      "Journal Article"
+    ],
+    "resume_present": true,
+    "resume": "BACKGROUND: People with multiple sclerosis (PwMS) are at heightened risk of comorbidities and infections, due to the disease's debilitating nature and side effects of disease-modifying therapies (DMT).\nMETHODS: This retrospective case-control study was conducted the Dutch Nivel Primary Care Database from the year 2019, assessing chronic comorbidities and infections in PwMS versus matched controls. The influence of the comorbidity burden (evaluated by the Charlson Comorbidity Index (CCI)) and infections on mortality was evaluated using Cox regression.\nRESULTS: A higher lifetime prevalence of chronic diseases in PwMS was found, in particular for osteoporosis, stroke, epilepsy, peripheral artery disease, glaucoma, depression and certain oncological diseases (e.g. kidney, hematological, skin cancers). Comorbidity burden was higher in male PwMS, older age, prolonged disease duration, and lower socio-economic status (SES). The crude annual infection rate was higher in PwMS than in matched controls (OR 1.86; 95% CI 1.73 - 1.99). CCI scores of 1 and ≥2 were associated with significantly increased 5-year mortality (aHR 1.86 and 3.30, respectively), as was having at least one infectious episode in 2019 (aHR 1.68).\nDISCUSSION: PwMS have more chronic comorbidities and are at a considerable heightened risk of infections. Prevention, early detection and treatment of comorbidities may ameliorate prognosis of MS and the presence of comorbidities should be part of individualized DMT MS patient care.",
+    "mots_cles_auteurs": [
+      "Comorbidities",
+      "General practices",
+      "Infectious diseases",
+      "Multiple sclerosis"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 6,
+    "affiliations_auteurs": [
+      "Department of Neurology, Amsterdam UMC, location Vrije Universiteit Amsterdam, Amsterdam Neuroscience, MS Center Amsterdam, Amsterdam, the Netherlands; Department of Neurology, Haaglanden Medical Center, The Hague, the Netherlands. Electronic address: c.m.lemmens@amsterdamumc.nl.",
+      "Netherlands Institute for Health Services Research (Nivel), Utrecht, the Netherlands.",
+      "Department of Neurology, Rijnstate Hospital, Arnhem, the Netherlands.",
+      "Department of Neurology, Amsterdam UMC, location Vrije Universiteit Amsterdam, Amsterdam Neuroscience, MS Center Amsterdam, Amsterdam, the Netherlands.",
+      "Department of Neurology, Amsterdam UMC, location Vrije Universiteit Amsterdam, Amsterdam Neuroscience, MS Center Amsterdam, Amsterdam, the Netherlands; Amsterdam Public Health research institute, Quality of Care, Amsterdam, the Netherlands."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    }
+  }
+}

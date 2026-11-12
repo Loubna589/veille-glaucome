@@ -1,0 +1,279 @@
+{
+  "nct": "NCT07770685",
+  "premiere_detection": "2026-09-25",
+  "derniere_modification_detectee": "2026-11-11",
+  "donnees": {
+    "nct": "NCT07770685",
+    "titre": "A Study About the Safety of ASP2767 and Whether it Helps People With Glaucoma-Related Optic Nerve Damage",
+    "titre_officiel": "A Phase 1, Multicenter, Open-Label, Ascending-Dose and Phase 2, Randomized, Double-Masked, Sham-Controlled, Clinical Study to Evaluate the Safety and Efficacy of ASP2767 in Participants With Optic Neuropathy Due to Glaucoma",
+    "lien": "https://clinicaltrials.gov/study/NCT07770685",
+    "date_premiere_publication": "2026-08-18",
+    "date_derniere_mise_a_jour": "2026-10-22",
+    "type_etude": "INTERVENTIONAL",
+    "phases_declarees": [
+      "PHASE1",
+      "PHASE2"
+    ],
+    "statut": "RECRUITING",
+    "raison_arret": null,
+    "date_debut": "2026-10-07",
+    "date_fin_principale": "2030-07-31",
+    "promoteur": "Astellas Pharma Global Development, Inc.",
+    "type_promoteur": "INDUSTRY",
+    "collaborateurs": null,
+    "conditions": [
+      "Glaucoma"
+    ],
+    "interventions": [
+      {
+        "type": "DRUG",
+        "nom": "ASP2767"
+      },
+      {
+        "type": "DRUG",
+        "nom": "Sham ASP2767"
+      },
+      {
+        "type": "DRUG",
+        "nom": "Prophylactic Regimen A"
+      },
+      {
+        "type": "DRUG",
+        "nom": "Prophylactic Regimen B"
+      },
+      {
+        "type": "DRUG",
+        "nom": "Placebo for prophylactic regimen"
+      }
+    ],
+    "participants_nombre": 156,
+    "participants_type": "ESTIMATED",
+    "criteres_principaux": [
+      {
+        "critere": "Phase 1: Number of participants experiencing dose limiting toxicities (DLTs)",
+        "delai": "Up to 4 weeks"
+      },
+      {
+        "critere": "Phase 1: Number of participants with treatment emergent adverse events (TEAEs)",
+        "delai": "Up to 52 weeks"
+      },
+      {
+        "critere": "Phase 1: Number of participants with serious adverse events (SAEs)",
+        "delai": "Up to 52 weeks"
+      },
+      {
+        "critere": "Phase 1: Number of participants with adverse events of special interest (AESIs)",
+        "delai": "Up to 52 weeks"
+      },
+      {
+        "critere": "Phase 1: Number of participants with ophthalmic examination abnormalities and or/AEs",
+        "delai": "Up to 52 Weeks"
+      },
+      {
+        "critere": "Phase 1: Number of participants with ophthalmic imaging abnormalities and or/AEs",
+        "delai": "Up to 52 Weeks"
+      },
+      {
+        "critere": "Phase 1: Number of participants with vital signs abnormalities and/or AEs",
+        "delai": "Up to 52 weeks"
+      },
+      {
+        "critere": "Phase 1: Number of participants with laboratory value abnormalities and/or AEs",
+        "delai": "Up to 52 weeks"
+      },
+      {
+        "critere": "Phase 1: Change from baseline in best-corrected visual acuity (BCVA)",
+        "delai": "Baseline and up to Week 52"
+      },
+      {
+        "critere": "Phase 2: Mean rate of change (slope) from baseline in visual field (VF) (24-2) mean deviation (MD)",
+        "delai": "Baseline and Week 52"
+      }
+    ],
+    "resultats_deposes": false,
+    "publications_declarees": null,
+    "resume_source": "Open-angle glaucoma is the most common type of glaucoma, a disease that damages the nerves in the eye and can lead to vision loss. Current treatments include eye drops, laser treatment, and surgery that help lower eye pressure. However, they do not work for everyone, and the disease may continue to worsen over time. Researchers are looking for better ways to treat open-angle glaucoma.\n\nThis is an early development study of ASP2767 in people with open-angle glaucoma. In this study, ASP2767 will be given to humans for the first time. ASP2767 is a type of treatment called gene therapy. Gene therapy uses a tool called a vector. In this study a harmless virus is used as the vector. The vector delivers genes into specific parts of the body like the eyes.\n\nOnce in the eyes these genes help nerve cells in the retina make proteins. These proteins are designed to protect the nerves in the eyes and may help slow down or prevent vision loss.\n\nThe main aims of the study are to check the safety of ASP2767 in people with open-angle glaucoma, how well they tolerate it, and to find the highest dose of ASP2767 people can safely receive. In addition, the study will also look at the effect of ASP2767 on vision in people with open-angle glaucoma.\n\nThe study has 2 phases. In both phases of the study, ASP2767 will be given as a single injection into one eye only.\n\nIn phase 1, small groups of people with open-angle glaucoma will receive ASP2767 starting with lower doses and increasing to higher doses in later groups. The people in the study will also receive prophylactic medicines which will help reduce the risk of inflammation after receiving the ASP2767 injection. Phase 1 is an open-label study. This means that people in the study and the researchers will know which treatment people are getting. Any medical problems people have at each dose level in this study will be recorded. This will help find the highest dose of ASP2767 that people can safely receive, which will also be used in phase 2.\n\nIn phase 2, another larger group of people with open-angle glaucoma will be randomly placed in 1 of 3 groups of equal size. This means each person will have an equal chance of being placed in any of the 3 groups. They will receive either the highest dose of ASP2767 that people safely received in phase 1, or a slightly lower dose of ASP2767, or a sham injection. A sham injection is a procedure that mimics the injection but does not deliver ASP2767 into the eye. To reduce the risk of inflammation due to the injection, people in the study will also receive a prophylactic medicine or placebo depending on the group they are in. The placebo will look like the prophylactic medicine and will be given in a similar way but will not have any active medicine in it. Researchers use sham injections and placebo to make sure any effect they see in people who take ASP2767 is actually caused by the drug. Phase 2 is a double-masked study, meaning neither the people in the study, nor the researchers will know who is given which treatment.\n\nAll the people in phase 1 and phase 2 will be followed up for about 1 year after receiving the treatment. After receiving their ASP2767 injection, people will visit the clinic on certain days to have health checks. They will also have their vision checked using different eye tests and will give regular blood and urine samples.",
+    "citations_declarees": null,
+    "plan": {
+      "repartition": "RANDOMIZED",
+      "modele": "SEQUENTIAL",
+      "but_principal": "TREATMENT",
+      "insu": "QUADRUPLE",
+      "insu_pour": [
+        "PARTICIPANT",
+        "CARE_PROVIDER",
+        "INVESTIGATOR",
+        "OUTCOMES_ASSESSOR"
+      ],
+      "insu_description": "Phase 1 Dose Escalation: Open Label Phase 2 part: Double-masked (Participant, Care provider, Investigator and Outcome Assessor masked)",
+      "modele_observationnel": null
+    },
+    "bras": [
+      {
+        "libelle": "Phase 1: ASP2767 Dose Escalation + Prophylactic Regimen A",
+        "type": "EXPERIMENTAL",
+        "description": "Participants will receive a single dose of ASP2767 by intravitreal (IVT) injection into the study eye on Day 1 and protocol-defined prophylactic regimen.",
+        "interventions": [
+          "Drug: ASP2767",
+          "Drug: Prophylactic Regimen A"
+        ]
+      },
+      {
+        "libelle": "Phase 1: ASP2767 Dose Escalation + Prophylactic Regimen B",
+        "type": "EXPERIMENTAL",
+        "description": "Participants will receive a single dose of ASP2767 by IVT injection into the study eye on Day 1 and protocol-defined prophylactic regimen.",
+        "interventions": [
+          "Drug: ASP2767",
+          "Drug: Prophylactic Regimen B"
+        ]
+      },
+      {
+        "libelle": "Phase 2: ASP2767 High Dose - Dose Expansion + Prophylactic Regimen",
+        "type": "EXPERIMENTAL",
+        "description": "Participants will receive a single high dose of ASP2767 by IVT injection into the study eye on Day 1 and a prophylactic regimen based on data from Phase 1",
+        "interventions": [
+          "Drug: ASP2767",
+          "Drug: Prophylactic Regimen A",
+          "Drug: Prophylactic Regimen B"
+        ]
+      },
+      {
+        "libelle": "Phase 2: ASP2767 Low Dose - Dose Expansion + Prophylactic Regimen",
+        "type": "EXPERIMENTAL",
+        "description": "Participants will receive a single low dose of ASP2767 by IVT injection into the study eye on Day 1 and a prophylactic regimen based on data from Phase 1",
+        "interventions": [
+          "Drug: ASP2767",
+          "Drug: Prophylactic Regimen A",
+          "Drug: Prophylactic Regimen B"
+        ]
+      },
+      {
+        "libelle": "Phase 2: Sham ASP2767 + Placebo Prophylactic Regimen",
+        "type": "SHAM_COMPARATOR",
+        "description": "Participants will receive a single sham injection on Day 1 and a placebo prophylactic regimen",
+        "interventions": [
+          "Drug: Sham ASP2767",
+          "Drug: Placebo for prophylactic regimen"
+        ]
+      }
+    ],
+    "eligibilite": {
+      "criteres": "Inclusion Criteria:\n\n* Participant agrees not to participate in another interventional study until the 52-week visit has been completed.\n* Participant is able and willing to comply with the study requirements and capable of completing the assessments, including all scheduled visits.\n* Participant has open-angle glaucoma (OAG) defined as rate of MD ≤ -0.5 dB/year and consisting of all of the following:\n\n  * Presence of glaucomatous VF defects in the study eye with corresponding damage to the optic nerve head (ONH) (confirmed by an independent central image reading center at screening)\n  * An open iridocorneal drainage angle observed on gonioscopy (Shaffer grade ≥ 3)\n  * Moderate to advanced VF loss, assessed by standard automated perimetry, and confirmed by the central image reading center and in the study eye:\n  * Phase 1 - Dose-Escalation part: advanced VF loss, defined as MD between -12 and -20 dB\n  * Phase 2 - Dose-Expansion part: moderate to advanced VF loss, defined as MD between -6 and -20 dB\n  * At least 3 reliable VF tests (≤ 33% FLs and ≤ 15% FP) within the preceding 84 months, confirmed by the central image reading center, and excluding fields obtained before incisional glaucoma or cataract surgeries\n  * Evidence of VF function in at least 1 quadrant in the study eye\n  * BCVA ≥ 20/200 (≥ 35 ETDRS letters) at screening and confirmed on day 1 in the study eye\n  * At least 3 consecutive reliable optical coherence tomography (OCT) scans (peripapillary RNFL, GCC/macula) in the study eye within the preceding 84 months, confirmed by the central image reading center.\n* Participant must have an IOP ≤ 21 mmHg on current therapy in the study eye (or participant's IOP is considered well controlled and will not require any additional medical or surgical treatment in the next 12 months).\n* Female participant is not pregnant and at least 1 of the following conditions apply:\n\n  * Not a women of childbearing potential (WOCBP) o. WOCBP who has a negative serum pregnancy test at screening, or urine pregnancy test on day 1, agrees to follow the contraceptive guidance from the time of informed consent.\n* Female participant must not be breastfeeding or lactating starting at screening and throughout the study period.\n* Female participant must not donate ova starting at first administration of study intervention and throughout the study period.\n* Male participant must agree to use contraception with female partner(s) of childbearing potential (including breastfeeding partner) throughout the treatment period.\n* Male participant must agree to remain abstinent or use a condom with pregnant partner(s) for the duration of the pregnancy throughout the investigational period.\n* Male participant must not donate sperm during the treatment period (up to week 52).\n\nExclusion Criteria:\n\n* Participant has other optic nerve or retinal degenerative disease-causing vision loss, irrespective of whether it is currently treated or untreated.\n* Participant has other known or suspected molecular diagnosis of macular, retinal, or optic nerve disease (e.g., pathogenic mutations in other genes) that could confound the interpretation of the outcome of the study, that could cause a concomitant retinal disease and/or point to an alternate etiology of macular or optic nerve disease.\n* Participant has visually significant cataract in the study eye.\n* Participant has active infectious conjunctivitis, keratitis, scleritis, or endophthalmitis (mild stable blepharitis is permitted).\n* Participant is expected to require a change in IOP-lowering treatment within 6 weeks of screening and/or is anticipated to require a change in IOP-lowering treatment during the study in the study eye.\n* Participant has history of\n\n  * closed or narrow angle (Shaffer grade ≤ 2), pigment dispersion, uveitic glaucoma, or congenital glaucoma\n  * cyclophotocoagulation laser treatment for glaucoma in the study eye\n  * ocular herpetic disease (including herpes simplex and zoster viruses) or disseminated/visceral herpes zoster infection\n  * allergy to fluorescein or povidone iodine\n  * history of steroid response (historic evidence of IOP increase with corticosteroid use)\n* Participant has presence of IOI (≥ trace anterior chamber \\[AC\\] cell or flare), has active or has a history of idiopathic or autoimmune-associated uveitis in either eye.\n* Participant has evidence of corneal opacification or lack of optical clarity in the study eye.\n* Participant has refractive error greater than 8 diopters of spherical equivalent at screening in the study eye.\n* Participant has choroidal neovascularization, central serous retinopathy, or any other type of retinal degeneration/diseases that may interfere with the study procedures, evaluations and outcome assessments.\n* Participant has undergone any laser or intraocular surgery (i.e., cataract surgery or minimally invasive glaucoma surgery) in the study eye within 12 weeks and/or yttrium aluminum garnet capsulotomy within 4 weeks prior to screening.\n* Participant has a history of vitrectomy surgery in the study eye.\n* Participant has a history of, or currently has, optic neuropathy not due to glaucoma, including traumatic or anterior ischemic optic neuropathy.\n* Participant has presence of any other concurrent ocular disease in the study eye that would affect or confound study outcomes.\n* Participant has any of the following medical conditions\n\n  * diabetes mellitus hemoglobin A1c (HbA1c) value of \\> 7% at screening, with the following exception: If the HbA1c value is \\> 7% and the participant has a normal creatinine, has no diabetic retinopathy, or diabetic macular edema, then the participant may be enrolled at the discretion of the investigator after consultation with the medical monitor\n  * uncontrolled hypertension defined as an average systolic blood pressure \\> 160 mmHg or an average diastolic blood pressure \\> 100 mmHg (second set of measurements is permitted if the first average exceeds the values during the same visit). Additional repeat measurement may be obtained within the screening window\n  * history of malignancy other than basal cell carcinoma, unless it was treated successfully at least 2 years prior to inclusion in the study\n  * history of multiple sclerosis or other severe autoimmune conditions\n  * history of uncontrolled hepatitis, pancreatitis, cirrhosis, asthma, liver/kidney/heart failure, or uncontrolled thyroid disease or intracranial hypertension\n* Participant is currently receiving systemic steroids (other than those related to the study), chemotherapy, immunosuppressive medications, monoclonal antibodies, or glucagon-like peptide-1 treatment.\n* Participant is currently using drugs with known ocular toxicity or confounding effects on VF assessments (including but not limited to hydroxychloroquine \\[Plaquenil\\], chloroquine, amiodarone, ethambutol, isoniazid, anticholinergics, sulfonamides \\[including TMP-SMX/Bactrim\\], and linezolid) unless these were stopped prior to screening and all possible ocular reactions were completely resolved without sequelae.\n* Participant has received any prior treatment including gene therapy, stem cell therapy, surgical implantation of prosthetic retinal chips, or prior IVT treatment for any indication in either eye that may be considered to potentially interfere with the study participation or its conduction.\n* Participant is currently participating in an interventional clinical study or has received an investigational agent by ocular or systemic administration within 3 months or 5 half-lives, whichever is longer prior to the screening.\n* Participant has any severe acute or chronic medical condition, psychiatric condition, physical examination finding or laboratory abnormality may interfere with the study procedures, evaluation and outcome assessments and would make the participant unsuitable for study participation.",
+      "age_min": "18 Years",
+      "age_max": null,
+      "sexe": "ALL",
+      "volontaires_sains": false
+    },
+    "criteres_secondaires": [
+      {
+        "critere": "Phase 1: Number of participants with positive anti-adeno-associated virus serotype (AAV) antibodies",
+        "delai": "Up to Week 52"
+      },
+      {
+        "critere": "Phase 1: Number of participants with positive anti-transgene antibodies",
+        "delai": "Up to Week 52"
+      },
+      {
+        "critere": "Phase 1: Number of participants with positive AAV interferon gamma (IFN-γ) enzyme-linked immunosorbent spot assay (ELISpot)",
+        "delai": "Up to Week 52"
+      },
+      {
+        "critere": "Phase 2: Mean rate of change (slope) from baseline in VF (10-2) MD",
+        "delai": "Baseline and Week 52"
+      },
+      {
+        "critere": "Phase 2: Percentage of participants with ≥ 7 dB change in 5 VF points from baseline",
+        "delai": "Baseline and Week 52"
+      },
+      {
+        "critere": "Phase 2: Number of participants with TEAEs",
+        "delai": "Up to week 52"
+      },
+      {
+        "critere": "Phase 2: Number of participants with SAEs",
+        "delai": "Up to week 52"
+      },
+      {
+        "critere": "Phase 2: Number of participants with AESIs",
+        "delai": "Up to week 52"
+      },
+      {
+        "critere": "Phase 2: Change from baseline in macular thickness: ganglion cell complex (GCC)",
+        "delai": "Baseline, Week 24 and 52"
+      },
+      {
+        "critere": "Phase 2: Change from baseline in peripapillary retinal nerve fiber layer (RNFL) thickness",
+        "delai": "Baseline, Week 24 and 52"
+      },
+      {
+        "critere": "Phase 2: Change from baseline in quantitative contrast sensitivity measurement - area under the log contrast sensitivity function (AULCSF)",
+        "delai": "Baseline, Week 24 and 52"
+      },
+      {
+        "critere": "Phase 2: Change from baseline in quantitative contrast sensitivity measurement - contrast acuity",
+        "delai": "Baseline, Week 24 and 52"
+      },
+      {
+        "critere": "Phase 2: Change from baseline in quantitative contrast sensitivity measurement - photopic contrast sensitivity",
+        "delai": "Baseline, Week 24 and 52"
+      },
+      {
+        "critere": "Phase 2: Change from baseline in quantitative contrast sensitivity measurements - mesopic contrast sensitivity",
+        "delai": "Baseline, Week 24 and 52"
+      },
+      {
+        "critere": "Phase 2: Change from Baseline in BCVA",
+        "delai": "Baseline, Week 24 and 52"
+      },
+      {
+        "critere": "Phase 2: Number of Participants with Positive Anti-AAV antibodies",
+        "delai": "Up to Week 52"
+      },
+      {
+        "critere": "Phase 2: Number of Participants with Positive Anti-transgene antibodies",
+        "delai": "Up to Week 52"
+      },
+      {
+        "critere": "Phase 2: Number of participants with Positive AAV IFN-γ ELISpot",
+        "delai": "Up to Week 52"
+      },
+      {
+        "critere": "Phase 2: Change from baseline in macular thickness: ganglion cell/inner plexiform layer (GCIPL)",
+        "delai": "Baseline, Week 24 and 52"
+      },
+      {
+        "critere": "Phase 2: Change from baseline in macular thickness: ganglion cell layer (GCL)",
+        "delai": "Baseline, Week 24 and 52"
+      },
+      {
+        "critere": "Phase 2: Change from baseline in macular thickness: inner plexiform layer (IPL)",
+        "delai": "Baseline, Week 24 and 52"
+      }
+    ],
+    "responsables": [
+      {
+        "nom": "Study Physician",
+        "affiliation": "Astellas Pharma Global Development, Inc.",
+        "role": "STUDY_DIRECTOR"
+      }
+    ],
+    "date_depot_resultats": null,
+    "resultats": null
+  },
+  "modifications": [
+    {
+      "date_detection": "2026-11-11",
+      "resultats_ajoutes": false,
+      "champs": {
+        "date_debut": {
+          "avant": "2026-08-14",
+          "apres": "2026-10-07"
+        },
+        "date_derniere_mise_a_jour": {
+          "avant": "2026-09-11",
+          "apres": "2026-10-22"
+        }
+      }
+    }
+  ]
+}

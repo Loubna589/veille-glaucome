@@ -1,0 +1,143 @@
+{
+  "pmid": "42963202",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42963202",
+    "titre": "A Retrospective Study of Ophthalmic Diseases in Companion Rabbits (Oryctolagus cuniculus): 297 Eyes From 205 Rabbits (2007-2022).",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42963202/",
+    "doi": "10.1111/vop.70290",
+    "pmcid": null,
+    "revue": "Veterinary ophthalmology",
+    "date_entree_pubmed": "2026-10-30",
+    "date_publication": "2026-Nov",
+    "types_publication": [
+      "Journal Article"
+    ],
+    "resume_present": true,
+    "resume": "OBJECTIVE: To investigate the incidence of ophthalmological diseases in companion rabbits and the factors affecting incidence.\nANIMALS STUDIED: Client-owned rabbits (205 rabbits and 297 eyes).\nPROCEDURES: We retrospectively investigated the incidence of ophthalmic diseases in companion rabbits of varied breed, age, and sex at a referral ophthalmology section in a single veterinary clinic.\nRESULTS: The incidences of cataracts, glaucoma, uveitis, and corneal ulcers were relatively high. Multiple diseases occurred in one eye in 65 rabbits (31.7%) and 80 eyes (26.9%), overall; the most common combination was cataracts and uveitis. Glaucoma incidence increased with age (odds ratio (OR): 1.010, 95% confidence interval (CI): 1.000-1.020; p = 0.007) and was less frequent in intact males (OR: 0.295, 95% CI: 0.094-0.927; p = 0.037) and spayed females (OR: 0.163, 95% CI: 0.042-0.638; p = 0.009) compared with neutered males. Uveitis incidence decreased with age (OR: 0.970, 95% CI: 0.958-0.982; p < 0.001; median: 1 year), and corneal ulcer incidence increased with age (OR: 1.010, 95% CI: 1.000-1.020; p = 0.007; median: 4 years). Holland Lops (73 rabbits, 116 eyes) and Netherland Dwarfs (63 rabbits, 82 eyes) were the two most frequently represented breeds. In Holland Lops, glaucoma and cataracts accounted for more than half of the ophthalmic diseases. In Netherland Dwarfs, the most common diseases were uveitis, corneal ulcers, tarsal plate abnormality, and glaucoma.\nCONCLUSIONS: The incidence of some eye diseases in rabbits may be influenced by factors such as sex, age, and breed. These results can be useful in predicting ophthalmic diseases that are influenced by age, sex, and breed.",
+    "mots_cles_auteurs": [
+      "cataract",
+      "companion rabbit",
+      "glaucoma",
+      "ophthalmic diseases",
+      "rabbit",
+      "uveitis"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 6,
+    "affiliations_auteurs": [
+      "Department of Veterinary Science, Faculty of Agriculture, University of Miyazaki, Miyazaki, Japan.",
+      "Department of Ophthalmology, Kumi Animal Hospital, Misato, Japan.",
+      "Japan Exotic Animal Medical Center, Tokyo, Japan.",
+      "Center for Animal Disease Control, University of Miyazaki, Miyazaki, Japan.",
+      "Veterinary Teaching Hospital, University of Miyazaki, Miyazaki, Japan."
+    ],
+    "financeurs_declares": [
+      {
+        "organisme": "Japan Agency for Medical Research and Development",
+        "pays": "",
+        "reference": "JP256f0137007"
+      }
+    ],
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": [
+      "Animals",
+      "Rabbits",
+      "Male",
+      "Female",
+      "Eye Diseases",
+      "Retrospective Studies",
+      "Incidence",
+      "Pets",
+      "Uveitis",
+      "Cataract"
+    ]
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Vétérinaire (animaux soignés) — hors veille principale",
+      "stade_source": "revue vétérinaire (Veterinary ophthalmology)",
+      "hors_veille_principale": true
+    },
+    "openalex": {
+      "openalex_id": "W7224967129",
+      "doi": "10.1111/vop.70290",
+      "pmid": "42963202",
+      "pmcid": null,
+      "titre": "A Retrospective Study of Ophthalmic Diseases in Companion Rabbits ( Oryctolagus cuniculus ): 297 Eyes From 205 Rabbits (2007–2022)",
+      "lien": "https://openalex.org/W7224967129",
+      "date_publication": "2026-10-30",
+      "type": "article",
+      "revue": "Veterinary Ophthalmology",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "pubmed"
+      ],
+      "financeurs": [
+        {
+          "nom": "Japan Agency for Medical Research and Development",
+          "ror": "https://ror.org/004rtk039"
+        }
+      ],
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "University of Miyazaki",
+          "pays": "JP",
+          "type": "education",
+          "ror": "https://ror.org/0447kww10"
+        }
+      ],
+      "acces_ouvert": true,
+      "statut_acces": "bronze",
+      "url_texte": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/vop.70290",
+      "url_pdf": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/vop.70290",
+      "licence": null,
+      "texte_integral_indexe": true,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Veterinary Medicine and Surgery",
+      "resume_present": true,
+      "mesh": [
+        "Animals",
+        "Cataract",
+        "Eye Diseases",
+        "Female",
+        "Male",
+        "Rabbits",
+        "Retrospective Studies",
+        "Uveitis",
+        "Incidence",
+        "Pets"
+      ]
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": [
+      {
+        "nom": "Japan Agency for Medical Research and Development",
+        "statut": "CONFIRMÉ — déclaré dans la notice PubMed (GrantList)",
+        "references": [
+          "JP256f0137007"
+        ],
+        "notices": [
+          [
+            "notice PubMed",
+            "https://pubmed.ncbi.nlm.nih.gov/42963202/?format=pubmed"
+          ]
+        ],
+        "note": null
+      }
+    ]
+  }
+}

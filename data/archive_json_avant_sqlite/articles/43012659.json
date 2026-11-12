@@ -1,0 +1,56 @@
+{
+  "pmid": "43012659",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "43012659",
+    "titre": "Incidence and Management of Ocular Hypertension Following the 0.19 mg Fluocinolone Acetonide Implant for Diabetic Macular Edema.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/43012659/",
+    "doi": "10.1097/IAE.0000000000005054",
+    "pmcid": null,
+    "revue": "Retina (Philadelphia, Pa.)",
+    "date_entree_pubmed": "2026-11-11",
+    "date_publication": "2026-Nov-11",
+    "types_publication": [
+      "Journal Article"
+    ],
+    "resume_present": true,
+    "resume": "PURPOSE: To investigate the real-world incidence and management of ocular hypertension (OHT) following the intravitreal 0.19 mg fluocinolone acetonide implant (FAi, Iluvien) for diabetic macular edema (DME).\nMETHODS: Retrospective review of eyes treated with FAi (2015-2025) with ≥1 month follow-up. Primary outcome was OHT (IOP >25 mmHg). Secondary outcomes included IOP >30 mmHg, IOP rise ≥10 mmHg from baseline, and OHT management.\nRESULTS: A total of 118 eyes (90 patients) were included with mean follow-up of 33.1 ± 1.3 months. Mean baseline IOP was 14.0 ± 3.0 mmHg. Pre-existing glaucoma or OHT was present in 32.2% of eyes, and 78.8% had a prior periocular or intravitreal corticosteroid injection. Overall, 11 eyes (9.3%) developed OHT (IOP >25mmHg) following FAi. Peak IOP >30 mmHg occurred in 6 eyes (5.1%), and 12 eyes (10.2%) had an IOP rise ≥10 mmHg above baseline. OHT developed at variable time points, with 36.4% of cases occurring between 6-12 months and 27.3% after 24 months; mean time to OHT development was 15.6 ± 13.1 months. Higher baseline IOP was associated with increased odds of developing OHT (OR per 1mmHg increase 1.32, p=0.02). Of the 11 eyes with OHT, most were managed medically (63.6%) or with observation (36.4%) alone, with only 1 eye (9.1%, 0.8% of entire cohort) requiring incisional glaucoma surgery.\nCONCLUSION: FAi was associated with low rates of OHT, with most cases managed with observation or topical therapy, with surgery rarely required. This supports the safety of FAi and highlight the importance of extended IOP monitoring.",
+    "mots_cles_auteurs": [
+      "Fluocinolone acetonide",
+      "comparative effectiveness",
+      "diabetic macular edema",
+      "intraocular pressure",
+      "intravitreal implant",
+      "long-acting corticosteroid delivery",
+      "real-world evidence"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 16,
+    "affiliations_auteurs": [
+      "Department of Pathology, Wills Eye Hospital, Sidney Kimmel Medical College at Thomas Jefferson University, Philadelphia, PA, USA.",
+      "Mid Atlantic Retina, Wills Eye Hospital, Sidney Kimmel Medical College at Thomas Jefferson University, Philadelphia, PA, USA.",
+      "School of Medicine, Washington University, St. Louis, MO.",
+      "School of Medicine, Sidney Kimmel Medical College, Thomas Jefferson University, Philadelphia, PA.",
+      "The Vickie and Jack Farber Vision Research Center, Philadelphia, PA."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    }
+  }
+}

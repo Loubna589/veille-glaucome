@@ -1,0 +1,121 @@
+{
+  "pmid": "42669558",
+  "premiere_detection": "2026-09-25",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42669558",
+    "titre": "Neuroprotective Effect of Subconjunctival Melatonin Injections in 6-Hydroxydopamine-Induced Neurotoxic Eye Damage.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42669558/",
+    "doi": "10.1134/S0006297925603880",
+    "pmcid": null,
+    "revue": "Biochemistry. Biokhimiia",
+    "date_entree_pubmed": "2026-08-30",
+    "date_publication": "2026-Aug",
+    "types_publication": [
+      "Journal Article"
+    ],
+    "resume_present": true,
+    "resume": "The search for new effective methods of neuroprotection is relevant for the treatment of a wide range of common eye diseases such as age-related macular degeneration, glaucoma, and diabetic retinopathy. Using a rabbit model of neurotoxic eye damage induced by intravitreal injection of the dopaminergic neurotoxin 6-hydroxydopamine (6-OHDA), we studied the effect of subconjunctival injections of 0.1% melatonin solution on pathophysiological and biochemical processes in the eye. Administration of 6-OHDA caused destruction of the retinal pigment epithelium, narrowing of retinal vessels, hemorrhages, decrease in ocular blood flow, and intraocular pressure, as well as reduced activity of α2-macroglobulin and concentrations of matrix metalloproteinase-9 and angiotensin-converting enzyme in the aqueous humor, vitreous body, and retina. Subconjunctival melatonin injections over 9 days resulted in the 2-fold on average reduction of the area of retinal damage, and normalization of the minute volume of ocular blood flow and intraocular pressure. On day 14, an increase in the α2-macroglobulin activity in the aqueous humor (0.66 ± 0.19 vs. 0.49 ± 0.13 nmol/min per 1 mg protein) and vitreous body (0.50 ± 0.15 vs. 0.21 ± 0.07 nmol/min per 1 mg protein, p &lt; 0.05) was observed, along with a decrease in the matrix metalloproteinase-9 concentration (118.4 ± 34.6 vs. 524.3 ± 163.2 ng/mg, p &lt; 0.05) and angiotensin-converting enzyme concentration (371.0 ± 52.1 vs. 596.1 ± 171.5 ng/mg, p &lt; 0.05) in the retina. This indicates reduction in the intensity of inflammation and vascular wall permeability. Melatonin could be considered a promising neuroprotective component in the complex therapy of retinal diseases.",
+    "mots_cles_auteurs": [
+      "6-hydroxydopamine",
+      "angiotensin-converting enzyme",
+      "intraocular pressure",
+      "matrix metalloproteinase-9",
+      "melatonin",
+      "neuroinflammation",
+      "neuroprotectors",
+      "retina",
+      "α2-macroglobulin"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 5,
+    "affiliations_auteurs": [
+      "Helmholtz National Medical Research Center of Eye Diseases, Ministry of Health of the Russian Federation, Moscow, 105062, Russia. tanya1975_@inbox.ru.",
+      "Helmholtz National Medical Research Center of Eye Diseases, Ministry of Health of the Russian Federation, Moscow, 105062, Russia."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": [
+      "Animals",
+      "Melatonin",
+      "Rabbits",
+      "Neuroprotective Agents",
+      "Oxidopamine",
+      "Matrix Metalloproteinase 9",
+      "Male",
+      "Retina",
+      "Vitreous Body",
+      "alpha-Macroglobulins",
+      "Intraocular Pressure"
+    ]
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": [
+        "subconjunctival"
+      ],
+      "stade": "Préclinique",
+      "stade_source": "indexation MeSH de PubMed (modèle animal / animaux sans humains)",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7168256170",
+      "doi": "10.1134/s0006297925603880",
+      "pmid": "42669558",
+      "pmcid": null,
+      "titre": "Neuroprotective Effect of Subconjunctival Melatonin Injections in 6-Hydroxydopamine-Induced Neurotoxic Eye Damage",
+      "lien": "https://openalex.org/W7168256170",
+      "date_publication": "2026-07-14",
+      "type": "article",
+      "revue": "Biochemistry (Moscow)",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "pubmed"
+      ],
+      "financeurs": null,
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "Helmholtz Moscow Research Institute of Eye Diseases",
+          "pays": "RU",
+          "type": "facility",
+          "ror": "https://ror.org/01xkgje29"
+        }
+      ],
+      "acces_ouvert": false,
+      "statut_acces": "closed",
+      "url_texte": null,
+      "url_pdf": null,
+      "licence": null,
+      "texte_integral_indexe": false,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Neurological Disorders and Treatments",
+      "resume_present": true,
+      "mesh": [
+        "alpha-Macroglobulins",
+        "Animals",
+        "Intraocular Pressure",
+        "Male",
+        "Melatonin",
+        "Rabbits",
+        "Retina",
+        "Vitreous Body",
+        "Oxidopamine",
+        "Neuroprotective Agents",
+        "Matrix Metalloproteinase 9"
+      ]
+    },
+    "openalex_verifie_le": "2026-09-25",
+    "financements": []
+  }
+}

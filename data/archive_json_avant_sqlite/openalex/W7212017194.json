@@ -1,0 +1,57 @@
+{
+  "openalex_id": "W7212017194",
+  "premiere_detection": "2026-09-25",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "openalex_id": "W7212017194",
+    "doi": "10.48550/arxiv.2609.06413",
+    "pmid": null,
+    "pmcid": null,
+    "titre": "Shrinkage invalidates the Hosmer-Lemeshow test: goodness of fit for penalized logistic regression, with an application to glaucoma diagnosis",
+    "lien": "https://openalex.org/W7212017194",
+    "date_publication": "2026-09-06",
+    "type": "preprint",
+    "revue": "arXiv (Cornell University)",
+    "type_source": "repository",
+    "langue": null,
+    "indexe_dans": [
+      "arxiv",
+      "datacite"
+    ],
+    "financeurs": [
+      {
+        "nom": "Alexandria University",
+        "ror": null
+      }
+    ],
+    "subventions": null,
+    "institutions": null,
+    "acces_ouvert": true,
+    "statut_acces": "green",
+    "url_texte": "https://arxiv.org/pdf/2609.06413",
+    "url_pdf": "https://arxiv.org/pdf/2609.06413",
+    "licence": null,
+    "texte_integral_indexe": true,
+    "retracte": false,
+    "citations": 0,
+    "sujet_principal": "Glaucoma and retinal disorders",
+    "resume_present": true,
+    "resume": "Clinical prediction models are increasingly fitted by penalized logistic regression, because collinearity or many candidate predictors makes maximum likelihood unstable or impossible. Calibration is then almost always assessed by a grouped goodness-of-fit test such as the Hosmer-Lemeshow test. We show that this combination is invalid. Under ridge regression the grouped standardized residuals acquire a non-centrality induced by shrinkage, so the reference distribution used in practice is wrong, and at the penalty that most improves the fitted probabilities the test rejects correctly specified models between 92 and 100 per cent of the time. We derive the corrected law and define the shrinkage-corrected Hosmer-Lemeshow test, which subtracts an estimate of that non-centrality, restoring the maximum likelihood reference exactly to first order, and is made valid by prepivoting at a power cost we measure. We also give the attenuation law governing what any such test can detect once the linear predictor must be estimated. In glaucoma diagnosis by confocal laser tomography, where the maximum likelihood estimate does not exist, the corrected test finds the evidence for misfit weaker by more than three orders of magnitude: the fitted risks are too flat rather than mis-ordered, so the model needs recalibration rather than rebuilding.",
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "present_dans_pubmed": false
+  }
+}

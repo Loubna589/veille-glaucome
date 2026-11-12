@@ -1,0 +1,157 @@
+{
+  "pmid": "42133103",
+  "premiere_detection": "2026-09-25",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42133103",
+    "titre": "Efficacy and safety of netarsudil compared with prostaglandin-based therapies: a Bayesian network meta-analysis.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42133103/",
+    "doi": "10.1007/s10792-026-04100-z",
+    "pmcid": null,
+    "revue": "International ophthalmology",
+    "date_entree_pubmed": "2026-05-14",
+    "date_publication": "2026-May-14",
+    "types_publication": [
+      "Journal Article",
+      "Network Meta-Analysis",
+      "Comparative Study",
+      "Review"
+    ],
+    "resume_present": true,
+    "resume": "The study aimed to compare the efficacy and safety of netarsudil (NET), alone or in fixed-dose combinations (FDC), in comparison with prostaglandin analogues (PGAs: bimatoprost [BIM], latanoprost [LAT], travoprost [TRA], and tafluprost [TAF]) for the treatment of primary open-angle glaucoma (POAG) or ocular hypertension. Literature search in PubMed, Embase, Cochrane Library, Web of Science (inception to July 2025). Identified 26 randomized controlled trials (RCTs) (5,390 patients). The primary outcome was the mean difference in intraocular pressure (IOP) reduction at 3 months; the secondary outcome was the incidence of conjunctival hyperemia. Pair-wise meta-analysis used Cochrane Review Manager 5.4, Bayesian network meta-analysis via Aggregate Data Drug Information System (ADDIS) with Markov Chain Monte Carlo (MCMC) simulations. Inconsistency assessed via node-splitting, convergence evaluated via Brooks-Gelman-Rubin method. Network meta-analysis showed 3-month IOP -lowering hierarchy: FDC > BIM > TRA > LAT > TAF > NET. Conjunctival hyperemia incidence (highest to lowest): TAF > FDC > NET > BIM > TRA > LAT. Node-splitting confirmed consistency (P ≥ 0.05), convergence was satisfactory. Funnel plots indicated no publication bias for IOP outcomes but potential bias for conjunctival hyperemia. Although NET ranked lower in IOP-lowering efficacy compared to most PGAs and FDC, it demonstrated a favorable safety profile, particularly with a relatively lower incidence of conjunctival hyperemia than TAF and FDC. These findings suggest that NET may serve as a valuable alternative in patients who are intolerant to PGAs or require adjunctive therapy, warranting further investigation in targeted populations.",
+    "mots_cles_auteurs": [
+      "Bayesian network meta-analysis",
+      "Glaucoma",
+      "Intraocular pressure",
+      "Netarsudil",
+      "Prostaglandin analogs"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 3,
+    "affiliations_auteurs": [
+      "Pharmacy Department, Tianjin Second People's Hospital, Tianjin, China. tjykdxliujun@163.com.",
+      "Tianjin Key Laboratory of Retinal Functions and Diseases, Tianjin Branch of National Clinical Research Center for Ocular Disease, Eye Institute and School of Optometry, Tianjin Medical University Eye Hospital, Tianjin, China.",
+      "Pharmacy Department, Tianjin Second People's Hospital, Tianjin, China."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": [
+      "Humans",
+      "Antihypertensive Agents",
+      "Bayes Theorem",
+      "Benzoates",
+      "beta-Alanine",
+      "Glaucoma, Open-Angle",
+      "Intraocular Pressure",
+      "Ocular Hypertension"
+    ]
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": true,
+      "produit_suivi_etudie_suggere": true,
+      "produits_suivis": [
+        {
+          "produit": "bimatoprost",
+          "role": "non déterminé",
+          "statut_role": "cité dans le résumé ou les mots-clés"
+        },
+        {
+          "produit": "latanoprost",
+          "role": "non déterminé",
+          "statut_role": "cité dans le résumé ou les mots-clés"
+        },
+        {
+          "produit": "travoprost",
+          "role": "non déterminé",
+          "statut_role": "cité dans le résumé ou les mots-clés"
+        },
+        {
+          "produit": "tafluprost",
+          "role": "non déterminé",
+          "statut_role": "cité dans le résumé ou les mots-clés"
+        },
+        {
+          "produit": "netarsudil",
+          "role": "étudié",
+          "statut_role": "rôle suggéré, à vérifier (règle automatique appliquée au titre)"
+        }
+      ],
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": [
+        "netarsudil + latanoprost"
+      ],
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": null,
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7161177532",
+      "doi": "10.1007/s10792-026-04100-z",
+      "pmid": "42133103",
+      "pmcid": null,
+      "titre": "Efficacy and safety of netarsudil compared with prostaglandin-based therapies: a Bayesian network meta-analysis",
+      "lien": "https://openalex.org/W7161177532",
+      "date_publication": "2026-05-14",
+      "type": "article",
+      "revue": "International Ophthalmology",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "pubmed"
+      ],
+      "financeurs": null,
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "Tianjin People's Hospital",
+          "pays": "CN",
+          "type": "healthcare",
+          "ror": "https://ror.org/01x62kg38"
+        },
+        {
+          "nom": "Tianjin Medical University Eye Hospital",
+          "pays": "CN",
+          "type": "healthcare",
+          "ror": "https://ror.org/04j2cfe69"
+        },
+        {
+          "nom": "Tianjin Medical University",
+          "pays": "CN",
+          "type": "education",
+          "ror": "https://ror.org/02mh8wx89"
+        }
+      ],
+      "acces_ouvert": false,
+      "statut_acces": "closed",
+      "url_texte": null,
+      "url_pdf": null,
+      "licence": null,
+      "texte_integral_indexe": false,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Glaucoma and retinal disorders",
+      "resume_present": false,
+      "mesh": [
+        "Network Meta-Analysis as Topic",
+        "Antihypertensive Agents",
+        "Bayes Theorem",
+        "Benzoates",
+        "Glaucoma, Open-Angle",
+        "Humans",
+        "Intraocular Pressure",
+        "Ocular Hypertension",
+        "Prostaglandins, Synthetic",
+        "beta-Alanine",
+        "Randomized Controlled Trials as Topic",
+        "Treatment Outcome"
+      ]
+    },
+    "openalex_verifie_le": "2026-09-25",
+    "financements": []
+  }
+}

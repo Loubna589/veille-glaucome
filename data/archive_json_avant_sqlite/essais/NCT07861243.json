@@ -1,0 +1,105 @@
+{
+  "nct": "NCT07861243",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "nct": "NCT07861243",
+    "titre": "Unravelling the Effects of Nicotinamide/Pyrroloquinolone Quinone /Citicoline/Homotaurine Fixed Combination on Contrast Sensitivity, Quality of Life, and Reading Performance in Glaucoma",
+    "titre_officiel": "Unravelling the Effects of Nicotinamide/Pyrroloquinolone Quinone /Citicoline/Homotaurine Fixed Combination on Contrast Sensitivity, Quality of Life, and Reading Performance in Glaucoma",
+    "lien": "https://clinicaltrials.gov/study/NCT07861243",
+    "date_premiere_publication": "2026-10-06",
+    "date_derniere_mise_a_jour": "2026-10-06",
+    "type_etude": "INTERVENTIONAL",
+    "phases_declarees": [
+      "NA"
+    ],
+    "statut": "COMPLETED",
+    "raison_arret": null,
+    "date_debut": "2025-11-01",
+    "date_fin_principale": "2025-11-01",
+    "promoteur": "Università degli Studi 'G. d'Annunzio' Chieti e Pescara",
+    "type_promoteur": "OTHER",
+    "collaborateurs": [
+      "FB VISION, Ascoli Piceno, Italy"
+    ],
+    "conditions": [
+      "Glaucoma"
+    ],
+    "interventions": [
+      {
+        "type": "DIETARY_SUPPLEMENT",
+        "nom": "Citicoline 500 MG (Optigen) for 4 months"
+      },
+      {
+        "type": "DIETARY_SUPPLEMENT",
+        "nom": "citicoline 500 mg + nicotinamide 54 mg + PQQ 5 mg + Homotaurine 50 mg fixed combination tablet (Neuprozin mito)"
+      }
+    ],
+    "participants_nombre": 44,
+    "participants_type": "ACTUAL",
+    "criteres_principaux": [
+      {
+        "critere": "Unravelling the effects of Nicotinamide/Pyrroloquinolone Quinone /Citicoline/Homotaurine fixed combination on reading performance in glaucoma",
+        "delai": "From enrollment to the end of treatment at 8 months"
+      },
+      {
+        "critere": "Unravelling the effects of Nicotinamide/Pyrroloquinolone Quinone /Citicoline/Homotaurine fixed combination on contrast sensitivity,",
+        "delai": "From enrollment to the end of treatment at 8 months"
+      },
+      {
+        "critere": "1. Unravelling the effects of Nicotinamide/Pyrroloquinolone Quinone /Citicoline/Homotaurine fixed combination on quality of life.",
+        "delai": "From enrollment to the end of treatment at 8 weeks"
+      }
+    ],
+    "resultats_deposes": false,
+    "publications_declarees": null,
+    "resume_source": "Glaucoma is a chronic, progressive neuro-ophthalmic condition that leads to irreversible loss of retinal ganglion cells (RGCs) and is the second leading cause of blindness worldwide. It is associated with elevated intraocular pressure (IOP), but many patients continue to experience vision loss even with controlled IOP. Mitochondrial dysfunction is a key mechanism in RGC damage, leading to interest in neuroprotective treatments. Various compounds like citicoline (CIT), homotaurine (HOMO), vitamin B3 (nicotinamide), and pyrroloquinoline quinone (PQQ) have shown potential in protecting RGCs, improving mitochondrial function, and reducing oxidative stress. This study aims to compare the effects of a combination supplement (NEUPROZIN MITO) containing CIT, HOMO, NAM, and PQQ with CIT alone (OPTIGEN) on contrast sensitivity, quality of life, and reading speed in patients with primary open-angle glaucoma (POAG) and controlled IOP. The study is a randomized, cross-over trial with two treatment groups, and outcomes will include changes in visual function, quality of life, and reading performance over 8 months. The sample size calculation suggests enrolling 44 patients to detect a clinically significant difference. This research will assess the effectiveness of mitochondrial-targeted therapies for glaucoma patients with controlled IOP.",
+    "citations_declarees": null,
+    "plan": {
+      "repartition": "RANDOMIZED",
+      "modele": "CROSSOVER",
+      "but_principal": "TREATMENT",
+      "insu": "NONE",
+      "insu_pour": null,
+      "insu_description": null,
+      "modele_observationnel": null
+    },
+    "bras": [
+      {
+        "libelle": "Patients treated with Neuprozin Mito for 4 months followed by 4 months of Optigen",
+        "type": "EXPERIMENTAL",
+        "description": "Patients with stable mild to moderate glaucoma, as assessed perimetrically and tonometrically, will be administered Neuprozin Mito for 4 months. After this period, Neuprozin Mito will be discontinued, and patients will be administered Optigen for an additional 4 months. At baseline, 4 months, and 8 months, the following assessments will be performed: best corrected visual acuity (VA) for both distance and near, IOP, 24-2 visual field (Humphrey Field Analyzer (HFA), Zeiss) with determination of MD, PSD, VFI, GHT; OCT to study the peripapillary retinal nerve fiber layer (RNFL) thickness and the macular ganglion cell complex (GCL-IPL) thickness (Cirrus 6000, Carl Zeiss Meditec); contrast sensitivity using the Spaeth/Richman contrast sensitivity (SPARCS) test (on computer support); quality of life assessment using the Glaucoma Quality of Life 15 (GQL-15) questionnaire; and reading performance using the Italian version of the MNREAD test.",
+        "interventions": [
+          "Dietary Supplement: Citicoline 500 MG (Optigen) for 4 months",
+          "Dietary Supplement: citicoline 500 mg + nicotinamide 54 mg + PQQ 5 mg + Homotaurine 50 mg fixed combination tablet (Neuprozin mito)"
+        ]
+      },
+      {
+        "libelle": "Patients treated with Optigen for 4 months followed by 4 months of Neuprozin mito",
+        "type": "ACTIVE_COMPARATOR",
+        "description": "Patients with stable mild to moderate glaucoma, as assessed perimetrically and tonometrically, will be administered Optigen for 4 months. After this period, Optigen will be discontinued, and patients will be administered Neuprozin mito for an additional 4 months. At baseline, 4 months, and 8 months, the following assessments will be performed: best corrected visual acuity (VA) for both distance and near, IOP, 24-2 visual field (Humphrey Field Analyzer (HFA), Zeiss) with determination of MD, PSD, VFI, GHT; OCT to study the peripapillary retinal nerve fiber layer (RNFL) thickness and the macular ganglion cell complex (GCL-IPL) thickness (Cirrus 6000, Carl Zeiss Meditec); contrast sensitivity using the Spaeth/Richman contrast sensitivity (SPARCS) test (on computer support); quality of life assessment using the Glaucoma Quality of Life 15 (GQL-15) questionnaire; and reading performance using the Italian version of the MNREAD test.",
+        "interventions": [
+          "Dietary Supplement: Citicoline 500 MG (Optigen) for 4 months",
+          "Dietary Supplement: citicoline 500 mg + nicotinamide 54 mg + PQQ 5 mg + Homotaurine 50 mg fixed combination tablet (Neuprozin mito)"
+        ]
+      }
+    ],
+    "eligibilite": {
+      "criteres": "Inclusion Criteria:\n\n* Age over 18 years\n* Good knowledge of the Italian language and good reading skills\n* Manifest primary open-angle glaucoma (POAG) in the early to moderate stage (MD \\> -12 dB). The stage of glaucoma is determined by measuring the mean defect (MD, dB) using standard automated perimetry (HFA II/III; Carl Zeiss Meditec, Dublin, CA, USA, program 24/2).\n* Patients able to provide written informed consent\n* Pharmacologically controlled IOP: average values of 3 measurements (9 AM) \\<18 mmHg\n* Stable perimetry in the year prior to enrollment\n\nExclusion Criteria:\n\n* Illiteracy\n* Severe-stage glaucoma (MD \\< -12 dB)\n* Previous surgical treatment for glaucoma or other ocular surgeries (except for cataract surgery performed more than 6 months earlier)\n* Concomitant ocular diseases, previous ocular trauma, or high myopia\n* Neurodegenerative diseases of the central nervous system, dysarthria, dyslexia, psychiatric disorders\n* Pregnancy/breastfeeding",
+      "age_min": "18 Years",
+      "age_max": null,
+      "sexe": "ALL",
+      "volontaires_sains": false
+    },
+    "criteres_secondaires": [
+      {
+        "critere": "effects of neuroprotection correlated to glaucoma stage",
+        "delai": "From enrollment to the end of treatment at eight months"
+      }
+    ],
+    "responsables": null,
+    "date_depot_resultats": null,
+    "resultats": null
+  },
+  "modifications": []
+}

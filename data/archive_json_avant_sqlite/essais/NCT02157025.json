@@ -1,0 +1,102 @@
+{
+  "nct": "NCT02157025",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "nct": "NCT02157025",
+    "titre": "A More Engaging Visual Field Test to Increase Use and Reliability in Pediatrics",
+    "titre_officiel": "A More Engaging Visual Field Test to Increase Use and Reliability in Pediatrics",
+    "lien": "https://clinicaltrials.gov/study/NCT02157025",
+    "date_premiere_publication": "2014-06-05",
+    "date_derniere_mise_a_jour": "2026-09-30",
+    "type_etude": "INTERVENTIONAL",
+    "phases_declarees": [
+      "NA"
+    ],
+    "statut": "COMPLETED",
+    "raison_arret": null,
+    "date_debut": "2015-02",
+    "date_fin_principale": "2026-02",
+    "promoteur": "Nova Southeastern University",
+    "type_promoteur": "OTHER",
+    "collaborateurs": null,
+    "conditions": [
+      "Glaucoma, Suspect",
+      "Optic Nerve Hypoplasia and Abnormalities of the Central Nervous System",
+      "Congenital Coloboma of the Optic Nerve",
+      "Optic Nerve Head Pits, Bilateral Congenital"
+    ],
+    "interventions": [
+      {
+        "type": "DEVICE",
+        "nom": "Cartoon video fixation target and cartoon character voice audio instructions during Humphrey perimetry"
+      },
+      {
+        "type": "OTHER",
+        "nom": "Usual Care procedures during Humphrey perimetry for children"
+      }
+    ],
+    "participants_nombre": 11,
+    "participants_type": "ACTUAL",
+    "criteres_principaux": [
+      {
+        "critere": "Humphrey Visual Field Test-Retest Variability of Mean Deviation scores (dB)",
+        "delai": "1 week"
+      }
+    ],
+    "resultats_deposes": false,
+    "publications_declarees": null,
+    "resume_source": "The majority of young children do not think that visual field (VF) testing of peripheral vision is similar to a game; therefore, it is not surprising that they have difficulty maintaining attention during VF testing and thus the test reliability suffers as a consequence. Poor VF reliability has been a longstanding, major issue since it leads to an increased number of tests and/or longer duration of time needed to determine when there are true vision losses. Providers are less likely to obtain VF tests in children since the results are of doubtful value and challenging to interpret when they are inconsistent. Effectively this means that children with untreated, slowly progressive eye diseases may go undiagnosed and incur greater visual losses. The investigators aim to create a prototype device that the investigators hypothesize will make VF testing more engaging for young children, thus increasing their attention and consistency of their responses to the test stimuli, which in turn should improve VF reliability. The components include a microdisplay video screen (1.5\" diameter) as the fixation target (instead of the standard LED light) displaying video clips of popular cartoon characters, and audio clips of impersonated cartoon character voices presented by the test operator to provide instructional feedback based on the child's performance during testing. Improved VF reliability from the investigators intervention would translate to improved diagnosis and care for young childrens' peripheral vision loss through widespread implementation of the investigators innovative, affordable and readily adoptable system at eye care providers' offices.",
+    "citations_declarees": null,
+    "plan": {
+      "repartition": "RANDOMIZED",
+      "modele": "PARALLEL",
+      "but_principal": "DIAGNOSTIC",
+      "insu": "NONE",
+      "insu_pour": null,
+      "insu_description": null,
+      "modele_observationnel": null
+    },
+    "bras": [
+      {
+        "libelle": "Cartoon Intervention",
+        "type": "EXPERIMENTAL",
+        "description": "Cartoon video fixation target and cartoon character voice audio instructions during Humphrey perimetry",
+        "interventions": [
+          "Device: Cartoon video fixation target and cartoon character voice audio instructions during Humphrey perimetry"
+        ]
+      },
+      {
+        "libelle": "Usual Care",
+        "type": "ACTIVE_COMPARATOR",
+        "description": "Usual care procedures for Humphrey perimetry in young children",
+        "interventions": [
+          "Other: Usual Care procedures during Humphrey perimetry for children"
+        ]
+      }
+    ],
+    "eligibilite": {
+      "criteres": "Inclusion Criteria:\n\n* Ages 5-8\n* Seen previously in the clinics at Nova Southeastern University's The Eye Care Institute with a diagnosis for glaucoma suspect or optic nerve abnormalities\n* Able and willing to complete VF testing at 2 study visits about a week apart\n* Provide informed consent\n\nExclusion Criteria:\n\n* History of having previously completed a VF test using Humphrey static perimetry\n* Inability to understand study or communicate responses (cognitive impairment)\n* Unable to understand, read and speak English fluently",
+      "age_min": "5 Years",
+      "age_max": "8 Years",
+      "sexe": "ALL",
+      "volontaires_sains": true
+    },
+    "criteres_secondaires": [
+      {
+        "critere": "Humphrey Visual Field Reliability Indices and Ratings",
+        "delai": "1 week"
+      }
+    ],
+    "responsables": [
+      {
+        "nom": "Ava Bittner",
+        "affiliation": "University of California, Los Angeles",
+        "role": "STUDY_DIRECTOR"
+      }
+    ],
+    "date_depot_resultats": null,
+    "resultats": null
+  },
+  "modifications": []
+}

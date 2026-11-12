@@ -1,0 +1,136 @@
+{
+  "nct": "NCT07009236",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "nct": "NCT07009236",
+    "titre": "A Study Evaluating the Safety and Efficacy of MINIject S+ in Subjects With Open Angle Glaucoma",
+    "titre_officiel": "A Multi-center, Prospective, Cohort Expansion Clinical Study Evaluating the Safety, Usability, Implantation Accuracy and Efficacy of MINIject S+ in Subjects With Open Angle Glaucoma (STAR VII Study)",
+    "lien": "https://clinicaltrials.gov/study/NCT07009236",
+    "date_premiere_publication": "2025-06-06",
+    "date_derniere_mise_a_jour": "2026-10-22",
+    "type_etude": "INTERVENTIONAL",
+    "phases_declarees": [
+      "NA"
+    ],
+    "statut": "RECRUITING",
+    "raison_arret": null,
+    "date_debut": "2025-09-29",
+    "date_fin_principale": "2026-12",
+    "promoteur": "iSTAR Medical",
+    "type_promoteur": "INDUSTRY",
+    "collaborateurs": null,
+    "conditions": [
+      "Glaucoma"
+    ],
+    "interventions": [
+      {
+        "type": "DEVICE",
+        "nom": "MIGS"
+      }
+    ],
+    "participants_nombre": 60,
+    "participants_type": "ESTIMATED",
+    "criteres_principaux": [
+      {
+        "critere": "Number of patients with correct placement of the device in the supraciliary space, as assessed by the blinded central reader",
+        "delai": "1 week"
+      },
+      {
+        "critere": "Ease of use evaluation",
+        "delai": "during the surgery procedure"
+      }
+    ],
+    "resultats_deposes": false,
+    "publications_declarees": null,
+    "resume_source": "This is a prospective, multi-center, international, cohort expansion study. Part 1 will be conducted in subjects with open angle glaucoma to identify the best insertion tool for MINIject S+. In Part 1, three different investigational insertion tools will be used to place MINIject implants in this first-in man study. Each arm represents a different version of the insertion tool. Subject and independent central reader will be blinded to the insertion tool used to implant MINIject S+. Part 2 will be an expansion phase where the selected insertion tool will be assessed in a larger population of subjects with open angle glaucoma and operable cataracts undergoing combined glaucoma and cataract surgery (with IOL implantation).",
+    "citations_declarees": null,
+    "plan": {
+      "repartition": "RANDOMIZED",
+      "modele": "PARALLEL",
+      "but_principal": "TREATMENT",
+      "insu": "DOUBLE",
+      "insu_pour": [
+        "PARTICIPANT",
+        "OUTCOMES_ASSESSOR"
+      ],
+      "insu_description": null,
+      "modele_observationnel": null
+    },
+    "bras": [
+      {
+        "libelle": "Investigational device FG300X",
+        "type": "ACTIVE_COMPARATOR",
+        "description": "One version of delivery tool",
+        "interventions": [
+          "Device: MIGS"
+        ]
+      },
+      {
+        "libelle": "Investigational device FG300Y",
+        "type": "ACTIVE_COMPARATOR",
+        "description": "One version of delivery tool",
+        "interventions": [
+          "Device: MIGS"
+        ]
+      },
+      {
+        "libelle": "Investigational device FG300Z",
+        "type": "ACTIVE_COMPARATOR",
+        "description": "One version of delivery tool",
+        "interventions": [
+          "Device: MIGS"
+        ]
+      }
+    ],
+    "eligibilite": {
+      "criteres": "Inclusion criteria\n\n1. Males or females, 20 years of age or older\n2. Diagnosis of open angle glaucoma (OAG) in the study eye\n3. Iridocorneal angle grade 3 (open, 20-35 degrees) or grade 4 (wide open, 35-45 degrees) according to Shaffer Angle Grading System in all quadrants of the study eye. (For subject's undergoing combined cataract extraction (with IOL implantation) with MINIject implantation, a grade 2 angle is acceptable prior to cataract surgery so long is the angle becomes grade 3 or greater prior to MINIject implantation).\n4. Glaucoma not adequately controlled with at least one topical hypotensive medication(s), unless the subject has an allergy / intolerance to a medication or inability to consistently access medication. Examples include but are not limited to prostaglandins, beta blockers, carbonic anhydrase inhibitors or alpha-2-agonists\n5. Minimal visual acuity in the study eye must be 35 letters EDTRS (20/200) or better and 50 letters ETDRS (20/100) or better in the fellow eye\n6. Maximal C/D ratio must be 0.9 in the study eye\n7. Subjects must be willing and able to follow study instructions and to return for scheduled study-related examinations\n8. Subjects must provide written informed consent prior to any study procedures\n9. Part 2 Only: Operable age-related cataract eligible for phacoemulsification surgery with Intraocular Lens (IOL) implantation\n10. Part 2 Only: The following intraoperative criteria following the IOL implantation need to be met in order for investigator to proceed with the investigational device placement:\n\n    1. Capsulorhexis is intact and centered\n    2. Posterior capsular bag is intact\n    3. The IOL is well-centered in the capsular bag\n    4. There is no evidence of zonular dehiscence/rupture\n    5. The Anterior Chamber (AC) angle was able to be clearly visualized using direct gonioscopy.\n\nExclusion criteria\n\nSubjects are not eligible for inclusion in this clinical investigation if one or more of the following criteria are met:\n\n1. Grade 2 (narrow, 20 degrees), grade 1 (extremely narrow, less or equal to 10 degrees) and grade 0 (closed or slit) iridocorneal angle according to Shaffer Angle Grading System in the study eye except for the situation described in inclusion criterion #3.\n2. Any eye surgery that was performed \\< 90 days before Screening/Baseline visit in the study eye\n3. Diagnosis of diabetes mellitus with HbA1C \\>7%\n4. Known or suspected allergy or hypersensitivity to medical silicone\n5. Allergy to fluorescein\n6. Corneal opacity or iridocorneal angle not visible through gonioprism in the study eye, preventing correct placement of the implant\n7. Central endothelial cell density (ECD) at Screening visit with a mean value \\<1900 cells/mm2 or coefficient of variation (CV) of endothelium \\>0.45 A variance of 5% less than this cell count is permitted if in the clinical judgement of the Investigator the potential benefit/risk to subject participation is favorable and the central corneal endothelial morphology is characterized as normal by the usual criteria of hexagonality, polymorphism, and polymegathism\n8. Anticipated need for ocular surgery or retinal laser procedure in the study eye\n9. Anterior chamber anatomic configuration of high risk for development of angle closure glaucoma in the study eye,\n10. Pre-existing ocular or systemic pathology that, in the opinion of the investigator (reason to be specified on the case report form), is likely to cause post-operative complications following implantation\n11. Central corneal thickness greater than 600 microns\n12. Clinically significant degenerative visual disorders that, in the opinion of the investigator, can impact study examinations (e.g. exudative macular degeneration or other retinal disorders)\n13. Clinically significant corneal disease (e.g., corneal dystrophy) in the study eye\n14. Evidence of crystalline lens subluxation or luxation in the study eye\n15. Inability to perform Visual Field (VF) testing in either eye\n16. Evidence of vitreous loss in the anterior chamber in the study eye\n17. Clinically significant intra-ocular inflammation or infection\n18. Presence of silicone oil in the study eye\n19. Participation in any study involving a drug or device within the past 3 months and planned participation to any other study during the present study. There is no exclusion period after completion of the present trial\n20. Only for women of childbearing potential: positive pregnancy test at Screening/Baseline visit. Pregnant or lactating women\n21. Subject is under tutorship or trusteeship\n22. Subject has a condition such that his / her ability to provide personal informed consent is compromised\n23. Diagnosis of cataract in the study eye that is not age-related e.g., traumatic, inflammatory or resulting from diabetes in the study eye\n24. Unable to discontinue anticoagulant/antiplatelet therapy (i.e. acetylsalicylic acid, coumadin, heparin, apixaban, etc.) for the surgical procedure. The amount of washout and when to restart therapy after surgery is at the Principal Investigator's discretion and may be based on literature references (see Annexes) or in consultation with the subject's primary care team.",
+      "age_min": "20 Years",
+      "age_max": null,
+      "sexe": "ALL",
+      "volontaires_sains": false
+    },
+    "criteres_secondaires": [
+      {
+        "critere": "Change in Best Corrected Visual Acuity from baseline to 6-, 12- and 24-months follow-up",
+        "delai": "Baseline, 6, 12, and 24 months"
+      },
+      {
+        "critere": "Rate of secondary surgical interventions at Month 6, Month 12 and Month 24",
+        "delai": "6, 12, and 24 months"
+      },
+      {
+        "critere": "Change in Endothelial Cell Density from baseline to 6-, 12- and 24-months follow-up",
+        "delai": "Baseline, 6, 12 and 24 months"
+      },
+      {
+        "critere": "Cumulative Rate of Adverse Events at 6, 12 and 24 months.",
+        "delai": "6, 12 and 24 months"
+      },
+      {
+        "critere": "Proportion of eyes achieving ≥20% reduction in diurnal IOP from baseline to 6-, 12- and 24-months follow-up",
+        "delai": "Baseline, 6, 12, 24 months"
+      },
+      {
+        "critere": "'Qualified success' rate from baseline to 6-, 12- and 24-months follow-up",
+        "delai": "6, 12 and 24 months"
+      },
+      {
+        "critere": "'Complete success' rate from baseline to 6-, 12- and 24-months follow-up",
+        "delai": "6, 12 and 24 months"
+      },
+      {
+        "critere": "Change in diurnal IOP from baseline to 6-, 12- and 24-months follow-up",
+        "delai": "Baseline, 6, 12 and 24 months"
+      },
+      {
+        "critere": "Change in number of IOP-lowering medication from baseline to 6-, 12- and 24-months follow-up.",
+        "delai": "Baseline, 6, 12 and 24-months"
+      }
+    ],
+    "responsables": null,
+    "date_depot_resultats": null,
+    "resultats": null
+  },
+  "modifications": []
+}

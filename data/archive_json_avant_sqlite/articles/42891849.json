@@ -1,0 +1,92 @@
+{
+  "pmid": "42891849",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42891849",
+    "titre": "Stage-dependent differences in recalculated mean deviation between 24plus(1-2) and 24plus(1) test locations in glaucoma.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42891849/",
+    "doi": "10.1007/s00417-026-07565-x",
+    "pmcid": null,
+    "revue": "Graefe's archive for clinical and experimental ophthalmology = Albrecht von Graefes Archiv fur klinische und experimentelle Ophthalmologie",
+    "date_entree_pubmed": "2026-10-18",
+    "date_publication": "2026-Oct-17",
+    "types_publication": [
+      "Journal Article"
+    ],
+    "resume_present": true,
+    "resume": "PURPOSE: To evaluate stage-dependent differences in mean deviation (MD) recalculated from the 24plus(1-2) and 24plus(1) test locations and to identify the MD range at which divergence between the reduced and full location sets exceeds a prespecified operational threshold in glaucoma.\nMETHODS: This retrospective, cross-sectional study included 394 eyes from 197 patients with glaucoma including preperimetric glaucoma (PPG). The 24plus(1) MD was recalculated from a subset of 36 test locations derived from the 24plus(1-2) grid. Glaucoma severity was classified as PPG, early, moderate, or advanced based on MD. Differences between the full and reduced location sets were assessed using cluster-adjusted Bland-Altman analysis and linear mixed-effects models. Mixed-effects logistic regression was applied to estimate the probability of exceeding a prespecified operational MD-difference threshold (|ΔMD|> 1 dB), with patient-level bootstrap confidence intervals.\nRESULTS: The overall mean difference in recalculated MD was - 0.52 dB (95% limits of agreement: - 2.82 to 1.78 dB). The proportion of eyes with |ΔMD|> 1 dB was 1.9% in PPG, 17.8% in early glaucoma, 50.0% in moderate glaucoma, and 67.5% in advanced glaucoma. Worse MD was significantly associated with a higher probability of exceeding the prespecified operational MD-difference threshold (β = - 0.169; P < 0.001). MD values of - 5.4 dB (95% CI: - 7.0 to - 4.0) and - 11.9 dB (95% CI: - 14.1 to - 9.9) corresponded to 25% and 50% predicted probabilities of deviation, respectively.\nCONCLUSION: In this recalculation/subsampling analysis, 24plus(1)-derived MD was similar to 24plus(1-2)-derived MD in early glaucoma but diverged with advancing disease, particularly beyond approximately - 5 to - 6 dB, suggesting caution when interpreting 24plus(1)-derived MD in more advanced glaucoma.",
+    "mots_cles_auteurs": [
+      "24plus(1–2)",
+      "AIZE",
+      "Glaucoma",
+      "Mean deviation",
+      "Test pattern",
+      "Visual field test"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 6,
+    "affiliations_auteurs": [
+      "Faculty of Medicine, Department of Ophthalmology, Kindai University, Sakai City, Osaka, Japan. nomoto@med.kindai.ac.jp.",
+      "Faculty of Medicine, Department of Ophthalmology, Kindai University, Sakai City, Osaka, Japan."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7162314758",
+      "doi": "10.1007/s00417-026-07565-x",
+      "pmid": "42891849",
+      "pmcid": null,
+      "titre": "Stage-dependent differences in recalculated mean deviation between 24plus(1–2) and 24plus(1) test locations in glaucoma",
+      "lien": "https://openalex.org/W7162314758",
+      "date_publication": "2026-10-17",
+      "type": "article",
+      "revue": "Graefe s Archive for Clinical and Experimental Ophthalmology",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "pubmed"
+      ],
+      "financeurs": null,
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "Kindai University",
+          "pays": "JP",
+          "type": "education",
+          "ror": "https://ror.org/05kt9ap64"
+        }
+      ],
+      "acces_ouvert": true,
+      "statut_acces": "green",
+      "url_texte": "https://www.researchsquare.com/article/rs-9617985/latest.pdf",
+      "url_pdf": "https://www.researchsquare.com/article/rs-9617985/latest.pdf",
+      "licence": "cc-by",
+      "texte_integral_indexe": true,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Glaucoma and retinal disorders",
+      "resume_present": true,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": []
+  }
+}

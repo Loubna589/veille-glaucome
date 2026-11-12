@@ -1,0 +1,119 @@
+{
+  "pmid": "42956334",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42956334",
+    "titre": "The Associations of Plasma Brain-derived Neurotrophic Factor with Macular Structure and Visual Function in Open-angle Glaucoma: A Cross-sectional Study.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42956334/",
+    "doi": "10.1097/IJG.0000000000002803",
+    "pmcid": null,
+    "revue": "Journal of glaucoma",
+    "date_entree_pubmed": "2026-10-29",
+    "date_publication": "2026-Oct-28",
+    "types_publication": [
+      "Journal Article"
+    ],
+    "resume_present": true,
+    "resume": "PRCIS: Plasma BDNF differed across glaucoma severity stages and was cross-sectionally associated with visual and structural parameters; in exploratory age-stratified analyses, the fitted csGCCT-BCVA relationship differed between younger and older patients.\nPURPOSE: To compare the plasma level of brain-derived neurotrophic factor (BDNF) in open-angle glaucoma (OAG) patients across disease stages and to examine its associations with visual and structural parameters.\nPATIENTS AND METHODS: This cross-sectional study included 167 control (cataract) patients and 800 patients with OAG. Plasma BDNF level was measured using a bead-based immunoassay (Luminex). Clinical variables included best-corrected visual acuity (BCVA), Humphrey Field Analyzer 24-2 indices, and swept-source optical coherence tomography measurements of superior, central, and inferior papillomacular central-strip ganglion cell complex thickness (csGCCT). Glaucoma severity was classified with the Anderson-Patella criteria. Exploratory generalized additive models characterized the central csGCCT-BCVA relationship by age group and by lowest versus highest quartile.\nRESULTS: Plasma BDNF was lower in early and moderate glaucoma patients than in controls (P=0.006, 0.001) but higher in advanced than in early or moderate glaucoma patients (P=0.040, 0.006). The highest-BDNF-quartile glaucoma patients had worse BCVA and mean deviation (MD) than the lowest-quartile patients, with significantly lower central csGCCT. Among patients aged <60 years, the fitted central csGCCT-BCVA relationship differed between the highest and lowest BDNF quartiles, with higher fitted logMAR in the highest-quartile group at lower csGCCT values.\nCONCLUSIONS: Plasma BDNF level differed across OAG disease stages and was associated with visual and structural parameters. Among younger patients, plasma BDNF quartile was associated with the fitted csGCCT-BCVA relationship. These cross-sectional findings do not establish temporal or causal relationships.",
+    "mots_cles_auteurs": [
+      "biomarker",
+      "brain-derived neurotrophic factor",
+      "ganglion cell complex thickness",
+      "glaucoma",
+      "swept-source OCT"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 7,
+    "affiliations_auteurs": [
+      "Department of Ophthalmology, Tohoku University Graduate School of Medicine, Sendai, Japan.",
+      "Advanced Ophthalmic Medicine.",
+      "Division of Ophthalmic Precision Medicine Development, United Centers for Advanced Research and Translational Medicine (ART), Tohoku University Graduate School of Medicine, Seiryo-machi, Aoba-ku, Sendai, Miyagi, Japan.",
+      "Ophthalmic Imaging and Information Analytics.",
+      "Retinal Disease Control, Tohoku University Graduate School of Medicine, Miyagi, Japan."
+    ],
+    "financeurs_declares": [
+      {
+        "organisme": "JPMJPF2201, JP21ak0101110",
+        "pays": "",
+        "reference": null
+      }
+    ],
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7224409159",
+      "doi": "10.1097/ijg.0000000000002803",
+      "pmid": "42956334",
+      "pmcid": null,
+      "titre": "The Associations of Plasma Brain-derived Neurotrophic Factor with Macular Structure and Visual Function in Open-angle Glaucoma: A Cross-sectional Study",
+      "lien": "https://openalex.org/W7224409159",
+      "date_publication": "2026-10-28",
+      "type": "article",
+      "revue": "Journal of Glaucoma",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "pubmed"
+      ],
+      "financeurs": null,
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "Tohoku University",
+          "pays": "JP",
+          "type": "education",
+          "ror": "https://ror.org/01dq60k83"
+        },
+        {
+          "nom": "United Centers for Advanced Research and Translational Medicine, Tohoku University",
+          "pays": "JP",
+          "type": "facility",
+          "ror": "https://ror.org/01b9sg432"
+        }
+      ],
+      "acces_ouvert": false,
+      "statut_acces": "closed",
+      "url_texte": null,
+      "url_pdf": null,
+      "licence": null,
+      "texte_integral_indexe": false,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Glaucoma and retinal disorders",
+      "resume_present": true,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": [
+      {
+        "nom": "JPMJPF2201, JP21ak0101110",
+        "statut": "CONFIRMÉ — déclaré dans la notice PubMed (GrantList)",
+        "references": null,
+        "notices": [
+          [
+            "notice PubMed",
+            "https://pubmed.ncbi.nlm.nih.gov/42956334/?format=pubmed"
+          ]
+        ],
+        "note": null
+      }
+    ]
+  }
+}

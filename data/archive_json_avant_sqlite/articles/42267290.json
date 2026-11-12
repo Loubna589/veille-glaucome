@@ -1,0 +1,137 @@
+{
+  "pmid": "42267290",
+  "premiere_detection": "2026-09-25",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42267290",
+    "titre": "Development, validation, and cost-effectiveness analysis of an AI-assisted three-tiered glaucoma screening model in a community-based setting: protocol for a cluster randomized controlled trial.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42267290/",
+    "doi": "10.3389/fpubh.2026.1845337",
+    "pmcid": "PMC13243054",
+    "revue": "Frontiers in public health",
+    "date_entree_pubmed": "2026-06-10",
+    "date_publication": "2026",
+    "types_publication": [
+      "Journal Article",
+      "Clinical Trial Protocol"
+    ],
+    "resume_present": true,
+    "resume": "INTRODUCTION: Glaucoma is the leading irreversible blinding eye disease worldwide and the global prevalence of glaucoma for individuals aged 40-80 years is estimated as 3.54%. Early screening and prevention wherever possible are essential interventions of chronic disease management for glaucoma, but there is currently a lack of a recognized glaucoma screening model for Chinese population. Therefore, this study intends to construct and validate an artificial intelligence (AI)-assisted three-tiered glaucoma screening model based on the community population and assess its cost-effectiveness.\nMETHODS AND ANALYSIS: This is a community population-based cluster randomized controlled trial with a minimum of 6-year follow-up. A three-tiered glaucoma screening strategy appropriate for Chinese individuals will be established, including a high-risk model questionnaire (primary screening), ophthalmic examinations (secondary screening, combined with physician-based and AI-assisted image interpretation), and definitive diagnosis by tertiary hospitals (tertiary screening). The participants of each community will be randomly divided into three groups (simple cluster randomization): no screening group, routine screening group, and tiered screening group. Participants in the no screening group will receive regular glaucoma-related health education, structured annual follow-up for symptom monitoring and recording of external ophthalmology visits, and a comprehensive ophthalmic screening at the end of the study to compensate for the absence of regular screening. A total of 28,275 participants (9,425 per group) will be recruited, allowing for an anticipated loss-to-follow-up rate of 20%. All primary outcome measures will be analyzed on a per-participant basis. The main endpoint is the glaucoma detection rate, with sensitivity and specificity of the screening as additional primary outcomes. Secondary outcomes involve comparative analyses of the cost-effectiveness of different screening strategies and the diagnostic accuracy of physician-based versus AI-assisted image interpretation.\nETHICS AND DISSEMINATION: The protocol has been approved by the Biomedical Ethics Review Committee, West China Hospital of Sichuan University [2025(1021)]. All the participants will be required to afford signed informed consent. The study results will be presented at scientific meetings and published in a peer-reviewed journal.\nCLINICAL TRIAL REGISTRATION: https://www.chictr.org.cn/showproj.html?proj=281642, identifier (ChiCTR2500107852).",
+    "mots_cles_auteurs": [
+      "AI-assisted",
+      "cluster randomized controlled trial",
+      "community",
+      "fundus photography",
+      "glaucoma",
+      "intraocular pressure",
+      "three-tiered screening model"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 9,
+    "affiliations_auteurs": [
+      "Department of Ophthalmology, West China Hospital, Sichuan University, Chengdu, China.",
+      "Research Laboratory of Ophthalmology and Vision Sciences, Eye Research Institute, West China Hospital, Sichuan University, Chengdu, China.",
+      "Department of Ophthalmology, The Second People's Hospital of Yibin, Yibin, China."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": [
+      "Adult",
+      "Female",
+      "Humans",
+      "Male",
+      "Artificial Intelligence",
+      "China",
+      "Cost-Effectiveness Analysis",
+      "Glaucoma",
+      "Mass Screening",
+      "Randomized Controlled Trials as Topic"
+    ]
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": null,
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7162288464",
+      "doi": "10.3389/fpubh.2026.1845337",
+      "pmid": "42267290",
+      "pmcid": null,
+      "titre": "Development, validation, and cost-effectiveness analysis of an AI-assisted three-tiered glaucoma screening model in a community-based setting: protocol for a cluster randomized controlled trial",
+      "lien": "https://openalex.org/W7162288464",
+      "date_publication": "2026-05-25",
+      "type": "article",
+      "revue": "Frontiers in Public Health",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "doaj",
+        "pubmed"
+      ],
+      "financeurs": null,
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "Sichuan University",
+          "pays": "CN",
+          "type": "education",
+          "ror": "https://ror.org/011ashp19"
+        },
+        {
+          "nom": "West China Hospital of Sichuan University",
+          "pays": "CN",
+          "type": "healthcare",
+          "ror": "https://ror.org/007mrxy13"
+        },
+        {
+          "nom": "Vision Eye Institute",
+          "pays": "AU",
+          "type": "education",
+          "ror": "https://ror.org/00b0t9z66"
+        },
+        {
+          "nom": "Second People’s Hospital of Yibin",
+          "pays": "CN",
+          "type": "healthcare",
+          "ror": "https://ror.org/05xceke97"
+        }
+      ],
+      "acces_ouvert": true,
+      "statut_acces": "gold",
+      "url_texte": "https://www.frontiersin.org/journals/public-health/articles/10.3389/fpubh.2026.1845337/pdf",
+      "url_pdf": "https://www.frontiersin.org/journals/public-health/articles/10.3389/fpubh.2026.1845337/pdf",
+      "licence": "cc-by",
+      "texte_integral_indexe": true,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Retinal Imaging and Analysis",
+      "resume_present": true,
+      "mesh": [
+        "Cost-Effectiveness Analysis",
+        "Adult",
+        "Artificial Intelligence",
+        "China",
+        "Cost-Benefit Analysis",
+        "Female",
+        "Glaucoma",
+        "Humans",
+        "Male",
+        "Mass Screening",
+        "Randomized Controlled Trials as Topic"
+      ]
+    },
+    "openalex_verifie_le": "2026-09-25",
+    "financements": []
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "pmid": "42980159",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42980159",
+    "titre": "The Association Between Marijuana Use and Primary Open-Angle Glaucoma Using the All of Us Research Program: A Case-Control Study.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42980159/",
+    "doi": "10.1097/IJG.0000000000002811",
+    "pmcid": null,
+    "revue": "Journal of glaucoma",
+    "date_entree_pubmed": "2026-11-04",
+    "date_publication": "2026-Nov-03",
+    "types_publication": [
+      "Journal Article"
+    ],
+    "resume_present": true,
+    "resume": "PRCIS: In this multi-racial, multi-ethnic nationwide cohort study using the All of Us Research Program, we report that daily marijuana use was associated with lower odds of POAG in a dose-response manner.\nPURPOSE: To investigate the association between marijuana use and primary open angle glaucoma (POAG) in a nationwide US cohort using the All of Us Research Program.\nMETHODS: 5096 patients with primary open angle glaucoma and 20,384 control patients were included. Electronic health records and survey data from was analyzed, and multivariable regression were performed to test the associations between marijuana use frequency and POAG.\nRESULTS: Among 5096 POAG patients, 2063 (40%) answered yes to any marijuana use, and marijuana use frequency was significantly associated with non-POAG status (P<0.001). On bivariate analysis, marijuana use frequencies were associated with reduced odds of POAG when compared to non-users (P<0.05). In multivariable regression, more frequent marijuana use was also associated with lower odds of POAG, with daily marijuana use significantly associated with decreased odds of POAG when compared to no use (OR=0.61, 95% CI: 0.38-0.95, P=0.035).\nCONCLUSIONS: The relationship between marijuana use and glaucoma is controversial with limited validation using real-world, population-level data. We identified an inverse dose-response association between marijuana use frequency and POAG. Daily marijuana use was significantly associated with reduced odds of POAG, especially in White patients. Our results suggest the therapeutic use of marijuana and its components for POAG warrants further research, particularly prospective studies for assessing causality.",
+    "mots_cles_auteurs": [
+      "big data",
+      "cannabis",
+      "marijuana",
+      "primary open angle glaucoma"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 10,
+    "affiliations_auteurs": [
+      "Hamilton Glaucoma Research Center and Division of Ophthalmology Informatics and Data Science, Viterbi Family Department of Ophthalmology and Shiley Eye Institute, University of California, San Diego.",
+      "School of Medicine, University of California, Irvine.",
+      "Department of Ophthalmology, Columbia University Irving Medical Center."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7225226465",
+      "doi": "10.1097/ijg.0000000000002811",
+      "pmid": "42980159",
+      "pmcid": null,
+      "titre": "The Association Between Marijuana Use and Primary Open-Angle Glaucoma Using the All of Us Research Program: A Case-Control Study",
+      "lien": "https://openalex.org/W7225226465",
+      "date_publication": "2026-11-03",
+      "type": "article",
+      "revue": "Journal of Glaucoma",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "pubmed"
+      ],
+      "financeurs": null,
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "University of California San Diego",
+          "pays": "US",
+          "type": "education",
+          "ror": "https://ror.org/0168r3w48"
+        },
+        {
+          "nom": "University of California, Irvine",
+          "pays": "US",
+          "type": "education",
+          "ror": "https://ror.org/04gyf1771"
+        },
+        {
+          "nom": "Columbia University Irving Medical Center",
+          "pays": "US",
+          "type": "healthcare",
+          "ror": "https://ror.org/01esghr10"
+        }
+      ],
+      "acces_ouvert": false,
+      "statut_acces": "closed",
+      "url_texte": null,
+      "url_pdf": null,
+      "licence": null,
+      "texte_integral_indexe": false,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Glaucoma and retinal disorders",
+      "resume_present": true,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": []
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "pmid": "42998672",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42998672",
+    "titre": "Investigating the impact of delisting routine eye examinations on common chronic ocular conditions in Ontario, Canada, between 1997 and 2021:a retrospective, population-based analysis.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42998672/",
+    "doi": "10.1016/j.jcjo.2026.10.012",
+    "pmcid": null,
+    "revue": "Canadian journal of ophthalmology. Journal canadien d'ophtalmologie",
+    "date_entree_pubmed": "2026-11-07",
+    "date_publication": "2026-Nov-07",
+    "types_publication": [
+      "Journal Article"
+    ],
+    "resume_present": true,
+    "resume": "OBJECTIVE: Routine eye examinations under the Ontario Health Insurance Plan (OHIP) were delisted in November 2004 for individuals with no pre-existing eye conditions. We aimed to investigate the impact of delisting on the prevalence and incidence rates of common ocular conditions in adults ≥40 years.\nMETHODS: Using OHIP claims submitted in 1997-2021 of adults ≥40 years, common chronic ocular conditions, namely glaucoma, corneal disease, and retinopathies, were identified. A 5-year lookback period was used. Segmented linear regressions were used to determine the significance of change in incidence rates before and after delisting.\nRESULTS: In adults 40-64 years, the annual prevalence of having ≥1 chronic ocular condition increased from 4.3% (2002) to 6.7% (2021). The annual incidence rate was 1.0% in 2003, decreased in 2005 (0.9%), and was followed by a period of increase to 2019 (1.5%), with fluctuations to 2021 (1.2%). Individuals in this age group not captured because of the delisting of eye examinations were estimated to be 260 273 between 2005 and 2021. For adults ≥65 years, the prevalence of having ≥1 chronic ocular condition increased from 15.4% (2002) to 24.7% (2021). Annual incidence rates in this age group remained stable during the time of delisting.\nCONCLUSIONS: The annual prevalence of chronic ocular conditions increased over time. However, the increase in having ≥1 condition appeared to have slowed in adults 40-64 years since 2005, with >260 000 Ontarians likely undetected with an ocular condition. This illustrates the impact that delisting eye examinations may have on the accessibility of early diagnosis and management of chronic ocular conditions.",
+    "mots_cles_auteurs": null,
+    "langue": "eng",
+    "nombre_auteurs": 7,
+    "affiliations_auteurs": [
+      "Temerty Faculty of Medicine, University of Toronto, Toronto ON.",
+      "Vision Health Canada, Toronto ON.",
+      "Department of Ophthalmology and Vision Sciences, University of Toronto, Toronto ON; John and Liz Tory Eye Centre, Sunnybrook Health Science Centre, Toronto ON.",
+      "Temerty Faculty of Medicine, University of Toronto, Toronto ON; Department of Ophthalmology and Vision Sciences, University of Toronto, Toronto ON.",
+      "Department of Ophthalmology and Vision Sciences, University of Toronto, Toronto ON; Department of Ophthalmology, St. Michael's Hospital, Unity Health Toronto, Toronto ON.",
+      "Department of Ophthalmology and Vision Sciences, University of Toronto, Toronto ON; Department of Ophthalmology, St. Michael's Hospital, Unity Health Toronto, Toronto ON. Electronic address: marko.popovic@mail.utoronto.ca."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7225593542",
+      "doi": "10.1016/j.jcjo.2026.10.012",
+      "pmid": "42998672",
+      "pmcid": null,
+      "titre": "Investigating the impact of delisting routine eye examinations on common chronic ocular conditions in Ontario, Canada, between 1997 and 2021:a retrospective, population-based analysis.",
+      "lien": "https://openalex.org/W7225593542",
+      "date_publication": "2026-11-07",
+      "type": "article",
+      "revue": "PubMed",
+      "type_source": "repository",
+      "langue": "en",
+      "indexe_dans": [
+        "pubmed"
+      ],
+      "financeurs": null,
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "University of Toronto",
+          "pays": "CA",
+          "type": "education",
+          "ror": "https://ror.org/03dbr7087"
+        },
+        {
+          "nom": "Sunnybrook Health Science Centre",
+          "pays": "CA",
+          "type": "healthcare",
+          "ror": "https://ror.org/03wefcv03"
+        },
+        {
+          "nom": "Sunnybrook Hospital",
+          "pays": "CA",
+          "type": "healthcare",
+          "ror": "https://ror.org/008kn1a71"
+        },
+        {
+          "nom": "St. Michael's Hospital",
+          "pays": "CA",
+          "type": "healthcare",
+          "ror": "https://ror.org/04skqfp25"
+        },
+        {
+          "nom": "Unity Health Toronto",
+          "pays": "CA",
+          "type": "healthcare",
+          "ror": "https://ror.org/012x5xb44"
+        }
+      ],
+      "acces_ouvert": false,
+      "statut_acces": "closed",
+      "url_texte": null,
+      "url_pdf": null,
+      "licence": null,
+      "texte_integral_indexe": false,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Glaucoma and retinal disorders",
+      "resume_present": true,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": []
+  }
+}

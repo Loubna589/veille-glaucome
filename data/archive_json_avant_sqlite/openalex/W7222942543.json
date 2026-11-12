@@ -1,0 +1,150 @@
+{
+  "openalex_id": "W7222942543",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "openalex_id": "W7222942543",
+    "doi": "10.64898/2026.10.15.26365686",
+    "pmid": null,
+    "pmcid": null,
+    "titre": "Association of Adduction-Induced Optic Nerve Head Strain with Visual Field Loss Progression in Myopic Normal-Tension Glaucoma The Wenzhou Glaucoma Progression Study",
+    "lien": "https://openalex.org/W7222942543",
+    "date_publication": "2026-10-19",
+    "type": "preprint",
+    "revue": "medRxiv",
+    "type_source": "repository",
+    "langue": "en",
+    "indexe_dans": [
+      "crossref"
+    ],
+    "financeurs": [
+      {
+        "nom": "National Natural Science Foundation of China",
+        "ror": "https://ror.org/01h0zpd94"
+      }
+    ],
+    "subventions": [
+      {
+        "financeur": "National Natural Science Foundation of China",
+        "reference": "12472304"
+      },
+      {
+        "financeur": "National Natural Science Foundation of China",
+        "reference": "12272030"
+      }
+    ],
+    "institutions": [
+      {
+        "nom": "Wenzhou Medical University",
+        "pays": "CN",
+        "type": "education",
+        "ror": "https://ror.org/00rd5t069"
+      },
+      {
+        "nom": "Affiliated Eye Hospital of Wenzhou Medical College",
+        "pays": "CN",
+        "type": "healthcare",
+        "ror": "https://ror.org/000sxmx78"
+      },
+      {
+        "nom": "Beihang University",
+        "pays": "CN",
+        "type": "education",
+        "ror": "https://ror.org/00wk2mp56"
+      },
+      {
+        "nom": "Institut Français",
+        "pays": "FR",
+        "type": "other",
+        "ror": "https://ror.org/047hdnt12"
+      },
+      {
+        "nom": "Singapore National Eye Center",
+        "pays": "SG",
+        "type": "healthcare",
+        "ror": "https://ror.org/029nvrb94"
+      },
+      {
+        "nom": "L V Prasad Eye Institute",
+        "pays": "IN",
+        "type": "nonprofit",
+        "ror": "https://ror.org/01w8z9742"
+      },
+      {
+        "nom": "Singapore Eye Research Institute",
+        "pays": "SG",
+        "type": "facility",
+        "ror": "https://ror.org/02crz6e12"
+      },
+      {
+        "nom": "Fondation de Rothschild",
+        "pays": "FR",
+        "type": "nonprofit",
+        "ror": "https://ror.org/02yfw7119"
+      },
+      {
+        "nom": "Beijing Tsinghua Chang Gung Hospital",
+        "pays": "CN",
+        "type": "healthcare",
+        "ror": "https://ror.org/050nfgr37"
+      },
+      {
+        "nom": "Tsinghua University",
+        "pays": "CN",
+        "type": "education",
+        "ror": "https://ror.org/03cve4549"
+      },
+      {
+        "nom": "Georgia Institute of Technology",
+        "pays": "US",
+        "type": "education",
+        "ror": "https://ror.org/01zkghx44"
+      },
+      {
+        "nom": "Emory University",
+        "pays": "US",
+        "type": "education",
+        "ror": "https://ror.org/03czfpz43"
+      },
+      {
+        "nom": "National University of Singapore",
+        "pays": "SG",
+        "type": "education",
+        "ror": "https://ror.org/01tgyzw49"
+      },
+      {
+        "nom": "Duke-NUS Medical School",
+        "pays": "SG",
+        "type": "education",
+        "ror": "https://ror.org/02j1m6098"
+      }
+    ],
+    "acces_ouvert": true,
+    "statut_acces": "green",
+    "url_texte": "https://www.medrxiv.org/content/medrxiv/early/2026/10/19/2026.10.15.26365686.full.pdf",
+    "url_pdf": "https://www.medrxiv.org/content/medrxiv/early/2026/10/19/2026.10.15.26365686.full.pdf",
+    "licence": "public-domain",
+    "texte_integral_indexe": true,
+    "retracte": false,
+    "citations": 0,
+    "sujet_principal": "Glaucoma and retinal disorders",
+    "resume_present": true,
+    "resume": "ABSTRACT Purpose To characterize the biomechanical response of the optic nerve head (ONH) in myopic versus non-myopic individuals with normal-tension glaucoma (NTG), and to evaluate the association between ONH strains and the rate of visual field (VF) progression. Design Retrospective clinical cohort study. Participants A total of 118 NTG eyes from 77 patients with ≥ 2 years of follow-up and 5 VF tests were enrolled, including 66 eyes with myopia and 52 eyes without. Methods Each participant underwent three-dimensional (3D) optical coherence tomography (OCT) imaging of the ONH under three mechanical loading conditions: 20° adduction, 30° abduction and acute intraocular pressure (IOP) elevation by applying a 0.80 N force to the lower eyelid. Effective strains across the global ONH complex and within specific segmented tissues (pre-lamina, lamina cribrosa, choroid, and sclera) were quantified using a validated 3D strain-mapping algorithm. Results Myopic NTG eyes exhibited significantly higher ONH strains compared to non-myopic eyes under acute IOP elevation (10.1±2.7% vs. 9.3±1.8%, P = 0.044) and abduction (9.2±2.3% vs. 8.4±2.1%, P = 0.048). In the non-myopic group, ONH strains varied significantly across conditions (P < 0.001), with adduction (9.9± 2.0%) and acute IOP elevation (9.3±1.8%) eliciting greater strains than abduction (8.4±2.1%). These condition-dependent variations were less pronounced in the myopic group (10.1±2.7% vs. 9.8±2.7% vs. 9.2±2.3%, P = 0.07). Multivariable linear mixed-effects analysis revealed that in myopic NTG, higher ONH strains induced by adduction were significantly associated with faster MD decline (estimate: -0.139 dB/year per 1% increase, P = 0.03, adjusted for age, spherical equivalent and baseline perimetric mean defect). Conversely, larger strains during acute IOP elevation were associated with slower progression (estimate: 0.184 dB/year per 1% increase, P = 0.004). Tissue-specific analysis confirmed that adduction-induced strains in the choroid and pre-lamina tissue as well as IOP-induced strains across all ONH tissues were significantly correlated with the rate of perimetric progression in myopic eyes (all P < 0.05). Conclusions In this cohort, greater adduction-induced ONH strain was associated with faster perimetric deterioration in myopic NTG. These findings support further investigation of gaze-related optic nerve traction as a potential non-IOP-related biomechanical factor in myopic NTG.",
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "present_dans_pubmed": false
+  }
+}

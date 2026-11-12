@@ -1,0 +1,316 @@
+{
+  "openalex_id": "W7212249258",
+  "premiere_detection": "2026-09-25",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "openalex_id": "W7212249258",
+    "doi": "10.64898/2026.09.08.26362398",
+    "pmid": null,
+    "pmcid": null,
+    "titre": "Genetic discovery using deep learning-derived optic nerve integrity phenotypes",
+    "lien": "https://openalex.org/W7212249258",
+    "date_publication": "2026-09-10",
+    "type": "preprint",
+    "revue": "medRxiv",
+    "type_source": "repository",
+    "langue": null,
+    "indexe_dans": [
+      "crossref"
+    ],
+    "financeurs": null,
+    "subventions": null,
+    "institutions": [
+      {
+        "nom": "The University of Queensland",
+        "pays": "AU",
+        "type": "education",
+        "ror": "https://ror.org/00rqy9422"
+      },
+      {
+        "nom": "QIMR Berghofer Medical Research Institute",
+        "pays": "AU",
+        "type": "facility",
+        "ror": "https://ror.org/004y8wk30"
+      },
+      {
+        "nom": "Erasmus MC",
+        "pays": "NL",
+        "type": "healthcare",
+        "ror": "https://ror.org/018906e22"
+      },
+      {
+        "nom": "Inserm",
+        "pays": "FR",
+        "type": "government",
+        "ror": "https://ror.org/02vjkv261"
+      },
+      {
+        "nom": "Université Paris Cité",
+        "pays": "FR",
+        "type": "education",
+        "ror": "https://ror.org/05f82e368"
+      },
+      {
+        "nom": "Maastricht University",
+        "pays": "NL",
+        "type": "education",
+        "ror": "https://ror.org/02jz4aj89"
+      },
+      {
+        "nom": "Sorbonne Paris Cité",
+        "pays": "FR",
+        "type": "other",
+        "ror": "https://ror.org/001z21q04"
+      },
+      {
+        "nom": "Fondation de Rothschild",
+        "pays": "FR",
+        "type": "nonprofit",
+        "ror": "https://ror.org/02yfw7119"
+      },
+      {
+        "nom": "Centre de Recherche Épidémiologie et Statistique",
+        "pays": "FR",
+        "type": "facility",
+        "ror": "https://ror.org/00t9egj41"
+      },
+      {
+        "nom": "Flinders University",
+        "pays": "AU",
+        "type": "education",
+        "ror": "https://ror.org/01kpzv902"
+      },
+      {
+        "nom": "King's College London",
+        "pays": "GB",
+        "type": "education",
+        "ror": "https://ror.org/0220mzb33"
+      },
+      {
+        "nom": "King's College School",
+        "pays": "GB",
+        "type": "education",
+        "ror": "https://ror.org/02bbqcn27"
+      },
+      {
+        "nom": "King's College Hospital",
+        "pays": "GB",
+        "type": "healthcare",
+        "ror": "https://ror.org/044nptt90"
+      },
+      {
+        "nom": "Johannes Gutenberg University Mainz",
+        "pays": "DE",
+        "type": "education",
+        "ror": "https://ror.org/023b0x485"
+      },
+      {
+        "nom": "University Medical Center of the Johannes Gutenberg University Mainz",
+        "pays": "DE",
+        "type": "healthcare",
+        "ror": "https://ror.org/00q1fsf04"
+      },
+      {
+        "nom": "Maastricht University Medical Centre",
+        "pays": "NL",
+        "type": "funder",
+        "ror": "https://ror.org/02d9ce178"
+      },
+      {
+        "nom": "University of Regensburg",
+        "pays": "DE",
+        "type": "education",
+        "ror": "https://ror.org/01eezs655"
+      },
+      {
+        "nom": "University of Wisconsin–Madison",
+        "pays": "US",
+        "type": "education",
+        "ror": "https://ror.org/01y2jtd41"
+      },
+      {
+        "nom": "Icahn School of Medicine at Mount Sinai",
+        "pays": "US",
+        "type": "education",
+        "ror": "https://ror.org/04a9tmd77"
+      },
+      {
+        "nom": "Broad Institute",
+        "pays": "US",
+        "type": "nonprofit",
+        "ror": "https://ror.org/05a0ya142"
+      },
+      {
+        "nom": "Massachusetts Eye and Ear Infirmary",
+        "pays": "US",
+        "type": "healthcare",
+        "ror": "https://ror.org/04g3dn724"
+      },
+      {
+        "nom": "Harvard University",
+        "pays": "US",
+        "type": "education",
+        "ror": "https://ror.org/03vek6s52"
+      },
+      {
+        "nom": "Moorfields Eye Hospital NHS Foundation Trust",
+        "pays": "GB",
+        "type": "healthcare",
+        "ror": "https://ror.org/03zaddr67"
+      },
+      {
+        "nom": "University College London",
+        "pays": "GB",
+        "type": "education",
+        "ror": "https://ror.org/02jx3x895"
+      },
+      {
+        "nom": "Johns Hopkins University",
+        "pays": "US",
+        "type": "education",
+        "ror": "https://ror.org/00za53h95"
+      },
+      {
+        "nom": "Johns Hopkins Medicine",
+        "pays": "US",
+        "type": "healthcare",
+        "ror": "https://ror.org/037zgn354"
+      },
+      {
+        "nom": "The University of Melbourne",
+        "pays": "AU",
+        "type": "education",
+        "ror": "https://ror.org/01ej9dk98"
+      },
+      {
+        "nom": "Centre for Eye Research Australia",
+        "pays": "AU",
+        "type": "facility",
+        "ror": "https://ror.org/01sqdef20"
+      },
+      {
+        "nom": "University of Tasmania",
+        "pays": "AU",
+        "type": "education",
+        "ror": "https://ror.org/01nfmeh72"
+      },
+      {
+        "nom": "Radboud University Nijmegen",
+        "pays": "NL",
+        "type": "education",
+        "ror": "https://ror.org/016xsfp80"
+      },
+      {
+        "nom": "Radboud University Medical Center",
+        "pays": "NL",
+        "type": "funder",
+        "ror": "https://ror.org/05wg1m734"
+      },
+      {
+        "nom": "Institute of Molecular and Clinical Ophthalmology Basel",
+        "pays": "CH",
+        "type": "nonprofit",
+        "ror": "https://ror.org/05e715194"
+      },
+      {
+        "nom": "University of Pittsburgh",
+        "pays": "US",
+        "type": "education",
+        "ror": "https://ror.org/01an3r305"
+      },
+      {
+        "nom": "Sørlandet Hospital Arendal",
+        "pays": "NO",
+        "type": "healthcare",
+        "ror": "https://ror.org/00pk1yr39"
+      },
+      {
+        "nom": "University Hospital Regensburg",
+        "pays": "DE",
+        "type": "healthcare",
+        "ror": "https://ror.org/01226dv09"
+      },
+      {
+        "nom": "Beijing Tsinghua Chang Gung Hospital",
+        "pays": "CN",
+        "type": "healthcare",
+        "ror": "https://ror.org/050nfgr37"
+      },
+      {
+        "nom": "Tsinghua University",
+        "pays": "CN",
+        "type": "education",
+        "ror": "https://ror.org/03cve4549"
+      },
+      {
+        "nom": "Beijing Tongren Hospital",
+        "pays": "CN",
+        "type": "healthcare",
+        "ror": "https://ror.org/013e4n276"
+      },
+      {
+        "nom": "The University of Western Australia",
+        "pays": "AU",
+        "type": "education",
+        "ror": "https://ror.org/047272k79"
+      },
+      {
+        "nom": "Sir Charles Gairdner Hospital",
+        "pays": "AU",
+        "type": "healthcare",
+        "ror": "https://ror.org/01hhqsm59"
+      },
+      {
+        "nom": "Lions Eye Institute",
+        "pays": "AU",
+        "type": "nonprofit",
+        "ror": "https://ror.org/006vyay97"
+      },
+      {
+        "nom": "UNSW Sydney",
+        "pays": "AU",
+        "type": "education",
+        "ror": "https://ror.org/03r8z3t63"
+      },
+      {
+        "nom": "Institute for Molecular Bioscience",
+        "pays": "AU",
+        "type": "facility",
+        "ror": "https://ror.org/018kjjj71"
+      },
+      {
+        "nom": "Queensland University of Technology",
+        "pays": "AU",
+        "type": "education",
+        "ror": "https://ror.org/03pnv4752"
+      }
+    ],
+    "acces_ouvert": true,
+    "statut_acces": "green",
+    "url_texte": "https://doi.org/10.64898/2026.09.08.26362398",
+    "url_pdf": null,
+    "licence": "cc-by",
+    "texte_integral_indexe": false,
+    "retracte": false,
+    "citations": 0,
+    "sujet_principal": "Glaucoma and retinal disorders",
+    "resume_present": true,
+    "resume": "Abstract The peripapillary retinal nerve fibre layer (pRNFL) thickness and Bruch’s membrane opening-minimum rim width (BMO-MRW) are three-dimensional retinal biomarkers for glaucoma. We aimed to demonstrate that AI-derived thickness from two-dimensional fundus images can act as proxies, enabling the discovery of novel neurodegenerative loci. AI-derived pRNFL and BMO-MRW strongly correlated with OCT-derived thickness (r: 0.69 and 0.79, respectively). After validation, these phenotypes were predicted in two cohorts lacking disc-centred OCT: the UK Biobank and the Canadian Longitudinal Study on Aging. The predicted phenotypes showed strong genetic correlations with directly measured phenotypes from a previous study for both phenotypes (0.70 and 0.96, respectively). This data increased statistical power, identifying 29 loci for pRNFL thickness and 122 loci for BMO-MRW, including 14 loci that were independent of VCDR. We observed shared and sector-specific thickness loci overlapping glaucoma loci and revealed loci independent of known risk factors. Together, these results emphasise that multidimensional inferences can be drawn from 2D imaging, enabling downstream genetic analyses.",
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "present_dans_pubmed": false
+  }
+}

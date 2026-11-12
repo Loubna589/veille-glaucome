@@ -1,0 +1,111 @@
+{
+  "pmid": "42894907",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42894907",
+    "titre": "Factors Associated With Hyperopic Shift After Phacoemulsification Combined With Intraocular Lens Implantation in Patients With Primary Angle-Closure Glaucoma.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42894907/",
+    "doi": "10.62713/aic.4816",
+    "pmcid": null,
+    "revue": "Annali italiani di chirurgia",
+    "date_entree_pubmed": "2026-10-19",
+    "date_publication": "2026-Oct-14",
+    "types_publication": [
+      "Journal Article"
+    ],
+    "resume_present": true,
+    "resume": "AIM: To investigate the factors associated with hyperopic shift (HS) after phacoemulsification (PE) combined with intraocular lens (IOL) implantation in patients with primary angle-closure glaucoma (PACG).\nMETHODS: A total of 167 eyes with PACG that underwent PE+IOL were retrospectively included. Postoperative refractive prediction error (RPE) was calculated as the actual postoperative spherical equivalent minus the Barrett-predicted postoperative spherical equivalent. HS (RPE >+0.50 D) was the primary outcome. Group comparisons and univariable logistic regression were performed, followed by receiver operating characteristic (ROC) analyses of selected variables and multivariable logistic regression to identify independent factors.\nRESULTS: Postoperative HS occurred in 54 eyes (32.3%). ROC curve analysis showed that axial length/corneal radius (AL/CR) ratio, anterior chamber depth (ACD), and white-to-white distance (WTW) showed moderate discriminative ability for postoperative HS, with areas under the curve (AUCs) of 0.779, 0.764, and 0.730, respectively. Multivariable logistic regression analysis showed that higher relative lens position (RLP), AL/CR, and WTW were associated with a lower likelihood of postoperative HS, whereas capsular tension ring (CTR) implantation was associated with a higher likelihood of postoperative HS.\nCONCLUSIONS: Lower RLP, AL/CR, and WTW values and CTR implantation were independently associated with postoperative HS. ROC analyses showed that AL/CR, ACD, and WTW had discriminative ability for HS.",
+    "mots_cles_auteurs": [
+      "axial length/corneal radius ratio",
+      "hyperopic shift",
+      "intraocular lens implantation",
+      "phacoemulsification",
+      "primary angle-closure glaucoma",
+      "refractive prediction error",
+      "relative lens position"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 2,
+    "affiliations_auteurs": [
+      "Department of Ophthalmology, Yiwu Central Hospital, 322000 Yiwu, Zhejiang, China."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": [
+      "Humans",
+      "Glaucoma, Angle-Closure",
+      "Phacoemulsification",
+      "Lens Implantation, Intraocular",
+      "Retrospective Studies",
+      "Hyperopia",
+      "Female",
+      "Male",
+      "Aged",
+      "Postoperative Complications",
+      "Middle Aged",
+      "ROC Curve"
+    ]
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": null,
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7221584407",
+      "doi": "10.62713/aic.4816",
+      "pmid": "42894907",
+      "pmcid": null,
+      "titre": "Factors Associated With Hyperopic Shift After Phacoemulsification Combined With Intraocular Lens Implantation in Patients With Primary Angle-Closure Glaucoma",
+      "lien": "https://openalex.org/W7221584407",
+      "date_publication": "2026-10-14",
+      "type": "article",
+      "revue": "Annali Italiani di Chirurgia",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "pubmed"
+      ],
+      "financeurs": null,
+      "subventions": null,
+      "institutions": null,
+      "acces_ouvert": true,
+      "statut_acces": "hybrid",
+      "url_texte": "https://storage.annaliitalianidichirurgia.it/AIC/2109891445347295200/application/AIC-97-10-1903-1911.pdf",
+      "url_pdf": "https://storage.annaliitalianidichirurgia.it/AIC/2109891445347295200/application/AIC-97-10-1903-1911.pdf",
+      "licence": "cc-by",
+      "texte_integral_indexe": true,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Intraocular Surgery and Lenses",
+      "resume_present": true,
+      "mesh": [
+        "Aged",
+        "Female",
+        "Humans",
+        "Hyperopia",
+        "Male",
+        "Middle Aged",
+        "Postoperative Complications",
+        "Retrospective Studies",
+        "ROC Curve",
+        "Glaucoma, Angle-Closure",
+        "Phacoemulsification",
+        "Lens Implantation, Intraocular"
+      ]
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": []
+  }
+}

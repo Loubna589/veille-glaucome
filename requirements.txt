@@ -1,0 +1,13 @@
+requests>=2.31
+numpy>=1.26
+onnxruntime>=1.17
+tokenizers>=0.15
+huggingface_hub>=0.20
+# FAISS : utilisé quand il est disponible (GitHub Actions / Linux). Sur Windows, si la stratégie de
+# sécurité bloque sa DLL, la recherche exacte numpy prend le relais (mêmes résultats qu'IndexFlatIP).
+faiss-cpu>=1.8; sys_platform == "linux"
+# Assistant RAG local (python assistant.py)
+flask>=3.0
+python-dotenv>=1.0
+# Lecture de la liste Swissmedic (Excel)
+openpyxl>=3.1

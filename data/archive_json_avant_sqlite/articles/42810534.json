@@ -1,0 +1,159 @@
+{
+  "pmid": "42810534",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42810534",
+    "titre": "Integrated bioinformatics identification and independent validation of FLNA, CCL2, and VMO1 as candidate biomarkers for dexamethasone-induced glaucoma.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42810534/",
+    "doi": "10.1016/j.exer.2026.111252",
+    "pmcid": null,
+    "revue": "Experimental eye research",
+    "date_entree_pubmed": "2026-09-29",
+    "date_publication": "2026-Dec",
+    "types_publication": [
+      "Journal Article"
+    ],
+    "resume_present": true,
+    "resume": "BACKGROUND: Dexamethasone-induced glaucoma (DIG) lacks early diagnostic biomarkers, and exosome-associated signatures remain underexplored, hindering timely clinical intervention.\nMETHODS: We integrated three GEO trabecular meshwork transcriptomic datasets. GSE16643 and GSE37474 (11 control, 11 treated) formed the training set; GSE124114 (9 control, 9 treated) served as independent validation. Differentially expressed genes (DEGs) were intersected with an exosome-associated gene set from GeneCards (relevance score >2). Candidate biomarkers were prioritized via LASSO, SVM-RFE, and Random Forest, followed by cross-validation. A nomogram was constructed and internally validated using 200 bootstrap resamples. Functional enrichment and molecular docking (CB-Dock2) were also performed.\nRESULTS: We identified 399 DEGs, of which 16 overlapped with exosome-related genes. Six candidates emerged from multi-algorithm screening, but only three (FLNA, CCL2, and VMO1) passed independent validation; ITGB4 was excluded due to inconsistent expression trends between cohorts. These three genes demonstrated robust discriminative ability in both training and validation sets. Enrichment analyses implicated MAPK signaling, extracellular matrix remodeling, oxidative stress, and lipid metabolic reprogramming, including adipogenesis and cholesterol homeostasis. The nomogram integrating these genes exhibited favorable calibration. Molecular docking revealed strong binding affinity of ellagic acid to FLNA and moderate affinity to CCL2.\nCONCLUSION: Our findings suggest that FLNA, CCL2, and VMO1 may serve as promising exosome-associated biomarkers for DIG, potentially involved in immune-metabolic regulation and extracellular matrix homeostasis. However, given the limited cohort size and the computational nature of the docking predictions, these results should be interpreted as hypothesis-generating and require further validation in independent cohorts and experimental systems.",
+    "mots_cles_auteurs": [
+      "Biomarker",
+      "Dexamethasone-induced glaucoma",
+      "Exosome-associated genes",
+      "Molecular docking",
+      "Nomogram"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 8,
+    "affiliations_auteurs": [
+      "School of Basic Medical Sciences, Henan University, Kaifeng, 475004, China; The Second Hospital of Jilin University, Changchun, Jilin Province, 130000, China.",
+      "Zhengzhou University First Affiliated Hospital Hematopoietic Stem Cell Transplantation Center, Zhengzhou, Henan, 450064, China.",
+      "School of Basic Medical Sciences, Henan University, Kaifeng, 475004, China.",
+      "School of Basic Medical Sciences, Henan University, Kaifeng, 475004, China. Electronic address: liyongqiang@vip.henu.edu.cn.",
+      "Department of Nuclear Medicine, Henan International Joint Laboratory for Nuclear Protein Regulation, The First Affiliated Hospital, Henan University College of Medicine, Ximen St, Kaifeng, Henan, 475004, China; Department of Microbiology and Immunology, Henan Provincial Research Center of Engineering Technology for Nuclear Protein Medical Detection, Medical School of Health, Zhengzhou Health College, 6 Gongming Rd, Erqi District, Zhengzhou, Henan, 450064, China. Electronic address: 10190096@vip.henu.edu.cn.",
+      "Department of Ophthalmology, Sanmenxia Eye Hospital/Sanmenxia Central Hospital, Sanmenxia, 472000, China; Henan International Joint Laboratory of Outflow Engineering, Sanmenxia Central Hospital, Sanmenxia, 472000, China. Electronic address: dangyalong@haust.edu.cn."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": [
+      "Dexamethasone",
+      "Humans",
+      "Biomarkers",
+      "Glaucoma",
+      "Computational Biology",
+      "Filamins",
+      "Chemokine CCL2",
+      "Trabecular Meshwork",
+      "Molecular Docking Simulation",
+      "Gene Expression Regulation",
+      "Glucocorticoids",
+      "Gene Expression Profiling",
+      "Intraocular Pressure"
+    ]
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": null,
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7214803263",
+      "doi": "10.1016/j.exer.2026.111252",
+      "pmid": "42810534",
+      "pmcid": null,
+      "titre": "Integrated bioinformatics identification and independent validation of FLNA, CCL2, and VMO1 as candidate biomarkers for dexamethasone-induced glaucoma",
+      "lien": "https://openalex.org/W7214803263",
+      "date_publication": "2026-09-29",
+      "type": "article",
+      "revue": "Experimental Eye Research",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "pubmed"
+      ],
+      "financeurs": null,
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "Henan University",
+          "pays": "CN",
+          "type": "education",
+          "ror": "https://ror.org/003xyzq10"
+        },
+        {
+          "nom": "Jilin University",
+          "pays": "CN",
+          "type": "education",
+          "ror": "https://ror.org/00js3aw79"
+        },
+        {
+          "nom": "Second Affiliated Hospital of Jilin University",
+          "pays": "CN",
+          "type": "healthcare",
+          "ror": "https://ror.org/03x6hbh34"
+        },
+        {
+          "nom": "Zhengzhou University",
+          "pays": "CN",
+          "type": "education",
+          "ror": "https://ror.org/04ypx8c21"
+        },
+        {
+          "nom": "First Affiliated Hospital of Zhengzhou University",
+          "pays": "CN",
+          "type": "healthcare",
+          "ror": "https://ror.org/056swr059"
+        },
+        {
+          "nom": "First Affiliated Hospital of Henan University",
+          "pays": "CN",
+          "type": "healthcare",
+          "ror": "https://ror.org/0536rsk67"
+        },
+        {
+          "nom": "Zhengzhou Health College",
+          "pays": "CN",
+          "type": "education",
+          "ror": "https://ror.org/02vc1ax33"
+        }
+      ],
+      "acces_ouvert": false,
+      "statut_acces": "closed",
+      "url_texte": null,
+      "url_pdf": null,
+      "licence": null,
+      "texte_integral_indexe": false,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Glaucoma and retinal disorders",
+      "resume_present": false,
+      "mesh": [
+        "Dexamethasone",
+        "Gene Expression Regulation",
+        "Glaucoma",
+        "Glucocorticoids",
+        "Humans",
+        "Intraocular Pressure",
+        "Trabecular Meshwork",
+        "Biomarkers",
+        "Chemokine CCL2",
+        "Computational Biology",
+        "Gene Expression Profiling",
+        "Molecular Docking Simulation",
+        "Filamins"
+      ]
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": []
+  }
+}

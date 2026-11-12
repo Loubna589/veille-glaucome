@@ -1,0 +1,137 @@
+{
+  "nct": "NCT06685211",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "nct": "NCT06685211",
+    "titre": "Electrical Stimulation for Vision Neuroenhancement in Glaucoma",
+    "titre_officiel": "A Randomized, Sham Controlled, Masked Study to Evaluate the Efficacy of Alternating Current Stimulation Using the Eyetronic System for the Treatment of Glaucoma",
+    "lien": "https://clinicaltrials.gov/study/NCT06685211",
+    "date_premiere_publication": "2024-11-12",
+    "date_derniere_mise_a_jour": "2026-10-09",
+    "type_etude": "INTERVENTIONAL",
+    "phases_declarees": [
+      "NA"
+    ],
+    "statut": "RECRUITING",
+    "raison_arret": null,
+    "date_debut": "2025-07-14",
+    "date_fin_principale": "2027-06",
+    "promoteur": "Stanford University",
+    "type_promoteur": "OTHER",
+    "collaborateurs": [
+      "EYETRONIC, Inc"
+    ],
+    "conditions": [
+      "Glaucoma",
+      "Glaucoma Open-Angle"
+    ],
+    "interventions": [
+      {
+        "type": "DEVICE",
+        "nom": "Eyetronic rtACS"
+      },
+      {
+        "type": "DEVICE",
+        "nom": "Sham rtACS"
+      }
+    ],
+    "participants_nombre": 30,
+    "participants_type": "ESTIMATED",
+    "criteres_principaux": [
+      {
+        "critere": "Visual Field Index (VFI)",
+        "delai": "3 Months"
+      },
+      {
+        "critere": "Mean Deviation (MD)",
+        "delai": "3 Months"
+      },
+      {
+        "critere": "Pointwise Linear Regression (PLR)",
+        "delai": "3 Months"
+      }
+    ],
+    "resultats_deposes": false,
+    "publications_declarees": null,
+    "resume_source": "The purpose of the study is to evaluate the efficacy, transorbital alternating current stimulation (rtACS) using the EYETRONIC for the treatment in patients with glaucoma.",
+    "citations_declarees": null,
+    "plan": {
+      "repartition": "RANDOMIZED",
+      "modele": "CROSSOVER",
+      "but_principal": "TREATMENT",
+      "insu": "DOUBLE",
+      "insu_pour": [
+        "PARTICIPANT",
+        "INVESTIGATOR"
+      ],
+      "insu_description": null,
+      "modele_observationnel": null
+    },
+    "bras": [
+      {
+        "libelle": "rtACS treatment",
+        "type": "EXPERIMENTAL",
+        "description": "Participants will receive 10 days of rtACS treatment in office.",
+        "interventions": [
+          "Device: Eyetronic rtACS"
+        ]
+      },
+      {
+        "libelle": "Sham",
+        "type": "PLACEBO_COMPARATOR",
+        "description": "Participants will be wearing device but no stimulation will occur for 10 treatments in office.",
+        "interventions": [
+          "Device: Sham rtACS"
+        ]
+      }
+    ],
+    "eligibilite": {
+      "criteres": "Inclusion Criteria:\n\n* Participant must be at least 18.\n* Participant must has the ability to comply with the requirements of the study and complete the schedule of events (SOE).\n* Participant's clinical diagnosis must be consistent with primary open angle glaucoma (including but not limited to normal tension, low tension or general open angle) characterized by the following features: Mean deviation (MD) worse than -6 but better than -20 on reliable Humphrey Visual Field 24-2 testing\n* Participant's eye pressure must be clinically stable, with IOP \\< 18.\n* If a participant has two eyes meeting study criteria, the worse eye as determined by visual field index (VFI) or patient preference, will be deemed includable. If both eyes qualify and have the same VFI, the patient may choose which eye they are willing to enter, or else a randomization procedure will assign one eye to the study.\n* Participant must understand and sign the informed consent. If the participant's vision is impaired to the point where he/she cannot read the informed consent document, the document will be read to the participant in its entirety.\n\nExclusion Criteria:\n\n* Participant is unable to comply with study procedures or follow-up visits.\n* Participant has a history of ocular herpes zoster.\n* Participant has a requirement of acyclovir and/or related products during study duration. To be eligible for this study, the participant must discontinue use of these products prior to enrollment and must not continue with the products until after they have completed the study.\n* Participant has evidence of corneal opacification or lack of optical clarity.\n* Participant has uveitis or other ocular inflammatory disease.\n* Participant is receiving systemic steroids or other immunosuppressive medications.\n* Participant is currently participating in or has within the last 3 months participated in any other clinical trial of a drug by ocular (if in the study eye) or systemic administration.\n* Participant is pregnant or lactating.\n* Participant has, in the opinion of the investigator, any physical or mental condition that would increase the risk of participation in the study or may interfere with the study procedures, evaluations and outcome assessments.\n* Patients with opened skull, after trepanation or with heart and brain pacemaker.\n* Patients with implanted intracranial metals such as clippings, coilings, ventriculo-peritoneal shunts, endoprosthesis etc.\n* Patients with any skin damage in the area of electrode placement.\n* Children and comatose patients.\n* Patients with recent history of epileptic seizure.\n* Patients with uncontrolled high levels of blood pressure (\\<160 mmHg) or uncontrolled high levels of intraocular pressure (\\<27 mmHg).\n* Patients abusing drugs or alcohol.",
+      "age_min": "18 Years",
+      "age_max": null,
+      "sexe": "ALL",
+      "volontaires_sains": false
+    },
+    "criteres_secondaires": [
+      {
+        "critere": "Ganglion Cell Layer",
+        "delai": "3 Months"
+      },
+      {
+        "critere": "Retinal Nerve Fiber Layer",
+        "delai": "3 Months"
+      },
+      {
+        "critere": "Best Corrected Visual Acuity",
+        "delai": "3 Months"
+      },
+      {
+        "critere": "Stead-State Visually Evoked Potential",
+        "delai": "3 Months"
+      },
+      {
+        "critere": "OCT-Angiography",
+        "delai": "3 Months"
+      },
+      {
+        "critere": "Retinal Metabolic Analysis",
+        "delai": "3 Months"
+      },
+      {
+        "critere": "Visual Field indicies in Non-Study Eye",
+        "delai": "3 Months"
+      }
+    ],
+    "responsables": [
+      {
+        "nom": "Jeffrey L Goldberg, MD PhD",
+        "affiliation": "Stanford University",
+        "role": "PRINCIPAL_INVESTIGATOR"
+      }
+    ],
+    "date_depot_resultats": null,
+    "resultats": null
+  },
+  "modifications": []
+}

@@ -1,0 +1,90 @@
+{
+  "pmid": "42955013",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42955013",
+    "titre": "Visual Field and RNFL OCT Testing Among Rural and Urban Residents With Glaucoma.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42955013/",
+    "doi": "10.1001/jamaophthalmol.2026.4645",
+    "pmcid": "PMC13720739",
+    "revue": "JAMA ophthalmology",
+    "date_entree_pubmed": "2026-10-29",
+    "date_publication": "2026-Oct-29",
+    "types_publication": [
+      "Journal Article"
+    ],
+    "resume_present": true,
+    "resume": "IMPORTANCE: Rural populations face disparities in eye care; therefore, understanding the utilization of structural imaging and visual field (VF) testing for glaucoma monitoring among rural compared with urban patients is important.\nOBJECTIVE: To evaluate whether rural residence and sociodemographic factors are associated with patterns of VF testing and retinal nerve fiber layer (RNFL) optical coherence tomography (OCT) in patients with glaucoma.\nDESIGN, SETTING, AND PARTICIPANTS: This retrospective longitudinal cohort study used data from the Sight Outcomes Research Collaborative (SOURCE) consortium, a multi-institutional repository of US academic ophthalmic clinical data, from May 2012 to January 2025. Included patients had at least 2 separate dates of glaucoma billing codes, at least 3 years of follow-up data, and at least 1 VF or RNFL OCT test.\nEXPOSURE: Rural vs urban residence, categorized by Rural-Urban Commuting Area codes.\nMAIN OUTCOMES AND MEASURES: Primary outcomes were utilization frequency (tests per year) and regular monitoring (≥1 test every 18 months) for VF and RNFL OCT. Testing frequency was analyzed using multivariable negative binomial regression, and regular monitoring was analyzed using logistic regression adjusted for sociodemographic characteristics and baseline visual acuity.\nRESULTS: Among 48 196 patients, 45 843 (95.1%) lived in urban areas (25 613 [55.9%] female; mean [SD] age, 67.78 [12.71] years) and 2353 (4.9%) lived in rural areas (1272 [54.1%] female; mean [SD] age, 67.3 [12.03] years). Mean (SD) VF testing frequency was 0.91 (0.52) tests per year among rural patients and 0.91 (0.56) among urban patients; rural residence was not associated with regular VF monitoring (adjusted odds ratio [AOR], 0.95; 95% CI, 0.88-1.04; P = .28). Rural residence was associated with lower RNFL OCT frequency (mean [SD], 0.57 [0.45] vs 0.63 [0.47] tests per year; difference, -0.06 [95% CI, -0.08 to -0.04] tests per year; adjusted incidence rate ratio, 0.93 [95% CI, 0.88-0.98]; P = .004) and lower odds of regular RNFL OCT monitoring (AOR, 0.82; 95% CI, 0.74-0.90; P < .001). Medicaid insurance was associated with lower odds of regular monitoring with VF (AOR, 0.35; 95% CI, 0.30-0.40; P < .001) and RNFL OCT (AOR, 0.62; 95% CI, 0.52-0.74; P < .001).\nCONCLUSIONS AND RELEVANCE: In this cohort study, rural residence was associated with lower utilization of RNFL OCT but not VF testing, while Medicaid insurance was associated with lower odds of monitoring for both modalities. The findings suggest that ophthalmologists should be aware that rural patients with glaucoma may require additional attention to continuity of structural imaging.",
+    "mots_cles_auteurs": null,
+    "langue": "eng",
+    "nombre_auteurs": 6,
+    "affiliations_auteurs": [
+      "Byers Eye Institute, Department of Ophthalmology, Stanford University School of Medicine, Palo Alto, California."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7224412268",
+      "doi": "10.1001/jamaophthalmol.2026.4645",
+      "pmid": "42955013",
+      "pmcid": "13720739",
+      "titre": "Visual Field and RNFL OCT Testing Among Rural and Urban Residents With Glaucoma",
+      "lien": "https://openalex.org/W7224412268",
+      "date_publication": "2026-10-29",
+      "type": "article",
+      "revue": "JAMA Ophthalmology",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "pubmed"
+      ],
+      "financeurs": null,
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "Stanford Medicine",
+          "pays": "US",
+          "type": "healthcare",
+          "ror": "https://ror.org/03mtd9a03"
+        },
+        {
+          "nom": "Stanford University",
+          "pays": "US",
+          "type": "education",
+          "ror": "https://ror.org/00f54p054"
+        }
+      ],
+      "acces_ouvert": true,
+      "statut_acces": "green",
+      "url_texte": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13720739/",
+      "url_pdf": null,
+      "licence": null,
+      "texte_integral_indexe": false,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Glaucoma and retinal disorders",
+      "resume_present": true,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": []
+  }
+}

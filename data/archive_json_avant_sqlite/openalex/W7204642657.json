@@ -1,0 +1,86 @@
+{
+  "openalex_id": "W7204642657",
+  "premiere_detection": "2026-09-25",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "openalex_id": "W7204642657",
+    "doi": "10.5281/zenodo.22166302",
+    "pmid": null,
+    "pmcid": null,
+    "titre": "Abridged Retinal Fluorescence Lifetimes in Glaucoma",
+    "lien": "https://openalex.org/W7204642657",
+    "date_publication": "2026-08-29",
+    "type": "article",
+    "revue": "Zenodo (CERN European Organization for Nuclear Research)",
+    "type_source": "repository",
+    "langue": "en",
+    "indexe_dans": [
+      "datacite"
+    ],
+    "financeurs": [
+      {
+        "nom": "National Institutes of Health",
+        "ror": "https://ror.org/01cwqze88"
+      }
+    ],
+    "subventions": [
+      {
+        "financeur": "National Institutes of Health",
+        "reference": "OT2OD032644"
+      }
+    ],
+    "institutions": [
+      {
+        "nom": "University of Illinois Urbana-Champaign",
+        "pays": "US",
+        "type": "education",
+        "ror": "https://ror.org/047426m28"
+      },
+      {
+        "nom": "University of California San Diego",
+        "pays": "US",
+        "type": "education",
+        "ror": "https://ror.org/0168r3w48"
+      },
+      {
+        "nom": "University of California, Davis",
+        "pays": "US",
+        "type": "education",
+        "ror": "https://ror.org/05rrcem69"
+      },
+      {
+        "nom": "Oregon Health & Science University",
+        "pays": "US",
+        "type": "education",
+        "ror": "https://ror.org/009avj582"
+      }
+    ],
+    "acces_ouvert": true,
+    "statut_acces": "green",
+    "url_texte": "https://doi.org/10.5281/zenodo.22166302",
+    "url_pdf": null,
+    "licence": "cc-by",
+    "texte_integral_indexe": false,
+    "retracte": false,
+    "citations": 0,
+    "sujet_principal": "Ophthalmology and Visual Impairment Studies",
+    "resume_present": true,
+    "resume": "This study investigates the relationship between glaucoma and retinal fluorescence lifetimes using FLIO. The results show that participants with glaucoma have shorter mean lifetimes compared to those without glaucoma, even after adjusting for age and diabetes status. The study suggests that glaucoma may be associated with altered metabolic activity in the retina.",
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "present_dans_pubmed": false
+  }
+}

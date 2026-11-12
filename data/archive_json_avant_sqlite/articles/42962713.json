@@ -1,0 +1,99 @@
+{
+  "pmid": "42962713",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42962713",
+    "titre": "Bilateral same-day minimally invasive glaucoma surgery: single-centre review of safety and outcomes.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42962713/",
+    "doi": "10.1016/j.jcjo.2026.09.013",
+    "pmcid": null,
+    "revue": "Canadian journal of ophthalmology. Journal canadien d'ophtalmologie",
+    "date_entree_pubmed": "2026-10-30",
+    "date_publication": "2026-Nov-06",
+    "types_publication": [
+      "Journal Article"
+    ],
+    "resume_present": true,
+    "resume": "OBJECTIVE: To report the efficacy and safety of bilateral same-day glaucoma surgery (BSDGS), specifically with minimally invasive glaucoma surgery (MIGS) procedures.\nDESIGN: Single university centre longitudinal, consecutive case series.\nPARTICIPANTS: A total of 63 patients (126 eyes) were included.\nMETHODS: This study reviewed all patients undergoing BSDGS between February 2022 and February 2025 at a university hospital in Montreal, Quebec. MIGS procedures included iStent trabecular microbypass, Hydrus Microstent, and bent ab interno needle goniotomy. All surgeries were performed by a single glaucoma specialist. Inclusion criteria included (i) bilateral glaucoma, (ii) need for intraocular pressure (IOP) or medication reduction, (iii) candidate for angle-based MIGS, and (iv) minimum 1 month follow-up. Exclusion criteria included (i) bleb-forming MIGS, (ii) gonioscopy-assisted transluminal trabeculoplasty, (iii) rapid progression, and (iv) less than 1 month follow-up. Outcome measures included changes in IOP, topical medication use, and visual acuity. All perioperative complications were recorded.\nRESULTS: IOP and topical glaucoma medication use were significantly reduced (P < 0.05) at various follow-up visits. Adverse events occurred in 44 eyes (34.9%). Clinically significant adverse events occurred in 13 eyes (10.3%). Bilateral simultaneous adverse events were observed in 11 patients (17.4%). Bilateral complications included transient IOP spikes, hyphema or microhyphema, cystoid macular edema, and rebound uveitis. Overall, 9 eyes (7.1%) required anterior-chamber paracentesis for acute IOP control in the postoperative period. There were no cases of vision-threatening adverse events.\nCONCLUSIONS: this is the first study to report safety outcomes of BSDGS using MIGS procedures. The intervention appears safe and effective relative to both unilateral MIGS and immediately sequential bilateral cataract surgery.",
+    "mots_cles_auteurs": null,
+    "langue": "eng",
+    "nombre_auteurs": 4,
+    "affiliations_auteurs": [
+      "Department of Ophthalmology, University of Montreal, Montreal QC. Electronic address: coliver91@gmail.com.",
+      "Faculty of Medicine, University of Montreal, Montreal QC.",
+      "Faculty of Medicine, University of British Columbia, Vancouver BC.",
+      "Department of Ophthalmology, University of Montreal, Montreal QC; Department of Ophthalmology, McGill University, Montreal QC; Montreal Glaucoma Institute and Bellevue Ophthalmology Clinics, Montreal QC."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7224992225",
+      "doi": "10.1016/j.jcjo.2026.09.013",
+      "pmid": "42962713",
+      "pmcid": null,
+      "titre": "Bilateral same-day minimally invasive glaucoma surgery: single-centre review of safety and outcomes",
+      "lien": "https://openalex.org/W7224992225",
+      "date_publication": "2026-11-01",
+      "type": "article",
+      "revue": "Canadian Journal of Ophthalmology",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "pubmed"
+      ],
+      "financeurs": null,
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "Université de Montréal",
+          "pays": "CA",
+          "type": "education",
+          "ror": "https://ror.org/0161xgx34"
+        },
+        {
+          "nom": "University of British Columbia",
+          "pays": "CA",
+          "type": "education",
+          "ror": "https://ror.org/03rmrcq20"
+        },
+        {
+          "nom": "McGill University",
+          "pays": "CA",
+          "type": "education",
+          "ror": "https://ror.org/01pxwe438"
+        }
+      ],
+      "acces_ouvert": true,
+      "statut_acces": "hybrid",
+      "url_texte": "https://www.canadianjournalofophthalmology.ca/article/S0008-4182(26)00372-8/pdf",
+      "url_pdf": "https://www.canadianjournalofophthalmology.ca/article/S0008-4182(26)00372-8/pdf",
+      "licence": "cc-by-nc-nd",
+      "texte_integral_indexe": true,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Glaucoma and retinal disorders",
+      "resume_present": true,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": []
+  }
+}

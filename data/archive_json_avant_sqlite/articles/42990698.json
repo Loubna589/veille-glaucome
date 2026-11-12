@@ -1,0 +1,145 @@
+{
+  "pmid": "42990698",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42990698",
+    "titre": "Beyond Billing Codes: An Agentic Large Language Model Pipeline for Extracting Glaucoma Procedural Data from Free-Text Clinical Notes.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42990698/",
+    "doi": "10.64898/2026.10.29.26366154",
+    "pmcid": "PMC13734161",
+    "revue": "medRxiv : the preprint server for health sciences",
+    "date_entree_pubmed": "2026-11-06",
+    "date_publication": "2026-Oct-30",
+    "types_publication": [
+      "Journal Article",
+      "Preprint"
+    ],
+    "resume_present": true,
+    "resume": "PURPOSE: To evaluate the accuracy of a large language model (LLM)-based agentic workflow to extract procedural data from free-text glaucoma clinical notes in the electronic health record (EHR).\nDESIGN: Cross-sectional.\nSUBJECTS: 1,250 subjects in the Bascom Palmer Ophthalmic Repository.\nMETHODS: Randomly sampled clinical notes from glaucoma encounters dated 2014 to 2024 were labeled by two glaucoma specialists (with an adjudicator as needed) for prior glaucoma-related procedures (name, date, details) and recommended future procedures (name, details). Notes were split into development (10%), validation (10%), and test (80%) sets. Five LLMs (Claude Opus 4.6, DeepSeek-V4 Pro, GPT-5.5, Grok 4.1, and Qwen3.6-35B-A3B) were accessed in Microsoft Foundry through HIPAA-compliant containers. The extraction pipeline comprised a three-step agentic workflow (extraction, validation, and conditional revision) followed by text standardization. Detection of procedure data was evaluated using accuracy, sensitivity, specificity, precision, and F1-score. Among positive cases, performance was evaluated using exact-match accuracy and Jaccard Index (JI). Prior procedure labels were also compared with EHR glaucoma-related Current Procedural Terminology (CPT) codes.\nMAIN OUTCOME MEASURES: Accuracy, exact-match accuracy, JI.\nRESULTS: A total of 1,984 (992 notes × 2 eyes) labels were evaluated for each task in the test set. Prior and future procedures were identified in 1,057 (53.3%) and 152 (7.7%) eyes, respectively. Accuracy ranged from 0.965 (Grok) to 0.996 (Claude) for prior procedures and 0.969 (DeepSeek, Qwen)-0.978 (Claude) for future procedures. Among positive cases, exact-match accuracy ranged from 0.681 (Grok) to 0.890 (Claude) for prior procedures and 0.704 (Grok)-0.849 (Claude) for future procedures; JI ranged from 0.827 (Grok) to 0.956 (Claude) and 0.734 (Grok) to 0.883 (Claude), respectively. Among all 1,760 prior procedures present in adjudicated labels, only 441 (25.1%) were captured by CPT-coded EHR data.\nCONCLUSIONS: A secure agentic LLM pipeline accurately extracted glaucoma procedural data from clinical notes, recovering data largely absent from structured EHR fields. Claude performed best across both tasks. Limited agreement between labels and CPT codes likely reflects procedures performed at outside institutions and the limited granularity of CPT coding. This approach may support a scalable, comprehensive characterization of procedure burden among glaucoma patients for research and clinical applications.",
+    "mots_cles_auteurs": null,
+    "langue": "eng",
+    "nombre_auteurs": 7,
+    "affiliations_auteurs": null,
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7224880349",
+      "doi": "10.64898/2026.10.29.26366154",
+      "pmid": "42990698",
+      "pmcid": "13734161",
+      "titre": "Beyond Billing Codes: An Agentic Large Language Model Pipeline for Extracting Glaucoma Procedural Data from Free-Text Clinical Notes",
+      "lien": "https://openalex.org/W7224880349",
+      "date_publication": "2026-10-30",
+      "type": "preprint",
+      "revue": "medRxiv",
+      "type_source": "repository",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "pubmed"
+      ],
+      "financeurs": [
+        {
+          "nom": "National Institutes of Health",
+          "ror": "https://ror.org/01cwqze88"
+        },
+        {
+          "nom": "National Eye Institute",
+          "ror": "https://ror.org/03wkg3b53"
+        }
+      ],
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "University of Miami",
+          "pays": "US",
+          "type": "education",
+          "ror": "https://ror.org/02dgjyy92"
+        },
+        {
+          "nom": "University of Miami Health System",
+          "pays": "US",
+          "type": "healthcare",
+          "ror": "https://ror.org/00zw9nc64"
+        },
+        {
+          "nom": "Universidade Federal de São Paulo",
+          "pays": "BR",
+          "type": "education",
+          "ror": "https://ror.org/02k5swt12"
+        },
+        {
+          "nom": "Olive View-UCLA Medical Center",
+          "pays": "US",
+          "type": "healthcare",
+          "ror": "https://ror.org/03b66rp04"
+        }
+      ],
+      "acces_ouvert": true,
+      "statut_acces": "green",
+      "url_texte": "https://www.medrxiv.org/content/medrxiv/early/2026/10/30/2026.10.29.26366154.full.pdf",
+      "url_pdf": "https://www.medrxiv.org/content/medrxiv/early/2026/10/30/2026.10.29.26366154.full.pdf",
+      "licence": null,
+      "texte_integral_indexe": true,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Machine Learning in Healthcare",
+      "resume_present": true,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": [
+      {
+        "nom": "National Institutes of Health",
+        "statut": "À VÉRIFIER — trouvé par OpenAlex seulement (absent de la déclaration de l'éditeur dans Crossref) ; à contrôler dans le texte de l'article",
+        "references": null,
+        "notices": [
+          [
+            "notice OpenAlex",
+            "https://api.openalex.org/works/W7224880349"
+          ],
+          [
+            "notice Crossref consultée (ne confirme pas ce financeur)",
+            "https://api.crossref.org/works/10.64898/2026.10.29.26366154"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "National Eye Institute",
+        "statut": "CONFIRMÉ — déclaré par l'éditeur dans Crossref",
+        "references": [
+          "EY033831"
+        ],
+        "notices": [
+          [
+            "notice justificative Crossref (déclaration de l'éditeur)",
+            "https://api.crossref.org/works/10.64898/2026.10.29.26366154"
+          ],
+          [
+            "notice OpenAlex",
+            "https://api.openalex.org/works/W7224880349"
+          ]
+        ],
+        "note": null
+      }
+    ]
+  }
+}

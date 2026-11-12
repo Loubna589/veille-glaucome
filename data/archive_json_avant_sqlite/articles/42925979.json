@@ -1,0 +1,94 @@
+{
+  "pmid": "42925979",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42925979",
+    "titre": "Near-fatal complications with treatment of early-onset glaucoma in a child harboring pathogenic variants in the CA5A gene.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42925979/",
+    "doi": "10.1016/j.jaapos.2026.105327",
+    "pmcid": null,
+    "revue": "Journal of AAPOS : the official publication of the American Association for Pediatric Ophthalmology and Strabismus",
+    "date_entree_pubmed": "2026-10-24",
+    "date_publication": "2026-Oct-24",
+    "types_publication": [
+      "Case Reports",
+      "Journal Article"
+    ],
+    "resume_present": false,
+    "resume": null,
+    "mots_cles_auteurs": null,
+    "langue": "eng",
+    "nombre_auteurs": 7,
+    "affiliations_auteurs": [
+      "Advanced Eye Centre. Electronic address: sushmita_kaushik@yahoo.com.",
+      "Advanced Pediatric Centre, and.",
+      "Advanced Eye Centre.",
+      "Department of Anaesthesia & Intensive Care, Postgraduate Institute of Medical Education and Research, Chandigarh, India."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7223469782",
+      "doi": "10.1016/j.jaapos.2026.105327",
+      "pmid": "42925979",
+      "pmcid": null,
+      "titre": "Near-fatal complications with treatment of early-onset glaucoma in a child harboring pathogenic variants in the CA5A gene",
+      "lien": "https://openalex.org/W7223469782",
+      "date_publication": "2026-10-01",
+      "type": "article",
+      "revue": "Journal of American Association for Pediatric Ophthalmology and Strabismus",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "pubmed"
+      ],
+      "financeurs": null,
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "Eye Center",
+          "pays": "SA",
+          "type": "healthcare",
+          "ror": "https://ror.org/02jecxg34"
+        },
+        {
+          "nom": "Post Graduate Institute of Medical Education and Research",
+          "pays": "IN",
+          "type": "education",
+          "ror": "https://ror.org/009nfym65"
+        }
+      ],
+      "acces_ouvert": false,
+      "statut_acces": "closed",
+      "url_texte": null,
+      "url_pdf": null,
+      "licence": null,
+      "texte_integral_indexe": false,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Glaucoma and retinal disorders",
+      "resume_present": false,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": []
+  }
+}

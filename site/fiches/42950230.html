@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>PMID 42950230 — fiche article</title><style>
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
+:root{--fond:#f4f7fb;--carte:#fff;--texte:#0f1d33;--doux:#52627a;--bord:#e2e8f0;--accent:#0b4f8a;
+--ok:#146c43;--ok-fond:#e3f4ea;--att:#8a5300;--att-fond:#fdf1d8;--ver:#b42318;--ver-fond:#fdeceb;
+--reg:#3f3c9e;--reg-fond:#ecebfb;--src-fond:#f1f5f9;--mark:#fff1a8;--manque:#b42318;--turquoise:#14b8a6;}
+@media (prefers-color-scheme:dark){:root{--fond:#0a1120;--carte:#101a2c;--texte:#e6edf7;--doux:#9db0ca;
+--bord:#1e2b42;--accent:#6fb4ff;--ok:#6fd6a0;--ok-fond:#12301f;--att:#f3c15e;--att-fond:#352a10;--ver:#ff9a8f;
+--ver-fond:#3a1714;--reg:#b4b2ff;--reg-fond:#24234a;--src-fond:#0d1626;--mark:#5a4d10;--manque:#ff9a8f;--turquoise:#2dd4bf;}}
+*{box-sizing:border-box}body{margin:0;background:var(--fond);color:var(--texte);
+font:15.5px/1.6 "Inter",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+:focus-visible{outline:3px solid var(--turquoise);outline-offset:2px;border-radius:6px}
+main{max-width:1000px;margin:0 auto;padding:20px 18px 64px}
+.bandeau{display:flex;align-items:center;gap:10px;font-weight:800;letter-spacing:-.02em;padding:6px 0 14px;color:var(--texte);text-decoration:none}
+.bandeau i{width:30px;height:30px;border-radius:9px;background:linear-gradient(135deg,#0b4f8a,#14b8a6);display:inline-block}
+header,section{background:var(--carte);border:1px solid var(--bord);border-radius:16px;padding:20px 24px;margin:0 0 16px;
+box-shadow:0 1px 2px rgba(15,29,51,.04),0 6px 20px -8px rgba(15,29,51,.12)}
+h1{font-size:1.45rem;line-height:1.3;margin:.2em 0 .5em}h2{font-size:1.1rem;margin:0 0 .6em;color:var(--accent)}
+h3{font-size:1rem;margin:1.1em 0 .4em}.surtitre{color:var(--doux);margin:0;font-size:.9rem}
+a{color:var(--accent)}small,.def{color:var(--doux)}.def{font-size:.88rem;margin:.2em 0 .6em}
+.grille{display:grid;grid-template-columns:max-content 1fr;gap:4px 16px;margin:12px 0 0}
+.grille dt{color:var(--doux)}.grille dd{margin:0}
+.badge{display:inline-block;font-size:.72rem;font-weight:600;padding:2px 8px;border-radius:999px;margin:2px 4px 2px 0;
+vertical-align:middle;background:var(--src-fond);color:var(--doux)}
+.badge.confirme{background:var(--ok-fond);color:var(--ok)}.badge.attente{background:var(--att-fond);color:var(--att)}
+.badge.verifier{background:var(--ver-fond);color:var(--ver)}.badge.regle{background:var(--reg-fond);color:var(--reg)}
+.rubrique{font-weight:600}.manque{color:var(--manque);font-style:italic}
+mark{background:var(--mark);color:inherit;padding:0 2px;border-radius:3px}
+blockquote{margin:.5em 0;padding:.5em .9em;border-left:3px solid var(--bord);background:var(--src-fond);border-radius:0 6px 6px 0}
+pre{white-space:pre-wrap;font-size:.85rem;background:var(--src-fond);padding:10px;border-radius:6px}
+.defile{overflow-x:auto}table{border-collapse:collapse;width:100%;font-size:.92rem;margin:.4em 0}
+th,td{border:1px solid var(--bord);padding:6px 8px;text-align:left;vertical-align:top}th{background:var(--src-fond)}
+.analyse{background:var(--src-fond);padding:6px 10px;border-radius:6px;font-size:.92rem}
+.acteurs{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px}
+.acteurs>div{border:1px solid var(--bord);border-radius:8px;padding:10px 12px}.acteurs h3{margin-top:0}
+.copier{position:sticky;top:0;z-index:2;display:flex;gap:12px;align-items:center;flex-wrap:wrap;
+background:var(--fond);padding:10px 0;margin-bottom:8px}
+button{font:inherit;font-weight:600;background:var(--accent);color:#fff;border:0;border-radius:8px;padding:9px 16px;cursor:pointer}
+@media (prefers-color-scheme:dark){button{color:#10141a}}
+textarea{width:100%;min-height:260px;font:13px/1.4 ui-monospace,Consolas,monospace;background:var(--src-fond);
+color:var(--texte);border:1px solid var(--bord);border-radius:6px;padding:8px}
+details{margin:.5em 0}summary{cursor:pointer;color:var(--accent)}
+.retour{font-size:.92rem;margin:0 0 4px}
+@media (max-width:600px){.grille{grid-template-columns:1fr}.grille dt{margin-top:6px}header,section{padding:14px}}
+</style></head>
+<body><main>
+<a class="bandeau" href="../index.html"><i aria-hidden="true"></i>Glaucoma Intelligence</a><nav class="retour"><a href="../index.html">Accueil</a> · <a href="../etudes.html">← Essais &amp; articles</a> · <a href="../recherche.html">Rechercher</a> · <a href="../carte.html">Carte des acteurs</a> · <a href="../alertes.html">Alertes</a></nav>
+<div class="copier"><button id="bouton-copier" type="button" onclick="copierFiche()">Copier pour Claude / ChatGPT</button>
+<small>Copie une consigne + les faits de cette fiche, à coller dans votre assistant.</small></div>
+
+    <header>
+      <p class="surtitre">Fiche article · PMID 42950230 · <a href="https://pubmed.ncbi.nlm.nih.gov/42950230/" target="_blank" rel="noopener">voir sur PubMed</a>
+         · <a href="https://doi.org/10.1080/09273948.2026.2751022" target="_blank" rel="noopener">DOI 10.1080/09273948.2026.2751022</a></p>
+      <h1 lang="en">Comparative Outcomes of Systemic Immunomodulatory Therapy Versus Local Corticosteroid Therapy in Chronic Noninfectious Uveitis.</h1>
+      <p><span class="badge confirme">PUBLICATION — le résumé rapporte des résultats</span> <span class="badge verifier">Synthèse fondée UNIQUEMENT sur le résumé PubMed : le texte intégral n'a pas été lu.</span></p>
+      <dl class="grille">
+        <dt>Revue</dt><dd>Ocular immunology and inflammation</dd>
+        <dt>Entrée dans PubMed</dt><dd>2026-10-28 · publication : 2026-Oct-28</dd>
+        <dt>Type(s) de publication (PubMed)</dt><dd lang="en">Journal Article</dd>
+        <dt>Stade</dt><dd>Non renseigné <small>(pas d'indexation MeSH disponible)</small></dd>
+        <dt>Accès au texte (OpenAlex)</dt><dd>fermé (payant)</dd>
+        <dt>Détecté par l'outil le</dt><dd>2026-11-11</dd>
+      </dl>
+      <p class="rubriques"><strong>Rubrique :</strong> <span class="rubrique">Autres sujets (clinique, épidémiologie…)</span> <small>aucune règle de rubrique ne s'applique</small> <span class="badge regle">classement automatique — règles dans config/rubriques.ini</span></p>
+    </header>
+<section><h2>Question étudiée <span class="badge source">Résumé PubMed (texte source)</span></h2><blockquote lang="en"><strong>PURPOSE</strong> Chronic uveitis is a significant cause of visual impairment. Although initial therapy relies on corticosteroids, patients with chronic inflammation often require systemic immunomodulatory therapy (IMT) or local sustained-release steroids. However, comparative long-term outcomes of these treatment approaches remain unclear.</blockquote></section><section><h2>Traitement ou technologie, et comparateur <span class="badge regle">règle automatique de l'outil</span></h2><ul><li>Formulation / voie d'administration citée : sustained release <span class="badge regle">repérage automatique</span></li><li>Formulation / voie d'administration citée : sustained-release <span class="badge regle">repérage automatique</span></li></ul><p class="def">Aucun rôle n'est confirmé : PubMed ne décrit pas les bras d'une étude. Un rôle pourrait être confirmé par le registre d'un essai lié de façon confirmée.</p></section><section><h2>Type d'étude et méthode <span class="badge source">Résumé PubMed (texte source)</span><span class="badge source">PubMed (types de publication)</span></h2><p>Type(s) de publication déclaré(s) par PubMed : <span lang="en">Journal Article</span></p><blockquote lang="en"><strong>METHODS</strong> This retrospective cohort study used the TriNetX Network to identify adults (ages <mark>≥ 18</mark> years) with chronic uveitis treated with systemic IMT or local corticosteroid therapy. Baseline characteristics were balanced using propensity score matching (PSM). Incidence of ocular outcomes including intraocular pressure (IOP)-lowering medication use, glaucoma, incisional glaucoma surgery, cataract surgery, cystoid macular edema (CME), and epiretinal membrane (ERM) were assessed at <mark>1</mark>, <mark>2</mark>, and <mark>3</mark> years. Outcome proportions were compared between groups using risk ratios (RR), with p &lt; <mark>0.05</mark> considered statistically significant.</blockquote></section><section><h2>Population et participants (phrases du résumé) <span class="badge source">Résumé PubMed (texte source)</span></h2><blockquote lang="en">Of <mark>4,683</mark> patients meeting inclusion criteria (<mark>1,273</mark> on local therapy; <mark>3,410</mark> on systemic IMT), <mark>1,087</mark> patients remained per group after PSM.</blockquote></section><section><h2>Résultats disponibles <span class="badge source">Résumé PubMed (texte source)</span></h2><p class="def">Valeurs chiffrées surlignées telles qu'elles figurent dans le résumé. Elles n'ont pas été vérifiées dans le texte intégral.</p><blockquote lang="en"><strong>RESULTS</strong> Of <mark>4,683</mark> patients meeting inclusion criteria (<mark>1,273</mark> on local therapy; <mark>3,410</mark> on systemic IMT), <mark>1,087</mark> patients remained per group after PSM. By <mark>3</mark> years, patients treated with local therapy had a higher cumulative incidence of IOP-lowering medication use (<mark>12.9%</mark> vs <mark>6.9%</mark>; RR <mark>1.88</mark>, p &lt; <mark>0.001</mark>), glaucoma (<mark>8.2%</mark> vs <mark>3.1%</mark>; RR <mark>2.60</mark>, p &lt; <mark>0.001</mark>), incisional glaucoma surgery (<mark>2.3%</mark> vs <mark>1.1%</mark>; RR <mark>2.19</mark>, p <mark>= 0.03</mark>), and cataract surgery (<mark>7.7%</mark> vs <mark>3.5%</mark>; RR <mark>2.24</mark>, p &lt; <mark>0.001</mark>) compared with systemic IMT. Rates of newly diagnosed CME (<mark>8.3%</mark> vs <mark>2.5%</mark>; RR <mark>3.37</mark>, p &lt; <mark>0.001</mark>) and ERM (<mark>8.9%</mark> vs <mark>4.4%</mark>; RR <mark>2.04</mark>, p &lt; <mark>0.001</mark>) were likewise higher in the local therapy group.</blockquote></section><section><h2>Données de tolérance (phrases du résumé) <span class="badge source">Résumé PubMed (texte source)</span></h2><p><span class="manque">Aucune donnée de tolérance dans le résumé</span></p></section><section><h2>Conclusion des auteurs (citée telle quelle, non évaluée par l'outil) <span class="badge source">Résumé PubMed (texte source)</span></h2><blockquote lang="en"><strong>CONCLUSION</strong> Local corticosteroid therapy was associated with a higher cumulative incidence of complications compared to systemic IMT in patients with chronic uveitis.</blockquote></section><section><h2>Essai clinique lié <span class="badge source">PubMed (DataBankList et texte)</span></h2><ul><li><span class="manque">Aucun essai lié identifié</span></li></ul></section><section><h2>Promoteur, financeur et affiliations <span class="badge source">PubMed</span><span class="badge source">OpenAlex</span><span class="badge source">Crossref</span></h2><div class="acteurs">
+      <div><h3>Promoteur d'essai</h3><p class="def">Organisme responsable d'un essai, déclaré au registre.</p><p><span class="manque">Non affiché : aucun essai lié de façon confirmée</span></p></div>
+      <div><h3>Financeur</h3><p class="def">Organisme qui a financé la recherche, avec la notice qui le justifie.</p><ul><li><strong>Macula Foundation</strong> <span class="badge confirme">CONFIRMÉ — déclaré par l'éditeur dans Crossref</span><br><small><a href="https://api.crossref.org/works/10.1080/09273948.2026.2751022" target="_blank" rel="noopener">notice justificative Crossref (déclaration de l'éditeur)</a> · <a href="https://api.openalex.org/works/W7224104166" target="_blank" rel="noopener">notice OpenAlex</a></small></li></ul></div>
+      <div><h3>Affiliations des auteurs</h3><p class="def">Établissements où travaillent les auteurs (pas un financement).</p><p><small>Institutions normalisées (OpenAlex) :</small></p><ul><li>University of Miami <small>(US, enseignement/recherche)</small></li><li>Retina Consultants of Texas <small>(US, santé/hôpital)</small></li><li>University at Buffalo, State University of New York <small>(US, enseignement/recherche)</small></li><li>Medical University of South Carolina <small>(US, enseignement/recherche)</small></li><li>University of Nebraska Medical Center <small>(US, santé/hôpital)</small></li></ul><details><summary>Affiliations telles que déclarées dans PubMed (5)</summary><ul><li>Retina Consultants of Texas, Bellaire, Texas, USA.</li><li>Bascom Palmer Eye Institute, Department of Ophthalmology, University of Miami Miller School of Medicine, Miami, Florida, USA.</li><li>Department of Ophthalmology, Ross Eye Institute, SUNY Buffalo, Buffalo, New York, USA.</li><li>Department of Ophthalmology, Storm Eye Institute, Department of Ophthalmology, Medical University of South Carolina, Charleston, South Carolina, USA.</li><li>Department of Ophthalmology, Truhlsen Eye Institute, University of Nebraska Medical Center, Omaha, Nebraska, USA.</li></ul></details></div>
+    </div></section>
+<section><h2>Ce qui manque <span class="badge regle">calculé par l'outil</span></h2><ul><li>données de tolérance</li></ul></section>
+<section><h2>Limites, intérêt pour la veille marketing, à retenir <span class="badge attente">non produit par l'outil</span></h2><p><span class="manque">Non rédigé automatiquement : les données extraites ne suffisent pas à produire une analyse fiable sans interprétation. Utilisez le bouton « Copier pour Claude / ChatGPT » pour obtenir une proposition, à vérifier.</span></p></section>
+<section><details><summary>Voir le texte copié par le bouton</summary>
+<textarea id="a-copier" readonly>Tu es assistant de veille scientifique sur le glaucome. À partir UNIQUEMENT des informations ci-dessous, rédige en français une fiche de synthèse avec ces rubriques :
+1. Question étudiée
+2. Traitement ou technologie
+3. Type d&#x27;étude
+4. Population et nombre de participants
+5. Comparateur
+6. Critères évalués
+7. Principaux résultats chiffrés (recopie les valeurs exactes et indique leur source)
+8. Données de tolérance
+9. Limites
+10. Intérêt potentiel pour une veille marketing — présenté comme une INTERPRÉTATION, séparé des faits
+11. À retenir (une phrase)
+
+Règles :
+- N&#x27;invente rien. Si une information manque, écris « non rapporté ».
+- Distingue un essai simplement enregistré, un protocole, des résultats déposés dans un registre et une publication de résultats.
+- Si la source est seulement le résumé d&#x27;un article, indique que la synthèse repose uniquement sur ce résumé.
+- Les rôles « suggérés » (traitement étudié / comparateur) sont à vérifier dans le texte source.
+- Ne confonds pas promoteur d&#x27;essai, financeur et affiliation des auteurs.
+- Termine par la liste des points à vérifier.
+
+=== INFORMATIONS ===
+SOURCE : PubMed, PMID 42950230 — https://pubmed.ncbi.nlm.nih.gov/42950230/ · DOI https://doi.org/10.1080/09273948.2026.2751022
+BASE : résumé PubMed uniquement (texte intégral non lu)
+Titre : Comparative Outcomes of Systemic Immunomodulatory Therapy Versus Local Corticosteroid Therapy in Chronic Noninfectious Uveitis.
+Revue : Ocular immunology and inflammation · entrée PubMed : 2026-10-28
+Types de publication (PubMed) : Journal Article
+Produits repérés automatiquement (rôles SUGGÉRÉS, à vérifier) : aucun
+Molécules hors liste (repérage automatique, à vérifier) : aucune
+Essai lié : aucun
+Financeurs : Macula Foundation [CONFIRMÉ — déclaré par l&#x27;éditeur dans Crossref]
+Affiliations (institutions, pas des financeurs) : University of Miami (US, education); Retina Consultants of Texas (US, healthcare); University at Buffalo, State University of New York (US, education); Medical University of South Carolina (US, education); University of Nebraska Medical Center (US, healthcare)
+
+RÉSUMÉ (texte source) :
+PURPOSE: Chronic uveitis is a significant cause of visual impairment. Although initial therapy relies on corticosteroids, patients with chronic inflammation often require systemic immunomodulatory therapy (IMT) or local sustained-release steroids. However, comparative long-term outcomes of these treatment approaches remain unclear.
+METHODS: This retrospective cohort study used the TriNetX Network to identify adults (ages ≥ 18 years) with chronic uveitis treated with systemic IMT or local corticosteroid therapy. Baseline characteristics were balanced using propensity score matching (PSM). Incidence of ocular outcomes including intraocular pressure (IOP)-lowering medication use, glaucoma, incisional glaucoma surgery, cataract surgery, cystoid macular edema (CME), and epiretinal membrane (ERM) were assessed at 1, 2, and 3 years. Outcome proportions were compared between groups using risk ratios (RR), with p &lt; 0.05 considered statistically significant.
+RESULTS: Of 4,683 patients meeting inclusion criteria (1,273 on local therapy; 3,410 on systemic IMT), 1,087 patients remained per group after PSM. By 3 years, patients treated with local therapy had a higher cumulative incidence of IOP-lowering medication use (12.9% vs 6.9%; RR 1.88, p &lt; 0.001), glaucoma (8.2% vs 3.1%; RR 2.60, p &lt; 0.001), incisional glaucoma surgery (2.3% vs 1.1%; RR 2.19, p = 0.03), and cataract surgery (7.7% vs 3.5%; RR 2.24, p &lt; 0.001) compared with systemic IMT. Rates of newly diagnosed CME (8.3% vs 2.5%; RR 3.37, p &lt; 0.001) and ERM (8.9% vs 4.4%; RR 2.04, p &lt; 0.001) were likewise higher in the local therapy group.
+CONCLUSION: Local corticosteroid therapy was associated with a higher cumulative incidence of complications compared to systemic IMT in patients with chronic uveitis.</textarea></details></section>
+<p><small>Fiche générée le 2026-11-11 22:40 par Glaucoma Intelligence. Extraits des sources en langue originale.</small></p>
+</main><script>
+function copierFiche(){
+  var zone=document.getElementById('a-copier'), bouton=document.getElementById('bouton-copier');
+  function fait(){bouton.textContent='Copié ✓ — collez dans Claude ou ChatGPT';setTimeout(function(){bouton.textContent='Copier pour Claude / ChatGPT'},3000);}
+  function secours(){zone.parentElement.open=true;zone.select();try{document.execCommand('copy');fait();}
+    catch(err){bouton.textContent='Sélectionnez le texte ci-dessous puis Ctrl+C';}}
+  if(navigator.clipboard&&window.isSecureContext){navigator.clipboard.writeText(zone.value).then(fait,secours);}else{secours();}
+}
+</script></body></html>

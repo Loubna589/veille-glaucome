@@ -1,0 +1,214 @@
+{
+  "pmid": "42911707",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42911707",
+    "titre": "Research Progress on Intraocular Pressure-lowering Drugs, Commonly Used Clinical Adjuvants, and Emerging Neuroprotective Agents for Glaucomatous Optic Neuropathy.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42911707/",
+    "doi": "10.1021/acs.jmedchem.6c01810",
+    "pmcid": null,
+    "revue": "Journal of medicinal chemistry",
+    "date_entree_pubmed": "2026-10-23",
+    "date_publication": "2026-Oct-22",
+    "types_publication": [
+      "Journal Article",
+      "Review"
+    ],
+    "resume_present": true,
+    "resume": "Glaucomatous optic neuropathy (GON) is the leading cause of irreversible blindness worldwide, characterized by progressive retinal ganglion cell (RGC) loss. Current clinical treatment relies primarily on IOP-lowering drugs, but a subset of patients continues to experience progressive optic nerve damage. Adjuvant therapies such as antioxidants and calcium channel blockers have limited efficacy. Emerging neuroprotective strategies including NMDA receptor antagonists, neurotrophic factors, and gene therapy remain in preclinical or early-stage trials. This review systematically summarizes the mechanisms, clinical applications, and limitations of these three drug categories, with emphasis on emerging neuroprotective agents, aiming to guide future research directions.",
+    "mots_cles_auteurs": [
+      "adjuvant therapy",
+      "glaucoma",
+      "glaucomatous optic neuropathy",
+      "intraocular pressure-lowering drugs",
+      "neuroprotective agents"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 12,
+    "affiliations_auteurs": [
+      "Eye School of Chengdu, University of Traditional Chinese Medicine, No. 37, Shierqiao Road, Jinniu District, Chengdu610032, Sichuan, China.",
+      "Department of Ophthalmology, North China University of Science and Technology Affiliated Hospital, 73 Jianshe South Road, Lubei District, Tangshan062000, Hebei, China.",
+      "Department of Ophthalmology, Hospital of Chengdu University of Traditional Chinese Medicine, No. 39-41, Shierqiao Road, Jinniu District, Chengdu610075, Sichuan, China.",
+      "Department of Ophthalmology, Chengfei Hospital, No. 105, Jing 1st Road Huangtianba, Qingyang District, Chengdu610000, Sichuan, China."
+    ],
+    "financeurs_declares": [
+      {
+        "organisme": "Sichuan Provincial Central Administration General Project",
+        "pays": "",
+        "reference": "2024MS549"
+      },
+      {
+        "organisme": "Sichuan Provincial Department of Science and Technology Natural Science Foundation General Program",
+        "pays": "",
+        "reference": "2024NSFS0726"
+      },
+      {
+        "organisme": "Joint Innovation Fund of Commission Institutions (Key Project)",
+        "pays": "",
+        "reference": "WXLH202402009"
+      },
+      {
+        "organisme": "Joint Innovation Fund of Commission Institutions (Free Exploration Project)",
+        "pays": "",
+        "reference": "WXLH202403095"
+      }
+    ],
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": [
+      "Humans",
+      "Neuroprotective Agents",
+      "Glaucoma",
+      "Optic Nerve Diseases",
+      "Intraocular Pressure",
+      "Animals",
+      "Antioxidants",
+      "Antihypertensive Agents",
+      "Retinal Ganglion Cells",
+      "Adjuvants, Pharmaceutic"
+    ]
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": null,
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7220374495",
+      "doi": "10.1021/acs.jmedchem.6c01810",
+      "pmid": "42911707",
+      "pmcid": null,
+      "titre": "Research Progress on Intraocular Pressure-lowering Drugs, Commonly Used Clinical Adjuvants, and Emerging Neuroprotective Agents for Glaucomatous Optic Neuropathy",
+      "lien": "https://openalex.org/W7220374495",
+      "date_publication": "2026-10-05",
+      "type": "review",
+      "revue": "Journal of Medicinal Chemistry",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "pubmed"
+      ],
+      "financeurs": null,
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "North China University of Science and Technology Affiliated Hospital",
+          "pays": "CN",
+          "type": "healthcare",
+          "ror": "https://ror.org/015kdfj59"
+        },
+        {
+          "nom": "Chengdu University of Traditional Chinese Medicine",
+          "pays": "CN",
+          "type": "education",
+          "ror": "https://ror.org/00pcrz470"
+        }
+      ],
+      "acces_ouvert": false,
+      "statut_acces": "closed",
+      "url_texte": null,
+      "url_pdf": null,
+      "licence": null,
+      "texte_integral_indexe": false,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Glaucoma and retinal disorders",
+      "resume_present": true,
+      "mesh": [
+        "Adjuvants, Pharmaceutic",
+        "Animals",
+        "Antihypertensive Agents",
+        "Antioxidants",
+        "Glaucoma",
+        "Humans",
+        "Intraocular Pressure",
+        "Optic Nerve Diseases",
+        "Retinal Ganglion Cells",
+        "Neuroprotective Agents"
+      ]
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": [
+      {
+        "nom": "Sichuan Provincial Central Administration General Project",
+        "statut": "CONFIRMÉ — déclaré dans la notice PubMed (GrantList)",
+        "references": [
+          "2024MS549"
+        ],
+        "notices": [
+          [
+            "notice PubMed",
+            "https://pubmed.ncbi.nlm.nih.gov/42911707/?format=pubmed"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "Sichuan Provincial Department of Science and Technology Natural Science Foundation General Program",
+        "statut": "CONFIRMÉ — déclaré dans la notice PubMed (GrantList)",
+        "references": [
+          "2024NSFS0726"
+        ],
+        "notices": [
+          [
+            "notice PubMed",
+            "https://pubmed.ncbi.nlm.nih.gov/42911707/?format=pubmed"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "Joint Innovation Fund of Commission Institutions (Key Project)",
+        "statut": "CONFIRMÉ — déclaré dans la notice PubMed (GrantList)",
+        "references": [
+          "WXLH202402009"
+        ],
+        "notices": [
+          [
+            "notice PubMed",
+            "https://pubmed.ncbi.nlm.nih.gov/42911707/?format=pubmed"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "Joint Innovation Fund of Commission Institutions (Free Exploration Project)",
+        "statut": "CONFIRMÉ — déclaré dans la notice PubMed (GrantList)",
+        "references": [
+          "WXLH202403095"
+        ],
+        "notices": [
+          [
+            "notice PubMed",
+            "https://pubmed.ncbi.nlm.nih.gov/42911707/?format=pubmed"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "Joint Innovation Fund of Commission Institutions",
+        "statut": "CONFIRMÉ — déclaré par l'éditeur dans Crossref (absent d'OpenAlex)",
+        "references": [
+          "WXLH202402009"
+        ],
+        "notices": [
+          [
+            "notice justificative Crossref (déclaration de l'éditeur)",
+            "https://api.crossref.org/works/10.1021/acs.jmedchem.6c01810"
+          ]
+        ],
+        "note": null
+      }
+    ]
+  }
+}

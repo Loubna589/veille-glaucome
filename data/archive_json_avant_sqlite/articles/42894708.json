@@ -1,0 +1,403 @@
+{
+  "pmid": "42894708",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42894708",
+    "titre": "The German National Cohort: Ophthalmic Assessment, Baseline Profile, and Potential for Artificial Intelligence-Based Eye Research.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42894708/",
+    "doi": "10.1016/j.xops.2026.101408",
+    "pmcid": "PMC13677226",
+    "revue": "Ophthalmology science",
+    "date_entree_pubmed": "2026-10-19",
+    "date_publication": "2026-Nov",
+    "types_publication": [
+      "Journal Article"
+    ],
+    "resume_present": true,
+    "resume": "OBJECTIVE: To describe the ophthalmic examination protocol within the German National Cohort (NAKO)/NAKO Gesundheitsstudie, to report the baseline profile of participants undergoing ophthalmic assessment, and to illustrate the potential as a population-based resource for artificial intelligence (AI) research in eye health.\nDESIGN: Baseline analysis of ophthalmic data within the nationwide, population-based multicenter prospective NAKO study.\nPARTICIPANTS: Forty-eight thousand four hundred and sixty adults in the ophthalmic level 2 module of 205 053 adults enrolled in NAKO, aged 19-74 years, with a mean age 48.9 ± 12.5 years, and 52.7% were male.\nMETHODS: All participants underwent standardized biomedical examinations and detailed questionnaire-based data collection, including nondilated color fundus imaging, visual acuity testing, and a brief ocular history. Ocular health was summarized using descriptive statistics. Fundus image quality and morphological features (e.g., cup-to-disc ratio and arteriolar-to-venular ratio) were assessed using open-source deep learning models. Standard deep learning architectures were trained on the fundus images to predict age, sex, and blood pressure.\nMAIN OUTCOME MEASURES: Percentage of fundus images graded as good quality; mean absolute error (MAE) for age and blood pressure prediction; accuracy for sex prediction.\nRESULTS: The analysis includes 48 460 participants who completed the ophthalmic baseline examination of NAKO. Mean visual acuity (logarithm of the minimum angle of resolution) was 0.01 ± 0.20 (left eye, mean ± standard deviation) and 0.03 ± 0.21 (right eye). Self-reported ocular disease prevalence was 4.2% for cataract, 2.0% for glaucoma, and 0.9% for macular degeneration; 68.2% of fundus images were classified as gradable using 4 deep learning-based quality grading models. Morphological features showed systematic differences across age groups. Standard deep learning architectures showed comparative performance to the state-of-the-art for age, sex, and blood pressure prediction (2.96 MAE for age prediction, 0.84 accuracy for sex prediction, and 10.78 and 6.97 MAE for systolic and diastolic blood pressure prediction).\nCONCLUSIONS: The German National Cohort provides a large-scale, nationwide population-based resource with visual acuity measurements and systemic health indicators, as well as color fundus images in about 50 000 NAKO participants. These data lay the groundwork for studying eye health in the general adult population in Germany and can serve as a strong foundation for developing and validating AI tools in eye health research.\nFINANCIAL DISCLOSURES: Proprietary or commercial disclosure may be found in the Footnotes and Disclosures at the end of this article.",
+    "mots_cles_auteurs": [
+      "Artificial intelligence",
+      "Epidemiology",
+      "Fundus image",
+      "Prospective cohort study",
+      "Quality control"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 27,
+    "affiliations_auteurs": [
+      "Hertie Institute for AI in Brain Health, University of Tübingen, Tübingen, Germany.",
+      "Tübingen AI Center, University of Tübingen, Tübingen, Germany.",
+      "Department of Ophthalmology, University Medical Center Hamburg-Eppendorf (UKE), Hamburg, Germany.",
+      "University Eye Hospital, Centre for Ophthalmology, University of Tübingen, Tübingen, Germany.",
+      "Institute of Epidemiology and Social Medicine, University of Münster, Münster, Germany.",
+      "Department of Genetic Epidemiology, University of Regensburg, Regensburg, Germany.",
+      "Department of Ophthalmology, University of Regensburg, Regensburg, Germany.",
+      "German Cancer Research Center (DKFZ) Heidelberg, Division of Cancer Epidemiology, Heidelberg, Germany.",
+      "Department of Epidemiological Methods and Etiological Research, Leibniz Institute for Prevention Research and Epidemiology - BIPS, Bremen, Germany.",
+      "Department of Ophthalmology, Medical Faculty Mannheim, University of Heidelberg, Mannheim, Germany.",
+      "Department of Ophthalmology, Heinrich-Heine University, Düsseldorf, Germany.",
+      "Institute of Social Medicine, Epidemiology and Health Economics, Charité - Universitätsmedizin Berlin, Berlin, Germany.",
+      "Institute of Clinical Epidemiology and Biometry, University of Würzburg, Würzburg, Germany.",
+      "State Institute of Health I, Bavarian Health and Food Safety Authority, Erlangen, Germany.",
+      "Helmholtz Center for Infection Research, Braunschweig, Germany.",
+      "Institute for Epidemiology and Prevention Medicine, University of Regensburg, Regensburg, Germany.",
+      "Institut für Community Medicine, Universitätsmedizin Greifswald, Greifswald, Germany.",
+      "Chair of Epidemiology, IBE, Faculty of Medicine, LMU Munich, Germany.",
+      "Helmholtz Zentrum München, German Research Center for Environmental Health (GmbH), Institute of Epidemiology, Neuherberg, Germany.",
+      "Department of Molecular Epidemiology, German Institute of Human Nutrition Potsdam-Rehbruecke, Nuthetal, Germany.",
+      "Institute of Nutritional Science, University of Potsdam, Nuthetal, Germany.",
+      "Department of Ophthalmology, University Medical Center of the Johannes Gutenberg-University Mainz, Mainz, Germany.",
+      "Institute for Ophthalmic Research, Centre for Ophthalmology, University of Tübingen, Tübingen, Germany."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7212168007",
+      "doi": "10.1016/j.xops.2026.101408",
+      "pmid": "42894708",
+      "pmcid": "13677226",
+      "titre": "The German National Cohort: Ophthalmic Assessment, Baseline Profile, and Potential for Artificial Intelligence–Based Eye Research",
+      "lien": "https://openalex.org/W7212168007",
+      "date_publication": "2026-09-11",
+      "type": "article",
+      "revue": "Ophthalmology Science",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "doaj",
+        "pubmed"
+      ],
+      "financeurs": [
+        {
+          "nom": "Deutsche Forschungsgemeinschaft",
+          "ror": "https://ror.org/018mejw64"
+        },
+        {
+          "nom": "Bundesministerium für Bildung und Forschung",
+          "ror": "https://ror.org/04pz7b180"
+        },
+        {
+          "nom": "Gemeinnützige Hertie-Stiftung",
+          "ror": "https://ror.org/03ak9vt35"
+        },
+        {
+          "nom": "Helmholtz Association",
+          "ror": null
+        },
+        {
+          "nom": "Leibniz-Gemeinschaft",
+          "ror": "https://ror.org/01n6r0e97"
+        },
+        {
+          "nom": "Universitätsklinikum Hamburg-Eppendorf",
+          "ror": "https://ror.org/01zgy1s35"
+        }
+      ],
+      "subventions": [
+        {
+          "financeur": "Bundesministerium für Bildung und Forschung",
+          "reference": "01ER1511D"
+        },
+        {
+          "financeur": "Bundesministerium für Bildung und Forschung",
+          "reference": "01ER2301 A/B/C"
+        },
+        {
+          "financeur": "Bundesministerium für Bildung und Forschung",
+          "reference": "01ER1301A / B / C"
+        },
+        {
+          "financeur": "Bundesministerium für Bildung und Forschung",
+          "reference": "01ER1801A/B/C/D"
+        },
+        {
+          "financeur": "Leibniz-Gemeinschaft",
+          "reference": "01ER1511D"
+        }
+      ],
+      "institutions": [
+        {
+          "nom": "Tübingen AI Center",
+          "pays": "DE",
+          "type": "education",
+          "ror": "https://ror.org/0107nyd78"
+        },
+        {
+          "nom": "University of Tübingen",
+          "pays": "DE",
+          "type": "education",
+          "ror": "https://ror.org/03a1kwz48"
+        },
+        {
+          "nom": "University Medical Center Hamburg-Eppendorf",
+          "pays": "DE",
+          "type": "healthcare",
+          "ror": "https://ror.org/01zgy1s35"
+        },
+        {
+          "nom": "University of Münster",
+          "pays": "DE",
+          "type": "education",
+          "ror": "https://ror.org/00pd74e08"
+        },
+        {
+          "nom": "University of Regensburg",
+          "pays": "DE",
+          "type": "education",
+          "ror": "https://ror.org/01eezs655"
+        },
+        {
+          "nom": "German Cancer Research Center",
+          "pays": "DE",
+          "type": "facility",
+          "ror": "https://ror.org/04cdgtt98"
+        },
+        {
+          "nom": "Leibniz Institute for Prevention Research and Epidemiology - BIPS",
+          "pays": "DE",
+          "type": "facility",
+          "ror": "https://ror.org/02c22vc57"
+        },
+        {
+          "nom": "Heidelberg University",
+          "pays": "DE",
+          "type": "education",
+          "ror": "https://ror.org/038t36y30"
+        },
+        {
+          "nom": "Medizinische Fakultät Mannheim",
+          "pays": "DE",
+          "type": "education",
+          "ror": "https://ror.org/02m1z0a87"
+        },
+        {
+          "nom": "Heinrich Heine University Düsseldorf",
+          "pays": "DE",
+          "type": "education",
+          "ror": "https://ror.org/024z2rq82"
+        },
+        {
+          "nom": "University of Würzburg",
+          "pays": "DE",
+          "type": "education",
+          "ror": "https://ror.org/00fbnyb24"
+        },
+        {
+          "nom": "Bayerisches Landesamt für Gesundheit und Lebensmittelsicherheit",
+          "pays": "DE",
+          "type": "government",
+          "ror": "https://ror.org/04bqwzd17"
+        },
+        {
+          "nom": "Charité – Universitätsmedizin Berlin",
+          "pays": "DE",
+          "type": "healthcare",
+          "ror": "https://ror.org/001w7jn25"
+        },
+        {
+          "nom": "Helmholtz Centre for Infection Research",
+          "pays": "DE",
+          "type": "facility",
+          "ror": "https://ror.org/03d0p2685"
+        },
+        {
+          "nom": "Universitätsmedizin Greifswald",
+          "pays": "DE",
+          "type": "healthcare",
+          "ror": "https://ror.org/025vngs54"
+        },
+        {
+          "nom": "Helmholtz Munich",
+          "pays": "DE",
+          "type": "facility",
+          "ror": "https://ror.org/00cfam450"
+        },
+        {
+          "nom": "Ludwig-Maximilians-Universität München",
+          "pays": "DE",
+          "type": "education",
+          "ror": "https://ror.org/05591te55"
+        },
+        {
+          "nom": "University of Potsdam",
+          "pays": "DE",
+          "type": "education",
+          "ror": "https://ror.org/03bnmw459"
+        },
+        {
+          "nom": "German Institute of Human Nutrition",
+          "pays": "DE",
+          "type": "facility",
+          "ror": "https://ror.org/05xdczy51"
+        },
+        {
+          "nom": "University Medical Center of the Johannes Gutenberg University Mainz",
+          "pays": "DE",
+          "type": "healthcare",
+          "ror": "https://ror.org/00q1fsf04"
+        }
+      ],
+      "acces_ouvert": true,
+      "statut_acces": "gold",
+      "url_texte": "https://doi.org/10.1016/j.xops.2026.101408",
+      "url_pdf": null,
+      "licence": "cc-by-nc-nd",
+      "texte_integral_indexe": true,
+      "retracte": false,
+      "citations": 1,
+      "sujet_principal": "Retinal Imaging and Analysis",
+      "resume_present": true,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": [
+      {
+        "nom": "Deutsche Forschungsgemeinschaft",
+        "statut": "CONFIRMÉ — déclaré par l'éditeur dans Crossref",
+        "references": null,
+        "notices": [
+          [
+            "notice justificative Crossref (déclaration de l'éditeur)",
+            "https://api.crossref.org/works/10.1016/j.xops.2026.101408"
+          ],
+          [
+            "notice OpenAlex",
+            "https://api.openalex.org/works/W7212168007"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "Bundesministerium für Bildung und Forschung",
+        "statut": "À VÉRIFIER — trouvé par OpenAlex seulement (absent de la déclaration de l'éditeur dans Crossref) ; à contrôler dans le texte de l'article",
+        "references": [
+          "01ER1511D",
+          "01ER2301 A/B/C",
+          "01ER1301A / B / C",
+          "01ER1801A/B/C/D"
+        ],
+        "notices": [
+          [
+            "notice OpenAlex",
+            "https://api.openalex.org/works/W7212168007"
+          ],
+          [
+            "notice Crossref consultée (ne confirme pas ce financeur)",
+            "https://api.crossref.org/works/10.1016/j.xops.2026.101408"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "Gemeinnützige Hertie-Stiftung",
+        "statut": "À VÉRIFIER — trouvé par OpenAlex seulement (absent de la déclaration de l'éditeur dans Crossref) ; à contrôler dans le texte de l'article",
+        "references": null,
+        "notices": [
+          [
+            "notice OpenAlex",
+            "https://api.openalex.org/works/W7212168007"
+          ],
+          [
+            "notice Crossref consultée (ne confirme pas ce financeur)",
+            "https://api.crossref.org/works/10.1016/j.xops.2026.101408"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "Helmholtz Association",
+        "statut": "CONFIRMÉ — déclaré par l'éditeur dans Crossref",
+        "references": null,
+        "notices": [
+          [
+            "notice justificative Crossref (déclaration de l'éditeur)",
+            "https://api.crossref.org/works/10.1016/j.xops.2026.101408"
+          ],
+          [
+            "notice OpenAlex",
+            "https://api.openalex.org/works/W7212168007"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "Leibniz-Gemeinschaft",
+        "statut": "CONFIRMÉ — déclaré par l'éditeur dans Crossref",
+        "references": [
+          "01ER1511D"
+        ],
+        "notices": [
+          [
+            "notice justificative Crossref (déclaration de l'éditeur)",
+            "https://api.crossref.org/works/10.1016/j.xops.2026.101408"
+          ],
+          [
+            "notice OpenAlex",
+            "https://api.openalex.org/works/W7212168007"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "Universitätsklinikum Hamburg-Eppendorf",
+        "statut": "À VÉRIFIER — trouvé par OpenAlex seulement (absent de la déclaration de l'éditeur dans Crossref) ; à contrôler dans le texte de l'article",
+        "references": null,
+        "notices": [
+          [
+            "notice OpenAlex",
+            "https://api.openalex.org/works/W7212168007"
+          ],
+          [
+            "notice Crossref consultée (ne confirme pas ce financeur)",
+            "https://api.crossref.org/works/10.1016/j.xops.2026.101408"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "Bundesministerium für Forschung, Technologie und Raumfahrt",
+        "statut": "CONFIRMÉ — déclaré par l'éditeur dans Crossref (absent d'OpenAlex)",
+        "references": [
+          "01ER2301A/B/C"
+        ],
+        "notices": [
+          [
+            "notice justificative Crossref (déclaration de l'éditeur)",
+            "https://api.crossref.org/works/10.1016/j.xops.2026.101408"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "Hertie Foundation",
+        "statut": "CONFIRMÉ — déclaré par l'éditeur dans Crossref (absent d'OpenAlex)",
+        "references": null,
+        "notices": [
+          [
+            "notice justificative Crossref (déclaration de l'éditeur)",
+            "https://api.crossref.org/works/10.1016/j.xops.2026.101408"
+          ]
+        ],
+        "note": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,172 @@
+{
+  "pmid": "42928730",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42928730",
+    "titre": "HADS-Assessed Anxiety/Depression Status and Ocular Outcomes in Vision-Threatening Diabetic Retinopathy: A Multicenter Retrospective Cohort Study.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42928730/",
+    "doi": "10.1155/da/6998782",
+    "pmcid": "PMC13695853",
+    "revue": "Depression and anxiety",
+    "date_entree_pubmed": "2026-10-26",
+    "date_publication": "2026",
+    "types_publication": [
+      "Journal Article",
+      "Multicenter Study"
+    ],
+    "resume_present": true,
+    "resume": "PURPOSE: Vision-threatening diabetic retinopathy (VTDR) poses significant blindness risks and the study aimed to identify the impact of psychological factors on its ocular outcomes.\nMETHODS: This retrospective cohort study enrolled 782 VTDR patients from three ophthalmological centers (2018-2021). DR severity was graded using ETDRS criteria. Primary outcomes included tractional retinal detachment (TRD) involving the fovea, neovascular glaucoma (NVG), final best-corrected visual acuity (BCVA) <0.3, and recurrent vitreous hemorrhage (VH). Anxiety and depression were assessed via the hospital anxiety and depression scale (HADS). Univariable and multivariable logistic regression evaluated the associations between HADS scores and ocular outcomes.\nRESULTS: After a median follow-up of 24.8 months, depressive symptoms (HADS-D ≥8) were associated with higher rates of BCVA <0.3 (67.8% vs. 57.2%, p = 0.033) and NVG (13.6% vs. 6.9%, p = 0.020). Recurrent VH was more frequent in patients with anxiety (21.0% vs. 10.6%, p = 0.031) or depression (20.3% vs. 10.7%, p = 0.045). Multivariable logistic analysis revealed that each 1-point increase in HADS-D score significantly increased adjusted odds of TRD (aOR = 1.06, 95% CI: 1.01-1.11), BCVA <0.3 (aOR = 1.07, 95% CI: 1.02-1.11), recurrent VH (aOR = 1.09, 95% CI: 1.02-1.17), and NVG (aOR = 1.10, 95% CI: 1.03-1.17; all p < 0.05). There was a consistent positive gradient between HADS severity and adverse outcomes.\nCONCLUSION: Depressive symptoms are independently associated with worse ocular prognoses in VTDR patients. Systematic psychological screening and intervention is essential to mitigate vision deterioration risk in this population.",
+    "mots_cles_auteurs": [
+      "anxiety",
+      "depression",
+      "ocular outcomes",
+      "vision-threatening diabetic retinopathy"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 8,
+    "affiliations_auteurs": [
+      "Department of Ophthalmology The Fourth Affiliated Hospital of Soochow University No. 9 Chongwen Road, Suzhou Industrial Park Suzhou 215123 Jiangsu Province China.",
+      "Department of Ophthalmology Shanghai General Hospital National Clinical Research Center for Eye Diseases Shanghai Jiao Tong University School of Medicine No.100 Haining Road, Hongkou District Shanghai 200080 China shsmu.edu.cn.",
+      "Department of Ophthalmology Ninth People's Hospital Shanghai Jiao Tong University School of Medicine No. 639 Zhizaoju Road, Huangpu District Shanghai 200011 China shsmu.edu.cn."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": [
+      "Humans",
+      "Diabetic Retinopathy",
+      "Female",
+      "Retrospective Studies",
+      "Male",
+      "Middle Aged",
+      "Aged",
+      "Visual Acuity",
+      "Depression",
+      "Anxiety",
+      "Vitreous Hemorrhage",
+      "Retinal Detachment",
+      "Glaucoma, Neovascular"
+    ]
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": null,
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7223565414",
+      "doi": "10.1155/da/6998782",
+      "pmid": "42928730",
+      "pmcid": "13695853",
+      "titre": "HADS‐Assessed Anxiety/Depression Status and Ocular Outcomes in Vision‐Threatening Diabetic Retinopathy: A Multicenter Retrospective Cohort Study",
+      "lien": "https://openalex.org/W7223565414",
+      "date_publication": "2026-01-01",
+      "type": "article",
+      "revue": "Depression and Anxiety",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "pubmed"
+      ],
+      "financeurs": [
+        {
+          "nom": "National Natural Science Foundation of China",
+          "ror": "https://ror.org/01h0zpd94"
+        }
+      ],
+      "subventions": [
+        {
+          "financeur": "National Natural Science Foundation of China",
+          "reference": "82471104"
+        },
+        {
+          "financeur": "National Natural Science Foundation of China",
+          "reference": "82271111"
+        }
+      ],
+      "institutions": [
+        {
+          "nom": "Shanghai Jiao Tong University",
+          "pays": "CN",
+          "type": "education",
+          "ror": "https://ror.org/0220qvk04"
+        },
+        {
+          "nom": "Shanghai First People's Hospital",
+          "pays": "CN",
+          "type": "healthcare",
+          "ror": "https://ror.org/04a46mh28"
+        },
+        {
+          "nom": "The Fourth Affiliated Hospital of Soochow University (Suzhou Dushu Lake Hospital)",
+          "pays": "CN",
+          "type": "healthcare",
+          "ror": "https://ror.org/04n3e7v86"
+        },
+        {
+          "nom": "Shanghai Ninth People's Hospital",
+          "pays": "CN",
+          "type": "healthcare",
+          "ror": "https://ror.org/010826a91"
+        }
+      ],
+      "acces_ouvert": true,
+      "statut_acces": "hybrid",
+      "url_texte": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1155/da/6998782",
+      "url_pdf": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1155/da/6998782",
+      "licence": "cc-by",
+      "texte_integral_indexe": true,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Retinal Diseases and Treatments",
+      "resume_present": true,
+      "mesh": [
+        "Aged",
+        "Anxiety",
+        "Depression",
+        "Diabetic Retinopathy",
+        "Female",
+        "Humans",
+        "Male",
+        "Middle Aged",
+        "Retinal Detachment",
+        "Retrospective Studies",
+        "Visual Acuity",
+        "Vitreous Hemorrhage",
+        "Glaucoma, Neovascular"
+      ]
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": [
+      {
+        "nom": "National Natural Science Foundation of China",
+        "statut": "CONFIRMÉ — déclaré par l'éditeur dans Crossref",
+        "references": [
+          "82471104",
+          "82271111"
+        ],
+        "notices": [
+          [
+            "notice justificative Crossref (déclaration de l'éditeur)",
+            "https://api.crossref.org/works/10.1155/da/6998782"
+          ],
+          [
+            "notice OpenAlex",
+            "https://api.openalex.org/works/W7223565414"
+          ]
+        ],
+        "note": null
+      }
+    ]
+  }
+}

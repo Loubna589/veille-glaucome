@@ -1,0 +1,131 @@
+{
+  "pmid": "42957282",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42957282",
+    "titre": "Optical coherence tomography-based cross-sectional measurement of the fovea-Bruch's membrane opening angle after intraocular pressure-lowering surgery.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42957282/",
+    "doi": "10.1136/bjo-2026-330125",
+    "pmcid": null,
+    "revue": "The British journal of ophthalmology",
+    "date_entree_pubmed": "2026-10-29",
+    "date_publication": "2026-Oct-29",
+    "types_publication": [
+      "Journal Article"
+    ],
+    "resume_present": false,
+    "resume": null,
+    "mots_cles_auteurs": [
+      "Glaucoma",
+      "Intraocular pressure",
+      "Optic Nerve"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 4,
+    "affiliations_auteurs": [
+      "Department of Ophthalmology, Samsung Medical Center, Sungkyunkwan University School of Medicine, Gangnam-gu, Korea (the Republic of).",
+      "Department of Ophthalmology, Dongguk University Ilsan Hospital, Goyang-si, Korea (the Republic of).",
+      "Department of Ophthalmology, Samsung Medical Center, Sungkyunkwan University School of Medicine, Gangnam-gu, Korea (the Republic of) doyoung83.park@gmail.com."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7224467528",
+      "doi": "10.1136/bjo-2026-330125",
+      "pmid": "42957282",
+      "pmcid": null,
+      "titre": "Optical coherence tomography-based cross-sectional measurement of the fovea–Bruch’s membrane opening angle after intraocular pressure-lowering surgery",
+      "lien": "https://openalex.org/W7224467528",
+      "date_publication": "2026-10-29",
+      "type": "article",
+      "revue": "British Journal of Ophthalmology",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "pubmed"
+      ],
+      "financeurs": null,
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "Samsung Medical Center",
+          "pays": "KR",
+          "type": "healthcare",
+          "ror": "https://ror.org/05a15z872"
+        },
+        {
+          "nom": "Sungkyunkwan University",
+          "pays": "KR",
+          "type": "education",
+          "ror": "https://ror.org/04q78tk20"
+        },
+        {
+          "nom": "Dongguk University Ilsan Hospital",
+          "pays": "KR",
+          "type": "healthcare",
+          "ror": "https://ror.org/01nwsar36"
+        }
+      ],
+      "acces_ouvert": false,
+      "statut_acces": "closed",
+      "url_texte": null,
+      "url_pdf": null,
+      "licence": null,
+      "texte_integral_indexe": false,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Glaucoma and retinal disorders",
+      "resume_present": true,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": [
+      {
+        "nom": "Future Medicine 2030 Project of Samsung Medical Center",
+        "statut": "CONFIRMÉ — déclaré par l'éditeur dans Crossref (absent d'OpenAlex)",
+        "references": [
+          "SMO126006"
+        ],
+        "notices": [
+          [
+            "notice justificative Crossref (déclaration de l'éditeur)",
+            "https://api.crossref.org/works/10.1136/bjo-2026-330125"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "Korea Health Technology R&D Project",
+        "statut": "CONFIRMÉ — déclaré par l'éditeur dans Crossref (absent d'OpenAlex)",
+        "references": [
+          "RS-2025-25459844"
+        ],
+        "notices": [
+          [
+            "notice justificative Crossref (déclaration de l'éditeur)",
+            "https://api.crossref.org/works/10.1136/bjo-2026-330125"
+          ]
+        ],
+        "note": null
+      }
+    ]
+  }
+}

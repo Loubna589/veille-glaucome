@@ -1,0 +1,64 @@
+{
+  "openalex_id": "W7225199840",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "openalex_id": "W7225199840",
+    "doi": "10.51329/mehdioptometry253",
+    "pmid": null,
+    "pmcid": null,
+    "titre": "Uveitis-associated glaucoma and treatment-requiring ocular hypertension in a tertiary referral center",
+    "lien": "https://openalex.org/W7225199840",
+    "date_publication": "2026-10-31",
+    "type": "article",
+    "revue": "Medical Hypothesis Discovery & Innovation in Optometry",
+    "type_source": "journal",
+    "langue": "en",
+    "indexe_dans": [
+      "crossref"
+    ],
+    "financeurs": null,
+    "subventions": null,
+    "institutions": [
+      {
+        "nom": "Tabriz University of Medical Sciences",
+        "pays": "IR",
+        "type": "education",
+        "ror": "https://ror.org/04krpx645"
+      },
+      {
+        "nom": "Maragheh University of Medical Sciences",
+        "pays": "IR",
+        "type": "education",
+        "ror": "https://ror.org/03xjqy265"
+      }
+    ],
+    "acces_ouvert": true,
+    "statut_acces": "diamond",
+    "url_texte": "https://mehdijournal.com/index.php/mehdioptometry/article/download/1360/1170",
+    "url_pdf": "https://mehdijournal.com/index.php/mehdioptometry/article/download/1360/1170",
+    "licence": null,
+    "texte_integral_indexe": true,
+    "retracte": false,
+    "citations": 0,
+    "sujet_principal": "Ocular Diseases and Behçet’s Syndrome",
+    "resume_present": true,
+    "resume": "Background: Elevated uveitis-associated intraocular pressure (IOP) may result from inflammatory, structural, and corticosteroid-related mechanisms and lead to secondary glaucoma. This study aimed to describe patients with uveitis who subsequently developed glaucoma or treatment-requiring ocular hypertension (OHT) in a tertiary referral clinic. Methods: This retrospective study was conducted at the Uveitis Clinic of Nikookari Eye Hospital, Tabriz University of Medical Sciences. Records of patients with uveitis diagnosed or managed during the preceding 10 years were reviewed. Patients were eligible if, after uveitis onset, they had IOP > 21 mmHg documented on at least two occasions separated by at least one week and requiring intervention, or documented glaucomatous findings based on available clinical assessment. Patients with IOP elevation or glaucomatous findings predating uveitis or insufficient documentation to establish the temporal relationship were excluded. Demographic, clinical, and treatment variables were extracted. Results: Among 441 patients with uveitis, 93 (21.1%) subsequently developed glaucoma or treatment-requiring OHT. Mean (standard deviation [SD]; range) age was 42.5 (17.4; 5–80) years, and 58 patients (62.4%) were female. Mean (SD) uveitis duration was 5.2 (4.3) years, and mean (SD) interval from uveitis diagnosis to glaucoma/OHT diagnosis was 2.1 (2.6) years. Panuveitis was the most frequent anatomical category (33.3%), followed by anterior (31.2%), intermediate (29.0%), and posterior uveitis (6.5%). Chronic uveitis was present in 76.3%, infectious uveitis in 39.8%. Herpes-family infection accounted for 14.0% of the cohort, Fuchs heterochromic iridocyclitis for 16.1%. Topical and systemic corticosteroid exposure was documented in 94.6% and 50.5%, respectively. The anterior chamber angle was open in 82.8% and closed in 17.2%. Medical, laser, and surgical treatment were documented in 95.7%, 15.1%, and 10.8%, respectively. Conclusions: In this tertiary referral cohort, approximately one in five patients with uveitis subsequently developed glaucoma or treatment-requiring OHT. The affected population was clinically heterogeneous, with chronic and panuveitic disease, infectious etiologies, Fuchs heterochromic iridocyclitis, corticosteroid exposure, and predominantly open-angle findings. These findings support continued IOP surveillance throughout uveitis, with attention to inflammatory activity, corticosteroid exposure, angle status, and glaucomatous changes. Given the retrospective design and lack of a comparator group, these characteristics cannot be considered independent risk factors. Prospective multicenter studies are needed to clarify risk factors, clinical course, and treatment outcomes.",
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "present_dans_pubmed": false
+  }
+}

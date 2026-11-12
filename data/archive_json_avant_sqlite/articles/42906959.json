@@ -1,0 +1,89 @@
+{
+  "pmid": "42906959",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42906959",
+    "titre": "Unilateral primary congenital glaucoma presenting with buphthalmos in a child.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42906959/",
+    "doi": "10.1136/bcr-2026-275982",
+    "pmcid": "PMC13691453",
+    "revue": "BMJ case reports",
+    "date_entree_pubmed": "2026-10-22",
+    "date_publication": "2026-Oct-21",
+    "types_publication": [
+      "Journal Article"
+    ],
+    "resume_present": false,
+    "resume": null,
+    "mots_cles_auteurs": [
+      "Glaucoma",
+      "Paediatrics (drugs and medicines)"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 3,
+    "affiliations_auteurs": [
+      "Shalakyatantra, Datta Meghe Institute of Higher Education and Research Deemed to be University, Wardha, Maharashtra, India gaurighate2@gmail.com.",
+      "Shalakya, Datta Meghe Institute of Higher Education and Research Deemed to be University, Wardha, Maharashtra, India.",
+      "Rasashastra & Bhaishajya Kalpana, Datta Meghe Institute of Higher Education and Research Deemed to be University, Wardha, Maharashtra, India."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7223117505",
+      "doi": "10.1136/bcr-2026-275982",
+      "pmid": "42906959",
+      "pmcid": "13691453",
+      "titre": "Unilateral primary congenital glaucoma presenting with buphthalmos in a child",
+      "lien": "https://openalex.org/W7223117505",
+      "date_publication": "2026-10-01",
+      "type": "article",
+      "revue": "BMJ Case Reports",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "pubmed"
+      ],
+      "financeurs": null,
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "Datta Meghe Institute of Higher Education and Research",
+          "pays": "IN",
+          "type": "education",
+          "ror": "https://ror.org/02w7k5y22"
+        }
+      ],
+      "acces_ouvert": true,
+      "statut_acces": "hybrid",
+      "url_texte": "https://casereports.bmj.com/content/bmjcr/19/10/e275982.full.pdf",
+      "url_pdf": "https://casereports.bmj.com/content/bmjcr/19/10/e275982.full.pdf",
+      "licence": "cc-by-nc",
+      "texte_integral_indexe": true,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Glaucoma and retinal disorders",
+      "resume_present": true,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": []
+  }
+}

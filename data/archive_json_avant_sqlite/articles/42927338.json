@@ -1,0 +1,127 @@
+{
+  "pmid": "42927338",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42927338",
+    "titre": "Recurrent delayed hyphema following latanoprost/netarsudil initiation in an eye with a XEN 63 gel stent: a case report.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42927338/",
+    "doi": "10.1016/j.ajoc.2026.102680",
+    "pmcid": "PMC13695311",
+    "revue": "American journal of ophthalmology case reports",
+    "date_entree_pubmed": "2026-10-25",
+    "date_publication": "2026-Dec",
+    "types_publication": [
+      "Case Reports",
+      "Journal Article"
+    ],
+    "resume_present": true,
+    "resume": "PURPOSE: To describe recurrent delayed hyphema following initiation of fixed-dose latanoprost/netarsudil in an eye with a previous XEN 63 gel stent, and to discuss whether the associated IOP reduction may have unmasked a pre-existing peri-implant reflux pathway.\nOBSERVATIONS: A 72-year-old woman with advanced primary open-angle glaucoma and previous ab interno XEN 63 gel stent implantation developed recurrent spontaneous hyphema shortly after bimatoprost/timolol was replaced with latanoprost/netarsudil. Intraocular pressure decreased from 17-19 mmHg to 8-9 mmHg after treatment initiation. The first episode occurred nine days later, with blurred vision, a small anterior chamber hyphema, and fine endothelial blood deposits. Gonioscopy showed active blood reflux from tissue surrounding the proximal intracameral XEN segment, without bleeding from other angle structures. Recurrent episodes occurred despite conservative management and, subsequently, despite discontinuation of latanoprost/netarsudil. Because the peri-implant region was repeatedly identified as the reflux site, the XEN stent was eventually removed. No further bleeding episodes were observed after explantation.\nCONCLUSIONS AND IMPORTANCE: The clinical course is consistent with a susceptible peri-implant anatomical configuration contributing to recurrent blood reflux. The temporal association between latanoprost/netarsudil initiation, marked IOP reduction, and the first hyphema suggests a possible precipitating or unmasking role, but does not establish drug causality. Delayed or recurrent hyphema after XEN implantation should prompt review of recent medication changes and careful gonioscopic inspection of the proximal XEN segment.",
+    "mots_cles_auteurs": [
+      "Delayed hyphema",
+      "Hyphema",
+      "Latanoprost",
+      "Netarsudil",
+      "Primary open-angle glaucoma",
+      "XEN gel stent"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 6,
+    "affiliations_auteurs": [
+      "Institute of Ophthalmology, Santa Croce e Carle Hospital, Cuneo, Italy.",
+      "Eye Clinic, Department of Surgical Sciences, University of Cagliari, Cagliari, Italy."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": true,
+      "produit_suivi_etudie_suggere": true,
+      "produits_suivis": [
+        {
+          "produit": "bimatoprost",
+          "role": "non déterminé",
+          "statut_role": "cité dans le résumé ou les mots-clés"
+        },
+        {
+          "produit": "latanoprost",
+          "role": "étudié",
+          "statut_role": "rôle suggéré, à vérifier (règle automatique appliquée au titre)"
+        },
+        {
+          "produit": "timolol",
+          "role": "non déterminé",
+          "statut_role": "cité dans le résumé ou les mots-clés"
+        },
+        {
+          "produit": "netarsudil",
+          "role": "étudié",
+          "statut_role": "rôle suggéré, à vérifier (règle automatique appliquée au titre)"
+        }
+      ],
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": [
+        "bimatoprost + timolol",
+        "latanoprost + timolol",
+        "netarsudil + latanoprost"
+      ],
+      "formulations_voies": [
+        "intracameral"
+      ],
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7221847912",
+      "doi": "10.1016/j.ajoc.2026.102680",
+      "pmid": "42927338",
+      "pmcid": "13695311",
+      "titre": "Recurrent delayed hyphema following latanoprost/netarsudil initiation in an eye with a XEN 63 gel stent: a case report",
+      "lien": "https://openalex.org/W7221847912",
+      "date_publication": "2026-10-15",
+      "type": "article",
+      "revue": "American Journal of Ophthalmology Case Reports",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "doaj",
+        "pubmed"
+      ],
+      "financeurs": null,
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "Azienda Sanitaria Ospedaliera S.Croce e Carle Cuneo",
+          "pays": "IT",
+          "type": "healthcare",
+          "ror": "https://ror.org/03pz7fw94"
+        },
+        {
+          "nom": "University of Cagliari",
+          "pays": "IT",
+          "type": "education",
+          "ror": "https://ror.org/003109y17"
+        }
+      ],
+      "acces_ouvert": true,
+      "statut_acces": "gold",
+      "url_texte": "https://doi.org/10.1016/j.ajoc.2026.102680",
+      "url_pdf": null,
+      "licence": "cc-by-nc-nd",
+      "texte_integral_indexe": true,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Glaucoma and retinal disorders",
+      "resume_present": true,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": []
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "pmid": "42891796",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42891796",
+    "titre": "Association between distance from the angle recess to the tube entry site and corneal endothelial cell loss after PreserFlo MicroShunt implantation.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42891796/",
+    "doi": "10.1007/s10384-026-01442-0",
+    "pmcid": null,
+    "revue": "Japanese journal of ophthalmology",
+    "date_entree_pubmed": "2026-10-18",
+    "date_publication": "2026-Oct-17",
+    "types_publication": [
+      "Journal Article"
+    ],
+    "resume_present": true,
+    "resume": "PURPOSE: To investigate the association between anterior segment optical coherence tomography (AS-OCT)-derived tube parameters and corneal endothelial cell density (ECD) changes after PreserFlo MicroShunt (PMS) surgery in primary open-angle glaucoma (POAG) and exfoliation glaucoma (XFG).\nSTUDY DESIGN: Prospective cohort study.\nMETHODS: This study included pseudophakic patients with POAG or XFG who underwent PMS implantation. ECD was measured preoperatively and at 1, 3, 6, and 12 months post operatively, and every 6 months thereafter. Intracameral tube parameters, including tube position and length, were assessed using AS-OCT images obtained 1 month postoperatively. Associations between OCT parameters and the monthly rate of ECD change (ECD slope) were evaluated using linear mixed-effects models.\nRESULTS: Mean preoperative ECD was 2384 ± 391 cells/mm2. Mean follow-up period was 15 ± 7 months, with 5.1 ± 1.3 ECD measurements per eye. Tube parameters did not differ significantly between POAG (67 eyes of 61 patients) and XFG (18 eyes of 16 patients). The mean ECD slope was -11.8 ± 2.2 cells/mm2/month in XFG and -9.8 ± 1.1 cells/mm2/month in POAG (p = 0.38). A greater distance from the angle recess to the intracameral tube entry site was significantly associated with a more negative ECD slope in both XFG and POAG groups (p = 0.02 and 0.03). Its contribution to ECD slope variance was greater in XFG than in POAG (R2 = 0.243 vs. 0.069).\nCONCLUSION: A longer distance from the angle recess to the intracameral tube entry site may predict accelerated ECD loss after PMS implantation, particularly in XFG.",
+    "mots_cles_auteurs": [
+      "Anterior segment optical coherence tomography",
+      "Corneal endothelial cell density",
+      "Exfoliation glaucoma",
+      "PreserFlo MicroShunt",
+      "Tube position"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 7,
+    "affiliations_auteurs": [
+      "Department of Ophthalmology, Kanazawa University Graduate School of Medical Sciences, 13-1 Takara-machi, Kanazawa, Ishikawa, 920-8641, Japan.",
+      "Department of Ophthalmology, Kanazawa University Graduate School of Medical Sciences, 13-1 Takara-machi, Kanazawa, Ishikawa, 920-8641, Japan. eyetomo@med.kanazawa-u.ac.jp."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": [
+        "intracameral"
+      ],
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7222818097",
+      "doi": "10.1007/s10384-026-01442-0",
+      "pmid": "42891796",
+      "pmcid": null,
+      "titre": "Association between distance from the angle recess to the tube entry site and corneal endothelial cell loss after PreserFlo MicroShunt implantation",
+      "lien": "https://openalex.org/W7222818097",
+      "date_publication": "2026-10-17",
+      "type": "article",
+      "revue": "Japanese Journal of Ophthalmology",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "pubmed"
+      ],
+      "financeurs": null,
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "Kanazawa University",
+          "pays": "JP",
+          "type": "education",
+          "ror": "https://ror.org/02hwp6a56"
+        }
+      ],
+      "acces_ouvert": true,
+      "statut_acces": "hybrid",
+      "url_texte": "https://link.springer.com/content/pdf/10.1007/s10384-026-01442-0.pdf",
+      "url_pdf": "https://link.springer.com/content/pdf/10.1007/s10384-026-01442-0.pdf",
+      "licence": "cc-by",
+      "texte_integral_indexe": true,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Glaucoma and retinal disorders",
+      "resume_present": true,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": []
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "nct": "NCT07917741",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "nct": "NCT07917741",
+    "titre": "AI-Assisted vs Conventional Teleglaucoma Referral",
+    "titre_officiel": "Artificial Intelligence-Assisted Teleophthalmology for Glaucoma Screening: A Randomized Controlled Trial",
+    "lien": "https://clinicaltrials.gov/study/NCT07917741",
+    "date_premiere_publication": "2026-11-05",
+    "date_derniere_mise_a_jour": "2026-11-05",
+    "type_etude": "INTERVENTIONAL",
+    "phases_declarees": [
+      "NA"
+    ],
+    "statut": "NOT_YET_RECRUITING",
+    "raison_arret": null,
+    "date_debut": "2027-01-01",
+    "date_fin_principale": "2032-12-31",
+    "promoteur": "University of Southern California",
+    "type_promoteur": "OTHER",
+    "collaborateurs": [
+      "Los Angeles County Department of Health Services (DHS)",
+      "National Eye Institute (NEI)"
+    ],
+    "conditions": [
+      "Glaucoma"
+    ],
+    "interventions": [
+      {
+        "type": "OTHER",
+        "nom": "AI-Assisted Teleglaucoma Referral Pathway"
+      },
+      {
+        "type": "OTHER",
+        "nom": "Conventional Teleglaucoma Referral Pathway"
+      }
+    ],
+    "participants_nombre": 1386,
+    "participants_type": "ESTIMATED",
+    "criteres_principaux": [
+      {
+        "critere": "Time to in-office diagnosis of glaucoma",
+        "delai": "From screening through 36 months"
+      }
+    ],
+    "resultats_deposes": false,
+    "publications_declarees": null,
+    "resume_source": "This randomized controlled trial will compare an artificial intelligence (AI)-assisted teleglaucoma referral pathway with conventional referral among adults identified with referable glaucoma through the Los Angeles County Department of Health Services (LAC DHS) Teleretinal Screening Program. The primary objective is to determine whether AI-assisted referral reduces time to in-office diagnosis of manifest glaucoma. Secondary outcomes include glaucoma severity, visual function, need for glaucoma surgery, patient-reported quality of life and satisfaction, health system resource utilization, and cost-effectiveness.",
+    "citations_declarees": null,
+    "plan": {
+      "repartition": "RANDOMIZED",
+      "modele": "PARALLEL",
+      "but_principal": "DIAGNOSTIC",
+      "insu": "NONE",
+      "insu_pour": null,
+      "insu_description": null,
+      "modele_observationnel": null
+    },
+    "bras": [
+      {
+        "libelle": "AI-Assisted Teleglaucoma Referral",
+        "type": "EXPERIMENTAL",
+        "description": "Participants will undergo AI-assisted referral using validated deep learning models integrated within the Eye-AI platform. AI outputs, together with intraocular pressure and other clinical information, will be used to stratify referral urgency. AI-generated recommendations will be reviewed by glaucoma specialists before referral.",
+        "interventions": [
+          "Other: AI-Assisted Teleglaucoma Referral Pathway"
+        ]
+      },
+      {
+        "libelle": "Conventional Teleglaucoma Referral",
+        "type": "ACTIVE_COMPARATOR",
+        "description": "Participants will undergo conventional teleglaucoma referral based on manual grading of fundus photographs by LAC DHS optometrists, with referral and prioritization performed according to current clinical practice.",
+        "interventions": [
+          "Other: Conventional Teleglaucoma Referral Pathway"
+        ]
+      }
+    ],
+    "eligibilite": {
+      "criteres": "Inclusion Criteria:\n\n* Provision of signed and dated informed consent\n* Age ≥18 years\n* Receiving routine teleretinal screening through the Los Angeles County Department of Health Services (LAC DHS) Teleretinal Screening Program\n* Positive prediction for referable glaucoma by the validated AI algorithm at the time of screening\n* No prior ophthalmology or optometry follow-up within the past year\n* Willingness and ability to comply with study procedures and follow-up\n\nExclusion Criteria:\n\n* Inability to tolerate fundus photography or ungradable fundus images\n* Acute vision loss or major ocular complaints requiring immediate in-person evaluation\n* Prior glaucoma diagnosis or treatment within the past year",
+      "age_min": "18 Years",
+      "age_max": null,
+      "sexe": "ALL",
+      "volontaires_sains": true
+    },
+    "criteres_secondaires": [
+      {
+        "critere": "Visual field mean deviation (MD)",
+        "delai": "Baseline and 36 months"
+      },
+      {
+        "critere": "Visual field index (VFI)",
+        "delai": "Baseline and 36 months"
+      },
+      {
+        "critere": "Mean retinal nerve fiber layer (RNFL) thickness",
+        "delai": "Time Frame: Baseline and 36 months"
+      }
+    ],
+    "responsables": null,
+    "date_depot_resultats": null,
+    "resultats": null
+  },
+  "modifications": []
+}

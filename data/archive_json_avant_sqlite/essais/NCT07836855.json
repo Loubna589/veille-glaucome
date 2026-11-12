@@ -1,0 +1,94 @@
+{
+  "nct": "NCT07836855",
+  "premiere_detection": "2026-09-25",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "nct": "NCT07836855",
+    "titre": "A Fellow Eye Comparative Study of the Aquea Intracanalicular Glaucoma Micro-coil Stent and the Alcon Hydrus Glaucoma Microstent",
+    "titre_officiel": "A Fellow Eye Comparative Study of the Aquea Intracanalicular Glaucoma Micro-coil Stent and the Alcon Hydrus Glaucoma Microstent",
+    "lien": "https://clinicaltrials.gov/study/NCT07836855",
+    "date_premiere_publication": "2026-09-23",
+    "date_derniere_mise_a_jour": "2026-09-23",
+    "type_etude": "INTERVENTIONAL",
+    "phases_declarees": [
+      "NA"
+    ],
+    "statut": "COMPLETED",
+    "raison_arret": null,
+    "date_debut": "2024-09-16",
+    "date_fin_principale": "2026-06-15",
+    "promoteur": "Aquea Health, Inc.",
+    "type_promoteur": "INDUSTRY",
+    "collaborateurs": null,
+    "conditions": [
+      "Cataract Senile",
+      "Glaucoma, Open Angle"
+    ],
+    "interventions": [
+      {
+        "type": "DEVICE",
+        "nom": "Aquea Zealix™"
+      },
+      {
+        "type": "DEVICE",
+        "nom": "Hydrus® Microstent"
+      }
+    ],
+    "participants_nombre": 16,
+    "participants_type": "ACTUAL",
+    "criteres_principaux": [
+      {
+        "critere": "Primary Effectiveness Endpoint",
+        "delai": "12 Months"
+      }
+    ],
+    "resultats_deposes": false,
+    "publications_declarees": null,
+    "resume_source": "The purpose of this research study is to compare the safety and effectiveness of the Aquea Intracanalicular Glaucoma Stent to the Alcon Hydrus Glaucoma Microstent for the reduction of intraocular pressure (IOP) in patients with cataract and primary open angle glaucoma.",
+    "citations_declarees": null,
+    "plan": {
+      "repartition": "RANDOMIZED",
+      "modele": "PARALLEL",
+      "but_principal": "TREATMENT",
+      "insu": "NONE",
+      "insu_pour": null,
+      "insu_description": null,
+      "modele_observationnel": null
+    },
+    "bras": [
+      {
+        "libelle": "The Aquea Zealix™",
+        "type": "EXPERIMENTAL",
+        "description": "The Aquea Zealix™ is a helical shaped micro-coil stent with variable pitch across the length of the implant specifically designed to keep the Schlemm's canal adequately dilated to its natural healthy state",
+        "interventions": [
+          "Device: Aquea Zealix™"
+        ]
+      },
+      {
+        "libelle": "The Hydrus® Microstent",
+        "type": "ACTIVE_COMPARATOR",
+        "description": "The Hydrus® Microstent is an FDA approved device. It is a crescent-shaped implantable microstent pre-loaded onto a hand-held delivery system.",
+        "interventions": [
+          "Device: Hydrus® Microstent"
+        ]
+      }
+    ],
+    "eligibilite": {
+      "criteres": "Inclusion Criteria:\n\n1. Individuals 45 years of age or older, of either gender or any race, at the time of surgery.\n2. Able to understand the requirements of the study and willing to follow study instructions, provide written informed consent, and agree to comply with all study requirements, including the required study follow-up visits.\n3. A diagnosis of cataract eligible for phacoemulsification cataract extraction and IOL implantation.\n4. A diagnosis of primary open angle glaucoma (POAG) substantiated using funduscopic exam and/or at least one reliable visual field test (i.e., mean deviation \\< 0 with fixation losses ≤ 30%, false positive errors ≤ 30% and false negative errors ≤ 30%) with the Humphrey automated perimeter using the SITA Standard 24-2 testing algorithm.\n5. At the Screening Visit, medicated IOP of ≤ 25 mmHg or unmedicated IOP of ≥ 21 mmHg and ≤ 33 mmHg.\n6. At the Baseline Visit, a mean unmedicated IOP of ≥ 21 mmHg and ≤ 33 mmHg. The mean will be derived from the diurnal IOP readings taken over the course of the Baseline Visit. Additionally, the baseline mean unmedicated diurnal IOP must be ≥ 3 mmHg higher than the medicated IOP measured at the Screening Visit.\n7. No changes in preoperative ocular hypotensive medication regimen for at least three months prior to Screening Visit.\n8. Gonioscopy confirming normal angle anatomy at site of implantation.\n9. Shaffer grade ≥ III in all four quadrants.\n\nIntraoperative Inclusion Criteria\n\n1. Uncomplicated cataract extraction\n2. A well-centered posterior chamber IOL implanted in the capsular bag.\n3. A clear view of an open angle and visualization of the angle with direct gonioscopy post intracameral miotic instillation.\n\nExclusion Criteria:\n\n1. Use of more than 3 ocular hypotensive medications. (Combination medications count as 2 or 3 medications depending on number of active ingredients.)\n2. Use of oral hypotensive medication treatment for glaucoma in the either eye.\n3. Significant risk by a washout of medication including those subjects with advanced glaucoma evidenced by an afferent pupillary defect, a C:D ratio ≥ 0.9 or encroachment of field loss within the central 5 degrees as indicated by ≥ 2 depressed points of 0.5% probability on the 24-2 SITA Standard Humphrey visual field.\n4. Previous glaucoma procedure with or without an implantable glaucoma device (with exception of laser treatments to the trabecular meshwork such as a Laser Trabeculoplasty performed more than three months prior to study enrollment).\n5. Proliferative or severe nonproliferative diabetic retinopathy.\n6. Previous surgery for retinal detachment.\n7. Central corneal thickness \\> 620 microns.\n8. Clinically significant corneal dystrophy.\n9. Previous corneal surgery, except for pterygium excision and corneal relaxing incisions.\n10. Wet age-related macular degeneration.\n11. Clinically significant ocular pathology, other than glaucoma.\n12. Diagnosis of acute angle closure, traumatic, congenital, malignant, uveitic, pseudoexfoliative, elevated episcleral venous pressure, pigmentary or neovascular glaucoma.\n13. Best corrected visual acuity worse than 20/80 in either eye not attributable to cataract.\n14. Clinically significant ocular inflammation or infection in either eye within thirty days prior to screening.\n15. Uncontrolled systemic disease that in the opinion of the Investigator would put the subject's health at risk and/or prevent the subject from completing all study visits.\n16. Participation in any clinical trial within the 30 calendar days prior to Screening.\n17. Pregnant or nursing females. -",
+      "age_min": "45 Years",
+      "age_max": null,
+      "sexe": "ALL",
+      "volontaires_sains": false
+    },
+    "criteres_secondaires": [
+      {
+        "critere": "Secondary Effectiveness Endpoint",
+        "delai": "12 Months"
+      }
+    ],
+    "responsables": null,
+    "date_depot_resultats": null,
+    "resultats": null
+  },
+  "modifications": []
+}

@@ -1,0 +1,85 @@
+{
+  "pmid": "42778992",
+  "premiere_detection": "2026-09-25",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42778992",
+    "titre": "Abiotrophia defectiva Endophthalmitis Associated With Exposed XEN Gel Stent.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42778992/",
+    "doi": "10.3928/23258160-20260818-02",
+    "pmcid": null,
+    "revue": "Ophthalmic surgery, lasers & imaging retina",
+    "date_entree_pubmed": "2026-09-24",
+    "date_publication": "2026-Sep-24",
+    "types_publication": [
+      "Journal Article"
+    ],
+    "resume_present": true,
+    "resume": "An 80-year-old woman presented with a painful red eye four months after XEN gel stent implantation for primary open-angle glaucoma. Examination revealed an exposed gel stent through a conjunctival defect, corneal edema, hypopyon, and vitreous membranes, consistent with acute exogenous endophthalmitis. She underwent vitreous aspiration with intravitreal vancomycin and ceftazidime, followed by pars plana vitrectomy with stent explantation and silicone oil tamponade. Vitreous cultures grew Abiotrophia defectiva, recovered on routine media and identified to species by automated phenotypic testing within 6 hours, without molecular confirmation. Following silicone oil removal, vision returned to her baseline of 5/200, limited by prior central retinal vein occlusion. This represents the second reported case of A. defectiva endophthalmitis associated with an exposed gel stent. Contemporary automated identification may reduce diagnostic delay for this organism, though isolate-level susceptibility testing remains essential to guide targeted therapy.",
+    "mots_cles_auteurs": null,
+    "langue": "eng",
+    "nombre_auteurs": 8,
+    "affiliations_auteurs": [
+      "Department of Ophthalmology, Bascom Palmer Eye Institute, University of Miami Health System.",
+      "Retina Consultants of Miami, Miami, Florida."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7214196127",
+      "doi": "10.3928/23258160-20260818-02",
+      "pmid": "42778992",
+      "pmcid": null,
+      "titre": "Abiotrophia defectiva Endophthalmitis Associated With Exposed XEN Gel Stent",
+      "lien": "https://openalex.org/W7214196127",
+      "date_publication": "2026-09-24",
+      "type": "article",
+      "revue": "Ophthalmic surgery, lasers & imaging retina",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "pubmed"
+      ],
+      "financeurs": null,
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "University of Miami Health System",
+          "pays": "US",
+          "type": "healthcare",
+          "ror": "https://ror.org/00zw9nc64"
+        }
+      ],
+      "acces_ouvert": false,
+      "statut_acces": "closed",
+      "url_texte": null,
+      "url_pdf": null,
+      "licence": null,
+      "texte_integral_indexe": false,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Ocular Infections and Treatments",
+      "resume_present": true,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-09-25",
+    "financements": []
+  }
+}

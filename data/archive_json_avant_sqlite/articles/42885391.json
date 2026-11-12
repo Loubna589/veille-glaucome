@@ -1,0 +1,102 @@
+{
+  "pmid": "42885391",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42885391",
+    "titre": "Prolonged Intralenticular Incarceration of the Ozurdex Implant.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42885391/",
+    "doi": "10.1097/j.jcrs.0000000000002073",
+    "pmcid": null,
+    "revue": "Journal of cataract and refractive surgery",
+    "date_entree_pubmed": "2026-10-16",
+    "date_publication": "2026-Oct-14",
+    "types_publication": [
+      "Journal Article"
+    ],
+    "resume_present": false,
+    "resume": null,
+    "mots_cles_auteurs": [
+      "Ozurdex",
+      "cataract",
+      "ocular hypertension"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 3,
+    "affiliations_auteurs": [
+      "Eye Institute and Department of Ophthalmology, Eye & ENT Hospital, Fudan University, Shanghai 200031, China.",
+      "Shanghai Key Laboratory of Visual Impairment and Restoration, Shanghai 200031, China.",
+      "NHC Key laboratory of Myopia and Related Eye Diseases; Key laboratory of Myopia and Related Eye Diseases, Chinese Academy of Medical Sciences, Shanghai 200031, China."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7222450180",
+      "doi": "10.1097/j.jcrs.0000000000002073",
+      "pmid": "42885391",
+      "pmcid": null,
+      "titre": "Prolonged Intralenticular Incarceration of the Ozurdex Implant",
+      "lien": "https://openalex.org/W7222450180",
+      "date_publication": "2026-10-14",
+      "type": "article",
+      "revue": "Journal of Cataract & Refractive Surgery",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "pubmed"
+      ],
+      "financeurs": null,
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "Chinese Academy of Medical Sciences & Peking Union Medical College",
+          "pays": "CN",
+          "type": "education",
+          "ror": "https://ror.org/02drdmm93"
+        },
+        {
+          "nom": "Fudan University",
+          "pays": "CN",
+          "type": "education",
+          "ror": "https://ror.org/013q1eq08"
+        },
+        {
+          "nom": "Eye & ENT Hospital of Fudan University",
+          "pays": "CN",
+          "type": "healthcare",
+          "ror": "https://ror.org/02wc1yz29"
+        }
+      ],
+      "acces_ouvert": true,
+      "statut_acces": "hybrid",
+      "url_texte": "https://doi.org/10.1097/j.jcrs.0000000000002073",
+      "url_pdf": null,
+      "licence": "cc-by-nc-nd",
+      "texte_integral_indexe": false,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Intraocular Surgery and Lenses",
+      "resume_present": false,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": []
+  }
+}

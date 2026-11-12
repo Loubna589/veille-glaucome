@@ -1,0 +1,99 @@
+{
+  "pmid": "42774095",
+  "premiere_detection": "2026-09-25",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42774095",
+    "titre": "Case Report: Acute angle-closure glaucoma as the initial presentation of autosomal recessive bestrophinopathy caused by compound heterozygous BEST1 mutations.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42774095/",
+    "doi": "10.3389/fmed.2026.1861665",
+    "pmcid": "PMC13593448",
+    "revue": "Frontiers in medicine",
+    "date_entree_pubmed": "2026-09-23",
+    "date_publication": "2026",
+    "types_publication": [
+      "Case Reports",
+      "Journal Article"
+    ],
+    "resume_present": true,
+    "resume": "BACKGROUND: Autosomal recessive bestrophinopathy (ARB) arises from compound heterozygous BEST1 mutations. Beyond retinal pathology, it may be associated with short axial length, shallow anterior chamber, and refractory angle-closure glaucoma (ACG). Filtration surgery carries a high recurrence rate and may yield suboptimal outcomes in selected BEST1-associated eyes, with the optimal surgical strategy remaining undefined.\nCASE PRESENTATION: A 29-year-old female presented with refractory angle-closure glaucoma. Clinical examination revealed bilateral elevated intraocular pressure (IOP) and shallow anterior chambers. Retinal imaging demonstrated macular clefting and subretinal fluid. Ocular history was notable for repeated trabeculectomies, which provided transient IOP control. Genetic testing identified compound heterozygous BEST1 variants (c.922A > G and c.1740-1G > A). Familial segregation analysis demonstrated that the two BEST1 variants were inherited from different parents and were present in trans, supporting the molecular diagnosis of ARB. Given the patient's short axial length and history of failed filtration surgeries, ultrasound cycloplasty (UCP) was performed on the left eye. Postoperatively, IOP in the left eye remained stable. At the 7-month follow-up, OCT showed a concurrent reduction in macular schisis-like changes and subretinal fluid in the UCP-treated eye, whereas these retinal abnormalities progressed in the medically managed fellow eye.\nCONCLUSION: This case represents a rare report of ARB presenting with refractory ACG in a patient harboring compound heterozygous BEST1 variants, including c.922A > G, classified as likely pathogenic, and c.1740-1G > A, classified as a variant of uncertain significance. Young patients with ACG accompanied by short axial length, a shallow anterior chamber, and unexplained retinal abnormalities may benefit from early evaluation for ARB, including genetic testing. UCP may offer a potential alternative to conventional filtration surgery for IOP control in selected patients with ARB and refractory ACG. However, the theory requires confirmation in larger studies with longer follow-up.",
+    "mots_cles_auteurs": [
+      "BEST1 gene",
+      "angle-closure glaucoma (ACG)",
+      "autosomal recessive bestrophinopathy(ARB)",
+      "case report",
+      "ultrasound cycloplasty (UCP)"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 5,
+    "affiliations_auteurs": [
+      "The Affiliated Eye Hospital of Nanjing Medical University, Nanjing, China.",
+      "The Fourth School of Clinical Medicine, Nanjing Medical University, Nanjing, China."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7211969696",
+      "doi": "10.3389/fmed.2026.1861665",
+      "pmid": "42774095",
+      "pmcid": null,
+      "titre": "Case Report: Acute angle-closure glaucoma as the initial presentation of autosomal recessive bestrophinopathy caused by compound heterozygous BEST1 mutations",
+      "lien": "https://openalex.org/W7211969696",
+      "date_publication": "2026-09-08",
+      "type": "article",
+      "revue": "Frontiers in Medicine",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "doaj",
+        "pubmed"
+      ],
+      "financeurs": null,
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "Second Affiliated Hospital of Nanjing Medical University",
+          "pays": "CN",
+          "type": "healthcare",
+          "ror": "https://ror.org/04pge2a40"
+        },
+        {
+          "nom": "Nanjing Medical University",
+          "pays": "CN",
+          "type": "education",
+          "ror": "https://ror.org/059gcgy73"
+        }
+      ],
+      "acces_ouvert": true,
+      "statut_acces": "gold",
+      "url_texte": "https://www.frontiersin.org/journals/medicine/articles/10.3389/fmed.2026.1861665/pdf",
+      "url_pdf": "https://www.frontiersin.org/journals/medicine/articles/10.3389/fmed.2026.1861665/pdf",
+      "licence": "cc-by",
+      "texte_integral_indexe": true,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Retinal Development and Disorders",
+      "resume_present": true,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-09-25",
+    "financements": []
+  }
+}

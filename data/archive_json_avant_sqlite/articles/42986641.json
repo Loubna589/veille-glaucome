@@ -1,0 +1,112 @@
+{
+  "pmid": "42986641",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42986641",
+    "titre": "Boston Type I Keratoprosthesis With Baerveldt Tube Implantation.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42986641/",
+    "doi": "10.1001/jamaophthalmol.2026.4695",
+    "pmcid": null,
+    "revue": "JAMA ophthalmology",
+    "date_entree_pubmed": "2026-11-05",
+    "date_publication": "2026-Nov-05",
+    "types_publication": [
+      "Journal Article"
+    ],
+    "resume_present": false,
+    "resume": null,
+    "mots_cles_auteurs": null,
+    "langue": "eng",
+    "nombre_auteurs": 4,
+    "affiliations_auteurs": [
+      "Ophthalmology Department, Hanoi Medical University, Hanoi, Vietnam.",
+      "Ophthalmology Department, Hanoi Medical University Hospital, Hanoi, Vietnam.",
+      "Save Sight Institute, The University of Sydney, Sydney, New South Wales, Australia.",
+      "Department of Ophthalmology and Vision Sciences, University of Toronto, Toronto, Ontario, Canada.",
+      "Department of Ophthalmology and Vision Sciences, University of British Columbia, Vancouver, British Columbia, Canada."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7225297351",
+      "doi": "10.1001/jamaophthalmol.2026.4695",
+      "pmid": "42986641",
+      "pmcid": null,
+      "titre": "Boston Type I Keratoprosthesis With Baerveldt Tube Implantation",
+      "lien": "https://openalex.org/W7225297351",
+      "date_publication": "2026-11-05",
+      "type": "article",
+      "revue": "JAMA Ophthalmology",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "pubmed"
+      ],
+      "financeurs": null,
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "The University of Sydney",
+          "pays": "AU",
+          "type": "education",
+          "ror": "https://ror.org/0384j8v12"
+        },
+        {
+          "nom": "Hanoi Medical University",
+          "pays": "VN",
+          "type": "education",
+          "ror": "https://ror.org/01n2t3x97"
+        },
+        {
+          "nom": "Hanoi Medical University Hospital",
+          "pays": "VN",
+          "type": "healthcare",
+          "ror": "https://ror.org/054jdkk48"
+        },
+        {
+          "nom": "University of Toronto",
+          "pays": "CA",
+          "type": "education",
+          "ror": "https://ror.org/03dbr7087"
+        },
+        {
+          "nom": "University of British Columbia",
+          "pays": "CA",
+          "type": "education",
+          "ror": "https://ror.org/03rmrcq20"
+        }
+      ],
+      "acces_ouvert": false,
+      "statut_acces": "closed",
+      "url_texte": null,
+      "url_pdf": null,
+      "licence": null,
+      "texte_integral_indexe": false,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Corneal Surgery and Treatments",
+      "resume_present": true,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": []
+  }
+}

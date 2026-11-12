@@ -1,0 +1,103 @@
+{
+  "nct": "NCT06577857",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "nct": "NCT06577857",
+    "titre": "Inferonasal MIMS® Procedure: Long-Term Follow-Up Extension Study",
+    "titre_officiel": "Minimally Invasive Micro Sclerostomy (MIMS®) Inferonasal Procedure: Long-Term Follow-Up Extension Study",
+    "lien": "https://clinicaltrials.gov/study/NCT06577857",
+    "date_premiere_publication": "2024-08-29",
+    "date_derniere_mise_a_jour": "2026-10-15",
+    "type_etude": "OBSERVATIONAL",
+    "phases_declarees": null,
+    "statut": "TERMINATED",
+    "raison_arret": "The study was terminated following completion of the Week 24 visit. The Week 30 follow-up visit was canceled due to internal company reasons.",
+    "date_debut": "2022-11-04",
+    "date_fin_principale": "2025-01-30",
+    "promoteur": "Sanoculis Ltd",
+    "type_promoteur": "INDUSTRY",
+    "collaborateurs": null,
+    "conditions": [
+      "Open Angle Glaucoma"
+    ],
+    "interventions": [
+      {
+        "type": "DEVICE",
+        "nom": "Inferonasal Minimally Invasive Micro Sclerostomy"
+      }
+    ],
+    "participants_nombre": 44,
+    "participants_type": "ACTUAL",
+    "criteres_principaux": [
+      {
+        "critere": "Intraocular Pressure Change (Baseline to 24 months)",
+        "delai": "Baseline to 24 months post-MIMS® surgery"
+      },
+      {
+        "critere": "Intraocular Pressure Change (Baseline to 30 months)",
+        "delai": "Baseline to 30 months post-MIMS® surgery"
+      },
+      {
+        "critere": "Change in Number of Topical Intraocular Pressure Lowering Medications (Baseline to 24 Months)",
+        "delai": "Medicated baseline to 24 months post-MIMS® surgery"
+      },
+      {
+        "critere": "Change in Number of Topical Intraocular Pressure Lowering Medications (Baseline to 30 Months)",
+        "delai": "Medicated baseline to 30 months post-MIMS® surgery"
+      },
+      {
+        "critere": "Surgery Success Rate (24 months)",
+        "delai": "24 months post-MIMS® surgery"
+      },
+      {
+        "critere": "Surgery Success Rate (30 months)",
+        "delai": "30 months post-MIMS® surgery"
+      }
+    ],
+    "resultats_deposes": false,
+    "publications_declarees": null,
+    "resume_source": "A long-term (24 and 30 months) follow-up extension, prospective, non-interventional, open label study for data collection from subjects who underwent prior MIMS® inferonasal surgery, in continuation of the previous clinical investigation with the MIMS® Device (MMS-EEU-5).",
+    "citations_declarees": null,
+    "plan": {
+      "repartition": null,
+      "modele": null,
+      "but_principal": null,
+      "insu": null,
+      "insu_pour": null,
+      "insu_description": null,
+      "modele_observationnel": "COHORT"
+    },
+    "bras": [
+      {
+        "libelle": "Inferonasal MIMS Surgery Cohort",
+        "type": null,
+        "description": "Cohort that includes subjects that have undergone the MIMS® inferonasal surgery.",
+        "interventions": [
+          "Device: Inferonasal Minimally Invasive Micro Sclerostomy"
+        ]
+      }
+    ],
+    "eligibilite": {
+      "criteres": "Inclusion Criteria:\n\n1\\. Subject who underwent MIMS® inferonasal procedure, and surgery was performed not earlier than 24 months from enrollment",
+      "age_min": "40 Years",
+      "age_max": "85 Years",
+      "sexe": "ALL",
+      "volontaires_sains": null
+    },
+    "criteres_secondaires": [
+      {
+        "critere": "Postoperative Complication Safety Outcomes",
+        "delai": "Baseline to 30 months post-MIMS® surgery"
+      },
+      {
+        "critere": "Interventional Safety Outcomes",
+        "delai": "Baseline to 30 months post-MIMS® surgery"
+      }
+    ],
+    "responsables": null,
+    "date_depot_resultats": null,
+    "resultats": null
+  },
+  "modifications": []
+}

@@ -1,0 +1,51 @@
+{
+  "openalex_id": "W7204225357",
+  "premiere_detection": "2026-09-25",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "openalex_id": "W7204225357",
+    "doi": "10.2196/preprints.110339",
+    "pmid": null,
+    "pmcid": null,
+    "titre": "A Gamified Virtual Reality Perimeter for Rapid Glaucoma Pre-Screening in Community Settings: Pilot Evaluation of \"Meteor Blaster VR\" (Preprint)",
+    "lien": "https://openalex.org/W7204225357",
+    "date_publication": "2026-08-25",
+    "type": "preprint",
+    "revue": null,
+    "type_source": null,
+    "langue": null,
+    "indexe_dans": [
+      "crossref"
+    ],
+    "financeurs": null,
+    "subventions": null,
+    "institutions": null,
+    "acces_ouvert": false,
+    "statut_acces": "closed",
+    "url_texte": null,
+    "url_pdf": null,
+    "licence": null,
+    "texte_integral_indexe": false,
+    "retracte": false,
+    "citations": 0,
+    "sujet_principal": "Glaucoma and retinal disorders",
+    "resume_present": true,
+    "resume": "BACKGROUND Undiagnosed glaucoma remains highly prevalent, and raising awareness of subtle visual impairments in daily life is essential for early detection. Although virtual reality (VR)–based perimetry has previously been investigated, little is known about whether a gamified VR system can accurately detect glaucomatous visual field loss while maintaining user engagement, which could enable opportunistic pre-screening for glaucoma. Therefore, we developed an immersive VR shooting game, Meteor Blaster VR. OBJECTIVE The study included 23 eyes of 23 patients with glaucoma and 28 eyes of 28 patients without glaucoma. To avoid the correlation between paired eyes, only right eyes were included in the analysis. Associations between game score and HFA indices were evaluated, and the diagnostic performance for glaucoma was assessed using receiver operating characteristics curves. METHODS The study included 23 eyes of 23 patients with glaucoma and 28 eyes of 28 patients without glaucoma. To avoid the correlation between paired eyes, only right eyes were included in the analysis. Associations between game score and HFA indices were evaluated, and the diagnostic performance for glaucoma was assessed using receiver operating characteristics curves. RESULTS There was no significant difference in age between the glaucoma group and the non-glaucoma group (54.7 ± 7.2 years vs. 58.0 ± 11.2 years, respectively; P = 0.234). On the other hand, there was a significant difference in game score (glaucoma 24.2 ± 5.3 vs. non-glaucoma 29.1 ± 2.4; P = 0.005). There was a significant correlation between game score and mean deviation (MD): for the entire visual field, the Pearson correlation coefficient was r = 0.85 (P < 0.001); for the upper half, r = 0.88 (P < 0.001); and for the lower half, r = 0.73 (P < 0.001). MD was the only independent predictor of game score (β = 0.90, adjusted R² = 0.72). Logistic regression analysis for game score showed relatively good glaucoma diagnostic performance (area under the curve [AUC] = 0.81, P < 0.001), and combining age with game score improved glaucoma discrimination ability (AUC = 0.83, P < 0.001). In contrast, age alone did not provide sufficient discriminatory ability for glaucoma (AUC = 0.65, P = 0.222). CONCLUSIONS The gamified VR platform demonstrated strong agreement with conventional visual field indices and may serve as an accessible, low-barrier pre-screening tool to prompt players to be aware of their visual status, thereby facilitating early glaucoma detection in an everyday community setting.",
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "present_dans_pubmed": false
+  }
+}

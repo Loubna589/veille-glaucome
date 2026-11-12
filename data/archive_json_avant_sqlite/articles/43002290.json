@@ -1,0 +1,117 @@
+{
+  "pmid": "43002290",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "43002290",
+    "titre": "Doyne honeycomb retinal dystrophy with primary angle closure: a case report.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/43002290/",
+    "doi": "10.1007/s10633-026-10158-y",
+    "pmcid": null,
+    "revue": "Documenta ophthalmologica. Advances in ophthalmology",
+    "date_entree_pubmed": "2026-11-09",
+    "date_publication": "2026-Nov-09",
+    "types_publication": [
+      "Journal Article"
+    ],
+    "resume_present": true,
+    "resume": "OBJECTIVE: To report a clinical case of Doyne honeycomb retinal dystrophy (DHRD) caused by an EFEMP1 gene mutation complicated by primary angle closure, and to discuss its clinical characteristics, reasons for misdiagnosis, and therapeutic challenges.\nMETHODS: The clinical data of a 53-year-old male patient were retrospectively analyzed. The patient presented with binocular metamorphopsia and decreased visual acuity persisting for over 9 years. He had been previously misdiagnosed with \"macular degeneration\" and \"macular edema\" and received corresponding treatments for a prolonged period. During the current consultation, multimodal fundus imaging (FFA/ICGA/OCT), ultrasound biomicroscopy (UBM), and ophthalmic genetic testing were performed.\nRESULTS: Fundus examination and imaging revealed characteristic radial drusen in the posterior pole and nasal to the optic disc, retinal pigment epithelium (RPE) atrophy, and secondary choroidal neovascularization (CNV) in the macular region. Genetic testing identified a heterozygous c.1033C>T (p.Arg345Trp) variant in the EFEMP1 gene, confirming the diagnosis of DHRD. The patient was also diagnosed with primary angle closure due to bilateral angle closure/narrowing and initially underwent bilateral laser peripheral iridotomy (LPI). Subsequently, intravitreal injections of faricimab were administered for the secondary CNV. However, due to the advanced stage of the disease, severe disruption of retinal structures, and fibrosis, no significant improvement was observed in visual acuity or anatomical structure.\nCONCLUSION: The clinical manifestations of DHRD significantly overlap with age-related macular degeneration (AMD), leading to a high risk of misdiagnosis. For patients with early onset (< 50 years) and typical drusen nasal to the optic disc, genetic testing is crucial for confirmation. This case presents a rare concurrence of primary angle closure, differing from the previously reported association with open-angle glaucoma, which adds to the therapeutic complexity. Furthermore, the limited response observed in this patient may be attributed to the advanced atrophic and cicatricial macular changes, rather than indicating generalized resistance to anti-VEGF therapy in late-stage DHRD, highlighting the importance of early precise diagnosis and comprehensive management.",
+    "mots_cles_auteurs": [
+      "EFEMP1 gene",
+      "Choroidal neovascularization",
+      "Doyne honeycomb retinal dystrophy",
+      "Faricimab",
+      "Primary angle closure"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 2,
+    "affiliations_auteurs": [
+      "School of Ophthalmology, Chengdu University of Traditional Chinese Medicine, No. 37 Shi-Er-Qiao Road, Jinniu District, Chengdu, 610075, Sichuan Province, China.",
+      "Affiliated Hospital of Chengdu University of Traditional Chinese Medicine, No. 39 Shi-Er-Qiao Road, Jinniu District, Chengdu, 610075, Sichuan Province, China. yehejiang@yeah.net."
+    ],
+    "financeurs_declares": [
+      {
+        "organisme": "National Natural Science Foundation of China",
+        "pays": "",
+        "reference": "82474580"
+      }
+    ],
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7225622123",
+      "doi": "10.1007/s10633-026-10158-y",
+      "pmid": "43002290",
+      "pmcid": null,
+      "titre": "Doyne honeycomb retinal dystrophy with primary angle closure: a case report",
+      "lien": "https://openalex.org/W7225622123",
+      "date_publication": "2026-11-09",
+      "type": "article",
+      "revue": "Documenta Ophthalmologica",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "pubmed"
+      ],
+      "financeurs": [
+        {
+          "nom": "National Natural Science Foundation of China",
+          "ror": "https://ror.org/01h0zpd94"
+        }
+      ],
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "Chengdu University of Traditional Chinese Medicine",
+          "pays": "CN",
+          "type": "education",
+          "ror": "https://ror.org/00pcrz470"
+        }
+      ],
+      "acces_ouvert": false,
+      "statut_acces": "closed",
+      "url_texte": null,
+      "url_pdf": null,
+      "licence": null,
+      "texte_integral_indexe": false,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Retinal Diseases and Treatments",
+      "resume_present": false,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": [
+      {
+        "nom": "National Natural Science Foundation of China",
+        "statut": "CONFIRMÉ — déclaré dans la notice PubMed (GrantList)",
+        "references": [
+          "82474580"
+        ],
+        "notices": [
+          [
+            "notice PubMed",
+            "https://pubmed.ncbi.nlm.nih.gov/43002290/?format=pubmed"
+          ]
+        ],
+        "note": null
+      }
+    ]
+  }
+}

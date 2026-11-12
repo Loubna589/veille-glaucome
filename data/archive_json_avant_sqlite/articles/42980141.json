@@ -1,0 +1,98 @@
+{
+  "pmid": "42980141",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42980141",
+    "titre": "Adverse Events Associated with Trabecular Meshwork Bypass Devices from 2020-2025.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42980141/",
+    "doi": "10.1097/IJG.0000000000002806",
+    "pmcid": null,
+    "revue": "Journal of glaucoma",
+    "date_entree_pubmed": "2026-11-04",
+    "date_publication": "2026-Nov-03",
+    "types_publication": [
+      "Journal Article"
+    ],
+    "resume_present": true,
+    "resume": "PRCIS: Analysis of the Manufacturer and User Device Experience database identified a low number of adverse events reported for trabecular meshwork bypass devices, with stent malposition, inflammation, and break most common.\nPURPOSE: To characterize adverse event (AE) complications with Hydrus Microstent (HM), iStent inject W (ISW), and iStent infinite (ISI) using the Manufacturer and User Device Experience (MAUDE) database.\nMETHODS: HM, ISW, and ISI patient AEs in MAUDE from 2020-2025 were categorized by keywords: Inflammation, bleeding, hypotony, endophthalmitis, or adhesions. Device AEs were categorized as malposition or break.\nRESULTS: 426 reports containing 511 AEs of interest were identified: HM 215, ISW 237, and ISI 59. Most common AEs were stent malposition (168/511 [32.9%]), inflammation (93/511 [18.2%]), break (90/511 [17.6%]), and bleeding (88/511 [17.2%]). For HM and ISI, the most common AEs were stent malposition (HM 75/215 [34.9%], ISI 20/59 [33.9%]), inflammation (HM 53/215 [24.7%], ISI 13/59 [22.0%]), and bleeding (HM 41/215 [19.1%], ISI 10/59 [16.9%]). Common ISW AEs were break (80/237 [33.8%]), stent malposition (73/237 [30.8%]), and bleeding (37/237 [15.6%]). Rate of breaks were 2/215 (0.9%) for HM and 8/59 (13.6%) for ISI. 98.8% of ISW breaks and 100% of ISI breaks were injector breaks; 100% of HM breaks were device breaks. Reports of hypotony (HM 14/215 [6.5%], ISW 5/237 [2.1%], ISI 0/59 [0%]) and endophthalmitis (HM 2/215 [0.9%], ISW 5/237 [2.1%], ISI 1/59 [1.7%]) were low.\nCONCLUSIONS: A low number of AEs were submitted for HM, ISW, and ISI in MAUDE from 2020-2025. Common complications were stent malposition, inflammation, break, and bleeding, with more frequent inflammation with HM and injector breaks with ISW. Similar AE numbers were described for HM and ISW, with approximately double the estimated sales for ISW.",
+    "mots_cles_auteurs": [
+      "Hydrus",
+      "glaucoma adverse events",
+      "glaucoma surgery",
+      "iStent",
+      "microinvasive glaucoma surgery",
+      "trabecular meshwork bypass devices"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 3,
+    "affiliations_auteurs": [
+      "Glaucoma Service, Wills Eye Hospital, Thomas Jefferson University, Philadelphia, PA.",
+      "Vickie and Jack Farber Vision Research Center."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7225248161",
+      "doi": "10.1097/ijg.0000000000002806",
+      "pmid": "42980141",
+      "pmcid": null,
+      "titre": "Adverse Events Associated with Trabecular Meshwork Bypass Devices from 2020-2025",
+      "lien": "https://openalex.org/W7225248161",
+      "date_publication": "2026-11-03",
+      "type": "article",
+      "revue": "Journal of Glaucoma",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "pubmed"
+      ],
+      "financeurs": null,
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "Thomas Jefferson University",
+          "pays": "US",
+          "type": "education",
+          "ror": "https://ror.org/00ysqcn41"
+        },
+        {
+          "nom": "Wills Eye Hospital",
+          "pays": "US",
+          "type": "healthcare",
+          "ror": "https://ror.org/03qygnx22"
+        }
+      ],
+      "acces_ouvert": false,
+      "statut_acces": "closed",
+      "url_texte": null,
+      "url_pdf": null,
+      "licence": null,
+      "texte_integral_indexe": false,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Glaucoma and retinal disorders",
+      "resume_present": true,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": []
+  }
+}

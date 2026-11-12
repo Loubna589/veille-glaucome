@@ -1,0 +1,162 @@
+{
+  "pmid": "42959028",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42959028",
+    "titre": "Ultrasound cycloplasty: dynamic efficacy and long-term safety in glaucoma patients from northwest China.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42959028/",
+    "doi": "10.3389/fmed.2026.1819637",
+    "pmcid": "PMC13716567",
+    "revue": "Frontiers in medicine",
+    "date_entree_pubmed": "2026-10-30",
+    "date_publication": "2026",
+    "types_publication": [
+      "Clinical Trial",
+      "Journal Article"
+    ],
+    "resume_present": true,
+    "resume": "PURPOSE: To comprehensively evaluate the dynamic efficacy of UCP in treating different types of glaucoma patients in Northwest China, systematically analyze treatment outcome variations across follow-up time points, and assess long-term safety profiles.\nMETHODS: In a 1-year follow-up study, 24 patients (30 eyes) with various types of glaucoma were enrolled and underwent UCP treatment (10 sectors or 8 sectors). Follow-up visits were conducted at different postoperative time points (1 day, 1 week, 1 month, 3 months, 6 months, and 1 year). Follow-up assessments consisted of IOP measurements, IOP reduction from baseline, surgical success rate, 24-hour IOP fluctuation, pain score improvement, and complications. Furthermore, the correlation between IOP at the final follow-up and baseline IOP was evaluated.\nRESULTS: 1. The overall IOP in all patients significantly decreased after UCP compared to preoperative levels (P < 0.01). 2. UCP demonstrated significant long-term IOP-lowering effects in patients with various types of glaucoma, with a 59.91% reduction at 1 year postoperatively. The efficacy was particularly notable in patients with primary angle-closure glaucoma, achieving a surgical success rate of 96.67% at 1 year. 3. Preoperative baseline IOP showed a positive correlation with IOP reduction at 1 year postoperatively (r s = 0.641, P < 0.01), indicating that higher baseline IOP was associated with greater IOP reduction. 4. UCP significantly improved IOP fluctuation, with the mean 24-hour IOP fluctuation decreasing from 10.6 preoperatively to 5.3 postoperatively (P = 0.001). 5. UCP exhibited acceptable safety, with significant reductions in pain scores (P < 0.05) and no severe complications such as hypotony or macular edema observed during follow-up.\nCONCLUSION: 1. In glaucoma patients in the Northwest population, UCP demonstrates significant long-term and dynamic efficacy-the higher the baseline IOP, the more pronounced the IOP-lowering effect, with outstanding performance in stabilizing IOP fluctuations. 2. UCP exhibits acceptable safety and controllable complications. Postoperative IOP stabilizes by 3 months, allowing for gradual withdrawal of medications, making it a reliable treatment option for glaucoma.",
+    "mots_cles_auteurs": [
+      "Northwest China",
+      "UCP",
+      "dynamic efficacy",
+      "glaucoma",
+      "minimally invasive glaucoma surgery"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 6,
+    "affiliations_auteurs": [
+      "Department of Ophthalmology, The Second Affiliated Hospital of Xi'an Medical University, Xi'an, China.",
+      "Department of Ophthalmology, The 986th Hospital of the Air Force, Xi'an, China.",
+      "Department of Ophthalmology, Shaanxi Provincial People's Hospital, Xi'an, China."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7222263969",
+      "doi": "10.3389/fmed.2026.1819637",
+      "pmid": "42959028",
+      "pmcid": "13716567",
+      "titre": "Ultrasound cycloplasty: dynamic efficacy and long-term safety in glaucoma patients from northwest China",
+      "lien": "https://openalex.org/W7222263969",
+      "date_publication": "2026-10-15",
+      "type": "article",
+      "revue": "Frontiers in Medicine",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "doaj",
+        "pubmed"
+      ],
+      "financeurs": [
+        {
+          "nom": "National Natural Science Foundation of China",
+          "ror": "https://ror.org/01h0zpd94"
+        },
+        {
+          "nom": "Education Department of Shaanxi Province",
+          "ror": "https://ror.org/00jb7xy46"
+        },
+        {
+          "nom": "Xi'an Medical University",
+          "ror": "https://ror.org/01fmc2233"
+        }
+      ],
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "Xi'an Medical University",
+          "pays": "CN",
+          "type": "education",
+          "ror": "https://ror.org/01fmc2233"
+        },
+        {
+          "nom": "Shaanxi Provincial People's Hospital",
+          "pays": "CN",
+          "type": "healthcare",
+          "ror": "https://ror.org/009czp143"
+        }
+      ],
+      "acces_ouvert": true,
+      "statut_acces": "gold",
+      "url_texte": "https://www.frontiersin.org/journals/medicine/articles/10.3389/fmed.2026.1819637/pdf",
+      "url_pdf": "https://www.frontiersin.org/journals/medicine/articles/10.3389/fmed.2026.1819637/pdf",
+      "licence": "cc-by",
+      "texte_integral_indexe": true,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Glaucoma and retinal disorders",
+      "resume_present": true,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": [
+      {
+        "nom": "National Natural Science Foundation of China",
+        "statut": "À VÉRIFIER — trouvé par OpenAlex seulement (l'éditeur n'a déclaré aucun financeur dans Crossref) ; à contrôler dans le texte de l'article",
+        "references": null,
+        "notices": [
+          [
+            "notice OpenAlex",
+            "https://api.openalex.org/works/W7222263969"
+          ],
+          [
+            "notice Crossref consultée (ne confirme pas ce financeur)",
+            "https://api.crossref.org/works/10.3389/fmed.2026.1819637"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "Education Department of Shaanxi Province",
+        "statut": "À VÉRIFIER — trouvé par OpenAlex seulement (l'éditeur n'a déclaré aucun financeur dans Crossref) ; à contrôler dans le texte de l'article",
+        "references": null,
+        "notices": [
+          [
+            "notice OpenAlex",
+            "https://api.openalex.org/works/W7222263969"
+          ],
+          [
+            "notice Crossref consultée (ne confirme pas ce financeur)",
+            "https://api.crossref.org/works/10.3389/fmed.2026.1819637"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "Xi'an Medical University",
+        "statut": "À VÉRIFIER — trouvé par OpenAlex seulement (l'éditeur n'a déclaré aucun financeur dans Crossref) ; à contrôler dans le texte de l'article",
+        "references": null,
+        "notices": [
+          [
+            "notice OpenAlex",
+            "https://api.openalex.org/works/W7222263969"
+          ],
+          [
+            "notice Crossref consultée (ne confirme pas ce financeur)",
+            "https://api.crossref.org/works/10.3389/fmed.2026.1819637"
+          ]
+        ],
+        "note": "cet organisme figure AUSSI parmi les institutions des auteurs : c'est une affiliation, information distincte"
+      }
+    ]
+  }
+}

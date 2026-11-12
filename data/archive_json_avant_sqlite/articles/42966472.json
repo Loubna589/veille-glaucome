@@ -1,0 +1,103 @@
+{
+  "pmid": "42966472",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42966472",
+    "titre": "Cognitive decline: A 10-year prospective study in glaucoma, diabetic retinopathy, and age-related macular degeneration.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42966472/",
+    "doi": "10.1016/j.oftale.2026.502673",
+    "pmcid": null,
+    "revue": "Archivos de la Sociedad Espanola de Oftalmologia",
+    "date_entree_pubmed": "2026-10-31",
+    "date_publication": "2026-Oct-31",
+    "types_publication": [
+      "Journal Article"
+    ],
+    "resume_present": true,
+    "resume": "OBJECTIVE: To evaluate the longitudinal association of glaucoma, diabetic retinopathy (DR), and age-related macular degeneration (AMD) with 10-year cognitive impairment, defined as a Montreal Cognitive Assessment (MoCA) score <26, as well as to determine the predictive value of self-perceived visual function and retinal structural biomarkers for cognitive impairment. The 25-item Visual Function Questionnaire (VFQ-25) assesses self-perceived visual functioning and its impact on vision-related activities and quality of life. The Mini-Mental State Examination (MMSE) is a global cognitive screening test assessing domains including orientation, registration and recall, attention/calculation, and language, whereas the MoCA assesses a broader range of cognitive domains, including executive functions, visuospatial abilities, attention, memory, language, and orientation. Because some MMSE and, particularly, MoCA tasks involve visual or visuospatial components, performance may be influenced by visual impairment; both tests may also be influenced by educational level.\nPATIENTS AND METHODS: This monocentric prospective observational study included 360 adults aged ≥60 years (90 participants per group and 90 matched controls) followed for 10 years. Demographic, vascular, and psychosocial variables, best-corrected binocular visual acuity, VFQ-25 (25-item Visual Function Questionnaire), MMSE (Mini-Mental State Examination), and MoCA scores were collected. Retinal structure was assessed using swept-source OCT, including retinal nerve fiber layer (RNFL) and ganglion cell-inner plexiform layer (GCIPL) measurements. Evaluations were performed at baseline, 5 years, and 10 years. Adjusted Cox models, multivariate logistic regression, and longitudinal mixed-effects models were applied. No stratification of glaucoma or diabetic retinopathy according to clinical severity or stage was performed.\nRESULTS: Cognitive impairment was more frequent in DR (54%), glaucoma (52%), and AMD (49%) compared with controls (27%) (P < .001). All ocular diseases remained independently associated with cognitive impairment after multivariate adjustment, with the highest risk observed in DR (HR 2.05). Higher VFQ-25 scores were associated with a lower risk of cognitive impairment, whereas GCIPL thinning showed an independent association with increased risk. However, participants with ocular disease had lower educational attainment, a higher prevalence of depression, and a higher comorbidity index at baseline than controls, and these baseline differences may contribute to the observed associations.\nCONCLUSIONS: Chronic ocular diseases are associated with a higher 10-year risk of cognitive impairment. These findings should nevertheless be interpreted cautiously because of baseline imbalances in education, depression, and comorbidity, the potential influence of visual impairment on cognitive testing, the lack of severity stratification for glaucoma and DR, and the possibility of residual confounding and reverse causality. Self-perceived visual function and retinal structural biomarkers may represent indicators of neurocognitive vulnerability in aging.",
+    "mots_cles_auteurs": [
+      "Age-related macular degeneration",
+      "Aging",
+      "Chronic ocular diseases",
+      "Cognitive decline",
+      "Degeneración macular asociada a la edad",
+      "Deterioro cognitivo",
+      "Diabetic retinopathy",
+      "Enfermedades oculares crónicas",
+      "Envejecimiento",
+      "Función visual percibida",
+      "Glaucoma",
+      "Optical coherence tomography",
+      "Perceived visual function",
+      "Retinopatía diabética",
+      "Tomografía de coherencia óptica"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 6,
+    "affiliations_auteurs": [
+      "Servicio de Oftalmología, Hospital Clínico Universitario, Valladolid, Spain. Electronic address: vmasensio@yahoo.es.",
+      "Servicio de Bioestadística, Hospital Clínico Universitario, Valladolid, Spain.",
+      "Servicio Geriatría, Hospital Clínico Universitario, Valladolid, Spain.",
+      "Servicio de Oftalmología, Hospital Clínico Universitario, Valladolid, Spain."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7224992972",
+      "doi": "10.1016/j.oftale.2026.502673",
+      "pmid": "42966472",
+      "pmcid": null,
+      "titre": "Cognitive decline: A 10-year prospective study in glaucoma, diabetic retinopathy, and age-related macular degeneration",
+      "lien": "https://openalex.org/W7224992972",
+      "date_publication": "2026-10-01",
+      "type": "article",
+      "revue": "Archivos de la Sociedad Española de Oftalmología (English Edition)",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "pubmed"
+      ],
+      "financeurs": null,
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "Hospital Clínico Universitario de Valladolid",
+          "pays": "ES",
+          "type": "healthcare",
+          "ror": "https://ror.org/04fffmj41"
+        }
+      ],
+      "acces_ouvert": false,
+      "statut_acces": "closed",
+      "url_texte": null,
+      "url_pdf": null,
+      "licence": null,
+      "texte_integral_indexe": false,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Dementia and Cognitive Impairment Research",
+      "resume_present": false,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": []
+  }
+}

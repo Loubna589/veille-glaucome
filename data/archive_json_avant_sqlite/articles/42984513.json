@@ -1,0 +1,120 @@
+{
+  "pmid": "42984513",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42984513",
+    "titre": "Early diagnosis program for multimodal primary open-angle glaucoma based on clinical process.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42984513/",
+    "doi": "10.3389/fopht.2026.1975341",
+    "pmcid": "PMC13730968",
+    "revue": "Frontiers in ophthalmology",
+    "date_entree_pubmed": "2026-11-05",
+    "date_publication": "2026",
+    "types_publication": [
+      "Journal Article"
+    ],
+    "resume_present": true,
+    "resume": "BACKGROUND: Glaucoma is among the leading causes of blindness. It is important to detect glaucoma at early stages. Using structural and functional examinations to identify primary open-angle glaucoma (POAG) is critical. Computer-aided diagnosis of glaucoma requires multimodal data to identify an accurate and explainable model for early glaucoma diagnosis.\nMETHODS: In this study, 301 multimodal data points were collected from the ophthalmology department at the Second Affiliated Hospital of Harbin Medical University. Data regarding fundus photography (FP), retinal nerve fiber layer thickness (RNFLt), intraocular pressure (IOP) values, visual field examination parameters and age were obtained. A powerful deep learning network was used to segment the optic nerve head obtained from the FPs. Machine learning classifiers (MLCs) were adopted to obtain the final classification results using 3 datasets: early glaucoma eyes, suspected glaucoma eyes, and healthy eyes; moreover, the diagnostic results of glaucoma specialists and general nonglaucoma ophthalmologists were collected.\nRESULTS: The overall area under the curve was 0.9858. The accuracy values of the deep learning- machine learning system, the glaucoma specialist group, the general ophthalmologist group were 0.9478, 0.9493, 0.8725, respectively.\nCONCLUSIONS: The algorithm delivers superior results in the early diagnosis of POAG. This study's hybrid deep learning-machine learning framework can effectively assist with clinical decision-making for early POAG.",
+    "mots_cles_auteurs": [
+      "deep learning",
+      "early diagnosis",
+      "machine learning",
+      "multimodal",
+      "primary open-angle glaucoma"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 7,
+    "affiliations_auteurs": [
+      "The Department of Ophthalmology, The Second Affiliated Hospital of Harbin Medical University, Harbin, Heilongjiang, China.",
+      "School of Computer Science and Technology, Harbin Institute of Technology, Harbin, Heilongjiang, China."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7223096798",
+      "doi": "10.3389/fopht.2026.1975341",
+      "pmid": "42984513",
+      "pmcid": "13730968",
+      "titre": "Early diagnosis program for multimodal primary open-angle glaucoma based on clinical process",
+      "lien": "https://openalex.org/W7223096798",
+      "date_publication": "2026-10-21",
+      "type": "article",
+      "revue": "Frontiers in Ophthalmology",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "doaj",
+        "pubmed"
+      ],
+      "financeurs": [
+        {
+          "nom": "National Natural Science Foundation of China",
+          "ror": "https://ror.org/01h0zpd94"
+        }
+      ],
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "Second Affiliated Hospital of Harbin Medical University",
+          "pays": "CN",
+          "type": "healthcare",
+          "ror": "https://ror.org/03s8txj32"
+        },
+        {
+          "nom": "Harbin Institute of Technology",
+          "pays": "CN",
+          "type": "education",
+          "ror": "https://ror.org/01yqg2h08"
+        }
+      ],
+      "acces_ouvert": true,
+      "statut_acces": "gold",
+      "url_texte": "https://www.frontiersin.org/journals/ophthalmology/articles/10.3389/fopht.2026.1975341/pdf",
+      "url_pdf": "https://www.frontiersin.org/journals/ophthalmology/articles/10.3389/fopht.2026.1975341/pdf",
+      "licence": "cc-by",
+      "texte_integral_indexe": true,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Glaucoma and retinal disorders",
+      "resume_present": true,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": [
+      {
+        "nom": "National Natural Science Foundation of China",
+        "statut": "CONFIRMÉ — déclaré par l'éditeur dans Crossref",
+        "references": null,
+        "notices": [
+          [
+            "notice justificative Crossref (déclaration de l'éditeur)",
+            "https://api.crossref.org/works/10.3389/fopht.2026.1975341"
+          ],
+          [
+            "notice OpenAlex",
+            "https://api.openalex.org/works/W7223096798"
+          ]
+        ],
+        "note": null
+      }
+    ]
+  }
+}

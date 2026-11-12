@@ -1,0 +1,95 @@
+{
+  "pmid": "42990772",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42990772",
+    "titre": "Palladium-103 brachytherapy with continuous periodic intravitreal Anti-VEGF bevacizumab for ciliary body medulloepithelioma.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42990772/",
+    "doi": "10.1016/j.ajoc.2026.102692",
+    "pmcid": "PMC13734759",
+    "revue": "American journal of ophthalmology case reports",
+    "date_entree_pubmed": "2026-11-06",
+    "date_publication": "2026-Dec",
+    "types_publication": [
+      "Case Reports",
+      "Journal Article"
+    ],
+    "resume_present": true,
+    "resume": "PURPOSE: To report a case of medulloepithelioma treated with palladium-103 (103Pd) plaque brachytherapy, followed by adjunctive continuous periodic intravitreal anti-vascular endothelial growth factor (anti-VEGF) therapy, highlighting a novel combined strategy for tumor control and management of its neovascular complications.\nOBSERVATIONS: A 9-year-old male presented with a ciliary body mass causing anterior displacement of the iris and iris neovascularization in the right eye. Initial tumor dimensions were 8 × 8 mm in basal diameters and 3.9 mm in thickness. Aspiration cutter-assisted biopsy was used to confirm the diagnosis of medulloepithelioma. Treatment involved temporary placement of a 14-mm 103Pd plaque, which irradiated the tumor's apex to 101.4 Gy (Gy) over 7 days. Despite tumor control, progressive iris neovascularization with secondary angle-closure glaucoma was managed by continuous periodic intravitreal anti-VEGF pharmacotherapy and two peripheral iridotomies. At 18 months post-plaque brachytherapy, a posterior subcapsular cataract developed that required extraction with intraocular lens placement. At 5 years post-plaque brachytherapy, a macular epiretinal membrane developed that was pealed during pars plana vitrectomy surgery. At 6 years 2 months follow-up post-plaque brachytherapy the tumor's thickness had decreased from 3.9 to 2.1 mm (46.2%) and the visual acuity had declined from 20/20 to 20/63. No metastases were detected.\nCONCLUSIONS AND IMPORTANCE: 103Pd plaque brachytherapy was used to control a ciliary body medulloepithelioma. However, iridotomies and continuous periodic anti-VEGF therapy were needed to suppress tumor-related secondary neovascular glaucoma. This approach achieved durable local tumor control while preserving the globe and functional vision. Targeted radiation and pharmacologic neovascular suppression offered a novel globe and vision-sparing treatment for medulloepithelioma.",
+    "mots_cles_auteurs": [
+      "Anti-VEGF",
+      "Brachytherapy",
+      "Medulloepithelioma",
+      "Palladium-103",
+      "Plaque",
+      "Survival",
+      "Visual acuity"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 2,
+    "affiliations_auteurs": [
+      "Department of Ocular Tumor, Orbital Disease, and Ophthalmic Radiation Therapy, The New York Eye Cancer Center, 115 East 61st Street, New York City, NY, 10065, USA.",
+      "Department of Ophthalmology, Tulane University School of Medicine, 131 S. Robertson St, 12th Floor, Mail Code 8069, New Orleans, LA, 70112-2632, USA."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7223444802",
+      "doi": "10.1016/j.ajoc.2026.102692",
+      "pmid": "42990772",
+      "pmcid": "13734759",
+      "titre": "Palladium-103 brachytherapy with continuous periodic intravitreal Anti-VEGF bevacizumab for ciliary body medulloepithelioma",
+      "lien": "https://openalex.org/W7223444802",
+      "date_publication": "2026-10-24",
+      "type": "article",
+      "revue": "American Journal of Ophthalmology Case Reports",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "doaj",
+        "pubmed"
+      ],
+      "financeurs": null,
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "Tulane University",
+          "pays": "US",
+          "type": "education",
+          "ror": "https://ror.org/04vmvtb21"
+        }
+      ],
+      "acces_ouvert": true,
+      "statut_acces": "gold",
+      "url_texte": "https://doi.org/10.1016/j.ajoc.2026.102692",
+      "url_pdf": null,
+      "licence": "cc-by-nc-nd",
+      "texte_integral_indexe": true,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Ocular Oncology and Treatments",
+      "resume_present": true,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": []
+  }
+}

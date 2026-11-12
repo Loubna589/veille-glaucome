@@ -1,0 +1,125 @@
+{
+  "pmid": "42849319",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42849319",
+    "titre": "Corrigendum to \"TrkB Receptor Agonist 7,8 Dihydroxyflavone is Protective Against the Inner Retinal Deficits Induced by Experimental Glaucoma\" [Neuroscience 490 (2022) 36-48].",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42849319/",
+    "doi": "10.1016/j.neuroscience.2026.09.041",
+    "pmcid": null,
+    "revue": "Neuroscience",
+    "date_entree_pubmed": "2026-10-08",
+    "date_publication": "2026-Nov-28",
+    "types_publication": [
+      "Published Erratum"
+    ],
+    "resume_present": false,
+    "resume": null,
+    "mots_cles_auteurs": null,
+    "langue": "eng",
+    "nombre_auteurs": 9,
+    "affiliations_auteurs": [
+      "Department of Clinical Medicine, Faculty of Medicine, Health and Human Sciences, Macquarie University, NSW, Australia. Electronic address: vivek.gupta@mq.edu.au.",
+      "Department of Clinical Medicine, Faculty of Medicine, Health and Human Sciences, Macquarie University, NSW, Australia.",
+      "School of Medicine, Deakin University, VIC, Australia.",
+      "Department of Clinical Medicine, Faculty of Medicine, Health and Human Sciences, Macquarie University, NSW, Australia; Save Sight Institute, University of Sydney, NSW, Australia.",
+      "Department of Cell Biology, Harvard Medical School, Boston, MA 02115, United States.",
+      "School of Psychology and Public Health, La Trobe University, Melbourne, VIC, Australia; College of Public Health, Medical and Veterinary Sciences, James Cook University, Townsville, QLD, Australia; Department of Pharmacology, University of Melbourne, Melbourne, VIC, Australia."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7220903765",
+      "doi": "10.1016/j.neuroscience.2026.09.041",
+      "pmid": "42849319",
+      "pmcid": null,
+      "titre": "Corrigendum to “TrkB Receptor Agonist 7,8 Dihydroxyflavone is Protective Against the Inner Retinal Deficits Induced by Experimental Glaucoma” [Neuroscience 490 (2022) 36–48]",
+      "lien": "https://openalex.org/W7220903765",
+      "date_publication": "2026-10-08",
+      "type": "erratum",
+      "revue": "Neuroscience",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "pubmed"
+      ],
+      "financeurs": null,
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "Deakin University",
+          "pays": "AU",
+          "type": "education",
+          "ror": "https://ror.org/02czsnj07"
+        },
+        {
+          "nom": "Macquarie University",
+          "pays": "AU",
+          "type": "education",
+          "ror": "https://ror.org/01sf06y89"
+        },
+        {
+          "nom": "The University of Sydney",
+          "pays": "AU",
+          "type": "education",
+          "ror": "https://ror.org/0384j8v12"
+        },
+        {
+          "nom": "Harvard University",
+          "pays": "US",
+          "type": "education",
+          "ror": "https://ror.org/03vek6s52"
+        },
+        {
+          "nom": "The University of Melbourne",
+          "pays": "AU",
+          "type": "education",
+          "ror": "https://ror.org/01ej9dk98"
+        },
+        {
+          "nom": "La Trobe University",
+          "pays": "AU",
+          "type": "education",
+          "ror": "https://ror.org/01rxfrp27"
+        },
+        {
+          "nom": "James Cook University",
+          "pays": "AU",
+          "type": "education",
+          "ror": "https://ror.org/04gsp2c11"
+        }
+      ],
+      "acces_ouvert": true,
+      "statut_acces": "bronze",
+      "url_texte": "https://www.ibroneuroscience.org/article/S0306-4522(26)00659-7/pdf",
+      "url_pdf": "https://www.ibroneuroscience.org/article/S0306-4522(26)00659-7/pdf",
+      "licence": null,
+      "texte_integral_indexe": false,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Glaucoma and retinal disorders",
+      "resume_present": false,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": []
+  }
+}

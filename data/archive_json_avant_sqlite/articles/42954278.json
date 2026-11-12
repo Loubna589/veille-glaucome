@@ -1,0 +1,128 @@
+{
+  "pmid": "42954278",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42954278",
+    "titre": "[The perimetry ant tonometry in real clinical practice of managing patients with glaucoma: facilities and possibilities].",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42954278/",
+    "doi": "10.32687/0869-866X-2026-34-5-1268-1272",
+    "pmcid": null,
+    "revue": "Problemy sotsial'noi gigieny, zdravookhraneniia i istorii meditsiny",
+    "date_entree_pubmed": "2026-10-29",
+    "date_publication": "2026-Dec-15",
+    "types_publication": [
+      "English Abstract",
+      "Journal Article"
+    ],
+    "resume_present": true,
+    "resume": "The anonymous survey of 107 ophthalmologists was carried out to assess facilities and practical application of diagnostic equipment in detection and management of glaucoma patients. It is established that main load of dispensary monitoring lies upon out-patient sector (81.8% of interrogated physicians of this level). However, only 12.5% of them have dedicated hours for glaucoma patients as compared to 35.3% of in-patient physicians (p=0.03). This indicates at time deficiency for full-value management of glaucoma patients at the primary care level that may negatively affect quality of dispensary monitoring. The significant deficiency of modern equipment is established. Only 46.4% of institutions are equipped with computerized perimeters. At that, outdated and law informative Förster perimeter remains the only method to assess visual field for 37.4% of specialists. The standard automated perimetry is applied by only 45.4% of physicians, and 9.1% of ophthalmologists in polyclinics apply no perimetry at all. The Maklakov tonometry (78.5%) and pneumotonometry (62.6%) dominate among methods measuring intraocular pressure, while Goldmann tonometry is practically unavailable (2.8%). The study results testify significant gap between Russian clinical practice and international standards requiring comprehensive measures on technical re-equipment and optimization of organization of ophthalmological care.",
+    "mots_cles_auteurs": [
+      "dispensarization.",
+      "dispensary registration",
+      "equipment",
+      "glaucoma",
+      "glaucoma hours",
+      "ophthalmologist",
+      "perimetry",
+      "tonometry"
+    ],
+    "langue": "rus",
+    "nombre_auteurs": 3,
+    "affiliations_auteurs": [
+      "The Krasnodar Branch of the Federal State Self-Contained Institution \"The academician S. N. Fedorov Inter-branch Scientific and Technical Complex Microsurgery of the Eye\" of Minzdrav of Russia, 350012, Krasnodar, Russia."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": [
+      "Humans",
+      "Glaucoma",
+      "Visual Field Tests",
+      "Tonometry, Ocular",
+      "Russia"
+    ]
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": null,
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7224332539",
+      "doi": "10.32687/0869-866x-2026-34-5-1268-1272",
+      "pmid": "42954278",
+      "pmcid": null,
+      "titre": "The perimetry ant tonometry in real clinical practice of managing patients with glaucoma: facilities and possibilities",
+      "lien": "https://openalex.org/W7224332539",
+      "date_publication": "2026-10-29",
+      "type": "article",
+      "revue": "Problems of Social Hygiene Public Health and History of Medicine",
+      "type_source": "journal",
+      "langue": "ru",
+      "indexe_dans": [
+        "crossref",
+        "pubmed"
+      ],
+      "financeurs": [
+        {
+          "nom": "Ministry of Health of the Russian Federation",
+          "ror": "https://ror.org/01p8ehb87"
+        }
+      ],
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "Intersectoral Research and Technology Complex Eye Microsurgery",
+          "pays": "RU",
+          "type": "healthcare",
+          "ror": "https://ror.org/04w68cb80"
+        }
+      ],
+      "acces_ouvert": true,
+      "statut_acces": "hybrid",
+      "url_texte": "https://journal-nriph.ru/journal/article/download/2874/5613",
+      "url_pdf": "https://journal-nriph.ru/journal/article/download/2874/5613",
+      "licence": "cc-by-nc-nd",
+      "texte_integral_indexe": true,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Glaucoma and retinal disorders",
+      "resume_present": true,
+      "mesh": [
+        "Glaucoma",
+        "Humans",
+        "Russia",
+        "Tonometry, Ocular",
+        "Visual Field Tests"
+      ]
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": [
+      {
+        "nom": "Ministry of Health of the Russian Federation",
+        "statut": "À VÉRIFIER — trouvé par OpenAlex seulement (l'éditeur n'a déclaré aucun financeur dans Crossref) ; à contrôler dans le texte de l'article",
+        "references": null,
+        "notices": [
+          [
+            "notice OpenAlex",
+            "https://api.openalex.org/works/W7224332539"
+          ],
+          [
+            "notice Crossref consultée (ne confirme pas ce financeur)",
+            "https://api.crossref.org/works/10.32687/0869-866x-2026-34-5-1268-1272"
+          ]
+        ],
+        "note": null
+      }
+    ]
+  }
+}

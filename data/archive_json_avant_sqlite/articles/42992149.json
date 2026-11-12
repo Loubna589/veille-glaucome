@@ -1,0 +1,106 @@
+{
+  "pmid": "42992149",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42992149",
+    "titre": "Bilateral interstitial keratitis following intracameral Durysta® (bimatoprost).",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42992149/",
+    "doi": "10.1016/j.ajoc.2026.102683",
+    "pmcid": "PMC13738132",
+    "revue": "American journal of ophthalmology case reports",
+    "date_entree_pubmed": "2026-11-06",
+    "date_publication": "2026-Dec",
+    "types_publication": [
+      "Case Reports",
+      "Journal Article"
+    ],
+    "resume_present": true,
+    "resume": "PURPOSE: To report a case of bilateral interstitial keratitis following repeat intracameral bimatoprost injections.\nOBSERVATIONS: A 92-year-old female with advanced primary open-angle glaucoma (POAG) and poor adherence to topical glaucoma medications received bilateral intracameral Durysta® (bimatoprost) implants twelve months apart. Four months following the second intracameral injections, she developed bilateral interstitial keratitis (IK) as evidenced by keratitic precipitates and deep corneal stromal vascularization on slit lamp examination. There was no history of prior herpetic keratitis or blepharoconjunctivitis, and syphilis testing was negative. The patient was treated with valacyclovir and prednisolone acetate, with subsequent slow improvement in her corneal findings.\nCONCLUSIONS AND IMPORTANCE: This case highlights a rare adverse event following repeated intracameral bimatoprost implants. We speculate that the IK was triggered by herpes simplex virus (HSV) reactivation from the repeated bimatoprost injections although other etiologies including a delayed hypersensitivity reaction to the implant cannot be ruled out. Physicians should weigh the benefits of improved intraocular pressure control against the potential infectious or non-infectious inflammatory risks this agent possesses for individual patients.",
+    "mots_cles_auteurs": [
+      "Bimatoprost",
+      "Durysta®",
+      "Herpes simplex virus",
+      "Interstitial keratitis",
+      "Primary open angle glaucoma"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 6,
+    "affiliations_auteurs": [
+      "Renaissance School of Medicine at Stony Brook University, Stony Brook, NY, United States.",
+      "Department of Ophthalmology, Stony Brook University, Stony Brook, NY, United States."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": true,
+      "produit_suivi_etudie_suggere": true,
+      "produits_suivis": [
+        {
+          "produit": "bimatoprost",
+          "role": "étudié",
+          "statut_role": "rôle suggéré, à vérifier (règle automatique appliquée au titre)"
+        },
+        {
+          "produit": "Durysta",
+          "role": "étudié",
+          "statut_role": "rôle suggéré, à vérifier (règle automatique appliquée au titre)"
+        }
+      ],
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": [
+        "intracameral"
+      ],
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7222786218",
+      "doi": "10.1016/j.ajoc.2026.102683",
+      "pmid": "42992149",
+      "pmcid": "13738132",
+      "titre": "Bilateral interstitial keratitis following intracameral Durysta® (bimatoprost)",
+      "lien": "https://openalex.org/W7222786218",
+      "date_publication": "2026-10-17",
+      "type": "article",
+      "revue": "American Journal of Ophthalmology Case Reports",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "doaj",
+        "pubmed"
+      ],
+      "financeurs": null,
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "Stony Brook University",
+          "pays": "US",
+          "type": "education",
+          "ror": "https://ror.org/05qghxh33"
+        }
+      ],
+      "acces_ouvert": true,
+      "statut_acces": "gold",
+      "url_texte": "https://doi.org/10.1016/j.ajoc.2026.102683",
+      "url_pdf": null,
+      "licence": "cc-by-nc-nd",
+      "texte_integral_indexe": true,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Ocular Infections and Treatments",
+      "resume_present": true,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": []
+  }
+}

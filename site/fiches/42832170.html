@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>PMID 42832170 — fiche article</title><style>
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
+:root{--fond:#f4f7fb;--carte:#fff;--texte:#0f1d33;--doux:#52627a;--bord:#e2e8f0;--accent:#0b4f8a;
+--ok:#146c43;--ok-fond:#e3f4ea;--att:#8a5300;--att-fond:#fdf1d8;--ver:#b42318;--ver-fond:#fdeceb;
+--reg:#3f3c9e;--reg-fond:#ecebfb;--src-fond:#f1f5f9;--mark:#fff1a8;--manque:#b42318;--turquoise:#14b8a6;}
+@media (prefers-color-scheme:dark){:root{--fond:#0a1120;--carte:#101a2c;--texte:#e6edf7;--doux:#9db0ca;
+--bord:#1e2b42;--accent:#6fb4ff;--ok:#6fd6a0;--ok-fond:#12301f;--att:#f3c15e;--att-fond:#352a10;--ver:#ff9a8f;
+--ver-fond:#3a1714;--reg:#b4b2ff;--reg-fond:#24234a;--src-fond:#0d1626;--mark:#5a4d10;--manque:#ff9a8f;--turquoise:#2dd4bf;}}
+*{box-sizing:border-box}body{margin:0;background:var(--fond);color:var(--texte);
+font:15.5px/1.6 "Inter",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+:focus-visible{outline:3px solid var(--turquoise);outline-offset:2px;border-radius:6px}
+main{max-width:1000px;margin:0 auto;padding:20px 18px 64px}
+.bandeau{display:flex;align-items:center;gap:10px;font-weight:800;letter-spacing:-.02em;padding:6px 0 14px;color:var(--texte);text-decoration:none}
+.bandeau i{width:30px;height:30px;border-radius:9px;background:linear-gradient(135deg,#0b4f8a,#14b8a6);display:inline-block}
+header,section{background:var(--carte);border:1px solid var(--bord);border-radius:16px;padding:20px 24px;margin:0 0 16px;
+box-shadow:0 1px 2px rgba(15,29,51,.04),0 6px 20px -8px rgba(15,29,51,.12)}
+h1{font-size:1.45rem;line-height:1.3;margin:.2em 0 .5em}h2{font-size:1.1rem;margin:0 0 .6em;color:var(--accent)}
+h3{font-size:1rem;margin:1.1em 0 .4em}.surtitre{color:var(--doux);margin:0;font-size:.9rem}
+a{color:var(--accent)}small,.def{color:var(--doux)}.def{font-size:.88rem;margin:.2em 0 .6em}
+.grille{display:grid;grid-template-columns:max-content 1fr;gap:4px 16px;margin:12px 0 0}
+.grille dt{color:var(--doux)}.grille dd{margin:0}
+.badge{display:inline-block;font-size:.72rem;font-weight:600;padding:2px 8px;border-radius:999px;margin:2px 4px 2px 0;
+vertical-align:middle;background:var(--src-fond);color:var(--doux)}
+.badge.confirme{background:var(--ok-fond);color:var(--ok)}.badge.attente{background:var(--att-fond);color:var(--att)}
+.badge.verifier{background:var(--ver-fond);color:var(--ver)}.badge.regle{background:var(--reg-fond);color:var(--reg)}
+.rubrique{font-weight:600}.manque{color:var(--manque);font-style:italic}
+mark{background:var(--mark);color:inherit;padding:0 2px;border-radius:3px}
+blockquote{margin:.5em 0;padding:.5em .9em;border-left:3px solid var(--bord);background:var(--src-fond);border-radius:0 6px 6px 0}
+pre{white-space:pre-wrap;font-size:.85rem;background:var(--src-fond);padding:10px;border-radius:6px}
+.defile{overflow-x:auto}table{border-collapse:collapse;width:100%;font-size:.92rem;margin:.4em 0}
+th,td{border:1px solid var(--bord);padding:6px 8px;text-align:left;vertical-align:top}th{background:var(--src-fond)}
+.analyse{background:var(--src-fond);padding:6px 10px;border-radius:6px;font-size:.92rem}
+.acteurs{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px}
+.acteurs>div{border:1px solid var(--bord);border-radius:8px;padding:10px 12px}.acteurs h3{margin-top:0}
+.copier{position:sticky;top:0;z-index:2;display:flex;gap:12px;align-items:center;flex-wrap:wrap;
+background:var(--fond);padding:10px 0;margin-bottom:8px}
+button{font:inherit;font-weight:600;background:var(--accent);color:#fff;border:0;border-radius:8px;padding:9px 16px;cursor:pointer}
+@media (prefers-color-scheme:dark){button{color:#10141a}}
+textarea{width:100%;min-height:260px;font:13px/1.4 ui-monospace,Consolas,monospace;background:var(--src-fond);
+color:var(--texte);border:1px solid var(--bord);border-radius:6px;padding:8px}
+details{margin:.5em 0}summary{cursor:pointer;color:var(--accent)}
+.retour{font-size:.92rem;margin:0 0 4px}
+@media (max-width:600px){.grille{grid-template-columns:1fr}.grille dt{margin-top:6px}header,section{padding:14px}}
+</style></head>
+<body><main>
+<a class="bandeau" href="../index.html"><i aria-hidden="true"></i>Glaucoma Intelligence</a><nav class="retour"><a href="../index.html">Accueil</a> · <a href="../etudes.html">← Essais &amp; articles</a> · <a href="../recherche.html">Rechercher</a> · <a href="../carte.html">Carte des acteurs</a> · <a href="../alertes.html">Alertes</a></nav>
+<div class="copier"><button id="bouton-copier" type="button" onclick="copierFiche()">Copier pour Claude / ChatGPT</button>
+<small>Copie une consigne + les faits de cette fiche, à coller dans votre assistant.</small></div>
+
+    <header>
+      <p class="surtitre">Fiche article · PMID 42832170 · <a href="https://pubmed.ncbi.nlm.nih.gov/42832170/" target="_blank" rel="noopener">voir sur PubMed</a>
+         · <a href="https://doi.org/10.1007/s11695-026-08975-w" target="_blank" rel="noopener">DOI 10.1007/s11695-026-08975-w</a></p>
+      <h1 lang="en">Early Intraocular Pressure Changes After Laparoscopic Sleeve Gastrectomy: A Prospective Comparative Study.</h1>
+      <p><span class="badge confirme">PUBLICATION — le résumé rapporte des résultats</span> <span class="badge verifier">Synthèse fondée UNIQUEMENT sur le résumé PubMed : le texte intégral n'a pas été lu.</span></p>
+      <dl class="grille">
+        <dt>Revue</dt><dd>Obesity surgery</dd>
+        <dt>Entrée dans PubMed</dt><dd>2026-10-05 · publication : 2026-Nov</dd>
+        <dt>Type(s) de publication (PubMed)</dt><dd lang="en">Journal Article, Comparative Study</dd>
+        <dt>Stade</dt><dd>Non renseigné</dd>
+        <dt>Accès au texte (OpenAlex)</dt><dd>fermé (payant)</dd>
+        <dt>Détecté par l'outil le</dt><dd>2026-11-11</dd>
+      </dl>
+      <p class="rubriques"><strong>Rubrique :</strong> <span class="rubrique">Autres sujets (clinique, épidémiologie…)</span> <small>aucune règle de rubrique ne s'applique</small> <span class="badge regle">classement automatique — règles dans config/rubriques.ini</span></p>
+    </header>
+<section><h2>Question étudiée <span class="badge source">Résumé PubMed (texte source)</span></h2><blockquote lang="en"><strong>PURPOSE</strong> Obesity is a serious health problem worldwide and is associated with several ocular conditions, including glaucoma, cataract, and age-related macular degeneration. Elevated intraocular pressure (IOP) is a well-established and modifiable risk factor for glaucomatous optic neuropathy. This study aimed to evaluate early changes in IOP following laparoscopic sleeve gastrectomy and to examine their relationship with weight loss. A secondary exploratory aim was to describe whether postoperative improvement in hypertension or diabetes mellitus was accompanied by additional changes in IOP.</blockquote></section><section><h2>Traitement ou technologie, et comparateur <span class="badge regle">règle automatique de l'outil</span></h2><ul><li><span class="manque">Aucun produit suivi ni molécule repérés automatiquement</span></li></ul><p class="def">Aucun rôle n'est confirmé : PubMed ne décrit pas les bras d'une étude. Un rôle pourrait être confirmé par le registre d'un essai lié de façon confirmée.</p></section><section><h2>Type d'étude et méthode <span class="badge source">Résumé PubMed (texte source)</span><span class="badge source">PubMed (types de publication)</span></h2><p>Type(s) de publication déclaré(s) par PubMed : <span lang="en">Journal Article, Comparative Study</span></p><blockquote lang="en"><strong>METHODS</strong> This prospective comparative study included <mark>82</mark> patients who underwent laparoscopic sleeve gastrectomy between <mark>2024</mark> and <mark>2025</mark> and completed the predefined <mark>6</mark>-month follow-up, together with <mark>82</mark> prospectively enrolled age- and sex-comparable non-obese control participants serving as a reference cohort. The control cohort was used to contextualize IOP values in non-obese individuals and was not designed to isolate the independent effects of surgical stress, weight loss, or metabolic improvement. Ophthalmologic evaluations, including IOP measurement, were performed at baseline and at <mark>6</mark> months according to the study protocol, whereas systemic comorbidity outcomes were ascertained from routine clinical follow-up records at <mark>6</mark> months. For correlation analyses, right- and left-eye IOP values were evaluated separately, whereas mean IOP values were used for patient-level analyses. Changes in IOP were assessed before and after surgery, and correlations between changes in body mass index (BMI) and IOP were examined. Subgroup observations according to postoperative improvement in hypertension and diabetes mellitus were considered exploratory.</blockquote></section><section><h2>Population et participants (phrases du résumé) <span class="badge source">Résumé PubMed (texte source)</span></h2><blockquote lang="en">This prospective comparative study included <mark>82</mark> patients who underwent laparoscopic sleeve gastrectomy between <mark>2024</mark> and <mark>2025</mark> and completed the predefined <mark>6</mark>-month follow-up, together with <mark>82</mark> prospectively enrolled age- and sex-comparable non-obese control participants serving as a reference cohort.</blockquote><blockquote lang="en">The surgical group included <mark>36</mark> men and <mark>46</mark> women, and the control group included <mark>43</mark> men and <mark>39</mark> women.</blockquote></section><section><h2>Résultats disponibles <span class="badge source">Résumé PubMed (texte source)</span></h2><p class="def">Valeurs chiffrées surlignées telles qu'elles figurent dans le résumé. Elles n'ont pas été vérifiées dans le texte intégral.</p><blockquote lang="en"><strong>RESULTS</strong> The mean age was <mark>37.4</mark> <mark>± 9.2</mark> years in the sleeve gastrectomy group and <mark>39.6</mark> <mark>± 9.6</mark> years in the control group. The surgical group included <mark>36</mark> men and <mark>46</mark> women, and the control group included <mark>43</mark> men and <mark>39</mark> women. No significant differences were observed between the groups in age or sex distribution. Six months after surgery, BMI and body weight decreased significantly (both p &lt; <mark>0.001</mark>). Mean IOP decreased significantly after sleeve gastrectomy, with a mean change of approximately - <mark>3.0 mmHg</mark> (p &lt; <mark>0.001</mark>). Baseline mean IOP was significantly higher in the sleeve gastrectomy group than in controls (p <mark>= 0.012</mark>). At <mark>6</mark> months, mean IOP in the sleeve gastrectomy group had decreased to <mark>12.8</mark> <mark>± 2.2 mmHg</mark> compared with <mark>13.3</mark> <mark>± 3.5 mmHg</mark> in controls (p <mark>= 0.038</mark>). Significant positive correlations were observed between reductions in BMI and decreases in IOP in both the right eye (r <mark>= 0.545</mark>, p &lt; <mark>0.001</mark>) and left eye (r <mark>= 0.489</mark>, p &lt; <mark>0.001</mark>). Exploratory subgroup observations suggested a greater IOP reduction in patients with postoperative improvement in hypertension, whereas improvement in diabetes mellitus did not appear to confer an additional short-term effect.</blockquote></section><section><h2>Données de tolérance (phrases du résumé) <span class="badge source">Résumé PubMed (texte source)</span></h2><p><span class="manque">Aucune donnée de tolérance dans le résumé</span></p></section><section><h2>Conclusion des auteurs (citée telle quelle, non évaluée par l'outil) <span class="badge source">Résumé PubMed (texte source)</span></h2><blockquote lang="en"><strong>CONCLUSIONS</strong> Laparoscopic sleeve gastrectomy was associated with a significant short-term reduction in intraocular pressure in obese patients, and greater BMI reduction was associated with greater IOP reduction. Postoperative improvement in hypertension may also be associated with a greater decrease in IOP; however, this finding should be interpreted cautiously because the subgroup observations were exploratory. Larger prospective controlled studies are needed to clarify the independent contributions of weight loss, metabolic improvement, and surgery-related factors.</blockquote></section><section><h2>Essai clinique lié <span class="badge source">PubMed (DataBankList et texte)</span></h2><ul><li><span class="manque">Aucun essai lié identifié</span></li></ul></section><section><h2>Promoteur, financeur et affiliations <span class="badge source">PubMed</span><span class="badge source">OpenAlex</span><span class="badge source">Crossref</span></h2><div class="acteurs">
+      <div><h3>Promoteur d'essai</h3><p class="def">Organisme responsable d'un essai, déclaré au registre.</p><p><span class="manque">Non affiché : aucun essai lié de façon confirmée</span></p></div>
+      <div><h3>Financeur</h3><p class="def">Organisme qui a financé la recherche, avec la notice qui le justifie.</p><p><span class="manque">Aucun financeur trouvé (PubMed, OpenAlex, Crossref)</span></p></div>
+      <div><h3>Affiliations des auteurs</h3><p class="def">Établissements où travaillent les auteurs (pas un financement).</p><p><small>Institutions normalisées (OpenAlex) :</small></p><ul><li>Ufuk University <small>(TR, enseignement/recherche)</small></li></ul><details><summary>Affiliations telles que déclarées dans PubMed (3)</summary><ul><li>Department of Surgery, Ufuk University, Ankara, Turkey. dr.igbalosmanov@gmail.com.</li><li>Department of Surgery, Ufuk University, Ankara, Turkey.</li><li>Department of Opthtalmology, Ufuk University, Ankara, Turkey.</li></ul></details></div>
+    </div></section>
+<section><h2>Ce qui manque <span class="badge regle">calculé par l'outil</span></h2><ul><li>données de tolérance</li><li>financeur</li></ul></section>
+<section><h2>Limites, intérêt pour la veille marketing, à retenir <span class="badge attente">non produit par l'outil</span></h2><p><span class="manque">Non rédigé automatiquement : les données extraites ne suffisent pas à produire une analyse fiable sans interprétation. Utilisez le bouton « Copier pour Claude / ChatGPT » pour obtenir une proposition, à vérifier.</span></p></section>
+<section><details><summary>Voir le texte copié par le bouton</summary>
+<textarea id="a-copier" readonly>Tu es assistant de veille scientifique sur le glaucome. À partir UNIQUEMENT des informations ci-dessous, rédige en français une fiche de synthèse avec ces rubriques :
+1. Question étudiée
+2. Traitement ou technologie
+3. Type d&#x27;étude
+4. Population et nombre de participants
+5. Comparateur
+6. Critères évalués
+7. Principaux résultats chiffrés (recopie les valeurs exactes et indique leur source)
+8. Données de tolérance
+9. Limites
+10. Intérêt potentiel pour une veille marketing — présenté comme une INTERPRÉTATION, séparé des faits
+11. À retenir (une phrase)
+
+Règles :
+- N&#x27;invente rien. Si une information manque, écris « non rapporté ».
+- Distingue un essai simplement enregistré, un protocole, des résultats déposés dans un registre et une publication de résultats.
+- Si la source est seulement le résumé d&#x27;un article, indique que la synthèse repose uniquement sur ce résumé.
+- Les rôles « suggérés » (traitement étudié / comparateur) sont à vérifier dans le texte source.
+- Ne confonds pas promoteur d&#x27;essai, financeur et affiliation des auteurs.
+- Termine par la liste des points à vérifier.
+
+=== INFORMATIONS ===
+SOURCE : PubMed, PMID 42832170 — https://pubmed.ncbi.nlm.nih.gov/42832170/ · DOI https://doi.org/10.1007/s11695-026-08975-w
+BASE : résumé PubMed uniquement (texte intégral non lu)
+Titre : Early Intraocular Pressure Changes After Laparoscopic Sleeve Gastrectomy: A Prospective Comparative Study.
+Revue : Obesity surgery · entrée PubMed : 2026-10-05
+Types de publication (PubMed) : Journal Article, Comparative Study
+Produits repérés automatiquement (rôles SUGGÉRÉS, à vérifier) : aucun
+Molécules hors liste (repérage automatique, à vérifier) : aucune
+Essai lié : aucun
+Financeurs : aucun trouvé
+Affiliations (institutions, pas des financeurs) : Ufuk University (TR, education)
+
+RÉSUMÉ (texte source) :
+PURPOSE: Obesity is a serious health problem worldwide and is associated with several ocular conditions, including glaucoma, cataract, and age-related macular degeneration. Elevated intraocular pressure (IOP) is a well-established and modifiable risk factor for glaucomatous optic neuropathy. This study aimed to evaluate early changes in IOP following laparoscopic sleeve gastrectomy and to examine their relationship with weight loss. A secondary exploratory aim was to describe whether postoperative improvement in hypertension or diabetes mellitus was accompanied by additional changes in IOP.
+METHODS: This prospective comparative study included 82 patients who underwent laparoscopic sleeve gastrectomy between 2024 and 2025 and completed the predefined 6-month follow-up, together with 82 prospectively enrolled age- and sex-comparable non-obese control participants serving as a reference cohort. The control cohort was used to contextualize IOP values in non-obese individuals and was not designed to isolate the independent effects of surgical stress, weight loss, or metabolic improvement. Ophthalmologic evaluations, including IOP measurement, were performed at baseline and at 6 months according to the study protocol, whereas systemic comorbidity outcomes were ascertained from routine clinical follow-up records at 6 months. For correlation analyses, right- and left-eye IOP values were evaluated separately, whereas mean IOP values were used for patient-level analyses. Changes in IOP were assessed before and after surgery, and correlations between changes in body mass index (BMI) and IOP were examined. Subgroup observations according to postoperative improvement in hypertension and diabetes mellitus were considered exploratory.
+RESULTS: The mean age was 37.4 ± 9.2 years in the sleeve gastrectomy group and 39.6 ± 9.6 years in the control group. The surgical group included 36 men and 46 women, and the control group included 43 men and 39 women. No significant differences were observed between the groups in age or sex distribution. Six months after surgery, BMI and body weight decreased significantly (both p &lt; 0.001). Mean IOP decreased significantly after sleeve gastrectomy, with a mean change of approximately - 3.0 mmHg (p &lt; 0.001). Baseline mean IOP was significantly higher in the sleeve gastrectomy group than in controls (p = 0.012). At 6 months, mean IOP in the sleeve gastrectomy group had decreased to 12.8 ± 2.2 mmHg compared with 13.3 ± 3.5 mmHg in controls (p = 0.038). Significant positive correlations were observed between reductions in BMI and decreases in IOP in both the right eye (r = 0.545, p &lt; 0.001) and left eye (r = 0.489, p &lt; 0.001). Exploratory subgroup observations suggested a greater IOP reduction in patients with postoperative improvement in hypertension, whereas improvement in diabetes mellitus did not appear to confer an additional short-term effect.
+CONCLUSIONS: Laparoscopic sleeve gastrectomy was associated with a significant short-term reduction in intraocular pressure in obese patients, and greater BMI reduction was associated with greater IOP reduction. Postoperative improvement in hypertension may also be associated with a greater decrease in IOP; however, this finding should be interpreted cautiously because the subgroup observations were exploratory. Larger prospective controlled studies are needed to clarify the independent contributions of weight loss, metabolic improvement, and surgery-related factors.</textarea></details></section>
+<p><small>Fiche générée le 2026-11-11 22:40 par Glaucoma Intelligence. Extraits des sources en langue originale.</small></p>
+</main><script>
+function copierFiche(){
+  var zone=document.getElementById('a-copier'), bouton=document.getElementById('bouton-copier');
+  function fait(){bouton.textContent='Copié ✓ — collez dans Claude ou ChatGPT';setTimeout(function(){bouton.textContent='Copier pour Claude / ChatGPT'},3000);}
+  function secours(){zone.parentElement.open=true;zone.select();try{document.execCommand('copy');fait();}
+    catch(err){bouton.textContent='Sélectionnez le texte ci-dessous puis Ctrl+C';}}
+  if(navigator.clipboard&&window.isSecureContext){navigator.clipboard.writeText(zone.value).then(fait,secours);}else{secours();}
+}
+</script></body></html>

@@ -1,0 +1,16 @@
+﻿
+Question : Quels traitements du glaucome sans conservateur font actuellement l'objet de recherches cliniques ?
+Question encodée (glossaire FR→EN) : Quels traitements du glaucome sans conservateur font actuellement l'objet de recherches cliniques ? (trial, preservative-free, preservative free, preservative, benzalkonium)
+Index : 509 documents · modèle Xenova/multilingual-e5-small · moteur numpy
+Score = cosinus + 0.1 × part des termes du glossaire trouvés
+
+1. [0.908 = 0.846 + 0.1×0.62] NCT07845357 (essai) — Switching From Preserved Glaucoma Therapy to Preservative-Free ZOLYMBUS
+   https://clinicaltrials.gov/study/NCT07845357
+2. [0.878 = 0.838 + 0.1×0.40] NCT07619482 (essai) — Topical Insulin for Glaucoma (TING2)
+   https://clinicaltrials.gov/study/NCT07619482
+3. [0.864 = 0.823 + 0.1×0.41] NCT07661329 (essai) — A Study to Evaluate Efficacy and Safety of YSBP Compared to Lumigan in Patients With Glaucoma or Ocu
+   https://clinicaltrials.gov/study/NCT07661329
+4. [0.858 = 0.858 + 0.1×0.00] W7213773634 (publication) — Comparative efficacy of phacoemulsification combined with goniosynechialysis versus trabeculectomy f
+   https://openalex.org/W7213773634
+5. [0.858 = 0.858 + 0.1×0.00] W7206155101 (publication) — Surgical Outcomes in Aniridia-Associated Glaucoma: A Retrospective Comparative Study
+   https://openalex.org/W7206155101

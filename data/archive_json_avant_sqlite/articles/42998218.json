@@ -1,0 +1,108 @@
+{
+  "pmid": "42998218",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42998218",
+    "titre": "Angiotensin II type 1 receptor (AT1R) drives human Tenon's capsule fibroblast activation and myofibroblast transformation via the RhoA/ROCK signaling pathway.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42998218/",
+    "doi": "10.1007/s11010-026-05796-4",
+    "pmcid": null,
+    "revue": "Molecular and cellular biochemistry",
+    "date_entree_pubmed": "2026-11-07",
+    "date_publication": "2026-Nov-07",
+    "types_publication": [
+      "Journal Article"
+    ],
+    "resume_present": true,
+    "resume": "Although the angiotensin II type 1 receptor (AT1R) participates in systemic tissue remodeling, its exact contribution to human subconjunctival fibrosis remains poorly understood. This study investigated the expression of AT1R in human clinical scar specimens, the downstream involvement of the RhoA/ROCK pathway, and the independent anti-fibrotic effects of receptor blockade. Primary human Tenon's capsule fibroblasts (HTCFs) were isolated from patient tissue biopsies and verified as a pure mesenchymal lineage using immunofluorescence and quantitative real-time PCR (qRT-PCR). To model the scar microenvironment, primary cells were stimulated with transforming growth factor-beta 1 (TGF-β1), either alone or in combination with Angiotensin II, the AT1R antagonist Olmesartan (OMS), or the selective ROCK inhibitor Y-27,632. Profibrotic and structural markers, including AT1R, alpha-smooth muscle actin (α-SMA), RhoA, ROCK1, fibronectin, and collagen I alpha (COL1A1), were quantified via Western blotting, qRT-PCR and immunofluorescence. Cellular proliferation and migration were evaluated using CCK-8 and Transwell migration assays. Our ex vivo tissue analyses revealed that AT1R expression was upregulated at gene and protein levels in human Tenon's capsule scars compared to normal controls. In vitro, stimulation with TGF-β1 induced a dose-dependent upregulation of AT1R alongside core profibrotic biomarkers, while accelerating HTCF proliferation and migration rates. Conversely, treatment with OMS or Y-27,632 counteracted this TGF-β1-induced activation, reversing cellular proliferation, cell motility, and the expression of extracellular matrix components. Together, these findings indicate that subconjunctival fibrosis is driven by AT1R-RhoA/ROCK1 axis which might provide a promising mechanistic pipeline to modulate tissue scarring and optimize outcomes in glaucoma management.",
+    "mots_cles_auteurs": [
+      "AT1R",
+      "Glaucoma filtration surgery",
+      "Human Tenon's capsule fibroblast",
+      "Myofibroblast",
+      "Olmesartan",
+      "RhoA/ROCK1 signaling",
+      "Subconjunctival fibrosis",
+      "Wound healing modulation"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 4,
+    "affiliations_auteurs": [
+      "Department of Ophthalmology, Shanghai Fourth People's Hospital, School of Medicine, Tongji University, Shanghai, China.",
+      "Department of Ophthalmology, Shanghai East Hospital, School of Medicine, Tongji University, No. 150 Jimo Road, Shanghai, 200120, China. 1300154@tongji.edu.cn."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": true,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": [
+        {
+          "produit": "ROCK inhibitor*",
+          "role": "non déterminé",
+          "statut_role": "cité dans le résumé ou les mots-clés"
+        }
+      ],
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": [
+        "subconjunctival"
+      ],
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7225460230",
+      "doi": "10.1007/s11010-026-05796-4",
+      "pmid": "42998218",
+      "pmcid": null,
+      "titre": "Angiotensin II type 1 receptor (AT1R) drives human Tenon’s capsule fibroblast activation and myofibroblast transformation via the RhoA/ROCK signaling pathway",
+      "lien": "https://openalex.org/W7225460230",
+      "date_publication": "2026-11-07",
+      "type": "article",
+      "revue": "Molecular and Cellular Biochemistry",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "pubmed"
+      ],
+      "financeurs": null,
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "Tongji University",
+          "pays": "CN",
+          "type": "education",
+          "ror": "https://ror.org/03rc6as71"
+        },
+        {
+          "nom": "Shanghai East Hospital",
+          "pays": "CN",
+          "type": "healthcare",
+          "ror": "https://ror.org/038xmzj21"
+        }
+      ],
+      "acces_ouvert": false,
+      "statut_acces": "closed",
+      "url_texte": null,
+      "url_pdf": null,
+      "licence": null,
+      "texte_integral_indexe": false,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Corneal Surgery and Treatments",
+      "resume_present": false,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": []
+  }
+}

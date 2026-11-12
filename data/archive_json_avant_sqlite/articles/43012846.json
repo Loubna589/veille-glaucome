@@ -1,0 +1,79 @@
+{
+  "pmid": "43012846",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "43012846",
+    "titre": "Staged surgical management of an acute angle-closure crisis with medically refractory intraocular pressure elevation: A case report and literature review.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/43012846/",
+    "doi": "10.1097/MD.0000000000051326",
+    "pmcid": null,
+    "revue": "Medicine",
+    "date_entree_pubmed": "2026-11-11",
+    "date_publication": "2026-Oct-30",
+    "types_publication": [
+      "Journal Article",
+      "Case Reports",
+      "Review"
+    ],
+    "resume_present": true,
+    "resume": "RATIONALE: Acute angle closure with markedly elevated intraocular pressure (IOP) is an ocular emergency. Initial management aims to lower IOP, reduce corneal edema and inflammation, and permit definitive relief of pupillary block, usually by laser peripheral iridotomy (LPI). When IOP remains uncontrolled and corneal edema or an extremely shallow anterior chamber precludes safe LPI, urgent surgical intervention may be required.\nPATIENT CONCERNS: A 61-year-old woman presented with a 7-hour history of pain, redness, and blurred vision in the right eye (RE), accompanied by headache.\nDIAGNOSES: Acute primary angle closure in the RE and primary angle-closure suspect status in the left eye (LE).\nINTERVENTIONS: During initial treatment with topical pilocarpine, carteolol, and brinzolamide, IOP in the RE increased from 32 to 58 mm Hg. It remained markedly elevated despite 2 intravenous infusions of 20% mannitol (50 grams each), and emergency surgical peripheral iridectomy was performed. After the acute episode stabilized, the RE underwent phacoemulsification with intraocular lens implantation; the fellow eye subsequently underwent lens extraction with intraocular lens implantation.\nOUTCOMES: After peripheral iridectomy, IOP in the RE decreased from 58 to 11 mm Hg without additional IOP-lowering medication, and central anterior chamber depth increased from 1.24 to 1.60 mm. At 6 months after subsequent bilateral lens extraction, IOP was 14 mm Hg in the RE and 15 mm Hg in the LE without IOP-lowering medication. Central anterior chamber depth increased from 1.24 to 4.36 mm in the RE and from 2.27 to 4.35 mm in the LE. Uncorrected visual acuity was 20/20 in the RE and 20/33 in the LE, and best-corrected visual acuity was 20/20 in both eyes.\nLESSONS: Emergency surgical peripheral iridectomy may serve as a rescue procedure in selected patients with medically uncontrolled acute angle closure when LPI is not feasible. Subsequent lens extraction may relieve residual lens-related anterior-segment crowding. However, this single case cannot establish the comparative effectiveness of the staged approach or whether peripheral iridectomy followed by lens extraction is the optimal treatment sequence.",
+    "mots_cles_auteurs": [
+      "acute angle-closure crisis",
+      "acute primary angle closure",
+      "intraocular pressure",
+      "lens extraction",
+      "surgical peripheral iridectomy"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 4,
+    "affiliations_auteurs": [
+      "Department of Ophthalmology, The Fourth Affiliated Hospital of Soochow University, Suzhou, China."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": [
+      "Humans",
+      "Glaucoma, Angle-Closure",
+      "Female",
+      "Middle Aged",
+      "Iridectomy",
+      "Intraocular Pressure",
+      "Acute Disease",
+      "Lens Implantation, Intraocular",
+      "Phacoemulsification",
+      "Ocular Hypertension"
+    ]
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": true,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": [
+        {
+          "produit": "carteolol",
+          "role": "non déterminé",
+          "statut_role": "cité dans le résumé ou les mots-clés"
+        },
+        {
+          "produit": "brinzolamide",
+          "role": "non déterminé",
+          "statut_role": "cité dans le résumé ou les mots-clés"
+        },
+        {
+          "produit": "pilocarpine",
+          "role": "non déterminé",
+          "statut_role": "cité dans le résumé ou les mots-clés"
+        }
+      ],
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": null,
+      "hors_veille_principale": false
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "openalex_id": "W7213726950",
+  "premiere_detection": "2026-09-25",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "openalex_id": "W7213726950",
+    "doi": null,
+    "pmid": null,
+    "pmcid": null,
+    "titre": "Correlation of Mitochondrial Flavoprotein Fluorescence and Sectoral OCT in Patients with Glaucoma, Suspects, and Ocular Hypertension",
+    "lien": "https://openalex.org/W7213726950",
+    "date_publication": "2026-09-01",
+    "type": "article",
+    "revue": "DOAJ (DOAJ: Directory of Open Access Journals)",
+    "type_source": "repository",
+    "langue": "en",
+    "indexe_dans": [
+      "doaj"
+    ],
+    "financeurs": null,
+    "subventions": null,
+    "institutions": null,
+    "acces_ouvert": false,
+    "statut_acces": "closed",
+    "url_texte": null,
+    "url_pdf": null,
+    "licence": null,
+    "texte_integral_indexe": false,
+    "retracte": false,
+    "citations": 0,
+    "sujet_principal": "Glaucoma and retinal disorders",
+    "resume_present": true,
+    "resume": "Tiffany Heaster-Ford,1,* Rafaella Nascimento e Silva,2,* Justin Elstrott,1 Dolly S Chang,1,3 Julia A Kim,2 Joyce Kang,4 Yan Zhao,3 Yihao Li,5 Chen Chen,5 Sofia De Arrigunaga,4 Sandra E Freeman,4 Kanza Aziz,4 Collin A Rich,6 Michael M Lin,4 David S Friedman41Department of Translational Imaging, Genentech Inc, South San Francisco, CA, USA; 2Department of Early Clinical Development, Genentech Inc, South San Francisco, CA, USA; 3Byers Eye Institute, Stanford University School of Medicine, Palo Alto, CA, USA; 4Department of Ophthalmology, Massachusetts Eye and Ear, Boston, MA, USA; 5Department of Product Development Data Sciences, Genentech Inc, South San Francisco, CA, USA; 6OcuSciences Inc, Ann Arbor, MI, USA*These authors contributed equally to this workCorrespondence: David S Friedman, Department of Ophthalmology, Massachusetts Eye and Ear, 243 Charles Street, Boston, 02114, USA, Email David_friedman@meei.harvard.eduPurpose: Flavoprotein fluorescence (FPF) can be measured using a noninvasive investigational device, the OcuMet Beacon (OcuSciences). The Beacon uses blue light to stimulate oxidized mitochondrial flavoproteins, which subsequently emit green autofluorescence. As mitochondrial metabolic stress may reflect axonal damage in glaucomatous eyes, this cross-sectional, exploratory study investigated relationships between optical coherence tomography (OCT) structural parameters and FPF values in patients with glaucoma, ocular hypertension, and glaucoma suspects.Patients and Methods: Individuals with mild/moderate glaucoma, suspected glaucoma, or ocular hypertension receiving treatment. FPF images were obtained at the optic nerve head (ONH), peripapillary, and macula regions. FPF intensities in the peripapillary and macula regions were divided into 4 and 6 sectors, respectively, corresponding to Cirrus OCT retinal nerve fiber layer (RNFL) and ganglion cell-inner plexiform layer thickness (mGCIPL). FPF values adjusted for lens autofluorescence and signal attenuation were averaged within each sector and applied for regression modeling with OCT measures.Results: A small cohort of 73 eyes from 54 patients was assessed from the initial study population (141 eyes, 83 early/mild/moderate glaucoma patients undergoing treatment) following image quality exclusion. Older age, thinner RNFL, and phakic status were significantly associated with higher FPF intensity at the ONH (age, P=0.009; RNFL, P< 0.001; lens status, P=0.04) and peripapillary region (age, P< 0.001; RNFL, P=0.01). Inferior peripapillary correlation between RNFL thickness and FPF was significant (P=0.003), while nasal peripapillary correlation was significant only after adjusting for age and lens status (adjusted P=0.04; unadjusted P=0.08). Global macular FPF intensity was not associated with age (P=0.25), lens status (P=0.14) or mGCIPL thickness (P=0.79), nor were there any sectoral mGCIPL–FPF associations potentially given limited disease severity.Conclusion: Age, lens status and RNFL thinning were the main correlates of ONH and peripapillary FPF values. After accounting for age and lens status covariates, higher FPF intensity values mainly correlated with inferior peripapillary RNFL thinning.Keywords: glaucoma, mitochondrial imaging, optical coherence tomography, flavoprotein fluorescence",
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "present_dans_pubmed": false
+  }
+}

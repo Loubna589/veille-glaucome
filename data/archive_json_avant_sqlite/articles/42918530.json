@@ -1,0 +1,97 @@
+{
+  "pmid": "42918530",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42918530",
+    "titre": "Morgagnian Cataract: Clinical Features, Surgical Management, and Outcomes.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42918530/",
+    "doi": "10.1016/j.ajo.2026.10.016",
+    "pmcid": null,
+    "revue": "American journal of ophthalmology",
+    "date_entree_pubmed": "2026-10-23",
+    "date_publication": "2026-Oct-23",
+    "types_publication": [
+      "Journal Article"
+    ],
+    "resume_present": true,
+    "resume": "PURPOSE: To characterize the clinical features, surgical management, and outcomes of Morgagnian cataracts.\nDESIGN: Retrospective clinical cohort study.\nSUBJECTS: Fifty eyes of 50 adults diagnosed with Morgagnian cataracts at a tertiary academic referral center in the United States from October 2015 through August 2026.\nMETHODS: Medical records were reviewed for demographic characteristics, ocular findings, imaging, surgical management, intraoperative complications, intraocular lens (IOL) fixation, postoperative complications, best-corrected visual acuity (BCVA), and intraocular pressure (IOP).\nMAIN OUTCOME MEASURES: Surgical management, intraoperative complications, postoperative BCVA, and IOP.\nRESULTS: Presenting BCVA was hand motions or worse in 43/50 eyes (86%). Mean presenting IOP was 25.8 ± 16.2 mmHg. Lens-induced IOP elevation was present in 24/50 eyes (48%), lens-induced glaucoma in 19/50 (38%), and zonular weakness in 18/43 (42%). Surgery was performed in 40/50 eyes (80%). Phacoemulsification was initially attempted in 30/40 eyes (75%), manual small-incision cataract surgery in 5/40 (13%), and pars plana lensectomy with vitrectomy in 5/40 (13%). Intraoperative complications occurred in 14/40 eyes (35%), including posterior capsule rupture in 8/40 (20%); overall, 16/40 eyes (40%) received an in-the-bag IOL. Mean BCVA improved from 2.39 ± 0.58 logMAR preoperatively to 0.68 ± 0.81 logMAR at the last follow-up (paired analysis; P < 0.001), with 20/40 eyes (50%) achieving 20/40 or better. Mean IOP decreased from 26.0 ± 16.9 mmHg at presentation to 16.7 ± 5.5 mmHg at postoperative month 1 (P = 0.003), although 20/40 eyes (50%) remained on IOP-lowering medications.\nCONCLUSIONS: Morgagnian cataracts were associated with profound visual loss, pressure-related complications, and zonular weakness, with substantial intraoperative risk. Despite this complexity, half of the operated eyes achieved BCVA of 20/40 or better. IOP decreased after cataract extraction in the setting of continued medical therapy in many eyes. These findings support careful preoperative assessment, counseling regarding capsular and zonular complications and potential alternative IOL fixation, and an individualized surgical strategy. However, the retrospective design, modest sample size, and variable follow-up limit interpretation, while the tertiary referral setting may limit generalizability.",
+    "mots_cles_auteurs": [
+      "Morgagnian cataract",
+      "complex cataract surgery",
+      "hypermature cataract",
+      "lens-induced glaucoma"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 10,
+    "affiliations_auteurs": [
+      "Department of Ophthalmology, Bascom Palmer Eye Institute, University of Miami Miller School of Medicine, Miami, FL, USA.",
+      "Department of Ophthalmology, Bascom Palmer Eye Institute, University of Miami Miller School of Medicine, Miami, FL, USA. Electronic address: syoo@med.miami.edu.",
+      "Department of Ophthalmology, Bascom Palmer Eye Institute, University of Miami Miller School of Medicine, Miami, FL, USA. Electronic address: dxt1402@med.miami.edu."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7223308483",
+      "doi": "10.1016/j.ajo.2026.10.016",
+      "pmid": "42918530",
+      "pmcid": null,
+      "titre": "Morgagnian Cataract: Clinical Features, Surgical Management, and Outcomes",
+      "lien": "https://openalex.org/W7223308483",
+      "date_publication": "2026-10-01",
+      "type": "article",
+      "revue": "American Journal of Ophthalmology",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "pubmed"
+      ],
+      "financeurs": null,
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "University of Miami",
+          "pays": "US",
+          "type": "education",
+          "ror": "https://ror.org/02dgjyy92"
+        },
+        {
+          "nom": "University of Miami Health System",
+          "pays": "US",
+          "type": "healthcare",
+          "ror": "https://ror.org/00zw9nc64"
+        }
+      ],
+      "acces_ouvert": true,
+      "statut_acces": "hybrid",
+      "url_texte": "https://www.ajo.com/article/S0002-9394(26)00573-8/pdf",
+      "url_pdf": "https://www.ajo.com/article/S0002-9394(26)00573-8/pdf",
+      "licence": "cc-by-nc",
+      "texte_integral_indexe": true,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Intraocular Surgery and Lenses",
+      "resume_present": true,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": []
+  }
+}

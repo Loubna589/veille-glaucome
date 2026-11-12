@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>NCT07847073 — fiche essai</title><style>
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
+:root{--fond:#f4f7fb;--carte:#fff;--texte:#0f1d33;--doux:#52627a;--bord:#e2e8f0;--accent:#0b4f8a;
+--ok:#146c43;--ok-fond:#e3f4ea;--att:#8a5300;--att-fond:#fdf1d8;--ver:#b42318;--ver-fond:#fdeceb;
+--reg:#3f3c9e;--reg-fond:#ecebfb;--src-fond:#f1f5f9;--mark:#fff1a8;--manque:#b42318;--turquoise:#14b8a6;}
+@media (prefers-color-scheme:dark){:root{--fond:#0a1120;--carte:#101a2c;--texte:#e6edf7;--doux:#9db0ca;
+--bord:#1e2b42;--accent:#6fb4ff;--ok:#6fd6a0;--ok-fond:#12301f;--att:#f3c15e;--att-fond:#352a10;--ver:#ff9a8f;
+--ver-fond:#3a1714;--reg:#b4b2ff;--reg-fond:#24234a;--src-fond:#0d1626;--mark:#5a4d10;--manque:#ff9a8f;--turquoise:#2dd4bf;}}
+*{box-sizing:border-box}body{margin:0;background:var(--fond);color:var(--texte);
+font:15.5px/1.6 "Inter",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+:focus-visible{outline:3px solid var(--turquoise);outline-offset:2px;border-radius:6px}
+main{max-width:1000px;margin:0 auto;padding:20px 18px 64px}
+.bandeau{display:flex;align-items:center;gap:10px;font-weight:800;letter-spacing:-.02em;padding:6px 0 14px;color:var(--texte);text-decoration:none}
+.bandeau i{width:30px;height:30px;border-radius:9px;background:linear-gradient(135deg,#0b4f8a,#14b8a6);display:inline-block}
+header,section{background:var(--carte);border:1px solid var(--bord);border-radius:16px;padding:20px 24px;margin:0 0 16px;
+box-shadow:0 1px 2px rgba(15,29,51,.04),0 6px 20px -8px rgba(15,29,51,.12)}
+h1{font-size:1.45rem;line-height:1.3;margin:.2em 0 .5em}h2{font-size:1.1rem;margin:0 0 .6em;color:var(--accent)}
+h3{font-size:1rem;margin:1.1em 0 .4em}.surtitre{color:var(--doux);margin:0;font-size:.9rem}
+a{color:var(--accent)}small,.def{color:var(--doux)}.def{font-size:.88rem;margin:.2em 0 .6em}
+.grille{display:grid;grid-template-columns:max-content 1fr;gap:4px 16px;margin:12px 0 0}
+.grille dt{color:var(--doux)}.grille dd{margin:0}
+.badge{display:inline-block;font-size:.72rem;font-weight:600;padding:2px 8px;border-radius:999px;margin:2px 4px 2px 0;
+vertical-align:middle;background:var(--src-fond);color:var(--doux)}
+.badge.confirme{background:var(--ok-fond);color:var(--ok)}.badge.attente{background:var(--att-fond);color:var(--att)}
+.badge.verifier{background:var(--ver-fond);color:var(--ver)}.badge.regle{background:var(--reg-fond);color:var(--reg)}
+.rubrique{font-weight:600}.manque{color:var(--manque);font-style:italic}
+mark{background:var(--mark);color:inherit;padding:0 2px;border-radius:3px}
+blockquote{margin:.5em 0;padding:.5em .9em;border-left:3px solid var(--bord);background:var(--src-fond);border-radius:0 6px 6px 0}
+pre{white-space:pre-wrap;font-size:.85rem;background:var(--src-fond);padding:10px;border-radius:6px}
+.defile{overflow-x:auto}table{border-collapse:collapse;width:100%;font-size:.92rem;margin:.4em 0}
+th,td{border:1px solid var(--bord);padding:6px 8px;text-align:left;vertical-align:top}th{background:var(--src-fond)}
+.analyse{background:var(--src-fond);padding:6px 10px;border-radius:6px;font-size:.92rem}
+.acteurs{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px}
+.acteurs>div{border:1px solid var(--bord);border-radius:8px;padding:10px 12px}.acteurs h3{margin-top:0}
+.copier{position:sticky;top:0;z-index:2;display:flex;gap:12px;align-items:center;flex-wrap:wrap;
+background:var(--fond);padding:10px 0;margin-bottom:8px}
+button{font:inherit;font-weight:600;background:var(--accent);color:#fff;border:0;border-radius:8px;padding:9px 16px;cursor:pointer}
+@media (prefers-color-scheme:dark){button{color:#10141a}}
+textarea{width:100%;min-height:260px;font:13px/1.4 ui-monospace,Consolas,monospace;background:var(--src-fond);
+color:var(--texte);border:1px solid var(--bord);border-radius:6px;padding:8px}
+details{margin:.5em 0}summary{cursor:pointer;color:var(--accent)}
+.retour{font-size:.92rem;margin:0 0 4px}
+@media (max-width:600px){.grille{grid-template-columns:1fr}.grille dt{margin-top:6px}header,section{padding:14px}}
+</style></head>
+<body><main>
+<a class="bandeau" href="../index.html"><i aria-hidden="true"></i>Glaucoma Intelligence</a><nav class="retour"><a href="../index.html">Accueil</a> · <a href="../etudes.html">← Essais &amp; articles</a> · <a href="../recherche.html">Rechercher</a> · <a href="../carte.html">Carte des acteurs</a> · <a href="../alertes.html">Alertes</a></nav>
+<div class="copier"><button id="bouton-copier" type="button" onclick="copierFiche()">Copier pour Claude / ChatGPT</button>
+<small>Copie une consigne + les faits de cette fiche, à coller dans votre assistant.</small></div>
+
+    <header>
+      <p class="surtitre">Fiche essai clinique · NCT07847073 · <a href="https://clinicaltrials.gov/study/NCT07847073" target="_blank" rel="noopener">voir sur ClinicalTrials.gov</a></p>
+      <h1>Adaptive Optics OCT Evaluation of Rhopressa's Effects on the Retinal Ganglion Cells in Glaucoma Patients</h1>
+      <p><span class="badge attente">ESSAI ENREGISTRÉ — AUCUN RÉSULTAT DÉPOSÉ AU REGISTRE</span></p>
+      <dl class="grille">
+        <dt>Phase (déclarée)</dt><dd>Phase 4</dd>
+        <dt>Statut</dt><dd>Recrutement en cours</dd>
+        <dt>Type d'étude</dt><dd>Interventionnelle</dd>
+        <dt>Participants</dt><dd>13 (prévu)</dd>
+        <dt>Première publication au registre</dt><dd>2026-09-29</dd>
+        <dt>Dernière mise à jour au registre</dt><dd>2026-10-28</dd>
+        <dt>Début · fin principale</dt><dd>2026-10 · 2028-01</dd>
+        <dt>Détecté par l'outil le</dt><dd>2026-11-11 · 0 modification(s) repérée(s) depuis</dd>
+      </dl>
+      <p class="rubriques"><strong>Rubrique :</strong> <span class="rubrique">Médicaments</span> <small>bras expérimental de type DRUG déclaré au registre : Netarsudil 0.02% Ophthalmic Solution [RHOPRESSA]; bras expérimental de type DRUG déclaré au registre : Timolol Maleate 0.25% Ophthalmic Solution</small> <span class="badge regle">classement automatique — règles dans config/rubriques.ini</span></p>
+    </header>
+<section><h2>Question étudiée <span class="badge source">Registre ClinicalTrials.gov</span></h2><p><strong>Titre officiel :</strong> Adaptive Optics OCT Evaluation of Rhopressa's Effects on the Retinal Ganglion Cells in Glaucoma Patients</p><blockquote lang="en">The purpose of this study is to compare how two FDA-approved eye drops: netarsudil (Rhopressa) and timolol, protect nerve cells in the eye of adults with open-angle glaucoma. Both medications lower pressure inside the eye, but researchers want to learn if Rhopressa is more effective at slowing down or preventing the loss of retinal ganglion cells. These cells are essential for sight because they carry visual signals from the eye to the brain.
+
+Participants in this study will complete a total of 6 study visits over 12 months:
+
+* Participants will spend 6 months using Rhopressa eye drops and 6 months using Timolol eye drops. The order of the two eye drops will be chosen randomly.
+* At scheduled study visits, researchers will examine participants' eyes and measure eye pressure.
+* Researchers will take detailed pictures of the back of the eye using a specialized high-resolution camera called adaptive optics optical coherence tomography (AO-OCT).
+* Participants will also complete specialized visual field testing to measure eye function.
+
+Researchers will count and track individual nerve cells over time to determine if one medication offers better protection against cell loss than the other.</blockquote></section><section><h2>Traitement ou technologie, et comparateur <span class="badge source">Registre ClinicalTrials.gov</span><span class="badge confirme">rôles CONFIRMÉS : type de bras déclaré au registre</span></h2><div class="defile"><table><thead><tr><th>Bras</th><th>Rôle déclaré</th><th>Interventions</th><th>Description (registre)</th></tr></thead><tbody><tr><td><strong>Rhopressa first, then Timolol</strong></td><td>Expérimental (traitement étudié)</td><td>Drug: Netarsudil 0.02% Ophthalmic Solution [RHOPRESSA]<br>Drug: Timolol Maleate 0.25% Ophthalmic Solution</td><td><small lang="en">Participants will instill netarsudil 0.02% (Rhopressa) ophthalmic solution (1 drop in the study eye once daily in the evening) for the first 6 months (Months 0-6). At the Month 6 visit, participants will cross over to instill timolol maleate 0.25% ophthalmic solution (1 drop in the study eye twice daily) for the remaining 6 months (Months 6-12).</small></td></tr><tr><td><strong>Timolol first, then Rhopressa</strong></td><td>Expérimental (traitement étudié)</td><td>Drug: Netarsudil 0.02% Ophthalmic Solution [RHOPRESSA]<br>Drug: Timolol Maleate 0.25% Ophthalmic Solution</td><td><small lang="en">Participants will instill timolol maleate 0.25% ophthalmic solution (1 drop in the study eye twice daily) for the first 6 months (Months 0-6). At the Month 6 visit, participants will cross over to instill netarsudil 0.02% (Rhopressa) ophthalmic solution (1 drop in the study eye once daily in the evening) for the remaining 6 months (Months 6-12).</small></td></tr></tbody></table></div></section><section><h2>Type d'étude <span class="badge source">Registre ClinicalTrials.gov</span></h2><ul><li>Type : Interventionnelle · phase déclarée : Phase 4</li><li>Répartition : randomisée</li><li>Modèle : croisé</li><li>Insu : double insu <small>(INVESTIGATOR, OUTCOMES_ASSESSOR)</small></li><li>But principal : autre</li></ul><details><summary>Description de l'insu (texte du registre)</summary><p lang="en">This is an investigator-masked study. Randomization will occur from an unmasked key personnel member on the study. The principal investigator and other key members of the study will be masked. Unmasked personnel maintain the randomization schedule and manage drug distribution, but have no role in clinical evaluations, AO-OCT image acquisition, ganglion cell counting, or outcome data analysis.</p><p class="def">À comparer avec le niveau d'insu déclaré ci-dessus : le registre peut être incohérent.</p></details></section><section><h2>Population et participants <span class="badge source">Registre ClinicalTrials.gov</span></h2><ul><li>Conditions déclarées : Open Angle Glaucoma (OAG), Glaucoma</li><li>Âge : 18 Years → max. non rapporté</li><li>Sexe : tous</li><li>Volontaires sains acceptés : non</li><li>Nombre de participants : <mark>13 (prévu)</mark></li></ul><details><summary>Critères d'inclusion et d'exclusion (texte du registre)</summary><pre lang="en">Inclusion Criteria:
+
+* All subjects will be 18 years of age or older
+* Subjects must be diagnosed with open-angle glaucoma and have had an eye exam within the past year
+* Subjects with glaucoma will have structural (optic nerve and retinal nerve fiber layer) and functional (visual field testing) defects consistent with the diagnosis of glaucoma
+* Subjects will have a corrected acuity of 20/50 or better and be able to fixate
+* Naïve to medication subjects or post washout IOP between 18 and 34 mmHg
+* Spherical equivalent from +3 diopters to -6 diopters, with a cylinder of \&lt;-3 diopters
+* Subject is willing and able to comply with the protocol requirements and to remain in the study for its full duration, including all scheduled visits and follow-up assessments
+
+Exclusion Criteria:
+
+* Subjects with a known intolerance to netarsudil ophthalmic solution
+* Subjects with a known intolerance to, or contraindication for, timolol maleate
+* Any subject whom the investigator determines to be at unacceptable risk for the washout or believes is unlikely to complete the study
+* Subjects with retinal disease or optic neuropathies other than glaucoma that, in the opinion of the investigator, could confound the study assessments or outcome
+* Female subjects who are pregnant, breastfeeding, or of childbearing age who are not sterile or using an acceptable method of contraception during the study</pre></details></section><section><h2>Critères évalués (tels que déclarés) <span class="badge source">Registre ClinicalTrials.gov</span></h2><ul><li><strong>Principal :</strong> Change in GC soma density (cells/mm²) <small>[Baseline, 6 months, and 12 months]</small></li><li>Secondaire : Changes in GC soma counts (number of cells) <small>[Baseline, 6 months, and 12 months]</small></li><li>Secondaire : Changes in GCL thickness (micrometers (µm)) <small>[Baseline, 6 months, and 12 months]</small></li></ul></section><section><h2>Résultats disponibles <span class="badge source">Registre ClinicalTrials.gov</span></h2><p><span class="manque">Aucun résultat n'est déposé au registre à ce jour. Statut actuel : Recrutement en cours.</span></p></section><section><h2>Données de tolérance <span class="badge source">Registre ClinicalTrials.gov</span></h2><p><span class="manque">Non disponibles : aucun résultat déposé au registre</span></p></section><section><h2>Publications liées <span class="badge source">Registre ClinicalTrials.gov</span></h2><ul><li><span class="manque">Aucune publication liée identifiée</span></li></ul></section><section><h2>Promoteur, financeur et affiliations <span class="badge source">Registre ClinicalTrials.gov</span></h2><div class="acteurs">
+      <div><h3>Promoteur</h3><p class="def">Organisme responsable de l'essai, déclaré au registre.</p>
+        <p><strong>Brett King</strong> (académique ou autre)</p>
+        <p>Collaborateurs déclarés : Alcon Research</p></div>
+      <div><h3>Financeur</h3><p class="def">Organisme qui finance la recherche.</p>
+        <p><span class="manque">Non déclaré séparément dans le registre.</span> Le promoteur n'est pas présenté ici comme financeur : le registre ne le précise pas.</p></div>
+      <div><h3>Affiliations</h3><p class="def">Établissement des responsables de l'étude.</p>
+        <p><span class="manque">Aucun responsable déclaré au registre</span></p></div>
+    </div></section>
+<section><h2>Ce qui manque <span class="badge regle">calculé par l'outil</span></h2><ul><li>résultats (aucun résultat déposé au registre)</li><li>données de tolérance</li><li>publication liée</li><li>responsables de l'étude et leur affiliation</li></ul></section>
+<section><h2>Limites, intérêt pour la veille marketing, à retenir <span class="badge attente">non produit par l'outil</span></h2><p><span class="manque">Non rédigé automatiquement : les données extraites ne suffisent pas à produire une analyse fiable sans interprétation. Utilisez le bouton « Copier pour Claude / ChatGPT » pour obtenir une proposition, à vérifier.</span></p></section>
+<section><details><summary>Voir le texte copié par le bouton</summary>
+<textarea id="a-copier" readonly>Tu es assistant de veille scientifique sur le glaucome. À partir UNIQUEMENT des informations ci-dessous, rédige en français une fiche de synthèse avec ces rubriques :
+1. Question étudiée
+2. Traitement ou technologie
+3. Type d&#x27;étude
+4. Population et nombre de participants
+5. Comparateur
+6. Critères évalués
+7. Principaux résultats chiffrés (recopie les valeurs exactes et indique leur source)
+8. Données de tolérance
+9. Limites
+10. Intérêt potentiel pour une veille marketing — présenté comme une INTERPRÉTATION, séparé des faits
+11. À retenir (une phrase)
+
+Règles :
+- N&#x27;invente rien. Si une information manque, écris « non rapporté ».
+- Distingue un essai simplement enregistré, un protocole, des résultats déposés dans un registre et une publication de résultats.
+- Si la source est seulement le résumé d&#x27;un article, indique que la synthèse repose uniquement sur ce résumé.
+- Les rôles « suggérés » (traitement étudié / comparateur) sont à vérifier dans le texte source.
+- Ne confonds pas promoteur d&#x27;essai, financeur et affiliation des auteurs.
+- Termine par la liste des points à vérifier.
+
+=== INFORMATIONS ===
+SOURCE : registre ClinicalTrials.gov, essai NCT07847073 — https://clinicaltrials.gov/study/NCT07847073
+NIVEAU DE PREUVE : essai enregistré, AUCUN résultat déposé au registre
+Titre : Adaptive Optics OCT Evaluation of Rhopressa&#x27;s Effects on the Retinal Ganglion Cells in Glaucoma Patients
+Titre officiel : Adaptive Optics OCT Evaluation of Rhopressa&#x27;s Effects on the Retinal Ganglion Cells in Glaucoma Patients
+Phase déclarée : Phase 4 · Statut : Recrutement en cours · Type : Interventionnelle
+Promoteur (déclaré) : Brett King (OTHER) · Collaborateurs : Alcon Research
+Financeur : non déclaré séparément dans le registre
+Participants : 13 (prévu) · Conditions : Open Angle Glaucoma (OAG), Glaucoma
+Plan : {&#x27;but_principal&#x27;: &#x27;OTHER&#x27;, &#x27;insu&#x27;: &#x27;DOUBLE&#x27;, &#x27;insu_description&#x27;: &#x27;This is an investigator-masked study. Randomization will occur from an unmasked key personnel member on the study. The principal investigator and other key members of the study will be masked. Unmasked personnel maintain the randomization schedule and manage drug distribution, but have no role in clinical evaluations, AO-OCT image acquisition, ganglion cell counting, or outcome data analysis.&#x27;, &#x27;insu_pour&#x27;: [&#x27;INVESTIGATOR&#x27;, &#x27;OUTCOMES_ASSESSOR&#x27;], &#x27;modele&#x27;: &#x27;CROSSOVER&#x27;, &#x27;modele_observationnel&#x27;: None, &#x27;repartition&#x27;: &#x27;RANDOMIZED&#x27;}
+Bras (rôle déclaré) :
+  - Rhopressa first, then Timolol [EXPERIMENTAL] : Drug: Netarsudil 0.02% Ophthalmic Solution [RHOPRESSA], Drug: Timolol Maleate 0.25% Ophthalmic Solution
+  - Timolol first, then Rhopressa [EXPERIMENTAL] : Drug: Netarsudil 0.02% Ophthalmic Solution [RHOPRESSA], Drug: Timolol Maleate 0.25% Ophthalmic Solution
+Critères principaux : Change in GC soma density (cells/mm²) [Baseline, 6 months, and 12 months]
+Critères secondaires : Changes in GC soma counts (number of cells) [Baseline, 6 months, and 12 months]; Changes in GCL thickness (micrometers (µm)) [Baseline, 6 months, and 12 months]
+
+DESCRIPTION (registre, texte source) :
+The purpose of this study is to compare how two FDA-approved eye drops: netarsudil (Rhopressa) and timolol, protect nerve cells in the eye of adults with open-angle glaucoma. Both medications lower pressure inside the eye, but researchers want to learn if Rhopressa is more effective at slowing down or preventing the loss of retinal ganglion cells. These cells are essential for sight because they carry visual signals from the eye to the brain.
+
+Participants in this study will complete a total of 6 study visits over 12 months:
+
+* Participants will spend 6 months using Rhopressa eye drops and 6 months using Timolol eye drops. The order of the two eye drops will be chosen randomly.
+* At scheduled study visits, researchers will examine participants&#x27; eyes and measure eye pressure.
+* Researchers will take detailed pictures of the back of the eye using a specialized high-resolution camera called adaptive optics optical coherence tomography (AO-OCT).
+* Participants will also complete specialized visual field testing to measure eye function.
+
+Researchers will count and track individual nerve cells over time to determine if one medication offers better protection against cell loss than the other.
+
+RÉSULTATS : aucun résultat déposé au registre.</textarea></details></section>
+<p><small>Fiche générée le 2026-11-11 22:40 par Glaucoma Intelligence. Extraits des sources en langue originale.</small></p>
+</main><script>
+function copierFiche(){
+  var zone=document.getElementById('a-copier'), bouton=document.getElementById('bouton-copier');
+  function fait(){bouton.textContent='Copié ✓ — collez dans Claude ou ChatGPT';setTimeout(function(){bouton.textContent='Copier pour Claude / ChatGPT'},3000);}
+  function secours(){zone.parentElement.open=true;zone.select();try{document.execCommand('copy');fait();}
+    catch(err){bouton.textContent='Sélectionnez le texte ci-dessous puis Ctrl+C';}}
+  if(navigator.clipboard&&window.isSecureContext){navigator.clipboard.writeText(zone.value).then(fait,secours);}else{secours();}
+}
+</script></body></html>

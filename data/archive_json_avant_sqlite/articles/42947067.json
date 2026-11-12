@@ -1,0 +1,149 @@
+{
+  "pmid": "42947067",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42947067",
+    "titre": "Periocular morphology during long-term topical ophthalmic treatment: associations with prostaglandin analogs, preservatives, and eyelid manipulation.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42947067/",
+    "doi": "10.1186/s12886-026-05485-2",
+    "pmcid": "PMC13711707",
+    "revue": "BMC ophthalmology",
+    "date_entree_pubmed": "2026-10-28",
+    "date_publication": "2026-Oct-27",
+    "types_publication": [
+      "Journal Article"
+    ],
+    "resume_present": true,
+    "resume": "BACKGROUND: This cross-sectional study characterized periocular morphology in long-term users of topical ophthalmic medications and examined its associations with current prostaglandin analog use, preservative exposure, estimated cumulative eyelid-manipulation exposure, and eyelid manipulation during eye-drop instillation.\nMETHODS: This cross-sectional study included 115 patients receiving long-term topical ophthalmic treatment (50 receiving antiglaucoma [AG] treatment, 35 receiving artificial tear [AT] treatment, and 30 receiving both AG and AT treatment) and 50 healthy controls. Levator function (LF), margin reflex distance (MRD1 and MRD2), inferior scleral show, and the lower eyelid pinch test were assessed, while standardized photographs were used to evaluate upper and lower eyelid herniation, upper eyelid atrophy, and malar festoons. Associations between study groups, treatment-related exposures, and periocular outcomes were examined using multivariable linear, binary logistic, and ordinal logistic regression models adjusted for age, sex, and study-specific covariates, with Benjamini-Hochberg false discovery rate correction.\nRESULTS: After adjustment for age and sex, the AG group had lower LF (q = 0.016), whereas all treatment groups showed lower MRD1 values (all q ≤ 0.005) and higher frequency and severity of upper eyelid atrophy (all q < 0.05) than controls. No clear associations were identified between estimated cumulative eyelid-manipulation exposure or eyelid manipulation and the evaluated periocular outcomes after FDR correction. Current prostaglandin analog use was associated with higher odds of upper eyelid atrophy (OR 4.30, 95% CI 1.52-12.13; q = 0.016) together with lower odds of upper (OR 0.21, 95% CI 0.06-0.72; q = 0.029) and lower eyelid herniation (OR 0.13, 95% CI 0.04-0.43; q = 0.004), with an additional association with higher upper eyelid atrophy stage. Preservative-containing treatment was associated with higher odds of lower eyelid herniation (OR 5.46, 95% CI 1.76-16.94; q = 0.018) and its ordinal stage (q = 0.018). These associations remained significant after mutual adjustment for prostaglandin analog and preservative exposure.\nCONCLUSION: Current prostaglandin analog use was associated with a periocular morphologic pattern characterized by increased upper eyelid atrophy and reduced visible upper- and lower-eyelid herniation. Preservative-containing treatment showed an exploratory association with lower eyelid herniation, whereas no clear associations were identified for estimated cumulative eyelid-manipulation exposure or eyelid manipulation. These findings reflect cross-sectional exposure-phenotype associations rather than causal effects.",
+    "mots_cles_auteurs": [
+      "Eyelid herniation",
+      "Eyelid manipulation",
+      "Periocular morphology",
+      "Preservative exposure",
+      "Prostaglandin analogs",
+      "Prostaglandin-associated periorbitopathy"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 7,
+    "affiliations_auteurs": [
+      "Department of Ophthalmology, Goztepe Prof. Dr. Suleyman Yalcin City Hospital, Istanbul, 34722, Turkey. dr.serap44@gmail.com.",
+      "Department of Ophthalmology, Goztepe Prof. Dr. Suleyman Yalcin City Hospital, Istanbul, 34722, Turkey.",
+      "Department of Ophthalmology, Faculty of Medicine, Istanbul Medeniyet University, Istanbul, Turkey.",
+      "Department of Ophthalmology, Faculty of Medicine Hospital, Bezmialem Vakif University, Istanbul, Turkey.",
+      "Department of Ophthalmology, Cerrahpasa University, Istanbul, Turkey.",
+      "Camlica Hospital Eye Clinic, Medipol University, Istanbul, Turkey."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": [
+      "Humans",
+      "Cross-Sectional Studies",
+      "Female",
+      "Preservatives, Pharmaceutical",
+      "Eyelids",
+      "Prostaglandins, Synthetic",
+      "Male",
+      "Glaucoma",
+      "Aged",
+      "Ophthalmic Solutions",
+      "Middle Aged",
+      "Eyelid Diseases",
+      "Antihypertensive Agents"
+    ]
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": null,
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7223832974",
+      "doi": "10.1186/s12886-026-05485-2",
+      "pmid": "42947067",
+      "pmcid": "13711707",
+      "titre": "Periocular morphology during long-term topical ophthalmic treatment: associations with prostaglandin analogs, preservatives, and eyelid manipulation",
+      "lien": "https://openalex.org/W7223832974",
+      "date_publication": "2026-10-27",
+      "type": "article",
+      "revue": "BMC Ophthalmology",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "doaj",
+        "pubmed"
+      ],
+      "financeurs": null,
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "Istanbul Medeniyet University",
+          "pays": "TR",
+          "type": "education",
+          "ror": "https://ror.org/05j1qpr59"
+        },
+        {
+          "nom": "Bezmiâlem Vakıf Üniversitesi",
+          "pays": "TR",
+          "type": "education",
+          "ror": "https://ror.org/04z60tq39"
+        },
+        {
+          "nom": "Bezmiâlem Vakıf Üniversitesi Hastanesi",
+          "pays": "TR",
+          "type": "healthcare",
+          "ror": "https://ror.org/049aadf12"
+        },
+        {
+          "nom": "Istanbul University-Cerrahpaşa",
+          "pays": "TR",
+          "type": "education",
+          "ror": "https://ror.org/01dzn5f42"
+        },
+        {
+          "nom": "Istanbul Medipol University",
+          "pays": "TR",
+          "type": "education",
+          "ror": "https://ror.org/037jwzz50"
+        }
+      ],
+      "acces_ouvert": true,
+      "statut_acces": "gold",
+      "url_texte": "https://link.springer.com/content/pdf/10.1186/s12886-026-05485-2.pdf",
+      "url_pdf": "https://link.springer.com/content/pdf/10.1186/s12886-026-05485-2.pdf",
+      "licence": "cc-by-nc-nd",
+      "texte_integral_indexe": true,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Drug-Induced Ocular Toxicity",
+      "resume_present": true,
+      "mesh": [
+        "Aged",
+        "Antihypertensive Agents",
+        "Cross-Sectional Studies",
+        "Eyelid Diseases",
+        "Eyelids",
+        "Female",
+        "Glaucoma",
+        "Humans",
+        "Male",
+        "Middle Aged",
+        "Ophthalmic Solutions",
+        "Preservatives, Pharmaceutical",
+        "Prostaglandins, Synthetic"
+      ]
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": []
+  }
+}

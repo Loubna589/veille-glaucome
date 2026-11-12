@@ -1,0 +1,95 @@
+{
+  "pmid": "42835984",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42835984",
+    "titre": "1,3,4-Oxadiazole-sulfonamide hybrids: recent advances in biological activities, structure-activity relationships, and therapeutic applications.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42835984/",
+    "doi": "10.1039/d6ra07323a",
+    "pmcid": "PMC13636289",
+    "revue": "RSC advances",
+    "date_entree_pubmed": "2026-10-06",
+    "date_publication": "2026-Oct-21",
+    "types_publication": [
+      "Journal Article",
+      "Review"
+    ],
+    "resume_present": true,
+    "resume": "Molecular hybridization has emerged as an effective strategy in medicinal chemistry for the development of multifunctional therapeutic agents with improved biological performance. Among the various hybrid scaffolds investigated, 1,3,4-oxadiazole-sulfonamide hybrids have gained considerable attention owing to the complementary pharmacological properties of both pharmacophores. The integration of the 1,3,4-oxadiazole nucleus and sulfonamide moiety within a single molecular framework has generated structurally diverse compounds exhibiting promising activities against a broad range of biological targets. This review provides a comprehensive overview of the biological activities and structure-activity relationships (SARs) of 1,3,4-oxadiazole-sulfonamide hybrids reported over the past two decades. Particular emphasis is placed on their antimicrobial, anticancer, anti-Alzheimer, anti-HIV, antidiabetic, anti-inflammatory, antioxidant, antimalarial, anti-glaucoma, and carbonic anhydrase inhibitory activities. Furthermore, the influence of key structural modifications on biological performance is critically discussed, highlighting the pharmacophoric features and substitution patterns associated with enhanced potency and selectivity. Collectively, the available evidence demonstrates the remarkable therapeutic versatility of 1,3,4-oxadiazole-sulfonamide hybrids and supports their continued exploration as promising scaffolds for future drug discovery and development.",
+    "mots_cles_auteurs": null,
+    "langue": "eng",
+    "nombre_auteurs": 3,
+    "affiliations_auteurs": [
+      "Department of Medicinal Chemistry, Faculty of Pharmacy, Minia University Minia 61519 Egypt shimaanaguib_80@mu.edu.eg.",
+      "Medicinal Chemistry Department, Faculty of Pharmacy, Minia National University New Minia 61768 Egypt.",
+      "Department of Pharmaceutical Chemistry, Faculty of Pharmacy, Sohag University 82524 Sohag Egypt mamdouhfawzy3@yahoo.com mamdouh.fawzi@pharm.sohag.edu.eg (002)-01018384461.",
+      "Department of Pharmaceutical Chemistry, Faculty of Pharmacy, Sohag National University 82524 Sohag Egypt."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7220413001",
+      "doi": "10.1039/d6ra07323a",
+      "pmid": "42835984",
+      "pmcid": "13636289",
+      "titre": "1,3,4-Oxadiazole–sulfonamide hybrids: recent advances in biological activities, structure–activity relationships, and therapeutic applications",
+      "lien": "https://openalex.org/W7220413001",
+      "date_publication": "2026-01-01",
+      "type": "review",
+      "revue": "RSC Advances",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "doaj",
+        "pubmed"
+      ],
+      "financeurs": null,
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "Minia University",
+          "pays": "EG",
+          "type": "education",
+          "ror": "https://ror.org/02hcv4z63"
+        },
+        {
+          "nom": "Sohag University",
+          "pays": "EG",
+          "type": "education",
+          "ror": "https://ror.org/02wgx3e98"
+        }
+      ],
+      "acces_ouvert": true,
+      "statut_acces": "gold",
+      "url_texte": "https://pubs.rsc.org/ra/article-pdf/doi/10.1039/d6ra07323a/14820955/d6ra07323a.pdf",
+      "url_pdf": "https://pubs.rsc.org/ra/article-pdf/doi/10.1039/d6ra07323a/14820955/d6ra07323a.pdf",
+      "licence": "cc-by-nc",
+      "texte_integral_indexe": true,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Structural and Chemical Analysis of Organic and Inorganic Compounds",
+      "resume_present": true,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": []
+  }
+}

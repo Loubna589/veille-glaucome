@@ -1,0 +1,118 @@
+{
+  "pmid": "42986518",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42986518",
+    "titre": "Four-year corneal hysteresis and intraocular pressure outcomes after ab-interno canaloplasty with phacoemulsification in glaucoma.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42986518/",
+    "doi": "10.1007/s10792-026-04331-0",
+    "pmcid": null,
+    "revue": "International ophthalmology",
+    "date_entree_pubmed": "2026-11-05",
+    "date_publication": "2026-Nov-05",
+    "types_publication": [
+      "Journal Article"
+    ],
+    "resume_present": true,
+    "resume": "PURPOSE: To evaluate longitudinal changes in intraocular pressure (IOP), medication burden, and corneal biomechanical parameters over 4 years following phacoemulsification combined with ab-interno canaloplasty (AbiC) in patients with primary open-angle glaucoma.\nMETHODS: This retrospective, longitudinal, non-comparative cohort study included 40 eyes from 28 patients. Clinical data were collected preoperatively and up to 4 years postoperatively. Continuous outcomes, including absolute and relative IOP reduction, were analyzed using linear mixed-effects models. Secondary analyses included Kaplan-Meier estimates based on predefined IOP thresholds (≤ 18 mmHg), evaluated both with and without medications. Sensitivity analyses were performed using alternative thresholds (≤ 15 and ≤ 21 mmHg).\nRESULTS: Mean IOP decreased significantly over time (global p = 0.009), with the greatest reduction at one year (- 1.71 mmHg; 95% CI - 2.94 to - 0.47; p = 0.003). Although attenuation was observed at later time points, IOP remained numerically below baseline through year four. Medication burden decreased significantly at one year (- 1.48 medications; 95% CI - 1.85 to - 1.10; p < 0.001), followed by gradual reintroduction. Corneal hysteresis increased after surgery and remained significantly higher than baseline during follow-up (p < 0.001). The cumulative probability of maintaining IOP ≤ 18 mmHg was 85.0% at four years, whereas medication-free control was 10.0%. No sight-threatening complications occurred.\nCONCLUSIONS: Phacocanaloplasty was associated with an early significant reduction in IOP with partial attenuation over time, while remaining numerically below baseline during long-term follow-up. The increase in corneal hysteresis is consistent with a favorable postoperative biomechanical profile.",
+    "mots_cles_auteurs": [
+      "Ab-interno canaloplasty",
+      "Corneal hysteresis",
+      "Intraocular pressure",
+      "Minimally invasive glaucoma surgery",
+      "Primary open-angle glaucoma"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 5,
+    "affiliations_auteurs": [
+      "Glaucoma Research Department, Oftalmosalud Institute of Eyes, San Isidro, 27, Lima, Peru. juan.izquierdo.vc@gmail.com.",
+      "Glaucoma Research Department, Oftalmosalud Institute of Eyes, San Isidro, 27, Lima, Peru."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": [
+      "Humans",
+      "Intraocular Pressure",
+      "Phacoemulsification",
+      "Retrospective Studies",
+      "Cornea",
+      "Female",
+      "Male",
+      "Glaucoma, Open-Angle",
+      "Aged",
+      "Follow-Up Studies",
+      "Middle Aged",
+      "Filtering Surgery",
+      "Treatment Outcome",
+      "Time Factors",
+      "Tonometry, Ocular",
+      "Visual Acuity"
+    ]
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": null,
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7225318041",
+      "doi": "10.1007/s10792-026-04331-0",
+      "pmid": "42986518",
+      "pmcid": null,
+      "titre": "Four-year corneal hysteresis and intraocular pressure outcomes after ab-interno canaloplasty with phacoemulsification in glaucoma",
+      "lien": "https://openalex.org/W7225318041",
+      "date_publication": "2026-11-05",
+      "type": "article",
+      "revue": "International Ophthalmology",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "pubmed"
+      ],
+      "financeurs": null,
+      "subventions": null,
+      "institutions": null,
+      "acces_ouvert": false,
+      "statut_acces": "closed",
+      "url_texte": null,
+      "url_pdf": null,
+      "licence": null,
+      "texte_integral_indexe": false,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Glaucoma and retinal disorders",
+      "resume_present": false,
+      "mesh": [
+        "Aged",
+        "Cornea",
+        "Female",
+        "Follow-Up Studies",
+        "Glaucoma, Open-Angle",
+        "Humans",
+        "Intraocular Pressure",
+        "Male",
+        "Middle Aged",
+        "Retrospective Studies",
+        "Time Factors",
+        "Tonometry, Ocular",
+        "Visual Acuity",
+        "Treatment Outcome",
+        "Filtering Surgery",
+        "Phacoemulsification"
+      ]
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": []
+  }
+}

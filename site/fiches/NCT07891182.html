@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>NCT07891182 — fiche essai</title><style>
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
+:root{--fond:#f4f7fb;--carte:#fff;--texte:#0f1d33;--doux:#52627a;--bord:#e2e8f0;--accent:#0b4f8a;
+--ok:#146c43;--ok-fond:#e3f4ea;--att:#8a5300;--att-fond:#fdf1d8;--ver:#b42318;--ver-fond:#fdeceb;
+--reg:#3f3c9e;--reg-fond:#ecebfb;--src-fond:#f1f5f9;--mark:#fff1a8;--manque:#b42318;--turquoise:#14b8a6;}
+@media (prefers-color-scheme:dark){:root{--fond:#0a1120;--carte:#101a2c;--texte:#e6edf7;--doux:#9db0ca;
+--bord:#1e2b42;--accent:#6fb4ff;--ok:#6fd6a0;--ok-fond:#12301f;--att:#f3c15e;--att-fond:#352a10;--ver:#ff9a8f;
+--ver-fond:#3a1714;--reg:#b4b2ff;--reg-fond:#24234a;--src-fond:#0d1626;--mark:#5a4d10;--manque:#ff9a8f;--turquoise:#2dd4bf;}}
+*{box-sizing:border-box}body{margin:0;background:var(--fond);color:var(--texte);
+font:15.5px/1.6 "Inter",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+:focus-visible{outline:3px solid var(--turquoise);outline-offset:2px;border-radius:6px}
+main{max-width:1000px;margin:0 auto;padding:20px 18px 64px}
+.bandeau{display:flex;align-items:center;gap:10px;font-weight:800;letter-spacing:-.02em;padding:6px 0 14px;color:var(--texte);text-decoration:none}
+.bandeau i{width:30px;height:30px;border-radius:9px;background:linear-gradient(135deg,#0b4f8a,#14b8a6);display:inline-block}
+header,section{background:var(--carte);border:1px solid var(--bord);border-radius:16px;padding:20px 24px;margin:0 0 16px;
+box-shadow:0 1px 2px rgba(15,29,51,.04),0 6px 20px -8px rgba(15,29,51,.12)}
+h1{font-size:1.45rem;line-height:1.3;margin:.2em 0 .5em}h2{font-size:1.1rem;margin:0 0 .6em;color:var(--accent)}
+h3{font-size:1rem;margin:1.1em 0 .4em}.surtitre{color:var(--doux);margin:0;font-size:.9rem}
+a{color:var(--accent)}small,.def{color:var(--doux)}.def{font-size:.88rem;margin:.2em 0 .6em}
+.grille{display:grid;grid-template-columns:max-content 1fr;gap:4px 16px;margin:12px 0 0}
+.grille dt{color:var(--doux)}.grille dd{margin:0}
+.badge{display:inline-block;font-size:.72rem;font-weight:600;padding:2px 8px;border-radius:999px;margin:2px 4px 2px 0;
+vertical-align:middle;background:var(--src-fond);color:var(--doux)}
+.badge.confirme{background:var(--ok-fond);color:var(--ok)}.badge.attente{background:var(--att-fond);color:var(--att)}
+.badge.verifier{background:var(--ver-fond);color:var(--ver)}.badge.regle{background:var(--reg-fond);color:var(--reg)}
+.rubrique{font-weight:600}.manque{color:var(--manque);font-style:italic}
+mark{background:var(--mark);color:inherit;padding:0 2px;border-radius:3px}
+blockquote{margin:.5em 0;padding:.5em .9em;border-left:3px solid var(--bord);background:var(--src-fond);border-radius:0 6px 6px 0}
+pre{white-space:pre-wrap;font-size:.85rem;background:var(--src-fond);padding:10px;border-radius:6px}
+.defile{overflow-x:auto}table{border-collapse:collapse;width:100%;font-size:.92rem;margin:.4em 0}
+th,td{border:1px solid var(--bord);padding:6px 8px;text-align:left;vertical-align:top}th{background:var(--src-fond)}
+.analyse{background:var(--src-fond);padding:6px 10px;border-radius:6px;font-size:.92rem}
+.acteurs{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px}
+.acteurs>div{border:1px solid var(--bord);border-radius:8px;padding:10px 12px}.acteurs h3{margin-top:0}
+.copier{position:sticky;top:0;z-index:2;display:flex;gap:12px;align-items:center;flex-wrap:wrap;
+background:var(--fond);padding:10px 0;margin-bottom:8px}
+button{font:inherit;font-weight:600;background:var(--accent);color:#fff;border:0;border-radius:8px;padding:9px 16px;cursor:pointer}
+@media (prefers-color-scheme:dark){button{color:#10141a}}
+textarea{width:100%;min-height:260px;font:13px/1.4 ui-monospace,Consolas,monospace;background:var(--src-fond);
+color:var(--texte);border:1px solid var(--bord);border-radius:6px;padding:8px}
+details{margin:.5em 0}summary{cursor:pointer;color:var(--accent)}
+.retour{font-size:.92rem;margin:0 0 4px}
+@media (max-width:600px){.grille{grid-template-columns:1fr}.grille dt{margin-top:6px}header,section{padding:14px}}
+</style></head>
+<body><main>
+<a class="bandeau" href="../index.html"><i aria-hidden="true"></i>Glaucoma Intelligence</a><nav class="retour"><a href="../index.html">Accueil</a> · <a href="../etudes.html">← Essais &amp; articles</a> · <a href="../recherche.html">Rechercher</a> · <a href="../carte.html">Carte des acteurs</a> · <a href="../alertes.html">Alertes</a></nav>
+<div class="copier"><button id="bouton-copier" type="button" onclick="copierFiche()">Copier pour Claude / ChatGPT</button>
+<small>Copie une consigne + les faits de cette fiche, à coller dans votre assistant.</small></div>
+
+    <header>
+      <p class="surtitre">Fiche essai clinique · NCT07891182 · <a href="https://clinicaltrials.gov/study/NCT07891182" target="_blank" rel="noopener">voir sur ClinicalTrials.gov</a></p>
+      <h1>VGFTe-(HD)-OD-2566: Adjunctive Aflibercept Ahmed Glaucoma Valve (AAA) Study</h1>
+      <p><span class="badge attente">ESSAI ENREGISTRÉ — AUCUN RÉSULTAT DÉPOSÉ AU REGISTRE</span></p>
+      <dl class="grille">
+        <dt>Phase (déclarée)</dt><dd>Phase 2</dd>
+        <dt>Statut</dt><dd>Pas encore en recrutement</dd>
+        <dt>Type d'étude</dt><dd>Interventionnelle</dd>
+        <dt>Participants</dt><dd>100 (prévu)</dd>
+        <dt>Première publication au registre</dt><dd>2026-10-23</dd>
+        <dt>Dernière mise à jour au registre</dt><dd>2026-10-23</dd>
+        <dt>Début · fin principale</dt><dd>2026-12 · 2028-06</dd>
+        <dt>Détecté par l'outil le</dt><dd>2026-11-11 · 0 modification(s) repérée(s) depuis</dd>
+      </dl>
+      <p class="rubriques"><strong>Rubrique :</strong> <span class="rubrique">Médicaments</span> <small>bras expérimental de type DRUG déclaré au registre : Aflibercept Injection</small><br><span class="rubrique">Dispositifs et chirurgie</span> <small>bras expérimental de type PROCEDURE déclaré au registre : Ahmed Tube Surgery</small> <span class="badge regle">classement automatique — règles dans config/rubriques.ini</span></p>
+    </header>
+<section><h2>Question étudiée <span class="badge source">Registre ClinicalTrials.gov</span></h2><p><strong>Titre officiel :</strong> Adjunctive Aflibercept Ahmed Glaucoma Valve (AAA) Study</p><blockquote lang="en">The purpose of this study is to determine if injections of aflibercept into the eye given at the end of the Ahmed tube surgery as well as at postoperative months one and two would improve eye pressure control compared to standard surgery with no aflibercept.</blockquote></section><section><h2>Traitement ou technologie, et comparateur <span class="badge source">Registre ClinicalTrials.gov</span><span class="badge confirme">rôles CONFIRMÉS : type de bras déclaré au registre</span></h2><div class="defile"><table><thead><tr><th>Bras</th><th>Rôle déclaré</th><th>Interventions</th><th>Description (registre)</th></tr></thead><tbody><tr><td><strong>Ahmed Tube Surgery with Aflibercept Intravitreal Injection Group</strong></td><td>Expérimental (traitement étudié)</td><td>Drug: Aflibercept Injection<br>Procedure: Ahmed Tube Surgery</td><td><small lang="en">Participants will undergo standard of care Ahmed tube surgery and will receive one 8 mg injection of intravitreal aflibercept at three timepoints in the study: at the conclusion of surgery, Postoperative Month 1, Postoperative Month 2. Total duration of participation in this arm is 6 months</small></td></tr><tr><td><strong>Ahmed Tube Surgery without Perioperative Aflibercept (Control Group)</strong></td><td>Comparateur actif</td><td>Procedure: Ahmed Tube Surgery</td><td><small lang="en">Participants will undergo standard of care Ahmed tube surgery without any injections of intravitreal aflibercept. Total duration of participation in this arm is 6 months.</small></td></tr></tbody></table></div></section><section><h2>Type d'étude <span class="badge source">Registre ClinicalTrials.gov</span></h2><ul><li>Type : Interventionnelle · phase déclarée : Phase 2</li><li>Répartition : randomisée</li><li>Modèle : groupes parallèles</li><li>Insu : ouvert (sans insu)</li><li>But principal : traitement</li></ul></section><section><h2>Population et participants <span class="badge source">Registre ClinicalTrials.gov</span></h2><ul><li>Conditions déclarées : Glaucoma</li><li>Âge : 18 Years → 85 Years</li><li>Sexe : tous</li><li>Volontaires sains acceptés : non</li><li>Nombre de participants : <mark>100 (prévu)</mark></li></ul><details><summary>Critères d'inclusion et d'exclusion (texte du registre)</summary><pre lang="en">Inclusion Criteria:
+
+* Age 18 to 85 years, inclusive.
+* Open-angle glaucoma (primary or secondary such as pseudoexfoliative, pigmentary, steroid response) that is inadequately controlled on tolerated medical therapy with intraocular pressure greater than or equal to 18 mm Hg and less than or equal to 40 mm Hg.
+
+Exclusion Criteria:
+
+* Unwilling or unable to give consent, unwilling to accept randomization, or unable to return for scheduled protocol visits.
+* No light perception vision.
+* Prior aqueous shunt or cyclodestructive procedure.
+* Prior exposure to anti-VEGF in either eye.
+* Diabetic retinopathy.
+* Wet age-related macular degeneration.
+* Retinal vein occlusion.
+* Choroidal neovascular membrane.
+* History of cystoid macular edema.
+* Vitreous prolapse.
+* Previous or active ocular neovascularization.
+* Iridocorneal endothelial syndrome.
+* Epithelial or fibrous downgrowth.
+* Chronic or recurrent uveitis, or acute uveitis within 90 days of surgery.
+* Use of topical steroids within 30 days of surgery.
+* Conjunctival scarring sufficient to preclude Ahmed implantation in preferred quadrant.
+* Scleral buckle.
+* Severe posterior blepharitis.
+* Aphakia.
+* Unwilling to discontinue contact lens use after surgery.
+* Need for glaucoma surgery combined with other ocular procedures (i.e. cataract surgery, penetrating keratoplasty, or retinal surgery) or anticipated need for additional ocular surgery.
+* Best corrected visual acuity 20/200 or worse in fellow eye.
+* Uncontrolled blood pressure (systolic blood pressure \&gt;165 mmHg or diastolic blood pressure \&gt;95 mmHg) or the investigator is concerned would have unstable blood pressure during the course of the study, such as due to compliance issues.
+* History of cerebrovascular accident or myocardial infarction within 180 days of surgery.
+* Hemodialysis and/or history of renal transplant
+* Known history of sensitivity to any compounds of the study formulation
+* History of other disease, metabolic dysfunction, physical examination finding, or clinical laboratory finding giving reasonable suspicion of a disease or condition that contraindicates the use of aflibercept 8 mg or that might affect interpretation of the results of the study or render the patient at high risk for treatment complications
+* Participation in an investigational study within 30 days prior to screening visit that involved treatment with any drug (excluding vitamins and minerals) or device
+* Pregnant or nursing women.
+* Men or women of childbearing potential (WOCBP)\* who are unwilling to practice highly effective contraception prior to the initial dose/start of the first treatment, during the study, and for at least 3 months after the last dose.
+
+Highly effective contraceptive measures include:
+
+1. stable use of combined (estrogen and progestogen-containing) hormonal contraception (oral, intravaginal, transdermal) or progestogen-only hormonal contraception (oral, injectable, implantable) associated with inhibition of ovulation initiated 2 or more menstrual cycles prior to screening
+2. intrauterine device (IUD); intrauterine hormone-releasing system (IUS)
+3. bilateral tubal ligation
+4. vasectomy
+5. condom plus contraceptive sponge, foam, or jelly, or diaphragm plus contraceptive sponge, foam, or jelly
+6. and/or sexual abstinence
+
+   * Postmenopausal women must be amenorrhoeic for at least 12 months without an alternative medical cause in order not to be considered of childbearing potential. Pregnancy testing and contraception are not required for women with documented hysterectomy or tubal ligation.
+   * Vasectomized partner or vasectomized study participant must have received medical assessment of the surgical success.
+   * Sexual abstinence is considered a highly effective method only if defined as refraining from heterosexual intercourse during the entire period of risk associated with the study treatments. The reliability of sexual abstinence needs to be evaluated in relation to the duration of the clinical trial and the preferred and usual lifestyle of the subject.
+   * Periodic abstinence (calendar, symptothermal, post-ovulation methods), withdrawal (coitus interruptus), spermicides only, and lactational amenorrhea method (LAM) are not acceptable methods of contraception. Female condom and male condom should not be used together.</pre></details></section><section><h2>Critères évalués (tels que déclarés) <span class="badge source">Registre ClinicalTrials.gov</span></h2><ul><li><strong>Principal :</strong> Intraocular pressure <small>[Postoperative day 1, week 1, month 1, month 2, and month 3]</small></li><li>Secondaire : Surgical failure <small>[up to 6 months]</small></li><li>Secondaire : Medication Burden <small>[Postoperative day 1, week 1, month 1, month 2, month 3, and month 6]</small></li><li>Secondaire : Hypertensive phase <small>[Up to 3 months]</small></li><li>Secondaire : Treatment adverse events and serious treatment adverse events <small>[Up to 6 months]</small></li></ul></section><section><h2>Résultats disponibles <span class="badge source">Registre ClinicalTrials.gov</span></h2><p><span class="manque">Aucun résultat n'est déposé au registre à ce jour. Statut actuel : Pas encore en recrutement.</span></p></section><section><h2>Données de tolérance <span class="badge source">Registre ClinicalTrials.gov</span></h2><p><span class="manque">Non disponibles : aucun résultat déposé au registre</span></p></section><section><h2>Publications liées <span class="badge source">Registre ClinicalTrials.gov</span></h2><ul><li><span class="manque">Aucune publication liée identifiée</span></li></ul></section><section><h2>Promoteur, financeur et affiliations <span class="badge source">Registre ClinicalTrials.gov</span></h2><div class="acteurs">
+      <div><h3>Promoteur</h3><p class="def">Organisme responsable de l'essai, déclaré au registre.</p>
+        <p><strong>University of Miami</strong> (académique ou autre)</p>
+        <p>Collaborateurs déclarés : Regeneron Pharmaceuticals</p></div>
+      <div><h3>Financeur</h3><p class="def">Organisme qui finance la recherche.</p>
+        <p><span class="manque">Non déclaré séparément dans le registre.</span> Le promoteur n'est pas présenté ici comme financeur : le registre ne le précise pas.</p></div>
+      <div><h3>Affiliations</h3><p class="def">Établissement des responsables de l'étude.</p>
+        <ul><li>Adam Rothman, MD — investigateur principal — affiliation : University of Miami</li></ul></div>
+    </div></section>
+<section><h2>Ce qui manque <span class="badge regle">calculé par l'outil</span></h2><ul><li>résultats (aucun résultat déposé au registre)</li><li>données de tolérance</li><li>publication liée</li></ul></section>
+<section><h2>Limites, intérêt pour la veille marketing, à retenir <span class="badge attente">non produit par l'outil</span></h2><p><span class="manque">Non rédigé automatiquement : les données extraites ne suffisent pas à produire une analyse fiable sans interprétation. Utilisez le bouton « Copier pour Claude / ChatGPT » pour obtenir une proposition, à vérifier.</span></p></section>
+<section><details><summary>Voir le texte copié par le bouton</summary>
+<textarea id="a-copier" readonly>Tu es assistant de veille scientifique sur le glaucome. À partir UNIQUEMENT des informations ci-dessous, rédige en français une fiche de synthèse avec ces rubriques :
+1. Question étudiée
+2. Traitement ou technologie
+3. Type d&#x27;étude
+4. Population et nombre de participants
+5. Comparateur
+6. Critères évalués
+7. Principaux résultats chiffrés (recopie les valeurs exactes et indique leur source)
+8. Données de tolérance
+9. Limites
+10. Intérêt potentiel pour une veille marketing — présenté comme une INTERPRÉTATION, séparé des faits
+11. À retenir (une phrase)
+
+Règles :
+- N&#x27;invente rien. Si une information manque, écris « non rapporté ».
+- Distingue un essai simplement enregistré, un protocole, des résultats déposés dans un registre et une publication de résultats.
+- Si la source est seulement le résumé d&#x27;un article, indique que la synthèse repose uniquement sur ce résumé.
+- Les rôles « suggérés » (traitement étudié / comparateur) sont à vérifier dans le texte source.
+- Ne confonds pas promoteur d&#x27;essai, financeur et affiliation des auteurs.
+- Termine par la liste des points à vérifier.
+
+=== INFORMATIONS ===
+SOURCE : registre ClinicalTrials.gov, essai NCT07891182 — https://clinicaltrials.gov/study/NCT07891182
+NIVEAU DE PREUVE : essai enregistré, AUCUN résultat déposé au registre
+Titre : VGFTe-(HD)-OD-2566: Adjunctive Aflibercept Ahmed Glaucoma Valve (AAA) Study
+Titre officiel : Adjunctive Aflibercept Ahmed Glaucoma Valve (AAA) Study
+Phase déclarée : Phase 2 · Statut : Pas encore en recrutement · Type : Interventionnelle
+Promoteur (déclaré) : University of Miami (OTHER) · Collaborateurs : Regeneron Pharmaceuticals
+Financeur : non déclaré séparément dans le registre
+Participants : 100 (prévu) · Conditions : Glaucoma
+Plan : {&#x27;but_principal&#x27;: &#x27;TREATMENT&#x27;, &#x27;insu&#x27;: &#x27;NONE&#x27;, &#x27;insu_description&#x27;: None, &#x27;insu_pour&#x27;: None, &#x27;modele&#x27;: &#x27;PARALLEL&#x27;, &#x27;modele_observationnel&#x27;: None, &#x27;repartition&#x27;: &#x27;RANDOMIZED&#x27;}
+Bras (rôle déclaré) :
+  - Ahmed Tube Surgery with Aflibercept Intravitreal Injection Group [EXPERIMENTAL] : Drug: Aflibercept Injection, Procedure: Ahmed Tube Surgery
+  - Ahmed Tube Surgery without Perioperative Aflibercept (Control Group) [ACTIVE_COMPARATOR] : Procedure: Ahmed Tube Surgery
+Critères principaux : Intraocular pressure [Postoperative day 1, week 1, month 1, month 2, and month 3]
+Critères secondaires : Surgical failure [up to 6 months]; Medication Burden [Postoperative day 1, week 1, month 1, month 2, month 3, and month 6]; Hypertensive phase [Up to 3 months]; Treatment adverse events and serious treatment adverse events [Up to 6 months]
+
+DESCRIPTION (registre, texte source) :
+The purpose of this study is to determine if injections of aflibercept into the eye given at the end of the Ahmed tube surgery as well as at postoperative months one and two would improve eye pressure control compared to standard surgery with no aflibercept.
+
+RÉSULTATS : aucun résultat déposé au registre.</textarea></details></section>
+<p><small>Fiche générée le 2026-11-11 22:40 par Glaucoma Intelligence. Extraits des sources en langue originale.</small></p>
+</main><script>
+function copierFiche(){
+  var zone=document.getElementById('a-copier'), bouton=document.getElementById('bouton-copier');
+  function fait(){bouton.textContent='Copié ✓ — collez dans Claude ou ChatGPT';setTimeout(function(){bouton.textContent='Copier pour Claude / ChatGPT'},3000);}
+  function secours(){zone.parentElement.open=true;zone.select();try{document.execCommand('copy');fait();}
+    catch(err){bouton.textContent='Sélectionnez le texte ci-dessous puis Ctrl+C';}}
+  if(navigator.clipboard&&window.isSecureContext){navigator.clipboard.writeText(zone.value).then(fait,secours);}else{secours();}
+}
+</script></body></html>

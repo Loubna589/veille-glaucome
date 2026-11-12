@@ -1,0 +1,124 @@
+{
+  "pmid": "42925954",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42925954",
+    "titre": "Autophagy in ocular health and disease: From mechanistic insights to therapeutic perspectives.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42925954/",
+    "doi": "10.1016/j.exer.2026.111288",
+    "pmcid": null,
+    "revue": "Experimental eye research",
+    "date_entree_pubmed": "2026-10-24",
+    "date_publication": "2026-Dec",
+    "types_publication": [
+      "Journal Article",
+      "Review"
+    ],
+    "resume_present": true,
+    "resume": "Autophagy represents a lysosomal degradative pathway through which cells systematically break down and recycle their own constituents, including proteins, lipid droplets, and entire organelles, by sequestering them within double-membrane autophagosomes prior to lysosomal fusion. Beyond its role as a fundamental quality control mechanism, this process critically shapes cellular metabolism and preserves intracellular equilibrium. In ocular biology, autophagic activity is involved in structural morphogenesis during eye development and becomes dysregulated across a spectrum of vision-threatening disorders. This review synthesises current evidence on autophagy throughout distinct ocular compartments, with particular attention given to its pathogenic contributions to corneal disease, cataract formation, glaucomatous neurodegeneration, and major retinopathies, with the goal of advancing the understanding of the underlying mechanism in this evolving field.",
+    "mots_cles_auteurs": [
+      "Autophagy",
+      "B cells",
+      "Dendritic cells",
+      "Diseases",
+      "T cells"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 10,
+    "affiliations_auteurs": [
+      "College of Traditional Chinese Medicine, Changchun University of Chinese Medicine, Changchun, Jilin, China.",
+      "Department of Nanjing Tongren Eye Center, Nanjing Tongren Hospital, School of Medicine, Southeast University, Nanjing, China.",
+      "Department of Ophthalmology, Affiliated Hospital of Changchun University of Chinese Medicine, Changchun, Jilin, China.",
+      "Institute of Nephrology, Zhongda Hospital, Southeast University, Nanjing, China. Electronic address: hzyczy1997@163.com.",
+      "College of Pharmacy, Changchun University of Traditional Chinese Medicine, Changchun, Jilin, China. Electronic address: czxuduoduo@163.com.",
+      "Department of Ophthalmology, Affiliated Hospital of Changchun University of Chinese Medicine, Changchun, Jilin, China. Electronic address: wljcczy@163.com."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": [
+      "Autophagy",
+      "Humans",
+      "Animals",
+      "Eye Diseases"
+    ]
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": null,
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7223463011",
+      "doi": "10.1016/j.exer.2026.111288",
+      "pmid": "42925954",
+      "pmcid": null,
+      "titre": "Autophagy in ocular health and disease: From mechanistic insights to therapeutic perspectives",
+      "lien": "https://openalex.org/W7223463011",
+      "date_publication": "2026-10-24",
+      "type": "review",
+      "revue": "Experimental Eye Research",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "pubmed"
+      ],
+      "financeurs": null,
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "Changchun University of Chinese Medicine",
+          "pays": "CN",
+          "type": "education",
+          "ror": "https://ror.org/035cyhw15"
+        },
+        {
+          "nom": "Southeast University",
+          "pays": "CN",
+          "type": "education",
+          "ror": "https://ror.org/04ct4d772"
+        },
+        {
+          "nom": "The Affiliated Hospital to Changchun University of Chinese Medicine",
+          "pays": "CN",
+          "type": "education",
+          "ror": "https://ror.org/03ksg3960"
+        },
+        {
+          "nom": "Zhongda Hospital Southeast University",
+          "pays": "CN",
+          "type": "healthcare",
+          "ror": "https://ror.org/01k3hq685"
+        }
+      ],
+      "acces_ouvert": false,
+      "statut_acces": "closed",
+      "url_texte": null,
+      "url_pdf": null,
+      "licence": null,
+      "texte_integral_indexe": false,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Autophagy in Disease and Therapy",
+      "resume_present": false,
+      "mesh": [
+        "Animals",
+        "Autophagy",
+        "Eye Diseases",
+        "Humans"
+      ]
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": []
+  }
+}

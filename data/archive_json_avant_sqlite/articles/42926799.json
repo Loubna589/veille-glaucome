@@ -1,0 +1,111 @@
+{
+  "pmid": "42926799",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42926799",
+    "titre": "Predictive Performance of Polygenic Risk Scores for Primary Open-Angle Glaucoma: A Systematic Review and Meta-Analysis.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42926799/",
+    "doi": "10.1016/j.xops.2026.101405",
+    "pmcid": "PMC13694790",
+    "revue": "Ophthalmology science",
+    "date_entree_pubmed": "2026-10-25",
+    "date_publication": "2026-Nov",
+    "types_publication": [
+      "Journal Article",
+      "Review"
+    ],
+    "resume_present": true,
+    "resume": "PURPOSE: To evaluate the predictive accuracy of polygenic risk scores (PRSs) for primary open-angle glaucoma (POAG) and quantify associations between polygenic burden and POAG risk, predictive performance, and glaucoma-related clinical features.\nDESIGN: Systematic review and meta-analysis.\nMETHODS: The protocol was registered on the International Prospective Register of Systematic Review (CRD420251067047). A systematic search of PubMed identified 161 records; 41 articles underwent full-text review and 14 met inclusion criteria. Eligible studies included adult participants from population-based cohorts, case-control data sets, and randomized or observational designs assessing genetic susceptibility to POAG, with pooled analyses restricted to European-ancestry participants. The exposure was PRS derived from genome-wide association studies; primary outcomes were predictive performance (area under the curve [AUC]) and odds ratios for POAG. Heterogeneity was assessed using the I2 statistic, and subgroup analyses examined PRS construction method and study design as potential sources. Secondary outcomes were associations between PRS and glaucoma-related structural or functional changes. Publication bias was assessed using funnel plots and Egger test, and random-effects models were applied given the substantial heterogeneity.\nRESULTS: Across 14 studies (1 416 665 participants; nominal sum, reduced to approximately 692 000 after collapsing confirmed overlapping cohorts-UK Biobank and the Ocular Hypertension Treatment Study), PRS showed moderate predictive performance: individual study AUCs ranged from 0.65 to 0.82, with a pooled AUC of 0.75 (95% confidence interval [CI], 0.72-0.78; 10 of 14 studies with a usable AUC). Higher PRS was significantly associated with increased POAG risk on the harmonized per-standard deviation‑equivalent scale (pooled odds ratio, 1.70; 95% CI, 1.48-1.95; 9 of 14 studies). No conclusive evidence of publication bias was detected. Between-study heterogeneity was substantial, likely reflecting differences in genetic background, PRS construction, phenotype definitions, and study design; however, effect direction was consistent across studies, and influence diagnostics confirmed the robustness of the findings. Secondary outcomes, including higher intraocular pressure, faster visual field progression, and greater likelihood of glaucoma surgery, were also significantly associated with higher PRS.\nCONCLUSIONS: Polygenic risk score offers moderate but consistent risk stratification for POAG and demonstrates moderate predictive accuracy across diverse study designs. Although PRS shows promise for identifying genetically high-risk individuals earlier, substantial heterogeneity and limited ancestral diversity highlight the need for large-scale, multiethnic validation before PRS can enter routine clinical practice.\nFINANCIAL DISCLOSURES: Proprietary or commercial disclosure may be found in the Footnotes and Disclosures at the end of this article.",
+    "mots_cles_auteurs": [
+      "Glaucoma",
+      "POAG",
+      "PRS",
+      "Polygenic risk score"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 4,
+    "affiliations_auteurs": [
+      "College of Medicine and Public Health, Flinders University, Bedford Park, South Australia, Australia.",
+      "Discipline of Ophthalmology & Visual Sciences, Adelaide University, Adelaide, South Australia, Australia.",
+      "Department of Ophthalmology, University of Illinois Chicago, Chicago, Illinois."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7212172841",
+      "doi": "10.1016/j.xops.2026.101405",
+      "pmid": "42926799",
+      "pmcid": "13694790",
+      "titre": "Predictive Performance of Polygenic Risk Scores for Primary Open-Angle Glaucoma: A Systematic Review and Meta-Analysis",
+      "lien": "https://openalex.org/W7212172841",
+      "date_publication": "2026-09-10",
+      "type": "review",
+      "revue": "Ophthalmology Science",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "doaj",
+        "pubmed"
+      ],
+      "financeurs": null,
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "Flinders University",
+          "pays": "AU",
+          "type": "education",
+          "ror": "https://ror.org/01kpzv902"
+        },
+        {
+          "nom": "University of Illinois Chicago",
+          "pays": "US",
+          "type": "education",
+          "ror": "https://ror.org/02mpq6x41"
+        },
+        {
+          "nom": "Adelaide University",
+          "pays": "AU",
+          "type": "education",
+          "ror": "https://ror.org/028g18b61"
+        },
+        {
+          "nom": "The University of Adelaide",
+          "pays": "AU",
+          "type": "education",
+          "ror": "https://ror.org/00892tw58"
+        }
+      ],
+      "acces_ouvert": true,
+      "statut_acces": "gold",
+      "url_texte": "https://doi.org/10.1016/j.xops.2026.101405",
+      "url_pdf": null,
+      "licence": "cc-by-nc-nd",
+      "texte_integral_indexe": true,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Glaucoma and retinal disorders",
+      "resume_present": true,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": []
+  }
+}

@@ -1,0 +1,146 @@
+{
+  "pmid": "42975183",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42975183",
+    "titre": "Reading disability in glaucoma: A neglected dimension of visual disability.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42975183/",
+    "doi": "10.1111/aos.70264",
+    "pmcid": null,
+    "revue": "Acta ophthalmologica",
+    "date_entree_pubmed": "2026-11-03",
+    "date_publication": "2026-Nov-03",
+    "types_publication": [
+      "Journal Article",
+      "Review"
+    ],
+    "resume_present": true,
+    "resume": "Reading disability is a common and clinically relevant, yet under-recognized, functional impairment in glaucoma, with significant impact on independence, daily activities, and quality of life, particularly in an increasingly digital environment. Reading performance is influenced by a complex interplay of visual field loss, reduced contrast sensitivity, oculomotor dysfunction, and cognitive load. Patients typically exhibit reduced reading speed, increased fixation instability, and altered saccadic patterns, even in the presence of preserved visual acuity. The severity and spatial distribution of visual field defects play a key role in determining impairment, as central and paracentral defects may disrupt fixation and letter recognition, while peripheral loss can impair text navigation and eye movement guidance. Additionally, glaucoma therapies may indirectly contribute to reading impairment through detrimental effects on ocular surface health and overall visual quality. Assessment remains challenging due to the lack of standardized, glaucoma-specific tools. Available tests capture complementary aspects of reading function, while patient-reported outcomes provide insight into perceived disability but only partially address reading. Evidence on interventions is heterogeneous. Assistive devices show the most consistent benefits, whereas rehabilitation strategies and emerging technologies remain insufficiently validated, with particularly limited evidence in glaucoma-specific populations. Reading disability represents a rapid and clinically accessible measure of functional impairment that may complement structural and perimetric assessment in glaucoma. Given its impact on quality of life, independence, and near-vision demands in an increasingly digital world, reading performance should be more regularly evaluated in clinical practice, while a better understanding of the underlying mechanisms may help guide targeted rehabilitation strategies.",
+    "mots_cles_auteurs": [
+      "glaucoma",
+      "low vision",
+      "near vision",
+      "reading",
+      "rehabilitation",
+      "visual disability",
+      "visual field"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 14,
+    "affiliations_auteurs": [
+      "Ophthalmology Clinic, Department of Medicine and Ageing Science, University \"G. d'Annunzio\" of Chieti-Pescara, Chieti, Italy.",
+      "Department of Surgical Sciences, University of Turin, Torino, Italy.",
+      "Ophthalmology, Azienda Ospedaliero-Universitaria di Sassari, Sassari, Italy.",
+      "IRCCS-Fondazione Bietti, Rome, Italy.",
+      "Institute of Clinical Science A, Belfast, UK.",
+      "Vision and Eye Research Institute, School of Medicine, Anglia Ruskin University, Cambridge, UK.",
+      "Ophthalmology Unit, Department of Surgery, Medicine, Molecular and Emergency, University of Pisa, Pisa, Italy.",
+      "Centro Oculistico Italiano, Brescia, Italy.",
+      "Department of Health Sciences, University East Piedmont \"A. Avogadro\", Novara, Italy.",
+      "Ophthalmology Clinic, University \"G. D'Annunzio\" of Chieti-Pescara, Chieti, Italy.",
+      "Department of Neuroscience, Imaging and Clinical Science, G. d'Annunzio, Chieti, Italy.",
+      "Department of Neurosciences, Psychology Drug Research and Child Health (NEUROFARBA), University of Florence, Florence, Italy."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7225159162",
+      "doi": "10.1111/aos.70264",
+      "pmid": "42975183",
+      "pmcid": null,
+      "titre": "Reading disability in glaucoma: A neglected dimension of visual disability",
+      "lien": "https://openalex.org/W7225159162",
+      "date_publication": "2026-11-03",
+      "type": "review",
+      "revue": "Acta Ophthalmologica",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "pubmed"
+      ],
+      "financeurs": null,
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "University of Chieti-Pescara",
+          "pays": "IT",
+          "type": "education",
+          "ror": "https://ror.org/00qjgza05"
+        },
+        {
+          "nom": "University of Turin",
+          "pays": "IT",
+          "type": "education",
+          "ror": "https://ror.org/048tbm396"
+        },
+        {
+          "nom": "Azienda Ospedaliero Universitaria di Sassari",
+          "pays": "IT",
+          "type": "healthcare",
+          "ror": "https://ror.org/01m39hd75"
+        },
+        {
+          "nom": "Fondazione G.B. Bietti",
+          "pays": "IT",
+          "type": "nonprofit",
+          "ror": "https://ror.org/012khpt30"
+        },
+        {
+          "nom": "Anglia Ruskin University",
+          "pays": "GB",
+          "type": "education",
+          "ror": "https://ror.org/0009t4v78"
+        },
+        {
+          "nom": "University of Pisa",
+          "pays": "IT",
+          "type": "education",
+          "ror": "https://ror.org/03ad39j10"
+        },
+        {
+          "nom": "Università degli Studi del Piemonte Orientale “Amedeo Avogadro”",
+          "pays": "IT",
+          "type": "education",
+          "ror": "https://ror.org/04387x656"
+        },
+        {
+          "nom": "University of Florence",
+          "pays": "IT",
+          "type": "education",
+          "ror": "https://ror.org/04jr1s763"
+        }
+      ],
+      "acces_ouvert": true,
+      "statut_acces": "bronze",
+      "url_texte": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/aos.70264",
+      "url_pdf": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/aos.70264",
+      "licence": null,
+      "texte_integral_indexe": true,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Glaucoma and retinal disorders",
+      "resume_present": true,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": []
+  }
+}

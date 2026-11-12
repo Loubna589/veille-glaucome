@@ -1,0 +1,141 @@
+{
+  "pmid": "42768080",
+  "premiere_detection": "2026-09-25",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42768080",
+    "titre": "Endophthalmitis following glaucoma drainage device surgery.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42768080/",
+    "doi": "10.1038/s41433-026-04876-5",
+    "pmcid": null,
+    "revue": "Eye (London, England)",
+    "date_entree_pubmed": "2026-09-21",
+    "date_publication": "2026-Sep-21",
+    "types_publication": [
+      "Journal Article"
+    ],
+    "resume_present": true,
+    "resume": "BACKGROUND: To evaluate the risk of endophthalmitis in glaucoma patients undergoing glaucoma drainage device (GDD) surgery.\nMETHODS: This retrospective cohort study identified glaucoma patients utilising TriNetX's database who underwent GDD between 2004 and 2024 without a prior history of glaucoma surgery. Kaplan-Meier survival analysis estimated the cumulative incidence of endophthalmitis and a Cox proportional hazards model, adjusted for demographic and clinical covariates, was used to calculate adjusted hazard ratios (aHRs) and confidence intervals (CIs) comparing outcomes between patients who underwent tube shunt surgery versus trabeculectomy. A scleral buckle (SB) cohort was added as a second comparator to GDD to contextualise infection risk related to hardware without bleb formation.\nRESULTS: The GDD cohort included 12,849 patients (mean age 62.7 ± 19 years), compared with 9,006 trabeculectomy patients (67.9 ± 14.1) and 3,097 SB patients (45.1 ± 18.7). After GDD surgery, the cumulative incidence of endophthalmitis was 0.82% at 1, 1.57% at 3 and 1.87% at 5 years, compared with 0.47%, 0.78% and 0.96% following trabeculectomy and 0.19%, 0.23% and 0.39% following SB. In Cox models, there was no significant difference in hazard between GDD and trabeculectomy at any timepoint. However, GDD was associated with higher risk than SB at 30 days (aHR 5.43, CI: 1.28-23.08, 1 year (aHR 3.36, 95% CI 1.88-5.99) and 5 years (aHR 3.71, 95% CI 2.40-5.73).\nCONCLUSION: Endophthalmitis is an uncommon but persistent risk after GDD surgery. Although long-term risk was comparable between GDD and trabeculectomy, GDD implantation carried a higher risk than SB.",
+    "mots_cles_auteurs": null,
+    "langue": "eng",
+    "nombre_auteurs": 10,
+    "affiliations_auteurs": [
+      "Department of Ophthalmology, Harvey and Bernice Jones Eye Institute, University of Arkansas for Medical Sciences, Little Rock, AR, USA. amelhusseiny@uams.edu.",
+      "Department of Ophthalmology, Bascom Palmer Eye Institute, University of Miami, Miami, FL, USA. amelhusseiny@uams.edu.",
+      "Department of Ophthalmology, Boston Children's Hospital, Harvard Medical School, Boston, MA, USA. amelhusseiny@uams.edu.",
+      "University of Illinois College of Medicine, Chicago, IL, USA.",
+      "Department of Ophthalmology, Harvey and Bernice Jones Eye Institute, University of Arkansas for Medical Sciences, Little Rock, AR, USA.",
+      "Department of Ophthalmology, Hamad Medical Corporation, Doha, Qatar.",
+      "Department of Ophthalmology and Visual Sciences, University of Arizona College of Medicine, Phoenix, AZ, USA.",
+      "School of Medicine, Texas A&M University, Houston, TX, USA.",
+      "Department of Ophthalmology, Bascom Palmer Eye Institute, University of Miami, Miami, FL, USA.",
+      "Department of Ophthalmology, Bascom Palmer Eye Institute, University of Miami, Miami, FL, USA. t.chang@med.miami.edu."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7213956849",
+      "doi": "10.1038/s41433-026-04876-5",
+      "pmid": "42768080",
+      "pmcid": null,
+      "titre": "Endophthalmitis following glaucoma drainage device surgery",
+      "lien": "https://openalex.org/W7213956849",
+      "date_publication": "2026-09-21",
+      "type": "article",
+      "revue": "Eye",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "pubmed"
+      ],
+      "financeurs": null,
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "Boston Children's Hospital",
+          "pays": "US",
+          "type": "healthcare",
+          "ror": "https://ror.org/00dvg7y05"
+        },
+        {
+          "nom": "University of Miami",
+          "pays": "US",
+          "type": "education",
+          "ror": "https://ror.org/02dgjyy92"
+        },
+        {
+          "nom": "University of Arkansas for Medical Sciences",
+          "pays": "US",
+          "type": "education",
+          "ror": "https://ror.org/00xcryt71"
+        },
+        {
+          "nom": "Illinois College",
+          "pays": "US",
+          "type": "education",
+          "ror": "https://ror.org/02ys5x139"
+        },
+        {
+          "nom": "University of Illinois Chicago",
+          "pays": "US",
+          "type": "education",
+          "ror": "https://ror.org/02mpq6x41"
+        },
+        {
+          "nom": "Hamad Medical Corporation",
+          "pays": "QA",
+          "type": "nonprofit",
+          "ror": "https://ror.org/02zwb6n98"
+        },
+        {
+          "nom": "University of Arizona",
+          "pays": "US",
+          "type": "education",
+          "ror": "https://ror.org/03m2x1q45"
+        },
+        {
+          "nom": "Texas A&M University",
+          "pays": "US",
+          "type": "education",
+          "ror": "https://ror.org/01f5ytq51"
+        },
+        {
+          "nom": "Miami Transplant Institute",
+          "pays": "US",
+          "type": "healthcare",
+          "ror": "https://ror.org/05cpqsp49"
+        }
+      ],
+      "acces_ouvert": false,
+      "statut_acces": "closed",
+      "url_texte": null,
+      "url_pdf": null,
+      "licence": null,
+      "texte_integral_indexe": false,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Ocular Infections and Treatments",
+      "resume_present": false,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-09-25",
+    "financements": []
+  }
+}

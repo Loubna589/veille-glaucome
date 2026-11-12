@@ -1,0 +1,105 @@
+{
+  "pmid": "42994799",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42994799",
+    "titre": "A Teleglaucoma Screening System for Individuals at Risk of Open-Angle Glaucoma: Long-Term Clinical Outcomes and Comparative Cost Analysis.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42994799/",
+    "doi": "10.1016/j.ogla.2026.10.006",
+    "pmcid": null,
+    "revue": "Ophthalmology. Glaucoma",
+    "date_entree_pubmed": "2026-11-06",
+    "date_publication": "2026-Nov-06",
+    "types_publication": [
+      "Journal Article"
+    ],
+    "resume_present": true,
+    "resume": "PURPOSE: To evaluate the clinical effectiveness and economic impact of a teleglaucoma screening program for individuals at increased risk of developing open-angle glaucoma (OAG).\nDESIGN: Prospective cohort study with retrospective evaluation of long-term clinical outcomes and comparative cost analysis.\nPARTICIPANTS: Consecutive individuals with risk factors for OAG enrolled in a teleglaucoma screening program between 2020 and 2022.\nMETHODS: A targeted teleglaucoma screening program was implemented within the Donostialdea Integrated Healthcare Organization (Gipuzkoa, Spain). Consecutive individuals with risk factors for OAG were included. The teleglaucoma assessment included best-corrected visual acuity, non-contact tonometry, pachymetry, and peripapillary retinal nerve fiber layer optical coherence tomography (pRNFL-OCT), performed by an optometrist and reviewed asynchronously by glaucoma specialists. Findings consistent with glaucoma or suspicious for glaucoma were considered positive screening results, whereas ocular hypertension (OHT) or the absence of abnormalities were considered negative screening results. Clinical effectiveness was evaluated through analysis of glaucoma-related diagnoses recorded using ICD-10 codes during a five-year follow-up period. A comparative cost analysis was conducted from a societal perspective. Patient satisfaction was assessed using the Client Satisfaction Questionnaire (CSQ-8).\nMAIN OUTCOMES MEASURES: Agreement between teleglaucoma classifications and glaucoma-related ICD-10 diagnoses recorded during follow-up, diagnostic performance indicators, patient satisfaction, and costs.\nRESULTS: A total of 1,112 patients were included (mean age 60.2 years), of whom 63.1% were women. Positive screening results were identified in 8.2% of participants. Overall agreement between the teleglaucoma assessment and follow-up ICD-10 diagnoses was 92.6%, with a mean follow-up of 3.7 ± 0.8 years. Sensitivity was 64.5%, specificity 93.4%, and negative predictive value 98.9%. Patient satisfaction was high, with a mean score of 8.5/10. The economic analysis demonstrated a 50% reduction in total costs compared with conventional care, with a cost per patient of €40.7 versus €81.2.\nCONCLUSIONS: The teleglaucoma system demonstrated a high ability to rule out disease among individuals at risk of glaucoma, reduced costs and achieved high patient satisfaction. However, moderate sensitivity and the use of coded clinical records as the reference standard should be considered.",
+    "mots_cles_auteurs": [
+      "Cost Analysis",
+      "Teleglaucoma",
+      "glaucoma screening",
+      "ocular hypertension",
+      "teleophthalmology"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 6,
+    "affiliations_auteurs": [
+      "Hospital Universitario Donostia, San Sebastian, Spain.",
+      "Department of Cell Biology and Histology, University of the Basque Country, Leioa, Spain.",
+      "Biogipuzkoa Health Research Institute, Gipuzkoa, Spain.",
+      "Hospital Universitario Donostia, San Sebastian, Spain. Electronic address: ira@icqo.org."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7225461982",
+      "doi": "10.1016/j.ogla.2026.10.006",
+      "pmid": "42994799",
+      "pmcid": null,
+      "titre": "A Teleglaucoma Screening System for Individuals at Risk of Open-Angle Glaucoma: Long-Term Clinical Outcomes and Comparative Cost Analysis",
+      "lien": "https://openalex.org/W7225461982",
+      "date_publication": "2026-11-01",
+      "type": "article",
+      "revue": "Ophthalmology Glaucoma",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "pubmed"
+      ],
+      "financeurs": null,
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "Donostiako Unibertsitate Ospitalea",
+          "pays": "ES",
+          "type": "healthcare",
+          "ror": "https://ror.org/04fkwzm96"
+        },
+        {
+          "nom": "University of the Basque Country",
+          "pays": "ES",
+          "type": "education",
+          "ror": "https://ror.org/000xsnr85"
+        },
+        {
+          "nom": "Biogipuzkoa Health Research Institute",
+          "pays": "ES",
+          "type": "facility",
+          "ror": "https://ror.org/01a2wsa50"
+        }
+      ],
+      "acces_ouvert": false,
+      "statut_acces": "closed",
+      "url_texte": null,
+      "url_pdf": null,
+      "licence": null,
+      "texte_integral_indexe": false,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Glaucoma and retinal disorders",
+      "resume_present": false,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": []
+  }
+}

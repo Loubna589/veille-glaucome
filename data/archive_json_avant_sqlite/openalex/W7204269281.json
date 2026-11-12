@@ -1,0 +1,51 @@
+{
+  "openalex_id": "W7204269281",
+  "premiere_detection": "2026-09-25",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "openalex_id": "W7204269281",
+    "doi": "10.65636/cjo.v75i3.7300",
+    "pmid": null,
+    "pmcid": null,
+    "titre": "Enantiomorphic Glaucoma Displayed in Monozygotic Twins",
+    "lien": "https://openalex.org/W7204269281",
+    "date_publication": "2026-08-26",
+    "type": "article",
+    "revue": "Canadian journal of optometry/CJO. Canadian journal of optometry",
+    "type_source": "journal",
+    "langue": null,
+    "indexe_dans": [
+      "crossref"
+    ],
+    "financeurs": null,
+    "subventions": null,
+    "institutions": null,
+    "acces_ouvert": true,
+    "statut_acces": "diamond",
+    "url_texte": "https://doi.org/10.65636/cjo.v75i3.7300",
+    "url_pdf": null,
+    "licence": "cc-by-nc-nd",
+    "texte_integral_indexe": false,
+    "retracte": false,
+    "citations": 0,
+    "sujet_principal": "Glaucoma and retinal disorders",
+    "resume_present": true,
+    "resume": "Background: Numerous theories exist about the etiology of glaucoma and various forms of research, including twin studies, are conducted to provide answers. Twin studies are an exceptional method of examining the genetic and environmental influences on primary open-angle glaucoma (POAG) since comparison of monozygotic and dizygotic twins can infer a genetic causative factor. Case Report: A pair of monozygotic twins revealed strikingly similar examination results with the eventual diagnosis of POAG. Visual fields and fundus photography revealed enantiomorphic, or mirror image, likeness. The right eye of twin one (T1) and the left eye of twin two (T2) displayed a repeatable inferior arcuate defect and retinal nerve fiber layer defects (RNFL). Conclusion: An obvious genetic link within POAG is demonstrated by these twins. A dual case presentation will be described and a conclusion of the genetic backbone of glaucoma will be presented with supporting research. These studies provide information on genes responsible for POAG, environmental factors inducing POAG, and more insight for clinicians and patients so that better treatments may evolve in the future.",
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "present_dans_pubmed": false
+  }
+}

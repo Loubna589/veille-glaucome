@@ -1,0 +1,96 @@
+{
+  "pmid": "42769470",
+  "premiere_detection": "2026-09-25",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42769470",
+    "titre": "Association of serum TIM-3 and Galectin-9 levels with glaucoma progression: implications for clinical monitoring.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42769470/",
+    "doi": "10.62347/HUVJ6501",
+    "pmcid": "PMC13590988",
+    "revue": "American journal of translational research",
+    "date_entree_pubmed": "2026-09-22",
+    "date_publication": "2026",
+    "types_publication": [
+      "Journal Article"
+    ],
+    "resume_present": true,
+    "resume": "BACKGROUND: Primary open-angle glaucoma (POAG) causes irreversible blindness via retinal ganglion cell loss. Neuroinflammation and immune dysfunction drive its progression, yet the role of the TIM-3/Galectin-9 axis remains unclear.\nOBJECTIVE: To investigate the association of serum soluble TIM-3 (sTIM-3) and Galectin-9 levels with the progression of primary open-angle glaucoma (POAG).\nMETHODS: This retrospective analysis enrolled POAG patients from our ophthalmology department (January 2022-December 2024). After a minimum 12-month follow-up, participants were categorized as progression or stable based on visual field and optical coherence tomography (OCT) assessments. Healthy controls were age/sex-matched. Recorded clinical variables included IOP, CCT, visual fields, and OCT measures. Baseline concentrations of sTIM-3 and Galectin-9 in serum were determined by ELISA. Multivariate logistic regression assessed independent links between these markers and disease progression, supplemented by trend tests, E-value calculations, and subgroup analyses.\nRESULTS: The study included 120 POAG patients (52 progression, 68 stable) and 60 healthy controls. Baseline measures were balanced across groups. Both sTIM-3 and Galectin-9 were significantly elevated in progression relative to stable patients and controls (all P < 0.001). Multivariate logistic regression identified sTIM-3 (OR = 2.14, P = 0.004) and Galectin-9 (OR = 3.39, P < 0.001) as independent factors linked to disease progression. Trend analyses revealed dose-response patterns (P for trend = 0.015 and 0.004, respectively). These findings were further corroborated by E-value and subgroup analyses, supporting their robustness.\nCONCLUSIONS: Higher baseline sTIM-3 and Galectin-9 levels correlate independently with POAG progression risk, showing a dose-response pattern. These biomarkers may serve as adjunctive references for risk stratification, although their utility warrants prospective validation with longitudinal sampling.",
+    "mots_cles_auteurs": [
+      "E value",
+      "Galectin-9",
+      "Primary open angle glaucoma",
+      "analysis of association",
+      "serum sTIM-3"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 5,
+    "affiliations_auteurs": [
+      "Department of Ophthalmology, The First Affiliated Hospital of Lishui University, Lishui People's Hospital Lishui 323000, Zhejiang, China."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7211964365",
+      "doi": "10.62347/huvj6501",
+      "pmid": "42769470",
+      "pmcid": null,
+      "titre": "Association of serum TIM-3 and Galectin-9 levels with glaucoma progression: implications for clinical monitoring",
+      "lien": "https://openalex.org/W7211964365",
+      "date_publication": "2026-01-01",
+      "type": "article",
+      "revue": "American Journal of Translational Research",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "pubmed"
+      ],
+      "financeurs": null,
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "Lishui University",
+          "pays": "CN",
+          "type": "education",
+          "ror": "https://ror.org/0418kp584"
+        },
+        {
+          "nom": "Lishui City People's Hospital",
+          "pays": "CN",
+          "type": "healthcare",
+          "ror": "https://ror.org/028yz2737"
+        }
+      ],
+      "acces_ouvert": true,
+      "statut_acces": "bronze",
+      "url_texte": "https://doi.org/10.62347/huvj6501",
+      "url_pdf": "https://doi.org/10.62347/huvj6501",
+      "licence": null,
+      "texte_integral_indexe": true,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Galectins and Cancer Biology",
+      "resume_present": true,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-09-25",
+    "financements": []
+  }
+}

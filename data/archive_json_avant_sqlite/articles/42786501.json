@@ -1,0 +1,84 @@
+{
+  "pmid": "42786501",
+  "premiere_detection": "2026-09-25",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42786501",
+    "titre": "Resveratrol attenuates diabetic RGC degeneration through TRIM23-dependent VDAC1 ubiquitination and mitophagy.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42786501/",
+    "doi": "10.1186/s12964-026-03105-6",
+    "pmcid": null,
+    "revue": "Cell communication and signaling : CCS",
+    "date_entree_pubmed": "2026-09-25",
+    "date_publication": "2026-Jul-24",
+    "types_publication": [
+      "Journal Article"
+    ],
+    "resume_present": true,
+    "resume": "BACKGROUND: Retinal ganglion cells (RGCs) degeneration is an early event in diabetic retinopathy (DR), tightly coupled to mitochondrial dysfunction. While the mitochondrial gatekeeper voltage-dependent anion channel 1(VDAC1) is a known mediator of apoptosis, its regulation and therapeutic targeting in diabetic RGCs remain unclear.\nMETHODS: We examined VDAC1 expression in human donor retinas, streptozotocin-induced diabetic mice, and high glucose-treated SH-SY5Y cells. VDAC1-knockdown SH-SY5Y cells were established to explore its functional role in the context. Using virtual screening and molecular docking, we identified resveratrol (RSV) as a potential VDAC1 inhibitor, which was further validated by surface plasmon resonance binding assays and RSV-based pull-down experiments. The effects of RSV were assessed by RGCs survival, retinal electrophysiological function, and mitochondrial quality control. Tripartite motif-containing 23 (TRIM23)-VDAC1 interaction along with ubiquitination modifications were confirmed by co-immunoprecipitation. Finally, combination therapy involving RSV and adeno-associated virus serotype 2 (AAV2) carrying the γ-synuclein (SNCG) promoter mediated Trim23 overexpression was applied in both DR and acute ocular hypertension (AOH) animal models.\nRESULTS: VDAC1 was upregulated in diabetic RGCs, and its knockdown was protective. We further discovered that RSV recruits the E3 ligase TRIM23 to VDAC1, inducing a K27-linked ubiquitination switch that promotes mitophagy instead of apoptosis. We propose that RSV binding acts as an allosteric switch, reconfiguring VDAC1 to favor this protective ubiquitination pathway. Consequently, RSV restored mitochondrial health and RGCs viability. Therapeutically, enhancing this axis via RSV and RGCs-targeted Trim23 overexpression synergistically protected against RGCs loss in both DR and AOH models.\nCONCLUSION: Our study unveils a pharmacologically inducible switch wherein RSV, via direct VDAC1 binding, redirects its function toward TRIM23-mediated K27-linked ubiquitination and mitophagy. The TRIM23-VDAC1 allosteric axis represents a novel therapeutic paradigm for neuroprotective intervention in DR and beyond.",
+    "mots_cles_auteurs": [
+      "Diabetic retinopathy",
+      "Mitophagy",
+      "Resveratrol",
+      "Retinal ganglion cells",
+      "VDAC1"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 10,
+    "affiliations_auteurs": [
+      "Department of Ophthalmology, Tongji Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, China.",
+      "Hubei Key Laboratory of Otolaryngologic and Ophthalmic Diseases, Tongji Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, China.",
+      "Key Laboratory of Vascular ageing, Ministry of Education, Tongji Hospital of Tongji Medical College, Huazhong University of Science and Technology, Wuhan, China.",
+      "Department of Geriatrics, Tongji Hospital of Tongji Medical College, Huazhong University of Science and Technology, Wuhan, China.",
+      "Department of Ophthalmology, Tongji Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, China. zhaoyin85@hust.edu.cn.",
+      "Hubei Key Laboratory of Otolaryngologic and Ophthalmic Diseases, Tongji Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, China. zhaoyin85@hust.edu.cn.",
+      "Key Laboratory of Vascular ageing, Ministry of Education, Tongji Hospital of Tongji Medical College, Huazhong University of Science and Technology, Wuhan, China. zhaoyin85@hust.edu.cn.",
+      "Department of Ophthalmology, Tongji Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, China. sunxufang2016@163.com.",
+      "Hubei Key Laboratory of Otolaryngologic and Ophthalmic Diseases, Tongji Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, China. sunxufang2016@163.com.",
+      "Key Laboratory of Vascular ageing, Ministry of Education, Tongji Hospital of Tongji Medical College, Huazhong University of Science and Technology, Wuhan, China. sunxufang2016@163.com."
+    ],
+    "financeurs_declares": [
+      {
+        "organisme": "National Key Research and Development Program of China",
+        "pays": "",
+        "reference": "2024YFC2510803"
+      },
+      {
+        "organisme": "National Natural Science Foundation of China",
+        "pays": "",
+        "reference": "82471103"
+      }
+    ],
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": [
+      "Voltage-Dependent Anion Channel 1",
+      "Animals",
+      "Humans",
+      "Resveratrol",
+      "Retinal Ganglion Cells",
+      "Ubiquitination",
+      "Mitophagy",
+      "Ubiquitin-Protein Ligases",
+      "Mice",
+      "Male",
+      "Diabetes Mellitus, Experimental",
+      "Diabetic Retinopathy",
+      "Mice, Inbred C57BL"
+    ]
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": null,
+      "hors_veille_principale": false
+    }
+  }
+}

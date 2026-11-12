@@ -1,0 +1,144 @@
+{
+  "pmid": "42984555",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42984555",
+    "titre": "Granulomatosis with polyangiitis masquerading as lung cancer with meningeal metastasis: a case report and literature review.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42984555/",
+    "doi": "10.3389/fmed.2026.1970702",
+    "pmcid": "PMC13730870",
+    "revue": "Frontiers in medicine",
+    "date_entree_pubmed": "2026-11-05",
+    "date_publication": "2026",
+    "types_publication": [
+      "Case Reports",
+      "Journal Article"
+    ],
+    "resume_present": true,
+    "resume": "BACKGROUND: Granulomatosis with polyangiitis (GPA) is an anti-neutrophil cytoplasmic antibody (ANCA)-associated small-vessel vasculitis classically presenting with upper and lower respiratory tract and renal involvement. Central nervous system (CNS) involvement in GPA is rare and is highly prone to being misdiagnosed as intracranial tumor metastasis or intracranial infection.\nCASE REPORT: We report a 60-year-old female who presented with recurrent headache and conjunctival injection. She had undergone two surgical procedures for \"glaucoma\" at an outside hospital without headache relief. Upon admission to our hospital, chest CT revealed multiple bilateral pulmonary nodules, highly suspicious for lung cancer; brain MRI showed dural thickening with subdural effusion; lumbar puncture revealed an intracranial pressure (ICP) of 270 mmH₂O, with negative CSF cultures and no tumor cells. The initial diagnosis was leptomeningeal metastasis from lung cancer. However, percutaneous lung biopsy showed no evidence of tumor or infection, and serology revealed positive c-ANCA/PR3-ANCA, leading to a final diagnosis of GPA with clinicoradiologically supported GPA-related pachymeningitis. After glucocorticoid therapy, the patient's headache and other symptoms resolved rapidly.\nLITERATURE REVIEW: We reviewed 33 published cases of GPA with cranial involvement and summarized their clinical features. Hypertrophic pachymeningitis (HP) was the most common cranial manifestation (51.5%). Serum ANCA positivity was 87.9% (29/33). Among all 33 cases, c-ANCA/PR3-ANCA was reported in 23 (69.7%); among the 29 ANCA-positive cases, c-ANCA/PR3-ANCA accounted for 79.3% (23/29). After immunosuppressive or immunomodulatory therapy, approximately 90.9% of patients improved or stabilized. These features may serve as clues that should prompt clinicians to consider GPA in the differential diagnosis of pulmonary nodules with pachymeningeal disease and raised intracranial pressure, rather than as established discriminators from lung cancer brain metastasis.\nCONCLUSION: GPA can present with multiple pulmonary masses, headache, and pachymeningitis, closely mimicking leptomeningeal metastasis of lung cancer. When imaging and clinical presentation are atypical, serum ANCA testing and pathological biopsy are key to differential diagnosis. Clinicians should be alert to this \"mimic of malignancy\" to avoid unnecessary surgery or radiotherapy.",
+    "mots_cles_auteurs": [
+      "anti-neutrophil cytoplasmic antibody",
+      "differential diagnosis",
+      "granulomatosis with polyangiitis",
+      "hypertrophic pachymeningitis",
+      "pulmonary mass"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 10,
+    "affiliations_auteurs": [
+      "Department of Neurology, Fuzong Clinical Medical College of Fujian Medical University, Fuzhou, Fujian, China.",
+      "Department of Neurology, 900th Hospital of PLA Joint Logistic Support Force, Fuzhou, Fujian, China.",
+      "Department of Oncology, Fuzong Clinical Medical College of Fujian Medical University, Fuzhou, Fujian, China.",
+      "Department of Oncology, 900th Hospital of PLA Joint Logistic Support Force, Fuzhou, Fujian, China."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7223084355",
+      "doi": "10.3389/fmed.2026.1970702",
+      "pmid": "42984555",
+      "pmcid": "13730870",
+      "titre": "Granulomatosis with polyangiitis masquerading as lung cancer with meningeal metastasis: a case report and literature review",
+      "lien": "https://openalex.org/W7223084355",
+      "date_publication": "2026-10-21",
+      "type": "article",
+      "revue": "Frontiers in Medicine",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "doaj",
+        "pubmed"
+      ],
+      "financeurs": [
+        {
+          "nom": "National Natural Science Foundation of China",
+          "ror": "https://ror.org/01h0zpd94"
+        },
+        {
+          "nom": "Natural Science Foundation of Fujian Province",
+          "ror": null
+        }
+      ],
+      "subventions": [
+        {
+          "financeur": "Natural Science Foundation of Fujian Province",
+          "reference": "2026J0011419"
+        }
+      ],
+      "institutions": [
+        {
+          "nom": "Fujian Medical University",
+          "pays": "CN",
+          "type": "education",
+          "ror": "https://ror.org/050s6ns64"
+        }
+      ],
+      "acces_ouvert": true,
+      "statut_acces": "gold",
+      "url_texte": "https://www.frontiersin.org/journals/medicine/articles/10.3389/fmed.2026.1970702/pdf",
+      "url_pdf": "https://www.frontiersin.org/journals/medicine/articles/10.3389/fmed.2026.1970702/pdf",
+      "licence": "cc-by",
+      "texte_integral_indexe": true,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Vasculitis and related conditions",
+      "resume_present": true,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": [
+      {
+        "nom": "National Natural Science Foundation of China",
+        "statut": "À VÉRIFIER — trouvé par OpenAlex seulement (l'éditeur n'a déclaré aucun financeur dans Crossref) ; à contrôler dans le texte de l'article",
+        "references": null,
+        "notices": [
+          [
+            "notice OpenAlex",
+            "https://api.openalex.org/works/W7223084355"
+          ],
+          [
+            "notice Crossref consultée (ne confirme pas ce financeur)",
+            "https://api.crossref.org/works/10.3389/fmed.2026.1970702"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "Natural Science Foundation of Fujian Province",
+        "statut": "À VÉRIFIER — trouvé par OpenAlex seulement (l'éditeur n'a déclaré aucun financeur dans Crossref) ; à contrôler dans le texte de l'article",
+        "references": [
+          "2026J0011419"
+        ],
+        "notices": [
+          [
+            "notice OpenAlex",
+            "https://api.openalex.org/works/W7223084355"
+          ],
+          [
+            "notice Crossref consultée (ne confirme pas ce financeur)",
+            "https://api.crossref.org/works/10.3389/fmed.2026.1970702"
+          ]
+        ],
+        "note": null
+      }
+    ]
+  }
+}

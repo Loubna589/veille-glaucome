@@ -1,0 +1,118 @@
+{
+  "nct": "NCT06128720",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "nct": "NCT06128720",
+    "titre": "Hyperbaric Oxygen Therapy for Optic Neuropathies",
+    "titre_officiel": "A Randomized, Sham Controlled, Masked Phase II Study to Evaluate the Neuroprotective Effect of Hyperbaric Oxygen Therapy on Optic Neuropathy",
+    "lien": "https://clinicaltrials.gov/study/NCT06128720",
+    "date_premiere_publication": "2023-11-13",
+    "date_derniere_mise_a_jour": "2026-10-09",
+    "type_etude": "INTERVENTIONAL",
+    "phases_declarees": [
+      "NA"
+    ],
+    "statut": "RECRUITING",
+    "raison_arret": null,
+    "date_debut": "2022-11-01",
+    "date_fin_principale": "2028-06",
+    "promoteur": "Stanford University",
+    "type_promoteur": "OTHER",
+    "collaborateurs": null,
+    "conditions": [
+      "Optic Neuropathy",
+      "Glaucoma"
+    ],
+    "interventions": [
+      {
+        "type": "DEVICE",
+        "nom": "Hyperbaric Oxygen"
+      },
+      {
+        "type": "DEVICE",
+        "nom": "Sham Hyperbaric Oxygen"
+      }
+    ],
+    "participants_nombre": 60,
+    "participants_type": "ESTIMATED",
+    "criteres_principaux": [
+      {
+        "critere": "Change in Visual Field- Mean Deviation",
+        "delai": "Baseline through 6 months"
+      },
+      {
+        "critere": "Change in Visual Field- Visual Field Index",
+        "delai": "Baseline through 6 months"
+      }
+    ],
+    "resultats_deposes": false,
+    "publications_declarees": null,
+    "resume_source": "The purpose of the study is to evaluate the neuroprotective efficacy of hyperbaric oxygen for the treatment in patients with optic neuropathy.",
+    "citations_declarees": null,
+    "plan": {
+      "repartition": "RANDOMIZED",
+      "modele": "PARALLEL",
+      "but_principal": "TREATMENT",
+      "insu": "SINGLE",
+      "insu_pour": [
+        "PARTICIPANT"
+      ],
+      "insu_description": null,
+      "modele_observationnel": null
+    },
+    "bras": [
+      {
+        "libelle": "Open Label",
+        "type": "EXPERIMENTAL",
+        "description": "Participants will get Hyperbaric oxygen therapy for 20 days to determine best methods for full trial.",
+        "interventions": [
+          "Device: Hyperbaric Oxygen"
+        ]
+      },
+      {
+        "libelle": "Active Hyperbaric Oxygen",
+        "type": "EXPERIMENTAL",
+        "description": "Participants will get Hyperbaric oxygen therapy for 20 days.",
+        "interventions": [
+          "Device: Hyperbaric Oxygen"
+        ]
+      },
+      {
+        "libelle": "Sham Hyperbaric Oxygen",
+        "type": "PLACEBO_COMPARATOR",
+        "description": "Participants will get a Sham Hyperbaric oxygen therapy for 20 days",
+        "interventions": [
+          "Device: Sham Hyperbaric Oxygen"
+        ]
+      }
+    ],
+    "eligibilite": {
+      "criteres": "Inclusion Criteria:\n\n* Patients must meet all of the following criteria to join the study (all eligibility criteria must be met at the screening and baseline visits unless otherwise noted):\n* Participant must be at least 18.\n* Participant must has the ability to comply with the requirements of the study and complete the schedule of events (SOE).\n* Participant's with clinical evidence of optic neuropathy.\n* Participant must understand and sign the informed consent. If the participant's vision is impaired to the point where he/she cannot read the informed consent document, the document will be read to the participant in its entirety.\n\nExclusion Criteria:\n\n* Participant is unable to comply with study procedures or follow-up visits.\n* Participant has evidence of corneal opacification or lack of optical clarity.\n* Participant is currently participating in or has within the last 3 months participated in any other clinical trial of a drug by ocular (if in the study eye) or systemic administration.\n* Participant is pregnant or lactating.\n* Participant has, in the opinion of the investigator, any physical or mental condition that would increase the risk of participation in the study or may interfere with the study procedures, evaluations and outcome assessments.\n* Children and comatose patients.\n* Participant abusing drugs or alcohol.\n* Prior treatment with hyperbaric oxygen within the last 6 months.\n* Participant with claustrophobia or that cannot decompress properly.",
+      "age_min": "18 Years",
+      "age_max": null,
+      "sexe": "ALL",
+      "volontaires_sains": false
+    },
+    "criteres_secondaires": [
+      {
+        "critere": "Change in Average Thickness Ganglion Cell Complex on Optical Coherence Tomography",
+        "delai": "Baseline through 6 months"
+      },
+      {
+        "critere": "Change in Average Thickness Retinal Nerve Fiber Layer on Optical Coherence Tomography",
+        "delai": "Baseline through 6 months"
+      }
+    ],
+    "responsables": [
+      {
+        "nom": "Jeffrey L Goldberg, MD PhD",
+        "affiliation": "Stanford University",
+        "role": "STUDY_CHAIR"
+      }
+    ],
+    "date_depot_resultats": null,
+    "resultats": null
+  },
+  "modifications": []
+}

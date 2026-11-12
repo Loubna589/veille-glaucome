@@ -1,0 +1,95 @@
+{
+  "pmid": "42828097",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42828097",
+    "titre": "Paul glaucoma implant extrusion following post-surgical scleritis in patients with uveitic glaucoma: A case series.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42828097/",
+    "doi": "10.1016/j.ajoc.2026.102662",
+    "pmcid": "PMC13631603",
+    "revue": "American journal of ophthalmology case reports",
+    "date_entree_pubmed": "2026-10-03",
+    "date_publication": "2026-Dec",
+    "types_publication": [
+      "Case Reports",
+      "Journal Article"
+    ],
+    "resume_present": true,
+    "resume": "PURPOSE: This report describes two cases of plate exposure and severe extrusion of the Paul Glaucoma Implant (PGI) following post-surgical exacerbation of scleritis. Additionally, it outlines the management approach used to control ocular inflammation and perform explantation, including exchange to a Preserflo MicroShunt in one of the cases.\nOBSERVATIONS: Two females receiving systemic immunosuppression developed exacerbation of scleritis 7 and 5 months post PGI implantation. One patient demonstrated scleral melt and conjunctival thinning beneath the large PGI plate. Both patients received maximum doses of systemic corticosteroids and mycophenolate mofetil to control ocular inflammation. Owing to the high risk of infection and re-exposure, each patient underwent PGI explantation. In one case, a Preserflo MicroShunt was implanted during the same surgical session to minimize conjunctival manipulation and maintain long-term intraocular pressure control, which remained stable for more than a year.\nCONCLUSIONS: Surgically induced scleral necrosis occurs in patients following glaucoma drainage device surgery, even in patients already receiving systemic corticosteroids and steroid-sparing immunomodulators. In these cases, inflammation may progress silently beneath the glaucoma drainage device plate until scleral melt and conjunctiva damage become evident intraoperatively. Early recognition of scleritis exacerbation and prompt escalation of systemic immunosuppression are essential, and explantation may be required when structural integrity is compromised.",
+    "mots_cles_auteurs": [
+      "Extrusion",
+      "Glaucoma drainage implants",
+      "Paul glaucoma implant",
+      "Postoperative scleritis",
+      "Scleral necrosis",
+      "microshunt management strategies"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 6,
+    "affiliations_auteurs": [
+      "Glaucoma Division, Department of Ophthalmology, King Khalid Eye Specialist Hospital and Research Center, P.O. Box 7191, Riyadh, 11462, Saudi Arabia.",
+      "Research Department, King Khalid Eye Specialist Hospital and Research Center, P.O. Box 7191, Riyadh, 11462, Saudi Arabia.",
+      "Retina Division, Department of Ophthalmology, King Khalid Eye Specialist Hospital and Research Center, P.O. Box 7191, Riyadh, 11462, Saudi Arabia."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7212578260",
+      "doi": "10.1016/j.ajoc.2026.102662",
+      "pmid": "42828097",
+      "pmcid": "13631603",
+      "titre": "Paul glaucoma implant extrusion following post-surgical scleritis in patients with uveitic glaucoma: A case series",
+      "lien": "https://openalex.org/W7212578260",
+      "date_publication": "2026-09-14",
+      "type": "article",
+      "revue": "American Journal of Ophthalmology Case Reports",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "doaj",
+        "pubmed"
+      ],
+      "financeurs": null,
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "King Khaled Eye Specialist Hospital",
+          "pays": "SA",
+          "type": "healthcare",
+          "ror": "https://ror.org/00zrhbg82"
+        }
+      ],
+      "acces_ouvert": true,
+      "statut_acces": "gold",
+      "url_texte": "https://www.sciencedirect.com/science/article/pii/S2451993626001507/pdf",
+      "url_pdf": "https://www.sciencedirect.com/science/article/pii/S2451993626001507/pdf",
+      "licence": "cc-by-nc-nd",
+      "texte_integral_indexe": true,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Glaucoma and retinal disorders",
+      "resume_present": true,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": []
+  }
+}

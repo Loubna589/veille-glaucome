@@ -1,0 +1,91 @@
+{
+  "pmid": "42956502",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42956502",
+    "titre": "Analysis of risk factors for glaucoma associated with environmental persistent pollutant exposure based on the NHANES database: Construction of a machine learning prediction model and exploratory pathway decomposition.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42956502/",
+    "doi": "10.1016/j.compbiolchem.2026.109524",
+    "pmcid": null,
+    "revue": "Computational biology and chemistry",
+    "date_entree_pubmed": "2026-10-29",
+    "date_publication": "2026-Oct-27",
+    "types_publication": [
+      "Journal Article"
+    ],
+    "resume_present": true,
+    "resume": "OBJECTIVE: Glaucoma, an irreversible blinding eye disease, may be influenced by environmental pollutant exposure. This study aimed to systematically evaluate the associations between exposure to environmental persistent pollutants and glaucoma risk, and to explore the underlying pathogenic mechanisms.\nMETHODS: A cross-sectional analysis was performed using data from the U.S. National Health and Nutrition Examination Survey (NHANES), including 2272 participants. Baseline characteristics were summarized, and serum concentrations of 12 PFAS compounds and 4 heavy metals were measured. Multivariable logistic regression, restricted cubic spline analysis, and subgroup interaction tests were used to examine associations between exposure levels and glaucoma risk. Exploratory pathway decomposition was conducted for key exposure factors nominally associated with glaucoma. Additionally, multiple machine learning models were constructed, and SHapley Additive exPlanations (SHAP) was applied for model interpretability. Glaucoma was defined by self-report, which may underestimate true prevalence and cannot distinguish glaucoma subtypes.\nRESULTS: Participants with glaucoma had a higher prevalence of diabetes and hypertension, as well as higher blood lead and MPAH levels. In the primary analysis, inorganic mercury showed a nominal inverse association with glaucoma, whereas higher quartiles of MPAH and blood lead showed nominal positive associations. However, none of these associations remained statistically significant after Benjamini-Hochberg FDR correction (minimum *q* = 0.128). Restricted cubic spline models indicated nonlinear dose-response relationships between some exposures and glaucoma risk. Multiple machine learning models achieved satisfactory performance in predicting glaucoma. Exploratory pathway decomposition suggested that the nominal association between MPAH and glaucoma risk might be partly mediated by pathways involving age, race/ethnicity, and blood pressure; however, these results should be interpreted with caution given the cross-sectional design and the lack of FDR-corrected significance.\nCONCLUSIONS: Nominal associations were observed between certain PFAS compounds and heavy metals and glaucoma prevalence, but none survived FDR correction. These findings should be considered hypothesis-generating and require confirmation in larger studies. Interpretable machine learning achieved modest discrimination (AUC 0.62-0.74) for glaucoma risk, which may be adequate for population-level signal detection but not for individual diagnostic use. These findings provide epidemiological evidence and methodological support for identifying environmental risk factors, screening susceptible populations, and guiding early prevention of glaucoma.",
+    "mots_cles_auteurs": [
+      "Environmental persistent pollutants",
+      "Glaucoma",
+      "Machine Learning",
+      "NHANES",
+      "PFAS"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 3,
+    "affiliations_auteurs": [
+      "Department of Ophthalmology, Tianjin Union Medical Center, The First Affiliated Hospital of Nankai University, Tianjin, 300121, China.",
+      "Department of Ophthalmology, Tianjin Union Medical Center, The First Affiliated Hospital of Nankai University, Tianjin, 300121, China. Electronic address: rmyyyk7255@163.com."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7223918376",
+      "doi": "10.1016/j.compbiolchem.2026.109524",
+      "pmid": "42956502",
+      "pmcid": null,
+      "titre": "Analysis of risk factors for glaucoma associated with environmental persistent pollutant exposure based on the NHANES database: Construction of a machine learning prediction model and exploratory pathway decomposition",
+      "lien": "https://openalex.org/W7223918376",
+      "date_publication": "2026-10-27",
+      "type": "article",
+      "revue": "Computational Biology and Chemistry",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "pubmed"
+      ],
+      "financeurs": null,
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "Nankai University",
+          "pays": "CN",
+          "type": "education",
+          "ror": "https://ror.org/01y1kjr75"
+        }
+      ],
+      "acces_ouvert": false,
+      "statut_acces": "closed",
+      "url_texte": null,
+      "url_pdf": null,
+      "licence": null,
+      "texte_integral_indexe": false,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Glaucoma and retinal disorders",
+      "resume_present": false,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": []
+  }
+}

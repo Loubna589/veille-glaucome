@@ -1,0 +1,88 @@
+{
+  "openalex_id": "W7214106186",
+  "premiere_detection": "2026-09-25",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "openalex_id": "W7214106186",
+    "doi": "10.1186/s13287-026-05313-w",
+    "pmid": null,
+    "pmcid": null,
+    "titre": "Retinal organoid-derived exosomes enhance retinal ganglion cell survival in chronic ocular hypertension",
+    "lien": "https://openalex.org/W7214106186",
+    "date_publication": "2026-09-23",
+    "type": "article",
+    "revue": "Stem Cell Research & Therapy",
+    "type_source": "journal",
+    "langue": "en",
+    "indexe_dans": [
+      "crossref",
+      "doaj"
+    ],
+    "financeurs": [
+      {
+        "nom": "National Research Foundation of Korea",
+        "ror": "https://ror.org/013aysd81"
+      }
+    ],
+    "subventions": null,
+    "institutions": [
+      {
+        "nom": "Soonchunhyang University",
+        "pays": "KR",
+        "type": "education",
+        "ror": "https://ror.org/03qjsrb10"
+      },
+      {
+        "nom": "Seoul National University Bundang Hospital",
+        "pays": "KR",
+        "type": "healthcare",
+        "ror": "https://ror.org/00cb3km46"
+      },
+      {
+        "nom": "Bucheon University",
+        "pays": "KR",
+        "type": "education",
+        "ror": "https://ror.org/03w9szr81"
+      },
+      {
+        "nom": "Soonchunhyang University Hospital Seoul",
+        "pays": "KR",
+        "type": "healthcare",
+        "ror": "https://ror.org/05eqxpf83"
+      },
+      {
+        "nom": "STR Biotech (South Korea)",
+        "pays": "KR",
+        "type": "company",
+        "ror": "https://ror.org/00mr5jb15"
+      }
+    ],
+    "acces_ouvert": true,
+    "statut_acces": "gold",
+    "url_texte": "https://doi.org/10.1186/s13287-026-05313-w",
+    "url_pdf": null,
+    "licence": "cc-by",
+    "texte_integral_indexe": false,
+    "retracte": false,
+    "citations": 0,
+    "sujet_principal": "Retinal Diseases and Treatments",
+    "resume_present": true,
+    "resume": "Abstract Background To date, the therapeutic potential of retinal organoid–derived exosomes (Exo-ROs) for retinal ganglion cell (RGC) preservation in chronic ocular hypertension (COH) has not been explored. We aimed to evaluate the neuroprotective effects and underlying molecular mechanisms of Exo-ROs in a rat COH model. Methods Human induced pluripotent stem cell–derived retinal organoids (ROs) were differentiated, and exosomes were isolated from conditioned medium at day 60. COH was induced by circumlimbal suture in Sprague–Dawley rats, followed by intravitreal delivery of Exo-ROs. RGC survival and function were assessed by Brn3a immunostaining and photopic negative response (PhNR). To elucidate the mechanisms, MAPK pathway activation was analyzed at day 3, and total RNA sequencing was performed at 1 month post-treatment. Results Exo-ROs significantly improved RGC survival and preserved PhNR amplitudes in COH eyes ( p < 0.001). At day 3 post-treatment, Exo-ROs markedly suppressed the COH-induced phosphorylation of ERK, JNK, and p38, indicating an early inhibition of stress-induced MAPK signaling. Exosomal microRNA profiling further supported these findings, showing an enrichment of miRNAs targeting the MAPK pathway. Furthermore, total RNA sequencing performed 1 month after treatment revealed that Exo-ROs partially restored the transcriptomic profile of the COH retina, specifically modulating biological processes associated with fatty acid beta-oxidation and immune response regulation. Conclusions Exo-ROs confer robust neuroprotection in experimental COH, a process associated with early suppression of stress-induced MAPK signaling and long-term modulation of the retinal transcriptome and metabolism. Exo-ROs represent a promising cell-free therapeutic strategy for glaucoma management.",
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "present_dans_pubmed": false
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "openalex_id": "W7221351278",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "openalex_id": "W7221351278",
+    "doi": "10.82333/d3q3-4k49",
+    "pmid": null,
+    "pmcid": null,
+    "titre": "A Prospective Study On Direct Selective Laser Trabeculoplasty In Effective Intraocular Pressure Reduction In Patients With Primary Open-Angle Glaucoma And Ocular Hypertension From A Tertiary Centre In Singapore",
+    "lien": "https://openalex.org/W7221351278",
+    "date_publication": "2026-10-10",
+    "type": "article",
+    "revue": "ESCRS Abstracts",
+    "type_source": "repository",
+    "langue": "en",
+    "indexe_dans": [
+      "datacite"
+    ],
+    "financeurs": null,
+    "subventions": null,
+    "institutions": [
+      {
+        "nom": "Singapore National Eye Center",
+        "pays": "SG",
+        "type": "healthcare",
+        "ror": "https://ror.org/029nvrb94"
+      }
+    ],
+    "acces_ouvert": true,
+    "statut_acces": "green",
+    "url_texte": "https://doi.org/10.82333/d3q3-4k49",
+    "url_pdf": null,
+    "licence": null,
+    "texte_integral_indexe": false,
+    "retracte": false,
+    "citations": 0,
+    "sujet_principal": "Glaucoma and retinal disorders",
+    "resume_present": false,
+    "resume": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "present_dans_pubmed": false
+  }
+}

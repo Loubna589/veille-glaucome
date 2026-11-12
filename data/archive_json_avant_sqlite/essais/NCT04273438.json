@@ -1,0 +1,86 @@
+{
+  "nct": "NCT04273438",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "nct": "NCT04273438",
+    "titre": "Determining the Clinical Utility of Using Virtual Reality Headsets to Assess Visual Function in Those With Glaucoma.",
+    "titre_officiel": "Determining the Clinical Utility of Using Virtual Reality Headsets to Assess Visual Function in Those With Glaucoma.",
+    "lien": "https://clinicaltrials.gov/study/NCT04273438",
+    "date_premiere_publication": "2020-02-18",
+    "date_derniere_mise_a_jour": "2026-10-26",
+    "type_etude": "OBSERVATIONAL",
+    "phases_declarees": null,
+    "statut": "COMPLETED",
+    "raison_arret": null,
+    "date_debut": "2018-10-01",
+    "date_fin_principale": "2020-09-30",
+    "promoteur": "Queen's University, Belfast",
+    "type_promoteur": "OTHER",
+    "collaborateurs": [
+      "University of Sussex"
+    ],
+    "conditions": [
+      "Glaucoma"
+    ],
+    "interventions": [
+      {
+        "type": "DEVICE",
+        "nom": "Visual field testing using Oculus Rift and Humphrey Visual Field Perimeter"
+      },
+      {
+        "type": "DEVICE",
+        "nom": "Visual Field Testing using HUmphrey 24-3 Perimeter"
+      }
+    ],
+    "participants_nombre": 17,
+    "participants_type": "ACTUAL",
+    "criteres_principaux": [
+      {
+        "critere": "mean deviation (MD)",
+        "delai": "All statisitcal analysis will take place once all data collection has ended, average 1 year.."
+      },
+      {
+        "critere": "Pattern Standard Deviation",
+        "delai": "All statisitcal analysis will take place once all data collection has ended, average 1 year.."
+      }
+    ],
+    "resultats_deposes": false,
+    "publications_declarees": null,
+    "resume_source": "To validate a new virtual reality (VR) based visual field test against the gold standard clinical perimetry test (Humphrey Visual field test 24-2).",
+    "citations_declarees": null,
+    "plan": {
+      "repartition": null,
+      "modele": null,
+      "but_principal": null,
+      "insu": null,
+      "insu_pour": null,
+      "insu_description": null,
+      "modele_observationnel": "COHORT"
+    },
+    "bras": null,
+    "eligibilite": {
+      "criteres": "Inclusion Criteria:\n\n\\- Patients with a clinical diagnosis of glaucoma with repeatable defects on standard automated perimetry.\n\nExclusion Criteria:\n\n* Presence of other ocular disease which impacts vision such as age-related macular degeneration or diabetic retinopathy.\n* Any physical limitation that would make the participant unable to place their head in the head-rest to perform Humphrey Perimetry (Eg some patients with arthritic or neck problems are unable to use the headrests of ophthalmic devices).\n* Any cognitive impairment that would limit their ability to perform perimetry or a history of vertigo/dizziness.",
+      "age_min": "18 Years",
+      "age_max": null,
+      "sexe": "ALL",
+      "volontaires_sains": false
+    },
+    "criteres_secondaires": [
+      {
+        "critere": "Repeatbility of both devices",
+        "delai": "All statisitcal analysis will take place once all data collection has ended, average 1 year.."
+      }
+    ],
+    "responsables": [
+      {
+        "nom": "Ruth E Hogg, PhD",
+        "affiliation": "Queen's University, Belfast",
+        "role": "PRINCIPAL_INVESTIGATOR"
+      }
+    ],
+    "date_depot_resultats": null,
+    "resultats": null
+  },
+  "modifications": []
+}

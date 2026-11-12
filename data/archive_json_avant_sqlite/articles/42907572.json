@@ -1,0 +1,175 @@
+{
+  "pmid": "42907572",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42907572",
+    "titre": "Hydrus microstent combined with cataract surgery or used alone: cost-utility analysis for UK.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42907572/",
+    "doi": "10.1038/s41433-026-04970-8",
+    "pmcid": null,
+    "revue": "Eye (London, England)",
+    "date_entree_pubmed": "2026-10-22",
+    "date_publication": "2026-Oct-21",
+    "types_publication": [
+      "Journal Article"
+    ],
+    "resume_present": true,
+    "resume": "BACKGROUND: Minimally invasive glaucoma surgery (MIGS) has the potential to become standard of care for patients with primary open angle glaucoma (POAG), whether combined with cataract surgery (CS) or as a standalone procedure. This study provides evidence of cost-effectiveness for Hydrus Microstent for both indications in UK healthcare settings.\nMETHODS: A cohort Markov model simulated the natural history of POAG to assess costs and quality-adjusted life years (QALYs) over a 15-year horizon, comparing Hydrus Microstent + CS with CS alone, and Hydrus Microstent to iStent standalone. Patient progression across glaucoma severity health states was modelled using a rate of progression (RoP) derived from 5-year visual field loss data in HORIZON trial (for mild to moderate POAG) and by trial-based annual number of medications from COMPARE trial (for moderate POAG), respectively. Conducted from the public healthcare payer perspective, model inputs were derived from UK publicly available sources and/or publications. Both deterministic and probabilistic analyses (PA) were performed.\nRESULTS: When compared with CS alone, Hydrus + CS was estimated to generate 0.334 more QALYs but £604 higher costs over the 15-year time horizon. When comparing Hydrus to iStent, Hydrus had £534 in projected savings and generated 0.068 more QALYs. The PA showed that the probability of Hydrus + CS being cost-effective compared to CS alone is 87.6%, and about 71.5% when compared to iStent. The results were consistent across scenario analyses.\nCONCLUSIONS: Hydrus implantation is a cost-effective strategy both in combination with CS (for mild-to-moderate POAG) and as a standalone procedure (for moderate POAG) in UK healthcare settings.",
+    "mots_cles_auteurs": null,
+    "langue": "eng",
+    "nombre_auteurs": 5,
+    "affiliations_auteurs": [
+      "Institute of Ophthalmology UCL & NIHR Biomedical Research Centre, Moorfields Eye Hospital, London, UK.",
+      "Nottingham University Hospital Academic Department of Ophthalmology, University of Nottingham Medical School, Nottingham, UK.",
+      "Department of Ophthalmology and Visual Sciences, Case Western Reserve University, Cleveland, OH, USA.",
+      "University Hospitals of Cleveland, Cleveland, OH, USA.",
+      "IQVIA, Mississauga, ON, Canada.",
+      "Department of Health Research Methods, Evidence, and Impact, McMaster University, Hamilton, ON, Canada. sergey.muratov@iqvia.com."
+    ],
+    "financeurs_declares": [
+      {
+        "organisme": "Alcon Foundation (Alcon Foundation Inc.)",
+        "pays": "",
+        "reference": "NA"
+      }
+    ],
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7223099876",
+      "doi": "10.1038/s41433-026-04970-8",
+      "pmid": "42907572",
+      "pmcid": null,
+      "titre": "Hydrus microstent combined with cataract surgery or used alone: cost-utility analysis for UK",
+      "lien": "https://openalex.org/W7223099876",
+      "date_publication": "2026-10-21",
+      "type": "article",
+      "revue": "Eye",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "pubmed"
+      ],
+      "financeurs": [
+        {
+          "nom": "Alcon Foundation",
+          "ror": "https://ror.org/028fhxy95"
+        }
+      ],
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "National Institute for Health and Care Research",
+          "pays": "GB",
+          "type": "government",
+          "ror": "https://ror.org/0187kwz08"
+        },
+        {
+          "nom": "NIHR Moorfields Biomedical Research Centre",
+          "pays": "GB",
+          "type": "facility",
+          "ror": "https://ror.org/004hydx84"
+        },
+        {
+          "nom": "Moorfields Eye Hospital",
+          "pays": "GB",
+          "type": "healthcare",
+          "ror": "https://ror.org/03tb37539"
+        },
+        {
+          "nom": "University College London",
+          "pays": "GB",
+          "type": "education",
+          "ror": "https://ror.org/02jx3x895"
+        },
+        {
+          "nom": "University of Nottingham",
+          "pays": "GB",
+          "type": "education",
+          "ror": "https://ror.org/01ee9ar58"
+        },
+        {
+          "nom": "University Hospitals of Cleveland",
+          "pays": "US",
+          "type": "healthcare",
+          "ror": "https://ror.org/0130jk839"
+        },
+        {
+          "nom": "Case Western Reserve University",
+          "pays": "US",
+          "type": "education",
+          "ror": "https://ror.org/051fd9666"
+        },
+        {
+          "nom": "McMaster University",
+          "pays": "CA",
+          "type": "education",
+          "ror": "https://ror.org/02fa3aq29"
+        }
+      ],
+      "acces_ouvert": true,
+      "statut_acces": "hybrid",
+      "url_texte": "https://www.nature.com/articles/s41433-026-04970-8.pdf",
+      "url_pdf": "https://www.nature.com/articles/s41433-026-04970-8.pdf",
+      "licence": "cc-by",
+      "texte_integral_indexe": true,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Glaucoma and retinal disorders",
+      "resume_present": true,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": [
+      {
+        "nom": "Alcon Foundation (Alcon Foundation Inc.)",
+        "statut": "CONFIRMÉ — déclaré dans la notice PubMed (GrantList)",
+        "references": [
+          "NA"
+        ],
+        "notices": [
+          [
+            "notice PubMed",
+            "https://pubmed.ncbi.nlm.nih.gov/42907572/?format=pubmed"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "Alcon Foundation",
+        "statut": "CONFIRMÉ — déclaré par l'éditeur dans Crossref",
+        "references": [
+          "NA"
+        ],
+        "notices": [
+          [
+            "notice justificative Crossref (déclaration de l'éditeur)",
+            "https://api.crossref.org/works/10.1038/s41433-026-04970-8"
+          ],
+          [
+            "notice OpenAlex",
+            "https://api.openalex.org/works/W7223099876"
+          ]
+        ],
+        "note": null
+      }
+    ]
+  }
+}

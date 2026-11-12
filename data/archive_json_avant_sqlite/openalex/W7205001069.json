@@ -1,0 +1,51 @@
+{
+  "openalex_id": "W7205001069",
+  "premiere_detection": "2026-09-25",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "openalex_id": "W7205001069",
+    "doi": "10.36489/nursing.2026v32i340p19587-19590",
+    "pmid": null,
+    "pmcid": null,
+    "titre": "Mecanismos de Depósito Proteico no Glaucoma Pseudoesfoliativo",
+    "lien": "https://openalex.org/W7205001069",
+    "date_publication": "2026-08-27",
+    "type": "article",
+    "revue": "Nursing Edição Brasileira",
+    "type_source": "journal",
+    "langue": null,
+    "indexe_dans": [
+      "crossref"
+    ],
+    "financeurs": null,
+    "subventions": null,
+    "institutions": null,
+    "acces_ouvert": true,
+    "statut_acces": "diamond",
+    "url_texte": "https://revistanursing.com.br/index.php/revistanursing/article/download/4984/6237",
+    "url_pdf": "https://revistanursing.com.br/index.php/revistanursing/article/download/4984/6237",
+    "licence": "cc-by",
+    "texte_integral_indexe": true,
+    "retracte": false,
+    "citations": 0,
+    "sujet_principal": "Glaucoma and retinal disorders",
+    "resume_present": true,
+    "resume": "O glaucoma pseudoexfoliativo representa uma forma agressiva e complexa de glaucoma secundário de ângulo aberto, decorrente da síndrome de pseudoexfoliação, uma desordem generalizada da matriz extracelular relacionada ao envelhecimento. Esta condição clínica é caracterizada pela produção excessiva e pelo acúmulo progressivo de um material fibrilar esbranquiçado e amorfo em diversas estruturas do segmento anterior do olho, com especial tropismo pela cápsula anterior do cristalino, pela margem pupilar e pela malha trabecular. Diante do impacto severo que essa deposição exerce na dinâmica do humor aquoso e na integridade das estruturas oculares, o presente estudo tem como objetivo realizar uma revisão sistemática da literatura para analisar os mecanismos moleculares e bioquímicos envolvidos no depósito proteico do glaucoma pseudoexfoliativo, discutindo suas implicações na elevação da pressão intraocular e no manejo clínico dentro da realidade médica brasileira. Para isso, foi conduzida uma busca detalhada nas bases de dados SciELO e LILACS utilizando descritores em saúde controlados para selecionar artigos científicos de alta relevância nacional. Os resultados revelam que o estresse oxidativo crônico e a regulação positiva do fator de crescimento transformador beta um funcionam como os principais gatilhos para a síntese celular aberrante de glicoproteínas e proteoglicanos, cujo acúmulo na via de escoamento gera obstrução mecânica e disfunção endotelial trabecular. Conclui-se que o entendimento aprofundado desses caminhos bioquímicos é fundamental para otimizar as abordagens preventivas, antecipar complicações cirúrgicas decorrentes de fragilidade zonular e guiar terapias hipotensoras mais eficazes para conter o dano axonal crônico.",
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "present_dans_pubmed": false
+  }
+}

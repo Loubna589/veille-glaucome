@@ -1,0 +1,138 @@
+{
+  "pmid": "42933824",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42933824",
+    "titre": "Long-term outcomes of the PAUL Glaucoma Implant Versus Ahmed Glaucoma Valve.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42933824/",
+    "doi": "10.1136/bjo-2026-330485",
+    "pmcid": null,
+    "revue": "The British journal of ophthalmology",
+    "date_entree_pubmed": "2026-10-26",
+    "date_publication": "2026-Oct-26",
+    "types_publication": [
+      "Journal Article"
+    ],
+    "resume_present": false,
+    "resume": null,
+    "mots_cles_auteurs": [
+      "Glaucoma",
+      "Optic Nerve",
+      "Surgeons",
+      "Treatment Surgery"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 8,
+    "affiliations_auteurs": [
+      "Department of Ophthalmology, University of Bonn, Bonn, Germany weber.constance@yahoo.de.",
+      "Department of Ophthalmology, Klinikum Dortmund, University Witten-Herdecke, Dortmund, Germany.",
+      "Department of Ophthalmology, University Hospital LMU, Munich, Germany.",
+      "Institute for Medical Biometry, Informatics and Epidemiology, University of Bonn, Bonn, Germany, University of Bonn, Bonn, NRW, Germany.",
+      "Department of Ophthalmology, University of Bonn, Bonn, Germany."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7223668258",
+      "doi": "10.1136/bjo-2026-330485",
+      "pmid": "42933824",
+      "pmcid": null,
+      "titre": "Long-term outcomes of the PAUL Glaucoma Implant Versus Ahmed Glaucoma Valve",
+      "lien": "https://openalex.org/W7223668258",
+      "date_publication": "2026-10-26",
+      "type": "article",
+      "revue": "British Journal of Ophthalmology",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "pubmed"
+      ],
+      "financeurs": null,
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "University of Bonn",
+          "pays": "DE",
+          "type": "education",
+          "ror": "https://ror.org/041nas322"
+        },
+        {
+          "nom": "Witten/Herdecke University",
+          "pays": "DE",
+          "type": "education",
+          "ror": "https://ror.org/00yq55g44"
+        },
+        {
+          "nom": "Klinikum Dortmund",
+          "pays": "DE",
+          "type": "healthcare",
+          "ror": "https://ror.org/037pq2a43"
+        },
+        {
+          "nom": "LMU Klinikum",
+          "pays": "DE",
+          "type": "healthcare",
+          "ror": "https://ror.org/02jet3w32"
+        },
+        {
+          "nom": "Ludwig-Maximilians-Universität München",
+          "pays": "DE",
+          "type": "education",
+          "ror": "https://ror.org/05591te55"
+        },
+        {
+          "nom": "Institut für Medizinische Biometrie, Informatik und Epidemiologie",
+          "pays": "DE",
+          "type": "facility",
+          "ror": "https://ror.org/00hyd8090"
+        }
+      ],
+      "acces_ouvert": false,
+      "statut_acces": "closed",
+      "url_texte": null,
+      "url_pdf": null,
+      "licence": null,
+      "texte_integral_indexe": false,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Glaucoma and retinal disorders",
+      "resume_present": true,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": [
+      {
+        "nom": "Ernst-und-Berte-Grimmke foundation",
+        "statut": "CONFIRMÉ — déclaré par l'éditeur dans Crossref (absent d'OpenAlex)",
+        "references": [
+          "18/24"
+        ],
+        "notices": [
+          [
+            "notice justificative Crossref (déclaration de l'éditeur)",
+            "https://api.crossref.org/works/10.1136/bjo-2026-330485"
+          ]
+        ],
+        "note": null
+      }
+    ]
+  }
+}

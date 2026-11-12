@@ -1,0 +1,204 @@
+{
+  "pmid": "42961700",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42961700",
+    "titre": "Integration of biomarkers in common retinal neurodegenerative diseases: a comprehensive review.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42961700/",
+    "doi": "10.1007/s00335-026-10282-9",
+    "pmcid": null,
+    "revue": "Mammalian genome : official journal of the International Mammalian Genome Society",
+    "date_entree_pubmed": "2026-10-30",
+    "date_publication": "2026-Oct-30",
+    "types_publication": [
+      "Journal Article",
+      "Review"
+    ],
+    "resume_present": true,
+    "resume": "Retinal neurodegenerative diseases (RNDs) are major causes of irreversible vision loss worldwide. RNDs majorly include age-related macular degeneration (AMD), diabetic retinopathy (DR), and glaucoma. Despite their distinct etiologies, these conditions share convergent mechanisms of retinovascular ischemia, neuronal apoptosis, and chronic inflammation. Physiologically, the retina and optic nerve are direct extensions of the central nervous system, sharing embryological origin, glial architecture, and neurodegenerative mechanisms with the brain, positioning them as an accessible model system for studying both ocular and systemic neurodegeneration. The growing field of ocular biomarkers thus offers objective, quantifiable endpoints for early detection, disease monitoring, and therapeutic evaluation of RNDs by bridging structural, functional, molecular, and genetic dimensions of retinal health. This narrative review synthesizes peer-reviewed literature published between January 2015 and May 2026, identified through PubMed, Scopus, and Web of Science, on ocular biomarkers in AMD, DR, and glaucoma. Eligible studies reported original clinical or translational research assessing imaging, functional, molecular, or genomic biomarkers with quantitative associations to disease diagnosis, prognosis, or treatment response. Biomarker evidence is organized by domain to enable cross-disease comparison and integration, and each major biomarker is graded by clinical maturity, distinguishing routine clinical use, research validation, use as a clinical trial endpoint, and regulatory acceptance. Optical coherence tomography-derived retinal nerve fiber layer thickness in glaucoma and geographic atrophy area on fundus autofluorescence in AMD are the most established biomarkers in clinical care and trials, whereas disorganization of retinal inner layers and vessel density in DR, and dark adaptation and ellipsoid zone integrity in AMD, are well supported in research settings but not yet standardized for routine clinical use. Ocular biomarkers are reshaping precision ophthalmology, offering reproducible measures for diagnosis, prognosis, and therapeutic monitoring across retinal diseases. While several structural and functional biomarkers are nearing clinical adoption, standardized acquisition protocols, external validation, and regulatory qualification remain critical next steps. Integration of multimodal imaging, molecular analytics, and artificial intelligence-driven modeling holds promise for a unified, biomarker-based framework for early detection and individualized management of retinal neurodegeneration. Retinal biomarkers therefore carry dual relevance: they characterize disease within the eye and increasingly serve as accessible surrogates for central nervous system neurodegenerative processes, with broader implications for the field of neurodegenerative disease research.",
+    "mots_cles_auteurs": [
+      "Artificial intelligence",
+      "Ocular metrics",
+      "Precision ophthalmology",
+      "Retinal neurodegeneration"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 8,
+    "affiliations_auteurs": [
+      "Department of Ophthalmology, Byers Eye Institute, Stanford University School of Medicine, Palo Alto, CA, USA.",
+      "Loyola University Chicago Stritch School of Medicine, Illinois, USA.",
+      "University of the Philippines College of Medicine, Manila, Philippines.",
+      "Retinal Imaging Center, Amanat Eye Hospital, Rawalpindi, Pakistan.",
+      "Department of Ophthalmology, Byers Eye Institute, Stanford University School of Medicine, Palo Alto, CA, USA. yjs@stanford.edu."
+    ],
+    "financeurs_declares": [
+      {
+        "organisme": "NEI NIH HHS",
+        "pays": "United States",
+        "reference": "P30EY026877"
+      },
+      {
+        "organisme": "Research to Prevent Blindness",
+        "pays": "",
+        "reference": "343614"
+      }
+    ],
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": [
+      "Humans",
+      "Biomarkers",
+      "Neurodegenerative Diseases",
+      "Animals",
+      "Glaucoma",
+      "Retinal Diseases",
+      "Retina",
+      "Macular Degeneration",
+      "Diabetic Retinopathy"
+    ]
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": null,
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7224795165",
+      "doi": "10.1007/s00335-026-10282-9",
+      "pmid": "42961700",
+      "pmcid": null,
+      "titre": "Integration of biomarkers in common retinal neurodegenerative diseases: a comprehensive review",
+      "lien": "https://openalex.org/W7224795165",
+      "date_publication": "2026-10-30",
+      "type": "review",
+      "revue": "Mammalian Genome",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "pubmed"
+      ],
+      "financeurs": [
+        {
+          "nom": "Research to Prevent Blindness",
+          "ror": "https://ror.org/04drjs621"
+        },
+        {
+          "nom": "National Eye Institute",
+          "ror": "https://ror.org/03wkg3b53"
+        }
+      ],
+      "subventions": [
+        {
+          "financeur": "National Eye Institute",
+          "reference": "P30EY026877"
+        }
+      ],
+      "institutions": [
+        {
+          "nom": "Stanford Medicine",
+          "pays": "US",
+          "type": "healthcare",
+          "ror": "https://ror.org/03mtd9a03"
+        },
+        {
+          "nom": "Stanford University",
+          "pays": "US",
+          "type": "education",
+          "ror": "https://ror.org/00f54p054"
+        },
+        {
+          "nom": "Loyola University Chicago",
+          "pays": "US",
+          "type": "education",
+          "ror": "https://ror.org/04b6x2g63"
+        },
+        {
+          "nom": "University of the Philippines Manila",
+          "pays": "PH",
+          "type": "education",
+          "ror": "https://ror.org/01rrczv41"
+        }
+      ],
+      "acces_ouvert": false,
+      "statut_acces": "closed",
+      "url_texte": null,
+      "url_pdf": null,
+      "licence": null,
+      "texte_integral_indexe": false,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Retinal Diseases and Treatments",
+      "resume_present": false,
+      "mesh": [
+        "Animals",
+        "Diabetic Retinopathy",
+        "Glaucoma",
+        "Humans",
+        "Macular Degeneration",
+        "Retina",
+        "Retinal Diseases",
+        "Biomarkers",
+        "Neurodegenerative Diseases"
+      ]
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": [
+      {
+        "nom": "NEI NIH HHS",
+        "statut": "CONFIRMÉ — déclaré dans la notice PubMed (GrantList)",
+        "references": [
+          "P30EY026877"
+        ],
+        "notices": [
+          [
+            "notice PubMed",
+            "https://pubmed.ncbi.nlm.nih.gov/42961700/?format=pubmed"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "Research to Prevent Blindness",
+        "statut": "CONFIRMÉ — déclaré dans la notice PubMed (GrantList)",
+        "references": [
+          "343614"
+        ],
+        "notices": [
+          [
+            "notice PubMed",
+            "https://pubmed.ncbi.nlm.nih.gov/42961700/?format=pubmed"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "National Eye Institute",
+        "statut": "CONFIRMÉ — déclaré par l'éditeur dans Crossref",
+        "references": [
+          "P30EY026877"
+        ],
+        "notices": [
+          [
+            "notice justificative Crossref (déclaration de l'éditeur)",
+            "https://api.crossref.org/works/10.1007/s00335-026-10282-9"
+          ],
+          [
+            "notice OpenAlex",
+            "https://api.openalex.org/works/W7224795165"
+          ]
+        ],
+        "note": null
+      }
+    ]
+  }
+}

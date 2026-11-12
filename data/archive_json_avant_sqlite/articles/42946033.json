@@ -1,0 +1,107 @@
+{
+  "pmid": "42946033",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42946033",
+    "titre": "Autologous Anterior Lens Capsule as an Intrascleral Spacer in Deep Sclerectomy: A Randomized Clinical Trial.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42946033/",
+    "doi": "10.1016/j.ajo.2026.10.023",
+    "pmcid": null,
+    "revue": "American journal of ophthalmology",
+    "date_entree_pubmed": "2026-10-27",
+    "date_publication": "2026-Oct-27",
+    "types_publication": [
+      "Journal Article"
+    ],
+    "resume_present": true,
+    "resume": "OBJECTIVE: To compare deep sclerectomy (DS) combined with phacoemulsification (PE), with versus without an autologous anterior lens capsule spacer.\nDESIGN: Prospective, randomized, parallel-group clinical trial.\nMETHODS: Sixty eyes of 60 adults with medically uncontrolled glaucoma and visually significant cataracts underwent PE-DS with an autologous anterior capsule spacer (Spacer group) or PE-DS alone (Control group). Follow-up was at least 12 months. The primary outcome was change in intraocular pressure (IOP) from baseline through 12 months. Secondary outcomes included glaucoma medication use, surgical success according to prespecified IOP-based criteria, and adverse events.\nRESULTS: Baseline IOP was similar (25.14 ± 9.62 vs 23.77 ± 5.18 mmHg) and both study groups had significant IOP reduction at all visits. IOP was significantly lower in the spacer group at month 6 (11.90 ± 1.82 vs 13.13 ± 2.20 mmHg; P = 0.022) and month 12 (12 ± 2.20 vs 13.29 ± 2.68 mmHg; P = 0.042). Medication use was lower in eyes with an autologous spacer at months 6 (0.14 ± 0.45 vs 0.48 ± 0.85; P= 0.063) and 12 (0.29 ± 0.66 vs 0.68 ± 1.04; P =0.094). Under stringent success definitions, survival favored the spacer (e.g., Definition C: IOP≤12 mmHg: 47.5% vs 15.5%; log-rank test P = 0.025).\nCONCLUSIONS AND RELEVANCE: Adding an autologous anterior capsule spacer during PE-DS was associated with lower IOP at 6 and 12 months and higher cumulative success under stringent IOP thresholds. Medication use was lower in the spacer group, although the between-group differences showed a trend toward statistical significance.",
+    "mots_cles_auteurs": [
+      "Deep sclerectomy",
+      "anterior lens capsule",
+      "glaucoma surgery",
+      "intraocular pressure",
+      "non-penetrating surgery",
+      "spacer",
+      "trabeculo-Descemet’s membrane"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 8,
+    "affiliations_auteurs": [
+      "Ophthalmic Research Center, Research Institute for Ophthalmology and Vision Sciences, Shahid Beheshti University of Medical Sciences, Tehran, Iran.; Department of Ophthalmology, Labbafinejad Medical Center, Shahid Beheshti University of Medical Sciences, Tehran, Iran.. Electronic address: einollahi006@gmail.com.",
+      "Ophthalmic Research Center, Research Institute for Ophthalmology and Vision Sciences, Shahid Beheshti University of Medical Sciences, Tehran, Iran.; Department of Ophthalmology, Labbafinejad Medical Center, Shahid Beheshti University of Medical Sciences, Tehran, Iran.",
+      "Ophthalmic Research Center, Research Institute for Ophthalmology and Vision Sciences, Shahid Beheshti University of Medical Sciences, Tehran, Iran.",
+      "Ophthalmic Epidemiology Research Center, Research Institute for Ophthalmology and Vision Science, Shahid Beheshti University of Medical Sciences, Tehran, Iran."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7223997345",
+      "doi": "10.1016/j.ajo.2026.10.023",
+      "pmid": "42946033",
+      "pmcid": null,
+      "titre": "Autologous Anterior Lens Capsule as an Intrascleral Spacer in Deep Sclerectomy: A Randomized Clinical Trial",
+      "lien": "https://openalex.org/W7223997345",
+      "date_publication": "2026-10-01",
+      "type": "article",
+      "revue": "American Journal of Ophthalmology",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "pubmed"
+      ],
+      "financeurs": null,
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "Hospital Labbafinejad",
+          "pays": "IR",
+          "type": "healthcare",
+          "ror": "https://ror.org/04f6p2t28"
+        },
+        {
+          "nom": "Shahid Beheshti University",
+          "pays": "IR",
+          "type": "education",
+          "ror": "https://ror.org/0091vmj44"
+        },
+        {
+          "nom": "Shahid Beheshti University of Medical Sciences",
+          "pays": "IR",
+          "type": "education",
+          "ror": "https://ror.org/034m2b326"
+        }
+      ],
+      "acces_ouvert": false,
+      "statut_acces": "closed",
+      "url_texte": null,
+      "url_pdf": null,
+      "licence": null,
+      "texte_integral_indexe": false,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Glaucoma and retinal disorders",
+      "resume_present": false,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": []
+  }
+}

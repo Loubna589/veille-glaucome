@@ -1,0 +1,51 @@
+{
+  "openalex_id": "W7170883777",
+  "premiere_detection": "2026-09-25",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "openalex_id": "W7170883777",
+    "doi": "10.17605/osf.io/3rm5d",
+    "pmid": null,
+    "pmcid": null,
+    "titre": "Essential Vascular Supply of the Eye in Glaucoma",
+    "lien": "https://openalex.org/W7170883777",
+    "date_publication": "2026-07-21",
+    "type": "preprint",
+    "revue": null,
+    "type_source": null,
+    "langue": null,
+    "indexe_dans": [
+      "datacite"
+    ],
+    "financeurs": null,
+    "subventions": null,
+    "institutions": null,
+    "acces_ouvert": true,
+    "statut_acces": "gold",
+    "url_texte": "https://osf.io/3rm5d",
+    "url_pdf": null,
+    "licence": "public-domain",
+    "texte_integral_indexe": false,
+    "retracte": false,
+    "citations": 0,
+    "sujet_principal": "Glaucoma and retinal disorders",
+    "resume_present": true,
+    "resume": "This project is a comprehensive review of the vascular supply of the eye, tracing a continuous pathway from the heart and aortic arch through the great vessels, carotid system, circle of Willis, and ophthalmic artery to the intraocular microvasculature, including its venous and lymphatic drainage. Each vascular segment is examined for its normal anatomy and clinically relevant variation, its pathophysiology, and the congenital, acute, and chronic diseases specific to it, read throughout through the lens of ocular perfusion and its relationship to glaucoma. Elevated intraocular pressure remains the only proven modifiable risk factor for glaucoma, yet many patients progress despite adequate pressure control, and a vascular contribution to glaucomatous optic neuropathy has long been proposed. This review addresses the absence of a single work that treats the ocular vascular supply as one continuous system tied to that contribution. The review draws on a PRISMA-guided literature search across PubMed, Cochrane Library, ScienceDirect, Scopus, Google Scholar, and ProQuest. It builds directly on existing anatomical reviews of ocular vasculature and the established literature on ocular perfusion pressure in glaucoma. Its contribution is the integration of a continuous systemic-to-ocular pathway with a consistent disease framework applied to every segment. Expected outcomes are a peer-reviewed manuscript targeted for submission, multiple figures detailing blood perfusion, and a table mapping each vascular segment to its variation, associated disease, and ocular or glaucoma-related consequence.",
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "present_dans_pubmed": false
+  }
+}

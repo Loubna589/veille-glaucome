@@ -1,0 +1,199 @@
+{
+  "pmid": "42881349",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42881349",
+    "titre": "Impact of Limited English Proficiency on Glaucoma Outcomes, Access to Eye Care, and Health Literacy in the NIH All of Us Database.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42881349/",
+    "doi": "10.1111/jgs.70789",
+    "pmcid": null,
+    "revue": "Journal of the American Geriatrics Society",
+    "date_entree_pubmed": "2026-10-16",
+    "date_publication": "2026-Oct-15",
+    "types_publication": [
+      "Journal Article"
+    ],
+    "resume_present": true,
+    "resume": "BACKGROUND: To explore the associations between limited English proficiency and glaucoma outcomes, access to eye care, and health literacy in a national database.\nMETHODS: This cross-sectional study included participants in the NIH All of Us Research Program with available health records and responses to surveys about language. Main Outcome Measures included glaucoma prevalence, severity, and surgical history as well as access to eye care and health literacy measures. Logistic regression analyses of associations between self-reported English proficiency and outcomes, adjusting for other demographic and socioeconomic characteristics, were conducted.\nRESULTS: Of 79,635 individuals in the study population, 1268 (1.6%) had low English proficiency (LEP) and 3296 (4.1%) had a glaucoma diagnosis. Compared to those with high English proficiency (HEP), individuals with glaucoma with LEP had a higher likelihood of incisional glaucoma surgery (aOR = 4.79, 95% CI = 1.03-22.22). Those with LEP were more likely to understand health information only \"some or none of the time\" as opposed to \"always\" (aOR = 6.36, 95% CI = 1.17-34.57) and experience problems learning about medical conditions \"sometimes or occasionally\" as opposed to \"never\" (aOR = 3.18, 95% CI = 1.22-8.34). No statistically significant associations between LEP and glaucoma prevalence, severity, or eye care access were observed in adjusted analyses.\nCONCLUSIONS: Among individuals with glaucoma, those with LEP had a higher likelihood of undergoing incisional glaucoma surgery. Although LEP does not cause increased surgery, this correlation suggests that the decision to operate and its acceptance by the patient are more likely in individuals with LEP. Future studies on improving health literacy may reduce this association.",
+    "mots_cles_auteurs": [
+      "glaucoma",
+      "health literacy",
+      "limited English proficiency",
+      "social determinants"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 7,
+    "affiliations_auteurs": [
+      "Department of Ophthalmology, Stein and Doheny Eye Institutes, University of California, Los Angeles, Los Angeles, California, USA.",
+      "College of Medicine - Tucson, University of Arizona, Tucson, Arizona, USA.",
+      "Hospital for Sick Children and Sunnybrook Research Institute, University of Toronto, Toronto, Canada.",
+      "Department of Biostatistics, Fielding School of Public Health, University of California, Los Angeles, Los Angeles, California, USA.",
+      "Department of Epidemiology, Fielding School of Public Health, University of California, Los Angeles, Los Angeles, California, USA."
+    ],
+    "financeurs_declares": [
+      {
+        "organisme": "NIA NIH HHS",
+        "pays": "United States",
+        "reference": "T35AG026736"
+      },
+      {
+        "organisme": "Research to Prevent Blindness",
+        "pays": "",
+        "reference": null
+      }
+    ],
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7222145250",
+      "doi": "10.1111/jgs.70789",
+      "pmid": "42881349",
+      "pmcid": null,
+      "titre": "Impact of Limited English Proficiency on Glaucoma Outcomes, Access to Eye Care, and Health Literacy in the NIH All of Us Database",
+      "lien": "https://openalex.org/W7222145250",
+      "date_publication": "2026-10-15",
+      "type": "article",
+      "revue": "Journal of the American Geriatrics Society",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "pubmed"
+      ],
+      "financeurs": [
+        {
+          "nom": "Research to Prevent Blindness",
+          "ror": "https://ror.org/04drjs621"
+        },
+        {
+          "nom": "National Institute on Aging",
+          "ror": "https://ror.org/049v75w11"
+        }
+      ],
+      "subventions": [
+        {
+          "financeur": "National Institute on Aging",
+          "reference": "T35AG026736"
+        }
+      ],
+      "institutions": [
+        {
+          "nom": "University of California, Los Angeles",
+          "pays": "US",
+          "type": "education",
+          "ror": "https://ror.org/046rm7j60"
+        },
+        {
+          "nom": "Doheny Eye Institute",
+          "pays": "US",
+          "type": "facility",
+          "ror": "https://ror.org/00qvx5329"
+        },
+        {
+          "nom": "University of Arizona",
+          "pays": "US",
+          "type": "education",
+          "ror": "https://ror.org/03m2x1q45"
+        },
+        {
+          "nom": "University of Toronto",
+          "pays": "CA",
+          "type": "education",
+          "ror": "https://ror.org/03dbr7087"
+        },
+        {
+          "nom": "Hospital for Sick Children",
+          "pays": "CA",
+          "type": "healthcare",
+          "ror": "https://ror.org/057q4rt57"
+        },
+        {
+          "nom": "Sunnybrook Hospital",
+          "pays": "CA",
+          "type": "healthcare",
+          "ror": "https://ror.org/008kn1a71"
+        },
+        {
+          "nom": "Sunnybrook Research Institute",
+          "pays": "CA",
+          "type": "facility",
+          "ror": "https://ror.org/05n0tzs53"
+        }
+      ],
+      "acces_ouvert": true,
+      "statut_acces": "hybrid",
+      "url_texte": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/jgs.70789",
+      "url_pdf": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/jgs.70789",
+      "licence": "cc-by-nc-nd",
+      "texte_integral_indexe": true,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Interpreting and Communication in Healthcare",
+      "resume_present": true,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": [
+      {
+        "nom": "NIA NIH HHS",
+        "statut": "CONFIRMÉ — déclaré dans la notice PubMed (GrantList)",
+        "references": [
+          "T35AG026736"
+        ],
+        "notices": [
+          [
+            "notice PubMed",
+            "https://pubmed.ncbi.nlm.nih.gov/42881349/?format=pubmed"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "Research to Prevent Blindness",
+        "statut": "CONFIRMÉ — déclaré dans la notice PubMed (GrantList)",
+        "references": null,
+        "notices": [
+          [
+            "notice PubMed",
+            "https://pubmed.ncbi.nlm.nih.gov/42881349/?format=pubmed"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "National Institute on Aging",
+        "statut": "CONFIRMÉ — déclaré par l'éditeur dans Crossref",
+        "references": [
+          "T35AG026736"
+        ],
+        "notices": [
+          [
+            "notice justificative Crossref (déclaration de l'éditeur)",
+            "https://api.crossref.org/works/10.1111/jgs.70789"
+          ],
+          [
+            "notice OpenAlex",
+            "https://api.openalex.org/works/W7222145250"
+          ]
+        ],
+        "note": null
+      }
+    ]
+  }
+}

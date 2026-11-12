@@ -1,0 +1,51 @@
+{
+  "openalex_id": "W7213455333",
+  "premiere_detection": "2026-09-25",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "openalex_id": "W7213455333",
+    "doi": "10.20944/preprints202609.1450.v1",
+    "pmid": null,
+    "pmcid": null,
+    "titre": "Rapid, Non-Contact, Objective Multifocal Assessment of Visual Function in Glaucoma",
+    "lien": "https://openalex.org/W7213455333",
+    "date_publication": "2026-09-17",
+    "type": "preprint",
+    "revue": "Preprints.org",
+    "type_source": "repository",
+    "langue": null,
+    "indexe_dans": [
+      "crossref"
+    ],
+    "financeurs": null,
+    "subventions": null,
+    "institutions": null,
+    "acces_ouvert": true,
+    "statut_acces": "green",
+    "url_texte": "https://doi.org/10.20944/preprints202609.1450.v1",
+    "url_pdf": null,
+    "licence": "cc-by",
+    "texte_integral_indexe": false,
+    "retracte": false,
+    "citations": 0,
+    "sujet_principal": "Glaucoma and retinal disorders",
+    "resume_present": true,
+    "resume": "We compared a rapid fifth-generation (5G) objectiveFIELD Analyser® (OFA®) test with two fourth-generation (4G) 8-minute tests in the assessment of glaucoma. We assessed the relative diagnostic power of these three OFA tests, namely two high-resolution 4G tests (wide-field OFA30 and macular OFA15), and a new 5G 90-second test (wide-field OFA30-20). Glaucomatous eyes were classified into mild, moderate and severe based upon Matrix 24-2 perimetry Mean Defect (MD). Diagnostic power was estimated by Area Under Curve of Receiver Operating Characteristic plots (AUROC) and Standardised Effect-Sizes (Hedge’s g) for each category of glaucoma severity. We tested 35 glaucoma patients (11 females), aged 72 ± 6.88 years. Their average Matrix MD was -7.71 ± 6.35 dB. Age-matched normal controls were acquired for the 4G and 5G tests. For the rapid 90-second test combined sensitivity and delay reports typically provided the best diagnostic power. For severe eyes, the OFA30-20 produced an AUROC of 90.4 ± 2.98, which was not significantly different to the OFA30 and OFA15. Hedge’s g was ≥ 2.68 for all those comparisons. AUROCs based upon sensitivity alone were not significantly different. We examined the agreement of the MD and Pattern Standard Deviations (PSD) of the two wide-field (OFA30 and OFA30-20) tests. The significant correlations for the sensitivity and delay MDs were > 0.85, and for PSDs 0.53 and 0.69. The rapid 5G OFA30-20 test was comparable to the 8-minute tests. It may be highly useful in young adults with short attention span and infirm persons who cannot tolerate longer tests.",
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "present_dans_pubmed": false
+  }
+}

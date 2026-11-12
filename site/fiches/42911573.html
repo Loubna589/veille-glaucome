@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>PMID 42911573 — fiche article</title><style>
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
+:root{--fond:#f4f7fb;--carte:#fff;--texte:#0f1d33;--doux:#52627a;--bord:#e2e8f0;--accent:#0b4f8a;
+--ok:#146c43;--ok-fond:#e3f4ea;--att:#8a5300;--att-fond:#fdf1d8;--ver:#b42318;--ver-fond:#fdeceb;
+--reg:#3f3c9e;--reg-fond:#ecebfb;--src-fond:#f1f5f9;--mark:#fff1a8;--manque:#b42318;--turquoise:#14b8a6;}
+@media (prefers-color-scheme:dark){:root{--fond:#0a1120;--carte:#101a2c;--texte:#e6edf7;--doux:#9db0ca;
+--bord:#1e2b42;--accent:#6fb4ff;--ok:#6fd6a0;--ok-fond:#12301f;--att:#f3c15e;--att-fond:#352a10;--ver:#ff9a8f;
+--ver-fond:#3a1714;--reg:#b4b2ff;--reg-fond:#24234a;--src-fond:#0d1626;--mark:#5a4d10;--manque:#ff9a8f;--turquoise:#2dd4bf;}}
+*{box-sizing:border-box}body{margin:0;background:var(--fond);color:var(--texte);
+font:15.5px/1.6 "Inter",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+:focus-visible{outline:3px solid var(--turquoise);outline-offset:2px;border-radius:6px}
+main{max-width:1000px;margin:0 auto;padding:20px 18px 64px}
+.bandeau{display:flex;align-items:center;gap:10px;font-weight:800;letter-spacing:-.02em;padding:6px 0 14px;color:var(--texte);text-decoration:none}
+.bandeau i{width:30px;height:30px;border-radius:9px;background:linear-gradient(135deg,#0b4f8a,#14b8a6);display:inline-block}
+header,section{background:var(--carte);border:1px solid var(--bord);border-radius:16px;padding:20px 24px;margin:0 0 16px;
+box-shadow:0 1px 2px rgba(15,29,51,.04),0 6px 20px -8px rgba(15,29,51,.12)}
+h1{font-size:1.45rem;line-height:1.3;margin:.2em 0 .5em}h2{font-size:1.1rem;margin:0 0 .6em;color:var(--accent)}
+h3{font-size:1rem;margin:1.1em 0 .4em}.surtitre{color:var(--doux);margin:0;font-size:.9rem}
+a{color:var(--accent)}small,.def{color:var(--doux)}.def{font-size:.88rem;margin:.2em 0 .6em}
+.grille{display:grid;grid-template-columns:max-content 1fr;gap:4px 16px;margin:12px 0 0}
+.grille dt{color:var(--doux)}.grille dd{margin:0}
+.badge{display:inline-block;font-size:.72rem;font-weight:600;padding:2px 8px;border-radius:999px;margin:2px 4px 2px 0;
+vertical-align:middle;background:var(--src-fond);color:var(--doux)}
+.badge.confirme{background:var(--ok-fond);color:var(--ok)}.badge.attente{background:var(--att-fond);color:var(--att)}
+.badge.verifier{background:var(--ver-fond);color:var(--ver)}.badge.regle{background:var(--reg-fond);color:var(--reg)}
+.rubrique{font-weight:600}.manque{color:var(--manque);font-style:italic}
+mark{background:var(--mark);color:inherit;padding:0 2px;border-radius:3px}
+blockquote{margin:.5em 0;padding:.5em .9em;border-left:3px solid var(--bord);background:var(--src-fond);border-radius:0 6px 6px 0}
+pre{white-space:pre-wrap;font-size:.85rem;background:var(--src-fond);padding:10px;border-radius:6px}
+.defile{overflow-x:auto}table{border-collapse:collapse;width:100%;font-size:.92rem;margin:.4em 0}
+th,td{border:1px solid var(--bord);padding:6px 8px;text-align:left;vertical-align:top}th{background:var(--src-fond)}
+.analyse{background:var(--src-fond);padding:6px 10px;border-radius:6px;font-size:.92rem}
+.acteurs{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px}
+.acteurs>div{border:1px solid var(--bord);border-radius:8px;padding:10px 12px}.acteurs h3{margin-top:0}
+.copier{position:sticky;top:0;z-index:2;display:flex;gap:12px;align-items:center;flex-wrap:wrap;
+background:var(--fond);padding:10px 0;margin-bottom:8px}
+button{font:inherit;font-weight:600;background:var(--accent);color:#fff;border:0;border-radius:8px;padding:9px 16px;cursor:pointer}
+@media (prefers-color-scheme:dark){button{color:#10141a}}
+textarea{width:100%;min-height:260px;font:13px/1.4 ui-monospace,Consolas,monospace;background:var(--src-fond);
+color:var(--texte);border:1px solid var(--bord);border-radius:6px;padding:8px}
+details{margin:.5em 0}summary{cursor:pointer;color:var(--accent)}
+.retour{font-size:.92rem;margin:0 0 4px}
+@media (max-width:600px){.grille{grid-template-columns:1fr}.grille dt{margin-top:6px}header,section{padding:14px}}
+</style></head>
+<body><main>
+<a class="bandeau" href="../index.html"><i aria-hidden="true"></i>Glaucoma Intelligence</a><nav class="retour"><a href="../index.html">Accueil</a> · <a href="../etudes.html">← Essais &amp; articles</a> · <a href="../recherche.html">Rechercher</a> · <a href="../carte.html">Carte des acteurs</a> · <a href="../alertes.html">Alertes</a></nav>
+<div class="copier"><button id="bouton-copier" type="button" onclick="copierFiche()">Copier pour Claude / ChatGPT</button>
+<small>Copie une consigne + les faits de cette fiche, à coller dans votre assistant.</small></div>
+
+    <header>
+      <p class="surtitre">Fiche article · PMID 42911573 · <a href="https://pubmed.ncbi.nlm.nih.gov/42911573/" target="_blank" rel="noopener">voir sur PubMed</a>
+         · <a href="https://doi.org/10.1001/jamaophthalmol.2026.4609" target="_blank" rel="noopener">DOI 10.1001/jamaophthalmol.2026.4609</a></p>
+      <h1 lang="en">Incidence and Risk Factors of Recurrent Visual Field Progression in Glaucoma.</h1>
+      <p><span class="badge confirme">PUBLICATION — le résumé rapporte des résultats</span> <span class="badge verifier">Synthèse fondée UNIQUEMENT sur le résumé PubMed : le texte intégral n'a pas été lu.</span></p>
+      <dl class="grille">
+        <dt>Revue</dt><dd>JAMA ophthalmology</dd>
+        <dt>Entrée dans PubMed</dt><dd>2026-10-23 · publication : 2026-Oct-22</dd>
+        <dt>Type(s) de publication (PubMed)</dt><dd lang="en">Journal Article</dd>
+        <dt>Stade</dt><dd>Non renseigné <small>(pas d'indexation MeSH disponible)</small></dd>
+        <dt>Accès au texte (OpenAlex)</dt><dd>libre (copie déposée dans une archive) · <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC13691913/" target="_blank" rel="noopener">ouvrir le texte</a></dd>
+        <dt>Détecté par l'outil le</dt><dd>2026-11-11</dd>
+      </dl>
+      <p class="rubriques"><strong>Rubrique :</strong> <span class="rubrique">Diagnostic et IA</span> <small>mot du titre : « Visual Field »</small> <span class="badge regle">classement automatique — règles dans config/rubriques.ini</span></p>
+    </header>
+<section><h2>Question étudiée <span class="badge source">Résumé PubMed (texte source)</span></h2><blockquote lang="en"><strong>IMPORTANCE</strong> A confirmed visual field progression event in glaucoma typically prompts intensification of intraocular pressure (IOP)-lowering therapy, yet the factors associated with recurrent progression after that first event remain poorly characterized.</blockquote><blockquote lang="en"><strong>OBJECTIVE</strong> To evaluate the incidence of recurrent visual field progression after an initial Guided Progression Analysis (GPA) likely-progression event and the factors associated with a recurrent event.</blockquote></section><section><h2>Traitement ou technologie, et comparateur <span class="badge regle">règle automatique de l'outil</span></h2><ul><li><span class="manque">Aucun produit suivi ni molécule repérés automatiquement</span></li></ul><p class="def">Aucun rôle n'est confirmé : PubMed ne décrit pas les bras d'une étude. Un rôle pourrait être confirmé par le registre d'un essai lié de façon confirmée.</p></section><section><h2>Type d'étude et méthode <span class="badge source">Résumé PubMed (texte source)</span><span class="badge source">PubMed (types de publication)</span></h2><p>Type(s) de publication déclaré(s) par PubMed : <span lang="en">Journal Article</span></p><blockquote lang="en"><strong>DESIGN, SETTING, AND PARTICIPANTS</strong> This cohort study was conducted among patients receiving routine ophthalmic care between <mark>1998</mark> and <mark>2025</mark> at a single tertiary academic center (Bascom Palmer Ophthalmic Registry). Data were analyzed from February <mark>2026</mark> to August <mark>2026</mark>.</blockquote><blockquote lang="en"><strong>MAIN OUTCOMES AND MEASURES</strong> The primary outcomes were the cumulative probability of recurrent visual field progression and hazard ratios (HRs) for factors associated with recurrence.</blockquote></section><section><h2>Population et participants (phrases du résumé) <span class="badge source">Résumé PubMed (texte source)</span></h2><blockquote lang="en">A total of <mark>7457</mark> eyes of <mark>5086</mark> patients with open-angle glaucoma or suspected glaucoma were included, with a mean (SD) follow-up of <mark>12.4</mark> (<mark>4.6</mark>) years.</blockquote><blockquote lang="en">Mean (SD) patient age was <mark>60.5</mark> (<mark>13.1</mark>) years, and <mark>4468</mark> eyes (<mark>59.9%</mark>) were from female patients.</blockquote><blockquote lang="en">By self-reported race and ethnicity, <mark>203</mark> eyes (<mark>2.7%</mark>) were from Asian patients, <mark>1718</mark> (<mark>23.0%</mark>) from Black patients, <mark>1677</mark> (<mark>22.5%</mark>) from Hispanic patients, and <mark>5536</mark> (<mark>74.2%</mark>) from White patients.</blockquote><blockquote lang="en">A total of <mark>1951</mark> eyes (<mark>26.2%</mark>) developed initial GPA likely progression; <mark>635</mark> eyes had adequate follow-up after first progression and IOP data.</blockquote></section><section><h2>Résultats disponibles <span class="badge source">Résumé PubMed (texte source)</span></h2><p class="def">Valeurs chiffrées surlignées telles qu'elles figurent dans le résumé. Elles n'ont pas été vérifiées dans le texte intégral.</p><blockquote lang="en"><strong>RESULTS</strong> A total of <mark>7457</mark> eyes of <mark>5086</mark> patients with open-angle glaucoma or suspected glaucoma were included, with a mean (SD) follow-up of <mark>12.4</mark> (<mark>4.6</mark>) years. Mean (SD) patient age was <mark>60.5</mark> (<mark>13.1</mark>) years, and <mark>4468</mark> eyes (<mark>59.9%</mark>) were from female patients. By self-reported race and ethnicity, <mark>203</mark> eyes (<mark>2.7%</mark>) were from Asian patients, <mark>1718</mark> (<mark>23.0%</mark>) from Black patients, <mark>1677</mark> (<mark>22.5%</mark>) from Hispanic patients, and <mark>5536</mark> (<mark>74.2%</mark>) from White patients. A total of <mark>1951</mark> eyes (<mark>26.2%</mark>) developed initial GPA likely progression; <mark>635</mark> eyes had adequate follow-up after first progression and IOP data. Among those, <mark>167</mark> (<mark>26.3%</mark>) recurred. Kaplan-Meier cumulative recurrence was <mark>13.8%</mark> at <mark>3</mark> years (<mark>95%</mark> CI, <mark>11.6%</mark><mark>-17.1%</mark>) and <mark>43.5%</mark> at <mark>10</mark> years (<mark>95%</mark> CI, <mark>35.8%</mark><mark>-52.1%</mark>). In multivariable Cox analysis, faster mean deviation (MD) loss before first progression (HR, <mark>1.73</mark> per <mark>1</mark> decibel [dB]/y; <mark>95%</mark> CI, <mark>1.39</mark>-<mark>2.15</mark>), higher mean IOP after the first event (HR, <mark>1.09</mark> per <mark>1 mm Hg</mark>; <mark>95%</mark> CI, <mark>1.05</mark>-<mark>1.13</mark>), less negative MD at first progression (HR, <mark>1.08</mark> per <mark>1</mark> dB; <mark>95%</mark> CI, <mark>1.04</mark>-<mark>1.12</mark>), and older age (HR, <mark>1.11</mark> per <mark>5</mark> years; <mark>95%</mark> CI, <mark>1.03</mark>-<mark>1.19</mark>) were independently associated with recurrence. Each <mark>10%</mark> greater IOP reduction was associated with lower hazard (HR, <mark>0.89</mark>; <mark>95%</mark> CI, <mark>0.83</mark>-<mark>0.94</mark>). Among eyes with pre-event MD slopes faster than <mark>-1.0</mark> dB/y, recurrence occurred in <mark>42.7%</mark> of eyes vs <mark>23.4%</mark> in slower-progressing eyes (difference, <mark>19.3%</mark>; <mark>95%</mark> CI, <mark>8.8%</mark><mark>-29.9%</mark>).</blockquote></section><section><h2>Données de tolérance (phrases du résumé) <span class="badge source">Résumé PubMed (texte source)</span></h2><p><span class="manque">Aucune donnée de tolérance dans le résumé</span></p></section><section><h2>Conclusion des auteurs (citée telle quelle, non évaluée par l'outil) <span class="badge source">Résumé PubMed (texte source)</span></h2><blockquote lang="en"><strong>CONCLUSIONS AND RELEVANCE</strong> Findings from this cohort study suggest that recurrent visual field progression after a first GPA progression event is common; eyes at highest risk had faster pre-event visual field loss, less advanced damage at first progression, higher postevent IOP, and older age. These results may help target intensified monitoring and IOP lowering toward higher-risk eyes.</blockquote></section><section><h2>Essai clinique lié <span class="badge source">PubMed (DataBankList et texte)</span></h2><ul><li><span class="manque">Aucun essai lié identifié</span></li></ul></section><section><h2>Promoteur, financeur et affiliations <span class="badge source">PubMed</span><span class="badge source">OpenAlex</span><span class="badge source">Crossref</span></h2><div class="acteurs">
+      <div><h3>Promoteur d'essai</h3><p class="def">Organisme responsable d'un essai, déclaré au registre.</p><p><span class="manque">Non affiché : aucun essai lié de façon confirmée</span></p></div>
+      <div><h3>Financeur</h3><p class="def">Organisme qui a financé la recherche, avec la notice qui le justifie.</p><p><span class="manque">Aucun financeur trouvé (PubMed, OpenAlex, Crossref)</span></p></div>
+      <div><h3>Affiliations des auteurs</h3><p class="def">Établissements où travaillent les auteurs (pas un financement).</p><p><small>Institutions normalisées (OpenAlex) :</small></p><ul><li>University of Miami <small>(US, enseignement/recherche)</small></li></ul><details><summary>Affiliations telles que déclarées dans PubMed (1)</summary><ul><li>Bascom Palmer Eye Institute, University of Miami, Miami, Florida.</li></ul></details></div>
+    </div></section>
+<section><h2>Ce qui manque <span class="badge regle">calculé par l'outil</span></h2><ul><li>données de tolérance</li><li>financeur</li></ul></section>
+<section><h2>Limites, intérêt pour la veille marketing, à retenir <span class="badge attente">non produit par l'outil</span></h2><p><span class="manque">Non rédigé automatiquement : les données extraites ne suffisent pas à produire une analyse fiable sans interprétation. Utilisez le bouton « Copier pour Claude / ChatGPT » pour obtenir une proposition, à vérifier.</span></p></section>
+<section><details><summary>Voir le texte copié par le bouton</summary>
+<textarea id="a-copier" readonly>Tu es assistant de veille scientifique sur le glaucome. À partir UNIQUEMENT des informations ci-dessous, rédige en français une fiche de synthèse avec ces rubriques :
+1. Question étudiée
+2. Traitement ou technologie
+3. Type d&#x27;étude
+4. Population et nombre de participants
+5. Comparateur
+6. Critères évalués
+7. Principaux résultats chiffrés (recopie les valeurs exactes et indique leur source)
+8. Données de tolérance
+9. Limites
+10. Intérêt potentiel pour une veille marketing — présenté comme une INTERPRÉTATION, séparé des faits
+11. À retenir (une phrase)
+
+Règles :
+- N&#x27;invente rien. Si une information manque, écris « non rapporté ».
+- Distingue un essai simplement enregistré, un protocole, des résultats déposés dans un registre et une publication de résultats.
+- Si la source est seulement le résumé d&#x27;un article, indique que la synthèse repose uniquement sur ce résumé.
+- Les rôles « suggérés » (traitement étudié / comparateur) sont à vérifier dans le texte source.
+- Ne confonds pas promoteur d&#x27;essai, financeur et affiliation des auteurs.
+- Termine par la liste des points à vérifier.
+
+=== INFORMATIONS ===
+SOURCE : PubMed, PMID 42911573 — https://pubmed.ncbi.nlm.nih.gov/42911573/ · DOI https://doi.org/10.1001/jamaophthalmol.2026.4609
+BASE : résumé PubMed uniquement (texte intégral non lu)
+Titre : Incidence and Risk Factors of Recurrent Visual Field Progression in Glaucoma.
+Revue : JAMA ophthalmology · entrée PubMed : 2026-10-23
+Types de publication (PubMed) : Journal Article
+Produits repérés automatiquement (rôles SUGGÉRÉS, à vérifier) : aucun
+Molécules hors liste (repérage automatique, à vérifier) : aucune
+Essai lié : aucun
+Financeurs : aucun trouvé
+Affiliations (institutions, pas des financeurs) : University of Miami (US, education)
+
+RÉSUMÉ (texte source) :
+IMPORTANCE: A confirmed visual field progression event in glaucoma typically prompts intensification of intraocular pressure (IOP)-lowering therapy, yet the factors associated with recurrent progression after that first event remain poorly characterized.
+OBJECTIVE: To evaluate the incidence of recurrent visual field progression after an initial Guided Progression Analysis (GPA) likely-progression event and the factors associated with a recurrent event.
+DESIGN, SETTING, AND PARTICIPANTS: This cohort study was conducted among patients receiving routine ophthalmic care between 1998 and 2025 at a single tertiary academic center (Bascom Palmer Ophthalmic Registry). Data were analyzed from February 2026 to August 2026.
+MAIN OUTCOMES AND MEASURES: The primary outcomes were the cumulative probability of recurrent visual field progression and hazard ratios (HRs) for factors associated with recurrence.
+RESULTS: A total of 7457 eyes of 5086 patients with open-angle glaucoma or suspected glaucoma were included, with a mean (SD) follow-up of 12.4 (4.6) years. Mean (SD) patient age was 60.5 (13.1) years, and 4468 eyes (59.9%) were from female patients. By self-reported race and ethnicity, 203 eyes (2.7%) were from Asian patients, 1718 (23.0%) from Black patients, 1677 (22.5%) from Hispanic patients, and 5536 (74.2%) from White patients. A total of 1951 eyes (26.2%) developed initial GPA likely progression; 635 eyes had adequate follow-up after first progression and IOP data. Among those, 167 (26.3%) recurred. Kaplan-Meier cumulative recurrence was 13.8% at 3 years (95% CI, 11.6%-17.1%) and 43.5% at 10 years (95% CI, 35.8%-52.1%). In multivariable Cox analysis, faster mean deviation (MD) loss before first progression (HR, 1.73 per 1 decibel [dB]/y; 95% CI, 1.39-2.15), higher mean IOP after the first event (HR, 1.09 per 1 mm Hg; 95% CI, 1.05-1.13), less negative MD at first progression (HR, 1.08 per 1 dB; 95% CI, 1.04-1.12), and older age (HR, 1.11 per 5 years; 95% CI, 1.03-1.19) were independently associated with recurrence. Each 10% greater IOP reduction was associated with lower hazard (HR, 0.89; 95% CI, 0.83-0.94). Among eyes with pre-event MD slopes faster than -1.0 dB/y, recurrence occurred in 42.7% of eyes vs 23.4% in slower-progressing eyes (difference, 19.3%; 95% CI, 8.8%-29.9%).
+CONCLUSIONS AND RELEVANCE: Findings from this cohort study suggest that recurrent visual field progression after a first GPA progression event is common; eyes at highest risk had faster pre-event visual field loss, less advanced damage at first progression, higher postevent IOP, and older age. These results may help target intensified monitoring and IOP lowering toward higher-risk eyes.</textarea></details></section>
+<p><small>Fiche générée le 2026-11-11 22:40 par Glaucoma Intelligence. Extraits des sources en langue originale.</small></p>
+</main><script>
+function copierFiche(){
+  var zone=document.getElementById('a-copier'), bouton=document.getElementById('bouton-copier');
+  function fait(){bouton.textContent='Copié ✓ — collez dans Claude ou ChatGPT';setTimeout(function(){bouton.textContent='Copier pour Claude / ChatGPT'},3000);}
+  function secours(){zone.parentElement.open=true;zone.select();try{document.execCommand('copy');fait();}
+    catch(err){bouton.textContent='Sélectionnez le texte ci-dessous puis Ctrl+C';}}
+  if(navigator.clipboard&&window.isSecureContext){navigator.clipboard.writeText(zone.value).then(fait,secours);}else{secours();}
+}
+</script></body></html>

@@ -1,0 +1,209 @@
+{
+  "pmid": "43006987",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "43006987",
+    "titre": "Axial Length-Dependent Macular Choroidal Topography in POAG: A Wide-Field Swept-Source Optical Coherence Tomography Study.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/43006987/",
+    "doi": "10.1167/iovs.67.13.17",
+    "pmcid": null,
+    "revue": "Investigative ophthalmology & visual science",
+    "date_entree_pubmed": "2026-11-10",
+    "date_publication": "2026-Nov-02",
+    "types_publication": [
+      "Journal Article"
+    ],
+    "resume_present": true,
+    "resume": "PURPOSE: To characterize the topography of the macular choroidal thickness (mCT) in POAG across axial lengths (AXLs), and to determine the clinical factors associated with the mCT.\nMETHODS: Wide-field swept-source optical coherence tomography with a 30 × 30 macular grid (6 mm × 6 mm) was used to generate spatial maps of the mCT and macular ganglion cell-inner plexiform layer thickness (mGCIPLT). The mCT was compared pointwise between POAG and control eyes, and cluster-based permutation testing was used to assess topographic significance in the entire cohort and in three subgroups stratified by AXL (<24.5 mm, 24.5-26.0 mm, and ≥26.0 mm). Clinical factors associated with the mCT were evaluated using regression analyses.\nRESULTS: This study included 117 POAG eyes and 157 control eyes. While the mCT was only marginally thinner in POAG eyes than in controls, topographic analyses of the mCT revealed areas of localized thinning in the papillomacular and inferotemporal peripapillary areas in POAG, which did not overlap with the pattern of mGCIPLT reduction. These topographic changes were observed only in eyes with an AXL of <26.0 mm, with no regional differences in eyes with an AXL of ≥26.0 mm.\nCONCLUSIONS: In POAG eyes, the mCT reduction was localized to the papillomacular and inferotemporal peripapillary regions, which are critical areas for central visual function and topographically distinct from structural retinal ganglion cell loss. This pattern was not observed in eyes with long AXLs, presumably because significant axial-elongation-induced thinning restricts further discernible changes. Future studies are needed to determine the clinical significance of mCT alterations in POAG.",
+    "mots_cles_auteurs": null,
+    "langue": "eng",
+    "nombre_auteurs": 16,
+    "affiliations_auteurs": [
+      "Department of Ophthalmology, Seoul National University College of Medicine, Seoul National University Bundang Hospital, Seongnam, Korea.",
+      "R&D Division, Topcon Corporation, Tokyo, Japan.",
+      "Department of Ophthalmology, Graduate School of Medicine, The University of Tokyo, Tokyo, Japan.",
+      "Kanto Central Hospital of the Mutual Aid Association of Public School Teachers, Tokyo, Japan.",
+      "Department of Ophthalmology, Kanazawa University Graduate School of Medical Sciences, Kanazawa, Japan.",
+      "Department of Innovative Visual Science, Osaka University Graduate School of Medicine, Osaka, Japan.",
+      "Department of Myopia Control Research, Aichi Medical University Medical School, Nagakute, Japan.",
+      "Tajimi Iwase Eye Clinic, Tajimi, Japan.",
+      "Department of Ophthalmology, Toho University Ohashi Medical Center, Tokyo, Japan.",
+      "Department of Ophthalmology, Tohoku University School of Medicine, Sendai, Japan.",
+      "Department of Ophthalmology and Visual Science, Tokyo Medical and Dental University, Tokyo, Japan.",
+      "Department of Ophthalmology, LKS Faculty of Medicine, The University of Hong Kong, Hong Kong, Hong Kong SAR, China.",
+      "Hamilton Glaucoma Center, Shiley Eye Institute, and the Viterbi Family Department of Ophthalmology, University of California San Diego, La Jolla, California, United States."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": [
+      "Humans",
+      "Tomography, Optical Coherence",
+      "Choroid",
+      "Female",
+      "Axial Length, Eye",
+      "Male",
+      "Glaucoma, Open-Angle",
+      "Middle Aged",
+      "Retinal Ganglion Cells",
+      "Aged",
+      "Macula Lutea",
+      "Intraocular Pressure",
+      "Visual Fields"
+    ]
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": null,
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7225697732",
+      "doi": "10.1167/iovs.67.13.17",
+      "pmid": "43006987",
+      "pmcid": null,
+      "titre": "Axial Length–Dependent Macular Choroidal Topography in POAG: A Wide-Field Swept-Source Optical Coherence Tomography Study",
+      "lien": "https://openalex.org/W7225697732",
+      "date_publication": "2026-11-10",
+      "type": "article",
+      "revue": "Investigative Ophthalmology & Visual Science",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "doaj",
+        "pubmed"
+      ],
+      "financeurs": null,
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "Seoul National University",
+          "pays": "KR",
+          "type": "education",
+          "ror": "https://ror.org/04h9pn542"
+        },
+        {
+          "nom": "Seoul National University Bundang Hospital",
+          "pays": "KR",
+          "type": "healthcare",
+          "ror": "https://ror.org/00cb3km46"
+        },
+        {
+          "nom": "Topcon (Japan)",
+          "pays": "JP",
+          "type": "company",
+          "ror": "https://ror.org/03fevzd03"
+        },
+        {
+          "nom": "Topcon Corporation (Japan)",
+          "pays": "JP",
+          "type": "company",
+          "ror": "https://ror.org/01qktm695"
+        },
+        {
+          "nom": "The University of Tokyo",
+          "pays": "JP",
+          "type": "education",
+          "ror": "https://ror.org/057zh3y96"
+        },
+        {
+          "nom": "Kanto Central Hospital",
+          "pays": "JP",
+          "type": "healthcare",
+          "ror": "https://ror.org/02tt4fr50"
+        },
+        {
+          "nom": "Kanazawa University",
+          "pays": "JP",
+          "type": "education",
+          "ror": "https://ror.org/02hwp6a56"
+        },
+        {
+          "nom": "Aichi Medical University",
+          "pays": "JP",
+          "type": "education",
+          "ror": "https://ror.org/02h6cs343"
+        },
+        {
+          "nom": "The University of Osaka",
+          "pays": "JP",
+          "type": "education",
+          "ror": "https://ror.org/035t8zc32"
+        },
+        {
+          "nom": "Tajimi Iwase Eye Clinic",
+          "pays": "JP",
+          "type": "nonprofit",
+          "ror": "https://ror.org/04wpjpv62"
+        },
+        {
+          "nom": "Toho University Ohashi Medical Center",
+          "pays": "JP",
+          "type": "healthcare",
+          "ror": "https://ror.org/00mre2126"
+        },
+        {
+          "nom": "Tohoku University",
+          "pays": "JP",
+          "type": "education",
+          "ror": "https://ror.org/01dq60k83"
+        },
+        {
+          "nom": "Tokyo Medical and Dental University",
+          "pays": "JP",
+          "type": "education",
+          "ror": "https://ror.org/051k3eh31"
+        },
+        {
+          "nom": "University of Hong Kong",
+          "pays": "HK",
+          "type": "education",
+          "ror": "https://ror.org/02zhqgq86"
+        },
+        {
+          "nom": "University of California San Diego",
+          "pays": "US",
+          "type": "education",
+          "ror": "https://ror.org/0168r3w48"
+        }
+      ],
+      "acces_ouvert": true,
+      "statut_acces": "gold",
+      "url_texte": "https://doi.org/10.1167/iovs.67.13.17",
+      "url_pdf": null,
+      "licence": "cc-by-nc-nd",
+      "texte_integral_indexe": false,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Glaucoma and retinal disorders",
+      "resume_present": true,
+      "mesh": [
+        "Aged",
+        "Choroid",
+        "Female",
+        "Glaucoma, Open-Angle",
+        "Humans",
+        "Intraocular Pressure",
+        "Macula Lutea",
+        "Male",
+        "Middle Aged",
+        "Retinal Ganglion Cells",
+        "Visual Fields",
+        "Tomography, Optical Coherence",
+        "Axial Length, Eye"
+      ]
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": []
+  }
+}

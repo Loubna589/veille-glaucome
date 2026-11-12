@@ -1,0 +1,235 @@
+{
+  "pmid": "42806246",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42806246",
+    "titre": "Current Trends in AI and Eye Disease Diagnostics.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42806246/",
+    "doi": "10.1007/s44402-026-00193-2",
+    "pmcid": "PMC13694344",
+    "revue": "Ophthalmic & physiological optics : the journal of the British College of Ophthalmic Opticians (Optometrists)",
+    "date_entree_pubmed": "2026-09-28",
+    "date_publication": "2026-Nov",
+    "types_publication": [
+      "Journal Article",
+      "Review"
+    ],
+    "resume_present": true,
+    "resume": "PURPOSE: Artificial intelligence (AI) has rapidly advanced as an approach for ophthalmic disease detection, driven by the widespread use of high-dimensional imaging modalities (e.g., optical coherence tomography). This review summarises the machine learning and AI approaches for disease detection in ophthalmology and discusses emerging paradigms and highlights key challenges impacting clinical translation.\nRECENT FINDINGS: AI-based systems have demonstrated suitably high diagnostic performance across major ophthalmic diseases, including diabetic retinopathy (DR), diabetic macular oedema, glaucoma, age-related macular degeneration and retinopathy of prematurity. Several tools have even received regulatory approval for commercial DR screening. More recently, foundation models trained using self-supervised learning have enabled more generalisable and data-efficient disease detection across datasets and imaging modalities. In parallel, multimodal large language model systems are emerging that integrate imaging and clinical data to support more comprehensive diagnostic workflows. Early agentic AI systems extend this paradigm further by coordinating multiple models to perform disease detection, provide clinical decision support and generate reports. AI-based disease detection in ophthalmology has achieved substantial technical progress but only limited translation into routine clinical practice. Key barriers include technical, clinical, ethical, economic and regulatory concerns. Future efforts should prioritise prospective evaluation in real-world settings, addressing model transparency and bias and alignment with clinical and regulatory requirements. With continued advances, AI has the potential to expand access to care, improve diagnostic accuracy and reduce the global burden of vision loss.",
+    "mots_cles_auteurs": [
+      "Artificial intelligence",
+      "Deep learning",
+      "Digital innovations",
+      "Machine learning",
+      "Ophthalmology diagnostics"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 3,
+    "affiliations_auteurs": [
+      "University of California, Davis, School of Medicine, Sacramento, California, USA.",
+      "Viterbi Family Department of Ophthalmology, Shiley Eye Institute, University of California, San Diego, La Jolla, California, USA.",
+      "Carle Illinois College of Medicine, University of Illinois at Urbana-Champaign, Urbana, Illinois, USA.",
+      "Viterbi Family Department of Ophthalmology, Shiley Eye Institute, University of California, San Diego, La Jolla, California, USA. mac157@health.ucsd.edu."
+    ],
+    "financeurs_declares": [
+      {
+        "organisme": "NIH HHS",
+        "pays": "United States",
+        "reference": "OT2 OD032644"
+      },
+      {
+        "organisme": "NIH HHS",
+        "pays": "United States",
+        "reference": "OT2OD032644"
+      }
+    ],
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": [
+      "Humans",
+      "Artificial Intelligence",
+      "Eye Diseases",
+      "Diagnostic Techniques, Ophthalmological",
+      "Machine Learning",
+      "Tomography, Optical Coherence",
+      "Ophthalmology"
+    ]
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": null,
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7214650780",
+      "doi": "10.1007/s44402-026-00193-2",
+      "pmid": "42806246",
+      "pmcid": "13694344",
+      "titre": "Current Trends in AI and Eye Disease Diagnostics",
+      "lien": "https://openalex.org/W7214650780",
+      "date_publication": "2026-09-28",
+      "type": "review",
+      "revue": "Ophthalmic and Physiological Optics",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "pubmed"
+      ],
+      "financeurs": [
+        {
+          "nom": "National Institutes of Health",
+          "ror": "https://ror.org/01cwqze88"
+        },
+        {
+          "nom": "National Eye Institute",
+          "ror": "https://ror.org/03wkg3b53"
+        }
+      ],
+      "subventions": [
+        {
+          "financeur": "National Institutes of Health",
+          "reference": "OT2OD032644"
+        },
+        {
+          "financeur": "National Eye Institute",
+          "reference": "R00EY030942"
+        },
+        {
+          "financeur": "National Eye Institute",
+          "reference": "R01EY034146"
+        }
+      ],
+      "institutions": [
+        {
+          "nom": "University of California, Davis",
+          "pays": "US",
+          "type": "education",
+          "ror": "https://ror.org/05rrcem69"
+        },
+        {
+          "nom": "University of Illinois Urbana-Champaign",
+          "pays": "US",
+          "type": "education",
+          "ror": "https://ror.org/047426m28"
+        },
+        {
+          "nom": "University of California San Diego",
+          "pays": "US",
+          "type": "education",
+          "ror": "https://ror.org/0168r3w48"
+        }
+      ],
+      "acces_ouvert": true,
+      "statut_acces": "hybrid",
+      "url_texte": "https://link.springer.com/content/pdf/10.1007/s44402-026-00193-2.pdf",
+      "url_pdf": "https://link.springer.com/content/pdf/10.1007/s44402-026-00193-2.pdf",
+      "licence": "cc-by",
+      "texte_integral_indexe": true,
+      "retracte": false,
+      "citations": 1,
+      "sujet_principal": "Retinal Imaging and Analysis",
+      "resume_present": true,
+      "mesh": [
+        "Machine Learning",
+        "Artificial Intelligence",
+        "Diagnostic Techniques, Ophthalmological",
+        "Eye Diseases",
+        "Humans",
+        "Ophthalmology",
+        "Tomography, Optical Coherence"
+      ]
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": [
+      {
+        "nom": "NIH HHS",
+        "statut": "CONFIRMÉ — déclaré dans la notice PubMed (GrantList)",
+        "references": [
+          "OT2 OD032644"
+        ],
+        "notices": [
+          [
+            "notice PubMed",
+            "https://pubmed.ncbi.nlm.nih.gov/42806246/?format=pubmed"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "NIH HHS",
+        "statut": "CONFIRMÉ — déclaré dans la notice PubMed (GrantList)",
+        "references": [
+          "OT2OD032644"
+        ],
+        "notices": [
+          [
+            "notice PubMed",
+            "https://pubmed.ncbi.nlm.nih.gov/42806246/?format=pubmed"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "National Institutes of Health",
+        "statut": "À VÉRIFIER — trouvé par OpenAlex seulement (absent de la déclaration de l'éditeur dans Crossref) ; à contrôler dans le texte de l'article",
+        "references": [
+          "OT2OD032644"
+        ],
+        "notices": [
+          [
+            "notice OpenAlex",
+            "https://api.openalex.org/works/W7214650780"
+          ],
+          [
+            "notice Crossref consultée (ne confirme pas ce financeur)",
+            "https://api.crossref.org/works/10.1007/s44402-026-00193-2"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "National Eye Institute",
+        "statut": "À VÉRIFIER — trouvé par OpenAlex seulement (absent de la déclaration de l'éditeur dans Crossref) ; à contrôler dans le texte de l'article",
+        "references": [
+          "R00EY030942",
+          "R01EY034146"
+        ],
+        "notices": [
+          [
+            "notice OpenAlex",
+            "https://api.openalex.org/works/W7214650780"
+          ],
+          [
+            "notice Crossref consultée (ne confirme pas ce financeur)",
+            "https://api.crossref.org/works/10.1007/s44402-026-00193-2"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "NIH",
+        "statut": "CONFIRMÉ — déclaré par l'éditeur dans Crossref (absent d'OpenAlex)",
+        "references": [
+          "OT2OD032644"
+        ],
+        "notices": [
+          [
+            "notice justificative Crossref (déclaration de l'éditeur)",
+            "https://api.crossref.org/works/10.1007/s44402-026-00193-2"
+          ]
+        ],
+        "note": null
+      }
+    ]
+  }
+}

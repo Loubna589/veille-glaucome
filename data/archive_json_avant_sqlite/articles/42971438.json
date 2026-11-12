@@ -1,0 +1,110 @@
+{
+  "pmid": "42971438",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42971438",
+    "titre": "Defining the optimal duration of remote home tonometry for accurate characterization of intraocular pressure fluctuation.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42971438/",
+    "doi": "10.1016/j.ophtha.2026.10.034",
+    "pmcid": null,
+    "revue": "Ophthalmology",
+    "date_entree_pubmed": "2026-11-02",
+    "date_publication": "2026-Nov-02",
+    "types_publication": [
+      "Journal Article"
+    ],
+    "resume_present": true,
+    "resume": "PURPOSE: To determine the minimal duration of remote intraocular pressure (IOP) monitoring needed to yield accurate IOP fluctuation metrics in patients.\nDESIGN: Secondary modeling analysis of retrospective data, validated with a large national database.\nPARTICIPANTS: 397 patients from the Moran Eye Center and/or Wilmer Eye Institute and 1,579 patients from a MyEyes CorporationTM database who utilized an iCare HOME/HOME2 tonometer and recorded ≥3 measurements throughout each day over several consecutive days.\nMETHODS: Bootstrapped progressive day-censorship analyses and exponential decay modeling were used to estimate the number of monitoring days required to achieve 95% of the maximal model-based reduction in error for IOP metrics, including mean, maximum, range, and standard deviation (SD). Ground truth for each metric was defined using all available measurements within each eye-specific monitoring period. Sensitivity analyses assessing the effects of diagnosis, treatment, and three daily IOP measurements were also completed.\nMAIN OUTCOME MEASURES: Mean absolute error (MAE) and mean relative error (MRE) for IOP mean, maximum, range, and SD; the number of monitoring days required to achieve 95% of the maximal model-based reduction in error.\nRESULTS: Across both datasets, approximately 6-7 monitoring days were required to achieve 95% of the modeled reduction in error for daily mean, maximum, range, and SD of IOP in the primary analysis. Sensitivity analyses demonstrated longer monitoring requirements in primary open-angle glaucoma (9.1-10.0 days) compared with glaucoma suspects (5.5-6.7 days), secondary open-angle glaucoma (6.4-8.0 days), and primary angle-closure glaucoma (7.8-8.3 days). Monitoring durations remained relatively consistent before and after selective laser trabeculoplasty (8.4-9.0 days) and Hydrus microstent implantation (6.0-6.8 days). Restricting measurements to only three daily IOP recordings throughout the day extended monitoring duration to approximately 10 days in the Moran/Wilmer dataset and longer in the MyEyes dataset. Additionally, 74.1% of peak IOP measurements occurred outside typical clinic hours.\nCONCLUSIONS: Remote tonometry provides clinically meaningful characterization of IOP metrics beyond traditional office-based measurements. Depending on the clinical context, seven to ten consecutive monitoring days consisting of measurements across each day are needed to represent a patient's true IOP pattern.",
+    "mots_cles_auteurs": [
+      "Glaucoma",
+      "Intraocular pressure",
+      "Remote monitoring",
+      "Tonometry"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 13,
+    "affiliations_auteurs": [
+      "John Moran Eye Center, Department of Ophthalmology & Visual Sciences at the University of Utah, Salt Lake City, UT.",
+      "Glaucoma Center of Excellence, Wilmer Eye Institute, Johns Hopkins University School of Medicine, Baltimore, MD.",
+      "Glaucoma Center of Excellence, Wilmer Eye Institute, Johns Hopkins University School of Medicine, Baltimore, MD; Solomon B Snyder Department of Neuroscience and Department of Biomedical Engineering, Johns Hopkins University School of Medicine, Baltimore, MD. Electronic address: johnson@jmhi.edu.",
+      "John Moran Eye Center, Department of Ophthalmology & Visual Sciences at the University of Utah, Salt Lake City, UT. Electronic address: barbara.wirostko@hsc.utah.edu."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7225105452",
+      "doi": "10.1016/j.ophtha.2026.10.034",
+      "pmid": "42971438",
+      "pmcid": null,
+      "titre": "Defining the optimal duration of remote home tonometry for accurate characterization of intraocular pressure fluctuation",
+      "lien": "https://openalex.org/W7225105452",
+      "date_publication": "2026-11-01",
+      "type": "article",
+      "revue": "Ophthalmology",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "pubmed"
+      ],
+      "financeurs": null,
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "University of Utah",
+          "pays": "US",
+          "type": "education",
+          "ror": "https://ror.org/03r0ha626"
+        },
+        {
+          "nom": "Johns Hopkins University",
+          "pays": "US",
+          "type": "education",
+          "ror": "https://ror.org/00za53h95"
+        },
+        {
+          "nom": "Johns Hopkins Medicine",
+          "pays": "US",
+          "type": "healthcare",
+          "ror": "https://ror.org/037zgn354"
+        },
+        {
+          "nom": "Johns Hopkins Hospital",
+          "pays": "US",
+          "type": "healthcare",
+          "ror": "https://ror.org/05cb1k848"
+        }
+      ],
+      "acces_ouvert": true,
+      "statut_acces": "hybrid",
+      "url_texte": "https://doi.org/10.1016/j.ophtha.2026.10.034",
+      "url_pdf": null,
+      "licence": "cc-by",
+      "texte_integral_indexe": false,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Glaucoma and retinal disorders",
+      "resume_present": true,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": []
+  }
+}

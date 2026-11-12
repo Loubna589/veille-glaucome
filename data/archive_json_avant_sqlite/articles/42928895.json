@@ -1,0 +1,97 @@
+{
+  "pmid": "42928895",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42928895",
+    "titre": "Quantitative Assessment of Schlemm's Canal Morphology and Observer Variability Using Swept-Source as-OCT in Healthy Eyes with Open and Narrow Angles.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42928895/",
+    "doi": "10.2147/OPTH.S619827",
+    "pmcid": "PMC13695946",
+    "revue": "Clinical ophthalmology (Auckland, N.Z.)",
+    "date_entree_pubmed": "2026-10-26",
+    "date_publication": "2026",
+    "types_publication": [
+      "Journal Article"
+    ],
+    "resume_present": true,
+    "resume": "INTRODUCTION: This cross-sectional study assessed Schlemm's Canal (SC) morphology in healthy eyes with open and narrow angles using anterior segment optical coherence tomography (AS-OCT) and evaluated inter- and intraobserver variability in SC measurements.\nMETHODS: AS-OCT images were obtained from 97 eyes from 97 patients. Two horizontal images were captured from the nasal region and one image from the temporal region. Two observers measured the following SC parameters: cross-sectional area (CSA), width, and height. Differences between open- and narrow-angle groups were compared, and interobserver and intraobserver reproducibility were measured using Intraclass Correlation Coefficients (ICC). Pearson's correlation coefficients were used to assess linear associations between measurements.\nRESULTS: Schlemm's canal CSA values in nasal images were significantly higher in open-angle eyes (4704 ± 1859 vs 3222 ± 1084 µm2, p = 0.003). However, differences in width or height between the two groups were nonsignificant. Interobserver agreement was good for CSA (ICC = 0.85), moderate to good for width (ICC = 0.74), and moderate for height (ICC = 0.66). Intraobserver repeatability was good for CSA (ICC = 0.86) and moderate to good for width (ICC = 0.73) but poor for height (ICC = 0.41). Visibility of SC was higher in nasal images than in temporal images (65-76% vs 39%).\nCONCLUSION: Nasal CSA and ACA were larger in the open-angle group and demonstrated good interobserver and intraobserver reproducibility. However, the significance of CSA, its utility in glaucoma patients and its relationship with functional measures of aqueous outflow remain unclear. This calls for longitudinal studies to determine the clinical applicability of this parameter.",
+    "mots_cles_auteurs": [
+      "Schlemm’s canal",
+      "anterior segment optical coherence tomography",
+      "glaucoma biomarker",
+      "reproducibility"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 5,
+    "affiliations_auteurs": [
+      "Department of Ophthalmology, Torfeh Medical Center, Shahid Beheshti University of Medical Sciences, Tehran, Iran.",
+      "Ophthalmic Research Center, Research Institute for Ophthalmology and Vision Science, Shahid Beheshti University of Medical Sciences, Tehran, Iran."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7223070633",
+      "doi": "10.2147/opth.s619827",
+      "pmid": "42928895",
+      "pmcid": "13695946",
+      "titre": "Quantitative Assessment of Schlemm’s Canal Morphology and Observer Variability Using Swept-Source as-OCT in Healthy Eyes with Open and Narrow Angles",
+      "lien": "https://openalex.org/W7223070633",
+      "date_publication": "2026-10-01",
+      "type": "article",
+      "revue": "Clinical ophthalmology",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "doaj",
+        "pubmed"
+      ],
+      "financeurs": null,
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "Shahid Beheshti University",
+          "pays": "IR",
+          "type": "education",
+          "ror": "https://ror.org/0091vmj44"
+        },
+        {
+          "nom": "Shahid Beheshti University of Medical Sciences",
+          "pays": "IR",
+          "type": "education",
+          "ror": "https://ror.org/034m2b326"
+        }
+      ],
+      "acces_ouvert": true,
+      "statut_acces": "gold",
+      "url_texte": "https://www.dovepress.com/article/download/121112",
+      "url_pdf": "https://www.dovepress.com/article/download/121112",
+      "licence": "cc-by-nc",
+      "texte_integral_indexe": true,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Glaucoma and retinal disorders",
+      "resume_present": true,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": []
+  }
+}

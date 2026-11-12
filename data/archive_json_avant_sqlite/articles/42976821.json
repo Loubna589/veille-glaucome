@@ -1,0 +1,93 @@
+{
+  "pmid": "42976821",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42976821",
+    "titre": "INDIVIDUAL ARTICLE: Topical Corticosteroid Approved Labeling in the US: A Modern Inter- and Intra-Product Analysis.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42976821/",
+    "doi": "10.36849/JDD.10424",
+    "pmcid": null,
+    "revue": "Journal of drugs in dermatology : JDD",
+    "date_entree_pubmed": "2026-11-03",
+    "date_publication": "2026-Nov-01",
+    "types_publication": [
+      "Journal Article"
+    ],
+    "resume_present": true,
+    "resume": "BACKGROUND: A wide variety of prescription-strength topical corticosteroids (TCS) have been commercially available for many decades. Product labels often vary, reflecting inconsistent guidance for dosing, duration of use, and safety.\nOBJECTIVE: This study was designed to analyze and compare dosing and safety information among TCS product labels approved by the United States (US) Food and Drug Administration (FDA).\nMETHODS: The FDA's openFDA Public Label API was used to collect US TCS labels. The content of each label was searched for safety terminology and quantitative use limits. These data were assessed for consistency across products.\nRESULTS: Warnings for a variety of adverse events (AEs) were found in TCS labels including, but not limited to, allergic contact dermatitis, skin infections, hypothalamic-pituitary-adrenal (HPA) axis suppression and Cushing syndrome, cataracts and glaucoma, and carcinogenesis. However, none of these warnings were included in all labels and were inconsistent among labels for the same active ingredient. Recommended limits on treatment duration and total weekly dose were included in some labels (35% and 22%, respectively) but many had no limits. If TCS are applied as described in the labels, patients with ~15% or greater affected body surface area will exceed weekly dose limits for HPA axis suppression.\nCONCLUSIONS: FDA-approved product labels are intended to inform clinical decision support systems. TCS product labels unfortunately do not contain warnings for known AEs and have inconsistent or absent dosing recommendations. Lack of guidance and inconsistent safety information diminish awareness of the risks associated with long-term use and/or overuse of these medications and can impact access. TCS label review and revision are warranted to eliminate inconsistency, modernize language around warnings and precautions, and provide clear dosing instructions and exposure limits to better inform clinicians, patients, and caregivers about safe use of these medications.",
+    "mots_cles_auteurs": null,
+    "langue": "eng",
+    "nombre_auteurs": 12,
+    "affiliations_auteurs": null,
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": [
+      "Drug Labeling",
+      "Humans",
+      "United States",
+      "United States Food and Drug Administration",
+      "Adrenal Cortex Hormones",
+      "Drug Approval",
+      "Administration, Topical",
+      "Administration, Cutaneous"
+    ]
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": null,
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7225176577",
+      "doi": "10.36849/jdd.10424",
+      "pmid": "42976821",
+      "pmcid": null,
+      "titre": "INDIVIDUAL ARTICLE: Topical Corticosteroid Approved Labeling in the US: A Modern Inter- and Intra-Product Analysis",
+      "lien": "https://openalex.org/W7225176577",
+      "date_publication": "2026-10-01",
+      "type": "article",
+      "revue": "Journal of Drugs in Dermatology",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "pubmed"
+      ],
+      "financeurs": null,
+      "subventions": null,
+      "institutions": null,
+      "acces_ouvert": false,
+      "statut_acces": "closed",
+      "url_texte": null,
+      "url_pdf": null,
+      "licence": null,
+      "texte_integral_indexe": false,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Pharmacovigilance and Adverse Drug Reactions",
+      "resume_present": true,
+      "mesh": [
+        "Administration, Cutaneous",
+        "Administration, Topical",
+        "Adrenal Cortex Hormones",
+        "Drug Labeling",
+        "Humans",
+        "United States",
+        "United States Food and Drug Administration",
+        "Drug Approval"
+      ]
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": []
+  }
+}

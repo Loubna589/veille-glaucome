@@ -1,0 +1,148 @@
+{
+  "nct": "NCT04918121",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "nct": "NCT04918121",
+    "titre": "A Study of Yutiq Steroid Insert During Glaucoma Tube Implant Surgery",
+    "titre_officiel": "A Study of Yutiq Steroid Insert During Glaucoma Tube Implant Surgery",
+    "lien": "https://clinicaltrials.gov/study/NCT04918121",
+    "date_premiere_publication": "2021-06-08",
+    "date_derniere_mise_a_jour": "2026-11-09",
+    "type_etude": "INTERVENTIONAL",
+    "phases_declarees": [
+      "EARLY_PHASE1"
+    ],
+    "statut": "ACTIVE_NOT_RECRUITING",
+    "raison_arret": null,
+    "date_debut": "2021-07-20",
+    "date_fin_principale": "2027-06",
+    "promoteur": "Sanjay Asrani",
+    "type_promoteur": "OTHER",
+    "collaborateurs": null,
+    "conditions": [
+      "Glaucoma"
+    ],
+    "interventions": [
+      {
+        "type": "DRUG",
+        "nom": "Yutiq 0.18 MG Drug Implant"
+      }
+    ],
+    "participants_nombre": 5,
+    "participants_type": "ESTIMATED",
+    "criteres_principaux": [
+      {
+        "critere": "Change in IOP measured using Goldman applanation tonometry",
+        "delai": "week 12, month 6, month 12, month 18, month 24, month 30 , month 36"
+      },
+      {
+        "critere": "Change in IOP measured using tonopen/Icare",
+        "delai": "week 12, month 6, month 12, month 18, month 24, month 30 , month 36"
+      },
+      {
+        "critere": "Medications usage as measured by medical record abstraction",
+        "delai": "week 12"
+      },
+      {
+        "critere": "Medications usage by medical record abstraction",
+        "delai": "month 6"
+      },
+      {
+        "critere": "Medications usage by medical record abstraction",
+        "delai": "month 12"
+      },
+      {
+        "critere": "Medications usage by medical record abstraction",
+        "delai": "month 18"
+      },
+      {
+        "critere": "Medications usage by medical record abstraction",
+        "delai": "month 24"
+      },
+      {
+        "critere": "Medications usage by medical record abstraction",
+        "delai": "month 30"
+      },
+      {
+        "critere": "Medications usage by medical record abstraction",
+        "delai": "month 36"
+      },
+      {
+        "critere": "Days on Steroid therapy by medical record abstraction",
+        "delai": "week 12"
+      },
+      {
+        "critere": "Days on Steroid therapy by medical record abstraction",
+        "delai": "month 6"
+      },
+      {
+        "critere": "Days on Steroid therapy by medical record abstraction",
+        "delai": "month 12"
+      },
+      {
+        "critere": "Days on Steroid therapy by medical record abstraction",
+        "delai": "month 18"
+      },
+      {
+        "critere": "Days on Steroid therapy by medical record abstraction",
+        "delai": "month 24"
+      },
+      {
+        "critere": "Days on Steroid therapy by medical record abstraction",
+        "delai": "month 30"
+      },
+      {
+        "critere": "Days on Steroid therapy by medical record abstraction",
+        "delai": "month 36"
+      }
+    ],
+    "resultats_deposes": false,
+    "publications_declarees": null,
+    "resume_source": "This is a pilot study, which will include approximately five eyes of 5 patients. This study proposes that a sustained release steroid insert (Yutiq)1 be implanted along with a glaucoma drainage device (Ahmed Glaucoma Valve (AGV) Model FP7) when the patient is undergoing glaucoma tube implant surgery or combined glaucoma tube implant and cataract surgery. The primary aim of this study is to assess the safety and efficacy (controlling intraocular pressure) of the Yutiq inserts to reduce post-operative scarring in surgical glaucoma patients. It is expected that post-operative week 12 onwards there will be a clinically and statistically significant lower IOP in the study eyes than eyes in a group undergoing the same surgery without the Yutiq insert. The estimated duration of the present study is 3 years.",
+    "citations_declarees": null,
+    "plan": {
+      "repartition": "NON_RANDOMIZED",
+      "modele": "PARALLEL",
+      "but_principal": "TREATMENT",
+      "insu": "NONE",
+      "insu_pour": null,
+      "insu_description": null,
+      "modele_observationnel": null
+    },
+    "bras": [
+      {
+        "libelle": "Yutiq",
+        "type": "EXPERIMENTAL",
+        "description": "A sustained-release steroid insert (Yutiq) will be implanted along with a glaucoma drainage device (Ahmed Glaucoma Valve (AGV) Model FP7) when the patient is undergoing glaucoma tube implant surgery or combined glaucoma tube implant and cataract surgery.",
+        "interventions": [
+          "Drug: Yutiq 0.18 MG Drug Implant"
+        ]
+      },
+      {
+        "libelle": "Control",
+        "type": "NO_INTERVENTION",
+        "description": "Non-study eye will not receive the Yutiq insert",
+        "interventions": null
+      }
+    ],
+    "eligibilite": {
+      "criteres": "Inclusion Criteria:\n\n1. At least 18 years old at time of consent.\n2. Patient being consented for either glaucoma tube implant surgery in pseudophakic eyes or being consented for cataract surgery with glaucoma tube implant surgery.\n3. Diagnosis of any type of glaucoma except inflammation associated glaucomas such as with co-existing uveitis or neovascular glaucoma.\n4. Negative urine pregnancy test at baseline for women of childbearing potential.\n5. Subjects who are willing and able to comply with scheduled visits, treatment plan and other study procedures and are able to provide an informed consent document signed and dated by the subject\n\nExclusion Criteria:\n\n1. Allergy to corticosteroids or any component of Yutiq insert.\n2. Patients with active or suspected ocular or periocular infections including most viral diseases such as herpes simplex, vaccinia, varicella, mycobacterial infections and fungal diseases.\n3. History of systemic immunosuppressive therapy or the possible need thereof such as patients with rheumatoid arthritis, lupus or transplant (systemic or eye)\n4. Previous history of tube erosion in the same or the other eye\n5. Eyes receiving anti-VEGF therapy in the study eye\n6. Media opacity precluding evaluation of retina and optic nerve in the study eye.\n7. History of steroid induced glaucoma\n8. Ocular surgery in the study eye within 3 months prior to enrollment.\n9. Patients who have tested positive for human immune deficiency virus.\n10. Pregnant or lactating females or females of child bearing age who are not willing to use contraception for the duration of the study.\n11. Patients for whom any of the protocol procedures may pose a special risk not outweighed by the potential benefits of participating in the study.\n12. Patients who are unlikely to comply with the study protocol.\n13. Any severe acute or chronic medical or psychiatric condition that could increase the risk associated with study participation or could interfere with the interpretation of study results and, in the judgment of the investigator, could make the patient inappropriate for entry into this study.\n14. Treatment with an investigational drug or device within 30 days preceding the glaucoma surgery.\n15. Any eye needing urgent glaucoma surgery i.e. within 5 days of the baseline visit (to allow time for patients to review the study documents).",
+      "age_min": "18 Years",
+      "age_max": null,
+      "sexe": "ALL",
+      "volontaires_sains": false
+    },
+    "criteres_secondaires": null,
+    "responsables": [
+      {
+        "nom": "Sanjay Asrani, MD",
+        "affiliation": "Duke Eye Center",
+        "role": "PRINCIPAL_INVESTIGATOR"
+      }
+    ],
+    "date_depot_resultats": null,
+    "resultats": null
+  },
+  "modifications": []
+}

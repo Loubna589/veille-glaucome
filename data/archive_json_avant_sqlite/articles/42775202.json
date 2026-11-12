@@ -1,0 +1,94 @@
+{
+  "pmid": "42775202",
+  "premiere_detection": "2026-09-25",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42775202",
+    "titre": "The CD39-CD73-adenosine axis: a pivotal regulator of retinal homeostasis and diseases.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42775202/",
+    "doi": "10.3389/fcell.2026.1893953",
+    "pmcid": "PMC13595578",
+    "revue": "Frontiers in cell and developmental biology",
+    "date_entree_pubmed": "2026-09-23",
+    "date_publication": "2026",
+    "types_publication": [
+      "Journal Article",
+      "Review"
+    ],
+    "resume_present": true,
+    "resume": "Extracellular purinergic signaling, mediated by nucleotides such as adenosine triphosphate (ATP) and adenosine, is a critical regulator of retinal homeostasis. Within the retina, this signaling pathway is indispensable for maintaining physiological functions. Dysregulation of extracellular purine balance is a key driver of retinal pathophysiology, contributing to inflammation, pathological angiogenesis, and neurodegeneration in diseases like diabetic retinopathy (DR), age-related macular degeneration (AMD), glaucoma, and retinopathy of prematurity (ROP). The hydrolysis of extracellular ATP to adenosine, primarily orchestrated by the sequential actions of NTPDase1/ENTPD1 (CD39) and ecto-5'-nucleotidase/NT5E (CD73), represents a fundamental mechanism for calibrating purinergic signals and shifting the microenvironment from pro-inflammatory to anti-inflammatory and protective. CD39 and CD73 are pivotal enzymes in regulating retinal purinergic equilibrium. Despite their well-characterized roles in tumor biology and cerebral pathophysiology, the expression, physiological functions, and pathological implications of CD39/CD73 in the retina remain understudied and lack systematic synthesis. This review synthesizes current understanding of the roles of CD39 and CD73 in retinal physiology and pathology, with a focus on their implications in DR, AMD, glaucoma, and ROP. Critically, this review provides the first systematic integration of their layer-specific spatial compartmentalization, context-dependent functional duality, and emerging metabolic roles in photoreceptor homeostasis. We also discuss emerging therapeutic strategies that target this pathway, addressing the growing need for translational research to preserve vision.",
+    "mots_cles_auteurs": [
+      "CD39",
+      "CD73",
+      "adenosine",
+      "purinergic signaling",
+      "retinal fundus diseases",
+      "therapeutic targeting"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 7,
+    "affiliations_auteurs": [
+      "West China School of Medicine, Sichuan University, Chengdu, Sichuan, China.",
+      "Department of Ophthalmology, Department of Optometry and Visual Science, Laboratory of Optometry and Vision Sciences, West China Hospital, Sichuan University, Chengdu, Sichuan, China."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7211950922",
+      "doi": "10.3389/fcell.2026.1893953",
+      "pmid": "42775202",
+      "pmcid": null,
+      "titre": "The CD39-CD73-adenosine axis: a pivotal regulator of retinal homeostasis and diseases",
+      "lien": "https://openalex.org/W7211950922",
+      "date_publication": "2026-09-08",
+      "type": "article",
+      "revue": "Frontiers in Cell and Developmental Biology",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "doaj",
+        "pubmed"
+      ],
+      "financeurs": null,
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "Sichuan University",
+          "pays": "CN",
+          "type": "education",
+          "ror": "https://ror.org/011ashp19"
+        }
+      ],
+      "acces_ouvert": true,
+      "statut_acces": "gold",
+      "url_texte": "https://doi.org/10.3389/fcell.2026.1893953",
+      "url_pdf": null,
+      "licence": "cc-by",
+      "texte_integral_indexe": false,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Adenosine and Purinergic Signaling",
+      "resume_present": true,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-09-25",
+    "financements": []
+  }
+}

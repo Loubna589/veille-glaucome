@@ -1,0 +1,115 @@
+{
+  "nct": "NCT07841912",
+  "premiere_detection": "2026-09-25",
+  "derniere_modification_detectee": "2026-11-11",
+  "donnees": {
+    "nct": "NCT07841912",
+    "titre": "Ocular Surface Disease in Glaucoma Patients on Long-Term Therapy",
+    "titre_officiel": "Prevalence and Severity of Ocular Surface Disease Among Adult Patients With Glaucoma on Long-Term Topical Antiglaucoma Medications",
+    "lien": "https://clinicaltrials.gov/study/NCT07841912",
+    "date_premiere_publication": "2026-09-25",
+    "date_derniere_mise_a_jour": "2026-09-28",
+    "type_etude": "OBSERVATIONAL",
+    "phases_declarees": null,
+    "statut": "NOT_YET_RECRUITING",
+    "raison_arret": null,
+    "date_debut": "2026-09-26",
+    "date_fin_principale": "2027-09-26",
+    "promoteur": "Assiut University",
+    "type_promoteur": "OTHER",
+    "collaborateurs": null,
+    "conditions": [
+      "Glaucoma",
+      "Ocular Surface Disease",
+      "Dry Eye"
+    ],
+    "interventions": null,
+    "participants_nombre": 55,
+    "participants_type": "ESTIMATED",
+    "criteres_principaux": [
+      {
+        "critere": "Prevalence of ocular surface disease",
+        "delai": "Baseline"
+      }
+    ],
+    "resultats_deposes": false,
+    "publications_declarees": null,
+    "resume_source": "This cross-sectional study aims to determine the prevalence and severity of ocular surface disease among adult patients with glaucoma receiving long-term topical antiglaucoma medications.",
+    "citations_declarees": null,
+    "plan": {
+      "repartition": null,
+      "modele": null,
+      "but_principal": null,
+      "insu": null,
+      "insu_pour": null,
+      "insu_description": null,
+      "modele_observationnel": "CASE_ONLY"
+    },
+    "bras": [
+      {
+        "libelle": "Single cohort: Glaucoma patients on long-term topical therapy",
+        "type": null,
+        "description": "Adult patients with glaucoma receiving topical antiglaucoma medications for at least 6 months who will undergo OSDI questionnaire and clinical ocular surface assessment.",
+        "interventions": null
+      }
+    ],
+    "eligibilite": {
+      "criteres": "Inclusion Criteria:\n\n* \\- Age 18 years or older\n* Diagnosed glaucoma\n* Currently receiving one or more topical antiglaucoma medications\n* Duration of topical antiglaucoma treatment ≥6 months\n* Written informed consent\n\nExclusion Criteria:\n\n* \\- Current use of concomitant topical ocular medication that may affect the ocular surface (e.g., topical cyclosporine)\n* Previous ocular surgery within the preceding 6 months\n* History of corneal surgery or significant ocular trauma affecting the ocular surface\n* Active ocular infection or significant active ocular inflammation\n* Contact lens wear\n* Systemic autoimmune or connective tissue diseases known to affect the ocular surface (e.g., Sjögren's syndrome, rheumatoid arthritis, systemic lupus erythematosus)\n* Significant corneal pathology interfering with ocular surface assessment",
+      "age_min": "18 Years",
+      "age_max": null,
+      "sexe": "ALL",
+      "volontaires_sains": false
+    },
+    "criteres_secondaires": [
+      {
+        "critere": "Proportion of Patients with Mild Ocular Surface Disease Symptoms",
+        "delai": "Baseline"
+      },
+      {
+        "critere": "Proportion of Patients with Moderate Ocular Surface Disease Symptoms",
+        "delai": "Baseline"
+      },
+      {
+        "critere": "Proportion of Patients with Severe Ocular Surface Disease Symptoms",
+        "delai": "Baseline"
+      },
+      {
+        "critere": "Mean OSDI score",
+        "delai": "Baseline"
+      },
+      {
+        "critere": "Tear film break-up time (TBUT)",
+        "delai": "Baseline"
+      },
+      {
+        "critere": "Schirmer I test result",
+        "delai": "Baseline"
+      },
+      {
+        "critere": "Corneal fluorescein staining score",
+        "delai": "Baseline"
+      }
+    ],
+    "responsables": [
+      {
+        "nom": "Mohamed s Abdel-rehim, prof",
+        "affiliation": "Ophthalmology Department, Assiut University Hospitals",
+        "role": "STUDY_CHAIR"
+      }
+    ],
+    "date_depot_resultats": null,
+    "resultats": null
+  },
+  "modifications": [
+    {
+      "date_detection": "2026-11-11",
+      "resultats_ajoutes": false,
+      "champs": {
+        "date_derniere_mise_a_jour": {
+          "avant": "2026-09-25",
+          "apres": "2026-09-28"
+        }
+      }
+    }
+  ]
+}

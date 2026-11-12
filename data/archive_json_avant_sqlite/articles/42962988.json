@@ -1,0 +1,244 @@
+{
+  "pmid": "42962988",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42962988",
+    "titre": "Pediatric Endothelial Keratoplasty: A Modified Delphi Consensus by the EKLG Study Group on Indications, Surgical Techniques, and Postoperative Care.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42962988/",
+    "doi": "10.1016/j.ajo.2026.10.013",
+    "pmcid": null,
+    "revue": "American journal of ophthalmology",
+    "date_entree_pubmed": "2026-10-30",
+    "date_publication": "2026-Oct-30",
+    "types_publication": [
+      "Journal Article"
+    ],
+    "resume_present": true,
+    "resume": "PURPOSE: To identify areas of consensus among global experts on the clinical management of pediatric endothelial keratoplasty (EK), including patient selection, timing, preoperative evaluation, technique selection, intraoperative standards, and postoperative care, and to provide a practical framework for surgeons earlier in their pediatric EK learning curve.\nDESIGN: Modified Delphi-based global consensus study.\nPARTICIPANTS: International ophthalmologists with expertise in endothelial keratoplasty and pediatric corneal diseases.\nMETHODS: A series of consensus statements on pediatric EK were developed from iterative rounds of structured questions and statements posed to a panel of experts. Two rounds of asynchronous electronic questionnaires were followed by a structured hybrid discussion of unresolved items. Experts responded anonymously to statements assessing consensus and to revised items addressing indications, contraindications, timing, preoperative workup, technique selection, intraoperative standards, and postoperative management. Results are reported using item-specific denominators because occasional non-response occurred across the survey items.\nMAIN OUTCOME MEASURES: Consensus was defined as ≥70% agreement among the experts. Agreement between 60% and 69.9% was considered to be near consensus.\nRESULTS: The consensus supported pediatric EK for congenital hereditary endothelial dystrophy, aphakic or pseudophakic corneal edema, persistent corneal edema in congenital glaucoma, X-linked endothelial corneal dystrophy, iatrogenic endothelial decompensation, and trauma-related decompensation. EK was inappropriate for severe anterior segment dysgenesis with keratolenticular or extensive iridocorneal adhesions. In Round 2, experts further endorsed EK for failed penetrating keratoplasty due to endothelial failure, congenital glaucoma with visually significant Haab's striae, and forceps injury involving the visual axis. There was a consensus that the timing of intervention should be guided primarily by amblyopia risk rather than by a specific age cut off. Essential preoperative assessments included examination under anesthesia, B-scan ultrasonography, anterior segment optical coherence tomography, intraocular pressure measurement, ultrasound biomicroscopy, and refraction. Experts agreed that ultrathin-DSAEK and DSAEK are the predominant techniques, whereas DMEK is currently selectively reserved, usually for older children with uncomplicated anterior segment anatomy. Preferred intraoperative principles included air tamponade, anterior chamber maintenance, and donor graft under-sizing relative to the corneal diameter. Postoperative recommendations included early intraocular pressure assessment, topical corticosteroid therapy for > 6 months, regular monitoring for steroid response, selective contact lens use, and individualized long-term follow-up.\nCONCLUSIONS: The consensus statements provide globally endorsed recommendations for the clinical management of pediatric EK. These guidelines are relevant for corneal specialists providing a practical framework to benchmark practice, reduce variability, and guide future multicenter investigations.",
+    "mots_cles_auteurs": [
+      "Complications",
+      "Delphi",
+      "Descemet’s stripping automated endothelial keratoplasty",
+      "Long-term outcomes",
+      "corneal endothelial dysfunction in children",
+      "endothelial cell density",
+      "endothelial keratoplasty in children",
+      "pediatric endothelial keratoplasty"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 19,
+    "affiliations_auteurs": [
+      "Dr Shroffs Charity Eye Hospital, New Delhi, India; Singapore Eye Research Institute, Singapore.",
+      "Centre for Rare Eye Diseases and Ocular Genetics, Shantilal Shanghvi Cornea Institute, Jasti V Ramanamma Children's Eye Care Centre, L V Prasad Eye Institute, Hyderabad, India.",
+      "IRCCS Istituto Giannina. Gaslini, Genoa, Italy.",
+      "University of Toronto and the Hospital for Sick Children, Ontario, Toronto, Canada.",
+      "Christchurch Public Hospital, New Zealand.",
+      "Eye Clinic, London.",
+      "Harvard Medical School, Massachusetts Eye and Ear Infirmary, Massachusetts, Boston, USA.",
+      "Hospital de Clínicas José de San Martín. Universidad de Buenos Aires, Argentina.",
+      "SkySight Vision Center, Buenos Aires, Argentina; Hospital Universitario Austral, Buenos Aires, Argentina; Arasanz Laser Vision, Buenos Aires, Argentina.",
+      "Sorocaba Eye Hospital, Sorocaba Eye Bank, Sorocaba, São Paulo, Brazil; Universidade Federal de São Paulo, São Paulo, Brazil.",
+      "New York University, New York, USA.",
+      "Eye Unit, Department of Medical and Surgical Specialties, Radiological Sciences, and Public Health, University of Brescia, Italy.",
+      "Dr Shroffs Charity Eye Hospital, New Delhi, India; Columbia University, USA.",
+      "Save Sight Institute, The University of Sydney, Sydney, NSW Australia.",
+      "Medical University of Silesia Ophthalmology Department Railway Hospital Katowice, Poland.",
+      "New York Medical College; Westchester Medical Center, New York, USA.",
+      "Singapore Eye Research Institute, Singapore; Singapore National Eye Centre, Singapore.",
+      "UPMC Children's Hospital of Pittsburgh, Pennsylvania, USA; UPMC Vision Institute, Pittsburgh, Pennsylvania, USA. Electronic address: nischalkk@upmc.edu."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": [
+        "contact lens*"
+      ],
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7224923952",
+      "doi": "10.1016/j.ajo.2026.10.013",
+      "pmid": "42962988",
+      "pmcid": null,
+      "titre": "Pediatric Endothelial Keratoplasty: A Modified Delphi Consensus by the EKLG Study Group on Indications, Surgical Techniques, and Postoperative Care",
+      "lien": "https://openalex.org/W7224923952",
+      "date_publication": "2026-10-01",
+      "type": "article",
+      "revue": "American Journal of Ophthalmology",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "pubmed"
+      ],
+      "financeurs": null,
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "Singapore Eye Research Institute",
+          "pays": "SG",
+          "type": "facility",
+          "ror": "https://ror.org/02crz6e12"
+        },
+        {
+          "nom": "Dr. Shroff’s Charity Eye Hospital",
+          "pays": "IN",
+          "type": "healthcare",
+          "ror": "https://ror.org/03fwpw829"
+        },
+        {
+          "nom": "L V Prasad Eye Institute",
+          "pays": "IN",
+          "type": "nonprofit",
+          "ror": "https://ror.org/01w8z9742"
+        },
+        {
+          "nom": "Istituto Giannina Gaslini",
+          "pays": "IT",
+          "type": "healthcare",
+          "ror": "https://ror.org/0424g0k78"
+        },
+        {
+          "nom": "University of Toronto",
+          "pays": "CA",
+          "type": "education",
+          "ror": "https://ror.org/03dbr7087"
+        },
+        {
+          "nom": "Hospital for Sick Children",
+          "pays": "CA",
+          "type": "healthcare",
+          "ror": "https://ror.org/057q4rt57"
+        },
+        {
+          "nom": "Christchurch Hospital",
+          "pays": "NZ",
+          "type": "healthcare",
+          "ror": "https://ror.org/003nvpm64"
+        },
+        {
+          "nom": "Massachusetts Eye and Ear Infirmary",
+          "pays": "US",
+          "type": "healthcare",
+          "ror": "https://ror.org/04g3dn724"
+        },
+        {
+          "nom": "Harvard University",
+          "pays": "US",
+          "type": "education",
+          "ror": "https://ror.org/03vek6s52"
+        },
+        {
+          "nom": "Hospital de Clínicas \"José de San Martín\"",
+          "pays": "AR",
+          "type": "healthcare",
+          "ror": "https://ror.org/02hbrab76"
+        },
+        {
+          "nom": "Hospital Universitario Austral",
+          "pays": "AR",
+          "type": "healthcare",
+          "ror": "https://ror.org/014nx0w70"
+        },
+        {
+          "nom": "Universidade Federal de São Paulo",
+          "pays": "BR",
+          "type": "education",
+          "ror": "https://ror.org/02k5swt12"
+        },
+        {
+          "nom": "New York University",
+          "pays": "US",
+          "type": "education",
+          "ror": "https://ror.org/0190ak572"
+        },
+        {
+          "nom": "University of Brescia",
+          "pays": "IT",
+          "type": "education",
+          "ror": "https://ror.org/02q2d2610"
+        },
+        {
+          "nom": "Columbia University",
+          "pays": "US",
+          "type": "education",
+          "ror": "https://ror.org/00hj8s172"
+        },
+        {
+          "nom": "The University of Sydney",
+          "pays": "AU",
+          "type": "education",
+          "ror": "https://ror.org/0384j8v12"
+        },
+        {
+          "nom": "Medical University of Silesia",
+          "pays": "PL",
+          "type": "education",
+          "ror": "https://ror.org/005k7hp45"
+        },
+        {
+          "nom": "Westchester Medical Center",
+          "pays": "US",
+          "type": "healthcare",
+          "ror": "https://ror.org/03fcgva33"
+        },
+        {
+          "nom": "New York Medical College",
+          "pays": "US",
+          "type": "education",
+          "ror": "https://ror.org/03dkvy735"
+        },
+        {
+          "nom": "Singapore National Eye Center",
+          "pays": "SG",
+          "type": "healthcare",
+          "ror": "https://ror.org/029nvrb94"
+        },
+        {
+          "nom": "UPMC Health System",
+          "pays": "US",
+          "type": "healthcare",
+          "ror": "https://ror.org/011htkb76"
+        },
+        {
+          "nom": "Children's Hospital of Pittsburgh",
+          "pays": "US",
+          "type": "healthcare",
+          "ror": "https://ror.org/03763ep67"
+        },
+        {
+          "nom": "University of Pittsburgh Medical Center",
+          "pays": "US",
+          "type": "healthcare",
+          "ror": "https://ror.org/04ehecz88"
+        }
+      ],
+      "acces_ouvert": true,
+      "statut_acces": "hybrid",
+      "url_texte": "https://www.ajo.com/article/S0002-9394(26)00570-2/pdf",
+      "url_pdf": "https://www.ajo.com/article/S0002-9394(26)00570-2/pdf",
+      "licence": "cc-by",
+      "texte_integral_indexe": true,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Corneal surgery and disorders",
+      "resume_present": true,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": []
+  }
+}

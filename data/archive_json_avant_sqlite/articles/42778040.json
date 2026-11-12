@@ -1,0 +1,93 @@
+{
+  "pmid": "42778040",
+  "premiere_detection": "2026-09-25",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42778040",
+    "titre": "Rethinking delayed presentation in ophthalmology: A narrative review of biological and clinical consequences in resource-limited settings.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42778040/",
+    "doi": "10.1016/j.survophthal.2026.09.007",
+    "pmcid": null,
+    "revue": "Survey of ophthalmology",
+    "date_entree_pubmed": "2026-09-23",
+    "date_publication": "2026-Sep-23",
+    "types_publication": [
+      "Journal Article",
+      "Review"
+    ],
+    "resume_present": true,
+    "resume": "Delayed presentation remains a major contributor to visual impairment and blindness across diverse ophthalmic diseases, particularly in resource-limited settings where barriers to timely eye care remain substantial. Although advanced disease at presentation is widely recognized clinically, the broader biologic, neurodegenerative, developmental, surgical, and health systems consequences of delayed ophthalmic care have received comparatively less integrated attention. We examine delayed ophthalmic presentation as a multidimensional process that may influence inflammatory activity, ischemic injury, fibrosis, neurodegeneration, tissue remodeling, therapeutic responsiveness, and long-term visual outcomes across ophthalmic subspecialties. We further evaluate the clinical implications of delayed presentation in glaucoma, cataract, retinal disease, microbial keratitis, ocular trauma, pediatric ophthalmology, and ocular oncology, while examining the socioeconomic, geographic, behavioral, and health system determinants that contribute to delayed care. Emerging context responsive strategies involving decentralized ophthalmic services, teleophthalmology, integrated referral systems, and earlier disease detection are also discussed. Delayed ophthalmic presentation should therefore be considered not merely as a temporal delay in healthcare seeking behavior, but as a complex biologic and systems level determinant of ophthalmic disease progression and visual prognosis.",
+    "mots_cles_auteurs": [
+      "Delayed ophthalmic presentation",
+      "ophthalmic care access",
+      "ophthalmic disease progression",
+      "resource-limited settings",
+      "visual impairment"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 3,
+    "affiliations_auteurs": [
+      "ECWA Eye Hospital, Kano, Kano State, Nigeria. Electronic address: munaj452@gmail.com.",
+      "ECWA Eye Hospital, Kano, Kano State, Nigeria. Electronic address: idaks50@yahoo.com.",
+      "UNESCO International Center for Biotechnology, Nsukka 410001, Enugu State, Nigeria."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7214074744",
+      "doi": "10.1016/j.survophthal.2026.09.007",
+      "pmid": "42778040",
+      "pmcid": null,
+      "titre": "Rethinking delayed presentation in ophthalmology: A narrative review of biological and clinical consequences in resource-limited settings",
+      "lien": "https://openalex.org/W7214074744",
+      "date_publication": "2026-09-01",
+      "type": "review",
+      "revue": "Survey of Ophthalmology",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "pubmed"
+      ],
+      "financeurs": null,
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "Aminu Kano Teaching Hospital",
+          "pays": "NG",
+          "type": "healthcare",
+          "ror": "https://ror.org/05wqbqy84"
+        }
+      ],
+      "acces_ouvert": true,
+      "statut_acces": "hybrid",
+      "url_texte": "https://doi.org/10.1016/j.survophthal.2026.09.007",
+      "url_pdf": null,
+      "licence": "cc-by-nc-sa",
+      "texte_integral_indexe": false,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Intraocular Surgery and Lenses",
+      "resume_present": true,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-09-25",
+    "financements": []
+  }
+}

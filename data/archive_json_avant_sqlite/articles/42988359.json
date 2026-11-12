@@ -1,0 +1,53 @@
+{
+  "pmid": "42988359",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42988359",
+    "titre": "Incidence and Predictors of IOP-Lowering Treatment Following Detection of Referable Glaucoma in a Teleretinal Screening Program.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42988359/",
+    "doi": "10.1016/j.ogla.2026.10.005",
+    "pmcid": null,
+    "revue": "Ophthalmology. Glaucoma",
+    "date_entree_pubmed": "2026-11-05",
+    "date_publication": "2026-Nov-05",
+    "types_publication": [
+      "Journal Article"
+    ],
+    "resume_present": true,
+    "resume": "PURPOSE: To evaluate the incidence and baseline predictors of intraocular pressure (IOP)-lowering treatment following detection of referable glaucoma by teleretinal screening.\nDESIGN: Retrospective cohort study.\nPARTICIPANTS: Participants were derived from a safety-net teleretinal diabetic retinopathy screening program (2013-2024) and included individuals who screened positive for referable glaucoma (cup-to-disc ratio [CDR] ≥0.6 or CDR asymmetry ≥0.2) and completed in-office diagnostic evaluation.\nMETHODS: Cumulative incidence functions were estimated for the initiation of IOP-lowering treatment, with loss to follow-up handled as a competing event. Fine-Gray models were used to identify baseline screening predictors of treatment and surgery, and to perform cross-validated risk stratification. Glaucoma diagnosis was approximated using diagnostic codes and chart review.\nMAIN OUTCOME MEASURES: The primary outcome was initiation of IOP-lowering treatment (medication, laser, or surgery). The secondary outcome was glaucoma surgery.\nRESULTS: 2,367 participants were included. The cumulative incidence of treatment was 19.6% (95% CI: 18.0-21.2) at Year 1 and 39.1% (36.7-41.6) at Year 5. Early treatment occurred primarily in glaucoma cases, whereas treatment accumulated longitudinally in glaucoma suspects, reaching 29.3% (25.8-32.7) by Year 5. Surgery was less common (2.2% [1.3-3.1] at Year 5). Risk stratification with baseline screening data produced meaningful separation at Year 5 (treatment: 51.2% [46.9-55.5] vs. 26.7% [22.8-30.7]; surgery: 3.8% [2.1-5.5] vs. 0.7% [0.1-1.3]). Older age (sub-distribution hazard ratio [SHR] 1.03 [1.02-1.04] per year, p<0.001), Black race (SHR 1.50 [1.21-1.87], p<0.001), and personal history of glaucoma (SHR 1.90 [1.34-2.70], p<0.001) were associated with treatment; Asian race was protective (SHR 0.71 [0.52-0.97], p=0.03). Older age (SHR 1.06 [1.03-1.09], p<0.001), worse visual acuity (SHR 5.11 [2.15-12.12] per logMAR unit, p<0.001), and screening at a hospital-based site (SHR 2.46 [1.35-4.49], p=0.003) were associated with surgery.\nCONCLUSION: Among safety-net diabetic patients who screened positive for referable glaucoma and were untreated at screening, nearly 40% initiated IOP-lowering treatment within 5 years, while few received surgery. Baseline screening characteristics enabled risk stratification of treatment and surgery. These findings address an evidence gap about longitudinal consequences of screening and suggest that its impact extends beyond detection of prevalent glaucoma to include identification of high-risk glaucoma suspects who warrant surveillance.",
+    "mots_cles_auteurs": [
+      "Glaucoma screening",
+      "glaucoma diagnosis",
+      "glaucoma suspect",
+      "teleretinal screening"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 8,
+    "affiliations_auteurs": [
+      "Roski Eye Institute, Keck School of Medicine, University of Southern California, Los Angeles, CA, USA. Electronic address: bolo@usc.edu.",
+      "Roski Eye Institute, Keck School of Medicine, University of Southern California, Los Angeles, CA, USA; Department of Ophthalmology, Los Angeles General Medical Center, Los Angeles, California.",
+      "Information Sciences Institute, Viterbi School of Engineering, University of Southern California, Marina del Rey, CA, USA.",
+      "Roski Eye Institute, Keck School of Medicine, University of Southern California, Los Angeles, CA, USA; Department of Ophthalmology, Los Angeles General Medical Center, Los Angeles, California; Ophthalmology and Eye Health Programs, Los Angeles County Department of Health Services, Los Angeles, CA, USA.",
+      "Roski Eye Institute, Keck School of Medicine, University of Southern California, Los Angeles, CA, USA."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    }
+  }
+}

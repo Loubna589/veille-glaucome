@@ -1,0 +1,145 @@
+{
+  "pmid": "42833468",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42833468",
+    "titre": "Adipose-derived stem cell exosomes alleviate oxidative damage and reduce intraocular pressure in primary open-angle glaucoma via the ROS-mediated PI3K/AKT pathway.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42833468/",
+    "doi": "10.1016/j.yexcr.2026.115189",
+    "pmcid": null,
+    "revue": "Experimental cell research",
+    "date_entree_pubmed": "2026-10-05",
+    "date_publication": "2026-Nov-01",
+    "types_publication": [
+      "Journal Article"
+    ],
+    "resume_present": true,
+    "resume": "OBJECTIVE: This study aimed to investigate the therapeutic effect and underlying mechanism of adipose-derived stem cell exosomes (ADSC-Exos) on oxidative injury in trabecular meshwork (TM) cells of primary open-angle glaucoma (POAG).\nMATERIAL AND METHODS: In vitro, human TM cells (HTMCs) were exposed to hydrogen peroxide (H2O2) to establish an oxidative damage model. In vivo, an Ad5.myocilinY437H mouse model of POAG was constructed. Western blotting, immunofluorescence, reactive oxygen species (ROS) detection, transmission electron microscopy (TEM), Cell Counting Kit-8 (CCK-8) and intraocular pressure (IOP) monitoring were performed to evaluate the intervention effects of ADSC-Exos and the activation of the PI3K/AKT pathway.\nRESULTS: Compared with the PBS group, ADSC-Exos significantly increased the phosphorylation levels of PI3K and AKT, reduced intracellular ROS accumulation, and decreased laminin expression in HTMCs (P < 0.05). In the Ad5-MYOCY437H-EGFP mice group, day 30 IOP reached 15.2 ± 4.1 mmHg, representing a significant increase over day 0 values (8.7 ± 1.9 mmHg, n = 16, P < 0.001). Furthermore, these eyes exhibited significantly higher IOP compared to the Ad5-EGFP controls (11.0 ± 1.9 mmHg, n = 16, P < 0.05). From day 15 onwards, the IOP in the Ad5-MYOCY437H-EGFP + ADSC-Exos group progressively declined, showing a significant difference from the PBS-injected group (11.63 ± 2.6 vs. 15.84 ± 1.6 mmHg, n = 10, P < 0.001). This downward trajectory continued, resulting in a significant IOP difference by day 30 (11.19 ± 2.3 vs. 16.93 ± 3.04 mmHg, P < 0.0001).\nCONCLUSION: ADSC-Exos can alleviate TM oxidative damage, reduce extracellular matrix deposition, and effectively decrease IOP in POAG via the ROS-mediated PI3K/AKT pathway, providing a potential therapeutic strategy for POAG.",
+    "mots_cles_auteurs": [
+      "Adipose-derived stem cell",
+      "Antioxidant function",
+      "Exosomes",
+      "Intraocular pressure",
+      "PI3K/AKT",
+      "POAG",
+      "Trabecular meshwork"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 4,
+    "affiliations_auteurs": [
+      "Department of Ophthalmology, The Fourth Affiliated Hospital, Harbin Medical University, Harbin, China; Key Laboratory of Hepatosplenic Surgery, Ministry of Education, The First Affiliated Hospital of Harbin Medical University, Harbin, China.",
+      "Department of Ophthalmology, The Fourth Affiliated Hospital, Harbin Medical University, Harbin, China.",
+      "Department of Ophthalmology, The First Affiliated Hospital, Harbin Medical University, Harbin, China; Key Laboratory of Hepatosplenic Surgery, Ministry of Education, The First Affiliated Hospital of Harbin Medical University, Harbin, China. Electronic address: suying0511@126.com.",
+      "Department of Ophthalmology, The Fourth Affiliated Hospital, Harbin Medical University, Harbin, China; Key Laboratory of Hepatosplenic Surgery, Ministry of Education, The First Affiliated Hospital of Harbin Medical University, Harbin, China. Electronic address: wangfd@126.com."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": [
+      "Animals",
+      "Exosomes",
+      "Reactive Oxygen Species",
+      "Glaucoma, Open-Angle",
+      "Intraocular Pressure",
+      "Humans",
+      "Proto-Oncogene Proteins c-akt",
+      "Phosphatidylinositol 3-Kinases",
+      "Oxidative Stress",
+      "Mice",
+      "Trabecular Meshwork",
+      "Signal Transduction",
+      "Stem Cells",
+      "Adipose Tissue",
+      "Male",
+      "Mice, Inbred C57BL",
+      "Hydrogen Peroxide",
+      "Cells, Cultured"
+    ]
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": null,
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7220423842",
+      "doi": "10.1016/j.yexcr.2026.115189",
+      "pmid": "42833468",
+      "pmcid": null,
+      "titre": "Adipose-derived stem cell exosomes alleviate oxidative damage and reduce intraocular pressure in primary open-angle glaucoma via the ROS-mediated PI3K/AKT pathway",
+      "lien": "https://openalex.org/W7220423842",
+      "date_publication": "2026-10-05",
+      "type": "article",
+      "revue": "Experimental Cell Research",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "pubmed"
+      ],
+      "financeurs": null,
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "Harbin Medical University",
+          "pays": "CN",
+          "type": "education",
+          "ror": "https://ror.org/05jscf583"
+        },
+        {
+          "nom": "Fourth Affiliated Hospital of Harbin Medical University",
+          "pays": "CN",
+          "type": "healthcare",
+          "ror": "https://ror.org/02s7c9e98"
+        },
+        {
+          "nom": "First Affiliated Hospital of Harbin Medical University",
+          "pays": "CN",
+          "type": "healthcare",
+          "ror": "https://ror.org/05vy2sc54"
+        }
+      ],
+      "acces_ouvert": false,
+      "statut_acces": "closed",
+      "url_texte": null,
+      "url_pdf": null,
+      "licence": null,
+      "texte_integral_indexe": false,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Glaucoma and retinal disorders",
+      "resume_present": false,
+      "mesh": [
+        "Adipose Tissue",
+        "Animals",
+        "Cells, Cultured",
+        "Glaucoma, Open-Angle",
+        "Humans",
+        "Hydrogen Peroxide",
+        "Intraocular Pressure",
+        "Male",
+        "Mice, Inbred C57BL",
+        "Stem Cells",
+        "Trabecular Meshwork",
+        "Signal Transduction",
+        "Reactive Oxygen Species",
+        "Oxidative Stress",
+        "Phosphatidylinositol 3-Kinases",
+        "Proto-Oncogene Proteins c-akt",
+        "Mice",
+        "Exosomes"
+      ]
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": []
+  }
+}

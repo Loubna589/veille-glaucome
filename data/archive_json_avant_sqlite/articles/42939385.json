@@ -1,0 +1,110 @@
+{
+  "pmid": "42939385",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42939385",
+    "titre": "Contrast Sensitivity, Quality of Life, and Reading Performance in Glaucoma: A Randomized Crossover Study Comparing Citicoline 500 mg/Homotaurine 50 mg/Nicotinamide 54 mg/Pyrroloquinoline Quinone 5 mg and Citicoline 500 mg.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42939385/",
+    "doi": "10.3390/brainsci16101135",
+    "pmcid": "PMC13702655",
+    "revue": "Brain sciences",
+    "date_entree_pubmed": "2026-10-27",
+    "date_publication": "2026-Oct-20",
+    "types_publication": [
+      "Journal Article"
+    ],
+    "resume_present": true,
+    "resume": "Background/Objectives: This study aimed to compare oral citicoline 500 mg/homotaurine 50 mg/nicotinamide 54 mg/pyrroloquinoline quinone 5 mg (CIT/HOMO/B3/PQQ) with citicoline 500 mg alone (CIT500) for contrast sensitivity (CS), vision-related quality of life (QoL), and reading performance in early, medically controlled primary open-angle glaucoma (POAG). Methods: In this prospective, randomized, active-controlled, two-period crossover study, 40 patients (80 eyes) received one supplement for four months before switching to the alternative for four months without washout. Assessments at baseline, month 4 (M4), and month 8 used the Spaeth-Richman Contrast Sensitivity (SPARCS) test, Glaucoma Quality of Life-15 (GQL-15) questionnaire, and digital MNREAD. Bayesian hierarchical linear mixed-effects models evaluated longitudinal changes and between-sequence differences in change from baseline to M4. Results: SPARCS increased by 2.52 points (95% credible interval [CrI], 1.04-3.99) at M4 in the CIT/HOMO/B3/PQQ-first sequence and by 3.92 points at month 8 after crossover in the CIT500-first sequence. The randomized M4 contrast favored CIT/HOMO/B3/PQQ (+2.24 points; 95% CrI, 0.16-4.32), whereas corresponding intervals included zero for GQL-15 and all four MNREAD parameters. QoL changes were modest. Maximum reading speed and reading accessibility showed potentially favorable longitudinal trajectories, while reading acuity and critical print size changed less consistently. Intraocular pressure, mean deviation, and retinal nerve fiber layer thickness remained stable. Conclusions: CIT/HOMO/B3/PQQ was associated with improved CS and potentially favorable reading-performance trajectories in early POAG. These exploratory findings support further investigation of patient-relevant functional outcomes as complementary measures for evaluating adjunctive therapeutic strategies in glaucoma but require confirmation given the absence of washout and multiplicity adjustment.",
+    "mots_cles_auteurs": [
+      "citicoline",
+      "contrast sensitivity",
+      "glaucoma",
+      "neurodegenerative disease",
+      "neuroprotection",
+      "nicotinamide",
+      "pyrroloquinoline quinone",
+      "quality of life",
+      "reading performance"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 6,
+    "affiliations_auteurs": [
+      "Ophthalmology Clinic, Department of Medicine and Ageing Science, University G. d'Annunzio of Chieti-Pescara, 66100 Chieti, Italy.",
+      "Alma Mater Studiorum, University of Bologna, 40126 Bologna, Italy.",
+      "Ophthalmology Clinic, Department of Neuroscience, Imaging and Clinical Science, University G. d'Annunzio of Chieti-Pescara, 66100 Chieti, Italy.",
+      "Department of Neurosciences, Reproductive and Odontostomatological Sciences, University of Naples Federico II, 80138 Naples, Italy."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7223060151",
+      "doi": "10.3390/brainsci16101135",
+      "pmid": "42939385",
+      "pmcid": "13702655",
+      "titre": "Contrast Sensitivity, Quality of Life, and Reading Performance in Glaucoma: A Randomized Crossover Study Comparing Citicoline 500 mg/Homotaurine 50 mg/Nicotinamide 54 mg/Pyrroloquinoline Quinone 5 mg and Citicoline 500 mg",
+      "lien": "https://openalex.org/W7223060151",
+      "date_publication": "2026-10-20",
+      "type": "article",
+      "revue": "Brain Sciences",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "doaj",
+        "pubmed"
+      ],
+      "financeurs": null,
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "University of Chieti-Pescara",
+          "pays": "IT",
+          "type": "education",
+          "ror": "https://ror.org/00qjgza05"
+        },
+        {
+          "nom": "University of Bologna",
+          "pays": "IT",
+          "type": "education",
+          "ror": "https://ror.org/01111rn36"
+        },
+        {
+          "nom": "University of Naples Federico II",
+          "pays": "IT",
+          "type": "education",
+          "ror": "https://ror.org/05290cv24"
+        }
+      ],
+      "acces_ouvert": true,
+      "statut_acces": "gold",
+      "url_texte": "https://doi.org/10.3390/brainsci16101135",
+      "url_pdf": null,
+      "licence": "cc-by",
+      "texte_integral_indexe": true,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Neuroprotection in Cerebral Ischemia",
+      "resume_present": true,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": []
+  }
+}

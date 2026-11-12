@@ -1,0 +1,157 @@
+{
+  "pmid": "42911522",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42911522",
+    "titre": "Involvement of ocular angle pigmentation on the effect of 2% topical ganciclovir treatment in patients with cytomegalovirus anterior uveitis.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42911522/",
+    "doi": "10.1007/s10384-026-01446-w",
+    "pmcid": null,
+    "revue": "Japanese journal of ophthalmology",
+    "date_entree_pubmed": "2026-10-23",
+    "date_publication": "2026-Oct-22",
+    "types_publication": [
+      "Journal Article"
+    ],
+    "resume_present": true,
+    "resume": "PURPOSE: Topical ganciclovir (GCV) reduces intraocular pressure (IOP) in patients with cytomegalovirus (CMV) anterior uveitis. Because increased angle pigmentation may contribute to aqueous outflow resistance, we investigated the relationship between angle pigmentation and the IOP-lowering effects of topical GCV.\nSTUDY DESIGN: Retrospective study.\nMETHODS: We reviewed the medical records of 31 eyes of 31 patients diagnosed with CMV anterior uveitis using aqueous humor PCR and treated with 2% topical GCV at the University of Tokyo Hospital. The best-corrected visual acuity (BCVA), IOP, topical steroids, and glaucoma medication scores were evaluated at baseline, 1, 4, 12, and 24 weeks after GCV initiation. Pre-treatment angle pigmentation was graded and analyzed in relation to IOP. Survival analysis was performed, with failure defined as an IOP > 21 mmHg, or the need for glaucoma surgery.\nRESULTS: Topical GCV improved BCVA with gradual reductions in IOP, steroid use, and glaucoma medication. Angle pigmentation was lower in CMV-affected eyes than in fellow eyes in patients with a shorter disease duration. Higher angle pigmentation was significantly correlated with a longer disease duration (ρ = 0.51, p = 0.003). The greater-pigmentation group showed significantly less IOP reduction and lower survival rates than the less-pigmentation group.\nCONCLUSION: Angle pigmentation was lower in the affected eyes than in the fellow eyes in patients with a shorter disease duration. In contrast, patients with greater angle pigmentation exhibited longer disease duration and a reduced IOP-lowering response to topical GCV treatment. Therefore, pre-treatment angle pigmentation evaluation may assist in predicting glaucoma outcomes.",
+    "mots_cles_auteurs": [
+      "Angle pigmentation",
+      "Cytomegalovirus anterior uveitis",
+      "Ganciclovir",
+      "Trabecular meshwork",
+      "Uveitic glaucoma"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 8,
+    "affiliations_auteurs": [
+      "Department of Ophthalmology, The University of Tokyo Hospital, Tokyo, Japan.",
+      "Department of Pharmacy, The University of Tokyo Hospital, Tokyo, Japan.",
+      "Department of Ophthalmology, Graduate School of Medicine, University of Tokyo, 7-3-1 Hongo, Bunkyo-ku, Tokyo, 113-8655, Japan.",
+      "Miyata Eye Hospital Tokyo Clinic, Tokyo, Japan.",
+      "Department of Ophthalmology, Graduate School of Medicine, University of Tokyo, 7-3-1 Hongo, Bunkyo-ku, Tokyo, 113-8655, Japan. rtanakaymn04@g.ecc.u-tokyo.ac.jp."
+    ],
+    "financeurs_declares": [
+      {
+        "organisme": "Japan Society for the Promotion of Science",
+        "pays": "",
+        "reference": "25K20176"
+      }
+    ],
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7223177393",
+      "doi": "10.1007/s10384-026-01446-w",
+      "pmid": "42911522",
+      "pmcid": null,
+      "titre": "Involvement of ocular angle pigmentation on the effect of 2% topical ganciclovir treatment in patients with cytomegalovirus anterior uveitis",
+      "lien": "https://openalex.org/W7223177393",
+      "date_publication": "2026-10-22",
+      "type": "article",
+      "revue": "Japanese Journal of Ophthalmology",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "pubmed"
+      ],
+      "financeurs": [
+        {
+          "nom": "University of Tokyo",
+          "ror": "https://ror.org/057zh3y96"
+        },
+        {
+          "nom": "Japan Society for the Promotion of Science",
+          "ror": "https://ror.org/00hhkn466"
+        }
+      ],
+      "subventions": [
+        {
+          "financeur": "Japan Society for the Promotion of Science",
+          "reference": "25K20176"
+        }
+      ],
+      "institutions": [
+        {
+          "nom": "University of Tokyo Hospital",
+          "pays": "JP",
+          "type": "healthcare",
+          "ror": "https://ror.org/022cvpj02"
+        },
+        {
+          "nom": "Miyata Eye Hospital",
+          "pays": "JP",
+          "type": "healthcare",
+          "ror": "https://ror.org/0331pzy82"
+        },
+        {
+          "nom": "The University of Tokyo",
+          "pays": "JP",
+          "type": "education",
+          "ror": "https://ror.org/057zh3y96"
+        }
+      ],
+      "acces_ouvert": true,
+      "statut_acces": "hybrid",
+      "url_texte": "https://link.springer.com/content/pdf/10.1007/s10384-026-01446-w.pdf",
+      "url_pdf": "https://link.springer.com/content/pdf/10.1007/s10384-026-01446-w.pdf",
+      "licence": "cc-by",
+      "texte_integral_indexe": true,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Glaucoma and retinal disorders",
+      "resume_present": true,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": [
+      {
+        "nom": "Japan Society for the Promotion of Science",
+        "statut": "CONFIRMÉ — déclaré dans la notice PubMed (GrantList)",
+        "references": [
+          "25K20176"
+        ],
+        "notices": [
+          [
+            "notice PubMed",
+            "https://pubmed.ncbi.nlm.nih.gov/42911522/?format=pubmed"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "University of Tokyo",
+        "statut": "À VÉRIFIER — trouvé par OpenAlex seulement (absent de la déclaration de l'éditeur dans Crossref) ; à contrôler dans le texte de l'article",
+        "references": null,
+        "notices": [
+          [
+            "notice OpenAlex",
+            "https://api.openalex.org/works/W7223177393"
+          ],
+          [
+            "notice Crossref consultée (ne confirme pas ce financeur)",
+            "https://api.crossref.org/works/10.1007/s10384-026-01446-w"
+          ]
+        ],
+        "note": "cet organisme figure AUSSI parmi les institutions des auteurs : c'est une affiliation, information distincte"
+      }
+    ]
+  }
+}

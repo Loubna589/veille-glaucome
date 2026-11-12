@@ -1,0 +1,137 @@
+{
+  "pmid": "42970148",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42970148",
+    "titre": "The risk of rhegmatogenous retinal detachment associated with topical pilocarpine: a systematic review.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42970148/",
+    "doi": "10.1007/s10792-026-04281-7",
+    "pmcid": null,
+    "revue": "International ophthalmology",
+    "date_entree_pubmed": "2026-11-02",
+    "date_publication": "2026-Nov-02",
+    "types_publication": [
+      "Journal Article",
+      "Systematic Review",
+      "Review"
+    ],
+    "resume_present": true,
+    "resume": "PURPOSE: To evaluate the risk of developing rhegmatogenous retinal detachment (RRD) in patients treated with topical pilocarpine.\nDESIGN: Systematic review.\nMETHODS: In October 2024 and March 2026, we searched six electronic databases (PubMed, EMBASE, CENTRAL, SCOPUS, ScienceDirect, and Google Scholar) for comparative studies published through March 2026 to evaluate the risk of RRD in patients treated with topical pilocarpine. Eligible studies included randomized controlled trials, cohort studies, and case-control studies comparing patients aged ≥ 40 years who received any dose, frequency, or duration of topical pilocarpine (for any indication) with an appropriate control group (placebo or an alternative topical ophthalmic therapy). We excluded non-randomized trials, case reports, case series, non-original articles, non-English studies, abstracts, non-human studies, studies without a control group, single-dose pilocarpine administration, pilocarpine as part of multi-drug regimens, non-topical non-ophthalmic routes of administration, participants < 40 years, and studies in which the control group also received pilocarpine. We conducted methodological quality and risk-of-bias assessments using the National Institutes of Health (NIH) quality assessment tools. Subsequently, a structured qualitative synthesis was conducted, summarizing key study characteristics, exposure parameters (e.g., pilocarpine dosing, formulation, and exposure duration), and RRD incidence. Study Methods are detailed in the full protocol developed prospectively and uploaded to PROSPERO (CRD420261305829).\nRESULTS: We included 10 studies, with 5,421 patients in the pilocarpine groups and 5,443 in the non-pilocarpine groups, with some overlap due to one pooled analysis. Study designs were heterogeneous, with varying pilocarpine dosing regimens (0.2-4%, 1-4 times daily), sample sizes (13-4,494 patients per group), and mean participant ages (49-70.5 years). Exposure durations ranged from 14 to 30 days (short-term) to 24 months (long-term), and follow-up times ranged from 14 days to 24 months. RRD was rare, with no events reported in nine studies (1,876 participants). In one large retrospective cohort (8,988 participants), RRD occurred in 35 pilocarpine-exposed eyes compared with 15 controls, with a 3.14-fold increased risk (adjusted HR 3.14, 95% CI 1.66-5.93, p < 0.001).\nCONCLUSIONS: Because all reported RRD events derived from a single retrospective cohort and the remaining nine studies were event-free, quantitative pooling was not feasible and this review functions as a structured narrative around one dataset. The available evidence suggests a possible association between pilocarpine use and RRD, particularly in predisposed patients, but its low certainty means the finding should be considered hypothesis-generating, and larger prospective studies are needed to confirm it.",
+    "mots_cles_auteurs": [
+      "Glaucoma",
+      "Pilocarpine",
+      "Presbyopia; Miotics",
+      "Rhegmatogenous retinal detachment",
+      "Systematic review"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 13,
+    "affiliations_auteurs": [
+      "Department of Ophthalmology, Bascom Palmer Eye Institute, University of Miami Miller School of Medicine, Miami, FL, USA.",
+      "Internal Medicine Department, Graduate Medical Education at Dubai Health, Mohammed Bin Rashid University of Medicine and Health Sciences, Dubai, UAE.",
+      "University of Miami, Miami, FL, USA.",
+      "Herbert Wertheim College of Medicine, Florida International University, Miami, FL, USA.",
+      "Department of Ophthalmology, Harvey and Bernice Jones Eye Institute, University of Arkansas for Medical Sciences, 4301 W. Markham Street, Little Rock, AR, 72207, USA.",
+      "Department of Ophthalmology, Harvey and Bernice Jones Eye Institute, University of Arkansas for Medical Sciences, 4301 W. Markham Street, Little Rock, AR, 72207, USA. ahmedsallam11@yahoo.com."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": [
+      "Pilocarpine",
+      "Humans",
+      "Retinal Detachment",
+      "Administration, Topical",
+      "Miotics",
+      "Risk Factors",
+      "Ophthalmic Solutions"
+    ]
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": true,
+      "produit_suivi_etudie_suggere": true,
+      "produits_suivis": [
+        {
+          "produit": "pilocarpine",
+          "role": "étudié",
+          "statut_role": "rôle suggéré, à vérifier (règle automatique appliquée au titre)"
+        }
+      ],
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": null,
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7225126669",
+      "doi": "10.1007/s10792-026-04281-7",
+      "pmid": "42970148",
+      "pmcid": null,
+      "titre": "The risk of rhegmatogenous retinal detachment associated with topical pilocarpine: a systematic review",
+      "lien": "https://openalex.org/W7225126669",
+      "date_publication": "2026-11-02",
+      "type": "review",
+      "revue": "International Ophthalmology",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "pubmed"
+      ],
+      "financeurs": null,
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "University of Miami",
+          "pays": "US",
+          "type": "education",
+          "ror": "https://ror.org/02dgjyy92"
+        },
+        {
+          "nom": "Mohammed Bin Rashid University of Medicine and Health Sciences",
+          "pays": "AE",
+          "type": "education",
+          "ror": "https://ror.org/01xfzxq83"
+        },
+        {
+          "nom": "Florida International University",
+          "pays": "US",
+          "type": "education",
+          "ror": "https://ror.org/02gz6gg07"
+        },
+        {
+          "nom": "University of Arkansas for Medical Sciences",
+          "pays": "US",
+          "type": "education",
+          "ror": "https://ror.org/00xcryt71"
+        }
+      ],
+      "acces_ouvert": false,
+      "statut_acces": "closed",
+      "url_texte": null,
+      "url_pdf": null,
+      "licence": null,
+      "texte_integral_indexe": false,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Retinal and Macular Surgery",
+      "resume_present": false,
+      "mesh": [
+        "Administration, Topical",
+        "Humans",
+        "Miotics",
+        "Ophthalmic Solutions",
+        "Pilocarpine",
+        "Retinal Detachment",
+        "Risk Factors"
+      ]
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": []
+  }
+}

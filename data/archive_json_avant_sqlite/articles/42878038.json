@@ -1,0 +1,119 @@
+{
+  "pmid": "42878038",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42878038",
+    "titre": "Trends in glaucoma diagnosis and medical management in Germany: A nationwide claims data analysis over 10 years.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42878038/",
+    "doi": "10.1111/aos.70261",
+    "pmcid": null,
+    "revue": "Acta ophthalmologica",
+    "date_entree_pubmed": "2026-10-15",
+    "date_publication": "2026-Oct-15",
+    "types_publication": [
+      "Journal Article"
+    ],
+    "resume_present": true,
+    "resume": "PURPOSE: Analysing longitudinal trends in recorded diagnosis and medical management of glaucoma in Germany over a 10-year period.\nMETHODS: A retrospective cohort study using nationwide outpatient claims and prescription data from the German statutory health insurance system. Patients with documented glaucoma or glaucoma suspect (ICD-10 H40.*) between 2014 and 2023 were included. Analyses assessed annual diagnosed glaucoma patients, demographic characteristics, proportions of medically treated patients and prescribing patterns of glaucoma medications. Trends in medication classes and number of active ingredients per patient were evaluated.\nRESULTS: In 2014, 2 065 065 glaucoma patients were registered. Documented patient numbers increased until 2019, reaching 2 129 673 and subsequently declined after the pandemic year to 2 025 226 in 2023. Mean patient age increased from 71.0 to 72.4 years. The proportion of medically treated patients increased from 68% to 71.5% across all glaucoma subtypes, except for primary open-angle glaucoma, where it remained stable (86.2%-86.1%) and primary angle-closure glaucoma, where it decreased (68.7%-65.6%). Among treated patients, monotherapy declined from 54.8% to 46.8%, while the proportion on two medications increased from 30.7% to 33.7%, three medications from 10.3% to 12.3%, four medications from 3.2% to 4.9% and 5 or more from 1.0% to 1.9%. Among patients receiving multiple agents, fixed-combinations increased from 75.7% to 80.5%. Prescribing patterns shifted towards greater use of prostaglandin analogues and reduced use of beta-blockers.\nCONCLUSION: After increasing until 2019, the number of documented glaucoma patients in Germany declined despite an ageing population. Concurrently, treatment strategies shifted towards intensified medical therapy with greater use of multiple medications and fixed combinations, particularly prostaglandin-based regimens.",
+    "mots_cles_auteurs": [
+      "claim data analysis",
+      "combination therapy",
+      "glaucoma",
+      "medical management",
+      "prevalence",
+      "trends of treatment"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 9,
+    "affiliations_auteurs": [
+      "Department of Ophthalmology, University Medical Center Mannheim, Medical Faculty Mannheim, Heidelberg University, Mannheim, Germany.",
+      "Department of Prescription Data, Central Research Institute of Ambulatory Health Care, Berlin, Germany.",
+      "Department of Ophthalmology, University Medical Center of the Johannes Gutenberg University Mainz, Mainz, Germany.",
+      "Department of Ophthalmology, University Hospital Leipzig, Leipzig, Germany.",
+      "Augenklinik Wittenbergplatz, Berlin, Germany."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7221921959",
+      "doi": "10.1111/aos.70261",
+      "pmid": "42878038",
+      "pmcid": null,
+      "titre": "Trends in glaucoma diagnosis and medical management in Germany: A nationwide claims data analysis over 10 years",
+      "lien": "https://openalex.org/W7221921959",
+      "date_publication": "2026-10-15",
+      "type": "article",
+      "revue": "Acta Ophthalmologica",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "pubmed"
+      ],
+      "financeurs": null,
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "Heidelberg University",
+          "pays": "DE",
+          "type": "education",
+          "ror": "https://ror.org/038t36y30"
+        },
+        {
+          "nom": "University Medical Centre Mannheim",
+          "pays": "DE",
+          "type": "healthcare",
+          "ror": "https://ror.org/05sxbyd35"
+        },
+        {
+          "nom": "Medizinische Fakultät Mannheim",
+          "pays": "DE",
+          "type": "education",
+          "ror": "https://ror.org/02m1z0a87"
+        },
+        {
+          "nom": "University Medical Center of the Johannes Gutenberg University Mainz",
+          "pays": "DE",
+          "type": "healthcare",
+          "ror": "https://ror.org/00q1fsf04"
+        },
+        {
+          "nom": "University Hospital Leipzig",
+          "pays": "DE",
+          "type": "healthcare",
+          "ror": "https://ror.org/028hv5492"
+        }
+      ],
+      "acces_ouvert": true,
+      "statut_acces": "hybrid",
+      "url_texte": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/aos.70261",
+      "url_pdf": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/aos.70261",
+      "licence": "cc-by",
+      "texte_integral_indexe": true,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Glaucoma and retinal disorders",
+      "resume_present": true,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": []
+  }
+}

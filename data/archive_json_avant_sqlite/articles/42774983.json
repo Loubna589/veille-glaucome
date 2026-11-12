@@ -1,0 +1,102 @@
+{
+  "pmid": "42774983",
+  "premiere_detection": "2026-09-25",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42774983",
+    "titre": "Asymmetric Bilateral Axenfeld-Rieger Anomaly Misdiagnosed as Unilateral Iridocorneal Endothelial Syndrome.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42774983/",
+    "doi": "10.7759/cureus.115031",
+    "pmcid": "PMC13596697",
+    "revue": "Cureus",
+    "date_entree_pubmed": "2026-09-23",
+    "date_publication": "2026-Aug",
+    "types_publication": [
+      "Case Reports",
+      "Journal Article"
+    ],
+    "resume_present": true,
+    "resume": "Axenfeld-Rieger anomaly is a rare, congenital disorder characterized by neural crest-derived defects of the ocular anterior segment, traditionally presenting with high bilateral symmetry. This case report highlights a significant diagnostic pitfall involving a profoundly asymmetric presentation of bilateral Axenfeld-Rieger anomaly in a systemically healthy 23-year-old male student, complicated by late-onset secondary congenital glaucoma and an associated cystoid macular edema. Due to severe, unilateral microcystic epithelial and stromal corneal edema confined strictly to the left eye, the underlying congenital structural anomalies were heavily masked. This advanced unilateral decompensation led two independent tertiary institutions to misdiagnose the condition as an acquired, strictly unilateral iridocorneal endothelial (ICE) syndrome. Meticulous bilateral evaluation resolved the diagnostic dilemma. While the right eye was completely asymptomatic, with normal visual parameters, gonioscopy unmasked silent, subclinical congenital angle anomalies, including an anteriorly inserted iris root and isolated iridocorneal strands distributed across all four quadrants. Crucially, bilateral specular microscopy revealed an absence of pathognomonic ICE cell changes in both eyes, establishing the true bilateral, developmental nature of the pathology. Initial multi-drug medical intraocular pressure-lowering therapies, including the Rho kinase inhibitor ripasudil 0.4%, failed to reverse the advanced left corneal endothelial failure, ultimately necessitating a successful left penetrating keratoplasty for visual rehabilitation. This case underscores the clinical necessity of routine, thorough bilateral gonioscopic and specular evaluations of the clinically unaffected companion eye to avoid diagnostic errors when a young adult presents with sudden, highly asymmetric glaucoma.",
+    "mots_cles_auteurs": [
+      "axenfeld-rieger syndrome",
+      "glaucoma diagnosis and management",
+      "macular edema",
+      "masquerade",
+      "secondary glaucoma"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 2,
+    "affiliations_auteurs": [
+      "Ophthalmology, Vardhman Mahavir Medical College and Safdarjung Hospital, New Delhi, IND."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": true,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": [
+        {
+          "produit": "ripasudil",
+          "role": "non déterminé",
+          "statut_role": "cité dans le résumé ou les mots-clés"
+        },
+        {
+          "produit": "rho kinase inhibitor*",
+          "role": "non déterminé",
+          "statut_role": "cité dans le résumé ou les mots-clés"
+        }
+      ],
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7204047706",
+      "doi": "10.7759/cureus.115031",
+      "pmid": "42774983",
+      "pmcid": null,
+      "titre": "Asymmetric Bilateral Axenfeld-Rieger Anomaly Misdiagnosed as Unilateral Iridocorneal Endothelial Syndrome",
+      "lien": "https://openalex.org/W7204047706",
+      "date_publication": "2026-08-23",
+      "type": "article",
+      "revue": "Cureus",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "pubmed"
+      ],
+      "financeurs": null,
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "Vardhman Mahavir Medical College & Safdarjung Hospital",
+          "pays": "IN",
+          "type": "healthcare",
+          "ror": "https://ror.org/03zj0ps89"
+        }
+      ],
+      "acces_ouvert": true,
+      "statut_acces": "diamond",
+      "url_texte": "https://doi.org/10.7759/cureus.115031",
+      "url_pdf": null,
+      "licence": "cc-by",
+      "texte_integral_indexe": false,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Gynecological conditions and treatments",
+      "resume_present": true,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-09-25",
+    "financements": []
+  }
+}

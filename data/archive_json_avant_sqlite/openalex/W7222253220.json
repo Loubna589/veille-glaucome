@@ -1,0 +1,58 @@
+{
+  "openalex_id": "W7222253220",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "openalex_id": "W7222253220",
+    "doi": "10.21203/rs.3.rs-10883609/v1",
+    "pmid": null,
+    "pmcid": null,
+    "titre": "Five-Year Real-World Outcomes of iStent inject W® Combined with Phacoemulsification in Ocular Hypertension and Primary Open-Angle Glaucoma",
+    "lien": "https://openalex.org/W7222253220",
+    "date_publication": "2026-10-15",
+    "type": "preprint",
+    "revue": "Research Square",
+    "type_source": "repository",
+    "langue": "en",
+    "indexe_dans": [
+      "crossref"
+    ],
+    "financeurs": null,
+    "subventions": null,
+    "institutions": [
+      {
+        "nom": "Hospital Universitario Virgen Macarena",
+        "pays": "ES",
+        "type": "healthcare",
+        "ror": "https://ror.org/016p83279"
+      }
+    ],
+    "acces_ouvert": true,
+    "statut_acces": "green",
+    "url_texte": "https://www.researchsquare.com/article/rs-10883609/latest.pdf",
+    "url_pdf": "https://www.researchsquare.com/article/rs-10883609/latest.pdf",
+    "licence": "cc-by",
+    "texte_integral_indexe": true,
+    "retracte": false,
+    "citations": 0,
+    "sujet_principal": "Glaucoma and retinal disorders",
+    "resume_present": true,
+    "resume": "Abstract Purpose: To evaluate the long-term real-world efficacy, safety, and functional and structural outcomes in patients with ocular hypertension (OHT) or primary open-angle glaucoma (POAG) undergoing trabecular micro-bypass surgery with the iStent inject W®. Methods: This retrospective longitudinal study included 149 eyes of 149 patients with OHT or POAG who underwent implantation of the iStent inject W®, combined with phacoemulsification, and were followed for up to five years. Outcomes included intraocular pressure (IOP), number of hypotensive medications, best-corrected visual acuity (BCVA), optical coherence tomography (OCT) structural parameters, and visual field indices. Follow-up data were available at 1 year (n = 123), 2 years (n = 94), 3 years (n = 61), 4 years (n = 35), and 5 years (n = 15). Results: BCVA improved significantly after surgery (p < 0.01). A mild but statistically significant decline in visual field index (VFI) was observed over time (p = 0.03), consistent with expected long-term glaucoma progression. OCT structural parameters remained stable throughout follow-up. IOP was significantly reduced at all postoperative visits except at years 3 and 5, where reductions did not reach statistical significance despite a sustained downward trend. Medication burden was significantly reduced at all time points (p < 0.01). Men exhibited lower postoperative IOP than women (p = 0.02), and OHT patients had higher IOP levels than those with POAG (p < 0.01). Conclusions: In a real-world clinical setting, the iStent inject W® provided sustained IOP reduction, durable medication burden reduction and long-term structural stability over five years. These findings support its long-term clinical effectiveness in the management of OHT and POAG.",
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "present_dans_pubmed": false
+  }
+}

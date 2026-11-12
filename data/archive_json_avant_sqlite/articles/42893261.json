@@ -1,0 +1,103 @@
+{
+  "pmid": "42893261",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42893261",
+    "titre": "One-Year Outcomes of PreserFlo MicroShunt implantation Using Intraoperative Sub-Tenon Triamcinolone Acetonide.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42893261/",
+    "doi": "10.2147/OPTH.S650640",
+    "pmcid": "PMC13676179",
+    "revue": "Clinical ophthalmology (Auckland, N.Z.)",
+    "date_entree_pubmed": "2026-10-18",
+    "date_publication": "2026",
+    "types_publication": [
+      "Journal Article"
+    ],
+    "resume_present": true,
+    "resume": "PURPOSE: To evaluate the 1-year efficacy, postoperative intervention burden, and safety of PreserFlo MicroShunt (PMS) implantation using intraoperative sub-Tenon triamcinolone acetonide (STTA).\nPATIENTS AND METHODS: This two-center retrospective study included 107 eyes of 107 consecutive patients who underwent standalone PMS implantation between December 2023 and May 2025. Mitomycin C (0.4 mg/mL) was applied for 5 min, followed by 20 mg STTA. Complete success was defined as an intraocular pressure (IOP) of 6-12 mmHg, with at least a 20% reduction from baseline, without medication or additional surgery. Qualified success allowed the use of glaucoma medications. Needling-free complete success was considered when the first needling procedure failed. Kaplan-Meier analysis was used to estimate success rates, and Cox proportional hazards regression analysis was used to evaluate factors associated with surgical failure.\nRESULTS: Median preoperative IOP was 22.0 mmHg (interquartile range [IQR], 17.0-28.0), and median medication score was 5.0 (IQR, 4.0-5.0). At 12 months, median IOP decreased to 9.0 mmHg (IQR, 6.0-12.0), and median medication score decreased to 0.0 (IQR, 0.0-0.0; both P<0.001). The estimated 12-month complete, qualified, and needling-free complete success rates were 83.1%, 85.0%, and 67.7%, respectively. Needling was performed in 18 eyes (16.8%), and 16 of those eyes (88.9%) met the complete success criteria at the final assessment within 12 months. Hypotony was present at 1 month in 37 eyes (34.6%), including persistent hypotony in 25 eyes (23.4%). Most hypotony-related events resolved without surgery. One eye developed suprachoroidal hemorrhage with severe visual loss. No significant baseline predictors of failure were identified.\nCONCLUSION: This protocol achieved substantial IOP and medication reduction with favorable 12-month success rates. Needling is an important component of postoperative management, and persistent numerical hypotony is common, but usually resolves without surgery. Comparative studies are needed to determine the specific contributions of STTA.",
+    "mots_cles_auteurs": [
+      "glaucoma",
+      "hypotony",
+      "microshunt",
+      "minimally invasive bleb surgery",
+      "needling"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 4,
+    "affiliations_auteurs": [
+      "Department of Ophthalmology, Japan Community Healthcare Organization Kanitounou Hospital, Kani, Japan.",
+      "Department of Ophthalmology, Japan Community Healthcare Organization Chukyo Hospital, Nagoya, Aichi, Japan.",
+      "Nagoya Eye Clinic, Nagoya, Aichi, Japan.",
+      "Tomita Eye Clinic, Nagoya, Aichi, Japan.",
+      "Asano Eye Clinic, Nagoya, Aichi, Japan."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": [
+        "suprachoroidal"
+      ],
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7221552560",
+      "doi": "10.2147/opth.s650640",
+      "pmid": "42893261",
+      "pmcid": "13676179",
+      "titre": "One-Year Outcomes of PreserFlo MicroShunt implantation Using Intraoperative Sub-Tenon Triamcinolone Acetonide",
+      "lien": "https://openalex.org/W7221552560",
+      "date_publication": "2026-10-01",
+      "type": "article",
+      "revue": "Clinical ophthalmology",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "doaj",
+        "pubmed"
+      ],
+      "financeurs": null,
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "Japan Community Healthcare Organization",
+          "pays": "JP",
+          "type": "government",
+          "ror": "https://ror.org/03q11y497"
+        },
+        {
+          "nom": "Chukyo Hospital",
+          "pays": "JP",
+          "type": "healthcare",
+          "ror": "https://ror.org/03j56s085"
+        }
+      ],
+      "acces_ouvert": true,
+      "statut_acces": "gold",
+      "url_texte": "https://www.dovepress.com/article/download/120834",
+      "url_pdf": "https://www.dovepress.com/article/download/120834",
+      "licence": "cc-by-nc",
+      "texte_integral_indexe": true,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Glaucoma and retinal disorders",
+      "resume_present": true,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": []
+  }
+}

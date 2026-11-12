@@ -1,0 +1,162 @@
+{
+  "nct": "NCT05206877",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "nct": "NCT05206877",
+    "titre": "Topical Insulin for Glaucoma",
+    "titre_officiel": "Topical Insulin for Glaucoma and Optic Neuropathies",
+    "lien": "https://clinicaltrials.gov/study/NCT05206877",
+    "date_premiere_publication": "2022-01-25",
+    "date_derniere_mise_a_jour": "2026-10-20",
+    "type_etude": "INTERVENTIONAL",
+    "phases_declarees": [
+      "PHASE1"
+    ],
+    "statut": "RECRUITING",
+    "raison_arret": null,
+    "date_debut": "2022-04-01",
+    "date_fin_principale": "2026-12-31",
+    "promoteur": "Stanford University",
+    "type_promoteur": "OTHER",
+    "collaborateurs": null,
+    "conditions": [
+      "Glaucoma"
+    ],
+    "interventions": [
+      {
+        "type": "DRUG",
+        "nom": "Insulin, 4 units"
+      },
+      {
+        "type": "DRUG",
+        "nom": "Insulin, 20 units"
+      },
+      {
+        "type": "DRUG",
+        "nom": "insulin, 4 units twice daily"
+      },
+      {
+        "type": "DRUG",
+        "nom": "insulin, 20 units twice daily"
+      },
+      {
+        "type": "DRUG",
+        "nom": "insulin, 4 units three times daily"
+      },
+      {
+        "type": "DRUG",
+        "nom": "insulin, 20 units three times daily"
+      }
+    ],
+    "participants_nombre": 52,
+    "participants_type": "ESTIMATED",
+    "criteres_principaux": [
+      {
+        "critere": "Number of Participants with Treatment-Related Adverse Events",
+        "delai": "During treatment period, difference from baseline to post-treatment up to 2 months"
+      }
+    ],
+    "resultats_deposes": false,
+    "publications_declarees": null,
+    "resume_source": "The purpose of this Phase 1 trial is to determine the safety over 1-2 months of topic sterile human recombinant insulin on subjects with optic neuropathies (glaucoma, ischecmic optic neuropathy, and optic disc drusen).",
+    "citations_declarees": null,
+    "plan": {
+      "repartition": "RANDOMIZED",
+      "modele": "SINGLE_GROUP",
+      "but_principal": "TREATMENT",
+      "insu": "SINGLE",
+      "insu_pour": [
+        "PARTICIPANT"
+      ],
+      "insu_description": null,
+      "modele_observationnel": null
+    },
+    "bras": [
+      {
+        "libelle": "Low dose topical insulin",
+        "type": "EXPERIMENTAL",
+        "description": "Group 1; N=6: 100 U/ml; 4 units of insulin per application, 1 drop done in clinic daily for 5 days",
+        "interventions": [
+          "Drug: Insulin, 4 units"
+        ]
+      },
+      {
+        "libelle": "High dose topical insulin",
+        "type": "EXPERIMENTAL",
+        "description": "Group 2; N=6: 500 U/ml; 20 units of insulin per application, 1 drop done in clinic daily for 5 days",
+        "interventions": [
+          "Drug: Insulin, 20 units"
+        ]
+      },
+      {
+        "libelle": "Longer-term topical insulin",
+        "type": "EXPERIMENTAL",
+        "description": "Group 3 randomized; N=20: 10 subjects will receive the highest tolerated dose (e.g. from group 1 or group 2), 1 drop per day at home for 1 month, full testing pre- and post-treatment, and 10 subjects will receive 1/5 of the highest tolerated dose (either the lower dose, or if needed will dilute) 1 drop per day at home for 1 month, full testing pre- and post-treatment.",
+        "interventions": [
+          "Drug: Insulin, 4 units",
+          "Drug: Insulin, 20 units"
+        ]
+      },
+      {
+        "libelle": "Low-Dose Insulin twice Daily",
+        "type": "EXPERIMENTAL",
+        "description": "Group 4. N=5. 1 drop of 100U/mL insulin administered twice daily for 5 days.",
+        "interventions": [
+          "Drug: insulin, 4 units twice daily"
+        ]
+      },
+      {
+        "libelle": "High-Dose Insulin twice Daily",
+        "type": "EXPERIMENTAL",
+        "description": "Group 5. N=5. 1 drop of 500U/mL insulin administered twice daily for 5 days.",
+        "interventions": [
+          "Drug: insulin, 20 units twice daily"
+        ]
+      },
+      {
+        "libelle": "Low-Dose Insulin three times daily",
+        "type": "EXPERIMENTAL",
+        "description": "Group 6. N=5. 1 drop of 100U/mL insulin administered three times daily for 5 days.",
+        "interventions": [
+          "Drug: insulin, 4 units three times daily"
+        ]
+      },
+      {
+        "libelle": "High-Dose Insulin three times daily",
+        "type": "EXPERIMENTAL",
+        "description": "Group 7. N=5. 1 drop of 500U/mL insulin administered three times daily for 5 days.",
+        "interventions": [
+          "Drug: insulin, 20 units three times daily"
+        ]
+      }
+    ],
+    "eligibilite": {
+      "criteres": "Inclusion Criteria:\n\n* Capable to provide informed consent\n* Diagnosis of optic neuropathy either glaucoma or NAION or optic disc drusen.\n* Only one eye per patient will be selected as the study eye - if both eyes meet the inclusion criteria, the eye with the worse acuity and /or visual field will be selected. The contralateral eye will be left untouched.\n\nExclusion Criteria:\n\n* Pregnant or breastfeeding woman\n* Presence of any ocular pathologies other than glaucoma that contributes to the severe vision loss (retinopathy / maculopathy, severe uveitis, keratopathy, etc.)\n* Diagnosis of glucose intolerance, type 1 or 2 diabetes mellitus\n* Inability to perform reliable visual field\n* Unable to provide informed consent\n* Unable to complete the tests and follow-ups required by the study",
+      "age_min": "18 Years",
+      "age_max": null,
+      "sexe": "ALL",
+      "volontaires_sains": false
+    },
+    "criteres_secondaires": [
+      {
+        "critere": "Change in retinal thickness measured in microns by spectral domain optical coherence tomography (sdOCT)",
+        "delai": "During treatment period, difference from baseline to post-treatment up to 2 months"
+      },
+      {
+        "critere": "The change in visual field as measured by mean deviation",
+        "delai": "During treatment period, difference from baseline to post-treatment up to 2 months"
+      }
+    ],
+    "responsables": [
+      {
+        "nom": "Jeffrey L Goldberg, MD, PhD",
+        "affiliation": "Stanford University",
+        "role": "PRINCIPAL_INVESTIGATOR"
+      }
+    ],
+    "date_depot_resultats": null,
+    "resultats": null
+  },
+  "modifications": []
+}

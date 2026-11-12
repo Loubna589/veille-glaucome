@@ -1,0 +1,70 @@
+{
+  "openalex_id": "W7204237098",
+  "premiere_detection": "2026-09-25",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "openalex_id": "W7204237098",
+    "doi": "10.64898/2026.08.23.26361150",
+    "pmid": null,
+    "pmcid": null,
+    "titre": "Effect of iStent inject on unmedicated intraocular pressure in glaucoma: exploratory analysis of clinical trial data",
+    "lien": "https://openalex.org/W7204237098",
+    "date_publication": "2026-08-26",
+    "type": "preprint",
+    "revue": "medRxiv",
+    "type_source": "repository",
+    "langue": null,
+    "indexe_dans": [
+      "crossref"
+    ],
+    "financeurs": null,
+    "subventions": null,
+    "institutions": [
+      {
+        "nom": "The University of Melbourne",
+        "pays": "AU",
+        "type": "education",
+        "ror": "https://ror.org/01ej9dk98"
+      },
+      {
+        "nom": "The Royal Victorian Eye & Ear Hospital",
+        "pays": "AU",
+        "type": "healthcare",
+        "ror": "https://ror.org/008q4kt04"
+      },
+      {
+        "nom": "Centre for Eye Research Australia",
+        "pays": "AU",
+        "type": "facility",
+        "ror": "https://ror.org/01sqdef20"
+      }
+    ],
+    "acces_ouvert": true,
+    "statut_acces": "green",
+    "url_texte": "https://www.medrxiv.org/content/medrxiv/early/2026/08/26/2026.08.23.26361150.full.pdf",
+    "url_pdf": "https://www.medrxiv.org/content/medrxiv/early/2026/08/26/2026.08.23.26361150.full.pdf",
+    "licence": "cc-by-nc-nd",
+    "texte_integral_indexe": true,
+    "retracte": false,
+    "citations": 0,
+    "sujet_principal": "Glaucoma and retinal disorders",
+    "resume_present": true,
+    "resume": "Abstract Purpose The direct effect of iStent inject on intraocular pressure (IOP) in patients with glaucoma is difficult to quantify in pragmatic trials where rates of post-surgical IOP-lowering therapy differ between intervention groups. We aimed to quantify the causal effect of iStent inject on unmedicated IOP at 12- and 24-months post-surgery. Methods Adults with mild-to-moderate glaucoma were 1:1 randomised to receive cataract surgery with iStent inject or cataract surgery alone at an Australian hospital (2017-2020, NCT03106181 ). IOP-lowering medications were prescribed as per clinician discretion. An exploratory analysis was used to estimate the controlled direct effect of iStent inject on IOP, analogous to the effect expected if all participants had undergone medication washout prior to assessment. Results Ninety-five eyes from 80 people were included (67.4% male, mean age 73.0 years, mean baseline IOP 17.1 mmHg). IOP-lowering medication was required for 53% of eyes in each group at 12 months (n=76); at 24 months (n=86) it was required for 43% and 64% in the active and control groups, respectively. Mean IOP was similar between intervention groups at each outcome visit. The controlled direct effect favoured the iStent inject group at 12 months (-2.1-mmHg difference, 95% CI -4.0,-0.3) but was attenuated at 24 months (-0.5 mmHg-difference, 95% CI -2.6,1.6). Conclusion Although the iStent inject was estimated to have an effect on lowering unmedicated IOP at 12 months, this effect had largely disappeared by 24 months. Medication washout is recommended when safe and practical in future trials to estimate these direct effects with more certainty.",
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "present_dans_pubmed": false
+  }
+}

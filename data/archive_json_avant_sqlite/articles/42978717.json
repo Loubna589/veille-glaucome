@@ -1,0 +1,161 @@
+{
+  "pmid": "42978717",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42978717",
+    "titre": "Clinical value evaluation of MEG3/miR-144-3p as a biomarker for the early diagnosis of glaucoma.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42978717/",
+    "doi": "10.3389/fimmu.2026.1894482",
+    "pmcid": "PMC13727485",
+    "revue": "Frontiers in immunology",
+    "date_entree_pubmed": "2026-11-04",
+    "date_publication": "2026",
+    "types_publication": [
+      "Journal Article"
+    ],
+    "resume_present": true,
+    "resume": "PURPOSE: LncRNA MEG3 and miR-144-3p have been confirmed to be related to ocular pathological processes, but their roles as early diagnostic biomarkers for Primary open angle glaucoma (POAG) and the underlying regulatory mechanisms remain unclear.\nMETHODS: The targeting relationship between MEG3 and miR-144-3p was verified by the dual luciferase reporter gene assay. MEG3 and miR-144-3p expression were detected by real-time quantitative polymerase chain reaction (RT-qPCR). ROC curves and correlation analysis were used to evaluate the diagnostic value and correlation of MEG3 and miR-144-3p. NaIO3 was used to treat retinal ganglion cells (RGCs), CCK-8 was used to measure cell proliferation and survival rate, and ELISA was used to detect levels of CAT, MDA, and inflammatory factors (IL-6, TNF-α, IL-1β).\nRESULTS: MEG3 and miR-144-3p have a targeting relationship. Compared with the healthy control group, the expression of MEG3 in tears and serum of patients with early POAG was significantly increased, while the expression of miR-144-3p was decreased. ROC analysis showed that MEG3 (serum AUC = 0.899; tears AUC = 0.894) and miR-144-3p (serum AUC = 0.877; tears AUC = 0.873) had excellent diagnostic efficacy for early POAG. In RGCs, silencing MEG3 or overexpressing miR-144-3p could alleviate NaIO3-induced cell damage, inflammation, and oxidative stress.\nCONCLUSION: MEG3 and miR-144-3p form a regulatory axis involved in glaucoma pathogenesis. Their abnormal expression in tears and serum makes them promising non-invasive biomarkers for early POAG diagnosis. The aqueous humor samples used in the study were solely for the analysis of the correlation of regulatory mechanisms.",
+    "mots_cles_auteurs": [
+      "MEG3",
+      "early POAG",
+      "glaucoma",
+      "inflammatory factors",
+      "miR-144-3p"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 4,
+    "affiliations_auteurs": [
+      "Department of Ophthalmology and Visual Science, Eye and ENT Hospital, Shanghai Medical College, Fudan University, Shanghai, China.",
+      "NHC Key Laboratory of Myopia, Fudan University, Shanghai, China.",
+      "Eye Institute, Eye and ENT Hospital, College of Medicine, Fudan University, Shanghai, China.",
+      "Department of Plastic Surgery, Zhongshan Hospital, Fudan University, Shanghai, China.",
+      "Key Laboratory of Myopia, Chinese Academy of Medical Sciences, National Health Commission, Shanghai, China.",
+      "Shanghai Key Laboratory of Visual Impairment and Restoration, Science and Technology Commission of Shanghai Municipality, Shanghai, China.",
+      "State Key Laboratory of Medical Neurobiology, Institutes of Brain Science and Collaborative Innovation, Center for Brain Science, Fudan University, Shanghai, China."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": [
+      "Humans",
+      "Biomarkers",
+      "MicroRNAs",
+      "RNA, Long Noncoding",
+      "Early Diagnosis",
+      "Female",
+      "Male",
+      "Glaucoma, Open-Angle",
+      "Retinal Ganglion Cells",
+      "Middle Aged",
+      "ROC Curve",
+      "Animals",
+      "Cell Proliferation"
+    ]
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": null,
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7223024415",
+      "doi": "10.3389/fimmu.2026.1894482",
+      "pmid": "42978717",
+      "pmcid": "13727485",
+      "titre": "Clinical value evaluation of MEG3/miR-144-3p as a biomarker for the early diagnosis of glaucoma",
+      "lien": "https://openalex.org/W7223024415",
+      "date_publication": "2026-10-20",
+      "type": "article",
+      "revue": "Frontiers in Immunology",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "doaj",
+        "pubmed"
+      ],
+      "financeurs": null,
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "Shanghai Medical College of Fudan University",
+          "pays": "CN",
+          "type": "education",
+          "ror": "https://ror.org/01zntxs11"
+        },
+        {
+          "nom": "Fudan University",
+          "pays": "CN",
+          "type": "education",
+          "ror": "https://ror.org/013q1eq08"
+        },
+        {
+          "nom": "Eye & ENT Hospital of Fudan University",
+          "pays": "CN",
+          "type": "healthcare",
+          "ror": "https://ror.org/02wc1yz29"
+        },
+        {
+          "nom": "Zhongshan Hospital",
+          "pays": "CN",
+          "type": "healthcare",
+          "ror": "https://ror.org/032x22645"
+        },
+        {
+          "nom": "Chinese Academy of Medical Sciences & Peking Union Medical College",
+          "pays": "CN",
+          "type": "education",
+          "ror": "https://ror.org/02drdmm93"
+        },
+        {
+          "nom": "Science and Technology Commission of Shanghai Municipality",
+          "pays": "CN",
+          "type": "government",
+          "ror": "https://ror.org/03kt66j61"
+        },
+        {
+          "nom": "State Key Laboratory of Medical Neurobiology",
+          "pays": "CN",
+          "type": "facility",
+          "ror": "https://ror.org/00nn53y54"
+        }
+      ],
+      "acces_ouvert": true,
+      "statut_acces": "gold",
+      "url_texte": "https://www.frontiersin.org/journals/immunology/articles/10.3389/fimmu.2026.1894482/pdf",
+      "url_pdf": "https://www.frontiersin.org/journals/immunology/articles/10.3389/fimmu.2026.1894482/pdf",
+      "licence": "cc-by",
+      "texte_integral_indexe": true,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Glaucoma and retinal disorders",
+      "resume_present": true,
+      "mesh": [
+        "Animals",
+        "Female",
+        "Glaucoma, Open-Angle",
+        "Humans",
+        "Male",
+        "Middle Aged",
+        "Retinal Ganglion Cells",
+        "ROC Curve",
+        "Biomarkers",
+        "MicroRNAs",
+        "Early Diagnosis",
+        "Cell Proliferation",
+        "RNA, Long Noncoding"
+      ]
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": []
+  }
+}

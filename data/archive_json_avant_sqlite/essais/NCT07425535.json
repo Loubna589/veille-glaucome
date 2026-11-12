@@ -1,0 +1,84 @@
+{
+  "nct": "NCT07425535",
+  "premiere_detection": "2026-09-25",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "nct": "NCT07425535",
+    "titre": "Optic Nerve Head Strain in Non-glaucoma Subjects",
+    "titre_officiel": "Optic Nerve Head Strain in Non-glaucoma Subjects",
+    "lien": "https://clinicaltrials.gov/study/NCT07425535",
+    "date_premiere_publication": "2026-02-23",
+    "date_derniere_mise_a_jour": "2026-07-13",
+    "type_etude": "INTERVENTIONAL",
+    "phases_declarees": [
+      "EARLY_PHASE1"
+    ],
+    "statut": "RECRUITING",
+    "raison_arret": null,
+    "date_debut": "2026-06-24",
+    "date_fin_principale": "2028-03-01",
+    "promoteur": "Johns Hopkins University",
+    "type_promoteur": "OTHER",
+    "collaborateurs": [
+      "National Eye Institute (NEI)"
+    ],
+    "conditions": [
+      "Glaucoma"
+    ],
+    "interventions": [
+      {
+        "type": "DRUG",
+        "nom": "Latanoprost (0.005%)"
+      }
+    ],
+    "participants_nombre": 30,
+    "participants_type": "ESTIMATED",
+    "criteres_principaux": [
+      {
+        "critere": "Optic nerve head strain",
+        "delai": "up to 1 month"
+      }
+    ],
+    "resultats_deposes": false,
+    "publications_declarees": null,
+    "resume_source": "Persons who do not have glaucoma will have pictures taken of the optic nerve with a standard camera before and 2 weeks after starting to take a daily glaucoma eye drop to lower eye pressure. These data will be used to compare to the same procedure performed with glaucoma patients to study how glaucoma injures the eye.",
+    "citations_declarees": null,
+    "plan": {
+      "repartition": "NA",
+      "modele": "SINGLE_GROUP",
+      "but_principal": "DIAGNOSTIC",
+      "insu": "NONE",
+      "insu_pour": null,
+      "insu_description": "Biostatistician",
+      "modele_observationnel": null
+    },
+    "bras": [
+      {
+        "libelle": "Study group",
+        "type": "EXPERIMENTAL",
+        "description": "The participants will take an approved glaucoma eye drop, latanoprost, for less than one month, with pictures of the eyes at baseline and while taking the drop.",
+        "interventions": [
+          "Drug: Latanoprost (0.005%)"
+        ]
+      }
+    ],
+    "eligibilite": {
+      "criteres": "Inclusion Criteria:\n\n* Adults who have no history of OAG\n* Have an ocular examination by a glaucoma specialist with no indications of OAG\n* Have normal optical coherence tomography findings in the retinal nerve fiber layer.\n* Over age 30 will be included from\n* Both sexes\n* All ethnic groups.\n* Optic neuropathy.\n* Both suspects and those with glaucoma damage will be included.\n* When both eyes meet inclusion and exclusion criteria, both eyes will be included in the study and statistical methods will be used to account for correlations between eyes within the same individual.\n\nExclusion Criteria:\n\n* in whom sitting in an upright position is impossible due to physical disability\n* with ocular media opacity, corneal scarring, cataract or vitreous hemorrhage, that does not allow adequate imaging resolution.\n* in whom keeping the eyes open during the imaging procedure is not possible or uncomfortable.\n* who cannot perform home tonometry accurately at certification\n* who do not have reliable clinical Optical Coherence Tomography (OCT) testing.\n* with any form of glaucoma\n* with high myopia defined as refractive error \\> -8\n* with past keratorefractive surgery, corneal dystrophy, or corneal ectasia that would make self-tonometry measurements difficult to interpret\n* inability to understand English or with a language or hearing impairment",
+      "age_min": "30 Years",
+      "age_max": "90 Years",
+      "sexe": "ALL",
+      "volontaires_sains": true
+    },
+    "criteres_secondaires": null,
+    "responsables": [
+      {
+        "nom": "Harry Quigley, MD",
+        "affiliation": "Johns Hopkins University",
+        "role": "PRINCIPAL_INVESTIGATOR"
+      }
+    ],
+    "date_depot_resultats": null,
+    "resultats": null
+  },
+  "modifications": []
+}

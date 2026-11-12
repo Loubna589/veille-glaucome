@@ -1,0 +1,126 @@
+{
+  "nct": "NCT07675824",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "nct": "NCT07675824",
+    "titre": "REGN22530 for Adults With Primary Open Angle Glaucoma or Ocular Hypertension",
+    "titre_officiel": "A Phase 1/2 Study of REGN22530 in Participants With Primary Open Angle Glaucoma or Ocular Hypertension",
+    "lien": "https://clinicaltrials.gov/study/NCT07675824",
+    "date_premiere_publication": "2026-06-30",
+    "date_derniere_mise_a_jour": "2026-09-28",
+    "type_etude": "INTERVENTIONAL",
+    "phases_declarees": [
+      "PHASE1",
+      "PHASE2"
+    ],
+    "statut": "RECRUITING",
+    "raison_arret": null,
+    "date_debut": "2026-09-08",
+    "date_fin_principale": "2029-09-14",
+    "promoteur": "Regeneron Pharmaceuticals",
+    "type_promoteur": "INDUSTRY",
+    "collaborateurs": null,
+    "conditions": [
+      "Primary Open Angle Glaucoma (POAG)",
+      "Ocular Hypertension (OHT)"
+    ],
+    "interventions": [
+      {
+        "type": "DRUG",
+        "nom": "REGN22530"
+      }
+    ],
+    "participants_nombre": 271,
+    "participants_type": "ESTIMATED",
+    "criteres_principaux": [
+      {
+        "critere": "Occurrence of Treatment Emergent Adverse Events (TEAEs)",
+        "delai": "Up to week 16"
+      },
+      {
+        "critere": "Change from baseline in mean diurnal IOP in the study eye",
+        "delai": "At day 85"
+      }
+    ],
+    "resultats_deposes": false,
+    "publications_declarees": null,
+    "resume_source": "This study will test an experimental drug called REGN22530 (\"study drug\") to see if it can help treat people with primary open angle glaucoma or ocular hypertension. REGN22530 is an experimental drug that is designed to bind with a protein in the eye that has been shown to cause a buildup of fluid inside the eye and cause increased Intraocular Pressure (IOP).\n\nREGN22530 attaches to this protein and stops it from working which may allow more fluid to drain out of the eye and decrease the pressure.\n\nThe study is looking at:\n\n* What side effects REGN22530 might cause\n* How much REGN22530 is in the blood and eye fluid at different times\n* If the body has any reactions to REGN22530 (which may cause REGN22530 to not work as well)\n* How the body and eye pressure respond after having REGN22530, which can help researchers understand why REGN22530 works better in some people than others\n* How well REGN22530 works",
+    "citations_declarees": null,
+    "plan": {
+      "repartition": "RANDOMIZED",
+      "modele": "SEQUENTIAL",
+      "but_principal": "TREATMENT",
+      "insu": "QUADRUPLE",
+      "insu_pour": [
+        "PARTICIPANT",
+        "CARE_PROVIDER",
+        "INVESTIGATOR",
+        "OUTCOMES_ASSESSOR"
+      ],
+      "insu_description": null,
+      "modele_observationnel": null
+    },
+    "bras": [
+      {
+        "libelle": "Phase 1 Part A",
+        "type": "EXPERIMENTAL",
+        "description": null,
+        "interventions": [
+          "Drug: REGN22530"
+        ]
+      },
+      {
+        "libelle": "Phase 1 Part B",
+        "type": "EXPERIMENTAL",
+        "description": null,
+        "interventions": [
+          "Drug: REGN22530"
+        ]
+      },
+      {
+        "libelle": "Phase 2 Part C",
+        "type": "EXPERIMENTAL",
+        "description": null,
+        "interventions": [
+          "Drug: REGN22530"
+        ]
+      }
+    ],
+    "eligibilite": {
+      "criteres": "Key Inclusion Criteria:\n\n1. Diagnosis of OHT or POAG of mild to moderate severity as described in the protocol\n2. Best-Corrected Visual Acuity (BCVA) of ≥35 Early Treatment Diabetic Retinopathy Study (ETDRS) letters (Snellen equivalent of better than or equal to 20/200) in the study eye on day 1\n3. BCVA of ≥55 EDTRS letters (Snellen equivalent of better than or equal to 20/80) in the non-study eye on day 1\n4. Phakic or pseudophakic with a posterior chamber intraocular lens that has been implanted ≥3 months prior to Screening Visit 1\n5. Sufficiently clear ocular media, adequate pupillary dilation and fixation to permit quality posterior segment imaging in the study eye\n\nKey Exclusion Criteria:\n\nOcular-specific exclusion criteria apply to the Study Eye only, unless otherwise specified.\n\n1. OAG or OHT secondary to pigment dispersion, pseudoexfoliation, trauma, uveitis, neovascularization, a vascular disorder, or steroid use\n2. Congenital or traumatic cataract, or visually significant cataract that is likely to require surgical intervention during the study\n3. Presence of significant corneal scarring or irregularities that could interfere with reliable IOP measurement\n4. Prior incisional or bleb-forming glaucoma surgery, suprachoroidal procedures, Trabecular Meshwork (TM)-stripping Microinvasive Glaucoma Surgery (MIGS), angle-based implants other than iStent or iridectomy/iridotomy as described in the protocol\n5. History of Selective Laser Trabeculoplasty (SLT) within 6 months prior to day 1\n6. History of transscleral (including micropulse) or endoscopic cyclophotocoagulation within 1 year prior to day 1\n\nNote: Other protocol defined Inclusion/ Exclusion criteria apply",
+      "age_min": "18 Years",
+      "age_max": null,
+      "sexe": "ALL",
+      "volontaires_sains": false
+    },
+    "criteres_secondaires": [
+      {
+        "critere": "Concentrations of REGN22530 in serum",
+        "delai": "Up to week 24"
+      },
+      {
+        "critere": "Occurrence of Anti-Drug Antibodies (ADAs) to REGN22530 in serum",
+        "delai": "Up to week 24"
+      },
+      {
+        "critere": "Magnitude of ADAs to REGN22530 in serum",
+        "delai": "Up to week 24"
+      },
+      {
+        "critere": "Occurrence of TEAEs",
+        "delai": "Up to week 24"
+      }
+    ],
+    "responsables": [
+      {
+        "nom": "Clinical Trial Management",
+        "affiliation": "Regeneron Pharmaceuticals",
+        "role": "STUDY_DIRECTOR"
+      }
+    ],
+    "date_depot_resultats": null,
+    "resultats": null
+  },
+  "modifications": []
+}

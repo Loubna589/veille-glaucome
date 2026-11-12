@@ -1,0 +1,115 @@
+{
+  "pmid": "43000110",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "43000110",
+    "titre": "Artificial intelligence in glaucoma diagnosis and management: a systematic review of the past decade (2015-2026).",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/43000110/",
+    "doi": "10.1080/17434440.2026.2758935",
+    "pmcid": null,
+    "revue": "Expert review of medical devices",
+    "date_entree_pubmed": "2026-11-08",
+    "date_publication": "2026-Nov-09",
+    "types_publication": [
+      "Journal Article",
+      "Review"
+    ],
+    "resume_present": true,
+    "resume": "INTRODUCTION: Artificial intelligence (AI) is increasingly being used to support glaucoma detection and monitoring, with rapid advances in deep learning, multimodal imaging, and longitudinal prediction. This review evaluates the evidence supporting these developments and identifies barriers to clinical translation.\nAREAS COVERED: A systematic search of PubMed, IEEE Xplore, ScienceDirect, and SpringerLink was conducted following PRISMA guidelines, with the protocol registered in PROSPERO (CRD420261450819). Of 3,758 records identified, 63 eligible peer-reviewed studies published between 2015 and 2026 were included. The review examined AI techniques, imaging modalities, datasets, diagnostic and predictive performance, validation strategies, and reported limitations in Glaucoma care. Most studies used deep learning applied to fundus photography, optical coherence tomography (OCT), OCT angiography, visual fields, or multimodal data. Many models achieved an area under the ROC curve of approximately 0.95.\nEXPERT OPINION: AI has substantial potential to improve glaucoma detection and monitoring, but high reported accuracy alone does not establish clinical readiness. Prospective multicenter validation using diverse populations, explainable and reproducible models, standardized evaluation, and integration into clinical workflows are essential before widespread implementation.",
+    "mots_cles_auteurs": [
+      "Glaucoma",
+      "artificial intelligence",
+      "clinical translation",
+      "deep learning",
+      "systematic review"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 10,
+    "affiliations_auteurs": [
+      "Melbourne Medical School, The University of Melbourne, Melbourne, Australia.",
+      "School of Engineering, RMIT University, Melbourne, Australia.",
+      "Faculty of Medicine, Dentistry and Health Sciences, The University of Melbourne, Melbourne, Australia.",
+      "Centre for Eye Research Australia, The University of Melbourne, Melbourne, Australia.",
+      "Faculty of Medicine, Nursing and Health Sciences, Monash University, Melbourne, Australia.",
+      "Royal Eye and Ear Hospital, The University of Melbourne, Melbourne, Australia.",
+      "School of Science, RMIT University, Melbourne, Australia."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7225573422",
+      "doi": "10.1080/17434440.2026.2758935",
+      "pmid": "43000110",
+      "pmcid": null,
+      "titre": "Artificial intelligence in glaucoma diagnosis and management: a systematic review of the past decade (2015-2026)",
+      "lien": "https://openalex.org/W7225573422",
+      "date_publication": "2026-11-08",
+      "type": "review",
+      "revue": "Expert Review of Medical Devices",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "pubmed"
+      ],
+      "financeurs": null,
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "The University of Melbourne",
+          "pays": "AU",
+          "type": "education",
+          "ror": "https://ror.org/01ej9dk98"
+        },
+        {
+          "nom": "RMIT University",
+          "pays": "AU",
+          "type": "education",
+          "ror": "https://ror.org/04ttjf776"
+        },
+        {
+          "nom": "Centre for Eye Research Australia",
+          "pays": "AU",
+          "type": "facility",
+          "ror": "https://ror.org/01sqdef20"
+        },
+        {
+          "nom": "Monash University",
+          "pays": "AU",
+          "type": "education",
+          "ror": "https://ror.org/02bfwt286"
+        }
+      ],
+      "acces_ouvert": false,
+      "statut_acces": "closed",
+      "url_texte": null,
+      "url_pdf": null,
+      "licence": null,
+      "texte_integral_indexe": false,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Retinal Imaging and Analysis",
+      "resume_present": true,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": []
+  }
+}

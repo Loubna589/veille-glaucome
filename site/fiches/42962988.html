@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>PMID 42962988 — fiche article</title><style>
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
+:root{--fond:#f4f7fb;--carte:#fff;--texte:#0f1d33;--doux:#52627a;--bord:#e2e8f0;--accent:#0b4f8a;
+--ok:#146c43;--ok-fond:#e3f4ea;--att:#8a5300;--att-fond:#fdf1d8;--ver:#b42318;--ver-fond:#fdeceb;
+--reg:#3f3c9e;--reg-fond:#ecebfb;--src-fond:#f1f5f9;--mark:#fff1a8;--manque:#b42318;--turquoise:#14b8a6;}
+@media (prefers-color-scheme:dark){:root{--fond:#0a1120;--carte:#101a2c;--texte:#e6edf7;--doux:#9db0ca;
+--bord:#1e2b42;--accent:#6fb4ff;--ok:#6fd6a0;--ok-fond:#12301f;--att:#f3c15e;--att-fond:#352a10;--ver:#ff9a8f;
+--ver-fond:#3a1714;--reg:#b4b2ff;--reg-fond:#24234a;--src-fond:#0d1626;--mark:#5a4d10;--manque:#ff9a8f;--turquoise:#2dd4bf;}}
+*{box-sizing:border-box}body{margin:0;background:var(--fond);color:var(--texte);
+font:15.5px/1.6 "Inter",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+:focus-visible{outline:3px solid var(--turquoise);outline-offset:2px;border-radius:6px}
+main{max-width:1000px;margin:0 auto;padding:20px 18px 64px}
+.bandeau{display:flex;align-items:center;gap:10px;font-weight:800;letter-spacing:-.02em;padding:6px 0 14px;color:var(--texte);text-decoration:none}
+.bandeau i{width:30px;height:30px;border-radius:9px;background:linear-gradient(135deg,#0b4f8a,#14b8a6);display:inline-block}
+header,section{background:var(--carte);border:1px solid var(--bord);border-radius:16px;padding:20px 24px;margin:0 0 16px;
+box-shadow:0 1px 2px rgba(15,29,51,.04),0 6px 20px -8px rgba(15,29,51,.12)}
+h1{font-size:1.45rem;line-height:1.3;margin:.2em 0 .5em}h2{font-size:1.1rem;margin:0 0 .6em;color:var(--accent)}
+h3{font-size:1rem;margin:1.1em 0 .4em}.surtitre{color:var(--doux);margin:0;font-size:.9rem}
+a{color:var(--accent)}small,.def{color:var(--doux)}.def{font-size:.88rem;margin:.2em 0 .6em}
+.grille{display:grid;grid-template-columns:max-content 1fr;gap:4px 16px;margin:12px 0 0}
+.grille dt{color:var(--doux)}.grille dd{margin:0}
+.badge{display:inline-block;font-size:.72rem;font-weight:600;padding:2px 8px;border-radius:999px;margin:2px 4px 2px 0;
+vertical-align:middle;background:var(--src-fond);color:var(--doux)}
+.badge.confirme{background:var(--ok-fond);color:var(--ok)}.badge.attente{background:var(--att-fond);color:var(--att)}
+.badge.verifier{background:var(--ver-fond);color:var(--ver)}.badge.regle{background:var(--reg-fond);color:var(--reg)}
+.rubrique{font-weight:600}.manque{color:var(--manque);font-style:italic}
+mark{background:var(--mark);color:inherit;padding:0 2px;border-radius:3px}
+blockquote{margin:.5em 0;padding:.5em .9em;border-left:3px solid var(--bord);background:var(--src-fond);border-radius:0 6px 6px 0}
+pre{white-space:pre-wrap;font-size:.85rem;background:var(--src-fond);padding:10px;border-radius:6px}
+.defile{overflow-x:auto}table{border-collapse:collapse;width:100%;font-size:.92rem;margin:.4em 0}
+th,td{border:1px solid var(--bord);padding:6px 8px;text-align:left;vertical-align:top}th{background:var(--src-fond)}
+.analyse{background:var(--src-fond);padding:6px 10px;border-radius:6px;font-size:.92rem}
+.acteurs{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px}
+.acteurs>div{border:1px solid var(--bord);border-radius:8px;padding:10px 12px}.acteurs h3{margin-top:0}
+.copier{position:sticky;top:0;z-index:2;display:flex;gap:12px;align-items:center;flex-wrap:wrap;
+background:var(--fond);padding:10px 0;margin-bottom:8px}
+button{font:inherit;font-weight:600;background:var(--accent);color:#fff;border:0;border-radius:8px;padding:9px 16px;cursor:pointer}
+@media (prefers-color-scheme:dark){button{color:#10141a}}
+textarea{width:100%;min-height:260px;font:13px/1.4 ui-monospace,Consolas,monospace;background:var(--src-fond);
+color:var(--texte);border:1px solid var(--bord);border-radius:6px;padding:8px}
+details{margin:.5em 0}summary{cursor:pointer;color:var(--accent)}
+.retour{font-size:.92rem;margin:0 0 4px}
+@media (max-width:600px){.grille{grid-template-columns:1fr}.grille dt{margin-top:6px}header,section{padding:14px}}
+</style></head>
+<body><main>
+<a class="bandeau" href="../index.html"><i aria-hidden="true"></i>Glaucoma Intelligence</a><nav class="retour"><a href="../index.html">Accueil</a> · <a href="../etudes.html">← Essais &amp; articles</a> · <a href="../recherche.html">Rechercher</a> · <a href="../carte.html">Carte des acteurs</a> · <a href="../alertes.html">Alertes</a></nav>
+<div class="copier"><button id="bouton-copier" type="button" onclick="copierFiche()">Copier pour Claude / ChatGPT</button>
+<small>Copie une consigne + les faits de cette fiche, à coller dans votre assistant.</small></div>
+
+    <header>
+      <p class="surtitre">Fiche article · PMID 42962988 · <a href="https://pubmed.ncbi.nlm.nih.gov/42962988/" target="_blank" rel="noopener">voir sur PubMed</a>
+         · <a href="https://doi.org/10.1016/j.ajo.2026.10.013" target="_blank" rel="noopener">DOI 10.1016/j.ajo.2026.10.013</a></p>
+      <h1 lang="en">Pediatric Endothelial Keratoplasty: A Modified Delphi Consensus by the EKLG Study Group on Indications, Surgical Techniques, and Postoperative Care.</h1>
+      <p><span class="badge confirme">PUBLICATION — le résumé rapporte des résultats</span> <span class="badge verifier">Synthèse fondée UNIQUEMENT sur le résumé PubMed : le texte intégral n'a pas été lu.</span></p>
+      <dl class="grille">
+        <dt>Revue</dt><dd>American journal of ophthalmology</dd>
+        <dt>Entrée dans PubMed</dt><dd>2026-10-30 · publication : 2026-Oct-30</dd>
+        <dt>Type(s) de publication (PubMed)</dt><dd lang="en">Journal Article</dd>
+        <dt>Stade</dt><dd>Non renseigné <small>(pas d'indexation MeSH disponible)</small></dd>
+        <dt>Accès au texte (OpenAlex)</dt><dd>libre (article ouvert dans une revue payante) · <a href="https://www.ajo.com/article/S0002-9394(26)00570-2/pdf" target="_blank" rel="noopener">ouvrir le texte</a></dd>
+        <dt>Détecté par l'outil le</dt><dd>2026-11-11</dd>
+      </dl>
+      <p class="rubriques"><strong>Rubrique :</strong> <span class="rubrique">Dispositifs et chirurgie</span> <small>mot du titre : « Surgical »</small> <span class="badge regle">classement automatique — règles dans config/rubriques.ini</span></p>
+    </header>
+<section><h2>Question étudiée <span class="badge source">Résumé PubMed (texte source)</span></h2><blockquote lang="en"><strong>PURPOSE</strong> To identify areas of consensus among global experts on the clinical management of pediatric endothelial keratoplasty (EK), including patient selection, timing, preoperative evaluation, technique selection, intraoperative standards, and postoperative care, and to provide a practical framework for surgeons earlier in their pediatric EK learning curve.</blockquote></section><section><h2>Traitement ou technologie, et comparateur <span class="badge regle">règle automatique de l'outil</span></h2><ul><li>Formulation / voie d'administration citée : contact lens* <span class="badge regle">repérage automatique</span></li></ul><p class="def">Aucun rôle n'est confirmé : PubMed ne décrit pas les bras d'une étude. Un rôle pourrait être confirmé par le registre d'un essai lié de façon confirmée.</p></section><section><h2>Type d'étude et méthode <span class="badge source">Résumé PubMed (texte source)</span><span class="badge source">PubMed (types de publication)</span></h2><p>Type(s) de publication déclaré(s) par PubMed : <span lang="en">Journal Article</span></p><blockquote lang="en"><strong>DESIGN</strong> Modified Delphi-based global consensus study.</blockquote><blockquote lang="en"><strong>PARTICIPANTS</strong> International ophthalmologists with expertise in endothelial keratoplasty and pediatric corneal diseases.</blockquote><blockquote lang="en"><strong>METHODS</strong> A series of consensus statements on pediatric EK were developed from iterative rounds of structured questions and statements posed to a panel of experts. Two rounds of asynchronous electronic questionnaires were followed by a structured hybrid discussion of unresolved items. Experts responded anonymously to statements assessing consensus and to revised items addressing indications, contraindications, timing, preoperative workup, technique selection, intraoperative standards, and postoperative management. Results are reported using item-specific denominators because occasional non-response occurred across the survey items.</blockquote><blockquote lang="en"><strong>MAIN OUTCOME MEASURES</strong> Consensus was defined as <mark>≥70%</mark> agreement among the experts. Agreement between <mark>60%</mark> and <mark>69.9%</mark> was considered to be near consensus.</blockquote></section><section><h2>Population et participants (phrases du résumé) <span class="badge source">Résumé PubMed (texte source)</span></h2><blockquote lang="en">Essential preoperative assessments included examination under anesthesia, B-scan ultrasonography, anterior segment optical coherence tomography, intraocular pressure measurement, ultrasound biomicroscopy, and refraction.</blockquote><blockquote lang="en">Preferred intraoperative principles included air tamponade, anterior chamber maintenance, and donor graft under-sizing relative to the corneal diameter.</blockquote><blockquote lang="en">Postoperative recommendations included early intraocular pressure assessment, topical corticosteroid therapy for &gt; <mark>6</mark> months, regular monitoring for steroid response, selective contact lens use, and individualized long-term follow-up.</blockquote></section><section><h2>Résultats disponibles <span class="badge source">Résumé PubMed (texte source)</span></h2><p class="def">Valeurs chiffrées surlignées telles qu'elles figurent dans le résumé. Elles n'ont pas été vérifiées dans le texte intégral.</p><blockquote lang="en"><strong>RESULTS</strong> The consensus supported pediatric EK for congenital hereditary endothelial dystrophy, aphakic or pseudophakic corneal edema, persistent corneal edema in congenital glaucoma, X-linked endothelial corneal dystrophy, iatrogenic endothelial decompensation, and trauma-related decompensation. EK was inappropriate for severe anterior segment dysgenesis with keratolenticular or extensive iridocorneal adhesions. In Round <mark>2</mark>, experts further endorsed EK for failed penetrating keratoplasty due to endothelial failure, congenital glaucoma with visually significant Haab's striae, and forceps injury involving the visual axis. There was a consensus that the timing of intervention should be guided primarily by amblyopia risk rather than by a specific age cut off. Essential preoperative assessments included examination under anesthesia, B-scan ultrasonography, anterior segment optical coherence tomography, intraocular pressure measurement, ultrasound biomicroscopy, and refraction. Experts agreed that ultrathin-DSAEK and DSAEK are the predominant techniques, whereas DMEK is currently selectively reserved, usually for older children with uncomplicated anterior segment anatomy. Preferred intraoperative principles included air tamponade, anterior chamber maintenance, and donor graft under-sizing relative to the corneal diameter. Postoperative recommendations included early intraocular pressure assessment, topical corticosteroid therapy for &gt; <mark>6</mark> months, regular monitoring for steroid response, selective contact lens use, and individualized long-term follow-up.</blockquote></section><section><h2>Données de tolérance (phrases du résumé) <span class="badge source">Résumé PubMed (texte source)</span></h2><p><span class="manque">Aucune donnée de tolérance dans le résumé</span></p></section><section><h2>Conclusion des auteurs (citée telle quelle, non évaluée par l'outil) <span class="badge source">Résumé PubMed (texte source)</span></h2><blockquote lang="en"><strong>CONCLUSIONS</strong> The consensus statements provide globally endorsed recommendations for the clinical management of pediatric EK. These guidelines are relevant for corneal specialists providing a practical framework to benchmark practice, reduce variability, and guide future multicenter investigations.</blockquote></section><section><h2>Essai clinique lié <span class="badge source">PubMed (DataBankList et texte)</span></h2><ul><li><span class="manque">Aucun essai lié identifié</span></li></ul></section><section><h2>Promoteur, financeur et affiliations <span class="badge source">PubMed</span><span class="badge source">OpenAlex</span><span class="badge source">Crossref</span></h2><div class="acteurs">
+      <div><h3>Promoteur d'essai</h3><p class="def">Organisme responsable d'un essai, déclaré au registre.</p><p><span class="manque">Non affiché : aucun essai lié de façon confirmée</span></p></div>
+      <div><h3>Financeur</h3><p class="def">Organisme qui a financé la recherche, avec la notice qui le justifie.</p><p><span class="manque">Aucun financeur trouvé (PubMed, OpenAlex, Crossref)</span></p></div>
+      <div><h3>Affiliations des auteurs</h3><p class="def">Établissements où travaillent les auteurs (pas un financement).</p><p><small>Institutions normalisées (OpenAlex) :</small></p><ul><li>Singapore Eye Research Institute <small>(SG, infrastructure)</small></li><li>Dr. Shroff’s Charity Eye Hospital <small>(IN, santé/hôpital)</small></li><li>L V Prasad Eye Institute <small>(IN, fondation/association)</small></li><li>Istituto Giannina Gaslini <small>(IT, santé/hôpital)</small></li><li>University of Toronto <small>(CA, enseignement/recherche)</small></li><li>Hospital for Sick Children <small>(CA, santé/hôpital)</small></li><li>Christchurch Hospital <small>(NZ, santé/hôpital)</small></li><li>Massachusetts Eye and Ear Infirmary <small>(US, santé/hôpital)</small></li><li>Harvard University <small>(US, enseignement/recherche)</small></li><li>Hospital de Clínicas "José de San Martín" <small>(AR, santé/hôpital)</small></li><li>Hospital Universitario Austral <small>(AR, santé/hôpital)</small></li><li>Universidade Federal de São Paulo <small>(BR, enseignement/recherche)</small></li><li>New York University <small>(US, enseignement/recherche)</small></li><li>University of Brescia <small>(IT, enseignement/recherche)</small></li><li>Columbia University <small>(US, enseignement/recherche)</small></li><li>The University of Sydney <small>(AU, enseignement/recherche)</small></li><li>Medical University of Silesia <small>(PL, enseignement/recherche)</small></li><li>Westchester Medical Center <small>(US, santé/hôpital)</small></li><li>New York Medical College <small>(US, enseignement/recherche)</small></li><li>Singapore National Eye Center <small>(SG, santé/hôpital)</small></li><li>UPMC Health System <small>(US, santé/hôpital)</small></li><li>Children's Hospital of Pittsburgh <small>(US, santé/hôpital)</small></li><li>University of Pittsburgh Medical Center <small>(US, santé/hôpital)</small></li></ul><details><summary>Affiliations telles que déclarées dans PubMed (18)</summary><ul><li>Dr Shroffs Charity Eye Hospital, New Delhi, India; Singapore Eye Research Institute, Singapore.</li><li>Centre for Rare Eye Diseases and Ocular Genetics, Shantilal Shanghvi Cornea Institute, Jasti V Ramanamma Children's Eye Care Centre, L V Prasad Eye Institute, Hyderabad, India.</li><li>IRCCS Istituto Giannina. Gaslini, Genoa, Italy.</li><li>University of Toronto and the Hospital for Sick Children, Ontario, Toronto, Canada.</li><li>Christchurch Public Hospital, New Zealand.</li><li>Eye Clinic, London.</li><li>Harvard Medical School, Massachusetts Eye and Ear Infirmary, Massachusetts, Boston, USA.</li><li>Hospital de Clínicas José de San Martín. Universidad de Buenos Aires, Argentina.</li><li>SkySight Vision Center, Buenos Aires, Argentina; Hospital Universitario Austral, Buenos Aires, Argentina; Arasanz Laser Vision, Buenos Aires, Argentina.</li><li>Sorocaba Eye Hospital, Sorocaba Eye Bank, Sorocaba, São Paulo, Brazil; Universidade Federal de São Paulo, São Paulo, Brazil.</li><li>New York University, New York, USA.</li><li>Eye Unit, Department of Medical and Surgical Specialties, Radiological Sciences, and Public Health, University of Brescia, Italy.</li><li>Dr Shroffs Charity Eye Hospital, New Delhi, India; Columbia University, USA.</li><li>Save Sight Institute, The University of Sydney, Sydney, NSW Australia.</li><li>Medical University of Silesia Ophthalmology Department Railway Hospital Katowice, Poland.</li><li>New York Medical College; Westchester Medical Center, New York, USA.</li><li>Singapore Eye Research Institute, Singapore; Singapore National Eye Centre, Singapore.</li><li>UPMC Children's Hospital of Pittsburgh, Pennsylvania, USA; UPMC Vision Institute, Pittsburgh, Pennsylvania, USA. Electronic address: nischalkk@upmc.edu.</li></ul></details></div>
+    </div></section>
+<section><h2>Ce qui manque <span class="badge regle">calculé par l'outil</span></h2><ul><li>données de tolérance</li><li>financeur</li></ul></section>
+<section><h2>Limites, intérêt pour la veille marketing, à retenir <span class="badge attente">non produit par l'outil</span></h2><p><span class="manque">Non rédigé automatiquement : les données extraites ne suffisent pas à produire une analyse fiable sans interprétation. Utilisez le bouton « Copier pour Claude / ChatGPT » pour obtenir une proposition, à vérifier.</span></p></section>
+<section><details><summary>Voir le texte copié par le bouton</summary>
+<textarea id="a-copier" readonly>Tu es assistant de veille scientifique sur le glaucome. À partir UNIQUEMENT des informations ci-dessous, rédige en français une fiche de synthèse avec ces rubriques :
+1. Question étudiée
+2. Traitement ou technologie
+3. Type d&#x27;étude
+4. Population et nombre de participants
+5. Comparateur
+6. Critères évalués
+7. Principaux résultats chiffrés (recopie les valeurs exactes et indique leur source)
+8. Données de tolérance
+9. Limites
+10. Intérêt potentiel pour une veille marketing — présenté comme une INTERPRÉTATION, séparé des faits
+11. À retenir (une phrase)
+
+Règles :
+- N&#x27;invente rien. Si une information manque, écris « non rapporté ».
+- Distingue un essai simplement enregistré, un protocole, des résultats déposés dans un registre et une publication de résultats.
+- Si la source est seulement le résumé d&#x27;un article, indique que la synthèse repose uniquement sur ce résumé.
+- Les rôles « suggérés » (traitement étudié / comparateur) sont à vérifier dans le texte source.
+- Ne confonds pas promoteur d&#x27;essai, financeur et affiliation des auteurs.
+- Termine par la liste des points à vérifier.
+
+=== INFORMATIONS ===
+SOURCE : PubMed, PMID 42962988 — https://pubmed.ncbi.nlm.nih.gov/42962988/ · DOI https://doi.org/10.1016/j.ajo.2026.10.013
+BASE : résumé PubMed uniquement (texte intégral non lu)
+Titre : Pediatric Endothelial Keratoplasty: A Modified Delphi Consensus by the EKLG Study Group on Indications, Surgical Techniques, and Postoperative Care.
+Revue : American journal of ophthalmology · entrée PubMed : 2026-10-30
+Types de publication (PubMed) : Journal Article
+Produits repérés automatiquement (rôles SUGGÉRÉS, à vérifier) : aucun
+Molécules hors liste (repérage automatique, à vérifier) : aucune
+Essai lié : aucun
+Financeurs : aucun trouvé
+Affiliations (institutions, pas des financeurs) : Singapore Eye Research Institute (SG, facility); Dr. Shroff’s Charity Eye Hospital (IN, healthcare); L V Prasad Eye Institute (IN, nonprofit); Istituto Giannina Gaslini (IT, healthcare); University of Toronto (CA, education); Hospital for Sick Children (CA, healthcare); Christchurch Hospital (NZ, healthcare); Massachusetts Eye and Ear Infirmary (US, healthcare); Harvard University (US, education); Hospital de Clínicas &quot;José de San Martín&quot; (AR, healthcare); Hospital Universitario Austral (AR, healthcare); Universidade Federal de São Paulo (BR, education); New York University (US, education); University of Brescia (IT, education); Columbia University (US, education); The University of Sydney (AU, education); Medical University of Silesia (PL, education); Westchester Medical Center (US, healthcare); New York Medical College (US, education); Singapore National Eye Center (SG, healthcare); UPMC Health System (US, healthcare); Children&#x27;s Hospital of Pittsburgh (US, healthcare); University of Pittsburgh Medical Center (US, healthcare)
+
+RÉSUMÉ (texte source) :
+PURPOSE: To identify areas of consensus among global experts on the clinical management of pediatric endothelial keratoplasty (EK), including patient selection, timing, preoperative evaluation, technique selection, intraoperative standards, and postoperative care, and to provide a practical framework for surgeons earlier in their pediatric EK learning curve.
+DESIGN: Modified Delphi-based global consensus study.
+PARTICIPANTS: International ophthalmologists with expertise in endothelial keratoplasty and pediatric corneal diseases.
+METHODS: A series of consensus statements on pediatric EK were developed from iterative rounds of structured questions and statements posed to a panel of experts. Two rounds of asynchronous electronic questionnaires were followed by a structured hybrid discussion of unresolved items. Experts responded anonymously to statements assessing consensus and to revised items addressing indications, contraindications, timing, preoperative workup, technique selection, intraoperative standards, and postoperative management. Results are reported using item-specific denominators because occasional non-response occurred across the survey items.
+MAIN OUTCOME MEASURES: Consensus was defined as ≥70% agreement among the experts. Agreement between 60% and 69.9% was considered to be near consensus.
+RESULTS: The consensus supported pediatric EK for congenital hereditary endothelial dystrophy, aphakic or pseudophakic corneal edema, persistent corneal edema in congenital glaucoma, X-linked endothelial corneal dystrophy, iatrogenic endothelial decompensation, and trauma-related decompensation. EK was inappropriate for severe anterior segment dysgenesis with keratolenticular or extensive iridocorneal adhesions. In Round 2, experts further endorsed EK for failed penetrating keratoplasty due to endothelial failure, congenital glaucoma with visually significant Haab&#x27;s striae, and forceps injury involving the visual axis. There was a consensus that the timing of intervention should be guided primarily by amblyopia risk rather than by a specific age cut off. Essential preoperative assessments included examination under anesthesia, B-scan ultrasonography, anterior segment optical coherence tomography, intraocular pressure measurement, ultrasound biomicroscopy, and refraction. Experts agreed that ultrathin-DSAEK and DSAEK are the predominant techniques, whereas DMEK is currently selectively reserved, usually for older children with uncomplicated anterior segment anatomy. Preferred intraoperative principles included air tamponade, anterior chamber maintenance, and donor graft under-sizing relative to the corneal diameter. Postoperative recommendations included early intraocular pressure assessment, topical corticosteroid therapy for &gt; 6 months, regular monitoring for steroid response, selective contact lens use, and individualized long-term follow-up.
+CONCLUSIONS: The consensus statements provide globally endorsed recommendations for the clinical management of pediatric EK. These guidelines are relevant for corneal specialists providing a practical framework to benchmark practice, reduce variability, and guide future multicenter investigations.</textarea></details></section>
+<p><small>Fiche générée le 2026-11-11 22:40 par Glaucoma Intelligence. Extraits des sources en langue originale.</small></p>
+</main><script>
+function copierFiche(){
+  var zone=document.getElementById('a-copier'), bouton=document.getElementById('bouton-copier');
+  function fait(){bouton.textContent='Copié ✓ — collez dans Claude ou ChatGPT';setTimeout(function(){bouton.textContent='Copier pour Claude / ChatGPT'},3000);}
+  function secours(){zone.parentElement.open=true;zone.select();try{document.execCommand('copy');fait();}
+    catch(err){bouton.textContent='Sélectionnez le texte ci-dessous puis Ctrl+C';}}
+  if(navigator.clipboard&&window.isSecureContext){navigator.clipboard.writeText(zone.value).then(fait,secours);}else{secours();}
+}
+</script></body></html>

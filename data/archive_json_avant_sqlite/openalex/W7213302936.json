@@ -1,0 +1,84 @@
+{
+  "openalex_id": "W7213302936",
+  "premiere_detection": "2026-09-25",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "openalex_id": "W7213302936",
+    "doi": "10.3390/medicina62091768",
+    "pmid": null,
+    "pmcid": null,
+    "titre": "Ocular Surface Symptoms, Objective Redness, and Intraocular Pressure After a Switch from Fixed Dorzolamide/Timolol to Netarsudil in Latanoprost-Treated Glaucoma and Ocular Hypertension: A Prospective Real-World Cohort Study",
+    "lien": "https://openalex.org/W7213302936",
+    "date_publication": "2026-09-15",
+    "type": "article",
+    "revue": "Medicina",
+    "type_source": "journal",
+    "langue": "en",
+    "indexe_dans": [
+      "crossref",
+      "doaj"
+    ],
+    "financeurs": null,
+    "subventions": null,
+    "institutions": [
+      {
+        "nom": "National University of Quilmes",
+        "pays": "AR",
+        "type": "education",
+        "ror": "https://ror.org/01r53hz59"
+      }
+    ],
+    "acces_ouvert": true,
+    "statut_acces": "gold",
+    "url_texte": "https://doi.org/10.3390/medicina62091768",
+    "url_pdf": null,
+    "licence": "cc-by",
+    "texte_integral_indexe": false,
+    "retracte": false,
+    "citations": 0,
+    "sujet_principal": "Glaucoma and retinal disorders",
+    "resume_present": true,
+    "resume": "Background and Objectives: Conjunctival hyperemia is common with netarsudil, but redness may not reflect the overall patient experience when treatment burden is reduced. We evaluated ocular surface symptoms, objective redness, tear-film parameters, intraocular pressure (IOP), and treatment preference after a routine-care switch from twice-daily fixed dorzolamide/timolol to once-daily netarsudil 0.02%, while continuing latanoprost. Materials and Methods: This prospective, single-center observational cohort included 30 consecutive adults with primary open-angle glaucoma or ocular hypertension and controlled IOP. Outcomes were assessed at baseline and months 1 and 2. The primary outcome was the Ocular Surface Disease Index (OSDI). Continuous eye-level outcomes were analyzed using mixed-effects models accounting for fellow-eye and repeated-measures correlation; grade ≥ 2 hyperemia was analyzed using participant-clustered logistic regression. Results: Twenty-seven participants (54 eyes) completed evaluable 2-month follow-up. Median OSDI decreased from 7.50 at baseline to 6.25 at month 1 and 5.00 at month 2 (Friedman p = 0.0015). The mean baseline-to-month 2 change was −2.95 points (95% CI, −4.80 to −1.10), and 6/27 participants (22.2%) improved by at least 7 points. Serle grade ≥ 2 hyperemia increased from 7.4% of eyes at baseline to 51.9% at month 1 and 44.4% at month 2. Estimated mean bulbar redness index increased from 1.57 to 2.14 (p < 0.0001), tear meniscus height increased modestly, and non-invasive keratograph break-up time showed no significant longitudinal change. Estimated mean IOP changed from 14.50 to 13.65 mmHg (p = 0.0083), with no eye showing an increase of at least 4 mmHg. Burning improved after multiplicity adjustment, and 17/27 participants with available month-2 preference data (63.0%) preferred netarsudil. Conclusions: The switch was associated with modest OSDI improvement and maintained short-term IOP control despite increased objective redness. Patient preference appeared to reflect factors beyond redness alone.",
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": true,
+      "produit_suivi_etudie_suggere": true,
+      "produits_suivis": [
+        {
+          "produit": "latanoprost",
+          "role": "étudié",
+          "statut_role": "rôle suggéré, à vérifier (règle automatique appliquée au titre)"
+        },
+        {
+          "produit": "timolol",
+          "role": "étudié",
+          "statut_role": "rôle suggéré, à vérifier (règle automatique appliquée au titre)"
+        },
+        {
+          "produit": "dorzolamide",
+          "role": "étudié",
+          "statut_role": "rôle suggéré, à vérifier (règle automatique appliquée au titre)"
+        },
+        {
+          "produit": "netarsudil",
+          "role": "étudié",
+          "statut_role": "rôle suggéré, à vérifier (règle automatique appliquée au titre)"
+        }
+      ],
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": [
+        "latanoprost + timolol",
+        "dorzolamide + timolol",
+        "netarsudil + latanoprost"
+      ],
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "present_dans_pubmed": false
+  }
+}

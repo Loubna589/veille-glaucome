@@ -1,0 +1,183 @@
+{
+  "pmid": "42930583",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42930583",
+    "titre": "Cost-Effectiveness of Angle-Based Minimally Invasive Glaucoma Surgery (MIGS): A Systematic Review of Economic Evaluations.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42930583/",
+    "doi": "10.3390/medsci14060664",
+    "pmcid": "PMC13707156",
+    "revue": "Medical sciences (Basel, Switzerland)",
+    "date_entree_pubmed": "2026-10-26",
+    "date_publication": "2026-Oct-12",
+    "types_publication": [
+      "Journal Article",
+      "Systematic Review",
+      "Review"
+    ],
+    "resume_present": true,
+    "resume": "Background/Objectives: The upfront costs of angle-based minimally invasive glaucoma surgery (MIGS) maybe offset by reduced medication use and subsequent interventions. This systematic review synthesizes available cost-effectiveness analyses of angle-based MIGS in adults with primary open-angle glaucoma (POAG). Methods: A systematic review of PubMed, Embase, and Scopus databases from inception to 18 March 2026 for full-text, English-language economic evaluations reporting incremental cost-effectiveness/utility ratios (ICER/ICUR) or quality-adjusted life years (QALYs). Methodological quality was assessed using the Drummond checklist and, reporting completeness was assessed using CHEERS 2022. Findings were synthesized descriptively by intervention and comparator group, distinguishing standalone procedures from those combined with cataract surgery. No certainty assessment was undertaken. Results: Sixteen model-based economic evaluations encompassing 39 comparisons were included, with time horizons ranging between 1-year to lifetime. Drummond scores ranged from 8.0-9.5/10. Reported findings generally favored angle-based MIGS compared with medical therapy or cataract surgery (CS) alone, with 61.5% of comparisons categorized as cost-effective and 33.3% as economically dominant. The remaining 5.1% (n = 2) evaluations were not cost-effective at the stated willingness-to-pay thresholds. Of 19 evaluations derived from 10 studies, implant-based procedures combined with CS dominated CS alone across 7 evaluations and was cost-effective across 10 evaluations. Reporting of heterogeneity, distributional effects and stakeholder engagement was inconsistent. Evidence was limited by reliance on modelled outcomes, heterogenous assumptions and limited representation of lower-resource settings. Conclusions: Currently, angle-based MIGS procedures are cost-effective for the management of mild-moderate glaucoma as compared to medical therapy or standalone CS. Future research should prioritize head-to-head comparisons of different MIGS devices and focus on evaluating the cost-effectiveness of real-world implementation particularly in lower-resource settings. Funding: National Medical Research Council support for R.E.K.M. Registration: PROSPERO CRD420261462492.",
+    "mots_cles_auteurs": [
+      "cost-effectiveness",
+      "minimally invasive glaucoma surgery",
+      "systematic review"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 6,
+    "affiliations_auteurs": [
+      "Singapore National Eye Centre, Singapore 168751, Singapore.",
+      "Singapore Eye Research Institute (SERI), The Academia, 20 College Road Discovery Tower Level 6, Singapore 169856, Singapore.",
+      "Ophthalmology and Visual Sciences Academic Clinical Programme, Duke-NUS Medical School, Singapore 169857, Singapore."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": [
+      "Humans",
+      "Cost-Benefit Analysis",
+      "Cost-Effectiveness Analysis",
+      "Minimally Invasive Surgical Procedures",
+      "Quality-Adjusted Life Years",
+      "Glaucoma, Open-Angle",
+      "Cataract Extraction"
+    ]
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": null,
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7221539812",
+      "doi": "10.3390/medsci14060664",
+      "pmid": "42930583",
+      "pmcid": "13707156",
+      "titre": "Cost-Effectiveness of Angle-Based Minimally Invasive Glaucoma Surgery (MIGS): A Systematic Review of Economic Evaluations",
+      "lien": "https://openalex.org/W7221539812",
+      "date_publication": "2026-10-12",
+      "type": "review",
+      "revue": "Medical Sciences",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "doaj",
+        "pubmed"
+      ],
+      "financeurs": [
+        {
+          "nom": "National Medical Research Council",
+          "ror": "https://ror.org/04x3cxs03"
+        }
+      ],
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "Singapore National Eye Center",
+          "pays": "SG",
+          "type": "healthcare",
+          "ror": "https://ror.org/029nvrb94"
+        },
+        {
+          "nom": "Singapore Eye Research Institute",
+          "pays": "SG",
+          "type": "facility",
+          "ror": "https://ror.org/02crz6e12"
+        },
+        {
+          "nom": "National University of Singapore",
+          "pays": "SG",
+          "type": "education",
+          "ror": "https://ror.org/01tgyzw49"
+        },
+        {
+          "nom": "SingHealth Duke-NUS Academic Medical Centre",
+          "pays": "SG",
+          "type": "healthcare",
+          "ror": "https://ror.org/00xcwps97"
+        },
+        {
+          "nom": "Duke-NUS Medical School",
+          "pays": "SG",
+          "type": "education",
+          "ror": "https://ror.org/02j1m6098"
+        }
+      ],
+      "acces_ouvert": true,
+      "statut_acces": "gold",
+      "url_texte": "https://doi.org/10.3390/medsci14060664",
+      "url_pdf": null,
+      "licence": "cc-by",
+      "texte_integral_indexe": true,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Glaucoma and retinal disorders",
+      "resume_present": true,
+      "mesh": [
+        "Cost-Effectiveness Analysis",
+        "Cataract Extraction",
+        "Cost-Benefit Analysis",
+        "Glaucoma, Open-Angle",
+        "Humans",
+        "Quality-Adjusted Life Years",
+        "Minimally Invasive Surgical Procedures"
+      ]
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": [
+      {
+        "nom": "National Medical Research Council",
+        "statut": "À VÉRIFIER — trouvé par OpenAlex seulement (absent de la déclaration de l'éditeur dans Crossref) ; à contrôler dans le texte de l'article",
+        "references": null,
+        "notices": [
+          [
+            "notice OpenAlex",
+            "https://api.openalex.org/works/W7221539812"
+          ],
+          [
+            "notice Crossref consultée (ne confirme pas ce financeur)",
+            "https://api.crossref.org/works/10.3390/medsci14060664"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "National Medical Research Council HPHSR Clinician-Scientist Award",
+        "statut": "CONFIRMÉ — déclaré par l'éditeur dans Crossref (absent d'OpenAlex)",
+        "references": [
+          "MOH-HCSAINV-JRMNRR217201"
+        ],
+        "notices": [
+          [
+            "notice justificative Crossref (déclaration de l'éditeur)",
+            "https://api.crossref.org/works/10.3390/medsci14060664"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": null,
+        "statut": "CONFIRMÉ — déclaré par l'éditeur dans Crossref (absent d'OpenAlex)",
+        "references": [
+          "MOH-HCSAINV-JRMNRR217201"
+        ],
+        "notices": [
+          [
+            "notice justificative Crossref (déclaration de l'éditeur)",
+            "https://api.crossref.org/works/10.3390/medsci14060664"
+          ]
+        ],
+        "note": null
+      }
+    ]
+  }
+}

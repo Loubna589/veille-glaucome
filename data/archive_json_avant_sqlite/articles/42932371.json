@@ -1,0 +1,251 @@
+{
+  "pmid": "42932371",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42932371",
+    "titre": "Patient preferences for portable versus table-mounted visual field devices in rural Alabama: A mixed methods study within a telemedicine setting.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42932371/",
+    "doi": "10.1371/journal.pone.0348821",
+    "pmcid": "PMC13704803",
+    "revue": "PloS one",
+    "date_entree_pubmed": "2026-10-26",
+    "date_publication": "2026",
+    "types_publication": [
+      "Journal Article"
+    ],
+    "resume_present": true,
+    "resume": "PURPOSE: To evaluate patient satisfaction and preferences for portable versus table-mounted visual field (VF) devices in a rural telemedicine setting and identify influencing factors.\nMETHODS: We conducted a sequential explanatory mixed methods study at three Federally Qualified Health Centers (FQHCs) within the Alabama Screening and Intervention for Glaucoma and eye Health through Telemedicine (AL-SIGHT) study. Participants completed VF testing with table-mounted Humphrey Field Analyzer (HFA), tablet-based Melbourne Rapid Fields (MRF), and virtual reality (VR)-based VisuALL perimeters. Participants rated satisfaction, comfort, ease of use, and future testing preference. Chi-square tests assessed differences in device preferences. Twelve participants completed semi-structured interviews to explore reasons underlying preferences. Qualitative data were analyzed in NVivo 14 using reflexive thematic analysis.\nRESULTS: Among 271 respondents (mean age 60.4 years; 62.4% women), 50.6% preferred VR-based, 35.1% tablet-based, and 14.4% table-mounted for future testing (χ2 (2) = 53.52, p < 0.001, Cramér's V = 0.31). Satisfaction was highest for VR-based (56.9% very satisfied), followed by tablet-based (49.4%), and HFA (38.0%). VR-based perimeter was most frequently selected as the most comfortable (55.7%; χ2 (2) = 63.33, p < 0.001, V = 0.34) and easiest to use (54.6%; χ2 (2) = 71.96, p < 0.001, V = 0.36). Preferences did not vary significantly across demographic variables (all p > 0.05). Qualitative themes identified four key drivers: comfort and physical experience, visual experience, ease of use and interaction, and psychological and motivational factors. Portability and community suitability were valued.\nCONCLUSION: Rural underserved patients strongly preferred portable visual field devices, particularly VR-based, over table-mounted HFA. Comfort, ergonomic flexibility, immersive visual experience, and simplicity of interaction were central determinants of preference. Portable perimetry may enhance patient-centered glaucoma monitoring within telemedicine programs and access in resource-limited settings.",
+    "mots_cles_auteurs": null,
+    "langue": "eng",
+    "nombre_auteurs": 7,
+    "affiliations_auteurs": [
+      "Vision Science Graduate Program, School of Optometry, University of Alabama at Birmingham, Birmingham, Alabama, United States of America.",
+      "Department of Ophthalmology and Visual Sciences, Heersink School of Medicine, University of Alabama at Birmingham, Birmingham, Alabama, United States of America.",
+      "Viterbi Department of Ophthalmology, Shiley Eye Institute, University of California, San Diego, California, United States of America.",
+      "Department of Health Policy and Organization, School of Public Health, University of Alabama at Birmingham, Birmingham, Alabama, United States of America."
+    ],
+    "financeurs_declares": [
+      {
+        "organisme": "NCCDPHP CDC HHS",
+        "pays": "United States",
+        "reference": "U01 DP006441"
+      }
+    ],
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": [
+      "Humans",
+      "Female",
+      "Alabama",
+      "Male",
+      "Middle Aged",
+      "Telemedicine",
+      "Patient Preference",
+      "Rural Population",
+      "Aged",
+      "Visual Fields",
+      "Visual Field Tests",
+      "Glaucoma",
+      "Patient Satisfaction",
+      "Adult"
+    ]
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": null,
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7155638609",
+      "doi": "10.1371/journal.pone.0348821",
+      "pmid": "42932371",
+      "pmcid": "13704803",
+      "titre": "Patient preferences for portable versus table-mounted visual field devices in rural Alabama: A mixed methods study within a telemedicine setting",
+      "lien": "https://openalex.org/W7155638609",
+      "date_publication": "2026-10-26",
+      "type": "article",
+      "revue": "PLoS ONE",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "doaj",
+        "pubmed"
+      ],
+      "financeurs": [
+        {
+          "nom": "EyeSight Foundation of Alabama",
+          "ror": "https://ror.org/05r91hj80"
+        },
+        {
+          "nom": "Research to Prevent Blindness",
+          "ror": "https://ror.org/04drjs621"
+        },
+        {
+          "nom": "American Association of University Women",
+          "ror": "https://ror.org/05hrczs03"
+        },
+        {
+          "nom": "Centers for Disease Control and Prevention",
+          "ror": "https://ror.org/042twtr12"
+        }
+      ],
+      "subventions": [
+        {
+          "financeur": "Centers for Disease Control and Prevention",
+          "reference": "U01DP006441"
+        }
+      ],
+      "institutions": [
+        {
+          "nom": "University of Alabama at Birmingham",
+          "pays": "US",
+          "type": "education",
+          "ror": "https://ror.org/008s83205"
+        }
+      ],
+      "acces_ouvert": true,
+      "statut_acces": "gold",
+      "url_texte": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0348821&type=printable",
+      "url_pdf": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0348821&type=printable",
+      "licence": "cc-by",
+      "texte_integral_indexe": true,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Glaucoma and retinal disorders",
+      "resume_present": true,
+      "mesh": [
+        "Adult",
+        "Aged",
+        "Alabama",
+        "Female",
+        "Glaucoma",
+        "Humans",
+        "Male",
+        "Middle Aged",
+        "Rural Population",
+        "Visual Fields",
+        "Patient Satisfaction",
+        "Telemedicine",
+        "Patient Preference",
+        "Visual Field Tests"
+      ]
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": [
+      {
+        "nom": "NCCDPHP CDC HHS",
+        "statut": "CONFIRMÉ — déclaré dans la notice PubMed (GrantList)",
+        "references": [
+          "U01 DP006441"
+        ],
+        "notices": [
+          [
+            "notice PubMed",
+            "https://pubmed.ncbi.nlm.nih.gov/42932371/?format=pubmed"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "EyeSight Foundation of Alabama",
+        "statut": "CONFIRMÉ — déclaré par l'éditeur dans Crossref",
+        "references": null,
+        "notices": [
+          [
+            "notice justificative Crossref (déclaration de l'éditeur)",
+            "https://api.crossref.org/works/10.1371/journal.pone.0348821"
+          ],
+          [
+            "notice OpenAlex",
+            "https://api.openalex.org/works/W7155638609"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "Research to Prevent Blindness",
+        "statut": "CONFIRMÉ — déclaré par l'éditeur dans Crossref",
+        "references": null,
+        "notices": [
+          [
+            "notice justificative Crossref (déclaration de l'éditeur)",
+            "https://api.crossref.org/works/10.1371/journal.pone.0348821"
+          ],
+          [
+            "notice OpenAlex",
+            "https://api.openalex.org/works/W7155638609"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "American Association of University Women",
+        "statut": "À VÉRIFIER — trouvé par OpenAlex seulement (absent de la déclaration de l'éditeur dans Crossref) ; à contrôler dans le texte de l'article",
+        "references": null,
+        "notices": [
+          [
+            "notice OpenAlex",
+            "https://api.openalex.org/works/W7155638609"
+          ],
+          [
+            "notice Crossref consultée (ne confirme pas ce financeur)",
+            "https://api.crossref.org/works/10.1371/journal.pone.0348821"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "Centers for Disease Control and Prevention",
+        "statut": "CONFIRMÉ — déclaré par l'éditeur dans Crossref",
+        "references": [
+          "U01DP006441"
+        ],
+        "notices": [
+          [
+            "notice justificative Crossref (déclaration de l'éditeur)",
+            "https://api.crossref.org/works/10.1371/journal.pone.0348821"
+          ],
+          [
+            "notice OpenAlex",
+            "https://api.openalex.org/works/W7155638609"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "School of Optometry, University of Alabama at Birmingham",
+        "statut": "CONFIRMÉ — déclaré par l'éditeur dans Crossref (absent d'OpenAlex)",
+        "references": null,
+        "notices": [
+          [
+            "notice justificative Crossref (déclaration de l'éditeur)",
+            "https://api.crossref.org/works/10.1371/journal.pone.0348821"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "Department of Ophthalmology, University of Alabama at Birmingham",
+        "statut": "CONFIRMÉ — déclaré par l'éditeur dans Crossref (absent d'OpenAlex)",
+        "references": null,
+        "notices": [
+          [
+            "notice justificative Crossref (déclaration de l'éditeur)",
+            "https://api.crossref.org/works/10.1371/journal.pone.0348821"
+          ]
+        ],
+        "note": null
+      }
+    ]
+  }
+}

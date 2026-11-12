@@ -1,0 +1,46 @@
+{
+  "pmid": "43009100",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "43009100",
+    "titre": "Angle-Based Management of Neovascular Glaucoma in Eyes with Open and Partially Open Angles.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/43009100/",
+    "doi": "10.1016/j.ogla.2026.10.007",
+    "pmcid": null,
+    "revue": "Ophthalmology. Glaucoma",
+    "date_entree_pubmed": "2026-11-10",
+    "date_publication": "2026-Nov-10",
+    "types_publication": [
+      "Journal Article"
+    ],
+    "resume_present": false,
+    "resume": null,
+    "mots_cles_auteurs": null,
+    "langue": "eng",
+    "nombre_auteurs": 3,
+    "affiliations_auteurs": [
+      "Cleveland Clinic Cole Eye Institute, Cleveland, OH.",
+      "Pritzker School of Medicine, University of Chicago, Chicago, IL.",
+      "Cleveland Clinic Cole Eye Institute, Cleveland, OH. Electronic address: mary.qiu@gmail.com."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    }
+  }
+}

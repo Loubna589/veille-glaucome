@@ -1,0 +1,89 @@
+{
+  "nct": "NCT07910955",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "nct": "NCT07910955",
+    "titre": "Effects of Balance Training in Individuals With Glaucoma",
+    "titre_officiel": "Effects of Balance Training on Balance Performance, Fall Risk, and Fear of Falling in Individuals With Glaucoma: A Randomized Controlled Trial",
+    "lien": "https://clinicaltrials.gov/study/NCT07910955",
+    "date_premiere_publication": "2026-11-02",
+    "date_derniere_mise_a_jour": "2026-11-02",
+    "type_etude": "INTERVENTIONAL",
+    "phases_declarees": [
+      "NA"
+    ],
+    "statut": "RECRUITING",
+    "raison_arret": null,
+    "date_debut": "2026-08-05",
+    "date_fin_principale": "2026-12-31",
+    "promoteur": "Kanuni Sultan Suleyman Training and Research Hospital",
+    "type_promoteur": "OTHER",
+    "collaborateurs": null,
+    "conditions": [
+      "Glaucoma"
+    ],
+    "interventions": [
+      {
+        "type": "BEHAVIORAL",
+        "nom": "Balance Training Program"
+      }
+    ],
+    "participants_nombre": 50,
+    "participants_type": "ESTIMATED",
+    "criteres_principaux": [
+      {
+        "critere": "Change in Balance Performance Assessed by the Berg Balance Scale",
+        "delai": "Baseline and 8 weeks"
+      }
+    ],
+    "resultats_deposes": false,
+    "publications_declarees": null,
+    "resume_source": "Glaucoma is a chronic progressive eye disease characterized by visual field loss, which may adversely affect postural control, functional mobility, and increase the risk and fear of falling. This randomized controlled trial aims to investigate the effects of balance training on balance performance, fall risk, and fear of falling in individuals with glaucoma. Participants will be randomly assigned to either a balance training group or a control group. The intervention group will participate in a structured balance training program for eight weeks, while the control group will continue their routine medical care. Balance performance, functional mobility/fall risk, and fear of falling will be assessed using the Berg Balance Scale, Timed Up and Go Test, and Falls Efficacy Scale-Internatio",
+    "citations_declarees": null,
+    "plan": {
+      "repartition": "RANDOMIZED",
+      "modele": "PARALLEL",
+      "but_principal": "PREVENTION",
+      "insu": "SINGLE",
+      "insu_pour": [
+        "OUTCOMES_ASSESSOR"
+      ],
+      "insu_description": null,
+      "modele_observationnel": null
+    },
+    "bras": [
+      {
+        "libelle": "Balance Training Group",
+        "type": "EXPERIMENTAL",
+        "description": "Participants in this group will receive a structured balance training program for 8 weeks in addition to their routine glaucoma care. The balance training program will include static and dynamic balance exercises, gait-related balance activities, and progressive postural control exercises.",
+        "interventions": [
+          "Behavioral: Balance Training Program"
+        ]
+      },
+      {
+        "libelle": "Control Group",
+        "type": "NO_INTERVENTION",
+        "description": "Participants in this group will continue their routine glaucoma care and will not receive the balance training program during the 8-week study period. Outcome assessments will be performed at baseline and at the end of 8 weeks using the same assessment procedures as the balance training group.",
+        "interventions": null
+      }
+    ],
+    "eligibilite": {
+      "criteres": "Inclusion Criteria:\n\n* Being over 18 years of age\n* Diagnosis of primary open-angle glaucoma\n* Glaucoma treatment being stable for the last 3 months (Stable treatment is defined as: no changes to anti-glaucoma medication, no new surgical or laser treatments, and no clinical findings during routine eye examinations necessitating a change in treatment within the last 3 months.)\n* Ability to walk independently\n* Ability to understand and follow simple verbal commands\n* General health status suitable for participating in balance exercises\n* Willingness to participate in the study and provide written informed consent\n\nExclusion Criteria:\n\n* Having undergone eye surgery within the last 3 months\n* Presence of an eye disease other than glaucoma that could significantly affect balance (e.g., advanced cataract, age-related macular degeneration, proliferative diabetic retinopathy)\n* Presence of stroke, Parkinson's disease, multiple sclerosis, or other neurological disorders\n* History of vestibular system disorder\n* Lower extremity orthopedic condition significantly affecting balance and gait, or lower extremity surgery within the last 6 months\n* Presence of cognitive or psychiatric disorders that would hinder adherence to the study\n* Presence of severe cardiopulmonary disease that would prevent participation in exercise\n* Participation in a regular balance exercise or vestibular rehabilitation program within the last 6 months",
+      "age_min": "18 Years",
+      "age_max": null,
+      "sexe": "ALL",
+      "volontaires_sains": false
+    },
+    "criteres_secondaires": [
+      {
+        "critere": "Change in Functional Mobility and Fall Risk Assessed by the Timed Up and Go Test (TUG)",
+        "delai": "Baseline and 8 weeks"
+      }
+    ],
+    "responsables": null,
+    "date_depot_resultats": null,
+    "resultats": null
+  },
+  "modifications": []
+}

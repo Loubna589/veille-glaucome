@@ -1,0 +1,88 @@
+{
+  "openalex_id": "W7221189316",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "openalex_id": "W7221189316",
+    "doi": "10.82333/y9x9-1z35",
+    "pmid": null,
+    "pmcid": null,
+    "titre": "Lens Status As A Risk Modifier For Ocular Hypertension And Glaucoma After Pars Plana Vitrectomy: A Systematic Review And Meta-Analysis",
+    "lien": "https://openalex.org/W7221189316",
+    "date_publication": "2026-10-09",
+    "type": "article",
+    "revue": "ESCRS Abstracts",
+    "type_source": "repository",
+    "langue": "en",
+    "indexe_dans": [
+      "datacite"
+    ],
+    "financeurs": null,
+    "subventions": null,
+    "institutions": [
+      {
+        "nom": "Guy's and St Thomas' NHS Foundation Trust",
+        "pays": "GB",
+        "type": "healthcare",
+        "ror": "https://ror.org/00j161312"
+      },
+      {
+        "nom": "Moorfields Eye Hospital NHS Foundation Trust",
+        "pays": "GB",
+        "type": "healthcare",
+        "ror": "https://ror.org/03zaddr67"
+      },
+      {
+        "nom": "Moorfields Eye Hospital",
+        "pays": "GB",
+        "type": "healthcare",
+        "ror": "https://ror.org/03tb37539"
+      },
+      {
+        "nom": "University of Verona",
+        "pays": "IT",
+        "type": "education",
+        "ror": "https://ror.org/039bp8j42"
+      },
+      {
+        "nom": "University of Udine",
+        "pays": "IT",
+        "type": "education",
+        "ror": "https://ror.org/05ht0mh31"
+      },
+      {
+        "nom": "University of Rome Tor Vergata",
+        "pays": "IT",
+        "type": "education",
+        "ror": "https://ror.org/02p77k626"
+      }
+    ],
+    "acces_ouvert": true,
+    "statut_acces": "green",
+    "url_texte": "https://doi.org/10.82333/y9x9-1z35",
+    "url_pdf": null,
+    "licence": null,
+    "texte_integral_indexe": false,
+    "retracte": false,
+    "citations": 0,
+    "sujet_principal": "Retinal and Macular Surgery",
+    "resume_present": false,
+    "resume": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "present_dans_pubmed": false
+  }
+}

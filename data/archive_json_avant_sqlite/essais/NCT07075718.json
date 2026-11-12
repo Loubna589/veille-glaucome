@@ -1,0 +1,116 @@
+{
+  "nct": "NCT07075718",
+  "premiere_detection": "2026-09-25",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "nct": "NCT07075718",
+    "titre": "Phase 2 Trial to Evaluate the Safety and Efficacy of the Second Generation Travoprost Intracameral Implant",
+    "titre_officiel": "Phase 2 Trial to Evaluate the Safety and Efficacy of the Second Generation Travoprost Intracameral Implant",
+    "lien": "https://clinicaltrials.gov/study/NCT07075718",
+    "date_premiere_publication": "2025-07-20",
+    "date_derniere_mise_a_jour": "2026-09-17",
+    "type_etude": "INTERVENTIONAL",
+    "phases_declarees": [
+      "PHASE2"
+    ],
+    "statut": "RECRUITING",
+    "raison_arret": null,
+    "date_debut": "2025-06-12",
+    "date_fin_principale": "2028-03",
+    "promoteur": "Glaukos Corporation",
+    "type_promoteur": "INDUSTRY",
+    "collaborateurs": null,
+    "conditions": [
+      "Glaucoma"
+    ],
+    "interventions": [
+      {
+        "type": "DRUG",
+        "nom": "Gen 2 Travoprost Intracameral Implant"
+      },
+      {
+        "type": "DRUG",
+        "nom": "Timolol eye drops 0.5%"
+      },
+      {
+        "type": "PROCEDURE",
+        "nom": "Sham Procedure"
+      },
+      {
+        "type": "OTHER",
+        "nom": "Placebo eye drops"
+      }
+    ],
+    "participants_nombre": 110,
+    "participants_type": "ESTIMATED",
+    "criteres_principaux": [
+      {
+        "critere": "Intraocular pressure (IOP)",
+        "delai": "3 months"
+      }
+    ],
+    "resultats_deposes": false,
+    "publications_declarees": null,
+    "resume_source": "Evaluate the Safety and Efficacy of the Second Generation Travoprost Intracameral Implant",
+    "citations_declarees": null,
+    "plan": {
+      "repartition": "RANDOMIZED",
+      "modele": "SEQUENTIAL",
+      "but_principal": "TREATMENT",
+      "insu": "TRIPLE",
+      "insu_pour": [
+        "PARTICIPANT",
+        "INVESTIGATOR",
+        "OUTCOMES_ASSESSOR"
+      ],
+      "insu_description": null,
+      "modele_observationnel": null
+    },
+    "bras": [
+      {
+        "libelle": "Period 1 (Cohort A)",
+        "type": "EXPERIMENTAL",
+        "description": "Single-arm, open-label portion of Phase 2; subjects will receive second generation travoprost intracameral implant (plus placebo eyedrops BID) in the study eye and be followed for 36 months",
+        "interventions": [
+          "Drug: Gen 2 Travoprost Intracameral Implant"
+        ]
+      },
+      {
+        "libelle": "Period 2 (Cohort B) Gen 2 Travoprost Intracameral Implant Arm",
+        "type": "EXPERIMENTAL",
+        "description": "Randomized, double-masked, active-controlled Phase 2 portion of the trial; subjects will receive second generation travoprost intracameral implant (plus placebo eyedrops BID) in the study eye and be followed for 36 months",
+        "interventions": [
+          "Drug: Gen 2 Travoprost Intracameral Implant",
+          "Other: Placebo eye drops"
+        ]
+      },
+      {
+        "libelle": "Period 2 (Cohort B) Timolol Arm",
+        "type": "ACTIVE_COMPARATOR",
+        "description": "Randomized, double-masked, active-controlled, Phase 2 portion of the trial; subjects will administer timolol 0.5% eye drops BID (plus sham procedure) in the study eye and be followed for 36 months",
+        "interventions": [
+          "Drug: Timolol eye drops 0.5%",
+          "Procedure: Sham Procedure"
+        ]
+      }
+    ],
+    "eligibilite": {
+      "criteres": "Inclusion Criteria:\n\n* Diagnosis of open-angle glaucoma or ocular hypertension in the study eye\n\nExclusion Criteria:\n\n* Prior incisional glaucoma surgery in the study eye\n* Prior argon laser trabeculoplasty (ALT) in the study eye\n* Prior minimally invasive glaucoma (MIGS) surgery in the study eye",
+      "age_min": "18 Years",
+      "age_max": null,
+      "sexe": "ALL",
+      "volontaires_sains": false
+    },
+    "criteres_secondaires": null,
+    "responsables": [
+      {
+        "nom": "Luis G. Vargas, MD",
+        "affiliation": "Glaukos Corporation",
+        "role": "STUDY_CHAIR"
+      }
+    ],
+    "date_depot_resultats": null,
+    "resultats": null
+  },
+  "modifications": []
+}

@@ -1,0 +1,122 @@
+{
+  "nct": "NCT06854198",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "nct": "NCT06854198",
+    "titre": "Glaucoma Screening to Enhance At-Risk Californians' Health",
+    "titre_officiel": "Novel Telehealth Technologies to Detect and Manage Glaucoma and Vision-threatening Eye Diseases in High-risk Populations",
+    "lien": "https://clinicaltrials.gov/study/NCT06854198",
+    "date_premiere_publication": "2025-03-03",
+    "date_derniere_mise_a_jour": "2026-10-14",
+    "type_etude": "INTERVENTIONAL",
+    "phases_declarees": [
+      "NA"
+    ],
+    "statut": "RECRUITING",
+    "raison_arret": null,
+    "date_debut": "2026-02-10",
+    "date_fin_principale": "2029-03",
+    "promoteur": "University of California, San Francisco",
+    "type_promoteur": "OTHER",
+    "collaborateurs": [
+      "Centers for Disease Control and Prevention"
+    ],
+    "conditions": [
+      "Glaucoma"
+    ],
+    "interventions": [
+      {
+        "type": "OTHER",
+        "nom": "Glaucoma screening with optical coherence tomography (OCT), color fundus photography, and tonometry"
+      },
+      {
+        "type": "OTHER",
+        "nom": "Educational Brochure"
+      }
+    ],
+    "participants_nombre": 2000,
+    "participants_type": "ESTIMATED",
+    "criteres_principaux": [
+      {
+        "critere": "Glaucoma Diagnosis or Glaucoma Suspect Requiring Treatment",
+        "delai": "6 months from randomization"
+      }
+    ],
+    "resultats_deposes": false,
+    "publications_declarees": null,
+    "resume_source": "The vast majority of glaucoma cases in the United States go undetected and untreated until the late stages of the disease. Open-angle glaucoma is a progressive condition that is asymptomatic in its early to moderate stages and may be amenable to screening through telemedicine-based approaches. This study is a randomized trial to evaluate whether glaucoma screening with established tests (e.g., optical coherence tomography, fundus photography, and tonometry) is more effective for detecting undiagnosed glaucoma cases compared to education alone or delayed intervention.",
+    "citations_declarees": null,
+    "plan": {
+      "repartition": "RANDOMIZED",
+      "modele": "PARALLEL",
+      "but_principal": "SCREENING",
+      "insu": "SINGLE",
+      "insu_pour": [
+        "OUTCOMES_ASSESSOR"
+      ],
+      "insu_description": null,
+      "modele_observationnel": null
+    },
+    "bras": [
+      {
+        "libelle": "Screening",
+        "type": "EXPERIMENTAL",
+        "description": null,
+        "interventions": [
+          "Other: Glaucoma screening with optical coherence tomography (OCT), color fundus photography, and tonometry"
+        ]
+      },
+      {
+        "libelle": "Education",
+        "type": "ACTIVE_COMPARATOR",
+        "description": null,
+        "interventions": [
+          "Other: Educational Brochure"
+        ]
+      },
+      {
+        "libelle": "Delayed Education",
+        "type": "NO_INTERVENTION",
+        "description": "The same as the Educational Brochure arm, but delivered at the conclusion of the study.",
+        "interventions": null
+      }
+    ],
+    "eligibilite": {
+      "criteres": "Inclusion Criteria:\n\n* Black people aged 50 years or older\n* Hispanic people aged 65 years or older\n* People with diabetes aged 50 years or older\n* Must have been seen at the Federally Qualified Health Center (FQHC) within the past month\n\nExclusion Criteria:\n\n* Patients without a valid phone number or mailing address\n* Patients who have had an optometry appointment within the past year",
+      "age_min": "50 Years",
+      "age_max": null,
+      "sexe": "ALL",
+      "volontaires_sains": true
+    },
+    "criteres_secondaires": [
+      {
+        "critere": "Cataract surgery",
+        "delai": "12 months"
+      },
+      {
+        "critere": "Eyeglasses",
+        "delai": "12 months"
+      },
+      {
+        "critere": "Quality of Life survey",
+        "delai": "12 months"
+      }
+    ],
+    "responsables": [
+      {
+        "nom": "Jeremy D Keenan, MD, MPH",
+        "affiliation": "University of California, San Francisco",
+        "role": "PRINCIPAL_INVESTIGATOR"
+      },
+      {
+        "nom": "Yvonne Ou, MD",
+        "affiliation": "University of California, San Francisco",
+        "role": "PRINCIPAL_INVESTIGATOR"
+      }
+    ],
+    "date_depot_resultats": null,
+    "resultats": null
+  },
+  "modifications": []
+}

@@ -1,0 +1,83 @@
+{
+  "openalex_id": "W7136084263",
+  "premiere_detection": "2026-09-25",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "openalex_id": "W7136084263",
+    "doi": "10.1038/s41598-026-70393-w",
+    "pmid": null,
+    "pmcid": null,
+    "titre": "Differences in corneal biomechanical parameters in normal tension glaucoma versus normotensive glaucoma suspect eyes",
+    "lien": "https://openalex.org/W7136084263",
+    "date_publication": "2026-09-06",
+    "type": "article",
+    "revue": "Scientific Reports",
+    "type_source": "journal",
+    "langue": "en",
+    "indexe_dans": [
+      "crossref",
+      "doaj"
+    ],
+    "financeurs": null,
+    "subventions": null,
+    "institutions": [
+      {
+        "nom": "Hospital Oftalmologico de Brasília",
+        "pays": "BR",
+        "type": "healthcare",
+        "ror": "https://ror.org/03fkzwj92"
+      },
+      {
+        "nom": "Universidade de Ribeirão Preto",
+        "pays": "BR",
+        "type": "education",
+        "ror": "https://ror.org/00ey54k21"
+      },
+      {
+        "nom": "Universidade de São Paulo",
+        "pays": "BR",
+        "type": "education",
+        "ror": "https://ror.org/036rp1748"
+      },
+      {
+        "nom": "Universidade Federal de São Paulo",
+        "pays": "BR",
+        "type": "education",
+        "ror": "https://ror.org/02k5swt12"
+      },
+      {
+        "nom": "Universidade Estadual de Campinas (UNICAMP)",
+        "pays": "BR",
+        "type": "education",
+        "ror": "https://ror.org/04wffgt70"
+      }
+    ],
+    "acces_ouvert": true,
+    "statut_acces": "gold",
+    "url_texte": "https://www.nature.com/articles/s41598-026-70393-w_reference.pdf",
+    "url_pdf": "https://www.nature.com/articles/s41598-026-70393-w_reference.pdf",
+    "licence": "cc-by-nc-nd",
+    "texte_integral_indexe": true,
+    "retracte": false,
+    "citations": 0,
+    "sujet_principal": "Corneal surgery and disorders",
+    "resume_present": true,
+    "resume": "Abstract Multicenter retrospective study to evaluate differences in corneal biomechanical parameters provided by Corvis ST to segregate those with normal tension glaucoma (NTG) from glaucoma suspects. We included only newly diagnosed and treatment naïve glaucoma patients. Several corneal biomechanical parameters provided by Corvis ST were investigated. The discrimination ability of BGF was investigated through the area under the receiver operating characteristics curve (AUC). We included a total of 200 eyes from 100 patients with NTG and 200 eyes from 100 controls. We found statistical difference in Corneal velocity at second applanation (A2) with − 0.264 ± 0.061 m/s (OD) and − 0.270 ± 0.067 m/s (OS) in the control group, versus − 0.226 ± 0.084 m/s (OD, p = 0.0004) and − 0.223 ± 0.079 m/s (OS, p = 0.0001) in the NTG group. In addition, we found statistical difference in biomechanical glaucoma factor (BGF) between groups, with 0.568 ± 0.239 (OD) and 0.560 ± 0.229 (OS) in the control group, versus 0.674 ± 0.212 (OD, p = 0.001) and 0.659 ± 0.231 (OS, p = 0.056) in the NTG group. The AUC value was 0.63 BGF for discriminating NTG eyes from normal eyes. Both BGF and corneal velocity at second applanation were statistically different between groups. Using BGF parameter from Corvis ST can improve diagnostic accuracy when dealing with NTG.",
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "present_dans_pubmed": false
+  }
+}

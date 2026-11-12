@@ -1,0 +1,102 @@
+{
+  "pmid": "42831384",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42831384",
+    "titre": "Clinical and refractive outcomes of secondary intraocular lens fixation using small-incision scleral suture fixation vs intrascleral haptic fixation.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42831384/",
+    "doi": "10.1097/j.jcrs.0000000000002066",
+    "pmcid": null,
+    "revue": "Journal of cataract and refractive surgery",
+    "date_entree_pubmed": "2026-10-05",
+    "date_publication": "2026-Oct-29",
+    "types_publication": [
+      "Journal Article"
+    ],
+    "resume_present": true,
+    "resume": "PURPOSE: To compare clinical and refractive outcomes of small-incision scleral suture fixation (SSF) vs intrascleral haptic fixation (ISHF) for secondary intraocular lens (IOL) implantation in adults.\nSETTING: Single outpatient ophthalmology clinic.\nDESIGN: Retrospective, single-center cohort study.\nMETHODS: Eyes undergoing small-incision SSF or ISHF between 2019 and 2024 were identified. Demographics, surgical indications, IOL types, refractive accuracy, and postoperative complications were analyzed. Refractive outcomes were evaluated using spherical equivalent refractive accuracy (SERA) and absolute SERA (ASERA).\nRESULTS: 132 eyes from 125 adult patients were included. 56 eyes underwent SSF, and 76 underwent ISHF. Indications included subluxated IOL (58%), dislocated IOL (17%), aphakia (20%), and uveitis-glaucoma-hyphema syndrome (5%). In the SSF group, MX60E or ET IOLs predominated, while CT Lucia 602 was most common in ISHF. Mean SERA was -0.45 diopters (D) for SSF and -0.36 D for ISHF ( P = .48); mean ASERA was 0.52 D and 0.54 D, respectively ( P = .96). At postoperative month 3, 70% of SSF vs 62% of ISHF eyes were within ±0.50 D of target and 85% vs 86% were within ±1.00 D. Complication rates were low and comparable, with trends toward higher early hypotony in SSF and more reoperations in ISHF.\nCONCLUSIONS: Both small-incision SSF and ISHF are safe and effective for secondary IOL implantation in adults. Refractive outcomes were comparable, with SSF demonstrating slightly greater predictability and fewer reoperations, while ISHF was associated with less early hypotony. Technique selection should be guided by surgeon experience, IOL choice, and patient-specific factors.",
+    "mots_cles_auteurs": null,
+    "langue": "eng",
+    "nombre_auteurs": 6,
+    "affiliations_auteurs": [
+      "From the Advanced Vision Care, Los Angeles, California (Mansoor, Jiang, Kwong, Alsetri, Masket, Fram); Department of Ophthalmology, Indiana University School of Medicine, Indianapolis, Indiana (Jiang); Weill Cornell Medicine-Qatar, Education City, Qatar Foundation, Doha, Qatar (Alsetri)."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7220390130",
+      "doi": "10.1097/j.jcrs.0000000000002066",
+      "pmid": "42831384",
+      "pmcid": null,
+      "titre": "Clinical and refractive outcomes of secondary intraocular lens fixation using small-incision scleral suture fixation vs intrascleral haptic fixation",
+      "lien": "https://openalex.org/W7220390130",
+      "date_publication": "2026-10-05",
+      "type": "article",
+      "revue": "Journal of Cataract & Refractive Surgery",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "pubmed"
+      ],
+      "financeurs": null,
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "Weill Cornell Medical College in Qatar",
+          "pays": "QA",
+          "type": "education",
+          "ror": "https://ror.org/05v5hg569"
+        },
+        {
+          "nom": "Indiana University Indianapolis",
+          "pays": "US",
+          "type": "education",
+          "ror": "https://ror.org/03eftgw80"
+        },
+        {
+          "nom": "Indiana University School of Medicine",
+          "pays": "US",
+          "type": "education",
+          "ror": "https://ror.org/02ets8c94"
+        },
+        {
+          "nom": "Qatar Foundation",
+          "pays": "QA",
+          "type": "nonprofit",
+          "ror": "https://ror.org/01cawbq05"
+        }
+      ],
+      "acces_ouvert": false,
+      "statut_acces": "closed",
+      "url_texte": null,
+      "url_pdf": null,
+      "licence": null,
+      "texte_integral_indexe": false,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Intraocular Surgery and Lenses",
+      "resume_present": true,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": []
+  }
+}

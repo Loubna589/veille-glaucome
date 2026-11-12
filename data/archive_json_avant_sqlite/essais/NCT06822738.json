@@ -1,0 +1,124 @@
+{
+  "nct": "NCT06822738",
+  "premiere_detection": "2026-09-25",
+  "derniere_modification_detectee": "2026-11-11",
+  "donnees": {
+    "nct": "NCT06822738",
+    "titre": "A Study to Assess Adverse Events and Effectiveness of Gel Stent (XEN63) Implantation Using Ab Interno and Ab Externo Approaches in Adult Participants With Glaucoma",
+    "titre_officiel": "A Prospective, Multicenter Clinical Study to Evaluate the Safety and Effectiveness of Gel Stent (XEN63) Implantation Using Ab Interno and Ab Externo Approaches in Subjects With Glaucoma",
+    "lien": "https://clinicaltrials.gov/study/NCT06822738",
+    "date_premiere_publication": "2025-02-12",
+    "date_derniere_mise_a_jour": "2026-10-09",
+    "type_etude": "INTERVENTIONAL",
+    "phases_declarees": [
+      "PHASE3"
+    ],
+    "statut": "RECRUITING",
+    "raison_arret": null,
+    "date_debut": "2025-02-11",
+    "date_fin_principale": "2028-11",
+    "promoteur": "AbbVie",
+    "type_promoteur": "INDUSTRY",
+    "collaborateurs": null,
+    "conditions": [
+      "Primary Open Angle Glaucoma"
+    ],
+    "interventions": [
+      {
+        "type": "DEVICE",
+        "nom": "XEN63 Glaucoma Treatment System"
+      }
+    ],
+    "participants_nombre": 130,
+    "participants_type": "ESTIMATED",
+    "criteres_principaux": [
+      {
+        "critere": "Percentage of Participants With Treatment Response of Achieving ≥ 20% Reduction in Intraocular Pressure (IOP) From Baseline on the Same or Fewer Number of IOP-Lowering Medications Compared to Baseline",
+        "delai": "Month 12"
+      },
+      {
+        "critere": "Number of Participants with Adverse Events (AEs)",
+        "delai": "Month 12"
+      }
+    ],
+    "resultats_deposes": false,
+    "publications_declarees": null,
+    "resume_source": "Glaucoma is the second most common cause of blindness in the world, second only to cataracts. This study will assess how safe and effective a glaucoma gel stent is when implanted using the ab interno (inside the eye) and ab externo (outside the eye) approach. Adverse events and intraocular pressure will be assessed.\n\nXEN63 is an investigational device for the treatment of intraocular pressure (IOP) in patients with glaucoma when both medical and conventional surgical treatments have failed (for US approval) and when medical treatments have failed (for outside US \\[OUS\\] approval). Participants will be placed in one of two groups called study arms. One group will receive the XEN63 gel stent ab interno (inside the eye) and the other group will receive the XEN63 gel stent ab externo (outside the eye). Approximately 130 participants aged 45 years or older with glaucoma will be enrolled in this study at approximately 32 sites in the United States.\n\nParticipants will receive XEN63 implanted using either the ab interno approach or the ab externo approach on Day 1 and will be followed for 12 months.\n\nParticipants will attend regular visits during the study at a hospital or clinic. The safety and effect of the gel stent on your glaucoma will be checked by medical assessments and eye examinations.",
+    "citations_declarees": null,
+    "plan": {
+      "repartition": "NA",
+      "modele": "PARALLEL",
+      "but_principal": "TREATMENT",
+      "insu": "SINGLE",
+      "insu_pour": [
+        "PARTICIPANT"
+      ],
+      "insu_description": null,
+      "modele_observationnel": null
+    },
+    "bras": [
+      {
+        "libelle": "XEN63 Ab Externo",
+        "type": "EXPERIMENTAL",
+        "description": "Participants will be implanted with XEN63 via ab externo surgical approach in the study eye. Participants will be followed for up to 12 months.",
+        "interventions": [
+          "Device: XEN63 Glaucoma Treatment System"
+        ]
+      },
+      {
+        "libelle": "XEN63 Ab Interno",
+        "type": "EXPERIMENTAL",
+        "description": "Participants will be implanted with XEN63 via ab interno surgical approach in the study eye. Participants will be followed for up to 12 months.",
+        "interventions": [
+          "Device: XEN63 Glaucoma Treatment System"
+        ]
+      }
+    ],
+    "eligibilite": {
+      "criteres": "Inclusion Criteria:\n\n* Diagnosis of glaucoma in the study eye (SE) (meeting criterion a or b)\n\n  1. That meets the following refractory glaucoma criteria of eyes diagnosed with glaucoma uncontrolled by maximal medical therapy (four or more classes of intraocular pressure (IOP)-lowering medications, or fewer in cases where it has been documented that certain medication classes cannot be tolerated or are contraindicated), and failed one or more incisional intraocular glaucoma surgeries (e.g., glaucoma filtering surgery, tube shunt)\n  2. Uncontrolled by medical therapy (to meet out-of-US \\[OUS\\] requirements) with participants who only have glaucoma uncontrolled by medical therapy (non-refractory glaucoma), a maximum of 10 participants who meet only criterion b (and not a) will be enrolled in each cohort.\n\n     Exclusion Criteria:\n* History of angle-closure glaucoma where the angle has not been surgically opened in the SE.\n* History of secondary open-angle glaucoma (e.g., neovascular, pigmentary, pseudoexfoliative, uveitic, angle recession/traumatic glaucoma, etc.) in the SE.\n* Active inflammation (e.g., blepharitis, conjunctivitis, keratitis, uveitis) in the SE.",
+      "age_min": "45 Years",
+      "age_max": null,
+      "sexe": "ALL",
+      "volontaires_sains": false
+    },
+    "criteres_secondaires": [
+      {
+        "critere": "Mean Diurnal IOP",
+        "delai": "Month 12"
+      },
+      {
+        "critere": "Change From Baseline in Diurnal IOP",
+        "delai": "Baseline to Month 12"
+      },
+      {
+        "critere": "Change from Baseline in Number of Topical IOP-Lowering Medications",
+        "delai": "Baseline to Month 12"
+      },
+      {
+        "critere": "Mean Number of Topical IOP-Lowering Medications",
+        "delai": "Month 12"
+      }
+    ],
+    "responsables": [
+      {
+        "nom": "ABBVIE INC.",
+        "affiliation": "AbbVie",
+        "role": "STUDY_DIRECTOR"
+      }
+    ],
+    "date_depot_resultats": null,
+    "resultats": null
+  },
+  "modifications": [
+    {
+      "date_detection": "2026-11-11",
+      "resultats_ajoutes": false,
+      "champs": {
+        "date_derniere_mise_a_jour": {
+          "avant": "2026-09-22",
+          "apres": "2026-10-09"
+        }
+      }
+    }
+  ]
+}

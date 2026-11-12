@@ -1,0 +1,93 @@
+{
+  "pmid": "42891799",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42891799",
+    "titre": "Spatial corneal endothelial cell loss after preserflo microshunt implantation: association with tube insertion position.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42891799/",
+    "doi": "10.1007/s10384-026-01439-9",
+    "pmcid": null,
+    "revue": "Japanese journal of ophthalmology",
+    "date_entree_pubmed": "2026-10-18",
+    "date_publication": "2026-Oct-17",
+    "types_publication": [
+      "Journal Article"
+    ],
+    "resume_present": true,
+    "resume": "PURPOSE: To investigate spatial corneal endothelial cell density (ECD) changes after PreserFlo MicroShunt™ (PFM) implantation and identify tube-related factors associated with localized endothelial cell loss.\nSTUDY DESIGN: Retrospective clinical study.\nMETHODS: This study included 118 eyes of 118 patients with medically refractory glaucoma who underwent PFM implantation and were followed for ≥6 months. Anterior-segment optical coherence tomography was used to evaluate tube-cornea distance, tube-cornea angle, and intracameral tube length. Gonioscopic images obtained 1 month postoperatively were used to classify tube insertion as iris-side, trabecular, or corneal-side. ECD was measured at nine corneal regions using specular microscopy. The primary outcome was the ECD reduction rate at the tube insertion site (Position 3) at 3 and 6 months. Linear mixed-effects models were used to identify factors associated with localized endothelial cell loss.\nRESULTS: Tube insertion locations were iris-side in 36 eyes, trabecular in 73 eyes, and corneal-side in 9 eyes. In the primary linear mixed-effects analysis, compared with iris-side insertion, both trabecular-contact insertion (β = 12.8%, P = 0.026) and corneal-side insertion (β = 28.6%, P = 0.007) were associated with greater localized endothelial cell loss after multivariable adjustment. Central ECD reduction was mild (2.1% at 6 months).\nCONCLUSIONS: Early localized endothelial cell loss after PFM implantation was associated with tube insertion position, particularly corneal-side insertion. Central ECD measurements may underestimate localized endothelial cell loss.",
+    "mots_cles_auteurs": [
+      "Anterior segment OCT",
+      "Corneal endothelial cell density",
+      "Gonioscopy",
+      "PreserFlo microshunt",
+      "Tube position"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 6,
+    "affiliations_auteurs": [
+      "Department of Ophthalmology, Graduate School of Medicine and Pharmaceutical Sciences, University of Toyama, 2630 Sugitani, Toyama, 930-0194, Japan. otsuka@med.u-toyama.ac.jp.",
+      "Department of Ophthalmology, Graduate School of Medicine and Pharmaceutical Sciences, University of Toyama, 2630 Sugitani, Toyama, 930-0194, Japan."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": [
+        "intracameral"
+      ],
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7222851523",
+      "doi": "10.1007/s10384-026-01439-9",
+      "pmid": "42891799",
+      "pmcid": null,
+      "titre": "Spatial corneal endothelial cell loss after preserflo microshunt implantation: association with tube insertion position",
+      "lien": "https://openalex.org/W7222851523",
+      "date_publication": "2026-10-17",
+      "type": "article",
+      "revue": "Japanese Journal of Ophthalmology",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "pubmed"
+      ],
+      "financeurs": null,
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "University of Toyama",
+          "pays": "JP",
+          "type": "education",
+          "ror": "https://ror.org/0445phv87"
+        }
+      ],
+      "acces_ouvert": false,
+      "statut_acces": "closed",
+      "url_texte": null,
+      "url_pdf": null,
+      "licence": null,
+      "texte_integral_indexe": false,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Glaucoma and retinal disorders",
+      "resume_present": false,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": []
+  }
+}

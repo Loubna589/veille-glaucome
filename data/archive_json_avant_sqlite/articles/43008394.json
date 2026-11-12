@@ -1,0 +1,53 @@
+{
+  "pmid": "43008394",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "43008394",
+    "titre": "Electrical stimulation targeting optic nerve regeneration following acute and chronic neuropathies.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/43008394/",
+    "doi": "10.1088/2516-1091/aec075",
+    "pmcid": null,
+    "revue": "Progress in biomedical engineering (Bristol, England)",
+    "date_entree_pubmed": "2026-11-10",
+    "date_publication": "2026-Nov-10",
+    "types_publication": [
+      "Journal Article"
+    ],
+    "resume_present": true,
+    "resume": "Optic neuropathies such as glaucoma or optic neuritis are conditions whereby the optic nerve is damaged by mechanisms including ischemia, compression, inflammation or immune-mediated processes, leading to progressive degeneration of retinal ganglion cells and subsequent loss of vision. Strategies including medication and surgery help to slow down these diseases but fail to repair the neurons of the optic nerve themselves. In this review, we first detail the range of optic nerve neuropathies and their current front line treatment options, briefly outline various experimental treatment strategies and their limitations, before focusing on electrical stimulation as a treatment strategy, covering the current state of the art and potential routes for further development.",
+    "mots_cles_auteurs": [
+      "electric stimulation",
+      "glaucoma",
+      "optic nerve crush",
+      "optic nerve regeneration",
+      "optic neuropathies",
+      "retinal ganglion cells"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 5,
+    "affiliations_auteurs": [
+      "School of Science, Western Sydney University, Narellan Rd, Campbelltown, New South Wales, 2560, Australia.",
+      "Macquarie Medical School, Macquarie University, Balaclava Rd, Sydney, New South Wales, 2109, Australia.",
+      "School of Chemistry, University of New South Wales, High St, Sydney, New South Wales, 2052, Australia."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    }
+  }
+}

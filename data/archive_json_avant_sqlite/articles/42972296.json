@@ -1,0 +1,126 @@
+{
+  "pmid": "42972296",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42972296",
+    "titre": "Dislocated crystalline lens into the suprachoroidal space after blunt ocular trauma: a case report and diagnostic challenge.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42972296/",
+    "doi": "10.1186/s12886-026-05321-7",
+    "pmcid": "PMC13725958",
+    "revue": "BMC ophthalmology",
+    "date_entree_pubmed": "2026-11-02",
+    "date_publication": "2026-Oct-12",
+    "types_publication": [
+      "Journal Article",
+      "Case Reports"
+    ],
+    "resume_present": true,
+    "resume": "BACKGROUND: The posterior dislocation of the crystalline lens into the suprachoroidal space after closed-globe trauma is an exceptionally rare entity. Lens preservation is one of the treatment strategies.\nCASE PRESENTATION: A 55-year-old male presented with severe visual impairment three days after a closed-globe injury to his right eye. Clinical examination revealed corneal edema, total hyphema, and ocular hypertension. B-scan ultrasonography suggested vitreous hemorrhage and choroidal detachment, while orbital computed tomography (CT) confirmed an intact ocular wall and lens dislocation. Surgical exploration via vitrectomy unexpectedly revealed a superotemporal ciliary body detachment and the crystalline lens incarcerated within the nasal suprachoroidal space. The patient was managed with ciliary body suturing and silicone oil tamponade without lens extraction, achieving favorable anatomical and functional outcomes at follow-up.\nCONCLUSIONS: Lens preservation is a feasible strategy in cases of posterior dislocation of the crystalline lens into the suprachoroidal space after closed-globe trauma, provided that the lens capsule remains intact and there is no evidence of inflammation or elevated intraocular pressure.",
+    "mots_cles_auteurs": [
+      "Blunt ocular trauma",
+      "Ciliary body detachment",
+      "Conservative management",
+      "Suprachoroidal lens dislocation",
+      "Vitrectomy"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 4,
+    "affiliations_auteurs": [
+      "Ningbo Key Laboratory of Medical Research on Blinding Eye Diseases, Ningbo Eye Institute, Ningbo Eye Hospital, Wenzhou Medical University, Ningbo, 315040, China.",
+      "Ningbo Key Laboratory of Medical Research on Blinding Eye Diseases, Ningbo Eye Institute, Ningbo Eye Hospital, Wenzhou Medical University, Ningbo, 315040, China. yiquanyongteam@163.com.",
+      "Department of Ophthalmology, The First Affiliated Hospital of Harbin Medical University, Harbin, Heilongjiang Province, 150000, PR China. hydliuhl@163.com."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": [
+      "Humans",
+      "Male",
+      "Wounds, Nonpenetrating",
+      "Lens Subluxation",
+      "Eye Injuries",
+      "Middle Aged",
+      "Vitrectomy",
+      "Ciliary Body",
+      "Lens, Crystalline",
+      "Tomography, X-Ray Computed",
+      "Choroid"
+    ]
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": [
+        "suprachoroidal"
+      ],
+      "stade": "Non renseigné",
+      "stade_source": null,
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7221566710",
+      "doi": "10.1186/s12886-026-05321-7",
+      "pmid": "42972296",
+      "pmcid": "13725958",
+      "titre": "Dislocated crystalline lens into the suprachoroidal space after blunt ocular trauma: a case report and diagnostic challenge",
+      "lien": "https://openalex.org/W7221566710",
+      "date_publication": "2026-10-12",
+      "type": "article",
+      "revue": "BMC Ophthalmology",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "doaj",
+        "pubmed"
+      ],
+      "financeurs": null,
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "Wenzhou Medical University",
+          "pays": "CN",
+          "type": "education",
+          "ror": "https://ror.org/00rd5t069"
+        },
+        {
+          "nom": "First Affiliated Hospital of Harbin Medical University",
+          "pays": "CN",
+          "type": "healthcare",
+          "ror": "https://ror.org/05vy2sc54"
+        }
+      ],
+      "acces_ouvert": true,
+      "statut_acces": "gold",
+      "url_texte": "https://doi.org/10.1186/s12886-026-05321-7",
+      "url_pdf": null,
+      "licence": "cc-by-nc-nd",
+      "texte_integral_indexe": true,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Traumatic Ocular and Foreign Body Injuries",
+      "resume_present": true,
+      "mesh": [
+        "Choroid",
+        "Ciliary Body",
+        "Eye Injuries",
+        "Humans",
+        "Lens Subluxation",
+        "Lens, Crystalline",
+        "Male",
+        "Middle Aged",
+        "Tomography, X-Ray Computed",
+        "Vitrectomy",
+        "Wounds, Nonpenetrating"
+      ]
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": []
+  }
+}

@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>NCT06822738 — fiche essai</title><style>
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
+:root{--fond:#f4f7fb;--carte:#fff;--texte:#0f1d33;--doux:#52627a;--bord:#e2e8f0;--accent:#0b4f8a;
+--ok:#146c43;--ok-fond:#e3f4ea;--att:#8a5300;--att-fond:#fdf1d8;--ver:#b42318;--ver-fond:#fdeceb;
+--reg:#3f3c9e;--reg-fond:#ecebfb;--src-fond:#f1f5f9;--mark:#fff1a8;--manque:#b42318;--turquoise:#14b8a6;}
+@media (prefers-color-scheme:dark){:root{--fond:#0a1120;--carte:#101a2c;--texte:#e6edf7;--doux:#9db0ca;
+--bord:#1e2b42;--accent:#6fb4ff;--ok:#6fd6a0;--ok-fond:#12301f;--att:#f3c15e;--att-fond:#352a10;--ver:#ff9a8f;
+--ver-fond:#3a1714;--reg:#b4b2ff;--reg-fond:#24234a;--src-fond:#0d1626;--mark:#5a4d10;--manque:#ff9a8f;--turquoise:#2dd4bf;}}
+*{box-sizing:border-box}body{margin:0;background:var(--fond);color:var(--texte);
+font:15.5px/1.6 "Inter",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+:focus-visible{outline:3px solid var(--turquoise);outline-offset:2px;border-radius:6px}
+main{max-width:1000px;margin:0 auto;padding:20px 18px 64px}
+.bandeau{display:flex;align-items:center;gap:10px;font-weight:800;letter-spacing:-.02em;padding:6px 0 14px;color:var(--texte);text-decoration:none}
+.bandeau i{width:30px;height:30px;border-radius:9px;background:linear-gradient(135deg,#0b4f8a,#14b8a6);display:inline-block}
+header,section{background:var(--carte);border:1px solid var(--bord);border-radius:16px;padding:20px 24px;margin:0 0 16px;
+box-shadow:0 1px 2px rgba(15,29,51,.04),0 6px 20px -8px rgba(15,29,51,.12)}
+h1{font-size:1.45rem;line-height:1.3;margin:.2em 0 .5em}h2{font-size:1.1rem;margin:0 0 .6em;color:var(--accent)}
+h3{font-size:1rem;margin:1.1em 0 .4em}.surtitre{color:var(--doux);margin:0;font-size:.9rem}
+a{color:var(--accent)}small,.def{color:var(--doux)}.def{font-size:.88rem;margin:.2em 0 .6em}
+.grille{display:grid;grid-template-columns:max-content 1fr;gap:4px 16px;margin:12px 0 0}
+.grille dt{color:var(--doux)}.grille dd{margin:0}
+.badge{display:inline-block;font-size:.72rem;font-weight:600;padding:2px 8px;border-radius:999px;margin:2px 4px 2px 0;
+vertical-align:middle;background:var(--src-fond);color:var(--doux)}
+.badge.confirme{background:var(--ok-fond);color:var(--ok)}.badge.attente{background:var(--att-fond);color:var(--att)}
+.badge.verifier{background:var(--ver-fond);color:var(--ver)}.badge.regle{background:var(--reg-fond);color:var(--reg)}
+.rubrique{font-weight:600}.manque{color:var(--manque);font-style:italic}
+mark{background:var(--mark);color:inherit;padding:0 2px;border-radius:3px}
+blockquote{margin:.5em 0;padding:.5em .9em;border-left:3px solid var(--bord);background:var(--src-fond);border-radius:0 6px 6px 0}
+pre{white-space:pre-wrap;font-size:.85rem;background:var(--src-fond);padding:10px;border-radius:6px}
+.defile{overflow-x:auto}table{border-collapse:collapse;width:100%;font-size:.92rem;margin:.4em 0}
+th,td{border:1px solid var(--bord);padding:6px 8px;text-align:left;vertical-align:top}th{background:var(--src-fond)}
+.analyse{background:var(--src-fond);padding:6px 10px;border-radius:6px;font-size:.92rem}
+.acteurs{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px}
+.acteurs>div{border:1px solid var(--bord);border-radius:8px;padding:10px 12px}.acteurs h3{margin-top:0}
+.copier{position:sticky;top:0;z-index:2;display:flex;gap:12px;align-items:center;flex-wrap:wrap;
+background:var(--fond);padding:10px 0;margin-bottom:8px}
+button{font:inherit;font-weight:600;background:var(--accent);color:#fff;border:0;border-radius:8px;padding:9px 16px;cursor:pointer}
+@media (prefers-color-scheme:dark){button{color:#10141a}}
+textarea{width:100%;min-height:260px;font:13px/1.4 ui-monospace,Consolas,monospace;background:var(--src-fond);
+color:var(--texte);border:1px solid var(--bord);border-radius:6px;padding:8px}
+details{margin:.5em 0}summary{cursor:pointer;color:var(--accent)}
+.retour{font-size:.92rem;margin:0 0 4px}
+@media (max-width:600px){.grille{grid-template-columns:1fr}.grille dt{margin-top:6px}header,section{padding:14px}}
+</style></head>
+<body><main>
+<a class="bandeau" href="../index.html"><i aria-hidden="true"></i>Glaucoma Intelligence</a><nav class="retour"><a href="../index.html">Accueil</a> · <a href="../etudes.html">← Essais &amp; articles</a> · <a href="../recherche.html">Rechercher</a> · <a href="../carte.html">Carte des acteurs</a> · <a href="../alertes.html">Alertes</a></nav>
+<div class="copier"><button id="bouton-copier" type="button" onclick="copierFiche()">Copier pour Claude / ChatGPT</button>
+<small>Copie une consigne + les faits de cette fiche, à coller dans votre assistant.</small></div>
+
+    <header>
+      <p class="surtitre">Fiche essai clinique · NCT06822738 · <a href="https://clinicaltrials.gov/study/NCT06822738" target="_blank" rel="noopener">voir sur ClinicalTrials.gov</a></p>
+      <h1>A Study to Assess Adverse Events and Effectiveness of Gel Stent (XEN63) Implantation Using Ab Interno and Ab Externo Approaches in Adult Participants With Glaucoma</h1>
+      <p><span class="badge attente">ESSAI ENREGISTRÉ — AUCUN RÉSULTAT DÉPOSÉ AU REGISTRE</span></p>
+      <dl class="grille">
+        <dt>Phase (déclarée)</dt><dd>Phase 3</dd>
+        <dt>Statut</dt><dd>Recrutement en cours</dd>
+        <dt>Type d'étude</dt><dd>Interventionnelle</dd>
+        <dt>Participants</dt><dd>130 (prévu)</dd>
+        <dt>Première publication au registre</dt><dd>2025-02-12</dd>
+        <dt>Dernière mise à jour au registre</dt><dd>2026-10-09</dd>
+        <dt>Début · fin principale</dt><dd>2025-02-11 · 2028-11</dd>
+        <dt>Détecté par l'outil le</dt><dd>2026-09-25 · 0 modification(s) repérée(s) depuis</dd>
+      </dl>
+      <p class="rubriques"><strong>Rubrique :</strong> <span class="rubrique">Dispositifs et chirurgie</span> <small>bras expérimental de type DEVICE déclaré au registre : XEN63 Glaucoma Treatment System</small> <span class="badge regle">classement automatique — règles dans config/rubriques.ini</span></p>
+    </header>
+<section><h2>Question étudiée <span class="badge source">Registre ClinicalTrials.gov</span></h2><p><strong>Titre officiel :</strong> A Prospective, Multicenter Clinical Study to Evaluate the Safety and Effectiveness of Gel Stent (XEN63) Implantation Using Ab Interno and Ab Externo Approaches in Subjects With Glaucoma</p><blockquote lang="en">Glaucoma is the second most common cause of blindness in the world, second only to cataracts. This study will assess how safe and effective a glaucoma gel stent is when implanted using the ab interno (inside the eye) and ab externo (outside the eye) approach. Adverse events and intraocular pressure will be assessed.
+
+XEN63 is an investigational device for the treatment of intraocular pressure (IOP) in patients with glaucoma when both medical and conventional surgical treatments have failed (for US approval) and when medical treatments have failed (for outside US \[OUS\] approval). Participants will be placed in one of two groups called study arms. One group will receive the XEN63 gel stent ab interno (inside the eye) and the other group will receive the XEN63 gel stent ab externo (outside the eye). Approximately 130 participants aged 45 years or older with glaucoma will be enrolled in this study at approximately 32 sites in the United States.
+
+Participants will receive XEN63 implanted using either the ab interno approach or the ab externo approach on Day 1 and will be followed for 12 months.
+
+Participants will attend regular visits during the study at a hospital or clinic. The safety and effect of the gel stent on your glaucoma will be checked by medical assessments and eye examinations.</blockquote></section><section><h2>Traitement ou technologie, et comparateur <span class="badge source">Registre ClinicalTrials.gov</span><span class="badge confirme">rôles CONFIRMÉS : type de bras déclaré au registre</span></h2><div class="defile"><table><thead><tr><th>Bras</th><th>Rôle déclaré</th><th>Interventions</th><th>Description (registre)</th></tr></thead><tbody><tr><td><strong>XEN63 Ab Externo</strong></td><td>Expérimental (traitement étudié)</td><td>Device: XEN63 Glaucoma Treatment System</td><td><small lang="en">Participants will be implanted with XEN63 via ab externo surgical approach in the study eye. Participants will be followed for up to 12 months.</small></td></tr><tr><td><strong>XEN63 Ab Interno</strong></td><td>Expérimental (traitement étudié)</td><td>Device: XEN63 Glaucoma Treatment System</td><td><small lang="en">Participants will be implanted with XEN63 via ab interno surgical approach in the study eye. Participants will be followed for up to 12 months.</small></td></tr></tbody></table></div></section><section><h2>Type d'étude <span class="badge source">Registre ClinicalTrials.gov</span></h2><ul><li>Type : Interventionnelle · phase déclarée : Phase 3</li><li>Répartition : sans objet (un seul groupe)</li><li>Modèle : groupes parallèles</li><li>Insu : simple insu <small>(PARTICIPANT)</small></li><li>But principal : traitement</li></ul></section><section><h2>Population et participants <span class="badge source">Registre ClinicalTrials.gov</span></h2><ul><li>Conditions déclarées : Primary Open Angle Glaucoma</li><li>Âge : 45 Years → max. non rapporté</li><li>Sexe : tous</li><li>Volontaires sains acceptés : non</li><li>Nombre de participants : <mark>130 (prévu)</mark></li></ul><details><summary>Critères d'inclusion et d'exclusion (texte du registre)</summary><pre lang="en">Inclusion Criteria:
+
+* Diagnosis of glaucoma in the study eye (SE) (meeting criterion a or b)
+
+  1. That meets the following refractory glaucoma criteria of eyes diagnosed with glaucoma uncontrolled by maximal medical therapy (four or more classes of intraocular pressure (IOP)-lowering medications, or fewer in cases where it has been documented that certain medication classes cannot be tolerated or are contraindicated), and failed one or more incisional intraocular glaucoma surgeries (e.g., glaucoma filtering surgery, tube shunt)
+  2. Uncontrolled by medical therapy (to meet out-of-US \[OUS\] requirements) with participants who only have glaucoma uncontrolled by medical therapy (non-refractory glaucoma), a maximum of 10 participants who meet only criterion b (and not a) will be enrolled in each cohort.
+
+     Exclusion Criteria:
+* History of angle-closure glaucoma where the angle has not been surgically opened in the SE.
+* History of secondary open-angle glaucoma (e.g., neovascular, pigmentary, pseudoexfoliative, uveitic, angle recession/traumatic glaucoma, etc.) in the SE.
+* Active inflammation (e.g., blepharitis, conjunctivitis, keratitis, uveitis) in the SE.</pre></details></section><section><h2>Critères évalués (tels que déclarés) <span class="badge source">Registre ClinicalTrials.gov</span></h2><ul><li><strong>Principal :</strong> Percentage of Participants With Treatment Response of Achieving ≥ 20% Reduction in Intraocular Pressure (IOP) From Baseline on the Same or Fewer Number of IOP-Lowering Medications Compared to Baseline <small>[Month 12]</small></li><li><strong>Principal :</strong> Number of Participants with Adverse Events (AEs) <small>[Month 12]</small></li><li>Secondaire : Mean Diurnal IOP <small>[Month 12]</small></li><li>Secondaire : Change From Baseline in Diurnal IOP <small>[Baseline to Month 12]</small></li><li>Secondaire : Change from Baseline in Number of Topical IOP-Lowering Medications <small>[Baseline to Month 12]</small></li><li>Secondaire : Mean Number of Topical IOP-Lowering Medications <small>[Month 12]</small></li></ul></section><section><h2>Résultats disponibles <span class="badge source">Registre ClinicalTrials.gov</span></h2><p><span class="manque">Aucun résultat n'est déposé au registre à ce jour. Statut actuel : Recrutement en cours.</span></p></section><section><h2>Données de tolérance <span class="badge source">Registre ClinicalTrials.gov</span></h2><p><span class="manque">Non disponibles : aucun résultat déposé au registre</span></p></section><section><h2>Publications liées <span class="badge source">Registre ClinicalTrials.gov</span></h2><ul><li><span class="manque">Aucune publication liée identifiée</span></li></ul></section><section><h2>Promoteur, financeur et affiliations <span class="badge source">Registre ClinicalTrials.gov</span></h2><div class="acteurs">
+      <div><h3>Promoteur</h3><p class="def">Organisme responsable de l'essai, déclaré au registre.</p>
+        <p><strong>AbbVie</strong> (industriel)</p>
+        <p>Collaborateurs déclarés : aucun déclaré</p></div>
+      <div><h3>Financeur</h3><p class="def">Organisme qui finance la recherche.</p>
+        <p><span class="manque">Non déclaré séparément dans le registre.</span> Le promoteur n'est pas présenté ici comme financeur : le registre ne le précise pas.</p></div>
+      <div><h3>Affiliations</h3><p class="def">Établissement des responsables de l'étude.</p>
+        <ul><li>ABBVIE INC. — directeur d'étude — affiliation : AbbVie</li></ul></div>
+    </div></section>
+<section><h2>Ce qui manque <span class="badge regle">calculé par l'outil</span></h2><ul><li>résultats (aucun résultat déposé au registre)</li><li>données de tolérance</li><li>publication liée</li></ul></section>
+<section><h2>Limites, intérêt pour la veille marketing, à retenir <span class="badge attente">non produit par l'outil</span></h2><p><span class="manque">Non rédigé automatiquement : les données extraites ne suffisent pas à produire une analyse fiable sans interprétation. Utilisez le bouton « Copier pour Claude / ChatGPT » pour obtenir une proposition, à vérifier.</span></p></section>
+<section><details><summary>Voir le texte copié par le bouton</summary>
+<textarea id="a-copier" readonly>Tu es assistant de veille scientifique sur le glaucome. À partir UNIQUEMENT des informations ci-dessous, rédige en français une fiche de synthèse avec ces rubriques :
+1. Question étudiée
+2. Traitement ou technologie
+3. Type d&#x27;étude
+4. Population et nombre de participants
+5. Comparateur
+6. Critères évalués
+7. Principaux résultats chiffrés (recopie les valeurs exactes et indique leur source)
+8. Données de tolérance
+9. Limites
+10. Intérêt potentiel pour une veille marketing — présenté comme une INTERPRÉTATION, séparé des faits
+11. À retenir (une phrase)
+
+Règles :
+- N&#x27;invente rien. Si une information manque, écris « non rapporté ».
+- Distingue un essai simplement enregistré, un protocole, des résultats déposés dans un registre et une publication de résultats.
+- Si la source est seulement le résumé d&#x27;un article, indique que la synthèse repose uniquement sur ce résumé.
+- Les rôles « suggérés » (traitement étudié / comparateur) sont à vérifier dans le texte source.
+- Ne confonds pas promoteur d&#x27;essai, financeur et affiliation des auteurs.
+- Termine par la liste des points à vérifier.
+
+=== INFORMATIONS ===
+SOURCE : registre ClinicalTrials.gov, essai NCT06822738 — https://clinicaltrials.gov/study/NCT06822738
+NIVEAU DE PREUVE : essai enregistré, AUCUN résultat déposé au registre
+Titre : A Study to Assess Adverse Events and Effectiveness of Gel Stent (XEN63) Implantation Using Ab Interno and Ab Externo Approaches in Adult Participants With Glaucoma
+Titre officiel : A Prospective, Multicenter Clinical Study to Evaluate the Safety and Effectiveness of Gel Stent (XEN63) Implantation Using Ab Interno and Ab Externo Approaches in Subjects With Glaucoma
+Phase déclarée : Phase 3 · Statut : Recrutement en cours · Type : Interventionnelle
+Promoteur (déclaré) : AbbVie (INDUSTRY) · Collaborateurs : aucun
+Financeur : non déclaré séparément dans le registre
+Participants : 130 (prévu) · Conditions : Primary Open Angle Glaucoma
+Plan : {&#x27;but_principal&#x27;: &#x27;TREATMENT&#x27;, &#x27;insu&#x27;: &#x27;SINGLE&#x27;, &#x27;insu_description&#x27;: None, &#x27;insu_pour&#x27;: [&#x27;PARTICIPANT&#x27;], &#x27;modele&#x27;: &#x27;PARALLEL&#x27;, &#x27;modele_observationnel&#x27;: None, &#x27;repartition&#x27;: &#x27;NA&#x27;}
+Bras (rôle déclaré) :
+  - XEN63 Ab Externo [EXPERIMENTAL] : Device: XEN63 Glaucoma Treatment System
+  - XEN63 Ab Interno [EXPERIMENTAL] : Device: XEN63 Glaucoma Treatment System
+Critères principaux : Percentage of Participants With Treatment Response of Achieving ≥ 20% Reduction in Intraocular Pressure (IOP) From Baseline on the Same or Fewer Number of IOP-Lowering Medications Compared to Baseline [Month 12]; Number of Participants with Adverse Events (AEs) [Month 12]
+Critères secondaires : Mean Diurnal IOP [Month 12]; Change From Baseline in Diurnal IOP [Baseline to Month 12]; Change from Baseline in Number of Topical IOP-Lowering Medications [Baseline to Month 12]; Mean Number of Topical IOP-Lowering Medications [Month 12]
+
+DESCRIPTION (registre, texte source) :
+Glaucoma is the second most common cause of blindness in the world, second only to cataracts. This study will assess how safe and effective a glaucoma gel stent is when implanted using the ab interno (inside the eye) and ab externo (outside the eye) approach. Adverse events and intraocular pressure will be assessed.
+
+XEN63 is an investigational device for the treatment of intraocular pressure (IOP) in patients with glaucoma when both medical and conventional surgical treatments have failed (for US approval) and when medical treatments have failed (for outside US \[OUS\] approval). Participants will be placed in one of two groups called study arms. One group will receive the XEN63 gel stent ab interno (inside the eye) and the other group will receive the XEN63 gel stent ab externo (outside the eye). Approximately 130 participants aged 45 years or older with glaucoma will be enrolled in this study at approximately 32 sites in the United States.
+
+Participants will receive XEN63 implanted using either the ab interno approach or the ab externo approach on Day 1 and will be followed for 12 months.
+
+Participants will attend regular visits during the study at a hospital or clinic. The safety and effect of the gel stent on your glaucoma will be checked by medical assessments and eye examinations.
+
+RÉSULTATS : aucun résultat déposé au registre.</textarea></details></section>
+<p><small>Fiche générée le 2026-11-11 22:40 par Glaucoma Intelligence. Extraits des sources en langue originale.</small></p>
+</main><script>
+function copierFiche(){
+  var zone=document.getElementById('a-copier'), bouton=document.getElementById('bouton-copier');
+  function fait(){bouton.textContent='Copié ✓ — collez dans Claude ou ChatGPT';setTimeout(function(){bouton.textContent='Copier pour Claude / ChatGPT'},3000);}
+  function secours(){zone.parentElement.open=true;zone.select();try{document.execCommand('copy');fait();}
+    catch(err){bouton.textContent='Sélectionnez le texte ci-dessous puis Ctrl+C';}}
+  if(navigator.clipboard&&window.isSecureContext){navigator.clipboard.writeText(zone.value).then(fait,secours);}else{secours();}
+}
+</script></body></html>

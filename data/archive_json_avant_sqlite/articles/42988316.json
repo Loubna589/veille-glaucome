@@ -1,0 +1,96 @@
+{
+  "pmid": "42988316",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42988316",
+    "titre": "Eccentric pupils: tips of the iceberg.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42988316/",
+    "doi": "10.1016/j.jpeds.2026.115391",
+    "pmcid": null,
+    "revue": "The Journal of pediatrics",
+    "date_entree_pubmed": "2026-11-05",
+    "date_publication": "2026-Nov-05",
+    "types_publication": [
+      "Journal Article"
+    ],
+    "resume_present": false,
+    "resume": null,
+    "mots_cles_auteurs": [
+      "Axenfeld-Rieger syndrome",
+      "childhood glaucoma",
+      "genetic testing",
+      "multidisciplinary evaluation"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 2,
+    "affiliations_auteurs": [
+      "Herbert Wertheim College of Medicine, Florida International University, Miami, FL, USA. Electronic address: ccruz156@fiu.edu.",
+      "Bascom Palmer Eye Institute, University of Miami, Miami, FL, USA. Electronic address: t.chang@med.miami.edu."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7225405855",
+      "doi": "10.1016/j.jpeds.2026.115391",
+      "pmid": "42988316",
+      "pmcid": null,
+      "titre": "Eccentric pupils: tips of the iceberg",
+      "lien": "https://openalex.org/W7225405855",
+      "date_publication": "2026-11-01",
+      "type": "article",
+      "revue": "The Journal of Pediatrics",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "pubmed"
+      ],
+      "financeurs": null,
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "Florida International University",
+          "pays": "US",
+          "type": "education",
+          "ror": "https://ror.org/02gz6gg07"
+        },
+        {
+          "nom": "University of Miami",
+          "pays": "US",
+          "type": "education",
+          "ror": "https://ror.org/02dgjyy92"
+        }
+      ],
+      "acces_ouvert": false,
+      "statut_acces": "closed",
+      "url_texte": null,
+      "url_pdf": null,
+      "licence": null,
+      "texte_integral_indexe": false,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Ocular Disorders and Treatments",
+      "resume_present": false,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": []
+  }
+}

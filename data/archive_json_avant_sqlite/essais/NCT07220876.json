@@ -1,0 +1,81 @@
+{
+  "nct": "NCT07220876",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "nct": "NCT07220876",
+    "titre": "Safety and Effectiveness of the VisiPlate Aqueous Shunt in Patients With Refractory Open-Angle Glaucoma",
+    "titre_officiel": "A Prospective, Multicenter, Single-Arm, Open-Label Clinical Trial of the Safety and Effectiveness of the VisiPlate Aqueous Shunt in Patients With Refractory Open-Angle Glaucoma",
+    "lien": "https://clinicaltrials.gov/study/NCT07220876",
+    "date_premiere_publication": "2025-10-24",
+    "date_derniere_mise_a_jour": "2026-10-07",
+    "type_etude": "INTERVENTIONAL",
+    "phases_declarees": [
+      "NA"
+    ],
+    "statut": "RECRUITING",
+    "raison_arret": null,
+    "date_debut": "2025-11-07",
+    "date_fin_principale": "2027-10",
+    "promoteur": "Avisi Technologies Inc.",
+    "type_promoteur": "INDUSTRY",
+    "collaborateurs": null,
+    "conditions": [
+      "Open Angle Glaucoma (OAG)"
+    ],
+    "interventions": [
+      {
+        "type": "DEVICE",
+        "nom": "VisiPlate Glaucoma Implant"
+      }
+    ],
+    "participants_nombre": 165,
+    "participants_type": "ESTIMATED",
+    "criteres_principaux": [
+      {
+        "critere": "Proportion of subjects (eyes) achieving a ≥ 20% reduction in mean diurnal intraocular pressure",
+        "delai": "12 Months"
+      }
+    ],
+    "resultats_deposes": false,
+    "publications_declarees": null,
+    "resume_source": "A Prospective, Multicenter, Single-Arm, Open-Label Clinical Trial",
+    "citations_declarees": null,
+    "plan": {
+      "repartition": "NA",
+      "modele": "SINGLE_GROUP",
+      "but_principal": "TREATMENT",
+      "insu": "NONE",
+      "insu_pour": null,
+      "insu_description": null,
+      "modele_observationnel": null
+    },
+    "bras": [
+      {
+        "libelle": "Treatment Arm",
+        "type": "EXPERIMENTAL",
+        "description": null,
+        "interventions": [
+          "Device: VisiPlate Glaucoma Implant"
+        ]
+      }
+    ],
+    "eligibilite": {
+      "criteres": "Inclusion Criteria:\n\n* Open angle, pseudoexfoliative or pigmentary glaucoma\n* IOP at preoperative visit of ≥ 20mmHg and ≤ 40mmHg\n* Visual field mean deviation score of -3dB or worse\n* Area of healthy, free and mobile conjunctiva in the target quadrant\n* Shaffer angle grade ≥ 2 in the target quadrant\n\nExclusion Criteria:\n\n* Angle closure glaucoma\n* Congenital, neovascular or other secondary glaucomas\n* Previous intraocular surgery, with the exception of uncomplicated cataract surgery\n* Previous glaucoma shunt/valve in the target quadrant\n* Clinically significant inflammation or infection in the study eye within 30 days prior to the operative visit\n* History of corneal surgery, corneal opacities or corneal disease\n* Retinal or optic nerve disorders, either degenerative or evolutive, that are not associated with the existing glaucoma condition",
+      "age_min": "45 Years",
+      "age_max": null,
+      "sexe": "ALL",
+      "volontaires_sains": false
+    },
+    "criteres_secondaires": [
+      {
+        "critere": "Percentage change in mean diurnal IOP",
+        "delai": "12 months"
+      }
+    ],
+    "responsables": null,
+    "date_depot_resultats": null,
+    "resultats": null
+  },
+  "modifications": []
+}

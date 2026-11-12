@@ -1,0 +1,55 @@
+{
+  "pmid": "43008498",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "43008498",
+    "titre": "Assessment setting affects the evaluation of functional mobility in older adults with glaucoma.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/43008498/",
+    "doi": "10.1016/j.gaitpost.2026.110679",
+    "pmcid": null,
+    "revue": "Gait & posture",
+    "date_entree_pubmed": "2026-11-10",
+    "date_publication": "2026-Oct-29",
+    "types_publication": [
+      "Journal Article"
+    ],
+    "resume_present": true,
+    "resume": "BACKGROUND: Older adults with glaucoma are at a greater risk of falls than those without, and visual field loss is associated with mobility limitations and fall risk. In-clinic gait assessments can identify those with mobility limitations, but these tools are underused in routine glaucoma care. Further, it remains unknown if gait measured in clinic is associated with gait in everyday environments for older adults with glaucoma.\nMETHODS: In this pilot study, older adults with glaucoma (n = 36, 77 ± 5 years) completed a 2-minute walk test in the clinic and then in their home. Participants wore three inertial measurement units, and spatiotemporal gait metrics were computed from this data. In-clinic and at-home gait metrics were compared to test the effect of setting and whether at-home gait metrics were associated with in-clinic metrics.\nRESULTS: Nearly all gait metrics differed by setting. On average, participants walked slower, less symmetrically, and more variably at home than in the clinic. Despite these differences, most at-home gait metrics were linearly associated with those measured in-clinic. Glaucoma severity did not moderate the setting-related effects.\nCONCLUSIONS: Gait assessed in clinic was different, but associated with, at-home gait. These preliminary findings suggest that relying solely on clinic-based gait assessments may underestimate mobility limitations. Instead, combining brief in-clinic assessments with wearable sensor-based real-world monitoring may better identify older adults with glaucoma who are at an elevated risk for falls and functional decline. Further study is needed to test these hypotheses and determine if additional patient, disease, or at-home gait features could contribute to a more sensitive composite risk assessment.",
+    "mots_cles_auteurs": [
+      "Aging",
+      "Gait",
+      "Inertial-measurement unit",
+      "Two-minute walk test",
+      "Visual impairment"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 8,
+    "affiliations_auteurs": [
+      "Northwestern University, Feinberg School of Medicine, Department of Physical Therapy & Human Movement Sciences, Chicago, IL, USA. Electronic address: emmab@northwestern.edu.",
+      "University of Michigan, Department of Ophthalmology & Visual Sciences, Ann Arbor, MI, USA.",
+      "University of Michigan, Department of Mechanical Engineering, Ann Arbor, MI, USA.",
+      "University of Michigan, Department of Medicine, Division of Geriatric & Palliative Medicine, Ann Arbor, MI, USA; VA Ann Arbor Healthcare System Geriatric Research Education Clinical Center (GRECC), Ann Arbor, MI, USA.",
+      "University of Pittsburgh, Department of Bioengineering, Pittsburgh, PA, USA.",
+      "University of Pittsburgh, Department of Bioengineering, Pittsburgh, PA, USA; University of Pittsburgh, Department of Ophthalmology, Pittsburgh, PA, USA."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    }
+  }
+}

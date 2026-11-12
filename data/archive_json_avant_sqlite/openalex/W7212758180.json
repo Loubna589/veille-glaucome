@@ -1,0 +1,58 @@
+{
+  "openalex_id": "W7212758180",
+  "premiere_detection": "2026-09-25",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "openalex_id": "W7212758180",
+    "doi": "10.21203/rs.3.rs-10795963/v1",
+    "pmid": null,
+    "pmcid": null,
+    "titre": "Prevalence and predictors of depression and anxiety in primary glaucoma: a cross- sectional study using clinician-administered rating scales",
+    "lien": "https://openalex.org/W7212758180",
+    "date_publication": "2026-09-14",
+    "type": "preprint",
+    "revue": "Research Square",
+    "type_source": "repository",
+    "langue": null,
+    "indexe_dans": [
+      "crossref"
+    ],
+    "financeurs": null,
+    "subventions": null,
+    "institutions": [
+      {
+        "nom": "Sarojini Naidu Medical College",
+        "pays": "IN",
+        "type": "healthcare",
+        "ror": "https://ror.org/02d57ed54"
+      }
+    ],
+    "acces_ouvert": true,
+    "statut_acces": "green",
+    "url_texte": "https://www.researchsquare.com/article/rs-10795963/latest.pdf",
+    "url_pdf": "https://www.researchsquare.com/article/rs-10795963/latest.pdf",
+    "licence": "cc-by",
+    "texte_integral_indexe": true,
+    "retracte": false,
+    "citations": 0,
+    "sujet_principal": "Glaucoma and retinal disorders",
+    "resume_present": false,
+    "resume": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "present_dans_pubmed": false
+  }
+}

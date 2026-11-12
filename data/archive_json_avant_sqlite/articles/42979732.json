@@ -1,0 +1,124 @@
+{
+  "pmid": "42979732",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42979732",
+    "titre": "Clinical Features and Outcomes of Glaucoma Surgery-Associated Bullous Keratopathy: A Subanalysis of the Japanese National Survey on Corneal Transplantation.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42979732/",
+    "doi": "10.1097/ICO.0000000000004320",
+    "pmcid": null,
+    "revue": "Cornea",
+    "date_entree_pubmed": "2026-11-04",
+    "date_publication": "2026-Nov-03",
+    "types_publication": [
+      "Journal Article"
+    ],
+    "resume_present": true,
+    "resume": "PURPOSE: The purpose of this study was to investigate clinical characteristics and 1-year outcomes of glaucoma surgery-associated bullous keratopathy (BK), comparing eyes with prior incisional glaucoma surgery (IGS-BK) and laser iridotomy (LI-BK), using data from the Japanese National Survey on Corneal Transplantation.\nMETHODS: Among 1941 BK eyes, 404 IGS-BK and 353 LI-BK eyes were analyzed. Clinical parameters and 1-year graft clarity were compared. Within IGS-BK, glaucoma subtypes were examined. Univariate (n = 382) and multivariable (n = 371, excluding cytomegalovirus and pediatric glaucoma) logistic regression identified predictors of graft failure.\nRESULTS: IGS-BK patients were younger (72.8 vs. 77.2 years, P <0.001) and predominantly male (64.6% vs. 18.4%). Primary open-angle/normal-tension glaucoma (34.7%) and exfoliation glaucoma (XFG) (30.0%) were most common. Descemet stripping automated endothelial keratoplasty was the predominant procedure (81.7% IGS-BK; 78.2% LI-BK). One-year graft clarity was lower in IGS-BK (82.2% vs. 90.5%, P = 0.002), with XFG showing the poorest outcomes (73.0%). Univariate analysis identified male sex [odds ratio (OR) = 1.83, P = 0.046], younger age (OR = 0.75 per 10-year increase, P = 0.008), and XFG (OR = 2.63, P = 0.004) as predictors of graft failure. After multivariable adjustment, XFG remained an independent risk factor (OR = 3.00, 95% confidence interval: 1.50-5.99, P = 0.002), as did younger age (OR = 0.72, P = 0.019). Complication profiles differed between groups.\nCONCLUSIONS: XFG independently predicts poor outcomes in IGS-BK, underscoring the importance of glaucoma subtype stratification. Patients with XFG require intensified perioperative management and postoperative monitoring to optimize graft survival.",
+    "mots_cles_auteurs": [
+      "bullous keratopathy",
+      "corneal transplantation survey",
+      "endothelial keratoplasty",
+      "exfoliation glaucoma",
+      "glaucoma surgery"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 9,
+    "affiliations_auteurs": [
+      "Department of Ophthalmology, Kanazawa University Graduate School of Medical Sciences, Kanazawa, Japan.",
+      "Department of Ophthalmology, Tokyo Dental College Ichikawa General Hospital, Ichikawa, Japan.",
+      "Department of Ophthalmology, Graduate School of Medicine, the University of Osaka, Suita, Japan.",
+      "Department of Ophthalmology, International University of Health and Welfare, Narita, Japan; and.",
+      "Department of Ophthalmology, National Center for Geriatrics and Gerontology, Obu, Japan."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7225235665",
+      "doi": "10.1097/ico.0000000000004320",
+      "pmid": "42979732",
+      "pmcid": null,
+      "titre": "Clinical Features and Outcomes of Glaucoma Surgery–Associated Bullous Keratopathy: A Subanalysis of the Japanese National Survey on Corneal Transplantation",
+      "lien": "https://openalex.org/W7225235665",
+      "date_publication": "2026-11-03",
+      "type": "article",
+      "revue": "Cornea",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "pubmed"
+      ],
+      "financeurs": null,
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "Kanazawa University",
+          "pays": "JP",
+          "type": "education",
+          "ror": "https://ror.org/02hwp6a56"
+        },
+        {
+          "nom": "Tokyo Dental College Ichikawa General Hospital",
+          "pays": "JP",
+          "type": "healthcare",
+          "ror": "https://ror.org/01300np05"
+        },
+        {
+          "nom": "The University of Osaka",
+          "pays": "JP",
+          "type": "education",
+          "ror": "https://ror.org/035t8zc32"
+        },
+        {
+          "nom": "International University of Health and Welfare Narita Hospital",
+          "pays": "JP",
+          "type": "healthcare",
+          "ror": "https://ror.org/03979n059"
+        },
+        {
+          "nom": "International University of Health and Welfare",
+          "pays": "JP",
+          "type": "education",
+          "ror": "https://ror.org/053d3tv41"
+        },
+        {
+          "nom": "National Center for Geriatrics and Gerontology",
+          "pays": "JP",
+          "type": "healthcare",
+          "ror": "https://ror.org/05h0rw812"
+        }
+      ],
+      "acces_ouvert": false,
+      "statut_acces": "closed",
+      "url_texte": null,
+      "url_pdf": null,
+      "licence": null,
+      "texte_integral_indexe": false,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Corneal surgery and disorders",
+      "resume_present": true,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": []
+  }
+}

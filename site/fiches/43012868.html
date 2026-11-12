@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>PMID 43012868 — fiche article</title><style>
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
+:root{--fond:#f4f7fb;--carte:#fff;--texte:#0f1d33;--doux:#52627a;--bord:#e2e8f0;--accent:#0b4f8a;
+--ok:#146c43;--ok-fond:#e3f4ea;--att:#8a5300;--att-fond:#fdf1d8;--ver:#b42318;--ver-fond:#fdeceb;
+--reg:#3f3c9e;--reg-fond:#ecebfb;--src-fond:#f1f5f9;--mark:#fff1a8;--manque:#b42318;--turquoise:#14b8a6;}
+@media (prefers-color-scheme:dark){:root{--fond:#0a1120;--carte:#101a2c;--texte:#e6edf7;--doux:#9db0ca;
+--bord:#1e2b42;--accent:#6fb4ff;--ok:#6fd6a0;--ok-fond:#12301f;--att:#f3c15e;--att-fond:#352a10;--ver:#ff9a8f;
+--ver-fond:#3a1714;--reg:#b4b2ff;--reg-fond:#24234a;--src-fond:#0d1626;--mark:#5a4d10;--manque:#ff9a8f;--turquoise:#2dd4bf;}}
+*{box-sizing:border-box}body{margin:0;background:var(--fond);color:var(--texte);
+font:15.5px/1.6 "Inter",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+:focus-visible{outline:3px solid var(--turquoise);outline-offset:2px;border-radius:6px}
+main{max-width:1000px;margin:0 auto;padding:20px 18px 64px}
+.bandeau{display:flex;align-items:center;gap:10px;font-weight:800;letter-spacing:-.02em;padding:6px 0 14px;color:var(--texte);text-decoration:none}
+.bandeau i{width:30px;height:30px;border-radius:9px;background:linear-gradient(135deg,#0b4f8a,#14b8a6);display:inline-block}
+header,section{background:var(--carte);border:1px solid var(--bord);border-radius:16px;padding:20px 24px;margin:0 0 16px;
+box-shadow:0 1px 2px rgba(15,29,51,.04),0 6px 20px -8px rgba(15,29,51,.12)}
+h1{font-size:1.45rem;line-height:1.3;margin:.2em 0 .5em}h2{font-size:1.1rem;margin:0 0 .6em;color:var(--accent)}
+h3{font-size:1rem;margin:1.1em 0 .4em}.surtitre{color:var(--doux);margin:0;font-size:.9rem}
+a{color:var(--accent)}small,.def{color:var(--doux)}.def{font-size:.88rem;margin:.2em 0 .6em}
+.grille{display:grid;grid-template-columns:max-content 1fr;gap:4px 16px;margin:12px 0 0}
+.grille dt{color:var(--doux)}.grille dd{margin:0}
+.badge{display:inline-block;font-size:.72rem;font-weight:600;padding:2px 8px;border-radius:999px;margin:2px 4px 2px 0;
+vertical-align:middle;background:var(--src-fond);color:var(--doux)}
+.badge.confirme{background:var(--ok-fond);color:var(--ok)}.badge.attente{background:var(--att-fond);color:var(--att)}
+.badge.verifier{background:var(--ver-fond);color:var(--ver)}.badge.regle{background:var(--reg-fond);color:var(--reg)}
+.rubrique{font-weight:600}.manque{color:var(--manque);font-style:italic}
+mark{background:var(--mark);color:inherit;padding:0 2px;border-radius:3px}
+blockquote{margin:.5em 0;padding:.5em .9em;border-left:3px solid var(--bord);background:var(--src-fond);border-radius:0 6px 6px 0}
+pre{white-space:pre-wrap;font-size:.85rem;background:var(--src-fond);padding:10px;border-radius:6px}
+.defile{overflow-x:auto}table{border-collapse:collapse;width:100%;font-size:.92rem;margin:.4em 0}
+th,td{border:1px solid var(--bord);padding:6px 8px;text-align:left;vertical-align:top}th{background:var(--src-fond)}
+.analyse{background:var(--src-fond);padding:6px 10px;border-radius:6px;font-size:.92rem}
+.acteurs{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px}
+.acteurs>div{border:1px solid var(--bord);border-radius:8px;padding:10px 12px}.acteurs h3{margin-top:0}
+.copier{position:sticky;top:0;z-index:2;display:flex;gap:12px;align-items:center;flex-wrap:wrap;
+background:var(--fond);padding:10px 0;margin-bottom:8px}
+button{font:inherit;font-weight:600;background:var(--accent);color:#fff;border:0;border-radius:8px;padding:9px 16px;cursor:pointer}
+@media (prefers-color-scheme:dark){button{color:#10141a}}
+textarea{width:100%;min-height:260px;font:13px/1.4 ui-monospace,Consolas,monospace;background:var(--src-fond);
+color:var(--texte);border:1px solid var(--bord);border-radius:6px;padding:8px}
+details{margin:.5em 0}summary{cursor:pointer;color:var(--accent)}
+.retour{font-size:.92rem;margin:0 0 4px}
+@media (max-width:600px){.grille{grid-template-columns:1fr}.grille dt{margin-top:6px}header,section{padding:14px}}
+</style></head>
+<body><main>
+<a class="bandeau" href="../index.html"><i aria-hidden="true"></i>Glaucoma Intelligence</a><nav class="retour"><a href="../index.html">Accueil</a> · <a href="../etudes.html">← Essais &amp; articles</a> · <a href="../recherche.html">Rechercher</a> · <a href="../carte.html">Carte des acteurs</a> · <a href="../alertes.html">Alertes</a></nav>
+<div class="copier"><button id="bouton-copier" type="button" onclick="copierFiche()">Copier pour Claude / ChatGPT</button>
+<small>Copie une consigne + les faits de cette fiche, à coller dans votre assistant.</small></div>
+
+    <header>
+      <p class="surtitre">Fiche article · PMID 43012868 · <a href="https://pubmed.ncbi.nlm.nih.gov/43012868/" target="_blank" rel="noopener">voir sur PubMed</a>
+         · <a href="https://doi.org/10.1080/09286586.2026.2713590" target="_blank" rel="noopener">DOI 10.1080/09286586.2026.2713590</a></p>
+      <h1 lang="en">Do Adjunctive Anti-scarring Agents Including Mitomycin-C Improve Glaucoma Tube Shunt Surgery: Systematic Review and Meta-analysis.</h1>
+      <p><span class="badge confirme">PUBLICATION — le résumé rapporte des résultats</span> <span class="badge verifier">Synthèse fondée UNIQUEMENT sur le résumé PubMed : le texte intégral n'a pas été lu.</span></p>
+      <dl class="grille">
+        <dt>Revue</dt><dd>Ophthalmic epidemiology</dd>
+        <dt>Entrée dans PubMed</dt><dd>2026-11-11 · publication : 2026-Nov-11</dd>
+        <dt>Type(s) de publication (PubMed)</dt><dd lang="en">Journal Article</dd>
+        <dt>Stade</dt><dd>Non renseigné <small>(pas d'indexation MeSH disponible)</small></dd>
+        <dt>Accès au texte (OpenAlex)</dt><dd>non rapporté</dd>
+        <dt>Détecté par l'outil le</dt><dd>2026-11-11</dd>
+      </dl>
+      <p class="rubriques"><strong>Rubrique :</strong> <span class="rubrique">Dispositifs et chirurgie</span> <small>mot du titre : « Shunt »; mot du titre : « Tube »; mot du titre : « Surgery »</small> <span class="badge regle">classement automatique — règles dans config/rubriques.ini</span></p>
+    </header>
+<section><h2>Question étudiée <span class="badge source">Résumé PubMed (texte source)</span></h2><blockquote lang="en"><strong>PURPOSE</strong> Adjunctive anti-scarring agents (ASAs), including mitomycin C (MMC), <mark>5</mark>-Fluorouracil (<mark>5</mark>FU), corticosteroids and vascular endothelial growth factor antagonists (anti-VEGF), aim to improve glaucoma tube shunt (GTS) surgery by attenuating peri-endplate fibrosis. While used in trabeculectomy, ASAs are less established in GTS surgery, leading to varied practices. This systematic review and meta-analysis evaluated their efficacy and safety.</blockquote></section><section><h2>Traitement ou technologie, et comparateur <span class="badge regle">règle automatique de l'outil</span></h2><ul><li><span class="manque">Aucun produit suivi ni molécule repérés automatiquement</span></li></ul><p class="def">Aucun rôle n'est confirmé : PubMed ne décrit pas les bras d'une étude. Un rôle pourrait être confirmé par le registre d'un essai lié de façon confirmée.</p></section><section><h2>Type d'étude et méthode <span class="badge source">Résumé PubMed (texte source)</span><span class="badge source">PubMed (types de publication)</span></h2><p>Type(s) de publication déclaré(s) par PubMed : <span lang="en">Journal Article</span></p><blockquote lang="en"><strong>METHODS</strong> Prospectively registered in PROSPERO (CRD <mark>4,202</mark>,<mark>236,526</mark>), MEDLINE, EMBASE, and CENTRAL were searched for randomised controlled trials (RCTs) and comparative cohort studies (CCSs) comparing ASA and non-ASA use in GTS surgery. Outcomes included changes in intra-ocular pressure (IOP), anti-glaucoma medications, re-operation, and complication rates between baseline and post-operative months <mark>3</mark>, <mark>6</mark>, and <mark>12</mark>.</blockquote></section><section><h2>Population et participants (phrases du résumé) <span class="badge source">Résumé PubMed (texte source)</span></h2><blockquote lang="en">Prospectively registered in PROSPERO (CRD <mark>4,202</mark>,<mark>236,526</mark>), MEDLINE, EMBASE, and CENTRAL were searched for randomised controlled trials (RCTs) and comparative cohort studies (CCSs) comparing ASA and non-ASA use in GTS surgery.</blockquote><blockquote lang="en">ASAs included MMC (n <mark>= 11</mark>/<mark>28</mark>), corticosteroids (n <mark>= 7</mark>/<mark>28</mark>), Anti-VEGF (n <mark>= 6</mark>/<mark>28</mark>), and <mark>5</mark>FU (n <mark>= 2</mark>/<mark>28</mark>).</blockquote></section><section><h2>Résultats disponibles <span class="badge source">Résumé PubMed (texte source)</span></h2><p class="def">Valeurs chiffrées surlignées telles qu'elles figurent dans le résumé. Elles n'ont pas été vérifiées dans le texte intégral.</p><blockquote lang="en"><strong>RESULTS</strong> <mark>28</mark> studies (n <mark>= 1621</mark> eyes) were included: <mark>12</mark> RCTs (n <mark>= 624</mark> eyes) and <mark>16</mark> CCSs (n <mark>= 997</mark> eyes). ASAs included MMC (n <mark>= 11</mark>/<mark>28</mark>), corticosteroids (n <mark>= 7</mark>/<mark>28</mark>), Anti-VEGF (n <mark>= 6</mark>/<mark>28</mark>), and <mark>5</mark>FU (n <mark>= 2</mark>/<mark>28</mark>). Two studies used dual agents. ASA did not affect post-operative IOP [pooled difference (PD) <mark>1.99 mmHg</mark>, <mark>1.06 mmHg</mark>, <mark>1.15 mmHg</mark> at month <mark>3</mark> (p <mark>= 0.059</mark>), <mark>6</mark> (p <mark>= 0.30</mark>), and <mark>12</mark> (p <mark>= 0.23</mark>), respectively]. ASA and MMC use resulted in fewer anti-glaucoma eyedrops required at month <mark>3</mark>, <mark>6</mark>, and <mark>12</mark> (PD <mark>= 0.56</mark>, <mark>0.42</mark>, <mark>0.49</mark>; p &lt; <mark>0.001</mark>, <mark>= 0.031</mark>, <mark>0.013</mark>); (PD <mark>= 0.76</mark>, <mark>0.73</mark>, <mark>0.73</mark>; p &lt; <mark>0.001</mark>, <mark>= 0.001</mark>, &lt; <mark>0.013</mark>), respectively. Both increased hypotony development risk (OR <mark>= 2.06</mark>, p <mark>= 0.001</mark>; OR <mark>= 2.27</mark>, p <mark>= 0.001</mark>). All other complication rates were similar (all p &gt; <mark>0.05</mark>). The re‑operative rate was lower with MMC (OR <mark>= 0.42</mark>, p <mark>= 0.007</mark>).</blockquote></section><section><h2>Données de tolérance (phrases du résumé) <span class="badge source">Résumé PubMed (texte source)</span></h2><blockquote lang="en">Outcomes included changes in intra-ocular pressure (IOP), anti-glaucoma medications, re-operation, and complication rates between baseline and post-operative months <mark>3</mark>, <mark>6</mark>, and <mark>12</mark>. <mark>28</mark> studies (n <mark>= 1621</mark> eyes) were included: <mark>12</mark> RCTs (n <mark>= 624</mark> eyes) and <mark>16</mark> CCSs (n <mark>= 997</mark> eyes).</blockquote><blockquote lang="en">All other complication rates were similar (all p &gt; <mark>0.05</mark>).</blockquote></section><section><h2>Conclusion des auteurs (citée telle quelle, non évaluée par l'outil) <span class="badge source">Résumé PubMed (texte source)</span></h2><blockquote lang="en"><strong>CONCLUSION</strong> ASAs, particularly MMC, reduced glaucoma medication burden at <mark>12</mark> months, but increased the risk of post-operative hypotony.</blockquote></section><section><h2>Essai clinique lié <span class="badge source">PubMed (DataBankList et texte)</span></h2><ul><li><span class="manque">Aucun essai lié identifié</span></li></ul></section><section><h2>Promoteur, financeur et affiliations <span class="badge source">PubMed</span><span class="badge source">OpenAlex</span><span class="badge source">Crossref</span></h2><div class="acteurs">
+      <div><h3>Promoteur d'essai</h3><p class="def">Organisme responsable d'un essai, déclaré au registre.</p><p><span class="manque">Non affiché : aucun essai lié de façon confirmée</span></p></div>
+      <div><h3>Financeur</h3><p class="def">Organisme qui a financé la recherche, avec la notice qui le justifie.</p><p><span class="manque">Aucun financeur trouvé (PubMed, OpenAlex, Crossref)</span></p></div>
+      <div><h3>Affiliations des auteurs</h3><p class="def">Établissements où travaillent les auteurs (pas un financement).</p><details><summary>Affiliations telles que déclarées dans PubMed (5)</summary><ul><li>Ministry of Health Holdings, Singapore.</li><li>Singapore Eye Research Institute, Singapore National Eye Centre, Singapore.</li><li>Department of Ophthalmology, National University Health System, Singapore.</li><li>Yong Loo Lin School of Medicine, National University of Singapore, Singapore.</li><li>Centre for Innovation and Precision Eye Health &amp; Department of Ophthalmology, Yong Loo Lin School of Medicine, National University of Singapore, Singapore.</li></ul></details></div>
+    </div></section>
+<section><h2>Ce qui manque <span class="badge regle">calculé par l'outil</span></h2><ul><li>financeur</li></ul></section>
+<section><h2>Limites, intérêt pour la veille marketing, à retenir <span class="badge attente">non produit par l'outil</span></h2><p><span class="manque">Non rédigé automatiquement : les données extraites ne suffisent pas à produire une analyse fiable sans interprétation. Utilisez le bouton « Copier pour Claude / ChatGPT » pour obtenir une proposition, à vérifier.</span></p></section>
+<section><details><summary>Voir le texte copié par le bouton</summary>
+<textarea id="a-copier" readonly>Tu es assistant de veille scientifique sur le glaucome. À partir UNIQUEMENT des informations ci-dessous, rédige en français une fiche de synthèse avec ces rubriques :
+1. Question étudiée
+2. Traitement ou technologie
+3. Type d&#x27;étude
+4. Population et nombre de participants
+5. Comparateur
+6. Critères évalués
+7. Principaux résultats chiffrés (recopie les valeurs exactes et indique leur source)
+8. Données de tolérance
+9. Limites
+10. Intérêt potentiel pour une veille marketing — présenté comme une INTERPRÉTATION, séparé des faits
+11. À retenir (une phrase)
+
+Règles :
+- N&#x27;invente rien. Si une information manque, écris « non rapporté ».
+- Distingue un essai simplement enregistré, un protocole, des résultats déposés dans un registre et une publication de résultats.
+- Si la source est seulement le résumé d&#x27;un article, indique que la synthèse repose uniquement sur ce résumé.
+- Les rôles « suggérés » (traitement étudié / comparateur) sont à vérifier dans le texte source.
+- Ne confonds pas promoteur d&#x27;essai, financeur et affiliation des auteurs.
+- Termine par la liste des points à vérifier.
+
+=== INFORMATIONS ===
+SOURCE : PubMed, PMID 43012868 — https://pubmed.ncbi.nlm.nih.gov/43012868/ · DOI https://doi.org/10.1080/09286586.2026.2713590
+BASE : résumé PubMed uniquement (texte intégral non lu)
+Titre : Do Adjunctive Anti-scarring Agents Including Mitomycin-C Improve Glaucoma Tube Shunt Surgery: Systematic Review and Meta-analysis.
+Revue : Ophthalmic epidemiology · entrée PubMed : 2026-11-11
+Types de publication (PubMed) : Journal Article
+Produits repérés automatiquement (rôles SUGGÉRÉS, à vérifier) : aucun
+Molécules hors liste (repérage automatique, à vérifier) : aucune
+Essai lié : aucun
+Financeurs : aucun trouvé
+Affiliations (institutions, pas des financeurs) : voir PubMed
+
+RÉSUMÉ (texte source) :
+PURPOSE: Adjunctive anti-scarring agents (ASAs), including mitomycin C (MMC), 5-Fluorouracil (5FU), corticosteroids and vascular endothelial growth factor antagonists (anti-VEGF), aim to improve glaucoma tube shunt (GTS) surgery by attenuating peri-endplate fibrosis. While used in trabeculectomy, ASAs are less established in GTS surgery, leading to varied practices. This systematic review and meta-analysis evaluated their efficacy and safety.
+METHODS: Prospectively registered in PROSPERO (CRD 4,202,236,526), MEDLINE, EMBASE, and CENTRAL were searched for randomised controlled trials (RCTs) and comparative cohort studies (CCSs) comparing ASA and non-ASA use in GTS surgery. Outcomes included changes in intra-ocular pressure (IOP), anti-glaucoma medications, re-operation, and complication rates between baseline and post-operative months 3, 6, and 12.
+RESULTS: 28 studies (n = 1621 eyes) were included: 12 RCTs (n = 624 eyes) and 16 CCSs (n = 997 eyes). ASAs included MMC (n = 11/28), corticosteroids (n = 7/28), Anti-VEGF (n = 6/28), and 5FU (n = 2/28). Two studies used dual agents. ASA did not affect post-operative IOP [pooled difference (PD) 1.99 mmHg, 1.06 mmHg, 1.15 mmHg at month 3 (p = 0.059), 6 (p = 0.30), and 12 (p = 0.23), respectively]. ASA and MMC use resulted in fewer anti-glaucoma eyedrops required at month 3, 6, and 12 (PD = 0.56, 0.42, 0.49; p &lt; 0.001, = 0.031, 0.013); (PD = 0.76, 0.73, 0.73; p &lt; 0.001, = 0.001, &lt; 0.013), respectively. Both increased hypotony development risk (OR = 2.06, p = 0.001; OR = 2.27, p = 0.001). All other complication rates were similar (all p &gt; 0.05). The re‑operative rate was lower with MMC (OR = 0.42, p = 0.007).
+CONCLUSION: ASAs, particularly MMC, reduced glaucoma medication burden at 12 months, but increased the risk of post-operative hypotony.</textarea></details></section>
+<p><small>Fiche générée le 2026-11-11 22:40 par Glaucoma Intelligence. Extraits des sources en langue originale.</small></p>
+</main><script>
+function copierFiche(){
+  var zone=document.getElementById('a-copier'), bouton=document.getElementById('bouton-copier');
+  function fait(){bouton.textContent='Copié ✓ — collez dans Claude ou ChatGPT';setTimeout(function(){bouton.textContent='Copier pour Claude / ChatGPT'},3000);}
+  function secours(){zone.parentElement.open=true;zone.select();try{document.execCommand('copy');fait();}
+    catch(err){bouton.textContent='Sélectionnez le texte ci-dessous puis Ctrl+C';}}
+  if(navigator.clipboard&&window.isSecureContext){navigator.clipboard.writeText(zone.value).then(fait,secours);}else{secours();}
+}
+</script></body></html>

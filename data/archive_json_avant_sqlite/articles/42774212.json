@@ -1,0 +1,148 @@
+{
+  "pmid": "42774212",
+  "premiere_detection": "2026-09-25",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42774212",
+    "titre": "Optimizing Ocular Surface Disease (OSD) Management in Patients with Glaucoma: Expert Strategies from Asia.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42774212/",
+    "doi": "10.2147/OPTH.S624778",
+    "pmcid": "PMC13593577",
+    "revue": "Clinical ophthalmology (Auckland, N.Z.)",
+    "date_entree_pubmed": "2026-09-23",
+    "date_publication": "2026",
+    "types_publication": [
+      "Journal Article"
+    ],
+    "resume_present": true,
+    "resume": "INTRODUCTION: Ocular surface disease (OSD) commonly affects glaucoma patients and can occur due to the disease itself and multiple contributing factors, such as the long-term use of preserved topical medications, thereby impacting adherence and treatment outcomes. In Asia, rising glaucoma burden and variability in regional guidelines underscore the need for a practical synthesis of current literature in the region. This review summarizes the OSD treatment landscape in Asia and proposes a pragmatic approach for identifying and managing concomitant OSD in patients with glaucoma.\nMATERIAL AND METHODS: Eight glaucoma specialists and a cornea expert representing eight Asian countries convened on 8th March 2025 at an industry‑sponsored expert meeting to discuss the current treatment landscape of concomitant OSD in glaucoma. A practical approach for identifying and managing concomitant OSD in glaucoma patients in daily clinics was subsequently developed based on published literature and expert input.\nRESULTS: Regional studies estimate high OSD prevalence among glaucoma patients, with country-level estimates ranging 32.1-99.1% based on symptoms or signs. Risk factors for OSD are similar between Asian and global populations, but Asian ethnicity is a recognized risk factor for dry eye disease. Regional and country-level guidelines for OSD are available but vary in terms of diagnostic criteria, and local awareness of OSD remains lacking. The 3-step approach (Step 1: Assess symptoms and risk factors, Step 2: Slit-lamp examination and staining, Step 3: Tailored management by severity) offers a pragmatic pathway for application in daily clinics.\nCONCLUSION: The proposed framework serves as a first step towards harmonizing OSD management in glaucoma patients across Asia, with the potential to enhance the quality of glaucoma care. Further validation of the framework, and increased consensus and awareness may help improve the management of OSD in Asia.",
+    "mots_cles_auteurs": [
+      "Asia",
+      "dry eye",
+      "epidemiology",
+      "glaucoma",
+      "ocular surface disease",
+      "patient care management"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 9,
+    "affiliations_auteurs": [
+      "Department of Ophthalmology, Faculty of Medicine, Chulalongkorn University, Bangkok, Thailand.",
+      "Cornerstone Eye Centre, Singapore, Singapore.",
+      "Department of Ophthalmology, Faculty of Medicine, Thammasat University, Bangkok, Thailand.",
+      "International Specialist Eye Center, Kuala Lumpur, Malaysia.",
+      "Department of Ophthalmology, National Taiwan University Hospital, Taipei, Taiwan.",
+      "Glaucoma Department, Vietnam National Eye Hospital, Hanoi, Vietnam.",
+      "Department of Ophthalmology, Universitas Indonesia - Cipto Mangunkusumo Hospital (RSCM Kirana), Jakarta, Indonesia.",
+      "Department of Ophthalmology, Korea University College of Medicine, Seoul, Republic of Korea.",
+      "Eye Institute, St. Luke's Medical Center, Taguig, Philippines."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7213423274",
+      "doi": "10.2147/opth.s624778",
+      "pmid": "42774212",
+      "pmcid": null,
+      "titre": "Optimizing Ocular Surface Disease (OSD) Management in Patients with Glaucoma: Expert Strategies from Asia",
+      "lien": "https://openalex.org/W7213423274",
+      "date_publication": "2026-09-01",
+      "type": "article",
+      "revue": "Clinical ophthalmology",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "doaj",
+        "pubmed"
+      ],
+      "financeurs": null,
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "Chulalongkorn University",
+          "pays": "TH",
+          "type": "education",
+          "ror": "https://ror.org/028wp3y58"
+        },
+        {
+          "nom": "Singapore National Eye Center",
+          "pays": "SG",
+          "type": "healthcare",
+          "ror": "https://ror.org/029nvrb94"
+        },
+        {
+          "nom": "Singapore Eye Research Institute",
+          "pays": "SG",
+          "type": "facility",
+          "ror": "https://ror.org/02crz6e12"
+        },
+        {
+          "nom": "Thammasat University",
+          "pays": "TH",
+          "type": "education",
+          "ror": "https://ror.org/002yp7f20"
+        },
+        {
+          "nom": "National Taiwan University Hospital",
+          "pays": "TW",
+          "type": "healthcare",
+          "ror": "https://ror.org/03nteze27"
+        },
+        {
+          "nom": "Vietnam National Children's Hospital",
+          "pays": "VN",
+          "type": "healthcare",
+          "ror": "https://ror.org/04qqcs583"
+        },
+        {
+          "nom": "Rumah Sakit Umum Pusat Nasional Dr. Cipto Mangunkusumo",
+          "pays": "ID",
+          "type": "healthcare",
+          "ror": "https://ror.org/05am7x020"
+        },
+        {
+          "nom": "Korea University",
+          "pays": "KR",
+          "type": "education",
+          "ror": "https://ror.org/047dqcg40"
+        },
+        {
+          "nom": "St. Luke's Medical Center",
+          "pays": "PH",
+          "type": "healthcare",
+          "ror": "https://ror.org/02h4kdd20"
+        }
+      ],
+      "acces_ouvert": true,
+      "statut_acces": "gold",
+      "url_texte": "https://doi.org/10.2147/opth.s624778",
+      "url_pdf": null,
+      "licence": "cc-by-nc",
+      "texte_integral_indexe": false,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Ocular Surface and Contact Lens",
+      "resume_present": true,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-09-25",
+    "financements": []
+  }
+}

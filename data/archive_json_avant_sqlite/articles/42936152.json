@@ -1,0 +1,200 @@
+{
+  "pmid": "42936152",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42936152",
+    "titre": "Retinal neurodegeneration as accelerated ocular aging: a review of nutritional and metabolic supplements.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42936152/",
+    "doi": "10.3389/fragi.2026.1912337",
+    "pmcid": "PMC13696920",
+    "revue": "Frontiers in aging",
+    "date_entree_pubmed": "2026-10-27",
+    "date_publication": "2026",
+    "types_publication": [
+      "Journal Article",
+      "Review"
+    ],
+    "resume_present": true,
+    "resume": "Retinal neurodegeneration is a major cause of irreversible vision loss and a shared feature of age-related macular degeneration (AMD), diabetic retinopathy (DR), and glaucoma (GL). Increasing evidence suggests that these conditions share important pathways with retinal aging, including mitochondrial dysfunction, metabolic insufficiency, redox imbalance, chronic low-grade inflammation, and progressive neuronal vulnerability. While antioxidant and micronutrient supplementation, most notably the Age-Related Eye Disease Study (AREDS) formulations, has demonstrated benefit in selected AMD populations, emerging metabolic and nutraceutical strategies targeting aging-related pathways are of unproven benefit. In this review, following a brief overview of the current landscape of investigated supplements, we synthesize preclinical and clinical evidence for a group of metabolic supplements, including nicotinamide adenine dinucleotide (NAD+) boosters, citicoline, pyruvate, and omega-3 fatty acids, that directly modulate mitochondrial bioenergetics, cellular redox state, membrane integrity, and neuroinflammatory signaling-pathways that are recognized hallmarks of biological aging and are particularly relevant to aging-related processes implicated in retinal neurodegeneration. Using a structured literature and clinical trial search, we summarize mechanistic insights and translational findings across AMD, DR, and glaucoma, emphasizing convergence on core pathways linking retinal neurodegeneration and ocular aging. Overall, current evidence supports biological plausibility and early functional or biomarker signals for these agents, particularly in glaucoma and diabetic retinal disease, although long-term efficacy remains unproven. Framing retinal disease at the intersection of neurodegeneration and aging biology, this review highlights metabolic supplementation as a promising but evolving strategy for preserving retinal function.",
+    "mots_cles_auteurs": [
+      "age-related macular degeneration",
+      "diabetic retinopathy",
+      "glaucoma",
+      "mitochondrial dysfunction",
+      "neuroprotection",
+      "nicotinamide adenine dinucleotide (NAD+)",
+      "retinal aging"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 14,
+    "affiliations_auteurs": [
+      "Massachusetts Eye and Ear Infirmary, Boston, MA, United States.",
+      "Department of Integrative Pathophysiology and Therapies, Andalusian Molecular Biology and Regenerative Medicine Centre (CABIMER), Seville, Spain.",
+      "Department of Ophthalmology, Harvard Medical School, Boston, MA, United States.",
+      "University of Tulsa, Tulsa, OK, United States.",
+      "Harvard Medical School, Boston, MA, United States.",
+      "Saint Louis University, St. Louis, MO, United States.",
+      "Department of Ophthalmology, Virgen Macarena University Hospital, Sevilla, Spain."
+    ],
+    "financeurs_declares": [
+      {
+        "organisme": "NEI NIH HHS",
+        "pays": "United States",
+        "reference": "P30 EY003790"
+      }
+    ],
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7165112275",
+      "doi": "10.3389/fragi.2026.1912337",
+      "pmid": "42936152",
+      "pmcid": "13696920",
+      "titre": "Retinal neurodegeneration as accelerated ocular aging: a review of nutritional and metabolic supplements",
+      "lien": "https://openalex.org/W7165112275",
+      "date_publication": "2026-10-12",
+      "type": "review",
+      "revue": "Frontiers in Aging",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "datacite",
+        "doaj",
+        "pubmed"
+      ],
+      "financeurs": [
+        {
+          "nom": "National Institutes of Health",
+          "ror": "https://ror.org/01cwqze88"
+        },
+        {
+          "nom": "National Eye Institute",
+          "ror": "https://ror.org/03wkg3b53"
+        }
+      ],
+      "subventions": [
+        {
+          "financeur": "National Eye Institute",
+          "reference": "P30EY003790"
+        }
+      ],
+      "institutions": [
+        {
+          "nom": "Massachusetts Eye and Ear Infirmary",
+          "pays": "US",
+          "type": "healthcare",
+          "ror": "https://ror.org/04g3dn724"
+        },
+        {
+          "nom": "Harvard University",
+          "pays": "US",
+          "type": "education",
+          "ror": "https://ror.org/03vek6s52"
+        },
+        {
+          "nom": "Centro Andaluz de Biología Molecular y Medicina Regenerativa",
+          "pays": "ES",
+          "type": "facility",
+          "ror": "https://ror.org/03nb7bx92"
+        },
+        {
+          "nom": "University of Tulsa",
+          "pays": "US",
+          "type": "education",
+          "ror": "https://ror.org/04wn28048"
+        },
+        {
+          "nom": "Saint Louis University",
+          "pays": "US",
+          "type": "education",
+          "ror": "https://ror.org/01p7jjy08"
+        },
+        {
+          "nom": "Hospital Universitario Virgen Macarena",
+          "pays": "ES",
+          "type": "healthcare",
+          "ror": "https://ror.org/016p83279"
+        }
+      ],
+      "acces_ouvert": true,
+      "statut_acces": "gold",
+      "url_texte": "https://www.frontiersin.org/journals/aging/articles/10.3389/fragi.2026.1912337/pdf",
+      "url_pdf": "https://www.frontiersin.org/journals/aging/articles/10.3389/fragi.2026.1912337/pdf",
+      "licence": "cc-by",
+      "texte_integral_indexe": true,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Retinal Diseases and Treatments",
+      "resume_present": true,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": [
+      {
+        "nom": "NEI NIH HHS",
+        "statut": "CONFIRMÉ — déclaré dans la notice PubMed (GrantList)",
+        "references": [
+          "P30 EY003790"
+        ],
+        "notices": [
+          [
+            "notice PubMed",
+            "https://pubmed.ncbi.nlm.nih.gov/42936152/?format=pubmed"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "National Institutes of Health",
+        "statut": "À VÉRIFIER — trouvé par OpenAlex seulement (l'éditeur n'a déclaré aucun financeur dans Crossref) ; à contrôler dans le texte de l'article",
+        "references": null,
+        "notices": [
+          [
+            "notice OpenAlex",
+            "https://api.openalex.org/works/W7165112275"
+          ],
+          [
+            "notice Crossref consultée (ne confirme pas ce financeur)",
+            "https://api.crossref.org/works/10.3389/fragi.2026.1912337"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "National Eye Institute",
+        "statut": "À VÉRIFIER — trouvé par OpenAlex seulement (l'éditeur n'a déclaré aucun financeur dans Crossref) ; à contrôler dans le texte de l'article",
+        "references": [
+          "P30EY003790"
+        ],
+        "notices": [
+          [
+            "notice OpenAlex",
+            "https://api.openalex.org/works/W7165112275"
+          ],
+          [
+            "notice Crossref consultée (ne confirme pas ce financeur)",
+            "https://api.crossref.org/works/10.3389/fragi.2026.1912337"
+          ]
+        ],
+        "note": null
+      }
+    ]
+  }
+}

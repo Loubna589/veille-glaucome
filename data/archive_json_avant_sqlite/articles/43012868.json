@@ -1,0 +1,59 @@
+{
+  "pmid": "43012868",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "43012868",
+    "titre": "Do Adjunctive Anti-scarring Agents Including Mitomycin-C Improve Glaucoma Tube Shunt Surgery: Systematic Review and Meta-analysis.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/43012868/",
+    "doi": "10.1080/09286586.2026.2713590",
+    "pmcid": null,
+    "revue": "Ophthalmic epidemiology",
+    "date_entree_pubmed": "2026-11-11",
+    "date_publication": "2026-Nov-11",
+    "types_publication": [
+      "Journal Article"
+    ],
+    "resume_present": true,
+    "resume": "PURPOSE: Adjunctive anti-scarring agents (ASAs), including mitomycin C (MMC), 5-Fluorouracil (5FU), corticosteroids and vascular endothelial growth factor antagonists (anti-VEGF), aim to improve glaucoma tube shunt (GTS) surgery by attenuating peri-endplate fibrosis. While used in trabeculectomy, ASAs are less established in GTS surgery, leading to varied practices. This systematic review and meta-analysis evaluated their efficacy and safety.\nMETHODS: Prospectively registered in PROSPERO (CRD 4,202,236,526), MEDLINE, EMBASE, and CENTRAL were searched for randomised controlled trials (RCTs) and comparative cohort studies (CCSs) comparing ASA and non-ASA use in GTS surgery. Outcomes included changes in intra-ocular pressure (IOP), anti-glaucoma medications, re-operation, and complication rates between baseline and post-operative months 3, 6, and 12.\nRESULTS: 28 studies (n = 1621 eyes) were included: 12 RCTs (n = 624 eyes) and 16 CCSs (n = 997 eyes). ASAs included MMC (n = 11/28), corticosteroids (n = 7/28), Anti-VEGF (n = 6/28), and 5FU (n = 2/28). Two studies used dual agents. ASA did not affect post-operative IOP [pooled difference (PD) 1.99 mmHg, 1.06 mmHg, 1.15 mmHg at month 3 (p = 0.059), 6 (p = 0.30), and 12 (p = 0.23), respectively]. ASA and MMC use resulted in fewer anti-glaucoma eyedrops required at month 3, 6, and 12 (PD = 0.56, 0.42, 0.49; p < 0.001, = 0.031, 0.013); (PD = 0.76, 0.73, 0.73; p < 0.001, = 0.001, < 0.013), respectively. Both increased hypotony development risk (OR = 2.06, p = 0.001; OR = 2.27, p = 0.001). All other complication rates were similar (all p > 0.05). The re‑operative rate was lower with MMC (OR = 0.42, p = 0.007).\nCONCLUSION: ASAs, particularly MMC, reduced glaucoma medication burden at 12 months, but increased the risk of post-operative hypotony.",
+    "mots_cles_auteurs": [
+      "5-Fluorouracil",
+      "adjunct",
+      "anti-scarring agents",
+      "bevacizumab",
+      "corticosteroids",
+      "glaucoma",
+      "glaucoma tube surgery",
+      "mitomycin C",
+      "systematic review and meta-analysis",
+      "vascular endothelial growth factor antagonists"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 8,
+    "affiliations_auteurs": [
+      "Ministry of Health Holdings, Singapore.",
+      "Singapore Eye Research Institute, Singapore National Eye Centre, Singapore.",
+      "Department of Ophthalmology, National University Health System, Singapore.",
+      "Yong Loo Lin School of Medicine, National University of Singapore, Singapore.",
+      "Centre for Innovation and Precision Eye Health & Department of Ophthalmology, Yong Loo Lin School of Medicine, National University of Singapore, Singapore."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    }
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "pmid": "42770458",
+  "premiere_detection": "2026-09-25",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42770458",
+    "titre": "Direct selective Laser trabeculoplasty in the management of glaucoma: The first systematic review and meta-analysis.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42770458/",
+    "doi": "10.1177/11206721261488444",
+    "pmcid": null,
+    "revue": "European journal of ophthalmology",
+    "date_entree_pubmed": "2026-09-22",
+    "date_publication": "2026-Sep-22",
+    "types_publication": [
+      "Journal Article",
+      "Review"
+    ],
+    "resume_present": true,
+    "resume": "BackgroundGlaucoma management heavily relies on controlling intraocular pressure (IOP). While selective laser trabeculoplasty (SLT) is a standard first-line therapy, its contact-based approach requires gonioscopy, which demands specialized skills and introduces minor corneal risks. Direct selective laser trabeculoplasty (DSLT) has emerged as an automated, non-contact evolution.MethodsA comprehensive search across five databases was conducted up to March 2026 for randomized controlled trials and non-randomized studies. Primary outcomes were mean absolute IOP reduction and treatment success (>20% IOP reduction). Secondary outcomes included reductions in medication burden and adverse events. Mean differences (MD), risk ratios (RR), and proportions were pooled using a random-effects model.ResultsSeven studies involving 341 patients (446 eyes) were included. In single-arm analyses, DSLT achieved a significant reduction in IOP (Mean Change: -4.35 mmHg, 95% CI [-5.17, -3.53]; p < 0.001) and medication burden (Mean Change: -0.57 drops; p < 0.001), with an overall treatment success rate of 60% (p = 0.001). In pairwise comparisons, DSLT demonstrated comparable efficacy to conventional SLT, with no significant differences in IOP reduction or treatment success. Regarding safety, DSLT showed low rates of severe complications, including corneal changes (1%) and IOP spikes (1%). While transient subconjunctival hemorrhage was frequently associated with translimbal delivery, it was self-limiting.ConclusionDSLT appears to be a promising non-contact procedure, with reductions in IOP and medication use; however, current evidence remains preliminary and largely non-randomized. Also, limited comparative data did not show significant differences compared with SLT. Larger randomized trials are needed before firm clinical recommendations can be made.",
+    "mots_cles_auteurs": [
+      "DSLT",
+      "glaucoma",
+      "intraocular pressure",
+      "laser therapy.",
+      "ocular hypertension"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 12,
+    "affiliations_auteurs": [
+      "Department of Ophthalmology, Kuwait Institute for Medical Specialization, Kuwait City, Al Asimah, Kuwait.",
+      "College of Medicine and Medical Sciences, Arabian Gulf University, Manama, Kingdom of Bahrain.",
+      "Department of Surgery, Royal College of Surgeons in Ireland, Dublin, Ireland.",
+      "College of Medicine, Kuwait University, Kuwait City, Kuwait."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": [
+        "subconjunctival"
+      ],
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7213983408",
+      "doi": "10.1177/11206721261488444",
+      "pmid": "42770458",
+      "pmcid": null,
+      "titre": "Direct selective Laser trabeculoplasty in the management of glaucoma: The first systematic review and meta-analysis",
+      "lien": "https://openalex.org/W7213983408",
+      "date_publication": "2026-09-22",
+      "type": "review",
+      "revue": "European Journal of Ophthalmology",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "pubmed"
+      ],
+      "financeurs": null,
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "Kuwait Institute for Medical Specialization",
+          "pays": "KW",
+          "type": "facility",
+          "ror": "https://ror.org/01tt4qx37"
+        },
+        {
+          "nom": "Arabian Gulf University",
+          "pays": "BH",
+          "type": "education",
+          "ror": "https://ror.org/04gd4wn47"
+        },
+        {
+          "nom": "Royal College of Surgeons in Ireland",
+          "pays": "IE",
+          "type": "education",
+          "ror": "https://ror.org/01hxy9878"
+        },
+        {
+          "nom": "Kuwait University",
+          "pays": "KW",
+          "type": "education",
+          "ror": "https://ror.org/021e5j056"
+        }
+      ],
+      "acces_ouvert": false,
+      "statut_acces": "closed",
+      "url_texte": null,
+      "url_pdf": null,
+      "licence": null,
+      "texte_integral_indexe": false,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Glaucoma and retinal disorders",
+      "resume_present": true,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-09-25",
+    "financements": []
+  }
+}

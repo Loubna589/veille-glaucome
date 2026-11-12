@@ -1,0 +1,108 @@
+{
+  "nct": "NCT07903454",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "nct": "NCT07903454",
+    "titre": "Anterior Segment Anatomy Assessed by Swept-Source OCT in Ocular Surgery Patients",
+    "titre_officiel": "Ocular Anatomical Parameters in Patients Undergoing Anterior Segment Surgery Based on Swept-Source Optical Coherence Tomography: An Observational Study",
+    "lien": "https://clinicaltrials.gov/study/NCT07903454",
+    "date_premiere_publication": "2026-10-29",
+    "date_derniere_mise_a_jour": "2026-10-29",
+    "type_etude": "OBSERVATIONAL",
+    "phases_declarees": null,
+    "statut": "RECRUITING",
+    "raison_arret": null,
+    "date_debut": "2026-05-01",
+    "date_fin_principale": "2028-03-31",
+    "promoteur": "Nanfang Hospital, Southern Medical University",
+    "type_promoteur": "OTHER",
+    "collaborateurs": null,
+    "conditions": [
+      "Cataract",
+      "Primary Angle-Closure Glaucoma"
+    ],
+    "interventions": [
+      {
+        "type": "DIAGNOSTIC_TEST",
+        "nom": "Ocular anatomical parameters will be measured using a swept-source optical coherence tomography (SS-OCT) device (CASIA2; Tomey Corporation, Nagoya, Japan). The imaging examination will be used to asse"
+      }
+    ],
+    "participants_nombre": 500,
+    "participants_type": "ESTIMATED",
+    "criteres_principaux": [
+      {
+        "critere": "Change in Anterior Chamber Depth (ACD)",
+        "delai": "Preoperative baseline; postoperative day 1, week 1, month 1, and month 3"
+      },
+      {
+        "critere": "Change in Anterior Chamber Width (ACW)",
+        "delai": "Preoperative baseline; postoperative day 1, week 1, month 1, and month 3"
+      },
+      {
+        "critere": "Change in Anterior Chamber Volume (ACV)",
+        "delai": "Preoperative baseline; postoperative day 1, week 1, month 1, and month 3"
+      },
+      {
+        "critere": "Change in Angle Opening Distance at 500 μm (AOD500)",
+        "delai": "Preoperative baseline; postoperative day 1, week 1, month 1, and month 3"
+      },
+      {
+        "critere": "Change in Trabecular-Iris Space Area at 500 μm (TISA500)",
+        "delai": "Preoperative baseline; postoperative day 1, week 1, month 1, and month 3"
+      },
+      {
+        "critere": "Change in Trabecular-Iris Angle at 500 μm (TIA500)",
+        "delai": "Preoperative baseline; postoperative day 1, week 1, month 1, and month 3"
+      },
+      {
+        "critere": "Change in Iris Curvature (IC)",
+        "delai": "Preoperative baseline; postoperative day 1, week 1, month 1, and month 3"
+      }
+    ],
+    "resultats_deposes": false,
+    "publications_declarees": null,
+    "resume_source": "This observational study aims to evaluate ocular anatomical parameters in patients undergoing anterior segment surgery using swept-source optical coherence tomography (SS-OCT).\n\nAnterior segment surgery, including procedures involving the cornea, lens, and other anterior eye structures, may be associated with changes in ocular anatomy. SS-OCT is a non-invasive imaging technique that provides detailed images of the anterior structures of the eye and allows quantitative assessment of ocular anatomical parameters.\n\nPatients undergoing anterior segment surgery at Nanfang Hospital, Southern Medical University, will be included in this study. SS-OCT will be used to assess ocular anatomical parameters, and the collected measurements will be analyzed to characterize anatomical features and explore potential differences among patients undergoing different types of anterior segment surgery.\n\nThe findings of this study may improve understanding of ocular anatomical characteristics in patients undergoing anterior segment surgery and provide useful information for clinical assessment and surgical management.",
+    "citations_declarees": null,
+    "plan": {
+      "repartition": null,
+      "modele": null,
+      "but_principal": null,
+      "insu": null,
+      "insu_pour": null,
+      "insu_description": null,
+      "modele_observationnel": "COHORT"
+    },
+    "bras": [
+      {
+        "libelle": "Patients Undergoing Anterior Segment Surgery",
+        "type": null,
+        "description": "Patients undergoing anterior segment surgery will be enrolled in this observational study. Ocular anatomical parameters will be assessed using swept-source optical coherence tomography (SS-OCT). Surgical treatment will be determined according to routine clinical practice, without assignment of treatment interventions by the study protocol.",
+        "interventions": [
+          "Diagnostic Test: Ocular anatomical parameters will be measured using a swept-source optical coherence tomography (SS-OCT) device (CASIA2; Tomey Corporation, Nagoya, Japan). The imaging examination will be used to asse"
+        ]
+      }
+    ],
+    "eligibilite": {
+      "criteres": "Inclusion Criteria:\n\n* Voluntary provision of written informed consent.\n* 18≤Age≤90 years.\n* Patients diagnosed by an ophthalmologist with cataract, primary angle-closure disease, or other anterior segment disorders requiring anterior segment surgery.\n* Availability of complete or accessible preoperative and postoperative clinical records and ophthalmic examination data.\n\nExclusion Criteria:\n\n* Follow-up duration of less than 3 months.\n* Substantial missing ophthalmic examination or perioperative data that prevents the required study analyses.\n* Inability to obtain valid anterior segment imaging data due to severe corneal opacity, poor ocular fixation, inadequate cooperation, or other related factors.\n* Presence of severe ocular trauma, intraocular tumors, severe corneal disease, active intraocular inflammation, or other ocular conditions that may substantially affect anterior segment structural assessment.\n* History of complex intraocular surgery that may significantly alter anterior segment anatomy and is considered unsuitable for inclusion by the investigator.\n* Other conditions considered by the investigator to make the patient unsuitable for participation in the study.",
+      "age_min": "18 Years",
+      "age_max": "90 Years",
+      "sexe": "ALL",
+      "volontaires_sains": null
+    },
+    "criteres_secondaires": [
+      {
+        "critere": "Correlation Between Preoperative Ocular Biometric Parameters and Postoperative Visual Acuity",
+        "delai": "Preoperative baseline; postoperative day 1, week 1, month 1, and month 3"
+      },
+      {
+        "critere": "Correlation Between Preoperative Ocular Biometric Parameters and Postoperative Spherical Equivalent Refraction",
+        "delai": "Preoperative baseline; postoperative day 1, week 1, month 1, and month 3"
+      }
+    ],
+    "responsables": null,
+    "date_depot_resultats": null,
+    "resultats": null
+  },
+  "modifications": []
+}

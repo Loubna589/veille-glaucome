@@ -1,0 +1,244 @@
+{
+  "nct": "NCT05235321",
+  "premiere_detection": "2026-09-25",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "nct": "NCT05235321",
+    "titre": "Automated Applanation Tonometry",
+    "titre_officiel": "Automated Applanation Tonometry",
+    "lien": "https://clinicaltrials.gov/study/NCT05235321",
+    "date_premiere_publication": "2022-02-11",
+    "date_derniere_mise_a_jour": "2026-09-11",
+    "type_etude": "INTERVENTIONAL",
+    "phases_declarees": [
+      "NA"
+    ],
+    "statut": "TERMINATED",
+    "raison_arret": "device updates needed",
+    "date_debut": "2022-11-21",
+    "date_fin_principale": "2024-05-31",
+    "promoteur": "Duke University",
+    "type_promoteur": "OTHER",
+    "collaborateurs": null,
+    "conditions": [
+      "Glaucoma",
+      "Glaucoma, Suspect"
+    ],
+    "interventions": [
+      {
+        "type": "DEVICE",
+        "nom": "Standard GAT"
+      },
+      {
+        "type": "DEVICE",
+        "nom": "Fixed force GAT"
+      },
+      {
+        "type": "DEVICE",
+        "nom": "Upright applanating prototype"
+      },
+      {
+        "type": "DEVICE",
+        "nom": "Supine Applanating Prototype"
+      }
+    ],
+    "participants_nombre": 118,
+    "participants_type": "ACTUAL",
+    "criteres_principaux": [
+      {
+        "critere": "Intraocular Pressure (IOP)",
+        "delai": "Single study visit, approximately 20 minutes"
+      }
+    ],
+    "resultats_deposes": true,
+    "publications_declarees": null,
+    "resume_source": "Goldmann Applanation Tonometry (GAT) is considered the clinical gold standard for eye pressure measurements and yet it is known to be a subjective measurement with limited repeatability and limited portability. The purpose of this study is to develop an automated and objective method for performing applanation tonometry using standard ophthalmic equipment as well as using 2 portable prototypes.",
+    "citations_declarees": null,
+    "plan": {
+      "repartition": "RANDOMIZED",
+      "modele": "PARALLEL",
+      "but_principal": "DIAGNOSTIC",
+      "insu": "NONE",
+      "insu_pour": null,
+      "insu_description": null,
+      "modele_observationnel": null
+    },
+    "bras": [
+      {
+        "libelle": "Standard GAT",
+        "type": "ACTIVE_COMPARATOR",
+        "description": "This is the standard method for IOP measurement in clinical practice",
+        "interventions": [
+          "Device: Standard GAT"
+        ]
+      },
+      {
+        "libelle": "Fixed-force GAT",
+        "type": "EXPERIMENTAL",
+        "description": "From the patient perspective, this method will feel identical to the standard GAT. The eye is given topical fluorescein/anesthetic. The GAT dial is set at 1.8 or 2.0, a C-MOS camera is connected to one of the oculars of the slit lamp machine and under blue light illumination, the GAT prism contacts the eye while the CMOS camera makes a video of the mire appearance through the ocular. The diameters of the recorded mire images are measured and the IOP is calculated based on the mire diameter",
+        "interventions": [
+          "Device: Fixed force GAT"
+        ]
+      },
+      {
+        "libelle": "Upright applanating prototype",
+        "type": "EXPERIMENTAL",
+        "description": "With this prototype, an applanating prism (custom manufactured with medical grade acrylic in an ISO-13485 certified facility) is attached to a fixed-force spring that creates a force equivalent to 1.8 or 2.0 on the GAT dial. Blue LED lights on the prototype are used to create the blue illumination similar to the blue light used in clinical practice on the slit lamp or Perkins tonometer. A C-MOS camera is aligned with the GAT prism to image the applanation mires. The eye is given topical fluorescein/anesthetic. Like fixed-force GAT, the GAT prism contacts the eye while the CMOS camera makes a video of the mire appearance. The diameters of the recorded mire images are measured and the IOP is calculated based on the mire diameter",
+        "interventions": [
+          "Device: Upright applanating prototype"
+        ]
+      },
+      {
+        "libelle": "Supine Applanating Prototype",
+        "type": "EXPERIMENTAL",
+        "description": "With this method, a 5 gram clear acrylic cylinder (custom manufactured with medical grade acrylic in an ISO-13485 certified facility) is aligned with the lens of the CMOS camera and the distal tip of the cylinder is illuminated with blue light using an LED similar to the blue light used in clinical practice on the slit lamp or Perkins tonometer. The eye is given topical fluorescein/anesthetic. While the CMOS camera is recording, the 5 gram weight will rest upon the eye and circular applanation mires are recorded. The diameters of the recorded mire images are measured and the IOP is calculated based on the mire diameter",
+        "interventions": [
+          "Device: Supine Applanating Prototype"
+        ]
+      }
+    ],
+    "eligibilite": {
+      "criteres": "Inclusion Criteria:\n\n* Presenting for a routine eye exam\n* ≥ 18 years of age\n* Able and willing to give consent\n\nExclusion Criteria:\n\n* History of corneal scarring\n* Active infection of the eye",
+      "age_min": "18 Years",
+      "age_max": null,
+      "sexe": "ALL",
+      "volontaires_sains": false
+    },
+    "criteres_secondaires": null,
+    "responsables": [
+      {
+        "nom": "Joanne Wen, MD",
+        "affiliation": "Duke Eye Center",
+        "role": "PRINCIPAL_INVESTIGATOR"
+      }
+    ],
+    "date_depot_resultats": "2026-09-11",
+    "resultats": {
+      "flux_participants": [
+        {
+          "etape": "STARTED",
+          "par_groupe": [
+            {
+              "groupe": "Standard GAT (Goldmann Applanation Tonometry)",
+              "nombre": "118"
+            },
+            {
+              "groupe": "Fixed-force GAT (Goldmann Applanation Tonometry)",
+              "nombre": "0"
+            },
+            {
+              "groupe": "Upright Applanating Prototype",
+              "nombre": "0"
+            }
+          ]
+        },
+        {
+          "etape": "COMPLETED",
+          "par_groupe": [
+            {
+              "groupe": "Standard GAT (Goldmann Applanation Tonometry)",
+              "nombre": "118"
+            },
+            {
+              "groupe": "Fixed-force GAT (Goldmann Applanation Tonometry)",
+              "nombre": "0"
+            },
+            {
+              "groupe": "Upright Applanating Prototype",
+              "nombre": "0"
+            }
+          ]
+        },
+        {
+          "etape": "NOT COMPLETED",
+          "par_groupe": [
+            {
+              "groupe": "Standard GAT (Goldmann Applanation Tonometry)",
+              "nombre": "0"
+            },
+            {
+              "groupe": "Fixed-force GAT (Goldmann Applanation Tonometry)",
+              "nombre": "0"
+            },
+            {
+              "groupe": "Upright Applanating Prototype",
+              "nombre": "0"
+            }
+          ]
+        }
+      ],
+      "criteres": [
+        {
+          "type": "PRIMARY",
+          "titre": "Intraocular Pressure (IOP)",
+          "description": "Intraocular pressure (IOP) as measured by Standard GAT, Fixed-force GAT, and Upright Applanating Prototype.",
+          "delai": "Single study visit, approximately 20 minutes",
+          "parametre": "MEAN",
+          "dispersion_type": "Standard Deviation",
+          "unite": "mmHg",
+          "population": "All 118 participants had IOP measured with standard GAT, Fixed-force GAT and the Upright Applanation prototype but due to prototype modifications, changes to recording parameters and image analysis techniques, 50 participants were fully analyzed for IOP by Fixed-force GAT and 32 were fully analyzed for the upright applanating prototype.",
+          "valeurs": [
+            {
+              "groupe": "Standard GAT (Goldmann Applanation Tonometry)",
+              "sous_groupe": null,
+              "valeur": "15.00",
+              "dispersion": "4.00",
+              "borne_basse": null,
+              "borne_haute": null,
+              "effectif_analyse": "118"
+            },
+            {
+              "groupe": "Fixed-force GAT (Goldmann Applanation Tonometry)",
+              "sous_groupe": null,
+              "valeur": "16.30",
+              "dispersion": "3.10",
+              "borne_basse": null,
+              "borne_haute": null,
+              "effectif_analyse": "50"
+            },
+            {
+              "groupe": "Upright Applanating Prototype",
+              "sous_groupe": null,
+              "valeur": "16.95",
+              "dispersion": "4.83",
+              "borne_basse": null,
+              "borne_haute": null,
+              "effectif_analyse": "32"
+            }
+          ],
+          "analyses": null
+        }
+      ],
+      "evenements_indesirables": {
+        "periode": "Single study visit, approximately 20 minutes",
+        "seuil_frequence_pct": "0",
+        "par_groupe": [
+          {
+            "groupe": "Standard GAT (Goldmann Applanation Tonometry)",
+            "exposes": 118,
+            "graves": 0,
+            "autres": 0,
+            "deces": 0
+          },
+          {
+            "groupe": "Fixed-force GAT (Goldmann Applanation Tonometry)",
+            "exposes": 118,
+            "graves": 0,
+            "autres": 0,
+            "deces": 0
+          },
+          {
+            "groupe": "Upright Applanating Prototype",
+            "exposes": 118,
+            "graves": 0,
+            "autres": 0,
+            "deces": 0
+          }
+        ],
+        "graves": null,
+        "autres": null
+      }
+    }
+  },
+  "modifications": []
+}

@@ -1,0 +1,100 @@
+{
+  "nct": "NCT07413614",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "nct": "NCT07413614",
+    "titre": "The Acute Effect of Exercise Type And Timing on Ambulatory Blood Pressure and Intra-Ocular Pressure in Individuals With Glaucoma (The ACHIEVE-project).",
+    "titre_officiel": "The ACHIEVE-project: Advancing Cardiovascular and Ocular Health In Eye Patients. The Acute Effect of Exercise Type And Timing on Ambulatory Blood Pressure and Intra-Ocular Pressure in Individuals With Glaucoma.",
+    "lien": "https://clinicaltrials.gov/study/NCT07413614",
+    "date_premiere_publication": "2026-02-17",
+    "date_derniere_mise_a_jour": "2026-10-29",
+    "type_etude": "INTERVENTIONAL",
+    "phases_declarees": [
+      "NA"
+    ],
+    "statut": "RECRUITING",
+    "raison_arret": null,
+    "date_debut": "2026-07-31",
+    "date_fin_principale": "2027-03",
+    "promoteur": "KU Leuven",
+    "type_promoteur": "OTHER",
+    "collaborateurs": [
+      "Universitaire Ziekenhuizen KU Leuven",
+      "Research Foundation Flanders"
+    ],
+    "conditions": [
+      "Glaucoma Open-Angle Primary",
+      "Hypertension",
+      "Elevated Blood Pressure"
+    ],
+    "interventions": [
+      {
+        "type": "BEHAVIORAL",
+        "nom": "Exercise"
+      }
+    ],
+    "participants_nombre": 60,
+    "participants_type": "ESTIMATED",
+    "criteres_principaux": [
+      {
+        "critere": "24 hours Ambulatory blood pressure",
+        "delai": "During the 24-hour period beginning immediately after completion of each of the four experimental sessions."
+      }
+    ],
+    "resultats_deposes": false,
+    "publications_declarees": null,
+    "resume_source": "ACHIEVE aims to determine whether exercise can be a safe and effective non-drug approach to improve blood pressure control in patients with primary open-angle glaucoma (POAG). Although exercise is a promising and potentially well-accepted therapy, its use in clinical care is limited because the safety and effectiveness of different exercise types (aerobic, isometric, moderate, or high intensity) and timing (morning versus evening) have not been systematically studied in people with POAG and elevated blood pressure.\n\nThis study will evaluate the safety and short-term effects of different exercise modalities and timings on 24-hour ambulatory blood pressure and blood pressure variability in patients with POAG and elevated blood pressure.\n\nIt is hypothesized that:\n\n* Each exercise session will lead to a temporary reduction in blood pressure (post-exercise hypotension).\n* The greatest and longest-lasting reduction will occur after high-intensity aerobic exercise performed in the morning.\n\nIt is also expected that all exercise types and timings will be safe for participants.",
+    "citations_declarees": null,
+    "plan": {
+      "repartition": "NON_RANDOMIZED",
+      "modele": "CROSSOVER",
+      "but_principal": "TREATMENT",
+      "insu": "SINGLE",
+      "insu_pour": [
+        "OUTCOMES_ASSESSOR"
+      ],
+      "insu_description": null,
+      "modele_observationnel": null
+    },
+    "bras": [
+      {
+        "libelle": "Evening Group",
+        "type": "EXPERIMENTAL",
+        "description": "Thirty participants will complete four single experimental exercise sessions (of which one control session) in the evening (5-8 PM) in random order within a minimum of four weeks and a maximum of eight weeks separated by at least one week between two sessions.",
+        "interventions": [
+          "Behavioral: Exercise"
+        ]
+      },
+      {
+        "libelle": "Morning Group",
+        "type": "EXPERIMENTAL",
+        "description": "Thirty participants will complete four single experimental exercise sessions (of which one control session) in the morning (8-11 AM) in random order within a minimum of four weeks and a maximum of eight weeks separated by at least one week between two sessions.",
+        "interventions": [
+          "Behavioral: Exercise"
+        ]
+      }
+    ],
+    "eligibilite": {
+      "criteres": "Inclusion Criteria:\n\n* Voluntary written informed consent of the participant or their legally authorized representative has been obtained prior to any screening procedures\n* At least 18 years of age at the time of signing the Informed Consent Form (ICF)\n* Patients with POAG AND \\[elevated BP OR hypertension (Average SBP on Home BP ≥120 mmHg AND/OR Average DBP on Home BP ≥70 mmHg) with or without the use of anti-hypertensive medication\\]\n* Patients without recent changes in medication and glaucoma care within the past four weeks.\n\nExclusion Criteria:\n\n* Not able to provide informed consent\n* SBP and/or DBP are ≥ 150 mmHg and/or ≥ 95 mmHg, respectively, on office BP at screening AND on home BP measurement conducted in the week following screening (to identify White Coat Hypertension) to ensure safety. These patients require referral for early treatment.\n* Aberrant cardiopulmonary exercise test (CPET) at screening (Life-threatening arrhythmias, ischemia,…)\n* Unable to perform one or more of the four exercise sessions due to physical and or mental limitations (severe lung disease, musculoskeletal issues, unstable angina,…)\n* Severe osteoarthritis pending knee replacement surgery (these patients may be unable to perform the IRE (i.e. wall squat exercise)\n* Unable to communicate in Dutch\n* Active malignancy\n* Participation in an interventional Trial with an investigational medicinal product (IMP), exercise intervention or device\n* Unwillingness to repeat ABPM\n* Relative contraindications to ABPM: diagnosed atrial fibrillation, nighttime workers, occupational drivers",
+      "age_min": "18 Years",
+      "age_max": null,
+      "sexe": "ALL",
+      "volontaires_sains": false
+    },
+    "criteres_secondaires": [
+      {
+        "critere": "Intra-ocular pressure (safety outcome)",
+        "delai": "Immediately after completion of each of the four experimental sessions."
+      },
+      {
+        "critere": "Excessive nocturnal SBP reduction (safety outcome)",
+        "delai": "During the 24-hour period beginning immediately after completion of each of the four experimental sessions."
+      }
+    ],
+    "responsables": null,
+    "date_depot_resultats": null,
+    "resultats": null
+  },
+  "modifications": []
+}

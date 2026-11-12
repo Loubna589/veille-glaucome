@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Essais &amp; articles — Glaucoma Intelligence</title>
+  <meta name="description" content="Tous les essais cliniques et publications récents sur le glaucome et l'hypertension oculaire, filtrables par rubrique, phase, niveau de preuve et laboratoire, avec la source de chaque information.">
+  <link rel="canonical" href="https://loubna589.github.io/veille-glaucome/etudes.html">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="fr_FR">
+  <meta property="og:site_name" content="Veille glaucome">
+  <meta property="og:title" content="Essais cliniques et publications — glaucome">
+  <meta property="og:description" content="Essais ClinicalTrials.gov et publications PubMed / OpenAlex sur le glaucome, avec filtres et sources.">
+  <meta property="og:url" content="https://loubna589.github.io/veille-glaucome/etudes.html">
+  <meta name="twitter:card" content="summary">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div id="nav"></div>
+  <main class="page">
+    <header class="hero">
+      <h1>Essais &amp; articles</h1>
+      <p>Toutes les études suivies, regroupées par rubrique (classement automatique, règles dans
+        <code>config/rubriques.ini</code>). Cliquez sur un titre pour ouvrir la fiche détaillée.</p>
+    </header>
+
+    <form class="filtres" id="filtres" onsubmit="return false">
+      <label>Recherche<input type="search" id="f-texte" placeholder="titre, résumé, produit, organisme…"></label>
+      <label>Rubrique<select id="f-rubrique"></select></label>
+      <label>Source<select id="f-source"></select></label>
+      <label>Niveau de preuve<select id="f-niveau"></select></label>
+      <label>Phase ou stade<select id="f-phase"></select></label>
+      <label>Statut de l'essai<select id="f-statut"></select></label>
+      <label>Organisme<select id="f-labo"></select></label>
+      <label>Détectées<select id="f-periode">
+        <option value="">à toute date</option>
+        <option value="derniere">lors de la dernière mise à jour</option>
+        <option value="7">ces 7 derniers jours</option>
+        <option value="30">ces 30 derniers jours</option>
+      </select></label>
+      <label class="case"><input type="checkbox" id="f-veto" checked> Inclure les études vétérinaires</label>
+    </form>
+
+    <p class="compteur" id="compteur"></p>
+    <div id="liste"></div>
+  </main>
+  <footer class="pied" id="pied"></footer>
+  <script src="js/app.js"></script>
+  <script>
+    Veille.pret(function () {
+      var V = Veille, d = V.donnees, toutes = d.etudes;
+      V.monterNavigation("etudes");
+      var VETO = d.ordre_rubriques[d.ordre_rubriques.length - 1];
+
+      function remplir(id, valeurs, tous) {
+        var uniques = Array.from(new Set(valeurs.filter(Boolean))).sort(function (a, b) { return a.localeCompare(b, "fr"); });
+        document.getElementById(id).innerHTML = '<option value="">' + tous + "</option>" +
+          uniques.map(function (v) { return '<option value="' + V.esc(v) + '">' + V.esc(v) + "</option>"; }).join("");
+      }
+      document.getElementById("f-rubrique").innerHTML = '<option value="">toutes</option>' +
+        d.ordre_rubriques.map(function (r) { return '<option value="' + V.esc(r) + '">' + V.esc(r) + "</option>"; }).join("");
+      remplir("f-source", toutes.map(function (e) { return e.source; }), "toutes");
+      remplir("f-niveau", toutes.map(function (e) { return e.niveau; }), "tous");
+      remplir("f-phase", toutes.map(function (e) { return e.phase; }), "toutes");
+      remplir("f-statut", toutes.map(function (e) { return e.statut; }), "tous");
+      remplir("f-labo", [].concat.apply([], toutes.map(function (e) { return (e.labos || []).map(function (l) { return l.nom; }); })), "tous");
+
+      // Filtres transmis dans l'adresse (liens depuis l'accueil ou la page Laboratoires)
+      ["rubrique", "source", "niveau", "periode", "labo", "phase"].forEach(function (p) {
+        var v = V.param(p);
+        if (v) document.getElementById("f-" + p).value = v;
+      });
+      if (V.param("q")) document.getElementById("f-texte").value = V.param("q");  // recherche lancée depuis l'accueil
+      if (V.param("rubrique") === VETO) document.getElementById("f-veto").checked = true;
+
+      function joursDepuis(iso) { return (Date.now() - new Date(iso + "T00:00:00").getTime()) / 86400000; }
+
+      function afficher() {
+        var f = function (id) { return document.getElementById(id).value; };
+        var texte = V.norm(f("f-texte")), veto = document.getElementById("f-veto").checked, periode = f("f-periode");
+        var liste = toutes.filter(function (e) {
+          if (!veto && e.rubrique === VETO) return false;
+          if (f("f-rubrique") && e.rubrique !== f("f-rubrique")) return false;
+          if (f("f-source") && e.source !== f("f-source")) return false;
+          if (f("f-niveau") && e.niveau !== f("f-niveau")) return false;
+          if (f("f-phase") && e.phase !== f("f-phase")) return false;
+          if (f("f-statut") && e.statut !== f("f-statut")) return false;
+          if (f("f-labo") && !(e.labos || []).some(function (l) { return l.nom === f("f-labo"); })) return false;
+          if (periode === "derniere" && !(e.nouveau || e.modifie)) return false;
+          if (periode && periode !== "derniere" && joursDepuis(e.date_detection) > +periode) return false;
+          if (texte) {
+            var tout = V.norm([e.titre, e.resume, e.id].concat((e.produits || []).map(function (p) { return p.nom; }),
+              (e.labos || []).map(function (l) { return l.nom; })).join(" "));
+            if (tout.indexOf(texte) < 0) return false;
+          }
+          return true;
+        });
+        document.getElementById("compteur").textContent = liste.length + " étude(s) sur " + toutes.length;
+        var html = d.ordre_rubriques.map(function (r, i) {
+          var groupe = liste.filter(function (e) { return e.rubrique === r; })
+            .sort(function (a, b) { return (b.date_detection + b.date_source).localeCompare(a.date_detection + a.date_source); });
+          if (!groupe.length) return "";
+          return '<section class="groupe' + (i >= 2 ? " groupe--secondaire" : "") + '"><h2>' + V.esc(r) +
+            " <small>" + groupe.length + " étude(s)</small></h2>" + groupe.map(V.carte).join("") + "</section>";
+        }).join("");
+        document.getElementById("liste").innerHTML = html || '<p class="vide">Aucune étude ne correspond à ces filtres.</p>';
+      }
+      document.getElementById("filtres").addEventListener("input", afficher);
+      afficher();
+    });
+  </script>
+</body>
+</html>

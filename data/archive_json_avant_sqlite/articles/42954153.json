@@ -1,0 +1,307 @@
+{
+  "pmid": "42954153",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42954153",
+    "titre": "Secure Patient Messaging in Ophthalmology: Retrospective Natural Language Processing Study.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42954153/",
+    "doi": "10.2196/96026",
+    "pmcid": "PMC13717337",
+    "revue": "JMIR medical informatics",
+    "date_entree_pubmed": "2026-10-29",
+    "date_publication": "2026-Oct-28",
+    "types_publication": [
+      "Journal Article"
+    ],
+    "resume_present": true,
+    "resume": "BACKGROUND: The rapid rise of secure patient messaging has transformed ophthalmic communication, with text volumes now exceeding prepandemic levels across health care systems. Our study uses a natural language processing (NLP) model to explore patterns in over 30,000 secure messages and identify common ocular complaints and differences by patient demographics.\nOBJECTIVE: The objective of this study is to characterize the clinical and administrative concerns communicated through secure ophthalmology messaging and to assess differences in message content across patient sociodemographic groups.\nMETHODS: We conducted a cross-sectional study of deidentified, patient-initiated secure messages sent between June 2014 and July 2024. Patients with ophthalmic conditions who initiated secure electronic health record (EHR) portal messages were included. Of the 52,388 extracted message threads, 30,390 (58%) patient medical advice request (PMAR) messages routed solely to the Department of Ophthalmology from 4817 unique patients were assessed after the exclusion of questionnaires, courtesy messages, clinician responses, and messages routed to other health care departments. Of these unique patients, 2673 (55.5%) were female, 2740 (56.9%) were aged 50 years or older, 2346 (48.7%) were White, 4392 (91.2%) were non-Hispanic, and 2774 (57.6%) were married. NLP and large language model (LLM)-assisted topic classification were used to categorize message content. The distribution of message topics and frequency of clinical concerns were assessed and stratified by age, sex, race, ethnicity, and marital status. Differences in message frequency by demographic subgroup were assessed using 2-proportion z-tests.\nRESULTS: Following preprocessing and topic modeling, 14,284 (47%) of the 30,390 messages could be predefined in relation to a topic cluster and were included in the final analysis. Nearly half of all 14,284 predefined messages addressed administrative issues, including 4166 (29.2%) scheduling-related inquiries, 1352 (9.5%) pharmacy and medication refill requests, and 581 (4.1%) insurance document issues. Among clinical concerns, of the total 14,284 predefined messages, 2975 (20.8%) messages involved vision disturbances, 1241 (8.7%) involved glaucoma-related symptoms, 1074 (7.5%) involved tumor-related questions, and 1064 (7.4%) involved surgery-relevant concerns. Message content differed significantly by demographic characteristics. Non-White patients more frequently raised issues related to pharmacy refills, insurance, glaucoma, and disability documentation, whereas White patients more often reported surgical concerns. Older patients more frequently messaged about glaucoma, surgery, and tumor-related issues, while female patients more often reported complications and swelling or infection.\nCONCLUSIONS: Secure patient messages frequently include clinically relevant symptoms with potential triage implications and demonstrate demographic differences in care-seeking behavior. Systematic analysis of message content may support safer triage, improved workflow efficiency, and more equitable delivery of ophthalmic care.",
+    "mots_cles_auteurs": [
+      "AI model",
+      "digital health",
+      "ocular complaints",
+      "protected information",
+      "telemedicine"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 7,
+    "affiliations_auteurs": [
+      "Center for Digital Health, Stanford Medicine, Palo Alto, CA, United States.",
+      "Department of Ophthalmology, Byers Eye Institute, Stanford Medicine, 2370 Watson Court, Palo Alto, CA, 94303, United States, 1 6173081056, 1 6173081056."
+    ],
+    "financeurs_declares": [
+      {
+        "organisme": "NIMH NIH HHS",
+        "pays": "United States",
+        "reference": "K01 MH137386"
+      },
+      {
+        "organisme": "NIAMS NIH HHS",
+        "pays": "United States",
+        "reference": "K24 AR075060"
+      },
+      {
+        "organisme": "NEI NIH HHS",
+        "pays": "United States",
+        "reference": "P30 EY026877"
+      },
+      {
+        "organisme": "NIAMS NIH HHS",
+        "pays": "United States",
+        "reference": "R01 AR082109"
+      }
+    ],
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": [
+      "Humans",
+      "Female",
+      "Cross-Sectional Studies",
+      "Male",
+      "Retrospective Studies",
+      "Middle Aged",
+      "Natural Language Processing",
+      "Ophthalmology",
+      "Electronic Health Records",
+      "Aged",
+      "Text Messaging",
+      "Adult"
+    ]
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": null,
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7204225124",
+      "doi": "10.2196/96026",
+      "pmid": "42954153",
+      "pmcid": "13717337",
+      "titre": "Secure Patient Messaging in Ophthalmology: Retrospective Natural Language Processing Study",
+      "lien": "https://openalex.org/W7204225124",
+      "date_publication": "2026-08-26",
+      "type": "article",
+      "revue": "JMIR Medical Informatics",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "doaj",
+        "pubmed"
+      ],
+      "financeurs": [
+        {
+          "nom": "National Institutes of Health",
+          "ror": "https://ror.org/01cwqze88"
+        },
+        {
+          "nom": "National Institute of Mental Health",
+          "ror": "https://ror.org/04xeg9z08"
+        },
+        {
+          "nom": "National Eye Institute",
+          "ror": "https://ror.org/03wkg3b53"
+        },
+        {
+          "nom": "National Institute of Arthritis and Musculoskeletal and Skin Diseases",
+          "ror": "https://ror.org/006zn3t30"
+        }
+      ],
+      "subventions": [
+        {
+          "financeur": "National Institute of Arthritis and Musculoskeletal and Skin Diseases",
+          "reference": "R01AR082109"
+        },
+        {
+          "financeur": "National Institute of Arthritis and Musculoskeletal and Skin Diseases",
+          "reference": "K24AR075060"
+        },
+        {
+          "financeur": "National Eye Institute",
+          "reference": "P30EY026877"
+        },
+        {
+          "financeur": "National Institute of Mental Health",
+          "reference": "K01MH137386"
+        }
+      ],
+      "institutions": [
+        {
+          "nom": "Stanford Medicine",
+          "pays": "US",
+          "type": "healthcare",
+          "ror": "https://ror.org/03mtd9a03"
+        },
+        {
+          "nom": "Stanford University",
+          "pays": "US",
+          "type": "education",
+          "ror": "https://ror.org/00f54p054"
+        }
+      ],
+      "acces_ouvert": true,
+      "statut_acces": "gold",
+      "url_texte": "https://doi.org/10.2196/96026",
+      "url_pdf": null,
+      "licence": "cc-by",
+      "texte_integral_indexe": true,
+      "retracte": false,
+      "citations": 1,
+      "sujet_principal": "Ophthalmology and Visual Health Research",
+      "resume_present": true,
+      "mesh": [
+        "Adult",
+        "Aged",
+        "Cross-Sectional Studies",
+        "Female",
+        "Humans",
+        "Male",
+        "Middle Aged",
+        "Natural Language Processing",
+        "Ophthalmology",
+        "Retrospective Studies",
+        "Electronic Health Records",
+        "Text Messaging"
+      ]
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": [
+      {
+        "nom": "NIMH NIH HHS",
+        "statut": "CONFIRMÉ — déclaré dans la notice PubMed (GrantList)",
+        "references": [
+          "K01 MH137386"
+        ],
+        "notices": [
+          [
+            "notice PubMed",
+            "https://pubmed.ncbi.nlm.nih.gov/42954153/?format=pubmed"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "NIAMS NIH HHS",
+        "statut": "CONFIRMÉ — déclaré dans la notice PubMed (GrantList)",
+        "references": [
+          "K24 AR075060"
+        ],
+        "notices": [
+          [
+            "notice PubMed",
+            "https://pubmed.ncbi.nlm.nih.gov/42954153/?format=pubmed"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "NEI NIH HHS",
+        "statut": "CONFIRMÉ — déclaré dans la notice PubMed (GrantList)",
+        "references": [
+          "P30 EY026877"
+        ],
+        "notices": [
+          [
+            "notice PubMed",
+            "https://pubmed.ncbi.nlm.nih.gov/42954153/?format=pubmed"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "NIAMS NIH HHS",
+        "statut": "CONFIRMÉ — déclaré dans la notice PubMed (GrantList)",
+        "references": [
+          "R01 AR082109"
+        ],
+        "notices": [
+          [
+            "notice PubMed",
+            "https://pubmed.ncbi.nlm.nih.gov/42954153/?format=pubmed"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "National Institutes of Health",
+        "statut": "À VÉRIFIER — trouvé par OpenAlex seulement (l'éditeur n'a déclaré aucun financeur dans Crossref) ; à contrôler dans le texte de l'article",
+        "references": null,
+        "notices": [
+          [
+            "notice OpenAlex",
+            "https://api.openalex.org/works/W7204225124"
+          ],
+          [
+            "notice Crossref consultée (ne confirme pas ce financeur)",
+            "https://api.crossref.org/works/10.2196/96026"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "National Institute of Mental Health",
+        "statut": "À VÉRIFIER — trouvé par OpenAlex seulement (l'éditeur n'a déclaré aucun financeur dans Crossref) ; à contrôler dans le texte de l'article",
+        "references": [
+          "K01MH137386"
+        ],
+        "notices": [
+          [
+            "notice OpenAlex",
+            "https://api.openalex.org/works/W7204225124"
+          ],
+          [
+            "notice Crossref consultée (ne confirme pas ce financeur)",
+            "https://api.crossref.org/works/10.2196/96026"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "National Eye Institute",
+        "statut": "À VÉRIFIER — trouvé par OpenAlex seulement (l'éditeur n'a déclaré aucun financeur dans Crossref) ; à contrôler dans le texte de l'article",
+        "references": [
+          "P30EY026877"
+        ],
+        "notices": [
+          [
+            "notice OpenAlex",
+            "https://api.openalex.org/works/W7204225124"
+          ],
+          [
+            "notice Crossref consultée (ne confirme pas ce financeur)",
+            "https://api.crossref.org/works/10.2196/96026"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "National Institute of Arthritis and Musculoskeletal and Skin Diseases",
+        "statut": "À VÉRIFIER — trouvé par OpenAlex seulement (l'éditeur n'a déclaré aucun financeur dans Crossref) ; à contrôler dans le texte de l'article",
+        "references": [
+          "R01AR082109",
+          "K24AR075060"
+        ],
+        "notices": [
+          [
+            "notice OpenAlex",
+            "https://api.openalex.org/works/W7204225124"
+          ],
+          [
+            "notice Crossref consultée (ne confirme pas ce financeur)",
+            "https://api.crossref.org/works/10.2196/96026"
+          ]
+        ],
+        "note": null
+      }
+    ]
+  }
+}

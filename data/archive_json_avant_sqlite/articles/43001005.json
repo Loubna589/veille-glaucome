@@ -1,0 +1,98 @@
+{
+  "pmid": "43001005",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "43001005",
+    "titre": "Ab-interno Ripcord Reinsertion for Overfiltration-related Hypotony After A-stream Glaucoma Shunt Surgery.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/43001005/",
+    "doi": "10.3341/kjo.2026.0152",
+    "pmcid": null,
+    "revue": "Korean journal of ophthalmology : KJO",
+    "date_entree_pubmed": "2026-11-09",
+    "date_publication": "2026-Nov-09",
+    "types_publication": [
+      "Journal Article"
+    ],
+    "resume_present": true,
+    "resume": "PURPOSE: To describe a novel ab-interno ripcord reinsertion technique for the management of persistent overfiltration-related hypotony following ripcord removal or loss after A-stream glaucoma shunt implantation, and to report its clinical outcomes. Patients and.\nMETHODS: This retrospective consecutive case series included three eyes of three young women with juvenile or open-angle glaucoma who underwent ab-interno ripcord reinsertion at a single tertiary center. The primary outcome was successful resolution of hypotony, defined as restoration of IOP to 6 mmHg or higher with resolution or improvement of hypotony-related structural changes on optical coherence tomography and no further deterioration of best-corrected visual acuity attributable to hypotony. One additional eye treated with an ab-externo approach was included as a paired-eye observation for surgical comparison.\nRESULTS: Ab-interno reinsertion restored IOP and resolved or improved hypotony-related structural changes in all three eyes. One week postoperatively, IOP increased from 2-6 mmHg preoperatively to 8-15 mmHg. Two eyes maintained clinically acceptable IOP without recurrent hypotony maculopathy. In one eye, hypotony resolved, but progressive IOP elevation occurred despite the ripcord remaining in situ and maximum tolerated medical therapy, requiring subsequent ripcord removal. The ab-interno approach avoided conjunctival reopening in all cases, with outcomes comparable to the paired-eye ab-externo observation.\nCONCLUSION: Ab-interno ripcord reinsertion is a feasible and conjunctiva-sparing technique for resolving persistent overfiltration-related hypotony following ripcord removal or loss after A-stream glaucoma shunt implantation. Close postoperative IOP monitoring is warranted, as restoration of intraluminal resistance may result in IOP elevation requiring additional intervention in some patients.",
+    "mots_cles_auteurs": [
+      "A-stream glaucoma shunt",
+      "ab-interno glaucoma surgery",
+      "hypotony maculopathy",
+      "juvenile glaucoma",
+      "ripcord reinsertion"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 2,
+    "affiliations_auteurs": [
+      "Department of Ophthalmology, Samsung Medical Center, Sungkyunkwan University School of Medicine, Seoul, Korea.",
+      "Department of Ophthalmology, Samsung Medical Center, Sungkyunkwan University School of Medicine, Seoul, Korea. doyoung83.park@gmail.com."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7225609254",
+      "doi": "10.3341/kjo.2026.0152",
+      "pmid": "43001005",
+      "pmcid": null,
+      "titre": "Ab-interno Ripcord Reinsertion for Overfiltration-related Hypotony After A-stream Glaucoma Shunt Surgery",
+      "lien": "https://openalex.org/W7225609254",
+      "date_publication": "2026-11-09",
+      "type": "article",
+      "revue": "Korean Journal of Ophthalmology",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "doaj",
+        "pubmed"
+      ],
+      "financeurs": null,
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "Samsung Medical Center",
+          "pays": "KR",
+          "type": "healthcare",
+          "ror": "https://ror.org/05a15z872"
+        },
+        {
+          "nom": "Sungkyunkwan University",
+          "pays": "KR",
+          "type": "education",
+          "ror": "https://ror.org/04q78tk20"
+        }
+      ],
+      "acces_ouvert": true,
+      "statut_acces": "gold",
+      "url_texte": "https://www.ekjo.org/upload/pdf/kjo-2026-0152.pdf",
+      "url_pdf": "https://www.ekjo.org/upload/pdf/kjo-2026-0152.pdf",
+      "licence": "cc-by-nc",
+      "texte_integral_indexe": true,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Glaucoma and retinal disorders",
+      "resume_present": true,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": []
+  }
+}

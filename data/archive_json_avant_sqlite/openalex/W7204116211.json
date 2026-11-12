@@ -1,0 +1,113 @@
+{
+  "openalex_id": "W7204116211",
+  "premiere_detection": "2026-09-25",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "openalex_id": "W7204116211",
+    "doi": "10.1186/s12967-026-08863-y",
+    "pmid": null,
+    "pmcid": null,
+    "titre": "The expression level of PGAM5 regulates acute ocular hypertension-induced retinal ganglion cell injury",
+    "lien": "https://openalex.org/W7204116211",
+    "date_publication": "2026-08-25",
+    "type": "article",
+    "revue": "Journal of Translational Medicine",
+    "type_source": "journal",
+    "langue": "en",
+    "indexe_dans": [
+      "crossref",
+      "doaj"
+    ],
+    "financeurs": [
+      {
+        "nom": "National Natural Science Foundation of China",
+        "ror": "https://ror.org/01h0zpd94"
+      },
+      {
+        "nom": "Natural Science Foundation of Zhejiang Province",
+        "ror": "https://ror.org/01h0zpd94"
+      },
+      {
+        "nom": "Key Research and Development Program of Zhejiang Province",
+        "ror": null
+      }
+    ],
+    "subventions": [
+      {
+        "financeur": "Natural Science Foundation of Zhejiang Province",
+        "reference": "LZ23H120001"
+      },
+      {
+        "financeur": "National Natural Science Foundation of China",
+        "reference": "82171045"
+      },
+      {
+        "financeur": "National Natural Science Foundation of China",
+        "reference": "82401247"
+      },
+      {
+        "financeur": "Key Research and Development Program of Zhejiang Province",
+        "reference": "2025C02154"
+      }
+    ],
+    "institutions": [
+      {
+        "nom": "Wenzhou Medical University",
+        "pays": "CN",
+        "type": "education",
+        "ror": "https://ror.org/00rd5t069"
+      },
+      {
+        "nom": "First Affiliated Hospital of Wenzhou Medical University",
+        "pays": "CN",
+        "type": "healthcare",
+        "ror": "https://ror.org/03cyvdv85"
+      },
+      {
+        "nom": "Second Affiliated Hospital & Yuying Children's Hospital of Wenzhou Medical University",
+        "pays": "CN",
+        "type": "healthcare",
+        "ror": "https://ror.org/0156rhd17"
+      },
+      {
+        "nom": "Second Affiliated Hospital of Zhejiang University",
+        "pays": "CN",
+        "type": "healthcare",
+        "ror": "https://ror.org/059cjpv64"
+      },
+      {
+        "nom": "Sun Yat-sen University",
+        "pays": "CN",
+        "type": "education",
+        "ror": "https://ror.org/0064kty71"
+      }
+    ],
+    "acces_ouvert": true,
+    "statut_acces": "gold",
+    "url_texte": "https://doi.org/10.1186/s12967-026-08863-y",
+    "url_pdf": null,
+    "licence": "cc-by-nc-nd",
+    "texte_integral_indexe": false,
+    "retracte": false,
+    "citations": 0,
+    "sujet_principal": "Glaucoma and retinal disorders",
+    "resume_present": true,
+    "resume": "Phosphoglycerate mutase 5 (PGAM5) is a critical regulator of mitochondrial quality control. This study aims to investigate the role of PGAM5 in retinal ganglion cells (RGCs) following acute ocular hypertension (AOH)-induced retinal ischemia-reperfusion (RIR) injury. A mouse RIR model in vivo and an oxygen-glucose deprivation and reoxygenation (OGDR) model in R28 retinal progenitor cells in vitro were established to mimic AOH injury. Endogenous PGAM5 expression was manipulated in R28 cells via siRNA-mediated knockdown and lentivirus-mediated overexpression, while RGC-specific PGAM5 modification was achieved by intravitreal injection of adeno-associated virus (AAV). Cell apoptosis and mitochondrial function were evaluated by LDH release assay, Western blotting (WB), immunofluorescence (IF), mitochondrial calcium detection, ATP measurement, and flow cytometry analyses of apoptosis, mitochondrial reactive oxygen species (ROS), and mitochondrial membrane potential (ΔΨm). Retinal morphological damage, RGC survival, neuroinflammation, and retinal function were assessed using H&E staining, retinal flat-mount immunostaining, WB, IF labeling, and electroretinography (ERG). PGAM5 expression was significantly downregulated in both the in vivo RIR mouse retinas and in vitro OGDR R28 cell models. Under OGDR stress, PGAM5 deficiency aggravated LDH release, apoptosis, and mitochondrial dysfunction, including elevated mitochondrial ROS accumulation, mitochondrial depolarization, mitochondrial calcium overload, and impaired ATP synthesis. In the RIR model, RGC-specific PGAM5 knockdown exacerbated ganglion cell complex thinning, loss of RGC somata and axons, retinal function impairment, and retinal neuroinflammation. In contrast, PGAM5 overexpression effectively alleviated OGDR-induced cell apoptosis and mitochondrial dysfunction in R28 cells, and ameliorated RIR-induced retinal degeneration and neuroinflammation. The core protective effects were further validated in primary RGCs. Mechanistically, PGAM5 facilitated mitophagic flux to maintain mitochondrial homeostasis. Adequate PGAM5 protects RGCs against AOH-induced ischemic injury by suppressing apoptosis and improving mitochondrial homeostasis via enhancing mitophagy, highlighting PGAM5 as a promising therapeutic target for neuroprotection in acute glaucoma.",
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "present_dans_pubmed": false
+  }
+}

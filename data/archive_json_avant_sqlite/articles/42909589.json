@@ -1,0 +1,141 @@
+{
+  "pmid": "42909589",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42909589",
+    "titre": "Predictive baseline thresholds for successful dual blade goniotomy combined with phacoemulsification in glaucoma patients.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42909589/",
+    "doi": "10.1007/s00417-026-07485-w",
+    "pmcid": null,
+    "revue": "Graefe's archive for clinical and experimental ophthalmology = Albrecht von Graefes Archiv fur klinische und experimentelle Ophthalmologie",
+    "date_entree_pubmed": "2026-10-23",
+    "date_publication": "2026-Oct-23",
+    "types_publication": [
+      "Journal Article"
+    ],
+    "resume_present": true,
+    "resume": "PURPOSE: To define preoperative thresholds of intraocular pressure (IOP) and the number of IOP-lowering eye drops that may predict surgical success following Kahook Dual Blade goniotomy combined with phacoemulsification (Phaco-KDB) in patients with glaucoma and cataract.\nMETHODS: This retrospective study analysed 307 eyes of 307 patients undergoing Phaco-KDB. Data on demographics, glaucoma type, IOP, number of IOP-lowering medications and complications were collected over 18 months of follow-up. Complete success was defined as IOP ≤ 21, 18, 15 or 12 mmHg without medications; qualified success allowed for ongoing topical IOP-lowering therapy. Logistic regression models were used to determine predictive thresholds.\nRESULTS: Mean baseline IOP was 18.6 ± 5.2 mmHg and decreased to 15.0 ± 4.4 mmHg at 18 months. The mean number of IOP-lowering medications was reduced from 2.2 ± 1.1 to 1.7 ± 1.4. For qualified success, the identified preoperative IOP thresholds were 27.2 mmHg for achieving ≤ 21 mmHg (AUC = 0.900, p < 0.001), 25.1 mmHg for ≤ 18 mmHg (AUC = 0.8604, p < 0.001), 19.8 mmHg for ≤ 15 mmHg (AUC = 0.7752, p < 0.001), and 13.5 mmHg for ≤ 12 mmHg (AUC = 0.7772, p = 0.0011). For complete success, the threshold IOP values were 20.6 mmHg for ≤ 21 mmHg (AUC = 0.7893, p < 0.001), 18.1 mmHg for ≤ 18 mmHg (AUC = 0.7365, p < 0.001), and 15.0 mmHg for ≤ 15 mmHg (AUC = 0.5890, p = 0.0109). No significant association was found between the number of preoperative medications and surgical outcome.\nCONCLUSIONS: Preoperative IOP is a significant predictor of Phaco-KDB success. Our findings suggest that Phaco-KDB primarily stabilizes IOP at preoperative levels while reducing the need for IOP-lowering therapy, rather than achieving substantial additional IOP reduction.",
+    "mots_cles_auteurs": [
+      "Glaucoma",
+      "Goniotomy",
+      "Intraocular pressure",
+      "Kahook Dual Blade",
+      "Phacoemulsification"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 8,
+    "affiliations_auteurs": [
+      "Department of Ophthalmology, RWTH Aachen University, Aachen, 52074, Germany.",
+      "Department of Ophthalmology, Faculty of Medicine, University Hospital of Cologne, Cologne, 50937, Germany.",
+      "Department of Ophthalmology, Johanniter Hospital, Bonn, Bonn, 53113, Germany.",
+      "Augenzentrum am Annapark, Steigerweg 3, Alsdorf, 52477, Deutschland.",
+      "Department of Ophthalmology, University Hospital Eye Clinic, Bonn, 53127, Germany.",
+      "Department of Ophthalmology, Faculty of Medicine, University Hospital of Cologne, Cologne, 50937, Germany. verena.prokosch@uk-koeln.de."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7223222707",
+      "doi": "10.1007/s00417-026-07485-w",
+      "pmid": "42909589",
+      "pmcid": null,
+      "titre": "Predictive baseline thresholds for successful dual blade goniotomy combined with phacoemulsification in glaucoma patients",
+      "lien": "https://openalex.org/W7223222707",
+      "date_publication": "2026-10-23",
+      "type": "article",
+      "revue": "Graefe s Archive for Clinical and Experimental Ophthalmology",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "pubmed"
+      ],
+      "financeurs": [
+        {
+          "nom": "Universitätsmedizin der Johannes Gutenberg-Universität Mainz",
+          "ror": "https://ror.org/00q1fsf04"
+        }
+      ],
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "University of Cologne",
+          "pays": "DE",
+          "type": "education",
+          "ror": "https://ror.org/00rcxh774"
+        },
+        {
+          "nom": "University Hospital Cologne",
+          "pays": "DE",
+          "type": "healthcare",
+          "ror": "https://ror.org/05mxhda18"
+        },
+        {
+          "nom": "RWTH Aachen University",
+          "pays": "DE",
+          "type": "education",
+          "ror": "https://ror.org/04xfq0f34"
+        },
+        {
+          "nom": "Johanniter-Krankenhaus Bonn",
+          "pays": "DE",
+          "type": "healthcare",
+          "ror": "https://ror.org/053z9ab73"
+        },
+        {
+          "nom": "University Hospital Bonn",
+          "pays": "DE",
+          "type": "healthcare",
+          "ror": "https://ror.org/01xnwqx93"
+        }
+      ],
+      "acces_ouvert": true,
+      "statut_acces": "hybrid",
+      "url_texte": "https://link.springer.com/content/pdf/10.1007/s00417-026-07485-w.pdf",
+      "url_pdf": "https://link.springer.com/content/pdf/10.1007/s00417-026-07485-w.pdf",
+      "licence": "cc-by",
+      "texte_integral_indexe": true,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Glaucoma and retinal disorders",
+      "resume_present": true,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": [
+      {
+        "nom": "Universitätsmedizin der Johannes Gutenberg-Universität Mainz",
+        "statut": "CONFIRMÉ — déclaré par l'éditeur dans Crossref",
+        "references": null,
+        "notices": [
+          [
+            "notice justificative Crossref (déclaration de l'éditeur)",
+            "https://api.crossref.org/works/10.1007/s00417-026-07485-w"
+          ],
+          [
+            "notice OpenAlex",
+            "https://api.openalex.org/works/W7223222707"
+          ]
+        ],
+        "note": null
+      }
+    ]
+  }
+}

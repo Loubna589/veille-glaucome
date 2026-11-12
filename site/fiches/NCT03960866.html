@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>NCT03960866 — fiche essai</title><style>
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
+:root{--fond:#f4f7fb;--carte:#fff;--texte:#0f1d33;--doux:#52627a;--bord:#e2e8f0;--accent:#0b4f8a;
+--ok:#146c43;--ok-fond:#e3f4ea;--att:#8a5300;--att-fond:#fdf1d8;--ver:#b42318;--ver-fond:#fdeceb;
+--reg:#3f3c9e;--reg-fond:#ecebfb;--src-fond:#f1f5f9;--mark:#fff1a8;--manque:#b42318;--turquoise:#14b8a6;}
+@media (prefers-color-scheme:dark){:root{--fond:#0a1120;--carte:#101a2c;--texte:#e6edf7;--doux:#9db0ca;
+--bord:#1e2b42;--accent:#6fb4ff;--ok:#6fd6a0;--ok-fond:#12301f;--att:#f3c15e;--att-fond:#352a10;--ver:#ff9a8f;
+--ver-fond:#3a1714;--reg:#b4b2ff;--reg-fond:#24234a;--src-fond:#0d1626;--mark:#5a4d10;--manque:#ff9a8f;--turquoise:#2dd4bf;}}
+*{box-sizing:border-box}body{margin:0;background:var(--fond);color:var(--texte);
+font:15.5px/1.6 "Inter",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+:focus-visible{outline:3px solid var(--turquoise);outline-offset:2px;border-radius:6px}
+main{max-width:1000px;margin:0 auto;padding:20px 18px 64px}
+.bandeau{display:flex;align-items:center;gap:10px;font-weight:800;letter-spacing:-.02em;padding:6px 0 14px;color:var(--texte);text-decoration:none}
+.bandeau i{width:30px;height:30px;border-radius:9px;background:linear-gradient(135deg,#0b4f8a,#14b8a6);display:inline-block}
+header,section{background:var(--carte);border:1px solid var(--bord);border-radius:16px;padding:20px 24px;margin:0 0 16px;
+box-shadow:0 1px 2px rgba(15,29,51,.04),0 6px 20px -8px rgba(15,29,51,.12)}
+h1{font-size:1.45rem;line-height:1.3;margin:.2em 0 .5em}h2{font-size:1.1rem;margin:0 0 .6em;color:var(--accent)}
+h3{font-size:1rem;margin:1.1em 0 .4em}.surtitre{color:var(--doux);margin:0;font-size:.9rem}
+a{color:var(--accent)}small,.def{color:var(--doux)}.def{font-size:.88rem;margin:.2em 0 .6em}
+.grille{display:grid;grid-template-columns:max-content 1fr;gap:4px 16px;margin:12px 0 0}
+.grille dt{color:var(--doux)}.grille dd{margin:0}
+.badge{display:inline-block;font-size:.72rem;font-weight:600;padding:2px 8px;border-radius:999px;margin:2px 4px 2px 0;
+vertical-align:middle;background:var(--src-fond);color:var(--doux)}
+.badge.confirme{background:var(--ok-fond);color:var(--ok)}.badge.attente{background:var(--att-fond);color:var(--att)}
+.badge.verifier{background:var(--ver-fond);color:var(--ver)}.badge.regle{background:var(--reg-fond);color:var(--reg)}
+.rubrique{font-weight:600}.manque{color:var(--manque);font-style:italic}
+mark{background:var(--mark);color:inherit;padding:0 2px;border-radius:3px}
+blockquote{margin:.5em 0;padding:.5em .9em;border-left:3px solid var(--bord);background:var(--src-fond);border-radius:0 6px 6px 0}
+pre{white-space:pre-wrap;font-size:.85rem;background:var(--src-fond);padding:10px;border-radius:6px}
+.defile{overflow-x:auto}table{border-collapse:collapse;width:100%;font-size:.92rem;margin:.4em 0}
+th,td{border:1px solid var(--bord);padding:6px 8px;text-align:left;vertical-align:top}th{background:var(--src-fond)}
+.analyse{background:var(--src-fond);padding:6px 10px;border-radius:6px;font-size:.92rem}
+.acteurs{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px}
+.acteurs>div{border:1px solid var(--bord);border-radius:8px;padding:10px 12px}.acteurs h3{margin-top:0}
+.copier{position:sticky;top:0;z-index:2;display:flex;gap:12px;align-items:center;flex-wrap:wrap;
+background:var(--fond);padding:10px 0;margin-bottom:8px}
+button{font:inherit;font-weight:600;background:var(--accent);color:#fff;border:0;border-radius:8px;padding:9px 16px;cursor:pointer}
+@media (prefers-color-scheme:dark){button{color:#10141a}}
+textarea{width:100%;min-height:260px;font:13px/1.4 ui-monospace,Consolas,monospace;background:var(--src-fond);
+color:var(--texte);border:1px solid var(--bord);border-radius:6px;padding:8px}
+details{margin:.5em 0}summary{cursor:pointer;color:var(--accent)}
+.retour{font-size:.92rem;margin:0 0 4px}
+@media (max-width:600px){.grille{grid-template-columns:1fr}.grille dt{margin-top:6px}header,section{padding:14px}}
+</style></head>
+<body><main>
+<a class="bandeau" href="../index.html"><i aria-hidden="true"></i>Glaucoma Intelligence</a><nav class="retour"><a href="../index.html">Accueil</a> · <a href="../etudes.html">← Essais &amp; articles</a> · <a href="../recherche.html">Rechercher</a> · <a href="../carte.html">Carte des acteurs</a> · <a href="../alertes.html">Alertes</a></nav>
+<div class="copier"><button id="bouton-copier" type="button" onclick="copierFiche()">Copier pour Claude / ChatGPT</button>
+<small>Copie une consigne + les faits de cette fiche, à coller dans votre assistant.</small></div>
+
+    <header>
+      <p class="surtitre">Fiche essai clinique · NCT03960866 · <a href="https://clinicaltrials.gov/study/NCT03960866" target="_blank" rel="noopener">voir sur ClinicalTrials.gov</a></p>
+      <h1>Safety and Efficacy of Ophthalmic Phentolamine Mesylate in Glaucoma</h1>
+      <p><span class="badge confirme">RÉSULTATS DÉPOSÉS AU REGISTRE (le 2023-07-12)</span></p>
+      <dl class="grille">
+        <dt>Phase (déclarée)</dt><dd>Phase 2</dd>
+        <dt>Statut</dt><dd>Terminé</dd>
+        <dt>Type d'étude</dt><dd>Interventionnelle</dd>
+        <dt>Participants</dt><dd>39 (réel)</dd>
+        <dt>Première publication au registre</dt><dd>2019-05-23</dd>
+        <dt>Dernière mise à jour au registre</dt><dd>2026-10-30</dd>
+        <dt>Début · fin principale</dt><dd>2019-05-28 · 2019-09-11</dd>
+        <dt>Détecté par l'outil le</dt><dd>2026-11-11 · 0 modification(s) repérée(s) depuis</dd>
+      </dl>
+      <p class="rubriques"><strong>Rubrique :</strong> <span class="rubrique">Médicaments</span> <small>bras expérimental de type DRUG déclaré au registre : Phentolamine Mesylate Ophthalmic Solution 1%</small> <span class="badge regle">classement automatique — règles dans config/rubriques.ini</span></p>
+    </header>
+<section><h2>Question étudiée <span class="badge source">Registre ClinicalTrials.gov</span></h2><p><strong>Titre officiel :</strong> Randomized, Placebo-Controlled, Double-Masked Study of the Safety and Efficacy of Phentolamine Mesylate Ophthalmic Solution in Subjects With Open Angle Glaucoma or Ocular Hypertension</p><blockquote lang="en">The objectives of this study are:
+
+* To evaluate the efficacy of Phentolamine Mesylate to lower intra-ocular pressure (IOP) in the treatment of Open-Angle Glaucoma (OAG) and Ocular Hypertension (OHT).
+* To evaluate the ocular and systemic safety of Phentolamine Mesylate compared to its vehicle.
+* To evaluate additional efficacy of Phentolamine Mesylate to improve visual performance.</blockquote></section><section><h2>Traitement ou technologie, et comparateur <span class="badge source">Registre ClinicalTrials.gov</span><span class="badge confirme">rôles CONFIRMÉS : type de bras déclaré au registre</span></h2><div class="defile"><table><thead><tr><th>Bras</th><th>Rôle déclaré</th><th>Interventions</th><th>Description (registre)</th></tr></thead><tbody><tr><td><strong>Nyxol Ophthalmic Solution 1%</strong></td><td>Expérimental (traitement étudié)</td><td>Drug: Phentolamine Mesylate Ophthalmic Solution 1%</td><td><small lang="en">1 drop in each eye daily (QD) at or before bedtime (8pm to 10pm) for 14 days</small></td></tr><tr><td><strong>Nyxol Ophthalmic Solution Vehicle</strong></td><td>Comparateur placebo</td><td>Other: Phentolamine Mesylate Ophthalmic Solution Vehicle (Placebo)</td><td><small lang="en">1 drop in each eye daily (QD) at or before bedtime (8pm to 10pm) for 14 days</small></td></tr></tbody></table></div></section><section><h2>Type d'étude <span class="badge source">Registre ClinicalTrials.gov</span></h2><ul><li>Type : Interventionnelle · phase déclarée : Phase 2</li><li>Répartition : randomisée</li><li>Modèle : groupes parallèles</li><li>Insu : triple insu <small>(PARTICIPANT, INVESTIGATOR, OUTCOMES_ASSESSOR)</small></li><li>But principal : traitement</li></ul></section><section><h2>Population et participants <span class="badge source">Registre ClinicalTrials.gov</span></h2><ul><li>Conditions déclarées : Open Angle Glaucoma, Ocular Hypertension</li><li>Âge : 18 Years → max. non rapporté</li><li>Sexe : tous</li><li>Volontaires sains acceptés : non</li><li>Nombre de participants : <mark>39 (réel)</mark></li></ul><details><summary>Critères d'inclusion et d'exclusion (texte du registre)</summary><pre lang="en">Inclusion Criteria:
+
+1. 18 years of age or greater
+2. Diagnosis of open angle glaucoma (OAG) or ocular hypertension (OHT). A reported history of untreated OHT with IOP ≥22mmHg and ≤ 30mmHg is preferred.
+3. Untreated or treated OAG/OHT with 2 or fewer ocular hypotensive medications.
+4. Untreated (post-washout) mean IOP ≥ 22mmHg and ≤30mmHg in the study eye at the Qualification Visit (8AM).
+5. Corrected visual acuity in each eye +1.0 logMAR or better by Early Treatment Diabetic Retinopathy Study (ETDRS) in each eye (equivalent to 20/200 or better) at the Screening Visit and Qualification Visit.
+6. Otherwise healthy and well-controlled subjects.
+7. Able and willing to give signed informed consent and follow study instructions.
+8. Able to self-administer study medication or to have study medication administered by a caregiver throughout the study period.
+
+Exclusion Criteria:
+
+1. Closed or very narrow angles (Grade 0-1, Shaffer)
+2. Glaucoma: pseudo-exfoliation or pigment dispersion component
+3. Known hypersensitivity to any α-adrenoceptor antagonists
+4. Previous laser and/or non-laser glaucoma surgery or procedure in either eye
+5. Refractive surgery in either eye
+6. Ocular trauma in either eye within the 6 months prior to Screening, or ocular surgery or non-refractive laser treatment within the 3 months prior to Screening
+7. Recent or current evidence of ocular infection or inflammation in either eye
+8. Ocular medication in either eye of any kind within 30 days of Screening
+9. Clinically significant ocular disease in either eye
+10. History of diabetic retinopathy
+11. Contact lens wear within 3 days prior to and for the duration of the study
+12. Central corneal thickness in either eye \&gt;600 μm at Screening
+13. Any abnormality in either eye preventing reliable applanation tonometry
+14. Known hypersensitivity or contraindication to α- and/or β-adrenoceptor antagonists
+15. Clinically significant systemic disease that might interfere with the study
+16. Participation in any investigational study within 30 days prior to Screening
+17. Use of any topical or systemic adrenergic or cholinergic drugs up to 30 days prior to Screening, or during the study
+18. Changes in systemic medication that could have an effect on IOP within 30 days prior to Screening
+19. Women of childbearing potential who are pregnant, nursing, planning a pregnancy, or not using a medically acceptable form of birth control
+20. Resting heart rate outside the normal range (50-110 beats per minute) at Screening or Qualification Visit
+21. Hypertension with resting diastolic blood pressure (BP) \&gt; 105 mmHg or systolic BP \&gt; 160 mmHg at the Screening or Qualification Visit</pre></details></section><section><h2>Critères évalués (tels que déclarés) <span class="badge source">Registre ClinicalTrials.gov</span></h2><ul><li><strong>Principal :</strong> Intraocular Pressure <small>[15 days]</small></li><li>Secondaire : Pupil Diameter <small>[15 days]</small></li><li>Secondaire : Distance Visual Acuity <small>[15 days]</small></li><li>Secondaire : Conjunctival Hyperemia <small>[15 days]</small></li></ul></section><section><h2>Résultats disponibles <span class="badge confirme">Résultats déposés au registre le 2023-07-12</span></h2><p>Valeurs recopiées telles quelles depuis <a href="https://clinicaltrials.gov/study/NCT03960866?tab=results" target="_blank" rel="noopener">l’onglet Résultats du registre</a>.</p><h3>Flux des participants</h3><div class="defile"><table><thead><tr><th>Étape</th><th>Par groupe</th></tr></thead><tbody><tr><td>Ont commencé</td><td>Nyxol Ophthalmic Solution 1% : <mark>19</mark><br>Nyxol Ophthalmic Solution Vehicle : <mark>20</mark></td></tr><tr><td>Ont terminé</td><td>Nyxol Ophthalmic Solution 1% : <mark>19</mark><br>Nyxol Ophthalmic Solution Vehicle : <mark>20</mark></td></tr><tr><td>N'ont pas terminé</td><td>Nyxol Ophthalmic Solution 1% : <mark>0</mark><br>Nyxol Ophthalmic Solution Vehicle : <mark>0</mark></td></tr></tbody></table></div><h3>Critère principal — <span lang="en">Intraocular Pressure</span></h3><p><small>Délai : 15 days · Mesure : moyenne · Unité : mmHg</small></p><div class="defile"><table><thead><tr><th>Groupe</th><th>Effectif analysé</th><th>Valeur</th></tr></thead><tbody><tr><td>Nyxol Ophthalmic Solution 1%</td><td>18</td><td><mark>-2.30</mark> ± 2.986 <small>(Standard Deviation)</small></td></tr><tr><td>Nyxol Ophthalmic Solution Vehicle</td><td>19</td><td><mark>-2.18</mark> ± 1.856 <small>(Standard Deviation)</small></td></tr></tbody></table></div><p class="analyse">Comparaison (Nyxol Ophthalmic Solution 1% vs Nyxol Ophthalmic Solution Vehicle) : Mean Difference (Net) = <mark>0.12</mark> · p = <mark>0.89</mark> · méthode : t-test, 2 sided · hypothèse : SUPERIORITY</p><details><summary>Population analysée (registre)</summary><p lang="en">Patients underwent a Screening visit where they were included in the trial if they were at least 18 years of age with either OHT in both eyes or OAG in 1 eye with OHT in the fellow eye, which was previously untreated or treated with ≤2 ocular hypotensive medications.</p></details><h3>Critère secondaire — <span lang="en">Pupil Diameter</span></h3><p><small>Délai : 15 days · Mesure : moyenne · Unité : mm</small></p><div class="defile"><table><thead><tr><th>Groupe</th><th>Effectif analysé</th><th>Valeur</th></tr></thead><tbody><tr><td>Nyxol Ophthalmic Solution 1% <small>(Day 8 (8AM))</small></td><td>19</td><td><mark>-0.77</mark> ± 0.538 <small>(Standard Deviation)</small></td></tr><tr><td>Nyxol Ophthalmic Solution Vehicle <small>(Day 8 (8AM))</small></td><td>20</td><td><mark>-0.07</mark> ± 0.555 <small>(Standard Deviation)</small></td></tr><tr><td>Nyxol Ophthalmic Solution 1% <small>(Day 15 (8AM))</small></td><td>19</td><td><mark>-0.77</mark> ± 0.550 <small>(Standard Deviation)</small></td></tr><tr><td>Nyxol Ophthalmic Solution Vehicle <small>(Day 15 (8AM))</small></td><td>20</td><td><mark>-0.01</mark> ± 0.580 <small>(Standard Deviation)</small></td></tr></tbody></table></div><h3>Critère secondaire — <span lang="en">Distance Visual Acuity</span></h3><p><small>Délai : 15 days · Mesure : nombre de participants · Unité : Participants</small></p><div class="defile"><table><thead><tr><th>Groupe</th><th>Effectif analysé</th><th>Valeur</th></tr></thead><tbody><tr><td>Nyxol Ophthalmic Solution 1%</td><td>19</td><td><mark>12</mark></td></tr><tr><td>Nyxol Ophthalmic Solution Vehicle</td><td>20</td><td><mark>4</mark></td></tr></tbody></table></div><details><summary>Population analysée (registre)</summary><p lang="en">Full Analysis Data Set</p></details><h3>Critère secondaire — <span lang="en">Conjunctival Hyperemia</span></h3><p><small>Délai : 15 days · Mesure : nombre de participants · Unité : Participants</small></p><div class="defile"><table><thead><tr><th>Groupe</th><th>Effectif analysé</th><th>Valeur</th></tr></thead><tbody><tr><td>Nyxol Ophthalmic Solution 1% <small>(None)</small></td><td>19</td><td><mark>4</mark></td></tr><tr><td>Nyxol Ophthalmic Solution Vehicle <small>(None)</small></td><td>20</td><td><mark>8</mark></td></tr><tr><td>Nyxol Ophthalmic Solution 1% <small>(Mild)</small></td><td>19</td><td><mark>10</mark></td></tr><tr><td>Nyxol Ophthalmic Solution Vehicle <small>(Mild)</small></td><td>20</td><td><mark>8</mark></td></tr><tr><td>Nyxol Ophthalmic Solution 1% <small>(Moderate)</small></td><td>19</td><td><mark>3</mark></td></tr><tr><td>Nyxol Ophthalmic Solution Vehicle <small>(Moderate)</small></td><td>20</td><td><mark>4</mark></td></tr><tr><td>Nyxol Ophthalmic Solution 1% <small>(Severe)</small></td><td>19</td><td><mark>2</mark></td></tr><tr><td>Nyxol Ophthalmic Solution Vehicle <small>(Severe)</small></td><td>20</td><td><mark>0</mark></td></tr></tbody></table></div><details><summary>Population analysée (registre)</summary><p lang="en">Full analytical sample</p></details></section><section><h2>Données de tolérance <span class="badge confirme">Résultats déposés au registre</span></h2><div class="defile"><table><thead><tr><th>Groupe</th><th>Exposés</th><th>Événements graves (participants)</th><th>Autres événements (participants)</th><th>Décès</th></tr></thead><tbody><tr><td>Nyxol Ophthalmic Solution 1%</td><td><mark>19</mark></td><td><mark>0</mark></td><td><mark>5</mark></td><td><mark>0</mark></td></tr><tr><td>Nyxol Ophthalmic Solution Vehicle</td><td><mark>20</mark></td><td><mark>0</mark></td><td><mark>1</mark></td><td><mark>0</mark></td></tr></tbody></table></div><h3>Événements non graves les plus fréquents (seuil déclaré : 0 %)</h3><div class="defile"><table><thead><tr><th>Événement</th><th>Participants touchés / exposés</th></tr></thead><tbody><tr><td><span lang="en">Conjunctival Hyperemia</span></td><td>Nyxol Ophthalmic Solution 1% : <mark>3</mark>/19<br>Nyxol Ophthalmic Solution Vehicle : <mark>1</mark>/20</td></tr><tr><td><span lang="en">Installation Site Discomfort</span></td><td>Nyxol Ophthalmic Solution 1% : <mark>3</mark>/19<br>Nyxol Ophthalmic Solution Vehicle : <mark>0</mark>/20</td></tr><tr><td><span lang="en">Eye Pruritis</span></td><td>Nyxol Ophthalmic Solution 1% : <mark>1</mark>/19<br>Nyxol Ophthalmic Solution Vehicle : <mark>0</mark>/20</td></tr></tbody></table></div><details><summary>Période de recueil (registre)</summary><p lang="en">14 Days</p></details></section><section><h2>Publications liées <span class="badge source">Registre ClinicalTrials.gov</span></h2><ul><li><span class="manque">Aucune publication liée identifiée</span></li></ul></section><section><h2>Promoteur, financeur et affiliations <span class="badge source">Registre ClinicalTrials.gov</span></h2><div class="acteurs">
+      <div><h3>Promoteur</h3><p class="def">Organisme responsable de l'essai, déclaré au registre.</p>
+        <p><strong>Opus Genetics, Inc</strong> (industriel)</p>
+        <p>Collaborateurs déclarés : aucun déclaré</p></div>
+      <div><h3>Financeur</h3><p class="def">Organisme qui finance la recherche.</p>
+        <p><span class="manque">Non déclaré séparément dans le registre.</span> Le promoteur n'est pas présenté ici comme financeur : le registre ne le précise pas.</p></div>
+      <div><h3>Affiliations</h3><p class="def">Établissement des responsables de l'étude.</p>
+        <p><span class="manque">Aucun responsable déclaré au registre</span></p></div>
+    </div></section>
+<section><h2>Ce qui manque <span class="badge regle">calculé par l'outil</span></h2><ul><li>publication liée</li><li>responsables de l'étude et leur affiliation</li></ul></section>
+<section><h2>Limites, intérêt pour la veille marketing, à retenir <span class="badge attente">non produit par l'outil</span></h2><p><span class="manque">Non rédigé automatiquement : les données extraites ne suffisent pas à produire une analyse fiable sans interprétation. Utilisez le bouton « Copier pour Claude / ChatGPT » pour obtenir une proposition, à vérifier.</span></p></section>
+<section><details><summary>Voir le texte copié par le bouton</summary>
+<textarea id="a-copier" readonly>Tu es assistant de veille scientifique sur le glaucome. À partir UNIQUEMENT des informations ci-dessous, rédige en français une fiche de synthèse avec ces rubriques :
+1. Question étudiée
+2. Traitement ou technologie
+3. Type d&#x27;étude
+4. Population et nombre de participants
+5. Comparateur
+6. Critères évalués
+7. Principaux résultats chiffrés (recopie les valeurs exactes et indique leur source)
+8. Données de tolérance
+9. Limites
+10. Intérêt potentiel pour une veille marketing — présenté comme une INTERPRÉTATION, séparé des faits
+11. À retenir (une phrase)
+
+Règles :
+- N&#x27;invente rien. Si une information manque, écris « non rapporté ».
+- Distingue un essai simplement enregistré, un protocole, des résultats déposés dans un registre et une publication de résultats.
+- Si la source est seulement le résumé d&#x27;un article, indique que la synthèse repose uniquement sur ce résumé.
+- Les rôles « suggérés » (traitement étudié / comparateur) sont à vérifier dans le texte source.
+- Ne confonds pas promoteur d&#x27;essai, financeur et affiliation des auteurs.
+- Termine par la liste des points à vérifier.
+
+=== INFORMATIONS ===
+SOURCE : registre ClinicalTrials.gov, essai NCT03960866 — https://clinicaltrials.gov/study/NCT03960866
+NIVEAU DE PREUVE : résultats déposés au registre le 2023-07-12
+Titre : Safety and Efficacy of Ophthalmic Phentolamine Mesylate in Glaucoma
+Titre officiel : Randomized, Placebo-Controlled, Double-Masked Study of the Safety and Efficacy of Phentolamine Mesylate Ophthalmic Solution in Subjects With Open Angle Glaucoma or Ocular Hypertension
+Phase déclarée : Phase 2 · Statut : Terminé · Type : Interventionnelle
+Promoteur (déclaré) : Opus Genetics, Inc (INDUSTRY) · Collaborateurs : aucun
+Financeur : non déclaré séparément dans le registre
+Participants : 39 (réel) · Conditions : Open Angle Glaucoma, Ocular Hypertension
+Plan : {&#x27;but_principal&#x27;: &#x27;TREATMENT&#x27;, &#x27;insu&#x27;: &#x27;TRIPLE&#x27;, &#x27;insu_description&#x27;: None, &#x27;insu_pour&#x27;: [&#x27;PARTICIPANT&#x27;, &#x27;INVESTIGATOR&#x27;, &#x27;OUTCOMES_ASSESSOR&#x27;], &#x27;modele&#x27;: &#x27;PARALLEL&#x27;, &#x27;modele_observationnel&#x27;: None, &#x27;repartition&#x27;: &#x27;RANDOMIZED&#x27;}
+Bras (rôle déclaré) :
+  - Nyxol Ophthalmic Solution 1% [EXPERIMENTAL] : Drug: Phentolamine Mesylate Ophthalmic Solution 1%
+  - Nyxol Ophthalmic Solution Vehicle [PLACEBO_COMPARATOR] : Other: Phentolamine Mesylate Ophthalmic Solution Vehicle (Placebo)
+Critères principaux : Intraocular Pressure [15 days]
+Critères secondaires : Pupil Diameter [15 days]; Distance Visual Acuity [15 days]; Conjunctival Hyperemia [15 days]
+
+DESCRIPTION (registre, texte source) :
+The objectives of this study are:
+
+* To evaluate the efficacy of Phentolamine Mesylate to lower intra-ocular pressure (IOP) in the treatment of Open-Angle Glaucoma (OAG) and Ocular Hypertension (OHT).
+* To evaluate the ocular and systemic safety of Phentolamine Mesylate compared to its vehicle.
+* To evaluate additional efficacy of Phentolamine Mesylate to improve visual performance.
+
+RÉSULTATS DÉPOSÉS AU REGISTRE (valeurs exactes) :
+* PRIMARY — Intraocular Pressure [15 days] (MEAN, mmHg, dispersion : Standard Deviation)
+    Nyxol Ophthalmic Solution 1% : -2.30 ± 2.986 (n=18)
+    Nyxol Ophthalmic Solution Vehicle : -2.18 ± 1.856 (n=19)
+    Comparaison : Mean Difference (Net) = 0.12 (IC None % None ; None), p = 0.89, t-test, 2 sided, SUPERIORITY
+* SECONDARY — Pupil Diameter [15 days] (MEAN, mm, dispersion : Standard Deviation)
+    Nyxol Ophthalmic Solution 1% / Day 8 (8AM) : -0.77 ± 0.538 (n=19)
+    Nyxol Ophthalmic Solution Vehicle / Day 8 (8AM) : -0.07 ± 0.555 (n=20)
+    Nyxol Ophthalmic Solution 1% / Day 15 (8AM) : -0.77 ± 0.550 (n=19)
+    Nyxol Ophthalmic Solution Vehicle / Day 15 (8AM) : -0.01 ± 0.580 (n=20)
+* SECONDARY — Distance Visual Acuity [15 days] (COUNT_OF_PARTICIPANTS, Participants, dispersion : None)
+    Nyxol Ophthalmic Solution 1% : 12 (n=19)
+    Nyxol Ophthalmic Solution Vehicle : 4 (n=20)
+* SECONDARY — Conjunctival Hyperemia [15 days] (COUNT_OF_PARTICIPANTS, Participants, dispersion : None)
+    Nyxol Ophthalmic Solution 1% / None : 4 (n=19)
+    Nyxol Ophthalmic Solution Vehicle / None : 8 (n=20)
+    Nyxol Ophthalmic Solution 1% / Mild : 10 (n=19)
+    Nyxol Ophthalmic Solution Vehicle / Mild : 8 (n=20)
+    Nyxol Ophthalmic Solution 1% / Moderate : 3 (n=19)
+    Nyxol Ophthalmic Solution Vehicle / Moderate : 4 (n=20)
+    Nyxol Ophthalmic Solution 1% / Severe : 2 (n=19)
+    Nyxol Ophthalmic Solution Vehicle / Severe : 0 (n=20)
+  Tolérance — Nyxol Ophthalmic Solution 1% : exposés 19, graves 0, autres 5, décès 0
+  Tolérance — Nyxol Ophthalmic Solution Vehicle : exposés 20, graves 0, autres 1, décès 0</textarea></details></section>
+<p><small>Fiche générée le 2026-11-11 22:40 par Glaucoma Intelligence. Extraits des sources en langue originale.</small></p>
+</main><script>
+function copierFiche(){
+  var zone=document.getElementById('a-copier'), bouton=document.getElementById('bouton-copier');
+  function fait(){bouton.textContent='Copié ✓ — collez dans Claude ou ChatGPT';setTimeout(function(){bouton.textContent='Copier pour Claude / ChatGPT'},3000);}
+  function secours(){zone.parentElement.open=true;zone.select();try{document.execCommand('copy');fait();}
+    catch(err){bouton.textContent='Sélectionnez le texte ci-dessous puis Ctrl+C';}}
+  if(navigator.clipboard&&window.isSecureContext){navigator.clipboard.writeText(zone.value).then(fait,secours);}else{secours();}
+}
+</script></body></html>

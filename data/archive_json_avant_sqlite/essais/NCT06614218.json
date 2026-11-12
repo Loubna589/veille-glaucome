@@ -1,0 +1,82 @@
+{
+  "nct": "NCT06614218",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "nct": "NCT06614218",
+    "titre": "MIMS® Retrospective Chart Review",
+    "titre_officiel": "Minimally Invasive Micro Sclerostomy (MIMS®) Retrospective Chart Review",
+    "lien": "https://clinicaltrials.gov/study/NCT06614218",
+    "date_premiere_publication": "2024-09-26",
+    "date_derniere_mise_a_jour": "2026-10-15",
+    "type_etude": "OBSERVATIONAL",
+    "phases_declarees": null,
+    "statut": "COMPLETED",
+    "raison_arret": null,
+    "date_debut": "2023-09-27",
+    "date_fin_principale": "2024-04-25",
+    "promoteur": "Sanoculis Ltd",
+    "type_promoteur": "INDUSTRY",
+    "collaborateurs": null,
+    "conditions": [
+      "Open Angle Glaucoma"
+    ],
+    "interventions": [
+      {
+        "type": "DEVICE",
+        "nom": "Minimally Invasive Micro Sclerostomy"
+      }
+    ],
+    "participants_nombre": 34,
+    "participants_type": "ACTUAL",
+    "criteres_principaux": [
+      {
+        "critere": "Change in IOP from medicated baseline at 12 months post-MIMS® surgery",
+        "delai": "Medicated baseline at 12 months post-MIMS® surgery"
+      },
+      {
+        "critere": "Change in the number of topical IOP-lowering medications from medicated baseline at 12 months post-MIMS® surgery",
+        "delai": "Medicated baseline at 12 months post-MIMS® surgery"
+      },
+      {
+        "critere": "Success rate at 12 months post-MIMS® surgery",
+        "delai": "12 months post-MIMS® surgery"
+      }
+    ],
+    "resultats_deposes": false,
+    "publications_declarees": null,
+    "resume_source": "This is a post-market clinical follow-up, retrospective chart review of MIMS® surgical procedures conducted during time period between Sep 2023 and April 2025.",
+    "citations_declarees": null,
+    "plan": {
+      "repartition": null,
+      "modele": null,
+      "but_principal": null,
+      "insu": null,
+      "insu_pour": null,
+      "insu_description": null,
+      "modele_observationnel": "OTHER"
+    },
+    "bras": [
+      {
+        "libelle": "MIMS Surgery Cohort",
+        "type": null,
+        "description": "This cohort consists subjects treated with MIMS® Device as a standalone procedure during time period (27 Sep 2023 - 31 May 2025), and with documented post-operative follow-up available in the medical charts.",
+        "interventions": [
+          "Device: Minimally Invasive Micro Sclerostomy"
+        ]
+      }
+    ],
+    "eligibilite": {
+      "criteres": "Inclusion Criteria:\n\n1. Eye treated with MIMS® Device as a standalone procedure\n2. MIMS® surgery was performed between 27 Sep 2023 and 30 April 2024",
+      "age_min": "40 Years",
+      "age_max": "85 Years",
+      "sexe": "ALL",
+      "volontaires_sains": null
+    },
+    "criteres_secondaires": null,
+    "responsables": null,
+    "date_depot_resultats": null,
+    "resultats": null
+  },
+  "modifications": []
+}

@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Rechercher — Glaucoma Intelligence</title>
+  <meta name="description" content="Recherche sémantique multilingue dans les essais cliniques et publications sur le glaucome, calculée dans le navigateur.">
+  <link rel="canonical" href="https://loubna589.github.io/veille-glaucome/recherche.html">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div id="nav"></div>
+  <main class="page">
+    <header class="hero">
+      <h1>Rechercher</h1>
+      <p>Écrivez votre question avec vos mots, en français ou en anglais : l'outil retrouve les essais et articles qui en
+        parlent, même s'ils utilisent d'autres termes. Les résultats les plus proches s'affichent en premier.</p>
+      <details style="margin-top:8px;color:var(--doux);font-size:.88rem"><summary style="cursor:pointer">Comment ça marche (technique)</summary>
+        La question est transformée en vecteur <strong>dans votre navigateur</strong> (modèle <code>multilingual-e5-small</code>,
+        le même que celui du pipeline Python), puis comparée aux vecteurs des 509 essais et publications.
+        Score = similarité cosinus + bonus pour les termes du glossaire français→anglais (pondérés par leur rareté).</details>
+    </header>
+    <form class="recherche" id="form" role="search">
+      <label for="q" class="sr">Question</label>
+      <input type="search" id="q" value="Quels traitements du glaucome sans conservateur font actuellement l'objet de recherches cliniques ?">
+      <button type="submit" id="bouton">Chercher</button>
+    </form>
+    <p class="compteur" id="etat" style="margin-top:10px">Chargement de l'index…</p>
+    <div id="resultats"></div>
+  </main>
+  <footer class="pied" id="pied"></footer>
+  <script src="js/app.js"></script>
+  <script>
+    // Affiché tout de suite, sans attendre le modèle : résultats de la question d'exemple, calculés par le pipeline
+    (function () {
+      var V = Veille;
+      V.monterNavigation("recherche");
+      window.afficherResultats = function (res, note) {
+        document.getElementById("resultats").innerHTML = (note ? '<p class="compteur">' + note + "</p>" : "") + res.map(function (r, k) {
+          var cible = r.fiche || r.lien;
+          return '<article class="carte"><span class="badge">' + (k + 1) + '</span><span class="badge reg">' + V.esc(r.type) + "</span>" +
+            '<span class="badge ok">score ' + r.score.toFixed(3) + "</span>" +
+            '<h3><a href="' + V.esc(cible) + '"' + (r.fiche ? "" : ' target="_blank" rel="noopener"') + ">" + V.esc(r.titre || r.id) + "</a></h3>" +
+            '<div class="meta"><span>' + V.esc(r.id) + "</span><span>" + V.esc(V.date(r.date)) + "</span></div></article>";
+        }).join("");
+      };
+      V.charger(["recherche_exemple.json"]).then(function (r) {
+        if (!document.getElementById("resultats").innerHTML) {
+          afficherResultats(r[0].resultats, "Résultats pour la question d'exemple — vous pouvez déjà les consulter pendant le chargement du modèle de recherche.");
+        }
+      }).catch(function () {});
+    })();
+  </script>
+  <script type="module">
+    // transformers.js, version figée ; le modèle (≈ 118 Mo, quantifié) est téléchargé une fois puis gardé en cache par le navigateur
+    import { pipeline } from "https://cdn.jsdelivr.net/npm/@xenova/transformers@2.17.2";
+    const V = window.Veille;
+    const etat = document.getElementById("etat");
+    let S, vecteurs, extracteur;
+
+    function decoder(s) {
+      const brut = Uint8Array.from(atob(s.vecteurs_int8_base64), c => c.charCodeAt(0));
+      const octets = new Int8Array(brut.buffer);
+      const d = s.dimension, n = s.ids.length, v = new Float32Array(n * d);
+      for (let i = 0; i < n; i++) for (let j = 0; j < d; j++) v[i * d + j] = octets[i * d + j] * s.echelles[i];
+      return v;
+    }
+    function etendre(question) {        // même logique que veille/semantique.py : etendre()
+      let reste = question.toLowerCase(); const ajouts = [];
+      Object.keys(S.glossaire).sort((a, b) => b.length - a.length).forEach(t => {
+        if (reste.includes(t)) { S.glossaire[t].forEach(x => { if (!ajouts.includes(x)) ajouts.push(x); }); reste = reste.split(t).join(" "); }
+      });
+      return [ajouts.length ? `${question} (${ajouts.join(", ")})` : question, ajouts];
+    }
+    function idf(termes) {
+      const n = S.metas.length, p = {};
+      termes.forEach(t => { const df = S.metas.filter(m => (m.texte || "").toLowerCase().includes(t.toLowerCase())).length; p[t] = Math.log((n + 1) / (df + 1)) + 1e-6; });
+      return p;
+    }
+    async function chercher(question) {
+      const [etendue, termes] = etendre(question), poids = idf(termes);
+      etat.textContent = "Encodage de la question dans le navigateur…";
+      const t0 = performance.now();
+      const sortie = await extracteur(S.prefixe_question + etendue, { pooling: "mean", normalize: true });
+      const q = sortie.data, d = S.dimension, total = termes.reduce((a, t) => a + poids[t], 0);
+      const res = S.ids.map((id, i) => {
+        let c = 0; for (let j = 0; j < d; j++) c += vecteurs[i * d + j] * q[j];
+        const txt = (S.metas[i].texte || "").toLowerCase();
+        const lex = total ? termes.reduce((a, t) => a + (txt.includes(t.toLowerCase()) ? poids[t] : 0), 0) / total : 0;
+        return { id, i, dense: c, lex, score: c + S.poids_lexical * lex };
+      }).sort((a, b) => b.score - a.score).slice(0, 5);
+      etat.innerHTML = `${S.ids.length} documents comparés en ${Math.round(performance.now() - t0)} ms` +
+        (etendue !== question ? ` · question encodée : <em>${V.esc(etendue)}</em>` : "");
+      document.getElementById("resultats").innerHTML = res.map((r, k) => {
+        const m = S.metas[r.i], cible = m.fiche || m.lien;
+        return `<article class="carte"><span class="badge">${k + 1}</span><span class="badge reg">${V.esc(m.type)}</span>` +
+          `<span class="badge ok">score ${r.score.toFixed(3)}</span> <small>= cosinus ${r.dense.toFixed(3)} + ${S.poids_lexical} × lexical ${r.lex.toFixed(2)}</small>` +
+          `<h3><a href="${V.esc(cible)}"${m.fiche ? "" : ' target="_blank" rel="noopener"'}>${V.esc(m.titre || r.id)}</a></h3>` +
+          `<div class="meta"><span>${V.esc(r.id)}</span><span>${V.esc(V.date(m.date))}</span></div></article>`;
+      }).join("");
+    }
+    try {
+      [S] = await V.charger(["semantique.json"]);
+      vecteurs = decoder(S);
+      etat.textContent = `Préparation de la recherche dans ${S.ids.length} essais et articles… (la première fois, le modèle — environ 118 Mo — est téléchargé une seule fois)`;
+      extracteur = await pipeline("feature-extraction", S.modele, { quantized: true });
+      etat.textContent = "Prêt : tapez votre question puis « Chercher ».";
+      document.getElementById("form").addEventListener("submit", e => { e.preventDefault(); chercher(document.getElementById("q").value); });
+      await chercher(document.getElementById("q").value);
+    } catch (e) {
+      etat.innerHTML = `<strong>La recherche libre a besoin d'une connexion internet la première fois</strong> (${V.esc(e.message)}). ` +
+        "Les résultats d'exemple ci-dessous restent consultables ; en local : <code>python chercher.py \"question\"</code>.";
+    }
+  </script>
+</body>
+</html>

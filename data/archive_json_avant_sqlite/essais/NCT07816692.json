@@ -1,0 +1,75 @@
+{
+  "nct": "NCT07816692",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "nct": "NCT07816692",
+    "titre": "iDose TR Administration in an Office-Based Surgery Setting",
+    "titre_officiel": "Real-World Evidence Observational Study to Evaluate the Safety of iDose® TR (Travoprost Intracameral Implant) 75 µg in an Office-Based Surgery Setting",
+    "lien": "https://clinicaltrials.gov/study/NCT07816692",
+    "date_premiere_publication": "2026-09-14",
+    "date_derniere_mise_a_jour": "2026-09-30",
+    "type_etude": "OBSERVATIONAL",
+    "phases_declarees": null,
+    "statut": "RECRUITING",
+    "raison_arret": null,
+    "date_debut": "2026-05-13",
+    "date_fin_principale": "2027-03",
+    "promoteur": "Glaukos Corporation",
+    "type_promoteur": "INDUSTRY",
+    "collaborateurs": null,
+    "conditions": [
+      "Open Angle Glaucoma (OAG)",
+      "Ocular Hypertension (OHT)"
+    ],
+    "interventions": [
+      {
+        "type": "COMBINATION_PRODUCT",
+        "nom": "iDose TR (travoprost intracameral implant) 75 µg"
+      }
+    ],
+    "participants_nombre": 30,
+    "participants_type": "ESTIMATED",
+    "criteres_principaux": [
+      {
+        "critere": "Successful administration of iDose TR in an office-based surgical setting.",
+        "delai": "3 months"
+      }
+    ],
+    "resultats_deposes": false,
+    "publications_declarees": null,
+    "resume_source": "Clinical in-use observational trial to evaluate the administration of iDose TR (travoprost intracameral implant) in an office-based surgery setting.",
+    "citations_declarees": null,
+    "plan": {
+      "repartition": null,
+      "modele": null,
+      "but_principal": null,
+      "insu": null,
+      "insu_pour": null,
+      "insu_description": null,
+      "modele_observationnel": "COHORT"
+    },
+    "bras": [
+      {
+        "libelle": "iDose TR",
+        "type": null,
+        "description": "Travoprost Intracameral Implant",
+        "interventions": [
+          "Combination Product: iDose TR (travoprost intracameral implant) 75 µg"
+        ]
+      }
+    ],
+    "eligibilite": {
+      "criteres": "Inclusion Criteria:\n\n* Diagnosis of Open angle glaucoma (OAG) or ocular hypertension (OHT)\n\nExclusion Criteria:\n\n* Prior administration of iDose TR or administration of an investigational intracameral implant in the study eye\n* Active ocular infection or inflammation\n* History of hypersensitivity to travoprost or implant components\n* Recent ocular surgery\n* Uncontrolled systemic disease\n* Any condition preventing safe implantation",
+      "age_min": "18 Years",
+      "age_max": null,
+      "sexe": "ALL",
+      "volontaires_sains": false
+    },
+    "criteres_secondaires": null,
+    "responsables": null,
+    "date_depot_resultats": null,
+    "resultats": null
+  },
+  "modifications": []
+}

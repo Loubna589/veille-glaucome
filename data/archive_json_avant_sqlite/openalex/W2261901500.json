@@ -1,0 +1,52 @@
+{
+  "openalex_id": "W2261901500",
+  "premiere_detection": "2026-09-25",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "openalex_id": "W2261901500",
+    "doi": "10.67481/ajps.v4i2.272",
+    "pmid": null,
+    "pmcid": null,
+    "titre": "Primary Congenital Glaucoma in Kano, Northern Nigeria",
+    "lien": "https://openalex.org/W2261901500",
+    "date_publication": "2026-05-25",
+    "type": "article",
+    "revue": "African Journal of Paediatric Surgery",
+    "type_source": "journal",
+    "langue": "en",
+    "indexe_dans": [
+      "crossref",
+      "doaj"
+    ],
+    "financeurs": null,
+    "subventions": null,
+    "institutions": null,
+    "acces_ouvert": true,
+    "statut_acces": "gold",
+    "url_texte": "https://afrjpaedsurg.com/index.php/ajps/article/download/272/182",
+    "url_pdf": "https://afrjpaedsurg.com/index.php/ajps/article/download/272/182",
+    "licence": "cc-by-nc-sa",
+    "texte_integral_indexe": true,
+    "retracte": false,
+    "citations": 2,
+    "sujet_principal": "Glaucoma and retinal disorders",
+    "resume_present": true,
+    "resume": "Background: Primary congenital glaucoma is one of the causes of childhood blindness and it appears to be common in our environment. This study evaluated the pattern of presentation and management of primary congenital glaucoma in children. Patients and Methods: This was a prospective questionnaire-based study of primary congenital glaucoma over a three year period. The information analyzed included patients' bio-data, vision, laterality of disease, presenting symptoms, family history, and history of traditional medicine application to the eye. Others included horizontal corneal diameter, intra ocular pressure and outcome of management. Results: There were 26 patients, 20 were males and 6 were females (M:F=3.3:1). Their ages ranged between 3 months and 5 years. Over a half of the patients presented during the first year of life. Primary congenital glaucoma was bilateral in 19 patients (73%). The commonest presenting symptoms were large eyes (85%), cloudy eyes (77%), photophobia (46%) and lacrimation (31%). In 44 eyes (98%) the intra ocular pressure was 20-49 mmHg before surgery and below 20 mmHg after surgery. Ttrabeculectomy resolved almost all the presenting symptoms, reduced intra-ocular pressure (IOP) and improved vision in all the patients. No sight threatening complications were recorded. Conclusion: Primary congenital glaucoma is common in our environment. Trabeculectomy remains a valuable treatment modality because it abolished most of the symptoms and IOP.",
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "present_dans_pubmed": false
+  }
+}

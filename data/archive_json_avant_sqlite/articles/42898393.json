@@ -1,0 +1,178 @@
+{
+  "pmid": "42898393",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42898393",
+    "titre": "Application of nanozyme-based drug delivery systems in the treatment of ROS-related ophthalmic diseases.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42898393/",
+    "doi": "10.1016/j.ijpx.2026.100680",
+    "pmcid": "PMC13677962",
+    "revue": "International journal of pharmaceutics: X",
+    "date_entree_pubmed": "2026-10-20",
+    "date_publication": "2026-Dec",
+    "types_publication": [
+      "Journal Article",
+      "Review"
+    ],
+    "resume_present": true,
+    "resume": "ROS-related ophthalmic diseases span the ocular surface as well as the anterior and posterior segments of the eye. Dry eye disease (DED), glaucoma, diabetic retinopathy (DR) and age-related macular degeneration (AMD) have distinct anatomical targets but share common pathophysiological features, including oxidative stress, inflammation, vascular dysfunction, epithelial injury or neurodegeneration. Conventional ocular drug delivery and therapeutic modalities are hindered by severe limitations, including low bioavailability in the posterior segment of the eye and the requirement for frequent invasive administration. Nanozymes, an emerging class of therapeutic agents that integrate the properties of nanomaterials with natural enzyme-like catalytic activity, can efficiently scavenge excess reactive oxygen species (ROS) in focal lesions, modulate inflammatory factors, and remodel the pathological microenvironment, thereby providing a novel approach to the treatment of ROS-related ophthalmic diseases. This review systematically elucidates the core characteristics and therapeutic mechanisms of four major categories of nanozymes, namely metal-based, metal oxide-based, carbon-based, and composite nanozymes. To overcome physiological barriers in ocular drug delivery, such as the cornea and the blood-retinal barrier (BRB), we discuss active targeted delivery strategies based on mucin-binding retention, biomimetic cell membrane coating, and molecular ligand-mediated targeting. Furthermore, we summarize the development of intelligent and controlled-release systems in response to specific pathological microenvironments, such as ROS, pH values, and others. Additionally, this review details the latest cutting-edge applications and therapeutic efficacies of nanozymes in specific ophthalmic diseases, including AMD, DR, dry eye disease, and glaucoma. Finally, we highlight the challenges of long-term biosafety evaluation in the bench-to-bedside clinical translation of nanozymes and provide perspectives on future research directions for developing multi-stimuli-responsive synergistic nanodelivery systems.",
+    "mots_cles_auteurs": [
+      "Drug delivery system",
+      "Nanozymes",
+      "Ophthalmic diseases",
+      "Oxidative stress",
+      "Responsive drug release"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 9,
+    "affiliations_auteurs": [
+      "School of Medicine, Weifang University of Science and Technology, Weifang 262700, China.",
+      "School of Life Science and Technology, Shandong Second Medical University, Weifang 261053, China.",
+      "Department of Dentistry, Shouguang Hospital of Traditional Chinese Medicine, Weifang 262700, China.",
+      "Department of Pharmaceutics, School of Pharmacy, Qingdao University, Qingdao 266021, China."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": [
+        "drug delivery"
+      ],
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7221028814",
+      "doi": "10.1016/j.ijpx.2026.100680",
+      "pmid": "42898393",
+      "pmcid": "13677962",
+      "titre": "Application of nanozyme-based drug delivery systems in the treatment of ROS-related ophthalmic diseases",
+      "lien": "https://openalex.org/W7221028814",
+      "date_publication": "2026-10-08",
+      "type": "review",
+      "revue": "International Journal of Pharmaceutics X",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "doaj",
+        "pubmed"
+      ],
+      "financeurs": [
+        {
+          "nom": "Natural Science Foundation of Shandong Province",
+          "ror": null
+        },
+        {
+          "nom": "Weifang University of Science and Technology",
+          "ror": "https://ror.org/04ha2bb10"
+        }
+      ],
+      "subventions": [
+        {
+          "financeur": "Weifang University of Science and Technology",
+          "reference": "KJRC2024013"
+        },
+        {
+          "financeur": "Natural Science Foundation of Shandong Province",
+          "reference": "ZR2025QC825"
+        }
+      ],
+      "institutions": [
+        {
+          "nom": "Weifang University of Science and Technology",
+          "pays": "CN",
+          "type": "education",
+          "ror": "https://ror.org/04ha2bb10"
+        },
+        {
+          "nom": "Weifang Chinese Medicine Hospital",
+          "pays": "CN",
+          "type": "healthcare",
+          "ror": "https://ror.org/05mfqj750"
+        },
+        {
+          "nom": "Qingdao University",
+          "pays": "CN",
+          "type": "education",
+          "ror": "https://ror.org/021cj6z65"
+        }
+      ],
+      "acces_ouvert": true,
+      "statut_acces": "gold",
+      "url_texte": "https://www.sciencedirect.com/science/article/pii/S2590156726002008/pdf",
+      "url_pdf": "https://www.sciencedirect.com/science/article/pii/S2590156726002008/pdf",
+      "licence": "cc-by",
+      "texte_integral_indexe": true,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Advanced Nanomaterials in Catalysis",
+      "resume_present": true,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": [
+      {
+        "nom": "Natural Science Foundation of Shandong Province",
+        "statut": "À VÉRIFIER — trouvé par OpenAlex seulement (absent de la déclaration de l'éditeur dans Crossref) ; à contrôler dans le texte de l'article",
+        "references": [
+          "ZR2025QC825"
+        ],
+        "notices": [
+          [
+            "notice OpenAlex",
+            "https://api.openalex.org/works/W7221028814"
+          ],
+          [
+            "notice Crossref consultée (ne confirme pas ce financeur)",
+            "https://api.crossref.org/works/10.1016/j.ijpx.2026.100680"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "Weifang University of Science and Technology",
+        "statut": "CONFIRMÉ — déclaré par l'éditeur dans Crossref",
+        "references": [
+          "KJRC2024013"
+        ],
+        "notices": [
+          [
+            "notice justificative Crossref (déclaration de l'éditeur)",
+            "https://api.crossref.org/works/10.1016/j.ijpx.2026.100680"
+          ],
+          [
+            "notice OpenAlex",
+            "https://api.openalex.org/works/W7221028814"
+          ]
+        ],
+        "note": "cet organisme figure AUSSI parmi les institutions des auteurs : c'est une affiliation, information distincte"
+      },
+      {
+        "nom": "Shandong Province Natural Science Foundation",
+        "statut": "CONFIRMÉ — déclaré par l'éditeur dans Crossref (absent d'OpenAlex)",
+        "references": [
+          "ZR2025QC825"
+        ],
+        "notices": [
+          [
+            "notice justificative Crossref (déclaration de l'éditeur)",
+            "https://api.crossref.org/works/10.1016/j.ijpx.2026.100680"
+          ]
+        ],
+        "note": null
+      }
+    ]
+  }
+}

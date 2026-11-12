@@ -1,0 +1,188 @@
+{
+  "pmid": "42862623",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42862623",
+    "titre": "The Emerging Role of Cellular Mechanical Memory in Aqueous Humor Outflow Dysfunction in Glaucoma.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42862623/",
+    "doi": "10.1115/1.4072760",
+    "pmcid": null,
+    "revue": "Journal of biomechanical engineering",
+    "date_entree_pubmed": "2026-10-12",
+    "date_publication": "2026-Dec-01",
+    "types_publication": [
+      "Journal Article",
+      "Review"
+    ],
+    "resume_present": true,
+    "resume": "Emerging evidence suggests that cells can retain information about previous mechanical environments and subsequently exhibit altered phenotypes even after the original mechanical stimulus is removed. This phenomenon is known as cellular mechanical memory that occurs in three phases: memory acquisition, storage, and recall. The literature supports a model in which mechanical experiences become encoded through interconnected cytoskeletal, nuclear, metabolic, and epigenetic mechanisms. Mechanical memory is increasingly recognized as a central regulator of cell fate and tissue remodeling, as well as a fundamental principle in development, aging, fibrosis, cancer, and regenerative medicine. We here give a concise overview of the historical origins and defining features of mechanical memory, discuss the emergence of mechanical memory in aqueous humor outflow dysfunction in glaucoma, summarize key unanswered questions, and close with a discussion of the clinical relevance of targeting mechanical memory for therapeutic purposes.",
+    "mots_cles_auteurs": [
+      "ECM hydrogels",
+      "chromatin remodeling",
+      "epigenetics",
+      "mechanosensing",
+      "mechanotransduction",
+      "outflow tract",
+      "trabecular meshwork"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 1,
+    "affiliations_auteurs": [
+      "Department of Ophthalmology and Visual Sciences, SUNY Upstate Medical University, 505 Irving Avenue, Neuroscience Research Building Room 4609, Syracuse, NY 13210; Department of Cell and Developmental Biology, SUNY Upstate Medical University, Syracuse, NY 13210; Department of Biochemistry and Molecular Biology, SUNY Upstate Medical University, Syracuse, NY 13210; BioInspired Institute, Syracuse University, Syracuse, NY 13244; Department of Biomedical and Chemical Engineering, Syracuse University, Syracuse, NY 13244."
+    ],
+    "financeurs_declares": [
+      {
+        "organisme": "NEI NIH HHS",
+        "pays": "United States",
+        "reference": "R01 EY034096"
+      },
+      {
+        "organisme": "NEI NIH HHS",
+        "pays": "United States",
+        "reference": "R21 EY036189"
+      }
+    ],
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": [
+      "Humans",
+      "Glaucoma",
+      "Aqueous Humor",
+      "Animals",
+      "Mechanotransduction, Cellular",
+      "Mechanical Phenomena",
+      "Biomechanical Phenomena"
+    ]
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": null,
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7221542058",
+      "doi": "10.1115/1.4072760",
+      "pmid": "42862623",
+      "pmcid": null,
+      "titre": "The Emerging Role of Cellular Mechanical Memory in Aqueous Humor Outflow Dysfunction in Glaucoma",
+      "lien": "https://openalex.org/W7221542058",
+      "date_publication": "2026-10-12",
+      "type": "review",
+      "revue": "Journal of Biomechanical Engineering",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "pubmed"
+      ],
+      "financeurs": [
+        {
+          "nom": "National Eye Institute",
+          "ror": "https://ror.org/03wkg3b53"
+        }
+      ],
+      "subventions": [
+        {
+          "financeur": "National Eye Institute",
+          "reference": "R01EY034096"
+        },
+        {
+          "financeur": "National Eye Institute",
+          "reference": "R21EY036189"
+        }
+      ],
+      "institutions": [
+        {
+          "nom": "SUNY Upstate Medical University",
+          "pays": "US",
+          "type": "education",
+          "ror": "https://ror.org/040kfrw16"
+        },
+        {
+          "nom": "Syracuse University",
+          "pays": "US",
+          "type": "education",
+          "ror": "https://ror.org/025r5qe02"
+        }
+      ],
+      "acces_ouvert": true,
+      "statut_acces": "hybrid",
+      "url_texte": "https://doi.org/10.1115/1.4072760",
+      "url_pdf": null,
+      "licence": "cc-by",
+      "texte_integral_indexe": false,
+      "retracte": false,
+      "citations": 1,
+      "sujet_principal": "Cellular Mechanics and Interactions",
+      "resume_present": true,
+      "mesh": [
+        "Animals",
+        "Aqueous Humor",
+        "Biomechanical Phenomena",
+        "Glaucoma",
+        "Humans",
+        "Mechanotransduction, Cellular",
+        "Mechanical Phenomena"
+      ]
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": [
+      {
+        "nom": "NEI NIH HHS",
+        "statut": "CONFIRMÉ — déclaré dans la notice PubMed (GrantList)",
+        "references": [
+          "R01 EY034096"
+        ],
+        "notices": [
+          [
+            "notice PubMed",
+            "https://pubmed.ncbi.nlm.nih.gov/42862623/?format=pubmed"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "NEI NIH HHS",
+        "statut": "CONFIRMÉ — déclaré dans la notice PubMed (GrantList)",
+        "references": [
+          "R21 EY036189"
+        ],
+        "notices": [
+          [
+            "notice PubMed",
+            "https://pubmed.ncbi.nlm.nih.gov/42862623/?format=pubmed"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "National Eye Institute",
+        "statut": "À VÉRIFIER — trouvé par OpenAlex seulement (l'éditeur n'a déclaré aucun financeur dans Crossref) ; à contrôler dans le texte de l'article",
+        "references": [
+          "R01EY034096",
+          "R21EY036189"
+        ],
+        "notices": [
+          [
+            "notice OpenAlex",
+            "https://api.openalex.org/works/W7221542058"
+          ],
+          [
+            "notice Crossref consultée (ne confirme pas ce financeur)",
+            "https://api.crossref.org/works/10.1115/1.4072760"
+          ]
+        ],
+        "note": null
+      }
+    ]
+  }
+}

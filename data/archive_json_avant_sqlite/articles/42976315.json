@@ -1,0 +1,140 @@
+{
+  "pmid": "42976315",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42976315",
+    "titre": "Prevalence and OCT Characteristics of Glaucoma-Like Optic Neuropathy in a Real-World Population.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42976315/",
+    "doi": "10.1097/IJG.0000000000002769",
+    "pmcid": null,
+    "revue": "Journal of glaucoma",
+    "date_entree_pubmed": "2026-11-03",
+    "date_publication": "2026-Nov-01",
+    "types_publication": [
+      "Journal Article"
+    ],
+    "resume_present": true,
+    "resume": "PRCIS: Based upon a real-world data set, the prevalence of subtle glaucoma-like defects in the macula is underestimated.\nPURPOSE: To understand the prevalence and characteristics of glaucoma-like defects in a large real-world data set using optical coherence tomography (OCT) and an OCT-based Reading Center (OCT-RC) approach.\nMETHODS: OCT scans were analyzed from 6184 individuals tested at optometric sites involved in refractive care. Based on commercial widefield OCT reports, foveal B-scans, and a previously published OCT-RC method, 361 individuals had evidence of optic neuropathy consistent with glaucoma in 1 or both eyes [ON-G (RC)]. Using the Columbia University (CU) OCT method, 2 experienced graders also labeled eyes as \"ON-G (CU)\" and \"Not ON-G (CU),\" based only upon the OCT report.\nRESULTS: As expected, prevalence of pathology increased with age: 2.9% aged 50 years or older to 27.5% ≥70 years or older, with ON-G increasing from 2.1% (<50 y) to 14.2% (≥70 y). 320 (88.6%) of 361 ON-G eyes had macular damage, and 59 (16.3%) had thin arcuates largely restricted to the thick ganglion cell layer (GCL) region of the central macula. ON-G severity increased with age as indicated by central macular involvement. Using the CU method, 18% of ON-G individuals were judged as \"Not ON-G (CU).\"\nCONCLUSIONS: Glaucoma-like optic neuropathy was common in this real-world population and was characterized by frequent macular involvement, including early central GCL arcuate defects. These findings support the value of careful macular OCT assessment for identifying early glaucomatous structural damage.",
+    "mots_cles_auteurs": [
+      "OCT",
+      "glaucoma-like defects",
+      "prevalence"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 8,
+    "affiliations_auteurs": [
+      "Columbia University Vagelos College of Physicians and Surgeons.",
+      "Ophthalmology, New York-Presbyterian and Columbia University Irving Medical Center.",
+      "Psychology, Columbia University, New York, NY.",
+      "University of Pittsburgh School of Medicine, Pittsburgh, PA.",
+      "Topcon Healthcare, Oakland, NJ."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": [
+      "Humans",
+      "Tomography, Optical Coherence",
+      "Prevalence",
+      "Middle Aged",
+      "Female",
+      "Optic Nerve Diseases",
+      "Aged",
+      "Male",
+      "Retinal Ganglion Cells",
+      "Adult",
+      "Glaucoma",
+      "Nerve Fibers",
+      "Visual Fields",
+      "Aged, 80 and over",
+      "Intraocular Pressure",
+      "Optic Disk",
+      "Young Adult"
+    ]
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": null,
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7225152186",
+      "doi": "10.1097/ijg.0000000000002769",
+      "pmid": "42976315",
+      "pmcid": null,
+      "titre": "Prevalence and OCT Characteristics of Glaucoma-Like Optic Neuropathy in a Real-World Population",
+      "lien": "https://openalex.org/W7225152186",
+      "date_publication": "2026-08-20",
+      "type": "article",
+      "revue": "Journal of Glaucoma",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "pubmed"
+      ],
+      "financeurs": null,
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "Columbia University",
+          "pays": "US",
+          "type": "education",
+          "ror": "https://ror.org/00hj8s172"
+        },
+        {
+          "nom": "Columbia University Irving Medical Center",
+          "pays": "US",
+          "type": "healthcare",
+          "ror": "https://ror.org/01esghr10"
+        },
+        {
+          "nom": "University of Pittsburgh",
+          "pays": "US",
+          "type": "education",
+          "ror": "https://ror.org/01an3r305"
+        }
+      ],
+      "acces_ouvert": false,
+      "statut_acces": "closed",
+      "url_texte": null,
+      "url_pdf": null,
+      "licence": null,
+      "texte_integral_indexe": false,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Glaucoma and retinal disorders",
+      "resume_present": true,
+      "mesh": [
+        "Adult",
+        "Aged",
+        "Aged, 80 and over",
+        "Female",
+        "Glaucoma",
+        "Humans",
+        "Intraocular Pressure",
+        "Male",
+        "Middle Aged",
+        "Nerve Fibers",
+        "Optic Disk",
+        "Optic Nerve Diseases",
+        "Retinal Ganglion Cells",
+        "Visual Fields",
+        "Prevalence",
+        "Tomography, Optical Coherence",
+        "Young Adult"
+      ]
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": []
+  }
+}

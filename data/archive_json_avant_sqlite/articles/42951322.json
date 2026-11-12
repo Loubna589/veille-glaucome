@@ -1,0 +1,97 @@
+{
+  "pmid": "42951322",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42951322",
+    "titre": "Phacoemulsification combined with PRESERFLO MicroShunt for glaucoma associated with non-acquired ocular anomalies in congenital microcoria.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42951322/",
+    "doi": "10.1136/bcr-2026-273258",
+    "pmcid": null,
+    "revue": "BMJ case reports",
+    "date_entree_pubmed": "2026-10-28",
+    "date_publication": "2026-Oct-28",
+    "types_publication": [
+      "Journal Article"
+    ],
+    "resume_present": false,
+    "resume": null,
+    "mots_cles_auteurs": [
+      "Angle-closure glaucoma",
+      "Anterior chamber",
+      "Congenital microcoria",
+      "Intraocular lenses",
+      "Intraocular pressure"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 4,
+    "affiliations_auteurs": [
+      "Ophthalmology, Shiga University of Medical Science Hospital, Otsu, Shiga, Japan.",
+      "Ophthalmology, Shiga University of Medical Science Hospital, Otsu, Shiga, Japan opaldrag54@gmail.com."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7224129673",
+      "doi": "10.1136/bcr-2026-273258",
+      "pmid": "42951322",
+      "pmcid": null,
+      "titre": "Phacoemulsification combined with PRESERFLO MicroShunt for glaucoma associated with non-acquired ocular anomalies in congenital microcoria",
+      "lien": "https://openalex.org/W7224129673",
+      "date_publication": "2026-10-01",
+      "type": "article",
+      "revue": "BMJ Case Reports",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "pubmed"
+      ],
+      "financeurs": null,
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "Shiga University of Medical Science",
+          "pays": "JP",
+          "type": "education",
+          "ror": "https://ror.org/00d8gp927"
+        },
+        {
+          "nom": "Shiga University of Medical Science Hospital",
+          "pays": "JP",
+          "type": "healthcare",
+          "ror": "https://ror.org/00xwg5y60"
+        }
+      ],
+      "acces_ouvert": false,
+      "statut_acces": "closed",
+      "url_texte": null,
+      "url_pdf": null,
+      "licence": null,
+      "texte_integral_indexe": false,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Glaucoma and retinal disorders",
+      "resume_present": true,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": []
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "openalex_id": "W7213470972",
+  "premiere_detection": "2026-09-25",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "openalex_id": "W7213470972",
+    "doi": "10.53432/2078-4104-2026-25-3-85-92",
+    "pmid": null,
+    "pmcid": null,
+    "titre": "Diagnostic challenges of glaucoma in patients with diabetes mellitus",
+    "lien": "https://openalex.org/W7213470972",
+    "date_publication": "2026-09-17",
+    "type": "article",
+    "revue": "National Journal glaucoma",
+    "type_source": "journal",
+    "langue": null,
+    "indexe_dans": [
+      "crossref"
+    ],
+    "financeurs": null,
+    "subventions": null,
+    "institutions": [
+      {
+        "nom": "Moscow Clinical Scientific Center",
+        "pays": "RU",
+        "type": "facility",
+        "ror": "https://ror.org/000wnz761"
+      },
+      {
+        "nom": "Russian Medical Academy of Continuous Professional Education",
+        "pays": "RU",
+        "type": "education",
+        "ror": "https://ror.org/01t6bjk79"
+      }
+    ],
+    "acces_ouvert": true,
+    "statut_acces": "hybrid",
+    "url_texte": "https://www.glaucomajournal.ru/jour/article/download/653/551",
+    "url_pdf": "https://www.glaucomajournal.ru/jour/article/download/653/551",
+    "licence": "cc-by",
+    "texte_integral_indexe": true,
+    "retracte": false,
+    "citations": 0,
+    "sujet_principal": "Retinal Diseases and Treatments",
+    "resume_present": true,
+    "resume": "Glaucoma in patients with diabetes mellitus (DM) is a clinically and diagnostically challenging condition whose formation and detection are complicated by the combined influence of metabolic, vascular and neurodegenerative factors. This review summarizes current data on glaucoma as a comorbid condition in diabetes mellitus, as well as on secondary neovascular glaucoma developing in the setting of diabetic retinopathy. The article discusses mechanisms of increased intraocular pressure in chronic hyperglycemia, including impaired aqueous humor secretion and outflow, trabecular meshwork remodeling, and endothelial dysfunction. This study places particular emphasis on the diagnostic limitations of standard examination methods and analyzes in detail how changes in corneal biomechanical properties affect the reliability of transcorneal tonometry. It also discusses the difficulties of interpreting optical coherence tomography and standard automated perimetry findings in patients with DM, which are caused by diabetesassociated morphofunctional changes in the retina and optic nerve and by the consequences of laser treatment for diabetic retinopathy. These changes may mask or mimic signs of glaucomatous optic neuropathy, creating a risk of diagnostic errors and incorrect assessment of disease progression. The article emphasizes the need for a comprehensive approach to glaucoma diagnosis in patients with DM that takes metabolic status into account, as well as the need to develop diagnostic criteria with better specificity.",
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "present_dans_pubmed": false
+  }
+}

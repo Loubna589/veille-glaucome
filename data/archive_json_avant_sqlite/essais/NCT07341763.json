@@ -1,0 +1,120 @@
+{
+  "nct": "NCT07341763",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "nct": "NCT07341763",
+    "titre": "Brain Stimulation Effects on Orientation and Mobility Skills in Adults With Vision Impairment",
+    "titre_officiel": "A Randomized, Double-Blind, Placebo-Controlled Pilot Study to Evaluate Non-invasive Brain Stimulation Effects on Orientation and Mobility Performance in Adults With Visual Impairments",
+    "lien": "https://clinicaltrials.gov/study/NCT07341763",
+    "date_premiere_publication": "2026-01-14",
+    "date_derniere_mise_a_jour": "2026-11-03",
+    "type_etude": "INTERVENTIONAL",
+    "phases_declarees": [
+      "NA"
+    ],
+    "statut": "RECRUITING",
+    "raison_arret": null,
+    "date_debut": "2026-11-01",
+    "date_fin_principale": "2027-08-31",
+    "promoteur": "University of Waterloo",
+    "type_promoteur": "OTHER",
+    "collaborateurs": [
+      "The Hong Kong Polytechnic University"
+    ],
+    "conditions": [
+      "Retinitis Pigmentosa (RP)",
+      "Rod Cone Dystrophy",
+      "Visually Impaired Persons",
+      "Peripheral Visual Field Defect of Both Eyes",
+      "Low Vision, Both Eyes",
+      "Vision Loss Partial",
+      "Orientation",
+      "Mobility Difficulty",
+      "Mobility Limitation",
+      "Mobility and Independence",
+      "Glaucoma"
+    ],
+    "interventions": [
+      {
+        "type": "DEVICE",
+        "nom": "Active hf-tRNS."
+      },
+      {
+        "type": "DEVICE",
+        "nom": "Placebo/sham hf-tRNS"
+      }
+    ],
+    "participants_nombre": 20,
+    "participants_type": "ESTIMATED",
+    "criteres_principaux": [
+      {
+        "critere": "Percentage preferred walking speed (PPWS)",
+        "delai": "The pre-test and post-tests will take roughly 2 hours to complete."
+      }
+    ],
+    "resultats_deposes": false,
+    "publications_declarees": null,
+    "resume_source": "This pilot clinical trial evaluates whether non-invasive brain stimulation improves the orientation and mobility (O\\&M) skills of individuals with constricted visual fields in both eyes. The study is composed of three visits. The first visit is meant to confirm eligibility by performing a few clinical tests. Eligible participants will then complete two additional visits, one in which the participants receive active stimulation, and one in which the participants receive placebo (sham) stimulation. Stimulation will be administered in a randomized, double-blind order. To evaluate improvement, various measures of O\\&M performance will be assessed on a standardized obstacle course featuring static natural and artificial obstacles at defined intervals after the intervention. We hypothesize that the application of hf-tRNS to V1 will improve the orientation and mobility skills of individuals with constricted visual fields immediately following stimulation as a results of enhanced periphery through modulation of the mechanisms responsible for crowding, thereby reducing crowding effects and improving contrast for individuals with rod-cone dystrophy and RP (genetic conditions), whereas for individuals with glaucoma (a neurogenerative condition), any improvement noted would be attributed to be enhanced processing of visual signal in the affected periphery. The results will inform the design of a future, larger-scale study.",
+    "citations_declarees": null,
+    "plan": {
+      "repartition": "RANDOMIZED",
+      "modele": "CROSSOVER",
+      "but_principal": "TREATMENT",
+      "insu": "DOUBLE",
+      "insu_pour": [
+        "PARTICIPANT",
+        "INVESTIGATOR"
+      ],
+      "insu_description": "Each participant will experience active brain stimulation and placebo (sham)stimulation. The participant and the researcher will be blind to which session the participant receives active brain stimulation and placebo.",
+      "modele_observationnel": null
+    },
+    "bras": [
+      {
+        "libelle": "Active brain stimulation (study visit 2) and Placebo/Sham (study visit 3)",
+        "type": "OTHER",
+        "description": "Participants in this arm will be exposed to active stimulation for 20 minutes whilst seated quietly at treatment session 1 (study visit 2). They will then complete the orientation and mobility (O\\&M) course 2-minutes and 30-minutes after stimulation. It is important to note that they will also complete the course before undergoing stimulation. In addition, individuals with constricted visual fields in both eyes who use a white cane for travelling will be encouraged to use their personal cane for the course, whereas those who do not use a cane will complete the course as they naturally would for any travel paths. Forty-eight hours later the same participants in this arm will be exposed to placebo/sham stimulation (study visit 3) and except for the treatment they receive that day, the same protocol from the previous visit will be executed, and the same outcome measures evaluated. Interventions: Active hf-tRNS at treatment (study visit 2); Placebo/sham hf-tRNS (study visit 3).",
+        "interventions": [
+          "Device: Active hf-tRNS.",
+          "Device: Placebo/sham hf-tRNS"
+        ]
+      },
+      {
+        "libelle": "Placebo/sham (study visit 2) and Active brain stimulation (study visit 3)",
+        "type": "OTHER",
+        "description": "Participants in this arm will be exposed to placebo/sham stimulation for 20 minutes whilst seated quietly at treatment session 1 (study visit 2). They will then proceed to complete the orientation and mobility (O\\&M) course 2-minutes and 30-minutes after stimulation. It is important to note that they will also complete the course before undergoing stimulation. In addition, individuals with constricted visual fields in both eyes who use a white cane for travelling will be encouraged to use their personal cane for the course, whereas those who do not use a cane will complete the course as they naturally would for any travel paths. Forty-eight hours later the same participants in this arm will be exposed to active stimulation (study visit 3) and except for the treatment they receive that day, the same protocol from the previous visit will be executed, and the same outcome measures evaluated. Interventions: Placebo/sham hf-tRNS at treatment (study visit 2); Active hf-tRNS (study visit 3).",
+        "interventions": [
+          "Device: Active hf-tRNS.",
+          "Device: Placebo/sham hf-tRNS"
+        ]
+      }
+    ],
+    "eligibilite": {
+      "criteres": "Inclusion Criteria:\n\n* Are healthy, capacitated adults with binocular constricted visual field loss (due to either retinitis pigmentosa (RP), rod-cone dystrophy, or advanced glaucoma) resulting in functional vision losses. These individuals with visual impairments can be those who have been previously trained by an Orientation and Mobility (O\\&M) specialist to independently travel with the long white cane daily (since the length of the white cane and tip at the base are based on personal preference, they should be willing to use their own white cane for the study), and those who do not necessarily use a cane for travelling.\n* Have binocular visual acuity or best corrected binocular visual acuity no worse than 6/12 or 20/40 or +0.30 logMAR (inclusive) with no eccentric viewing and visual fields no better than 50 degrees in total in each eye as given by the Humphrey Field analyzer and arc perimeter test. The Humphrey Field Analyzer measures static visual field test, whereas the Arc perimeter test measures kinetic visual field test. Measuring kinetic and static visual field would promote a greater understanding of the individual's daily performance.\n* Are over the age of 18 (inclusive) and has full legal capacity to provide informed consent.\n* Have read and fully comprehends the information in the consent letter.\n* Are willing and capable of adhering to instructions and maintaining the outlined appointment schedule.\n\nExclusion Criteria:\n\n* Are involved in other recent eye-related studies, either clinical or research-related. To be eligible they would have to wait at least one week for studies not involving brain stimulation, and four weeks for studies in which they receive brain stimulation before they could participate in this study.\n* Have been diagnosed with dementia or self-reported dementia with no formal diagnosis.\n* Have been diagnosed with a cognitive impairment or self-reported cognitive impairment with no formal diagnosis.\n* Have been diagnosed with physical or motor impairments resulting in walking and/or balancing issues or self-reported physical or motor impairments resulting in walking and/or balancing issues with no formal diagnosis.\n* Have been diagnosed with vestibular disorders or dysfunctions which affects one's balance and/or mobility or self-reported vestibular disorders or dysfunctions which affects one's balance and/or mobility with no formal diagnosis.\n* Are unable to follow the researcher's instructions.\n* Are anticipating treatment (including ocular surgery) for any eye disease within the duration of the study.\n* Have any ocular pathology in addition to retinitis pigmentosa (RP), rod-cone dystrophy, or advanced glaucoma, which can diminish their visual acuity and/or their visual field, however wearing glasses or contact lenses, as well as mild cataract of grade 2 or below is acceptable.\n* Have severe hearing impairment.\n* Are pregnant or trying to get pregnant.\n* Fit any of the typical contraindicators for brain stimulation. See contraindicator section below.\n\nFor all participants the contraindications for brain stimulation are:\n\n* Diagnosed with epilepsy or have previously experienced an epileptic seizure.\n* Implanted medication pump or implanted electronic device, including defibrillator or pacemaker.\n* Any metal implants in the head (excluding tooth fillings).\n* Active electric implants anywhere in the body (especially the head region).\n* On psychoactive medication for any psychiatric or neurological conditions including but not limited to depression and schizophrenia.\n* Areas of sensitive skin located on the face or head, or a skin condition on the face, or regularly use medication to alleviate skin irritation on the face.\n* Recurring headaches.\n* Previous head injury or skull fracture or head/brain surgery.\n* Heart disease, neurological condition, or a history of cardiac or neurological surgery.\n* Current or historical cancerous or noncancerous brain tumor, or other abnormalities in brain structure.",
+      "age_min": "18 Years",
+      "age_max": null,
+      "sexe": "ALL",
+      "volontaires_sains": false
+    },
+    "criteres_secondaires": [
+      {
+        "critere": "Visual detection distance (VDD)",
+        "delai": "The pre-test and post-tests will take roughly 2 hours to complete."
+      },
+      {
+        "critere": "Visual identification distance (VID)",
+        "delai": "The pre-test and post-tests will take roughly 2 hours to complete."
+      }
+    ],
+    "responsables": [
+      {
+        "nom": "Benjamin Thompson, PhD",
+        "affiliation": "University of Waterloo",
+        "role": "PRINCIPAL_INVESTIGATOR"
+      }
+    ],
+    "date_depot_resultats": null,
+    "resultats": null
+  },
+  "modifications": []
+}

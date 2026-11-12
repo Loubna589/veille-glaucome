@@ -1,0 +1,50 @@
+# ---------------------------------------------------------------
+# Fichiers que Git doit ignorer (jamais envoyés sur GitHub)
+# ---------------------------------------------------------------
+
+# Secrets : clés API, adresses de contact, identifiants
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+secrets/
+
+# Documents internes (entreprise, cours) : ne jamais les versionner
+*.docx
+*.xlsx
+*.pptx
+*.pdf
+*.msg
+documents-internes/
+
+# Données locales privées ou temporaires
+# (l'historique de la veille ira dans data/historique/, qui LUI sera versionné)
+data/local/
+data/tmp/
+*.sqlite-journal
+
+# Journaux d'exécution
+data/logs/
+*.log
+!demo/logs/*.log
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Réglages personnels de Claude Code
+.claude/settings.local.json
+
+# Éditeurs et système
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Index de recherche : reconstruit à chaque exécution à partir de la table embeddings de la base
+data/index/

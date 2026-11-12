@@ -1,0 +1,97 @@
+{
+  "pmid": "42927798",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42927798",
+    "titre": "Postoperative hypotony with iridocorneal apposition and iris-bounded hyphema after PAUL Glaucoma Implant surgery.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42927798/",
+    "doi": "10.1016/j.ajo.2026.10.017",
+    "pmcid": null,
+    "revue": "American journal of ophthalmology",
+    "date_entree_pubmed": "2026-10-25",
+    "date_publication": "2026-Oct-25",
+    "types_publication": [
+      "Journal Article"
+    ],
+    "resume_present": false,
+    "resume": null,
+    "mots_cles_auteurs": [
+      "Hyphema",
+      "Hypotony",
+      "Iridocorneal apposition",
+      "PAUL Glaucoma Implant"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 3,
+    "affiliations_auteurs": [
+      "Department of Ophthalmology, Hospital Universitari i Politècnic La Fe, Valencia, Spain. Electronic address: davidmartineztormo@gmail.com.",
+      "Clínica Vila Innova Ocular, Valencia, Spain.",
+      "Hospital de Manises, Manises, Valencia, Spain."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7223571473",
+      "doi": "10.1016/j.ajo.2026.10.017",
+      "pmid": "42927798",
+      "pmcid": null,
+      "titre": "Postoperative hypotony with iridocorneal apposition and iris-bounded hyphema after PAUL Glaucoma Implant surgery",
+      "lien": "https://openalex.org/W7223571473",
+      "date_publication": "2026-10-01",
+      "type": "article",
+      "revue": "American Journal of Ophthalmology",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "pubmed"
+      ],
+      "financeurs": null,
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "Hospital Universitari i Politècnic La Fe",
+          "pays": "ES",
+          "type": "healthcare",
+          "ror": "https://ror.org/01ar2v535"
+        },
+        {
+          "nom": "Hospital de Manises",
+          "pays": "ES",
+          "type": "healthcare",
+          "ror": "https://ror.org/0396mnx76"
+        }
+      ],
+      "acces_ouvert": false,
+      "statut_acces": "closed",
+      "url_texte": null,
+      "url_pdf": null,
+      "licence": null,
+      "texte_integral_indexe": false,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Glaucoma and retinal disorders",
+      "resume_present": false,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": []
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "pmid": "42950230",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42950230",
+    "titre": "Comparative Outcomes of Systemic Immunomodulatory Therapy Versus Local Corticosteroid Therapy in Chronic Noninfectious Uveitis.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42950230/",
+    "doi": "10.1080/09273948.2026.2751022",
+    "pmcid": null,
+    "revue": "Ocular immunology and inflammation",
+    "date_entree_pubmed": "2026-10-28",
+    "date_publication": "2026-Oct-28",
+    "types_publication": [
+      "Journal Article"
+    ],
+    "resume_present": true,
+    "resume": "PURPOSE: Chronic uveitis is a significant cause of visual impairment. Although initial therapy relies on corticosteroids, patients with chronic inflammation often require systemic immunomodulatory therapy (IMT) or local sustained-release steroids. However, comparative long-term outcomes of these treatment approaches remain unclear.\nMETHODS: This retrospective cohort study used the TriNetX Network to identify adults (ages ≥ 18 years) with chronic uveitis treated with systemic IMT or local corticosteroid therapy. Baseline characteristics were balanced using propensity score matching (PSM). Incidence of ocular outcomes including intraocular pressure (IOP)-lowering medication use, glaucoma, incisional glaucoma surgery, cataract surgery, cystoid macular edema (CME), and epiretinal membrane (ERM) were assessed at 1, 2, and 3 years. Outcome proportions were compared between groups using risk ratios (RR), with p < 0.05 considered statistically significant.\nRESULTS: Of 4,683 patients meeting inclusion criteria (1,273 on local therapy; 3,410 on systemic IMT), 1,087 patients remained per group after PSM. By 3 years, patients treated with local therapy had a higher cumulative incidence of IOP-lowering medication use (12.9% vs 6.9%; RR 1.88, p < 0.001), glaucoma (8.2% vs 3.1%; RR 2.60, p < 0.001), incisional glaucoma surgery (2.3% vs 1.1%; RR 2.19, p = 0.03), and cataract surgery (7.7% vs 3.5%; RR 2.24, p < 0.001) compared with systemic IMT. Rates of newly diagnosed CME (8.3% vs 2.5%; RR 3.37, p < 0.001) and ERM (8.9% vs 4.4%; RR 2.04, p < 0.001) were likewise higher in the local therapy group.\nCONCLUSION: Local corticosteroid therapy was associated with a higher cumulative incidence of complications compared to systemic IMT in patients with chronic uveitis.",
+    "mots_cles_auteurs": [
+      "Cataract surgery",
+      "chronic uveitis",
+      "corticosteroids",
+      "glaucoma",
+      "immunomodulatory therapy"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 8,
+    "affiliations_auteurs": [
+      "Retina Consultants of Texas, Bellaire, Texas, USA.",
+      "Bascom Palmer Eye Institute, Department of Ophthalmology, University of Miami Miller School of Medicine, Miami, Florida, USA.",
+      "Department of Ophthalmology, Ross Eye Institute, SUNY Buffalo, Buffalo, New York, USA.",
+      "Department of Ophthalmology, Storm Eye Institute, Department of Ophthalmology, Medical University of South Carolina, Charleston, South Carolina, USA.",
+      "Department of Ophthalmology, Truhlsen Eye Institute, University of Nebraska Medical Center, Omaha, Nebraska, USA."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": [
+        "sustained release",
+        "sustained-release"
+      ],
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7224104166",
+      "doi": "10.1080/09273948.2026.2751022",
+      "pmid": "42950230",
+      "pmcid": null,
+      "titre": "Comparative Outcomes of Systemic Immunomodulatory Therapy Versus Local Corticosteroid Therapy in Chronic Noninfectious Uveitis",
+      "lien": "https://openalex.org/W7224104166",
+      "date_publication": "2026-10-28",
+      "type": "article",
+      "revue": "Ocular Immunology and Inflammation",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "pubmed"
+      ],
+      "financeurs": [
+        {
+          "nom": "Macula Foundation",
+          "ror": "https://ror.org/010egrv54"
+        }
+      ],
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "University of Miami",
+          "pays": "US",
+          "type": "education",
+          "ror": "https://ror.org/02dgjyy92"
+        },
+        {
+          "nom": "Retina Consultants of Texas",
+          "pays": "US",
+          "type": "healthcare",
+          "ror": "https://ror.org/00j7qa995"
+        },
+        {
+          "nom": "University at Buffalo, State University of New York",
+          "pays": "US",
+          "type": "education",
+          "ror": "https://ror.org/01y64my43"
+        },
+        {
+          "nom": "Medical University of South Carolina",
+          "pays": "US",
+          "type": "education",
+          "ror": "https://ror.org/012jban78"
+        },
+        {
+          "nom": "University of Nebraska Medical Center",
+          "pays": "US",
+          "type": "healthcare",
+          "ror": "https://ror.org/00thqtb16"
+        }
+      ],
+      "acces_ouvert": false,
+      "statut_acces": "closed",
+      "url_texte": null,
+      "url_pdf": null,
+      "licence": null,
+      "texte_integral_indexe": false,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Ocular Diseases and Behçet’s Syndrome",
+      "resume_present": true,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": [
+      {
+        "nom": "Macula Foundation",
+        "statut": "CONFIRMÉ — déclaré par l'éditeur dans Crossref",
+        "references": null,
+        "notices": [
+          [
+            "notice justificative Crossref (déclaration de l'éditeur)",
+            "https://api.crossref.org/works/10.1080/09273948.2026.2751022"
+          ],
+          [
+            "notice OpenAlex",
+            "https://api.openalex.org/works/W7224104166"
+          ]
+        ],
+        "note": null
+      }
+    ]
+  }
+}

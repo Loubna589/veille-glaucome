@@ -1,0 +1,58 @@
+{
+  "openalex_id": "W7212241575",
+  "premiere_detection": "2026-09-25",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "openalex_id": "W7212241575",
+    "doi": "10.3390/jcm15187037",
+    "pmid": null,
+    "pmcid": null,
+    "titre": "Hydrus® Microstent Combined with Cataract Surgery in Pseudoexfoliation Glaucoma Versus Primary Open Angle Glaucoma",
+    "lien": "https://openalex.org/W7212241575",
+    "date_publication": "2026-09-11",
+    "type": "article",
+    "revue": "Journal of Clinical Medicine",
+    "type_source": "journal",
+    "langue": "en",
+    "indexe_dans": [
+      "crossref"
+    ],
+    "financeurs": null,
+    "subventions": null,
+    "institutions": [
+      {
+        "nom": "Ludwig-Maximilians-Universität München",
+        "pays": "DE",
+        "type": "education",
+        "ror": "https://ror.org/05591te55"
+      }
+    ],
+    "acces_ouvert": true,
+    "statut_acces": "gold",
+    "url_texte": "https://doi.org/10.3390/jcm15187037",
+    "url_pdf": null,
+    "licence": "cc-by",
+    "texte_integral_indexe": false,
+    "retracte": false,
+    "citations": 0,
+    "sujet_principal": "Glaucoma and retinal disorders",
+    "resume_present": true,
+    "resume": "Background/Objectives: Our objective was to compare clinical outcomes of the Hydrus® Microstent implantation combined with cataract surgery in eyes with pseudoexfoliation glaucoma (PXG) and primary open angle glaucoma (POAG). Methods: This retrospective, single-center comparative cohort study included eyes with POAG or PXG undergoing combined cataract surgery and Hydrus® Microstent implantation between June 2021 and December 2025 at the University Eye Hospital of the Ludwig Maximilian University in Munich, Germany. Clinical outcomes were evaluated until 8–14 months after surgery. Results: A total of 74 eyes were included, comprising 49 POAG eyes and 25 PXG eyes. After cataract surgery plus Hydrus® Microstent, IOP decreased significantly in both groups from baseline to the final 8–14-month follow-up (POAG: 17.6 ± 3.9 to 13.8 ± 2.3 mmHg, p < 0.0001; PXG: 19.2 ± 4.3 to 14.6 ± 2.7 mmHg, p < 0.0001). The magnitude of IOP reduction did not differ between groups (p = 0.410). Meanwhile, the number of IOP-lowering medications decreased significantly in both groups with no between-group difference (POAG: −1.20 medications; PXG group −1.09 medications, p = 0.724). Surgical success rates were comparable. Conclusions: Hydrus® Microstent implantation combined with cataract surgery showed comparable surgical outcomes in POAG and PXG eyes. Regardless of the more aggressive disease characteristics of PXG, no significant differences were observed between PXG and POAG eyes regarding IOP reduction, medication burden, BCVA, surgical success, complications or safety outcomes. These findings suggest that combined cataract surgery and Hydrus® Microstent implantation may be a useful treatment option in selected patients with PXG.",
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "present_dans_pubmed": false
+  }
+}

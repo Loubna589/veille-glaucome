@@ -1,0 +1,95 @@
+{
+  "pmid": "43006064",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "43006064",
+    "titre": "Difficult strabismus surgery following subconjunctival silicone oil migration: a case report.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/43006064/",
+    "doi": "10.1097/RC9.0000000000001128",
+    "pmcid": "PMC13747450",
+    "revue": "International journal of surgery case reports",
+    "date_entree_pubmed": "2026-11-10",
+    "date_publication": "2026-Nov",
+    "types_publication": [
+      "Case Reports",
+      "Journal Article"
+    ],
+    "resume_present": true,
+    "resume": "INTRODUCTION AND IMPORTANCE: Subconjunctival migration of silicone oil is a rare but clinically significant complication following vitreoretinal surgery. The resulting inflammation and fibrosis can increase the difficulty of subsequent ocular operations, such as strabismus surgery. Understanding this phenomenon is crucial for preventing intraoperative complications and ensuring better surgical outcomes.\nCASE PRESENTATION: A 26-year-old female presented with sensory exotropia in the right eye following multiple vitreoretinal surgeries involving silicone oil tamponade. During strabismus surgery, multiple subconjunctival cysts filled with silicone oil and extensive fibrosis were encountered, particularly around the rectus muscle insertions. The procedure required extensive dissection and hemostasis, prolonging operative time. Despite intraoperative challenges, the postoperative ocular alignment achieved orthotropia in the primary position, with satisfactory cosmetic results.\nCLINICAL DISCUSSION: Silicone oil is widely used as an internal tamponade in complex retinal detachment surgeries. Migration of silicone oil to extraocular tissues can occur through unsutured sclerotomies, wound dehiscence, or glaucoma drainage devices. Such migration may cause localized granulomatous inflammation, fibrosis, and adhesions of extraocular structures, complicating future surgeries. In this case, repeated vitreoretinal interventions and postoperative ocular hypertension were likely predisposing factors. Awareness of this potential complication is essential to minimize operative risk and optimize outcomes.\nCONCLUSION: Patients with a history of silicone oil tamponade and multiple vitreoretinal procedures are at higher risk of surgical complications during routine strabismus surgery. Surgeons should anticipate difficult tissue handling, prolonged operative time, and potential bleeding. Preventive measures, such as proper sclerotomy closure and management of postoperative hypertonia, are crucial for preventing silicone oil migration.",
+    "mots_cles_auteurs": [
+      "complication",
+      "conjunctiva",
+      "silicone oil",
+      "silicone oil migration",
+      "strabismus",
+      "vitreoretinal surgery"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 3,
+    "affiliations_auteurs": [
+      "Poostchi Ophthalmology Research Center, Department of Ophthalmology, School of Medicine, Shiraz University of Medical Sciences, Shiraz, Iran.",
+      "Farvardin Ophthalmology Research Center, Farvardin Eye Clinic, Shiraz, Iran."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": [
+        "subconjunctival"
+      ],
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7224840290",
+      "doi": "10.1097/rc9.0000000000001128",
+      "pmid": "43006064",
+      "pmcid": "13747450",
+      "titre": "Difficult strabismus surgery following subconjunctival silicone oil migration: a case report",
+      "lien": "https://openalex.org/W7224840290",
+      "date_publication": "2026-10-13",
+      "type": "article",
+      "revue": "International Journal of Surgery Case Reports",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "pubmed"
+      ],
+      "financeurs": null,
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "Shiraz University of Medical Sciences",
+          "pays": "IR",
+          "type": "education",
+          "ror": "https://ror.org/01n3s4692"
+        }
+      ],
+      "acces_ouvert": true,
+      "statut_acces": "gold",
+      "url_texte": "https://doi.org/10.1097/rc9.0000000000001128",
+      "url_pdf": null,
+      "licence": "cc-by-sa",
+      "texte_integral_indexe": false,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Retinal and Macular Surgery",
+      "resume_present": true,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": []
+  }
+}

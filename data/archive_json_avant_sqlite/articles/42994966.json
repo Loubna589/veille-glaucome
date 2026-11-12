@@ -1,0 +1,116 @@
+{
+  "pmid": "42994966",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42994966",
+    "titre": "Axial length and glaucoma prevalence in a nationally representative Korean population.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42994966/",
+    "doi": "10.1136/bjo-2026-331022",
+    "pmcid": null,
+    "revue": "The British journal of ophthalmology",
+    "date_entree_pubmed": "2026-11-06",
+    "date_publication": "2026-Nov-06",
+    "types_publication": [
+      "Journal Article"
+    ],
+    "resume_present": false,
+    "resume": null,
+    "mots_cles_auteurs": [
+      "Epidemiology",
+      "Glaucoma",
+      "Myopia"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 3,
+    "affiliations_auteurs": [
+      "Department of Ophthalmology, Uijeongbu Eulji Medical Center, Uijeongbu, Republic of Korea.",
+      "Department of Ophthalmology, Eulji University School of Medicine, Daejeon, Republic of Korea.",
+      "Department of Ophthalmology, Seoul National University Hospital, Seoul, Republic of Korea.",
+      "Department of Ophthalmology, Seoul National University College of Medicine, Seoul, Republic of Korea.",
+      "Department of Ophthalmology, Seoul National University Hospital, Seoul, Republic of Korea kihopark@snu.ac.kr."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7225434583",
+      "doi": "10.1136/bjo-2026-331022",
+      "pmid": "42994966",
+      "pmcid": null,
+      "titre": "Axial length and glaucoma prevalence in a nationally representative Korean population",
+      "lien": "https://openalex.org/W7225434583",
+      "date_publication": "2026-11-06",
+      "type": "article",
+      "revue": "British Journal of Ophthalmology",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "pubmed"
+      ],
+      "financeurs": null,
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "Eulji University",
+          "pays": "KR",
+          "type": "education",
+          "ror": "https://ror.org/005bty106"
+        },
+        {
+          "nom": "Daejeon Eulji Medical Center, Eulji University",
+          "pays": "KR",
+          "type": "healthcare",
+          "ror": "https://ror.org/0367gm239"
+        },
+        {
+          "nom": "Eulji University Uijeongbu Eulji Medical Center",
+          "pays": "KR",
+          "type": "healthcare",
+          "ror": "https://ror.org/01ghq5e75"
+        },
+        {
+          "nom": "Seoul National University",
+          "pays": "KR",
+          "type": "education",
+          "ror": "https://ror.org/04h9pn542"
+        },
+        {
+          "nom": "Seoul National University Hospital",
+          "pays": "KR",
+          "type": "healthcare",
+          "ror": "https://ror.org/01z4nnt86"
+        }
+      ],
+      "acces_ouvert": false,
+      "statut_acces": "closed",
+      "url_texte": null,
+      "url_pdf": null,
+      "licence": null,
+      "texte_integral_indexe": false,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Glaucoma and retinal disorders",
+      "resume_present": true,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": []
+  }
+}

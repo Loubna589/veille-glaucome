@@ -1,0 +1,94 @@
+{
+  "nct": "NCT07824232",
+  "premiere_detection": "2026-09-25",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "nct": "NCT07824232",
+    "titre": "Visual Function and Exercise in Glaucoma Patients",
+    "titre_officiel": "Exploring the Relationship Between Visual Function and Exercise in Patients With Glaucoma",
+    "lien": "https://clinicaltrials.gov/study/NCT07824232",
+    "date_premiere_publication": "2026-09-17",
+    "date_derniere_mise_a_jour": "2026-09-17",
+    "type_etude": "OBSERVATIONAL",
+    "phases_declarees": null,
+    "statut": "NOT_YET_RECRUITING",
+    "raison_arret": null,
+    "date_debut": "2026-09-30",
+    "date_fin_principale": "2026-12-30",
+    "promoteur": "Shanghai General Hospital, Shanghai Jiao Tong University School of Medicine",
+    "type_promoteur": "OTHER",
+    "collaborateurs": null,
+    "conditions": [
+      "Glaucoma",
+      "Exercise"
+    ],
+    "interventions": [
+      {
+        "type": "OTHER",
+        "nom": "answer questionnaire"
+      }
+    ],
+    "participants_nombre": 100,
+    "participants_type": "ESTIMATED",
+    "criteres_principaux": [
+      {
+        "critere": "central visual field",
+        "delai": "month 3"
+      }
+    ],
+    "resultats_deposes": false,
+    "publications_declarees": null,
+    "resume_source": "This study will investigate the relationship between visual function-including central visual field, the retinal nerve fiber layer (RNFL) in the macular and optic disc regions, intraocular pressure, and other factors-and exercise in patients with glaucoma. It aims to explore whether exercise has a protective effect on visual function in glaucoma patients and to provide recommendations for the clinical care of these patients.",
+    "citations_declarees": null,
+    "plan": {
+      "repartition": null,
+      "modele": null,
+      "but_principal": null,
+      "insu": null,
+      "insu_pour": null,
+      "insu_description": null,
+      "modele_observationnel": "COHORT"
+    },
+    "bras": [
+      {
+        "libelle": "questionnaire",
+        "type": null,
+        "description": null,
+        "interventions": [
+          "Other: answer questionnaire"
+        ]
+      }
+    ],
+    "eligibilite": {
+      "criteres": "Inclusion Criteria:\n\n* 18-100 years male or female glaucoma patients\n* Complete the sports questionnaire\n\nExclusion Criteria:\n\n* diseases that cause less than 5 years survival;\n* condition that causes low compliance, for instance cognition disorder;\n* Any eye with disease that would interfere with the examinations",
+      "age_min": "18 Years",
+      "age_max": "100 Years",
+      "sexe": "ALL",
+      "volontaires_sains": false
+    },
+    "criteres_secondaires": [
+      {
+        "critere": "retinal nerve fiber layer (RNFL) in the macular regions",
+        "delai": "month 3"
+      },
+      {
+        "critere": "retinal nerve fiber layer (RNFL) in the optic disc regions",
+        "delai": "month 3"
+      },
+      {
+        "critere": "intraocular pressure",
+        "delai": "month 3"
+      }
+    ],
+    "responsables": [
+      {
+        "nom": "Xiaodong Sun",
+        "affiliation": "Shanghai General Hospital, Shanghai Jiao Tong University School of Medicine",
+        "role": "PRINCIPAL_INVESTIGATOR"
+      }
+    ],
+    "date_depot_resultats": null,
+    "resultats": null
+  },
+  "modifications": []
+}

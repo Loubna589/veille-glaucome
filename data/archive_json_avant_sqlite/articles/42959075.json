@@ -1,0 +1,598 @@
+{
+  "pmid": "42959075",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42959075",
+    "titre": "Transcriptomic profiling of normal and glaucomatous trabecular meshwork cells in a tissue-like soft ECM environment.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42959075/",
+    "doi": "10.64898/2026.10.26.761819",
+    "pmcid": "PMC13715897",
+    "revue": "bioRxiv : the preprint server for biology",
+    "date_entree_pubmed": "2026-10-30",
+    "date_publication": "2026-Oct-28",
+    "types_publication": [
+      "Journal Article",
+      "Preprint"
+    ],
+    "resume_present": true,
+    "resume": "PURPOSE: Trabecular meshwork (TM) dysfunction contributes to the elevated intraocular pressure in primary open-angle glaucoma. To better understand the \"molecular signature\" distinguishing glaucomatous from normal TM cells, we interrogated their genome-wide transcriptomic differences in a tissue-like soft extracellular matrix (ECM) microenvironment.\nMETHODS: Primary human glaucomatous and normal TM cell strains (N = 5 each) from three independent laboratories were plated on bioengineered collagen type I/hyaluronic acid/elastin-like polypeptide ECM hydrogels in 10% FBS media for 4-5 days, then serum-free media for 2 days. Cell-laden hydrogels were homogenized in TRIzol for RNA isolation, quality assessment, and library preparation, followed by paired-end 100-bp Illumina sequencing. Differential expression was assessed using DESeq2, including glaucoma status, originating laboratory, and donor age/sex in the model. Differentially expressed genes (DEGs) were defined as p < 0.05 and |fold change| ≥ 2, followed by Gene Ontology (GO) enrichment and QIAGEN Ingenuity Pathway Analysis (IPA).\nRESULTS: In total, 588 DEGs distinguished the glaucomatous from the normal TM transcriptome (393 up-regulated in glaucomatous TM; 195 up-regulated in normal TM, i.e., down-regulated in glaucomatous TM). GO and IPA causal analyses revealed three coordinated disease programs: (i) TGF-β/Wnt-driven ECM remodeling and fibrosis, (ii) NF-κB-associated inflammation, and (iii) a hypoxia/metabolic-stress program linked to p300/CREBBP chromatin co-activation.\nCONCLUSIONS: These data define a transcriptomic signature of glaucomatous TM cells when cultured in a soft physiologic ECM microenvironment, independent of the originating laboratory, with three mechanistic axes (ECM/fibrosis, inflammation, hypoxia/metabolism), and nominate p300 (encoded by EP300) as a candidate upstream node integrating these programs.",
+    "mots_cles_auteurs": [
+      "RNA-seq",
+      "extracellular matrix remodeling",
+      "fibrosis",
+      "inflammation",
+      "p300"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 8,
+    "affiliations_auteurs": [
+      "Department of Ophthalmology and Visual Sciences, Center for Vision Research, SUNY Upstate Medical University, Syracuse, NY 13210, USA.",
+      "Department of Biochemistry and Molecular Biology, SUNY Upstate Medical University, Syracuse, NY 13210, USA.",
+      "Department of Cellular Biology and Anatomy, Augusta University, Augusta, GA 30912, USA.",
+      "Department of Neuroscience, SUNY Upstate Medical University, Syracuse, NY 13210, USA.",
+      "Department of Ophthalmology, Duke Eye Center, Duke University, Durham, NC 27705, USA.",
+      "Department of Ophthalmology, Casey Eye Institute, Oregon Health & Science University, Portland, OR 97239, USA.",
+      "Department of Ophthalmology, Mayo Clinic, Rochester, MN 55905, USA.",
+      "Department of Cell and Developmental Biology, SUNY Upstate Medical University, Syracuse, NY 13210, USA.",
+      "BioInspired Institute, Syracuse University, Syracuse, NY 13244, USA.",
+      "Department of Biomedical and Chemical Engineering, Syracuse University, Syracuse, NY 13244, USA."
+    ],
+    "financeurs_declares": [
+      {
+        "organisme": "NEI NIH HHS",
+        "pays": "United States",
+        "reference": "R01 EY028608"
+      },
+      {
+        "organisme": "NEI NIH HHS",
+        "pays": "United States",
+        "reference": "R01 EY019643"
+      },
+      {
+        "organisme": "NEI NIH HHS",
+        "pays": "United States",
+        "reference": "R21 EY036189"
+      },
+      {
+        "organisme": "NEI NIH HHS",
+        "pays": "United States",
+        "reference": "R01 EY032590"
+      },
+      {
+        "organisme": "NEI NIH HHS",
+        "pays": "United States",
+        "reference": "R01 EY032960"
+      },
+      {
+        "organisme": "NEI NIH HHS",
+        "pays": "United States",
+        "reference": "R01 EY031710"
+      },
+      {
+        "organisme": "NEI NIH HHS",
+        "pays": "United States",
+        "reference": "R01 EY034096"
+      },
+      {
+        "organisme": "NEI NIH HHS",
+        "pays": "United States",
+        "reference": "R21 EY033961"
+      },
+      {
+        "organisme": "NEI NIH HHS",
+        "pays": "United States",
+        "reference": "R01 EY036880"
+      },
+      {
+        "organisme": "NEI NIH HHS",
+        "pays": "United States",
+        "reference": "P30 EY005722"
+      }
+    ],
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7224106016",
+      "doi": "10.64898/2026.10.26.761819",
+      "pmid": "42959075",
+      "pmcid": "13715897",
+      "titre": "Transcriptomic profiling of normal and glaucomatous trabecular meshwork cells in a tissue-like soft ECM environment",
+      "lien": "https://openalex.org/W7224106016",
+      "date_publication": "2026-10-28",
+      "type": "preprint",
+      "revue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "type_source": "repository",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "pubmed"
+      ],
+      "financeurs": [
+        {
+          "nom": "Glaucoma Research Foundation",
+          "ror": "https://ror.org/05ez53b31"
+        },
+        {
+          "nom": "Research to Prevent Blindness",
+          "ror": "https://ror.org/04drjs621"
+        },
+        {
+          "nom": "Glaucoma Foundation",
+          "ror": "https://ror.org/01qc2fa96"
+        },
+        {
+          "nom": "BrightFocus Foundation",
+          "ror": "https://ror.org/03cvfxv40"
+        },
+        {
+          "nom": "State University of New York",
+          "ror": "https://ror.org/01q1z8k08"
+        },
+        {
+          "nom": "National Institutes of Health",
+          "ror": "https://ror.org/01cwqze88"
+        },
+        {
+          "nom": "State University of New York Upstate Medical University",
+          "ror": "https://ror.org/040kfrw16"
+        },
+        {
+          "nom": "National Eye Institute",
+          "ror": "https://ror.org/03wkg3b53"
+        }
+      ],
+      "subventions": [
+        {
+          "financeur": "Glaucoma Foundation",
+          "reference": "R21EY033961"
+        },
+        {
+          "financeur": "BrightFocus Foundation",
+          "reference": "P30EY005722"
+        },
+        {
+          "financeur": "Glaucoma Research Foundation",
+          "reference": "R21EY033961"
+        },
+        {
+          "financeur": "BrightFocus Foundation",
+          "reference": "R21EY033961"
+        },
+        {
+          "financeur": "National Eye Institute",
+          "reference": "R21EY033961"
+        },
+        {
+          "financeur": "Glaucoma Foundation",
+          "reference": "R01EY032960"
+        },
+        {
+          "financeur": "BrightFocus Foundation",
+          "reference": "R01EY032960"
+        },
+        {
+          "financeur": "Glaucoma Research Foundation",
+          "reference": "R01EY032960"
+        },
+        {
+          "financeur": "National Eye Institute",
+          "reference": "R01EY031710"
+        },
+        {
+          "financeur": "BrightFocus Foundation",
+          "reference": "G2024006S"
+        },
+        {
+          "financeur": "National Eye Institute",
+          "reference": "R01EY034096"
+        },
+        {
+          "financeur": "National Eye Institute",
+          "reference": "R01EY036880"
+        },
+        {
+          "financeur": "National Eye Institute",
+          "reference": "R01EY019643"
+        },
+        {
+          "financeur": "National Eye Institute",
+          "reference": "R21EY036189"
+        },
+        {
+          "financeur": "National Eye Institute",
+          "reference": "P30EY005722"
+        },
+        {
+          "financeur": "National Eye Institute",
+          "reference": "R01EY032590"
+        },
+        {
+          "financeur": "National Eye Institute",
+          "reference": "R01EY032960"
+        },
+        {
+          "financeur": "National Eye Institute",
+          "reference": "R01EY028608"
+        }
+      ],
+      "institutions": [
+        {
+          "nom": "SUNY Upstate Medical University",
+          "pays": "US",
+          "type": "education",
+          "ror": "https://ror.org/040kfrw16"
+        },
+        {
+          "nom": "Augusta University",
+          "pays": "US",
+          "type": "education",
+          "ror": "https://ror.org/012mef835"
+        },
+        {
+          "nom": "Duke University",
+          "pays": "US",
+          "type": "education",
+          "ror": "https://ror.org/00py81415"
+        },
+        {
+          "nom": "Duke Medical Center",
+          "pays": "US",
+          "type": "healthcare",
+          "ror": "https://ror.org/03njmea73"
+        },
+        {
+          "nom": "Oregon Health & Science University",
+          "pays": "US",
+          "type": "education",
+          "ror": "https://ror.org/009avj582"
+        },
+        {
+          "nom": "Mayo Clinic",
+          "pays": "US",
+          "type": "healthcare",
+          "ror": "https://ror.org/02qp3tb03"
+        },
+        {
+          "nom": "Syracuse University",
+          "pays": "US",
+          "type": "education",
+          "ror": "https://ror.org/025r5qe02"
+        }
+      ],
+      "acces_ouvert": true,
+      "statut_acces": "green",
+      "url_texte": "https://www.biorxiv.org/content/biorxiv/early/2026/10/28/2026.10.26.761819.full.pdf",
+      "url_pdf": "https://www.biorxiv.org/content/biorxiv/early/2026/10/28/2026.10.26.761819.full.pdf",
+      "licence": "cc-by-nc-nd",
+      "texte_integral_indexe": true,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Glaucoma and retinal disorders",
+      "resume_present": true,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": [
+      {
+        "nom": "NEI NIH HHS",
+        "statut": "CONFIRMÉ — déclaré dans la notice PubMed (GrantList)",
+        "references": [
+          "R01 EY028608"
+        ],
+        "notices": [
+          [
+            "notice PubMed",
+            "https://pubmed.ncbi.nlm.nih.gov/42959075/?format=pubmed"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "NEI NIH HHS",
+        "statut": "CONFIRMÉ — déclaré dans la notice PubMed (GrantList)",
+        "references": [
+          "R01 EY019643"
+        ],
+        "notices": [
+          [
+            "notice PubMed",
+            "https://pubmed.ncbi.nlm.nih.gov/42959075/?format=pubmed"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "NEI NIH HHS",
+        "statut": "CONFIRMÉ — déclaré dans la notice PubMed (GrantList)",
+        "references": [
+          "R21 EY036189"
+        ],
+        "notices": [
+          [
+            "notice PubMed",
+            "https://pubmed.ncbi.nlm.nih.gov/42959075/?format=pubmed"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "NEI NIH HHS",
+        "statut": "CONFIRMÉ — déclaré dans la notice PubMed (GrantList)",
+        "references": [
+          "R01 EY032590"
+        ],
+        "notices": [
+          [
+            "notice PubMed",
+            "https://pubmed.ncbi.nlm.nih.gov/42959075/?format=pubmed"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "NEI NIH HHS",
+        "statut": "CONFIRMÉ — déclaré dans la notice PubMed (GrantList)",
+        "references": [
+          "R01 EY032960"
+        ],
+        "notices": [
+          [
+            "notice PubMed",
+            "https://pubmed.ncbi.nlm.nih.gov/42959075/?format=pubmed"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "NEI NIH HHS",
+        "statut": "CONFIRMÉ — déclaré dans la notice PubMed (GrantList)",
+        "references": [
+          "R01 EY031710"
+        ],
+        "notices": [
+          [
+            "notice PubMed",
+            "https://pubmed.ncbi.nlm.nih.gov/42959075/?format=pubmed"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "NEI NIH HHS",
+        "statut": "CONFIRMÉ — déclaré dans la notice PubMed (GrantList)",
+        "references": [
+          "R01 EY034096"
+        ],
+        "notices": [
+          [
+            "notice PubMed",
+            "https://pubmed.ncbi.nlm.nih.gov/42959075/?format=pubmed"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "NEI NIH HHS",
+        "statut": "CONFIRMÉ — déclaré dans la notice PubMed (GrantList)",
+        "references": [
+          "R21 EY033961"
+        ],
+        "notices": [
+          [
+            "notice PubMed",
+            "https://pubmed.ncbi.nlm.nih.gov/42959075/?format=pubmed"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "NEI NIH HHS",
+        "statut": "CONFIRMÉ — déclaré dans la notice PubMed (GrantList)",
+        "references": [
+          "R01 EY036880"
+        ],
+        "notices": [
+          [
+            "notice PubMed",
+            "https://pubmed.ncbi.nlm.nih.gov/42959075/?format=pubmed"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "NEI NIH HHS",
+        "statut": "CONFIRMÉ — déclaré dans la notice PubMed (GrantList)",
+        "references": [
+          "P30 EY005722"
+        ],
+        "notices": [
+          [
+            "notice PubMed",
+            "https://pubmed.ncbi.nlm.nih.gov/42959075/?format=pubmed"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "Glaucoma Research Foundation",
+        "statut": "À VÉRIFIER — trouvé par OpenAlex seulement (absent de la déclaration de l'éditeur dans Crossref) ; à contrôler dans le texte de l'article",
+        "references": [
+          "R21EY033961",
+          "R01EY032960"
+        ],
+        "notices": [
+          [
+            "notice OpenAlex",
+            "https://api.openalex.org/works/W7224106016"
+          ],
+          [
+            "notice Crossref consultée (ne confirme pas ce financeur)",
+            "https://api.crossref.org/works/10.64898/2026.10.26.761819"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "Research to Prevent Blindness",
+        "statut": "À VÉRIFIER — trouvé par OpenAlex seulement (absent de la déclaration de l'éditeur dans Crossref) ; à contrôler dans le texte de l'article",
+        "references": null,
+        "notices": [
+          [
+            "notice OpenAlex",
+            "https://api.openalex.org/works/W7224106016"
+          ],
+          [
+            "notice Crossref consultée (ne confirme pas ce financeur)",
+            "https://api.crossref.org/works/10.64898/2026.10.26.761819"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "Glaucoma Foundation",
+        "statut": "À VÉRIFIER — trouvé par OpenAlex seulement (absent de la déclaration de l'éditeur dans Crossref) ; à contrôler dans le texte de l'article",
+        "references": [
+          "R21EY033961",
+          "R01EY032960"
+        ],
+        "notices": [
+          [
+            "notice OpenAlex",
+            "https://api.openalex.org/works/W7224106016"
+          ],
+          [
+            "notice Crossref consultée (ne confirme pas ce financeur)",
+            "https://api.crossref.org/works/10.64898/2026.10.26.761819"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "BrightFocus Foundation",
+        "statut": "CONFIRMÉ — déclaré par l'éditeur dans Crossref",
+        "references": [
+          "P30EY005722",
+          "R21EY033961",
+          "R01EY032960",
+          "G2024006S"
+        ],
+        "notices": [
+          [
+            "notice justificative Crossref (déclaration de l'éditeur)",
+            "https://api.crossref.org/works/10.64898/2026.10.26.761819"
+          ],
+          [
+            "notice OpenAlex",
+            "https://api.openalex.org/works/W7224106016"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "State University of New York",
+        "statut": "À VÉRIFIER — trouvé par OpenAlex seulement (absent de la déclaration de l'éditeur dans Crossref) ; à contrôler dans le texte de l'article",
+        "references": null,
+        "notices": [
+          [
+            "notice OpenAlex",
+            "https://api.openalex.org/works/W7224106016"
+          ],
+          [
+            "notice Crossref consultée (ne confirme pas ce financeur)",
+            "https://api.crossref.org/works/10.64898/2026.10.26.761819"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "National Institutes of Health",
+        "statut": "À VÉRIFIER — trouvé par OpenAlex seulement (absent de la déclaration de l'éditeur dans Crossref) ; à contrôler dans le texte de l'article",
+        "references": null,
+        "notices": [
+          [
+            "notice OpenAlex",
+            "https://api.openalex.org/works/W7224106016"
+          ],
+          [
+            "notice Crossref consultée (ne confirme pas ce financeur)",
+            "https://api.crossref.org/works/10.64898/2026.10.26.761819"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "State University of New York Upstate Medical University",
+        "statut": "À VÉRIFIER — trouvé par OpenAlex seulement (absent de la déclaration de l'éditeur dans Crossref) ; à contrôler dans le texte de l'article",
+        "references": null,
+        "notices": [
+          [
+            "notice OpenAlex",
+            "https://api.openalex.org/works/W7224106016"
+          ],
+          [
+            "notice Crossref consultée (ne confirme pas ce financeur)",
+            "https://api.crossref.org/works/10.64898/2026.10.26.761819"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "National Eye Institute",
+        "statut": "À VÉRIFIER — trouvé par OpenAlex seulement (absent de la déclaration de l'éditeur dans Crossref) ; à contrôler dans le texte de l'article",
+        "references": [
+          "R21EY033961",
+          "R01EY031710",
+          "R01EY034096",
+          "R01EY036880",
+          "R01EY019643",
+          "R21EY036189",
+          "P30EY005722",
+          "R01EY032590",
+          "R01EY032960",
+          "R01EY028608"
+        ],
+        "notices": [
+          [
+            "notice OpenAlex",
+            "https://api.openalex.org/works/W7224106016"
+          ],
+          [
+            "notice Crossref consultée (ne confirme pas ce financeur)",
+            "https://api.crossref.org/works/10.64898/2026.10.26.761819"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": null,
+        "statut": "CONFIRMÉ — déclaré par l'éditeur dans Crossref (absent d'OpenAlex)",
+        "references": [
+          "R01EY034096"
+        ],
+        "notices": [
+          [
+            "notice justificative Crossref (déclaration de l'éditeur)",
+            "https://api.crossref.org/works/10.64898/2026.10.26.761819"
+          ]
+        ],
+        "note": null
+      }
+    ]
+  }
+}

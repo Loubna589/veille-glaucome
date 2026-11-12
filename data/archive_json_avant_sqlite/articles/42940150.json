@@ -1,0 +1,112 @@
+{
+  "pmid": "42940150",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42940150",
+    "titre": "Documented Dry Eye Disease in Patients Receiving Topical Antiglaucoma Therapy: Associations with Treatment Characteristics.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42940150/",
+    "doi": "10.3390/biomedicines14102344",
+    "pmcid": "PMC13702091",
+    "revue": "Biomedicines",
+    "date_entree_pubmed": "2026-10-27",
+    "date_publication": "2026-Oct-15",
+    "types_publication": [
+      "Journal Article"
+    ],
+    "resume_present": true,
+    "resume": "Background/Objectives: Chronic topical antiglaucoma therapy may affect the ocular surface. We assessed documented dry eye disease (DED) and its associations with active-ingredient burden, treatment duration, and preservative exposure. Methods: This retrospective cross-sectional study included 357 adults receiving topical antiglaucoma therapy at a tertiary center who had complete treatment and ocular-surface data. Ocular-surface testing was prompted by symptoms or clinical judgment. The first eligible visit identified during chronological record review was analyzed for each patient. DED was based on the treating ophthalmologist's documented diagnosis. Logistic regression evaluated treatment-related factors. Results: DED was documented in 171/357 patients within this selected sample (47.9%; 95% CI 42.8-53.1%). Prevalence was higher with at least two versus one active IOP-lowering ingredient (60.6% vs. 23.1%; p < 0.001). Each additional ingredient was associated with higher DED odds after adjustment for age, sex, and glaucoma subtype (adjusted odds ratio [aOR] 2.65, 95% confidence interval [CI] 1.88-3.74). Longer treatment duration was also associated with higher odds (aOR 1.12 per 12 months, 95% CI 1.05-1.20). In the linear extended model, active-ingredient count was not associated with documented DED (aOR 1.02, 95% CI 0.69-1.51), whereas an exclusively preservative-free regimen was associated with lower odds (aOR 0.011, 95% CI 0.001-0.084) and fixed-combination therapy with higher odds (aOR 3.23, 95% CI 1.74-5.98). However, categorical modeling of ingredient count significantly improved extended-model fit (likelihood-ratio p < 0.001), indicating sensitivity to functional form. Documented DED occurred in 1/91 (1.1%) exclusively preservative-free patients versus 170/266 (63.9%) preserved-exposure patients, with sparse PF events limiting interpretation. Conclusions: Documented DED was common in this selected cohort undergoing ocular-surface assessment. Active-ingredient count was associated with DED in the primary adjusted model, but its interpretation in the extended model depended on the functional form used. The marked inverse association with an exclusively preservative-free regimen requires prospective confirmation because sparse data, limited overlap between treatment groups, treatment selection, and residual confounding preclude causal inference.",
+    "mots_cles_auteurs": [
+      "benzalkonium chloride",
+      "dry eye disease",
+      "glaucoma",
+      "medication burden",
+      "ocular surface disease",
+      "polypharmacy",
+      "preservative-free regimen",
+      "topical antiglaucoma therapy"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 10,
+    "affiliations_auteurs": [
+      "Department of Ophthalmology, University Hospital Center Osijek, 31 000 Osijek, Croatia.",
+      "Faculty of Medicine, Josip Juraj Strossmayer University of Osijek, 31 000 Osijek, Croatia.",
+      "Faculty of Kinesiology Osijek, Josip Juraj Strossmayer University of Osijek, 31 000 Osijek, Croatia.",
+      "Department of Ophthalmology, General Hospital Virovitica, 33 000 Virovitica, Croatia.",
+      "School of Medicine, University of Zagreb, 10 000 Zagreb, Croatia."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": [
+        "preservative-free"
+      ],
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7222055519",
+      "doi": "10.3390/biomedicines14102344",
+      "pmid": "42940150",
+      "pmcid": "13702091",
+      "titre": "Documented Dry Eye Disease in Patients Receiving Topical Antiglaucoma Therapy: Associations with Treatment Characteristics",
+      "lien": "https://openalex.org/W7222055519",
+      "date_publication": "2026-10-15",
+      "type": "article",
+      "revue": "Biomedicines",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "doaj",
+        "pubmed"
+      ],
+      "financeurs": null,
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "Klinički bolnički centar Osijek",
+          "pays": "HR",
+          "type": "healthcare",
+          "ror": "https://ror.org/03vf51s41"
+        },
+        {
+          "nom": "University of Osijek",
+          "pays": "HR",
+          "type": "education",
+          "ror": "https://ror.org/05sw4wc49"
+        },
+        {
+          "nom": "University of Zagreb",
+          "pays": "HR",
+          "type": "education",
+          "ror": "https://ror.org/00mv6sv71"
+        }
+      ],
+      "acces_ouvert": true,
+      "statut_acces": "gold",
+      "url_texte": "https://doi.org/10.3390/biomedicines14102344",
+      "url_pdf": null,
+      "licence": "cc-by",
+      "texte_integral_indexe": true,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Ocular Surface and Contact Lens",
+      "resume_present": true,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": []
+  }
+}

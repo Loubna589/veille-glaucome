@@ -1,0 +1,105 @@
+{
+  "pmid": "42980156",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42980156",
+    "titre": "Macular Structural Progression Before and After Trabeculectomy in Glaucoma.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42980156/",
+    "doi": "10.1097/IJG.0000000000002812",
+    "pmcid": null,
+    "revue": "Journal of glaucoma",
+    "date_entree_pubmed": "2026-11-04",
+    "date_publication": "2026-Nov-03",
+    "types_publication": [
+      "Journal Article"
+    ],
+    "resume_present": true,
+    "resume": "PRCIS: In this retrospective study, trabeculectomy significantly slowed macular thinning in glaucomatous eyes, with structural preservation most evident in RNFL, GCL+IPL, and CC+CS layers.\nPURPOSE: To evaluate the thickness change rates in total and segmented macular structures in glaucomatous eyes before and after trabeculectomy (TE).\nMATERIALS AND METHODS: For this retrospective, observational, longitudinal study records of glaucoma patients who underwent TE between 2012 and 2022 were reviewed. Sixty-four eyes from 59 patients were included for rate of change analysis. Postoperative follow-up examinations were typically scheduled at 1 and 2 weeks, and at 1, 3, 6, and 12 months, followed by annual visits. For the rate of change analysis, at least two scans before and after surgery were needed. Measurements were taken from the retinal nerve fiber layer (RNFL), ganglion cell layer and inner plexiform layer (GCL+IPL), inner nuclear layer and outer plexiform layer, outer nuclear layer, photoreceptor layer and retinal pigment epithelium layer, choriocapillaris and choroidal stroma (CC+CS), and total retinal thickness. Thickness rates of change of macular structures before and after TE were determined using linear least squares regression.\nRESULTS: Mean follow-up was 65.7±4.9 months. After TE, the rate of change for macular RNFL (P<0.001) and GCL+IPL (P=0.04) increased significantly after surgery. When stratified by surgical outcome, the success group showed significantly increased rates of change for RNFL (P<0.001), GCL+IPL (P=0.03), and CC+CS (P=0.04).\nCONCLUSIONS: Successful trabeculectomy was associated with significantly slower rates of macular structural progression.",
+    "mots_cles_auteurs": [
+      "glaucoma",
+      "macula",
+      "optical coherence tomography",
+      "trabeculectomy"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 6,
+    "affiliations_auteurs": [
+      "Department of Ophthalmology, Inselspital, Bern University Hospital, University of Bern, Bern, Switzerland.",
+      "Graduate School for Cellular and Biomedical Sciences, University of Bern, Bern, Switzerland.",
+      "University of Bern, ARTORG Center for Biomedical Engineering Research, Bern, Switzerland.",
+      "University Eye Hospital Leipzig, Leipzig, Germany."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7225270831",
+      "doi": "10.1097/ijg.0000000000002812",
+      "pmid": "42980156",
+      "pmcid": null,
+      "titre": "Macular Structural Progression Before and After Trabeculectomy in Glaucoma",
+      "lien": "https://openalex.org/W7225270831",
+      "date_publication": "2026-11-03",
+      "type": "article",
+      "revue": "Journal of Glaucoma",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "datacite",
+        "pubmed"
+      ],
+      "financeurs": null,
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "University of Bern",
+          "pays": "CH",
+          "type": "education",
+          "ror": "https://ror.org/02k7v4d05"
+        },
+        {
+          "nom": "University Hospital of Bern",
+          "pays": "CH",
+          "type": "healthcare",
+          "ror": "https://ror.org/01q9sj412"
+        },
+        {
+          "nom": "University Hospital Leipzig",
+          "pays": "DE",
+          "type": "healthcare",
+          "ror": "https://ror.org/028hv5492"
+        }
+      ],
+      "acces_ouvert": true,
+      "statut_acces": "green",
+      "url_texte": "https://doi.org/10.48620/102313",
+      "url_pdf": null,
+      "licence": null,
+      "texte_integral_indexe": false,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Glaucoma and retinal disorders",
+      "resume_present": true,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": []
+  }
+}

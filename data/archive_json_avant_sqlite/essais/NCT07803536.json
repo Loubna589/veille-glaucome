@@ -1,0 +1,88 @@
+{
+  "nct": "NCT07803536",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "nct": "NCT07803536",
+    "titre": "Effect of Late Ripcord Removal From Glaucoma Drainage Device",
+    "titre_officiel": "Prospective, Single-arm Interventional Study to Determine Effect of Late Ripcord Removal From Glaucoma Drainage Device",
+    "lien": "https://clinicaltrials.gov/study/NCT07803536",
+    "date_premiere_publication": "2026-09-03",
+    "date_derniere_mise_a_jour": "2026-11-09",
+    "type_etude": "INTERVENTIONAL",
+    "phases_declarees": [
+      "NA"
+    ],
+    "statut": "RECRUITING",
+    "raison_arret": null,
+    "date_debut": "2026-12",
+    "date_fin_principale": "2028-09",
+    "promoteur": "Duke University",
+    "type_promoteur": "OTHER",
+    "collaborateurs": null,
+    "conditions": [
+      "GLAUCOMA 1, OPEN ANGLE, D (Disorder)",
+      "Glaucoma"
+    ],
+    "interventions": [
+      {
+        "type": "PROCEDURE",
+        "nom": "Ripcord removal"
+      }
+    ],
+    "participants_nombre": 80,
+    "participants_type": "ESTIMATED",
+    "criteres_principaux": [
+      {
+        "critere": "Change in intraocular pressure (IOP)",
+        "delai": "Immediately after, 1 week, 6 weeks and 3-month intervals"
+      }
+    ],
+    "resultats_deposes": false,
+    "publications_declarees": null,
+    "resume_source": "This is a research study to find out if removing the ripcord from a glaucoma drainage device more than 3 months after it has been placed has any effect on intraocular pressure. Participation in research studies is voluntary.\n\nThe ripcord will be removed at a routine glaucoma care visit and intraocular pressure will be measured before removal, 30 minutes following, and at 1 week, 6 weeks and 3-month intervals during regular clinic visits.",
+    "citations_declarees": null,
+    "plan": {
+      "repartition": "NA",
+      "modele": "SINGLE_GROUP",
+      "but_principal": "TREATMENT",
+      "insu": "NONE",
+      "insu_pour": null,
+      "insu_description": null,
+      "modele_observationnel": null
+    },
+    "bras": [
+      {
+        "libelle": "Ripcord removal",
+        "type": "EXPERIMENTAL",
+        "description": null,
+        "interventions": [
+          "Procedure: Ripcord removal"
+        ]
+      }
+    ],
+    "eligibilite": {
+      "criteres": "Inclusion Criteria:\n\n* Age \\> 18 years\n* Placement of Ahmed Clear Path or Baervelt drainage device with ripcord \\> 3 months\n* Diagnosis of Glaucoma, under active management at Duke Eye Center Glaucoma Clinic\n* Ripcord suture still in place and accessible for removal\n* Able to provide written informed consent\n* IOP \\> 10 mm Hg\n\nExclusion Criteria:\n\n* Active ocular infection or conjunctivitis in either eye\n* Inability to undergo ripcord removal procedure\n* Scheduled for further glaucoma surgery",
+      "age_min": "18 Years",
+      "age_max": null,
+      "sexe": "ALL",
+      "volontaires_sains": false
+    },
+    "criteres_secondaires": [
+      {
+        "critere": "Change in Drop Burden",
+        "delai": "1 week, 6 week and 3 month interval"
+      }
+    ],
+    "responsables": [
+      {
+        "nom": "Leon W Herndon, MD",
+        "affiliation": "Duke University Eye Center",
+        "role": "PRINCIPAL_INVESTIGATOR"
+      }
+    ],
+    "date_depot_resultats": null,
+    "resultats": null
+  },
+  "modifications": []
+}

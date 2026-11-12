@@ -1,0 +1,96 @@
+{
+  "pmid": "42970462",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42970462",
+    "titre": "Feasibility and Early Outcomes of Gonioscopy-Assisted Transluminal Trabeculotomy for Neovascular Glaucoma.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42970462/",
+    "doi": "10.1097/IJG.0000000000002802",
+    "pmcid": null,
+    "revue": "Journal of glaucoma",
+    "date_entree_pubmed": "2026-11-02",
+    "date_publication": "2026-Nov-02",
+    "types_publication": [
+      "Journal Article"
+    ],
+    "resume_present": true,
+    "resume": "This retrospective observational case series evaluates the clinical outcomes of gonioscopy-assisted transluminal trabeculotomy (GATT) in 6 consecutive eyes with neovascular glaucoma (NVG) treated at a tertiary referral center. NVG was defined as secondary glaucoma associated with retinal ischemia, characterized by elevated intraocular pressure (IOP) and prior presence of iris and/or angle neovascularization. All patients had previously undergone pan-retinal photocoagulation and intravitreal anti-vascular endothelial growth factor therapy and were receiving maximally tolerated medical treatment at presentation. Circumferential GATT was successfully completed in all cases. At final follow-up, IOP control was achieved in 3 eyes with topical therapy, while the remaining 3 eyes required subsequent Ahmed glaucoma valve implantation due to early surgical failure. All eyes that met failure criteria demonstrated circumferential peripheral anterior synechiae formation during early postoperative follow-up and were observed in patients with poorly controlled diabetes mellitus. Two cases required anterior chamber washout for persistent hyphema. In this small case series, our observations suggest that clinical role of GATT remains uncertain and the present data do not allow identification of patient subgroups that may benefit or support definition of clinical indications.",
+    "mots_cles_auteurs": [
+      "Glaucoma",
+      "gonioscopy-assisted transluminal trabeculotomy",
+      "neovascular",
+      "surgery"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 7,
+    "affiliations_auteurs": [
+      "Karadeniz Technical University, Faculty of Medicine, Department of Ophthalmology, Trabzon, Turkey.",
+      "Recep Tayyip Erdogan University, Faculty of Medicine, Department of Ophthalmology, Rize, Turkey."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7225124625",
+      "doi": "10.1097/ijg.0000000000002802",
+      "pmid": "42970462",
+      "pmcid": null,
+      "titre": "Feasibility and Early Outcomes of Gonioscopy-Assisted Transluminal Trabeculotomy for Neovascular Glaucoma",
+      "lien": "https://openalex.org/W7225124625",
+      "date_publication": "2026-11-02",
+      "type": "article",
+      "revue": "Journal of Glaucoma",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "pubmed"
+      ],
+      "financeurs": null,
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "Karadeniz Technical University",
+          "pays": "TR",
+          "type": "education",
+          "ror": "https://ror.org/03z8fyr40"
+        },
+        {
+          "nom": "Recep Tayyip Erdoğan University",
+          "pays": "TR",
+          "type": "education",
+          "ror": "https://ror.org/0468j1635"
+        }
+      ],
+      "acces_ouvert": false,
+      "statut_acces": "closed",
+      "url_texte": null,
+      "url_pdf": null,
+      "licence": null,
+      "texte_integral_indexe": false,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Glaucoma and retinal disorders",
+      "resume_present": true,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": []
+  }
+}

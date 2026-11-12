@@ -1,0 +1,173 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1240 760" font-family="Segoe UI, system-ui, sans-serif" role="img" aria-labelledby="t d">
+  <title id="t">Architecture de la veille glaucome</title>
+  <desc id="d">11 sources publiques (4 scientifiques, 7 réglementaires), collecte Python sur GitHub Actions, base SQLite, IA GitHub Models, contrôles qualité, export JSON, GitHub Pages et alertes.</desc>
+  <defs>
+    <marker id="f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#5a6676"/>
+    </marker>
+    <style>
+      .boite { fill:#fff; stroke:#c9d2dc; stroke-width:1.5; rx:12; }
+      .titre { font-size:15px; font-weight:700; fill:#18222e; }
+      .texte { font-size:12px; fill:#5a6676; }
+      .petit { font-size:11px; fill:#5a6676; }
+      .api { fill:#e3f0f5; stroke:#0f5e7a; stroke-width:1.2; rx:8; }
+      .api-t { font-size:12.5px; font-weight:600; fill:#0a4459; }
+      .fl { stroke:#5a6676; stroke-width:1.8; fill:none; marker-end:url(#f); }
+      .etape { font-size:11px; font-weight:700; fill:#fff; }
+    </style>
+  </defs>
+  <rect width="1240" height="760" fill="#f4f6f8"/>
+  <text x="24" y="36" font-size="20" font-weight="700" fill="#18222e">Glaucoma Intelligence — chaîne de données</text>
+  <text x="24" y="58" class="texte">Chaque jour à 5 h 30 UTC sur GitHub Actions · une source en panne rend l'exécution « partielle » sans bloquer les autres</text>
+
+  <!-- 1. Sources -->
+  <rect x="24" y="80" width="190" height="452" class="boite"/>
+  <circle cx="44" cy="102" r="11" fill="#0f5e7a"/><text x="40" y="106" class="etape">1</text>
+  <text x="60" y="107" class="titre" font-size="13.5">11 sources publiques</text>
+  <text x="40" y="132" class="petit" font-weight="700">4 SCIENTIFIQUES</text>
+    <rect x="40" y="140" width="158" height="26" class="api"/><text x="50" y="157" class="api-t">ClinicalTrials.gov</text><text x="192" y="157" class="petit" text-anchor="end">essais</text>
+    <rect x="40" y="170" width="158" height="26" class="api"/><text x="50" y="187" class="api-t">PubMed</text><text x="192" y="187" class="petit" text-anchor="end">articles</text>
+    <rect x="40" y="200" width="158" height="26" class="api"/><text x="50" y="217" class="api-t">OpenAlex</text><text x="192" y="217" class="petit" text-anchor="end">hors PubMed</text>
+    <rect x="40" y="230" width="158" height="26" class="api"/><text x="50" y="247" class="api-t">Crossref</text><text x="192" y="247" class="petit" text-anchor="end">financeurs</text>
+  <text x="40" y="276" class="petit" font-weight="700">7 RÉGLEMENTAIRES</text>
+    <rect x="40" y="284" width="158" height="26" class="api"/><text x="50" y="301" class="api-t">BDPM · HAS</text><text x="192" y="301" class="petit" text-anchor="end">France</text>
+    <rect x="40" y="314" width="158" height="26" class="api"/><text x="50" y="331" class="api-t">EMA</text><text x="192" y="331" class="petit" text-anchor="end">Union européenne</text>
+    <rect x="40" y="344" width="158" height="26" class="api"/><text x="50" y="361" class="api-t">openFDA</text><text x="192" y="361" class="petit" text-anchor="end">États-Unis</text>
+    <rect x="40" y="374" width="158" height="26" class="api"/><text x="50" y="391" class="api-t">Santé Canada</text><text x="192" y="391" class="petit" text-anchor="end">Canada</text>
+    <rect x="40" y="404" width="158" height="26" class="api"/><text x="50" y="421" class="api-t">AEMPS CIMA</text><text x="192" y="421" class="petit" text-anchor="end">Espagne</text>
+    <rect x="40" y="434" width="158" height="26" class="api"/><text x="50" y="451" class="api-t">AIFA</text><text x="192" y="451" class="petit" text-anchor="end">Italie</text>
+    <rect x="40" y="464" width="158" height="26" class="api"/><text x="50" y="481" class="api-t">Swissmedic</text><text x="192" y="481" class="petit" text-anchor="end">Suisse</text>
+  <text x="40" y="508" class="petit">+ PBS (Australie) si la clé est fournie</text>
+  <text x="40" y="522" class="petit">timeout · backoff · 429 · logs</text>
+
+  <!-- 2. GitHub Actions + Python -->
+  <rect x="254" y="150" width="210" height="250" class="boite"/>
+  <circle cx="274" cy="172" r="11" fill="#0f5e7a"/><text x="270" y="176" class="etape">2</text>
+  <text x="292" y="177" class="titre">GitHub Actions</text>
+  <rect x="270" y="194" width="178" height="52" rx="8" fill="#e5f3ea" stroke="#1d7446"/>
+  <text x="282" y="215" font-size="13" font-weight="700" fill="#1d7446">Tests pytest</text>
+  <text x="282" y="233" class="petit">94 tests · échec = rien publié</text>
+  <path d="M359 246 V262" class="fl"/>
+  <rect x="270" y="264" width="178" height="120" rx="8" fill="#eceefa" stroke="#4a4f9a"/>
+  <text x="282" y="285" font-size="13" font-weight="700" fill="#4a4f9a">Python</text>
+  <text x="282" y="303" class="petit">mise_a_jour.py</text>
+  <text x="282" y="319" class="petit">1 étape journalisée / source</text>
+  <text x="282" y="335" class="petit">statut : ok · partielle · échec</text>
+  <text x="282" y="351" class="petit">veille/reseau.py</text>
+  <text x="282" y="367" class="petit">déduplication PMID · DOI · NCT</text>
+
+  <!-- 3. SQLite -->
+  <g transform="translate(508,170)">
+    <path d="M0,22 C0,-7 200,-7 200,22 V188 C200,217 0,217 0,188 Z" fill="#fff" stroke="#c9d2dc" stroke-width="1.5"/>
+    <path d="M0,22 C0,51 200,51 200,22" fill="none" stroke="#c9d2dc" stroke-width="1.5"/>
+    <circle cx="20" cy="22" r="11" fill="#0f5e7a"/><text x="16" y="26" class="etape">3</text>
+    <text x="38" y="27" class="titre">SQLite</text>
+    <text x="16" y="66" class="petit">data/veille.db</text>
+    <text x="16" y="88" class="texte">articles · essais</text>
+    <text x="16" y="106" class="texte">versions_essais</text>
+    <text x="16" y="124" class="texte">evenements (clé unique)</text>
+    <text x="16" y="142" class="texte">executions (journal)</text>
+    <text x="16" y="160" class="texte">traitements_ia</text>
+    <text x="16" y="182" class="petit">versionnée avec le code</text>
+  </g>
+
+  <!-- 4. IA -->
+  <rect x="752" y="80" width="210" height="130" class="boite"/>
+  <circle cx="772" cy="102" r="11" fill="#0f5e7a"/><text x="768" y="106" class="etape">4</text>
+  <text x="790" y="107" class="titre">IA (GitHub Models)</text>
+  <text x="768" y="130" class="petit">résumé 3 lignes + catégorie fermée</text>
+  <text x="768" y="148" class="petit">sortie JSON validée</text>
+  <text x="768" y="166" class="petit">modèle · prompt v1 · date</text>
+  <text x="768" y="184" class="petit">statut : non vérifié</text>
+  <text x="768" y="200" class="petit">éval : F1 macro (30 articles)</text>
+
+  <!-- 5. Contrôles + export -->
+  <rect x="752" y="236" width="210" height="110" class="boite"/>
+  <circle cx="772" cy="258" r="11" fill="#0f5e7a"/><text x="768" y="262" class="etape">5</text>
+  <text x="790" y="263" class="titre">Contrôles + export</text>
+  <text x="768" y="286" class="petit">champs obligatoires · dates</text>
+  <text x="768" y="302" class="petit">pas de doublon (id, DOI)</text>
+  <text x="768" y="318" class="petit">→ site/data/*.json</text>
+  <text x="768" y="334" class="petit">rejets → qualite.json</text>
+
+  <!-- 6. GitHub Pages -->
+  <rect x="1004" y="236" width="212" height="110" class="boite"/>
+  <circle cx="1024" cy="258" r="11" fill="#0f5e7a"/><text x="1020" y="262" class="etape">6</text>
+  <text x="1042" y="263" class="titre">GitHub Pages</text>
+  <text x="1020" y="286" class="petit">tableau de bord statique</text>
+  <text x="1020" y="302" class="petit">Recherche · Carte · Performances</text>
+  <text x="1020" y="318" class="petit">Alertes · Pipeline</text>
+  <text x="1020" y="334" class="petit">lit les JSON (pas la base)</text>
+
+  <!-- 7. Alertes -->
+  <rect x="752" y="380" width="210" height="110" class="boite"/>
+  <circle cx="772" cy="402" r="11" fill="#c2410c"/><text x="768" y="406" class="etape">7</text>
+  <text x="790" y="407" class="titre">Alertes</text>
+  <text x="768" y="430" class="petit">nouvel essai · statut · recrutement</text>
+  <text x="768" y="446" class="petit">date de fin · phase · résultats</text>
+  <text x="768" y="462" class="petit">jamais envoyée deux fois</text>
+  <text x="768" y="478" class="petit">alertes.md · page · e-mail (option)</text>
+
+  <!-- Flèches -->
+  <path d="M214 306 H252" class="fl"/>
+  <path d="M464 290 H506" class="fl"/>
+  <path d="M708 230 C730 200 730 160 750 150" class="fl"/>
+  <path d="M752 175 C730 185 724 215 710 238" class="fl"/>
+  <path d="M708 290 H750" class="fl"/>
+  <path d="M962 291 H1002" class="fl"/>
+  <path d="M708 350 C730 380 734 420 750 430" class="fl"/>
+  <path d="M962 435 C1040 435 1100 400 1110 348" class="fl"/>
+<!-- Rangée « intelligence » -->
+  <text x="24" y="566" font-size="15" font-weight="700" fill="#18222e">Couche « intelligence »</text>
+  <rect x="24" y="580" width="230" height="150" class="boite"/>
+  <circle cx="44" cy="602" r="11" fill="#4a4f9a"/><text x="40" y="606" class="etape">8</text>
+  <text x="62" y="607" class="titre">Embeddings</text>
+  <text x="40" y="630" class="petit">multilingual-e5-small (ONNX q8)</text>
+  <text x="40" y="646" class="petit">onnxruntime, sans torch</text>
+  <text x="40" y="662" class="petit">table SQLite embeddings</text>
+  <text x="40" y="678" class="petit">(modèle, date, empreinte)</text>
+  <text x="40" y="694" class="petit">incrémental : texte modifié</text>
+  <text x="40" y="710" class="petit">= seul ré-encodé</text>
+
+  <rect x="284" y="580" width="230" height="150" class="boite"/>
+  <circle cx="304" cy="602" r="11" fill="#4a4f9a"/><text x="300" y="606" class="etape">9</text>
+  <text x="322" y="607" class="titre">Recherche hybride</text>
+  <text x="300" y="630" class="petit">index FAISS (IndexFlatIP) ou numpy</text>
+  <text x="300" y="646" class="petit">cosinus + glossaire FR→EN (IDF)</text>
+  <text x="300" y="662" class="petit">CLI : python chercher.py</text>
+  <text x="300" y="678" class="petit">navigateur : transformers.js</text>
+  <text x="300" y="694" class="petit">même modèle, vecteurs int8</text>
+
+  <rect x="544" y="580" width="230" height="150" class="boite"/>
+  <circle cx="564" cy="602" r="11" fill="#4a4f9a"/><text x="557" y="606" class="etape">10</text>
+  <text x="582" y="607" class="titre">Assistant RAG</text>
+  <text x="560" y="630" class="petit">Flask local 127.0.0.1:8770</text>
+  <text x="560" y="646" class="petit">top 6 extraits → GitHub Models</text>
+  <text x="560" y="662" class="petit">prompt rag_v1 versionné</text>
+  <text x="560" y="678" class="petit">citations [PMID/NCT] vérifiées</text>
+  <text x="560" y="694" class="petit">journal SQLite echanges_rag</text>
+  <text x="560" y="710" class="petit">sans jeton : sources seules</text>
+
+  <rect x="804" y="580" width="200" height="150" class="boite"/>
+  <circle cx="824" cy="602" r="11" fill="#4a4f9a"/><text x="817" y="606" class="etape">11</text>
+  <text x="842" y="607" class="titre">Carte</text>
+  <text x="820" y="630" class="petit">Cytoscape.js 3.30.2</text>
+  <text x="820" y="646" class="petit">essais · traitements</text>
+  <text x="820" y="662" class="petit">organismes · publications</text>
+  <text x="820" y="678" class="petit">liens déclarés par</text>
+  <text x="820" y="694" class="petit">les sources uniquement</text>
+
+  <rect x="1024" y="580" width="192" height="150" class="boite"/>
+  <circle cx="1044" cy="602" r="11" fill="#4a4f9a"/><text x="1037" y="606" class="etape">12</text>
+  <text x="1062" y="607" class="titre">Performances</text>
+  <text x="1040" y="630" class="petit">F1 macro (classification)</text>
+  <text x="1040" y="646" class="petit">précision@5, MRR</text>
+  <text x="1040" y="662" class="petit">(recherche)</text>
+  <text x="1040" y="678" class="petit">jugements humains</text>
+  <text x="1040" y="694" class="petit">dans eval/</text>
+
+  <path d="M608 388 C560 480 160 500 140 578" class="fl"/>
+  <path d="M254 655 H282" class="fl"/>
+  <path d="M514 655 H542" class="fl"/>
+  <path d="M690 378 V545 H904 V576" class="fl"/>
+</svg>

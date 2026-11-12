@@ -1,0 +1,105 @@
+{
+  "nct": "NCT04553523",
+  "premiere_detection": "2026-09-25",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "nct": "NCT04553523",
+    "titre": "Hydrus® Microstent New Enrollment Post-Approval Study",
+    "titre_officiel": "The Hydrus® Microstent New Enrollment Post-Approval Study: A Prospective, Non-Randomized, Multicenter, Single Arm, Clinical Trial",
+    "lien": "https://clinicaltrials.gov/study/NCT04553523",
+    "date_premiere_publication": "2020-09-17",
+    "date_derniere_mise_a_jour": "2026-09-22",
+    "type_etude": "INTERVENTIONAL",
+    "phases_declarees": [
+      "NA"
+    ],
+    "statut": "RECRUITING",
+    "raison_arret": null,
+    "date_debut": "2020-08-25",
+    "date_fin_principale": "2028-10",
+    "promoteur": "Alcon Research",
+    "type_promoteur": "INDUSTRY",
+    "collaborateurs": null,
+    "conditions": [
+      "Primary Open Angle Glaucoma"
+    ],
+    "interventions": [
+      {
+        "type": "DEVICE",
+        "nom": "Hydrus Microstent"
+      },
+      {
+        "type": "PROCEDURE",
+        "nom": "Cataract surgery"
+      },
+      {
+        "type": "DEVICE",
+        "nom": "Monofocal IOL"
+      }
+    ],
+    "participants_nombre": 545,
+    "participants_type": "ESTIMATED",
+    "criteres_principaux": [
+      {
+        "critere": "Rate of occurrence of clinically significant device malposition associated with clinical sequelae",
+        "delai": "Day 0 operative, up to Month 24 postoperative"
+      }
+    ],
+    "resultats_deposes": false,
+    "publications_declarees": null,
+    "resume_source": "The purpose of this post-approval study is to evaluate the rate of Hydrus Microstent malposition and associated clinical sequelae occurring within 24 months post-operation. Qualified subjects will undergo uncomplicated cataract surgery with placement of a monofocal intraocular lens (IOL), followed by implantation of the Hydrus Microstent.",
+    "citations_declarees": null,
+    "plan": {
+      "repartition": "NA",
+      "modele": "SINGLE_GROUP",
+      "but_principal": "TREATMENT",
+      "insu": "NONE",
+      "insu_pour": null,
+      "insu_description": null,
+      "modele_observationnel": null
+    },
+    "bras": [
+      {
+        "libelle": "Hydrus Microstent",
+        "type": "EXPERIMENTAL",
+        "description": "Hydrus Microstent implanted in the eye immediately following cataract surgery and placement of a monofocal intraocular lens (IOL)",
+        "interventions": [
+          "Device: Hydrus Microstent",
+          "Procedure: Cataract surgery",
+          "Device: Monofocal IOL"
+        ]
+      }
+    ],
+    "eligibilite": {
+      "criteres": "Inclusion Criteria:\n\n* An operable, age-related cataract with best corrected visual acuity (BCVA) of 20/40 or worse;\n* Diagnosis of primary open angle glaucoma treated with no more than 4 topical hypotensive medications;\n* Optic nerve appearance characteristic of glaucoma;\n* Medicated IOP less than or equal to 31 millimeters mercury (mmHg); Other protocol-defined inclusion criteria may apply.\n\nExclusion Criteria:\n\n* Closed angle forms of glaucoma;\n* Congenital or developmental glaucoma;\n* Secondary glaucoma;\n* Use of more than 4 ocular hypotensive medications;\n* Previous argon laser trabeculoplasty, trabeculectomy, tube shunts, or any other prior filtration or cilioablative surgery;\n* Prior surgery with implanted device or other surgery involving the trabecular meshwork or Schlemm's canal;\n* Other protocol-defined exclusion criteria may apply.",
+      "age_min": "45 Years",
+      "age_max": null,
+      "sexe": "ALL",
+      "volontaires_sains": false
+    },
+    "criteres_secondaires": [
+      {
+        "critere": "Rate of occurrence of intraoperative ocular adverse events",
+        "delai": "Day 0 operative"
+      },
+      {
+        "critere": "Rate of occurrence of sight threatening postoperative adverse events",
+        "delai": "Up to Month 24"
+      },
+      {
+        "critere": "Rate of occurrence of other postoperative ocular adverse events",
+        "delai": "Up to Month 24"
+      }
+    ],
+    "responsables": [
+      {
+        "nom": "Clinical Project Lead, CDMA Surgical",
+        "affiliation": "Alcon Research",
+        "role": "STUDY_DIRECTOR"
+      }
+    ],
+    "date_depot_resultats": null,
+    "resultats": null
+  },
+  "modifications": []
+}

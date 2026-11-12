@@ -1,0 +1,64 @@
+{
+  "openalex_id": "W7213498372",
+  "premiere_detection": "2026-09-25",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "openalex_id": "W7213498372",
+    "doi": "10.5281/zenodo.22803182",
+    "pmid": null,
+    "pmcid": null,
+    "titre": "Comparison of Bleb Morphology Following Trabeculectomy with and Without Mitomycin-C in primary open-angle glaucoma or primary angle-closure glaucoma",
+    "lien": "https://openalex.org/W7213498372",
+    "date_publication": "2026-09-17",
+    "type": "article",
+    "revue": "Zenodo (CERN European Organization for Nuclear Research)",
+    "type_source": "repository",
+    "langue": "en",
+    "indexe_dans": [
+      "datacite"
+    ],
+    "financeurs": null,
+    "subventions": null,
+    "institutions": [
+      {
+        "nom": "Shaheed Suhrawardy Medical College",
+        "pays": "BD",
+        "type": "education",
+        "ror": "https://ror.org/04dtzbe22"
+      },
+      {
+        "nom": "Gono University",
+        "pays": "BD",
+        "type": "education",
+        "ror": "https://ror.org/01de7ab51"
+      }
+    ],
+    "acces_ouvert": true,
+    "statut_acces": "green",
+    "url_texte": "https://bdjournals.org/planet/article/download/1462/1466",
+    "url_pdf": "https://bdjournals.org/planet/article/download/1462/1466",
+    "licence": "cc-by",
+    "texte_integral_indexe": true,
+    "retracte": false,
+    "citations": 0,
+    "sujet_principal": "Glaucoma and retinal disorders",
+    "resume_present": true,
+    "resume": "Comparison of Bleb Morphology Following Trabeculectomy with and Without Mitomycin-C in primary open-angle glaucoma or primary angle-closure glaucoma",
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "present_dans_pubmed": false
+  }
+}

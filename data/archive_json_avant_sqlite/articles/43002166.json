@@ -1,0 +1,92 @@
+{
+  "pmid": "43002166",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "43002166",
+    "titre": "A Novel Intronic OCRL1 Variant Causing Lowe Syndrome with an Atypical Phenotype Mimicking Mucopolysaccharidosis.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/43002166/",
+    "doi": "10.4103/aian.aian_839_26",
+    "pmcid": null,
+    "revue": "Annals of Indian Academy of Neurology",
+    "date_entree_pubmed": "2026-11-09",
+    "date_publication": "2026-Nov-04",
+    "types_publication": [
+      "Journal Article"
+    ],
+    "resume_present": true,
+    "resume": "Lowe syndrome is a rare X-linked recessive multisystem disorder caused by pathogenic OCRL1 variants. We describe a 19-month-old child with global developmental delay, bilateral congenital cataracts, glaucoma, and hypotonia but without clinically apparent renal involvement at last follow-up. Brain and spine magnetic resonance imaging revealed scaphocephaly, a J-shaped sella, peritrigonal white-matter abnormalities, and a soft-tissue lesion causing compression at the craniovertebral junction, suggestive of mucopolysaccharidosis. Whole-exome sequencing (WES) identified a novel pathogenic hemizygous splice-site variant, c. 1880-2A > G, in OCRL1 . This case highlights the atypical phenotype of Lowe syndrome, which mimics mucopolysaccharidosis, and the diagnostic utility of WES in such presentations.",
+    "mots_cles_auteurs": [
+      "Lowe syndrome",
+      "oculocerebrorenal syndrome",
+      "splice site variant",
+      "whole-exome sequencing"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 6,
+    "affiliations_auteurs": [
+      "R.Madhavan Nayar Center for Comprehensive Epilepsy Care, Department of Neurology, Sree Chitra Tirunal Institute for Medical Sciences and Technology, Trivandrum, Kerala, India.",
+      "Department of Imaging Sciences and Interventional Radiology, Sree Chitra Tirunal Institute for Medical Sciences and Technology, Trivandrum, Kerala, India.",
+      "Pediatric Neurology and Neurodevelopmental Disorders, Department of Neurology, Sree Chitra Tirunal Institute for Medical Sciences and Technology, Trivandrum, Kerala, India."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7225343119",
+      "doi": "10.4103/aian.aian_839_26",
+      "pmid": "43002166",
+      "pmcid": null,
+      "titre": "A Novel Intronic OCRL1 Variant Causing Lowe Syndrome with an Atypical Phenotype Mimicking Mucopolysaccharidosis",
+      "lien": "https://openalex.org/W7225343119",
+      "date_publication": "2026-11-04",
+      "type": "article",
+      "revue": "Annals of Indian Academy of Neurology",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "doaj",
+        "pubmed"
+      ],
+      "financeurs": null,
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "Sree Chitra Thirunal Institute for Medical Sciences and Technology",
+          "pays": "IN",
+          "type": "facility",
+          "ror": "https://ror.org/05757k612"
+        }
+      ],
+      "acces_ouvert": true,
+      "statut_acces": "diamond",
+      "url_texte": "https://doi.org/10.4103/aian.aian_839_26",
+      "url_pdf": null,
+      "licence": "cc-by-nc-sa",
+      "texte_integral_indexe": false,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Lysosomal Storage Disorders Research",
+      "resume_present": true,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": []
+  }
+}

@@ -1,0 +1,176 @@
+{
+  "nct": "NCT07619482",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "nct": "NCT07619482",
+    "titre": "Topical Insulin for Glaucoma (TING2)",
+    "titre_officiel": "A Phase 1/2 Dose Escalation Followed by a Masked, Randomized, Placebo-Controlled Study to Evaluate Topical Insulin for Neuroprotection in Open Angle Glaucoma",
+    "lien": "https://clinicaltrials.gov/study/NCT07619482",
+    "date_premiere_publication": "2026-06-02",
+    "date_derniere_mise_a_jour": "2026-10-13",
+    "type_etude": "INTERVENTIONAL",
+    "phases_declarees": [
+      "PHASE1",
+      "PHASE2"
+    ],
+    "statut": "ENROLLING_BY_INVITATION",
+    "raison_arret": null,
+    "date_debut": "2026-09-10",
+    "date_fin_principale": "2028-10",
+    "promoteur": "Stanford University",
+    "type_promoteur": "OTHER",
+    "collaborateurs": null,
+    "conditions": [
+      "Open Angle Glaucoma",
+      "Primary Open Angle Glaucoma",
+      "Low Tension Glaucoma",
+      "Pigmentary Glaucoma",
+      "Pseudoexfoliation Glaucoma"
+    ],
+    "interventions": [
+      {
+        "type": "DRUG",
+        "nom": "EYED-002 Low Dose (721 U/mL topical insulin)"
+      },
+      {
+        "type": "DRUG",
+        "nom": "EYED-002 High Dose (1442 U/mL topical insulin)"
+      },
+      {
+        "type": "DRUG",
+        "nom": "EYED-002 (highest tolerated dose, 12-month)"
+      },
+      {
+        "type": "DRUG",
+        "nom": "Vehicle Placebo"
+      }
+    ],
+    "participants_nombre": 90,
+    "participants_type": "ESTIMATED",
+    "criteres_principaux": [
+      {
+        "critere": "Incidence and severity of ocular and systemic adverse events (AEs) and serious adverse events (SAEs)",
+        "delai": "From informed consent through end of participation (up to 27 months)"
+      }
+    ],
+    "resultats_deposes": false,
+    "publications_declarees": [
+      {
+        "pmid": "29931057",
+        "type": "BACKGROUND"
+      },
+      {
+        "pmid": "41584099",
+        "type": "BACKGROUND"
+      }
+    ],
+    "resume_source": "This study evaluates the safety and preliminary efficacy of topical sterile human insulin eye drops (EYED-002) in patients with open-angle glaucoma. The study uses a phase 1/2 dose-escalation design followed by a masked, randomized, placebo-controlled phase. Insulin is formulated as preservative-free eye drops and delivered once daily. The primary objective is to determine the safety profile of topical insulin; secondary objectives assess effects on retinal structure, visual field, visual acuity, contrast sensitivity, and quality of life.",
+    "citations_declarees": [
+      {
+        "pmid": "29931057",
+        "type": "BACKGROUND",
+        "citation": "Agostinone J, Alarcon-Martinez L, Gamlin C, Yu WQ, Wong ROL, Di Polo A. Insulin signalling promotes dendrite and synapse regeneration and restores circuit function after axonal injury. Brain. 2018 Jul 1;141(7):1963-1980. doi: 10.1093/brain/awy142."
+      },
+      {
+        "pmid": "41584099",
+        "type": "BACKGROUND",
+        "citation": "Saludares M, Wennberg-Smith Z, Beykin G, Khatib TZ, Nunez M, Wang Q, Di Polo A, Goldberg JL. A Phase I Randomized Trial of Topical Insulin for Glaucoma: Safety and Efficacy Outcomes. Ophthalmol Sci. 2025 Dec 6;6(2):101032. doi: 10.1016/j.xops.2025.101032. eCollection 2026 Feb."
+      }
+    ],
+    "plan": {
+      "repartition": "RANDOMIZED",
+      "modele": "SEQUENTIAL",
+      "but_principal": "TREATMENT",
+      "insu": "TRIPLE",
+      "insu_pour": [
+        "PARTICIPANT",
+        "CARE_PROVIDER",
+        "INVESTIGATOR"
+      ],
+      "insu_description": "Masking applies to Group 3 only. Participants randomized in Group 3 are masked to treatment assignment (active vs. vehicle placebo). Groups 1, 2, and 4 are open-label.",
+      "modele_observationnel": null
+    },
+    "bras": [
+      {
+        "libelle": "Group 1: Low-Dose EYED-002",
+        "type": "EXPERIMENTAL",
+        "description": "N=5 participants with open-angle glaucoma. Low-dose topical insulin (EYED-002), administered as one drop to the study eye once daily in-clinic for 5 consecutive days. Open-label.",
+        "interventions": [
+          "Drug: EYED-002 Low Dose (721 U/mL topical insulin)"
+        ]
+      },
+      {
+        "libelle": "Group 2: High-Dose EYED-002",
+        "type": "EXPERIMENTAL",
+        "description": "N=5 participants with open-angle glaucoma. High-dose topical insulin (EYED-002), administered as one drop to the study eye once daily in-clinic for 5 consecutive days.",
+        "interventions": [
+          "Drug: EYED-002 High Dose (1442 U/mL topical insulin)"
+        ]
+      },
+      {
+        "libelle": "Group 3: Active EYED-002 (Randomized)",
+        "type": "EXPERIMENTAL",
+        "description": "N=40 participants randomized to active EYED-002 at the highest tolerated dose from Groups 1 or 2, administered once daily at home for 12 months. Double -masked.",
+        "interventions": [
+          "Drug: EYED-002 (highest tolerated dose, 12-month)"
+        ]
+      },
+      {
+        "libelle": "Group 3: Vehicle Placebo (Randomized)",
+        "type": "PLACEBO_COMPARATOR",
+        "description": "N=20 participants randomized to vehicle-only placebo, administered once daily at home for 12 months. double-masked. Eligible participants may roll over to open-label active EYED-002 for an additional 12 months after Month 12.",
+        "interventions": [
+          "Drug: Vehicle Placebo"
+        ]
+      },
+      {
+        "libelle": "Group 4: Open-Label Access",
+        "type": "EXPERIMENTAL",
+        "description": "N=20 participants ineligible for randomization due to glaucoma severity. Receive highest tolerated dose of EYED-002 once daily for 12 months in an open-label access arm.",
+        "interventions": [
+          "Drug: EYED-002 (highest tolerated dose, 12-month)"
+        ]
+      }
+    ],
+    "eligibilite": {
+      "criteres": "Limited Inclusion Criteria - All Groups:\n\n* Provide written informed consent approved by the appropriate ethics committee\n* Age 18 years or older\n* Understand study procedures and have the ability and willingness to abide by all procedures during the study\n* Capable of providing informed consent\n* Diagnosis of glaucoma\n* Only one eye per patient will be selected as the study eye; if both eyes meet inclusion criteria, the eye with worse visual acuity and/or visual field will be selected\n\nLimited Exclusion Criteria - All Groups:\n\n* Pregnant or breastfeeding\n* Presence of any ocular pathology other than glaucoma that contributes to severe vision loss (retinopathy, maculopathy, severe uveitis, keratopathy, etc.)\n* Diagnosis of glucose intolerance, type 1 or type 2 diabetes mellitus\n* Inability to perform reliable visual field testing\n* Unable to provide informed consent\n* Unable to complete the tests and follow-ups required by the study",
+      "age_min": "18 Years",
+      "age_max": "90 Years",
+      "sexe": "ALL",
+      "volontaires_sains": false
+    },
+    "criteres_secondaires": [
+      {
+        "critere": "Change in retinal nerve fiber layer (RNFL) and ganglion cell complex (GCC) thickness by SD-OCT",
+        "delai": "Baseline to 12 months (Groups 3 and 4); Baseline to Day 5 (Groups 1 and 2)"
+      },
+      {
+        "critere": "Change in visual field by Humphrey 24-2 (mean deviation, VFI, pointwise analysis)",
+        "delai": "Baseline to 12 months (Groups 3 and 4); Baseline to Day 5 (Groups 1 and 2)"
+      },
+      {
+        "critere": "Change in best corrected visual acuity (BCVA) by ETDRS",
+        "delai": "Baseline to 12 months (Groups 3 and 4); Baseline to Day 5 (Groups 1 and 2)"
+      },
+      {
+        "critere": "Change in contrast sensitivity by FrACT contrast test",
+        "delai": "Baseline to 12 months (Groups 3 and 4); Baseline to Day 5 (Groups 1 and 2)"
+      },
+      {
+        "critere": "Change in quality of life by GQL-15 questionnaire",
+        "delai": "Baseline, 6 months, and 12 months (Group 3)"
+      }
+    ],
+    "responsables": [
+      {
+        "nom": "Jeffrey L Goldberg, MD PhD",
+        "affiliation": "Stanford University",
+        "role": "PRINCIPAL_INVESTIGATOR"
+      }
+    ],
+    "date_depot_resultats": null,
+    "resultats": null
+  },
+  "modifications": []
+}

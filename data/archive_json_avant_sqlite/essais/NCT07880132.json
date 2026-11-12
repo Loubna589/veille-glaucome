@@ -1,0 +1,80 @@
+{
+  "nct": "NCT07880132",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "nct": "NCT07880132",
+    "titre": "Evaluation the Safety and Effectiveness of the GORE GDI in Adult Subjects With Primary Open-angle Glaucoma in Whom Previous Medical and Surgical Treatment Have Failed.",
+    "titre_officiel": "A Prospective, Multicenter, Single-Cohort, Open-Label Clinical Study Designed to Evaluate the Safety and Effectiveness of the GORE® Glaucoma Drainage Implant (GORE GDI) in Subjects With Primary Open Angle Glaucoma in Whom Previous Medical and Surgical Treatment Have Failed.",
+    "lien": "https://clinicaltrials.gov/study/NCT07880132",
+    "date_premiere_publication": "2026-10-19",
+    "date_derniere_mise_a_jour": "2026-10-19",
+    "type_etude": "INTERVENTIONAL",
+    "phases_declarees": [
+      "NA"
+    ],
+    "statut": "NOT_YET_RECRUITING",
+    "raison_arret": null,
+    "date_debut": "2026-10",
+    "date_fin_principale": "2028-10",
+    "promoteur": "Gore Ophthalmic",
+    "type_promoteur": "INDUSTRY",
+    "collaborateurs": null,
+    "conditions": [
+      "Glaucoma, Primary Open Angle"
+    ],
+    "interventions": [
+      {
+        "type": "DEVICE",
+        "nom": "GORE Glaucoma Drainage Implant"
+      }
+    ],
+    "participants_nombre": 70,
+    "participants_type": "ESTIMATED",
+    "criteres_principaux": [
+      {
+        "critere": "Percent Change in MDIOP",
+        "delai": "12 Months"
+      },
+      {
+        "critere": "Proportion of subjects achieving a ≥ 20% reduction in MDIOP",
+        "delai": "12 Months"
+      }
+    ],
+    "resultats_deposes": false,
+    "publications_declarees": null,
+    "resume_source": "Evaluation the Safety and Effectiveness of the GORE GDI in Adult Subjects With Primary Open-angle Glaucoma in Whom Previous Medical and Surgical Treatment Have Failed.",
+    "citations_declarees": null,
+    "plan": {
+      "repartition": "NA",
+      "modele": "SINGLE_GROUP",
+      "but_principal": "DEVICE_FEASIBILITY",
+      "insu": "NONE",
+      "insu_pour": null,
+      "insu_description": null,
+      "modele_observationnel": null
+    },
+    "bras": [
+      {
+        "libelle": "GORE Glaucoma Drainage Implant",
+        "type": "EXPERIMENTAL",
+        "description": null,
+        "interventions": [
+          "Device: GORE Glaucoma Drainage Implant"
+        ]
+      }
+    ],
+    "eligibilite": {
+      "criteres": "Inclusion Criteria:\n\n* Diagnosis of primary open-angle glaucoma (POAG) with IOP uncontrolled by medical therapy and failed surgical treatment\n* Medicated IOP of \\>=20 mmHg\n* Shaffer angle grade \\>= 2 in target quadrant\n* Area of free and mobile conjunctiva without extensive scarring or fibrosis\n* At least 46 years old\n\nExclusion Criteria:\n\n* Closed-angle and secondary glaucomas\n* Any pathology or condition (including prior glaucoma filtration or conjunctival surgery) that prevents implantation of the study device in the target quadrant\n* Diagnosis of degenerative visual disorders\n* History of corneal transplantation, prior corneal surgery, corneal opacities inhibiting visualization, or clinically significant corneal disease pathology\n* Non-study eye with BCVA worse than 20/200\n* Pregnant or nursing women; or women of childbearing potential not using medically acceptable birth control",
+      "age_min": "46 Years",
+      "age_max": null,
+      "sexe": "ALL",
+      "volontaires_sains": false
+    },
+    "criteres_secondaires": null,
+    "responsables": null,
+    "date_depot_resultats": null,
+    "resultats": null
+  },
+  "modifications": []
+}

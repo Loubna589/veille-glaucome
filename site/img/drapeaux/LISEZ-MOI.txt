@@ -1,0 +1,3 @@
+Drapeaux simplifiés dessinés à la main pour ce projet (formes géométriques, format 4:3),
+aucune bibliothèque tierce : pas de licence externe à mentionner. Simplifications volontaires
+(feuille d'érable, étoiles) pour rester très légers. Suisse dessinée en 4:3 pour aligner les drapeaux.

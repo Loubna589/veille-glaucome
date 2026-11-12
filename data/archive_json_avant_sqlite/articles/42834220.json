@@ -1,0 +1,106 @@
+{
+  "pmid": "42834220",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42834220",
+    "titre": "Conclusions and Therapeutic Implications of AA.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42834220/",
+    "doi": "10.1007/978-981-92-5964-9_13",
+    "pmcid": null,
+    "revue": "Reviews of physiology, biochemistry and pharmacology",
+    "date_entree_pubmed": "2026-10-05",
+    "date_publication": "2027",
+    "types_publication": [
+      "Journal Article",
+      "Review"
+    ],
+    "resume_present": true,
+    "resume": "AA is essential for several tissues in the body, as they are involved in many physiological and pathological processes. Its regulatory role in inflammation, immune response regulation, cell cycle, and membrane structural organization and its ability to control the expression and function(s) of several receptors and convey messages to and from the nucleus are of particular significance. Fine-tuning the metabolism of AA may lead to the development of prevention and management strategies for several diseases, including but not limited to sepsis, inflammatory bowel disease, diabetes mellitus, cancer, coronary heart disease, atherosclerosis, MASLD (NAFLD), hypertension, metabolic syndrome, uveitis, glaucoma, diabetic retinopathy, glomerulonephritis, ischemia-reperfusion injury, lupus, rheumatoid arthritis, and drug-resistant infections and cancer. AA is needed for normal brain growth and development, pregnancy, regeneration of the liver and heart, and hematopoiesis. AA can be administered orally, parenterally as needed, and as lipid nanoparticles to target specific tissues.",
+    "mots_cles_auteurs": [
+      "Arachidonic acid",
+      "Atherosclerosis",
+      "Cancer",
+      "Cell membrane",
+      "Coronary heart disease",
+      "Diabetes mellitus",
+      "Drug-resistant infections",
+      "Glaucoma",
+      "Glomerulonephritis",
+      "Hypertension",
+      "Inflammatory bowel disease",
+      "Lupus",
+      "MASLD (NAFLD)",
+      "Retinopathy",
+      "Rheumatoid arthritis",
+      "Sepsis",
+      "Uveitis"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 1,
+    "affiliations_auteurs": [
+      "UND Life Sciences, Battle Ground, WA, USA."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": [
+      "Animals",
+      "Humans",
+      "Arachidonic Acid"
+    ]
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": [
+        "nanoparticle*"
+      ],
+      "stade": "Non renseigné",
+      "stade_source": null,
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7220398369",
+      "doi": "10.1007/978-981-92-5964-9_13",
+      "pmid": "42834220",
+      "pmcid": null,
+      "titre": "Conclusions and Therapeutic Implications of AA",
+      "lien": "https://openalex.org/W7220398369",
+      "date_publication": "2026-10-05",
+      "type": "book-chapter",
+      "revue": "Reviews of physiology, biochemistry and pharmacology",
+      "type_source": "book series",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "pubmed"
+      ],
+      "financeurs": null,
+      "subventions": null,
+      "institutions": null,
+      "acces_ouvert": false,
+      "statut_acces": "closed",
+      "url_texte": null,
+      "url_pdf": null,
+      "licence": null,
+      "texte_integral_indexe": false,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Fatty Acid Research and Health",
+      "resume_present": false,
+      "mesh": [
+        "Animals",
+        "Humans",
+        "Arachidonic Acid"
+      ]
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": []
+  }
+}

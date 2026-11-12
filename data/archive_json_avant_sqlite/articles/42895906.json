@@ -1,0 +1,224 @@
+{
+  "pmid": "42895906",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42895906",
+    "titre": "Microneedle-based drug delivery for inflammatory and immune-mediated ocular diseases: current applications and future perspectives.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42895906/",
+    "doi": "10.1080/10717544.2026.2730728",
+    "pmcid": "PMC13686209",
+    "revue": "Drug delivery",
+    "date_entree_pubmed": "2026-10-19",
+    "date_publication": "2026-Dec-31",
+    "types_publication": [
+      "Journal Article",
+      "Review"
+    ],
+    "resume_present": true,
+    "resume": "Inflammatory and immune-mediated ocular diseases encompass a spectrum of conditions that arise from dysregulated immune-inflammatory responses marked by a chronic clinical course, a propensity for relapse, and a tendency to cause significant ocular tissue damage, which can lead to profound impairment of visual function. Dysregulation of the balance between immune cell subpopulations is central to the pathogenesis of many of these diseases. At present, non-specific treatments such as glucocorticoids and immunosuppressants form the cornerstone of therapy for inflammatory and immune-mediated ocular diseases. However, these treatments often suffer from poor bioavailability and targeting, cumbersome or invasive administration methods, and are associated with side effects such as increased intraocular pressure (IOP), cataracts, or glaucoma with frequent administration. These limitations underscore the urgent need for alternative drug delivery methods. Microneedles have emerged as an innovative approach to ocular drug delivery, offering distinct advantages over traditional eye drops and intravitreal injections. They enhance drug penetration and targeting, provide sustained release, and may reduce unnecessary drug exposure, thus holding great promise for the treatment of inflammatory and immune-mediated ocular diseases. This review aims to shed light on the unique benefits and efficacy of microneedles as drug-delivery systems for inflammatory and immune-mediated ocular diseases, with particular attention to noninfectious uveitis, corneal inflammatory disorders, inflammation-associated corneal neovascularization, and allergic conjunctivitis. It also discusses ocular safety and toxicity, manufacturing and standardization, regulatory challenges, and future prospects of microneedle applications, providing a comprehensive overview of their potential for ocular drug delivery.",
+    "mots_cles_auteurs": [
+      "Microneedles",
+      "drug delivery",
+      "immune",
+      "inflammatory ocular diseases",
+      "ocular"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 4,
+    "affiliations_auteurs": [
+      "Aier Eye Hospital, Tianjin University, Tianjin, China.",
+      "Aier Eye Hospital, Changsha, China.",
+      "Changsha Aier Eye Institute, Changsha, China."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": [
+      "Humans",
+      "Microneedle Drug Delivery",
+      "Eye Diseases",
+      "Animals",
+      "Inflammation",
+      "Drug Delivery Systems",
+      "Needles",
+      "Administration, Ophthalmic"
+    ]
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": [
+        "sustained release",
+        "drug delivery"
+      ],
+      "stade": "Non renseigné",
+      "stade_source": null,
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7222947107",
+      "doi": "10.1080/10717544.2026.2730728",
+      "pmid": "42895906",
+      "pmcid": "13686209",
+      "titre": "Microneedle-based drug delivery for inflammatory and immune-mediated ocular diseases: current applications and future perspectives",
+      "lien": "https://openalex.org/W7222947107",
+      "date_publication": "2026-10-19",
+      "type": "review",
+      "revue": "Drug Delivery",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "doaj",
+        "pubmed"
+      ],
+      "financeurs": [
+        {
+          "nom": "National Natural Science Foundation of China",
+          "ror": "https://ror.org/01h0zpd94"
+        },
+        {
+          "nom": "Natural Science Foundation of Tianjin City",
+          "ror": null
+        },
+        {
+          "nom": "Tianjin Science and Technology Program",
+          "ror": null
+        }
+      ],
+      "subventions": [
+        {
+          "financeur": "Natural Science Foundation of Tianjin City",
+          "reference": "24JCQNJC02050"
+        },
+        {
+          "financeur": "National Natural Science Foundation of China",
+          "reference": "82471053"
+        }
+      ],
+      "institutions": [
+        {
+          "nom": "Tianjin University",
+          "pays": "CN",
+          "type": "education",
+          "ror": "https://ror.org/012tb2g32"
+        },
+        {
+          "nom": "Aier Eye Hospital Group (China)",
+          "pays": "CN",
+          "type": "company",
+          "ror": "https://ror.org/02fz07e24"
+        }
+      ],
+      "acces_ouvert": true,
+      "statut_acces": "gold",
+      "url_texte": "https://www.tandfonline.com/doi/pdf/10.1080/10717544.2026.2730728?needAccess=true",
+      "url_pdf": "https://www.tandfonline.com/doi/pdf/10.1080/10717544.2026.2730728?needAccess=true",
+      "licence": "cc-by-nc",
+      "texte_integral_indexe": true,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Advanced Drug Delivery Systems",
+      "resume_present": true,
+      "mesh": [
+        "Microneedle Drug Delivery",
+        "Animals",
+        "Eye Diseases",
+        "Humans",
+        "Inflammation",
+        "Needles",
+        "Drug Delivery Systems",
+        "Administration, Ophthalmic"
+      ]
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": [
+      {
+        "nom": "National Natural Science Foundation of China",
+        "statut": "CONFIRMÉ — déclaré par l'éditeur dans Crossref",
+        "references": [
+          "82471053"
+        ],
+        "notices": [
+          [
+            "notice justificative Crossref (déclaration de l'éditeur)",
+            "https://api.crossref.org/works/10.1080/10717544.2026.2730728"
+          ],
+          [
+            "notice OpenAlex",
+            "https://api.openalex.org/works/W7222947107"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "Natural Science Foundation of Tianjin City",
+        "statut": "À VÉRIFIER — trouvé par OpenAlex seulement (absent de la déclaration de l'éditeur dans Crossref) ; à contrôler dans le texte de l'article",
+        "references": [
+          "24JCQNJC02050"
+        ],
+        "notices": [
+          [
+            "notice OpenAlex",
+            "https://api.openalex.org/works/W7222947107"
+          ],
+          [
+            "notice Crossref consultée (ne confirme pas ce financeur)",
+            "https://api.crossref.org/works/10.1080/10717544.2026.2730728"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "Tianjin Science and Technology Program",
+        "statut": "À VÉRIFIER — trouvé par OpenAlex seulement (absent de la déclaration de l'éditeur dans Crossref) ; à contrôler dans le texte de l'article",
+        "references": null,
+        "notices": [
+          [
+            "notice OpenAlex",
+            "https://api.openalex.org/works/W7222947107"
+          ],
+          [
+            "notice Crossref consultée (ne confirme pas ce financeur)",
+            "https://api.crossref.org/works/10.1080/10717544.2026.2730728"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "Tianjin Municipal Science and Technology Program",
+        "statut": "CONFIRMÉ — déclaré par l'éditeur dans Crossref (absent d'OpenAlex)",
+        "references": [
+          "22JCZDJC00260"
+        ],
+        "notices": [
+          [
+            "notice justificative Crossref (déclaration de l'éditeur)",
+            "https://api.crossref.org/works/10.1080/10717544.2026.2730728"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "Tianjin Natural Science Foundation",
+        "statut": "CONFIRMÉ — déclaré par l'éditeur dans Crossref (absent d'OpenAlex)",
+        "references": [
+          "24JCQNJC02050"
+        ],
+        "notices": [
+          [
+            "notice justificative Crossref (déclaration de l'éditeur)",
+            "https://api.crossref.org/works/10.1080/10717544.2026.2730728"
+          ]
+        ],
+        "note": null
+      }
+    ]
+  }
+}

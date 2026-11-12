@@ -1,0 +1,160 @@
+{
+  "pmid": "41915113",
+  "premiere_detection": "2026-09-25",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "41915113",
+    "titre": "Phase III Prospective Randomised Study of Netarsudil and Concomitant Latanoprost Efficacy and Safety for Primary Open-Angle Glaucoma or Ocular Hypertension in Japan: J-ROCKET-2.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/41915113/",
+    "doi": "10.1007/s12325-026-03566-8",
+    "pmcid": "PMC13222305",
+    "revue": "Advances in therapy",
+    "date_entree_pubmed": "2026-03-31",
+    "date_publication": "2026-Jun",
+    "types_publication": [
+      "Journal Article",
+      "Randomized Controlled Trial",
+      "Clinical Trial, Phase III",
+      "Multicenter Study"
+    ],
+    "resume_present": true,
+    "resume": "INTRODUCTION: This prospective, phase III, randomised, multicentre, double-masked study (jRCT2031210122) assessed the intraocular pressure (IOP)-lowering efficacy, tolerability and superiority of netarsudil 0.02% + concomitant latanoprost 0.005% to placebo + latanoprost in Japanese participants with primary open-angle glaucoma (POAG) or ocular hypertension (OHT) who have inadequate IOP reduction with latanoprost monotherapy.\nMETHODS: Participants received latanoprost once daily for 6 weeks. Eligible participants (n = 246) with POAG (n = 165) or OHT (n = 81) were randomised (1:1) to netarsudil + latanoprost (n = 122) or placebo + latanoprost (n = 124) for 4 weeks. Primary endpoint was mean diurnal (MD) IOP at week 4, with superiority demonstrated if the between-group difference in least squares mean MD IOP was < 0 and p < 0.05. Secondary endpoints included MD IOP at weeks 1 and 2. Adverse events (AEs) were recorded.\nRESULTS: At week 4, MD IOP (standard error) was 15.29 (0.17) versus 17.65 (0.17) mmHg with netarsudil + latanoprost versus placebo + latanoprost, respectively [difference, - 2.36 (p < 0.0001)]. The differences at weeks 1 and 2 between netarsudil + latanoprost and placebo + latanoprost were - 2.47 and - 2.41 (p < 0.0001), respectively. At each visit, netarsudil + latanoprost significantly reduced MD IOP versus placebo + latanoprost (p < 0.0001). Of those receiving netarsudil + latanoprost, 64.8% reported AEs versus 21.0% receiving placebo + latanoprost. Conjunctival hyperaemia was the most reported AE in both groups (53.3% vs. 6.5%). No serious AEs were reported.\nCONCLUSION: Netarsudil + latanoprost was superior to placebo + latanoprost in lowering elevated IOP in Japanese patients with POAG or OHT. No new safety signals were reported.\nTRIAL REGISTRATION: Japan registry of clinical trials: jRCT2031210122.",
+    "mots_cles_auteurs": [
+      "Intraocular pressure",
+      "Latanoprost",
+      "Netarsudil",
+      "Ocular hypertension",
+      "Primary open-angle glaucoma",
+      "ROCK inhibitor"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 1,
+    "affiliations_auteurs": [
+      "Department of Ophthalmology, The University of Tokyo Graduate School of Medicine, 7-3-1 Hongo, Bunkyo-Ku, Tokyo, 113-8655, Japan. macaihara1126@gmail.com."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": [
+      "Aged",
+      "Female",
+      "Humans",
+      "Male",
+      "Middle Aged",
+      "Benzoates",
+      "beta-Alanine",
+      "Double-Blind Method",
+      "Drug Therapy, Combination",
+      "Glaucoma, Open-Angle",
+      "Intraocular Pressure",
+      "Japan",
+      "Latanoprost",
+      "Ocular Hypertension",
+      "Prospective Studies",
+      "Treatment Outcome"
+    ]
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": true,
+      "produit_suivi_etudie_suggere": true,
+      "produits_suivis": [
+        {
+          "produit": "latanoprost",
+          "role": "étudié",
+          "statut_role": "rôle suggéré, à vérifier (règle automatique appliquée au titre)"
+        },
+        {
+          "produit": "netarsudil",
+          "role": "étudié",
+          "statut_role": "rôle suggéré, à vérifier (règle automatique appliquée au titre)"
+        },
+        {
+          "produit": "ROCK inhibitor*",
+          "role": "non déterminé",
+          "statut_role": "cité dans le résumé ou les mots-clés"
+        }
+      ],
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": [
+        "netarsudil + latanoprost"
+      ],
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": null,
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7143922580",
+      "doi": "10.1007/s12325-026-03566-8",
+      "pmid": "41915113",
+      "pmcid": null,
+      "titre": "Phase III Prospective Randomised Study of Netarsudil and Concomitant Latanoprost Efficacy and Safety for Primary Open-Angle Glaucoma or Ocular Hypertension in Japan: J-ROCKET-2",
+      "lien": "https://openalex.org/W7143922580",
+      "date_publication": "2026-03-31",
+      "type": "article",
+      "revue": "Advances in Therapy",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "pubmed"
+      ],
+      "financeurs": null,
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "The University of Tokyo",
+          "pays": "JP",
+          "type": "education",
+          "ror": "https://ror.org/057zh3y96"
+        }
+      ],
+      "acces_ouvert": true,
+      "statut_acces": "hybrid",
+      "url_texte": "https://link.springer.com/content/pdf/10.1007/s12325-026-03566-8.pdf",
+      "url_pdf": "https://link.springer.com/content/pdf/10.1007/s12325-026-03566-8.pdf",
+      "licence": "cc-by-nc",
+      "texte_integral_indexe": true,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Glaucoma and retinal disorders",
+      "resume_present": true,
+      "mesh": [
+        "Latanoprost",
+        "Aged",
+        "Benzoates",
+        "Double-Blind Method",
+        "Drug Therapy, Combination",
+        "Female",
+        "Glaucoma, Open-Angle",
+        "Humans",
+        "Intraocular Pressure",
+        "Japan",
+        "Male",
+        "Middle Aged",
+        "Ocular Hypertension",
+        "Prospective Studies",
+        "Prostaglandins F, Synthetic",
+        "beta-Alanine",
+        "Treatment Outcome"
+      ]
+    },
+    "openalex_verifie_le": "2026-09-25",
+    "financements": [
+      {
+        "nom": "Santen Pharmaceutical Co., Ltd., Osaka, Japan",
+        "statut": "CONFIRMÉ — déclaré par l'éditeur dans Crossref (absent d'OpenAlex)",
+        "references": null,
+        "notices": [
+          [
+            "notice justificative Crossref (déclaration de l'éditeur)",
+            "https://api.crossref.org/works/10.1007/s12325-026-03566-8"
+          ]
+        ],
+        "note": null
+      }
+    ]
+  }
+}

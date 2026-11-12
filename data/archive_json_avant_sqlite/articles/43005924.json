@@ -1,0 +1,98 @@
+{
+  "pmid": "43005924",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "43005924",
+    "titre": "Discharge Readiness After Ophthalmic Day Surgery: A Patient-Centered Perspective on Nursing Assessment, Self-Management, and Adherence.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/43005924/",
+    "doi": "10.2147/PPA.S657624",
+    "pmcid": "PMC13746922",
+    "revue": "Patient preference and adherence",
+    "date_entree_pubmed": "2026-11-10",
+    "date_publication": "2026",
+    "types_publication": [
+      "Journal Article"
+    ],
+    "resume_present": true,
+    "resume": "Medical eligibility for discharge after ophthalmic day surgery does not establish whether patients can manage recovery at home. This conceptual Perspective uses Transition Theory to examine how nursing assessment can connect discharge preparation with practical self-management tasks. The pathway adapts established discharge-preparation and transitional-care principles by specifying ophthalmic tasks to verify, incorporating patient preferences into feasible support arrangements, and linking unresolved deficits to reassessment and follow-up. Relevant tasks include eye-drop administration, understanding changes to treatment, recognising warning symptoms, and carrying out prescribed positioning or restrictions. Direct readiness evidence remains predominantly cataract-based, with additional observational evidence from vitreoretinal day surgery; glaucoma and corneal studies provide adjacent evidence on postoperative care and adherence. Patient-reported readiness, observed skill, medication use, positioning adherence, follow-up attendance, and patient experience should be assessed as distinct outcomes. The framework specifies how these established principles can inform procedure-specific nursing assessment and transition support.",
+    "mots_cles_auteurs": [
+      "ambulatory surgery",
+      "cataract surgery",
+      "discharge planning",
+      "health literacy",
+      "medication adherence",
+      "patient preference"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 7,
+    "affiliations_auteurs": [
+      "Center for Rehabilitation Medicine, Department of Ophthalmology, Zhejiang Provincial People's Hospital (Affiliated People's Hospital, Hangzhou Medical College), Hangzhou, Zhejiang, People's Republic of China."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7225298076",
+      "doi": "10.2147/ppa.s657624",
+      "pmid": "43005924",
+      "pmcid": "13746922",
+      "titre": "Discharge Readiness After Ophthalmic Day Surgery: A Patient-Centered Perspective on Nursing Assessment, Self-Management, and Adherence",
+      "lien": "https://openalex.org/W7225298076",
+      "date_publication": "2026-11-01",
+      "type": "article",
+      "revue": "Patient Preference and Adherence",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "doaj",
+        "pubmed"
+      ],
+      "financeurs": null,
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "Zhejiang Provincial People's Hospital",
+          "pays": "CN",
+          "type": "healthcare",
+          "ror": "https://ror.org/03k14e164"
+        },
+        {
+          "nom": "Hangzhou Medical College",
+          "pays": "CN",
+          "type": "education",
+          "ror": "https://ror.org/05gpas306"
+        }
+      ],
+      "acces_ouvert": true,
+      "statut_acces": "gold",
+      "url_texte": "https://www.dovepress.com/article/download/121909",
+      "url_pdf": "https://www.dovepress.com/article/download/121909",
+      "licence": "cc-by-nc",
+      "texte_integral_indexe": true,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Enhanced Recovery After Surgery",
+      "resume_present": true,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": []
+  }
+}

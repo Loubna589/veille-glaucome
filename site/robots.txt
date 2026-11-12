@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://loubna589.github.io/veille-glaucome/sitemap.xml

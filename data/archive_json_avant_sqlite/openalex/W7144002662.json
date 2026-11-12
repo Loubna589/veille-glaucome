@@ -1,0 +1,104 @@
+{
+  "openalex_id": "W7144002662",
+  "premiere_detection": "2026-09-25",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "openalex_id": "W7144002662",
+    "doi": "10.1016/j.asoc.2026.115158",
+    "pmid": null,
+    "pmcid": null,
+    "titre": "GlaucoFormer: A transformer-based model for glaucoma detection and segmentation",
+    "lien": "https://openalex.org/W7144002662",
+    "date_publication": "2026-03-31",
+    "type": "article",
+    "revue": "Applied Soft Computing",
+    "type_source": "journal",
+    "langue": "en",
+    "indexe_dans": [
+      "crossref"
+    ],
+    "financeurs": [
+      {
+        "nom": "National Research Foundation of Korea",
+        "ror": "https://ror.org/013aysd81"
+      },
+      {
+        "nom": "Ministry of SMEs and Startups",
+        "ror": null
+      },
+      {
+        "nom": "Ministry of Science and ICT, South Korea",
+        "ror": "https://ror.org/01wpjm123"
+      },
+      {
+        "nom": "Institute for Information and Communications Technology Promotion",
+        "ror": "https://ror.org/01g0hqq23"
+      },
+      {
+        "nom": "Korea Technology and Information Promotion Agency for SMEs",
+        "ror": "https://ror.org/02kxx1z36"
+      }
+    ],
+    "subventions": [
+      {
+        "financeur": "Korea Technology and Information Promotion Agency for SMEs",
+        "reference": "RS-2023-00273281"
+      },
+      {
+        "financeur": "Ministry of Science and ICT, South Korea",
+        "reference": "IITP-2025-RS-2023-00254177"
+      },
+      {
+        "financeur": "Ministry of Science and ICT, South Korea",
+        "reference": "RS-2024-00336962"
+      }
+    ],
+    "institutions": [
+      {
+        "nom": "Dong-Eui University",
+        "pays": "KR",
+        "type": "education",
+        "ror": "https://ror.org/059g69b28"
+      },
+      {
+        "nom": "Phenikaa University",
+        "pays": "VN",
+        "type": "education",
+        "ror": "https://ror.org/03anxx281"
+      },
+      {
+        "nom": "Pusan National University",
+        "pays": "KR",
+        "type": "education",
+        "ror": "https://ror.org/01an57a31"
+      }
+    ],
+    "acces_ouvert": true,
+    "statut_acces": "hybrid",
+    "url_texte": "https://doi.org/10.1016/j.asoc.2026.115158",
+    "url_pdf": null,
+    "licence": "cc-by-nc-nd",
+    "texte_integral_indexe": false,
+    "retracte": false,
+    "citations": 1,
+    "sujet_principal": "Retinal Imaging and Analysis",
+    "resume_present": true,
+    "resume": "Glaucoma is a major cause of irreversible blindness worldwide, primarily due to optic nerve damage caused by elevated intraocular pressure. Early detection is vital to prevent vision loss, emphasizing the need for accurate and efficient diagnostic methods. The proposed model enhances optic disc (OD) and optic cup (OC) segmentation, as well as glaucoma classification, by integrating transformer-based attention and the convolutional block attention module (CBAM) into a UNet architecture. To improve segmentation precision, we employ multiscale losses at different decoding stages, allowing the network to progressively refine predictions across multiple resolution levels. By accurately segmenting OD and OC, we extract critical features for glaucoma risk assessment, combining these metrics with encoder features to enhance classification performance. The experimental results show that our approach significantly surpasses the existing methods in terms of both segmentation accuracy and glaucoma prediction, offering a reliable tool for early glaucoma diagnosis. For glaucoma classification, our method outperformed traditional approaches on the RIM-ONE, REFUGE, and DRISHTI-GS1 datasets, with accuracies of 95.8%, 96%, and 92%, respectively, and was comparable to that of the CUHKMED team, the leading team in the REFUGE challenge, achieving an accuracy of 95.59% on the REFUGE dataset. This advancement in automated glaucoma detection through deep learning can enable timely intervention, ultimately helping preserve the vision of patients.",
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "present_dans_pubmed": false
+  }
+}

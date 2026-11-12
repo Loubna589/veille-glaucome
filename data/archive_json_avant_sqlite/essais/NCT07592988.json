@@ -1,0 +1,119 @@
+{
+  "nct": "NCT07592988",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "nct": "NCT07592988",
+    "titre": "Tear Interleukin Biomarkers After Glaucoma Treatment",
+    "titre_officiel": "Tear Fluid Interleukin Biomarkers and Intraocular Pressure Response After Micropulse Transscleral Cyclophotocoagulation, Conventional Cyclophotocoagulation, and Antiglaucoma Surgery in Patients With Glaucoma",
+    "lien": "https://clinicaltrials.gov/study/NCT07592988",
+    "date_premiere_publication": "2026-05-18",
+    "date_derniere_mise_a_jour": "2026-10-16",
+    "type_etude": "INTERVENTIONAL",
+    "phases_declarees": [
+      "NA"
+    ],
+    "statut": "COMPLETED",
+    "raison_arret": null,
+    "date_debut": "2026-05-18",
+    "date_fin_principale": "2026-08-18",
+    "promoteur": "Kazakh Eye Research Institute",
+    "type_promoteur": "NETWORK",
+    "collaborateurs": null,
+    "conditions": [
+      "Glaucoma"
+    ],
+    "interventions": [
+      {
+        "type": "PROCEDURE",
+        "nom": "MicroPulse Transscleral Cyclophotocoagulation"
+      },
+      {
+        "type": "PROCEDURE",
+        "nom": "Conventional Transscleral Cyclophotocoagulation"
+      },
+      {
+        "type": "PROCEDURE",
+        "nom": "Antiglaucoma Surgery"
+      }
+    ],
+    "participants_nombre": 24,
+    "participants_type": "ACTUAL",
+    "criteres_principaux": [
+      {
+        "critere": "Association Between Changes in Tear Fluid Interleukin Levels and Intraocular Pressure Reduction",
+        "delai": "Baseline, 5-7 days after treatment, and 1 month after treatment"
+      }
+    ],
+    "resultats_deposes": false,
+    "publications_declarees": null,
+    "resume_source": "This prospective study aims to evaluate inflammatory biomarkers in tear fluid in patients with glaucoma undergoing micropulse transscleral cyclophotocoagulation (MP-CPC), continuous-wave cyclophotocoagulation (CPC), and antiglaucoma surgeries. The study will assess the concentrations of pro- and anti-inflammatory interleukins in tear samples collected before treatment, 5-7 days after the procedure, and 1 month postoperatively.\n\nIntraocular pressure (IOP) will be measured at the same time points. The correlation between changes in interleukin levels and IOP reduction will be analyzed. Additionally, the study aims to compare inflammatory response patterns among the MP-CPC, CPC, and surgical treatment groups and to identify interleukin profiles associated with a clinically significant hypotensive effect.",
+    "citations_declarees": null,
+    "plan": {
+      "repartition": "RANDOMIZED",
+      "modele": "PARALLEL",
+      "but_principal": "TREATMENT",
+      "insu": "NONE",
+      "insu_pour": null,
+      "insu_description": null,
+      "modele_observationnel": null
+    },
+    "bras": [
+      {
+        "libelle": "MicroPulse Transscleral Cyclophotocoagulation Group",
+        "type": "EXPERIMENTAL",
+        "description": "Participants in this group will undergo MicroPulse transscleral cyclophotocoagulation for the treatment of glaucoma. Tear samples and intraocular pressure measurements will be collected before treatment, 5-7 days after the procedure, and 1 month postoperatively to evaluate inflammatory biomarker changes and treatment response.",
+        "interventions": [
+          "Procedure: MicroPulse Transscleral Cyclophotocoagulation"
+        ]
+      },
+      {
+        "libelle": "Conventional Transscleral Cyclophotocoagulation Group",
+        "type": "ACTIVE_COMPARATOR",
+        "description": "Participants in this group will undergo conventional continuous-wave transscleral cyclophotocoagulation for the treatment of glaucoma. Tear samples and intraocular pressure measurements will be collected before treatment, 5-7 days after the procedure, and 1 month postoperatively to evaluate inflammatory biomarker changes and treatment response.",
+        "interventions": [
+          "Procedure: Conventional Transscleral Cyclophotocoagulation"
+        ]
+      },
+      {
+        "libelle": "Antiglaucoma Surgery Group",
+        "type": "ACTIVE_COMPARATOR",
+        "description": "Participants in this group will undergo incisional antiglaucoma surgery for the treatment of glaucoma. Tear samples and intraocular pressure measurements will be collected before surgery, 5-7 days after surgery, and 1 month postoperatively to evaluate inflammatory biomarker changes and treatment response.",
+        "interventions": [
+          "Procedure: Antiglaucoma Surgery"
+        ]
+      }
+    ],
+    "eligibilite": {
+      "criteres": "Inclusion Criteria:\n\n* Decision to treat by MP-CPC Laser\n* Patients diagnosed with Glaucoma\n* Patients aged 18 years old and above\n* Glaucoma that is inadequately controlled on medical therapy\n\nExclusion Criteria:\n\n* Patients age less than 18 years\n* Patients unable or unwilling to provide informed consent to participate in the study\n* Patients potentially unavailable for follow up visits\n* Patients with significant scleral thinning\n* Patients with ocular infection, inflammation or intraocular surgery in the study eye 2 months prior to enrollment in the study\n* Albino patients that have no iris pigmentation",
+      "age_min": "18 Years",
+      "age_max": null,
+      "sexe": "ALL",
+      "volontaires_sains": false
+    },
+    "criteres_secondaires": [
+      {
+        "critere": "Change in Tear Fluid Interleukin Concentrations After Glaucoma Treatment",
+        "delai": "Baseline, 5-7 days after treatment, and 1 month after treatment"
+      },
+      {
+        "critere": "Comparison of Inflammatory Response Patterns Between Treatment Groups",
+        "delai": "Baseline, 5-7 days after treatment, and 1 month after treatment"
+      },
+      {
+        "critere": "Rate of Postoperative Complications",
+        "delai": "Up to 1 month after treatment"
+      }
+    ],
+    "responsables": [
+      {
+        "nom": "Assiya Shaikenova, MD",
+        "affiliation": "Kazakh Eye Research Institute",
+        "role": "PRINCIPAL_INVESTIGATOR"
+      }
+    ],
+    "date_depot_resultats": null,
+    "resultats": null
+  },
+  "modifications": []
+}

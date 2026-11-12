@@ -1,0 +1,84 @@
+{
+  "pmid": "42911611",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42911611",
+    "titre": "Recurrent Glaucoma Progression-Cupping Begets Cupping.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42911611/",
+    "doi": "10.1001/jamaophthalmol.2026.4803",
+    "pmcid": null,
+    "revue": "JAMA ophthalmology",
+    "date_entree_pubmed": "2026-10-23",
+    "date_publication": "2026-Oct-22",
+    "types_publication": [
+      "Journal Article"
+    ],
+    "resume_present": false,
+    "resume": null,
+    "mots_cles_auteurs": null,
+    "langue": "eng",
+    "nombre_auteurs": 1,
+    "affiliations_auteurs": [
+      "Department of Ophthalmology and Visual Sciences, West Virginia University, Morgantown."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7223201663",
+      "doi": "10.1001/jamaophthalmol.2026.4803",
+      "pmid": "42911611",
+      "pmcid": null,
+      "titre": "Recurrent Glaucoma Progression—Cupping Begets Cupping",
+      "lien": "https://openalex.org/W7223201663",
+      "date_publication": "2026-10-22",
+      "type": "article",
+      "revue": "JAMA Ophthalmology",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "pubmed"
+      ],
+      "financeurs": null,
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "West Virginia University",
+          "pays": "US",
+          "type": "education",
+          "ror": "https://ror.org/011vxgd24"
+        }
+      ],
+      "acces_ouvert": false,
+      "statut_acces": "closed",
+      "url_texte": null,
+      "url_pdf": null,
+      "licence": null,
+      "texte_integral_indexe": false,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Glaucoma and retinal disorders",
+      "resume_present": false,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": []
+  }
+}

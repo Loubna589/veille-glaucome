@@ -1,0 +1,242 @@
+{
+  "pmid": "42899177",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42899177",
+    "titre": "Long-Term Inhaled Corticosteroid Use and the Risk of Open-Angle Glaucoma in Patients with Chronic Obstructive Pulmonary Disease.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42899177/",
+    "doi": "10.2147/COPD.S634969",
+    "pmcid": "PMC13679524",
+    "revue": "International journal of chronic obstructive pulmonary disease",
+    "date_entree_pubmed": "2026-10-20",
+    "date_publication": "2026",
+    "types_publication": [
+      "Journal Article"
+    ],
+    "resume_present": true,
+    "resume": "PURPOSE: The question of whether inhaled corticosteroids (ICS) increase the risk of open-angle glaucoma (OAG) has produced conflicting data on short-term effects, but no study has evaluated their long-term effects. We assessed whether long-term cumulative ICS use is associated with an increased risk of incident OAG among patients with chronic obstructive pulmonary disease (COPD).\nPATIENTS AND METHODS: The United Kingdom Clinical Practice Research Datalink was used to form a cohort of patients with COPD, aged 40 years or more, who initiated an inhaled maintenance treatment, between September 2013 and March 2021. Subjects were followed until the occurrence of the first OAG diagnosis. Using a nested case-control design, each OAG case was matched with up to 100 concurrently glaucoma-free controls using risk-set sampling. Conditional logistic regression was used to compute the adjusted odds ratio of incident OAG associated with cumulative ICS exposure, as an estimate of the hazard ratio (HR) and its 95% confidence interval (CI).\nRESULTS: The COPD cohort included 84,564 subjects, with 732 developing OAG (incidence rate 2.64 per 1000 person-years) and 56% having used an ICS since cohort entry. The adjusted HR of OAG associated with any ICS use since cohort entry, compared with non-use, was 1.14 (95% CI, 0.94-1.38). The HR was 1.11 (95% CI, 0.83-1.48) for total cumulative dose ≥365 mg and 1.23 (95% CI, 0.90-1.68) for over 3 years since ICS initiation.\nCONCLUSION: This large cohort study did not observe a statistically significant increase in the risk of OAG with ICS use, including long-term use and higher cumulative doses, among patients with COPD.",
+    "mots_cles_auteurs": [
+      "CPRD",
+      "clinical practice research datalink",
+      "drug safety",
+      "glucocorticoids",
+      "open-angle glaucoma",
+      "pharmacoepidemiology",
+      "respiratory diseases"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 4,
+    "affiliations_auteurs": [
+      "Department of Epidemiology, Biostatistics and Occupational Health, McGill University, Montreal, QC, Canada.",
+      "Department of Ophthalmology, Université Bourgogne Europe-CHU Dijon, Dijon, France.",
+      "Clinical Investigation Center, Inserm CIC 1432, Clinical Epidemiology/Clinical Trials Unit, Université Bourgogne Europe-CHU Dijon, Dijon, France.",
+      "Center for Clinical Epidemiology, Lady Davis Institute-Jewish General Hospital University Health Centre, Montreal, QC, Canada.",
+      "Department of Medicine, McGill University, Montreal, QC, Canada."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": [
+      "Humans",
+      "Pulmonary Disease, Chronic Obstructive",
+      "Glaucoma, Open-Angle",
+      "Administration, Inhalation",
+      "Female",
+      "Adrenal Cortex Hormones",
+      "United Kingdom",
+      "Aged",
+      "Risk Factors",
+      "Middle Aged",
+      "Male",
+      "Time Factors",
+      "Case-Control Studies",
+      "Risk Assessment",
+      "Incidence",
+      "Adult",
+      "Databases, Factual"
+    ]
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": null,
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7221791941",
+      "doi": "10.2147/copd.s634969",
+      "pmid": "42899177",
+      "pmcid": "13679524",
+      "titre": "Long-Term Inhaled Corticosteroid Use and the Risk of Open-Angle Glaucoma in Patients with Chronic Obstructive Pulmonary Disease",
+      "lien": "https://openalex.org/W7221791941",
+      "date_publication": "2026-10-01",
+      "type": "article",
+      "revue": "International Journal of COPD",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "doaj",
+        "pubmed"
+      ],
+      "financeurs": [
+        {
+          "nom": "McGill University",
+          "ror": "https://ror.org/01pxwe438"
+        },
+        {
+          "nom": "Fondation de France",
+          "ror": "https://ror.org/02zkxjz73"
+        },
+        {
+          "nom": "Canadian Institutes of Health Research",
+          "ror": "https://ror.org/01gavpb45"
+        }
+      ],
+      "subventions": [
+        {
+          "financeur": "Canadian Institutes of Health Research",
+          "reference": "MOP- 49462"
+        },
+        {
+          "financeur": "Canadian Institutes of Health Research",
+          "reference": "CIHR MOP-49462"
+        },
+        {
+          "financeur": "Canadian Institutes of Health Research",
+          "reference": "94480"
+        }
+      ],
+      "institutions": [
+        {
+          "nom": "Inserm",
+          "pays": "FR",
+          "type": "government",
+          "ror": "https://ror.org/02vjkv261"
+        },
+        {
+          "nom": "Jewish General Hospital",
+          "pays": "CA",
+          "type": "healthcare",
+          "ror": "https://ror.org/056jjra10"
+        },
+        {
+          "nom": "CHU Dijon Bourgogne",
+          "pays": "FR",
+          "type": "healthcare",
+          "ror": "https://ror.org/0377z4z10"
+        },
+        {
+          "nom": "Université Bourgogne Europe",
+          "pays": "FR",
+          "type": "education",
+          "ror": "https://ror.org/00g700j37"
+        },
+        {
+          "nom": "Lady Davis Institute for Medical Research",
+          "pays": "CA",
+          "type": "education",
+          "ror": "https://ror.org/02c1np254"
+        },
+        {
+          "nom": "McGill University",
+          "pays": "CA",
+          "type": "education",
+          "ror": "https://ror.org/01pxwe438"
+        }
+      ],
+      "acces_ouvert": true,
+      "statut_acces": "gold",
+      "url_texte": "https://www.dovepress.com/article/download/120932",
+      "url_pdf": "https://www.dovepress.com/article/download/120932",
+      "licence": "cc-by-nc",
+      "texte_integral_indexe": true,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Glaucoma and retinal disorders",
+      "resume_present": true,
+      "mesh": [
+        "Administration, Inhalation",
+        "Adrenal Cortex Hormones",
+        "Adult",
+        "Aged",
+        "Female",
+        "Glaucoma, Open-Angle",
+        "United Kingdom",
+        "Humans",
+        "Male",
+        "Middle Aged",
+        "Risk Factors",
+        "Time Factors",
+        "Incidence",
+        "Case-Control Studies",
+        "Databases, Factual",
+        "Risk Assessment",
+        "Pulmonary Disease, Chronic Obstructive"
+      ]
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": [
+      {
+        "nom": "McGill University",
+        "statut": "À VÉRIFIER — trouvé par OpenAlex seulement (l'éditeur n'a déclaré aucun financeur dans Crossref) ; à contrôler dans le texte de l'article",
+        "references": null,
+        "notices": [
+          [
+            "notice OpenAlex",
+            "https://api.openalex.org/works/W7221791941"
+          ],
+          [
+            "notice Crossref consultée (ne confirme pas ce financeur)",
+            "https://api.crossref.org/works/10.2147/copd.s634969"
+          ]
+        ],
+        "note": "cet organisme figure AUSSI parmi les institutions des auteurs : c'est une affiliation, information distincte"
+      },
+      {
+        "nom": "Fondation de France",
+        "statut": "À VÉRIFIER — trouvé par OpenAlex seulement (l'éditeur n'a déclaré aucun financeur dans Crossref) ; à contrôler dans le texte de l'article",
+        "references": null,
+        "notices": [
+          [
+            "notice OpenAlex",
+            "https://api.openalex.org/works/W7221791941"
+          ],
+          [
+            "notice Crossref consultée (ne confirme pas ce financeur)",
+            "https://api.crossref.org/works/10.2147/copd.s634969"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "Canadian Institutes of Health Research",
+        "statut": "À VÉRIFIER — trouvé par OpenAlex seulement (l'éditeur n'a déclaré aucun financeur dans Crossref) ; à contrôler dans le texte de l'article",
+        "references": [
+          "MOP- 49462",
+          "CIHR MOP-49462",
+          "94480"
+        ],
+        "notices": [
+          [
+            "notice OpenAlex",
+            "https://api.openalex.org/works/W7221791941"
+          ],
+          [
+            "notice Crossref consultée (ne confirme pas ce financeur)",
+            "https://api.crossref.org/works/10.2147/copd.s634969"
+          ]
+        ],
+        "note": null
+      }
+    ]
+  }
+}

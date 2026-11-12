@@ -1,0 +1,117 @@
+{
+  "pmid": "42953591",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42953591",
+    "titre": "Occult Optic Disk Pit Maculopathy Masquerading as Exudative Age-Related Macular Degeneration in an Elderly Patient: A Case Report.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42953591/",
+    "doi": "10.1159/cop/acaag013",
+    "pmcid": "PMC13716402",
+    "revue": "Case reports in ophthalmology",
+    "date_entree_pubmed": "2026-10-29",
+    "date_publication": "2026",
+    "types_publication": [
+      "Case Reports",
+      "Journal Article"
+    ],
+    "resume_present": true,
+    "resume": "INTRODUCTION: Occult optic disk pit maculopathy (ODPM) is a rare cause of macular retinoschisis in which no pit is visible on funduscopic examination. Optic disk pits are congenital cavitary anomalies thought to arise from incomplete closure of the embryonic fissure during ocular development.\nCASE PRESENTATION: This report presents an 83-year-old woman with a history of exudative AMD of the left eye (OS) and low-tension glaucoma having received 11 intravitreal anti-VEGF injections over approximately 18 months without resolution of macular fluid. Fluorescein angiography demonstrated no macular leakage and no macular neovascularization. Spectral-domain optical coherence tomography revealed multilayered peripapillary retinoschisis with fluid extending from the optic disk to the fovea. Dedicated optic disk OCT confirmed a deep crater-like excavation consistent with an occult optic disk pit. Anti-VEGF therapy was discontinued, and the patient was observed. At approximately 10 months after the last injection, best-corrected visual acuity was stable at 20/25 OS with stable nasal macular cysts on OCT.\nCONCLUSION: Occult ODPM can closely mimic exudative AMD and may go unrecognized for many months in elderly patients with coexisting retinal disease, resulting in repeated unnecessary anti-VEGF treatment.",
+    "mots_cles_auteurs": [
+      "Age-related macular degeneration",
+      "Anti-VEGF misdiagnosis",
+      "Case report",
+      "No Optic Pit Retinoschisis",
+      "Occult optic pit",
+      "Optic disk pit maculopathy",
+      "Retinoschisis"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 3,
+    "affiliations_auteurs": [
+      "Perelman School of Medicine at the University of Pennsylvania, Philadelphia, PA, USA.",
+      "Department of Ophthalmology, Scheie Eye Institute, Perelman School of Medicine at the University of Pennsylvania, Philadelphia, PA, USA."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7222446144",
+      "doi": "10.1159/cop/acaag013",
+      "pmid": "42953591",
+      "pmcid": "13716402",
+      "titre": "Occult Optic Disk Pit Maculopathy Masquerading as Exudative Age-Related Macular Degeneration in an Elderly Patient: A Case Report",
+      "lien": "https://openalex.org/W7222446144",
+      "date_publication": "2026-10-16",
+      "type": "article",
+      "revue": "Case Reports in Ophthalmology",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "doaj",
+        "pubmed"
+      ],
+      "financeurs": [
+        {
+          "nom": "Research to Prevent Blindness",
+          "ror": "https://ror.org/04drjs621"
+        }
+      ],
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "University of Pennsylvania",
+          "pays": "US",
+          "type": "education",
+          "ror": "https://ror.org/00b30xv10"
+        }
+      ],
+      "acces_ouvert": true,
+      "statut_acces": "gold",
+      "url_texte": "https://karger.com/cop/article-pdf/doi/10.1159/cop/acaag013/4595565/000554906.pdf",
+      "url_pdf": "https://karger.com/cop/article-pdf/doi/10.1159/cop/acaag013/4595565/000554906.pdf",
+      "licence": "cc-by-nc",
+      "texte_integral_indexe": true,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Retinal Diseases and Treatments",
+      "resume_present": true,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": [
+      {
+        "nom": "Research to Prevent Blindness",
+        "statut": "À VÉRIFIER — trouvé par OpenAlex seulement (l'éditeur n'a déclaré aucun financeur dans Crossref) ; à contrôler dans le texte de l'article",
+        "references": null,
+        "notices": [
+          [
+            "notice OpenAlex",
+            "https://api.openalex.org/works/W7222446144"
+          ],
+          [
+            "notice Crossref consultée (ne confirme pas ce financeur)",
+            "https://api.crossref.org/works/10.1159/cop/acaag013"
+          ]
+        ],
+        "note": null
+      }
+    ]
+  }
+}

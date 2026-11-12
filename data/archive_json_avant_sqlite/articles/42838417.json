@@ -1,0 +1,128 @@
+{
+  "pmid": "42838417",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42838417",
+    "titre": "Rodent models of glaucoma: Pathogenic mechanisms, phenotyping strategies, and translational relevance.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42838417/",
+    "doi": "10.1016/j.exer.2026.111277",
+    "pmcid": null,
+    "revue": "Experimental eye research",
+    "date_entree_pubmed": "2026-10-06",
+    "date_publication": "2026-Dec",
+    "types_publication": [
+      "Journal Article",
+      "Review"
+    ],
+    "resume_present": true,
+    "resume": "Glaucoma comprises a heterogeneous group of optic neuropathies characterized by progressive degeneration of retinal ganglion cells (RGCs) and their axons. Rodent models have been widely used to investigate disease mechanisms, identify neuroprotective targets and evaluate emerging therapeutic strategies because they are cost-effective, genetically tractable and experimentally controllable. However, mice and rats differ substantially from humans in anterior-segment anatomy, trabecular meshwork architecture, Schlemm's canal development, lamina cribrosa structure, RGC composition and optic nerve head vascular supply. These interspecies differences influence model construction, phenotypic interpretation and the translational value of preclinical findings. This narrative review summarizes key anatomical differences between rodent and human eyes and discusses major categories of rodent glaucoma models, including intraocular pressure (IOP)-dependent models, IOP-independent models, immune-mediated and multifactorial models, and spontaneous or genetically engineered models. We emphasize that no single rodent model can fully reproduce the chronic, multifactorial, and regionally selective nature of human glaucoma. Instead, model selection should be driven by the specific scientific question, disease subtype, observation window, and translational goal. IOP-dependent models are particularly useful for investigating pressure-induced RGC degeneration and optic nerve injury, while selected models also reproduce aspects of aqueous outflow dysfunction, linking anterior-segment abnormalities with posterior-segment neurodegeneration. IOP-independent and genetic models, by contrast, are ideal for studying normal-tension glaucoma, neurodegeneration, neuroinflammation, metabolic stress, and gene-specific mechanisms. Future efforts should prioritize standardized phenotypic evaluation, multimodal imaging and multi-omics integration to improve the reliability and translational relevance of findings from rigorously validated rodent models.",
+    "mots_cles_auteurs": [
+      "Animal model",
+      "Glaucoma",
+      "Model selection",
+      "Ocular hypertension",
+      "Retinal ganglion cell",
+      "Rodent",
+      "Translational limitation"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 2,
+    "affiliations_auteurs": [
+      "School of Medicine, University of Electronic Science and Technology of China, Chengdu, China; Genetic Diseases Key Laboratory of Sichuan Province, Department of Medical Genetics, Department of Laboratory Medicine, Sichuan Academy of Medical Sciences & Sichuan Provincial People's Hospital, Chengdu, Sichuan, China.",
+      "School of Medicine, University of Electronic Science and Technology of China, Chengdu, China; Genetic Diseases Key Laboratory of Sichuan Province, Department of Medical Genetics, Department of Laboratory Medicine, Sichuan Academy of Medical Sciences & Sichuan Provincial People's Hospital, Chengdu, Sichuan, China; Research Unit for Blindness Prevention, Chinese Academy of Medical Sciences (2019RU026), Sichuan Academy of Medical Sciences and Sichuan Provincial People's Hospital, Chengdu, China. Electronic address: yangjiyun@med.uestc.edu.cn."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": [
+      "Animals",
+      "Disease Models, Animal",
+      "Glaucoma",
+      "Intraocular Pressure",
+      "Retinal Ganglion Cells",
+      "Phenotype",
+      "Humans",
+      "Translational Research, Biomedical",
+      "Rats",
+      "Mice"
+    ]
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Préclinique",
+      "stade_source": "indexation MeSH de PubMed (modèle animal / animaux sans humains)",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7220670225",
+      "doi": "10.1016/j.exer.2026.111277",
+      "pmid": "42838417",
+      "pmcid": null,
+      "titre": "Rodent models of glaucoma: Pathogenic mechanisms, phenotyping strategies, and translational relevance",
+      "lien": "https://openalex.org/W7220670225",
+      "date_publication": "2026-10-06",
+      "type": "review",
+      "revue": "Experimental Eye Research",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "pubmed"
+      ],
+      "financeurs": null,
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "University of Electronic Science and Technology of China",
+          "pays": "CN",
+          "type": "education",
+          "ror": "https://ror.org/04qr3zq92"
+        },
+        {
+          "nom": "Sichuan Academy of Medical Sciences & Sichuan Provincial People's Hospital",
+          "pays": "CN",
+          "type": "healthcare",
+          "ror": "https://ror.org/01qh26a66"
+        },
+        {
+          "nom": "Chinese Academy of Medical Sciences & Peking Union Medical College",
+          "pays": "CN",
+          "type": "education",
+          "ror": "https://ror.org/02drdmm93"
+        }
+      ],
+      "acces_ouvert": false,
+      "statut_acces": "closed",
+      "url_texte": null,
+      "url_pdf": null,
+      "licence": null,
+      "texte_integral_indexe": false,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Glaucoma and retinal disorders",
+      "resume_present": false,
+      "mesh": [
+        "Animals",
+        "Disease Models, Animal",
+        "Glaucoma",
+        "Humans",
+        "Intraocular Pressure",
+        "Phenotype",
+        "Retinal Ganglion Cells",
+        "Mice",
+        "Rats",
+        "Translational Research, Biomedical"
+      ]
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": []
+  }
+}

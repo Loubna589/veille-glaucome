@@ -1,0 +1,148 @@
+{
+  "openalex_id": "W7165563468",
+  "premiere_detection": "2026-09-25",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "openalex_id": "W7165563468",
+    "doi": "10.1007/s43657-025-00252-7",
+    "pmid": null,
+    "pmcid": null,
+    "titre": "Glaucoma Drug Target Prioritisation Informs Disease-specific Therapeutic Potentials of Targeting SMAD4",
+    "lien": "https://openalex.org/W7165563468",
+    "date_publication": "2026-06-22",
+    "type": "article",
+    "revue": "Phenomics",
+    "type_source": "journal",
+    "langue": "en",
+    "indexe_dans": [
+      "crossref"
+    ],
+    "financeurs": [
+      {
+        "nom": "National Natural Science Foundation of China",
+        "ror": "https://ror.org/01h0zpd94"
+      }
+    ],
+    "subventions": [
+      {
+        "financeur": "National Natural Science Foundation of China",
+        "reference": "82300263"
+      },
+      {
+        "financeur": "National Natural Science Foundation of China",
+        "reference": "32470681"
+      },
+      {
+        "financeur": "National Natural Science Foundation of China",
+        "reference": "82272128"
+      },
+      {
+        "financeur": "National Natural Science Foundation of China",
+        "reference": "32270691"
+      },
+      {
+        "financeur": "National Natural Science Foundation of China",
+        "reference": "32170663"
+      },
+      {
+        "financeur": "National Natural Science Foundation of China",
+        "reference": "82403726"
+      }
+    ],
+    "institutions": [
+      {
+        "nom": "Shanghai Jiao Tong University",
+        "pays": "CN",
+        "type": "education",
+        "ror": "https://ror.org/0220qvk04"
+      },
+      {
+        "nom": "Ruijin Hospital",
+        "pays": "CN",
+        "type": "healthcare",
+        "ror": "https://ror.org/01hv94n30"
+      },
+      {
+        "nom": "Shanghai Institute of Hematology",
+        "pays": "CN",
+        "type": "facility",
+        "ror": "https://ror.org/03fz4ce66"
+      },
+      {
+        "nom": "Hammersmith Hospital",
+        "pays": "GB",
+        "type": "healthcare",
+        "ror": "https://ror.org/05jg8yp15"
+      },
+      {
+        "nom": "Imperial College London",
+        "pays": "GB",
+        "type": "education",
+        "ror": "https://ror.org/041kmwe10"
+      },
+      {
+        "nom": "Army Medical University",
+        "pays": "CN",
+        "type": "education",
+        "ror": "https://ror.org/05w21nn13"
+      },
+      {
+        "nom": "Xinqiao Hospital",
+        "pays": "CN",
+        "type": "healthcare",
+        "ror": "https://ror.org/02d217z27"
+      },
+      {
+        "nom": "Jinfeng Laboratory",
+        "pays": "CN",
+        "type": "facility",
+        "ror": "https://ror.org/04amdcz96"
+      },
+      {
+        "nom": "Center for Excellence in Molecular Cell Science",
+        "pays": "CN",
+        "type": "facility",
+        "ror": "https://ror.org/02rrdvm96"
+      },
+      {
+        "nom": "Central South University",
+        "pays": "CN",
+        "type": "education",
+        "ror": "https://ror.org/00f1zfq44"
+      },
+      {
+        "nom": "Xiangya Hospital Central South University",
+        "pays": "CN",
+        "type": "healthcare",
+        "ror": "https://ror.org/05c1yfj14"
+      }
+    ],
+    "acces_ouvert": false,
+    "statut_acces": "closed",
+    "url_texte": null,
+    "url_pdf": null,
+    "licence": null,
+    "texte_integral_indexe": false,
+    "retracte": false,
+    "citations": 2,
+    "sujet_principal": "Glaucoma and retinal disorders",
+    "resume_present": false,
+    "resume": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "present_dans_pubmed": false
+  }
+}

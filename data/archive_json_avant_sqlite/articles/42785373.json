@@ -1,0 +1,47 @@
+{
+  "pmid": "42785373",
+  "premiere_detection": "2026-09-25",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42785373",
+    "titre": "Surgical outcomes of the SIBS microshunt in pediatric glaucoma: a retrospective study.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42785373/",
+    "doi": "10.1016/j.jcjo.2026.09.003",
+    "pmcid": null,
+    "revue": "Canadian journal of ophthalmology. Journal canadien d'ophtalmologie",
+    "date_entree_pubmed": "2026-09-24",
+    "date_publication": "2026-Sep-24",
+    "types_publication": [
+      "Journal Article"
+    ],
+    "resume_present": true,
+    "resume": "OBJECTIVE: To assess the surgical outcomes of the ab externo SIBS microshunt (PreserFlo MicroShunt; Glaukos Corporation, Aliso Viejo, CA) in the treatment of pediatric glaucoma.\nMETHODS: This single-centre retrospective case series was conducted at a tertiary pediatric care centre in Montreal, Ontario. All pediatric patients (<18 years of age) with primary or secondary glaucoma, who underwent SIBS microshunt implantation between January 2022 and April 2025, were included. The primary endpoint was surgical success (intraocular pressure 6-21 mm Hg), defined as complete without glaucoma medications and qualified with medications but without further surgery. Secondary outcomes included postoperative IOP, number of glaucoma medications, and postoperative complications.\nRESULTS: Eighteen eyes from 14 patients were included. Mean age was 13.7 ± 4.2 years. Mean follow-up was 15.3 ± 9.2 months. Across all eyes, mean intraocular pressure decreased from 28.3±4.5 mm Hg preoperatively to 19.1 ± 7.7 mm Hg at 12 months (p = .02). The mean number of glaucoma medications decreased from 5.1 ± 0.6 preoperatively to 1.6 ± 2.2 at 12 months (p = .002). Complete surgical success rates were 61% at 6 months and 49% at 12 months, while qualified success rates were 67% and 55%, respectively. Postoperative complications occurred in 2 eyes: malignant glaucoma (n = 1) and choroidal and serous retinal detachment (n = 1).\nCONCLUSIONS: In pediatric glaucoma, the ab externo SIBS microshunt demonstrated reasonable 1-year surgical success rates with few complications, supporting its potential as a therapeutic alternative in selected cases within this population. Long-term, prospective studies are warranted to further assess its durability and safety in this population.",
+    "mots_cles_auteurs": null,
+    "langue": "eng",
+    "nombre_auteurs": 5,
+    "affiliations_auteurs": [
+      "Division of Ophthalmology, Department of Surgery, CHU Sainte-Justine, Montreal, QC; Department of Ophthalmology, Centre Hospitalier de l'Université de Montréal, Montreal, QC; Department of Ophthalmology, Faculty of Medicine, Université de Montréal, Montreal, QC.",
+      "Department of Ophthalmology, Centre Hospitalier Universitaire de Québec-Université Laval, Quebec, QC.",
+      "Department of Ophthalmology, Centre Hospitalier de l'Université de Montréal, Montreal, QC; Department of Ophthalmology, Faculty of Medicine, Université de Montréal, Montreal, QC.",
+      "Division of Ophthalmology, Department of Surgery, CHU Sainte-Justine, Montreal, QC; Department of Ophthalmology, Centre Hospitalier de l'Université de Montréal, Montreal, QC. Electronic address: patrick.hamel@umontreal.ca."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    }
+  }
+}

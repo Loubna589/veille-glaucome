@@ -1,0 +1,113 @@
+{
+  "pmid": "42928055",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42928055",
+    "titre": "Effects of Lens Status and Prophylactic Transscleral Retinopexy on Vision Outcomes in Boston Terriers Following Phacoemulsification.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42928055/",
+    "doi": "10.1111/vop.70286",
+    "pmcid": null,
+    "revue": "Veterinary ophthalmology",
+    "date_entree_pubmed": "2026-10-25",
+    "date_publication": "2026-Nov",
+    "types_publication": [
+      "Journal Article"
+    ],
+    "resume_present": true,
+    "resume": "OBJECTIVES: To investigate the effects of surgical lens status (pseudophakia or intentional aphakia) and prophylactic transscleral retinopexy (PTR) on postoperative ocular hypertension (POH), glaucoma, retinal detachment, and vision loss following phacoemulsification in Boston Terriers.\nANIMALS STUDIED: Thirty-seven Boston Terriers.\nPROCEDURE: A retrospective single-cohort study was conducted on Boston Terriers that underwent phacoemulsification between January 1997 and June 2025, with pseudophakia or intentional aphakia. Time-to-event analyses were performed using parametric interval-censored survival models. Analyses were performed unadjusted and adjusted separately for 4 potential confounders identified using a directed acyclic graph (of which year of surgery was considered the most important).\nRESULTS: POH occurred in 22/63 (35%) eyes (46% of pseudophakic and 26% of aphakic eyes), glaucoma in 21/62 (34%) eyes (52% of pseudophakic and 20% of aphakic eyes), and vision loss in 16/61 (26%) eyes (36% of pseudophakic and 18% of aphakic eyes). Only 3 cases of retinal detachment precluded further analysis. Estimated hazard ratios (pseudophakia compared to aphakia, unadjusted and adjusted for year of surgery) were, respectively, 2.0 (95% CI = 0.8 to 5.5; p = 0.157) to 2.8 (95% CI = 1.0 to 7.9; p = 0.052) for POH and 2.9 (95% CI = 0.9 to 9.2; p = 0.075) to 2.7 (95% CI = 1.0 to 7.3; p = 0.050) for glaucoma. Estimated effects of lens status on vision loss and effects of PTR on all three outcomes were imprecise and inconclusive.\nCONCLUSIONS: In Boston Terrier eyes undergoing phacoemulsification, pseudophakia may result in higher risks of postoperative ocular hypertension and glaucoma compared to intentional aphakia.",
+    "mots_cles_auteurs": [
+      "aphakia",
+      "cataract",
+      "glaucoma",
+      "pseudophakia",
+      "retinal detachment",
+      "vision loss"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 7,
+    "affiliations_auteurs": [
+      "Animal Eye Care, Malvern East, Victoria, Australia.",
+      "Jemora Pty Ltd, East Geelong, Victoria, Australia."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": [
+      "Animals",
+      "Phacoemulsification",
+      "Dogs",
+      "Retrospective Studies",
+      "Dog Diseases",
+      "Male",
+      "Glaucoma",
+      "Female",
+      "Aphakia",
+      "Postoperative Complications",
+      "Pseudophakia",
+      "Ocular Hypertension",
+      "Retinal Detachment"
+    ]
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Vétérinaire (animaux soignés) — hors veille principale",
+      "stade_source": "revue vétérinaire (Veterinary ophthalmology)",
+      "hors_veille_principale": true
+    },
+    "openalex": {
+      "openalex_id": "W7223553724",
+      "doi": "10.1111/vop.70286",
+      "pmid": "42928055",
+      "pmcid": null,
+      "titre": "Effects of Lens Status and Prophylactic Transscleral Retinopexy on Vision Outcomes in Boston Terriers Following Phacoemulsification",
+      "lien": "https://openalex.org/W7223553724",
+      "date_publication": "2026-10-25",
+      "type": "article",
+      "revue": "Veterinary Ophthalmology",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "pubmed"
+      ],
+      "financeurs": null,
+      "subventions": null,
+      "institutions": null,
+      "acces_ouvert": true,
+      "statut_acces": "bronze",
+      "url_texte": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/vop.70286",
+      "url_pdf": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/vop.70286",
+      "licence": null,
+      "texte_integral_indexe": true,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Intraocular Surgery and Lenses",
+      "resume_present": true,
+      "mesh": [
+        "Animals",
+        "Aphakia",
+        "Dog Diseases",
+        "Dogs",
+        "Female",
+        "Glaucoma",
+        "Male",
+        "Ocular Hypertension",
+        "Postoperative Complications",
+        "Retinal Detachment",
+        "Retrospective Studies",
+        "Phacoemulsification",
+        "Pseudophakia"
+      ]
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": []
+  }
+}

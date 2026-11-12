@@ -1,0 +1,92 @@
+{
+  "pmid": "42994748",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42994748",
+    "titre": "Reply to Comment on Long-Term Visual Field Outcomes after failed trabeculectomy: Same Site Trabeculectomy versus Ahmed Glaucoma Valve Implantation.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42994748/",
+    "doi": "10.1016/j.ajo.2026.11.004",
+    "pmcid": null,
+    "revue": "American journal of ophthalmology",
+    "date_entree_pubmed": "2026-11-06",
+    "date_publication": "2026-Nov-06",
+    "types_publication": [
+      "Letter"
+    ],
+    "resume_present": false,
+    "resume": null,
+    "mots_cles_auteurs": null,
+    "langue": "eng",
+    "nombre_auteurs": 3,
+    "affiliations_auteurs": [
+      "Glaucoma Division, Jules Stein Eye Institute, University of California Los Angeles (UCLA), Los Angeles, California; Fundación Oftalmológica los Andes, Universidad de los Andes, Chile.",
+      "Glaucoma Division, Jules Stein Eye Institute, University of California Los Angeles (UCLA), Los Angeles, California.",
+      "Glaucoma Division, Jules Stein Eye Institute, University of California Los Angeles (UCLA), Los Angeles, California. Electronic address: caprioli@jsei.ucla.edu."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7225399612",
+      "doi": "10.1016/j.ajo.2026.11.004",
+      "pmid": "42994748",
+      "pmcid": null,
+      "titre": "Reply to Comment on Long-Term Visual Field Outcomes after failed trabeculectomy: Same Site Trabeculectomy versus Ahmed Glaucoma Valve Implantation",
+      "lien": "https://openalex.org/W7225399612",
+      "date_publication": "2026-11-01",
+      "type": "letter",
+      "revue": "American Journal of Ophthalmology",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "pubmed"
+      ],
+      "financeurs": null,
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "University of California, Los Angeles",
+          "pays": "US",
+          "type": "education",
+          "ror": "https://ror.org/046rm7j60"
+        },
+        {
+          "nom": "Universidad de Los Andes, Chile",
+          "pays": "CL",
+          "type": "education",
+          "ror": "https://ror.org/03v0qd864"
+        }
+      ],
+      "acces_ouvert": false,
+      "statut_acces": "closed",
+      "url_texte": null,
+      "url_pdf": null,
+      "licence": null,
+      "texte_integral_indexe": false,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Glaucoma and retinal disorders",
+      "resume_present": false,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": []
+  }
+}

@@ -1,0 +1,166 @@
+{
+  "pmid": "42869144",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42869144",
+    "titre": "Learning How to Implement Glaucoma Coaching in Academic Medical Centers from a Successful Clinical Trial Using Implementation Science.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42869144/",
+    "doi": "10.1016/j.ogla.2026.09.012",
+    "pmcid": null,
+    "revue": "Ophthalmology. Glaucoma",
+    "date_entree_pubmed": "2026-10-13",
+    "date_publication": "2026-Oct-13",
+    "types_publication": [
+      "Journal Article"
+    ],
+    "resume_present": true,
+    "resume": "PURPOSE: To evaluate implementation of the Support, Educate, Empower (SEE) personalized glaucoma coaching program.\nDESIGN: Prospective, two-site randomized clinical trial with an implementation evaluation using the Reach, Effectiveness, Adoption, Implementation, and Maintenance framework and the Consolidated Framework for Implementation Research (CFIR).\nPARTICIPANTS: Adults aged ≥40 years with glaucoma, glaucoma suspect, or ocular hypertension and poor self-reported medication adherence who were prescribed ≥1 glaucoma medication (n = 236 enrolled; additional screened individuals declined [n = 1750] or were ineligible [n = 1701]). Stakeholders (n = 8) and participants (n = 32) contributed qualitative data.\nMETHODS: Participants were randomized to a motivational interviewing (MI)-based glaucoma coaching intervention (SEE program) or standard education. Reach was assessed by comparing demographics across recruitment stages. Effectiveness was evaluated by changes in medication adherence, coach autonomy support, and attrition. Implementation fidelity was measured using counselor MI competency scores (passing ≥5). Adoption and maintenance were evaluated through CFIR-guided interviews, postintervention adherence monitoring, and cost estimates.\nMAIN OUTCOME MEASURES: Glaucoma medication adherence, program reach, implementation fidelity (MI competency scores), and qualitative stakeholder-informed measures of adoption and maintenance, including postintervention adherence and program cost.\nRESULTS: Of the 2057 individuals screened, 356 (17.3%) were eligible, of which 236 (66.3%) enrolled; no demographic differences were observed between enrollees and nonenrollees; however, those who declined screening (n = 1750) were older and more likely to be White (both P < 0.0001). Adherence was better with personalized coaching than standard education (77.6% ± 19.7% versus 58.0% ± 25.2%; P < 0.001). Motivational interviewing fidelity was high (mean score 5.7). Facilitators of implementation included participant engagement and workflow compatibility, while barriers included limited awareness, resource constraints, and concerns about financial sustainability. Participants reported improved engagement and motivation. 84% of participants continued monitoring after counseling ended; adherence declined by 10.0% ± 21.1% at 1 month and an additional 3.6% ± 11.7% by 2 months and remained below intervention levels thereafter. A coach could manage approximately 431 patients per year, with an estimated net revenue of $19,272 annually after costs.\nCONCLUSIONS: The SEE MI-based program demonstrated high fidelity and improved adherence during the intervention. Postintervention adherence decline demonstrates the need for continued coaching. Strong uptake, stakeholder support, and projected reimbursement suggest feasibility and organizational sustainability in clinical practice.\nFINANCIAL DISCLOSURE(S): Proprietary or commercial disclosure may be found in the Footnotes and Disclosures at the end of this article.",
+    "mots_cles_auteurs": [
+      "Glaucoma",
+      "Health coaching",
+      "Implementation science",
+      "Medication adherence"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 10,
+    "affiliations_auteurs": [
+      "Department of Ophthalmology and Visual Sciences, Medical School, University of Michigan, Ann Arbor, Michigan.",
+      "Department of Ophthalmology, Henry Ford Health System, Detroit, Michigan.",
+      "School of Social Work, University of Michigan, Ann Arbor, Michigan; Institute for Social Research, University of Michigan, Ann Arbor, Michigan.",
+      "Department of Internal Medicine, Medical School, University of Michigan, Ann Arbor, Michigan; Department of Health Behavior and Health Education, School of Public Health, University of Michigan, Ann Arbor, Michigan.",
+      "Department of Ophthalmology and Visual Sciences, Medical School, University of Michigan, Ann Arbor, Michigan. Electronic address: panewman@med.umich.edu."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7221612865",
+      "doi": "10.1016/j.ogla.2026.09.012",
+      "pmid": "42869144",
+      "pmcid": null,
+      "titre": "Learning How to Implement Glaucoma Coaching in Academic Medical Centers from a Successful Clinical Trial Using Implementation Science",
+      "lien": "https://openalex.org/W7221612865",
+      "date_publication": "2026-10-01",
+      "type": "article",
+      "revue": "Ophthalmology Glaucoma",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "pubmed"
+      ],
+      "financeurs": [
+        {
+          "nom": "National Institutes of Health",
+          "ror": "https://ror.org/01cwqze88"
+        },
+        {
+          "nom": "National Eye Institute",
+          "ror": "https://ror.org/03wkg3b53"
+        }
+      ],
+      "subventions": [
+        {
+          "financeur": "National Eye Institute",
+          "reference": "R01EY031337"
+        }
+      ],
+      "institutions": [
+        {
+          "nom": "University of Michigan",
+          "pays": "US",
+          "type": "education",
+          "ror": "https://ror.org/00jmfr291"
+        },
+        {
+          "nom": "Henry Ford Health",
+          "pays": "US",
+          "type": "nonprofit",
+          "ror": "https://ror.org/02kwnkm68"
+        },
+        {
+          "nom": "Henry Ford Hospital",
+          "pays": "US",
+          "type": "healthcare",
+          "ror": "https://ror.org/0193sb042"
+        },
+        {
+          "nom": "Institute for Social Research",
+          "pays": "US",
+          "type": "other",
+          "ror": "https://ror.org/01df9hd73"
+        },
+        {
+          "nom": "Michigan Medicine",
+          "pays": "US",
+          "type": "healthcare",
+          "ror": "https://ror.org/01zcpa714"
+        }
+      ],
+      "acces_ouvert": true,
+      "statut_acces": "hybrid",
+      "url_texte": "https://doi.org/10.1016/j.ogla.2026.09.012",
+      "url_pdf": null,
+      "licence": "cc-by-nc-nd",
+      "texte_integral_indexe": false,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Health Policy Implementation Science",
+      "resume_present": true,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": [
+      {
+        "nom": "National Institutes of Health",
+        "statut": "CONFIRMÉ — déclaré par l'éditeur dans Crossref",
+        "references": null,
+        "notices": [
+          [
+            "notice justificative Crossref (déclaration de l'éditeur)",
+            "https://api.crossref.org/works/10.1016/j.ogla.2026.09.012"
+          ],
+          [
+            "notice OpenAlex",
+            "https://api.openalex.org/works/W7221612865"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "National Eye Institute",
+        "statut": "CONFIRMÉ — déclaré par l'éditeur dans Crossref",
+        "references": [
+          "R01EY031337"
+        ],
+        "notices": [
+          [
+            "notice justificative Crossref (déclaration de l'éditeur)",
+            "https://api.crossref.org/works/10.1016/j.ogla.2026.09.012"
+          ],
+          [
+            "notice OpenAlex",
+            "https://api.openalex.org/works/W7221612865"
+          ]
+        ],
+        "note": null
+      }
+    ]
+  }
+}

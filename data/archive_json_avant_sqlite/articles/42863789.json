@@ -1,0 +1,85 @@
+{
+  "pmid": "42863789",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42863789",
+    "titre": "Comparative Outcomes of Stent vs. Non-Stent Trabecular Minimally Invasive Glaucoma Surgeries: A 4-Year Retrospective Propensity-Matched Study.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42863789/",
+    "doi": "10.1016/j.ogla.2026.10.001",
+    "pmcid": null,
+    "revue": "Ophthalmology. Glaucoma",
+    "date_entree_pubmed": "2026-10-12",
+    "date_publication": "2026-Oct-12",
+    "types_publication": [
+      "Journal Article"
+    ],
+    "resume_present": true,
+    "resume": "PURPOSE: To compare 48-month outcomes of stent-based versus non-stent trabecular minimally invasive glaucoma surgery (MIGS) performed with phacoemulsification in open-angle glaucoma.\nDESIGN: Retrospective propensity score-matched cohort study.\nPARTICIPANTS: 250 eyes of 250 patients with open-angle glaucoma, matched 1:1 into Stent and Non-Stent groups.\nMETHODS: All eyes underwent combined phacoemulsification and trabecular MIGS and were followed through 48 months.\nMAIN OUTCOME MEASURES: The primary outcome was surgical success through 48 months at IOP thresholds of ≤15 mmHg and ≤18 mmHg, defined as achieving target IOP, on reduced (qualified) or without (complete) glaucoma medications and ≥20% IOP reduction from baseline without secondary incisional glaucoma surgery. Our secondary endpoints included complete success and qualified success, mean IOP and number of glaucoma medication classes, visual field mean deviation, secondary interventions, and adverse events at each postoperative visit through 48 months.\nRESULTS: Baseline characteristics were well balanced. By 48 months, there were no statistically significant differences between the Non-Stent and Stent groups in surgical success, visual field mean deviation, or medication burden. At the ≤15 mmHg threshold, surgical success was higher in the Stent group at month 12 (64.5% vs 45.3%; p=0.005) and month 24 (61.7% vs 40.7%; p=0.012), driven primarily by higher qualified success. At the ≤18 mmHg threshold, surgical success was similar between groups throughout follow-up, despite different success patterns: Non-Stent eyes achieved higher complete medication-free success at months 12 and 24, whereas Stent eyes achieved higher qualified success at the same visits. Non-Stent eyes had greater IOP reduction at month 24 and fewer medications at months 24 and 36, but these differences were no longer significant by month 48. Rescue SLT was required more often in Non-Stent eyes (6.2% vs 1.9%; p=0.025), while secondary incisional surgeries and adverse events were uncommon with no significant difference between groups.\nCONCLUSIONS: Stent and non-stent trabecular MIGS combined with phacoemulsification achieved comparable 48-month outcomes through different success patterns.",
+    "mots_cles_auteurs": null,
+    "langue": "eng",
+    "nombre_auteurs": 4,
+    "affiliations_auteurs": [
+      "Storm Eye Institute, Medical University of South Carolina, Charleston, SC, USA.",
+      "Storm Eye Institute, Medical University of South Carolina, Charleston, SC, USA. Electronic address: anjel@musc.edu."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7221505884",
+      "doi": "10.1016/j.ogla.2026.10.001",
+      "pmid": "42863789",
+      "pmcid": null,
+      "titre": "Comparative Outcomes of Stent vs. Non-Stent Trabecular Minimally Invasive Glaucoma Surgeries: A 4-Year Retrospective Propensity-Matched Study",
+      "lien": "https://openalex.org/W7221505884",
+      "date_publication": "2026-10-01",
+      "type": "article",
+      "revue": "Ophthalmology Glaucoma",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "pubmed"
+      ],
+      "financeurs": null,
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "Medical University of South Carolina",
+          "pays": "US",
+          "type": "education",
+          "ror": "https://ror.org/012jban78"
+        }
+      ],
+      "acces_ouvert": false,
+      "statut_acces": "closed",
+      "url_texte": null,
+      "url_pdf": null,
+      "licence": null,
+      "texte_integral_indexe": false,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Glaucoma and retinal disorders",
+      "resume_present": false,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": []
+  }
+}

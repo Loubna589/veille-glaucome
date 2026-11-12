@@ -1,0 +1,95 @@
+{
+  "pmid": "42997533",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42997533",
+    "titre": "Delayed recognition and therapeutic misdirection in cytomegalovirus corneal endotheliitis: A case series from Vietnam.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42997533/",
+    "doi": "10.1016/j.idcr.2026.e02818",
+    "pmcid": "PMC13742273",
+    "revue": "IDCases",
+    "date_entree_pubmed": "2026-11-07",
+    "date_publication": "2026",
+    "types_publication": [
+      "Case Reports",
+      "Journal Article"
+    ],
+    "resume_present": true,
+    "resume": "BACKGROUND: In immunocompetent adults, cytomegalovirus (CMV) corneal endotheliitis shares clinical features with herpesvirus-associated endotheliitis, anterior uveitis, and Posner-Schlossman syndrome, so the diagnosis is easily misdirected in our patients for periods ranging from one month to two years. Aqueous humor polymerase chain reaction (PCR), the test that establishes the etiology, is invasive and carries a non-trivial cost, so clinicians often hesitate to request it, further prolonging the time to a correct diagnosis.\nCASE SERIES: We report six immunocompetent adults who experienced delayed diagnosis and deferred targeted therapy for CMV corneal endotheliitis at Ho Chi Minh City Eye Hospital. The primary objective of this report is to delineate the distinct clinical trajectories culminating in misdiagnosis. Across these diagnostic pathways, patients sustained dual ocular harm: unabated progression of CMV endotheliitis alongside treatment-related ocular toxicity from prolonged, non-targeted empirical regimens. Aqueous humor PCR confirmed CMV infection in all patients, with one case demonstrating concomitant methicillin-resistant Staphylococcus aureus positivity. Due to substantial financial constraints, access to oral valganciclovir was markedly restricted, whereas topical 0.15% ganciclovir proved insufficient for advanced disease. These cases highlight critical economic dilemmas governing both etiologic investigation-specifically the selective use of qualitative versus quantitative PCR assays-and therapeutic accessibility in resource-limited settings.\nCONCLUSION: CMV should be regarded as a mandatory differential diagnosis in the relevant clinical presentations, whether as the primary cause or as a secondary reactivation during topical corticosteroid or glaucoma therapy. Aqueous humor PCR should be viewed as a cost-saving investigation obtained early, rather than a test reserved for after empirical treatment has failed.",
+    "mots_cles_auteurs": [
+      "Aqueous humor PCR",
+      "Corneal endotheliitis",
+      "Cytomegalovirus",
+      "Ganciclovir",
+      "Misdiagnosis",
+      "Resource-limited settings",
+      "Valganciclovir"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 3,
+    "affiliations_auteurs": [
+      "Pham Ngoc Thach University of Medicine, Ho Chi Minh City, Vietnam.",
+      "Cornea Department, Ho Chi Minh City Eye Hospital, Ho Chi Minh City, Vietnam."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7223277410",
+      "doi": "10.1016/j.idcr.2026.e02818",
+      "pmid": "42997533",
+      "pmcid": "13742273",
+      "titre": "Delayed recognition and therapeutic misdirection in cytomegalovirus corneal endotheliitis: A case series from Vietnam",
+      "lien": "https://openalex.org/W7223277410",
+      "date_publication": "2026-01-01",
+      "type": "article",
+      "revue": "IDCases",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "doaj",
+        "pubmed"
+      ],
+      "financeurs": null,
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "Pham Ngoc Thach University of Medicine",
+          "pays": "VN",
+          "type": "education",
+          "ror": "https://ror.org/003g49r03"
+        }
+      ],
+      "acces_ouvert": true,
+      "statut_acces": "gold",
+      "url_texte": "https://www.sciencedirect.com/science/article/pii/S2214250926003318/pdf",
+      "url_pdf": "https://www.sciencedirect.com/science/article/pii/S2214250926003318/pdf",
+      "licence": "cc-by-nc",
+      "texte_integral_indexe": true,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Ocular Infections and Treatments",
+      "resume_present": true,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": []
+  }
+}

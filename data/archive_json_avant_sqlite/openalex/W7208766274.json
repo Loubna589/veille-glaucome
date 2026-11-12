@@ -1,0 +1,70 @@
+{
+  "openalex_id": "W7208766274",
+  "premiere_detection": "2026-09-25",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "openalex_id": "W7208766274",
+    "doi": "10.64898/2026.08.31.26361784",
+    "pmid": null,
+    "pmcid": null,
+    "titre": "Assessment of Tear film Stability and Ocular Surface Disease Index among Glaucoma Subjects living with and without Diabetes Mellitus in Owerri, Imo State, Nigeria",
+    "lien": "https://openalex.org/W7208766274",
+    "date_publication": "2026-09-04",
+    "type": "preprint",
+    "revue": "medRxiv",
+    "type_source": "repository",
+    "langue": null,
+    "indexe_dans": [
+      "crossref"
+    ],
+    "financeurs": null,
+    "subventions": null,
+    "institutions": [
+      {
+        "nom": "Federal University of Technology Owerri",
+        "pays": "NG",
+        "type": "education",
+        "ror": "https://ror.org/05xzf9508"
+      },
+      {
+        "nom": "University of the Highlands and Islands",
+        "pays": "GB",
+        "type": "education",
+        "ror": "https://ror.org/02s08xt61"
+      },
+      {
+        "nom": "Madonna University",
+        "pays": "US",
+        "type": "education",
+        "ror": "https://ror.org/02rg9ze43"
+      }
+    ],
+    "acces_ouvert": true,
+    "statut_acces": "green",
+    "url_texte": "https://doi.org/10.64898/2026.08.31.26361784",
+    "url_pdf": null,
+    "licence": "cc-by-nc-nd",
+    "texte_integral_indexe": false,
+    "retracte": false,
+    "citations": 0,
+    "sujet_principal": "Ocular Surface and Contact Lens",
+    "resume_present": true,
+    "resume": "Abstract Objective The ocular surface is an integral unit of the visual system. Its smooth and wet surface which is maintained by the tear film, is the most important refractive interface of the visual system. This study compared ocular surface alterations among glaucoma subjects living with and without diabetes mellitus in a Owerri, Imo State, Nigeria Methods Subjects diagnosed of glaucoma living with and without diabetes mellitus were included in the study. Ocular surface assessment included the Ocular Surface Disease Index (OSDI) questionnaire, and tear break-up time (TBUT). Descriptive statistics, independent samples t-test and Chi-square test were used to examine the data at 0.05 level of significance. Results Considerable shorter tear break-up time (11.3 ± 9.0s) was seen among glaucoma subjects living with diabetes mellitus than those living without diabetes mellitus (16.0 ± 10.6s; p = 0.003), demonstrating the higher tear film instability. This was similarly reflected by the mean OSDI score, which was considerably higher in glaucoma patients living with diabetes mellitus (40.0 ± 23.4) compared with those without diabetes mellitus (28.1 ± 21.8; p = 0.001) showing a larger ocular surface symptom load. However, although the frequency of severe OSDI symptoms was greater in glaucoma subjects living with diabetes mellitus, the relationship between diabetes status and OSDI severity categories was not statistically significant (χ 2 = 7.584, p = 0.055). Conclusion Diabetes mellitus significantly impacts the health of the ocular surface in glaucoma subjects. The combination of glaucoma and diabetes may result in more rapid tear film instability, increased ocular pain, and decreased quality of life and adherence to long-term glaucoma medication.",
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "present_dans_pubmed": false
+  }
+}

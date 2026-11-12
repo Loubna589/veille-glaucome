@@ -1,0 +1,54 @@
+{
+  "pmid": "43011520",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "43011520",
+    "titre": "Glaucoma in Somalia: From Late Presentation to Prevention, Building a National Pathway for Glaucoma Care.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/43011520/",
+    "doi": "10.2147/OPTH.S660809",
+    "pmcid": "PMC13750438",
+    "revue": "Clinical ophthalmology (Auckland, N.Z.)",
+    "date_entree_pubmed": "2026-11-11",
+    "date_publication": "2026",
+    "types_publication": [
+      "Journal Article"
+    ],
+    "resume_present": true,
+    "resume": "Glaucoma is a major cause of irreversible vision loss for which timely detection and sustained treatment can reduce disease progression. In Somalia, a tertiary eye-clinic study reported primary open-angle glaucoma in 7% of 1550 attendees older than 40 years, while a community outreach report classified 9% of 628 screened participants as having glaucoma risk; 28 people were referred for glaucoma evaluation. These estimates arise from different selected populations, use different case definitions, and are not comparable estimates of national prevalence. A recent tertiary-center study also identified glaucoma among causes of adult blindness. This commentary proposes a six-stage, integrated glaucoma care pathway for Somalia: awareness and risk recognition, primary-level detection, referral and referral refinement, specialist confirmation, individualized treatment, and continued follow-up. Its specific proposed adaptations are closed-loop referral tracking, competency-based triage, an essential-care package, and a minimal clinical registry. Published Somali observations are distinguished from regional evidence and untested implementation proposals. Suggested referral triggers and pilot performance measures are provided, but their local feasibility, effectiveness, and cost-effectiveness require prospective evaluation. The pathway is a framework for phased service development, not a validated national protocol.",
+    "mots_cles_auteurs": [
+      "Somalia",
+      "care pathway",
+      "glaucoma",
+      "integrated eye care",
+      "patient retention",
+      "referral",
+      "risk-based case detection",
+      "tele-ophthalmology"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 2,
+    "affiliations_auteurs": [
+      "Department of Pediatrics, Dr. Sumait Hospital, SIMAD University, Mogadishu, Somalia.",
+      "Department of Ophthalmology, Dr. Sumait Hospital, SIMAD University, Mogadishu, Somalia."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    }
+  }
+}

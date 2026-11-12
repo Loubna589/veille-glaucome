@@ -1,0 +1,118 @@
+{
+  "pmid": "42895680",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42895680",
+    "titre": "Progress in the Synthesis of Evidence in Glaucoma: What We Know and the Gaps that Remain.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42895680/",
+    "doi": "10.1007/s44402-026-00218-w",
+    "pmcid": "PMC13694298",
+    "revue": "Ophthalmic & physiological optics : the journal of the British College of Ophthalmic Opticians (Optometrists)",
+    "date_entree_pubmed": "2026-10-19",
+    "date_publication": "2026-Nov",
+    "types_publication": [
+      "Journal Article",
+      "Review"
+    ],
+    "resume_present": true,
+    "resume": "PURPOSE: Glaucoma is one of the leading causes of blindness worldwide, necessitating evidence-informed interventions and strategies to improve the quality of life of affected individuals. In this review, we examined progress in evidence over the past decade and discussed its implications and the ways forward for delivery of glaucoma care globally, embedded within a rapid evidence and gap-mapping exercise of systematic reviews and/or meta-analyses published between 2015 and 2025.\nMETHODS: Using a predefined conceptual framework, ten domains were identified as relevant to evidence synthesis in glaucoma care. Within each domain, we assessed areas of strength and identified remaining evidence gaps. Findings were synthesised narratively and recommendations provided to inform future research priorities and advancement in glaucoma care.\nRECENT FINDINGS: Across the systematic reviews published over the past decade, the majority focused on risk factors (15.6%), genetic factors (12.4%) and the effectiveness of various treatment modalities (44.4%). In the absence of a coordinated global approach, substantial duplication of effort across review groups was observed. In addition, several critical gaps remain in the evidence base, particularly regarding the cost-effectiveness of the interventions, improving equitable access to care and the availability of context-specific evidence for low- and middle-income countries. Improved rigour in the evidence from primary studies should be a key priority for future research. A substantial gap exists in the glaucoma care evidence base that limits its utility for informing clinical guidelines and policy development. Systematic reviewers should have a comprehensive understanding of the existing evidence landscape in glaucoma care prior to conceptualising and designing review projects. Strengthening the methodological quality of both systematic reviews and the underlying primary studies is essential to support the development of robust clinical guidelines and effective global policies in glaucoma care.",
+    "mots_cles_auteurs": [
+      "Blindness",
+      "Evidence and Gap Mapping",
+      "Evidence synthesis",
+      "Glaucoma",
+      "Review",
+      "Systematic review"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 3,
+    "affiliations_auteurs": [
+      "Vision and Eye Research Institute, School of Medicine, Anglia Ruskin University, Cambridge, UK. mapa.piyasena@aru.ac.uk.",
+      "Centre for Public Health, School of Medicine, Dentistry and Biomedical Sciences, Queen's University Belfast, Belfast, UK.",
+      "Department of NEUROFARBA, University of Florence, Florence, Italy."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": [
+      "Humans",
+      "Glaucoma",
+      "Evidence Gaps",
+      "Evidence-Based Medicine",
+      "Quality of Life"
+    ]
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": null,
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7222939314",
+      "doi": "10.1007/s44402-026-00218-w",
+      "pmid": "42895680",
+      "pmcid": "13694298",
+      "titre": "Progress in the Synthesis of Evidence in Glaucoma: What We Know and the Gaps that Remain",
+      "lien": "https://openalex.org/W7222939314",
+      "date_publication": "2026-10-19",
+      "type": "review",
+      "revue": "Ophthalmic and Physiological Optics",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "pubmed"
+      ],
+      "financeurs": null,
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "Anglia Ruskin University",
+          "pays": "GB",
+          "type": "education",
+          "ror": "https://ror.org/0009t4v78"
+        },
+        {
+          "nom": "Queen's University Belfast",
+          "pays": "GB",
+          "type": "education",
+          "ror": "https://ror.org/00hswnk62"
+        },
+        {
+          "nom": "University of Florence",
+          "pays": "IT",
+          "type": "education",
+          "ror": "https://ror.org/04jr1s763"
+        }
+      ],
+      "acces_ouvert": true,
+      "statut_acces": "hybrid",
+      "url_texte": "https://link.springer.com/content/pdf/10.1007/s44402-026-00218-w.pdf",
+      "url_pdf": "https://link.springer.com/content/pdf/10.1007/s44402-026-00218-w.pdf",
+      "licence": "cc-by",
+      "texte_integral_indexe": true,
+      "retracte": false,
+      "citations": 1,
+      "sujet_principal": "Glaucoma and retinal disorders",
+      "resume_present": true,
+      "mesh": [
+        "Evidence Gaps",
+        "Glaucoma",
+        "Humans",
+        "Quality of Life",
+        "Evidence-Based Medicine"
+      ]
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": []
+  }
+}

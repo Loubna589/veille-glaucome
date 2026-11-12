@@ -1,0 +1,141 @@
+{
+  "pmid": "42959640",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42959640",
+    "titre": "A new pathological perspective on juvenile open angle glaucoma with chromatin decondensation and trabecular meshwork damage: a case report.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42959640/",
+    "doi": "10.18240/ijo.2026.11.23",
+    "pmcid": "PMC13717373",
+    "revue": "International journal of ophthalmology",
+    "date_entree_pubmed": "2026-10-30",
+    "date_publication": "2026",
+    "types_publication": [
+      "Letter"
+    ],
+    "resume_present": false,
+    "resume": null,
+    "mots_cles_auteurs": null,
+    "langue": "eng",
+    "nombre_auteurs": 5,
+    "affiliations_auteurs": [
+      "Department of Ophthalmology, Peking University People's Hospital, Beijing 100044, China.",
+      "Beijing Key Laboratory of Ocular Disease and Optometry Science, Peking University People's Hospital, Beijing 100044, China."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7223062479",
+      "doi": "10.18240/ijo.2026.11.23",
+      "pmid": "42959640",
+      "pmcid": "13717373",
+      "titre": "A new pathological perspective on juvenile open angle glaucoma with chromatin decondensation and trabecular meshwork damage: a case report",
+      "lien": "https://openalex.org/W7223062479",
+      "date_publication": "2026-10-20",
+      "type": "article",
+      "revue": "International Journal of Ophthalmology",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "doaj",
+        "pubmed"
+      ],
+      "financeurs": [
+        {
+          "nom": "Peking University",
+          "ror": "https://ror.org/02v51f717"
+        },
+        {
+          "nom": "Peking University People's Hospital",
+          "ror": "https://ror.org/035adwg89"
+        }
+      ],
+      "subventions": [
+        {
+          "financeur": "Peking University",
+          "reference": "RDGS2024-06"
+        },
+        {
+          "financeur": "Peking University People's Hospital",
+          "reference": "RDGS2024-06"
+        }
+      ],
+      "institutions": [
+        {
+          "nom": "Peking University People's Hospital",
+          "pays": "CN",
+          "type": "healthcare",
+          "ror": "https://ror.org/035adwg89"
+        }
+      ],
+      "acces_ouvert": true,
+      "statut_acces": "gold",
+      "url_texte": "https://gjyk.ijournals.cn//gjyken/article/pdf/20261123",
+      "url_pdf": "https://gjyk.ijournals.cn//gjyken/article/pdf/20261123",
+      "licence": "cc-by-nc-nd",
+      "texte_integral_indexe": true,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Glaucoma and retinal disorders",
+      "resume_present": false,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": [
+      {
+        "nom": "Peking University",
+        "statut": "À VÉRIFIER — trouvé par OpenAlex seulement (l'éditeur n'a déclaré aucun financeur dans Crossref) ; à contrôler dans le texte de l'article",
+        "references": [
+          "RDGS2024-06"
+        ],
+        "notices": [
+          [
+            "notice OpenAlex",
+            "https://api.openalex.org/works/W7223062479"
+          ],
+          [
+            "notice Crossref consultée (ne confirme pas ce financeur)",
+            "https://api.crossref.org/works/10.18240/ijo.2026.11.23"
+          ]
+        ],
+        "note": "cet organisme figure AUSSI parmi les institutions des auteurs : c'est une affiliation, information distincte"
+      },
+      {
+        "nom": "Peking University People's Hospital",
+        "statut": "À VÉRIFIER — trouvé par OpenAlex seulement (l'éditeur n'a déclaré aucun financeur dans Crossref) ; à contrôler dans le texte de l'article",
+        "references": [
+          "RDGS2024-06"
+        ],
+        "notices": [
+          [
+            "notice OpenAlex",
+            "https://api.openalex.org/works/W7223062479"
+          ],
+          [
+            "notice Crossref consultée (ne confirme pas ce financeur)",
+            "https://api.crossref.org/works/10.18240/ijo.2026.11.23"
+          ]
+        ],
+        "note": "cet organisme figure AUSSI parmi les institutions des auteurs : c'est une affiliation, information distincte"
+      }
+    ]
+  }
+}

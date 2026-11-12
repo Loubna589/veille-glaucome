@@ -1,0 +1,130 @@
+{
+  "pmid": "42903251",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42903251",
+    "titre": "Interpretable fundus image-based glaucoma classification using aCDR-guided vascular tortuosity analysis.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42903251/",
+    "doi": "10.1007/s13755-026-00484-5",
+    "pmcid": "PMC13680346",
+    "revue": "Health information science and systems",
+    "date_entree_pubmed": "2026-10-22",
+    "date_publication": "2026-Dec",
+    "types_publication": [
+      "Journal Article"
+    ],
+    "resume_present": true,
+    "resume": "PURPOSE: This study aimed to develop and evaluate an interpretable hierarchical auxiliary classification framework for glaucoma-related fundus image analysis, with emphasis on transparent classification rationale for cases with intermediate aCDR values.\nMETHODS: A MiT-B2-scSE U-Net was employed to jointly segment the optic disc and optic cup from fundus images, and the aCDR was calculated for initial image-level classification. Samples within predefined low- and high-aCDR ranges were directly classified, whereas samples in the intermediate-aCDR group underwent further analysis using peripapillary vessel segmentation and skeleton-based tortuosity quantification. To improve the reliability of vascular morphology assessment, a distance-aware topology-constrained loss function (DATCL) was introduced in the vessel segmentation stage to improve the segmentation accuracy of peripapillary vessels and improve the reliability of subsequent calculations.\nRESULTS: On the current REFUGE-based test set, the proposed MiT-B2-scSE U-Net achieved a mean Dice similarity coefficient (Dice) of 0.9254 and a mean Intersection over Union (IoU) of 0.8694 for joint optic cup-disc segmentation. For image-level glaucoma classification, the hierarchical aCDR-plus-vessel strategy achieved an accuracy of 91.25%, compared with 85.0% for the aCDR-only baseline and 66.25% for the vessel-only strategy.\nCONCLUSION: The proposed framework suggests that combining optic cup-disc morphology with local vascular tortuosity may provide complementary information for interpretable glaucoma classification in fundus images with intermediate aCDR values. It provides a methodological avenue for deep learning-assisted glaucoma screening.\nSUPPLEMENTARY INFORMATION: The online version contains supplementary material available at https://doi.org/10.1007/s13755-026-00484-5.",
+    "mots_cles_auteurs": [
+      "Cup-to-disc ratio",
+      "Deep learning",
+      "Glaucoma",
+      "Glaucoma classification",
+      "Image segmentation",
+      "Vascular tortuosity"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 5,
+    "affiliations_auteurs": [
+      "School of Intelligent Sensing and Optoelectronic Engineering, Northeastern University at Qinhuangdao, NO. 143 Taishan Road, Qinhuangdao, 066004 China.",
+      "School of Computer and Communication Engineering, Northeastern University at Qinhuangdao, NO. 143 Taishan Road, Qinhuangdao, 066004 China."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7222922778",
+      "doi": "10.1007/s13755-026-00484-5",
+      "pmid": "42903251",
+      "pmcid": "13680346",
+      "titre": "Interpretable fundus image-based glaucoma classification using aCDR-guided vascular tortuosity analysis",
+      "lien": "https://openalex.org/W7222922778",
+      "date_publication": "2026-10-19",
+      "type": "article",
+      "revue": "Health Information Science and Systems",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "pubmed"
+      ],
+      "financeurs": [
+        {
+          "nom": "National Natural Science Foundation of China",
+          "ror": "https://ror.org/01h0zpd94"
+        }
+      ],
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "Northeastern University",
+          "pays": "CN",
+          "type": "education",
+          "ror": "https://ror.org/03awzbc87"
+        }
+      ],
+      "acces_ouvert": true,
+      "statut_acces": "green",
+      "url_texte": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13680346/",
+      "url_pdf": null,
+      "licence": null,
+      "texte_integral_indexe": false,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Retinal Imaging and Analysis",
+      "resume_present": false,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": [
+      {
+        "nom": "National Natural Science Foundation of China",
+        "statut": "CONFIRMÉ — déclaré par l'éditeur dans Crossref",
+        "references": [
+          "62301137"
+        ],
+        "notices": [
+          [
+            "notice justificative Crossref (déclaration de l'éditeur)",
+            "https://api.crossref.org/works/10.1007/s13755-026-00484-5"
+          ],
+          [
+            "notice OpenAlex",
+            "https://api.openalex.org/works/W7222922778"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "Industry-Academia-Research Cooperation Project between Hebei-located Universities and Shijiazhuang City",
+        "statut": "CONFIRMÉ — déclaré par l'éditeur dans Crossref (absent d'OpenAlex)",
+        "references": [
+          "2517903007A"
+        ],
+        "notices": [
+          [
+            "notice justificative Crossref (déclaration de l'éditeur)",
+            "https://api.crossref.org/works/10.1007/s13755-026-00484-5"
+          ]
+        ],
+        "note": null
+      }
+    ]
+  }
+}

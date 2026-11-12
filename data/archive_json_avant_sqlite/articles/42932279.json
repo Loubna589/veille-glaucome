@@ -1,0 +1,160 @@
+{
+  "pmid": "42932279",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42932279",
+    "titre": "Genetic characterization of a canine model of human GAPO syndrome caused by a nonsense variant in ANTXR1.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42932279/",
+    "doi": "10.1371/journal.pone.0359081",
+    "pmcid": "PMC13704829",
+    "revue": "PloS one",
+    "date_entree_pubmed": "2026-10-26",
+    "date_publication": "2026",
+    "types_publication": [
+      "Journal Article"
+    ],
+    "resume_present": true,
+    "resume": "GAPO syndrome is characterised by a core combination of phenotypes: growth retardation, alopecia, pseudoanodontia and ocular atrophy, and to date has only been reported in humans. It is a rare autosomal recessive condition caused by pathogenic variants in the Anthrax Toxin Receptor 1 (ANTXR1) gene. This study reports a canine form of the disease observed in a litter of Segugio Italiano dogs. Affected dogs, examined at 21 months old, presented with the core GAPO phenotype, short limbs, craniofacial abnormalities, alopecia, pseudoanodontia, and ocular abnormalities that included glaucoma. Whole genome sequence analysis of two affected puppies and the dam identified a nonsense variant c.505C > T in ANTXR1 which introduces an early stop codon in exon 7, predicted to truncate the protein by 395 amino acids. Comparative quantification of ANTXR1 gene expression in corneal, retinal and optic nerve tissues of a GAPO-affected dog were markedly reduced compared to control samples. Evaluation of protein expression through Western blot analysis using retinal and optic nerve tissue showed absence of ANTXR1 in the affected dog. Access to canine ocular tissues, rarely available in human GAPO patients, provides insight into tissue-specific effects of ANTXR1 loss. Our findings establish this canine disorder as a model of human GAPO syndrome and has facilitated the development of a DNA test that can identify carriers of the disease variant and prevent production of affected litters with this life limiting disease.",
+    "mots_cles_auteurs": null,
+    "langue": "eng",
+    "nombre_auteurs": 6,
+    "affiliations_auteurs": [
+      "Department of Veterinary Medicine, University of Cambridge, Cambridge, United Kingdom.",
+      "Centro Veterinario Oculistico Argo, Ancona, Italy."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": [
+      "Animals",
+      "Dogs",
+      "Codon, Nonsense",
+      "Humans",
+      "Optic Atrophies, Hereditary",
+      "Alopecia",
+      "Anodontia",
+      "Disease Models, Animal",
+      "Optic Atrophy",
+      "Receptors, Cell Surface",
+      "Female",
+      "Dog Diseases",
+      "Male",
+      "Phenotype",
+      "Receptors, Peptide",
+      "Growth Disorders",
+      "Microfilament Proteins"
+    ]
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Vétérinaire (animaux soignés) — hors veille principale",
+      "stade_source": "indexation MeSH : Dog Diseases",
+      "hors_veille_principale": true
+    },
+    "openalex": {
+      "openalex_id": "W7223675915",
+      "doi": "10.1371/journal.pone.0359081",
+      "pmid": "42932279",
+      "pmcid": "13704829",
+      "titre": "Genetic characterization of a canine model of human GAPO syndrome caused by a nonsense variant in ANTXR1",
+      "lien": "https://openalex.org/W7223675915",
+      "date_publication": "2026-10-26",
+      "type": "article",
+      "revue": "PLoS ONE",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "doaj",
+        "pubmed"
+      ],
+      "financeurs": [
+        {
+          "nom": "Kennel Club Charitable Trust",
+          "ror": "https://ror.org/00y3qx097"
+        }
+      ],
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "University of Cambridge",
+          "pays": "GB",
+          "type": "education",
+          "ror": "https://ror.org/013meh722"
+        }
+      ],
+      "acces_ouvert": true,
+      "statut_acces": "gold",
+      "url_texte": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0359081&type=printable",
+      "url_pdf": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0359081&type=printable",
+      "licence": "cc-by",
+      "texte_integral_indexe": true,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Human-Animal Interaction Studies",
+      "resume_present": true,
+      "mesh": [
+        "Alopecia",
+        "Animals",
+        "Anodontia",
+        "Disease Models, Animal",
+        "Dog Diseases",
+        "Dogs",
+        "Female",
+        "Growth Disorders",
+        "Humans",
+        "Male",
+        "Microfilament Proteins",
+        "Optic Atrophy",
+        "Phenotype",
+        "Receptors, Cell Surface",
+        "Optic Atrophies, Hereditary",
+        "Receptors, Peptide",
+        "Codon, Nonsense"
+      ]
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": [
+      {
+        "nom": "Kennel Club Charitable Trust",
+        "statut": "CONFIRMÉ — déclaré par l'éditeur dans Crossref",
+        "references": [
+          "G109537)"
+        ],
+        "notices": [
+          [
+            "notice justificative Crossref (déclaration de l'éditeur)",
+            "https://api.crossref.org/works/10.1371/journal.pone.0359081"
+          ],
+          [
+            "notice OpenAlex",
+            "https://api.openalex.org/works/W7223675915"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "Jean Lanning Foundation",
+        "statut": "CONFIRMÉ — déclaré par l'éditeur dans Crossref (absent d'OpenAlex)",
+        "references": [
+          "G620026"
+        ],
+        "notices": [
+          [
+            "notice justificative Crossref (déclaration de l'éditeur)",
+            "https://api.crossref.org/works/10.1371/journal.pone.0359081"
+          ]
+        ],
+        "note": null
+      }
+    ]
+  }
+}

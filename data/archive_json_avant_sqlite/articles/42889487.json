@@ -1,0 +1,214 @@
+{
+  "pmid": "42889487",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42889487",
+    "titre": "Long-Term Efficacy of Phacoemulsification Combined With Trabeculectomy for Advanced Chronic Primary Angle-Closure Glaucoma With Cataract: A 3-Year Retrospective Study.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42889487/",
+    "doi": "10.1155/joph/3442493",
+    "pmcid": "PMC13669659",
+    "revue": "Journal of ophthalmology",
+    "date_entree_pubmed": "2026-10-17",
+    "date_publication": "2026",
+    "types_publication": [
+      "Journal Article"
+    ],
+    "resume_present": true,
+    "resume": "PURPOSE: To evaluate the long-term efficacy of phacoemulsification combined with trabeculectomy (Phaco-Trab) for advanced chronic primary angle-closure glaucoma (PACG) with cataract.\nMETHODS: Patients with advanced chronic PACG coexisting with cataracts who underwent Phaco-Trab were enrolled. The morphologic structures of filtering blebs, including characteristics under slit-lamp examination, anterior segment optical coherence tomography (AS-OCT), and in vivo confocal microscopy (IVCM), were used to evaluate the filtering function.\nRESULTS: A total of 30 eyes from 27 patients were enrolled. The mean preoperative intraocular pressure (IOP) of 19.98 ± 6.48 mmHg significantly decreased to 13.73 ± 2.35 mmHg at year 3 (p < 0.0001). A statistically significant decrease in postoperative IOP-lowering medications was observed, but the number of drugs used increased annually (0.50 ± 0.82 at year 1, 1.00 ± 0.98 at year 2, and 1.47 ± 0.97 at year 3, p < 0.0001). Following Phaco-Trab, a high surgical qualified success rate was maintained over 3 years (93.3% at year 1, 90.0% at year 2, and 80.0% at year 3, p = 0.117). However, the complete success rate significantly decreased each year (70.0% at year 1, 36.7% at year 2, and 20.0% at year 3, p < 0.0001), along with an increase in the rate of failure filtering blebs, reaching 46.7%, 83.3%, and 90.0% at each time point (p < 0.0001). Overall, 46.7% (14/30) of participants developed complications and required postoperative procedures after Phaco-Trab, which were mainly induced by the trabeculectomy procedure.\nCONCLUSIONS: Phaco-Trab can significantly lower IOP and reduce the use of IOP-lowering medications for advanced chronic PACG with cataracts, but it is associated with a higher rate of complications and a higher failure rate of the filtering bleb.",
+    "mots_cles_auteurs": [
+      "filtering bleb",
+      "in vivo confocal microscopy",
+      "phacoemulsification",
+      "primary angle-closure glaucoma",
+      "trabeculectomy"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 9,
+    "affiliations_auteurs": [
+      "Department of Ophthalmology the People's Hospital of Baiyun District Guangzhou China.",
+      "Department of Ophthalmology The Second Affiliated Hospital School of Medicine The Chinese University of Hong Kong, Shenzhen & Longgang District People's Hospital of Shenzhen Guangdong China.",
+      "The First School of Clinical Medicine Southern Medical University Guangzhou China fimmu.com.",
+      "Department of Ophthalmology Nanfang Hospital Southern Medical University Guangzhou China fimmu.com.",
+      "Department of Ophthalmology Guangdong Eye Institute Guangdong Provincial People's Hospital Guangzhou China gdghospital.org.cn."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7222115531",
+      "doi": "10.1155/joph/3442493",
+      "pmid": "42889487",
+      "pmcid": "13669659",
+      "titre": "Long‐Term Efficacy of Phacoemulsification Combined With Trabeculectomy for Advanced Chronic Primary Angle‐Closure Glaucoma With Cataract: A 3‐Year Retrospective Study",
+      "lien": "https://openalex.org/W7222115531",
+      "date_publication": "2026-01-01",
+      "type": "article",
+      "revue": "Journal of Ophthalmology",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "doaj",
+        "pubmed"
+      ],
+      "financeurs": [
+        {
+          "nom": "National Natural Science Foundation of China",
+          "ror": "https://ror.org/01h0zpd94"
+        },
+        {
+          "nom": "Natural Science Foundation of Guangdong Province",
+          "ror": null
+        },
+        {
+          "nom": "Southern Medical University",
+          "ror": "https://ror.org/01vjw4z39"
+        },
+        {
+          "nom": "Nanfang Hospital",
+          "ror": "https://ror.org/01eq10738"
+        }
+      ],
+      "subventions": [
+        {
+          "financeur": "National Natural Science Foundation of China",
+          "reference": "82171036"
+        },
+        {
+          "financeur": "Natural Science Foundation of Guangdong Province",
+          "reference": "2023A1515011735"
+        },
+        {
+          "financeur": "Southern Medical University",
+          "reference": "2025CR009"
+        }
+      ],
+      "institutions": [
+        {
+          "nom": "Chinese University of Hong Kong, Shenzhen",
+          "pays": "CN",
+          "type": "education",
+          "ror": "https://ror.org/02d5ks197"
+        },
+        {
+          "nom": "Southern Medical University",
+          "pays": "CN",
+          "type": "education",
+          "ror": "https://ror.org/01vjw4z39"
+        },
+        {
+          "nom": "Nanfang Hospital",
+          "pays": "CN",
+          "type": "healthcare",
+          "ror": "https://ror.org/01eq10738"
+        },
+        {
+          "nom": "Guangdong Provincial People's Hospital",
+          "pays": "CN",
+          "type": "healthcare",
+          "ror": "https://ror.org/045kpgw45"
+        }
+      ],
+      "acces_ouvert": true,
+      "statut_acces": "gold",
+      "url_texte": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1155/joph/3442493",
+      "url_pdf": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1155/joph/3442493",
+      "licence": "cc-by",
+      "texte_integral_indexe": true,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Glaucoma and retinal disorders",
+      "resume_present": true,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": [
+      {
+        "nom": "National Natural Science Foundation of China",
+        "statut": "CONFIRMÉ — déclaré par l'éditeur dans Crossref",
+        "references": [
+          "82171036"
+        ],
+        "notices": [
+          [
+            "notice justificative Crossref (déclaration de l'éditeur)",
+            "https://api.crossref.org/works/10.1155/joph/3442493"
+          ],
+          [
+            "notice OpenAlex",
+            "https://api.openalex.org/works/W7222115531"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "Natural Science Foundation of Guangdong Province",
+        "statut": "CONFIRMÉ — déclaré par l'éditeur dans Crossref",
+        "references": [
+          "2023A1515011735"
+        ],
+        "notices": [
+          [
+            "notice justificative Crossref (déclaration de l'éditeur)",
+            "https://api.crossref.org/works/10.1155/joph/3442493"
+          ],
+          [
+            "notice OpenAlex",
+            "https://api.openalex.org/works/W7222115531"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "Southern Medical University",
+        "statut": "CONFIRMÉ — déclaré par l'éditeur dans Crossref",
+        "references": [
+          "2025CR009"
+        ],
+        "notices": [
+          [
+            "notice justificative Crossref (déclaration de l'éditeur)",
+            "https://api.crossref.org/works/10.1155/joph/3442493"
+          ],
+          [
+            "notice OpenAlex",
+            "https://api.openalex.org/works/W7222115531"
+          ]
+        ],
+        "note": "cet organisme figure AUSSI parmi les institutions des auteurs : c'est une affiliation, information distincte"
+      },
+      {
+        "nom": "Nanfang Hospital",
+        "statut": "À VÉRIFIER — trouvé par OpenAlex seulement (absent de la déclaration de l'éditeur dans Crossref) ; à contrôler dans le texte de l'article",
+        "references": null,
+        "notices": [
+          [
+            "notice OpenAlex",
+            "https://api.openalex.org/works/W7222115531"
+          ],
+          [
+            "notice Crossref consultée (ne confirme pas ce financeur)",
+            "https://api.crossref.org/works/10.1155/joph/3442493"
+          ]
+        ],
+        "note": "cet organisme figure AUSSI parmi les institutions des auteurs : c'est une affiliation, information distincte"
+      }
+    ]
+  }
+}

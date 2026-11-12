@@ -1,0 +1,113 @@
+{
+  "pmid": "42955022",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42955022",
+    "titre": "Ophthalmic Encounters After Tamoxifen Initiation.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42955022/",
+    "doi": "10.1001/jamaophthalmol.2026.4646",
+    "pmcid": "PMC13720736",
+    "revue": "JAMA ophthalmology",
+    "date_entree_pubmed": "2026-10-29",
+    "date_publication": "2026-Oct-29",
+    "types_publication": [
+      "Journal Article"
+    ],
+    "resume_present": true,
+    "resume": "IMPORTANCE: Tamoxifen can cause retinal toxicity and vision loss, yet no formal screening guideline exists in the US.\nOBJECTIVE: To characterize ophthalmic use after tamoxifen initiation, identify predictors, and compare 12-month use between those with breast cancer taking tamoxifen and those taking aromatase inhibitors.\nDESIGN, SETTING, AND PARTICIPANTS: This was a retrospective cohort study conducted May to June 2026 using All of Us data with 365-day minimum follow-up. The setting was a US multisite research program. Participants included adults with a first tamoxifen prescription recorded in All of Us, excluding those taking hydroxychloroquine. The comparator included those with breast cancer taking aromatase inhibitors.\nEXPOSURES: Tamoxifen or aromatase inhibitor initiation.\nMAIN OUTCOMES AND MEASURES: The primary outcome was any ophthalmic encounter within 12 months, identified from eye examination, retinal procedure, and eye visit codes. Retinal optical coherence tomography (OCT) or fundus photography was secondary. Logistic regression assessed predictors and compared treatment groups after adjustment for demographics, preexisting conditions, preindex health care use, region, and initiation year.\nRESULTS: Among 2327 individuals taking tamoxifen (mean [SD] age, 53.8 [10.6] years; 2232 [95.9%] female), 162 (7.0%) had an ophthalmic encounter within 12 months, and 39 (1.7%) underwent retinal OCT or fundus photography. Among participants with preexisting glaucoma or diabetic retinopathy, 22 of 88 (25.0%) had an encounter vs 140 of 2239 (6.3%) without either condition (difference, 18.7 percentage points; 95% CI, 10.8-28.8 percentage points; P < .001). Preexisting glaucoma (adjusted odds ratio [aOR], 3.87; 95% CI, 2.12-7.06; P < .001), greater preindex health care use (aOR, 1.43; 95% CI, 1.24-1.63; P < .001), and older age (aOR per 10-year increase, 1.21; 95% CI, 1.04-1.42; P = .02) were associated with greater use. Among participants with breast cancer, 126 of 1886 individuals taking tamoxifen (6.7%) had an encounter vs 240 of 2809 individuals taking aromatase inhibitors (8.5%; difference, -1.9 percentage points; 95% CI, -3.4 to -0.3 percentage points; P = .02). After adjustment, tamoxifen use was not associated with greater ophthalmic use (aOR, 1.10; 95% CI, 0.85-1.42; P = .46).\nCONCLUSIONS AND RELEVANCE: Results of this cohort study suggest that ophthalmic use after tamoxifen initiation was uncommon, and retinal-specific testing was rare. Tamoxifen use was not associated with greater adjusted 12-month use than aromatase inhibitor use. Additional evidence on retinopathy incidence, natural history, screening strategies, and clinical benefit is needed to inform guidance.",
+    "mots_cles_auteurs": null,
+    "langue": "eng",
+    "nombre_auteurs": 6,
+    "affiliations_auteurs": [
+      "Faculty of Medicine, Queen's University, Kingston, Ontario, Canada.",
+      "Department of Ophthalmology and Vision Sciences, University of Toronto, Toronto, Ontario, Canada.",
+      "Department of Ophthalmology, Queen's University, Kingston, Ontario, Canada.",
+      "Department of Ophthalmology and Visual Sciences, University of British Columbia, Vancouver, British Columbia, Canada.",
+      "John and Liz Tory Eye Centre, Sunnybrook Health Science Centre, Toronto, Ontario, Canada.",
+      "Department of Ophthalmology, University of Alberta, Edmonton, Alberta, Canada."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7224229319",
+      "doi": "10.1001/jamaophthalmol.2026.4646",
+      "pmid": "42955022",
+      "pmcid": "13720736",
+      "titre": "Ophthalmic Encounters After Tamoxifen Initiation",
+      "lien": "https://openalex.org/W7224229319",
+      "date_publication": "2026-10-29",
+      "type": "article",
+      "revue": "JAMA Ophthalmology",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "pubmed"
+      ],
+      "financeurs": null,
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "Queen's University",
+          "pays": "CA",
+          "type": "education",
+          "ror": "https://ror.org/02y72wh86"
+        },
+        {
+          "nom": "University of Toronto",
+          "pays": "CA",
+          "type": "education",
+          "ror": "https://ror.org/03dbr7087"
+        },
+        {
+          "nom": "University of British Columbia",
+          "pays": "CA",
+          "type": "education",
+          "ror": "https://ror.org/03rmrcq20"
+        },
+        {
+          "nom": "Sunnybrook Health Science Centre",
+          "pays": "CA",
+          "type": "healthcare",
+          "ror": "https://ror.org/03wefcv03"
+        },
+        {
+          "nom": "University of Alberta",
+          "pays": "CA",
+          "type": "education",
+          "ror": "https://ror.org/0160cpw27"
+        }
+      ],
+      "acces_ouvert": true,
+      "statut_acces": "green",
+      "url_texte": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13720736/",
+      "url_pdf": null,
+      "licence": null,
+      "texte_integral_indexe": false,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Drug-Induced Ocular Toxicity",
+      "resume_present": true,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": []
+  }
+}

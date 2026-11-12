@@ -1,0 +1,182 @@
+{
+  "pmid": "42945262",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42945262",
+    "titre": "Retinal layer structure on optical coherence tomography in post-traumatic stress disorder.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42945262/",
+    "doi": "10.1371/journal.pone.0360471",
+    "pmcid": "PMC13712591",
+    "revue": "PloS one",
+    "date_entree_pubmed": "2026-10-27",
+    "date_publication": "2026",
+    "types_publication": [
+      "Journal Article"
+    ],
+    "resume_present": true,
+    "resume": "PURPOSE: To assess individual retinal layer thickness and volume changes on optical coherence tomography (OCT) in individuals with post-traumatic stress disorder (PTSD) compared to controls.\nMETHODS: Adults ≥18 years with a PTSD diagnosis were identified. Age- and sex-matched controls (±5 years) without PTSD were recruited. Exclusion criteria included any cognitive disorder, brain injury, glaucoma, diabetes, optic nerve or vitreoretinal disease, uncontrolled hypertension, refractive error >±6 diopters, or best corrected visual acuity <20/40. Non-mydriatic OCT macular cube 512x128 images were obtained using Zeiss Cirrus HD-5000 AngioPlex. The Duke Reading Center DRCVisualizer software was used to segment the ganglion cell/inner plexiform (GC-IPL), inner nuclear (INL), outer plexiform (OPL), outer nuclear (ONL), photoreceptor, and retinal pigment epithelium (RPE) layers. Mean retinal thickness and volume were calculated for all layers within the central 1-mm subfield and 3- and 6-mm ETDRS rings, further divided into nasal, superior, temporal, and inferior quadrants.\nRESULTS: 81 eyes of 42 PTSD patients and 81 eyes of 42 controls were analyzed. Average ages were 48 ± 15 years for PTSD and 51 ± 19 years for controls. Groups were 36% male. PTSD eyes showed significantly decreased photoreceptor thickness and volume and increased RPE thickness/volume across all ETDRS rings and quadrants (all p < 0.05). OPL thicknesses were decreased in PTSD eyes versus controls for temporal 3-mm (25.29 ± 1.36 µm vs. 26.64 ± 3.80µm) and temporal 6-mm (23.47 ± 0.88µm vs. 24.00 ± 1.54µm) rings (p < 0.05). OPL inferior 6-mm thickness was decreased in PTSD eyes (23.98 ± 1.58 µm vs. 24.78 ± 2.34 µm) versus controls (p < 0.05). The ONL nasal 6-mm thickness was decreased in PTSD versus controls (55.96 ± 7.90 µm vs. 56.74 ± 7.47µm) (p < 0.05). After adjusting for multiple testing, RPE differences remained significant across all evaluated regions, while photoreceptor differences remained significant within the central 1-mm and 3-mm ETDRS regions.\nCONCLUSIONS: PTSD eyes demonstrated decreased photoreceptor layer and increased RPE thickness and volume.",
+    "mots_cles_auteurs": null,
+    "langue": "eng",
+    "nombre_auteurs": 9,
+    "affiliations_auteurs": [
+      "Department of Ophthalmology, iMIND Study Group, Duke University School of Medicine, Durham, NC, United States of America.",
+      "Walter Reed National Military Medical Center, Bethesda, MD, United States of America.",
+      "Department of Neurology, Duke University School of Medicine, Durham, NC, United States of America."
+    ],
+    "financeurs_declares": [
+      {
+        "organisme": "NIA NIH HHS",
+        "pays": "United States",
+        "reference": "P30 AG072958"
+      }
+    ],
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": [
+      "Humans",
+      "Tomography, Optical Coherence",
+      "Stress Disorders, Post-Traumatic",
+      "Male",
+      "Female",
+      "Middle Aged",
+      "Retina",
+      "Adult",
+      "Case-Control Studies"
+    ]
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": null,
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7223888560",
+      "doi": "10.1371/journal.pone.0360471",
+      "pmid": "42945262",
+      "pmcid": "13712591",
+      "titre": "Retinal layer structure on optical coherence tomography in post-traumatic stress disorder",
+      "lien": "https://openalex.org/W7223888560",
+      "date_publication": "2026-10-27",
+      "type": "article",
+      "revue": "PLoS ONE",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "doaj",
+        "pubmed"
+      ],
+      "financeurs": [
+        {
+          "nom": "National Institutes of Health",
+          "ror": "https://ror.org/01cwqze88"
+        },
+        {
+          "nom": "National Institute on Aging",
+          "ror": "https://ror.org/049v75w11"
+        }
+      ],
+      "subventions": [
+        {
+          "financeur": "National Institute on Aging",
+          "reference": "P30AG072958"
+        }
+      ],
+      "institutions": [
+        {
+          "nom": "Duke University",
+          "pays": "US",
+          "type": "education",
+          "ror": "https://ror.org/00py81415"
+        },
+        {
+          "nom": "Walter Reed National Military Medical Center",
+          "pays": "US",
+          "type": "healthcare",
+          "ror": "https://ror.org/025cem651"
+        }
+      ],
+      "acces_ouvert": true,
+      "statut_acces": "gold",
+      "url_texte": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0360471&type=printable",
+      "url_pdf": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0360471&type=printable",
+      "licence": "cc-by",
+      "texte_integral_indexe": true,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Glaucoma and retinal disorders",
+      "resume_present": true,
+      "mesh": [
+        "Adult",
+        "Female",
+        "Humans",
+        "Male",
+        "Middle Aged",
+        "Retina",
+        "Stress Disorders, Post-Traumatic",
+        "Case-Control Studies",
+        "Tomography, Optical Coherence"
+      ]
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": [
+      {
+        "nom": "NIA NIH HHS",
+        "statut": "CONFIRMÉ — déclaré dans la notice PubMed (GrantList)",
+        "references": [
+          "P30 AG072958"
+        ],
+        "notices": [
+          [
+            "notice PubMed",
+            "https://pubmed.ncbi.nlm.nih.gov/42945262/?format=pubmed"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "National Institutes of Health",
+        "statut": "À VÉRIFIER — trouvé par OpenAlex seulement (absent de la déclaration de l'éditeur dans Crossref) ; à contrôler dans le texte de l'article",
+        "references": null,
+        "notices": [
+          [
+            "notice OpenAlex",
+            "https://api.openalex.org/works/W7223888560"
+          ],
+          [
+            "notice Crossref consultée (ne confirme pas ce financeur)",
+            "https://api.crossref.org/works/10.1371/journal.pone.0360471"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "National Institute on Aging",
+        "statut": "CONFIRMÉ — déclaré par l'éditeur dans Crossref",
+        "references": [
+          "P30AG072958"
+        ],
+        "notices": [
+          [
+            "notice justificative Crossref (déclaration de l'éditeur)",
+            "https://api.crossref.org/works/10.1371/journal.pone.0360471"
+          ],
+          [
+            "notice OpenAlex",
+            "https://api.openalex.org/works/W7223888560"
+          ]
+        ],
+        "note": null
+      }
+    ]
+  }
+}

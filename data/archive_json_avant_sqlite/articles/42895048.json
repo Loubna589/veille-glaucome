@@ -1,0 +1,370 @@
+{
+  "pmid": "42895048",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42895048",
+    "titre": "Effects of Aging and Early-Onset Menopause on Intraocular Pressure and Aqueous Humor Conventional Outflow Facility.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42895048/",
+    "doi": "10.1115/1.4072763",
+    "pmcid": null,
+    "revue": "Journal of biomechanical engineering",
+    "date_entree_pubmed": "2026-10-19",
+    "date_publication": "2026-Dec-01",
+    "types_publication": [
+      "Journal Article"
+    ],
+    "resume_present": true,
+    "resume": "Biomechanical parameters play a crucial role in glaucoma development, the world-leading cause of irreversible blindness. Although age is known to affect the tissues' biomechanical properties, early-onset menopause has recently been associated with the risk of developing glaucoma, and the effects of aging relative to early-onset menopause on eyes' biomechanical parameters remain underexplored. This work's goals were to study the effects of aging and early-onset menopause on intraocular pressure (IOP), aqueous humor outflow facility, and ocular compliance. Female Brown Norway rats underwent Sham or surgical menopause (ovariectomy; OVX) at 3-4 months of age and were split into young (5-6 months) or middle-aged groups (9-10 months). We monitored IOP until the established aging time points and performed ex vivo biomechanical measurements via the iPerfusion system. IOP was higher for the middle-aged Sham and OVX animals by 25% and 35%, respectively (p < 0.001), when compared to their respective initial IOPs. Furthermore, middle-aged OVX animals had an 11% higher IOP compared to Sham animals (p = 0.005), and a 20% lower outflow facility (p = 0.031). Ocular compliance decreased with age in the Sham (24.9%, p = 0.011) and OVX (24.5%, p = 0.005) cohorts and by 24.1% independent of cohort (p = 0.0001). Elucidating the effects of age and early-onset menopause on biomechanical parameters that contribute to glaucoma pathology is necessary to move the field forward and help preserve the eyesight of millions of patients.",
+    "mots_cles_auteurs": [
+      "early-onset menopause",
+      "glaucoma",
+      "intraocular pressure",
+      "menopause",
+      "ocular mechanics",
+      "ovariectomy"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 6,
+    "affiliations_auteurs": [
+      "George W. Woodruff School of Mechanical Engineering, Georgia Institute of Technology, Atlanta, GA 30318; Department of Ophthalmology, Emory Eye Center, Emory University School of Medicine, Atlanta, GA 30322; Bioengineering Interdisciplinary Program, Georgia Institute of Technology, Atlanta, GA 30318.",
+      "Department of Ophthalmology, Emory Eye Center, Emory University School of Medicine, Atlanta, GA 30322.",
+      "Department of Bioengineering, Imperial College London, London SW7 2AZ, UK.",
+      "Department of Ophthalmology, Emory Eye Center, Emory University School of Medicine, B2503 Clinic B Building, 1365B Clifton Road NE, Atlanta, GA 30322; Bioengineering Interdisciplinary Program, Georgia Institute of Technology, Atlanta, GA 30318; Center for Visual and Neurocognitive Rehabilitation, Joseph M. Cleland Atlanta VA Medical Center, Decatur, GA 30033.",
+      "Department of Biomedical Engineering, Georgia Institute of Technology and Emory University, Wallace H. Coulter, Atlanta, GA 30332."
+    ],
+    "financeurs_declares": [
+      {
+        "organisme": "Alfred P. Sloan Foundation",
+        "pays": "",
+        "reference": "G-2019-11435"
+      },
+      {
+        "organisme": "NIH HHS",
+        "pays": "United States",
+        "reference": "EY007092-38"
+      },
+      {
+        "organisme": "NIH HHS",
+        "pays": "United States",
+        "reference": "P30EY006360"
+      },
+      {
+        "organisme": "NIH HHS",
+        "pays": "United States",
+        "reference": "R01 EY030871"
+      },
+      {
+        "organisme": "NIH HHS",
+        "pays": "United States",
+        "reference": "R21 EY035468"
+      },
+      {
+        "organisme": "Research to Prevent Blindness",
+        "pays": "",
+        "reference": "Challenge Grant to the Department of Ophthalmology at Emory University"
+      }
+    ],
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": [
+      "Aging",
+      "Menopause, Premature",
+      "Intraocular Pressure",
+      "Aqueous Humor",
+      "Female",
+      "Animals",
+      "Rats",
+      "Biomechanical Phenomena",
+      "Ovariectomy",
+      "Models, Animal"
+    ]
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Préclinique",
+      "stade_source": "indexation MeSH de PubMed (modèle animal / animaux sans humains)",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7222934751",
+      "doi": "10.1115/1.4072763",
+      "pmid": "42895048",
+      "pmcid": null,
+      "titre": "Effects of Aging and Early-Onset Menopause on Intraocular Pressure and Aqueous Humor Conventional Outflow Facility",
+      "lien": "https://openalex.org/W7222934751",
+      "date_publication": "2026-10-19",
+      "type": "article",
+      "revue": "Journal of Biomechanical Engineering",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "pubmed"
+      ],
+      "financeurs": [
+        {
+          "nom": "Alfred P. Sloan Foundation",
+          "ror": "https://ror.org/052csg198"
+        },
+        {
+          "nom": "Research to Prevent Blindness",
+          "ror": "https://ror.org/04drjs621"
+        },
+        {
+          "nom": "Emory University",
+          "ror": "https://ror.org/03czfpz43"
+        },
+        {
+          "nom": "National Institutes of Health",
+          "ror": "https://ror.org/01cwqze88"
+        },
+        {
+          "nom": "National Eye Institute",
+          "ror": "https://ror.org/03wkg3b53"
+        }
+      ],
+      "subventions": [
+        {
+          "financeur": "National Eye Institute",
+          "reference": "R21EY035468"
+        },
+        {
+          "financeur": "National Eye Institute",
+          "reference": "EY007092"
+        },
+        {
+          "financeur": "Research to Prevent Blindness",
+          "reference": "P30EY006360"
+        },
+        {
+          "financeur": "National Eye Institute",
+          "reference": "R01EY030871"
+        },
+        {
+          "financeur": "National Institutes of Health",
+          "reference": "EY007092"
+        },
+        {
+          "financeur": "National Eye Institute",
+          "reference": "P30EY006360"
+        }
+      ],
+      "institutions": [
+        {
+          "nom": "Georgia Institute of Technology",
+          "pays": "US",
+          "type": "education",
+          "ror": "https://ror.org/01zkghx44"
+        },
+        {
+          "nom": "Emory University",
+          "pays": "US",
+          "type": "education",
+          "ror": "https://ror.org/03czfpz43"
+        },
+        {
+          "nom": "Emory Eye Center",
+          "pays": "US",
+          "type": "healthcare",
+          "ror": "https://ror.org/00hr6kp69"
+        },
+        {
+          "nom": "Imperial College London",
+          "pays": "GB",
+          "type": "education",
+          "ror": "https://ror.org/041kmwe10"
+        },
+        {
+          "nom": "Emory Healthcare",
+          "pays": "US",
+          "type": "healthcare",
+          "ror": "https://ror.org/00yksxf10"
+        },
+        {
+          "nom": "Atlanta VA Medical Center",
+          "pays": "US",
+          "type": "healthcare",
+          "ror": "https://ror.org/04z89xx32"
+        },
+        {
+          "nom": "The Wallace H. Coulter Department of Biomedical Engineering",
+          "pays": "US",
+          "type": "education",
+          "ror": "https://ror.org/02j15s898"
+        }
+      ],
+      "acces_ouvert": true,
+      "statut_acces": "hybrid",
+      "url_texte": "https://asmedigitalcollection.asme.org/biomechanical/article-pdf/doi/10.1115/1.4072763/7647951/bio-26-1116.pdf",
+      "url_pdf": "https://asmedigitalcollection.asme.org/biomechanical/article-pdf/doi/10.1115/1.4072763/7647951/bio-26-1116.pdf",
+      "licence": "cc-by",
+      "texte_integral_indexe": true,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Glaucoma and retinal disorders",
+      "resume_present": true,
+      "mesh": [
+        "Aging",
+        "Animals",
+        "Aqueous Humor",
+        "Biomechanical Phenomena",
+        "Female",
+        "Intraocular Pressure",
+        "Menopause, Premature",
+        "Ovariectomy",
+        "Models, Animal",
+        "Rats"
+      ]
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": [
+      {
+        "nom": "Alfred P. Sloan Foundation",
+        "statut": "CONFIRMÉ — déclaré dans la notice PubMed (GrantList)",
+        "references": [
+          "G-2019-11435"
+        ],
+        "notices": [
+          [
+            "notice PubMed",
+            "https://pubmed.ncbi.nlm.nih.gov/42895048/?format=pubmed"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "NIH HHS",
+        "statut": "CONFIRMÉ — déclaré dans la notice PubMed (GrantList)",
+        "references": [
+          "EY007092-38"
+        ],
+        "notices": [
+          [
+            "notice PubMed",
+            "https://pubmed.ncbi.nlm.nih.gov/42895048/?format=pubmed"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "NIH HHS",
+        "statut": "CONFIRMÉ — déclaré dans la notice PubMed (GrantList)",
+        "references": [
+          "P30EY006360"
+        ],
+        "notices": [
+          [
+            "notice PubMed",
+            "https://pubmed.ncbi.nlm.nih.gov/42895048/?format=pubmed"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "NIH HHS",
+        "statut": "CONFIRMÉ — déclaré dans la notice PubMed (GrantList)",
+        "references": [
+          "R01 EY030871"
+        ],
+        "notices": [
+          [
+            "notice PubMed",
+            "https://pubmed.ncbi.nlm.nih.gov/42895048/?format=pubmed"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "NIH HHS",
+        "statut": "CONFIRMÉ — déclaré dans la notice PubMed (GrantList)",
+        "references": [
+          "R21 EY035468"
+        ],
+        "notices": [
+          [
+            "notice PubMed",
+            "https://pubmed.ncbi.nlm.nih.gov/42895048/?format=pubmed"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "Research to Prevent Blindness",
+        "statut": "CONFIRMÉ — déclaré dans la notice PubMed (GrantList)",
+        "references": [
+          "Challenge Grant to the Department of Ophthalmology at Emory University"
+        ],
+        "notices": [
+          [
+            "notice PubMed",
+            "https://pubmed.ncbi.nlm.nih.gov/42895048/?format=pubmed"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "Emory University",
+        "statut": "À VÉRIFIER — trouvé par OpenAlex seulement (absent de la déclaration de l'éditeur dans Crossref) ; à contrôler dans le texte de l'article",
+        "references": null,
+        "notices": [
+          [
+            "notice OpenAlex",
+            "https://api.openalex.org/works/W7222934751"
+          ],
+          [
+            "notice Crossref consultée (ne confirme pas ce financeur)",
+            "https://api.crossref.org/works/10.1115/1.4072763"
+          ]
+        ],
+        "note": "cet organisme figure AUSSI parmi les institutions des auteurs : c'est une affiliation, information distincte"
+      },
+      {
+        "nom": "National Institutes of Health",
+        "statut": "CONFIRMÉ — déclaré par l'éditeur dans Crossref",
+        "references": [
+          "EY007092"
+        ],
+        "notices": [
+          [
+            "notice justificative Crossref (déclaration de l'éditeur)",
+            "https://api.crossref.org/works/10.1115/1.4072763"
+          ],
+          [
+            "notice OpenAlex",
+            "https://api.openalex.org/works/W7222934751"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "National Eye Institute",
+        "statut": "À VÉRIFIER — trouvé par OpenAlex seulement (absent de la déclaration de l'éditeur dans Crossref) ; à contrôler dans le texte de l'article",
+        "references": [
+          "R21EY035468",
+          "EY007092",
+          "R01EY030871",
+          "P30EY006360"
+        ],
+        "notices": [
+          [
+            "notice OpenAlex",
+            "https://api.openalex.org/works/W7222934751"
+          ],
+          [
+            "notice Crossref consultée (ne confirme pas ce financeur)",
+            "https://api.crossref.org/works/10.1115/1.4072763"
+          ]
+        ],
+        "note": null
+      }
+    ]
+  }
+}

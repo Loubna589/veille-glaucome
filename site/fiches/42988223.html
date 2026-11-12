@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>PMID 42988223 — fiche article</title><style>
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
+:root{--fond:#f4f7fb;--carte:#fff;--texte:#0f1d33;--doux:#52627a;--bord:#e2e8f0;--accent:#0b4f8a;
+--ok:#146c43;--ok-fond:#e3f4ea;--att:#8a5300;--att-fond:#fdf1d8;--ver:#b42318;--ver-fond:#fdeceb;
+--reg:#3f3c9e;--reg-fond:#ecebfb;--src-fond:#f1f5f9;--mark:#fff1a8;--manque:#b42318;--turquoise:#14b8a6;}
+@media (prefers-color-scheme:dark){:root{--fond:#0a1120;--carte:#101a2c;--texte:#e6edf7;--doux:#9db0ca;
+--bord:#1e2b42;--accent:#6fb4ff;--ok:#6fd6a0;--ok-fond:#12301f;--att:#f3c15e;--att-fond:#352a10;--ver:#ff9a8f;
+--ver-fond:#3a1714;--reg:#b4b2ff;--reg-fond:#24234a;--src-fond:#0d1626;--mark:#5a4d10;--manque:#ff9a8f;--turquoise:#2dd4bf;}}
+*{box-sizing:border-box}body{margin:0;background:var(--fond);color:var(--texte);
+font:15.5px/1.6 "Inter",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+:focus-visible{outline:3px solid var(--turquoise);outline-offset:2px;border-radius:6px}
+main{max-width:1000px;margin:0 auto;padding:20px 18px 64px}
+.bandeau{display:flex;align-items:center;gap:10px;font-weight:800;letter-spacing:-.02em;padding:6px 0 14px;color:var(--texte);text-decoration:none}
+.bandeau i{width:30px;height:30px;border-radius:9px;background:linear-gradient(135deg,#0b4f8a,#14b8a6);display:inline-block}
+header,section{background:var(--carte);border:1px solid var(--bord);border-radius:16px;padding:20px 24px;margin:0 0 16px;
+box-shadow:0 1px 2px rgba(15,29,51,.04),0 6px 20px -8px rgba(15,29,51,.12)}
+h1{font-size:1.45rem;line-height:1.3;margin:.2em 0 .5em}h2{font-size:1.1rem;margin:0 0 .6em;color:var(--accent)}
+h3{font-size:1rem;margin:1.1em 0 .4em}.surtitre{color:var(--doux);margin:0;font-size:.9rem}
+a{color:var(--accent)}small,.def{color:var(--doux)}.def{font-size:.88rem;margin:.2em 0 .6em}
+.grille{display:grid;grid-template-columns:max-content 1fr;gap:4px 16px;margin:12px 0 0}
+.grille dt{color:var(--doux)}.grille dd{margin:0}
+.badge{display:inline-block;font-size:.72rem;font-weight:600;padding:2px 8px;border-radius:999px;margin:2px 4px 2px 0;
+vertical-align:middle;background:var(--src-fond);color:var(--doux)}
+.badge.confirme{background:var(--ok-fond);color:var(--ok)}.badge.attente{background:var(--att-fond);color:var(--att)}
+.badge.verifier{background:var(--ver-fond);color:var(--ver)}.badge.regle{background:var(--reg-fond);color:var(--reg)}
+.rubrique{font-weight:600}.manque{color:var(--manque);font-style:italic}
+mark{background:var(--mark);color:inherit;padding:0 2px;border-radius:3px}
+blockquote{margin:.5em 0;padding:.5em .9em;border-left:3px solid var(--bord);background:var(--src-fond);border-radius:0 6px 6px 0}
+pre{white-space:pre-wrap;font-size:.85rem;background:var(--src-fond);padding:10px;border-radius:6px}
+.defile{overflow-x:auto}table{border-collapse:collapse;width:100%;font-size:.92rem;margin:.4em 0}
+th,td{border:1px solid var(--bord);padding:6px 8px;text-align:left;vertical-align:top}th{background:var(--src-fond)}
+.analyse{background:var(--src-fond);padding:6px 10px;border-radius:6px;font-size:.92rem}
+.acteurs{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px}
+.acteurs>div{border:1px solid var(--bord);border-radius:8px;padding:10px 12px}.acteurs h3{margin-top:0}
+.copier{position:sticky;top:0;z-index:2;display:flex;gap:12px;align-items:center;flex-wrap:wrap;
+background:var(--fond);padding:10px 0;margin-bottom:8px}
+button{font:inherit;font-weight:600;background:var(--accent);color:#fff;border:0;border-radius:8px;padding:9px 16px;cursor:pointer}
+@media (prefers-color-scheme:dark){button{color:#10141a}}
+textarea{width:100%;min-height:260px;font:13px/1.4 ui-monospace,Consolas,monospace;background:var(--src-fond);
+color:var(--texte);border:1px solid var(--bord);border-radius:6px;padding:8px}
+details{margin:.5em 0}summary{cursor:pointer;color:var(--accent)}
+.retour{font-size:.92rem;margin:0 0 4px}
+@media (max-width:600px){.grille{grid-template-columns:1fr}.grille dt{margin-top:6px}header,section{padding:14px}}
+</style></head>
+<body><main>
+<a class="bandeau" href="../index.html"><i aria-hidden="true"></i>Glaucoma Intelligence</a><nav class="retour"><a href="../index.html">Accueil</a> · <a href="../etudes.html">← Essais &amp; articles</a> · <a href="../recherche.html">Rechercher</a> · <a href="../carte.html">Carte des acteurs</a> · <a href="../alertes.html">Alertes</a></nav>
+<div class="copier"><button id="bouton-copier" type="button" onclick="copierFiche()">Copier pour Claude / ChatGPT</button>
+<small>Copie une consigne + les faits de cette fiche, à coller dans votre assistant.</small></div>
+
+    <header>
+      <p class="surtitre">Fiche article · PMID 42988223 · <a href="https://pubmed.ncbi.nlm.nih.gov/42988223/" target="_blank" rel="noopener">voir sur PubMed</a>
+         · <a href="https://doi.org/10.1016/j.ophtha.2026.10.039" target="_blank" rel="noopener">DOI 10.1016/j.ophtha.2026.10.039</a></p>
+      <h1 lang="en">Three-Year Outcomes of Trabeculotomy vs Combined Trabeculotomy-Trabeculectomy for Primary Congenital Glaucoma.</h1>
+      <p><span class="badge confirme">PUBLICATION — le résumé rapporte des résultats</span> <span class="badge verifier">Synthèse fondée UNIQUEMENT sur le résumé PubMed : le texte intégral n'a pas été lu.</span></p>
+      <dl class="grille">
+        <dt>Revue</dt><dd>Ophthalmology</dd>
+        <dt>Entrée dans PubMed</dt><dd>2026-11-05 · publication : 2026-Nov-05</dd>
+        <dt>Type(s) de publication (PubMed)</dt><dd lang="en">Journal Article</dd>
+        <dt>Stade</dt><dd>Non renseigné <small>(pas d'indexation MeSH disponible)</small></dd>
+        <dt>Accès au texte (OpenAlex)</dt><dd>fermé (payant)</dd>
+        <dt>Détecté par l'outil le</dt><dd>2026-11-11</dd>
+      </dl>
+      <p class="rubriques"><strong>Rubrique :</strong> <span class="rubrique">Dispositifs et chirurgie</span> <small>mot du titre : « Trabeculectomy »; mot du titre : « Trabeculotomy »</small> <span class="badge regle">classement automatique — règles dans config/rubriques.ini</span></p>
+    </header>
+<section><h2>Question étudiée <span class="badge source">Résumé PubMed (texte source)</span></h2><blockquote lang="en"><strong>PURPOSE</strong> To determine whether trabeculotomy is noninferior to combined trabeculotomy-trabeculectomy (CTT) for primary congenital glaucoma (PCG) with a horizontal corneal diameter (HCD) of <mark>12</mark>-<mark>14</mark> mm.</blockquote></section><section><h2>Traitement ou technologie, et comparateur <span class="badge regle">règle automatique de l'outil</span></h2><ul><li><span class="manque">Aucun produit suivi ni molécule repérés automatiquement</span></li></ul><p class="def">Aucun rôle n'est confirmé : PubMed ne décrit pas les bras d'une étude. Un rôle pourrait être confirmé par le registre d'un essai lié de façon confirmée.</p></section><section><h2>Type d'étude et méthode <span class="badge source">Résumé PubMed (texte source)</span><span class="badge source">PubMed (types de publication)</span></h2><p>Type(s) de publication déclaré(s) par PubMed : <span lang="en">Journal Article</span></p><blockquote lang="en"><strong>DESIGN</strong> Prospective, randomized, controlled noninferiority trial.</blockquote><blockquote lang="en"><strong>PARTICIPANTS</strong> Children from birth through <mark>3</mark> years of age with PCG, a HCD of <mark>12</mark> to <mark>14</mark> mm, and no previous intraocular or laser surgery were eligible. Two hundred and forty-eight children were enrolled from January <mark>2015</mark> through April <mark>2021</mark>, and the final follow-up was completed in April <mark>2024</mark>.</blockquote><blockquote lang="en"><strong>METHODS</strong> One eligible eye per child was randomly assigned in a <mark>1</mark>:<mark>1</mark> ratio to trabeculotomy or CTT.</blockquote><blockquote lang="en"><strong>MAIN OUTCOME MEASURES</strong> The primary outcome was qualified surgical success at <mark>36</mark> months, defined as an intraocular pressure (IOP) of <mark>5</mark> to <mark>21 mmHg</mark> with or without glaucoma medications, without vision-threatening complications or additional glaucoma surgery. The noninferiority margin was <mark>-15</mark> percentage points. Exploratory secondary outcomes included changes in IOP, ocular morphometric and functional outcomes, and adverse events.</blockquote></section><section><h2>Population et participants (phrases du résumé) <span class="badge source">Résumé PubMed (texte source)</span></h2><blockquote lang="en">Prospective, randomized, controlled noninferiority trial.</blockquote><blockquote lang="en">Two hundred and forty-eight children were enrolled from January <mark>2015</mark> through April <mark>2021</mark>, and the final follow-up was completed in April <mark>2024</mark>.</blockquote><blockquote lang="en">In the intention-to-treat population, qualified success at <mark>36</mark> months was achieved in <mark>102</mark> of <mark>124</mark> eyes (<mark>82.3%</mark>) in the trabeculotomy group and <mark>105</mark> of <mark>124</mark> eyes (<mark>84.7%</mark>) in the CTT group (risk difference: <mark>-2.4%</mark>; <mark>95%</mark>CI, <mark>-11.7</mark> to <mark>6.9</mark>;</blockquote></section><section><h2>Résultats disponibles <span class="badge source">Résumé PubMed (texte source)</span></h2><p class="def">Valeurs chiffrées surlignées telles qu'elles figurent dans le résumé. Elles n'ont pas été vérifiées dans le texte intégral.</p><blockquote lang="en"><strong>RESULTS</strong> Overall, <mark>124</mark> children were assigned to trabeculotomy (mean age, <mark>9.8</mark> months; <mark>76.6%</mark> male) and <mark>124</mark> to CTT (mean age, <mark>9.9</mark> months; <mark>68.5%</mark> male). In the intention-to-treat population, qualified success at <mark>36</mark> months was achieved in <mark>102</mark> of <mark>124</mark> eyes (<mark>82.3%</mark>) in the trabeculotomy group and <mark>105</mark> of <mark>124</mark> eyes (<mark>84.7%</mark>) in the CTT group (risk difference: <mark>-2.4%</mark>; <mark>95%</mark>CI, <mark>-11.7</mark> to <mark>6.9</mark>; Pnoninferiority= <mark>0.004</mark>). Corresponding rates in the per-protocol population were <mark>90.3%</mark> and <mark>92.9%</mark>, respectively (risk difference <mark>-2.6%</mark>; <mark>95%</mark>CI <mark>-10.3</mark> to <mark>4.9</mark>; Pnoninferiority&lt; <mark>0.001</mark>). Mean IOP reduction was <mark>-12.1 mm Hg</mark> (<mark>95%</mark>CI, <mark>-12.9</mark> to <mark>-11.4</mark>) and <mark>-13.2 mm Hg</mark> (<mark>95%</mark>CI, <mark>-14.0</mark> to <mark>-12.4</mark>) in the trabeculotomy and CTT groups, respectively (P=<mark>0.067</mark>). No statistically significant between-group differences were observed in other secondary outcomes. Adverse events occurred in <mark>56</mark> children (<mark>45.2%</mark>) in the trabeculotomy group and <mark>67</mark> (<mark>54.0%</mark>) in the CTT group (P <mark>= 0.162</mark>). Hyphema was the most common adverse event in both groups, and most cases resolved spontaneously.</blockquote></section><section><h2>Données de tolérance (phrases du résumé) <span class="badge source">Résumé PubMed (texte source)</span></h2><blockquote lang="en">The primary outcome was qualified surgical success at <mark>36</mark> months, defined as an intraocular pressure (IOP) of <mark>5</mark> to <mark>21 mmHg</mark> with or without glaucoma medications, without vision-threatening complications or additional glaucoma surgery.</blockquote><blockquote lang="en">Exploratory secondary outcomes included changes in IOP, ocular morphometric and functional outcomes, and adverse events.</blockquote><blockquote lang="en">Adverse events occurred in <mark>56</mark> children (<mark>45.2%</mark>) in the trabeculotomy group and <mark>67</mark> (<mark>54.0%</mark>) in the CTT group (P <mark>= 0.162</mark>).</blockquote><blockquote lang="en">Hyphema was the most common adverse event in both groups, and most cases resolved spontaneously.</blockquote></section><section><h2>Conclusion des auteurs (citée telle quelle, non évaluée par l'outil) <span class="badge source">Résumé PubMed (texte source)</span></h2><blockquote lang="en"><strong>CONCLUSIONS</strong> Trabeculotomy was noninferior to CTT for qualified surgical success at <mark>36</mark> months in PCG patients with a HCD of <mark>12</mark>-<mark>14</mark> mm. These findings suggest that trabeculotomy may be an alternative to CTT in this population.</blockquote></section><section><h2>Essai clinique lié <span class="badge source">PubMed (DataBankList et texte)</span></h2><ul><li><span class="manque">Aucun essai lié identifié</span></li></ul></section><section><h2>Promoteur, financeur et affiliations <span class="badge source">PubMed</span><span class="badge source">OpenAlex</span><span class="badge source">Crossref</span></h2><div class="acteurs">
+      <div><h3>Promoteur d'essai</h3><p class="def">Organisme responsable d'un essai, déclaré au registre.</p><p><span class="manque">Non affiché : aucun essai lié de façon confirmée</span></p></div>
+      <div><h3>Financeur</h3><p class="def">Organisme qui a financé la recherche, avec la notice qui le justifie.</p><ul><li><strong>Sun Yat-Sen University</strong> <span class="badge confirme">CONFIRMÉ — déclaré par l'éditeur dans Crossref (absent d'OpenAlex)</span><br><small><a href="https://api.crossref.org/works/10.1016/j.ophtha.2026.10.039" target="_blank" rel="noopener">notice justificative Crossref (déclaration de l'éditeur)</a></small></li></ul></div>
+      <div><h3>Affiliations des auteurs</h3><p class="def">Établissements où travaillent les auteurs (pas un financement).</p><p><small>Institutions normalisées (OpenAlex) :</small></p><ul><li>Sun Yat-sen University <small>(CN, enseignement/recherche)</small></li><li>State Key Laboratory of Ophthalmology <small>(CN, infrastructure)</small></li><li>Zhongshan Ophthalmic Center, Sun Yat-sen University <small>(CN, santé/hôpital)</small></li><li>The First Affiliated Hospital, Sun Yat-sen University <small>(CN, santé/hôpital)</small></li></ul><details><summary>Affiliations telles que déclarées dans PubMed (4)</summary><ul><li>State Key Laboratory of Ophthalmology, Zhongshan Ophthalmic Center, Sun Yat-sen University, Guangdong Provincial Key Laboratory of Ophthalmology and Visual Science, Guangdong Provincial Clinical Research Center for Ocular Diseases,Guangzhou 510060,China.</li><li>The Ophthalmology Department, the First Affiliated Hospital of Sun Yat-sen University, Guangzhou, China.</li><li>State Key Laboratory of Ophthalmology, Zhongshan Ophthalmic Center, Sun Yat-sen University, Guangdong Provincial Key Laboratory of Ophthalmology and Visual Science, Guangdong Provincial Clinical Research Center for Ocular Diseases,Guangzhou 510060,China. Electronic address: zhongyim@mail.sysu.edu.cn.</li><li>State Key Laboratory of Ophthalmology, Zhongshan Ophthalmic Center, Sun Yat-sen University, Guangdong Provincial Key Laboratory of Ophthalmology and Visual Science, Guangdong Provincial Clinical Research Center for Ocular Diseases,Guangzhou 510060,China. Electronic address: liuxing@mail.sysu.edu.cn.</li></ul></details></div>
+    </div></section>
+<section><h2>Ce qui manque <span class="badge regle">calculé par l'outil</span></h2><p>Toutes les rubriques ont au moins une information.</p></section>
+<section><h2>Limites, intérêt pour la veille marketing, à retenir <span class="badge attente">non produit par l'outil</span></h2><p><span class="manque">Non rédigé automatiquement : les données extraites ne suffisent pas à produire une analyse fiable sans interprétation. Utilisez le bouton « Copier pour Claude / ChatGPT » pour obtenir une proposition, à vérifier.</span></p></section>
+<section><details><summary>Voir le texte copié par le bouton</summary>
+<textarea id="a-copier" readonly>Tu es assistant de veille scientifique sur le glaucome. À partir UNIQUEMENT des informations ci-dessous, rédige en français une fiche de synthèse avec ces rubriques :
+1. Question étudiée
+2. Traitement ou technologie
+3. Type d&#x27;étude
+4. Population et nombre de participants
+5. Comparateur
+6. Critères évalués
+7. Principaux résultats chiffrés (recopie les valeurs exactes et indique leur source)
+8. Données de tolérance
+9. Limites
+10. Intérêt potentiel pour une veille marketing — présenté comme une INTERPRÉTATION, séparé des faits
+11. À retenir (une phrase)
+
+Règles :
+- N&#x27;invente rien. Si une information manque, écris « non rapporté ».
+- Distingue un essai simplement enregistré, un protocole, des résultats déposés dans un registre et une publication de résultats.
+- Si la source est seulement le résumé d&#x27;un article, indique que la synthèse repose uniquement sur ce résumé.
+- Les rôles « suggérés » (traitement étudié / comparateur) sont à vérifier dans le texte source.
+- Ne confonds pas promoteur d&#x27;essai, financeur et affiliation des auteurs.
+- Termine par la liste des points à vérifier.
+
+=== INFORMATIONS ===
+SOURCE : PubMed, PMID 42988223 — https://pubmed.ncbi.nlm.nih.gov/42988223/ · DOI https://doi.org/10.1016/j.ophtha.2026.10.039
+BASE : résumé PubMed uniquement (texte intégral non lu)
+Titre : Three-Year Outcomes of Trabeculotomy vs Combined Trabeculotomy-Trabeculectomy for Primary Congenital Glaucoma.
+Revue : Ophthalmology · entrée PubMed : 2026-11-05
+Types de publication (PubMed) : Journal Article
+Produits repérés automatiquement (rôles SUGGÉRÉS, à vérifier) : aucun
+Molécules hors liste (repérage automatique, à vérifier) : aucune
+Essai lié : aucun
+Financeurs : Sun Yat-Sen University [CONFIRMÉ — déclaré par l&#x27;éditeur dans Crossref (absent d&#x27;OpenAlex)]
+Affiliations (institutions, pas des financeurs) : Sun Yat-sen University (CN, education); State Key Laboratory of Ophthalmology (CN, facility); Zhongshan Ophthalmic Center, Sun Yat-sen University (CN, healthcare); The First Affiliated Hospital, Sun Yat-sen University (CN, healthcare)
+
+RÉSUMÉ (texte source) :
+PURPOSE: To determine whether trabeculotomy is noninferior to combined trabeculotomy-trabeculectomy (CTT) for primary congenital glaucoma (PCG) with a horizontal corneal diameter (HCD) of 12-14 mm.
+DESIGN: Prospective, randomized, controlled noninferiority trial.
+PARTICIPANTS: Children from birth through 3 years of age with PCG, a HCD of 12 to 14 mm, and no previous intraocular or laser surgery were eligible. Two hundred and forty-eight children were enrolled from January 2015 through April 2021, and the final follow-up was completed in April 2024.
+METHODS: One eligible eye per child was randomly assigned in a 1:1 ratio to trabeculotomy or CTT.
+MAIN OUTCOME MEASURES: The primary outcome was qualified surgical success at 36 months, defined as an intraocular pressure (IOP) of 5 to 21 mmHg with or without glaucoma medications, without vision-threatening complications or additional glaucoma surgery. The noninferiority margin was -15 percentage points. Exploratory secondary outcomes included changes in IOP, ocular morphometric and functional outcomes, and adverse events.
+RESULTS: Overall, 124 children were assigned to trabeculotomy (mean age, 9.8 months; 76.6% male) and 124 to CTT (mean age, 9.9 months; 68.5% male). In the intention-to-treat population, qualified success at 36 months was achieved in 102 of 124 eyes (82.3%) in the trabeculotomy group and 105 of 124 eyes (84.7%) in the CTT group (risk difference: -2.4%; 95%CI, -11.7 to 6.9; Pnoninferiority= 0.004). Corresponding rates in the per-protocol population were 90.3% and 92.9%, respectively (risk difference -2.6%; 95%CI -10.3 to 4.9; Pnoninferiority&lt; 0.001). Mean IOP reduction was -12.1 mm Hg (95%CI, -12.9 to -11.4) and -13.2 mm Hg (95%CI, -14.0 to -12.4) in the trabeculotomy and CTT groups, respectively (P=0.067). No statistically significant between-group differences were observed in other secondary outcomes. Adverse events occurred in 56 children (45.2%) in the trabeculotomy group and 67 (54.0%) in the CTT group (P = 0.162). Hyphema was the most common adverse event in both groups, and most cases resolved spontaneously.
+CONCLUSIONS: Trabeculotomy was noninferior to CTT for qualified surgical success at 36 months in PCG patients with a HCD of 12-14 mm. These findings suggest that trabeculotomy may be an alternative to CTT in this population.</textarea></details></section>
+<p><small>Fiche générée le 2026-11-11 22:40 par Glaucoma Intelligence. Extraits des sources en langue originale.</small></p>
+</main><script>
+function copierFiche(){
+  var zone=document.getElementById('a-copier'), bouton=document.getElementById('bouton-copier');
+  function fait(){bouton.textContent='Copié ✓ — collez dans Claude ou ChatGPT';setTimeout(function(){bouton.textContent='Copier pour Claude / ChatGPT'},3000);}
+  function secours(){zone.parentElement.open=true;zone.select();try{document.execCommand('copy');fait();}
+    catch(err){bouton.textContent='Sélectionnez le texte ci-dessous puis Ctrl+C';}}
+  if(navigator.clipboard&&window.isSecureContext){navigator.clipboard.writeText(zone.value).then(fait,secours);}else{secours();}
+}
+</script></body></html>

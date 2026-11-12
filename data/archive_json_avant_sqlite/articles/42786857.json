@@ -1,0 +1,51 @@
+{
+  "pmid": "42786857",
+  "premiere_detection": "2026-09-25",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42786857",
+    "titre": "Metformin as an Emerging Candidate for Diabetic Retinopathy, Agerelated Macular Degeneration and Glaucoma Pharmacotherapy: Evidence and Perspectives.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42786857/",
+    "doi": "10.2174/0127724328519947260917114932",
+    "pmcid": null,
+    "revue": "Current reviews in clinical and experimental pharmacology",
+    "date_entree_pubmed": "2026-09-25",
+    "date_publication": "2026-Sep-24",
+    "types_publication": [
+      "Journal Article"
+    ],
+    "resume_present": true,
+    "resume": "Varying degrees of visual impairment up to complete blindness are widespread and represent a public health problem with a highly demarсated escalation. Currently, the leading causes of blindness are Diabetic Retinopathy (DR), Age-Related Macular Degeneration (AMD), and glaucoma, with an obvious exponential enlargement of vulnerable population groups as a result of urbanization followed by lifestyle changes and growth of the aging population. Management of these diseases is still challenging. The development of intraocular therapy with antiangiogenics or Vascular Endothelial Growth Factor inhibitors (anti-VEGF) opens a new avenue in eye disease treatment; however, despite these advances, new concerns are raised. DR, AMD, and glaucoma represent diseases with bilateral involvement, which underscores a need for oral systemic preventive therapy targeting both eyes simultaneously, as a cost-effectively optimized approach. At the same time, there is a need for a multi-target drug with preventive and therapeutic potential not only for eye diseases, but also for systemic diseases in patients with multimorbidity. Continued research has the potential to enhance druggability of the leading causes of blindness. A growing body of evidence suggests that metformin, as a drug with multimodal activity, has good preventive and therapeutic potential, opening a new avenue in ocular pharmacotherapy.",
+    "mots_cles_auteurs": [
+      "Blindness",
+      "diabetic retinopathy",
+      "glaucoma",
+      "macular degeneration",
+      "metformin",
+      "multimorbidity"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 1,
+    "affiliations_auteurs": [
+      "Department of Ophthalmology, Yerevan State Medical University, Yerevan, Armenia."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    }
+  }
+}

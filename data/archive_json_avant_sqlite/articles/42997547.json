@@ -1,0 +1,101 @@
+{
+  "pmid": "42997547",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42997547",
+    "titre": "Iris melanoma with seeding along a glaucoma drainage device: A case report.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42997547/",
+    "doi": "10.1016/j.ajoc.2026.102702",
+    "pmcid": "PMC13742268",
+    "revue": "American journal of ophthalmology case reports",
+    "date_entree_pubmed": "2026-11-07",
+    "date_publication": "2026-Dec",
+    "types_publication": [
+      "Case Reports",
+      "Journal Article"
+    ],
+    "resume_present": true,
+    "resume": "INTRODUCTION: Iris melanoma represents approximately 4% of uveal melanomas, and extraocular seeding is rare. Tumor spread along a glaucoma drainage device is exceptionally uncommon and may mimic inflammatory or vascular processes, leading to delayed diagnosis.\nCASE PRESENTATION: A 78-year-old male with advanced glaucoma and prior glaucoma drainage devices developed a progressively enlarging, vascular, initially amelanotic iris lesion with rising intraocular pressure. Over several months, the lesion became increasingly pigmented with new subconjunctival changes. Early fine-needle aspiration was limited by low cellularity and lack of ocular pathology review, yielding a small nonspecific lymphoid population insufficient for diagnosis. As clinical progression continued, conjunctival biopsies performed using a no-touch technique confirmed malignant melanoma. Intraoperative findings demonstrated tumor extension from the iris into the subconjunctival space along a prior glaucoma drainage tract, prompting orbital exenteration. The patient was advised to complete adjuvant radiation therapy, but was subsequently lost to follow-up. He later re-established care with outside oncology providers, where he was diagnosed with metastatic parotid involvement and began systemic immunotherapy.\nCONCLUSION: This case illustrates a rare presentation of iris melanoma with extraocular seeding through a glaucoma drainage device. Recognition of vascular or amelanotic iris lesions, attention to rising intraocular pressure, and timely no-touch biopsy are critical. Long-term multidisciplinary surveillance remains essential due to metastatic potential.",
+    "mots_cles_auteurs": [
+      "Extraocular extension",
+      "Glaucoma drainage device",
+      "Iris melanoma",
+      "Surgical seeding",
+      "Uveal melanoma"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 4,
+    "affiliations_auteurs": [
+      "University of Florida College of Medicine, Gainesville, FL, USA.",
+      "Department of Ophthalmology, University of Florida, Gainesville, FL, USA."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": [
+        "subconjunctival"
+      ],
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7223311145",
+      "doi": "10.1016/j.ajoc.2026.102702",
+      "pmid": "42997547",
+      "pmcid": "13742268",
+      "titre": "Iris melanoma with seeding along a glaucoma drainage device: A case report",
+      "lien": "https://openalex.org/W7223311145",
+      "date_publication": "2026-10-23",
+      "type": "article",
+      "revue": "American Journal of Ophthalmology Case Reports",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "doaj",
+        "pubmed"
+      ],
+      "financeurs": null,
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "University of Florida Health",
+          "pays": "US",
+          "type": "education",
+          "ror": "https://ror.org/04tk2gy88"
+        },
+        {
+          "nom": "University of Florida",
+          "pays": "US",
+          "type": "education",
+          "ror": "https://ror.org/02y3ad647"
+        }
+      ],
+      "acces_ouvert": true,
+      "statut_acces": "gold",
+      "url_texte": "https://doi.org/10.1016/j.ajoc.2026.102702",
+      "url_pdf": null,
+      "licence": "cc-by-nc-nd",
+      "texte_integral_indexe": true,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Ocular Oncology and Treatments",
+      "resume_present": true,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": []
+  }
+}

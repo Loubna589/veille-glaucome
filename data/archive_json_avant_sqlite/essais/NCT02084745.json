@@ -1,0 +1,152 @@
+{
+  "nct": "NCT02084745",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "nct": "NCT02084745",
+    "titre": "Timing of Glaucoma Drainage Device With Boston Keratoprosthesis",
+    "titre_officiel": "Timing of Glaucoma Drainage Device Implantation With Boston Keratoprosthesis Surgery",
+    "lien": "https://clinicaltrials.gov/study/NCT02084745",
+    "date_premiere_publication": "2014-03-12",
+    "date_derniere_mise_a_jour": "2026-10-23",
+    "type_etude": "INTERVENTIONAL",
+    "phases_declarees": [
+      "NA"
+    ],
+    "statut": "RECRUITING",
+    "raison_arret": null,
+    "date_debut": "2014-05-26",
+    "date_fin_principale": "2028-12-31",
+    "promoteur": "Centre hospitalier de l'Université de Montréal (CHUM)",
+    "type_promoteur": "OTHER",
+    "collaborateurs": null,
+    "conditions": [
+      "Corneal Transplantation",
+      "Glaucoma"
+    ],
+    "interventions": [
+      {
+        "type": "PROCEDURE",
+        "nom": "Boston keratoprosthesis type 1"
+      },
+      {
+        "type": "PROCEDURE",
+        "nom": "Glaucoma drainage device"
+      }
+    ],
+    "participants_nombre": 40,
+    "participants_type": "ESTIMATED",
+    "criteres_principaux": [
+      {
+        "critere": "Visual field mean deviation",
+        "delai": "Change from baseline visual field mean deviation at 12 months"
+      }
+    ],
+    "resultats_deposes": false,
+    "publications_declarees": [
+      {
+        "pmid": "19724214",
+        "type": "BACKGROUND"
+      },
+      {
+        "pmid": "21191292",
+        "type": "BACKGROUND"
+      },
+      {
+        "pmid": "19243830",
+        "type": "BACKGROUND"
+      },
+      {
+        "pmid": "21982110",
+        "type": "BACKGROUND"
+      }
+    ],
+    "resume_source": "Boston keratoprosthesis (KPro) is a piece of specialized plastic that replace sick cornea (transparent structure at the front of the eye) in patients who have failed or those who are expected to have poor results with traditional corneal transplantation. While the Kpro can offer dramatic improvement in vision, it is also associated with several complications. Glaucoma (optic nerve damage due to high pressure inside the eye) is one of the most common complications after KPro surgery and can potentially cause irreversible vision loss. The implantation of a glaucoma drainage device (GDD), a tiny tube that drains the liquid inside the eye by bypassing the natural drainage system, is an effective option to lower the eye pressure in patients with KPro. Given the frequency and potentially devastating effects of glaucoma among KPro patients, some surgeons recommend to put in a GDD as a preventative measure. However, there is no consensus on when is the best timing to perform such surgery in relation to the Boston Kpro surgery.\n\nHypothesis:\n\nFor patients undergoing the Boston KPro surgery, implanting a GDD simultaneously, at the time of surgery, is more efficacious than at 6 months later, in the prevention of the progression of glaucoma and in maintaining better visual functions.\n\nMethods:\n\nThe investigators aim to recruit 40 patients over 4 years. Recruited patients will be randomly assigned to 2 groups: 1) simultaneous GDD implantation at the Boston KPro surgery, and 2) GDD implantation 6 months after the Boston KPro surgery.\n\nOnce recruited, patients will be followed before the KPro surgery, postoperative day 1, week 1, month 1, 3, 6 and 12. Standard ophthalmological exam will be performed at each visit. Additional non-invasive glaucoma tests and evaluation (visual fields and optic nerve photo) will be performed on day 1, month 1, 3, 6 and 12.\n\nFor patients assigned to group 2, a GDD will be implanted 6 months after the KPro surgery. They will have additional follow-ups on post-GDD surgery day 1, week 1 and month 1.\n\nResults of visual acuity, visual fields, optic nerve evaluation and complications will be compared between the two groups to determine the better timing of GDD implantation.",
+    "citations_declarees": [
+      {
+        "pmid": "19724214",
+        "type": "BACKGROUND",
+        "citation": "Chew HF, Ayres BD, Hammersmith KM, Rapuano CJ, Laibson PR, Myers JS, Jin YP, Cohen EJ. Boston keratoprosthesis outcomes and complications. Cornea. 2009 Oct;28(9):989-96. doi: 10.1097/ICO.0b013e3181a186dc."
+      },
+      {
+        "pmid": "21191292",
+        "type": "BACKGROUND",
+        "citation": "Banitt M. Evaluation and management of glaucoma after keratoprosthesis. Curr Opin Ophthalmol. 2011 Mar;22(2):133-6. doi: 10.1097/ICU.0b013e328343723d."
+      },
+      {
+        "pmid": "19243830",
+        "type": "BACKGROUND",
+        "citation": "Aldave AJ, Kamal KM, Vo RC, Yu F. The Boston type I keratoprosthesis: improving outcomes and expanding indications. Ophthalmology. 2009 Apr;116(4):640-51. doi: 10.1016/j.ophtha.2008.12.058. Epub 2009 Feb 25."
+      },
+      {
+        "pmid": "21982110",
+        "type": "BACKGROUND",
+        "citation": "Talajic JC, Agoumi Y, Gagne S, Moussally K, Harissi-Dagher M. Prevalence, progression, and impact of glaucoma on vision after Boston type 1 keratoprosthesis surgery. Am J Ophthalmol. 2012 Feb;153(2):267-274.e1. doi: 10.1016/j.ajo.2011.07.022. Epub 2011 Oct 7."
+      }
+    ],
+    "plan": {
+      "repartition": "RANDOMIZED",
+      "modele": "PARALLEL",
+      "but_principal": "TREATMENT",
+      "insu": "NONE",
+      "insu_pour": null,
+      "insu_description": null,
+      "modele_observationnel": null
+    },
+    "bras": [
+      {
+        "libelle": "Simultaneous implantation",
+        "type": "ACTIVE_COMPARATOR",
+        "description": "Simultaneous implantation of a glaucoma drainage device at the time of Boston keratoprosthesis type 1 surgery",
+        "interventions": [
+          "Procedure: Boston keratoprosthesis type 1",
+          "Procedure: Glaucoma drainage device"
+        ]
+      },
+      {
+        "libelle": "Implantation at post-Kpro at 6 months",
+        "type": "ACTIVE_COMPARATOR",
+        "description": "Implantation of a glaucoma drainage device 6 months after Boston keratoprosthesis type 1 surgery",
+        "interventions": [
+          "Procedure: Boston keratoprosthesis type 1",
+          "Procedure: Glaucoma drainage device"
+        ]
+      }
+    ],
+    "eligibilite": {
+      "criteres": "Inclusion Criteria:\n\n* Candidate for corneal transplantation due to loss of corneal clarity\n* Verifiable history of one or more previous full thickness donor corneal transplantation failure\n* Pre-operative visual acuity of ≤20/80 or worse in the surgical eye\n* Age ≥18 years\n* Physical condition suitable for undergoing surgery\n\nExclusion Criteria:\n\n* Terminal glaucoma\n* Terminal retinal diseases",
+      "age_min": "18 Years",
+      "age_max": null,
+      "sexe": "ALL",
+      "volontaires_sains": false
+    },
+    "criteres_secondaires": [
+      {
+        "critere": "Disc Damage Likelihood Scale (DDLS) on clinical examination",
+        "delai": "Change from baseline DDLS on clinical examination at 12 months"
+      },
+      {
+        "critere": "Disc Damage Likelihood Scale (DDLS) on stereoscopic photographs of the optic nerve",
+        "delai": "Change from baseline DDLS on optic nerve photographs at 12 months"
+      },
+      {
+        "critere": "Incidence of ocular complications",
+        "delai": "12 months after KPro"
+      },
+      {
+        "critere": "Change of visual acuity",
+        "delai": "12 months after KPro"
+      }
+    ],
+    "responsables": [
+      {
+        "nom": "Mona Harissi-Dagher, MD, FRCSC",
+        "affiliation": "Department of Ophthalmology, Centre Hospitalier de l'Université de Montréal",
+        "role": "PRINCIPAL_INVESTIGATOR"
+      }
+    ],
+    "date_depot_resultats": null,
+    "resultats": null
+  },
+  "modifications": []
+}

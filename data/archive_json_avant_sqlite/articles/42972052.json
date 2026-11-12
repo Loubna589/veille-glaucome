@@ -1,0 +1,240 @@
+{
+  "pmid": "42972052",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42972052",
+    "titre": "Making better use of patients' time: feasibility of performing self-administered vision assessments in waiting rooms.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42972052/",
+    "doi": "10.1038/s41433-026-04874-7",
+    "pmcid": null,
+    "revue": "Eye (London, England)",
+    "date_entree_pubmed": "2026-11-02",
+    "date_publication": "2026-Nov-02",
+    "types_publication": [
+      "Journal Article"
+    ],
+    "resume_present": true,
+    "resume": "BACKGROUND: Patients often spend significant time in clinic waiting rooms. This study assessed the feasibility of using this \"wasted\" time to perform self-administered vision assessments directly within the waiting area.\nMETHODS: Glaucoma patients attending routine appointments were asked to complete either a pen-and-paper (SpotChecks) or digital (PopCSF) contrast sensitivity (CS) test. Ambient illuminance, background noise, and crowd levels were recorded to assess potential environmental confounds. Test durations and patient feedback were recorded. Visual-Functioning Index-7 (VF-7) and Pelli-Robson CS (reference) test results were collected for comparison.\nRESULTS: Of 173 patients approached, 155 (89.6%) agreed to participate, and 151(97.4%) participants completed testing before their appointment (77/78 pen-and-paper; 74/74 digital). Environmental factors had no significant impact (all P > 0.05). Median completion times were 3.0 {2.6-4.5} minutes (pen-and-paper) and 2.5 {2.0-3.5} minutes (digital). Age did not impact the pen-and-paper test duration (P = 0.944) but weakly correlated with the digital test duration (rdigital = 0.27, P = 0.020). Functional CS scores correlated with Pelli-Robson reference measurements (rpen-and-paper = 0.81; rdigital = 0.62), age (rpen-and-paper = -0.58; rdigital = -0.37), logMAR visual acuity (rpen-and-paper = -0.42; rdigital = -0.44), and visual field mean deviation scores (rpen-and-paper = -0.54; rdigital = -0.63). Both tests were highly acceptable to patients ( > 80% on all questions). Visit durations were longer for participants (109 vs 88 min, P = 0.007), but this was attributed to consenting and related research activities rather than the tests themselves.\nCONCLUSIONS: This proof-of-concept study demonstrates that it is feasible for patients to self-administer portable vision tests in clinic waiting rooms. Using CS as a representative example, this approach may enable additional data collection, potentially improving patient management, clinic flow, and/or patient satisfaction.",
+    "mots_cles_auteurs": null,
+    "langue": "eng",
+    "nombre_auteurs": 9,
+    "affiliations_auteurs": [
+      "Department of Optometry and Visual Science, School of Health & Medical Sciences, City St. George's, University of London, London, England.",
+      "Research Centre for Better Living, Anglia Ruskin University, Cambridge, England.",
+      "Glaucoma Service, Moorfields Eye Hospital, NHS Foundation Trust, London, England.",
+      "Research and Development, Bedford Hospital (South Wing), Bedfordshire Hospitals NHS Trust, Bedford, England.",
+      "Moorfields Eye Hospital NHS Foundation Trust, NIHR Biomedical Research Centre, London, United Kingdom.",
+      "Department of Optometry and Visual Science, School of Health & Medical Sciences, City St. George's, University of London, London, England. Peter.Jones@citystgeorges.ac.uk.",
+      "UCL Institute of Ophthalmology, London, England. Peter.Jones@citystgeorges.ac.uk."
+    ],
+    "financeurs_declares": [
+      {
+        "organisme": "EC | Horizon 2020 Framework Programme (EU Framework Programme for Research and Innovation H2020)",
+        "pays": "",
+        "reference": "955590"
+      },
+      {
+        "organisme": "EC | Horizon 2020 Framework Programme (EU Framework Programme for Research and Innovation H2020)",
+        "pays": "",
+        "reference": "955590"
+      }
+    ],
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7225113540",
+      "doi": "10.1038/s41433-026-04874-7",
+      "pmid": "42972052",
+      "pmcid": null,
+      "titre": "Making better use of patients’ time: feasibility of performing self-administered vision assessments in waiting rooms",
+      "lien": "https://openalex.org/W7225113540",
+      "date_publication": "2026-11-02",
+      "type": "article",
+      "revue": "Eye",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "pubmed"
+      ],
+      "financeurs": [
+        {
+          "nom": "European Commission",
+          "ror": "https://ror.org/00k4n6c32"
+        },
+        {
+          "nom": "Horizon 2020 Framework Programme",
+          "ror": "https://ror.org/00k4n6c32"
+        }
+      ],
+      "subventions": [
+        {
+          "financeur": "European Commission",
+          "reference": "955590"
+        }
+      ],
+      "institutions": [
+        {
+          "nom": "City St George's, University of London",
+          "pays": "GB",
+          "type": "education",
+          "ror": "https://ror.org/047ybhc09"
+        },
+        {
+          "nom": "Anglia Ruskin University",
+          "pays": "GB",
+          "type": "education",
+          "ror": "https://ror.org/0009t4v78"
+        },
+        {
+          "nom": "National Health Service",
+          "pays": "GB",
+          "type": "healthcare",
+          "ror": "https://ror.org/02wnqcb97"
+        },
+        {
+          "nom": "Moorfields Eye Hospital NHS Foundation Trust",
+          "pays": "GB",
+          "type": "healthcare",
+          "ror": "https://ror.org/03zaddr67"
+        },
+        {
+          "nom": "Bedford Hospital NHS Trust",
+          "pays": "GB",
+          "type": "healthcare",
+          "ror": "https://ror.org/031nbgr73"
+        },
+        {
+          "nom": "Bedford Hospital",
+          "pays": "GB",
+          "type": "healthcare",
+          "ror": "https://ror.org/045s3rx57"
+        },
+        {
+          "nom": "NIHR Moorfields Biomedical Research Centre",
+          "pays": "GB",
+          "type": "facility",
+          "ror": "https://ror.org/004hydx84"
+        },
+        {
+          "nom": "City, University of London",
+          "pays": "GB",
+          "type": "education",
+          "ror": "https://ror.org/04489at23"
+        },
+        {
+          "nom": "University College London",
+          "pays": "GB",
+          "type": "education",
+          "ror": "https://ror.org/02jx3x895"
+        }
+      ],
+      "acces_ouvert": true,
+      "statut_acces": "hybrid",
+      "url_texte": "https://www.nature.com/articles/s41433-026-04874-7.pdf",
+      "url_pdf": "https://www.nature.com/articles/s41433-026-04874-7.pdf",
+      "licence": "cc-by",
+      "texte_integral_indexe": true,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Glaucoma and retinal disorders",
+      "resume_present": true,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": [
+      {
+        "nom": "EC | Horizon 2020 Framework Programme (EU Framework Programme for Research and Innovation H2020)",
+        "statut": "CONFIRMÉ — déclaré dans la notice PubMed (GrantList)",
+        "references": [
+          "955590"
+        ],
+        "notices": [
+          [
+            "notice PubMed",
+            "https://pubmed.ncbi.nlm.nih.gov/42972052/?format=pubmed"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "EC | Horizon 2020 Framework Programme (EU Framework Programme for Research and Innovation H2020)",
+        "statut": "CONFIRMÉ — déclaré dans la notice PubMed (GrantList)",
+        "references": [
+          "955590"
+        ],
+        "notices": [
+          [
+            "notice PubMed",
+            "https://pubmed.ncbi.nlm.nih.gov/42972052/?format=pubmed"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "European Commission",
+        "statut": "À VÉRIFIER — trouvé par OpenAlex seulement (absent de la déclaration de l'éditeur dans Crossref) ; à contrôler dans le texte de l'article",
+        "references": [
+          "955590"
+        ],
+        "notices": [
+          [
+            "notice OpenAlex",
+            "https://api.openalex.org/works/W7225113540"
+          ],
+          [
+            "notice Crossref consultée (ne confirme pas ce financeur)",
+            "https://api.crossref.org/works/10.1038/s41433-026-04874-7"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "Horizon 2020 Framework Programme",
+        "statut": "À VÉRIFIER — trouvé par OpenAlex seulement (absent de la déclaration de l'éditeur dans Crossref) ; à contrôler dans le texte de l'article",
+        "references": null,
+        "notices": [
+          [
+            "notice OpenAlex",
+            "https://api.openalex.org/works/W7225113540"
+          ],
+          [
+            "notice Crossref consultée (ne confirme pas ce financeur)",
+            "https://api.crossref.org/works/10.1038/s41433-026-04874-7"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "EC | Horizon 2020 Framework Programme",
+        "statut": "CONFIRMÉ — déclaré par l'éditeur dans Crossref (absent d'OpenAlex)",
+        "references": [
+          "955590"
+        ],
+        "notices": [
+          [
+            "notice justificative Crossref (déclaration de l'éditeur)",
+            "https://api.crossref.org/works/10.1038/s41433-026-04874-7"
+          ]
+        ],
+        "note": null
+      }
+    ]
+  }
+}

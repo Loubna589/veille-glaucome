@@ -1,0 +1,244 @@
+{
+  "pmid": "42880950",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42880950",
+    "titre": "Effect of laser peripheral iridotomy location on angle widening in primary angle closure suspects: the six-year ZAP trial.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42880950/",
+    "doi": "10.1136/bjo-2026-330306",
+    "pmcid": null,
+    "revue": "The British journal of ophthalmology",
+    "date_entree_pubmed": "2026-10-15",
+    "date_publication": "2026-Oct-15",
+    "types_publication": [
+      "Journal Article"
+    ],
+    "resume_present": false,
+    "resume": null,
+    "mots_cles_auteurs": [
+      "Glaucoma",
+      "Treatment Lasers",
+      "Treatment Surgery"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 8,
+    "affiliations_auteurs": [
+      "Keck School of Medicine, University of Southern California, Los Angeles, California, USA.",
+      "Ophthalmology, Keck School of Medicine, University of Southern California, Los Angeles, California, USA.",
+      "State Key Laboratory of Ophthalmology, Zhongshan Ophthalmic Center, Sun Yat-sen University; Guangdong Provincial Key Laboratory of Ophthalmology and Visual Science; Guangdong Provincial Clinical Research Center for Ocular Diseases, Guangzhou, People's Republic of China wangwei@gzzoc.com.",
+      "Guangdong Basic Research Center of Excellence for Major Blinding Eye Diseases Prevention and Treatment, Guangzhou, People's Republic of China.",
+      "Roski Eye Institute, University of Southern California, Los Angeles, California, USA.",
+      "UCL Institute of Ophthalmology, London, UK.",
+      "NIHR Biomedical Research Centre at Barts, London, UK.",
+      "Singapore National Eye Centre, Singapore.",
+      "Singapore Eye Research Institute, Singapore.",
+      "Ophthalmology, Harvard University, Boston, Massachusetts, USA.",
+      "State Key Laboratory of Ophthalmology, Zhongshan Ophthalmic Center, Sun Yat-sen University; Guangdong Provincial Key Laboratory of Ophthalmology and Visual Science; Guangdong Provincial Clinical Research Center for Ocular Diseases, Guangzhou, People's Republic of China.",
+      "Research Centre for SHARP Vision, The Hong Kong Polytechnic University, Hong Kong SAR, People's Republic of China."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7222118658",
+      "doi": "10.1136/bjo-2026-330306",
+      "pmid": "42880950",
+      "pmcid": null,
+      "titre": "Effect of laser peripheral iridotomy location on angle widening in primary angle closure suspects: the six-year ZAP trial",
+      "lien": "https://openalex.org/W7222118658",
+      "date_publication": "2026-10-15",
+      "type": "article",
+      "revue": "British Journal of Ophthalmology",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "pubmed"
+      ],
+      "financeurs": [
+        {
+          "nom": "University of Southern California",
+          "ror": "https://ror.org/03taz7m60"
+        },
+        {
+          "nom": "National Eye Institute",
+          "ror": "https://ror.org/03wkg3b53"
+        }
+      ],
+      "subventions": [
+        {
+          "financeur": "University of Southern California",
+          "reference": "AI4Health Award"
+        },
+        {
+          "financeur": "National Eye Institute",
+          "reference": "R01EY035677"
+        }
+      ],
+      "institutions": [
+        {
+          "nom": "University of Southern California",
+          "pays": "US",
+          "type": "education",
+          "ror": "https://ror.org/03taz7m60"
+        },
+        {
+          "nom": "Sun Yat-sen University",
+          "pays": "CN",
+          "type": "education",
+          "ror": "https://ror.org/0064kty71"
+        },
+        {
+          "nom": "State Key Laboratory of Ophthalmology",
+          "pays": "CN",
+          "type": "facility",
+          "ror": "https://ror.org/003mfbe21"
+        },
+        {
+          "nom": "Zhongshan Ophthalmic Center, Sun Yat-sen University",
+          "pays": "CN",
+          "type": "healthcare",
+          "ror": "https://ror.org/02z2yec16"
+        },
+        {
+          "nom": "University College London",
+          "pays": "GB",
+          "type": "education",
+          "ror": "https://ror.org/02jx3x895"
+        },
+        {
+          "nom": "Singapore National Eye Center",
+          "pays": "SG",
+          "type": "healthcare",
+          "ror": "https://ror.org/029nvrb94"
+        },
+        {
+          "nom": "Singapore Eye Research Institute",
+          "pays": "SG",
+          "type": "facility",
+          "ror": "https://ror.org/02crz6e12"
+        },
+        {
+          "nom": "Harvard University",
+          "pays": "US",
+          "type": "education",
+          "ror": "https://ror.org/03vek6s52"
+        },
+        {
+          "nom": "Hong Kong Polytechnic University",
+          "pays": "HK",
+          "type": "education",
+          "ror": "https://ror.org/0030zas98"
+        }
+      ],
+      "acces_ouvert": false,
+      "statut_acces": "closed",
+      "url_texte": null,
+      "url_pdf": null,
+      "licence": null,
+      "texte_integral_indexe": false,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Glaucoma and retinal disorders",
+      "resume_present": true,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": [
+      {
+        "nom": "University of Southern California",
+        "statut": "CONFIRMÉ — déclaré par l'éditeur dans Crossref",
+        "references": [
+          "AI4Health Award"
+        ],
+        "notices": [
+          [
+            "notice justificative Crossref (déclaration de l'éditeur)",
+            "https://api.crossref.org/works/10.1136/bjo-2026-330306"
+          ],
+          [
+            "notice OpenAlex",
+            "https://api.openalex.org/works/W7222118658"
+          ]
+        ],
+        "note": "cet organisme figure AUSSI parmi les institutions des auteurs : c'est une affiliation, information distincte"
+      },
+      {
+        "nom": "National Eye Institute",
+        "statut": "CONFIRMÉ — déclaré par l'éditeur dans Crossref",
+        "references": [
+          "R01EY035677"
+        ],
+        "notices": [
+          [
+            "notice justificative Crossref (déclaration de l'éditeur)",
+            "https://api.crossref.org/works/10.1136/bjo-2026-330306"
+          ],
+          [
+            "notice OpenAlex",
+            "https://api.openalex.org/works/W7222118658"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "Carlson Family Foundation",
+        "statut": "CONFIRMÉ — déclaré par l'éditeur dans Crossref (absent d'OpenAlex)",
+        "references": [
+          "Research Gift (no grant or award number)"
+        ],
+        "notices": [
+          [
+            "notice justificative Crossref (déclaration de l'éditeur)",
+            "https://api.crossref.org/works/10.1136/bjo-2026-330306"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "Research to Prevent Blindness, New York, NY",
+        "statut": "CONFIRMÉ — déclaré par l'éditeur dans Crossref (absent d'OpenAlex)",
+        "references": [
+          "Medical Student Eye Research Fellowship"
+        ],
+        "notices": [
+          [
+            "notice justificative Crossref (déclaration de l'éditeur)",
+            "https://api.crossref.org/works/10.1136/bjo-2026-330306"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "Keck School of Medicine",
+        "statut": "CONFIRMÉ — déclaré par l'éditeur dans Crossref (absent d'OpenAlex)",
+        "references": [
+          "Dean’s Research Scholarship"
+        ],
+        "notices": [
+          [
+            "notice justificative Crossref (déclaration de l'éditeur)",
+            "https://api.crossref.org/works/10.1136/bjo-2026-330306"
+          ]
+        ],
+        "note": null
+      }
+    ]
+  }
+}

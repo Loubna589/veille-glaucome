@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Comment ça marche — Glaucoma Intelligence</title>
+  <meta name="description" content="La partie technique de Glaucoma Intelligence : collecte de 11 sources publiques, base SQLite, contrôles qualité, IA traçable, journal des exécutions et mesures de performance.">
+  <link rel="canonical" href="https://loubna589.github.io/veille-glaucome/fonctionnement.html">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div id="nav"></div>
+  <main class="page">
+    <header class="hero">
+      <h1>Comment ça marche</h1>
+      <p>La partie technique, pour le jury : chaque matin, un programme Python sur GitHub Actions interroge 11 sources
+        publiques (4 scientifiques, 7 réglementaires), range tout dans une base SQLite, contrôle la qualité, fait analyser les textes par une IA traçable,
+        puis publie ce site. Tout est journalisé et mesuré.</p>
+    </header>
+
+    <figure class="encadre" style="margin:0 0 8px;padding:10px;overflow-x:auto">
+      <img src="img/architecture.svg" alt="Schéma : 11 sources publiques (4 scientifiques, 7 réglementaires), GitHub Actions et Python, SQLite, IA, contrôles et export JSON, GitHub Pages, alertes, couche intelligence (embeddings, recherche, assistant, carte, performances)" style="width:100%;min-width:680px;height:auto;display:block">
+    </figure>
+
+    <h2 class="titre-section" id="donnees">1. Les données : la base SQLite</h2>
+    <p class="sous-titre">Nombre de lignes de chaque table. Une publication vue par plusieurs sources n'est enregistrée qu'une fois (clés PMID, DOI, NCT).</p>
+    <div class="tuiles" id="tables"></div>
+
+    <h2 class="titre-section" id="qualite">2. Les contrôles qualité avant publication</h2>
+    <div class="encadre" id="qualite-bloc"></div>
+
+    <h2 class="titre-section" id="performances">3. Les performances mesurées</h2>
+    <p class="sous-titre">Calculées sur des jeux jugés à la main : 30 publications pour la classification, 10 questions × 5 résultats pour la recherche.
+      Tant que les jugements ne sont pas faits, aucun chiffre n'est affiché.</p>
+    <div class="tuiles" id="perf-tuiles"></div>
+    <div class="encadre" id="classification" style="margin-top:14px"></div>
+    <div class="encadre" id="recherche-perf" style="margin-top:14px"></div>
+    <div class="encadre" id="rag" style="margin-top:14px"></div>
+
+    <h2 class="titre-section" id="journal">4. Le journal des exécutions</h2>
+    <p class="sous-titre">Une ligne par source et par passage. Si une source est en panne, l'exécution est « partielle » et les autres continuent.</p>
+    <div id="executions"></div>
+  </main>
+  <footer class="pied" id="pied"></footer>
+  <script src="js/app.js"></script>
+  <script>
+    (function () {
+      var V = Veille;
+      V.monterNavigation("fonctionnement");
+      V.charger(["executions.json", "qualite.json", "performances.json"]).then(function (r) {
+        var ex = r[0], q = r[1], P = r[2], fmt = function (x) { return x == null ? "—" : x.toFixed(3); };
+        var noms = { essais: "essais", versions_essais: "versions d'essais", articles: "publications", evenements: "événements",
+          executions: "lignes de journal", traitements_ia: "traitements IA" };
+        document.getElementById("tables").innerHTML = Object.keys(ex.tables).map(function (t) {
+          return '<div class="tuile"><b>' + ex.tables[t] + "</b><span>" + V.esc(noms[t] || t) + " · <code>" + V.esc(t) + "</code></span></div>";
+        }).join("");
+        document.getElementById("qualite-bloc").innerHTML = "<p><strong>" + q.etudes_exportees + "</strong> étude(s) publiée(s) sur " + q.etudes_recues +
+          " · <strong>" + q.etudes_rejetees + "</strong> rejetée(s) · contrôle du " + V.esc(q.controle_le) + "</p><ul>" +
+          q.controles.map(function (c) { return "<li>" + V.esc(c) + "</li>"; }).join("") + "</ul>" +
+          (q.rejets.length ? "<p>Rejets :</p><ul>" + q.rejets.map(function (x) { return "<li>" + V.esc(x.id) + " — " + V.esc(x.raisons.join(" ; ")) + "</li>"; }).join("") + "</ul>" : "");
+
+        var ia = P.classification && P.classification.ia, regles = P.classification && P.classification.regles;
+        document.getElementById("perf-tuiles").innerHTML = [
+          [ia ? fmt(ia.f1_macro) : "—", "F1 macro — classification IA"], [regles ? fmt(regles.f1_macro) : "—", "F1 macro — règles"],
+          [P.recherche ? fmt(P.recherche.precision_a_5) : "—", "précision@5 — recherche"], [P.recherche ? fmt(P.recherche.mrr) : "—", "MRR — recherche"],
+          [P.verif_marche ? Math.round(P.verif_marche.taux_concordance * 100) + " %" : "—", "concordance des extractions (autorisations)"],
+        ].map(function (t) { return '<div class="tuile"><b>' + t[0] + "</b><span>" + t[1] + "</span></div>"; }).join("");
+        function attente(j, quoi) { return '<p class="vide">En attente des jugements : ' + j.jugees + " / " + j.lignes + " lignes " + quoi + ".</p>"; }
+        function bloc(nom, res) {
+          if (!res) return "";
+          return "<h3 style=\"font-size:.95rem;margin:4px 0 8px\">" + V.esc(nom) + " — F1 macro " + fmt(res.f1_macro) + " · exactitude " + Math.round(res.exactitude * 100) +
+            " %</h3><div class=\"tableau-defile\"><table class=\"marche petit\"><thead><tr><th>Catégorie</th><th>Précision</th><th>Rappel</th><th>F1</th><th>Effectif</th></tr></thead><tbody>" +
+            Object.keys(res.detail).map(function (c) { var d = res.detail[c]; return "<tr><td>" + V.esc(c) + "</td><td>" + fmt(d.precision) + "</td><td>" + fmt(d.rappel) + "</td><td>" + fmt(d.f1) + "</td><td>" + d.effectif + "</td></tr>"; }).join("") +
+            "</tbody></table></div>";
+        }
+        document.getElementById("classification").innerHTML = "<strong>Classification en 6 catégories</strong>" + (P.classification
+          ? bloc("Règles de l'outil", regles) + bloc("IA", ia) : attente(P.classification_jugements, "étiquetées (eval/jeu_etiquete.csv)"));
+        document.getElementById("recherche-perf").innerHTML = "<strong>Recherche sémantique</strong>" + (P.recherche
+          ? "<ul>" + P.recherche.detail.map(function (d) { return "<li>Q" + d.question_id + " — P@5 " + d.precision_a_5.toFixed(1) + " · RR " + d.rr.toFixed(2) + " — " + V.esc(d.question) + "</li>"; }).join("") + "</ul>"
+          : attente(P.recherche_jugements, "jugées (eval/questions_recherche.csv)"));
+        document.getElementById("recherche-perf").insertAdjacentHTML("afterend", '<div class="encadre" style="margin-top:14px"><strong>Exactitude des extractions « autorisations & remboursement »</strong>' +
+          (P.verif_marche ? "<p>" + P.verif_marche.exactes + " valeurs exactes sur " + P.verif_marche.valeurs_verifiees + " vérifiées à la main (" +
+            Math.round(P.verif_marche.taux_concordance * 100) + " %).</p><ul>" + Object.keys(P.verif_marche.par_champ).map(function (c) {
+              var x = P.verif_marche.par_champ[c]; return "<li>" + V.esc(c) + " : " + Math.round(x.taux * 100) + " % (" + x.exactes + "/" + x.verifiees + ")</li>"; }).join("") + "</ul>"
+            : attente(P.verif_marche_jugements, "vérifiées (eval/verif_marche.csv : 20 médicaments)")) + "</div>");
+        document.getElementById("rag").innerHTML = "<strong>Assistant : statut des réponses</strong>" + (P.rag.length
+          ? "<ul>" + P.rag.map(function (x) { return "<li><code>" + V.esc(x.statut) + "</code> : " + x.n + " échange(s)</li>"; }).join("") + "</ul>"
+          : '<p class="vide">Aucun échange journalisé.</p>');
+
+        var parExec = {};
+        ex.executions.forEach(function (l) { (parExec[l.execution_id] = parExec[l.execution_id] || []).push(l); });
+        var classe = { ok: "ok", partielle: "att", echec: "ver", saute: "", en_cours: "" };
+        document.getElementById("executions").innerHTML = Object.keys(parExec).slice(0, 8).map(function (id) {
+          var lignes = parExec[id].slice().reverse(), globale = lignes.filter(function (l) { return l.source === "pipeline"; })[0];
+          return '<section class="labo"><h2>Exécution ' + V.esc(id) + (globale ? ' <span class="badge ' + classe[globale.statut] + '">' + V.esc(globale.statut) + "</span>" : "") +
+            '</h2><div class="tableau-defile"><table class="marche petit"><thead><tr><th>Source</th><th>Début</th><th>Fin</th><th>Statut</th><th>Éléments</th><th>Erreur</th></tr></thead><tbody>' +
+            lignes.map(function (l) {
+              return "<tr><td><code>" + V.esc(l.source) + "</code></td><td>" + V.esc((l.debut || "").replace("T", " ")) + "</td><td>" + V.esc((l.fin || "").slice(11)) +
+                '</td><td><span class="badge ' + (classe[l.statut] || "") + '">' + V.esc(l.statut) + "</span></td><td>" + l.nb_elements + "</td><td><small>" + V.esc(l.erreurs || "") + "</small></td></tr>";
+            }).join("") + "</tbody></table></div></section>";
+        }).join("") || '<p class="vide">Aucune exécution journalisée pour l\'instant.</p>';
+      }).catch(V.erreurChargement);
+    })();
+  </script>
+</body>
+</html>

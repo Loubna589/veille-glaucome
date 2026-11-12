@@ -1,0 +1,102 @@
+{
+  "nct": "NCT07531199",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "nct": "NCT07531199",
+    "titre": "Efficacy and Safety of a Releasable Intraluminal Suture Technique to Reduce Hypotony Following Glaucoma Surgery Using the Preserflo Device",
+    "titre_officiel": "Efficacy and Safety of a Releasable Intraluminal Suture Technique to Reduce Hypotony Following Glaucoma Surgery Using the Preserflo Device",
+    "lien": "https://clinicaltrials.gov/study/NCT07531199",
+    "date_premiere_publication": "2026-04-15",
+    "date_derniere_mise_a_jour": "2026-10-02",
+    "type_etude": "INTERVENTIONAL",
+    "phases_declarees": [
+      "NA"
+    ],
+    "statut": "RECRUITING",
+    "raison_arret": null,
+    "date_debut": "2026-09-17",
+    "date_fin_principale": "2028-12-31",
+    "promoteur": "Hôpital Privé de la Baie",
+    "type_promoteur": "OTHER",
+    "collaborateurs": null,
+    "conditions": [
+      "Glaucoma"
+    ],
+    "interventions": [
+      {
+        "type": "PROCEDURE",
+        "nom": "Classical surgery"
+      },
+      {
+        "type": "PROCEDURE",
+        "nom": "Intraluminal suture"
+      }
+    ],
+    "participants_nombre": 192,
+    "participants_type": "ESTIMATED",
+    "criteres_principaux": [
+      {
+        "critere": "Postoperative hypotonia",
+        "delai": "12 months after surgery"
+      }
+    ],
+    "resultats_deposes": false,
+    "publications_declarees": null,
+    "resume_source": "Glaucoma is a common and irreversible disease of the optic nerve. It is the second leading cause of blindness worldwide. Glaucoma can be treated with medication, laser therapy, or surgery; the latter is often necessary. Traditional surgeries are invasive and carry a high rate of complications (hypotony, endophthalmitis, cataracts, etc.). Consequently, several types of micro-invasive surgeries (MIGS) and less invasive but effective surgeries, LIGS, have been developed to reduce surgical risks while maintaining effectiveness in lowering intraocular pressure (IOP). PRESERFLO is a drainage system less than 1 mm thick that regulates the outflow of aqueous humor from the eye. It is made of a soft, flexible biomaterial that conforms to the curvature of the eye. This biomaterial does not trigger a negative immune response. PRESERFLO is an example of a recently developed, powerful LIGS procedure (with preliminary results demonstrating efficacy and safety). PRESERFLO is already in use in France (marketing authorization and CE marking obtained) and is covered by social security.\n\nThis technique is highly effective in lowering IOP, but it may be associated with hypotony, although less frequently than with trabeculectomy. The use of a releasable suture placed inside the Preserflo to limit drainage and, consequently, reduce the risk of hypotony has been described with good results in preliminary studies. Nevertheless, it is necessary to evaluate the efficacy and safety of this technical modification in a randomized, prospective clinical trial to better understand whether this modification is beneficial for improving the treatment of patients with glaucoma.",
+    "citations_declarees": null,
+    "plan": {
+      "repartition": "RANDOMIZED",
+      "modele": "PARALLEL",
+      "but_principal": "TREATMENT",
+      "insu": "DOUBLE",
+      "insu_pour": [
+        "PARTICIPANT",
+        "OUTCOMES_ASSESSOR"
+      ],
+      "insu_description": null,
+      "modele_observationnel": null
+    },
+    "bras": [
+      {
+        "libelle": "classical surgery",
+        "type": "ACTIVE_COMPARATOR",
+        "description": null,
+        "interventions": [
+          "Procedure: Classical surgery"
+        ]
+      },
+      {
+        "libelle": "Intraluminal suture",
+        "type": "EXPERIMENTAL",
+        "description": null,
+        "interventions": [
+          "Procedure: Intraluminal suture"
+        ]
+      }
+    ],
+    "eligibilite": {
+      "criteres": "Inclusion Criteria:\n\n* Primary open-angle glaucoma, pseudoexfoliative glaucoma or pigmentary glaucoma with an indication for glaucoma surgery (defined as uncontrolled intraocular pressure or worsening of visual fields, despite maximum tolerated medical therapy) and an open iridocorneal angle (trabeculum visible on gonioscopy, Shaffer classification grade 3-4)\n\n  * Healthy, mobile conjunctiva (without scarring or adhesions).\n  * The indication for glaucoma surgery is defined as uncontrolled IOP or worsening of visual fields despite maximum tolerated medical therapy, and with either a previous failure of trabeculectomy or a risk of failure.\n  * Maximum tolerated medical therapy: 3 or more classes of ocular hypotensive treatment, or fewer if there is an allergy or intolerance to the treatment. Visual field defects must be more severe than -3 dB in mean deviation.\n\nExclusion Criteria:\n\n* severe systemic pathologies\n* other ophtalmic pathologies (except cataract)\n* previous intraocular surgery (except cataract)\n* neovascular glaucoma or iris neovascularization\n* pachymetry \\< 490µm or \\> 620µm\n* contraindication to PRESERFLO Microshunt",
+      "age_min": "18 Years",
+      "age_max": null,
+      "sexe": "ALL",
+      "volontaires_sains": false
+    },
+    "criteres_secondaires": [
+      {
+        "critere": "Complete surgical success",
+        "delai": "12 months after surgery"
+      }
+    ],
+    "responsables": [
+      {
+        "nom": "Ana Miguel, MD",
+        "affiliation": "Hôpital Privé de la Baie",
+        "role": "PRINCIPAL_INVESTIGATOR"
+      }
+    ],
+    "date_depot_resultats": null,
+    "resultats": null
+  },
+  "modifications": []
+}

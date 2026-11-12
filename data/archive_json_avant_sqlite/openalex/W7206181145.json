@@ -1,0 +1,70 @@
+{
+  "openalex_id": "W7206181145",
+  "premiere_detection": "2026-09-25",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "openalex_id": "W7206181145",
+    "doi": "10.64898/2026.08.30.26361782",
+    "pmid": null,
+    "pmcid": null,
+    "titre": "Glaucoma and Diabetes Mellitus: A Comparative Evaluation of Comorbid Effect on Tear Quantity among Patients in Owerri, Imo State, Nigeria.",
+    "lien": "https://openalex.org/W7206181145",
+    "date_publication": "2026-09-02",
+    "type": "preprint",
+    "revue": "medRxiv",
+    "type_source": "repository",
+    "langue": null,
+    "indexe_dans": [
+      "crossref"
+    ],
+    "financeurs": null,
+    "subventions": null,
+    "institutions": [
+      {
+        "nom": "Federal University of Technology Owerri",
+        "pays": "NG",
+        "type": "education",
+        "ror": "https://ror.org/05xzf9508"
+      },
+      {
+        "nom": "University of the Highlands and Islands",
+        "pays": "GB",
+        "type": "education",
+        "ror": "https://ror.org/02s08xt61"
+      },
+      {
+        "nom": "Madonna University",
+        "pays": "NG",
+        "type": "education",
+        "ror": "https://ror.org/01r5xd980"
+      }
+    ],
+    "acces_ouvert": true,
+    "statut_acces": "green",
+    "url_texte": "https://doi.org/10.64898/2026.08.30.26361782",
+    "url_pdf": null,
+    "licence": "cc-by-nc-nd",
+    "texte_integral_indexe": false,
+    "retracte": false,
+    "citations": 0,
+    "sujet_principal": "Ocular Surface and Contact Lens",
+    "resume_present": true,
+    "resume": "Abstract Objective: Glaucoma is a chronic disorder that impairs ocular health and may exacerbate ocular surface disease leading to tear film instability, dry eye symptoms and decreased quality of life. This study compared changes in tear quantity among glaucoma subjects living with and without diabetes mellitus, attending an eye clinic in Nigeria. Methods: A comparative cross sectional research design was used. 157 subjects which comprised 74 glaucoma subjects living with diabetes mellitus and 83 glaucoma subjects living without diabetes mellitus participated in the study. Tear quantity assessment included the Schirmer I test and tear meniscus height (TMH) measurement. Descriptive statistics, independent samples t-test and Chi-square test were used to examine the data at 0.05 level of significance. Results: Glaucoma subjects living with diabetes mellitus showed substantially decreased tear production (11.4 +/- 6.8 mm) compared with glaucoma subjects living without diabetes mellitus (19.6 +/- 9.6 mm; p < 0.001). Tear meniscus height in glaucoma subjects living with diabetes mellitus (0.8 +/- 0.3 mm) was significantly greater than in subjects living without diabetes mellitus (0.7 +/- 0.3 mm; p = 0.034). Conclusion: Diabetes mellitus dramatically deteriorates the ocular surface function in glaucoma subjects by decreasing tear production, altering the tear meniscus height and increasing the severity of ocular surface symptoms. Routine glaucoma care, especially in patients with diabetes mellitus, should include a full ocular surface evaluation including Schirmer I test, TBUT, TMH, and OSDI assessment to allow early detection and management of ocular surface disease, better treatment adherence, and improved visual outcomes. Keywords: Glaucoma, Diabetes Mellitus, Tear production, Tear Meniscus Height, Ocular Surface Disease.",
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "present_dans_pubmed": false
+  }
+}

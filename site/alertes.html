@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Alertes — Glaucoma Intelligence</title>
+  <meta name="description" content="Alertes automatiques sur les essais cliniques du glaucome : nouveaux essais, changements de statut, de date de fin, de phase, résultats déposés.">
+  <link rel="canonical" href="https://loubna589.github.io/veille-glaucome/alertes.html">
+  <meta property="og:title" content="Alertes — Glaucoma Intelligence">
+  <meta property="og:url" content="https://loubna589.github.io/veille-glaucome/alertes.html">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div id="nav"></div>
+  <main class="page">
+    <header class="hero">
+      <h1>Alertes</h1>
+      <p>Les essais cliniques évoluent : ils commencent, recrutent, s'arrêtent, publient leurs résultats. Cette page vous
+        signale ces changements, sans que vous ayez à surveiller chaque registre.</p>
+    </header>
+
+    <h2 class="titre-section" style="margin-top:0">Comment naît une alerte ?</h2>
+    <div class="etapes">
+      <div class="etape"><b>Chaque matin, le robot relit les essais</b>
+        <span>Il télécharge la dernière version de chaque essai sur le glaucome publiée par ClinicalTrials.gov.</span></div>
+      <div class="etape"><b>Il compare avec la version de la veille</b>
+        <span>Il regarde ce qui a changé : le statut (ex. « recrute » → « terminé »), la date de fin, la phase, ou l'arrivée de résultats.</span></div>
+      <div class="etape"><b>Il crée une alerte, une seule fois</b>
+        <span>Chaque changement devient une alerte unique : même s'il est revu le lendemain, il n'est jamais signalé deux fois.</span></div>
+    </div>
+
+    <h2 class="titre-section">Alertes réelles</h2>
+    <p class="sous-titre" id="info-reelles"></p>
+    <div id="reelles"></div>
+
+    <h2 class="titre-section">Exemple d'alertes (démonstration)</h2>
+    <p class="sous-titre" id="info-demo">Pour montrer le fonctionnement, on simule le changement d'un vrai essai : il passe de « recrute » à « terminé »,
+      sa date de fin change et des résultats sont déposés. Voici les alertes produites — puis, en rejouant le même changement, aucune nouvelle alerte.</p>
+    <div id="demo"></div>
+  </main>
+  <footer class="pied" id="pied"></footer>
+  <script src="js/app.js"></script>
+  <script>
+    (function () {
+      var V = Veille;
+      V.monterNavigation("alertes");
+      var LIB = { nouvel_essai: "Nouvel essai", changement_statut: "Nouveau statut", changement_recrutement: "Recrutement modifié",
+        changement_date_fin: "Nouvelle date de fin", changement_phase: "Nouvelle phase", resultats_deposes: "Résultats publiés" };
+      var STATUTS = { RECRUITING: "recrute", NOT_YET_RECRUITING: "pas encore ouvert", ACTIVE_NOT_RECRUITING: "en cours, ne recrute plus",
+        ENROLLING_BY_INVITATION: "sur invitation", COMPLETED: "terminé", TERMINATED: "arrêté", WITHDRAWN: "retiré", SUSPENDED: "suspendu",
+        "false": "non", "true": "oui" };
+      function val(x) { try { x = JSON.parse(x); } catch (e) { /* texte brut */ } return STATUTS[String(x)] || x; }
+      function tableau(evs, vide) {
+        if (!evs.length) return '<div class="encadre"><p class="vide">' + vide + "</p></div>";
+        return '<div class="tableau-defile"><table class="marche"><thead><tr><th>Détectée le</th><th>Alerte</th><th>Essai</th><th>Ce qui a changé</th></tr></thead><tbody>' +
+          evs.map(function (e) {
+            var chg = e.type === "nouvel_essai" ? '<span class="vide">nouvel essai ajouté à la veille</span>' :
+              V.esc(val(e.avant)) + " → <strong>" + V.esc(val(e.apres)) + "</strong>";
+            return "<tr><td>" + V.esc(V.date(e.date_detection)) + '</td><td><span class="badge ' + (e.type === "nouvel_essai" ? "" : "att") + '">' +
+              V.esc(LIB[e.type] || e.type) + '</span></td><td><a href="fiches/' + V.esc(e.objet_id) + '.html">' + V.esc(e.objet_id) + "</a><br><small>" +
+              V.esc((e.titre || "").slice(0, 110)) + "</small></td><td>" + chg + "</td></tr>";
+          }).join("") + "</tbody></table></div>";
+      }
+      V.charger(["evenements.json"]).then(function (r) {
+        var evs = r[0].evenements.filter(function (e) { return e.type !== "nouvel_article"; });
+        document.getElementById("info-reelles").textContent = evs.length
+          ? evs.length + " alerte(s) produite(s) par les mises à jour quotidiennes, de la plus récente à la plus ancienne."
+          : "Aucun essai suivi n'a changé depuis la mise en place des alertes : c'est normal, les registres évoluent lentement.";
+        document.getElementById("reelles").innerHTML = tableau(evs, "Aucune alerte pour le moment. Les prochaines apparaîtront ici automatiquement.");
+      }).catch(V.erreurChargement);
+      V.charger(["alertes_demo.json"]).then(function (r) {
+        var d = r[0];
+        document.getElementById("demo").innerHTML = tableau(d.evenements, "") +
+          '<div class="encadre" style="margin-top:12px"><strong>Rejoué une deuxième fois :</strong> ' + d.rejeu_nouveaux_evenements +
+          " nouvelle alerte — la même information n'est jamais envoyée deux fois. <small>(démonstration générée le " + V.esc(V.date(d.genere_le)) +
+          " par <code>python demo_alerte.py</code>, sur une copie de la base)</small></div>";
+      }).catch(function () {
+        document.getElementById("demo").innerHTML = '<div class="encadre"><p class="vide">Démonstration pas encore générée : lancez <code>python demo_alerte.py</code>.</p></div>';
+      });
+    })();
+  </script>
+</body>
+</html>

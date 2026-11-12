@@ -1,0 +1,125 @@
+{
+  "pmid": "42913929",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42913929",
+    "titre": "Association Between Systemic TNF-α Inhibitor Use and Risk of Primary Open-Angle Glaucoma.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42913929/",
+    "doi": "10.1016/j.ajo.2026.10.009",
+    "pmcid": null,
+    "revue": "American journal of ophthalmology",
+    "date_entree_pubmed": "2026-10-23",
+    "date_publication": "2026-Oct-22",
+    "types_publication": [
+      "Journal Article"
+    ],
+    "resume_present": true,
+    "resume": "PURPOSE: To evaluate the association between systemic tumor necrosis factor-alpha (TNF-α) inhibitor use and the long-term risk of primary open angle glaucoma (POAG), and to compare glaucoma risk among users of different TNF-α inhibitors.\nDESIGN: Retrospective, multicenter clinical cohort study.\nMETHODS: This retrospective, multicenter cohort study compared patients ≥40 years with and without TNF-α inhibitor use (2006-2026) using data from aggregated, de-identified electronic health records across 70 U.S. health care organizations. Patients prescribed TNF-α inhibitors (adalimumab, infliximab, etanercept, certolizumab pegol, or golimumab) were propensity matched (1:1) to controls without TNF-α inhibitor exposure based on demographics and systemic indications for TNF-a. Patients with a history of uveitis and related sequelae were excluded. New POAG diagnosis, identified by ICD-10 codes within 10 years of follow-up, was assessed using Cox proportional hazards models.\nRESULTS: Among 12,227 TNF-α inhibitor users and 1,354,651 controls, 11,915 matched pairs were analyzed (mean [SD] age 59 [10] years; 68% female). At 10 years, TNF-α inhibitor users were associated with a lower risk of POAG diagnosis compared to controls (2.0% vs. 3.3%; HR 0.70 [95% CI 0.59-0.82]; P<.001) In agent-specific analysis, adalimumab-users (n=4,962 per cohort) (HR 0.74 [0.57-0.96]) and infliximab users (n=2,134 per cohort; HR 0.68 [95% CI 0.47-0.97) were associated with a lower risk of POAG diagnosis compared to matched controls. No significant differences were observed in pairwise comparisons amongst TNF-α inhibitors.\nCONCLUSIONS: Systemic TNF-α inhibitor use, particularly adalimumab and infliximab, was associated with a modest but significant reduction in long-term POAG risk. These findings support a potential role of TNF-α-mediated inflammation in glaucomatous neurodegeneration.",
+    "mots_cles_auteurs": [
+      "TNF-α inhibitors",
+      "glaucoma",
+      "open-angle glaucoma"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 4,
+    "affiliations_auteurs": [
+      "Keck School of Medicine, University of Southern California, Los Angeles, CA.",
+      "University of South Florida Health Morsani College of Medicine, Tampa, FL.",
+      "Roski Eye Institute, Keck School of Medicine, University of Southern California, Los Angeles, CA.",
+      "Hamilton Glaucoma Center, Viterbi Family Department of Ophthalmology, Shiley Eye Institute, University of California San Diego, La Jolla, CA. Electronic address: rweinreb@health.ucsd.edu."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7223217362",
+      "doi": "10.1016/j.ajo.2026.10.009",
+      "pmid": "42913929",
+      "pmcid": null,
+      "titre": "Association Between Systemic TNF-α Inhibitor Use and Risk of Primary Open-Angle Glaucoma",
+      "lien": "https://openalex.org/W7223217362",
+      "date_publication": "2026-10-01",
+      "type": "article",
+      "revue": "American Journal of Ophthalmology",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "pubmed"
+      ],
+      "financeurs": [
+        {
+          "nom": "Research to Prevent Blindness",
+          "ror": "https://ror.org/04drjs621"
+        }
+      ],
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "University of Southern California",
+          "pays": "US",
+          "type": "education",
+          "ror": "https://ror.org/03taz7m60"
+        },
+        {
+          "nom": "University of South Florida",
+          "pays": "US",
+          "type": "education",
+          "ror": "https://ror.org/032db5x82"
+        },
+        {
+          "nom": "University of California San Diego",
+          "pays": "US",
+          "type": "education",
+          "ror": "https://ror.org/0168r3w48"
+        }
+      ],
+      "acces_ouvert": false,
+      "statut_acces": "closed",
+      "url_texte": null,
+      "url_pdf": null,
+      "licence": null,
+      "texte_integral_indexe": false,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Glaucoma and retinal disorders",
+      "resume_present": false,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": [
+      {
+        "nom": "Research to Prevent Blindness",
+        "statut": "CONFIRMÉ — déclaré par l'éditeur dans Crossref",
+        "references": null,
+        "notices": [
+          [
+            "notice justificative Crossref (déclaration de l'éditeur)",
+            "https://api.crossref.org/works/10.1016/j.ajo.2026.10.009"
+          ],
+          [
+            "notice OpenAlex",
+            "https://api.openalex.org/works/W7223217362"
+          ]
+        ],
+        "note": null
+      }
+    ]
+  }
+}

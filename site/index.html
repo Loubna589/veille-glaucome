@@ -1,0 +1,224 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Glaucoma Intelligence — veille sur le glaucome</title>
+  <meta name="description" content="Tableau de bord de veille sur le glaucome et l'hypertension oculaire : essais cliniques, publications scientifiques, laboratoires et accès au marché (France, UE, USA), mis à jour chaque jour à partir de sources publiques.">
+  <link rel="canonical" href="https://loubna589.github.io/veille-glaucome/">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="fr_FR">
+  <meta property="og:site_name" content="Veille glaucome">
+  <meta property="og:title" content="Veille glaucome — tableau de bord">
+  <meta property="og:description" content="Essais cliniques, publications, laboratoires et accès au marché du glaucome, à partir de sources publiques (ClinicalTrials.gov, PubMed, OpenAlex, HAS, EMA, FDA).">
+  <meta property="og:url" content="https://loubna589.github.io/veille-glaucome/">
+  <meta name="twitter:card" content="summary">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div id="nav"></div>
+  <main class="page">
+    <header class="hero hero--accueil">
+      <div class="surtitre">Mis à jour chaque matin · sources publiques</div>
+      <h1>Toute l'actualité scientifique du glaucome, au même endroit.</h1>
+      <p>Glaucoma Intelligence lit chaque jour les registres d'essais, les publications et les autorités de santé,
+        vous prévient de ce qui change, et répond à vos questions en citant ses sources.</p>
+      <svg class="motif" viewBox="0 0 100 100" aria-hidden="true"><circle cx="50" cy="50" r="46" fill="none" stroke="#fff" stroke-width="3"/>
+        <circle cx="50" cy="50" r="30" fill="none" stroke="#fff" stroke-width="3"/><circle cx="50" cy="50" r="12" fill="#fff"/></svg>
+    </header>
+
+    <h2 class="titre-section" style="margin-top:8px">Que voulez-vous faire ?</h2>
+    <div class="actions-principales" id="actions"></div>
+
+    <h2 class="titre-section">En chiffres</h2>
+    <section aria-label="Chiffres clés" class="tuiles" id="tuiles"></section>
+    <nav class="puces" aria-label="Raccourcis" id="puces"></nav>
+
+    <section class="graphiques" aria-label="Graphiques">
+      <article class="graphe graphe--large">
+        <h2>Publications par mois</h2>
+        <p class="sous-titre">PubMed et publications hors PubMed (OpenAlex), selon la date de la source — 12 derniers mois</p>
+        <div class="graphe__zone"><canvas id="g-mois" role="img" aria-label="Nombre de publications par mois"></canvas></div>
+      </article>
+      <article class="graphe">
+        <h2>Essais par phase</h2>
+        <p class="sous-titre">Phase déclarée au registre ClinicalTrials.gov — cliquez pour filtrer</p>
+        <div class="graphe__zone"><canvas id="g-phase" role="img" aria-label="Répartition des essais par phase"></canvas></div>
+      </article>
+      <article class="graphe">
+        <h2>Laboratoires les plus actifs</h2>
+        <p class="sous-titre">Industriels : essais promus + publications financées ou co-signées — cliquez pour le détail</p>
+        <div class="graphe__zone graphe__zone--haute"><canvas id="g-labos" role="img" aria-label="Laboratoires les plus actifs"></canvas></div>
+      </article>
+    </section>
+
+    <h2 class="titre-section">Nouveautés de la dernière mise à jour</h2>
+    <p class="sous-titre" id="nouveautes-info"></p>
+    <div id="nouveautes"></div>
+
+    <h2 class="titre-section">Par rubrique</h2>
+    <p class="sous-titre">Médicaments et dispositifs d'abord ; les autres sujets restent consultables dans leur rubrique.</p>
+    <div class="tuiles" id="rubriques"></div>
+
+    <h2 class="titre-section">Mise à jour</h2>
+    <div class="encadre" id="maj"></div>
+  </main>
+  <footer class="pied" id="pied"></footer>
+  <script src="js/app.js"></script>
+  <!-- Graphiques : Chart.js (version figée). Sans connexion, des tableaux s'affichent à la place. -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+  <script>
+    Veille.pret(function () {
+      var V = Veille, d = V.donnees, e = d.etudes;
+      V.monterNavigation("accueil");
+      var n = function (f) { return e.filter(f).length; };
+      var essais = e.filter(function (x) { return x.type === "essai"; });
+      var publications = e.filter(function (x) { return x.type !== "essai"; });
+      var M = d.marche;
+
+      /* ---------- « Que voulez-vous faire ? » ---------- */
+      var nbNouveautes = n(function (x) { return x.nouveau || x.modifie; });
+      var actions = [
+        ["recherche", "Chercher un sujet", "Trouvez les essais et articles sur un traitement, une technique, un laboratoire.", "recherche.html", "Rechercher →"],
+        ["assistant", "Poser une question à l'IA", "Une réponse courte en français, chaque phrase avec sa source.", "assistant.html", "Poser une question →"],
+        ["alertes", "Voir ce qui a changé", nbNouveautes + " nouveauté(s) lors de la dernière mise à jour, et les alertes sur les essais.", "alertes.html", "Voir les nouveautés →"],
+        ["carte", "Explorer la carte", "Qui travaille sur quoi : essais, traitements, laboratoires, financeurs.", "carte.html", "Ouvrir la carte →"],
+      ];
+      document.getElementById("actions").innerHTML = actions.map(function (a) {
+        return '<a class="action" href="' + a[3] + '"><span class="action__icone">' + V.icone(a[0]) + "</span><b>" + V.esc(a[1]) +
+          "</b><span>" + V.esc(a[2]) + "</span><em>" + V.esc(a[4]) + "</em></a>";
+      }).join("");
+
+      /* ---------- Raccourcis ---------- */
+      var puces = [
+        ["Nouveautés", "etudes.html?periode=derniere"],
+        ["Essais cliniques", "etudes.html?source=ClinicalTrials.gov"],
+        ["Résultats déposés", "etudes.html?niveau=" + encodeURIComponent("Résultats déposés au registre")],
+        ["Articles PubMed", "etudes.html?source=PubMed"],
+        ["Autorisations & remboursement", "marche.html"],
+      ];
+      document.getElementById("puces").innerHTML = puces.map(function (p) {
+        return '<a class="puce" href="' + p[1] + '">' + V.esc(p[0]) + "</a>";
+      }).join("");
+
+      /* ---------- Chiffres clés ---------- */
+      var tuiles = [
+        [e.length, "études suivies", "etudes.html"],
+        [essais.length, "essais cliniques", "etudes.html?source=ClinicalTrials.gov"],
+        [n(function (x) { return x.niveau === "Résultats déposés au registre"; }), "essais avec résultats déposés", "etudes.html?niveau=" + encodeURIComponent("Résultats déposés au registre")],
+        [publications.length, "publications", "etudes.html?source=PubMed"],
+        [d.laboratoires.filter(function (l) { return l.industriel; }).length, "laboratoires industriels", "laboratoires.html"],
+        [M ? Object.keys(M.molecules).length : "—", "molécules suivies (autorisations)", "marche.html"],
+      ];
+      document.getElementById("tuiles").innerHTML = tuiles.map(function (t) {
+        return '<a class="tuile" href="' + t[2] + '"><b>' + t[0] + "</b><span>" + t[1] + "</span></a>";
+      }).join("");
+
+      /* ---------- Données des graphiques ---------- */
+      var mois = [], parMois = {};
+      var now = new Date();
+      for (var i = 11; i >= 0; i--) {
+        var dt = new Date(now.getFullYear(), now.getMonth() - i, 1);
+        var cle = dt.getFullYear() + "-" + String(dt.getMonth() + 1).padStart(2, "0");
+        mois.push(cle); parMois[cle] = { pubmed: 0, autres: 0 };
+      }
+      publications.forEach(function (x) {
+        var c = (x.date_source || "").slice(0, 7);
+        if (parMois[c]) parMois[c][x.source === "PubMed" ? "pubmed" : "autres"]++;
+      });
+      var libMois = mois.map(function (c) {
+        return new Date(c + "-01T00:00:00").toLocaleDateString("fr-FR", { month: "short", year: "2-digit" });
+      });
+
+      var phases = {};
+      essais.forEach(function (x) { var p = x.phase || "Non renseignée"; phases[p] = (phases[p] || 0) + 1; });
+      var ordrePhases = Object.keys(phases).sort(function (a, b) { return phases[b] - phases[a]; });
+
+      var labos = d.laboratoires.filter(function (l) { return l.industriel; }).map(function (l) {
+        return { nom: l.nom, promoteur: l.promoteur.length, publications: l.financeur.length + l.affiliation.length };
+      }).sort(function (a, b) { return (b.promoteur + b.publications) - (a.promoteur + a.publications); }).slice(0, 10);
+
+      /* ---------- Rendu : Chart.js, ou tableaux si la bibliothèque n'a pas pu se charger (hors ligne) ---------- */
+      function tableauDeSecours(id, entetes, lignes) {
+        var zone = document.getElementById(id).parentNode;
+        zone.classList.add("graphe__zone--tableau");
+        zone.innerHTML = '<p class="vide">Graphique indisponible hors connexion — données :</p><table class="marche petit"><thead><tr>' +
+          entetes.map(function (h) { return "<th>" + V.esc(h) + "</th>"; }).join("") + "</tr></thead><tbody>" +
+          lignes.map(function (l) { return "<tr>" + l.map(function (c) { return "<td>" + V.esc(c) + "</td>"; }).join("") + "</tr>"; }).join("") +
+          "</tbody></table>";
+      }
+      if (!window.Chart) {
+        tableauDeSecours("g-mois", ["Mois", "PubMed", "Hors PubMed"], mois.map(function (c, k) { return [libMois[k], parMois[c].pubmed, parMois[c].autres]; }));
+        tableauDeSecours("g-phase", ["Phase", "Essais"], ordrePhases.map(function (p) { return [p, phases[p]]; }));
+        tableauDeSecours("g-labos", ["Laboratoire", "Essais promus", "Publications"], labos.map(function (l) { return [l.nom, l.promoteur, l.publications]; }));
+      } else {
+        var css = getComputedStyle(document.documentElement);
+        var c = function (v) { return css.getPropertyValue(v).trim(); };
+        // Palette harmonisée avec le site (variables --g1 à --g8, adaptées au mode sombre)
+        var palette = ["--g1", "--g2", "--g3", "--g4", "--g5", "--g6", "--g7", "--g8"].map(c);
+        Chart.defaults.font.family = c("--police");
+        Chart.defaults.font.size = 12;
+        Chart.defaults.plugins.legend.labels.usePointStyle = true;
+        Chart.defaults.plugins.tooltip.padding = 10;
+        Chart.defaults.plugins.tooltip.cornerRadius = 8;
+        Chart.defaults.color = c("--doux");
+        Chart.defaults.borderColor = c("--bord");
+        Chart.defaults.maintainAspectRatio = false;
+
+        new Chart(document.getElementById("g-mois"), {
+          type: "bar",
+          data: { labels: libMois, datasets: [
+            { label: "PubMed", data: mois.map(function (k) { return parMois[k].pubmed; }), backgroundColor: c("--g1"), borderRadius: 6 },
+            { label: "Hors PubMed (OpenAlex)", data: mois.map(function (k) { return parMois[k].autres; }), backgroundColor: c("--g2"), borderRadius: 6 },
+          ] },
+          options: { scales: { x: { stacked: true, grid: { display: false } }, y: { stacked: true, beginAtZero: true, ticks: { precision: 0 } } },
+            plugins: { legend: { position: "bottom" } } },
+        });
+
+        new Chart(document.getElementById("g-phase"), {
+          type: "doughnut",
+          data: { labels: ordrePhases, datasets: [{ data: ordrePhases.map(function (p) { return phases[p]; }),
+            backgroundColor: ordrePhases.map(function (_, k) { return palette[k % palette.length]; }), borderColor: c("--carte"), borderWidth: 2 }] },
+          options: { cutout: "58%", plugins: { legend: { position: "bottom", labels: { boxWidth: 12 } } },
+            onClick: function (_, el) { if (el.length) location.href = "etudes.html?source=ClinicalTrials.gov&phase=" + encodeURIComponent(ordrePhases[el[0].index]); } },
+        });
+
+        new Chart(document.getElementById("g-labos"), {
+          type: "bar",
+          data: { labels: labos.map(function (l) { return l.nom; }), datasets: [
+            { label: "Essais promus", data: labos.map(function (l) { return l.promoteur; }), backgroundColor: c("--g1"), borderRadius: 6 },
+            { label: "Publications (financées ou co-signées)", data: labos.map(function (l) { return l.publications; }), backgroundColor: c("--g2"), borderRadius: 6 },
+          ] },
+          options: { indexAxis: "y", scales: { x: { stacked: true, beginAtZero: true, ticks: { precision: 0 } }, y: { stacked: true, grid: { display: false } } },
+            plugins: { legend: { position: "bottom" } },
+            onClick: function (_, el) { if (el.length) location.href = "laboratoires.html?labo=" + encodeURIComponent(labos[el[0].index].nom); } },
+        });
+      }
+
+      /* ---------- Nouveautés, rubriques, bilan ---------- */
+      var nouveautes = e.filter(function (x) { return x.nouveau || x.modifie; });
+      var ordre = d.ordre_rubriques;
+      nouveautes.sort(function (a, b) { return ordre.indexOf(a.rubrique) - ordre.indexOf(b.rubrique); });
+      document.getElementById("nouveautes-info").textContent = nouveautes.length
+        ? nouveautes.length + " étude(s) nouvelle(s) ou modifiée(s) détectée(s) le " + V.date(d.derniere_mise_a_jour) + "."
+        : "Aucune nouveauté lors de la dernière mise à jour (" + V.date(d.derniere_mise_a_jour) + ").";
+      document.getElementById("nouveautes").innerHTML = nouveautes.slice(0, 15).map(V.carte).join("") +
+        (nouveautes.length > 15 ? '<p><a href="etudes.html?periode=derniere">Voir les ' + nouveautes.length + " nouveautés →</a></p>" : "");
+
+      document.getElementById("rubriques").innerHTML = ordre.map(function (r) {
+        var c = n(function (x) { return x.rubrique === r; });
+        return c ? '<a class="tuile" href="etudes.html?rubrique=' + encodeURIComponent(r) + '"><b>' + c + "</b><span>" + V.esc(r) + "</span></a>" : "";
+      }).join("");
+
+      var b = d.bilan;
+      document.getElementById("maj").innerHTML = b
+        ? "<p><strong>Dernière exécution :</strong> " + V.date(b.date) + " (nouveautés recherchées depuis le " + V.date(b.depuis) + ")</p><ul>" +
+          "<li>Essais : " + (b.essais.nouveau || 0) + " nouveau(x), " + (b.essais.modifie || 0) + " modifié(s), " + (b.essais.resultats_ajoutes || 0) + " avec résultats ajoutés</li>" +
+          "<li>Articles PubMed nouveaux : " + b.articles_nouveaux + " · publications découvertes par OpenAlex : " + b.decouvertes_openalex + "</li>" +
+          (b.sources_en_echec.length ? "<li><strong>Sources en échec :</strong> " + V.esc(b.sources_en_echec.join(", ")) + "</li>" : "<li>Toutes les sources ont répondu.</li>") +
+          b.alertes.map(function (a) { return "<li>Alerte : " + V.esc(a) + "</li>"; }).join("") + "</ul>"
+        : "<p>Aucune mise à jour automatique n'a encore tourné.</p>";
+    });
+  </script>
+</body>
+</html>

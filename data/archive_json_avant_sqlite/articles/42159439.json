@@ -1,0 +1,135 @@
+{
+  "pmid": "42159439",
+  "premiere_detection": "2026-09-25",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42159439",
+    "titre": "Intrapapillary Damage and Its Functional Association in Normal Tension Glaucomatous Eyes With and Without Peripapillary Intrachoroidal Cavitation.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42159439/",
+    "doi": "10.1167/iovs.67.5.55",
+    "pmcid": "PMC13206703",
+    "revue": "Investigative ophthalmology & visual science",
+    "date_entree_pubmed": "2026-05-20",
+    "date_publication": "2026-May-01",
+    "types_publication": [
+      "Journal Article",
+      "Observational Study",
+      "Research Support, Non-U.S. Gov't"
+    ],
+    "resume_present": true,
+    "resume": "PURPOSE: To compare optic nerve head (ONH) structure, visual field (VF) characteristics, and structure-function relationships including intrapapillary structural changes between normal tension glaucomatous (NTG) eyes with and without peripapillary intrachoroidal cavitation (PICC).\nMETHODS: This cross-sectional observational study enrolled 94 NTG eyes with PICC (NTG + PICC), 188 NTG eyes without PICC (NTG - PICC) matched for age, axial length, and VF severity, and 30 healthy eyes. Bruch's membrane opening (BMO) and scleral flange opening (SFO) were identified on ONH-centered OCT images. SFO-minimum rim width (SFO-MRW), the shortest distance between the SFO and prelaminar tissue surface, was used to evaluate focal intrapapillary tissue thinning. ONH structure, sectoral Humphrey 24-2 VF sensitivity (VFS), circumpapillary retinal nerve fiber layer thickness and SFO-MRW were compared among groups. Multivariable linear regression models were applied to identify factors associated with sectoral VFS.\nRESULTS: NTG + PICC showed significantly larger BMO and SFO areas and greater SFO/BMO offset magnitude compared with NTG - PICC and healthy eyes (all P < 0.001). Despite comparable circumpapillary retinal nerve fiber layer thickness and VF severity, NTG + PICC had worse temporal VFS (P = 0.006) and a thinner temporal SFO-MRW (P = 0.002). In the best-fit multivariable model, worse temporal VFS in NTG + PICC was significantly associated with thinner SFO-MRW, larger BMO area and smaller SFO area (all P < 0.05).\nCONCLUSIONS: NTG + PICC exhibited more pronounced myopia-associated ONH remodeling and temporal intrapapillary thinning compared with NTG - PICC, and these changes were associated with worse central VFS. These findings suggest that focal intrapapillary thinning at the peripapillary scleral edge is a potential structural biomarker that complements conventional RNFL-based evaluation in eyes with highly myopic changes.",
+    "mots_cles_auteurs": null,
+    "langue": "eng",
+    "nombre_auteurs": 8,
+    "affiliations_auteurs": [
+      "Department of Ophthalmology, University of Tokyo Graduate School of Medicine, Bunkyo-ku, Tokyo, Japan.",
+      "Glaucoma Center, Shaanxi Eye Hospital, Xi'an People's Hospital (Xi'an Fourth Hospital), Affiliated People's Hospital, Northwest University, Xi'an, China.",
+      "Yotsuya Shirato Eye Clinic, Shinjuku-ku, Tokyo, Japan."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": [
+      "Humans",
+      "Cross-Sectional Studies",
+      "Optic Disk",
+      "Visual Fields",
+      "Female",
+      "Tomography, Optical Coherence",
+      "Intraocular Pressure",
+      "Low Tension Glaucoma",
+      "Choroid Diseases",
+      "Male",
+      "Middle Aged",
+      "Retinal Ganglion Cells",
+      "Nerve Fibers",
+      "Visual Field Tests",
+      "Optic Nerve Diseases",
+      "Aged"
+    ]
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": null,
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7161869215",
+      "doi": "10.1167/iovs.67.5.55",
+      "pmid": "42159439",
+      "pmcid": null,
+      "titre": "Intrapapillary Damage and Its Functional Association in Normal Tension Glaucomatous Eyes With and Without Peripapillary Intrachoroidal Cavitation",
+      "lien": "https://openalex.org/W7161869215",
+      "date_publication": "2026-05-20",
+      "type": "article",
+      "revue": "Investigative Ophthalmology & Visual Science",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "doaj",
+        "pubmed"
+      ],
+      "financeurs": null,
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "The University of Tokyo",
+          "pays": "JP",
+          "type": "education",
+          "ror": "https://ror.org/057zh3y96"
+        },
+        {
+          "nom": "Northwest University",
+          "pays": "CN",
+          "type": "education",
+          "ror": "https://ror.org/00z3td547"
+        },
+        {
+          "nom": "Yotsuya Medical Cube",
+          "pays": "JP",
+          "type": "healthcare",
+          "ror": "https://ror.org/04xc1rd71"
+        }
+      ],
+      "acces_ouvert": true,
+      "statut_acces": "gold",
+      "url_texte": "https://doi.org/10.1167/iovs.67.5.55",
+      "url_pdf": null,
+      "licence": "cc-by-nc-nd",
+      "texte_integral_indexe": false,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Glaucoma and retinal disorders",
+      "resume_present": true,
+      "mesh": [
+        "Aged",
+        "Cross-Sectional Studies",
+        "Female",
+        "Humans",
+        "Intraocular Pressure",
+        "Male",
+        "Middle Aged",
+        "Nerve Fibers",
+        "Optic Disk",
+        "Optic Nerve Diseases",
+        "Retinal Ganglion Cells",
+        "Visual Fields",
+        "Choroid Diseases",
+        "Tomography, Optical Coherence",
+        "Low Tension Glaucoma",
+        "Visual Field Tests"
+      ]
+    },
+    "openalex_verifie_le": "2026-09-25",
+    "financements": []
+  }
+}

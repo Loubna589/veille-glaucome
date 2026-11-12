@@ -1,0 +1,82 @@
+{
+  "openalex_id": "W7165135839",
+  "premiere_detection": "2026-09-25",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "openalex_id": "W7165135839",
+    "doi": "10.1007/s44448-026-00004-y",
+    "pmid": null,
+    "pmcid": null,
+    "titre": "Mechanisms of Neurodegeneration and Retinal Imaging Biomarkers in Glaucoma",
+    "lien": "https://openalex.org/W7165135839",
+    "date_publication": "2026-06-18",
+    "type": "article",
+    "revue": "Neuroretina",
+    "type_source": "journal",
+    "langue": "en",
+    "indexe_dans": [
+      "crossref"
+    ],
+    "financeurs": null,
+    "subventions": null,
+    "institutions": [
+      {
+        "nom": "University of Milan",
+        "pays": "IT",
+        "type": "education",
+        "ror": "https://ror.org/00wjc7c48"
+      },
+      {
+        "nom": "Luigi Sacco Hospital",
+        "pays": "IT",
+        "type": "healthcare",
+        "ror": "https://ror.org/0025g8755"
+      },
+      {
+        "nom": "University of Pavia",
+        "pays": "IT",
+        "type": "education",
+        "ror": "https://ror.org/00s6t1f81"
+      },
+      {
+        "nom": "Policlinico San Matteo Fondazione",
+        "pays": "IT",
+        "type": "healthcare",
+        "ror": "https://ror.org/05w1q1c88"
+      },
+      {
+        "nom": "Istituti di Ricovero e Cura a Carattere Scientifico",
+        "pays": "IT",
+        "type": "healthcare",
+        "ror": "https://ror.org/04tfzc498"
+      }
+    ],
+    "acces_ouvert": true,
+    "statut_acces": "hybrid",
+    "url_texte": "https://link.springer.com/content/pdf/10.1007/s44448-026-00004-y.pdf",
+    "url_pdf": "https://link.springer.com/content/pdf/10.1007/s44448-026-00004-y.pdf",
+    "licence": "cc-by-nc-nd",
+    "texte_integral_indexe": true,
+    "retracte": false,
+    "citations": 1,
+    "sujet_principal": "Glaucoma and retinal disorders",
+    "resume_present": true,
+    "resume": "Glaucoma is the leading cause of irreversible blindness worldwide and is characterized by progressive retinal ganglion cell (RGC) neurodegeneration with optic nerve head (ONH) damage and visual field loss. Although intraocular pressure (IOP) is the main modifiable risk factor, disease onset and progression reflect a multifactorial cascade involving mechanical strain at the lamina cribrosa, impaired axonal transport, neurovascular dysregulation with early neurovascular unit dysfunction, oxidative stress, mitochondrial failure, and chronic glial-driven neuroinflammation. Alongside IOP lowering, neuroprotective strategies have gained increasing attention; among the most studied, citicoline, nicotinamide, and coenzyme Q10 are supported by a strong biological rationale and encouraging early clinical signals, although robust evidence for long-term clinical efficacy remains limited. Because functional defects typically emerge only after substantial RGC loss, structural biomarkers are pivotal for early detection and monitoring. Optical coherence tomography (OCT) provides high-resolution, quantitative assessment of circumpapillary RNFL thickness, macular ganglion cell-related metrics, and ONH rim measures such as Bruch’s membrane opening-minimum rim width. OCT angiography (OCTA) complements OCT by quantifying retinal and peripapillary microvascular abnormalities, although its temporal and clinical relationship with neural loss remains incompletely defined. Longitudinal OCT follow-up can be supported by event-based and trend-based analyses to distinguish true change from test-retest variability and estimate rates of structural loss. Detection of Apoptosing Retinal Cells (DARC) represents an emerging investigational approach for in vivo visualization of retinal cell apoptosis. Overall, these advances support a multimodal structure-function-biomarker framework for glaucoma assessment while highlighting important clinical gaps that remain to be addressed.",
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "present_dans_pubmed": false
+  }
+}

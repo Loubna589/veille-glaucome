@@ -1,0 +1,128 @@
+{
+  "pmid": "42955264",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42955264",
+    "titre": "Archetypal analysis of visual field patterns in an African population: a data-driven approach.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42955264/",
+    "doi": "10.1007/s00417-026-07566-w",
+    "pmcid": null,
+    "revue": "Graefe's archive for clinical and experimental ophthalmology = Albrecht von Graefes Archiv fur klinische und experimentelle Ophthalmologie",
+    "date_entree_pubmed": "2026-10-29",
+    "date_publication": "2026-Oct-29",
+    "types_publication": [
+      "Journal Article"
+    ],
+    "resume_present": true,
+    "resume": "PURPOSE: Visual field (VF) testing is essential for the evaluation of glaucoma, neurological, and retinal diseases. Interpretation, however, is subject to interindividual variability. Archetypal analysis, a type of machine learning, enables quantitative characterization of VFs. While prior studies have focused on predominantly Caucasian populations, no comparable investigation exists for an African population.\nMETHODS: We conducted an archetypal analysis of 8,766 VF measurements obtained with a Humphrey field analyzer (HFA) from 4,096 patients attending an ophthalmic imaging referral center in Kumasi, Ghana. Patients were referred for glaucoma, neuro-ophthalmic, retinal, or other perimetry-requiring examinations. Measurements with > 33% fixation losses or > 15% false-positive rates were excluded. Left-eye fields were mirrored to align with right-eye orientation. The optimal number of archetypes was determined using 10-fold cross-validation and Bayesian Information Criterion.\nRESULTS: Patients had a mean age of 42.9 ± 19.6 years, with 56.7% female. Sixteen archetypes were identified (ordered by frequency), representing diverse VF patterns: normal VF, total scotoma, enlarged blind spot (superior/temporal), central scotoma, peripheral inferior arcuate defect, nasal hemianopia, upper eyelid artifact, peripheral circular paracentral scotoma, broad inferior defect, narrow inferior and superior arcuate defects, thin peripheral circular scotoma, temporal hemianopia, broad superior arcuate defect, and an artifactual defect without clinical correlate.\nCONCLUSION: Archetypal analysis facilitates objective, data-driven extraction of prototypical VF patterns. Comparison with a North American HFA dataset showed substantial overlap (13/16 archetypes at cosine similarity > 0.7), alongside distinct differences that should be interpreted cautiously given differences in age distribution, referral characteristics, and clinical context between cohorts.",
+    "mots_cles_auteurs": [
+      "Africa",
+      "Automated perimetry",
+      "archetypal analysis",
+      "pattern recognition",
+      "visual field defects",
+      "visual fields"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 8,
+    "affiliations_auteurs": [
+      "Department of Optometry and Visual Science, College of Science, Kwame Nkrumah University of Science and Technology, KNUST, Private Mail Bag, UPO, Kumasi, Ghana. andohalbertamoah@gmail.com.",
+      "Department of Ophthalmology, Centre for Ophthalmic Epidemiology and Healthcare Research, University Medical Centre Mainz, Mainz, 55131, Germany. Simon.koenig@unimedizin-mainz.de.",
+      "Department of Optometry and Visual Science, College of Science, Kwame Nkrumah University of Science and Technology, KNUST, Private Mail Bag, UPO, Kumasi, Ghana.",
+      "Anwiam Eye Clinic, Anwiam Hospital, Afful Nkwanta, Kumasi, Ghana.",
+      "Ophthalmology Unit, Emmanuel Eye Medical Center, East Legon, Accra, Ghana.",
+      "Department of Ophthalmology, Centre for Ophthalmic Epidemiology and Healthcare Research, University Medical Centre Mainz, Mainz, 55131, Germany. alexander.schuster@uni-mainz.de."
+    ],
+    "financeurs_declares": [
+      {
+        "organisme": "Deutsche Forschungsgemeinschaft",
+        "pays": "",
+        "reference": "585379939"
+      }
+    ],
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7224199597",
+      "doi": "10.1007/s00417-026-07566-w",
+      "pmid": "42955264",
+      "pmcid": null,
+      "titre": "Archetypal analysis of visual field patterns in an African population: a data-driven approach",
+      "lien": "https://openalex.org/W7224199597",
+      "date_publication": "2026-10-29",
+      "type": "article",
+      "revue": "Graefe s Archive for Clinical and Experimental Ophthalmology",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "pubmed"
+      ],
+      "financeurs": [
+        {
+          "nom": "Deutsche Forschungsgemeinschaft",
+          "ror": "https://ror.org/018mejw64"
+        }
+      ],
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "Kwame Nkrumah University of Science and Technology",
+          "pays": "GH",
+          "type": "education",
+          "ror": "https://ror.org/00cb23x68"
+        },
+        {
+          "nom": "University Medical Center of the Johannes Gutenberg University Mainz",
+          "pays": "DE",
+          "type": "healthcare",
+          "ror": "https://ror.org/00q1fsf04"
+        }
+      ],
+      "acces_ouvert": false,
+      "statut_acces": "closed",
+      "url_texte": null,
+      "url_pdf": null,
+      "licence": null,
+      "texte_integral_indexe": false,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Glaucoma and retinal disorders",
+      "resume_present": false,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": [
+      {
+        "nom": "Deutsche Forschungsgemeinschaft",
+        "statut": "CONFIRMÉ — déclaré dans la notice PubMed (GrantList)",
+        "references": [
+          "585379939"
+        ],
+        "notices": [
+          [
+            "notice PubMed",
+            "https://pubmed.ncbi.nlm.nih.gov/42955264/?format=pubmed"
+          ]
+        ],
+        "note": null
+      }
+    ]
+  }
+}

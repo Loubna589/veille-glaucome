@@ -1,0 +1,97 @@
+{
+  "pmid": "42913719",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42913719",
+    "titre": "Utility of Macular Optical Coherence Tomography Angiography in the Follow-Up of Glaucoma Associated with Sturge-Weber Syndrome: A Case Report.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42913719/",
+    "doi": "10.1055/a-2988-3151",
+    "pmcid": null,
+    "revue": "Klinische Monatsblatter fur Augenheilkunde",
+    "date_entree_pubmed": "2026-10-23",
+    "date_publication": "2026-Nov-05",
+    "types_publication": [
+      "Journal Article"
+    ],
+    "resume_present": false,
+    "resume": null,
+    "mots_cles_auteurs": null,
+    "langue": "eng",
+    "nombre_auteurs": 5,
+    "affiliations_auteurs": [
+      "Hospital Clinico San Carlos, Ophthalmology, Community of Madrid, Spain, Madrid.",
+      "Complutense University of Madrid, Medicine, Community of Madrid, Spain, Madrid."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7223218443",
+      "doi": "10.1055/a-2988-3151",
+      "pmid": "42913719",
+      "pmcid": null,
+      "titre": "Utility of Macular Optical Coherence Tomography Angiography in the Follow-Up of Glaucoma Associated with Sturge–Weber Syndrome: A Case Report",
+      "lien": "https://openalex.org/W7223218443",
+      "date_publication": "2026-10-22",
+      "type": "article",
+      "revue": "Klinische Monatsblätter für Augenheilkunde",
+      "type_source": "journal",
+      "langue": "de",
+      "indexe_dans": [
+        "crossref",
+        "pubmed"
+      ],
+      "financeurs": null,
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "Universidad Complutense de Madrid",
+          "pays": "ES",
+          "type": "education",
+          "ror": "https://ror.org/02p0gd045"
+        },
+        {
+          "nom": "Hospital Clínico San Carlos",
+          "pays": "ES",
+          "type": "healthcare",
+          "ror": "https://ror.org/04d0ybj29"
+        },
+        {
+          "nom": "Comunidad de Madrid",
+          "pays": "ES",
+          "type": "government",
+          "ror": "https://ror.org/040scgh75"
+        }
+      ],
+      "acces_ouvert": false,
+      "statut_acces": "closed",
+      "url_texte": null,
+      "url_pdf": null,
+      "licence": null,
+      "texte_integral_indexe": false,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Glaucoma and retinal disorders",
+      "resume_present": false,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": []
+  }
+}

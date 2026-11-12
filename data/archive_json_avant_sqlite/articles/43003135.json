@@ -1,0 +1,110 @@
+{
+  "pmid": "43003135",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "43003135",
+    "titre": "Outcome of gonioscopy-assisted transluminal trabeculotomy in glaucoma: 5-year results.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/43003135/",
+    "doi": "10.1016/j.jcjo.2026.10.003",
+    "pmcid": null,
+    "revue": "Canadian journal of ophthalmology. Journal canadien d'ophtalmologie",
+    "date_entree_pubmed": "2026-11-09",
+    "date_publication": "2026-Nov-09",
+    "types_publication": [
+      "Journal Article"
+    ],
+    "resume_present": true,
+    "resume": "OBJECTIVE: Gonioscopy-assisted transluminal trabeculotomy (GATT) has gained popularity as a microinvasive glaucoma surgery procedure, yet long-term outcomes remain understudied. Our study evaluated the 5-year efficacy and safety of GATT.\nDESIGN: Multicentre retrospective cohort study.\nPATIENTS: Adult patients with open-angle glaucoma who underwent GATT with or without phacoemulsification between 2016 and 2019 were included. We excluded eyes with previous glaucoma surgery, angle-closure, or traumatic glaucoma.\nMETHODS: The primary outcome was surgical success, defined as the absence of a need for reoperation or a laser procedure for uncontrolled intraocular pressure (IOP) or disease progression. Secondary outcomes additionally required IOP thresholds of ≤21, ≤18 and ≤15 mm Hg without an increase in anti-glaucoma medication (AGM) use. Five-year changes in IOP, AGM use, best-corrected visual acuity, OCT parameters, and adverse events also were assessed.\nRESULTS: In total, 74 eyes from 62 patients (mean age 59.1 ± 13.9 years; 54% male) were analysed, including 56 standalone GATT and 18 Phaco-GATT cases. Mean baseline IOP was 23.1 ± 8.0 mm Hg on 3.2 ± 1.3 AGMs. At 5 years, mean IOP decreased by 9.6 mm Hg (41.6% reduction), and AGM use decreased by 1.1 (34.4% reduction), both P < 0.001. Success rates varied from 28% to 51% on the basis of different criteria. Cox proportional hazards analysis identified greater success in the Phaco-GATT group (hazard ratio 0.23; P = 0.015) and lower success in eyes with previous selective laser trabeculoplasty (hazard ratio 2.5; P = 0.017).\nCONCLUSIONS: GATT provides sustained 5-year IOP and medication reductions with a favourable safety profile, supporting its use as an effective long-term option.",
+    "mots_cles_auteurs": null,
+    "langue": "eng",
+    "nombre_auteurs": 4,
+    "affiliations_auteurs": [
+      "Department of Ophthalmology & Vision Sciences, Faculty of Medicine, McGill University, Montreal QC; Department of Ophthalmology, King Faisal Specialist Hospital and Research Center, Riyadh, Saudi Arabia.",
+      "Department of Ophthalmology & Vision Sciences, Faculty of Medicine, McGill University, Montreal QC; Glaucoma Service, Wills Eye Hospital, Philadelphia, PA; Department of Ophthalmology, University of Alberta, Edmonton AB.",
+      "Department of Ophthalmology & Vision Sciences, Faculty of Medicine, McGill University, Montreal QC.",
+      "Department of Ophthalmology & Vision Sciences, Faculty of Medicine, McGill University, Montreal QC; Montreal Glaucoma Institute and Bellevue Ophthalmology Clinics, Montreal QC; Department of Ophthalmology, University of Montreal, Montreal QC. Electronic address: pavloh@igmtl.com."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7225722582",
+      "doi": "10.1016/j.jcjo.2026.10.003",
+      "pmid": "43003135",
+      "pmcid": null,
+      "titre": "Outcome of gonioscopy-assisted transluminal trabeculotomy in glaucoma: 5-year results.",
+      "lien": "https://openalex.org/W7225722582",
+      "date_publication": "2026-11-09",
+      "type": "article",
+      "revue": "PubMed",
+      "type_source": "repository",
+      "langue": "en",
+      "indexe_dans": [
+        "pubmed"
+      ],
+      "financeurs": null,
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "King Faisal Specialist Hospital & Research Centre",
+          "pays": "SA",
+          "type": "healthcare",
+          "ror": "https://ror.org/05n0wgt02"
+        },
+        {
+          "nom": "McGill University",
+          "pays": "CA",
+          "type": "education",
+          "ror": "https://ror.org/01pxwe438"
+        },
+        {
+          "nom": "University of Alberta",
+          "pays": "CA",
+          "type": "education",
+          "ror": "https://ror.org/0160cpw27"
+        },
+        {
+          "nom": "Wills Eye Hospital",
+          "pays": "US",
+          "type": "healthcare",
+          "ror": "https://ror.org/03qygnx22"
+        },
+        {
+          "nom": "Université de Montréal",
+          "pays": "CA",
+          "type": "education",
+          "ror": "https://ror.org/0161xgx34"
+        }
+      ],
+      "acces_ouvert": false,
+      "statut_acces": "closed",
+      "url_texte": null,
+      "url_pdf": null,
+      "licence": null,
+      "texte_integral_indexe": false,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Glaucoma and retinal disorders",
+      "resume_present": true,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": []
+  }
+}

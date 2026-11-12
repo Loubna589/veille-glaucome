@@ -1,0 +1,84 @@
+{
+  "pmid": "42998695",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42998695",
+    "titre": "Comment on: Long-Term Visual Field Outcomes after failed trabeculectomy: Same site Trabeculectomy versus Ahmed Glaucoma Valve Implantation.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42998695/",
+    "doi": "10.1016/j.ajo.2026.10.034",
+    "pmcid": null,
+    "revue": "American journal of ophthalmology",
+    "date_entree_pubmed": "2026-11-07",
+    "date_publication": "2026-Nov-07",
+    "types_publication": [
+      "Letter"
+    ],
+    "resume_present": false,
+    "resume": null,
+    "mots_cles_auteurs": null,
+    "langue": "eng",
+    "nombre_auteurs": 1,
+    "affiliations_auteurs": [
+      "Department of Ophthalmology, Wuhan Asia General Hospital, Wuhan University of Science and Technology, Wuhan, Hubei, China. Electronic address: chenghuilimd@sina.com."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7225453323",
+      "doi": "10.1016/j.ajo.2026.10.034",
+      "pmid": "42998695",
+      "pmcid": null,
+      "titre": "Comment on: Long-Term Visual Field Outcomes after failed trabeculectomy: Same site Trabeculectomy versus Ahmed Glaucoma Valve Implantation",
+      "lien": "https://openalex.org/W7225453323",
+      "date_publication": "2026-11-01",
+      "type": "letter",
+      "revue": "American Journal of Ophthalmology",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "pubmed"
+      ],
+      "financeurs": null,
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "Wuhan University of Science and Technology",
+          "pays": "CN",
+          "type": "education",
+          "ror": "https://ror.org/00e4hrk88"
+        }
+      ],
+      "acces_ouvert": false,
+      "statut_acces": "closed",
+      "url_texte": null,
+      "url_pdf": null,
+      "licence": null,
+      "texte_integral_indexe": false,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Glaucoma and retinal disorders",
+      "resume_present": false,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": []
+  }
+}

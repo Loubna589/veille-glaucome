@@ -1,0 +1,51 @@
+{
+  "openalex_id": "W7212268993",
+  "premiere_detection": "2026-09-25",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "openalex_id": "W7212268993",
+    "doi": "10.5281/zenodo.22714318",
+    "pmid": null,
+    "pmcid": null,
+    "titre": "Cómo vivir con Glaucoma",
+    "lien": "https://openalex.org/W7212268993",
+    "date_publication": "2026-09-11",
+    "type": "article",
+    "revue": "Zenodo (CERN European Organization for Nuclear Research)",
+    "type_source": "repository",
+    "langue": null,
+    "indexe_dans": [
+      "datacite"
+    ],
+    "financeurs": null,
+    "subventions": null,
+    "institutions": null,
+    "acces_ouvert": true,
+    "statut_acces": "green",
+    "url_texte": "https://doi.org/10.5281/zenodo.22714318",
+    "url_pdf": null,
+    "licence": "cc-by",
+    "texte_integral_indexe": false,
+    "retracte": false,
+    "citations": 0,
+    "sujet_principal": "Glaucoma and retinal disorders",
+    "resume_present": true,
+    "resume": "El glaucoma va dañando de forma lenta y progresiva el nervio óptico. Quienes tienen glaucoma pierden visión antes de notar que tienen problemas con sus ojos. La forma más común es el Glaucoma Primario de Ángulo Abierto, seguido del Glaucoma por Cierre Angular Primario, se acompaña de múltiples factores de riesgo, donde el principal es el aumento de la presiónintraocular. La visión periférica es la que se daña inicialmente, no obstante con el tiempo se pierde la visión central y las dificultades visuales se incrementan y empeora la calidad de vida.La visión que se pierde por glaucoma, no es recuperable; sin embargo, hay formas de evitar pérdidas graves de visión y ceguera por esta enfermedad.",
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "present_dans_pubmed": false
+  }
+}

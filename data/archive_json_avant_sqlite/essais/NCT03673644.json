@@ -1,0 +1,99 @@
+{
+  "nct": "NCT03673644",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "nct": "NCT03673644",
+    "titre": "Impact of Glaucoma and Visual Field Loss on Life Space",
+    "titre_officiel": "Glaucoma, Visual Field Loss, and Their Association With Life Space in Older Adults",
+    "lien": "https://clinicaltrials.gov/study/NCT03673644",
+    "date_premiere_publication": "2018-09-17",
+    "date_derniere_mise_a_jour": "2026-10-27",
+    "type_etude": "OBSERVATIONAL",
+    "phases_declarees": null,
+    "statut": "ACTIVE_NOT_RECRUITING",
+    "raison_arret": null,
+    "date_debut": "2018-10-09",
+    "date_fin_principale": "2019-05-30",
+    "promoteur": "University of Alabama at Birmingham",
+    "type_promoteur": "OTHER",
+    "collaborateurs": [
+      "National Institute on Aging (NIA)"
+    ],
+    "conditions": [
+      "Primary Open-angle Glaucoma"
+    ],
+    "interventions": [
+      {
+        "type": "OTHER",
+        "nom": "Questionnaires"
+      }
+    ],
+    "participants_nombre": 88,
+    "participants_type": "ESTIMATED",
+    "criteres_principaux": [
+      {
+        "critere": "Assessment of life space measured with the Life Space Questionnaire",
+        "delai": "Day one"
+      }
+    ],
+    "resultats_deposes": false,
+    "publications_declarees": null,
+    "resume_source": "Mobility refers to a person's purposeful movement through the environment from one place to another and can be conceptualized as a continuum from bed bound (immobility) on one extreme to making excursions to distant locations on the other extreme. Primary open-angle glaucoma (POAG) is a chronic, progressive optic neuropathy that can lead to gradual loss of vision in the peripheral field and central vision. Older adults with POAG have an increased risk for motor vehicle collisions and falls. Moreover, existing studies suggest that patients with POAG exhibit more postural sway while standing as measured by a balance platform and also tend to walk more slowly than those who are normally sighted and free of ocular disease. While these disturbances likely influence mobility, there has been little research directly assessing the impact of POAG on mobility. This study will assess the impact of POAG on life space (one aspect of mobility) and will determine whether difficulties with life space are associated with difficulties experienced under conditions of dim lighting.",
+    "citations_declarees": null,
+    "plan": {
+      "repartition": null,
+      "modele": null,
+      "but_principal": null,
+      "insu": null,
+      "insu_pour": null,
+      "insu_description": null,
+      "modele_observationnel": "COHORT"
+    },
+    "bras": [
+      {
+        "libelle": "Primary Open-Angle Glaucoma",
+        "type": null,
+        "description": "Two following two questionnaires will be administered:\n\n1. Life Space Questionnaire: This 9-item questionnaire is interested in finding out how much a person gets out and about and the spatial extent of the person's typical life space, i.e., what is the usual range of places in which the person engages in activities within the designated time frame.\n2. Low Luminance Questionnaire: This 32-item questionnaire is interested in finding out problems that involve vision under different lighting conditions or feelings that people have about your vision under different lighting conditions.",
+        "interventions": [
+          "Other: Questionnaires"
+        ]
+      }
+    ],
+    "eligibilite": {
+      "criteres": "Inclusion Criteria:\n\n* Clinical diagnosis of primary open-angle glaucoma\n* Best-corrected visual acuity of 20/40 or better\n* Spherical refraction within ± 5 Diopters\n* Cylinder refraction within ± 3 Diopters\n\nExclusion Criteria:\n\n* History of intra-ocular surgery other than uncomplicated cataract or glaucoma surgery\n* Significant cognitive impairment",
+      "age_min": "18 Years",
+      "age_max": null,
+      "sexe": "ALL",
+      "volontaires_sains": false
+    },
+    "criteres_secondaires": [
+      {
+        "critere": "Relationship between the Life Space Questionnaire and vision loss",
+        "delai": "Day one"
+      },
+      {
+        "critere": "Assessment of vision under dim illumination and at night using the Low Luminance Questionnaire",
+        "delai": "Day one"
+      },
+      {
+        "critere": "Relationship between Low Luminance Questionnaire and vision loss",
+        "delai": "Day one"
+      },
+      {
+        "critere": "Relationship between the Low Luminance Questionnaire and the Life Space Questionnaire",
+        "delai": "Day one"
+      }
+    ],
+    "responsables": [
+      {
+        "nom": "Lyne Racette, PhD",
+        "affiliation": "University of Alabama at Birmingham",
+        "role": "PRINCIPAL_INVESTIGATOR"
+      }
+    ],
+    "date_depot_resultats": null,
+    "resultats": null
+  },
+  "modifications": []
+}

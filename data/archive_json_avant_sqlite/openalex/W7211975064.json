@@ -1,0 +1,64 @@
+{
+  "openalex_id": "W7211975064",
+  "premiere_detection": "2026-09-25",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "openalex_id": "W7211975064",
+    "doi": "10.37275/bsm.v10i10.1669",
+    "pmid": null,
+    "pmcid": null,
+    "titre": "Sequential Inflammatory and Pupillary-Block Ocular Hypertension in Streptococcus suis Endogenous Endophthalmitis: An Observational Analytic Case Study",
+    "lien": "https://openalex.org/W7211975064",
+    "date_publication": "2026-09-08",
+    "type": "article",
+    "revue": "Bioscientia Medicina Journal of Biomedicine and Translational Research",
+    "type_source": "journal",
+    "langue": null,
+    "indexe_dans": [
+      "crossref"
+    ],
+    "financeurs": null,
+    "subventions": null,
+    "institutions": [
+      {
+        "nom": "Udayana University",
+        "pays": "ID",
+        "type": "education",
+        "ror": "https://ror.org/035qsg823"
+      }
+    ],
+    "acces_ouvert": true,
+    "statut_acces": "gold",
+    "url_texte": "https://doi.org/10.37275/bsm.v10i10.1669",
+    "url_pdf": null,
+    "licence": "cc-by-nc-sa",
+    "texte_integral_indexe": false,
+    "retracte": false,
+    "citations": 0,
+    "sujet_principal": "Streptococcal Infections and Treatments",
+    "resume_present": true,
+    "resume": "Background: Streptococcus suis, a zoonosis acquired from pigs and raw pork, is a rare cause of endogenous endophthalmitis, and no quantitative account of the pressure complications of such an eye has been published. Objective: To characterize, in a single culture-proven case of Streptococcus suis endogenous endophthalmitis, the two mechanisms and the course of the raised intraocular pressure, and to derive the clinical implications for management. Methods: a structured analysis of one culture-proven case managed at a tertiary hospital in Bali, Indonesia, over 48 days. Acuity was converted to logMAR on four published scales, all 19 pressure readings were analysed with a repeatability model, and corticosteroid causation was scored with the Naranjo instrument. Results: a 46-year-old man who had eaten raw pork a week earlier presented with meningitis, reduced hearing and a left eye with light perception, hypopyon and vitritis. Cerebrospinal fluid and vitreous both grew S. suis. Pressure rose in two distinct episodes: an inflammatory one peaking at 29.0 mmHg on day 7, and a pupillary block from posterior synechiae with iris bombé peaking at 30.0 mmHg on day 16, which fell 11.0 mmHg after iridotomy with simultaneous reintroduction of timolol. Corticosteroid causation scored 3, a value largely fixed by the temporal sequence alone. Acuity improved by 0.70 logMAR overall, but the division of that gain across the vitrectomy reversed with the conversion scale: 0.40 before and 0.30 after by clinical convention against 0.10 and 0.60 with measured hand-movement values. The eye remained blind. Conclusion: raised pressure in such eyes is not one entity, the pupil must be examined before pressure-lowering therapy is escalated, and a logMAR change at this level of vision is uninterpretable unless its scale is stated.",
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": true,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": [
+        {
+          "produit": "timolol",
+          "role": "non déterminé",
+          "statut_role": "cité dans le résumé ou les mots-clés"
+        }
+      ],
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "present_dans_pubmed": false
+  }
+}

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>NCT02157025 — fiche essai</title><style>
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
+:root{--fond:#f4f7fb;--carte:#fff;--texte:#0f1d33;--doux:#52627a;--bord:#e2e8f0;--accent:#0b4f8a;
+--ok:#146c43;--ok-fond:#e3f4ea;--att:#8a5300;--att-fond:#fdf1d8;--ver:#b42318;--ver-fond:#fdeceb;
+--reg:#3f3c9e;--reg-fond:#ecebfb;--src-fond:#f1f5f9;--mark:#fff1a8;--manque:#b42318;--turquoise:#14b8a6;}
+@media (prefers-color-scheme:dark){:root{--fond:#0a1120;--carte:#101a2c;--texte:#e6edf7;--doux:#9db0ca;
+--bord:#1e2b42;--accent:#6fb4ff;--ok:#6fd6a0;--ok-fond:#12301f;--att:#f3c15e;--att-fond:#352a10;--ver:#ff9a8f;
+--ver-fond:#3a1714;--reg:#b4b2ff;--reg-fond:#24234a;--src-fond:#0d1626;--mark:#5a4d10;--manque:#ff9a8f;--turquoise:#2dd4bf;}}
+*{box-sizing:border-box}body{margin:0;background:var(--fond);color:var(--texte);
+font:15.5px/1.6 "Inter",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+:focus-visible{outline:3px solid var(--turquoise);outline-offset:2px;border-radius:6px}
+main{max-width:1000px;margin:0 auto;padding:20px 18px 64px}
+.bandeau{display:flex;align-items:center;gap:10px;font-weight:800;letter-spacing:-.02em;padding:6px 0 14px;color:var(--texte);text-decoration:none}
+.bandeau i{width:30px;height:30px;border-radius:9px;background:linear-gradient(135deg,#0b4f8a,#14b8a6);display:inline-block}
+header,section{background:var(--carte);border:1px solid var(--bord);border-radius:16px;padding:20px 24px;margin:0 0 16px;
+box-shadow:0 1px 2px rgba(15,29,51,.04),0 6px 20px -8px rgba(15,29,51,.12)}
+h1{font-size:1.45rem;line-height:1.3;margin:.2em 0 .5em}h2{font-size:1.1rem;margin:0 0 .6em;color:var(--accent)}
+h3{font-size:1rem;margin:1.1em 0 .4em}.surtitre{color:var(--doux);margin:0;font-size:.9rem}
+a{color:var(--accent)}small,.def{color:var(--doux)}.def{font-size:.88rem;margin:.2em 0 .6em}
+.grille{display:grid;grid-template-columns:max-content 1fr;gap:4px 16px;margin:12px 0 0}
+.grille dt{color:var(--doux)}.grille dd{margin:0}
+.badge{display:inline-block;font-size:.72rem;font-weight:600;padding:2px 8px;border-radius:999px;margin:2px 4px 2px 0;
+vertical-align:middle;background:var(--src-fond);color:var(--doux)}
+.badge.confirme{background:var(--ok-fond);color:var(--ok)}.badge.attente{background:var(--att-fond);color:var(--att)}
+.badge.verifier{background:var(--ver-fond);color:var(--ver)}.badge.regle{background:var(--reg-fond);color:var(--reg)}
+.rubrique{font-weight:600}.manque{color:var(--manque);font-style:italic}
+mark{background:var(--mark);color:inherit;padding:0 2px;border-radius:3px}
+blockquote{margin:.5em 0;padding:.5em .9em;border-left:3px solid var(--bord);background:var(--src-fond);border-radius:0 6px 6px 0}
+pre{white-space:pre-wrap;font-size:.85rem;background:var(--src-fond);padding:10px;border-radius:6px}
+.defile{overflow-x:auto}table{border-collapse:collapse;width:100%;font-size:.92rem;margin:.4em 0}
+th,td{border:1px solid var(--bord);padding:6px 8px;text-align:left;vertical-align:top}th{background:var(--src-fond)}
+.analyse{background:var(--src-fond);padding:6px 10px;border-radius:6px;font-size:.92rem}
+.acteurs{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px}
+.acteurs>div{border:1px solid var(--bord);border-radius:8px;padding:10px 12px}.acteurs h3{margin-top:0}
+.copier{position:sticky;top:0;z-index:2;display:flex;gap:12px;align-items:center;flex-wrap:wrap;
+background:var(--fond);padding:10px 0;margin-bottom:8px}
+button{font:inherit;font-weight:600;background:var(--accent);color:#fff;border:0;border-radius:8px;padding:9px 16px;cursor:pointer}
+@media (prefers-color-scheme:dark){button{color:#10141a}}
+textarea{width:100%;min-height:260px;font:13px/1.4 ui-monospace,Consolas,monospace;background:var(--src-fond);
+color:var(--texte);border:1px solid var(--bord);border-radius:6px;padding:8px}
+details{margin:.5em 0}summary{cursor:pointer;color:var(--accent)}
+.retour{font-size:.92rem;margin:0 0 4px}
+@media (max-width:600px){.grille{grid-template-columns:1fr}.grille dt{margin-top:6px}header,section{padding:14px}}
+</style></head>
+<body><main>
+<a class="bandeau" href="../index.html"><i aria-hidden="true"></i>Glaucoma Intelligence</a><nav class="retour"><a href="../index.html">Accueil</a> · <a href="../etudes.html">← Essais &amp; articles</a> · <a href="../recherche.html">Rechercher</a> · <a href="../carte.html">Carte des acteurs</a> · <a href="../alertes.html">Alertes</a></nav>
+<div class="copier"><button id="bouton-copier" type="button" onclick="copierFiche()">Copier pour Claude / ChatGPT</button>
+<small>Copie une consigne + les faits de cette fiche, à coller dans votre assistant.</small></div>
+
+    <header>
+      <p class="surtitre">Fiche essai clinique · NCT02157025 · <a href="https://clinicaltrials.gov/study/NCT02157025" target="_blank" rel="noopener">voir sur ClinicalTrials.gov</a></p>
+      <h1>A More Engaging Visual Field Test to Increase Use and Reliability in Pediatrics</h1>
+      <p><span class="badge attente">ESSAI ENREGISTRÉ — AUCUN RÉSULTAT DÉPOSÉ AU REGISTRE</span></p>
+      <dl class="grille">
+        <dt>Phase (déclarée)</dt><dd>Non applicable (déclaré)</dd>
+        <dt>Statut</dt><dd>Terminé</dd>
+        <dt>Type d'étude</dt><dd>Interventionnelle</dd>
+        <dt>Participants</dt><dd>11 (réel)</dd>
+        <dt>Première publication au registre</dt><dd>2014-06-05</dd>
+        <dt>Dernière mise à jour au registre</dt><dd>2026-09-30</dd>
+        <dt>Début · fin principale</dt><dd>2015-02 · 2026-02</dd>
+        <dt>Détecté par l'outil le</dt><dd>2026-11-11 · 0 modification(s) repérée(s) depuis</dd>
+      </dl>
+      <p class="rubriques"><strong>Rubrique :</strong> <span class="rubrique">Dispositifs et chirurgie</span> <small>bras expérimental de type DEVICE déclaré au registre : Cartoon video fixation target and cartoon character voice audio instructions during Humphrey perimetry</small><br><span class="rubrique">Diagnostic et IA</span> <small>but principal déclaré au registre : DIAGNOSTIC</small> <span class="badge regle">classement automatique — règles dans config/rubriques.ini</span></p>
+    </header>
+<section><h2>Question étudiée <span class="badge source">Registre ClinicalTrials.gov</span></h2><p><strong>Titre officiel :</strong> A More Engaging Visual Field Test to Increase Use and Reliability in Pediatrics</p><blockquote lang="en">The majority of young children do not think that visual field (VF) testing of peripheral vision is similar to a game; therefore, it is not surprising that they have difficulty maintaining attention during VF testing and thus the test reliability suffers as a consequence. Poor VF reliability has been a longstanding, major issue since it leads to an increased number of tests and/or longer duration of time needed to determine when there are true vision losses. Providers are less likely to obtain VF tests in children since the results are of doubtful value and challenging to interpret when they are inconsistent. Effectively this means that children with untreated, slowly progressive eye diseases may go undiagnosed and incur greater visual losses. The investigators aim to create a prototype device that the investigators hypothesize will make VF testing more engaging for young children, thus increasing their attention and consistency of their responses to the test stimuli, which in turn should improve VF reliability. The components include a microdisplay video screen (1.5" diameter) as the fixation target (instead of the standard LED light) displaying video clips of popular cartoon characters, and audio clips of impersonated cartoon character voices presented by the test operator to provide instructional feedback based on the child's performance during testing. Improved VF reliability from the investigators intervention would translate to improved diagnosis and care for young childrens' peripheral vision loss through widespread implementation of the investigators innovative, affordable and readily adoptable system at eye care providers' offices.</blockquote></section><section><h2>Traitement ou technologie, et comparateur <span class="badge source">Registre ClinicalTrials.gov</span><span class="badge confirme">rôles CONFIRMÉS : type de bras déclaré au registre</span></h2><div class="defile"><table><thead><tr><th>Bras</th><th>Rôle déclaré</th><th>Interventions</th><th>Description (registre)</th></tr></thead><tbody><tr><td><strong>Cartoon Intervention</strong></td><td>Expérimental (traitement étudié)</td><td>Device: Cartoon video fixation target and cartoon character voice audio instructions during Humphrey perimetry</td><td><small lang="en">Cartoon video fixation target and cartoon character voice audio instructions during Humphrey perimetry</small></td></tr><tr><td><strong>Usual Care</strong></td><td>Comparateur actif</td><td>Other: Usual Care procedures during Humphrey perimetry for children</td><td><small lang="en">Usual care procedures for Humphrey perimetry in young children</small></td></tr></tbody></table></div></section><section><h2>Type d'étude <span class="badge source">Registre ClinicalTrials.gov</span></h2><ul><li>Type : Interventionnelle · phase déclarée : Non applicable (déclaré)</li><li>Répartition : randomisée</li><li>Modèle : groupes parallèles</li><li>Insu : ouvert (sans insu)</li><li>But principal : diagnostic</li></ul></section><section><h2>Population et participants <span class="badge source">Registre ClinicalTrials.gov</span></h2><ul><li>Conditions déclarées : Glaucoma, Suspect, Optic Nerve Hypoplasia and Abnormalities of the Central Nervous System, Congenital Coloboma of the Optic Nerve, Optic Nerve Head Pits, Bilateral Congenital</li><li>Âge : 5 Years → 8 Years</li><li>Sexe : tous</li><li>Volontaires sains acceptés : oui</li><li>Nombre de participants : <mark>11 (réel)</mark></li></ul><details><summary>Critères d'inclusion et d'exclusion (texte du registre)</summary><pre lang="en">Inclusion Criteria:
+
+* Ages 5-8
+* Seen previously in the clinics at Nova Southeastern University's The Eye Care Institute with a diagnosis for glaucoma suspect or optic nerve abnormalities
+* Able and willing to complete VF testing at 2 study visits about a week apart
+* Provide informed consent
+
+Exclusion Criteria:
+
+* History of having previously completed a VF test using Humphrey static perimetry
+* Inability to understand study or communicate responses (cognitive impairment)
+* Unable to understand, read and speak English fluently</pre></details></section><section><h2>Critères évalués (tels que déclarés) <span class="badge source">Registre ClinicalTrials.gov</span></h2><ul><li><strong>Principal :</strong> Humphrey Visual Field Test-Retest Variability of Mean Deviation scores (dB) <small>[1 week]</small></li><li>Secondaire : Humphrey Visual Field Reliability Indices and Ratings <small>[1 week]</small></li></ul></section><section><h2>Résultats disponibles <span class="badge source">Registre ClinicalTrials.gov</span></h2><p><span class="manque">Aucun résultat n'est déposé au registre à ce jour. L'essai est terminé : des résultats pourraient être publiés ou déposés plus tard.</span></p></section><section><h2>Données de tolérance <span class="badge source">Registre ClinicalTrials.gov</span></h2><p><span class="manque">Non disponibles : aucun résultat déposé au registre</span></p></section><section><h2>Publications liées <span class="badge source">Registre ClinicalTrials.gov</span></h2><ul><li><span class="manque">Aucune publication liée identifiée</span></li></ul></section><section><h2>Promoteur, financeur et affiliations <span class="badge source">Registre ClinicalTrials.gov</span></h2><div class="acteurs">
+      <div><h3>Promoteur</h3><p class="def">Organisme responsable de l'essai, déclaré au registre.</p>
+        <p><strong>Nova Southeastern University</strong> (académique ou autre)</p>
+        <p>Collaborateurs déclarés : aucun déclaré</p></div>
+      <div><h3>Financeur</h3><p class="def">Organisme qui finance la recherche.</p>
+        <p><span class="manque">Non déclaré séparément dans le registre.</span> Le promoteur n'est pas présenté ici comme financeur : le registre ne le précise pas.</p></div>
+      <div><h3>Affiliations</h3><p class="def">Établissement des responsables de l'étude.</p>
+        <ul><li>Ava Bittner — directeur d'étude — affiliation : University of California, Los Angeles</li></ul></div>
+    </div></section>
+<section><h2>Ce qui manque <span class="badge regle">calculé par l'outil</span></h2><ul><li>résultats (aucun résultat déposé au registre)</li><li>données de tolérance</li><li>publication liée</li></ul></section>
+<section><h2>Limites, intérêt pour la veille marketing, à retenir <span class="badge attente">non produit par l'outil</span></h2><p><span class="manque">Non rédigé automatiquement : les données extraites ne suffisent pas à produire une analyse fiable sans interprétation. Utilisez le bouton « Copier pour Claude / ChatGPT » pour obtenir une proposition, à vérifier.</span></p></section>
+<section><details><summary>Voir le texte copié par le bouton</summary>
+<textarea id="a-copier" readonly>Tu es assistant de veille scientifique sur le glaucome. À partir UNIQUEMENT des informations ci-dessous, rédige en français une fiche de synthèse avec ces rubriques :
+1. Question étudiée
+2. Traitement ou technologie
+3. Type d&#x27;étude
+4. Population et nombre de participants
+5. Comparateur
+6. Critères évalués
+7. Principaux résultats chiffrés (recopie les valeurs exactes et indique leur source)
+8. Données de tolérance
+9. Limites
+10. Intérêt potentiel pour une veille marketing — présenté comme une INTERPRÉTATION, séparé des faits
+11. À retenir (une phrase)
+
+Règles :
+- N&#x27;invente rien. Si une information manque, écris « non rapporté ».
+- Distingue un essai simplement enregistré, un protocole, des résultats déposés dans un registre et une publication de résultats.
+- Si la source est seulement le résumé d&#x27;un article, indique que la synthèse repose uniquement sur ce résumé.
+- Les rôles « suggérés » (traitement étudié / comparateur) sont à vérifier dans le texte source.
+- Ne confonds pas promoteur d&#x27;essai, financeur et affiliation des auteurs.
+- Termine par la liste des points à vérifier.
+
+=== INFORMATIONS ===
+SOURCE : registre ClinicalTrials.gov, essai NCT02157025 — https://clinicaltrials.gov/study/NCT02157025
+NIVEAU DE PREUVE : essai enregistré, AUCUN résultat déposé au registre
+Titre : A More Engaging Visual Field Test to Increase Use and Reliability in Pediatrics
+Titre officiel : A More Engaging Visual Field Test to Increase Use and Reliability in Pediatrics
+Phase déclarée : Non applicable (déclaré) · Statut : Terminé · Type : Interventionnelle
+Promoteur (déclaré) : Nova Southeastern University (OTHER) · Collaborateurs : aucun
+Financeur : non déclaré séparément dans le registre
+Participants : 11 (réel) · Conditions : Glaucoma, Suspect, Optic Nerve Hypoplasia and Abnormalities of the Central Nervous System, Congenital Coloboma of the Optic Nerve, Optic Nerve Head Pits, Bilateral Congenital
+Plan : {&#x27;but_principal&#x27;: &#x27;DIAGNOSTIC&#x27;, &#x27;insu&#x27;: &#x27;NONE&#x27;, &#x27;insu_description&#x27;: None, &#x27;insu_pour&#x27;: None, &#x27;modele&#x27;: &#x27;PARALLEL&#x27;, &#x27;modele_observationnel&#x27;: None, &#x27;repartition&#x27;: &#x27;RANDOMIZED&#x27;}
+Bras (rôle déclaré) :
+  - Cartoon Intervention [EXPERIMENTAL] : Device: Cartoon video fixation target and cartoon character voice audio instructions during Humphrey perimetry
+  - Usual Care [ACTIVE_COMPARATOR] : Other: Usual Care procedures during Humphrey perimetry for children
+Critères principaux : Humphrey Visual Field Test-Retest Variability of Mean Deviation scores (dB) [1 week]
+Critères secondaires : Humphrey Visual Field Reliability Indices and Ratings [1 week]
+
+DESCRIPTION (registre, texte source) :
+The majority of young children do not think that visual field (VF) testing of peripheral vision is similar to a game; therefore, it is not surprising that they have difficulty maintaining attention during VF testing and thus the test reliability suffers as a consequence. Poor VF reliability has been a longstanding, major issue since it leads to an increased number of tests and/or longer duration of time needed to determine when there are true vision losses. Providers are less likely to obtain VF tests in children since the results are of doubtful value and challenging to interpret when they are inconsistent. Effectively this means that children with untreated, slowly progressive eye diseases may go undiagnosed and incur greater visual losses. The investigators aim to create a prototype device that the investigators hypothesize will make VF testing more engaging for young children, thus increasing their attention and consistency of their responses to the test stimuli, which in turn should improve VF reliability. The components include a microdisplay video screen (1.5&quot; diameter) as the fixation target (instead of the standard LED light) displaying video clips of popular cartoon characters, and audio clips of impersonated cartoon character voices presented by the test operator to provide instructional feedback based on the child&#x27;s performance during testing. Improved VF reliability from the investigators intervention would translate to improved diagnosis and care for young childrens&#x27; peripheral vision loss through widespread implementation of the investigators innovative, affordable and readily adoptable system at eye care providers&#x27; offices.
+
+RÉSULTATS : aucun résultat déposé au registre.</textarea></details></section>
+<p><small>Fiche générée le 2026-11-11 22:40 par Glaucoma Intelligence. Extraits des sources en langue originale.</small></p>
+</main><script>
+function copierFiche(){
+  var zone=document.getElementById('a-copier'), bouton=document.getElementById('bouton-copier');
+  function fait(){bouton.textContent='Copié ✓ — collez dans Claude ou ChatGPT';setTimeout(function(){bouton.textContent='Copier pour Claude / ChatGPT'},3000);}
+  function secours(){zone.parentElement.open=true;zone.select();try{document.execCommand('copy');fait();}
+    catch(err){bouton.textContent='Sélectionnez le texte ci-dessous puis Ctrl+C';}}
+  if(navigator.clipboard&&window.isSecureContext){navigator.clipboard.writeText(zone.value).then(fait,secours);}else{secours();}
+}
+</script></body></html>

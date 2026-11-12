@@ -1,0 +1,113 @@
+{
+  "pmid": "42936372",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42936372",
+    "titre": "Comparison of the Melbourne rapid fields-web device-independent online perimeter and the octopus 600 perimeter in glaucoma patients.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42936372/",
+    "doi": "10.3389/fopht.2026.1961375",
+    "pmcid": "PMC13697594",
+    "revue": "Frontiers in ophthalmology",
+    "date_entree_pubmed": "2026-10-27",
+    "date_publication": "2026",
+    "types_publication": [
+      "Journal Article"
+    ],
+    "resume_present": true,
+    "resume": "INTRODUCTION: The purpose of this study is to evaluate the agreement, repeatability, and testing efficiency of Melbourne Rapid Fields-Web (MRF-Web), a browser-based, device-independent perimeter, compared with the Octopus 600 perimeter in glaucoma patients.\nMETHODS: This retrospective, cross-sectional, single-center observational study included 113 patients undergoing routine visual field assessment for glaucoma or glaucoma suspicion at Marengo Asia Hospitals, Gurgaon, India. MRF-Web testing was performed on a calibrated 14-inch laptop with Hindi voice guidance. Agreement between MRF-Web and Octopus 600 for Mean Deviation (MD) and pattern-based global indices was assessed using intraclass correlation coefficients (ICCs) and Bland-Altman analysis. Test-retest repeatability was evaluated in 51 patients who underwent repeat MRF-Web testing.\nRESULTS: MRF-Web showed strong group-level concordance with Octopus 600 for MD, with an ICC of 0.88 (95% CI, 0.81-0.92), Bland-Altman bias of -0.78 dB, and 95% limits of agreement from -4.72 to 3.17 dB. Concordance for the pattern-based indices was moderate, with an ICC of 0.72 (95% CI, 0.58-0.81), bias of -0.59 dB, and 95% limits of agreement from -4.41 to 3.24 dB. MRF-Web demonstrated good test-retest concordance, with an ICC of 0.86 (95% CI, 0.69-0.94). Mean per-eye test duration was significantly shorter with MRF-Web than with Octopus 600 (232.9 ± 49.8 versus 342.4 ± 94.4 seconds).\nCONCLUSIONS: MRF-Web demonstrated strong group-level concordance with Octopus 600 MD measurements and shorter per-eye testing times in this predominantly mild-disease cohort. The limits of agreement indicate that measurements from the two platforms should not be regarded as directly interchangeable, and further study is required in moderate and advanced glaucoma.",
+    "mots_cles_auteurs": [
+      "Melbourne rapid fields",
+      "glaucoma",
+      "octopus perimeter",
+      "online perimetry",
+      "visual field"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 7,
+    "affiliations_auteurs": [
+      "The University of Melbourne, Parkville, VIC, Australia.",
+      "Centre for Eye Research Australia, East Melbourne, VIC, Australia.",
+      "Royal Victorian Eye and Ear Hospital, East Melbourne, VIC, Australia.",
+      "Marengo Asia Hospitals, Gurugram, Haryana, India.",
+      "Department of Ophthalmology, Mayo Clinic, Jacksonville, FL, United States."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7221544738",
+      "doi": "10.3389/fopht.2026.1961375",
+      "pmid": "42936372",
+      "pmcid": "13697594",
+      "titre": "Comparison of the Melbourne rapid fields-web device-independent online perimeter and the octopus 600 perimeter in glaucoma patients",
+      "lien": "https://openalex.org/W7221544738",
+      "date_publication": "2026-10-12",
+      "type": "article",
+      "revue": "Frontiers in Ophthalmology",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "doaj",
+        "pubmed"
+      ],
+      "financeurs": null,
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "The University of Melbourne",
+          "pays": "AU",
+          "type": "education",
+          "ror": "https://ror.org/01ej9dk98"
+        },
+        {
+          "nom": "The Royal Victorian Eye & Ear Hospital",
+          "pays": "AU",
+          "type": "healthcare",
+          "ror": "https://ror.org/008q4kt04"
+        },
+        {
+          "nom": "Centre for Eye Research Australia",
+          "pays": "AU",
+          "type": "facility",
+          "ror": "https://ror.org/01sqdef20"
+        },
+        {
+          "nom": "Mayo Clinic",
+          "pays": "US",
+          "type": "healthcare",
+          "ror": "https://ror.org/02qp3tb03"
+        }
+      ],
+      "acces_ouvert": true,
+      "statut_acces": "gold",
+      "url_texte": "https://www.frontiersin.org/journals/ophthalmology/articles/10.3389/fopht.2026.1961375/pdf",
+      "url_pdf": "https://www.frontiersin.org/journals/ophthalmology/articles/10.3389/fopht.2026.1961375/pdf",
+      "licence": "cc-by",
+      "texte_integral_indexe": true,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Glaucoma and retinal disorders",
+      "resume_present": true,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": []
+  }
+}

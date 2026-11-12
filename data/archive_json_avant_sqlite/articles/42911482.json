@@ -1,0 +1,122 @@
+{
+  "pmid": "42911482",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42911482",
+    "titre": "Role of Chromatin-Associated RNAs in Eye Physiology and Pathology.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42911482/",
+    "doi": "10.1007/978-1-0716-5627-3_1",
+    "pmcid": null,
+    "revue": "Methods in molecular biology (Clifton, N.J.)",
+    "date_entree_pubmed": "2026-10-23",
+    "date_publication": "2027",
+    "types_publication": [
+      "Journal Article",
+      "Review"
+    ],
+    "resume_present": true,
+    "resume": "Noncoding RNAs, including long noncoding RNAs, enhancer RNAs, circular RNAs, and small nuclear and nucleolar RNAs, represent a major, yet still largely uncharacterized, regulatory layer in the eye. A subset of these molecules, chromatin-associated RNAs (caRNAs), physically interacts with DNA and nuclear protein complexes to influence genome organization, transcriptional output, and stress responses. Although caRNAs have emerged as essential regulators of chromatin topology and gene expression in diverse tissues, their identity, dynamics, and mechanisms in the retina and retinal pigment epithelium (RPE) remain elusive. Recent high-resolution genomic studies, disease transcriptomes, and mechanistic studies implicate dysregulated caRNAs in age-related macular degeneration, glaucoma, and diabetic retinopathy, yet causal chromatin-level functions have rarely been demonstrated. In this review, we summarize current understanding of ncRNA-mediated regulation in vision, highlight emerging evidence for caRNA involvement in retinal development, photoreceptor and RPE specialization, and disease-associated epigenetic remodeling, and outline major mechanistic gaps that must be addressed. We then survey the rapidly expanding CRISPR toolbox, including base and prime editors, CRISPRi/a, Cas13 knockdown and editing platforms, and RNA-recruitment and spatial repositioning systems, that now enable targeted perturbation of both caRNA genomic loci and transcripts. These technologies provide the first practical route to move beyond correlative RNA-chromatin maps toward the mechanistic dissection of how caRNAs organize regulatory hubs, modulate enhancer-promoter communication, and shape long-range genome interactions in the eye. As the catalog of pathogenic noncoding variants grows, the ability to decode and engineer caRNA networks will be central to future precision therapeutic strategies for ocular disorders.",
+    "mots_cles_auteurs": [
+      "AMD",
+      "CRISPR-Cas",
+      "Chromatin architecture",
+      "Chromatin-associated RNAs",
+      "Diabetic retinopathy",
+      "Genome editing",
+      "Glaucoma",
+      "Long noncoding RNAs",
+      "RPE",
+      "Retina"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 2,
+    "affiliations_auteurs": [
+      "Gavin Herbert Eye Institute, Brunson Center for Translational Vision Research, Department of Ophthalmology and Visual Sciences, University of California, Irvine School of Medicine, Irvine, CA, USA.",
+      "Department of Biomedical Engineering, University of California, Irvine Samueli School of Engineering, Irvine, CA, USA.",
+      "Gavin Herbert Eye Institute, Brunson Center for Translational Vision Research, Department of Ophthalmology and Visual Sciences, University of California, Irvine School of Medicine, Irvine, CA, USA. alapinai@hs.uci.edu.",
+      "Department of Biomedical Engineering, University of California, Irvine Samueli School of Engineering, Irvine, CA, USA. alapinai@hs.uci.edu.",
+      "Department of Biological Chemistry, University of California, Irvine, University of California, Irvine School of Medicine, Irvine, CA, USA. alapinai@hs.uci.edu."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": [
+      "Humans",
+      "Chromatin",
+      "Animals",
+      "Eye Diseases",
+      "RNA, Untranslated",
+      "Gene Expression Regulation",
+      "Eye",
+      "CRISPR-Cas Systems",
+      "Epigenesis, Genetic",
+      "Retinal Pigment Epithelium"
+    ]
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": null,
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7223173406",
+      "doi": "10.1007/978-1-0716-5627-3_1",
+      "pmid": "42911482",
+      "pmcid": null,
+      "titre": "Role of Chromatin-Associated RNAs in Eye Physiology and Pathology",
+      "lien": "https://openalex.org/W7223173406",
+      "date_publication": "2026-10-22",
+      "type": "book-chapter",
+      "revue": "Methods in molecular biology",
+      "type_source": "book series",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "pubmed"
+      ],
+      "financeurs": null,
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "University of California, Irvine",
+          "pays": "US",
+          "type": "education",
+          "ror": "https://ror.org/04gyf1771"
+        }
+      ],
+      "acces_ouvert": false,
+      "statut_acces": "closed",
+      "url_texte": null,
+      "url_pdf": null,
+      "licence": null,
+      "texte_integral_indexe": false,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Retinal Development and Disorders",
+      "resume_present": false,
+      "mesh": [
+        "Animals",
+        "Chromatin",
+        "Eye",
+        "Eye Diseases",
+        "Gene Expression Regulation",
+        "Humans",
+        "RNA, Untranslated",
+        "Epigenesis, Genetic",
+        "Retinal Pigment Epithelium",
+        "CRISPR-Cas Systems"
+      ]
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": []
+  }
+}

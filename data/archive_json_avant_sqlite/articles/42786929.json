@@ -1,0 +1,67 @@
+{
+  "pmid": "42786929",
+  "premiere_detection": "2026-09-25",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42786929",
+    "titre": "Goniotomy as a safe and effective option for glaucoma secondary to typical ocular coloboma: A 12-month follow-up case.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42786929/",
+    "doi": "10.1177/03000605261452485",
+    "pmcid": null,
+    "revue": "The Journal of international medical research",
+    "date_entree_pubmed": "2026-09-25",
+    "date_publication": "2026-Sep",
+    "types_publication": [
+      "Journal Article",
+      "Case Reports"
+    ],
+    "resume_present": true,
+    "resume": "A woman in her mid-50s presented with lifelong poor vision and progressive, painless bilateral visual deterioration. Clinical evaluation revealed markedly reduced visual acuity, elevated intraocular pressure, bilateral inferior iris coloboma, zonular laxity, nuclear cataracts, partially closed angles and hypoplastic trabecular meshwork. Sequential phacoemulsification with intraocular lens implantation combined with a 120° goniotomy was performed in both eyes. Intraoperatively, residual embryonic tissue overlying the trabecular meshwork and a diminished red reflex were observed. Postoperatively, the patient experienced rapid improvement in visual acuity and intraocular pressure, with restoration of corneal clarity and wide opening of the anterior chamber angles within 1 week. Fundus examination subsequently revealed an inferonasal choroidal coloboma with retinal vessels traversing the defect. At 1-year, visual acuity remained significantly improved and intraocular pressure was stable without medication, with no complications such as hypotony or retinal detachment. This case demonstrates the safety and efficacy of combined cataract extraction and goniotomy in patients with complex anterior segment anomalies associated with iris and choroidal coloboma.",
+    "mots_cles_auteurs": [
+      "Goniotomy",
+      "choroidal coloboma",
+      "iris coloboma",
+      "phacoemulsification",
+      "secondary glaucoma"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 5,
+    "affiliations_auteurs": [
+      "College of Optometry and Ophthalmology, North Sichuan Medical College, China.",
+      "Department of Ophthalmology, The People's Hospital of Leshan, China.",
+      "Clinical Medical College & Affiliated Hospital of Chengdu University, China."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": [
+      "Humans",
+      "Female",
+      "Coloboma",
+      "Glaucoma",
+      "Follow-Up Studies",
+      "Intraocular Pressure",
+      "Middle Aged",
+      "Visual Acuity",
+      "Trabeculectomy",
+      "Phacoemulsification",
+      "Iris",
+      "Lens Implantation, Intraocular",
+      "Treatment Outcome"
+    ]
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": null,
+      "hors_veille_principale": false
+    }
+  }
+}

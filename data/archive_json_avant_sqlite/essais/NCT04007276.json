@@ -1,0 +1,129 @@
+{
+  "nct": "NCT04007276",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "nct": "NCT04007276",
+    "titre": "The Effect of Lumify™ on Ocular Redness, Intraocular Pressure, and Eyelid Position in Glaucoma Patients",
+    "titre_officiel": "The Effect of Lumify™ (Brimonidine Tartrate Ophthalmic Solution 0.025%) on Ocular Redness, Intraocular Pressure, and Eyelid Position in Glaucoma Patients Using Brimonidine 0.2%, 0.15%, or 0.1%",
+    "lien": "https://clinicaltrials.gov/study/NCT04007276",
+    "date_premiere_publication": "2019-07-05",
+    "date_derniere_mise_a_jour": "2026-10-13",
+    "type_etude": "INTERVENTIONAL",
+    "phases_declarees": [
+      "PHASE4"
+    ],
+    "statut": "NOT_YET_RECRUITING",
+    "raison_arret": null,
+    "date_debut": "2027-11",
+    "date_fin_principale": "2031-11",
+    "promoteur": "Tulane University",
+    "type_promoteur": "OTHER",
+    "collaborateurs": null,
+    "conditions": [
+      "Glaucoma",
+      "Glaucoma, Open-Angle",
+      "Glaucoma; Drugs",
+      "Droopy Eyelid",
+      "Ptosis",
+      "Glaucoma, Primary Open Angle"
+    ],
+    "interventions": [
+      {
+        "type": "DRUG",
+        "nom": "brimonidine tartrate ophthalmic solution 0.025%"
+      },
+      {
+        "type": "OTHER",
+        "nom": "sterile balanced saline solution"
+      }
+    ],
+    "participants_nombre": 60,
+    "participants_type": "ESTIMATED",
+    "criteres_principaux": [
+      {
+        "critere": "Ocular redness",
+        "delai": "5 minutes after application of eye drop"
+      },
+      {
+        "critere": "Ocular redness",
+        "delai": "15 minutes after application of eye drop"
+      },
+      {
+        "critere": "Ocular redness",
+        "delai": "30 minutes after application of eye drop"
+      },
+      {
+        "critere": "Ocular redness",
+        "delai": "60 minutes after application of eye drop"
+      },
+      {
+        "critere": "Intraocular pressure",
+        "delai": "60 minutes after application of eye drop"
+      }
+    ],
+    "resultats_deposes": false,
+    "publications_declarees": null,
+    "resume_source": "Glaucoma represents a group of conditions that cause damage to the optic nerve and can lead to irreversible vision loss. Current treatments are aimed at lowering intraocular pressure while minimizing medication side effects. Lumify™ (Brimonidine Tartrate Ophthalmic Solution 0.025%) is an FDA-approved medication for alleviating eye redness, a common side effect of glaucoma medications. The purpose of this study is to evaluate the effect of Lumify™ on eye redness, intraocular pressure, and eyelid position in patients with glaucoma who are already using the Brimonidine 0.1%, 0.15% or 0.2% eye drops.",
+    "citations_declarees": null,
+    "plan": {
+      "repartition": "RANDOMIZED",
+      "modele": "PARALLEL",
+      "but_principal": "TREATMENT",
+      "insu": "QUADRUPLE",
+      "insu_pour": [
+        "PARTICIPANT",
+        "CARE_PROVIDER",
+        "INVESTIGATOR",
+        "OUTCOMES_ASSESSOR"
+      ],
+      "insu_description": null,
+      "modele_observationnel": null
+    },
+    "bras": [
+      {
+        "libelle": "Lumify Arm",
+        "type": "EXPERIMENTAL",
+        "description": "In each subject, each eye will be randomized to receive a single drop of either Lumify™ (brimonidine tartrate ophthalmic solution 0.025%) or a sterile balanced saline solution.",
+        "interventions": [
+          "Drug: brimonidine tartrate ophthalmic solution 0.025%"
+        ]
+      },
+      {
+        "libelle": "Control Arm",
+        "type": "SHAM_COMPARATOR",
+        "description": "In each subject, each eye will be randomized to receive a single drop of either Lumify™ (brimonidine tartrate ophthalmic solution 0.025%) or a sterile balanced saline solution.",
+        "interventions": [
+          "Other: sterile balanced saline solution"
+        ]
+      }
+    ],
+    "eligibilite": {
+      "criteres": "Inclusion Criteria:\n\n* Age \\> 18 years\n* Diagnosis of primary open angle glaucoma\n* Willing and able to give informed consent\n* Current and greater than 6 weeks of brimonidine 0.2%, 0.15% or 0.1% use\n\nExclusion Criteria:\n\n* Pregnancy\n* Prisoners\n* Known allergy or sensitivities to brimonidine\n* No surgery within the past 6 months\n* No history of lid surgery or botox\n* Any other significant ophthalmologic disorder or condition with relevant effect on ocular redness, IOP, or eyelid position as evaluated by principal investigator\n* Inability to sit comfortably for 30 minutes\n* Prior use of eye whiteners (eg, vasoconstrictors), decongestants, antihistamines, or phenylephrine dilating drops within 1 week of study",
+      "age_min": "18 Years",
+      "age_max": null,
+      "sexe": "ALL",
+      "volontaires_sains": false
+    },
+    "criteres_secondaires": [
+      {
+        "critere": "Palpebral fissure height",
+        "delai": "60 minutes after application of eye drop"
+      },
+      {
+        "critere": "Eye discomfort",
+        "delai": "60 minutes after application of eye drop"
+      }
+    ],
+    "responsables": [
+      {
+        "nom": "Ze Zhang, MD",
+        "affiliation": "Tulane University",
+        "role": "PRINCIPAL_INVESTIGATOR"
+      }
+    ],
+    "date_depot_resultats": null,
+    "resultats": null
+  },
+  "modifications": []
+}

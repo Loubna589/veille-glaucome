@@ -1,0 +1,133 @@
+{
+  "pmid": "42886582",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42886582",
+    "titre": "Preoperative Topical Steroid Use and Trabeculectomy Outcomes.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42886582/",
+    "doi": "10.1097/IJG.0000000000002775",
+    "pmcid": "PMC13722419",
+    "revue": "Journal of glaucoma",
+    "date_entree_pubmed": "2026-10-16",
+    "date_publication": "2026-Nov-01",
+    "types_publication": [
+      "Journal Article"
+    ],
+    "resume_present": true,
+    "resume": "PRCIS: Preoperative topical steroid use was associated with greater surgical success and thicker, less reflective bleb walls on anterior segment optical coherence tomography 1 year after trabeculectomy.\nPURPOSE: To assess the associations of preoperative topical steroid administration with surgical outcomes and filtering bleb morphology 1 year after trabeculectomy.\nPATIENTS AND METHODS: This study included 304 eyes from 272 patients who underwent primary trabeculectomy with mitomycin C. Eyes were classified into steroid and nonsteroid groups based on preoperative topical steroid administration for 7 days. The primary outcome was surgical success at 1 year, defined by either criterion A [intraocular pressure (IOP) ≤15 mm Hg and a ≥20% reduction from preoperative IOP] or criterion B (IOP ≤12 mm Hg and a ≥30% reduction from preoperative IOP), achieved without glaucoma medication or additional glaucoma surgery. Bleb morphology was evaluated using anterior segment optical coherence tomography (AS-OCT). Multivariable Cox regression was used to adjust for potential confounders.\nRESULTS: At 1 year, surgical success rates were significantly higher in the steroid group than in the nonsteroid group for both criterion A (85.5% vs. 71.1%, P =0.005) and criterion B (76.4% vs. 65.4%, P =0.040). Preoperative steroid use was significantly associated with a lower hazard of surgical failure (criterion A: adjusted hazard ratio, 0.47; 95% CI: 0.27-0.82; P =0.008). Compared with the nonsteroid group, the steroid group exhibited greater bleb wall thickness (0.812 vs. 0.723 mm, P =0.038) and lower bleb wall reflectivity (130.3 vs. 141.9 arbitrary units, P =0.011).\nCONCLUSIONS: Preoperative administration of topical steroids, compared with no steroids, was associated with higher surgical success rates, thicker bleb walls, and lower bleb wall reflectivity on AS-OCT at 1 year.",
+    "mots_cles_auteurs": [
+      "bleb morphology",
+      "glaucoma",
+      "surgical outcomes",
+      "topical corticosteroids",
+      "trabeculectomy"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 8,
+    "affiliations_auteurs": [
+      "Department of Ophthalmology, Okayama Saiseikai General Hospital, Okayama, Japan.",
+      "Department of Ophthalmology, Okayama University Graduate School of Medicine, Dentistry and Pharmaceutical Science, Okayama, Japan."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": [
+      "Humans",
+      "Trabeculectomy",
+      "Female",
+      "Intraocular Pressure",
+      "Tomography, Optical Coherence",
+      "Male",
+      "Administration, Topical",
+      "Glucocorticoids",
+      "Mitomycin",
+      "Aged",
+      "Treatment Outcome",
+      "Glaucoma",
+      "Middle Aged",
+      "Preoperative Care",
+      "Alkylating Agents",
+      "Retrospective Studies",
+      "Ophthalmic Solutions"
+    ]
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": null,
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7222436086",
+      "doi": "10.1097/ijg.0000000000002775",
+      "pmid": "42886582",
+      "pmcid": "13722419",
+      "titre": "Preoperative Topical Steroid Use and Trabeculectomy Outcomes",
+      "lien": "https://openalex.org/W7222436086",
+      "date_publication": "2026-10-16",
+      "type": "article",
+      "revue": "Journal of Glaucoma",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "pubmed"
+      ],
+      "financeurs": null,
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "Okayama University",
+          "pays": "JP",
+          "type": "education",
+          "ror": "https://ror.org/02pc6pc55"
+        },
+        {
+          "nom": "Okayama Saiseikai General Hospital",
+          "pays": "JP",
+          "type": "healthcare",
+          "ror": "https://ror.org/04nq4c835"
+        }
+      ],
+      "acces_ouvert": true,
+      "statut_acces": "hybrid",
+      "url_texte": "https://doi.org/10.1097/ijg.0000000000002775",
+      "url_pdf": null,
+      "licence": "cc-by-nc-nd",
+      "texte_integral_indexe": true,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Glaucoma and retinal disorders",
+      "resume_present": true,
+      "mesh": [
+        "Administration, Topical",
+        "Aged",
+        "Alkylating Agents",
+        "Female",
+        "Glaucoma",
+        "Glucocorticoids",
+        "Humans",
+        "Intraocular Pressure",
+        "Male",
+        "Middle Aged",
+        "Ophthalmic Solutions",
+        "Preoperative Care",
+        "Retrospective Studies",
+        "Trabeculectomy",
+        "Mitomycin",
+        "Treatment Outcome",
+        "Tomography, Optical Coherence"
+      ]
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": []
+  }
+}

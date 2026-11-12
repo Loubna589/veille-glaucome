@@ -1,0 +1,151 @@
+{
+  "pmid": "42956262",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42956262",
+    "titre": "Interocular Asymmetry in Normal-Tension Glaucoma: Risk Factors for Unilateral Disease and Asymmetric Progression.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42956262/",
+    "doi": "10.1097/IJG.0000000000002801",
+    "pmcid": null,
+    "revue": "Journal of glaucoma",
+    "date_entree_pubmed": "2026-10-29",
+    "date_publication": "2026-Oct-28",
+    "types_publication": [
+      "Journal Article"
+    ],
+    "resume_present": true,
+    "resume": "PRCIS: This prospective cohort identifies clinical features linked to unilateral presentation and different progression risk in NTG.\nPURPOSE: This study aimed to identify determinants of asymmetric progression in bilateral normal-tension glaucoma (NTG) and compare interocular differences in patients with unilateral NTG.\nPATIENTS AND METHODS: This prospective cohort study enrolled 119 patients with NTG (238 eyes), including 48 bilateral (96 eyes) and 71 unilateral cases (142 eyes). Using a stratified grouping approach, eyes in the unilateral NTG group were categorized as affected eyes versus contralateral unaffected eyes based on diagnostic criteria. For the bilateral NTG group, eyes were stratified into high- and low-risk progression subgroups according to visual‑field progression rates. Interocular differences within each patient were compared.\nRESULTS: In the unilateral NTG group, affected eyes exhibited higher baseline intraocular pressure (IOP; 15.13±3.35 mm Hg vs. 14.47±2.87 mm Hg, OR=1.56, 95% CI: 1.11-2.20, P=0.010) and larger optic disc area (2.12±0.42 mm² vs. 2.05±0.39 mm², OR=1.04, 95% CI: 1.00-1.07, P=0.048) than contralateral unaffected eyes. In bilateral NTG, high-risk eyes exhibited less negative spherical equivalent (SE; -1.40±3.17 D vs. -1.79±3.69 D, OR=2.34, 95% CI: 1.08-5.35, P=0.032), shorter axial length (AL; 24.10±1.52 mm vs. 24.21±1.38 mm, P=0.012), and higher disc hemorrhage prevalence (27.1% vs. 4.1%, OR=12.00, 95% CI: 1.53-93.99, P=0.018).\nCONCLUSIONS: Larger optic disc area and higher baseline IOP are associated with unilateral manifestation in NTG. Disc hemorrhage and less negative SE are correlated with high-risk progression in bilateral NTG.",
+    "mots_cles_auteurs": [
+      "disc hemorrhage",
+      "interocular asymmetry",
+      "normal-tension glaucoma",
+      "progression",
+      "risk factors"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 9,
+    "affiliations_auteurs": [
+      "National Clinical Research Center for Ocular Diseases, Eye Hospital, Wenzhou Medical University, Wenzhou, China.",
+      "Glaucoma Research Institute, Wenzhou Medical University, Wenzhou, China.",
+      "The Second People's Hospital of Foshan City, Foshan, China.",
+      "Department of Ophthalmology, Hong Kong Sanatorium and Hospital, Hong Kong SAR, China."
+    ],
+    "financeurs_declares": [
+      {
+        "organisme": "the Program for Zhejiang Leading Talent of S&T Innovation",
+        "pays": "",
+        "reference": "2021R52012"
+      },
+      {
+        "organisme": "the Key Research and Development Projects of Zhejiang Province",
+        "pays": "",
+        "reference": "2022C03112"
+      }
+    ],
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7224470872",
+      "doi": "10.1097/ijg.0000000000002801",
+      "pmid": "42956262",
+      "pmcid": null,
+      "titre": "Interocular Asymmetry in Normal-Tension Glaucoma: Risk Factors for Unilateral Disease and Asymmetric Progression",
+      "lien": "https://openalex.org/W7224470872",
+      "date_publication": "2026-10-28",
+      "type": "article",
+      "revue": "Journal of Glaucoma",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "pubmed"
+      ],
+      "financeurs": null,
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "Wenzhou Medical University",
+          "pays": "CN",
+          "type": "education",
+          "ror": "https://ror.org/00rd5t069"
+        },
+        {
+          "nom": "Affiliated Eye Hospital of Wenzhou Medical College",
+          "pays": "CN",
+          "type": "healthcare",
+          "ror": "https://ror.org/000sxmx78"
+        },
+        {
+          "nom": "Foshan Second People's Hospital",
+          "pays": "CN",
+          "type": "healthcare",
+          "ror": "https://ror.org/03h7jyq46"
+        },
+        {
+          "nom": "Hong Kong Sanatorium and Hospital",
+          "pays": "HK",
+          "type": "healthcare",
+          "ror": "https://ror.org/010mjn423"
+        }
+      ],
+      "acces_ouvert": false,
+      "statut_acces": "closed",
+      "url_texte": null,
+      "url_pdf": null,
+      "licence": null,
+      "texte_integral_indexe": false,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Glaucoma and retinal disorders",
+      "resume_present": true,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": [
+      {
+        "nom": "the Program for Zhejiang Leading Talent of S&T Innovation",
+        "statut": "CONFIRMÉ — déclaré dans la notice PubMed (GrantList)",
+        "references": [
+          "2021R52012"
+        ],
+        "notices": [
+          [
+            "notice PubMed",
+            "https://pubmed.ncbi.nlm.nih.gov/42956262/?format=pubmed"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "the Key Research and Development Projects of Zhejiang Province",
+        "statut": "CONFIRMÉ — déclaré dans la notice PubMed (GrantList)",
+        "references": [
+          "2022C03112"
+        ],
+        "notices": [
+          [
+            "notice PubMed",
+            "https://pubmed.ncbi.nlm.nih.gov/42956262/?format=pubmed"
+          ]
+        ],
+        "note": null
+      }
+    ]
+  }
+}

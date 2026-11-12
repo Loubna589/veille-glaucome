@@ -1,0 +1,98 @@
+{
+  "pmid": "42980157",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42980157",
+    "titre": "Secondary Glaucoma Incidence Following Ischemic Retinal Disease and Anti-Vascular Endothelial Growth Factor Utilization.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42980157/",
+    "doi": "10.1097/IJG.0000000000002807",
+    "pmcid": null,
+    "revue": "Journal of glaucoma",
+    "date_entree_pubmed": "2026-11-04",
+    "date_publication": "2026-Nov-03",
+    "types_publication": [
+      "Journal Article"
+    ],
+    "resume_present": true,
+    "resume": "PRECIS: This large real-world cohort study demonstrates reduced one-year secondary glaucoma incidence following ischemic retinal disease in the later anti-VEGF era, alongside increased anti-VEGF utilization and declining panretinal photocoagulation use.\nPURPOSE: Compare one-year incidence of secondary glaucoma following ischemic retinal disease between early and later anti-vascular endothelial growth factor treatment eras.\nMETHODS: In this retrospective study using the TriNetX US Collaborative Network, adults with proliferative diabetic retinopathy, central retinal vein occlusion, or branch retinal vein occlusion were categorized into an early (2010-2014) or later (2015-2024) anti-vascular endothelial growth factor era based on index diagnosis date. The primary outcome was incident secondary glaucoma within one year. 1:1 propensity score matching balanced baseline demographics, comorbidities, and hemoglobin A1c testing. Time-to-event associations used Kaplan-Meier and Cox models. Exploratory analyses were performed separately by ischemic etiology.\nRESULTS: Each era included 36,137 matched patients. Within one year, secondary glaucoma occurred in 773/34,441 patients (2.2%) in the early era and 669/34,155 patients (2.0%) in the later era (risk difference, 0.3%; 95% CI, 0.1%-0.5%; P=0.009; risk ratio, 1.15; 95% CI, 1.04-1.27). Anti-vascular endothelial growth factor utilization increased from 10.3% to 13.7% (P<0.001), while panretinal photocoagulation utilization declined from 12.3% to 9.7% (P<0.001). Exploratory analyses demonstrated a significant era-related difference for central retinal vein occlusion.\nCONCLUSION: The later era was associated with lower incidence of secondary glaucoma following ischemic retinal disease, concurrent with increased anti-vascular endothelial growth factor utilization and declining laser use. These findings describe temporal associations between evolving treatment patterns and secondary glaucoma incidence, underscoring the need for continued vigilance and individualized management.",
+    "mots_cles_auteurs": [
+      "anti-vascular endothelial growth factor",
+      "neovascular glaucoma",
+      "proliferative diabetic retinopathy",
+      "retinal vein occlusion",
+      "secondary glaucoma"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 7,
+    "affiliations_auteurs": [
+      "Department of Ophthalmology, Howard University College of Medicine, Washington, D.C., USA.",
+      "Department of Internal Medicine, Howard University, Washington, D.C., USA.",
+      "Department of Internal Medicine, University of Maryland School of Medicine, Baltimore, MD, USA."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7225259052",
+      "doi": "10.1097/ijg.0000000000002807",
+      "pmid": "42980157",
+      "pmcid": null,
+      "titre": "Secondary Glaucoma Incidence Following Ischemic Retinal Disease and Anti-Vascular Endothelial Growth Factor Utilization",
+      "lien": "https://openalex.org/W7225259052",
+      "date_publication": "2026-11-03",
+      "type": "article",
+      "revue": "Journal of Glaucoma",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "pubmed"
+      ],
+      "financeurs": null,
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "Howard University",
+          "pays": "US",
+          "type": "education",
+          "ror": "https://ror.org/05gt1vc06"
+        },
+        {
+          "nom": "University of Maryland, Baltimore",
+          "pays": "US",
+          "type": "education",
+          "ror": "https://ror.org/04rq5mt64"
+        }
+      ],
+      "acces_ouvert": false,
+      "statut_acces": "closed",
+      "url_texte": null,
+      "url_pdf": null,
+      "licence": null,
+      "texte_integral_indexe": false,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Retinal Diseases and Treatments",
+      "resume_present": true,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": []
+  }
+}

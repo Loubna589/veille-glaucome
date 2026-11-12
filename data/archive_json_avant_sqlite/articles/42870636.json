@@ -1,0 +1,114 @@
+{
+  "pmid": "42870636",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42870636",
+    "titre": "Topical Tacrolimus in Ocular Disease: A Narrative Review of Mechanism of Action and Therapeutic Applications.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42870636/",
+    "doi": "10.1177/10807683261497924",
+    "pmcid": null,
+    "revue": "Journal of ocular pharmacology and therapeutics : the official journal of the Association for Ocular Pharmacology and Therapeutics",
+    "date_entree_pubmed": "2026-10-14",
+    "date_publication": "2026-Oct-14",
+    "types_publication": [
+      "Journal Article"
+    ],
+    "resume_present": true,
+    "resume": "PURPOSE: Immune-mediated inflammatory disorders of the ocular surface and anterior segment frequently require sustained immunosuppression, yet prolonged topical corticosteroid use carries the risk of glaucoma, cataract, and infection. Tacrolimus, a macrolide calcineurin inhibitor, has emerged as a steroid-sparing alternative for T-cell-mediated ocular disease. This review summarizes the mechanism of action, ocular pharmacology, clinical applications, and safety profile of topical tacrolimus.\nMETHODS: Narrative synthesis of the peer-reviewed literature.\nRESULTS: Tacrolimus binds the immunophilin FK506-binding protein 12; the resulting complex inhibits the phosphatase calcineurin, preventing dephosphorylation and nuclear translocation of the nuclear factor of activated T-cells (NFAT) and thereby suppressing transcription of interleukin-2 and a broad program of pro-inflammatory cytokines. The downstream result is reduced activation across the Th1, Th2, and Th17 lineages, diminished T-follicular helper and B-cell responses, stabilization of mast cells and eosinophils, and anti-angiogenic effects. Compounded topical formulations (typically 0.01%-0.1%) penetrate the cornea and reach therapeutic aqueous concentrations. Topical tacrolimus has shown efficacy in vernal and atopic keratoconjunctivitis, anterior uveitis, scleritis, ocular graft-versus-host disease, cicatrizing conjunctivitis, Thygeson superficial punctate keratitis, autoimmune polyglandular syndrome-1-associated keratitis, and corneal graft rejection.\nCONCLUSIONS: Topical tacrolimus is an effective steroid-sparing immunomodulator for a broad spectrum of T-cell-mediated ocular disease, with a favorable safety profile notable for the absence of steroid-related rises in intraocular pressure or cataractogenesis. Standardized formulations and prospective comparative trials remain priorities.",
+    "mots_cles_auteurs": [
+      "FK506",
+      "NFAT",
+      "calcineurin inhibitor",
+      "ocular surface inflammation",
+      "steroid-sparing therapy",
+      "tacrolimus",
+      "topical immunomodulator"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 5,
+    "affiliations_auteurs": [
+      "Department of Ophthalmology, Hamad Medical Corporation, Doha, Qatar.",
+      "Schulich School of Medicine and Dentistry, Western University, London, Canada.",
+      "Department of Ophthalmology, Faculty of Medicine, Cairo University, Cairo, Egypt.",
+      "Medical Intern, Faculty of Medicine, Alexandria University, Alexandria, Egypt.",
+      "Department of Ophthalmology, Doctor Samir Eye Clinic, Alexandria, Egypt."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7221802641",
+      "doi": "10.1177/10807683261497924",
+      "pmid": "42870636",
+      "pmcid": null,
+      "titre": "Topical Tacrolimus in Ocular Disease: A Narrative Review of Mechanism of Action and Therapeutic Applications",
+      "lien": "https://openalex.org/W7221802641",
+      "date_publication": "2026-10-14",
+      "type": "review",
+      "revue": "Journal of Ocular Pharmacology and Therapeutics",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "pubmed"
+      ],
+      "financeurs": null,
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "Hamad Medical Corporation",
+          "pays": "QA",
+          "type": "nonprofit",
+          "ror": "https://ror.org/02zwb6n98"
+        },
+        {
+          "nom": "Western University",
+          "pays": "CA",
+          "type": "education",
+          "ror": "https://ror.org/02grkyz14"
+        },
+        {
+          "nom": "Cairo University",
+          "pays": "EG",
+          "type": "education",
+          "ror": "https://ror.org/03q21mh05"
+        },
+        {
+          "nom": "Alexandria University",
+          "pays": "EG",
+          "type": "education",
+          "ror": "https://ror.org/00mzz1w90"
+        }
+      ],
+      "acces_ouvert": false,
+      "statut_acces": "closed",
+      "url_texte": null,
+      "url_pdf": null,
+      "licence": null,
+      "texte_integral_indexe": false,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Ocular Diseases and Behçet’s Syndrome",
+      "resume_present": true,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": []
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "pmid": "42922418",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42922418",
+    "titre": "The rise of modern tonometry: the evolution of intraocular pressure measurement.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42922418/",
+    "doi": "10.1080/17434440.2026.2754635",
+    "pmcid": null,
+    "revue": "Expert review of medical devices",
+    "date_entree_pubmed": "2026-10-24",
+    "date_publication": "2026-Nov-01",
+    "types_publication": [
+      "Journal Article",
+      "Review"
+    ],
+    "resume_present": true,
+    "resume": "INTRODUCTION: Intraocular pressure (IOP) is the primary biomarker for the diagnosis and management of glaucoma, a progressive optic neuropathy and the second leading cause of blindness worldwide. Its pathophysiology involves an imbalance between aqueous humor production and drainage that elevates IOP, ultimately damaging the optic nerve. IOP exhibits substantial circadian fluctuations, and single-point clinical measurements frequently fail to capture peak diurnal pressure, thereby underestimating the risk of disease progression, delaying necessary intervention, and obscuring patient compliance with pharmaceutical therapies.\nAREAS COVERED: This review synthesizes historical, contemporary, and emerging IOP measurement technologies, examining their underlying physical principles, clinical utility, and limitations, with particular emphasis on their capacity to characterize the dynamic, time-varying nature of IOP. The search drew on Google Scholar and manufacturers' websites, focusing on physical principles and systems not yet FDA-approved or clinically tested.\nEXPERT OPINION: A critical unmet clinical need exists for accessible home-monitoring solutions. The ideal device would be non-invasive, affordable, and user-friendly, requiring neither topical anesthesia nor sterilization, and would support remote data transmission to facilitate continuous patient-clinician communication. This unmet need offers an opportunity for engineers and healthcare professionals to develop new technologies to help people avoiding travels to and decongest doctors' offices.",
+    "mots_cles_auteurs": [
+      "Intraocular pressure measurements",
+      "biomedical engineering",
+      "glaucoma",
+      "medical devices",
+      "tonometry"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 4,
+    "affiliations_auteurs": [
+      "Department of Civil and Environmental Engineering, SWANSON School of Engineering, University of Pittsburgh, Pittsburgh, PA, USA.",
+      "Department of Ophthalmology, University of Pittsburgh School of Medicine, Pittsburgh, PA, USA."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7223296404",
+      "doi": "10.1080/17434440.2026.2754635",
+      "pmid": "42922418",
+      "pmcid": null,
+      "titre": "The rise of modern tonometry: the evolution of intraocular pressure measurement",
+      "lien": "https://openalex.org/W7223296404",
+      "date_publication": "2026-10-23",
+      "type": "review",
+      "revue": "Expert Review of Medical Devices",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "pubmed"
+      ],
+      "financeurs": [
+        {
+          "nom": "National Science Foundation",
+          "ror": "https://ror.org/021nxhr62"
+        }
+      ],
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "University of Pittsburgh",
+          "pays": "US",
+          "type": "education",
+          "ror": "https://ror.org/01an3r305"
+        }
+      ],
+      "acces_ouvert": false,
+      "statut_acces": "closed",
+      "url_texte": null,
+      "url_pdf": null,
+      "licence": null,
+      "texte_integral_indexe": false,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Glaucoma and retinal disorders",
+      "resume_present": true,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": [
+      {
+        "nom": "National Science Foundation",
+        "statut": "À VÉRIFIER — trouvé par OpenAlex seulement (absent de la déclaration de l'éditeur dans Crossref) ; à contrôler dans le texte de l'article",
+        "references": null,
+        "notices": [
+          [
+            "notice OpenAlex",
+            "https://api.openalex.org/works/W7223296404"
+          ],
+          [
+            "notice Crossref consultée (ne confirme pas ce financeur)",
+            "https://api.crossref.org/works/10.1080/17434440.2026.2754635"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "U.S. National Science Foundation",
+        "statut": "CONFIRMÉ — déclaré par l'éditeur dans Crossref (absent d'OpenAlex)",
+        "references": [
+          "2014389"
+        ],
+        "notices": [
+          [
+            "notice justificative Crossref (déclaration de l'éditeur)",
+            "https://api.crossref.org/works/10.1080/17434440.2026.2754635"
+          ]
+        ],
+        "note": null
+      }
+    ]
+  }
+}

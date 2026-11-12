@@ -1,0 +1,191 @@
+{
+  "pmid": "42888956",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42888956",
+    "titre": "Epidemiology of visual impairment and rehabilitation measures in adults-Data from the Swedish Quality Registry for Rehabilitation in Visual Impairment.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42888956/",
+    "doi": "10.1111/aos.70258",
+    "pmcid": null,
+    "revue": "Acta ophthalmologica",
+    "date_entree_pubmed": "2026-10-17",
+    "date_publication": "2026-Oct-17",
+    "types_publication": [
+      "Journal Article"
+    ],
+    "resume_present": true,
+    "resume": "PURPOSE: To describe the Swedish Quality Registry for Rehabilitation in Visual Impairment (SKRS) and present rehabilitation measures and underlying diagnoses of visual impairment and blindness in adults in Sweden.\nMETHODS: The study includes data from the SKRS collected between January 2016 and December 2025 for patients aged ≥20 years who received rehabilitation services from low vision centres in Sweden. The degree and underlying causes of visual impairment, as well as rehabilitation interventions, were analysed.\nRESULTS: In 2025, SKRS recorded 12 622 registrations for 11 810 unique patients, with women accounting for 62%. The median waiting time from referral to first visit was 37 days. Most patients had a moderate visual impairment. In 2025, age-related macular degeneration (AMD) represented the most common diagnosis (50.2%), followed by glaucoma (18.3%), blindness of unspecified cause/visual impairment (5.9%), retinal diseases (5%), diabetic retinopathy (2.8%) and optic nerve diseases (2.2%). The most frequently registered procedure codes were in the group of assistive technology with 30.3%, followed by investigative procedures with 26.1% and follow-up with 19.9%. The proportion of International Classification of Functioning, Disability and Health based instruments had increased significantly; from 0.04% in 2016 to 72.5% in 2025. The proportion of individual rehabilitation plans had risen by 18.6% since the start of the COVID-19 pandemic-from 53.2% in 2020 to 71.8% in 2025.\nCONCLUSION: SKRS provides representative data on rehabilitation measures and associated diagnoses among adults with visual impairments in Sweden. The data confirm that AMD and glaucoma are the most common causes and highlight inequalities in access to visual rehabilitation.",
+    "mots_cles_auteurs": [
+      "Sweden",
+      "Swedish Quality Registry for Rehabilitation in Visual Impairment",
+      "epidemiology",
+      "register",
+      "rehabilitation",
+      "visual impairment"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 5,
+    "affiliations_auteurs": [
+      "Department of Ophthalmology, Department of Clinical Sciences Lund, Lund University, Lund, Sweden.",
+      "Department of Ophthalmology, Skåne University Hospital, Lund, Sweden.",
+      "Division of Occupational Therapy, Department of Neurobiology, Care Sciences and Society, Karolinska Institutet, Stockholm, Sweden.",
+      "Women's Health and Health Professional Theme, Medical Unit Allied Health Professionals, Karolinska University Hospital, Stockholm, Sweden."
+    ],
+    "financeurs_declares": [
+      {
+        "organisme": "Stiftelsen för Synskadade i f.d. Malmöhus län",
+        "pays": "",
+        "reference": null
+      },
+      {
+        "organisme": "Armec Lindebergs stiftelse",
+        "pays": "",
+        "reference": null
+      },
+      {
+        "organisme": "Stiftelsen Kronprinsessan Margaretas Arbetsnämnd för Synskadade",
+        "pays": "",
+        "reference": null
+      },
+      {
+        "organisme": "Skåne County Council Research and Development Foundation",
+        "pays": "",
+        "reference": null
+      }
+    ],
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7222806855",
+      "doi": "10.1111/aos.70258",
+      "pmid": "42888956",
+      "pmcid": null,
+      "titre": "Epidemiology of visual impairment and rehabilitation measures in adults—Data from the Swedish Quality Registry for Rehabilitation in Visual Impairment",
+      "lien": "https://openalex.org/W7222806855",
+      "date_publication": "2026-10-17",
+      "type": "article",
+      "revue": "Acta Ophthalmologica",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "pubmed"
+      ],
+      "financeurs": [
+        {
+          "nom": "Stiftelsen för Synskadade i f.d. Malmöhus län",
+          "ror": "https://ror.org/04aw6he69"
+        },
+        {
+          "nom": "Stiftelsen Kronprinsessan Margaretas Arbetsnämnd för Synskadade",
+          "ror": "https://ror.org/01n1pt995"
+        }
+      ],
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "Lund University",
+          "pays": "SE",
+          "type": "education",
+          "ror": "https://ror.org/012a77v79"
+        },
+        {
+          "nom": "Skåne University Hospital",
+          "pays": "SE",
+          "type": "healthcare",
+          "ror": "https://ror.org/02z31g829"
+        },
+        {
+          "nom": "Karolinska Institutet",
+          "pays": "SE",
+          "type": "education",
+          "ror": "https://ror.org/056d84691"
+        },
+        {
+          "nom": "Karolinska University Hospital",
+          "pays": "SE",
+          "type": "healthcare",
+          "ror": "https://ror.org/00m8d6786"
+        }
+      ],
+      "acces_ouvert": true,
+      "statut_acces": "hybrid",
+      "url_texte": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/aos.70258",
+      "url_pdf": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/aos.70258",
+      "licence": "cc-by",
+      "texte_integral_indexe": true,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Ophthalmology and Visual Impairment Studies",
+      "resume_present": true,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": [
+      {
+        "nom": "Stiftelsen för Synskadade i f.d. Malmöhus län",
+        "statut": "CONFIRMÉ — déclaré dans la notice PubMed (GrantList)",
+        "references": null,
+        "notices": [
+          [
+            "notice PubMed",
+            "https://pubmed.ncbi.nlm.nih.gov/42888956/?format=pubmed"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "Armec Lindebergs stiftelse",
+        "statut": "CONFIRMÉ — déclaré dans la notice PubMed (GrantList)",
+        "references": null,
+        "notices": [
+          [
+            "notice PubMed",
+            "https://pubmed.ncbi.nlm.nih.gov/42888956/?format=pubmed"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "Stiftelsen Kronprinsessan Margaretas Arbetsnämnd för Synskadade",
+        "statut": "CONFIRMÉ — déclaré dans la notice PubMed (GrantList)",
+        "references": null,
+        "notices": [
+          [
+            "notice PubMed",
+            "https://pubmed.ncbi.nlm.nih.gov/42888956/?format=pubmed"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "Skåne County Council Research and Development Foundation",
+        "statut": "CONFIRMÉ — déclaré dans la notice PubMed (GrantList)",
+        "references": null,
+        "notices": [
+          [
+            "notice PubMed",
+            "https://pubmed.ncbi.nlm.nih.gov/42888956/?format=pubmed"
+          ]
+        ],
+        "note": null
+      }
+    ]
+  }
+}

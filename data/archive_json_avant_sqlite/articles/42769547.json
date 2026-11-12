@@ -1,0 +1,115 @@
+{
+  "pmid": "42769547",
+  "premiere_detection": "2026-09-25",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42769547",
+    "titre": "Advances in tumor necrosis factor-α inhibitors for the treatment of juvenile idiopathic arthritis-associated uveitis.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42769547/",
+    "doi": "10.3389/fimmu.2026.1966054",
+    "pmcid": "PMC13591613",
+    "revue": "Frontiers in immunology",
+    "date_entree_pubmed": "2026-09-22",
+    "date_publication": "2026",
+    "types_publication": [
+      "Journal Article",
+      "Review"
+    ],
+    "resume_present": true,
+    "resume": "Juvenile idiopathic arthritis-associated uveitis (JIA-U) is a common and sight-threatening extra-articular manifestation of juvenile idiopathic arthritis, typically presenting as chronic noninfectious anterior uveitis. Its early symptoms are often insidious, and delayed detection and treatment may lead to cataract, glaucoma, macular edema, and irreversible visual impairment. Conventional treatment is based on glucocorticoids and immunosuppressants; however, some children continue to experience inadequate efficacy, glucocorticoid dependence, drug intolerance, or adverse events. In recent years, substantial progress has been made in the use of biologics for JIA-U. Among them, tumor necrosis factor-α inhibitors, particularly adalimumab, have shown potential for controlling ocular inflammation, reducing glucocorticoid exposure, and improving visual outcomes, thereby offering a new therapeutic avenue for patients with JIA-U. Although TNF-α inhibitors have become an important component of systemic therapy for JIA-U, optimal dosing, long-term maintenance, tapering, and the timing of discontinuation require further investigation. Additional prospective, disease-specific pediatric studies are needed to define the optimal timing of TNF-α inhibitor initiation, precise dose-adjustment strategies, and long-term safety management, thereby advancing individualized and precision treatment for JIA-U.",
+    "mots_cles_auteurs": [
+      "adalimumab",
+      "anti-drug antibodies",
+      "juvenile idiopathic arthritis associated uveitis",
+      "therapeutic drug monitoring",
+      "treatment tapering",
+      "tumor necrosis factor-α inhibitors"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 3,
+    "affiliations_auteurs": [
+      "Department of Ophthalmology, The First Affiliated Hospital of Dalian Medical University, Dalian, China."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": [
+      "Humans",
+      "Arthritis, Juvenile",
+      "Tumor Necrosis Factor-alpha",
+      "Uveitis",
+      "Adalimumab",
+      "Antirheumatic Agents",
+      "Treatment Outcome"
+    ]
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": null,
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7211895197",
+      "doi": "10.3389/fimmu.2026.1966054",
+      "pmid": "42769547",
+      "pmcid": null,
+      "titre": "Advances in tumor necrosis factor-α inhibitors for the treatment of juvenile idiopathic arthritis-associated uveitis",
+      "lien": "https://openalex.org/W7211895197",
+      "date_publication": "2026-09-07",
+      "type": "article",
+      "revue": "Frontiers in Immunology",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "doaj",
+        "pubmed"
+      ],
+      "financeurs": null,
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "Dalian Medical University",
+          "pays": "CN",
+          "type": "education",
+          "ror": "https://ror.org/04c8eg608"
+        },
+        {
+          "nom": "First Affiliated Hospital of Dalian Medical University",
+          "pays": "CN",
+          "type": "healthcare",
+          "ror": "https://ror.org/055w74b96"
+        }
+      ],
+      "acces_ouvert": true,
+      "statut_acces": "gold",
+      "url_texte": "https://www.frontiersin.org/journals/immunology/articles/10.3389/fimmu.2026.1966054/pdf",
+      "url_pdf": "https://www.frontiersin.org/journals/immunology/articles/10.3389/fimmu.2026.1966054/pdf",
+      "licence": "cc-by",
+      "texte_integral_indexe": true,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Ocular Diseases and Behçet’s Syndrome",
+      "resume_present": true,
+      "mesh": [
+        "Adalimumab",
+        "Arthritis, Juvenile",
+        "Humans",
+        "Tumor Necrosis Factor-alpha",
+        "Uveitis",
+        "Treatment Outcome",
+        "Antirheumatic Agents"
+      ]
+    },
+    "openalex_verifie_le": "2026-09-25",
+    "financements": []
+  }
+}

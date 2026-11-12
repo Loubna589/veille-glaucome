@@ -1,0 +1,131 @@
+{
+  "pmid": "42771212",
+  "premiere_detection": "2026-09-25",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42771212",
+    "titre": "Glaucoma in hospitalized older adults: polypharmacy, multimorbidity, and therapy discontinuation - a REPOSI registry analysis.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42771212/",
+    "doi": "10.1007/s00417-026-07504-w",
+    "pmcid": null,
+    "revue": "Graefe's archive for clinical and experimental ophthalmology = Albrecht von Graefes Archiv fur klinische und experimentelle Ophthalmologie",
+    "date_entree_pubmed": "2026-09-22",
+    "date_publication": "2026-Sep-22",
+    "types_publication": [
+      "Journal Article"
+    ],
+    "resume_present": true,
+    "resume": "PURPOSE: To characterize the clinical profile, multimorbidity burden, medication use, reconciliation patterns, and outcomes of older patients with anamnestically recorded glaucoma or use of anti-glaucoma medications admitted to internal medicine and geriatric wards.\nPATIENTS AND METHODS: Prospective observational cohort study of 9,443 patients aged ≥ 65 years enrolled in the REPOSI registry (2008-2017) across 107 Italian hospitals. Patients with anamnestically recorded glaucoma (I = 346, 3.7%) were identified via ICD-9 code 365 or anti-glaucoma medications (ATC S01E). Baseline characteristics, comorbidity, medications, reconciliation, functional status, renal function, and outcomes were compared. Multivariable logistic regression assessed independent associations.\nRESULTS: Patients with anamnestically recorded glaucoma had higher medication burden (median 7 vs 5 drugs; P < 0.001) and polypharmacy prevalence (68.8% vs 62.4%; P = 0.016). Anamnestically recorded glaucoma remained independently associated with polypharmacy after adjustment (aOR 1.39; 95% CI 1.08-1.79; P = 0.011). The association was attenuated and no longer significant under a stricter definition (both ICD-9 and medication), suggesting the observed association may be influenced by surveillance bias. Renal function distribution differed (P = 0.040), with fewer glaucoma patients having severe impairment (eGFR < 30: 10.6% vs 14.8%). Notably, 32 patients (9.2%) received their first recorded glaucoma diagnosis during hospitalization. Among 286 patients analyzed for reconciliation, 180 (62.9%) maintained therapy, 20 (7.0%) discontinued, and 5 (1.7%) newly initiated treatment.\nCONCLUSIONS: Anamnestically recorded glaucoma in hospitalized older adults is associated with multimorbidity and polypharmacy. Hospitalization offers opportunities for medication reconciliation and identification of previously unrecorded glaucoma. The 7% discontinuation rate highlights a potential medication discrepancy that warrants further investigation. Findings are limited by absence of ophthalmologic confirmation and inability to distinguish glaucoma types. Précis (30 words): In 9,443 hospitalized older adults, a recorded diagnosis of glaucoma was independently associated with polypharmacy. This association may reflect surveillance bias rather than causality.",
+    "mots_cles_auteurs": [
+      "Comorbidity",
+      "Drug discontinuation",
+      "Geriatrics",
+      "Glaucoma",
+      "Medication reconciliation",
+      "Multimorbidity",
+      "Polypharmacy"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 4,
+    "affiliations_auteurs": [
+      "Centro Oculistico Italiano, Brescia, Italy. lquaranta@centroculisticoitaliano.it.",
+      "Istituto Di Ricerche Farmacologiche Mario Negri IRCCS, Milan, Italy."
+    ],
+    "financeurs_declares": [
+      {
+        "organisme": "Società Italiana di Medicina Interna",
+        "pays": "",
+        "reference": "REPOSI"
+      }
+    ],
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7213967710",
+      "doi": "10.1007/s00417-026-07504-w",
+      "pmid": "42771212",
+      "pmcid": null,
+      "titre": "Glaucoma in hospitalized older adults: polypharmacy, multimorbidity, and therapy discontinuation – a REPOSI registry analysis",
+      "lien": "https://openalex.org/W7213967710",
+      "date_publication": "2026-09-22",
+      "type": "article",
+      "revue": "Graefe s Archive for Clinical and Experimental Ophthalmology",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "pubmed"
+      ],
+      "financeurs": [
+        {
+          "nom": "Società Italiana di Medicina Interna",
+          "ror": "https://ror.org/0017x6m71"
+        }
+      ],
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "Centro Diagnostico Italiano",
+          "pays": "IT",
+          "type": "healthcare",
+          "ror": "https://ror.org/03bhap014"
+        },
+        {
+          "nom": "Mario Negri Institute for Pharmacological Research",
+          "pays": "IT",
+          "type": "nonprofit",
+          "ror": "https://ror.org/05aspc753"
+        },
+        {
+          "nom": "Istituti di Ricovero e Cura a Carattere Scientifico",
+          "pays": "IT",
+          "type": "healthcare",
+          "ror": "https://ror.org/04tfzc498"
+        }
+      ],
+      "acces_ouvert": false,
+      "statut_acces": "closed",
+      "url_texte": null,
+      "url_pdf": null,
+      "licence": null,
+      "texte_integral_indexe": false,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Glaucoma and retinal disorders",
+      "resume_present": false,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-09-25",
+    "financements": [
+      {
+        "nom": "Società Italiana di Medicina Interna",
+        "statut": "CONFIRMÉ — déclaré dans la notice PubMed (GrantList)",
+        "references": [
+          "REPOSI"
+        ],
+        "notices": [
+          [
+            "notice PubMed",
+            "https://pubmed.ncbi.nlm.nih.gov/42771212/?format=pubmed"
+          ]
+        ],
+        "note": null
+      }
+    ]
+  }
+}

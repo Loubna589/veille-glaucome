@@ -1,0 +1,131 @@
+{
+  "nct": "NCT07298356",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "nct": "NCT07298356",
+    "titre": "Automated Applanation Tonometry - Updated",
+    "titre_officiel": "Automated Applanation Tonometry - Updated",
+    "lien": "https://clinicaltrials.gov/study/NCT07298356",
+    "date_premiere_publication": "2025-12-23",
+    "date_derniere_mise_a_jour": "2026-11-03",
+    "type_etude": "INTERVENTIONAL",
+    "phases_declarees": [
+      "NA"
+    ],
+    "statut": "RECRUITING",
+    "raison_arret": null,
+    "date_debut": "2026-03-02",
+    "date_fin_principale": "2026-12-29",
+    "promoteur": "Duke University",
+    "type_promoteur": "OTHER",
+    "collaborateurs": null,
+    "conditions": [
+      "Glaucoma",
+      "Glaucoma, Suspect"
+    ],
+    "interventions": [
+      {
+        "type": "DEVICE",
+        "nom": "Standard GAT"
+      },
+      {
+        "type": "DEVICE",
+        "nom": "Fixed force GAT"
+      },
+      {
+        "type": "DEVICE",
+        "nom": "Upright applanating prototype"
+      },
+      {
+        "type": "DEVICE",
+        "nom": "Pneumotonometer"
+      }
+    ],
+    "participants_nombre": 200,
+    "participants_type": "ESTIMATED",
+    "criteres_principaux": [
+      {
+        "critere": "Intraocular pressure (IOP) as measured by standard GAT",
+        "delai": "Baseline"
+      },
+      {
+        "critere": "Intraocular pressure (IOP) as measured by fixed force GAT",
+        "delai": "Baseline"
+      },
+      {
+        "critere": "Intraocular pressure as measured by upright applanating",
+        "delai": "Baseline"
+      },
+      {
+        "critere": "Intraocular pressure as measured by supine Pneumotonometer",
+        "delai": "Baseline"
+      }
+    ],
+    "resultats_deposes": false,
+    "publications_declarees": null,
+    "resume_source": "Goldmann Applanation Tonometry (GAT) is considered the clinical gold standard for eye pressure measurements and yet it is known to be a subjective measurement with limited repeatability and limited portability. Another clinical standard for checking eye pressure is known as the pneumotonometer. This method is more objective but not portable. The purpose of this study is to develop new methods of measuring eye pressure that are more objective, reproducible and portable. In this study, the investigators will be comparing the eye pressure measurements using 2 investigational methods to GAT and pneuumotonometer.",
+    "citations_declarees": null,
+    "plan": {
+      "repartition": "RANDOMIZED",
+      "modele": "PARALLEL",
+      "but_principal": "DIAGNOSTIC",
+      "insu": "NONE",
+      "insu_pour": null,
+      "insu_description": null,
+      "modele_observationnel": null
+    },
+    "bras": [
+      {
+        "libelle": "Standard GAT",
+        "type": "ACTIVE_COMPARATOR",
+        "description": "This is the gold-standard method for IOP measurement in clinical practice",
+        "interventions": [
+          "Device: Standard GAT"
+        ]
+      },
+      {
+        "libelle": "Fixed-force GAT",
+        "type": "EXPERIMENTAL",
+        "description": "From the patient perspective, this method will feel identical to the standard GAT. The eye is given topical fluorescein/anesthetic. The GAT dial is set at 1.8 or 2.0, a C-MOS camera is connected to one of the oculars of the slit lamp machine and under blue light illumination, the GAT prism contacts the eye while the CMOS camera makes a video of the mire appearance through the ocular. The diameters of the recorded mire images are measured and the IOP is calculated based on the mire diameter",
+        "interventions": [
+          "Device: Fixed force GAT"
+        ]
+      },
+      {
+        "libelle": "Upright applanating prototype",
+        "type": "EXPERIMENTAL",
+        "description": "With this prototype, an applanating prism (custom manufactured with medical grade acrylic in an ISO-13485 certified facility) is attached to a fixed-force spring that creates a force equivalent to 1.8 or 2.0 on the GAT dial. Blue LED lights on the prototype are used to create the blue illumination similar to the blue light used in clinical practice on the slit lamp or Perkins tonometer. A C-MOS camera is aligned with the GAT prism to image the applanation mires. The eye is given topical fluorescein/anesthetic. Like fixed-force GAT, the GAT prism contacts the eye while the CMOS camera makes a video of the mire appearance. The diameters of the recorded mire images are measured and the IOP is calculated based on the mire diameter",
+        "interventions": [
+          "Device: Upright applanating prototype"
+        ]
+      },
+      {
+        "libelle": "Pneumotonometer",
+        "type": "ACTIVE_COMPARATOR",
+        "description": "This is another standard method for IOP measurement in clinical practice",
+        "interventions": [
+          "Device: Pneumotonometer"
+        ]
+      }
+    ],
+    "eligibilite": {
+      "criteres": "Criteria:\n\nInclusion Criteria:\n\n* Presenting for a routine eye exam\n* ≥ 18 years of age\n* Able and willing to give consent\n\nExclusion Criteria:\n\n* History of corneal scarring\n* Active infection of the eye\n* Ocular surface trauma or infection",
+      "age_min": "18 Years",
+      "age_max": null,
+      "sexe": "ALL",
+      "volontaires_sains": false
+    },
+    "criteres_secondaires": null,
+    "responsables": [
+      {
+        "nom": "Joanne Wen, MD",
+        "affiliation": "Duke Eye Center",
+        "role": "PRINCIPAL_INVESTIGATOR"
+      }
+    ],
+    "date_depot_resultats": null,
+    "resultats": null
+  },
+  "modifications": []
+}

@@ -1,0 +1,20 @@
+﻿2026-11-11 20:57:13,293 INFO === Exécution 20261111T205713 : nouveautés depuis le 2026-11-11 ===
+2026-11-11 20:57:13,877 INFO ClinicalTrials.gov GET https://clinicaltrials.gov/api/v2/studies {'query.cond': 'glaucoma OR "ocular hypertension"', 'pageSize': 300, 'sort': 'LastUpdatePostDate:desc', 'format': 'json', 'filter.advanced': 'AREA[LastUpdatePostDate]RANGE[2026-11-11,MAX]'} → HTTP 200 en 0.6 s
+2026-11-11 20:57:14,804 INFO PubMed POST https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi {} → HTTP 200 en 0.9 s
+2026-11-11 20:57:16,063 INFO PubMed POST https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi {} → HTTP 200 en 0.9 s
+2026-11-11 20:57:17,073 INFO OpenAlex GET https://api.openalex.org/works {'filter': 'ids.pmid:42893477|42927148|42988359|43004227|43008394|43008498|43008813|43009040|43009100|43010767|43011032|43011520|43011643|43011673|43012562|43012659|43012846|43012868', 'per-page': 50} → HTTP 200 en 1.0 s
+2026-11-11 20:57:17,953 INFO Crossref GET https://api.crossref.org/works/10.1186/s12883-026-05275-9 {} → HTTP 200 en 0.9 s
+2026-11-11 20:57:18,986 INFO OpenAlex GET https://api.openalex.org/works {'filter': 'title_and_abstract.search:glaucoma OR "ocular hypertension",has_pmid:false,is_paratext:false,from_publication_date:2026-10-12,to_publication_date:2026-11-11,type:article', 'per-page': 10} → HTTP 200 en 1.0 s
+2026-11-11 20:57:19,676 INFO PubMed POST https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi {} → HTTP 200 en 0.7 s
+2026-11-11 20:57:20,979 INFO PubMed POST https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi {} → HTTP 200 en 0.9 s
+2026-11-11 20:57:22,063 INFO PubMed POST https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi {} → HTTP 200 en 0.7 s
+2026-11-11 20:57:23,027 INFO PubMed POST https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi {} → HTTP 200 en 0.6 s
+2026-11-11 20:57:24,002 INFO PubMed POST https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi {} → HTTP 200 en 0.6 s
+2026-11-11 20:57:25,149 INFO PubMed POST https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi {} → HTTP 200 en 0.8 s
+2026-11-11 20:57:26,049 INFO OpenAlex GET https://api.openalex.org/works {'filter': 'title_and_abstract.search:glaucoma OR "ocular hypertension",has_pmid:false,is_paratext:false,from_publication_date:2026-10-12,to_publication_date:2026-11-11,type:preprint', 'per-page': 10} → HTTP 200 en 0.9 s
+2026-11-11 20:57:26,663 INFO PubMed POST https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi {} → HTTP 200 en 0.6 s
+2026-11-11 20:57:27,628 INFO PubMed POST https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi {} → HTTP 200 en 0.6 s
+2026-11-11 20:57:28,864 INFO PubMed POST https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi {} → HTTP 200 en 0.9 s
+2026-11-11 20:57:30,087 INFO PubMed POST https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi {} → HTTP 200 en 0.9 s
+2026-11-11 20:57:31,097 INFO PubMed POST https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi {} → HTTP 200 en 0.7 s
+2026-11-11 20:57:31,808 INFO === Exécution 20261111T205713 terminée : ok ===

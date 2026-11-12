@@ -1,0 +1,210 @@
+{
+  "pmid": "42975102",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42975102",
+    "titre": "Axon Content of the Circumpapillary Nerve Fiber Layer in Experimental Glaucoma.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42975102/",
+    "doi": "10.1167/iovs.67.13.8",
+    "pmcid": "PMC13743835",
+    "revue": "Investigative ophthalmology & visual science",
+    "date_entree_pubmed": "2026-11-03",
+    "date_publication": "2026-Nov-02",
+    "types_publication": [
+      "Journal Article"
+    ],
+    "resume_present": true,
+    "resume": "PURPOSE: To determine axonal content from optical coherence tomography (OCT)-derived circumpapillary retinal nerve fiber layer (RNFL) measures using histologically informed models in a non-human primate experimental glaucoma model.\nMETHODS: Unilateral experimental glaucoma was induced in 22 animals (mean age, 6.1 ± 1.9 years; 10 females) who were monitored with OCT. At varying stages of neuropathy, animals were euthanized and perfusion fixed. For RNFL histology, circumpapillary tissue (∼0.75 × 0.75 mm) from six equally spaced regions was obtained and processed for serial block face scanning electron microscopy in five animals. A single high-resolution image of the block face was used to quantify axon size (cross-sectional area) and non-axonal tissue area within the RNFL. Using the 95% limits of the histological data as a starting point, models for estimating axon count from OCT RNFL area were optimized and compared to total retrobulbar optic nerve axon counts in 22 animals.\nRESULTS: The mean circumpapillary RNFL thickness of control eyes was 112 ± 6 µm, and it was 70 ± 24 µm in eyes with experimental glaucoma. Axon size and non-axonal area varied across the circumpapillary regions (F5, 31 = 9.06 and F5, 36 = 3.94, respectively; both P < 0.01), but did not differ between the two eyes (F1, 22 = 0.59, P = 0.45 and F1, 15 = 2.10, P = 0.17). The optimized model for estimating axon content from the circumpapillary RNFL profile had good agreement with the retrobulbar axon count (mean difference = 25; 95% limits of agreement, -334,239 to 334,289).\nCONCLUSIONS: The axon size distribution and non-axonal area in the circumpapillary RNFL are similar between healthy and stable glaucomatous eyes. Building on this, a location-specific model is proposed that estimates axon content from the circumpapillary RNFL profile after accounting for regional variability in axonal and non-axonal components.",
+    "mots_cles_auteurs": null,
+    "langue": "eng",
+    "nombre_auteurs": 3,
+    "affiliations_auteurs": [
+      "University of Houston College of Optometry, Houston, Texas, United States."
+    ],
+    "financeurs_declares": [
+      {
+        "organisme": "NEI NIH HHS",
+        "pays": "United States",
+        "reference": "P30 EY007551"
+      },
+      {
+        "organisme": "NEI NIH HHS",
+        "pays": "United States",
+        "reference": "R01 EY029229"
+      },
+      {
+        "organisme": "NEI NIH HHS",
+        "pays": "United States",
+        "reference": "T35 EY007088"
+      }
+    ],
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": [
+      "Animals",
+      "Axons",
+      "Tomography, Optical Coherence",
+      "Female",
+      "Retinal Ganglion Cells",
+      "Disease Models, Animal",
+      "Glaucoma",
+      "Optic Disk",
+      "Male",
+      "Nerve Fibers",
+      "Microscopy, Electron, Scanning",
+      "Intraocular Pressure",
+      "Optic Nerve Diseases"
+    ]
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Préclinique",
+      "stade_source": "indexation MeSH de PubMed (modèle animal / animaux sans humains)",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7225145807",
+      "doi": "10.1167/iovs.67.13.8",
+      "pmid": "42975102",
+      "pmcid": "13743835",
+      "titre": "Axon Content of the Circumpapillary Nerve Fiber Layer in Experimental Glaucoma",
+      "lien": "https://openalex.org/W7225145807",
+      "date_publication": "2026-11-03",
+      "type": "article",
+      "revue": "Investigative Ophthalmology & Visual Science",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "doaj",
+        "pubmed"
+      ],
+      "financeurs": [
+        {
+          "nom": "National Eye Institute",
+          "ror": "https://ror.org/03wkg3b53"
+        }
+      ],
+      "subventions": [
+        {
+          "financeur": "National Eye Institute",
+          "reference": "R01EY029229"
+        },
+        {
+          "financeur": "National Eye Institute",
+          "reference": "P30EY007551"
+        },
+        {
+          "financeur": "National Eye Institute",
+          "reference": "T35EY007088"
+        }
+      ],
+      "institutions": [
+        {
+          "nom": "University of Houston",
+          "pays": "US",
+          "type": "education",
+          "ror": "https://ror.org/048sx0r50"
+        }
+      ],
+      "acces_ouvert": true,
+      "statut_acces": "gold",
+      "url_texte": "https://doi.org/10.1167/iovs.67.13.8",
+      "url_pdf": null,
+      "licence": "cc-by-nc-nd",
+      "texte_integral_indexe": false,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Glaucoma and retinal disorders",
+      "resume_present": true,
+      "mesh": [
+        "Animals",
+        "Axons",
+        "Disease Models, Animal",
+        "Female",
+        "Glaucoma",
+        "Intraocular Pressure",
+        "Male",
+        "Microscopy, Electron, Scanning",
+        "Nerve Fibers",
+        "Optic Disk",
+        "Optic Nerve Diseases",
+        "Retinal Ganglion Cells",
+        "Tomography, Optical Coherence"
+      ]
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": [
+      {
+        "nom": "NEI NIH HHS",
+        "statut": "CONFIRMÉ — déclaré dans la notice PubMed (GrantList)",
+        "references": [
+          "P30 EY007551"
+        ],
+        "notices": [
+          [
+            "notice PubMed",
+            "https://pubmed.ncbi.nlm.nih.gov/42975102/?format=pubmed"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "NEI NIH HHS",
+        "statut": "CONFIRMÉ — déclaré dans la notice PubMed (GrantList)",
+        "references": [
+          "R01 EY029229"
+        ],
+        "notices": [
+          [
+            "notice PubMed",
+            "https://pubmed.ncbi.nlm.nih.gov/42975102/?format=pubmed"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "NEI NIH HHS",
+        "statut": "CONFIRMÉ — déclaré dans la notice PubMed (GrantList)",
+        "references": [
+          "T35 EY007088"
+        ],
+        "notices": [
+          [
+            "notice PubMed",
+            "https://pubmed.ncbi.nlm.nih.gov/42975102/?format=pubmed"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "National Eye Institute",
+        "statut": "À VÉRIFIER — trouvé par OpenAlex seulement (l'éditeur n'a déclaré aucun financeur dans Crossref) ; à contrôler dans le texte de l'article",
+        "references": [
+          "R01EY029229",
+          "P30EY007551",
+          "T35EY007088"
+        ],
+        "notices": [
+          [
+            "notice OpenAlex",
+            "https://api.openalex.org/works/W7225145807"
+          ],
+          [
+            "notice Crossref consultée (ne confirme pas ce financeur)",
+            "https://api.crossref.org/works/10.1167/iovs.67.13.8"
+          ]
+        ],
+        "note": null
+      }
+    ]
+  }
+}

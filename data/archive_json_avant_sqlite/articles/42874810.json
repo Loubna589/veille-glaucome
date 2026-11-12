@@ -1,0 +1,109 @@
+{
+  "pmid": "42874810",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42874810",
+    "titre": "The Second and Third Decade After 103Pd Plaque Brachytherapy for Choroidal Melanoma.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42874810/",
+    "doi": "10.1016/j.ophtha.2026.10.009",
+    "pmcid": null,
+    "revue": "Ophthalmology",
+    "date_entree_pubmed": "2026-10-14",
+    "date_publication": "2026-Oct-14",
+    "types_publication": [
+      "Journal Article"
+    ],
+    "resume_present": true,
+    "resume": "PURPOSE: To determine long-term visual and ocular outcomes in a large cohort of patients with choroidal melanoma treated using palladium-103 (103Pd) plaque brachytherapy.\nDESIGN: This is a retrospective cohort study.\nPARTICIPANTS: 170 patients with a minimum of 10 years of continuous follow-up at The New York Eye Cancer Center following 103Pd plaque brachytherapy treatment for choroidal melanoma.\nMETHODS: The study includes collected data consisting of patient demographic characteristics, tumor features, such as size, location, and AJCC clinical T-category (cT), visual outcomes, variables related to post-treatment retinopathy management, and long-term ocular comorbidities.\nMAIN OUTCOME MEASURES: The primary endpoints were tumor control, ocular conservation, and visual acuity. Secondary endpoints included long-term radiation-related complications, additional ocular interventions, and associated comorbidities. Statistical analyses were performed using the Kaplan-Meier survival method, t-tests, Wilcoxon rank-sum tests, chi-square tests, and linear regression plots.\nRESULTS: Among 170 patients with a minimum 10-year follow-up there was 100% local tumor control. One eye (0.6%) was enucleated due to neovascular glaucoma and patient choice. Kaplan-Meier analysis demonstrated visual acuity retention rates of 92.7% at 12 years, 87.0% at 15 years, and 63.7% at 20 years defined as vision of 20/200 or better. Radiation retinopathy was managed with anti-vascular endothelial growth factor (anti-VEGF) therapy, intravitreal corticosteroids, and laser treatment. Tumors located closer to the fovea were associated with increased foveal radiation doses and poorer visual acuity outcomes. Treatment of juxtapapillary and circumpapillary tumors was associated with the highest rates of vision loss.\nCONCLUSIONS: This study is the largest and longest follow-up analysis of 103Pd plaque brachytherapy for choroidal melanoma. It provides new long-term information on tumor control, ocular morbidity, and visual outcomes that are valuable for patient counseling and therapeutic decision-making.",
+    "mots_cles_auteurs": [
+      "choroidal melanoma",
+      "follow-up",
+      "long-term",
+      "palladium-103",
+      "plaque brachytherapy"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 2,
+    "affiliations_auteurs": [
+      "Ocular Tumor, Orbital Disease, and Ophthalmic Radiation Therapy, The New York Eye Cancer Center, New York, NY, 10065, USA; Manhattan Eye, Ear and Throat Hospital, Northwell Health, Department of Ophthalmology, New York City, NY, 10065, USA; Donald and Barbara Zucker School of Medicine at Hofstra/Northwell, Hempstead, NY, 11549, USA.",
+      "Ocular Tumor, Orbital Disease, and Ophthalmic Radiation Therapy, The New York Eye Cancer Center, New York, NY, 10065, USA; Ocular Tumor Service, Department of Ophthalmology, Tulane University School of Medicine, New Orleans, LA, 70118, USA; Manhattan Eye, Ear and Throat Hospital, Northwell Health, Department of Ophthalmology, New York City, NY, 10065, USA. Electronic address: pfinger@eyecancer.com."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7221808592",
+      "doi": "10.1016/j.ophtha.2026.10.009",
+      "pmid": "42874810",
+      "pmcid": null,
+      "titre": "The Second and Third Decade After 103Pd Plaque Brachytherapy for Choroidal Melanoma",
+      "lien": "https://openalex.org/W7221808592",
+      "date_publication": "2026-10-01",
+      "type": "article",
+      "revue": "Ophthalmology",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "pubmed"
+      ],
+      "financeurs": null,
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "Northwell Health",
+          "pays": "US",
+          "type": "healthcare",
+          "ror": "https://ror.org/02bxt4m23"
+        },
+        {
+          "nom": "Manhattan Eye, Ear and Throat Hospital",
+          "pays": "US",
+          "type": "healthcare",
+          "ror": "https://ror.org/008a4de11"
+        },
+        {
+          "nom": "Donald & Barbara Zucker School of Medicine at Hofstra/Northwell",
+          "pays": "US",
+          "type": "education",
+          "ror": "https://ror.org/01ff5td15"
+        },
+        {
+          "nom": "Tulane University",
+          "pays": "US",
+          "type": "education",
+          "ror": "https://ror.org/04vmvtb21"
+        }
+      ],
+      "acces_ouvert": true,
+      "statut_acces": "hybrid",
+      "url_texte": "https://www.aaojournal.org/article/S0161-6420(26)00779-7/pdf",
+      "url_pdf": "https://www.aaojournal.org/article/S0161-6420(26)00779-7/pdf",
+      "licence": "cc-by-nc-nd",
+      "texte_integral_indexe": true,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Ocular Oncology and Treatments",
+      "resume_present": true,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": []
+  }
+}

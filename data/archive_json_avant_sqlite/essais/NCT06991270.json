@@ -1,0 +1,85 @@
+{
+  "nct": "NCT06991270",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "nct": "NCT06991270",
+    "titre": "OMNI 3.1 Surgical System in Subjects With Primary Open-Angle Glaucoma",
+    "titre_officiel": "A Pilot Study of the OMNI 3.1 Surgical System in Subjects With Primary Open-Angle Glaucoma",
+    "lien": "https://clinicaltrials.gov/study/NCT06991270",
+    "date_premiere_publication": "2025-05-27",
+    "date_derniere_mise_a_jour": "2026-10-19",
+    "type_etude": "INTERVENTIONAL",
+    "phases_declarees": [
+      "NA"
+    ],
+    "statut": "ACTIVE_NOT_RECRUITING",
+    "raison_arret": null,
+    "date_debut": "2025-10-08",
+    "date_fin_principale": "2026-12-01",
+    "promoteur": "Sight Sciences, Inc.",
+    "type_promoteur": "INDUSTRY",
+    "collaborateurs": null,
+    "conditions": [
+      "Primary Open Angle Glaucoma"
+    ],
+    "interventions": [
+      {
+        "type": "DEVICE",
+        "nom": "OMNI 3.0 Surgical System"
+      }
+    ],
+    "participants_nombre": 25,
+    "participants_type": "ESTIMATED",
+    "criteres_principaux": [
+      {
+        "critere": "Primary Effectiveness Endpoint",
+        "delai": "3 months"
+      }
+    ],
+    "resultats_deposes": false,
+    "publications_declarees": null,
+    "resume_source": "To gain early evidence of safety and assess the effectiveness of the intraocular pressure (IOP)-lowering effectiveness of the OMNI 3.0 Surgical System in primary open-angel glaucoma (POAG).",
+    "citations_declarees": null,
+    "plan": {
+      "repartition": "NA",
+      "modele": "SINGLE_GROUP",
+      "but_principal": "TREATMENT",
+      "insu": "NONE",
+      "insu_pour": null,
+      "insu_description": null,
+      "modele_observationnel": null
+    },
+    "bras": [
+      {
+        "libelle": "OMNI 3.0",
+        "type": "EXPERIMENTAL",
+        "description": "Canaloplasty and trabeculotomy using the OMNI 3.0 surgical system, combined with phacoemulsification cataract surgery, OR as a standalone procedure in pseudophakic eyes.",
+        "interventions": [
+          "Device: OMNI 3.0 Surgical System"
+        ]
+      }
+    ],
+    "eligibilite": {
+      "criteres": "Inclusion Criteria:\n\n* Male or female subjects, 45 years or older\n* Visually significant age-related cataract and requiring phacoemulsification cataract surgery, OR, pseudophakic and a minimum of six months since cataract surgery.\n* Intraocular pressure (IOP) at the Screening visit not exceeding 33 mmHg and at least 21 mmHg for unmedicated eyes or 16 mmHg if medicated (1 to 4 ocular hypotensive medications - fixed combinations count as the number of components), with a stable medication regimen for ≥2 months.\n* Diagnosed with mild to moderate primary open angle glaucoma (POAG). Diagnosis must include evidence of glaucomatous optic nerve damage or visual field defect consistent with glaucomatous optic nerve damage\n\nExclusion Criteria:\n\n* Any of the following prior ocular procedures:\n\n  * Laser trabeculoplasty ≤180 days prior to baseline\n  * Durysta ≤12 months prior to baseline\n  * Any implanted glaucoma device\n  * Prior canaloplasty, goniotomy, trabeculotomy, trabeculectomy\n  * Ciliary ablation including endoscopic cyclophotocoagulation (ECP), Cyclophotocoagulation or CPC (G probe), high intensity focused ultrasound (HIFU), ≤180 days prior to baseline\n  * Retinal laser procedure ≤3 months prior to baseline\n* Any form of glaucoma other than POAG.\n* Use of topical ocular steroids.\n* Clinically significant concurrent ocular pathology or systemic medical condition which, in the Investigator's judgment, would either place the subject at increased risk of complications, contraindicate surgery, place the subject at risk of significant vision loss during the study period (e.g., wet age-related macular degeneration (AMD), corneal edema, Fuch's dystrophy, active intraocular infection or inflammation within 30 days prior to Screening Visit, etc.), or interfere with compliance to elements of the study protocol (e.g., returning to Investigator's office for follow-up visits). Dry AMD and Non- proliferative diabetic retinopathy are not excluded.\n* History of penetrating keratoplasty or another corneal transplant; corneal abnormality that would prevent reliable IOP measurement, e.g. keratoconus or abnormally thick (≥ 620 µM) or thin (≤ 480 µM) cornea.\n* Retrobulbar tumor, thyroid eye disease, Sturge-Weber Syndrome or any other type of condition that may cause elevated episcleral venous pressure.\n* BCVA of logMAR 0.4 (20/50) or worse in the study eye not due to cataract.\n* BCVA of logMAR 0.6 (20/80) or worse in the non-study eye not due to cataract.",
+      "age_min": "45 Years",
+      "age_max": null,
+      "sexe": "ALL",
+      "volontaires_sains": false
+    },
+    "criteres_secondaires": [
+      {
+        "critere": "Secondary Effectiveness Endpoint 1",
+        "delai": "3 months"
+      },
+      {
+        "critere": "Secondary Effectiveness Endpoint 2",
+        "delai": "3 months"
+      }
+    ],
+    "responsables": null,
+    "date_depot_resultats": null,
+    "resultats": null
+  },
+  "modifications": []
+}

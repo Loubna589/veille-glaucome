@@ -1,0 +1,98 @@
+{
+  "pmid": "43001142",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "43001142",
+    "titre": "Anxiety and Depression in Glaucoma: A Narrative Review of Bidirectional Associations, Causal Evidence, and Clinical Implications.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/43001142/",
+    "doi": "10.2147/NDT.S652023",
+    "pmcid": "PMC13744679",
+    "revue": "Neuropsychiatric disease and treatment",
+    "date_entree_pubmed": "2026-11-09",
+    "date_publication": "2026",
+    "types_publication": [
+      "Journal Article",
+      "Review"
+    ],
+    "resume_present": true,
+    "resume": "BACKGROUND: Anxiety and depressive symptoms are common neuropsychiatric comorbidities in glaucoma, but the direction and causal meaning of these associations remain uncertain.\nOBJECTIVE: To evaluate evidence in both directions by assessing whether glaucoma contributes to anxiety and depression and whether anxiety or depression influences glaucoma-related outcomes or progression.\nMETHODS: We conducted a structured narrative review of PubMed, Web of Science Core Collection, CNKI, Wanfang Data, and VIP Database, supplemented by Google Scholar, reference screening, and citation tracking through 31 July 2026. We critically synthesized prevalence, longitudinal observational, acute-stress, intervention, and genetically informed causal evidence.\nRESULTS: Evidence that glaucoma-related visual impairment and long-term management contribute to anxiety and depressive symptoms is relatively consistent. Reverse-direction evidence is weaker and heterogeneous. Acute stress may transiently raise intraocular pressure or affect visual field testing, while observational studies link psychological factors with retinal nerve fiber layer thinning, glaucoma conversion, or incident glaucoma. These associations do not establish accelerated glaucomatous neurodegeneration. Mendelian randomization and related genetic analyses do not show robust direct causal effects. Psychological interventions may improve symptoms and short-term physiological measures, but no identified trial has shown sustained slowing of visual field or retinal nerve fiber layer progression.\nCONCLUSION: Current evidence supports an asymmetric relationship. Anxiety and depression are clinically important comorbidities that warrant assessment and treatment, but they are not established modifiers of glaucoma progression.",
+    "mots_cles_auteurs": [
+      "Glaucoma",
+      "anxiety",
+      "causal inference",
+      "depression",
+      "disease progression",
+      "neuropsychiatric comorbidity"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 4,
+    "affiliations_auteurs": [
+      "Department of Ophthalmology, Heilongjiang Mental Hospital, Harbin, Heilongjiang, People's Republic of China.",
+      "Department of Ophthalmology, Heilongjiang University of Chinese Medicine, Harbin, Heilongjiang, People's Republic of China.",
+      "Department of Ophthalmology, The Second Affiliated Hospital of Heilongjiang University of Chinese Medicine, Harbin, Heilongjiang, People's Republic of China.",
+      "Personnel Department, The Second Affiliated Hospital of Heilongjiang University of Chinese Medicine, Harbin, Heilongjiang, People's Republic of China.",
+      "Department of Otolaryngology, The Second Affiliated Hospital of Heilongjiang University of Chinese Medicine, Harbin, Heilongjiang, People's Republic of China.",
+      "Department of Psychiatry, Heilongjiang Mental Hospital, Harbin, Heilongjiang, People's Republic of China."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7225144990",
+      "doi": "10.2147/ndt.s652023",
+      "pmid": "43001142",
+      "pmcid": "13744679",
+      "titre": "Anxiety and Depression in Glaucoma: A Narrative Review of Bidirectional Associations, Causal Evidence, and Clinical Implications",
+      "lien": "https://openalex.org/W7225144990",
+      "date_publication": "2026-11-01",
+      "type": "review",
+      "revue": "Neuropsychiatric Disease and Treatment",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "doaj",
+        "pubmed"
+      ],
+      "financeurs": null,
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "Heilongjiang University of Chinese Medicine",
+          "pays": "CN",
+          "type": "education",
+          "ror": "https://ror.org/05x1ptx12"
+        }
+      ],
+      "acces_ouvert": true,
+      "statut_acces": "gold",
+      "url_texte": "https://www.dovepress.com/article/download/121817",
+      "url_pdf": "https://www.dovepress.com/article/download/121817",
+      "licence": "cc-by-nc",
+      "texte_integral_indexe": true,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Glaucoma and retinal disorders",
+      "resume_present": true,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": []
+  }
+}

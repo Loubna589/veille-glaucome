@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>PMID 42959028 — fiche article</title><style>
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
+:root{--fond:#f4f7fb;--carte:#fff;--texte:#0f1d33;--doux:#52627a;--bord:#e2e8f0;--accent:#0b4f8a;
+--ok:#146c43;--ok-fond:#e3f4ea;--att:#8a5300;--att-fond:#fdf1d8;--ver:#b42318;--ver-fond:#fdeceb;
+--reg:#3f3c9e;--reg-fond:#ecebfb;--src-fond:#f1f5f9;--mark:#fff1a8;--manque:#b42318;--turquoise:#14b8a6;}
+@media (prefers-color-scheme:dark){:root{--fond:#0a1120;--carte:#101a2c;--texte:#e6edf7;--doux:#9db0ca;
+--bord:#1e2b42;--accent:#6fb4ff;--ok:#6fd6a0;--ok-fond:#12301f;--att:#f3c15e;--att-fond:#352a10;--ver:#ff9a8f;
+--ver-fond:#3a1714;--reg:#b4b2ff;--reg-fond:#24234a;--src-fond:#0d1626;--mark:#5a4d10;--manque:#ff9a8f;--turquoise:#2dd4bf;}}
+*{box-sizing:border-box}body{margin:0;background:var(--fond);color:var(--texte);
+font:15.5px/1.6 "Inter",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+:focus-visible{outline:3px solid var(--turquoise);outline-offset:2px;border-radius:6px}
+main{max-width:1000px;margin:0 auto;padding:20px 18px 64px}
+.bandeau{display:flex;align-items:center;gap:10px;font-weight:800;letter-spacing:-.02em;padding:6px 0 14px;color:var(--texte);text-decoration:none}
+.bandeau i{width:30px;height:30px;border-radius:9px;background:linear-gradient(135deg,#0b4f8a,#14b8a6);display:inline-block}
+header,section{background:var(--carte);border:1px solid var(--bord);border-radius:16px;padding:20px 24px;margin:0 0 16px;
+box-shadow:0 1px 2px rgba(15,29,51,.04),0 6px 20px -8px rgba(15,29,51,.12)}
+h1{font-size:1.45rem;line-height:1.3;margin:.2em 0 .5em}h2{font-size:1.1rem;margin:0 0 .6em;color:var(--accent)}
+h3{font-size:1rem;margin:1.1em 0 .4em}.surtitre{color:var(--doux);margin:0;font-size:.9rem}
+a{color:var(--accent)}small,.def{color:var(--doux)}.def{font-size:.88rem;margin:.2em 0 .6em}
+.grille{display:grid;grid-template-columns:max-content 1fr;gap:4px 16px;margin:12px 0 0}
+.grille dt{color:var(--doux)}.grille dd{margin:0}
+.badge{display:inline-block;font-size:.72rem;font-weight:600;padding:2px 8px;border-radius:999px;margin:2px 4px 2px 0;
+vertical-align:middle;background:var(--src-fond);color:var(--doux)}
+.badge.confirme{background:var(--ok-fond);color:var(--ok)}.badge.attente{background:var(--att-fond);color:var(--att)}
+.badge.verifier{background:var(--ver-fond);color:var(--ver)}.badge.regle{background:var(--reg-fond);color:var(--reg)}
+.rubrique{font-weight:600}.manque{color:var(--manque);font-style:italic}
+mark{background:var(--mark);color:inherit;padding:0 2px;border-radius:3px}
+blockquote{margin:.5em 0;padding:.5em .9em;border-left:3px solid var(--bord);background:var(--src-fond);border-radius:0 6px 6px 0}
+pre{white-space:pre-wrap;font-size:.85rem;background:var(--src-fond);padding:10px;border-radius:6px}
+.defile{overflow-x:auto}table{border-collapse:collapse;width:100%;font-size:.92rem;margin:.4em 0}
+th,td{border:1px solid var(--bord);padding:6px 8px;text-align:left;vertical-align:top}th{background:var(--src-fond)}
+.analyse{background:var(--src-fond);padding:6px 10px;border-radius:6px;font-size:.92rem}
+.acteurs{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px}
+.acteurs>div{border:1px solid var(--bord);border-radius:8px;padding:10px 12px}.acteurs h3{margin-top:0}
+.copier{position:sticky;top:0;z-index:2;display:flex;gap:12px;align-items:center;flex-wrap:wrap;
+background:var(--fond);padding:10px 0;margin-bottom:8px}
+button{font:inherit;font-weight:600;background:var(--accent);color:#fff;border:0;border-radius:8px;padding:9px 16px;cursor:pointer}
+@media (prefers-color-scheme:dark){button{color:#10141a}}
+textarea{width:100%;min-height:260px;font:13px/1.4 ui-monospace,Consolas,monospace;background:var(--src-fond);
+color:var(--texte);border:1px solid var(--bord);border-radius:6px;padding:8px}
+details{margin:.5em 0}summary{cursor:pointer;color:var(--accent)}
+.retour{font-size:.92rem;margin:0 0 4px}
+@media (max-width:600px){.grille{grid-template-columns:1fr}.grille dt{margin-top:6px}header,section{padding:14px}}
+</style></head>
+<body><main>
+<a class="bandeau" href="../index.html"><i aria-hidden="true"></i>Glaucoma Intelligence</a><nav class="retour"><a href="../index.html">Accueil</a> · <a href="../etudes.html">← Essais &amp; articles</a> · <a href="../recherche.html">Rechercher</a> · <a href="../carte.html">Carte des acteurs</a> · <a href="../alertes.html">Alertes</a></nav>
+<div class="copier"><button id="bouton-copier" type="button" onclick="copierFiche()">Copier pour Claude / ChatGPT</button>
+<small>Copie une consigne + les faits de cette fiche, à coller dans votre assistant.</small></div>
+
+    <header>
+      <p class="surtitre">Fiche article · PMID 42959028 · <a href="https://pubmed.ncbi.nlm.nih.gov/42959028/" target="_blank" rel="noopener">voir sur PubMed</a>
+         · <a href="https://doi.org/10.3389/fmed.2026.1819637" target="_blank" rel="noopener">DOI 10.3389/fmed.2026.1819637</a></p>
+      <h1 lang="en">Ultrasound cycloplasty: dynamic efficacy and long-term safety in glaucoma patients from northwest China.</h1>
+      <p><span class="badge confirme">PUBLICATION — le résumé rapporte des résultats</span> <span class="badge verifier">Synthèse fondée UNIQUEMENT sur le résumé PubMed : le texte intégral n'a pas été lu.</span></p>
+      <dl class="grille">
+        <dt>Revue</dt><dd>Frontiers in medicine</dd>
+        <dt>Entrée dans PubMed</dt><dd>2026-10-30 · publication : 2026</dd>
+        <dt>Type(s) de publication (PubMed)</dt><dd lang="en">Clinical Trial, Journal Article</dd>
+        <dt>Stade</dt><dd>Non renseigné <small>(pas d'indexation MeSH disponible)</small></dd>
+        <dt>Accès au texte (OpenAlex)</dt><dd>libre (revue en accès ouvert) · <a href="https://www.frontiersin.org/journals/medicine/articles/10.3389/fmed.2026.1819637/pdf" target="_blank" rel="noopener">ouvrir le texte</a></dd>
+        <dt>Détecté par l'outil le</dt><dd>2026-11-11</dd>
+      </dl>
+      <p class="rubriques"><strong>Rubrique :</strong> <span class="rubrique">Autres sujets (clinique, épidémiologie…)</span> <small>aucune règle de rubrique ne s'applique</small> <span class="badge regle">classement automatique — règles dans config/rubriques.ini</span></p>
+    </header>
+<section><h2>Question étudiée <span class="badge source">Résumé PubMed (texte source)</span></h2><blockquote lang="en"><strong>PURPOSE</strong> To comprehensively evaluate the dynamic efficacy of UCP in treating different types of glaucoma patients in Northwest China, systematically analyze treatment outcome variations across follow-up time points, and assess long-term safety profiles.</blockquote></section><section><h2>Traitement ou technologie, et comparateur <span class="badge regle">règle automatique de l'outil</span></h2><ul><li><span class="manque">Aucun produit suivi ni molécule repérés automatiquement</span></li></ul><p class="def">Aucun rôle n'est confirmé : PubMed ne décrit pas les bras d'une étude. Un rôle pourrait être confirmé par le registre d'un essai lié de façon confirmée.</p></section><section><h2>Type d'étude et méthode <span class="badge source">Résumé PubMed (texte source)</span><span class="badge source">PubMed (types de publication)</span></h2><p>Type(s) de publication déclaré(s) par PubMed : <span lang="en">Clinical Trial, Journal Article</span></p><blockquote lang="en"><strong>METHODS</strong> In a <mark>1</mark>-year follow-up study, <mark>24</mark> patients (<mark>30</mark> eyes) with various types of glaucoma were enrolled and underwent UCP treatment (<mark>10</mark> sectors or <mark>8</mark> sectors). Follow-up visits were conducted at different postoperative time points (<mark>1</mark> day, <mark>1</mark> week, <mark>1</mark> month, <mark>3</mark> months, <mark>6</mark> months, and <mark>1</mark> year). Follow-up assessments consisted of IOP measurements, IOP reduction from baseline, surgical success rate, <mark>24</mark>-hour IOP fluctuation, pain score improvement, and complications. Furthermore, the correlation between IOP at the final follow-up and baseline IOP was evaluated.</blockquote></section><section><h2>Population et participants (phrases du résumé) <span class="badge source">Résumé PubMed (texte source)</span></h2><blockquote lang="en">In a <mark>1</mark>-year follow-up study, <mark>24</mark> patients (<mark>30</mark> eyes) with various types of glaucoma were enrolled and underwent UCP treatment (<mark>10</mark> sectors or <mark>8</mark> sectors).</blockquote></section><section><h2>Résultats disponibles <span class="badge source">Résumé PubMed (texte source)</span></h2><p class="def">Valeurs chiffrées surlignées telles qu'elles figurent dans le résumé. Elles n'ont pas été vérifiées dans le texte intégral.</p><blockquote lang="en"><strong>RESULTS</strong> <mark>1</mark>. The overall IOP in all patients significantly decreased after UCP compared to preoperative levels (P &lt; <mark>0.01</mark>). <mark>2</mark>. UCP demonstrated significant long-term IOP-lowering effects in patients with various types of glaucoma, with a <mark>59.91%</mark> reduction at <mark>1</mark> year postoperatively. The efficacy was particularly notable in patients with primary angle-closure glaucoma, achieving a surgical success rate of <mark>96.67%</mark> at <mark>1</mark> year. <mark>3</mark>. Preoperative baseline IOP showed a positive correlation with IOP reduction at <mark>1</mark> year postoperatively (r s <mark>= 0.641</mark>, P &lt; <mark>0.01</mark>), indicating that higher baseline IOP was associated with greater IOP reduction. <mark>4</mark>. UCP significantly improved IOP fluctuation, with the mean <mark>24</mark>-hour IOP fluctuation decreasing from <mark>10.6</mark> preoperatively to <mark>5.3</mark> postoperatively (P <mark>= 0.001</mark>). <mark>5</mark>. UCP exhibited acceptable safety, with significant reductions in pain scores (P &lt; <mark>0.05</mark>) and no severe complications such as hypotony or macular edema observed during follow-up.</blockquote></section><section><h2>Données de tolérance (phrases du résumé) <span class="badge source">Résumé PubMed (texte source)</span></h2><blockquote lang="en">Follow-up assessments consisted of IOP measurements, IOP reduction from baseline, surgical success rate, <mark>24</mark>-hour IOP fluctuation, pain score improvement, and complications.</blockquote><blockquote lang="en">UCP exhibited acceptable safety, with significant reductions in pain scores (P &lt; <mark>0.05</mark>) and no severe complications such as hypotony or macular edema observed during follow-up.</blockquote></section><section><h2>Conclusion des auteurs (citée telle quelle, non évaluée par l'outil) <span class="badge source">Résumé PubMed (texte source)</span></h2><blockquote lang="en"><strong>CONCLUSION</strong> <mark>1</mark>. In glaucoma patients in the Northwest population, UCP demonstrates significant long-term and dynamic efficacy-the higher the baseline IOP, the more pronounced the IOP-lowering effect, with outstanding performance in stabilizing IOP fluctuations. <mark>2</mark>. UCP exhibits acceptable safety and controllable complications. Postoperative IOP stabilizes by <mark>3</mark> months, allowing for gradual withdrawal of medications, making it a reliable treatment option for glaucoma.</blockquote></section><section><h2>Essai clinique lié <span class="badge source">PubMed (DataBankList et texte)</span></h2><ul><li><span class="manque">Aucun essai lié identifié</span></li></ul></section><section><h2>Promoteur, financeur et affiliations <span class="badge source">PubMed</span><span class="badge source">OpenAlex</span><span class="badge source">Crossref</span></h2><div class="acteurs">
+      <div><h3>Promoteur d'essai</h3><p class="def">Organisme responsable d'un essai, déclaré au registre.</p><p><span class="manque">Non affiché : aucun essai lié de façon confirmée</span></p></div>
+      <div><h3>Financeur</h3><p class="def">Organisme qui a financé la recherche, avec la notice qui le justifie.</p><ul><li><strong>National Natural Science Foundation of China</strong> <span class="badge verifier">À VÉRIFIER — trouvé par OpenAlex seulement (l'éditeur n'a déclaré aucun financeur dans Crossref) ; à contrôler dans le texte de l'article</span><br><small><a href="https://api.openalex.org/works/W7222263969" target="_blank" rel="noopener">notice OpenAlex</a> · <a href="https://api.crossref.org/works/10.3389/fmed.2026.1819637" target="_blank" rel="noopener">notice Crossref consultée (ne confirme pas ce financeur)</a></small></li><li><strong>Education Department of Shaanxi Province</strong> <span class="badge verifier">À VÉRIFIER — trouvé par OpenAlex seulement (l'éditeur n'a déclaré aucun financeur dans Crossref) ; à contrôler dans le texte de l'article</span><br><small><a href="https://api.openalex.org/works/W7222263969" target="_blank" rel="noopener">notice OpenAlex</a> · <a href="https://api.crossref.org/works/10.3389/fmed.2026.1819637" target="_blank" rel="noopener">notice Crossref consultée (ne confirme pas ce financeur)</a></small></li><li><strong>Xi'an Medical University</strong> <span class="badge verifier">À VÉRIFIER — trouvé par OpenAlex seulement (l'éditeur n'a déclaré aucun financeur dans Crossref) ; à contrôler dans le texte de l'article</span><br><small><a href="https://api.openalex.org/works/W7222263969" target="_blank" rel="noopener">notice OpenAlex</a> · <a href="https://api.crossref.org/works/10.3389/fmed.2026.1819637" target="_blank" rel="noopener">notice Crossref consultée (ne confirme pas ce financeur)</a></small><br><small>cet organisme figure AUSSI parmi les institutions des auteurs : c'est une affiliation, information distincte</small></li></ul></div>
+      <div><h3>Affiliations des auteurs</h3><p class="def">Établissements où travaillent les auteurs (pas un financement).</p><p><small>Institutions normalisées (OpenAlex) :</small></p><ul><li>Xi'an Medical University <small>(CN, enseignement/recherche)</small></li><li>Shaanxi Provincial People's Hospital <small>(CN, santé/hôpital)</small></li></ul><details><summary>Affiliations telles que déclarées dans PubMed (3)</summary><ul><li>Department of Ophthalmology, The Second Affiliated Hospital of Xi'an Medical University, Xi'an, China.</li><li>Department of Ophthalmology, The 986th Hospital of the Air Force, Xi'an, China.</li><li>Department of Ophthalmology, Shaanxi Provincial People's Hospital, Xi'an, China.</li></ul></details></div>
+    </div></section>
+<section><h2>Ce qui manque <span class="badge regle">calculé par l'outil</span></h2><p>Toutes les rubriques ont au moins une information.</p></section>
+<section><h2>Limites, intérêt pour la veille marketing, à retenir <span class="badge attente">non produit par l'outil</span></h2><p><span class="manque">Non rédigé automatiquement : les données extraites ne suffisent pas à produire une analyse fiable sans interprétation. Utilisez le bouton « Copier pour Claude / ChatGPT » pour obtenir une proposition, à vérifier.</span></p></section>
+<section><details><summary>Voir le texte copié par le bouton</summary>
+<textarea id="a-copier" readonly>Tu es assistant de veille scientifique sur le glaucome. À partir UNIQUEMENT des informations ci-dessous, rédige en français une fiche de synthèse avec ces rubriques :
+1. Question étudiée
+2. Traitement ou technologie
+3. Type d&#x27;étude
+4. Population et nombre de participants
+5. Comparateur
+6. Critères évalués
+7. Principaux résultats chiffrés (recopie les valeurs exactes et indique leur source)
+8. Données de tolérance
+9. Limites
+10. Intérêt potentiel pour une veille marketing — présenté comme une INTERPRÉTATION, séparé des faits
+11. À retenir (une phrase)
+
+Règles :
+- N&#x27;invente rien. Si une information manque, écris « non rapporté ».
+- Distingue un essai simplement enregistré, un protocole, des résultats déposés dans un registre et une publication de résultats.
+- Si la source est seulement le résumé d&#x27;un article, indique que la synthèse repose uniquement sur ce résumé.
+- Les rôles « suggérés » (traitement étudié / comparateur) sont à vérifier dans le texte source.
+- Ne confonds pas promoteur d&#x27;essai, financeur et affiliation des auteurs.
+- Termine par la liste des points à vérifier.
+
+=== INFORMATIONS ===
+SOURCE : PubMed, PMID 42959028 — https://pubmed.ncbi.nlm.nih.gov/42959028/ · DOI https://doi.org/10.3389/fmed.2026.1819637
+BASE : résumé PubMed uniquement (texte intégral non lu)
+Titre : Ultrasound cycloplasty: dynamic efficacy and long-term safety in glaucoma patients from northwest China.
+Revue : Frontiers in medicine · entrée PubMed : 2026-10-30
+Types de publication (PubMed) : Clinical Trial, Journal Article
+Produits repérés automatiquement (rôles SUGGÉRÉS, à vérifier) : aucun
+Molécules hors liste (repérage automatique, à vérifier) : aucune
+Essai lié : aucun
+Financeurs : National Natural Science Foundation of China [À VÉRIFIER — trouvé par OpenAlex seulement (l&#x27;éditeur n&#x27;a déclaré aucun financeur dans Crossref) ; à contrôler dans le texte de l&#x27;article]; Education Department of Shaanxi Province [À VÉRIFIER — trouvé par OpenAlex seulement (l&#x27;éditeur n&#x27;a déclaré aucun financeur dans Crossref) ; à contrôler dans le texte de l&#x27;article]; Xi&#x27;an Medical University [À VÉRIFIER — trouvé par OpenAlex seulement (l&#x27;éditeur n&#x27;a déclaré aucun financeur dans Crossref) ; à contrôler dans le texte de l&#x27;article]
+Affiliations (institutions, pas des financeurs) : Xi&#x27;an Medical University (CN, education); Shaanxi Provincial People&#x27;s Hospital (CN, healthcare)
+
+RÉSUMÉ (texte source) :
+PURPOSE: To comprehensively evaluate the dynamic efficacy of UCP in treating different types of glaucoma patients in Northwest China, systematically analyze treatment outcome variations across follow-up time points, and assess long-term safety profiles.
+METHODS: In a 1-year follow-up study, 24 patients (30 eyes) with various types of glaucoma were enrolled and underwent UCP treatment (10 sectors or 8 sectors). Follow-up visits were conducted at different postoperative time points (1 day, 1 week, 1 month, 3 months, 6 months, and 1 year). Follow-up assessments consisted of IOP measurements, IOP reduction from baseline, surgical success rate, 24-hour IOP fluctuation, pain score improvement, and complications. Furthermore, the correlation between IOP at the final follow-up and baseline IOP was evaluated.
+RESULTS: 1. The overall IOP in all patients significantly decreased after UCP compared to preoperative levels (P &lt; 0.01). 2. UCP demonstrated significant long-term IOP-lowering effects in patients with various types of glaucoma, with a 59.91% reduction at 1 year postoperatively. The efficacy was particularly notable in patients with primary angle-closure glaucoma, achieving a surgical success rate of 96.67% at 1 year. 3. Preoperative baseline IOP showed a positive correlation with IOP reduction at 1 year postoperatively (r s = 0.641, P &lt; 0.01), indicating that higher baseline IOP was associated with greater IOP reduction. 4. UCP significantly improved IOP fluctuation, with the mean 24-hour IOP fluctuation decreasing from 10.6 preoperatively to 5.3 postoperatively (P = 0.001). 5. UCP exhibited acceptable safety, with significant reductions in pain scores (P &lt; 0.05) and no severe complications such as hypotony or macular edema observed during follow-up.
+CONCLUSION: 1. In glaucoma patients in the Northwest population, UCP demonstrates significant long-term and dynamic efficacy-the higher the baseline IOP, the more pronounced the IOP-lowering effect, with outstanding performance in stabilizing IOP fluctuations. 2. UCP exhibits acceptable safety and controllable complications. Postoperative IOP stabilizes by 3 months, allowing for gradual withdrawal of medications, making it a reliable treatment option for glaucoma.</textarea></details></section>
+<p><small>Fiche générée le 2026-11-11 22:40 par Glaucoma Intelligence. Extraits des sources en langue originale.</small></p>
+</main><script>
+function copierFiche(){
+  var zone=document.getElementById('a-copier'), bouton=document.getElementById('bouton-copier');
+  function fait(){bouton.textContent='Copié ✓ — collez dans Claude ou ChatGPT';setTimeout(function(){bouton.textContent='Copier pour Claude / ChatGPT'},3000);}
+  function secours(){zone.parentElement.open=true;zone.select();try{document.execCommand('copy');fait();}
+    catch(err){bouton.textContent='Sélectionnez le texte ci-dessous puis Ctrl+C';}}
+  if(navigator.clipboard&&window.isSecureContext){navigator.clipboard.writeText(zone.value).then(fait,secours);}else{secours();}
+}
+</script></body></html>

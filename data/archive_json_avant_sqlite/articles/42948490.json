@@ -1,0 +1,143 @@
+{
+  "pmid": "42948490",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42948490",
+    "titre": "Comparative Study on the Efficacy of Intravitreal and Subconjunctival Simultaneous Injection of Conbercept Followed by Trabeculectomy Versus Intravitreal Injection of Conbercept Followed by Trabeculectomy Combined With 5-Fluorouracil (5-FU) in the Treatment of Neovascular Glaucoma (NVG).",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42948490/",
+    "doi": "10.1155/joph/6946973",
+    "pmcid": "PMC13711258",
+    "revue": "Journal of ophthalmology",
+    "date_entree_pubmed": "2026-10-28",
+    "date_publication": "2026",
+    "types_publication": [
+      "Journal Article"
+    ],
+    "resume_present": true,
+    "resume": "PURPOSE: To compare the efficacy of trabeculectomy preceded by simultaneous intravitreal and subconjunctival conbercept administration with that of trabeculectomy combined with 5-fluorouracil (5-FU) following intravitreal conbercept injection in patients with neovascular glaucoma (NVG).\nMETHODS: In this comparative study, 120 patients with NVG were enrolled and allocated to two treatment groups. Regression of neovascularization of the iris (NVI) and neovascularization of the angle (NVA) following conbercept administration was assessed. Additional outcome measures included intraocular pressure (IOP), visual acuity, filtering bleb morphology, use of antiglaucoma medications, surgical success rate, and postoperative complications before and after trabeculectomy.\nRESULTS: On day 1 after conbercept injection, the group receiving simultaneous intravitreal and subconjunctival conbercept demonstrated significantly greater regression of NVI (p = 0.001) and NVA (p = 0.003) than the comparator group. Across follow-up visits, significant reductions in IOP were observed within both groups (time effect: F = 352.42, p = 0.001). Improvement in visual acuity did not differ significantly between groups (p > 0.05). Significant between-group differences in bleb height were observed at 1, 3, and 6 months after trabeculectomy (p = 0.008, p = 0.001, and p = 0.001, respectively). No significant difference in bleb extent was detected at any postoperative timepoint (F = 2.546, p = 0.080). Bleb vascularity differed significantly between groups throughout follow-up (F = 3.297, p = 0.021). Rates of postoperative complications, antiglaucoma medication use before surgery and within 6 months after injection, and overall surgical success did not differ significantly between groups (all p > 0.05).\nCONCLUSION: In patients with NVG undergoing trabeculectomy, simultaneous intravitreal and subconjunctival administration of conbercept was associated with more rapid regression of anterior-segment neovascularization and more favorable postoperative bleb characteristics. However, no significant between-group differences were observed in 6-month IOP control or surgical success. The potential benefits of the combined administration strategy appear to be mainly related to early neovascular regression and bleb morphology, and their significance for long-term surgical outcomes remains to be determined.",
+    "mots_cles_auteurs": [
+      "5-fluorouracil",
+      "conbercept",
+      "neovascular glaucoma",
+      "neovascularization of the angle",
+      "neovascularization of the iris",
+      "trabeculectomy"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 8,
+    "affiliations_auteurs": [
+      "Department of Ophthalmology The 2nd Affiliated Hospital of Harbin Medical University Harbin China hrbmush.edu.cn.",
+      "Department of Ophthalmology China Medical University the Fourth People's Hospital of Shenyang Shenyang China."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": [
+        "subconjunctival"
+      ],
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7223833460",
+      "doi": "10.1155/joph/6946973",
+      "pmid": "42948490",
+      "pmcid": "13711258",
+      "titre": "Comparative Study on the Efficacy of Intravitreal and Subconjunctival Simultaneous Injection of Conbercept Followed by Trabeculectomy Versus Intravitreal Injection of Conbercept Followed by Trabeculectomy Combined With 5‐Fluorouracil (5‐FU) in the Treatment of Neovascular Glaucoma (NVG)",
+      "lien": "https://openalex.org/W7223833460",
+      "date_publication": "2026-01-01",
+      "type": "article",
+      "revue": "Journal of Ophthalmology",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "doaj",
+        "pubmed"
+      ],
+      "financeurs": [
+        {
+          "nom": "Bethune Charitable Foundation",
+          "ror": "https://ror.org/0430c7a41"
+        }
+      ],
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "Harbin Medical University",
+          "pays": "CN",
+          "type": "education",
+          "ror": "https://ror.org/05jscf583"
+        },
+        {
+          "nom": "Fourth Affiliated Hospital of China Medical University",
+          "pays": "CN",
+          "type": "healthcare",
+          "ror": "https://ror.org/012sz4c50"
+        },
+        {
+          "nom": "Second Affiliated Hospital of Harbin Medical University",
+          "pays": "CN",
+          "type": "healthcare",
+          "ror": "https://ror.org/03s8txj32"
+        },
+        {
+          "nom": "Shenyang The Fourth Hospital of People",
+          "pays": "CN",
+          "type": "healthcare",
+          "ror": "https://ror.org/05m9m3d82"
+        },
+        {
+          "nom": "China Medical University",
+          "pays": "CN",
+          "type": "education",
+          "ror": "https://ror.org/032d4f246"
+        }
+      ],
+      "acces_ouvert": true,
+      "statut_acces": "gold",
+      "url_texte": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1155/joph/6946973",
+      "url_pdf": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1155/joph/6946973",
+      "licence": "cc-by",
+      "texte_integral_indexe": true,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Glaucoma and retinal disorders",
+      "resume_present": true,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": [
+      {
+        "nom": "Bethune Charitable Foundation",
+        "statut": "CONFIRMÉ — déclaré par l'éditeur dans Crossref",
+        "references": [
+          "BJ2020IIT002"
+        ],
+        "notices": [
+          [
+            "notice justificative Crossref (déclaration de l'éditeur)",
+            "https://api.crossref.org/works/10.1155/joph/6946973"
+          ],
+          [
+            "notice OpenAlex",
+            "https://api.openalex.org/works/W7223833460"
+          ]
+        ],
+        "note": null
+      }
+    ]
+  }
+}

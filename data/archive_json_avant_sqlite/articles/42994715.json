@@ -1,0 +1,95 @@
+{
+  "pmid": "42994715",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42994715",
+    "titre": "Timing of Structural Foveal Maturation on Serial OCT in Preterm Infants: Association With Retinopathy of Prematurity Severity.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42994715/",
+    "doi": "10.1016/j.pdpdt.2026.105703",
+    "pmcid": null,
+    "revue": "Photodiagnosis and photodynamic therapy",
+    "date_entree_pubmed": "2026-11-06",
+    "date_publication": "2026-Nov-06",
+    "types_publication": [
+      "Journal Article"
+    ],
+    "resume_present": true,
+    "resume": "INTRODUCTION: Retinopathy of prematurity (ROP) is a major cause of visual impairment in childhood and a recognised cause of lifelong ocular morbidity, since the structural changes established in infancy predispose to retinal detachment, glaucoma, cataract and vitreous haemorrhage in later life and mandate lifelong surveillance. Objective biomarkers of disease severity are therefore needed. Handheld spectral-domain optical coherence tomography (SD-OCT) enables high-resolution, non-invasive assessment of retinal microstructure in non-sedated infants, but the relationship between the timing of structural foveal maturation and ROP severity remains poorly understood.\nPURPOSE: To evaluate whether the timing of structural foveal maturation, defined as the first appearance of the outer retinal bands at the foveal centre, is associated with ROP severity, anti-VEGF treatment requirement and the degree of prematurity.\nMETHODS: In this prospective observational study, 36 preterm infants (72 eyes) underwent serial handheld SD-OCT imaging (Envisu C2300) during routine ROP screening, with a mean of 8.6 examinations per infant. The primary outcome was postmenstrual age (PMA) and chronological age (CA) at the first appearance of the outer retinal bands at the foveal centre, a milestone hereafter referred to as ellipsoid zone (EZ) emergence. Statistical analyses included Mann-Whitney U tests, Pearson and Spearman correlations, and linear regression.\nRESULTS: Structural foveal maturation was significantly delayed in severe ROP. Infants with aggressive posterior ROP (AP-ROP) reached EZ emergence later than those without AP-ROP (median PMA 36.79 vs 34.07 weeks, p=0.041; median CA 10.07 vs 5.21 weeks, p=0.024; n=18). A comparable delay was observed in infants with plus disease (median PMA 36.79 vs 34.07 weeks, p=0.041; median CA 10.07 vs 5.21 weeks, p=0.024; n=18). Infants requiring anti-VEGF therapy also demonstrated delayed EZ emergence (median PMA 36.86 vs 34.43 weeks, p=0.035; n=18), and the age at first anti-VEGF injection correlated positively with the age at EZ emergence (r=0.69, p=0.019, n=11). Gestational age was negatively correlated with CA at EZ emergence (r=-0.65, p=0.003), whereas birth weight was not associated with the timing of this particular milestone (p=0.878). Although maximum central retinal thickness increased with age (32 µm per week, 95% CI 17-46, p<0.001), it did not differ across ROP stages (p=0.162).\nCONCLUSIONS: Delayed EZ emergence at the foveal centre is associated with severe ROP and with the need for anti-VEGF treatment, suggesting that the timing of structural retinal maturation may serve as an objective biomarker of disease severity. These findings, derived from a single-centre cohort of 36 infants, warrant validation in larger prospective multicentre studies.",
+    "mots_cles_auteurs": [
+      "Anti-VEGF therapy",
+      "Ellipsoid zone",
+      "Optical coherence tomography",
+      "Plus disease",
+      "Preterm infants",
+      "Retinal maturation",
+      "Retinopathy of prematurity"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 4,
+    "affiliations_auteurs": [
+      "Department of Ophthalmology, Medical University of Gdańsk, Gdańsk, Poland.",
+      "Department of Neonatology, Medical University of Gdańsk, Gdańsk, Poland.",
+      "Department of Ophthalmology, Medical University of Gdańsk, Gdańsk, Poland. Electronic address: kmichalskamalecka@gmail.com."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7169606393",
+      "doi": "10.1016/j.pdpdt.2026.105703",
+      "pmid": "42994715",
+      "pmcid": null,
+      "titre": "Timing of Structural Foveal Maturation on Serial OCT in Preterm Infants: Association With Retinopathy of Prematurity Severity",
+      "lien": "https://openalex.org/W7169606393",
+      "date_publication": "2026-11-01",
+      "type": "article",
+      "revue": "Photodiagnosis and Photodynamic Therapy",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "doaj",
+        "pubmed"
+      ],
+      "financeurs": null,
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "Gdańsk Medical University",
+          "pays": "PL",
+          "type": "education",
+          "ror": "https://ror.org/019sbgd69"
+        }
+      ],
+      "acces_ouvert": true,
+      "statut_acces": "gold",
+      "url_texte": "https://www.sciencedirect.com/science/article/pii/S1572100026003686/pdf",
+      "url_pdf": "https://www.sciencedirect.com/science/article/pii/S1572100026003686/pdf",
+      "licence": "cc-by-nc-nd",
+      "texte_integral_indexe": true,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Retinopathy of Prematurity Studies",
+      "resume_present": true,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": []
+  }
+}

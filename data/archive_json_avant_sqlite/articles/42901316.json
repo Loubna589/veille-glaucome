@@ -1,0 +1,220 @@
+{
+  "pmid": "42901316",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42901316",
+    "titre": "Mastering the eye: Clinical paradigm shifts from optical restoration to genomic correction.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42901316/",
+    "doi": "10.1016/j.preteyeres.2026.101537",
+    "pmcid": null,
+    "revue": "Progress in retinal and eye research",
+    "date_entree_pubmed": "2026-10-20",
+    "date_publication": "2026-Oct-20",
+    "types_publication": [
+      "Journal Article",
+      "Review"
+    ],
+    "resume_present": true,
+    "resume": "Historically, the main operation for cataract was couching, and the interior of the living eye could not be examined until Hermann von Helmholtz introduced the ophthalmoscope in 1851. Since the mid-twentieth century, seven advances have reshaped ophthalmic care. Harold Ridley implanted the first intraocular lens in 1949, and the ophthalmologist Charles Kelman and the engineer Anton Banko developed phacoemulsification, reported in 1967. Robert Machemer performed the first pars plana vitrectomy in 1970, while David Huang and colleagues described optical coherence tomography in 1991. Endothelial keratoplasty, developed by Gerrit Melles and others between 1998 and 2006, replaced only the failing corneal endothelium instead of the full thickness of the cornea. Anti-VEGF therapy followed the purification of VEGF by Napoleone Ferrara and colleagues in 1989 and the approval of ranibizumab in 2006. Minimally invasive glaucoma surgery has spread since 2012, and in 2017 voretigene neparvovec became the first approved gene therapy for an inherited retinal disease. Five of these advances enabled a new type of intervention, whereas endothelial keratoplasty and minimally invasive glaucoma surgery made existing operations safer. For each advance we summarize the best available evidence of benefit to patients and its certainty, which is high for some, such as anti-VEGF therapy, and low for others, such as the effect of imaging on patient outcomes. Each advance created new burdens, from chronic injections to dependence on donor tissue, and routine adoption depended on manufacturing, regulation, cost, reimbursement, and health-system capacity.",
+    "mots_cles_auteurs": [
+      "Anti-VEGF therapy",
+      "Cataract surgery",
+      "Endothelial keratoplasty",
+      "Gene therapy",
+      "Minimally invasive glaucoma surgery",
+      "Optical coherence tomography",
+      "Vitrectomy"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 8,
+    "affiliations_auteurs": [
+      "State Key Laboratory of Ophthalmology, Zhongshan Ophthalmic Center, Sun Yat-sen University, Guangdong Provincial Key Laboratory of Ophthalmology and Visual Science, Guangdong Provincial Clinical Research Center for Ocular Diseases, Guangzhou, Guangdong, China. Electronic address: zhangxl2@mail.sysu.edu.cn.",
+      "State Key Laboratory of Ophthalmology, Zhongshan Ophthalmic Center, Sun Yat-sen University, Guangdong Provincial Key Laboratory of Ophthalmology and Visual Science, Guangdong Provincial Clinical Research Center for Ocular Diseases, Guangzhou, Guangdong, China.",
+      "Casey Eye Institute, Department of Ophthalmology, Oregon Health & Science University, Portland, OR, USA.",
+      "John van Geest Centre for Brain Repair and MRC Mitochondrial Biology Unit, Department of Clinical Neurosciences, University of Cambridge, Cambridge, United Kingdom; Cambridge Eye Unit, Addenbrooke's Hospital, Cambridge University Hospitals NHS Foundation Trust, Cambridge, United Kingdom; Moorfields Eye Hospital NHS Foundation Trust, London, United Kingdom; Institute of Ophthalmology, University College London, London, United Kingdom.",
+      "Institute for Research in Ophthalmology, Foundation for Ophthalmology Development, Poznan, Poland; Department of Ophthalmology, University of Warmia and Mazury, Olsztyn, Poland.",
+      "Singapore Eye Research Institute, Singapore National Eye Centre, Singapore.",
+      "The Primasia International Eye Research Institute, School of Medicine, The Chinese University of Hong Kong (Shenzhen), Shenzhen, China; The C-MER Dennis Lam & Partners Eye Center, C-MER International Eye Care Group, Hong Kong, China.",
+      "Hamilton Glaucoma Center, Gleiberman Center for Glaucoma Research, Shiley Eye Institute, Viterbi Family Department of Ophthalmology, University of California San Diego, La Jolla, CA, USA. Electronic address: rweinreb@health.ucsd.edu."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7223017964",
+      "doi": "10.1016/j.preteyeres.2026.101537",
+      "pmid": "42901316",
+      "pmcid": null,
+      "titre": "Mastering the eye: Clinical paradigm shifts from optical restoration to genomic correction",
+      "lien": "https://openalex.org/W7223017964",
+      "date_publication": "2026-10-20",
+      "type": "review",
+      "revue": "Progress in Retinal and Eye Research",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "datacite",
+        "pubmed"
+      ],
+      "financeurs": [
+        {
+          "nom": "National Natural Science Foundation of China",
+          "ror": "https://ror.org/01h0zpd94"
+        }
+      ],
+      "subventions": [
+        {
+          "financeur": "National Natural Science Foundation of China",
+          "reference": "82101117"
+        }
+      ],
+      "institutions": [
+        {
+          "nom": "Sun Yat-sen University",
+          "pays": "CN",
+          "type": "education",
+          "ror": "https://ror.org/0064kty71"
+        },
+        {
+          "nom": "State Key Laboratory of Ophthalmology",
+          "pays": "CN",
+          "type": "facility",
+          "ror": "https://ror.org/003mfbe21"
+        },
+        {
+          "nom": "Zhongshan Ophthalmic Center, Sun Yat-sen University",
+          "pays": "CN",
+          "type": "healthcare",
+          "ror": "https://ror.org/02z2yec16"
+        },
+        {
+          "nom": "Oregon Health & Science University",
+          "pays": "US",
+          "type": "education",
+          "ror": "https://ror.org/009avj582"
+        },
+        {
+          "nom": "Moorfields Eye Hospital NHS Foundation Trust",
+          "pays": "GB",
+          "type": "healthcare",
+          "ror": "https://ror.org/03zaddr67"
+        },
+        {
+          "nom": "University of Cambridge",
+          "pays": "GB",
+          "type": "education",
+          "ror": "https://ror.org/013meh722"
+        },
+        {
+          "nom": "Cambridge University Hospitals NHS Foundation Trust",
+          "pays": "GB",
+          "type": "healthcare",
+          "ror": "https://ror.org/04v54gj93"
+        },
+        {
+          "nom": "Addenbrooke's Hospital",
+          "pays": "GB",
+          "type": "healthcare",
+          "ror": "https://ror.org/055vbxf86"
+        },
+        {
+          "nom": "University College London",
+          "pays": "GB",
+          "type": "education",
+          "ror": "https://ror.org/02jx3x895"
+        },
+        {
+          "nom": "Foundation for the Development of Ophthalmology",
+          "pays": "PL",
+          "type": "nonprofit",
+          "ror": "https://ror.org/01pmj6109"
+        },
+        {
+          "nom": "University of Warmia and Mazury in Olsztyn",
+          "pays": "PL",
+          "type": "education",
+          "ror": "https://ror.org/05s4feg49"
+        },
+        {
+          "nom": "Singapore National Eye Center",
+          "pays": "SG",
+          "type": "healthcare",
+          "ror": "https://ror.org/029nvrb94"
+        },
+        {
+          "nom": "Singapore Eye Research Institute",
+          "pays": "SG",
+          "type": "facility",
+          "ror": "https://ror.org/02crz6e12"
+        },
+        {
+          "nom": "Chinese University of Hong Kong",
+          "pays": "HK",
+          "type": "education",
+          "ror": "https://ror.org/00t33hh48"
+        },
+        {
+          "nom": "Chinese University of Hong Kong, Shenzhen",
+          "pays": "CN",
+          "type": "education",
+          "ror": "https://ror.org/02d5ks197"
+        },
+        {
+          "nom": "University of California San Diego",
+          "pays": "US",
+          "type": "education",
+          "ror": "https://ror.org/0168r3w48"
+        }
+      ],
+      "acces_ouvert": true,
+      "statut_acces": "green",
+      "url_texte": "https://www.repository.cam.ac.uk/bitstreams/b1f71662-0393-454e-951b-ab19b2b4beba/download",
+      "url_pdf": "https://www.repository.cam.ac.uk/bitstreams/b1f71662-0393-454e-951b-ab19b2b4beba/download",
+      "licence": "cc-by",
+      "texte_integral_indexe": true,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Ophthalmology and Visual Health Research",
+      "resume_present": false,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": [
+      {
+        "nom": "National Natural Science Foundation of China",
+        "statut": "CONFIRMÉ — déclaré par l'éditeur dans Crossref",
+        "references": [
+          "82101117"
+        ],
+        "notices": [
+          [
+            "notice justificative Crossref (déclaration de l'éditeur)",
+            "https://api.crossref.org/works/10.1016/j.preteyeres.2026.101537"
+          ],
+          [
+            "notice OpenAlex",
+            "https://api.openalex.org/works/W7223017964"
+          ]
+        ],
+        "note": null
+      }
+    ]
+  }
+}

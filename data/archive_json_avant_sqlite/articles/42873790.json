@@ -1,0 +1,128 @@
+{
+  "pmid": "42873790",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42873790",
+    "titre": "Feasibility and immediate effects of a multimodal, dance-integrated educational video package on eye health knowledge and intentions in Nigeria: A pre-post pilot study.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42873790/",
+    "doi": "10.1371/journal.pgph.0005585",
+    "pmcid": "PMC13667777",
+    "revue": "PLOS global public health",
+    "date_entree_pubmed": "2026-10-14",
+    "date_publication": "2026",
+    "types_publication": [
+      "Journal Article"
+    ],
+    "resume_present": true,
+    "resume": "Dance, as a culturally embedded and universally accessible form of art, offers a promising medium for health education in settings with diverse literacy levels. This pilot study evaluated the feasibility and immediate effects of a multimodal, dance-integrated educational video package designed to improve eye health knowledge, attitudes, and preventive intentions among Nigerian adults. Between April 11 and June 22, 2025, adults recruited through optometry clinics and community outreach programmes viewed culturally tailored educational videos addressing at least one eye condition (myopia, cataract, or glaucoma) and general eye health, including common myths and preventive practices. Pre-post changes were assessed using paired comparisons, with subgroup analyses by educational attainment. Among 438 participants, 77.7% were aged 18-44 years, 52.5% were female, 75.1% had higher education, 80.0% reported existing health-promoting behaviours, and 79.7% considered regular eye examinations important. Following the intervention, perceived eye health knowledge increased from 42.0% to 68.0% (absolute increase, 26.0 percentage points; relative increase, 61.9%; p = 0.013; Cramér's V = 0.279), while objective eye health knowledge scores increased by 52.4 percentage points (p = 0.013; Cramér's V = 0.069). Self-reported intentions to adopt protective practices, including wearing sunglasses, reducing screen time, and attending regular eye examinations, also increased. Overall intention to visit an eye clinic increased by 10%, although this change was not statistically significant (p = 0.443), likely reflecting high baseline health-seeking intentions. The largest improvements in willingness to attend regular check-ups occurred among participants with secondary education (27.5% to 96.3%, p < 0.001) and those with primary or no formal education (41.4% to 96.6%, p < 0.001). Dance-integrated educational videos were associated with immediate improvements in eye health knowledge and preventive intentions, particularly among participants with lower educational attainment, supporting their potential as a culturally relevant and scalable approach to eye health communication in diverse, resource-limited settings and community-based health promotion programmes.",
+    "mots_cles_auteurs": null,
+    "langue": "eng",
+    "nombre_auteurs": 8,
+    "affiliations_auteurs": [
+      "Department of Optometry and Vision Sciences, Faculty of Optometry, University of Benin, Benin City, Nigeria.",
+      "Magnificent Eyecare Centre Limited, Federal Capital City, Abuja, Nigeria.",
+      "Department of Animal and Environmental Biology, Laboratory of Parasitology Research, University of Benin, Benin City, Nigeria.",
+      "Department of Optometry and Visual Science, Kwame Nkrumah University of Science and Technology, Kumasi, Ghana.",
+      "Menzies Institute for Medical Research, University of Tasmania, Hobart, Tasmania, Australia.",
+      "Bathurst Rural Clinical School (BRCS), School of Medicine, Faculty of Health, Western Sydney University, Bathurst, New South Wales, Australia.",
+      "Centre for Eye and Public Health Intervention Initiative (CEPHII), African Vision Research Institute, Discipline of Optometry, University of KwaZulu-Natal, Durban, South Africa."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7221795702",
+      "doi": "10.1371/journal.pgph.0005585",
+      "pmid": "42873790",
+      "pmcid": "13667777",
+      "titre": "Feasibility and immediate effects of a multimodal, dance-integrated educational video package on eye health knowledge and intentions in Nigeria: A pre-post pilot study",
+      "lien": "https://openalex.org/W7221795702",
+      "date_publication": "2026-10-14",
+      "type": "article",
+      "revue": "PLOS Global Public Health",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "doaj",
+        "pubmed"
+      ],
+      "financeurs": null,
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "University of Benin",
+          "pays": "NG",
+          "type": "education",
+          "ror": "https://ror.org/04mznrw11"
+        },
+        {
+          "nom": "Kwame Nkrumah University of Science and Technology",
+          "pays": "GH",
+          "type": "education",
+          "ror": "https://ror.org/00cb23x68"
+        },
+        {
+          "nom": "University of Tasmania",
+          "pays": "AU",
+          "type": "education",
+          "ror": "https://ror.org/01nfmeh72"
+        },
+        {
+          "nom": "Western Sydney University",
+          "pays": "AU",
+          "type": "education",
+          "ror": "https://ror.org/03t52dk35"
+        },
+        {
+          "nom": "University of KwaZulu-Natal",
+          "pays": "ZA",
+          "type": "education",
+          "ror": "https://ror.org/04qzfn040"
+        }
+      ],
+      "acces_ouvert": true,
+      "statut_acces": "gold",
+      "url_texte": "https://journals.plos.org/globalpublichealth/article/file?id=10.1371/journal.pgph.0005585&type=printable",
+      "url_pdf": "https://journals.plos.org/globalpublichealth/article/file?id=10.1371/journal.pgph.0005585&type=printable",
+      "licence": "cc-by",
+      "texte_integral_indexe": true,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Ophthalmology and Visual Impairment Studies",
+      "resume_present": true,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": [
+      {
+        "nom": "VOSH International",
+        "statut": "CONFIRMÉ — déclaré par l'éditeur dans Crossref (absent d'OpenAlex)",
+        "references": null,
+        "notices": [
+          [
+            "notice justificative Crossref (déclaration de l'éditeur)",
+            "https://api.crossref.org/works/10.1371/journal.pgph.0005585"
+          ]
+        ],
+        "note": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,214 @@
+{
+  "pmid": "42857614",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42857614",
+    "titre": "Associations between Retinal Nerve Fiber Layer Thickness, Axial Length, and Generation in the 2-Continent Eye Study.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42857614/",
+    "doi": "10.1016/j.xops.2026.101380",
+    "pmcid": "PMC13651562",
+    "revue": "Ophthalmology science",
+    "date_entree_pubmed": "2026-10-10",
+    "date_publication": "2026-Nov",
+    "types_publication": [
+      "Journal Article"
+    ],
+    "resume_present": true,
+    "resume": "PURPOSE: To assess the associations between peripapillary retinal nerve fiber layer thickness (RNFLT) and ocular and systemic parameters, in particular axial length (A).\nDESIGN: Population based studies.\nMETHODS: Ocular and systemic examinations including OCT RNFLT measurement.\nPARTICIPANTS: Participants of 4 population-based studies (Beijing Eye Study [n = 3246; age: 40+ years], Ural Eye and Medical Study [n = 5023; age: 40+ years], Ural Very Old Study [n = 407; age: 85+ years], Ural Children Eye Study [UCES, n = 3109; age: 6+ years]).\nOUTCOME MEASURES: RNFLT.\nRESULTS: The study cohort consisted of 23 384 eyes (11 785 individuals). In multivariable analysis with exclusion of eyes with an IOP of >21 mmHg, thicker RNFLT was associated (all P < 0.001) with the systemic parameters of younger age, female sex, urban region of habitation, taller body height, higher educational level, lower systolic blood pressure, and higher estimated cerebrospinal fluid pressure; and with lower intraocular pressure. In all studies on adults (Beijing Eye Study, Ural Eye and Medical Study, and Ural Very Old Study), total RNFLT increased with AL up to an AL of 24.0 mm, plateaued, and decreased for an AL >26.5 mm. In the UCES, RNFLT linearly increased with longer AL, also in the highly myopic range. Differentiated sectorially, temporal RNFLT in the UCES linearly increased with AL (including the highly myopic range), while in the adult studies it plateaued beyond an AL of 26.0 mm. In all other sectors in all cohorts, the sectorial RNFLT decreased with longer AL in the highly myopic range.\nCONCLUSIONS: The AL-related increase in RNFLT up to an AL of 24 mm, found in all ages, may correspond to an AL-related larger retinal surface area with a higher number of retinal ganglion cells per eye. The RNFLT decrease beyond an AL of 26.5 mm in adults corresponds to an increased prevalence of optic neuropathies in highly myopic eyes. The sectorial differences in the RNFLT/AL relationship corresponds to the axial elongation-related RNFL shift to the macula, with a secondary RNFL crowding temporally and a geometrically explained RNFLT decrease nasally. Sectorial normative RNFLT data depend on AL.\nFINANCIAL DISCLOSURES: Proprietary or commercial disclosure may be found in the Footnotes and Disclosures at the end of this article.",
+    "mots_cles_auteurs": [
+      "Axial length",
+      "High myopia",
+      "High myopia-related glaucoma-like optic neuropathy",
+      "High myopia-related nonglaucomatous optic neuropathy",
+      "Retinal nerve fiber layer thickness"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 7,
+    "affiliations_auteurs": [
+      "Rothschild Foundation Hospital, Paris, France.",
+      "Singapore Eye Research Institute, Singapore National Eye Center, Singapore, Singapore.",
+      "Beijing Visual Science and Translational Eye Research Institute (BERI), Beijing Tsinghua Changgung Hospital, Tsinghua Medicine, Tsinghua University, Beijing, China.",
+      "L V Prasad Eye Institute, Hyderabad, India.",
+      "Department of Ophthalmology and Visual Sciences, The Chinese University of Hong Kong, Hong Kong SAR, China.",
+      "New York Eye and Ear Infirmary of Mount Sinai, Icahn School of Medicine at Mount Sinai, New York, New York.",
+      "Privatpraxis Prof Jonas und Dr. Panda-Jonas, Heidelberg, Germany.",
+      "Institute of Ophthalmology, University College London, London, United Kingdom.",
+      "Department of Ophthalmology, Faculty of Medicine, University of Cologne, University Hospital Cologne, Cologne, Germany.",
+      "Ufa Eye Research Institute, Ufa, Russian Federation.",
+      "Department of Ophthalmology, University Hospital Heidelberg, Heidelberg, Germany."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7204170807",
+      "doi": "10.1016/j.xops.2026.101380",
+      "pmid": "42857614",
+      "pmcid": "13651562",
+      "titre": "Associations between Retinal Nerve Fiber Layer Thickness, Axial Length, and Generation in the 2-Continent Eye Study",
+      "lien": "https://openalex.org/W7204170807",
+      "date_publication": "2026-08-25",
+      "type": "article",
+      "revue": "Ophthalmology Science",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "doaj",
+        "pubmed"
+      ],
+      "financeurs": [
+        {
+          "nom": "Deutsche Forschungsgemeinschaft",
+          "ror": "https://ror.org/018mejw64"
+        }
+      ],
+      "subventions": [
+        {
+          "financeur": "Deutsche Forschungsgemeinschaft",
+          "reference": "567266264"
+        }
+      ],
+      "institutions": [
+        {
+          "nom": "Chinese University of Hong Kong",
+          "pays": "HK",
+          "type": "education",
+          "ror": "https://ror.org/00t33hh48"
+        },
+        {
+          "nom": "Singapore National Eye Center",
+          "pays": "SG",
+          "type": "healthcare",
+          "ror": "https://ror.org/029nvrb94"
+        },
+        {
+          "nom": "New York Eye and Ear Infirmary",
+          "pays": "US",
+          "type": "healthcare",
+          "ror": "https://ror.org/00tcb9k97"
+        },
+        {
+          "nom": "L V Prasad Eye Institute",
+          "pays": "IN",
+          "type": "nonprofit",
+          "ror": "https://ror.org/01w8z9742"
+        },
+        {
+          "nom": "Hôpital Rothschild",
+          "pays": "FR",
+          "type": "healthcare",
+          "ror": "https://ror.org/009kb8w74"
+        },
+        {
+          "nom": "Singapore Eye Research Institute",
+          "pays": "SG",
+          "type": "facility",
+          "ror": "https://ror.org/02crz6e12"
+        },
+        {
+          "nom": "Fondation de Rothschild",
+          "pays": "FR",
+          "type": "nonprofit",
+          "ror": "https://ror.org/02yfw7119"
+        },
+        {
+          "nom": "Beijing Tsinghua Chang Gung Hospital",
+          "pays": "CN",
+          "type": "healthcare",
+          "ror": "https://ror.org/050nfgr37"
+        },
+        {
+          "nom": "Icahn School of Medicine at Mount Sinai",
+          "pays": "US",
+          "type": "education",
+          "ror": "https://ror.org/04a9tmd77"
+        },
+        {
+          "nom": "Tsinghua University",
+          "pays": "CN",
+          "type": "education",
+          "ror": "https://ror.org/03cve4549"
+        },
+        {
+          "nom": "University of Cologne",
+          "pays": "DE",
+          "type": "education",
+          "ror": "https://ror.org/00rcxh774"
+        },
+        {
+          "nom": "University Hospital Cologne",
+          "pays": "DE",
+          "type": "healthcare",
+          "ror": "https://ror.org/05mxhda18"
+        },
+        {
+          "nom": "University College London",
+          "pays": "GB",
+          "type": "education",
+          "ror": "https://ror.org/02jx3x895"
+        },
+        {
+          "nom": "Ufa Eye Research Institute",
+          "pays": "RU",
+          "type": "facility",
+          "ror": "https://ror.org/04grwn689"
+        },
+        {
+          "nom": "University Hospital Heidelberg",
+          "pays": "DE",
+          "type": "healthcare",
+          "ror": "https://ror.org/013czdx64"
+        }
+      ],
+      "acces_ouvert": true,
+      "statut_acces": "gold",
+      "url_texte": "https://doi.org/10.1016/j.xops.2026.101380",
+      "url_pdf": null,
+      "licence": "cc-by-nc-nd",
+      "texte_integral_indexe": true,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Glaucoma and retinal disorders",
+      "resume_present": true,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": [
+      {
+        "nom": "Deutsche Forschungsgemeinschaft",
+        "statut": "CONFIRMÉ — déclaré par l'éditeur dans Crossref",
+        "references": [
+          "567266264"
+        ],
+        "notices": [
+          [
+            "notice justificative Crossref (déclaration de l'éditeur)",
+            "https://api.crossref.org/works/10.1016/j.xops.2026.101380"
+          ],
+          [
+            "notice OpenAlex",
+            "https://api.openalex.org/works/W7204170807"
+          ]
+        ],
+        "note": null
+      }
+    ]
+  }
+}

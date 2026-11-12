@@ -1,0 +1,108 @@
+{
+  "pmid": "42962746",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42962746",
+    "titre": "Pupilloplasty for glaucoma in CNA2-related cornea plana.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42962746/",
+    "doi": "10.1016/j.jaapos.2026.105332",
+    "pmcid": null,
+    "revue": "Journal of AAPOS : the official publication of the American Association for Pediatric Ophthalmology and Strabismus",
+    "date_entree_pubmed": "2026-10-30",
+    "date_publication": "2026-Oct-30",
+    "types_publication": [
+      "Case Reports",
+      "Journal Article"
+    ],
+    "resume_present": true,
+    "resume": "A 7-year-old boy presented with progressive visual decline. On examination, visual acuity was no light perception in the left eye and 20/60 in the right eye. Examination showed bilateral microcornea, marked corneal flattening, shallow anterior chambers, abnormal iris configuration, and elevated intraocular pressure (IOP) in both eyes. The right eye had a slit-like pupil of 1 mm, and the left eye showed a closed pupil with very shallow anterior chamber and superior intercalary staphyloma. Keratometry values were significantly reduced, suggestive of cornea plana, which was subsequently confirmed by identification of a homozygous intronic variant in the KERA gene. These findings suggested pupillary block as the primary mechanism of glaucoma due to a functionally imperforate pupil. Pupilloplasty was performed in the right eye to create a functional pupillary aperture and relieve pupillary bock, and transscleral cyclophotocoagulation was performed in the left eye in view of the guarded prognosis. Following the interventions, IOP was controlled in both eyes with two antiglaucoma medications. This case highlights the tailored surgical approach because of complex anterior segment anatomy.",
+    "mots_cles_auteurs": null,
+    "langue": "eng",
+    "nombre_auteurs": 2,
+    "affiliations_auteurs": [
+      "Kalathur Venugopal Reddy Glaucoma Institute, L V Prasad Eye Institute, Banjara Hills, Hyderabad.",
+      "Kalathur Venugopal Reddy Glaucoma Institute, L V Prasad Eye Institute, Banjara Hills, Hyderabad. Electronic address: sirishasenthil@lvpei.org."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7224856680",
+      "doi": "10.1016/j.jaapos.2026.105332",
+      "pmid": "42962746",
+      "pmcid": null,
+      "titre": "Pupilloplasty for glaucoma in CNA2-related cornea plana",
+      "lien": "https://openalex.org/W7224856680",
+      "date_publication": "2026-10-01",
+      "type": "article",
+      "revue": "Journal of American Association for Pediatric Ophthalmology and Strabismus",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "pubmed"
+      ],
+      "financeurs": [
+        {
+          "nom": "Hyderabad Eye Research Foundation",
+          "ror": "https://ror.org/01w8z9742"
+        }
+      ],
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "L V Prasad Eye Institute",
+          "pays": "IN",
+          "type": "nonprofit",
+          "ror": "https://ror.org/01w8z9742"
+        }
+      ],
+      "acces_ouvert": false,
+      "statut_acces": "closed",
+      "url_texte": null,
+      "url_pdf": null,
+      "licence": null,
+      "texte_integral_indexe": false,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Glaucoma and retinal disorders",
+      "resume_present": false,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": [
+      {
+        "nom": "Hyderabad Eye Research Foundation",
+        "statut": "CONFIRMÉ — déclaré par l'éditeur dans Crossref",
+        "references": null,
+        "notices": [
+          [
+            "notice justificative Crossref (déclaration de l'éditeur)",
+            "https://api.crossref.org/works/10.1016/j.jaapos.2026.105332"
+          ],
+          [
+            "notice OpenAlex",
+            "https://api.openalex.org/works/W7224856680"
+          ]
+        ],
+        "note": null
+      }
+    ]
+  }
+}

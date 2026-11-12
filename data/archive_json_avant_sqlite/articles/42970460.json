@@ -1,0 +1,97 @@
+{
+  "pmid": "42970460",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42970460",
+    "titre": "Risk of Obstructive Sleep Apnea in Open-Angle Glaucoma: A Population-Based Cohort Study.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42970460/",
+    "doi": "10.1097/IJG.0000000000002797",
+    "pmcid": null,
+    "revue": "Journal of glaucoma",
+    "date_entree_pubmed": "2026-11-02",
+    "date_publication": "2026-Nov-02",
+    "types_publication": [
+      "Journal Article"
+    ],
+    "resume_present": true,
+    "resume": "PRECIS: In this retrospective population-based cohort study, patients with open-angle glaucoma were more likely to develop obstructive sleep apnea than matched controls from the general population of Olmsted County, Minnesota.\nPURPOSE: To investigate the risk of obstructive sleep apnea (OSA) in patients with open-angle glaucoma (OAG) compared to the risk of OSA in matched controls from a general population.\nPATIENTS AND METHODS: Retrospective population-based case-control study comparing the incidence of OSA with a diagnosis of OAG (cases) to the incidence of OSA in matched patients without OAG (controls) from Olmsted County, Minnesota between January 1, 1980 and December 31, 2018. Patients were identified using the Rochester Epidemiology Project. Medical records were reviewed to confirm OAG diagnoses. OSA diagnoses were based on sleep study data and polysomnography parameters. Cumulative probability of OSA was estimated using the Kaplan-Meier method.\nRESULTS: This cohort had 7,000 patients: 3,500 case patients with OAG diagnosed at any time point, and 3,500 matched control subjects without OAG, with all OAG and OSA diagnoses manually confirmed. There was no statistically significant difference of OSA frequency prior to index date in cases versus controls (P=0.52). There were 371 (12.5%) cases who developed OSA after glaucoma diagnosis compared to 297 (10.2%) patients who were diagnosed with OSA after the index date (P=0.0068). The multivariate hazard ratio for diagnosis of OSA after OAG diagnosis was 1.17 (P=0.047, 95% CI: 1.00, 1.36). The 10-year absolute risk of OSA after OAG diagnosis was 12.5%, and risk of OSA increased with time.\nCONCLUSION: In this population-based study, patients with OAG were more likely to be diagnosed with OSA compared to patients without OAG, suggesting a possible association that may justify increased clinical awareness.",
+    "mots_cles_auteurs": [
+      "epidemiology",
+      "obstructive sleep apnea",
+      "open-angle glaucoma",
+      "risk"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 8,
+    "affiliations_auteurs": [
+      "Department of Ophthalmology, Mayo Clinic, Rochester, MN.",
+      "Division of Pulmonary and Critical Care Medicine, Center for Sleep Medicine, Mayo Clinic, Rochester, MN.",
+      "Department of Quantitative Health Sciences, Mayo Clinic, Jacksonville, FL."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7225121616",
+      "doi": "10.1097/ijg.0000000000002797",
+      "pmid": "42970460",
+      "pmcid": null,
+      "titre": "Risk of Obstructive Sleep Apnea in Open-Angle Glaucoma: A Population-Based Cohort Study",
+      "lien": "https://openalex.org/W7225121616",
+      "date_publication": "2026-11-02",
+      "type": "article",
+      "revue": "Journal of Glaucoma",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "pubmed"
+      ],
+      "financeurs": null,
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "Mayo Clinic",
+          "pays": "US",
+          "type": "healthcare",
+          "ror": "https://ror.org/02qp3tb03"
+        },
+        {
+          "nom": "Mayo Clinic in Florida",
+          "pays": "US",
+          "type": "healthcare",
+          "ror": "https://ror.org/03zzw1w08"
+        }
+      ],
+      "acces_ouvert": false,
+      "statut_acces": "closed",
+      "url_texte": null,
+      "url_pdf": null,
+      "licence": null,
+      "texte_integral_indexe": false,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Obstructive Sleep Apnea Research",
+      "resume_present": true,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": []
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "pmid": "42768986",
+  "premiere_detection": "2026-09-25",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42768986",
+    "titre": "Post-LASIK Interface Fluid Syndrome: Evidence Synthesis and First Cases After Descemet Stripping Only (DSO).",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42768986/",
+    "doi": "10.1080/08820538.2026.2734623",
+    "pmcid": null,
+    "revue": "Seminars in ophthalmology",
+    "date_entree_pubmed": "2026-09-22",
+    "date_publication": "2026-Sep-22",
+    "types_publication": [
+      "Journal Article",
+      "Review"
+    ],
+    "resume_present": true,
+    "resume": "PURPOSE: To review the mechanisms, clinical spectrum, and management of Interface Fluid Syndrome (IFS) after LASIK and to report a novel form of presentation developing after Descemet Stripping Only (DSO) for Fuchs endothelial dystrophy (FED) in post-LASIK eyes.\nMETHODS: This review included 83 studies, comprising clinical data from 225 previously reported eyes. Extracted variables included etiology (ocular hypertension, endothelial dysfunction, or other causes), diagnostic findings, management strategies, and clinical outcomes. Additionally, we report two novel cases of IFS after DSO, a setting that has not been previously described.\nRESULTS: Among previously published cases, most (81.33%) were purely pressure-dependent, whereas 12% were primarily associated with endothelial dysfunction, and others reflected mixed or alternative mechanisms. Onset ranged from days to 31 years after LASIK. Acute findings typically included increased corneal thickness, reduced visual acuity, and falsely low central IOP measurements. AS-OCT and endothelial assessment were valuable tools for etiological diagnosis. Pressure-driven cases generally resolved rapidly after corticosteroid withdrawal and IOP control, while endothelial-related forms more frequently required surgical procedures such as endothelial keratoplasty. In our two post-DSO cases, transient central endothelial dysfunction triggered early postoperative IFS despite normal IOP, resolving presumably through endogenous endothelial repopulation without transplantation.\nCONCLUSIONS: IFS represents a final common anatomical manifestation of stromal hydration within a pre-existing lamellar plane. Although most cases are pressure-driven, endothelial dysfunction-including transient pump failure after DSO-must be recognized to enable mechanism-based management.",
+    "mots_cles_auteurs": [
+      "Descemet stripping only",
+      "LASIK",
+      "fuchs endothelial dystrophy",
+      "interface fluid syndrome",
+      "post-LASIK edema-induced keratopathy"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 8,
+    "affiliations_auteurs": [
+      "Department of Anterior Segment, Cornea and Refractive Surgery, Hospital Arruzafa, Córdoba, Spain.",
+      "Department of Ophthalmology, Maimonides Biomedical Research Institute of Cordoba (IMIBIC), Reina Sofia University Hospital, University of Córdoba, Cordoba, Spain.",
+      "Faculty of Biomedical Sciences and Sports, European University of Andalucía, Málaga, Spain.",
+      "Departamento de Ciencias de la Salud y Biomédicas, Universidad Loyola Andalucía, Sevilla, Spain."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7213982519",
+      "doi": "10.1080/08820538.2026.2734623",
+      "pmid": "42768986",
+      "pmcid": null,
+      "titre": "Post-LASIK Interface Fluid Syndrome: Evidence Synthesis and First Cases After Descemet Stripping Only (DSO)",
+      "lien": "https://openalex.org/W7213982519",
+      "date_publication": "2026-09-22",
+      "type": "article",
+      "revue": "Seminars in Ophthalmology",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "pubmed"
+      ],
+      "financeurs": null,
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "Hospital Universitario Reina Sofía",
+          "pays": "ES",
+          "type": "healthcare",
+          "ror": "https://ror.org/02vtd2q19"
+        },
+        {
+          "nom": "Cordoba University",
+          "pays": "US",
+          "type": "education",
+          "ror": "https://ror.org/01d5zhz86"
+        },
+        {
+          "nom": "Universidad Loyola Andalucía",
+          "pays": "ES",
+          "type": "education",
+          "ror": "https://ror.org/0075gfd51"
+        },
+        {
+          "nom": "Universidad Loyola",
+          "pays": "BO",
+          "type": "education",
+          "ror": "https://ror.org/01wfnf418"
+        }
+      ],
+      "acces_ouvert": false,
+      "statut_acces": "closed",
+      "url_texte": null,
+      "url_pdf": null,
+      "licence": null,
+      "texte_integral_indexe": false,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Corneal surgery and disorders",
+      "resume_present": true,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-09-25",
+    "financements": []
+  }
+}

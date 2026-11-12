@@ -1,0 +1,113 @@
+{
+  "pmid": "42780063",
+  "premiere_detection": "2026-09-25",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42780063",
+    "titre": "Investigating intraocular pressure fluctuations using corneal visualization Scheimpflug technology tonometry (CST) with varied resting intervals.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42780063/",
+    "doi": "10.3389/fmed.2026.1906060",
+    "pmcid": "PMC13597312",
+    "revue": "Frontiers in medicine",
+    "date_entree_pubmed": "2026-09-24",
+    "date_publication": "2026",
+    "types_publication": [
+      "Journal Article"
+    ],
+    "resume_present": true,
+    "resume": "BACKGROUND: To investigate the effects of different resting intervals on successive intraocular pressure (IOP) and biomechanically corrected IOP (bIOP) measurements from corneal visualization Scheimpflug technology tonometry (CST).\nMETHODS: This was a prospective repeated-measures observational study in young healthy myopes. Three successive IOP and bIOP measurements were acquired using the CST in both eyes of each participant, using four intervals between three successive measurements in the following order, 5 min (T5), 2 min (T2), 30 s (T30), and immediately after the other (Ti). T5-1 was the baseline measurement followed by T5-2 5 minlater, and T5-3 after another 5-min interval. A similar approach was applied to other intervals. A 5-min resting period was provided between successive sets of triplicate measurements. IOP and bIOP results were compared with four intervals and three measurements as the main effects.\nRESULTS: A total of 88 myopic participants were recruited. Their mean age was 21.5 ± 2.5 years (from 19 to 31 years). There were 68 right eyes and 20 left eyes, with a spherical equivalent of -4.49 ± 2.39 D (from -9.88 to -0.50 D). A generalized linear mixed model showed that the order of interval did not show significant effect on IOP (p = 0.404), nor the measurement interval (p = 0.074). For bIOP, interval did not show significant effect (p = 0.325) whereas difference in measurement interval, and the effect of successive measurement approached statistical significance (p = 0.054). There was a decreasing trend of bIOP when measurement intervals were 2 min (Friedman test, p < 0.001) and 30 s (Friedman test, p = 0.035). The difference was less than 1 mmHg.\nCONCLUSION: Both IOP and bIOP obtained from CST were stable across successive measurement. Although bIOP decreased slightly with 2-min and 30-s, the reduction was small and not clinically significant.",
+    "mots_cles_auteurs": [
+      "IOP",
+      "bIOP",
+      "corneal visualization scheimpflug technology (Corvis ST)",
+      "glaucoma",
+      "myopia"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 7,
+    "affiliations_auteurs": [
+      "Tianjin Eye Hospital, Tianjin Key Lab of Ophthalmology and Visual Science, Tianjin, China.",
+      "Institute of Optometry and Vision Science, School of Medicine, Nankai University, Tianjin, China.",
+      "Tianjin Eye Hospital Optometric Center, Tianjin, China.",
+      "School of Medicine, Nankai University, Tianjin, China.",
+      "School of Optometry, Hong Kong Polytechnic University, Hong Kong SAR, China."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7212060006",
+      "doi": "10.3389/fmed.2026.1906060",
+      "pmid": "42780063",
+      "pmcid": null,
+      "titre": "Investigating intraocular pressure fluctuations using corneal visualization Scheimpflug technology tonometry (CST) with varied resting intervals",
+      "lien": "https://openalex.org/W7212060006",
+      "date_publication": "2026-09-09",
+      "type": "article",
+      "revue": "Frontiers in Medicine",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "doaj",
+        "pubmed"
+      ],
+      "financeurs": null,
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "Tianjin Medical University Eye Hospital",
+          "pays": "CN",
+          "type": "healthcare",
+          "ror": "https://ror.org/04j2cfe69"
+        },
+        {
+          "nom": "Tianjin Medical University",
+          "pays": "CN",
+          "type": "education",
+          "ror": "https://ror.org/02mh8wx89"
+        },
+        {
+          "nom": "Nankai University",
+          "pays": "CN",
+          "type": "education",
+          "ror": "https://ror.org/01y1kjr75"
+        },
+        {
+          "nom": "Hong Kong Polytechnic University",
+          "pays": "HK",
+          "type": "education",
+          "ror": "https://ror.org/0030zas98"
+        }
+      ],
+      "acces_ouvert": true,
+      "statut_acces": "gold",
+      "url_texte": "https://www.frontiersin.org/journals/medicine/articles/10.3389/fmed.2026.1906060/pdf",
+      "url_pdf": "https://www.frontiersin.org/journals/medicine/articles/10.3389/fmed.2026.1906060/pdf",
+      "licence": "cc-by",
+      "texte_integral_indexe": true,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Corneal surgery and disorders",
+      "resume_present": true,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-09-25",
+    "financements": []
+  }
+}

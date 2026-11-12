@@ -1,0 +1,109 @@
+{
+  "pmid": "42999469",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42999469",
+    "titre": "Global, regional, and national trends in glaucoma burden among adults aged 45 years and older, 1990-2021.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42999469/",
+    "doi": "10.1016/j.aopr.2026.06.004",
+    "pmcid": "PMC13743481",
+    "revue": "Advances in ophthalmology practice and research",
+    "date_entree_pubmed": "2026-11-08",
+    "date_publication": "2026",
+    "types_publication": [
+      "Journal Article"
+    ],
+    "resume_present": true,
+    "resume": "PURPOSE: Glaucoma is the leading cause of irreversible blindness worldwide. This study aimed to assess global, regional, and national trends in glaucoma burden among adults aged ≥45 years from 1990 to 2021.\nMETHODS: Data were obtained from the Global Burden of Disease 2021 study. Prevalence and disability-adjusted life-years (DALYs) for glaucoma were analyzed by age, sex, region, and Sociodemographic Index (SDI). Joinpoint regression identified trend changes, and frontier analysis benchmarked country-level performance.\nRESULTS: Globally, age-standardized prevalence declined from 116.29 to 90.12 per 100 000 (average annual percentage change, AAPC = -0.82), and DALYs from 13.37 to 9.05 (AAPC = -1.24), while absolute cases increased by 86.33% due to population aging. Five significant trend changes were identified (1994, 2001, 2006, 2010, 2019). The largest prevalence reduction was in adults aged 90-94 years. East Asia experienced the most substantial declines. SDI showed a strong negative correlation with glaucoma burden. Sub-Saharan Africa had the highest burden, while high-SDI regions had the lowest.\nCONCLUSIONS: Global age-standardized prevalence and DALYs for glaucoma declined between 1990 and 2021, with accelerated declines temporally coinciding with key therapeutic advances. The absolute number of affected individuals increased due to population aging, underscoring the need for targeted screening programs and public awareness campaigns emphasizing regular eye examinations for early detection.",
+    "mots_cles_auteurs": [
+      "Annual percentage change",
+      "Average annual percentage change",
+      "Glaucoma",
+      "Global burden of disease study"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 10,
+    "affiliations_auteurs": [
+      "Beijing Institute of Ophthalmology, Beijing Tongren Eye Center, Beijing Tongren Hospital, Capital Medical University, Beijing, China.",
+      "Department of Ophthalmology, Qilu Hospital, Shandong University, Jinan, China."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7165397720",
+      "doi": "10.1016/j.aopr.2026.06.004",
+      "pmid": "42999469",
+      "pmcid": "13743481",
+      "titre": "Global, regional, and national trends in glaucoma burden among adults aged 45 years and older, 1990-2021",
+      "lien": "https://openalex.org/W7165397720",
+      "date_publication": "2026-06-20",
+      "type": "article",
+      "revue": "Advances in Ophthalmology Practice and Research",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "doaj",
+        "pubmed"
+      ],
+      "financeurs": null,
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "Beijing Tongren Hospital",
+          "pays": "CN",
+          "type": "healthcare",
+          "ror": "https://ror.org/013e4n276"
+        },
+        {
+          "nom": "Capital Medical University",
+          "pays": "CN",
+          "type": "education",
+          "ror": "https://ror.org/013xs5b60"
+        },
+        {
+          "nom": "Shandong University",
+          "pays": "CN",
+          "type": "education",
+          "ror": "https://ror.org/0207yh398"
+        },
+        {
+          "nom": "Qilu Hospital of Shandong University",
+          "pays": "CN",
+          "type": "healthcare",
+          "ror": "https://ror.org/056ef9489"
+        }
+      ],
+      "acces_ouvert": true,
+      "statut_acces": "gold",
+      "url_texte": "https://doi.org/10.1016/j.aopr.2026.06.004",
+      "url_pdf": null,
+      "licence": "cc-by-nc-nd",
+      "texte_integral_indexe": false,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Glaucoma and retinal disorders",
+      "resume_present": true,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": []
+  }
+}

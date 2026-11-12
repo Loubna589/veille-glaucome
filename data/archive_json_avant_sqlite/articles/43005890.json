@@ -1,0 +1,85 @@
+{
+  "pmid": "43005890",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "43005890",
+    "titre": "A Response to \"Evaluation of the Perimouse Online Suprathreshold Visual Field Test for Glaucoma Screening in a Chinese Population: A Comparison with the Humphrey Field Analyzer\" [Letter].",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/43005890/",
+    "doi": "10.2147/OPTH.S668350",
+    "pmcid": "PMC13746893",
+    "revue": "Clinical ophthalmology (Auckland, N.Z.)",
+    "date_entree_pubmed": "2026-11-10",
+    "date_publication": "2026",
+    "types_publication": [
+      "Letter"
+    ],
+    "resume_present": false,
+    "resume": null,
+    "mots_cles_auteurs": null,
+    "langue": "eng",
+    "nombre_auteurs": 1,
+    "affiliations_auteurs": [
+      "Surrey & Sussex Healthcare NHS Trust, Surrey, UK."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7225314409",
+      "doi": "10.2147/opth.s668350",
+      "pmid": "43005890",
+      "pmcid": "13746893",
+      "titre": "A Response to \"Evaluation of the Perimouse Online Suprathreshold Visual Field Test for Glaucoma Screening in a Chinese Population: A Comparison with the Humphrey Field Analyzer” [Letter]",
+      "lien": "https://openalex.org/W7225314409",
+      "date_publication": "2026-11-01",
+      "type": "article",
+      "revue": "Clinical ophthalmology",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "doaj",
+        "pubmed"
+      ],
+      "financeurs": null,
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "Surrey and Sussex Healthcare NHS Trust",
+          "pays": "GB",
+          "type": "healthcare",
+          "ror": "https://ror.org/0480vrj36"
+        }
+      ],
+      "acces_ouvert": true,
+      "statut_acces": "gold",
+      "url_texte": "https://www.dovepress.com/article/download/121908",
+      "url_pdf": "https://www.dovepress.com/article/download/121908",
+      "licence": "cc-by-nc",
+      "texte_integral_indexe": true,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Glaucoma and retinal disorders",
+      "resume_present": true,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": []
+  }
+}

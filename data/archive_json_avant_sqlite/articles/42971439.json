@@ -1,0 +1,217 @@
+{
+  "pmid": "42971439",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42971439",
+    "titre": "External validation of a deep-learning algorithm for perimetric glaucoma detection on color fundus photographs in the Rotterdam Study.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42971439/",
+    "doi": "10.1016/j.ophtha.2026.10.030",
+    "pmcid": null,
+    "revue": "Ophthalmology",
+    "date_entree_pubmed": "2026-11-02",
+    "date_publication": "2026-Nov-02",
+    "types_publication": [
+      "Journal Article"
+    ],
+    "resume_present": true,
+    "resume": "PURPOSE: To externally validate a deep-learning (DL) algorithm detecting perimetric glaucoma on color fundus photographs (CFPs) in a population-based cohort.\nDESIGN: External validation in a prospective population-based cohort.\nPARTICIPANTS: Participants aged 50-80 years from three Rotterdam Study cohorts.\nMETHODS: We applied the winning Artificial Intelligence for Robust Glaucoma Screening (AIROGS) challenge algorithm, trained on 101,442 macula-centered CFPs to detect referable presumed perimetric glaucoma. Performance was assessed at eye and participant level, with participant-level cluster bootstrap confidence intervals. Misclassified cases underwent qualitative review. Longitudinal detection was evaluated by Kaplan-Meier analysis. Additionally, paired analyses compared macula- with disc-centered CFPs. A post-hoc analysis examined the effect of image quality on positive predictive value (PPV).\nMAIN OUTCOME MEASURES: Sensitivity at 95% specificity, area under the receiver operating characteristic curve (ROC-AUC), partial AUC (pAUC) for 90-100% specificity, PPV, and precision-recall AUC (PR-AUC).\nRESULTS: Among 19,088 eyes (9,837 participants), 201 eyes (1.1%) had perimetric glaucoma. At eye level, sensitivity at 95% specificity was 70.6% (95% CI: 63.8-76.8), with an ROC-AUC of 0.911 (95% CI: 0.887-0.934) and a PR-AUC of 0.343 (95% CI: 0.274-0.427). At participant level, sensitivity was 68.8% (95% CI: 61.8-75.9) and ROC-AUC 0.909 (95% CI: 0.882-0.934). Overall, this resulted in 5.1 referrals per detected glaucoma case. True positives showed more advanced visual field damage than false negatives (median mean deviation -10.8 vs -5.8 dB; P < 0.001). Among true positives with prior imaging, 33 of 61 (54%) were flagged before conversion, typically 4-7 years before diagnosis. Discrimination in the 90-100% specificity range was higher for disc- than macula-centered CFPs (pAUC 0.860 vs 0.802; P = 0.003). PPV improved substantially after excluding CFPs with incomplete optic nerve head (ONH) visibility.\nCONCLUSIONS: The DL-algorithm achieved meaningful discrimination for perimetric glaucoma in an external population-based dataset. Correctly identified cases were frequently flagged at an earlier examination, years before the perimetric diagnosis. Despite having been trained exclusively on macula-centered CFPs, the DL-algorithm showed no loss of discriminative performance on disc-centered CFPs. Incomplete ONH visibility was an important source of false positives. These findings support CFP-based deep learning as a scalable triage tool for glaucoma screening and highlight image acquisition standards for implementation.",
+    "mots_cles_auteurs": [
+      "Artificial intelligence",
+      "Glaucoma",
+      "Population-based",
+      "Screening"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 7,
+    "affiliations_auteurs": [
+      "The Rotterdam Eye Hospital, Rotterdam, The Netherlands; Department of Ophthalmology, Erasmus Medical Center, Rotterdam, The Netherlands; Department of Epidemiology, Erasmus Medical Center, Rotterdam, The Netherlands. Electronic address: s.vanmeyel@erasmusmc.nl.",
+      "Department of Ophthalmology, Erasmus Medical Center, Rotterdam, The Netherlands; Department of Epidemiology, Erasmus Medical Center, Rotterdam, The Netherlands.",
+      "The Rotterdam Eye Hospital, Rotterdam, The Netherlands.",
+      "Department of Ophthalmology, Erasmus Medical Center, Rotterdam, The Netherlands.",
+      "Department of Ophthalmology, Erasmus Medical Center, Rotterdam, The Netherlands; Department of Epidemiology, Erasmus Medical Center, Rotterdam, The Netherlands; Department of Ophthalmology, Radboud University Medical Center, Nijmegen, The Netherlands; Institute of Molecular and Clinical Ophthalmology Basel, Basel, Switzerland."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7225092149",
+      "doi": "10.1016/j.ophtha.2026.10.030",
+      "pmid": "42971439",
+      "pmcid": null,
+      "titre": "External validation of a deep-learning algorithm for perimetric glaucoma detection on color fundus photographs in the Rotterdam Study",
+      "lien": "https://openalex.org/W7225092149",
+      "date_publication": "2026-11-01",
+      "type": "article",
+      "revue": "Ophthalmology",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "pubmed"
+      ],
+      "financeurs": [
+        {
+          "nom": "European Commission",
+          "ror": "https://ror.org/00k4n6c32"
+        },
+        {
+          "nom": "ZonMw",
+          "ror": "https://ror.org/01yaj9a77"
+        },
+        {
+          "nom": "Stichting Combined Ophthalmic Research Rotterdam",
+          "ror": "https://ror.org/03cfd9m08"
+        },
+        {
+          "nom": "Stichting Wetenschappelijk Onderzoek Oogziekenhuis",
+          "ror": "https://ror.org/02kctrc72"
+        }
+      ],
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "Erasmus MC",
+          "pays": "NL",
+          "type": "healthcare",
+          "ror": "https://ror.org/018906e22"
+        },
+        {
+          "nom": "Rotterdam Eye Hospital",
+          "pays": "NL",
+          "type": "healthcare",
+          "ror": "https://ror.org/02hjc7j46"
+        },
+        {
+          "nom": "Radboud University Medical Center",
+          "pays": "NL",
+          "type": "healthcare",
+          "ror": "https://ror.org/05wg1m734"
+        },
+        {
+          "nom": "Institute of Molecular and Clinical Ophthalmology Basel",
+          "pays": "CH",
+          "type": "nonprofit",
+          "ror": "https://ror.org/05e715194"
+        }
+      ],
+      "acces_ouvert": true,
+      "statut_acces": "hybrid",
+      "url_texte": "https://www.aaojournal.org/article/S0161-6420(26)00846-8/pdf",
+      "url_pdf": "https://www.aaojournal.org/article/S0161-6420(26)00846-8/pdf",
+      "licence": "cc-by",
+      "texte_integral_indexe": true,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Retinal Imaging and Analysis",
+      "resume_present": true,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": [
+      {
+        "nom": "European Commission",
+        "statut": "À VÉRIFIER — trouvé par OpenAlex seulement (absent de la déclaration de l'éditeur dans Crossref) ; à contrôler dans le texte de l'article",
+        "references": null,
+        "notices": [
+          [
+            "notice OpenAlex",
+            "https://api.openalex.org/works/W7225092149"
+          ],
+          [
+            "notice Crossref consultée (ne confirme pas ce financeur)",
+            "https://api.crossref.org/works/10.1016/j.ophtha.2026.10.030"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "ZonMw",
+        "statut": "À VÉRIFIER — trouvé par OpenAlex seulement (absent de la déclaration de l'éditeur dans Crossref) ; à contrôler dans le texte de l'article",
+        "references": null,
+        "notices": [
+          [
+            "notice OpenAlex",
+            "https://api.openalex.org/works/W7225092149"
+          ],
+          [
+            "notice Crossref consultée (ne confirme pas ce financeur)",
+            "https://api.crossref.org/works/10.1016/j.ophtha.2026.10.030"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "Stichting Combined Ophthalmic Research Rotterdam",
+        "statut": "À VÉRIFIER — trouvé par OpenAlex seulement (absent de la déclaration de l'éditeur dans Crossref) ; à contrôler dans le texte de l'article",
+        "references": null,
+        "notices": [
+          [
+            "notice OpenAlex",
+            "https://api.openalex.org/works/W7225092149"
+          ],
+          [
+            "notice Crossref consultée (ne confirme pas ce financeur)",
+            "https://api.crossref.org/works/10.1016/j.ophtha.2026.10.030"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "Stichting Wetenschappelijk Onderzoek Oogziekenhuis",
+        "statut": "À VÉRIFIER — trouvé par OpenAlex seulement (absent de la déclaration de l'éditeur dans Crossref) ; à contrôler dans le texte de l'article",
+        "references": null,
+        "notices": [
+          [
+            "notice OpenAlex",
+            "https://api.openalex.org/works/W7225092149"
+          ],
+          [
+            "notice Crossref consultée (ne confirme pas ce financeur)",
+            "https://api.crossref.org/works/10.1016/j.ophtha.2026.10.030"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "Combined Ophthalmic Research Rotterdam Foundation",
+        "statut": "CONFIRMÉ — déclaré par l'éditeur dans Crossref (absent d'OpenAlex)",
+        "references": null,
+        "notices": [
+          [
+            "notice justificative Crossref (déclaration de l'éditeur)",
+            "https://api.crossref.org/works/10.1016/j.ophtha.2026.10.030"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "SWOO Flieringa",
+        "statut": "CONFIRMÉ — déclaré par l'éditeur dans Crossref (absent d'OpenAlex)",
+        "references": null,
+        "notices": [
+          [
+            "notice justificative Crossref (déclaration de l'éditeur)",
+            "https://api.crossref.org/works/10.1016/j.ophtha.2026.10.030"
+          ]
+        ],
+        "note": null
+      }
+    ]
+  }
+}

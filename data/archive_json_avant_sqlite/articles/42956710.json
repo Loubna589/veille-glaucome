@@ -1,0 +1,139 @@
+{
+  "pmid": "42956710",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42956710",
+    "titre": "Adjunctive sub-tenon triamcinolone with Susanna glaucoma drainage device: a randomized clinical trial.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42956710/",
+    "doi": "10.1016/j.clinsp.2026.101221",
+    "pmcid": "PMC13733475",
+    "revue": "Clinics (Sao Paulo, Brazil)",
+    "date_entree_pubmed": "2026-10-29",
+    "date_publication": "2026-Oct-29",
+    "types_publication": [
+      "Journal Article"
+    ],
+    "resume_present": true,
+    "resume": "PURPOSE: To evaluate the efficacy and safety of Adjunct Triamcinolone (TA) with the Susanna drainage device for refractory primary open-angle glaucoma, to our knowledge, the first such evaluation with a non-valved glaucoma drainage device.\nMETHODS: This prospective, multicenter, randomized, double-blind (patient and outcome assessor) trial included 39 eyes with refractory primary open-angle glaucoma, divided into a control (n = 20) and a triamcinolone group (n = 19). Primary outcome was mean Intraocular Pressure (IOP) at six months. Secondary outcomes included success rates and postoperative complications.\nRESULTS: Baseline characteristics and mean preoperative IOP were similar (24.45±8.03 mmHg control vs. 24.95±6.80 mmHg TA, p = 0.83). At six months, both groups showed similar mean IOP reduction (14.05±3.99 mmHg control vs. 14.33±4.70 mmHg TA, p > 0.99), with percentage reductions of 42.53% and 42.56%, respectively. Hypotensive eyedrop use also decreased similarly (1.57 control vs. 1.16 TA, p = 0.95). Qualified success (IOP 5‒21 mmHg) was 90% (control) and 89.47% (TA) (p > 0.05). However, the triamcinolone group had a significantly higher incidence of late-onset hypotony (52.6%vs. 0%, p < 0.001). Clinically significant hypotony requiring surgical re-intervention occurred in 36.8% of the TA group versus 0% in the control group (p = 0.003).\nCONCLUSION: In patients undergoing Susanna GDD implantation, adjunctive sub-Tenon triamcinolone provided no additional IOP-lowering benefit but was associated with a significantly increased risk of serious hypotony-related complications. Our findings do not support the use of sub-Tenon triamcinolone (20 mg) as an adjunct to non-valved GDDs in this setting.",
+    "mots_cles_auteurs": [
+      "Glaucoma",
+      "Glaucoma drainage implants",
+      "Intraocular pressure",
+      "Ocular hypotony",
+      "Triamcinolone acetonide"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 9,
+    "affiliations_auteurs": [
+      "Department of Ophthalmology, Hospital das Clínicas, Faculdade de Medicina da Universidade de São Paulo (HCFMUSP), São Paulo, SP, Brazil. Electronic address: marcus_takatsu11@hotmail.com.",
+      "Department of Ophthalmology, Hospital das Clínicas, Faculdade de Medicina da Universidade de São Paulo (HCFMUSP), São Paulo, SP, Brazil.",
+      "Fundação Altino Ventura (FAV), Recife, Pernambuco, Brazil."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7224313273",
+      "doi": "10.1016/j.clinsp.2026.101221",
+      "pmid": "42956710",
+      "pmcid": "13733475",
+      "titre": "Adjunctive sub-tenon triamcinolone with Susanna glaucoma drainage device: a randomized clinical trial",
+      "lien": "https://openalex.org/W7224313273",
+      "date_publication": "2026-01-01",
+      "type": "article",
+      "revue": "Clinics",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "doaj",
+        "pubmed"
+      ],
+      "financeurs": [
+        {
+          "nom": "Coordenação de Aperfeiçoamento de Pessoal de Nível Superior",
+          "ror": "https://ror.org/00x0ma614"
+        }
+      ],
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "Universidade de São Paulo",
+          "pays": "BR",
+          "type": "education",
+          "ror": "https://ror.org/036rp1748"
+        },
+        {
+          "nom": "Hospital das Clínicas da Faculdade de Medicina da Universidade de São Paulo",
+          "pays": "BR",
+          "type": "healthcare",
+          "ror": "https://ror.org/03se9eg94"
+        },
+        {
+          "nom": "Fundação Altino Ventura",
+          "pays": "BR",
+          "type": "healthcare",
+          "ror": "https://ror.org/00xhn5c68"
+        }
+      ],
+      "acces_ouvert": true,
+      "statut_acces": "gold",
+      "url_texte": "https://www.sciencedirect.com/science/article/pii/S1807593226003315/pdf",
+      "url_pdf": "https://www.sciencedirect.com/science/article/pii/S1807593226003315/pdf",
+      "licence": "cc-by",
+      "texte_integral_indexe": true,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Glaucoma and retinal disorders",
+      "resume_present": true,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": [
+      {
+        "nom": "Coordenação de Aperfeiçoamento de Pessoal de Nível Superior",
+        "statut": "À VÉRIFIER — trouvé par OpenAlex seulement (absent de la déclaration de l'éditeur dans Crossref) ; à contrôler dans le texte de l'article",
+        "references": null,
+        "notices": [
+          [
+            "notice OpenAlex",
+            "https://api.openalex.org/works/W7224313273"
+          ],
+          [
+            "notice Crossref consultée (ne confirme pas ce financeur)",
+            "https://api.crossref.org/works/10.1016/j.clinsp.2026.101221"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "Coordenacao de Aperfeicoamento de Pessoal de Nivel Superior",
+        "statut": "CONFIRMÉ — déclaré par l'éditeur dans Crossref (absent d'OpenAlex)",
+        "references": null,
+        "notices": [
+          [
+            "notice justificative Crossref (déclaration de l'éditeur)",
+            "https://api.crossref.org/works/10.1016/j.clinsp.2026.101221"
+          ]
+        ],
+        "note": null
+      }
+    ]
+  }
+}

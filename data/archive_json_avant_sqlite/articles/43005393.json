@@ -1,0 +1,99 @@
+{
+  "pmid": "43005393",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "43005393",
+    "titre": "Cross-organ translation of antifibrotic strategies from skin and lung fibrosis to glaucoma filtration surgery.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/43005393/",
+    "doi": "10.3389/fphar.2026.1979114",
+    "pmcid": "PMC13746113",
+    "revue": "Frontiers in pharmacology",
+    "date_entree_pubmed": "2026-11-10",
+    "date_publication": "2026",
+    "types_publication": [
+      "Journal Article",
+      "Review"
+    ],
+    "resume_present": true,
+    "resume": "Filtering bleb scarring after glaucoma filtration surgery (GFS) remains the leading cause of surgical failure, and current antimetabolites are limited by non-selective cytotoxicity that restricts their long-term use. Research on skin and lung fibrosis has accumulated extensive experience in antifibrotic mechanisms and therapeutic approaches. These tissues share a common transforming growth factor-beta (TGF-β)-driven program of fibroblast activation and extracellular matrix (ECM) remodeling with Tenon capsule fibroblasts, providing a theoretical basis for translating antifibrotic strategies across organs. From a cross-organ translational medicine perspective, this review systematically summarizes progress in translating antifibrotic research from skin and lung fibrosis to antiscarring therapy for GFS, focusing on four aspects: shared fibrotic mechanisms; repurposed approved drugs and emerging molecular targets; local drug delivery systems (DDS); and ophthalmology-specific translational challenges. It also highlights mechanotransduction via Yes-associated protein (YAP)/transcriptional co-activator with PDZ-binding motif (TAZ), lysyl oxidase (LOX)-mediated ECM crosslinking, and the translational potential of local sustained-release delivery in filtering blebs. Building on this foundation, we propose that multi-target combination therapy, precision local delivery, and individualized antiscarring strategies based on biomarkers such as aqueous humor TGF-β2 may represent important future directions for improving the long-term success rate of GFS.",
+    "mots_cles_auteurs": [
+      "Tenon capsule fibroblasts",
+      "antifibrotic drugs",
+      "cross-organ translation",
+      "drug delivery system",
+      "filtering bleb fibrosis",
+      "glaucoma filtration surgery",
+      "targeted therapy"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 2,
+    "affiliations_auteurs": [
+      "The First Clinical College, Guangdong Medical University, Zhanjiang, Guangdong, China.",
+      "Department of Ophthalmology, Affiliated Hospital of Guangdong Medical University, Zhanjiang, Guangdong, China."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": [
+        "sustained release",
+        "sustained-release",
+        "drug delivery"
+      ],
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7223688089",
+      "doi": "10.3389/fphar.2026.1979114",
+      "pmid": "43005393",
+      "pmcid": "13746113",
+      "titre": "Cross-organ translation of antifibrotic strategies from skin and lung fibrosis to glaucoma filtration surgery",
+      "lien": "https://openalex.org/W7223688089",
+      "date_publication": "2026-10-26",
+      "type": "review",
+      "revue": "Frontiers in Pharmacology",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "doaj",
+        "pubmed"
+      ],
+      "financeurs": null,
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "Guangdong Medical College",
+          "pays": "CN",
+          "type": "education",
+          "ror": "https://ror.org/04k5rxe29"
+        }
+      ],
+      "acces_ouvert": true,
+      "statut_acces": "gold",
+      "url_texte": "https://www.frontiersin.org/journals/pharmacology/articles/10.3389/fphar.2026.1979114/pdf",
+      "url_pdf": "https://www.frontiersin.org/journals/pharmacology/articles/10.3389/fphar.2026.1979114/pdf",
+      "licence": "cc-by",
+      "texte_integral_indexe": true,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Glaucoma and retinal disorders",
+      "resume_present": true,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": []
+  }
+}

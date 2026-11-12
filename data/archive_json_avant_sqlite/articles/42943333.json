@@ -1,0 +1,293 @@
+{
+  "pmid": "42943333",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42943333",
+    "titre": "Clinical Outcomes of Switching from Prostaglandin Analogs to Omidenepag Isopropyl in Primary Open-Angle Glaucoma and Glaucoma Suspect Patients with Prostaglandin-Associated Periorbitopathy: A Prospective, Multicenter Study.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42943333/",
+    "doi": "10.3390/ph19101636",
+    "pmcid": "PMC13708616",
+    "revue": "Pharmaceuticals (Basel, Switzerland)",
+    "date_entree_pubmed": "2026-10-27",
+    "date_publication": "2026-Oct-16",
+    "types_publication": [
+      "Journal Article"
+    ],
+    "resume_present": true,
+    "resume": "Background/Objectives: Prostaglandin-associated periorbitopathy (PAP) is a common treatment-related burden of prostaglandin analog (PGA) therapy that may compromise long-term glaucoma management. This study evaluated improvement in PAP and changes in intraocular pressure (IOP) after switching from PGAs to omidenepag isopropyl. Methods: This prospective, multicenter study was conducted in Korea over 24 weeks. Adults diagnosed with PAP who had received PGA eye drops for ≥3 months for primary open-angle glaucoma, normal-tension glaucoma, or glaucoma suspect were switched to omidenepag isopropyl. PAP manifestations were evaluated using investigator assessments, independent assessments, and patient-reported outcome measures. Changes in IOP and safety outcomes were also assessed. Results: A total of 96 patients were included in the final analysis. At Week 24, improvement in deepening of the upper eyelid sulcus was observed in 78.16% of patients. Improvements were also observed in flattening of the lower eyelid bag, upper eyelid ptosis, ciliary hypertrichosis, and periorbital hyperpigmentation. Mean IOP was significantly reduced from baseline (-2.14 mmHg), with 42.71% and 27.08% of patients achieving IOP reductions of ≥15% and ≥20%, respectively. Findings were consistent overall across institutional, independent, and subjective assessments. Most adverse events were mild, and no serious adverse events were reported. Conclusions: PAP manifestations improved following transition from PGA therapy to omidenepag isopropyl, while IOP control and favorable tolerability were maintained in glaucoma or glaucoma suspect patients with PAP. These findings may support the clinical feasibility of switching from PGAs to omidenepag isopropyl in patients with PAP.",
+    "mots_cles_auteurs": [
+      "glaucoma",
+      "omidenepag isopropyl",
+      "prostaglandin analogs",
+      "prostaglandin-associated periorbitopathy"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 6,
+    "affiliations_auteurs": [
+      "Department of Ophthalmology, Seoul National University Hospital, Seoul National University College of Medicine, 101 Daehak-ro, Jongno-gu, Seoul 03080, Republic of Korea.",
+      "Department of Ophthalmology, Kim's Eye Hospital, Konyang University College of Medicine, 136 Yeongsin-ro, Yeongdeungpo-gu, Seoul 07301, Republic of Korea.",
+      "Department of Ophthalmology, Seoul St. Mary's Hospital, College of Medicine, The Catholic University of Korea, 222 Banpo-daero, Seocho-gu, Seoul 06591, Republic of Korea.",
+      "Department of Ophthalmology, Kangbuk Samsung Hospital, Sungkyunkwan University School of Medicine, 29 Saemunan-ro, Jongno-gu, Seoul 03181, Republic of Korea.",
+      "Department of Ophthalmology, Severance Hospital, Yonsei University College of Medicine, 50-1 Yonsei-ro, Seodaemun-gu, Seoul 03722, Republic of Korea.",
+      "Department of Ophthalmology, Asan Medical Center, University of Ulsan College of Medicine, 88 Olympic-ro 43-gil, Songpa-gu, Seoul 05505, Republic of Korea."
+    ],
+    "financeurs_declares": [
+      {
+        "organisme": "Santen Pharmaceutical Asia Pte. Ltd.",
+        "pays": "",
+        "reference": null
+      }
+    ],
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": true,
+      "produit_suivi_etudie_suggere": true,
+      "produits_suivis": [
+        {
+          "produit": "omidenepag",
+          "role": "étudié",
+          "statut_role": "rôle suggéré, à vérifier (règle automatique appliquée au titre)"
+        }
+      ],
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7222440298",
+      "doi": "10.3390/ph19101636",
+      "pmid": "42943333",
+      "pmcid": "13708616",
+      "titre": "Clinical Outcomes of Switching from Prostaglandin Analogs to Omidenepag Isopropyl in Primary Open-Angle Glaucoma and Glaucoma Suspect Patients with Prostaglandin-Associated Periorbitopathy: A Prospective, Multicenter Study",
+      "lien": "https://openalex.org/W7222440298",
+      "date_publication": "2026-10-16",
+      "type": "article",
+      "revue": "Pharmaceuticals",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "doaj",
+        "pubmed"
+      ],
+      "financeurs": [
+        {
+          "nom": "Seoul National University",
+          "ror": "https://ror.org/04h9pn542"
+        },
+        {
+          "nom": "Yonsei University",
+          "ror": "https://ror.org/01wjejq96"
+        },
+        {
+          "nom": "Santen",
+          "ror": "https://ror.org/032msy923"
+        },
+        {
+          "nom": "Seoul National University Hospital",
+          "ror": "https://ror.org/01z4nnt86"
+        },
+        {
+          "nom": "Samsung",
+          "ror": "https://ror.org/04w3jy968"
+        }
+      ],
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "Seoul National University",
+          "pays": "KR",
+          "type": "education",
+          "ror": "https://ror.org/04h9pn542"
+        },
+        {
+          "nom": "Seoul National University Hospital",
+          "pays": "KR",
+          "type": "healthcare",
+          "ror": "https://ror.org/01z4nnt86"
+        },
+        {
+          "nom": "Konyang University",
+          "pays": "KR",
+          "type": "education",
+          "ror": "https://ror.org/02v8yp068"
+        },
+        {
+          "nom": "Kim's Eye Hospital",
+          "pays": "KR",
+          "type": "healthcare",
+          "ror": "https://ror.org/02nh1np55"
+        },
+        {
+          "nom": "The Catholic University of Korea Seoul St. Mary's Hospital",
+          "pays": "KR",
+          "type": "healthcare",
+          "ror": "https://ror.org/056cn0e37"
+        },
+        {
+          "nom": "Catholic University of Korea",
+          "pays": "KR",
+          "type": "education",
+          "ror": "https://ror.org/01fpnj063"
+        },
+        {
+          "nom": "Kangbuk Samsung Hospital",
+          "pays": "KR",
+          "type": "healthcare",
+          "ror": "https://ror.org/013e76m06"
+        },
+        {
+          "nom": "Sungkyunkwan University",
+          "pays": "KR",
+          "type": "education",
+          "ror": "https://ror.org/04q78tk20"
+        },
+        {
+          "nom": "Yonsei University",
+          "pays": "KR",
+          "type": "education",
+          "ror": "https://ror.org/01wjejq96"
+        },
+        {
+          "nom": "Severance Hospital",
+          "pays": "KR",
+          "type": "healthcare",
+          "ror": "https://ror.org/044kjp413"
+        },
+        {
+          "nom": "Yonsei University Health System",
+          "pays": "KR",
+          "type": "healthcare",
+          "ror": "https://ror.org/04sze3c15"
+        },
+        {
+          "nom": "Asan Medical Center",
+          "pays": "KR",
+          "type": "healthcare",
+          "ror": "https://ror.org/03s5q0090"
+        },
+        {
+          "nom": "University of Ulsan",
+          "pays": "KR",
+          "type": "education",
+          "ror": "https://ror.org/02c2f8975"
+        }
+      ],
+      "acces_ouvert": true,
+      "statut_acces": "gold",
+      "url_texte": "https://doi.org/10.3390/ph19101636",
+      "url_pdf": null,
+      "licence": "cc-by",
+      "texte_integral_indexe": true,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Glaucoma and retinal disorders",
+      "resume_present": true,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": [
+      {
+        "nom": "Santen Pharmaceutical Asia Pte. Ltd.",
+        "statut": "CONFIRMÉ — déclaré dans la notice PubMed (GrantList)",
+        "references": null,
+        "notices": [
+          [
+            "notice PubMed",
+            "https://pubmed.ncbi.nlm.nih.gov/42943333/?format=pubmed"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "Seoul National University",
+        "statut": "À VÉRIFIER — trouvé par OpenAlex seulement (absent de la déclaration de l'éditeur dans Crossref) ; à contrôler dans le texte de l'article",
+        "references": null,
+        "notices": [
+          [
+            "notice OpenAlex",
+            "https://api.openalex.org/works/W7222440298"
+          ],
+          [
+            "notice Crossref consultée (ne confirme pas ce financeur)",
+            "https://api.crossref.org/works/10.3390/ph19101636"
+          ]
+        ],
+        "note": "cet organisme figure AUSSI parmi les institutions des auteurs : c'est une affiliation, information distincte"
+      },
+      {
+        "nom": "Yonsei University",
+        "statut": "À VÉRIFIER — trouvé par OpenAlex seulement (absent de la déclaration de l'éditeur dans Crossref) ; à contrôler dans le texte de l'article",
+        "references": null,
+        "notices": [
+          [
+            "notice OpenAlex",
+            "https://api.openalex.org/works/W7222440298"
+          ],
+          [
+            "notice Crossref consultée (ne confirme pas ce financeur)",
+            "https://api.crossref.org/works/10.3390/ph19101636"
+          ]
+        ],
+        "note": "cet organisme figure AUSSI parmi les institutions des auteurs : c'est une affiliation, information distincte"
+      },
+      {
+        "nom": "Santen",
+        "statut": "À VÉRIFIER — trouvé par OpenAlex seulement (absent de la déclaration de l'éditeur dans Crossref) ; à contrôler dans le texte de l'article",
+        "references": null,
+        "notices": [
+          [
+            "notice OpenAlex",
+            "https://api.openalex.org/works/W7222440298"
+          ],
+          [
+            "notice Crossref consultée (ne confirme pas ce financeur)",
+            "https://api.crossref.org/works/10.3390/ph19101636"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "Seoul National University Hospital",
+        "statut": "À VÉRIFIER — trouvé par OpenAlex seulement (absent de la déclaration de l'éditeur dans Crossref) ; à contrôler dans le texte de l'article",
+        "references": null,
+        "notices": [
+          [
+            "notice OpenAlex",
+            "https://api.openalex.org/works/W7222440298"
+          ],
+          [
+            "notice Crossref consultée (ne confirme pas ce financeur)",
+            "https://api.crossref.org/works/10.3390/ph19101636"
+          ]
+        ],
+        "note": "cet organisme figure AUSSI parmi les institutions des auteurs : c'est une affiliation, information distincte"
+      },
+      {
+        "nom": "Samsung",
+        "statut": "À VÉRIFIER — trouvé par OpenAlex seulement (absent de la déclaration de l'éditeur dans Crossref) ; à contrôler dans le texte de l'article",
+        "references": null,
+        "notices": [
+          [
+            "notice OpenAlex",
+            "https://api.openalex.org/works/W7222440298"
+          ],
+          [
+            "notice Crossref consultée (ne confirme pas ce financeur)",
+            "https://api.crossref.org/works/10.3390/ph19101636"
+          ]
+        ],
+        "note": "cet organisme figure AUSSI parmi les institutions des auteurs : c'est une affiliation, information distincte"
+      }
+    ]
+  }
+}

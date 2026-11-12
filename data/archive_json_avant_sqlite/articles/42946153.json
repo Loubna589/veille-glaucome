@@ -1,0 +1,92 @@
+{
+  "pmid": "42946153",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42946153",
+    "titre": "Lens particle-induced pediatric glaucoma following congenital cataract surgery: a case report.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42946153/",
+    "doi": "10.1016/j.jaapos.2026.105331",
+    "pmcid": null,
+    "revue": "Journal of AAPOS : the official publication of the American Association for Pediatric Ophthalmology and Strabismus",
+    "date_entree_pubmed": "2026-10-27",
+    "date_publication": "2026-Oct-27",
+    "types_publication": [
+      "Case Reports",
+      "Journal Article"
+    ],
+    "resume_present": true,
+    "resume": "A 13-year-old boy with a history of bilateral lens extraction for congenital cataract at 4 months of age presented with nausea and vomiting. Tafluprost had been administrated once daily to both eyes since the age of 7 years, and intraocular pressure (IOP) in both eyes remained around 20 mm Hg before this visit. On examination, IOP was 21 mm Hg in the right eye and 52 mm Hg in the left eye. The next day, the IOP in the left eye decreased to 10 mm Hg. No significant floaters were seen in the anterior chamber of either eye. Multiple lens fragments were present in the left angle. Four days later, the left eye IOP had increased to 60 mm Hg, and lens fragments were observed floating in the left anterior recess. Based on the course and findings, lens-induced glaucoma was considered the most reasonable cause for the elevated IOP; therefore, anterior chamber washout was performed. Eighteen months postoperatively, no fragments remained in the anterior chamber, and IOP remained 17-19 mm Hg. In this case, gonioscopy was useful in establishing the cause of IOP elevation.",
+    "mots_cles_auteurs": null,
+    "langue": "eng",
+    "nombre_auteurs": 4,
+    "affiliations_auteurs": [
+      "Department of Ophthalmology and Visual Science, Graduate School of Biomedical and Health Sciences, Hiroshima University, Hiroshima, Japan.",
+      "Department of Ophthalmology and Visual Science, Graduate School of Biomedical and Health Sciences, Hiroshima University, Hiroshima, Japan. Electronic address: khirooka9@gmail.com."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": true,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": [
+        {
+          "produit": "tafluprost",
+          "role": "non déterminé",
+          "statut_role": "cité dans le résumé ou les mots-clés"
+        }
+      ],
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7223792387",
+      "doi": "10.1016/j.jaapos.2026.105331",
+      "pmid": "42946153",
+      "pmcid": null,
+      "titre": "Lens particle–induced pediatric glaucoma following congenital cataract surgery: a case report",
+      "lien": "https://openalex.org/W7223792387",
+      "date_publication": "2026-10-01",
+      "type": "article",
+      "revue": "Journal of American Association for Pediatric Ophthalmology and Strabismus",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "pubmed"
+      ],
+      "financeurs": null,
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "Hiroshima University",
+          "pays": "JP",
+          "type": "education",
+          "ror": "https://ror.org/03t78wx29"
+        }
+      ],
+      "acces_ouvert": false,
+      "statut_acces": "closed",
+      "url_texte": null,
+      "url_pdf": null,
+      "licence": null,
+      "texte_integral_indexe": false,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Intraocular Surgery and Lenses",
+      "resume_present": false,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": []
+  }
+}

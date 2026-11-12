@@ -1,0 +1,60 @@
+{
+  "pmid": "43010767",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "43010767",
+    "titre": "[Multiple mechanisms and intervention strategies of monocytes/macrophages in ocular diseases].",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/43010767/",
+    "doi": "10.3760/cma.j.cn112142-20251118-00488",
+    "pmcid": null,
+    "revue": "[Zhonghua yan ke za zhi] Chinese journal of ophthalmology",
+    "date_entree_pubmed": "2026-11-11",
+    "date_publication": "2026-Nov-11",
+    "types_publication": [
+      "Journal Article",
+      "Review",
+      "English Abstract"
+    ],
+    "resume_present": true,
+    "resume": "Monocytes/macrophages possess prominent heterogeneity and functional plasticity, and their functional imbalance participates in the initiation and progression of multiple ocular diseases. This review summarizes the roles of monocytes/macrophages in age-related macular degeneration, diabetic retinopathy, high myopia, uveitis and glaucoma. It particularly elaborates their pathogenic mechanisms involving oxidative stress, inflammatory amplification, blood-retinal barrier disruption and pathological neovascularization, alongside their immunomodulatory and tissue-repairing functions. We also outline intervention strategies targeting monocytes/macrophages, including blocking pro-inflammatory recruitment and signaling pathways, inducing anti-inflammatory polarization, and immune reprogramming, which may offer novel ideas for precision therapy of chronic inflammatory ocular diseases.",
+    "mots_cles_auteurs": null,
+    "langue": "chi",
+    "nombre_auteurs": 3,
+    "affiliations_auteurs": [
+      "School of Health Science and Engineering, University of Shanghai for Science & Technology, Shanghai 200093, China.",
+      "Department of Ophthalmology, Eye & ENT Hospital of Fudan University, NHC Key Laboratory of Myopia and Related Eye Diseases, Key Laboratory of Myopia and Related Eye Diseases, Chinese Academy of Medical Sciences, Shanghai 200031, China."
+    ],
+    "financeurs_declares": [
+      {
+        "organisme": "National Natural Science Foundation of China",
+        "pays": "",
+        "reference": "82271069, 82301188"
+      }
+    ],
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": [
+      "Humans",
+      "Monocytes",
+      "Macrophages",
+      "Eye Diseases",
+      "Animals",
+      "Oxidative Stress"
+    ]
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": null,
+      "hors_veille_principale": false
+    }
+  }
+}

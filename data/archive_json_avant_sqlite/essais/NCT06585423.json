@@ -1,0 +1,134 @@
+{
+  "nct": "NCT06585423",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "nct": "NCT06585423",
+    "titre": "Tolerability of an Anesthesia-free Tonometer Tip",
+    "titre_officiel": "Tolerability of an Anesthesia-free Tonometer Tip",
+    "lien": "https://clinicaltrials.gov/study/NCT06585423",
+    "date_premiere_publication": "2024-09-05",
+    "date_derniere_mise_a_jour": "2026-11-04",
+    "type_etude": "INTERVENTIONAL",
+    "phases_declarees": [
+      "NA"
+    ],
+    "statut": "COMPLETED",
+    "raison_arret": null,
+    "date_debut": "2024-10-17",
+    "date_fin_principale": "2026-02-25",
+    "promoteur": "Duke University",
+    "type_promoteur": "OTHER",
+    "collaborateurs": null,
+    "conditions": [
+      "Glaucoma"
+    ],
+    "interventions": [
+      {
+        "type": "DIAGNOSTIC_TEST",
+        "nom": "Sterile commercially available bandage contact lens"
+      },
+      {
+        "type": "DIAGNOSTIC_TEST",
+        "nom": "Medical grade silicone of a thickness <100 µm"
+      },
+      {
+        "type": "DIAGNOSTIC_TEST",
+        "nom": "Medical grade silicone of a thickness >100 µm"
+      },
+      {
+        "type": "DIAGNOSTIC_TEST",
+        "nom": "Medical grade silicone of a thickness <100 µm with blur tint"
+      },
+      {
+        "type": "DIAGNOSTIC_TEST",
+        "nom": "Standard tip in conjunction with a topical anesthetic"
+      }
+    ],
+    "participants_nombre": 49,
+    "participants_type": "ACTUAL",
+    "criteres_principaux": [
+      {
+        "critere": "Patient tolerability rating of different tips",
+        "delai": "Baseline"
+      },
+      {
+        "critere": "Patient comfort rating of different tips",
+        "delai": "Baseline"
+      }
+    ],
+    "resultats_deposes": false,
+    "publications_declarees": null,
+    "resume_source": "The purpose of this study is to compare the tolerability and comfort of 4 different prototype anesthesia-free tonometer tips with the standard tonometer tip in conjunction with anesthesia. The best-tolerated prototype anesthesia-free tonometer tip will be identified for further development for home tonometry.",
+    "citations_declarees": null,
+    "plan": {
+      "repartition": "RANDOMIZED",
+      "modele": "PARALLEL",
+      "but_principal": "DIAGNOSTIC",
+      "insu": "NONE",
+      "insu_pour": null,
+      "insu_description": null,
+      "modele_observationnel": null
+    },
+    "bras": [
+      {
+        "libelle": "Medical grade acrylic tip covered by a sterile commercially available bandage contact lens",
+        "type": "EXPERIMENTAL",
+        "description": null,
+        "interventions": [
+          "Diagnostic Test: Sterile commercially available bandage contact lens"
+        ]
+      },
+      {
+        "libelle": "Medical grade acrylic tip coated with medical grade silicone of a thickness < 100 µm",
+        "type": "EXPERIMENTAL",
+        "description": null,
+        "interventions": [
+          "Diagnostic Test: Medical grade silicone of a thickness <100 µm"
+        ]
+      },
+      {
+        "libelle": "Medical grade acrylic tip coated with medical grade silicone of a thickness > 100 µm",
+        "type": "EXPERIMENTAL",
+        "description": null,
+        "interventions": [
+          "Diagnostic Test: Medical grade silicone of a thickness >100 µm"
+        ]
+      },
+      {
+        "libelle": "Medical grade acrylic tip coated with medical grade silicone of a thickness < 100 µm with blue tint",
+        "type": "EXPERIMENTAL",
+        "description": null,
+        "interventions": [
+          "Diagnostic Test: Medical grade silicone of a thickness <100 µm with blur tint"
+        ]
+      },
+      {
+        "libelle": "Standard tip in conjunction with a topical anesthetic",
+        "type": "ACTIVE_COMPARATOR",
+        "description": null,
+        "interventions": [
+          "Diagnostic Test: Standard tip in conjunction with a topical anesthetic"
+        ]
+      }
+    ],
+    "eligibilite": {
+      "criteres": "Inclusion Criteria:\n\n* Presenting for a routine eye exam\n* ≥ 18 years of age\n* Able and willing to give consent\n\nExclusion Criteria:\n\n* History of corneal scarring\n* Active infection of the eye\n* History of alternated corneal sensitivity\n* History of corneal surgery",
+      "age_min": "18 Years",
+      "age_max": null,
+      "sexe": "ALL",
+      "volontaires_sains": false
+    },
+    "criteres_secondaires": null,
+    "responsables": [
+      {
+        "nom": "Joanne Wen, MD",
+        "affiliation": "Duke Eye Center",
+        "role": "PRINCIPAL_INVESTIGATOR"
+      }
+    ],
+    "date_depot_resultats": null,
+    "resultats": null
+  },
+  "modifications": []
+}

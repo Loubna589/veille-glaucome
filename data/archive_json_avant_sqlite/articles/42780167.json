@@ -1,0 +1,172 @@
+{
+  "pmid": "42780167",
+  "premiere_detection": "2026-09-25",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42780167",
+    "titre": "Juvenile and adult open-angle glaucoma form a single polygenic continuum.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42780167/",
+    "doi": "10.64898/2026.09.13.26361381",
+    "pmcid": "PMC13596527",
+    "revue": "medRxiv : the preprint server for health sciences",
+    "date_entree_pubmed": "2026-09-24",
+    "date_publication": "2026-Sep-14",
+    "types_publication": [
+      "Journal Article",
+      "Preprint"
+    ],
+    "resume_present": true,
+    "resume": "PURPOSE: To test whether juvenile open-angle glaucoma (JOAG) and primary congenital glaucoma (PCG) are polygenically continuous with primary open-angle glaucoma (POAG), using a multi-trait POAG polygenic risk score (PRS).\nDESIGN: Retrospective cohort study.\nPARTICIPANTS: 3,102 open-angle glaucoma index cases, of whom 2,836 had a recorded age at diagnosis (52 PCG, 226 JOAG, and 2,558 POAG) and 999 European-ancestry controls from a glaucoma disease registry and a population-based cohort. Two replication cohorts comprised 70 JOAG and 31 PCG probands with 230 controls (MEE), and 9 PCG and 120 POAG cases (GOGS).\nMETHODS: One index case per family was analysed. PRS were calculated from weighted SNPs and adjusted for ancestry. Cases were stratified by age at diagnosis (PCG ≤3 years, JOAG ≥4 and <40 years, POAG ≥40 years) and presence of pathogenic/likely pathogenic variants (\"Mendelian\"). Groups were compared by Kruskal-Wallis test, with logistic regression and area under the curve for per-SD effects.\nMAIN OUTCOME MEASURES: PRS centile values compared across glaucoma subtypes and Mendelian and non-Mendelian subgroups.\nRESULTS: Mean PRS was highest in cases diagnosed in the fourth decade of life. Among subgroups, it was highest in non-Mendelian JOAG (84.1%), exceeding controls (53.3%), Mendelian JOAG (68.9%), and non-Mendelian POAG (79.3%) (all P ≤ 0.003). Non-Mendelian JOAG was also the best discriminated from controls (OR 3.66 per SD increase, 95% CI 3.02-4.49; AUC 0.814, 95% CI 0.782-0.845). Neither PCG subgroup differed from controls. Among Mendelian cases, only MYOC p.Gln368Ter showed significantly elevated PRS (OR 2.49 per SD, 95% CI 1.89-3.34). In the MEE replication cohort, JOAG was associated with higher PRS (OR 2.12 per SD, 95% CI 1.50-3.07) while PCG was not (OR 0.90, P = 0.73). In GOGS, mean PRS was higher in POAG than PCG (84.8 vs 59.7 centile; P = 0.026).\nCONCLUSIONS: A POAG PRS predicts JOAG risk with discrimination comparable to or greater than POAG itself, supporting a shared polygenic architecture across juvenile and adult open-angle glaucoma. PCG showed no PRS elevation regardless of Mendelian status, indicating a distinct architecture for which rare-variant sequencing remains appropriate.",
+    "mots_cles_auteurs": null,
+    "langue": "eng",
+    "nombre_auteurs": 21,
+    "affiliations_auteurs": null,
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7213341183",
+      "doi": "10.64898/2026.09.13.26361381",
+      "pmid": "42780167",
+      "pmcid": null,
+      "titre": "Juvenile and adult open-angle glaucoma form a single polygenic continuum",
+      "lien": "https://openalex.org/W7213341183",
+      "date_publication": "2026-09-14",
+      "type": "preprint",
+      "revue": "medRxiv",
+      "type_source": "repository",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "pubmed"
+      ],
+      "financeurs": null,
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "Garvan Institute of Medical Research",
+          "pays": "AU",
+          "type": "nonprofit",
+          "ror": "https://ror.org/01b3dvp57"
+        },
+        {
+          "nom": "Flinders University",
+          "pays": "AU",
+          "type": "education",
+          "ror": "https://ror.org/01kpzv902"
+        },
+        {
+          "nom": "Massachusetts Eye and Ear Infirmary",
+          "pays": "US",
+          "type": "healthcare",
+          "ror": "https://ror.org/04g3dn724"
+        },
+        {
+          "nom": "QIMR Berghofer Medical Research Institute",
+          "pays": "AU",
+          "type": "facility",
+          "ror": "https://ror.org/004y8wk30"
+        },
+        {
+          "nom": "The University of Queensland",
+          "pays": "AU",
+          "type": "education",
+          "ror": "https://ror.org/00rqy9422"
+        },
+        {
+          "nom": "Broad Institute",
+          "pays": "US",
+          "type": "nonprofit",
+          "ror": "https://ror.org/05a0ya142"
+        },
+        {
+          "nom": "Manila Doctors Hospital",
+          "pays": "PH",
+          "type": "healthcare",
+          "ror": "https://ror.org/00qrce505"
+        },
+        {
+          "nom": "University of Tasmania",
+          "pays": "AU",
+          "type": "education",
+          "ror": "https://ror.org/01nfmeh72"
+        },
+        {
+          "nom": "The University of Melbourne",
+          "pays": "AU",
+          "type": "education",
+          "ror": "https://ror.org/01ej9dk98"
+        },
+        {
+          "nom": "Centre for Eye Research Australia",
+          "pays": "AU",
+          "type": "facility",
+          "ror": "https://ror.org/01sqdef20"
+        },
+        {
+          "nom": "UNSW Sydney",
+          "pays": "AU",
+          "type": "education",
+          "ror": "https://ror.org/03r8z3t63"
+        }
+      ],
+      "acces_ouvert": true,
+      "statut_acces": "green",
+      "url_texte": "https://doi.org/10.64898/2026.09.13.26361381",
+      "url_pdf": null,
+      "licence": "cc-by",
+      "texte_integral_indexe": false,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Glaucoma and retinal disorders",
+      "resume_present": true,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-09-25",
+    "financements": [
+      {
+        "nom": null,
+        "statut": "CONFIRMÉ — déclaré par l'éditeur dans Crossref (absent d'OpenAlex)",
+        "references": [
+          "GNT1150144"
+        ],
+        "notices": [
+          [
+            "notice justificative Crossref (déclaration de l'éditeur)",
+            "https://api.crossref.org/works/10.64898/2026.09.13.26361381"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "Snow Medical Research Foundation",
+        "statut": "CONFIRMÉ — déclaré par l'éditeur dans Crossref (absent d'OpenAlex)",
+        "references": [
+          "PF2019-040"
+        ],
+        "notices": [
+          [
+            "notice justificative Crossref (déclaration de l'éditeur)",
+            "https://api.crossref.org/works/10.64898/2026.09.13.26361381"
+          ]
+        ],
+        "note": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "pmid": "42977113",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42977113",
+    "titre": "Comment on \"The Neovascular Ocular Hypertension Spectrum: A Novel Classification of Neovascular Glaucoma\".",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42977113/",
+    "doi": "10.1016/j.ajo.2026.08.053",
+    "pmcid": null,
+    "revue": "American journal of ophthalmology",
+    "date_entree_pubmed": "2026-11-03",
+    "date_publication": "2026-Nov-03",
+    "types_publication": [
+      "Letter"
+    ],
+    "resume_present": false,
+    "resume": null,
+    "mots_cles_auteurs": [
+      "Glaucoma classification",
+      "Intraocular pressure",
+      "Neovascular glaucoma",
+      "Neovascularization",
+      "Ocular hypertension",
+      "Ocular vascular disease",
+      "Ophthalmology",
+      "Retinal ischemia"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 2,
+    "affiliations_auteurs": [
+      "Professor, Department of Ophthalmology, Sree Balaji Medical College & Hospital, Bharath Institute of Higher Education & Research, Chennai, Tamil Nadu, India. Electronic address: nevergiveup1523@outlook.com.",
+      "Professor, Department of Oral Pathology, Sree Balaji Dental College & Hospital, Chennai, Tamil Nadu, India. Electronic address: jayasri.krupaa@gmail.com."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7225202502",
+      "doi": "10.1016/j.ajo.2026.08.053",
+      "pmid": "42977113",
+      "pmcid": null,
+      "titre": "Comment on “The Neovascular Ocular Hypertension Spectrum: A Novel Classification of Neovascular Glaucoma”",
+      "lien": "https://openalex.org/W7225202502",
+      "date_publication": "2026-11-01",
+      "type": "article",
+      "revue": "American Journal of Ophthalmology",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "pubmed"
+      ],
+      "financeurs": null,
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "Bharath University",
+          "pays": "IN",
+          "type": "education",
+          "ror": "https://ror.org/04yazpn06"
+        },
+        {
+          "nom": "Sree Balaji Dental College and Hospital",
+          "pays": "IN",
+          "type": "education",
+          "ror": "https://ror.org/039tm4h11"
+        }
+      ],
+      "acces_ouvert": false,
+      "statut_acces": "closed",
+      "url_texte": null,
+      "url_pdf": null,
+      "licence": null,
+      "texte_integral_indexe": false,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Glaucoma and retinal disorders",
+      "resume_present": false,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": []
+  }
+}

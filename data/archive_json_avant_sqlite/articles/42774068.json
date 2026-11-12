@@ -1,0 +1,225 @@
+{
+  "pmid": "42774068",
+  "premiere_detection": "2026-09-25",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42774068",
+    "titre": "SS31 protects damaged retinal cells through the AMPK/DRP1 signaling pathway.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42774068/",
+    "doi": "10.63500/mv_v32_265",
+    "pmcid": "PMC13568172",
+    "revue": "Molecular vision",
+    "date_entree_pubmed": "2026-09-23",
+    "date_publication": "2026",
+    "types_publication": [
+      "Journal Article"
+    ],
+    "resume_present": true,
+    "resume": "PURPOSE: Glaucoma is a group of neurodegenerative diseases characterized by progressive loss of retinal ganglion cells (RGCs) and optic nerve fibers. Mitochondrial dynamics contribute to the maintenance of neuronal homeostasis, and abnormalities can lead to the development of glaucoma. SS31 is a mitochondria-targeting short peptide that has been found to protect mitochondrial function and thereby protect damaged retina-associated cells. The aim of this study is to investigate whether SS31 protects damaged retinal cells by activating the AMPK/DRP1 pathway.\nMETHODS: The relationship between SS31 and oxidative stress was determined by live-cell imaging. The cells were inoculated in the well plate and treated with H2O2 (150 μM) for 24 h and pretreated with or without SS31 (100 nM), AICAR (17.5 μM), or dorsomorphin (7 μM) for 2 h. 3-(4,5-dimethylthiazol-2-yl)-2,5-diphenyltetrazolium bromide (MTT) and lactate dehydrogenase (LDH) were used to evaluate cell viability. Mitochondrial genetic stability was detected by droplet digital PCR. The expression of AMPK and DRP1 was detected by western blot. In addition, intraocular pressure and retinal thickness were evaluated in mice with acute ocular hypertension.\nRESULTS: SS31 inhibited H2O2-induced cell death of 661W through the AMPK signaling pathway and maintained mitochondrial genetic stability. SS31 regulates AMPK/Drp1 signaling in 661W cells after oxidative stress. SS31 reduced intraocular pressure and maintained normal retinal thickness in mice with acute ocular hypertension.\nCONCLUSIONS: SS31 regulates mitochondrial dynamic network remodeling by activating AMPK/DRP1 signaling pathway and protects retinal-related cells.",
+    "mots_cles_auteurs": null,
+    "langue": "eng",
+    "nombre_auteurs": 8,
+    "affiliations_auteurs": [
+      "Department of Ophthalmology, The Second Affiliated Hospital of Xi'an Medical University, Xi'an, Shaanxi, P.R. China.",
+      "Xi'an Key Laboratory for the Prevention and Treatment of Eye and Brain Neurological Related Diseases, Xi'an, Shaanxi, P.R. China.",
+      "Department of Chinese Materia Medica and Natural Medicines, School of Pharmacy, Air Force Medical University, Xi'an, Shaanxi, P.R. China."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": [
+      "Animals",
+      "Signal Transduction",
+      "AMP-Activated Protein Kinases",
+      "Oxidative Stress",
+      "Retinal Ganglion Cells",
+      "Mice",
+      "Hydrogen Peroxide",
+      "Mitochondria",
+      "Dynamins",
+      "Oligopeptides",
+      "Cell Survival",
+      "Intraocular Pressure",
+      "Glaucoma",
+      "Ocular Hypertension",
+      "Mice, Inbred C57BL",
+      "Male",
+      "Retina"
+    ]
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Préclinique",
+      "stade_source": "indexation MeSH de PubMed (modèle animal / animaux sans humains)",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7212223492",
+      "doi": "10.63500/mv_v32_265",
+      "pmid": "42774068",
+      "pmcid": null,
+      "titre": "SS31 protects damaged retinal cells through the AMPK/DRP1 signaling pathway",
+      "lien": "https://openalex.org/W7212223492",
+      "date_publication": "2026-07-05",
+      "type": "article",
+      "revue": "Molecular vision",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "doaj",
+        "pubmed"
+      ],
+      "financeurs": [
+        {
+          "nom": "National Natural Science Foundation of China",
+          "ror": "https://ror.org/01h0zpd94"
+        },
+        {
+          "nom": "Natural Science Foundation of Shaanxi Province",
+          "ror": null
+        },
+        {
+          "nom": "Education Department of Shaanxi Province",
+          "ror": "https://ror.org/00jb7xy46"
+        },
+        {
+          "nom": "State Key Laboratory of Ophthalmology",
+          "ror": "https://ror.org/003mfbe21"
+        },
+        {
+          "nom": "Shaanxi Provincial Health Commission",
+          "ror": null
+        }
+      ],
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "Xi'an Medical University",
+          "pays": "CN",
+          "type": "education",
+          "ror": "https://ror.org/01fmc2233"
+        }
+      ],
+      "acces_ouvert": true,
+      "statut_acces": "diamond",
+      "url_texte": "https://scholarlypublishingcollective.org/molvis/molecular-vision/article-pdf/doi/10.63500/mv_v32_265/2462856/mv_v32_265.pdf",
+      "url_pdf": "https://scholarlypublishingcollective.org/molvis/molecular-vision/article-pdf/doi/10.63500/mv_v32_265/2462856/mv_v32_265.pdf",
+      "licence": "cc-by-nc-nd",
+      "texte_integral_indexe": true,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Mitochondrial Function and Pathology",
+      "resume_present": true,
+      "mesh": [
+        "Animals",
+        "Cell Survival",
+        "Glaucoma",
+        "Hydrogen Peroxide",
+        "Intraocular Pressure",
+        "Male",
+        "Mice, Inbred C57BL",
+        "Mitochondria",
+        "Ocular Hypertension",
+        "Oligopeptides",
+        "Retina",
+        "Retinal Ganglion Cells",
+        "Signal Transduction",
+        "Oxidative Stress",
+        "Dynamins",
+        "Mice",
+        "AMP-Activated Protein Kinases"
+      ]
+    },
+    "openalex_verifie_le": "2026-09-25",
+    "financements": [
+      {
+        "nom": "National Natural Science Foundation of China",
+        "statut": "À VÉRIFIER — trouvé par OpenAlex seulement (l'éditeur n'a déclaré aucun financeur dans Crossref) ; à contrôler dans le texte de l'article",
+        "references": null,
+        "notices": [
+          [
+            "notice OpenAlex",
+            "https://api.openalex.org/works/W7212223492"
+          ],
+          [
+            "notice Crossref consultée (ne confirme pas ce financeur)",
+            "https://api.crossref.org/works/10.63500/mv_v32_265"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "Natural Science Foundation of Shaanxi Province",
+        "statut": "À VÉRIFIER — trouvé par OpenAlex seulement (l'éditeur n'a déclaré aucun financeur dans Crossref) ; à contrôler dans le texte de l'article",
+        "references": null,
+        "notices": [
+          [
+            "notice OpenAlex",
+            "https://api.openalex.org/works/W7212223492"
+          ],
+          [
+            "notice Crossref consultée (ne confirme pas ce financeur)",
+            "https://api.crossref.org/works/10.63500/mv_v32_265"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "Education Department of Shaanxi Province",
+        "statut": "À VÉRIFIER — trouvé par OpenAlex seulement (l'éditeur n'a déclaré aucun financeur dans Crossref) ; à contrôler dans le texte de l'article",
+        "references": null,
+        "notices": [
+          [
+            "notice OpenAlex",
+            "https://api.openalex.org/works/W7212223492"
+          ],
+          [
+            "notice Crossref consultée (ne confirme pas ce financeur)",
+            "https://api.crossref.org/works/10.63500/mv_v32_265"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "State Key Laboratory of Ophthalmology",
+        "statut": "À VÉRIFIER — trouvé par OpenAlex seulement (l'éditeur n'a déclaré aucun financeur dans Crossref) ; à contrôler dans le texte de l'article",
+        "references": null,
+        "notices": [
+          [
+            "notice OpenAlex",
+            "https://api.openalex.org/works/W7212223492"
+          ],
+          [
+            "notice Crossref consultée (ne confirme pas ce financeur)",
+            "https://api.crossref.org/works/10.63500/mv_v32_265"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "Shaanxi Provincial Health Commission",
+        "statut": "À VÉRIFIER — trouvé par OpenAlex seulement (l'éditeur n'a déclaré aucun financeur dans Crossref) ; à contrôler dans le texte de l'article",
+        "references": null,
+        "notices": [
+          [
+            "notice OpenAlex",
+            "https://api.openalex.org/works/W7212223492"
+          ],
+          [
+            "notice Crossref consultée (ne confirme pas ce financeur)",
+            "https://api.crossref.org/works/10.63500/mv_v32_265"
+          ]
+        ],
+        "note": null
+      }
+    ]
+  }
+}

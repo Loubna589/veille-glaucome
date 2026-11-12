@@ -1,0 +1,106 @@
+{
+  "pmid": "42875538",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42875538",
+    "titre": "Self-administered intraocular injection of tattoo ink resulting in retinotoxicity and secondary glaucoma.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42875538/",
+    "doi": "10.1038/s41433-026-04979-z",
+    "pmcid": null,
+    "revue": "Eye (London, England)",
+    "date_entree_pubmed": "2026-10-14",
+    "date_publication": "2026-Oct-14",
+    "types_publication": [
+      "Journal Article"
+    ],
+    "resume_present": false,
+    "resume": null,
+    "mots_cles_auteurs": null,
+    "langue": "eng",
+    "nombre_auteurs": 6,
+    "affiliations_auteurs": [
+      "Department of Ophthalmology, East Kent Hospitals NHS Foundation Trust, Kent, UK. doaa.kerwat@nhs.net.",
+      "Department of Ophthalmology, East Kent Hospitals NHS Foundation Trust, Kent, UK.",
+      "National Specialist Ophthalmic Pathology Service (NSOPS), Department of Histopathology, Royal Hallamshire Hospital, Sheffield, UK.",
+      "Moorfields Eye Hospital NHS Foundation Trust, London, UK.",
+      "UCL Institute of Ophthalmology,, University College London, London, UK."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7221798438",
+      "doi": "10.1038/s41433-026-04979-z",
+      "pmid": "42875538",
+      "pmcid": null,
+      "titre": "Self-administered intraocular injection of tattoo ink resulting in retinotoxicity and secondary glaucoma",
+      "lien": "https://openalex.org/W7221798438",
+      "date_publication": "2026-10-14",
+      "type": "article",
+      "revue": "Eye",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "pubmed"
+      ],
+      "financeurs": null,
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "East Kent Hospitals University NHS Foundation Trust",
+          "pays": "GB",
+          "type": "healthcare",
+          "ror": "https://ror.org/02dqqj223"
+        },
+        {
+          "nom": "Royal Hallamshire Hospital",
+          "pays": "GB",
+          "type": "healthcare",
+          "ror": "https://ror.org/00514rc81"
+        },
+        {
+          "nom": "Moorfields Eye Hospital NHS Foundation Trust",
+          "pays": "GB",
+          "type": "healthcare",
+          "ror": "https://ror.org/03zaddr67"
+        },
+        {
+          "nom": "University College London",
+          "pays": "GB",
+          "type": "education",
+          "ror": "https://ror.org/02jx3x895"
+        }
+      ],
+      "acces_ouvert": false,
+      "statut_acces": "closed",
+      "url_texte": null,
+      "url_pdf": null,
+      "licence": null,
+      "texte_integral_indexe": false,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Tattoo and Body Piercing Complications",
+      "resume_present": false,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": []
+  }
+}

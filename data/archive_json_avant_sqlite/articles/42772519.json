@@ -1,0 +1,154 @@
+{
+  "pmid": "42772519",
+  "premiere_detection": "2026-09-25",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42772519",
+    "titre": "Cardiorespiratory fitness, cardiovascular risk, and disease-related outcomes in primary open-angle glaucoma: a cross-sectional study.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42772519/",
+    "doi": "10.1016/j.ogla.2026.09.006",
+    "pmcid": null,
+    "revue": "Ophthalmology. Glaucoma",
+    "date_entree_pubmed": "2026-09-22",
+    "date_publication": "2026-Sep-22",
+    "types_publication": [
+      "Journal Article"
+    ],
+    "resume_present": true,
+    "resume": "OBJECTIVE: To investigate the associations of objectively measured cardiorespiratory fitness (CRF) with glaucoma-related functional, structural, and patient-reported outcomes and to compare its explanatory contribution with cumulative cardiovascular (CV) risk in patients with primary open-angle glaucoma (POAG).\nDESIGN: Cross-sectional baseline analysis of the multicenter HIT-GLAUCOMA trial (NCT06058598).\nSUBJECTS: One hundred ten patients with mild-to-moderate POAG.\nMETHODS: CRF was assessed by symptom-limited cardiopulmonary exercise testing and expressed as peak oxygen uptake (VO2peak). Cumulative CV risk was estimated using the Systematic COronary Risk Evaluation 2 (SCORE2). Missing data were addressed using multiple imputation. Multivariable linear regression models with restricted cubic splines were used to evaluate associations. Relative explanatory contributions of CRF and SCORE2 were explored using adequacy indices derived from model R2 values.\nMAIN OUTCOME MEASURES: Visual field mean deviation (MD), global retinal nerve fiber layer (RNFL) thickness, Glaucoma Activity Limitation Questionnaire (GAL-9), and National Eye Institute Visual Function Questionnaire-25 (NEI-VFQ-25).\nRESULTS: No statistically significant associations were observed between CRF or SCORE2, and glaucoma-related outcomes. Nevertheless, higher CRF showed directionally more favorable estimates for visual field performance, glaucoma activity limitation, and vision-related quality of life. Higher SCORE2 showed a directionally less favorable estimate for global RNFL thickness, whereas apparent non-linear patterns for patient-reported outcomes should be interpreted cautiously. Exploratory adequacy analyses suggested differential explanatory contributions. CRF retained 95% of the explanatory information for visual field MD compared with 60% for SCORE2, whereas SCORE2 retained more explanatory information for RNFL thickness (97% vs. 86%) and NEI-VFQ-25 scores (86% vs. 40%). Given the modest sample size and the absence of statistically significant primary associations, these adequacy findings should be considered exploratory rather than confirmatory.\nCONCLUSIONS: The observed directional patterns and exploratory adequacy analyses suggest that CRF and cumulative CV risk may reflect different dimensions of CV health across glaucoma-related outcomes. However, these findings are hypothesis-generating and require confirmation in larger, adequately powered longitudinal and interventional studies.",
+    "mots_cles_auteurs": [
+      "cardiorespiratory fitness",
+      "cardiovascular risk",
+      "intraocular pressure",
+      "primary open-angle glaucoma",
+      "visual field"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 15,
+    "affiliations_auteurs": [
+      "Department of Sports, Exercise and Health, Division of Sports and Exercise Medicine, Medical Faculty, University of Basel, Basel, Switzerland.",
+      "Research Group of Rehabilitation of Internal Disorders, Department of Rehabilitation Sciences, Faculty of Movement and Rehabilitation Sciences, KU Leuven, Leuven, Belgium.",
+      "Department of Ophthalmology, University Hospitals UZ Leuven, Leuven, Belgium; Research Group of Ophthalmology, Department of Neurosciences, KU Leuven, Leuven, Belgium.",
+      "Department of Ophthalmology, University Hospitals UZ Leuven, Leuven, Belgium; Research Group of Ophthalmology, Department of Neurosciences, KU Leuven, Leuven, Belgium; Centre for Eye Research Australia, East Melbourne, VIC 3002, Australia; University of Melbourne, Melbourne, VIC 3010, Australia.",
+      "Department of Cardiovascular Diseases, University Hospitals Leuven, Leuven, Belgium.",
+      "Clinical Institute of Medical and Chemical Laboratory Diagnostics, Medical University of Graz, Austria.",
+      "Division of Nephrology, University Hospitals UZ Leuven, Leuven, Belgium; Department of Microbiology, Immunology and Transplantation, Nephrology and Renal Transplantation Research Group, KU Leuven, Leuven, Belgium.",
+      "Department of Ophthalmology, University of Basel, Basel, Switzerland.",
+      "Department of Sports, Exercise and Health, Division of Sports and Exercise Medicine, Medical Faculty, University of Basel, Basel, Switzerland. Electronic address: henner.hanssen@unibas.ch."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": [
+      "NCT06058598"
+    ],
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7214099953",
+      "doi": "10.1016/j.ogla.2026.09.006",
+      "pmid": "42772519",
+      "pmcid": null,
+      "titre": "Cardiorespiratory fitness, cardiovascular risk, and disease-related outcomes in primary open-angle glaucoma: a cross-sectional study",
+      "lien": "https://openalex.org/W7214099953",
+      "date_publication": "2026-09-01",
+      "type": "article",
+      "revue": "Ophthalmology Glaucoma",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "pubmed"
+      ],
+      "financeurs": [
+        {
+          "nom": "Schweizerischer Nationalfonds zur Förderung der Wissenschaftlichen Forschung",
+          "ror": "https://ror.org/00yjd3n13"
+        }
+      ],
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "Center for Health, Exercise and Sport Sciences",
+          "pays": "RS",
+          "type": "other",
+          "ror": "https://ror.org/0129x4h77"
+        },
+        {
+          "nom": "KU Leuven",
+          "pays": "BE",
+          "type": "education",
+          "ror": "https://ror.org/05f950310"
+        },
+        {
+          "nom": "Medical University of Graz",
+          "pays": "AT",
+          "type": "education",
+          "ror": "https://ror.org/02n0bts35"
+        },
+        {
+          "nom": "University of Basel",
+          "pays": "CH",
+          "type": "education",
+          "ror": "https://ror.org/02s6k3f65"
+        }
+      ],
+      "acces_ouvert": true,
+      "statut_acces": "hybrid",
+      "url_texte": "https://doi.org/10.1016/j.ogla.2026.09.006",
+      "url_pdf": null,
+      "licence": "cc-by",
+      "texte_integral_indexe": false,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Glaucoma and retinal disorders",
+      "resume_present": true,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-09-25",
+    "financements": [
+      {
+        "nom": "Schweizerischer Nationalfonds zur Förderung der Wissenschaftlichen Forschung",
+        "statut": "À VÉRIFIER — trouvé par OpenAlex seulement (absent de la déclaration de l'éditeur dans Crossref) ; à contrôler dans le texte de l'article",
+        "references": null,
+        "notices": [
+          [
+            "notice OpenAlex",
+            "https://api.openalex.org/works/W7214099953"
+          ],
+          [
+            "notice Crossref consultée (ne confirme pas ce financeur)",
+            "https://api.crossref.org/works/10.1016/j.ogla.2026.09.006"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "Swiss National Science Foundation",
+        "statut": "CONFIRMÉ — déclaré par l'éditeur dans Crossref (absent d'OpenAlex)",
+        "references": [
+          "32003BL_212656/1"
+        ],
+        "notices": [
+          [
+            "notice justificative Crossref (déclaration de l'éditeur)",
+            "https://api.crossref.org/works/10.1016/j.ogla.2026.09.006"
+          ]
+        ],
+        "note": null
+      }
+    ]
+  }
+}

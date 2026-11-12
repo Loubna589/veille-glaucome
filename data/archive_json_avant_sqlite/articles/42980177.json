@@ -1,0 +1,160 @@
+{
+  "pmid": "42980177",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42980177",
+    "titre": "Surgical Outcomes and Predictors of Success Following Gonioscopy-Assisted Transluminal Trabeculotomy for Primary Congenital and Juvenile Open-Angle Glaucoma.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42980177/",
+    "doi": "10.1097/IJG.0000000000002808",
+    "pmcid": null,
+    "revue": "Journal of glaucoma",
+    "date_entree_pubmed": "2026-11-04",
+    "date_publication": "2026-Nov-03",
+    "types_publication": [
+      "Journal Article"
+    ],
+    "resume_present": true,
+    "resume": "PRECIS: GATT is effective and safe in PCG and JOAG, with a higher success rate in PCG. Prior glaucoma surgery predicts surgical failure. IOP spike in one eye predicts fellow-eye spike in PCG.\nPURPOSE: To compare the efficacy and safety profiles of gonioscopy-assisted transluminal trabeculotomy (GATT) in primary congenital glaucoma (PCG) and juvenile open-angle glaucoma (JOAG), and to identify predictors for prognosis and intraocular pressure (IOP) spikes.\nPATIENTS AND METHODS: This is a retrospective cohort study of 27 PCG and 108 JOAG eyes undergoing suture GATT. Surgical outcomes including IOP reduction, number of anti-glaucoma medications, success rates, and adverse events were compared longitudinally and between groups.\nRESULTS: GATT decreased IOP significantly at all postoperative follow-ups in both groups (P<0.001) with no intergroup differences (P > 0.05). GATT also reduced the requirement of anti-glaucoma agents in both groups. The PCG group required fewer medications than the JOAG group except for the 24-month time point (P<0.05). PCG had higher cumulative partial and complete success probabilities than JOAG eyes (P=0.011 and 0.002, respectively). Prior glaucoma surgery predicted surgical failure. No vision-threatening events were recorded with transient hyphema and IOP spike being the most common complications. IOP spike in one eye had predictive value for the fellow eye in PCG, but not in JOAG.\nCONCLUSIONS: GATT is effective and safe in our PCG and JOAG cohorts, with superior outcomes in younger, surgery-naïve eyes. In PCG, an IOP spike in the first-operated eye predicts that in the fellow eye.",
+    "mots_cles_auteurs": [
+      "gonioscopy-assisted transluminal trabeculotomy",
+      "juvenile open-angle glaucoma",
+      "primary congenital glaucoma"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 5,
+    "affiliations_auteurs": [
+      "Department of Ophthalmology & Visual Science, Eye & ENT Hospital, Shanghai Medical College, Fudan University, Shanghai 200031, China.",
+      "NHC Key Laboratory of Myopia, Chinese Academy of Medical Sciences, and Shanghai Key Laboratory of Visual Impairment and Restoration (Fudan University), Shanghai 200031, China.",
+      "State Key Laboratory of Medical Neurobiology and MOE Frontiers Center for Brain Science, Institutes of Brain Science, Fudan University, Shanghai, China."
+    ],
+    "financeurs_declares": [
+      {
+        "organisme": "National Key Research and Development Program of China",
+        "pays": "",
+        "reference": "2024YFC2510802"
+      },
+      {
+        "organisme": "National Key Research and Development Program of China",
+        "pays": "",
+        "reference": "2020YFA0112704"
+      }
+    ],
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7225251357",
+      "doi": "10.1097/ijg.0000000000002808",
+      "pmid": "42980177",
+      "pmcid": null,
+      "titre": "Surgical Outcomes and Predictors of Success Following Gonioscopy-Assisted Transluminal Trabeculotomy for Primary Congenital and Juvenile Open-Angle Glaucoma",
+      "lien": "https://openalex.org/W7225251357",
+      "date_publication": "2026-11-03",
+      "type": "article",
+      "revue": "Journal of Glaucoma",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "pubmed"
+      ],
+      "financeurs": null,
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "Shanghai Medical College of Fudan University",
+          "pays": "CN",
+          "type": "education",
+          "ror": "https://ror.org/01zntxs11"
+        },
+        {
+          "nom": "Chinese Academy of Medical Sciences & Peking Union Medical College",
+          "pays": "CN",
+          "type": "education",
+          "ror": "https://ror.org/02drdmm93"
+        },
+        {
+          "nom": "Fudan University",
+          "pays": "CN",
+          "type": "education",
+          "ror": "https://ror.org/013q1eq08"
+        },
+        {
+          "nom": "Eye & ENT Hospital of Fudan University",
+          "pays": "CN",
+          "type": "healthcare",
+          "ror": "https://ror.org/02wc1yz29"
+        },
+        {
+          "nom": "State Key Laboratory of Medical Neurobiology",
+          "pays": "CN",
+          "type": "facility",
+          "ror": "https://ror.org/00nn53y54"
+        },
+        {
+          "nom": "Frontiers Center for Brain Science of the Ministry of Education",
+          "pays": "CN",
+          "type": "facility",
+          "ror": "https://ror.org/05n8v1c41"
+        }
+      ],
+      "acces_ouvert": false,
+      "statut_acces": "closed",
+      "url_texte": null,
+      "url_pdf": null,
+      "licence": null,
+      "texte_integral_indexe": false,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Glaucoma and retinal disorders",
+      "resume_present": true,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": [
+      {
+        "nom": "National Key Research and Development Program of China",
+        "statut": "CONFIRMÉ — déclaré dans la notice PubMed (GrantList)",
+        "references": [
+          "2024YFC2510802"
+        ],
+        "notices": [
+          [
+            "notice PubMed",
+            "https://pubmed.ncbi.nlm.nih.gov/42980177/?format=pubmed"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "National Key Research and Development Program of China",
+        "statut": "CONFIRMÉ — déclaré dans la notice PubMed (GrantList)",
+        "references": [
+          "2020YFA0112704"
+        ],
+        "notices": [
+          [
+            "notice PubMed",
+            "https://pubmed.ncbi.nlm.nih.gov/42980177/?format=pubmed"
+          ]
+        ],
+        "note": null
+      }
+    ]
+  }
+}

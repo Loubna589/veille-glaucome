@@ -1,0 +1,49 @@
+{
+  "openalex_id": "W7203656115",
+  "premiere_detection": "2026-09-25",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "openalex_id": "W7203656115",
+    "doi": null,
+    "pmid": null,
+    "pmcid": null,
+    "titre": "AI glaucoma screening",
+    "lien": "https://openalex.org/W7203656115",
+    "date_publication": "2026-08-15",
+    "type": "preprint",
+    "revue": "OSF Preprints (OSF Preprints)",
+    "type_source": "repository",
+    "langue": null,
+    "indexe_dans": [],
+    "financeurs": null,
+    "subventions": null,
+    "institutions": null,
+    "acces_ouvert": false,
+    "statut_acces": "closed",
+    "url_texte": null,
+    "url_pdf": null,
+    "licence": null,
+    "texte_integral_indexe": false,
+    "retracte": false,
+    "citations": 0,
+    "sujet_principal": "Retinal Imaging and Analysis",
+    "resume_present": true,
+    "resume": "The result of the model analysis reporting in actual and predicted outcomes.",
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "present_dans_pubmed": false
+  }
+}

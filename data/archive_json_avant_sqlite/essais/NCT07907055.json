@@ -1,0 +1,105 @@
+{
+  "nct": "NCT07907055",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "nct": "NCT07907055",
+    "titre": "PAUL® Glaucoma Implant Safety and Effectiveness Study",
+    "titre_officiel": "PROSPECTIVE MULTICENTER STUDY OF THE SAFETY AND EFFECTIVENESS OF THE PAUL® GLAUCOMA IMPLANT",
+    "lien": "https://clinicaltrials.gov/study/NCT07907055",
+    "date_premiere_publication": "2026-10-30",
+    "date_derniere_mise_a_jour": "2026-10-30",
+    "type_etude": "INTERVENTIONAL",
+    "phases_declarees": [
+      "NA"
+    ],
+    "statut": "NOT_YET_RECRUITING",
+    "raison_arret": null,
+    "date_debut": "2026-11-01",
+    "date_fin_principale": "2028-05-01",
+    "promoteur": "Clinical Research Consultants, Inc.",
+    "type_promoteur": "INDUSTRY",
+    "collaborateurs": null,
+    "conditions": [
+      "Refractory Glaucoma"
+    ],
+    "interventions": [
+      {
+        "type": "DEVICE",
+        "nom": "PAUL® Glaucoma Implant"
+      }
+    ],
+    "participants_nombre": 65,
+    "participants_type": "ESTIMATED",
+    "criteres_principaux": [
+      {
+        "critere": "Proportion of Subjects Achieving ≥20% Reduction in Mean Diurnal Intraocular Pressure (DIOP)",
+        "delai": "Baseline to 12 months postoperatively"
+      },
+      {
+        "critere": "Percentage Change in Mean Diurnal Intraocular Pressure (DIOP) From Baseline",
+        "delai": "Baseline to 12 months postoperatively"
+      },
+      {
+        "critere": "Proportion of Subjects With Loss of ≥2 Lines of Corrected Distance Visual Acuity (CDVA)",
+        "delai": "Baseline to 12 months postoperatively"
+      },
+      {
+        "critere": "Proportion of Subjects Requiring PAUL® Glaucoma Implant Removal",
+        "delai": "Through 12 months postoperatively"
+      }
+    ],
+    "resultats_deposes": false,
+    "publications_declarees": null,
+    "resume_source": "This prospective, multicenter clinical study is designed to evaluate the safety and effectiveness of the PAUL® Glaucoma Implant in adult patients with refractory glaucoma. Effectiveness will be assessed by measuring the reduction in intraocular pressure (IOP). Study results will support regulatory submissions to the U.S. Food and Drug Administration (FDA) and may also be used to support regulatory submissions and postmarketing surveillance activities in other countries.",
+    "citations_declarees": null,
+    "plan": {
+      "repartition": "NA",
+      "modele": "SINGLE_GROUP",
+      "but_principal": "TREATMENT",
+      "insu": "NONE",
+      "insu_pour": null,
+      "insu_description": null,
+      "modele_observationnel": null
+    },
+    "bras": [
+      {
+        "libelle": "PAUL® Glaucoma Implant",
+        "type": "EXPERIMENTAL",
+        "description": "Participants with refractory glaucoma will undergo surgical implantation of the PAUL® Glaucoma Implant to reduce intraocular pressure (IOP). Participants will be followed for 12 months to evaluate the safety and effectiveness of the device.",
+        "interventions": [
+          "Device: PAUL® Glaucoma Implant"
+        ]
+      }
+    ],
+    "eligibilite": {
+      "criteres": "Inclusion Criteria:\n\n1. Adult subjects of any gender or ethnicity and 22 years of age or older at the time of the PAUL® Glaucoma Implant surgery.\n2. Presenting with refractory primary open angle glaucoma failing maximally tolerated medical therapy (MTMT) for ≥4 medication classes, or fewer in cases where certain medication classes cannot be tolerated or are contraindicated, that can be treated with a PAUL® Glaucoma Implant, and the refractory glaucoma meets one or more of the following:\n\n   1. Having failed one or more traditional incisional intraocular glaucoma surgeries such as tube shunt or glaucoma filtering surgery (except procedures with minimally invasive glaucoma surgery (MIGS) devices, e.g., i-Stent, EX-PRESS, XEN devices)\n   2. Having failed one or more cilioablative procedures (e.g., cryotherapy or cyclodiode therapy except endocyclophotocoagulation (ECP) or micropulse cyclophotocoagulation (μCPC))\n   3. Having any other condition (e.g. conjunctival scarring, uveitis) in which conventional incisional glaucoma surgery such as trabeculectomy is likely to fail\n3. Having a Qualifying IOP (mean IOP from 2 visits at least 4 days apart) that is between ≥ 20 mm Hg and ≤ 35 mm Hg.\n4. Presence of healthy, free, and mobile conjunctiva in the target quadrant.\n5. CDVA of light perception or better.\n6. Clinical findings consistent with glaucoma:\n\n   1. Glaucomatous visual field defects with optic nerve abnormalities that, in the investigator's clinical judgment, are consistent with a diagnosis of moderate stage glaucoma or advanced/late/severe stage glaucoma as per ICD-10 staging as follows:\n\n      * Moderate Stage Glaucoma:\n\n        * Optic nerve abnormalities consistent with glaucoma (see 6.c); and,\n        * Glaucomatous visual field abnormalities in ONE hemifield and not within the central 5 degrees of fixation (note: 5 degrees = involvement of spots nearest fixation)\n      * Advanced, Late, Severe Stage Glaucoma\n\n        * Optic nerve abnormalities consistent with glaucoma (see 6.c); and,\n        * Glaucomatous visual field abnormalities in BOTH hemifields and/or loss within 5 degrees of fixation in at least one hemifield\n   2. Visual field mean deviation score that is -3 decibels (dB) or worse, if CDVA is better than 20/100\n   3. Optic nerve abnormalities consistent with glaucomatous damage include but are not limited to:\n\n   i. VCDR ≥ 0.7 in one or both eyes, or an asymmetry of ≥ 0.2 between eyes. ii. Thinning or notching of the neuroretinal rim ≥ 0.2 mm. iii. Retinal nerve fiber layer (RNFL) thinning ≥ 20 microns. iv. Presence of optic disc hemorrhages. d. Shaffer Angle Grade ≥ 3.\n7. Provide written informed consent and a signed Health Insurance Portability and Accountability Act (HIPAA) form.\n8. Availability, willingness, ability, and sufficient cognitive awareness to comply with study examination procedures and the schedule for study visits and evaluations.\n\nExclusion Criteria:\n\n1. Eyes with the glaucoma that is not primary open angle glaucoma such as the following types of glaucoma: neovascular, pseudoexfoliative, pigmentary, congenital, traumatic, or angle closure glaucoma, or open angle glaucoma resulting from aphakia or uveitis.\n2. Previous glaucoma shunt/valve in the target quadrant.\n3. Planned combined PAUL® Glaucoma Implant/cataract surgery.\n4. Anticipated need for a combined glaucoma procedure, additional ocular surgery, or retinal laser procedure within the 12-month follow-up period.\n5. CDVA worse than 20/200 in the fellow eye.\n6. Prior cataract extraction surgery was performed within 12 months of the PAUL® Glaucoma Implant surgery.\n7. Any Argon laser trabeculoplasty (ALT) or selective laser trabeculoplasty (SLT) performed within 6 months of the PAUL® Glaucoma Implant surgery (all other prior glaucoma surgeries are permitted).\n8. Other prior intraocular surgery.\n9. History of corneal opacity or corneal transplant.\n10. Central corneal thickness \\< 460 µm or \\> 620 µm.\n11. Anticipated need for ocular surgery or retinal photocoagulation during the study.\n12. Presence of any other ophthalmic disease or disorder that could confound the study results, including, but not limited to one or more of the following:\n\n    1. Active or recent corneal or intraocular inﬂammation; ocular or oral steroid use within 30 days of the operative visit\n    2. Known corticosteroid responder (due to the IOP spike risk from the postoperative corticosteroid regimen)\n    3. Current prescribed use of an oral carbonic anhydrase inhibitor or other systemic lowering medication for glaucoma treatment of one or both eyes which cannot be discontinued preoperatively\n    4. Presence of intraocular silicone oil or vitreous in the anterior chamber\n    5. Use of Latisse for hypotrichosis of the eyelashes (must be discontinued prior to operative day).\n13. Inability to discontinue contact lens wear postoperatively.\n14. Known allergy or sensitivity to any drugs required for the study or any device components.\n15. Females who are pregnant or lactating. \\[NOTE: Pregnancy testing in females of childbearing potential may be performed at the investigator's discretion, or in conformity with the surgery clinic's standard procedures. Test results will be recorded in the subject's medical records but will not be recorded on the electronic case report forms (eCRFs).\\]\n16. Presence or history or any other condition or finding that, in the investigator's opinion, makes the subject unsuitable as a candidate for study participation, may increase the operative risk (e.g., uncontrolled hypertension, diabetes, immunocompromised status, autoimmune disease, blood clotting disorders), or may confound the outcome of the study.\n17. Current participation in another ophthalmic clinical trial.",
+      "age_min": "22 Years",
+      "age_max": null,
+      "sexe": "ALL",
+      "volontaires_sains": false
+    },
+    "criteres_secondaires": [
+      {
+        "critere": "Proportion of Subjects Achieving Target DIOP Range",
+        "delai": "Baseline to 12 months"
+      },
+      {
+        "critere": "Change in Number of Ocular Hypotensive Medication Classes",
+        "delai": "Baseline to 12 months"
+      },
+      {
+        "critere": "Incidence of Ocular Adverse Events",
+        "delai": "Through 12 months"
+      },
+      {
+        "critere": "Incidence of Elevated Intraocular Pressure Complications",
+        "delai": "Through 12 months"
+      }
+    ],
+    "responsables": null,
+    "date_depot_resultats": null,
+    "resultats": null
+  },
+  "modifications": []
+}

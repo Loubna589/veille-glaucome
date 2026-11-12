@@ -1,0 +1,125 @@
+{
+  "nct": "NCT07869108",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "nct": "NCT07869108",
+    "titre": "Trabeculectomy Versus MicroShunt Implantation in Glaucoma Surgery (TIGER)",
+    "titre_officiel": "Trabeculectomy Versus MicroShunt Implantation in Glaucoma Surgery: a Randomized Clinical Trial (TIGER)",
+    "lien": "https://clinicaltrials.gov/study/NCT07869108",
+    "date_premiere_publication": "2026-10-09",
+    "date_derniere_mise_a_jour": "2026-10-09",
+    "type_etude": "INTERVENTIONAL",
+    "phases_declarees": [
+      "NA"
+    ],
+    "statut": "NOT_YET_RECRUITING",
+    "raison_arret": null,
+    "date_debut": "2026-10-01",
+    "date_fin_principale": "2028-01-31",
+    "promoteur": "Oslo University Hospital",
+    "type_promoteur": "OTHER",
+    "collaborateurs": null,
+    "conditions": [
+      "Glaucoma"
+    ],
+    "interventions": [
+      {
+        "type": "PROCEDURE",
+        "nom": "Preserflo MicroShunt"
+      },
+      {
+        "type": "PROCEDURE",
+        "nom": "Trabeculectomy"
+      }
+    ],
+    "participants_nombre": 100,
+    "participants_type": "ESTIMATED",
+    "criteres_principaux": [
+      {
+        "critere": "Intraocular pressure measured with Goldmann Applanation Tonometry",
+        "delai": "From enrollment to the end of follow-up at 5 years."
+      },
+      {
+        "critere": "Number of glaucoma medications",
+        "delai": "From enrollment to the end of follow-up at 5 years."
+      },
+      {
+        "critere": "Corrected distance visual acuity (CDVA)",
+        "delai": "At enrollment, 3 months, one year, two years and 5 years after the two treatments."
+      },
+      {
+        "critere": "Progression of the visual field (in particular change in MD)",
+        "delai": "From enrollment to the end of follow-up at 5 years."
+      },
+      {
+        "critere": "Endothelial cell density (ECD)",
+        "delai": "From enrollment to the end of follow-up at 5 years."
+      }
+    ],
+    "resultats_deposes": false,
+    "publications_declarees": null,
+    "resume_source": "Glaucoma is an eye disease causing vision loss if not treated adequately. The prevalence is around 1.5%, exponentially increasing to more than 10% in the elderly. Trabeculectomy has been the gold standard surgery for decades and is an evidence based choice for glaucoma surgery. In the last years, new operation methods with shunts or stents (MIGS) have been introduced, however, the scientific evidence for the efficacy and safety of these new methods are scarce and the cost is considerable. Nevertheless, the use has increased, likely due to a shorter learning curve for surgery. The aim of the present project is to perform a randomized clinical trial comparing trabeculectomy versus Preserflo MicroShunt surgery in patients with glaucoma, and to compare the efficacy (intraocular pressure reduction), the safety (in terms of complication rate) and cost-efficiency. The project targets a large patient group and a considerable resource use in Norwegian opthalmology departments.\n\nMain aim: to optimize treatment in glaucoma patients by evaluating surgical treatment strategies and guidelines. Objectives: to compare trabeculectomy (gold standard) versus Preserflo microshunt implantation (less invasive surgery) in glaucoma patients in a randomized trial comparing several parameters such as intraocular pressure, number of glaucoma medications, vision and the safety (including complications, corneal endothalial cell loss and need for re-operations) between these two groups.",
+    "citations_declarees": null,
+    "plan": {
+      "repartition": "RANDOMIZED",
+      "modele": "PARALLEL",
+      "but_principal": "TREATMENT",
+      "insu": "NONE",
+      "insu_pour": null,
+      "insu_description": null,
+      "modele_observationnel": null
+    },
+    "bras": [
+      {
+        "libelle": "Trabeculectomy",
+        "type": "ACTIVE_COMPARATOR",
+        "description": null,
+        "interventions": [
+          "Procedure: Trabeculectomy"
+        ]
+      },
+      {
+        "libelle": "Preserflo MicroShunt",
+        "type": "ACTIVE_COMPARATOR",
+        "description": null,
+        "interventions": [
+          "Procedure: Preserflo MicroShunt"
+        ]
+      }
+    ],
+    "eligibilite": {
+      "criteres": "Inclusion Criteria:\n\n* Primary filtering surgery in the given eye\n* Ability to cooperate fairly well\n* Willingness to participate\n\nExclusion Criteria:\n\n* Low target IOP\n* Previous filtering surgery in the same eye\n* Corneal decompensation\n* Juvenile glaucoma",
+      "age_min": "40 Years",
+      "age_max": null,
+      "sexe": "ALL",
+      "volontaires_sains": false
+    },
+    "criteres_secondaires": [
+      {
+        "critere": "Flare in the anterior chamber measured with a laserflare meter in photoncounts per millisecond (pc/ms)",
+        "delai": "From enrollment to the end of follow-up at 5 years."
+      },
+      {
+        "critere": "Macular thickness measured with OCT",
+        "delai": "From enrollment to the end of follow-up at 5 years."
+      },
+      {
+        "critere": "Retinal nerve fibre layer (RNFL) measured in micrometers with OCT",
+        "delai": "From enrollment to the end of follow-up at 5 years."
+      },
+      {
+        "critere": "EQ-5D and NEI-VFQ 25 questionnaires for self-reported health and life quality",
+        "delai": "From enrollment to the end of follow-up at 5 years."
+      },
+      {
+        "critere": "Cost-effectiveness analysis (CEA) of the two intervention groups",
+        "delai": "From enrollment to the end of follow-up at 5 years."
+      }
+    ],
+    "responsables": null,
+    "date_depot_resultats": null,
+    "resultats": null
+  },
+  "modifications": []
+}

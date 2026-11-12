@@ -1,0 +1,266 @@
+{
+  "pmid": "42958933",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42958933",
+    "titre": "Biobank analysis of canine eye disease variants identifies new breed associations and a potential X-linked Retinoschisin 1 disease model.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42958933/",
+    "doi": "10.1093/g3journal/jkag296",
+    "pmcid": null,
+    "revue": "G3 (Bethesda, Md.)",
+    "date_entree_pubmed": "2026-10-30",
+    "date_publication": "2026-Oct-30",
+    "types_publication": [
+      "Journal Article"
+    ],
+    "resume_present": true,
+    "resume": "Canine inherited ocular diseases exhibit significant genetic heterogeneity, mirroring many human ophthalmic conditions. This study conducted an extensive screening of 90 OMIA-listed disease-associated variants across 192 affected dogs from 71 breeds to evaluate diagnostic utility and identify novel disease models. This screening identified previously reported variants in 35% of cases, while most cases remained unexplained, prompting whole-genome sequencing of a variant-negative case. This led to the identification of a novel candidate duplication c.442dupC in the X-linked Retinoschisin 1 (RS1) gene, located in the conserved discoidin domain of RS1. If validated, this variant may establish the first spontaneous canine model for human X-linked retinoschisis that may provide a new model for studying pathogenesis and therapeutic approaches. Our analysis also supported the expansion of the known breed distributions for several variants, including progressive retinal atrophy (PRA) variant IFT122 c.3176G>A in Finnish Lapphunds, PRA variant PDE6A c.1847del in Pomeranians, glaucoma variant ADAMTS10 c.1981G>A in East Siberian Laikas, and microphthalmia variant RBP4 c.90_92del in Jack Russell Terriers. The RPGRIP1 c.142_143ins[A[29]; GGAAGCAACAGGATG] PRA variant was observed in four new breeds; however, the reported phenotype was not sufficient to confirm the causative nature. Additionally, our data reclassified the JPH2 c.452A>C PRA variant as a common, benign polymorphism rather than a causal variant in Shih Tzus, emphasizing the need for large-scale genomic validation of published markers. Collectively, these results illustrate the extensive genetic heterogeneity underlying canine eye diseases and underscore the potential for identifying novel preclinical models that advance both veterinary medicine and human vision research.",
+    "mots_cles_auteurs": [
+      "Dog",
+      "Pomeranian",
+      "RS1",
+      "eye disorder",
+      "gene panel",
+      "progressive retinal atrophy",
+      "screening"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 16,
+    "affiliations_auteurs": [
+      "Department of Medical and Clinical Genetics, Faculty of Medicine, University of Helsinki, Helsinki, 00014, Finland.",
+      "Department of Veterinary Biosciences, Faculty of Veterinary Medicine, University of Helsinki, Helsinki, 00014, Finland.",
+      "Folkhälsan Research Center, Helsinki, 00290, Finland.",
+      "Wisdom Panel, Antech Diagnostics, Mars Petcare Science & Diagnostics, Waltham on the Wolds, Leicestershire, LE14 4RT, United Kingdom.",
+      "Department of Clinical Sciences, Faculty of Veterinary Medicine, Utrecht University, Utrecht, 3584 CM, the Netherlands.",
+      "Sylvia M Van Sloun Laboratory, Department of Clinical Sciences, School of Veterinary Medicine, University of Pennsylvania, Philadelphia, PA, 19104, USA.",
+      "Small Animal Veterinary Clinic Kamu, Oulu, 90100, Finland.",
+      "Department of Ophthalmology, University of Helsinki and Helsinki University Hospital, Helsinki, 00029, Finland."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7224792045",
+      "doi": "10.1093/g3journal/jkag296",
+      "pmid": "42958933",
+      "pmcid": null,
+      "titre": "Biobank analysis of canine eye disease variants identifies new breed associations and a potential X-linked Retinoschisin 1 disease model",
+      "lien": "https://openalex.org/W7224792045",
+      "date_publication": "2026-10-30",
+      "type": "article",
+      "revue": "G3 Genes Genomes Genetics",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "doaj",
+        "pubmed"
+      ],
+      "financeurs": [
+        {
+          "nom": "Helsingin Yliopisto",
+          "ror": "https://ror.org/040af2s02"
+        },
+        {
+          "nom": "Mary och Georg C. Ehrnrooths Stiftelse",
+          "ror": "https://ror.org/01ddjva78"
+        },
+        {
+          "nom": "Suomen Kulttuurirahasto",
+          "ror": "https://ror.org/027xav248"
+        },
+        {
+          "nom": "Jane ja Aatos Erkon Säätiö",
+          "ror": "https://ror.org/03vxy9y38"
+        },
+        {
+          "nom": "China Scholarship Council",
+          "ror": "https://ror.org/04atp4p48"
+        },
+        {
+          "nom": "Sigrid Juséliuksen Säätiö",
+          "ror": "https://ror.org/00ckakm23"
+        },
+        {
+          "nom": "Evald ja Hilda Nissin Säätiö",
+          "ror": "https://ror.org/048nwgf39"
+        }
+      ],
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "University of Helsinki",
+          "pays": "FI",
+          "type": "education",
+          "ror": "https://ror.org/040af2s02"
+        },
+        {
+          "nom": "Folkhälsans Forskningscentrum",
+          "pays": "FI",
+          "type": "government",
+          "ror": "https://ror.org/05xznzw56"
+        },
+        {
+          "nom": "Utrecht University",
+          "pays": "NL",
+          "type": "education",
+          "ror": "https://ror.org/04pp8hn57"
+        },
+        {
+          "nom": "University of Pennsylvania",
+          "pays": "US",
+          "type": "education",
+          "ror": "https://ror.org/00b30xv10"
+        },
+        {
+          "nom": "Helsinki University Hospital",
+          "pays": "FI",
+          "type": "healthcare",
+          "ror": "https://ror.org/02e8hzf44"
+        }
+      ],
+      "acces_ouvert": true,
+      "statut_acces": "gold",
+      "url_texte": "https://academic.oup.com/g3journal/advance-article-pdf/doi/10.1093/g3journal/jkag296/72612101/jkag296.pdf",
+      "url_pdf": "https://academic.oup.com/g3journal/advance-article-pdf/doi/10.1093/g3journal/jkag296/72612101/jkag296.pdf",
+      "licence": "cc-by",
+      "texte_integral_indexe": true,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Retinal Development and Disorders",
+      "resume_present": true,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": [
+      {
+        "nom": "Helsingin Yliopisto",
+        "statut": "À VÉRIFIER — trouvé par OpenAlex seulement (l'éditeur n'a déclaré aucun financeur dans Crossref) ; à contrôler dans le texte de l'article",
+        "references": null,
+        "notices": [
+          [
+            "notice OpenAlex",
+            "https://api.openalex.org/works/W7224792045"
+          ],
+          [
+            "notice Crossref consultée (ne confirme pas ce financeur)",
+            "https://api.crossref.org/works/10.1093/g3journal/jkag296"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "Mary och Georg C. Ehrnrooths Stiftelse",
+        "statut": "À VÉRIFIER — trouvé par OpenAlex seulement (l'éditeur n'a déclaré aucun financeur dans Crossref) ; à contrôler dans le texte de l'article",
+        "references": null,
+        "notices": [
+          [
+            "notice OpenAlex",
+            "https://api.openalex.org/works/W7224792045"
+          ],
+          [
+            "notice Crossref consultée (ne confirme pas ce financeur)",
+            "https://api.crossref.org/works/10.1093/g3journal/jkag296"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "Suomen Kulttuurirahasto",
+        "statut": "À VÉRIFIER — trouvé par OpenAlex seulement (l'éditeur n'a déclaré aucun financeur dans Crossref) ; à contrôler dans le texte de l'article",
+        "references": null,
+        "notices": [
+          [
+            "notice OpenAlex",
+            "https://api.openalex.org/works/W7224792045"
+          ],
+          [
+            "notice Crossref consultée (ne confirme pas ce financeur)",
+            "https://api.crossref.org/works/10.1093/g3journal/jkag296"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "Jane ja Aatos Erkon Säätiö",
+        "statut": "À VÉRIFIER — trouvé par OpenAlex seulement (l'éditeur n'a déclaré aucun financeur dans Crossref) ; à contrôler dans le texte de l'article",
+        "references": null,
+        "notices": [
+          [
+            "notice OpenAlex",
+            "https://api.openalex.org/works/W7224792045"
+          ],
+          [
+            "notice Crossref consultée (ne confirme pas ce financeur)",
+            "https://api.crossref.org/works/10.1093/g3journal/jkag296"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "China Scholarship Council",
+        "statut": "À VÉRIFIER — trouvé par OpenAlex seulement (l'éditeur n'a déclaré aucun financeur dans Crossref) ; à contrôler dans le texte de l'article",
+        "references": null,
+        "notices": [
+          [
+            "notice OpenAlex",
+            "https://api.openalex.org/works/W7224792045"
+          ],
+          [
+            "notice Crossref consultée (ne confirme pas ce financeur)",
+            "https://api.crossref.org/works/10.1093/g3journal/jkag296"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "Sigrid Juséliuksen Säätiö",
+        "statut": "À VÉRIFIER — trouvé par OpenAlex seulement (l'éditeur n'a déclaré aucun financeur dans Crossref) ; à contrôler dans le texte de l'article",
+        "references": null,
+        "notices": [
+          [
+            "notice OpenAlex",
+            "https://api.openalex.org/works/W7224792045"
+          ],
+          [
+            "notice Crossref consultée (ne confirme pas ce financeur)",
+            "https://api.crossref.org/works/10.1093/g3journal/jkag296"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "Evald ja Hilda Nissin Säätiö",
+        "statut": "À VÉRIFIER — trouvé par OpenAlex seulement (l'éditeur n'a déclaré aucun financeur dans Crossref) ; à contrôler dans le texte de l'article",
+        "references": null,
+        "notices": [
+          [
+            "notice OpenAlex",
+            "https://api.openalex.org/works/W7224792045"
+          ],
+          [
+            "notice Crossref consultée (ne confirme pas ce financeur)",
+            "https://api.crossref.org/works/10.1093/g3journal/jkag296"
+          ]
+        ],
+        "note": null
+      }
+    ]
+  }
+}

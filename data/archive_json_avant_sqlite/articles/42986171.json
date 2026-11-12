@@ -1,0 +1,133 @@
+{
+  "pmid": "42986171",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42986171",
+    "titre": "Comparing performance on a continuous visual stimulus tracking task between real and simulated visual field defects: Evidence for long-term adaptation.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42986171/",
+    "doi": "10.1167/jov.26.11.3",
+    "pmcid": null,
+    "revue": "Journal of vision",
+    "date_entree_pubmed": "2026-11-05",
+    "date_publication": "2026-Nov-04",
+    "types_publication": [
+      "Journal Article",
+      "Comparative Study"
+    ],
+    "resume_present": true,
+    "resume": "Individuals with visual field defects (VFDs) can adapt to their VFDs by making compensatory eye movements. Establishing whether such adaptation improves functional vision could enhance rehabilitation programs. Here, we used continuous visual stimulus tracking (CVST) and compared tracking performance (agreement between the gaze and stimulus positions) in participants with a glaucomatous VFD (VFD participants) with that of controls that experienced a similar but simulated VFD. Our VFD simulation used the deviations in contrast sensitivities from standard automated perimetry to create a gaze-contingent transparency mask. We collected eye movement data from 20 controls and 20 VFD participants while they monocularly tracked a moving stimulus (Goldmann III, 0.43° diameter) at three contrast levels (40%, 160%, and 640%). Each control performed the task with the VFD of a matched VFD participant in simulation. For early-stage VFDs, tracking performance was not significantly different between VFD participants and controls with the simulated VFD. However, for more severe VFDs, the difference increased in favor of the VFD participant. Additionally, predicting VFD severity from tracking performance was more accurate for controls than for VFD participants. We concluded that CVST performance can reveal the presence of adaptation to actual VFDs. Our findings suggest that tracking with a simulated VFD primarily reflects visual sensitivity loss, and tracking with an actual VFD also reflects adaptation. Moreover, our findings suggest that long-term adaptation to actual VFDs manifests as (implicit) knowledge about the location of the defect, guiding compensatory viewing behavior and improving functional vision. CVST may aid in quantifying this improvement.",
+    "mots_cles_auteurs": null,
+    "langue": "eng",
+    "nombre_auteurs": 7,
+    "affiliations_auteurs": [
+      "Laboratory of Experimental Ophthalmology, University Medical Center Groningen, University of Groningen, Groningen, The Netherlands.",
+      "minke.de.boer@rug.nl.",
+      "Royal Dutch Visio, Centre of Expertise for Blind and Partially Sighted People, Huizen, The Netherlands.",
+      "a.c.l.vrijling@umcg.nl.",
+      "Cognitive Neuroscience Center, University Medical Center Groningen, University of Groningen, Groningen, The Netherlands.",
+      "j.b.c.marsman@umcg.nl.",
+      "r.j.renken@umcg.nl.",
+      "Department of Clinical and Developmental Neuropsychology, University of Groningen, Groningen, The Netherlands.",
+      "j.h.c.heutink@rug.nl.",
+      "Department of Ophthalmology, University Medical Center Groningen, University of Groningen, Groningen, The Netherlands.",
+      "n.m.jansonius@umcg.nl.",
+      "f.w.cornelissen@umcg.nl."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": [
+      "Humans",
+      "Visual Fields",
+      "Eye Movements",
+      "Adaptation, Physiological",
+      "Female",
+      "Photic Stimulation",
+      "Male",
+      "Middle Aged",
+      "Visual Field Tests",
+      "Aged",
+      "Contrast Sensitivity"
+    ]
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": null,
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7225291998",
+      "doi": "10.1167/jov.26.11.3",
+      "pmid": "42986171",
+      "pmcid": null,
+      "titre": "Comparing performance on a continuous visual stimulus tracking task between real and simulated visual field defects: Evidence for long-term adaptation",
+      "lien": "https://openalex.org/W7225291998",
+      "date_publication": "2026-11-05",
+      "type": "article",
+      "revue": "Journal of Vision",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "doaj",
+        "pubmed"
+      ],
+      "financeurs": null,
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "University Medical Center Groningen",
+          "pays": "NL",
+          "type": "healthcare",
+          "ror": "https://ror.org/03cv38k47"
+        },
+        {
+          "nom": "University of Groningen",
+          "pays": "NL",
+          "type": "education",
+          "ror": "https://ror.org/012p63287"
+        },
+        {
+          "nom": "Visio",
+          "pays": "NL",
+          "type": "healthcare",
+          "ror": "https://ror.org/043nwx769"
+        }
+      ],
+      "acces_ouvert": true,
+      "statut_acces": "gold",
+      "url_texte": "https://doi.org/10.1167/jov.26.11.3",
+      "url_pdf": null,
+      "licence": "cc-by-nc-nd",
+      "texte_integral_indexe": false,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Glaucoma and retinal disorders",
+      "resume_present": true,
+      "mesh": [
+        "Adaptation, Physiological",
+        "Aged",
+        "Eye Movements",
+        "Female",
+        "Humans",
+        "Male",
+        "Middle Aged",
+        "Photic Stimulation",
+        "Visual Fields",
+        "Contrast Sensitivity",
+        "Visual Field Tests"
+      ]
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": []
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "openalex_id": "W7151866043",
+  "premiere_detection": "2026-09-25",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "openalex_id": "W7151866043",
+    "doi": "10.1007/s10462-026-11551-4",
+    "pmid": null,
+    "pmcid": null,
+    "titre": "Explainable AI for glaucoma detection and classification: a comprehensive review",
+    "lien": "https://openalex.org/W7151866043",
+    "date_publication": "2026-04-08",
+    "type": "article",
+    "revue": "Artificial Intelligence Review",
+    "type_source": "journal",
+    "langue": "en",
+    "indexe_dans": [
+      "crossref"
+    ],
+    "financeurs": null,
+    "subventions": null,
+    "institutions": [
+      {
+        "nom": "AlAlamein International University",
+        "pays": "EG",
+        "type": "education",
+        "ror": "https://ror.org/0019h0z47"
+      },
+      {
+        "nom": "University of Louisville",
+        "pays": "US",
+        "type": "education",
+        "ror": "https://ror.org/01ckdn478"
+      },
+      {
+        "nom": "Eastern Kentucky University",
+        "pays": "US",
+        "type": "education",
+        "ror": "https://ror.org/012xks909"
+      },
+      {
+        "nom": "Washington University in St. Louis",
+        "pays": "US",
+        "type": "education",
+        "ror": "https://ror.org/01yc7t268"
+      },
+      {
+        "nom": "Albert Einstein College of Medicine",
+        "pays": "US",
+        "type": "education",
+        "ror": "https://ror.org/05cf8a891"
+      },
+      {
+        "nom": "Montefiore Medical Center",
+        "pays": "US",
+        "type": "healthcare",
+        "ror": "https://ror.org/044ntvm43"
+      },
+      {
+        "nom": "Mansoura University",
+        "pays": "EG",
+        "type": "education",
+        "ror": "https://ror.org/01k8vtd75"
+      },
+      {
+        "nom": "Abu Dhabi University",
+        "pays": "AE",
+        "type": "education",
+        "ror": "https://ror.org/01r3kjq03"
+      }
+    ],
+    "acces_ouvert": true,
+    "statut_acces": "hybrid",
+    "url_texte": "https://link.springer.com/content/pdf/10.1007/s10462-026-11551-4.pdf",
+    "url_pdf": "https://link.springer.com/content/pdf/10.1007/s10462-026-11551-4.pdf",
+    "licence": "cc-by-nc-nd",
+    "texte_integral_indexe": true,
+    "retracte": false,
+    "citations": 2,
+    "sujet_principal": "Retinal Imaging and Analysis",
+    "resume_present": true,
+    "resume": "Glaucoma is a leading cause of irreversible blindness and often advances without symptoms. This PRISMA/PICOS–guided systematic review synthesizes 100 studies (to January 2025) on artificial intelligence (AI) for glaucoma detection, staging, and monitoring using color fundus photography (CFP), optical coherence tomography (OCT), and OCT angiography (OCTA). Roughly 45% of studies use CFP, 55–60% use OCT, and 10–15% use OCTA; about one quarter fuse multiple imaging types with clinical data. Across methods—convolutional neural networks, Transformers, and hybrid fusion—internal test results are strong, with several systems reporting specialist-level sensitivity and specificity. Translation to practice remains limited by small, single-center cohorts, device/domain shifts that reduce generalization, a lack of prospective trials, and explainability approaches that are misaligned with clinical reasoning. We recommend multi-center, multi-ethnic, multi-vendor benchmarks, rigorous external and prospective validation, clinically meaningful and standardized explainability, and cost- and workflow-aware deployment. Addressing these gaps could enable earlier detection, more personalized monitoring, and real-world impact in reducing preventable blindness. Within this review, we investigate key challenges revolving around the use of AI models for glaucoma imaging across different learning paradigms, improving model efficiency, and coupling them with complementary techniques and multimodal data (CFP, OCT, and OCTA). We hope this review can give a comprehensive picture of AI-based methods for glaucoma to readers in the field of medical image analysis.",
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "present_dans_pubmed": false
+  }
+}

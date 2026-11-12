@@ -1,0 +1,297 @@
+{
+  "pmid": "42870312",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42870312",
+    "titre": "Comparative Efficacy and Safety of Systemic Immunomodulatory Therapies for Non-Infectious Uveitis: A Systematic Review With Pairwise and Network Meta-Analyses.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42870312/",
+    "doi": "10.1002/phar.70184",
+    "pmcid": "PMC13661773",
+    "revue": "Pharmacotherapy",
+    "date_entree_pubmed": "2026-10-14",
+    "date_publication": "2026-Nov",
+    "types_publication": [
+      "Journal Article",
+      "Systematic Review",
+      "Network Meta-Analysis",
+      "Comparative Study"
+    ],
+    "resume_present": true,
+    "resume": "INTRODUCTION: Non-infectious uveitis (NIU) is a chronic immune-mediated ocular inflammatory disease that may cause irreversible visual impairment. The comparative efficacy and safety of systemic immunomodulatory therapies, including conventional agents and biologics, remain incompletely defined. This systematic review and network meta-analysis evaluated systemic immunosuppressive therapies for NIU.\nMETHODS: PubMed/MEDLINE, Cochrane CENTRAL, Scopus and Web of Science Core Collection were searched from inception to May 2, 2026. Randomized controlled trials and prospective comparative cohort studies evaluating systemic immunomodulatory or biologic therapies for NIU were included. The primary efficacy outcome was treatment failure. Safety outcomes included mortality, urinary tract infection, upper respiratory tract infection, injection-site reactions, ocular hypertension, macular edema, and headache. Random-effects pairwise meta-analysis and frequentist network meta-analysis were performed using risk ratios (RRs) with 95% confidence intervals (CIs).\nRESULTS: Seven studies including 992 participants were included; six were randomized controlled trials and one was a prospective cohort. In the pairwise meta-analysis, adalimumab significantly reduced treatment failure compared with placebo (RR, 0.67; 95% CI, 0.58-0.78; p < 0.0001; I² = 28.1%). The mortality estimate was inconclusive (RR, 3.80; 95% CI, 0.42-34.15), with three deaths in the adalimumab groups and none in the placebo groups. Adalimumab was associated with a higher risk of injection-site reactions than placebo (RR, 2.67; 95% CI, 1.73-4.12). Network meta-analysis showed no significant differences for most safety outcomes, including upper respiratory tract infection, ocular hypertension, macular edema, and headache. Infliximab showed an imprecise urinary tract infection signal versus placebo (RR, 40.98; 95% CI, 1.82-922.17), based on sparse events and one nonrandomized comparison.\nCONCLUSION: Adalimumab provides the most consistent evidence for reducing treatment failure in NIU. Comparative safety estimates, particularly for infliximab, remain uncertain and hypothesis-generating. Larger, long-term, head-to-head trials are required.",
+    "mots_cles_auteurs": [
+      "adalimumab",
+      "immunosuppressant therapy",
+      "infliximab",
+      "network meta‐analysis",
+      "non‐infectious uveitis"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 3,
+    "affiliations_auteurs": [
+      "Department of General Medicine, Chang Gung Memorial Hospital (Linkou Branch), Taoyuan, Taiwan.",
+      "School of Pharmacy, China Medical University, Taichung, Taiwan.",
+      "Department of Ophthalmology, Cardinal Tien Hospital, New Taipei City, Taiwan.",
+      "School of Medicine, Fu Jen Catholic University, New Taipei City, Taiwan."
+    ],
+    "financeurs_declares": [
+      {
+        "organisme": "National Science and Technology Council Taiwan",
+        "pays": "",
+        "reference": "NSTC-114-2314-B-567-002"
+      },
+      {
+        "organisme": "National Science and Technology Council Taiwan",
+        "pays": "",
+        "reference": "NSTC-113-2314-B-567-001"
+      },
+      {
+        "organisme": "Cardinal Tien Hospital",
+        "pays": "",
+        "reference": "CTH-110A-2217"
+      },
+      {
+        "organisme": "Cardinal Tien Hospital",
+        "pays": "",
+        "reference": "CTH-112A-2215"
+      },
+      {
+        "organisme": "Cardinal Tien Hospital",
+        "pays": "",
+        "reference": "CTH-113A-NDMC-2233"
+      }
+    ],
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": [
+      "Humans",
+      "Uveitis",
+      "Immunosuppressive Agents",
+      "Adalimumab",
+      "Randomized Controlled Trials as Topic",
+      "Treatment Outcome",
+      "Immunomodulating Agents"
+    ]
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": null,
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7221666773",
+      "doi": "10.1002/phar.70184",
+      "pmid": "42870312",
+      "pmcid": "13661773",
+      "titre": "Comparative Efficacy and Safety of Systemic Immunomodulatory Therapies for Non‐Infectious Uveitis: A Systematic Review With Pairwise and Network Meta‐Analyses",
+      "lien": "https://openalex.org/W7221666773",
+      "date_publication": "2026-10-13",
+      "type": "review",
+      "revue": "Pharmacotherapy The Journal of Human Pharmacology and Drug Therapy",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "pubmed"
+      ],
+      "financeurs": [
+        {
+          "nom": "National Defense Medical College",
+          "ror": "https://ror.org/02e4qbj88"
+        },
+        {
+          "nom": "Cardinal Tien Hospital",
+          "ror": "https://ror.org/04ksqpz49"
+        },
+        {
+          "nom": "National Science and Technology Council",
+          "ror": "https://ror.org/00wnb9798"
+        }
+      ],
+      "subventions": [
+        {
+          "financeur": "Cardinal Tien Hospital",
+          "reference": "CTH112A-2215"
+        },
+        {
+          "financeur": "Cardinal Tien Hospital",
+          "reference": "CTH-113A-NDMC-2233"
+        },
+        {
+          "financeur": "Cardinal Tien Hospital",
+          "reference": "CTH-110A-2217"
+        }
+      ],
+      "institutions": [
+        {
+          "nom": "Chang Gung Memorial Hospital",
+          "pays": "TW",
+          "type": "healthcare",
+          "ror": "https://ror.org/02verss31"
+        },
+        {
+          "nom": "Taoyuan Chang Gung Memorial Hospital",
+          "pays": "TW",
+          "type": "healthcare",
+          "ror": "https://ror.org/00fk9d670"
+        },
+        {
+          "nom": "Linkou Chang Gung Memorial Hospital",
+          "pays": "TW",
+          "type": "healthcare",
+          "ror": "https://ror.org/02dnn6q67"
+        },
+        {
+          "nom": "China Medical University",
+          "pays": "TW",
+          "type": "education",
+          "ror": "https://ror.org/00v408z34"
+        },
+        {
+          "nom": "Fu Jen Catholic University",
+          "pays": "TW",
+          "type": "education",
+          "ror": "https://ror.org/04je98850"
+        },
+        {
+          "nom": "Cardinal Tien Hospital",
+          "pays": "TW",
+          "type": "healthcare",
+          "ror": "https://ror.org/04ksqpz49"
+        }
+      ],
+      "acces_ouvert": true,
+      "statut_acces": "hybrid",
+      "url_texte": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/phar.70184",
+      "url_pdf": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/phar.70184",
+      "licence": "cc-by-nc",
+      "texte_integral_indexe": true,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Ocular Diseases and Behçet’s Syndrome",
+      "resume_present": true,
+      "mesh": [
+        "Adalimumab",
+        "Immunomodulating Agents",
+        "Humans",
+        "Immunosuppressive Agents",
+        "Uveitis",
+        "Randomized Controlled Trials as Topic",
+        "Treatment Outcome"
+      ]
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": [
+      {
+        "nom": "National Science and Technology Council Taiwan",
+        "statut": "CONFIRMÉ — déclaré dans la notice PubMed (GrantList)",
+        "references": [
+          "NSTC-114-2314-B-567-002"
+        ],
+        "notices": [
+          [
+            "notice PubMed",
+            "https://pubmed.ncbi.nlm.nih.gov/42870312/?format=pubmed"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "National Science and Technology Council Taiwan",
+        "statut": "CONFIRMÉ — déclaré dans la notice PubMed (GrantList)",
+        "references": [
+          "NSTC-113-2314-B-567-001"
+        ],
+        "notices": [
+          [
+            "notice PubMed",
+            "https://pubmed.ncbi.nlm.nih.gov/42870312/?format=pubmed"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "Cardinal Tien Hospital",
+        "statut": "CONFIRMÉ — déclaré dans la notice PubMed (GrantList)",
+        "references": [
+          "CTH-110A-2217"
+        ],
+        "notices": [
+          [
+            "notice PubMed",
+            "https://pubmed.ncbi.nlm.nih.gov/42870312/?format=pubmed"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "Cardinal Tien Hospital",
+        "statut": "CONFIRMÉ — déclaré dans la notice PubMed (GrantList)",
+        "references": [
+          "CTH-112A-2215"
+        ],
+        "notices": [
+          [
+            "notice PubMed",
+            "https://pubmed.ncbi.nlm.nih.gov/42870312/?format=pubmed"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "Cardinal Tien Hospital",
+        "statut": "CONFIRMÉ — déclaré dans la notice PubMed (GrantList)",
+        "references": [
+          "CTH-113A-NDMC-2233"
+        ],
+        "notices": [
+          [
+            "notice PubMed",
+            "https://pubmed.ncbi.nlm.nih.gov/42870312/?format=pubmed"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "National Defense Medical College",
+        "statut": "À VÉRIFIER — trouvé par OpenAlex seulement (absent de la déclaration de l'éditeur dans Crossref) ; à contrôler dans le texte de l'article",
+        "references": null,
+        "notices": [
+          [
+            "notice OpenAlex",
+            "https://api.openalex.org/works/W7221666773"
+          ],
+          [
+            "notice Crossref consultée (ne confirme pas ce financeur)",
+            "https://api.crossref.org/works/10.1002/phar.70184"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "National Science and Technology Council",
+        "statut": "À VÉRIFIER — trouvé par OpenAlex seulement (absent de la déclaration de l'éditeur dans Crossref) ; à contrôler dans le texte de l'article",
+        "references": null,
+        "notices": [
+          [
+            "notice OpenAlex",
+            "https://api.openalex.org/works/W7221666773"
+          ],
+          [
+            "notice Crossref consultée (ne confirme pas ce financeur)",
+            "https://api.crossref.org/works/10.1002/phar.70184"
+          ]
+        ],
+        "note": null
+      }
+    ]
+  }
+}

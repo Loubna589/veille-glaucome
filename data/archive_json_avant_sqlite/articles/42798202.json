@@ -1,0 +1,139 @@
+{
+  "pmid": "42798202",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42798202",
+    "titre": "Clinical Profile and Visual Outcomes of Pre- and Postembolization of Carotid-cavernous Fistula-induced Glaucoma.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42798202/",
+    "doi": "10.4103/aam.aam_442_26",
+    "pmcid": null,
+    "revue": "Annals of African medicine",
+    "date_entree_pubmed": "2026-09-26",
+    "date_publication": "2026-Nov-01",
+    "types_publication": [
+      "Journal Article",
+      "Case Reports"
+    ],
+    "resume_present": true,
+    "resume": "Carotid-cavernous fistula (CCF) requires comprehensive postembolization management to address secondary complications, including glaucoma. A 70-year-old male presented with the inability to open his left eye, progressive eyelid swelling, and orbital congestion. Examination revealed severe conjunctival chemosis with dilated episcleral vessels, elevated intraocular pressure (IOP; 20 mmHg), and corneal Descemet's folds. Imaging confirmed an arteriovenous fistula at the left sphenoid bone draining into the superior ophthalmic vein. The patient underwent successful endovascular embolization of the left sphenoid arteriovenous fistula. Medical management included topical dorzolamide, beta-blockers, and oral acetazolamide for IOP control. Postembolization, there was a significant reduction in orbital congestion, improved eyelid function, and stabilization of IOP. Visual acuity improved from counting fingers to 6/12 with successful preservation of optic nerve function. This case highlights the importance of timely multispecialty collaboration between ophthalmology and interventional radiology in managing CCF-related secondary glaucoma.",
+    "mots_cles_auteurs": [
+      "Angiographie par soustraction numérique",
+      "Carotid-cavernous fistula",
+      "Dilatation des veines épisclérales",
+      "Fistule carotido-caverneuse",
+      "Glaucome secondaire",
+      "Post-embolisation",
+      "Prise en charge multidisciplinaire",
+      "Scanner",
+      "computed tomography scan",
+      "digital subtraction angiography",
+      "dilated episcleral veins",
+      "multispecialty care",
+      "postembolization",
+      "secondary glaucoma"
+    ],
+    "langue": "fre",
+    "nombre_auteurs": 5,
+    "affiliations_auteurs": [
+      "Department of Ophthalmology, Dr. D. Y. Patil Medical College, Pune, Maharashtra, India."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": [
+      "Humans",
+      "Male",
+      "Carotid-Cavernous Sinus Fistula",
+      "Aged",
+      "Glaucoma",
+      "Embolization, Therapeutic",
+      "Visual Acuity",
+      "Treatment Outcome",
+      "Intraocular Pressure",
+      "Thiophenes",
+      "Sulfonamides",
+      "Acetazolamide",
+      "Adrenergic beta-Antagonists"
+    ]
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": true,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": [
+        {
+          "produit": "dorzolamide",
+          "role": "non déterminé",
+          "statut_role": "cité dans le résumé ou les mots-clés"
+        },
+        {
+          "produit": "acetazolamide",
+          "role": "non déterminé",
+          "statut_role": "cité dans le résumé ou les mots-clés"
+        }
+      ],
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": null,
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7214450199",
+      "doi": "10.4103/aam.aam_442_26",
+      "pmid": "42798202",
+      "pmcid": null,
+      "titre": "Clinical Profile and Visual Outcomes of Pre- and Postembolization of Carotid-cavernous Fistula-induced Glaucoma",
+      "lien": "https://openalex.org/W7214450199",
+      "date_publication": "2026-09-25",
+      "type": "article",
+      "revue": "Annals of African Medicine",
+      "type_source": "journal",
+      "langue": "fr",
+      "indexe_dans": [
+        "crossref",
+        "pubmed"
+      ],
+      "financeurs": null,
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "Dr. D. Y. Patil Medical College, Hospital and Research Centre",
+          "pays": "IN",
+          "type": "healthcare",
+          "ror": "https://ror.org/0088h4061"
+        }
+      ],
+      "acces_ouvert": true,
+      "statut_acces": "hybrid",
+      "url_texte": "https://doi.org/10.4103/aam.aam_442_26",
+      "url_pdf": null,
+      "licence": "cc-by-nc-nd",
+      "texte_integral_indexe": false,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Vascular Malformations Diagnosis and Treatment",
+      "resume_present": true,
+      "mesh": [
+        "Acetazolamide",
+        "Adrenergic beta-Antagonists",
+        "Aged",
+        "Embolization, Therapeutic",
+        "Glaucoma",
+        "Humans",
+        "Intraocular Pressure",
+        "Male",
+        "Sulfonamides",
+        "Thiophenes",
+        "Visual Acuity",
+        "Treatment Outcome",
+        "Carotid-Cavernous Sinus Fistula"
+      ]
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": []
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "nct": "NCT07853469",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "nct": "NCT07853469",
+    "titre": "Optical Coherence Tomography Findings Associated With the Glaucoma-periodontitis Stage",
+    "titre_officiel": "Evaluation of the Relationship Between the Stage of Periodontal Disease and Retinal Layer Thicknesses in Glaucoma Patients Using Optical Coherence Tomography",
+    "lien": "https://clinicaltrials.gov/study/NCT07853469",
+    "date_premiere_publication": "2026-10-01",
+    "date_derniere_mise_a_jour": "2026-10-01",
+    "type_etude": "OBSERVATIONAL",
+    "phases_declarees": null,
+    "statut": "COMPLETED",
+    "raison_arret": null,
+    "date_debut": "2025-10-06",
+    "date_fin_principale": "2026-04-06",
+    "promoteur": "Recep Tayyip Erdogan University Training and Research Hospital",
+    "type_promoteur": "OTHER",
+    "collaborateurs": null,
+    "conditions": [
+      "Glaucoma",
+      "GLAUCOMA 1, OPEN ANGLE, D (Disorder)",
+      "Periodontitis"
+    ],
+    "interventions": null,
+    "participants_nombre": 66,
+    "participants_type": "ACTUAL",
+    "criteres_principaux": [
+      {
+        "critere": "Optical Coherence Tomography (OCT) Measurement",
+        "delai": "Day 1"
+      },
+      {
+        "critere": "Retinal Layer Thickness",
+        "delai": "Day 1"
+      },
+      {
+        "critere": "Choroidal Thickness (CSI)",
+        "delai": "Day 1"
+      },
+      {
+        "critere": "Ganglion Cell Layer (GCL) Thickness",
+        "delai": "Day 1"
+      },
+      {
+        "critere": "Retinal Nerve Fiber Layer (RNFL) Thickness",
+        "delai": "Day 1"
+      },
+      {
+        "critere": "Choroid-Sclera Interface (CSI)",
+        "delai": "Day 1"
+      }
+    ],
+    "resultats_deposes": false,
+    "publications_declarees": null,
+    "resume_source": "The aim of this observational study is to investigate the relationship between the stage of periodontal disease and retinal layer thicknesses in glaucoma patients using optical coherence tomography (OCT). The primary question the study seeks to answer is:\n\nIs there a relationship between the stage of periodontal disease and retinal layer thicknesses in glaucoma patients?\n\nParticipants-with and without glaucoma and at various stages of periodontal disease-will undergo periodontal examinations and optical coherence tomography (OCT) assessments to evaluate retinal layer thicknesses.",
+    "citations_declarees": null,
+    "plan": {
+      "repartition": null,
+      "modele": null,
+      "but_principal": null,
+      "insu": null,
+      "insu_pour": null,
+      "insu_description": null,
+      "modele_observationnel": "CASE_ONLY"
+    },
+    "bras": [
+      {
+        "libelle": "Control",
+        "type": null,
+        "description": "Systemically healthy individuals without glaucoma",
+        "interventions": null
+      },
+      {
+        "libelle": "Normotensive glaucoma",
+        "type": null,
+        "description": "Systemically healthy individuals with primary open-angle glaucoma who have normal intraocular pressure (9-21 mmHg)",
+        "interventions": null
+      },
+      {
+        "libelle": "Hypertensive glaucoma",
+        "type": null,
+        "description": "Systemically healthy individuals with primary open-angle glaucoma who have high intraocular pressure (≥21 mmHg)",
+        "interventions": null
+      }
+    ],
+    "eligibilite": {
+      "criteres": "Inclusion Criteria:\n\n* Men and women aged 60 years and older\n* Systemically healthy individuals\n* Patients diagnosed with primary open-angle glaucoma (POAG) according to the European Glaucoma Society (EGS) 2017 classification\n\nExclusion Criteria:\n\n* Presence of autoimmune, osteoporotic, or malignant disease\n* Chronic use of immunosuppressive drugs, oral contraceptives, or bisphosphonate therapy\n* Pregnancy\n* Retinal, optic nerve, or choroidal vascular diseases; cataracts, age-related macular degeneration, uveitis, Behçet's disease, or scleritis\n* Previous refractive or intraocular surgery\n* Active infectious diseases (e.g., tuberculosis, hepatitis, HIV/AIDS)\n* Chronic use of medications that may affect periodontal tissues (e.g., cyclosporine A, phenytoin)",
+      "age_min": "60 Years",
+      "age_max": null,
+      "sexe": "ALL",
+      "volontaires_sains": true
+    },
+    "criteres_secondaires": [
+      {
+        "critere": "Clinical Periodontal Parameters (Plaque Index)",
+        "delai": "Day 1"
+      },
+      {
+        "critere": "Clinical Periodontal Parameters (Gingival Index)",
+        "delai": "Day 1"
+      },
+      {
+        "critere": "Periodontal Clinical Parametres (Bleeding on Probing Index)",
+        "delai": "Day 1"
+      },
+      {
+        "critere": "Periodontal Clinical Parametres (Probing Pocket Depth)",
+        "delai": "Day 1"
+      },
+      {
+        "critere": "Periodontal Clinical Parametres (Clinical Attachment Loss)",
+        "delai": "Day 1"
+      }
+    ],
+    "responsables": null,
+    "date_depot_resultats": null,
+    "resultats": null
+  },
+  "modifications": []
+}

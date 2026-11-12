@@ -1,0 +1,52 @@
+{
+  "pmid": "43011643",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "43011643",
+    "titre": "Effect of Eye Movement and Body Position on Optic Nerve Sheath Width.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/43011643/",
+    "doi": "10.18502/jovr.v21.17638",
+    "pmcid": "PMC13749009",
+    "revue": "Journal of ophthalmic & vision research",
+    "date_entree_pubmed": "2026-11-11",
+    "date_publication": "2026",
+    "types_publication": [
+      "Journal Article"
+    ],
+    "resume_present": true,
+    "resume": "PURPOSE: Orbital cerebrospinal fluid (CSF) dynamics are poorly understood but are postulated to play a role in several optic nerve pathologies. This study aims to evaluate the effects of eye movement and body position on perioptic CSF clearance by optic nerve sheath width (ONSW) measurement.\nMETHODS: Healthy adult patients were recruited prospectively from an outpatient ophthalmology clinic at an academic center. B-mode ultrasound was used to measure optic nerve sheath width (ONSW) 3 mm posterior to the optic disc after 5 minutes of no eye movement (-EM) and 1 minute of eye movement (+EM) in three body positions: upright, supine, and prone. CSF clearance is the difference between ONSW +EM and -EM in each body position.\nRESULTS: Thirty-eight adults with healthy optic nerves were recruited. ONSW -EM were significantly wider than +EM in all three positions (P = 0.002, 0.024, 0.002). Body positioning only significantly affected ONSW -EM (P = 0.030), while +EM ONSW was not significantly different in any body position, indicating a baseline effect.\nCONCLUSION: Eye movement and body position significantly impact orbital CSF dynamics and ONSW. Prone positioning increased ONSW, highlighting the role of gravity dependence in perioptic CSF clearance. Identifying factors that impact CSF dynamics is imperative to understanding its part in optic nerve disease.",
+    "mots_cles_auteurs": [
+      "Glaucoma",
+      "Optic Nerve Disease",
+      "Optic Nerve Sheath",
+      "Orbital CSF Dynamics",
+      "Cerebrospinal Fluid"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 8,
+    "affiliations_auteurs": [
+      "Brody School of Medicine at East Carolina University, Greenville, North Carolina, USA.",
+      "Department of Ophthalmology, University of North Carolina, Chapel Hill, North Carolina, USA.",
+      "Odum Institute for Research in Social Science, University of North Carolina at Chapel Hill, Chapel Hill, North Carolina, USA."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    }
+  }
+}

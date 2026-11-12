@@ -1,0 +1,116 @@
+{
+  "pmid": "42886583",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42886583",
+    "titre": "Anterior Segment Ischemia and Neurotrophic Keratopathy Following Ultrasound Cycloplasty in Acute Angle-Closure Glaucoma.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42886583/",
+    "doi": "10.1097/IJG.0000000000002779",
+    "pmcid": null,
+    "revue": "Journal of glaucoma",
+    "date_entree_pubmed": "2026-10-16",
+    "date_publication": "2026-Oct-16",
+    "types_publication": [
+      "Journal Article"
+    ],
+    "resume_present": true,
+    "resume": "Ultrasound cycloplasty (UCP) is a minimally invasive, non-incisional glaucoma procedure that has emerged in recent years and is generally associated with few complications. We report a case of a patient with acute angle-closure glaucoma underwent UCP for IOP control. She developed iris neovascularization and neurotrophic keratopathy（NK）at postoperative week 6, followed by hypopyon, flattening of the anterior chamber, and thinning of the peripheral cornea at postoperative week 11, 12, and 14, respectively. We concluded that UCP can lead to anterior segment ischemia (ASI) and NK, which manifest as iris neovascularization, painless corneal epithelial defects, peripheral corneal thinning, hypopyon, and flattening of the anterior chamber. Preoperative screening for high-risk factors is essential before performing UCP.",
+    "mots_cles_auteurs": [
+      "acute angle-closure glaucoma",
+      "anterior segment ischemia",
+      "flattening of the anterior chamber",
+      "neurotrophic keratopathy",
+      "ultrasound cycloplasty"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 8,
+    "affiliations_auteurs": [
+      "Department of Ophthalmology, Shandong Provincial Hospital Affiliated to Shandong First Medical University,Jinan 250021,China.",
+      "Department of Ophthalmology, UT Southwestern Medical Center, 5323 Harry Hines Blvd, Dallas, TX 75390, USA.",
+      "Beijing Tongren Eye Center, Beijing Tongren Hospital, Capital Medical University, Beijing 100730, China."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7222702575",
+      "doi": "10.1097/ijg.0000000000002779",
+      "pmid": "42886583",
+      "pmcid": null,
+      "titre": "Anterior Segment Ischemia and Neurotrophic Keratopathy Following Ultrasound Cycloplasty in Acute Angle-Closure Glaucoma",
+      "lien": "https://openalex.org/W7222702575",
+      "date_publication": "2026-10-16",
+      "type": "article",
+      "revue": "Journal of Glaucoma",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "pubmed"
+      ],
+      "financeurs": null,
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "Shandong Provincial Hospital",
+          "pays": "CN",
+          "type": "healthcare",
+          "ror": "https://ror.org/02ar2nf05"
+        },
+        {
+          "nom": "Shandong First Medical University",
+          "pays": "CN",
+          "type": "education",
+          "ror": "https://ror.org/05jb9pq57"
+        },
+        {
+          "nom": "The University of Texas Southwestern Medical Center",
+          "pays": "US",
+          "type": "healthcare",
+          "ror": "https://ror.org/05byvp690"
+        },
+        {
+          "nom": "Beijing Tongren Hospital",
+          "pays": "CN",
+          "type": "healthcare",
+          "ror": "https://ror.org/013e4n276"
+        },
+        {
+          "nom": "Capital Medical University",
+          "pays": "CN",
+          "type": "education",
+          "ror": "https://ror.org/013xs5b60"
+        }
+      ],
+      "acces_ouvert": true,
+      "statut_acces": "hybrid",
+      "url_texte": "https://doi.org/10.1097/ijg.0000000000002779",
+      "url_pdf": null,
+      "licence": "cc-by-nc-nd",
+      "texte_integral_indexe": false,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Glaucoma and retinal disorders",
+      "resume_present": true,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": []
+  }
+}

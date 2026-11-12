@@ -1,0 +1,105 @@
+{
+  "pmid": "43006000",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "43006000",
+    "titre": "Polypseudophakia with the J&J synergy lens in high myopia: case report.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/43006000/",
+    "doi": "10.1097/RC9.0000000000001076",
+    "pmcid": "PMC13747398",
+    "revue": "International journal of surgery case reports",
+    "date_entree_pubmed": "2026-11-10",
+    "date_publication": "2026-Nov",
+    "types_publication": [
+      "Case Reports",
+      "Journal Article"
+    ],
+    "resume_present": true,
+    "resume": "INTRODUCTION AND IMPORTANCE: As clinicians strive to provide personalized recommendations for patients, polypseudophakia may be an option for those outside the range of traditional extended depth-of-focus lenses. We describe a case with initial refractive success but the development of a potentially vision-threatening complication.\nPRESENTATION OF CASE: A 40-year-old Asian man with high myopia presented for a refractive surgery consultation with a goal of total spectacle independence and underwent bilateral refractive lens exchange with the J&J Synergy lens in the capsular bag, and a minus-power Alcon MA60MA lens in the sulcus. Initially, there was refractive success with post-operative uncorrected distance vision of 20/20 in the right eye and 20/25 in the left eye at 6 months. However, both eyes developed transillumination defects with pigment in the anterior chamber, consistent with Uveitis-Glaucoma-Hyphema (UGH) syndrome. The patient ultimately elected bilateral explantation of the sulcus intraocular lenses (IOLs) due to this complication.\nCLINICAL DISCUSSION: To our knowledge, this is the first case using the J&J Synergy lens in polypseudophakia and the second to correct for high myopia. Surgical techniques for those with high myopia and thin corneas are rare, and this technique initially provided a hopeful refractive outlook. However, loss of the refractive target and the development of UGH syndrome challenged the safety of this technique.\nCONCLUSION: Further studies are needed to determine which patients can tolerate this procedure. Providers should proceed cautiously and anticipate complications such as UGH syndrome following secondary sulcus IOL placement.",
+    "mots_cles_auteurs": [
+      "Uveitis-Glaucoma-Hyphema syndrome",
+      "case report",
+      "high myopia",
+      "multifocal",
+      "polypseudophakia"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 4,
+    "affiliations_auteurs": [
+      "Department of Ophthalmology, Loma Linda University School of Medicine, Loma Linda, CA, USA.",
+      "Department of Anesthesiology and Pain Medicine, University of Washington, Seattle, WA, USA.",
+      "Department of Ophthalmology, Loma Linda University Eye Institute, Loma Linda, CA, USA."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7224770769",
+      "doi": "10.1097/rc9.0000000000001076",
+      "pmid": "43006000",
+      "pmcid": "13747398",
+      "titre": "Polypseudophakia with the J&J synergy lens in high myopia: case report",
+      "lien": "https://openalex.org/W7224770769",
+      "date_publication": "2026-10-14",
+      "type": "article",
+      "revue": "International Journal of Surgery Case Reports",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "pubmed"
+      ],
+      "financeurs": null,
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "Loma Linda University",
+          "pays": "US",
+          "type": "education",
+          "ror": "https://ror.org/04bj28v14"
+        },
+        {
+          "nom": "University of Washington",
+          "pays": "US",
+          "type": "education",
+          "ror": "https://ror.org/00cvxb145"
+        },
+        {
+          "nom": "Loma Linda University Medical Center",
+          "pays": "US",
+          "type": "healthcare",
+          "ror": "https://ror.org/03et1qs84"
+        }
+      ],
+      "acces_ouvert": true,
+      "statut_acces": "gold",
+      "url_texte": "https://doi.org/10.1097/rc9.0000000000001076",
+      "url_pdf": null,
+      "licence": "cc-by",
+      "texte_integral_indexe": false,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Intraocular Surgery and Lenses",
+      "resume_present": true,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": []
+  }
+}

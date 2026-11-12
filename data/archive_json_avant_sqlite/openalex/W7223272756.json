@@ -1,0 +1,65 @@
+{
+  "openalex_id": "W7223272756",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "openalex_id": "W7223272756",
+    "doi": "10.7860/jcdr/2026/91654.24680",
+    "pmid": null,
+    "pmcid": null,
+    "titre": "Retinal Nerve Fibre Layer Thickness Analysis using Spectral-domain Optical Coherence Tomography in Normal Eyes, Ocular Hypertension, Glaucoma Suspects, and Early Primary Open-Angle Glaucoma: A Cross-sectional Comparative Study",
+    "lien": "https://openalex.org/W7223272756",
+    "date_publication": "2026-10-23",
+    "type": "article",
+    "revue": "JOURNAL OF CLINICAL AND DIAGNOSTIC RESEARCH",
+    "type_source": "journal",
+    "langue": "en",
+    "indexe_dans": [
+      "crossref",
+      "doaj"
+    ],
+    "financeurs": null,
+    "subventions": null,
+    "institutions": [
+      {
+        "nom": "SRM Institute of Science and Technology",
+        "pays": "IN",
+        "type": "education",
+        "ror": "https://ror.org/050113w36"
+      },
+      {
+        "nom": "SRM Medical College Hospital and Research Centre",
+        "pays": "IN",
+        "type": "education",
+        "ror": "https://ror.org/00x0zah42"
+      }
+    ],
+    "acces_ouvert": true,
+    "statut_acces": "gold",
+    "url_texte": "https://jcdr.net/articles/PDF/24680/91654_R3_Final_PD(OM)_PF1(PS)_F(NK)redo_PFA(SS)_PB(PS_IS)_PN(IS).pdf",
+    "url_pdf": "https://jcdr.net/articles/PDF/24680/91654_R3_Final_PD(OM)_PF1(PS)_F(NK)redo_PFA(SS)_PB(PS_IS)_PN(IS).pdf",
+    "licence": "cc-by-nc-nd",
+    "texte_integral_indexe": true,
+    "retracte": false,
+    "citations": 0,
+    "sujet_principal": "Glaucoma and retinal disorders",
+    "resume_present": true,
+    "resume": "Introduction: Structural alterations of the Retinal Nerve Fibre Layer (RNFL) are among the earliest detectable manifestations of glaucomatous optic neuropathy and may precede measurable visual field defects. Spectral Domain Optical Coherence Tomography (SD-OCT) enables objective quantification of these changes and facilitates early detection of glaucoma. This study compared RNFL thickness among normal eyes, ocular hypertensives, glaucoma suspects, and eyes with early Primary Open-Angle Glaucoma (POAG). Aim: To compare retinal nerve fibre layer thickness using spectral-domain optical coherence tomography among normal eyes, ocular hypertensive eyes, glaucoma suspects, and early primary open-angle glaucoma eyes, and to evaluate its association with intraocular pressure. Materials and Methods: This hospital-based cross-sectional study was conducted at the Outpatient Department (OPD) Ophthalmology of a Tertiary Care Hospital in Tamil Nadu, India, from August 2024 to October 2025. This study included 120 consecutively recruited participants categorised into normal eyes (n=30), ocular hypertension (n=30), glaucoma suspects (n=30), and early POAG eyes (n=30). All participants underwent a comprehensive ophthalmic evaluation, including intraocular pressure measurement by Goldmann applanation tonometry, gonioscopy, Humphrey visual field analysis, optic nerve head assessment, and spectral-domain optical coherence tomography-based RNFL analysis. Average and quadrant-wise RNFL thicknesses were compared among the groups using One-way Analysis of Variance (ANOVA). Receiver Operating Characteristic (ROC) analysis was used to evaluate the diagnostic performance of OCT-derived RNFL parameters. Results: Average RNFL thickness showed a significant progressive decline from normal eyes (102.9±5.6 µm) to ocular hypertensives (95.8±5.9 µm), glaucoma suspects (82.0±6.2 µm), and early POAG eyes (72.1±6.1 µm) (p<0.01). Quadrantwise analysis showed more pronounced RNFL reduction in the inferior and superior regions than in the nasal and temporal quadrants. OCT demonstrated high diagnostic accuracy, with area under the curve values of 0.96 for average RNFL thickness and 0.97 for inferior quadrant RNFL thickness. Conclusion: Spectral-domain OCT-derived RNFL thickness may serve as a useful structural biomarker for early glaucomatous damage and may aid in risk stratification and early glaucoma detection.",
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "present_dans_pubmed": false
+  }
+}

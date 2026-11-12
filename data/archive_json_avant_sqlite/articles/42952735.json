@@ -1,0 +1,91 @@
+{
+  "pmid": "42952735",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42952735",
+    "titre": "Mishel theory-based perioperative nursing after trabeculectomy for primary glaucoma: effects on illness uncertainty, self-management, and quality of life.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42952735/",
+    "doi": "10.3389/fpsyt.2026.1884293",
+    "pmcid": "PMC13713672",
+    "revue": "Frontiers in psychiatry",
+    "date_entree_pubmed": "2026-10-29",
+    "date_publication": "2026",
+    "types_publication": [
+      "Journal Article"
+    ],
+    "resume_present": true,
+    "resume": "OBJECTIVE: To evaluate the effects of a perioperative nursing intervention based on Mishel's Uncertainty in Illness Theory in patients with primary glaucoma undergoing trabeculectomy.\nMETHODS: This single-center, two-arm, parallel-group randomized controlled study enrolled 198 patients undergoing first trabeculectomy at The First Affiliated Hospital of Suzhou University between February 2024 and December 2025. Participants were randomly allocated 1:1 to routine perioperative ophthalmic nursing or routine care plus a structured Mishel theory-based nursing intervention. Assessments were conducted 1 day before surgery (T0), at discharge (T1), and at 1 month (T2) and 3 months (T3) after surgery. The primary outcome was illness uncertainty measured using the Mishel Uncertainty in Illness Scale. Secondary outcomes included psychological status, discharge readiness, self-management, medication adherence, sleep quality, vision-related quality of life, satisfaction with nursing care, postoperative ophthalmic outcomes, and complications. All randomized participants completed follow-up and were analyzed according to their assigned groups.\nRESULTS: After Holm adjustment, the intervention group had lower illness-uncertainty scores at T1, T2, and T3; lower anxiety scores at T1 and T3 and lower depression scores at T2 and T3; higher discharge-readiness and satisfaction-with-nursing-care at T1; higher self-management and medication-adherence scores and lower sleep-quality scores at T2 and T3; and lower GQL-15 scores at T3. At T3, the model-estimated between-group differences were -8.13 points for illness uncertainty (95% CI, -10.74 to -5.53), 5.64 points for self-management (95% CI, 4.08-7.19), 6.05 points for medication adherence (95% CI, 2.98-9.12), and -3.71 points for GQL-15 (95% CI, -5.41 to -2.00). At discharge, the between-group difference in discharge readiness was 1.23 points (95% CI, 0.99-1.47). No statistically significant between-group differences were detected in postoperative intraocular-pressure trajectories, visual-acuity recovery, medication-free status, postoperative procedures, or complications within 3 months.\nCONCLUSION: In this single-center randomized study, Mishel theory-based perioperative nursing was associated with greater improvements in illness uncertainty and several psychological, behavioral, and recovery-related patient-reported outcomes after trabeculectomy. No statistically significant differences were detected in short-term objective ophthalmic outcomes or postoperative complications.",
+    "mots_cles_auteurs": [
+      "illness uncertainty",
+      "perioperative nursing",
+      "primary glaucoma",
+      "self-management",
+      "trabeculectomy"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 3,
+    "affiliations_auteurs": [
+      "Ophthalmology, The First Affiliated Hospital of Suzhou University, Suzhou, Jiangsu, China."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7221818141",
+      "doi": "10.3389/fpsyt.2026.1884293",
+      "pmid": "42952735",
+      "pmcid": "13713672",
+      "titre": "Mishel theory-based perioperative nursing after trabeculectomy for primary glaucoma: effects on illness uncertainty, self-management, and quality of life",
+      "lien": "https://openalex.org/W7221818141",
+      "date_publication": "2026-10-14",
+      "type": "article",
+      "revue": "Frontiers in Psychiatry",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "doaj",
+        "pubmed"
+      ],
+      "financeurs": null,
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "First Affiliated Hospital of Soochow University",
+          "pays": "CN",
+          "type": "healthcare",
+          "ror": "https://ror.org/051jg5p78"
+        }
+      ],
+      "acces_ouvert": true,
+      "statut_acces": "gold",
+      "url_texte": "https://www.frontiersin.org/journals/psychiatry/articles/10.3389/fpsyt.2026.1884293/pdf",
+      "url_pdf": "https://www.frontiersin.org/journals/psychiatry/articles/10.3389/fpsyt.2026.1884293/pdf",
+      "licence": "cc-by",
+      "texte_integral_indexe": true,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Glaucoma and retinal disorders",
+      "resume_present": true,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": []
+  }
+}

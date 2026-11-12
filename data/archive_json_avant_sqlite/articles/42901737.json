@@ -1,0 +1,119 @@
+{
+  "pmid": "42901737",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42901737",
+    "titre": "Axial elongation is associated with stress-dominant aqueous humour proteomic changes in eyes with and without open-angle glaucoma.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42901737/",
+    "doi": "10.1136/bjo-2026-330371",
+    "pmcid": null,
+    "revue": "The British journal of ophthalmology",
+    "date_entree_pubmed": "2026-10-20",
+    "date_publication": "2026-Oct-20",
+    "types_publication": [
+      "Journal Article"
+    ],
+    "resume_present": false,
+    "resume": null,
+    "mots_cles_auteurs": [
+      "Glaucoma",
+      "Inflammation",
+      "Myopia"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 3,
+    "affiliations_auteurs": [
+      "Department of Ophthalmology and Visual Science, The Catholic University of Korea Seoul St Mary's Hospital, Seocho-gu, Republic of Korea.",
+      "Department of Ophthalmology and Visual Science, The Catholic University of Korea Seoul St Mary's Hospital, Seocho-gu, Republic of Korea lopilly@catholic.ac.kr."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7223038487",
+      "doi": "10.1136/bjo-2026-330371",
+      "pmid": "42901737",
+      "pmcid": null,
+      "titre": "Axial elongation is associated with stress-dominant aqueous humour proteomic changes in eyes with and without open-angle glaucoma",
+      "lien": "https://openalex.org/W7223038487",
+      "date_publication": "2026-10-20",
+      "type": "article",
+      "revue": "British Journal of Ophthalmology",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "pubmed"
+      ],
+      "financeurs": [
+        {
+          "nom": "National Research Foundation of Korea",
+          "ror": "https://ror.org/013aysd81"
+        }
+      ],
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "The Catholic University of Korea Seoul St. Mary's Hospital",
+          "pays": "KR",
+          "type": "healthcare",
+          "ror": "https://ror.org/056cn0e37"
+        },
+        {
+          "nom": "Catholic University of Korea",
+          "pays": "KR",
+          "type": "education",
+          "ror": "https://ror.org/01fpnj063"
+        }
+      ],
+      "acces_ouvert": false,
+      "statut_acces": "closed",
+      "url_texte": null,
+      "url_pdf": null,
+      "licence": null,
+      "texte_integral_indexe": false,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Glaucoma and retinal disorders",
+      "resume_present": true,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": [
+      {
+        "nom": "National Research Foundation of Korea",
+        "statut": "CONFIRMÉ — déclaré par l'éditeur dans Crossref",
+        "references": [
+          "NRF-2021R1A2C2093617"
+        ],
+        "notices": [
+          [
+            "notice justificative Crossref (déclaration de l'éditeur)",
+            "https://api.crossref.org/works/10.1136/bjo-2026-330371"
+          ],
+          [
+            "notice OpenAlex",
+            "https://api.openalex.org/works/W7223038487"
+          ]
+        ],
+        "note": null
+      }
+    ]
+  }
+}

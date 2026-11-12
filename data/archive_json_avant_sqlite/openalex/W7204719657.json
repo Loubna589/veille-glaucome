@@ -1,0 +1,51 @@
+{
+  "openalex_id": "W7204719657",
+  "premiere_detection": "2026-09-25",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "openalex_id": "W7204719657",
+    "doi": "10.17605/osf.io/r86hv",
+    "pmid": null,
+    "pmcid": null,
+    "titre": "Primary intraocular lens implantation is associated with lower observed odds of secondary glaucoma than aphakia after congenital cataract surgery: a systematic review and meta-analysis",
+    "lien": "https://openalex.org/W7204719657",
+    "date_publication": "2026-08-28",
+    "type": "preprint",
+    "revue": null,
+    "type_source": null,
+    "langue": null,
+    "indexe_dans": [
+      "datacite"
+    ],
+    "financeurs": null,
+    "subventions": null,
+    "institutions": null,
+    "acces_ouvert": true,
+    "statut_acces": "gold",
+    "url_texte": "https://osf.io/r86hv",
+    "url_pdf": null,
+    "licence": "cc-by",
+    "texte_integral_indexe": false,
+    "retracte": false,
+    "citations": 0,
+    "sujet_principal": "Intraocular Surgery and Lenses",
+    "resume_present": true,
+    "resume": "This registration documents a systematic review and meta-analysis that synthesizes the comparative evidence on the risk of secondary glaucoma after primary intraocular lens (IOL) implantation versus aphakia in children undergoing surgery for congenital or infantile cataract. Purpose. Secondary glaucoma is a major sight-threatening complication of congenital/infantile cataract extraction, and the choice of optical rehabilitation—primary IOL implantation or correction of aphakia—may influence long-term glaucoma risk. Existing evidence is conflicting and the evidence base has expanded substantially since earlier comparative syntheses, motivating an updated comparison restricted to studies that contain both lens-status groups and report glaucoma outcomes separately. The primary aim is to compare the within-study odds of secondary glaucoma after primary IOL implantation relative to aphakia; secondary aims are to examine whether any association varies by study design (retrospective versus prospective/randomized), age at surgery, geographic region, and mean follow-up duration, and to estimate single-arm pooled incidence of secondary glaucoma in each group. Methods. The review was conducted and reported in accordance with the PRISMA 2020 statement. PubMed, Embase, Web of Science, Google Scholar, the Cochrane Library, and CNKI were searched from January 1999 through August 8, 2026, using search strings that combined concepts for cataract surgery/lensectomy, congenital/infantile/pediatric cataract, glaucoma, intraocular lens/pseudophakia, and aphakia; reference lists of included studies and prior reviews were also screened. Eligible studies were randomized controlled trials and prospective or retrospective comparative cohorts of children undergoing cataract extraction for congenital or infantile cataract, with primary IOL implantation as the intervention and aphakia as the comparator, and with glaucoma outcomes reported separately for both groups. Studies of traumatic, drug-induced, metabolic, or secondary cataract, pre-existing congenital glaucoma, non-separable severe ocular anomalies, and follow-up shorter than one year were excluded. Records were screened independently in two stages (title/abstract and full text) by two investigators, and disagreements were resolved by discussion and consensus; data were extracted independently in duplicate using a standardized form. Risk of bias was assessed with the Cochrane Risk of Bias 2 tool for randomized trials and the Newcastle-Ottawa Scale for observational studies. Study-specific odds ratios were pooled with random-effects inverse-variance meta-analysis using restricted maximum likelihood estimation and the Hartung-Knapp adjustment; heterogeneity was quantified, and prespecified subgroup, sensitivity, influence, and small-study-effect analyses were planned, with certainty of evidence assessed using the GRADE approach. Expected outcomes. The review was designed to deliver (1) a pooled within-study odds ratio with 95% confidence and prediction intervals for secondary glaucoma in the primary IOL group versus the aphakia group, (2) subgroup estimates by study design, age at surgery, geographic region, and follow-up duration, (3) single-arm pooled incidence of secondary glaucoma in each group, (4) measures of between-study heterogeneity together with an assessment of small-study effects and robustness, and (5) a GRADE-based rating of the certainty of evidence, with implications for surgical decision-making and recommendations for future research. As a retrospective registration, this record documents the methods of the completed review.",
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "present_dans_pubmed": false
+  }
+}

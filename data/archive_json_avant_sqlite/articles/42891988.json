@@ -1,0 +1,105 @@
+{
+  "pmid": "42891988",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42891988",
+    "titre": "Letter to the Editor: Comment on Ni et al.'s \" Long-Term Follow-Up of Checkpoint Inhibitor‑Associated Uveitis Treated with Fluocinolone Acetonide Intravitreal Implant in a Pediatric Patient \".",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42891988/",
+    "doi": "10.1080/09273948.2026.2751024",
+    "pmcid": null,
+    "revue": "Ocular immunology and inflammation",
+    "date_entree_pubmed": "2026-10-18",
+    "date_publication": "2026-Oct-17",
+    "types_publication": [
+      "Letter"
+    ],
+    "resume_present": false,
+    "resume": null,
+    "mots_cles_auteurs": [
+      "Fluocinolone",
+      "immune check point inhibitor",
+      "pediatric uveitis",
+      "secondary glaucoma",
+      "uveitis"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 2,
+    "affiliations_auteurs": [
+      "Cataract and Comprehensive Ophthalmology, Singapore National Eye Centre, Singapore, Singapore.",
+      "Department of Ocular Immunology and Inflammation; Department of Cataract and Comprehensive Ophthalmology, Singapore National Eye Centre, Singapore, Singapore.",
+      "Singapore Eye Research Institute, Singapore, Singapore.",
+      "Department of Ophthalmology, Yong Loo Lin School of Medicine, National University of Singapore, Singapore, Singapore."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7222792398",
+      "doi": "10.1080/09273948.2026.2751024",
+      "pmid": "42891988",
+      "pmcid": null,
+      "titre": "Letter to the Editor: Comment on Ni et al.’s “ Long-Term Follow-Up of Checkpoint Inhibitor‑Associated Uveitis Treated with Fluocinolone Acetonide Intravitreal Implant in a Pediatric Patient “",
+      "lien": "https://openalex.org/W7222792398",
+      "date_publication": "2026-10-17",
+      "type": "letter",
+      "revue": "Ocular Immunology and Inflammation",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "pubmed"
+      ],
+      "financeurs": null,
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "Singapore National Eye Center",
+          "pays": "SG",
+          "type": "healthcare",
+          "ror": "https://ror.org/029nvrb94"
+        },
+        {
+          "nom": "National University of Singapore",
+          "pays": "SG",
+          "type": "education",
+          "ror": "https://ror.org/01tgyzw49"
+        },
+        {
+          "nom": "Singapore Eye Research Institute",
+          "pays": "SG",
+          "type": "facility",
+          "ror": "https://ror.org/02crz6e12"
+        }
+      ],
+      "acces_ouvert": false,
+      "statut_acces": "closed",
+      "url_texte": null,
+      "url_pdf": null,
+      "licence": null,
+      "texte_integral_indexe": false,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Ocular Diseases and Behçet’s Syndrome",
+      "resume_present": true,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": []
+  }
+}

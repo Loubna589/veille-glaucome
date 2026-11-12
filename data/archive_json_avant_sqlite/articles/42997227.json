@@ -1,0 +1,179 @@
+{
+  "pmid": "42997227",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42997227",
+    "titre": "Burden, spectrum and associated factors of ocular disease among incarcerated populations in sub-Saharan Africa: a systematic review and meta-analysis.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42997227/",
+    "doi": "10.3389/fmed.2026.1969779",
+    "pmcid": "PMC13741224",
+    "revue": "Frontiers in medicine",
+    "date_entree_pubmed": "2026-11-07",
+    "date_publication": "2026",
+    "types_publication": [
+      "Journal Article",
+      "Review"
+    ],
+    "resume_present": true,
+    "resume": "BACKGROUND: Ocular morbidity remains poorly characterized among prisoners; this systematic review and meta-analysis quantified its prevalence, spectrum and associated factors across sub-Saharan Africa (SSA).\nMETHODS: This review followed a published Preferred Reporting Items for Systematic Review and Meta-Analysis (PRISMA) Protocols (PRISMA-P) and searched eight databases using prespecified terms, with study selection guided by PRISMA. Data were standardized and synthesized using random-effects meta-analysis to estimate pooled prevalence with 95% confidence intervals (CIs), with heterogeneity assessed using I 2 and sensitivity and condition-specific analyses used to assess variation.\nRESULTS: Six studies comprising 3,361 participants from four SSA countries, Nigeria, Uganda, Tanzania and Kenya, met the inclusion criteria. The pooled prevalence of ocular morbidity was 43.1% (95% CI: 12.4-77.1%; I 2 = 99.2%). Conjunctivitis was the most prevalent condition (23.9%; 95% CI, 10.7-40.1%), followed by refractive error (19.5%; 95% CI, 12.5-27.5%) and presbyopia (18.6%; 95% CI, 5.2-37.7%). Cataract (7.4%), glaucoma (5.6%) and corneal scar or opacity (3.0%) were less prevalent. Age >50 years (OR = 11.96; 95% CI, 5.31-26.94) and a history of ocular trauma (OR = 5.21; 95% CI, 1.52-17.87) were associated with higher odds of ocular morbidity. Longer imprisonment was associated with xerophthalmia (OR = 20.1; 95% CI, 8.3-48.8%), whereas access to food from outside prison was associated with lower odds of ocular morbidity (OR = 0.45; 95% CI, 0.26-0.79).\nCONCLUSION: Ocular morbidity affects approximately four in ten prison inmates in SSA, with much of this burden preventable or treatable, despite considerable between-study heterogeneity and limited geographical evidence. Collectively, these findings support integrated prison eye care and standardized research to advance equitable interventions across SSA.",
+    "mots_cles_auteurs": [
+      "blindness",
+      "eye diseases",
+      "incarceration",
+      "ocular morbidity",
+      "ophthalmology",
+      "prison inmates",
+      "resource-limited settings",
+      "visual impairment"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 13,
+    "affiliations_auteurs": [
+      "Department of Optometry and Visual Science, College of Science, Kwame Nkrumah University of Science and Technology, Kumasi, Ghana.",
+      "Department of Psychology, John R. and Kathy R. Hairston College of Health and Human Sciences, North Carolina Agricultural and Technical State University, Greensboro, NC, United States.",
+      "University of Ghana Library System, University of Ghana, Accra, Ghana.",
+      "Department of Sociology and Criminal Justice, University of Delaware, Newark, DE, United States.",
+      "National Eye Care Unit, Ghana Health Service, Accra, Ghana.",
+      "Department of Applied Science and Mechatronics, HM Hochschule München University of Applied Sciences, Munich, Germany."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7223383704",
+      "doi": "10.3389/fmed.2026.1969779",
+      "pmid": "42997227",
+      "pmcid": "13741224",
+      "titre": "Burden, spectrum and associated factors of ocular disease among incarcerated populations in sub-Saharan Africa: a systematic review and meta-analysis",
+      "lien": "https://openalex.org/W7223383704",
+      "date_publication": "2026-10-23",
+      "type": "review",
+      "revue": "Frontiers in Medicine",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "doaj",
+        "pubmed"
+      ],
+      "financeurs": [
+        {
+          "nom": "Else Kröner-Fresenius-Stiftung",
+          "ror": "https://ror.org/03zcxha54"
+        },
+        {
+          "nom": "Kwame Nkrumah University of Science and Technology",
+          "ror": "https://ror.org/00cb23x68"
+        }
+      ],
+      "subventions": [
+        {
+          "financeur": "Else Kröner-Fresenius-Stiftung",
+          "reference": "2022_EKHA.141"
+        }
+      ],
+      "institutions": [
+        {
+          "nom": "Kwame Nkrumah University of Science and Technology",
+          "pays": "GH",
+          "type": "education",
+          "ror": "https://ror.org/00cb23x68"
+        },
+        {
+          "nom": "North Carolina Agricultural and Technical State University",
+          "pays": "US",
+          "type": "education",
+          "ror": "https://ror.org/02aze4h65"
+        },
+        {
+          "nom": "University of Ghana",
+          "pays": "GH",
+          "type": "education",
+          "ror": "https://ror.org/01r22mr83"
+        },
+        {
+          "nom": "University of Delaware",
+          "pays": "US",
+          "type": "education",
+          "ror": "https://ror.org/01sbq1a82"
+        },
+        {
+          "nom": "Ghana Health Service",
+          "pays": "GH",
+          "type": "government",
+          "ror": "https://ror.org/052ss8w32"
+        },
+        {
+          "nom": "Munich University of Applied Sciences",
+          "pays": "DE",
+          "type": "education",
+          "ror": "https://ror.org/012k1v959"
+        }
+      ],
+      "acces_ouvert": true,
+      "statut_acces": "gold",
+      "url_texte": "https://www.frontiersin.org/journals/medicine/articles/10.3389/fmed.2026.1969779/pdf",
+      "url_pdf": "https://www.frontiersin.org/journals/medicine/articles/10.3389/fmed.2026.1969779/pdf",
+      "licence": "cc-by",
+      "texte_integral_indexe": true,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Ophthalmology and Visual Impairment Studies",
+      "resume_present": true,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": [
+      {
+        "nom": "Else Kröner-Fresenius-Stiftung",
+        "statut": "À VÉRIFIER — trouvé par OpenAlex seulement (l'éditeur n'a déclaré aucun financeur dans Crossref) ; à contrôler dans le texte de l'article",
+        "references": [
+          "2022_EKHA.141"
+        ],
+        "notices": [
+          [
+            "notice OpenAlex",
+            "https://api.openalex.org/works/W7223383704"
+          ],
+          [
+            "notice Crossref consultée (ne confirme pas ce financeur)",
+            "https://api.crossref.org/works/10.3389/fmed.2026.1969779"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "Kwame Nkrumah University of Science and Technology",
+        "statut": "À VÉRIFIER — trouvé par OpenAlex seulement (l'éditeur n'a déclaré aucun financeur dans Crossref) ; à contrôler dans le texte de l'article",
+        "references": null,
+        "notices": [
+          [
+            "notice OpenAlex",
+            "https://api.openalex.org/works/W7223383704"
+          ],
+          [
+            "notice Crossref consultée (ne confirme pas ce financeur)",
+            "https://api.crossref.org/works/10.3389/fmed.2026.1969779"
+          ]
+        ],
+        "note": "cet organisme figure AUSSI parmi les institutions des auteurs : c'est une affiliation, information distincte"
+      }
+    ]
+  }
+}

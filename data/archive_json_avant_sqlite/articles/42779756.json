@@ -1,0 +1,182 @@
+{
+  "pmid": "42779756",
+  "premiere_detection": "2026-09-25",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42779756",
+    "titre": "Total RNA Sequencing Reveals Early Coding, Noncoding, and Isoform-Level Transcriptomic Changes Following Traumatic and Glaucomatous Optic Nerve Injury.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42779756/",
+    "doi": "10.64898/2026.09.08.750121",
+    "pmcid": "PMC13596152",
+    "revue": "bioRxiv : the preprint server for biology",
+    "date_entree_pubmed": "2026-09-24",
+    "date_publication": "2026-Sep-14",
+    "types_publication": [
+      "Journal Article",
+      "Preprint"
+    ],
+    "resume_present": true,
+    "resume": "PURPOSE: Retinal ganglion cell (RGC) death following optic nerve injury is driven by transcriptional programs involved in apoptosis, neuroinflammation, and other regulated cell death pathways; however, the early transcriptomic changes initiating these processes remain poorly defined. We used rRNA-depleted total RNA sequencing to characterize early alterations in protein-coding genes, long noncoding RNAs (lncRNAs), and alternative splicing events in mouse retinas following optic nerve crush (ONC) and silicone oil-induced ocular hypertension under-detected (SOHU), prior to substantial RGC loss.\nMETHODS: Whole retinas were collected 6 hours after ONC and 5 days after SOHU induction. Differentially expressed protein-coding genes and lncRNA-classified transcripts were identified using total RNA sequencing, followed by functional enrichment, lncRNA-associated pathway analysis, alternative splicing analysis, and fluorescent in situ hybridization (FISH) validation.\nRESULTS: In SOHU retinas, hundreds of protein-coding genes and lncRNA-classified transcripts were differentially expressed, with enrichment of immune activation, extracellular matrix remodeling, complement, phagocytic signaling, and suppression of mitochondrial energy metabolism pathways. Similarly, in ONC retinas, many protein-coding genes and lncRNA-classified transcripts were differentially expressed, with a prominent chemokine, cytokine-dominant inflammatory response. FISH validation supported injury-associated upregulation of Prss56 and Lif . Both injury models exhibited substantial transcript-level alterations, with widespread alternative splicing changes detected.\nCONCLUSIONS: Early optic nerve injury induces rapid transcriptional changes involving protein-coding genes, lncRNAs, and transcript isoform regulation before substantial RGC loss. These findings highlight early alterations in both coding and noncoding RNA landscapes following retinal injury and provide a valuable resource of candidate genes and pathways for future validation in RGC degeneration and neuroprotection.",
+    "mots_cles_auteurs": null,
+    "langue": "eng",
+    "nombre_auteurs": 2,
+    "affiliations_auteurs": null,
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7212911499",
+      "doi": "10.64898/2026.09.08.750121",
+      "pmid": "42779756",
+      "pmcid": null,
+      "titre": "Total RNA Sequencing Reveals Early Coding, Noncoding, and Isoform-Level Transcriptomic Changes Following Traumatic and Glaucomatous Optic Nerve Injury",
+      "lien": "https://openalex.org/W7212911499",
+      "date_publication": "2026-09-14",
+      "type": "preprint",
+      "revue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "type_source": "repository",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "pubmed"
+      ],
+      "financeurs": [
+        {
+          "nom": "Research to Prevent Blindness",
+          "ror": "https://ror.org/04drjs621"
+        },
+        {
+          "nom": "University of Texas Southwestern Medical Center",
+          "ror": "https://ror.org/05byvp690"
+        },
+        {
+          "nom": "National Eye Institute",
+          "ror": "https://ror.org/03wkg3b53"
+        }
+      ],
+      "subventions": [
+        {
+          "financeur": "Research to Prevent Blindness",
+          "reference": "P30 EY030413"
+        },
+        {
+          "financeur": "National Eye Institute",
+          "reference": "P30EY030413"
+        },
+        {
+          "financeur": "National Eye Institute",
+          "reference": "R01EY034531"
+        },
+        {
+          "financeur": "National Eye Institute",
+          "reference": "R01 EY032542"
+        }
+      ],
+      "institutions": [
+        {
+          "nom": "The University of Texas Southwestern Medical Center",
+          "pays": "US",
+          "type": "healthcare",
+          "ror": "https://ror.org/05byvp690"
+        }
+      ],
+      "acces_ouvert": true,
+      "statut_acces": "green",
+      "url_texte": "https://www.biorxiv.org/content/biorxiv/early/2026/09/14/2026.09.08.750121.full.pdf",
+      "url_pdf": "https://www.biorxiv.org/content/biorxiv/early/2026/09/14/2026.09.08.750121.full.pdf",
+      "licence": null,
+      "texte_integral_indexe": true,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Glaucoma and retinal disorders",
+      "resume_present": true,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-09-25",
+    "financements": [
+      {
+        "nom": "Research to Prevent Blindness",
+        "statut": "À VÉRIFIER — trouvé par OpenAlex seulement (absent de la déclaration de l'éditeur dans Crossref) ; à contrôler dans le texte de l'article",
+        "references": [
+          "P30 EY030413"
+        ],
+        "notices": [
+          [
+            "notice OpenAlex",
+            "https://api.openalex.org/works/W7212911499"
+          ],
+          [
+            "notice Crossref consultée (ne confirme pas ce financeur)",
+            "https://api.crossref.org/works/10.64898/2026.09.08.750121"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "University of Texas Southwestern Medical Center",
+        "statut": "À VÉRIFIER — trouvé par OpenAlex seulement (absent de la déclaration de l'éditeur dans Crossref) ; à contrôler dans le texte de l'article",
+        "references": null,
+        "notices": [
+          [
+            "notice OpenAlex",
+            "https://api.openalex.org/works/W7212911499"
+          ],
+          [
+            "notice Crossref consultée (ne confirme pas ce financeur)",
+            "https://api.crossref.org/works/10.64898/2026.09.08.750121"
+          ]
+        ],
+        "note": "cet organisme figure AUSSI parmi les institutions des auteurs : c'est une affiliation, information distincte"
+      },
+      {
+        "nom": "National Eye Institute",
+        "statut": "À VÉRIFIER — trouvé par OpenAlex seulement (absent de la déclaration de l'éditeur dans Crossref) ; à contrôler dans le texte de l'article",
+        "references": [
+          "P30EY030413",
+          "R01EY034531",
+          "R01 EY032542"
+        ],
+        "notices": [
+          [
+            "notice OpenAlex",
+            "https://api.openalex.org/works/W7212911499"
+          ],
+          [
+            "notice Crossref consultée (ne confirme pas ce financeur)",
+            "https://api.crossref.org/works/10.64898/2026.09.08.750121"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "NIH",
+        "statut": "CONFIRMÉ — déclaré par l'éditeur dans Crossref (absent d'OpenAlex)",
+        "references": [
+          "R01EY032542"
+        ],
+        "notices": [
+          [
+            "notice justificative Crossref (déclaration de l'éditeur)",
+            "https://api.crossref.org/works/10.64898/2026.09.08.750121"
+          ]
+        ],
+        "note": null
+      }
+    ]
+  }
+}

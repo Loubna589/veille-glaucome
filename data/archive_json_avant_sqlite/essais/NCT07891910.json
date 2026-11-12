@@ -1,0 +1,94 @@
+{
+  "nct": "NCT07891910",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "nct": "NCT07891910",
+    "titre": "Iopidine to Decrease Intraocular Pressure Rise After Injections",
+    "titre_officiel": "Effect of Pre-Injection Iopidine on Intraocular Pressure and Transient Vision Loss Following High-Volume Intravitreal Injections",
+    "lien": "https://clinicaltrials.gov/study/NCT07891910",
+    "date_premiere_publication": "2026-10-23",
+    "date_derniere_mise_a_jour": "2026-10-23",
+    "type_etude": "INTERVENTIONAL",
+    "phases_declarees": [
+      "PHASE4"
+    ],
+    "statut": "NOT_YET_RECRUITING",
+    "raison_arret": null,
+    "date_debut": "2026-10-01",
+    "date_fin_principale": "2026-12-01",
+    "promoteur": "Retina Consultants of Delmarva",
+    "type_promoteur": "OTHER",
+    "collaborateurs": null,
+    "conditions": [
+      "Macular Degeneration",
+      "Diabetic Retinopathy",
+      "Retinal Vein Occlusion",
+      "Glaucoma"
+    ],
+    "interventions": [
+      {
+        "type": "DRUG",
+        "nom": "Apraclonidine 1.0% ophthalmic solution"
+      }
+    ],
+    "participants_nombre": 120,
+    "participants_type": "ESTIMATED",
+    "criteres_principaux": [
+      {
+        "critere": "Intraocular pressure one minute after injection",
+        "delai": "12 weeks"
+      }
+    ],
+    "resultats_deposes": false,
+    "publications_declarees": null,
+    "resume_source": "This is a prospective, randomized, controlled, open-label, single-site investigator-initiated clinical trial. A total of 120 participants will be randomized in a 1:1 ratio either to receive one drop of apraclonidine 1% ophthalmic solution (Iopidine) approximately 20-30 minutes before a clinically indicated intravitreal injection of Eylea HD or Syfovre, or to a control group that will receive no pre-injection study medication.\n\nThe intravitreal injection is part of the participant's routine clinical care. The research-specific intervention for participants assigned to the Iopidine group is administration of Iopidine. Participants assigned to the control group will receive no pre-injection study medication. Both groups will undergo post-injection IOP assessments at 5, 15, and 30 minutes post-injection and transient-vision-loss assessments.",
+    "citations_declarees": null,
+    "plan": {
+      "repartition": "RANDOMIZED",
+      "modele": "PARALLEL",
+      "but_principal": "PREVENTION",
+      "insu": "NONE",
+      "insu_pour": null,
+      "insu_description": null,
+      "modele_observationnel": null
+    },
+    "bras": [
+      {
+        "libelle": "Iopidine",
+        "type": "ACTIVE_COMPARATOR",
+        "description": "Patients receiving the Iopidine prior to injection",
+        "interventions": [
+          "Drug: Apraclonidine 1.0% ophthalmic solution"
+        ]
+      },
+      {
+        "libelle": "Comparator",
+        "type": "NO_INTERVENTION",
+        "description": "Patients not receiving Iopidine",
+        "interventions": null
+      }
+    ],
+    "eligibilite": {
+      "criteres": "Inclusion Criteria:\n\n* Adult patient able to provide informed consent.\n* Scheduled to receive a clinically indicated intravitreal injection with Eylea HD or Syfovre.\n* Reports a prior history of transient vision loss following intravitreal injection.\n* Willing and able to undergo study-specific IOP measurements and complete study assessments.\n\nExclusion Criteria:\n\n* Known hypersensitivity or prior clinically significant allergic reaction to apraclonidine, clonidine, or any component of Iopidine 1% ophthalmic solution.\n* Current treatment with a monoamine oxidase inhibitor (MAOI) or use of an MAOI within a clinically relevant washout period before enrollment.\n* Age younger than 18 years.\n* Pregnancy or breastfeeding, if applicable, unless the investigator determines participation is appropriate based on available safety information and applicable regulatory requirements.\n* Severe or unstable cardiovascular disease that, in the judgment of the investigator, could increase the risk associated with apraclonidine, including unstable coronary artery disease, recent myocardial infarction, clinically significant bradycardia, symptomatic hypotension, uncontrolled hypertension, or clinically significant cerebrovascular disease.\n* History of clinically significant vasovagal episodes, syncope, or symptomatic hypotension that, in the investigator's judgment, would increase the risk of apraclonidine administration.\n* Severe renal or hepatic impairment when, in the investigator's judgment, systemic exposure to apraclonidine could pose increased risk.\n* Baseline IOP sufficiently low that additional pharmacologic IOP reduction could pose a clinical risk, as determined by the investigator.\n* Active ocular infection or significant ocular inflammation in the study eye at the time of the planned intravitreal injection.\n* Any ocular condition that would prevent reliable IOP measurement or substantially confound assessment of the post-injection IOP response.\n* Prior glaucoma surgery or other ocular surgery that, in the investigator's judgment, would substantially alter the expected acute IOP response to intravitreal injection, if such patients are not intended to be included in the study population.\n* Use of apraclonidine or another short-acting IOP-lowering medication immediately before the study injection when such treatment could materially confound the study endpoint.\n* Requirement for prophylactic IOP-lowering treatment before intravitreal injection as part of the patient's usual clinical care, such that assignment to the control group without prophylactic IOP-lowering medication would not be clinically appropriate.\n* Inability to complete the required IOP measurements at 1, 5, 15, and 30 minutes after injection.\n* Inability or unwillingness to provide informed consent or comply with study procedures.\n* Participation in another interventional clinical trial that, in the investigator's judgment, could interfere with the safety assessments or interpretation of study outcomes.\n* Any medical, ocular, psychiatric, or other condition that, in the opinion of the investigator, would place the participant at unacceptable risk, interfere with study procedures, or compromise interpretation of the study results.",
+      "age_min": "18 Years",
+      "age_max": null,
+      "sexe": "ALL",
+      "volontaires_sains": false
+    },
+    "criteres_secondaires": [
+      {
+        "critere": "IOP at 5, 15, 30 minutes after injection",
+        "delai": "12 weeks"
+      },
+      {
+        "critere": "Transient vision loss",
+        "delai": "12 weeks"
+      }
+    ],
+    "responsables": null,
+    "date_depot_resultats": null,
+    "resultats": null
+  },
+  "modifications": []
+}

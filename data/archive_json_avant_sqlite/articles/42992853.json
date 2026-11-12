@@ -1,0 +1,90 @@
+{
+  "pmid": "42992853",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42992853",
+    "titre": "Premium Intraocular Lenses in Glaucoma: Where Modern Optics Meets a Chronic Neuropathy.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42992853/",
+    "doi": "10.1111/ceo.70180",
+    "pmcid": null,
+    "revue": "Clinical & experimental ophthalmology",
+    "date_entree_pubmed": "2026-11-06",
+    "date_publication": "2026-Nov",
+    "types_publication": [
+      "Editorial"
+    ],
+    "resume_present": false,
+    "resume": null,
+    "mots_cles_auteurs": null,
+    "langue": "eng",
+    "nombre_auteurs": 1,
+    "affiliations_auteurs": [
+      "Discipline of Ophthalmology and Visual Science, Adelaide University, Adelaide, South Australia, Australia."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7225387027",
+      "doi": "10.1111/ceo.70180",
+      "pmid": "42992853",
+      "pmcid": null,
+      "titre": "Premium Intraocular Lenses in Glaucoma: Where Modern Optics Meets a Chronic Neuropathy",
+      "lien": "https://openalex.org/W7225387027",
+      "date_publication": "2026-11-01",
+      "type": "editorial",
+      "revue": "Clinical and Experimental Ophthalmology",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "pubmed"
+      ],
+      "financeurs": null,
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "Adelaide University",
+          "pays": "AU",
+          "type": "education",
+          "ror": "https://ror.org/028g18b61"
+        },
+        {
+          "nom": "The University of Adelaide",
+          "pays": "AU",
+          "type": "education",
+          "ror": "https://ror.org/00892tw58"
+        }
+      ],
+      "acces_ouvert": true,
+      "statut_acces": "bronze",
+      "url_texte": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/ceo.70180",
+      "url_pdf": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/ceo.70180",
+      "licence": null,
+      "texte_integral_indexe": true,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Intraocular Surgery and Lenses",
+      "resume_present": false,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": []
+  }
+}

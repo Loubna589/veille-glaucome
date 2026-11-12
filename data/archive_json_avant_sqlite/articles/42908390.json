@@ -1,0 +1,161 @@
+{
+  "pmid": "42908390",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42908390",
+    "titre": "Prospective, Multicenter, Single-Arm, Open-Label Study of the Safety and Effectiveness of the Gel Stent in Angle Closure Glaucoma.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42908390/",
+    "doi": "10.1177/10807683261497918",
+    "pmcid": null,
+    "revue": "Journal of ocular pharmacology and therapeutics : the official journal of the Association for Ocular Pharmacology and Therapeutics",
+    "date_entree_pubmed": "2026-10-22",
+    "date_publication": "2026-Oct-22",
+    "types_publication": [
+      "Journal Article"
+    ],
+    "resume_present": true,
+    "resume": "PURPOSE: To evaluate the gel stent's intraocular pressure (IOP)-lowering safety and effectiveness in angle closure glaucoma (ACG).\nMETHODS: Prospective, multicenter, nonrandomized, 12-month, interventional study. Adults with ACG (iridotrabecular contact in ≥2 quadrants, glaucomatous optic disc damage, and visual field loss) and baseline IOP 20-35 mmHg received ab-interno gel stent implantation on Day 1. The primary endpoint was the proportion of patients achieving ≥20% IOP reduction from baseline without IOP-lowering medication increase at Month 12.\nRESULTS: Of 62 patients/eyes enrolled and implanted, 45 (72.6%) had a history of glaucoma procedures, 50 (80.6%) underwent ≥1 concomitant angle-widening procedure(s) (usually cataract surgery), and 59 (95.2%) completed the study. Baseline IOP was 24.0 mmHg on 2.3 IOP-lowering medications (mean). At Month 12, 80.5% (95% confidence interval [CI]: 68.4-88.8) of patients achieved the primary endpoint, with similar proportions in the presence (81.8%; 95% CI: 67.3-91.8) and absence (83.3%; 95% CI: 51.6-97.9) of concomitant angle-widening procedures. Month 12 mean changes from baseline in IOP and number of IOP-lowering medications were -8.9 mmHg (95% CI: -10.2 to -7.6) and -1.6 (95% CI: -1.9 to -1.2), respectively. Twenty-one eyes (33.9%) required needling. There were no surgical complications. Serious postoperative ocular adverse events occurred in 6 (9.7%) study eyes; all resolved without sequelae.\nCONCLUSION: Gel stent implantation had an acceptable safety profile and effectively lowered IOP and the medication burden in ACG.",
+    "mots_cles_auteurs": [
+      "XEN",
+      "angle-closure",
+      "gel stent",
+      "glaucoma",
+      "intraocular pressure",
+      "minimally invasive glaucoma surgery"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 11,
+    "affiliations_auteurs": [
+      "Royal Victorian Eye and Ear Hospital, Melbourne, Australia.",
+      "Centre for Eye Research Australia, Melbourne, Australia.",
+      "Melbourne Eye Specialists, Melbourne, Australia.",
+      "Eye Surgery Associates, Melbourne, Australia.",
+      "Bellevue Ophthalmology Clinics, Montreal, Canada.",
+      "University of Montreal, Montreal, Canada.",
+      "National University of Singapore, Singapore, Singapore.",
+      "National University Hospital, National University Health System, Singapore, Singapore.",
+      "Hualien Tzu Chi Hospital, Buddhist Tzu Chi Medical Foundation, Hualien City, Taiwan.",
+      "AbbVie Inc., North Chicago, Illinois, USA."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7223186520",
+      "doi": "10.1177/10807683261497918",
+      "pmid": "42908390",
+      "pmcid": null,
+      "titre": "Prospective, Multicenter, Single-Arm, Open-Label Study of the Safety and Effectiveness of the Gel Stent in Angle Closure Glaucoma",
+      "lien": "https://openalex.org/W7223186520",
+      "date_publication": "2026-10-22",
+      "type": "article",
+      "revue": "Journal of Ocular Pharmacology and Therapeutics",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "pubmed"
+      ],
+      "financeurs": null,
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "The Royal Victorian Eye & Ear Hospital",
+          "pays": "AU",
+          "type": "healthcare",
+          "ror": "https://ror.org/008q4kt04"
+        },
+        {
+          "nom": "Centre for Eye Research Australia",
+          "pays": "AU",
+          "type": "facility",
+          "ror": "https://ror.org/01sqdef20"
+        },
+        {
+          "nom": "Université de Montréal",
+          "pays": "CA",
+          "type": "education",
+          "ror": "https://ror.org/0161xgx34"
+        },
+        {
+          "nom": "National University of Singapore",
+          "pays": "SG",
+          "type": "education",
+          "ror": "https://ror.org/01tgyzw49"
+        },
+        {
+          "nom": "National University Hospital",
+          "pays": "SG",
+          "type": "healthcare",
+          "ror": "https://ror.org/04fp9fm22"
+        },
+        {
+          "nom": "National University Health System",
+          "pays": "SG",
+          "type": "education",
+          "ror": "https://ror.org/05tjjsh18"
+        },
+        {
+          "nom": "Tzu Chi Foundation",
+          "pays": "TW",
+          "type": "nonprofit",
+          "ror": "https://ror.org/022mrwt29"
+        },
+        {
+          "nom": "Hualien Tzu Chi Medical Center",
+          "pays": "TW",
+          "type": "healthcare",
+          "ror": "https://ror.org/030k6vb67"
+        },
+        {
+          "nom": "AbbVie (United States)",
+          "pays": "US",
+          "type": "company",
+          "ror": "https://ror.org/02g5p4n58"
+        }
+      ],
+      "acces_ouvert": true,
+      "statut_acces": "hybrid",
+      "url_texte": "https://doi.org/10.1177/10807683261497918",
+      "url_pdf": null,
+      "licence": "cc-by-nc",
+      "texte_integral_indexe": false,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Glaucoma and retinal disorders",
+      "resume_present": true,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": [
+      {
+        "nom": "AbbVie",
+        "statut": "CONFIRMÉ — déclaré par l'éditeur dans Crossref (absent d'OpenAlex)",
+        "references": null,
+        "notices": [
+          [
+            "notice justificative Crossref (déclaration de l'éditeur)",
+            "https://api.crossref.org/works/10.1177/10807683261497918"
+          ]
+        ],
+        "note": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,187 @@
+{
+  "pmid": "43001805",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "43001805",
+    "titre": "Construction of Highly Viable, Excitable, Aligned Human Induced Pluripotent Stem Cell-Derived Retinal Ganglion Cell Sheets on Poly-ε-caprolactone Nanofibers by Targeting Integrin β1-Mediated Adhesion Pathways.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/43001805/",
+    "doi": "10.1021/acsbiomaterials.6c00694",
+    "pmcid": null,
+    "revue": "ACS biomaterials science & engineering",
+    "date_entree_pubmed": "2026-11-09",
+    "date_publication": "2026-Nov-09",
+    "types_publication": [
+      "Journal Article"
+    ],
+    "resume_present": true,
+    "resume": "Transplantation of induced pluripotent stem cell-derived retinal ganglion cells (RGCs) is a promising strategy for optic nerve regeneration and vision restoration in glaucoma. However, injections of conventional single-cell suspensions have low engraftment rates, hindering the formation of the complex neural circuits essential for functional recovery. This study addresses this challenge by investigating an in vitro biomimetic tissue engineering approach designed for future translational objectives, such as RGC transplantation therapy. We systematically evaluated coating materials and culture supplements critical for the survival and morphological development of RGCs on biocompatible, aligned poly-ε-caprolactone (PCL) nanofiber membranes. Notably, we identified the xeno-free extracellular matrix (ECM) conditions that promote RGC neurite extension at levels comparable to animal-derived ECM, thereby overcoming a major barrier to clinical translation of this technique. Furthermore, while RGCs typically have compromised viability and limited outgrowth on nanofibers, enhancing cell-scaffold adhesion signaling via the integrin β1/focal adhesion kinase pathway significantly improved both survival and neurite development. Crucially, RGCs on aligned PCL nanofibers extended neurites along the longitudinal axes of the nanofibers, with both somata and neurites exhibiting functional calcium responses to depolarization. These findings represent a significant advancement in biomimetic in vitro tissue engineering aimed at recapitulating retinal neurite orientation, providing a scalable platform for future nanofiber-based neural regeneration therapies, with the ultimate goal of clinical applicability.",
+    "mots_cles_auteurs": [
+      "aligned nanofiber membrane",
+      "human induced pluripotent stem cell (iPSC)",
+      "integrin β1 signaling",
+      "neurite outgrowth",
+      "poly-ε-caprolactone (PCL)",
+      "retinal ganglion cell (RGC)"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 4,
+    "affiliations_auteurs": [
+      "Department of Ophthalmology, Tohoku University Graduate School of Medicine, Sendai, Miyagi980-8574, Japan.",
+      "Department of Advanced Ophthalmic Medicine, Tohoku University Graduate School of Medicine, Sendai, Miyagi980-8574, Japan.",
+      "Department of Retinal Disease Control, Tohoku University Graduate School of Medicine, Sendai, Miyagi980-8574, Japan."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": [
+      "Humans",
+      "Nanofibers",
+      "Polyesters",
+      "Retinal Ganglion Cells",
+      "Induced Pluripotent Stem Cells",
+      "Cell Adhesion",
+      "Integrin beta1",
+      "Cell Survival",
+      "Tissue Scaffolds",
+      "Tissue Engineering",
+      "Signal Transduction"
+    ]
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": null,
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7201872392",
+      "doi": "10.1021/acsbiomaterials.6c00694",
+      "pmid": "43001805",
+      "pmcid": null,
+      "titre": "Construction of Highly Viable, Excitable, Aligned Human Induced Pluripotent Stem Cell-Derived Retinal Ganglion Cell Sheets on Poly-ε-caprolactone Nanofibers by Targeting Integrin β1-Mediated Adhesion Pathways",
+      "lien": "https://openalex.org/W7201872392",
+      "date_publication": "2026-08-07",
+      "type": "article",
+      "revue": "ACS Biomaterials Science & Engineering",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "pubmed"
+      ],
+      "financeurs": [
+        {
+          "nom": "Japan Society for the Promotion of Science",
+          "ror": "https://ror.org/00hhkn466"
+        },
+        {
+          "nom": "Japan Science and Technology Agency",
+          "ror": "https://ror.org/00097mb19"
+        }
+      ],
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "Tohoku University",
+          "pays": "JP",
+          "type": "education",
+          "ror": "https://ror.org/01dq60k83"
+        }
+      ],
+      "acces_ouvert": true,
+      "statut_acces": "hybrid",
+      "url_texte": "https://doi.org/10.1021/acsbiomaterials.6c00694",
+      "url_pdf": null,
+      "licence": "cc-by-nc-nd",
+      "texte_integral_indexe": false,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Electrospun Nanofibers in Biomedical Applications",
+      "resume_present": true,
+      "mesh": [
+        "Cell Adhesion",
+        "Cell Survival",
+        "Humans",
+        "Polyesters",
+        "Retinal Ganglion Cells",
+        "Signal Transduction",
+        "Integrin beta1",
+        "Tissue Engineering",
+        "Tissue Scaffolds",
+        "Induced Pluripotent Stem Cells",
+        "Nanofibers"
+      ]
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": [
+      {
+        "nom": "Japan Society for the Promotion of Science",
+        "statut": "À VÉRIFIER — trouvé par OpenAlex seulement (absent de la déclaration de l'éditeur dans Crossref) ; à contrôler dans le texte de l'article",
+        "references": null,
+        "notices": [
+          [
+            "notice OpenAlex",
+            "https://api.openalex.org/works/W7201872392"
+          ],
+          [
+            "notice Crossref consultée (ne confirme pas ce financeur)",
+            "https://api.crossref.org/works/10.1021/acsbiomaterials.6c00694"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "Japan Science and Technology Agency",
+        "statut": "À VÉRIFIER — trouvé par OpenAlex seulement (absent de la déclaration de l'éditeur dans Crossref) ; à contrôler dans le texte de l'article",
+        "references": null,
+        "notices": [
+          [
+            "notice OpenAlex",
+            "https://api.openalex.org/works/W7201872392"
+          ],
+          [
+            "notice Crossref consultée (ne confirme pas ce financeur)",
+            "https://api.crossref.org/works/10.1021/acsbiomaterials.6c00694"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "JSPS KAKENHI",
+        "statut": "CONFIRMÉ — déclaré par l'éditeur dans Crossref (absent d'OpenAlex)",
+        "references": [
+          "21K19548"
+        ],
+        "notices": [
+          [
+            "notice justificative Crossref (déclaration de l'éditeur)",
+            "https://api.crossref.org/works/10.1021/acsbiomaterials.6c00694"
+          ]
+        ],
+        "note": null
+      },
+      {
+        "nom": "JST",
+        "statut": "CONFIRMÉ — déclaré par l'éditeur dans Crossref (absent d'OpenAlex)",
+        "references": [
+          "JPMJPF2201"
+        ],
+        "notices": [
+          [
+            "notice justificative Crossref (déclaration de l'éditeur)",
+            "https://api.crossref.org/works/10.1021/acsbiomaterials.6c00694"
+          ]
+        ],
+        "note": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "pmid": "42912454",
+  "premiere_detection": "2026-11-11",
+  "derniere_modification_detectee": null,
+  "donnees": {
+    "pmid": "42912454",
+    "titre": "Novel Ab Externo Rescue Technique of a Dislocated Four-point Scleral-Fixated Intraocular Lens.",
+    "lien": "https://pubmed.ncbi.nlm.nih.gov/42912454/",
+    "doi": "10.1097/ICB.0000000000001995",
+    "pmcid": null,
+    "revue": "Retinal cases & brief reports",
+    "date_entree_pubmed": "2026-10-23",
+    "date_publication": "2026-Oct-23",
+    "types_publication": [
+      "Journal Article"
+    ],
+    "resume_present": true,
+    "resume": "PURPOSE: The rescue of a dislocated scleral-sutured intraocular lens (IOL) remains surgically challenging. We report a novel, flapless, cornea-based ab externo technique for rescuing a dislocated scleral-fixated Akreos AO60 IOL.\nCASE: A 59-year-old male with a history of remote left eye (OS) trauma complicated by glaucoma and retinal detachment status post repair, presented with decreased vision OS following acute blunt ocular trauma. The ocular examination revealed hand motion (LogMAR -2.70) vision and posterior dislocation of a previously scleral-fixated Akreos AO60 IOL. A core and peripheral vitrectomy were performed, and the IOL was relocated to the anterior chamber. Using corneal paracentesis and a 2.4mm main wound, each of the four-lens haptics was externalized and threaded with 8-0 GORE-TEX sutures. The distal suture followed by the proximal suture was passed into the anterior chamber and retrieved through the prior sclerotomies. The IOL was then reposited in the posterior chamber and sutured at sclerotomy sites for fixation. The best-corrected visual acuity improved from hand motion back to baseline of 20/70 (LogMAR 0.54) at follow-up, with no complications observed.\nRESULTS: A dislocated Akreos AO60 four-haptic IOL was successfully rescued and re-fixated with stable centration with a novel ab externo approach. This technique provides an effective method with limited manipulation and small wounds.\nCONCLUSION: The ab externo technique provides an approach for rescuing dislocated four-haptic lenses, such as the Akreos AO60.",
+    "mots_cles_auteurs": [
+      "Akreos lens",
+      "Dislocated lens",
+      "intraocular lens rescue"
+    ],
+    "langue": "eng",
+    "nombre_auteurs": 5,
+    "affiliations_auteurs": [
+      "Rutgers Robert Wood Johnson Medical School (125 Paterson St, New Brunswick, New Jersey, USA 08901).",
+      "Department of Ophthalmology, Mass Eye and Ear (243 Charles St, Boston, Massachusetts, USA 02114).",
+      "Mid Atlantic Retina, Retina Service of Wills Eye Hospital (840 Walnut Street, Philadelphia, Pennsylvania, USA 19107)."
+    ],
+    "financeurs_declares": null,
+    "nct_declares": null,
+    "nct_mentionnes_texte": null,
+    "mesh": null
+  },
+  "modifications": [],
+  "annexes": {
+    "etiquettes": {
+      "ciblee": false,
+      "produit_suivi_etudie_suggere": false,
+      "produits_suivis": null,
+      "molecules_hors_liste": null,
+      "molecules_citees_ensemble": null,
+      "formulations_voies": null,
+      "stade": "Non renseigné",
+      "stade_source": "pas d'indexation MeSH disponible",
+      "hors_veille_principale": false
+    },
+    "openalex": {
+      "openalex_id": "W7223368616",
+      "doi": "10.1097/icb.0000000000001995",
+      "pmid": "42912454",
+      "pmcid": null,
+      "titre": "Novel Ab Externo Rescue Technique of a Dislocated Four-point Scleral-Fixated Intraocular Lens",
+      "lien": "https://openalex.org/W7223368616",
+      "date_publication": "2026-10-23",
+      "type": "article",
+      "revue": "Retinal Cases & Brief Reports",
+      "type_source": "journal",
+      "langue": "en",
+      "indexe_dans": [
+        "crossref",
+        "pubmed"
+      ],
+      "financeurs": null,
+      "subventions": null,
+      "institutions": [
+        {
+          "nom": "Rutgers, The State University of New Jersey",
+          "pays": "US",
+          "type": "education",
+          "ror": "https://ror.org/05vt9qd57"
+        },
+        {
+          "nom": "Massachusetts Eye and Ear Infirmary",
+          "pays": "US",
+          "type": "healthcare",
+          "ror": "https://ror.org/04g3dn724"
+        },
+        {
+          "nom": "Mid Atlantic Retina",
+          "pays": "US",
+          "type": "healthcare",
+          "ror": "https://ror.org/05tpp1p32"
+        },
+        {
+          "nom": "Wills Eye Hospital",
+          "pays": "US",
+          "type": "healthcare",
+          "ror": "https://ror.org/03qygnx22"
+        }
+      ],
+      "acces_ouvert": false,
+      "statut_acces": "closed",
+      "url_texte": null,
+      "url_pdf": null,
+      "licence": null,
+      "texte_integral_indexe": false,
+      "retracte": false,
+      "citations": 0,
+      "sujet_principal": "Intraocular Surgery and Lenses",
+      "resume_present": true,
+      "mesh": null
+    },
+    "openalex_verifie_le": "2026-11-11",
+    "financements": []
+  }
+}
