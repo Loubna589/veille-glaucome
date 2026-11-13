@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>NCT07668193 — fiche essai</title><style>
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
+:root{--fond:#f4f7fb;--carte:#fff;--texte:#0f1d33;--doux:#52627a;--bord:#e2e8f0;--accent:#0b4f8a;
+--ok:#146c43;--ok-fond:#e3f4ea;--att:#8a5300;--att-fond:#fdf1d8;--ver:#b42318;--ver-fond:#fdeceb;
+--reg:#3f3c9e;--reg-fond:#ecebfb;--src-fond:#f1f5f9;--mark:#fff1a8;--manque:#b42318;--turquoise:#14b8a6;}
+@media (prefers-color-scheme:dark){:root{--fond:#0a1120;--carte:#101a2c;--texte:#e6edf7;--doux:#9db0ca;
+--bord:#1e2b42;--accent:#6fb4ff;--ok:#6fd6a0;--ok-fond:#12301f;--att:#f3c15e;--att-fond:#352a10;--ver:#ff9a8f;
+--ver-fond:#3a1714;--reg:#b4b2ff;--reg-fond:#24234a;--src-fond:#0d1626;--mark:#5a4d10;--manque:#ff9a8f;--turquoise:#2dd4bf;}}
+*{box-sizing:border-box}body{margin:0;background:var(--fond);color:var(--texte);
+font:15.5px/1.6 "Inter",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+:focus-visible{outline:3px solid var(--turquoise);outline-offset:2px;border-radius:6px}
+main{max-width:1000px;margin:0 auto;padding:20px 18px 64px}
+.bandeau{display:flex;align-items:center;gap:10px;font-weight:800;letter-spacing:-.02em;padding:6px 0 14px;color:var(--texte);text-decoration:none}
+.bandeau i{width:30px;height:30px;border-radius:9px;background:linear-gradient(135deg,#0b4f8a,#14b8a6);display:inline-block}
+header,section{background:var(--carte);border:1px solid var(--bord);border-radius:16px;padding:20px 24px;margin:0 0 16px;
+box-shadow:0 1px 2px rgba(15,29,51,.04),0 6px 20px -8px rgba(15,29,51,.12)}
+h1{font-size:1.45rem;line-height:1.3;margin:.2em 0 .5em}h2{font-size:1.1rem;margin:0 0 .6em;color:var(--accent)}
+h3{font-size:1rem;margin:1.1em 0 .4em}.surtitre{color:var(--doux);margin:0;font-size:.9rem}
+a{color:var(--accent)}small,.def{color:var(--doux)}.def{font-size:.88rem;margin:.2em 0 .6em}
+.grille{display:grid;grid-template-columns:max-content 1fr;gap:4px 16px;margin:12px 0 0}
+.grille dt{color:var(--doux)}.grille dd{margin:0}
+.badge{display:inline-block;font-size:.72rem;font-weight:600;padding:2px 8px;border-radius:999px;margin:2px 4px 2px 0;
+vertical-align:middle;background:var(--src-fond);color:var(--doux)}
+.badge.confirme{background:var(--ok-fond);color:var(--ok)}.badge.attente{background:var(--att-fond);color:var(--att)}
+.badge.verifier{background:var(--ver-fond);color:var(--ver)}.badge.regle{background:var(--reg-fond);color:var(--reg)}
+.rubrique{font-weight:600}.manque{color:var(--manque);font-style:italic}
+mark{background:var(--mark);color:inherit;padding:0 2px;border-radius:3px}
+blockquote{margin:.5em 0;padding:.5em .9em;border-left:3px solid var(--bord);background:var(--src-fond);border-radius:0 6px 6px 0}
+pre{white-space:pre-wrap;font-size:.85rem;background:var(--src-fond);padding:10px;border-radius:6px}
+.defile{overflow-x:auto}table{border-collapse:collapse;width:100%;font-size:.92rem;margin:.4em 0}
+th,td{border:1px solid var(--bord);padding:6px 8px;text-align:left;vertical-align:top}th{background:var(--src-fond)}
+.analyse{background:var(--src-fond);padding:6px 10px;border-radius:6px;font-size:.92rem}
+.acteurs{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px}
+.acteurs>div{border:1px solid var(--bord);border-radius:8px;padding:10px 12px}.acteurs h3{margin-top:0}
+.copier{position:sticky;top:0;z-index:2;display:flex;gap:12px;align-items:center;flex-wrap:wrap;
+background:var(--fond);padding:10px 0;margin-bottom:8px}
+button{font:inherit;font-weight:600;background:var(--accent);color:#fff;border:0;border-radius:8px;padding:9px 16px;cursor:pointer}
+@media (prefers-color-scheme:dark){button{color:#10141a}}
+textarea{width:100%;min-height:260px;font:13px/1.4 ui-monospace,Consolas,monospace;background:var(--src-fond);
+color:var(--texte);border:1px solid var(--bord);border-radius:6px;padding:8px}
+details{margin:.5em 0}summary{cursor:pointer;color:var(--accent)}
+.retour{font-size:.92rem;margin:0 0 4px}
+@media (max-width:600px){.grille{grid-template-columns:1fr}.grille dt{margin-top:6px}header,section{padding:14px}}
+</style></head>
+<body><main>
+<a class="bandeau" href="../index.html"><i aria-hidden="true"></i>Glaucoma Intelligence</a><nav class="retour"><a href="../index.html">Accueil</a> · <a href="../etudes.html">← Essais &amp; articles</a> · <a href="../recherche.html">Rechercher</a> · <a href="../carte.html">Carte des acteurs</a> · <a href="../alertes.html">Alertes</a></nav>
+<div class="copier"><button id="bouton-copier" type="button" onclick="copierFiche()">Copier pour Claude / ChatGPT</button>
+<small>Copie une consigne + les faits de cette fiche, à coller dans votre assistant.</small></div>
+
+    <header>
+      <p class="surtitre">Fiche essai clinique · NCT07668193 · <a href="https://clinicaltrials.gov/study/NCT07668193" target="_blank" rel="noopener">voir sur ClinicalTrials.gov</a></p>
+      <h1>GlaukomAI: Clinical Validation of an AI System for Early Glaucoma Screening</h1>
+      <p><span class="badge attente">ESSAI ENREGISTRÉ — AUCUN RÉSULTAT DÉPOSÉ AU REGISTRE</span></p>
+      <dl class="grille">
+        <dt>Phase (déclarée)</dt><dd>Non applicable (déclaré)</dd>
+        <dt>Statut</dt><dd>Pas encore en recrutement</dd>
+        <dt>Type d'étude</dt><dd>Interventionnelle</dd>
+        <dt>Participants</dt><dd>1200 (prévu)</dd>
+        <dt>Première publication au registre</dt><dd>2026-06-25</dd>
+        <dt>Dernière mise à jour au registre</dt><dd>2026-11-12</dd>
+        <dt>Début · fin principale</dt><dd>2026-12 · 2027-11</dd>
+        <dt>Détecté par l'outil le</dt><dd>2026-11-13 · 0 modification(s) repérée(s) depuis</dd>
+      </dl>
+      <p class="rubriques"><strong>Rubrique :</strong> <span class="rubrique">Dispositifs et chirurgie</span> <small>intervention de type DEVICE déclaré au registre : GlaukomAI (Sens-vue GlaukomAI)</small><br><span class="rubrique">Diagnostic et IA</span> <small>but principal déclaré au registre : DIAGNOSTIC</small> <span class="badge regle">classement automatique — règles dans config/rubriques.ini</span></p>
+    </header>
+<section><h2>Question étudiée <span class="badge source">Registre ClinicalTrials.gov</span></h2><p><strong>Titre officiel :</strong> GlaukomAI: Clinical Validation of an Artificial Intelligence-Based System for Early Glaucoma Screening and Diagnosis - A Case-Control Study and Referral Accuracy Assessment</p><blockquote lang="en">Glaucoma is one of the leading causes of irreversible blindness worldwide. Early diagnosis is crucial to prevent vision loss, but current diagnostic pathways require multiple specialist visits and tests, leading to long waiting times and delayed diagnosis.
+
+This study aims to evaluate the accuracy of GlaukomAI, an artificial intelligence (AI)-based software that analyzes fundus photographs of the eye to detect glaucoma at an early stage.
+
+The study is conducted at IRCCS Fondazione G. B. Bietti (Rome, Italy) and is structured in two phases:
+
+* Phase 1 enrolls 200 participants (100 with diagnosed glaucoma and 100 healthy controls) to assess how accurately GlaukomAI can distinguish between glaucoma and healthy eyes, compared to the judgment of a panel of three expert glaucoma specialists.
+* Phase 2 enrolls 1,000 consecutive outpatients to evaluate whether GlaukomAI can correctly identify patients who need referral to a glaucoma specialist, and to compare its performance with that of non-specialist ophthalmologists.
+
+Participants undergo a single study visit including standard ophthalmic examinations (visual acuity, eye pressure measurement, visual field test, OCT, and fundus photography). No investigational drugs or invasive procedures are involved.
+
+The results of this study will provide evidence to support the integration of AI-based tools into routine glaucoma screening pathways, with the goal of reducing diagnostic delays and improving access to care.</blockquote></section><section><h2>Traitement ou technologie, et comparateur <span class="badge source">Registre ClinicalTrials.gov</span><span class="badge confirme">rôles CONFIRMÉS : type de bras déclaré au registre</span></h2><div class="defile"><table><thead><tr><th>Bras</th><th>Rôle déclaré</th><th>Interventions</th><th>Description (registre)</th></tr></thead><tbody><tr><td><strong>Glaucoma Patients</strong></td><td>Autre</td><td>Device: GlaukomAI (Sens-vue GlaukomAI)</td><td><small lang="en">Participants with diagnosed glaucoma (primary open-angle, primary angle-closure or secondary glaucoma) undergoing standard ophthalmological examination and AI-based image analysis.</small></td></tr><tr><td><strong>Healthy Controls</strong></td><td>Autre</td><td>Device: GlaukomAI (Sens-vue GlaukomAI)</td><td><small lang="en">Participants without ocular pathology and with normal ophthalmological examination undergoing standard ophthalmological examination and AI-based image analysis.</small></td></tr></tbody></table></div></section><section><h2>Type d'étude <span class="badge source">Registre ClinicalTrials.gov</span></h2><ul><li>Type : Interventionnelle · phase déclarée : Non applicable (déclaré)</li><li>Répartition : non randomisée</li><li>Modèle : groupe unique</li><li>Insu : double insu <small>(INVESTIGATOR, OUTCOMES_ASSESSOR)</small></li><li>But principal : diagnostic</li></ul><details><summary>Description de l'insu (texte du registre)</summary><p lang="en">Multiple levels of masking are applied. The panel of three glaucoma experts defining the gold standard is blinded to the GlaukomAI output and to each other's assessments; final classification is determined by majority vote. The operator uploading fundus images to the GlaukomAI platform is blinded to the clinical diagnosis. In Phase 2, non-glaucoma-specialist ophthalmologists evaluate pseudonymized fundus images presented in randomized order, blinded to both the expert panel classification and the GlaukomAI output. Participants are not masked, as this is a diagnostic device study with no therapeutic intervention.</p><p class="def">À comparer avec le niveau d'insu déclaré ci-dessus : le registre peut être incohérent.</p></details></section><section><h2>Population et participants <span class="badge source">Registre ClinicalTrials.gov</span></h2><ul><li>Conditions déclarées : Glaucoma</li><li>Âge : 18 Years → max. non rapporté</li><li>Sexe : tous</li><li>Volontaires sains acceptés : oui</li><li>Nombre de participants : <mark>1200 (prévu)</mark></li></ul><details><summary>Critères d'inclusion et d'exclusion (texte du registre)</summary><pre lang="en">Inclusion Criteria for all patients:
+
+* Age \&gt;18 years
+* Freely given informed consent obtained prior to study initiation
+* The participant has the capacity to understand and the willingness to follow study instructions and is likely to complete all required visits and procedures
+
+Inclusion Criteria for glaucoma patients:
+
+Patients affected by any type of glaucoma (primary open-angle, primary angle-closure, secondary glaucoma) on pharmacological therapy
+
+Inclusion Criteria for healthy controls:
+
+* Absence of ocular pathologies
+* IOP \&lt;21 mmHg
+* Visual field and OCT within normal limits
+* Optic disc of normal appearance on clinical evaluation
+
+Exclusion Criteria:
+
+* Presence of media opacities preventing the acquisition of adequate quality fundus imaging (e.g., advanced cataract, vitreous hemorrhage, severe corneal opacities)
+* Retinal or optic nerve pathologies that could confound the diagnosis (e.g., non-glaucomatous optic neuropathies (ischemic, inflammatory, compressive), moderate-to-severe diabetic retinopathy, advanced macular degeneration, retinal vascular occlusions)
+* Having undergone any ocular surgery in the past 3 months
+* Inability to cooperate with perimetric examination</pre></details></section><section><h2>Critères évalués (tels que déclarés) <span class="badge source">Registre ClinicalTrials.gov</span></h2><ul><li><strong>Principal :</strong> Diagnostic Accuracy of GlaukomAI - Sensitivity and Specificity <small>[At enrollment visit (single visit, or two consecutive visits within 1 week)]</small></li><li>Secondaire : Referral Accuracy of GlaukomAI vs. Non-Specialist Ophthalmologists <small>[At enrollment visit]</small></li><li>Secondaire : Diagnostic Agreement - Cohen's Kappa <small>[At enrollment visit]</small></li></ul></section><section><h2>Résultats disponibles <span class="badge source">Registre ClinicalTrials.gov</span></h2><p><span class="manque">Aucun résultat n'est déposé au registre à ce jour. Statut actuel : Pas encore en recrutement.</span></p></section><section><h2>Données de tolérance <span class="badge source">Registre ClinicalTrials.gov</span></h2><p><span class="manque">Non disponibles : aucun résultat déposé au registre</span></p></section><section><h2>Publications liées <span class="badge source">Registre ClinicalTrials.gov</span></h2><ul><li><span class="badge confirme">lien confirmé</span> <a href="https://pubmed.ncbi.nlm.nih.gov/29506863/" target="_blank" rel="noopener">PMID 29506863</a> — déclarée par le promoteur comme publication des résultats de l'essai<br><small lang="en">Li Z, He Y, Keel S, Meng W, Chang RT, He M. Efficacy of a Deep Learning System for Detecting Glaucomatous Optic Neuropathy Based on Color Fundus Photographs. Ophthalmology. 2018 Aug;125(8):1199-1206. doi: 10.1016/j.ophtha.2018.01.023. Epub 2018 Mar 2.</small></li><li><span class="badge confirme">lien confirmé</span> <a href="https://pubmed.ncbi.nlm.nih.gov/37113471/" target="_blank" rel="noopener">PMID 37113471</a> — déclarée par le promoteur comme publication des résultats de l'essai<br><small lang="en">Lemij HG, Vente C, Sanchez CI, Vermeer KA. Characteristics of a Large, Labeled Data Set for the Training of Artificial Intelligence for Glaucoma Screening with Fundus Photographs. Ophthalmol Sci. 2023 Mar 17;3(3):100300. doi: 10.1016/j.xops.2023.100300. eCollection 2023 Sep.</small></li><li><span class="badge confirme">lien confirmé</span> <a href="https://pubmed.ncbi.nlm.nih.gov/31732524/" target="_blank" rel="noopener">PMID 31732524</a> — déclarée par le promoteur comme publication des résultats de l'essai<br><small lang="en">Michelessi M, Quaranta L, Riva I, Martini E, Figus M, Frezzotti P, Agnifili L, Manni G, Miglior S, Posarelli C, Fazio S, Oddone F. Exploring the gap between diagnostic research outputs and clinical use of OCT for diagnosing glaucoma. Br J Ophthalmol. 2020 Aug;104(8):1114-1119. doi: 10.1136/bjophthalmol-2019-314607. Epub 2019 Nov 15.</small></li><li><span class="badge confirme">lien confirmé</span> <a href="https://pubmed.ncbi.nlm.nih.gov/26891880/" target="_blank" rel="noopener">PMID 26891880</a> — déclarée par le promoteur comme publication des résultats de l'essai<br><small lang="en">Oddone F, Lucenteforte E, Michelessi M, Rizzo S, Donati S, Parravano M, Virgili G. Macular versus Retinal Nerve Fiber Layer Parameters for Diagnosing Manifest Glaucoma: A Systematic Review of Diagnostic Accuracy Studies. Ophthalmology. 2016 May;123(5):939-49. doi: 10.1016/j.ophtha.2015.12.041. Epub 2016 Feb 15.</small></li><li><span class="badge confirme">lien confirmé</span> <a href="https://pubmed.ncbi.nlm.nih.gov/24974815/" target="_blank" rel="noopener">PMID 24974815</a> — déclarée par le promoteur comme publication des résultats de l'essai<br><small lang="en">Tham YC, Li X, Wong TY, Quigley HA, Aung T, Cheng CY. Global prevalence of glaucoma and projections of glaucoma burden through 2040: a systematic review and meta-analysis. Ophthalmology. 2014 Nov;121(11):2081-90. doi: 10.1016/j.ophtha.2014.05.013. Epub 2014 Jun 26.</small></li><li><span class="badge confirme">lien confirmé</span> <a href="https://pubmed.ncbi.nlm.nih.gov/16488940/" target="_blank" rel="noopener">PMID 16488940</a> — déclarée par le promoteur comme publication des résultats de l'essai<br><small lang="en">Quigley HA, Broman AT. The number of people with glaucoma worldwide in 2010 and 2020. Br J Ophthalmol. 2006 Mar;90(3):262-7. doi: 10.1136/bjo.2005.081224.</small></li></ul></section><section><h2>Promoteur, financeur et affiliations <span class="badge source">Registre ClinicalTrials.gov</span></h2><div class="acteurs">
+      <div><h3>Promoteur</h3><p class="def">Organisme responsable de l'essai, déclaré au registre.</p>
+        <p><strong>Fondazione G.B. Bietti, IRCCS</strong> (académique ou autre)</p>
+        <p>Collaborateurs déclarés : aucun déclaré</p></div>
+      <div><h3>Financeur</h3><p class="def">Organisme qui finance la recherche.</p>
+        <p><span class="manque">Non déclaré séparément dans le registre.</span> Le promoteur n'est pas présenté ici comme financeur : le registre ne le précise pas.</p></div>
+      <div><h3>Affiliations</h3><p class="def">Établissement des responsables de l'étude.</p>
+        <ul><li>Francesco Oddone, MD, PhD — investigateur principal — affiliation : IRCCS Fondazione G. B. Bietti, Rome, Italy</li></ul></div>
+    </div></section>
+<section><h2>Ce qui manque <span class="badge regle">calculé par l'outil</span></h2><ul><li>résultats (aucun résultat déposé au registre)</li><li>données de tolérance</li></ul></section>
+<section><h2>Limites, intérêt pour la veille marketing, à retenir <span class="badge attente">non produit par l'outil</span></h2><p><span class="manque">Non rédigé automatiquement : les données extraites ne suffisent pas à produire une analyse fiable sans interprétation. Utilisez le bouton « Copier pour Claude / ChatGPT » pour obtenir une proposition, à vérifier.</span></p></section>
+<section><details><summary>Voir le texte copié par le bouton</summary>
+<textarea id="a-copier" readonly>Tu es assistant de veille scientifique sur le glaucome. À partir UNIQUEMENT des informations ci-dessous, rédige en français une fiche de synthèse avec ces rubriques :
+1. Question étudiée
+2. Traitement ou technologie
+3. Type d&#x27;étude
+4. Population et nombre de participants
+5. Comparateur
+6. Critères évalués
+7. Principaux résultats chiffrés (recopie les valeurs exactes et indique leur source)
+8. Données de tolérance
+9. Limites
+10. Intérêt potentiel pour une veille marketing — présenté comme une INTERPRÉTATION, séparé des faits
+11. À retenir (une phrase)
+
+Règles :
+- N&#x27;invente rien. Si une information manque, écris « non rapporté ».
+- Distingue un essai simplement enregistré, un protocole, des résultats déposés dans un registre et une publication de résultats.
+- Si la source est seulement le résumé d&#x27;un article, indique que la synthèse repose uniquement sur ce résumé.
+- Les rôles « suggérés » (traitement étudié / comparateur) sont à vérifier dans le texte source.
+- Ne confonds pas promoteur d&#x27;essai, financeur et affiliation des auteurs.
+- Termine par la liste des points à vérifier.
+
+=== INFORMATIONS ===
+SOURCE : registre ClinicalTrials.gov, essai NCT07668193 — https://clinicaltrials.gov/study/NCT07668193
+NIVEAU DE PREUVE : essai enregistré, AUCUN résultat déposé au registre
+Titre : GlaukomAI: Clinical Validation of an AI System for Early Glaucoma Screening
+Titre officiel : GlaukomAI: Clinical Validation of an Artificial Intelligence-Based System for Early Glaucoma Screening and Diagnosis - A Case-Control Study and Referral Accuracy Assessment
+Phase déclarée : Non applicable (déclaré) · Statut : Pas encore en recrutement · Type : Interventionnelle
+Promoteur (déclaré) : Fondazione G.B. Bietti, IRCCS (OTHER) · Collaborateurs : aucun
+Financeur : non déclaré séparément dans le registre
+Participants : 1200 (prévu) · Conditions : Glaucoma
+Plan : {&#x27;but_principal&#x27;: &#x27;DIAGNOSTIC&#x27;, &#x27;insu&#x27;: &#x27;DOUBLE&#x27;, &#x27;insu_description&#x27;: &quot;Multiple levels of masking are applied. The panel of three glaucoma experts defining the gold standard is blinded to the GlaukomAI output and to each other&#x27;s assessments; final classification is determined by majority vote. The operator uploading fundus images to the GlaukomAI platform is blinded to the clinical diagnosis. In Phase 2, non-glaucoma-specialist ophthalmologists evaluate pseudonymized fundus images presented in randomized order, blinded to both the expert panel classification and the GlaukomAI output. Participants are not masked, as this is a diagnostic device study with no therapeutic intervention.&quot;, &#x27;insu_pour&#x27;: [&#x27;INVESTIGATOR&#x27;, &#x27;OUTCOMES_ASSESSOR&#x27;], &#x27;modele&#x27;: &#x27;SINGLE_GROUP&#x27;, &#x27;modele_observationnel&#x27;: None, &#x27;repartition&#x27;: &#x27;NON_RANDOMIZED&#x27;}
+Bras (rôle déclaré) :
+  - Glaucoma Patients [OTHER] : Device: GlaukomAI (Sens-vue GlaukomAI)
+  - Healthy Controls [OTHER] : Device: GlaukomAI (Sens-vue GlaukomAI)
+Critères principaux : Diagnostic Accuracy of GlaukomAI - Sensitivity and Specificity [At enrollment visit (single visit, or two consecutive visits within 1 week)]
+Critères secondaires : Referral Accuracy of GlaukomAI vs. Non-Specialist Ophthalmologists [At enrollment visit]; Diagnostic Agreement - Cohen&#x27;s Kappa [At enrollment visit]
+
+DESCRIPTION (registre, texte source) :
+Glaucoma is one of the leading causes of irreversible blindness worldwide. Early diagnosis is crucial to prevent vision loss, but current diagnostic pathways require multiple specialist visits and tests, leading to long waiting times and delayed diagnosis.
+
+This study aims to evaluate the accuracy of GlaukomAI, an artificial intelligence (AI)-based software that analyzes fundus photographs of the eye to detect glaucoma at an early stage.
+
+The study is conducted at IRCCS Fondazione G. B. Bietti (Rome, Italy) and is structured in two phases:
+
+* Phase 1 enrolls 200 participants (100 with diagnosed glaucoma and 100 healthy controls) to assess how accurately GlaukomAI can distinguish between glaucoma and healthy eyes, compared to the judgment of a panel of three expert glaucoma specialists.
+* Phase 2 enrolls 1,000 consecutive outpatients to evaluate whether GlaukomAI can correctly identify patients who need referral to a glaucoma specialist, and to compare its performance with that of non-specialist ophthalmologists.
+
+Participants undergo a single study visit including standard ophthalmic examinations (visual acuity, eye pressure measurement, visual field test, OCT, and fundus photography). No investigational drugs or invasive procedures are involved.
+
+The results of this study will provide evidence to support the integration of AI-based tools into routine glaucoma screening pathways, with the goal of reducing diagnostic delays and improving access to care.
+
+RÉSULTATS : aucun résultat déposé au registre.</textarea></details></section>
+<p><small>Fiche générée le 2026-11-13 13:22 par Glaucoma Intelligence. Extraits des sources en langue originale.</small></p>
+</main><script>
+function copierFiche(){
+  var zone=document.getElementById('a-copier'), bouton=document.getElementById('bouton-copier');
+  function fait(){bouton.textContent='Copié ✓ — collez dans Claude ou ChatGPT';setTimeout(function(){bouton.textContent='Copier pour Claude / ChatGPT'},3000);}
+  function secours(){zone.parentElement.open=true;zone.select();try{document.execCommand('copy');fait();}
+    catch(err){bouton.textContent='Sélectionnez le texte ci-dessous puis Ctrl+C';}}
+  if(navigator.clipboard&&window.isSecureContext){navigator.clipboard.writeText(zone.value).then(fait,secours);}else{secours();}
+}
+</script></body></html>

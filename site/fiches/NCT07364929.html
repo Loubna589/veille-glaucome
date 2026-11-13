@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>NCT07364929 — fiche essai</title><style>
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
+:root{--fond:#f4f7fb;--carte:#fff;--texte:#0f1d33;--doux:#52627a;--bord:#e2e8f0;--accent:#0b4f8a;
+--ok:#146c43;--ok-fond:#e3f4ea;--att:#8a5300;--att-fond:#fdf1d8;--ver:#b42318;--ver-fond:#fdeceb;
+--reg:#3f3c9e;--reg-fond:#ecebfb;--src-fond:#f1f5f9;--mark:#fff1a8;--manque:#b42318;--turquoise:#14b8a6;}
+@media (prefers-color-scheme:dark){:root{--fond:#0a1120;--carte:#101a2c;--texte:#e6edf7;--doux:#9db0ca;
+--bord:#1e2b42;--accent:#6fb4ff;--ok:#6fd6a0;--ok-fond:#12301f;--att:#f3c15e;--att-fond:#352a10;--ver:#ff9a8f;
+--ver-fond:#3a1714;--reg:#b4b2ff;--reg-fond:#24234a;--src-fond:#0d1626;--mark:#5a4d10;--manque:#ff9a8f;--turquoise:#2dd4bf;}}
+*{box-sizing:border-box}body{margin:0;background:var(--fond);color:var(--texte);
+font:15.5px/1.6 "Inter",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+:focus-visible{outline:3px solid var(--turquoise);outline-offset:2px;border-radius:6px}
+main{max-width:1000px;margin:0 auto;padding:20px 18px 64px}
+.bandeau{display:flex;align-items:center;gap:10px;font-weight:800;letter-spacing:-.02em;padding:6px 0 14px;color:var(--texte);text-decoration:none}
+.bandeau i{width:30px;height:30px;border-radius:9px;background:linear-gradient(135deg,#0b4f8a,#14b8a6);display:inline-block}
+header,section{background:var(--carte);border:1px solid var(--bord);border-radius:16px;padding:20px 24px;margin:0 0 16px;
+box-shadow:0 1px 2px rgba(15,29,51,.04),0 6px 20px -8px rgba(15,29,51,.12)}
+h1{font-size:1.45rem;line-height:1.3;margin:.2em 0 .5em}h2{font-size:1.1rem;margin:0 0 .6em;color:var(--accent)}
+h3{font-size:1rem;margin:1.1em 0 .4em}.surtitre{color:var(--doux);margin:0;font-size:.9rem}
+a{color:var(--accent)}small,.def{color:var(--doux)}.def{font-size:.88rem;margin:.2em 0 .6em}
+.grille{display:grid;grid-template-columns:max-content 1fr;gap:4px 16px;margin:12px 0 0}
+.grille dt{color:var(--doux)}.grille dd{margin:0}
+.badge{display:inline-block;font-size:.72rem;font-weight:600;padding:2px 8px;border-radius:999px;margin:2px 4px 2px 0;
+vertical-align:middle;background:var(--src-fond);color:var(--doux)}
+.badge.confirme{background:var(--ok-fond);color:var(--ok)}.badge.attente{background:var(--att-fond);color:var(--att)}
+.badge.verifier{background:var(--ver-fond);color:var(--ver)}.badge.regle{background:var(--reg-fond);color:var(--reg)}
+.rubrique{font-weight:600}.manque{color:var(--manque);font-style:italic}
+mark{background:var(--mark);color:inherit;padding:0 2px;border-radius:3px}
+blockquote{margin:.5em 0;padding:.5em .9em;border-left:3px solid var(--bord);background:var(--src-fond);border-radius:0 6px 6px 0}
+pre{white-space:pre-wrap;font-size:.85rem;background:var(--src-fond);padding:10px;border-radius:6px}
+.defile{overflow-x:auto}table{border-collapse:collapse;width:100%;font-size:.92rem;margin:.4em 0}
+th,td{border:1px solid var(--bord);padding:6px 8px;text-align:left;vertical-align:top}th{background:var(--src-fond)}
+.analyse{background:var(--src-fond);padding:6px 10px;border-radius:6px;font-size:.92rem}
+.acteurs{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px}
+.acteurs>div{border:1px solid var(--bord);border-radius:8px;padding:10px 12px}.acteurs h3{margin-top:0}
+.copier{position:sticky;top:0;z-index:2;display:flex;gap:12px;align-items:center;flex-wrap:wrap;
+background:var(--fond);padding:10px 0;margin-bottom:8px}
+button{font:inherit;font-weight:600;background:var(--accent);color:#fff;border:0;border-radius:8px;padding:9px 16px;cursor:pointer}
+@media (prefers-color-scheme:dark){button{color:#10141a}}
+textarea{width:100%;min-height:260px;font:13px/1.4 ui-monospace,Consolas,monospace;background:var(--src-fond);
+color:var(--texte);border:1px solid var(--bord);border-radius:6px;padding:8px}
+details{margin:.5em 0}summary{cursor:pointer;color:var(--accent)}
+.retour{font-size:.92rem;margin:0 0 4px}
+@media (max-width:600px){.grille{grid-template-columns:1fr}.grille dt{margin-top:6px}header,section{padding:14px}}
+</style></head>
+<body><main>
+<a class="bandeau" href="../index.html"><i aria-hidden="true"></i>Glaucoma Intelligence</a><nav class="retour"><a href="../index.html">Accueil</a> · <a href="../etudes.html">← Essais &amp; articles</a> · <a href="../recherche.html">Rechercher</a> · <a href="../carte.html">Carte des acteurs</a> · <a href="../alertes.html">Alertes</a></nav>
+<div class="copier"><button id="bouton-copier" type="button" onclick="copierFiche()">Copier pour Claude / ChatGPT</button>
+<small>Copie une consigne + les faits de cette fiche, à coller dans votre assistant.</small></div>
+
+    <header>
+      <p class="surtitre">Fiche essai clinique · NCT07364929 · <a href="https://clinicaltrials.gov/study/NCT07364929" target="_blank" rel="noopener">voir sur ClinicalTrials.gov</a></p>
+      <h1>Altered Non-Visual Photoreception in Patients With Glaucoma: Impacts on Sleep, Alertness, Mood, and Cognition</h1>
+      <p><span class="badge attente">ESSAI ENREGISTRÉ — AUCUN RÉSULTAT DÉPOSÉ AU REGISTRE</span></p>
+      <dl class="grille">
+        <dt>Phase (déclarée)</dt><dd>Non applicable (déclaré)</dd>
+        <dt>Statut</dt><dd>Recrutement en cours</dd>
+        <dt>Type d'étude</dt><dd>Interventionnelle</dd>
+        <dt>Participants</dt><dd>120 (prévu)</dd>
+        <dt>Première publication au registre</dt><dd>2026-01-23</dd>
+        <dt>Dernière mise à jour au registre</dt><dd>2026-11-12</dd>
+        <dt>Début · fin principale</dt><dd>2025-09-05 · 2027-10-30</dd>
+        <dt>Détecté par l'outil le</dt><dd>2026-11-13 · 0 modification(s) repérée(s) depuis</dd>
+      </dl>
+      <p class="rubriques"><strong>Rubrique :</strong> <span class="rubrique">Autres sujets (clinique, épidémiologie…)</span> <small>aucune règle de rubrique ne s'applique</small> <span class="badge regle">classement automatique — règles dans config/rubriques.ini</span></p>
+    </header>
+<section><h2>Question étudiée <span class="badge source">Registre ClinicalTrials.gov</span></h2><p><strong>Titre officiel :</strong> Altered Non-Visual Photoreception in Patients With Glaucoma: Impacts on Sleep, Alertness, Mood, and Cognition</p><blockquote lang="en">The goal of this study is to understand how light sensitivity in the eye affects sleep, mood, alertness, and cognition in adults with glaucoma compared to healthy individuals aged 45-75 years.
+
+The main questions it aims to answer are:
+
+1. Do patients with glaucoma experience poorer sleep, mood, alertness, and cognitive function than age-matched healthy adults?
+2. Are these changes related to reduced light sensitivity in special retinal cells called intrinsically photosensitive retinal ganglion cells (ipRGCs), lost in glaucoma?
+3. Can exposure to safe, full-spectrum indoor light help improve these functions?
+
+Researchers will compare patients with glaucoma and age-matched healthy controls to see if differences in light sensitivity can explain changes in non-visual light responses (i.e., sleep, mood, alertness, and cognition) and whether full-spectrum light exposure can enhance alertness and wellbeing.
+
+Participants will:
+
+1. Complete eye exams and baseline questionnaires about their sleep, daytime sleepiness, mood, and wellbeing.
+2. Wear a wrist-worn device for 8-16 days to record their sleep patterns and light exposure.
+3. Visit the laboratory for cognitive and attention tests following exposure to two lighting conditions (randomized, cross-over):
+
+   * Standard indoor light (\~300 lux)
+   * Full-spectrum light (\~1000 lux)
+
+This study will help researchers understand how glaucoma affects the brain beyond vision and explore whether light-based interventions can improve quality of life for people living with glaucoma.</blockquote></section><section><h2>Traitement ou technologie, et comparateur <span class="badge source">Registre ClinicalTrials.gov</span><span class="badge confirme">rôles CONFIRMÉS : type de bras déclaré au registre</span></h2><div class="defile"><table><thead><tr><th>Bras</th><th>Rôle déclaré</th><th>Interventions</th><th>Description (registre)</th></tr></thead><tbody><tr><td><strong>Patients with glaucoma</strong></td><td>Expérimental (traitement étudié)</td><td>Other: Full-spectrum light exposure<br>Other: Standard indoor light exposure (Control)</td><td><small lang="en">Patients undergoing both control and intervention light exposure in a cross-over randomized design.</small></td></tr><tr><td><strong>Controls (healthy adults)</strong></td><td>Comparateur actif</td><td>Other: Full-spectrum light exposure<br>Other: Standard indoor light exposure (Control)</td><td><small lang="en">Healthy adults following the same procedures compared to patients with glaucoma</small></td></tr></tbody></table></div></section><section><h2>Type d'étude <span class="badge source">Registre ClinicalTrials.gov</span></h2><ul><li>Type : Interventionnelle · phase déclarée : Non applicable (déclaré)</li><li>Répartition : randomisée</li><li>Modèle : croisé</li><li>Insu : ouvert (sans insu)</li><li>But principal : soins de support</li></ul></section><section><h2>Population et participants <span class="badge source">Registre ClinicalTrials.gov</span></h2><ul><li>Conditions déclarées : Glaucoma</li><li>Âge : 45 Years → 75 Years</li><li>Sexe : tous</li><li>Volontaires sains acceptés : oui</li><li>Nombre de participants : <mark>120 (prévu)</mark></li></ul><details><summary>Critères d'inclusion et d'exclusion (texte du registre)</summary><pre lang="en">Inclusion Criteria:
+
+* Patients with glaucoma must meet all of the inclusion criteria to participate in this study.
+
+  * Patients diagnosed with primary open-angle glaucoma (POAG), as indicated by Humphrey Visual Field (HVF) mean deviation (VFMD) scores better than -12 dB in at least one eye during their most recent clinic visit.
+  * Patients having spared central vision.
+  * Patients aged 45 to 75 years old.
+  * Patients with a best-corrected visual acuity better than 6/12
+  * English-speaking patients
+
+Healthy controls must meet all of the inclusion criteria to participate in this study:
+
+* Participants aged 50 to 70 years old.
+* Participants with a best-corrected visual acuity better than 6/12
+* Normal ophthalmic examination
+* English-speaking participants
+
+Exclusion Criteria:
+
+* All subjects (patients and controls) meeting any of the exclusion criteria at baseline will be excluded from participation:
+
+  * Participants with myopia exhibiting a refractive error exceeding -8.00 diopters (D)
+  * Participants with a history of complicated previous intraocular surgery
+  * Participants taking alpha-adrenergic agonist eye drops or other systemic medications or drugs that could affect the pupillary response
+  * Participants with any past or current ocular condition (i.e., age-related retinal diseases (e.g., age-related macular degeneration), retinal pigment epithelium diseases (e.g., Best's disease), diabetic retinopathy, or other optic or generalized neuropathies, significant ocular trauma, or any eye condition affecting fixation (eg. Nystagmus)).
+  * Participants diagnosed with cataracts at NS3+ (Nuclear Sclerosis) and above, as well as those with Posterior Subcapsular (PSC) cataracts
+  * Participants with clinically diagnosed psychiatric or neurologic disorders, including cognitive impairment or dementia
+  * Participants with diagnosed mood disorders
+  * Participants engaged in night shift work within the past three months, are currently using sleeping pills, or have recently travelled across timezones within a month prior to the study
+  * Participants with obstructive sleep apnea
+  * Participants with abnormal auditory function
+  * Participants with impaired color vision
+  * Pre-menopausal women (last menstrual period \&lt; 1 year) (If applicable)
+  * Patients having unilateral glaucoma, congenital glaucoma, non-glaucomatous optic neuropathy, abnormal central vision
+  * Diabetics on treatment</pre></details></section><section><h2>Critères évalués (tels que déclarés) <span class="badge source">Registre ClinicalTrials.gov</span></h2><ul><li><strong>Principal :</strong> Subjective Sleep Quality <small>[Baseline (Visit 1)]</small></li><li><strong>Principal :</strong> Subjective Daytime Sleepiness <small>[Baseline (Visit 1)]</small></li><li><strong>Principal :</strong> Depressive Symptoms <small>[Baseline (Visit 1)]</small></li><li><strong>Principal :</strong> Global Cognitive Function <small>[Baseline (Visit 1)]</small></li><li><strong>Principal :</strong> Global Cognitive Function during light exposure <small>[Immediately after the procedure]</small></li><li><strong>Principal :</strong> Median Reaction Time <small>[Immediately after the procedure]</small></li><li><strong>Principal :</strong> Vigilance Lapses <small>[Immediately after the procedure]</small></li><li><strong>Principal :</strong> Long Reation Time Lapses <small>[Immediately after the procedure]</small></li><li><strong>Principal :</strong> Anticipatory Responses <small>[Immediately after the procedure]</small></li><li><strong>Principal :</strong> Sustained Attention Variability <small>[Immediately after the procedure]</small></li><li><strong>Principal :</strong> Associative Learning <small>[Immediately after the procedure]</small></li><li><strong>Principal :</strong> Processing Speed <small>[Immediately after the procedure]</small></li><li><strong>Principal :</strong> Visual Attention Allocation <small>[Immediately after the procedure]</small></li><li><strong>Principal :</strong> Eye-Movement Behavior <small>[Immediately after the procedure]</small></li><li><strong>Principal :</strong> Selective Attention <small>[Immediately after the procedure]</small></li><li><strong>Principal :</strong> Auditory Discrimination Performance <small>[Immediately after the procedure]</small></li><li><strong>Principal :</strong> Task-Evoked Pupillary Responses <small>[Immediately after the procedure]</small></li><li><strong>Principal :</strong> Pupillary Responses to Shapes <small>[Immediately after the procedure]</small></li><li><strong>Principal :</strong> Objective sleepiness <small>[Immediately after the procedure]</small></li><li><strong>Principal :</strong> Risk Taking Behavior <small>[Immediately after the procedure]</small></li><li><strong>Principal :</strong> Subjective Sleepiness, Mood, and Wellbeing <small>[Immediately after the procedure]</small></li><li><strong>Principal :</strong> Sleep Quantity <small>[8-16 days in between the visits]</small></li><li><strong>Principal :</strong> Sleep Efficiency <small>[8-16 days between the visits]</small></li><li><strong>Principal :</strong> Phasic Pupil Constriction to Blue Light <small>[Baseline (Visit 1)]</small></li><li><strong>Principal :</strong> Phasic Pupil Constriction to Red Light <small>[Baseline (Visit 1)]</small></li><li><strong>Principal :</strong> Maximum Pupil Constriction to Blue Light <small>[Baseline (Visit 1)]</small></li><li><strong>Principal :</strong> Maximum Pupil Constriction to Red Light <small>[Baseline (Visit 1)]</small></li><li><strong>Principal :</strong> Pupil Constriction Latency to Blue Light <small>[Baseline (Visit 1)]</small></li><li><strong>Principal :</strong> Pupil Constriction Latency to Red Light <small>[Baseline (Visit 1)]</small></li><li><strong>Principal :</strong> Post-illumination Pupillary Responses <small>[Baseline (Visit 1)]</small></li><li>Secondaire : Anticipatory Pupil Size <small>[Immediately after the procedure]</small></li><li>Secondaire : Hit Rate <small>[Immediately after the procedure]</small></li><li>Secondaire : False Alarm Rate <small>[Immediately after the procedure]</small></li><li>Secondaire : Correct Rejection Rate <small>[Immediately after the procedure]</small></li><li>Secondaire : Miss Rate <small>[Immediately after the procedure]</small></li><li>Secondaire : Visual Behavior During Time Estimation Task <small>[Immediately after the procedure]</small></li><li>Secondaire : Secondary Risk Taking Metrcis <small>[Immediately after the procedure]</small></li><li>Secondaire : Reward Seeking Behavior <small>[Immediately after the procedure]</small></li><li>Secondaire : Risk/Reward-Related Visual Behavior <small>[Immediately after the procedure]</small></li><li>Secondaire : Daytime average light levels (lux) <small>[8-16 days between the visits]</small></li><li>Secondaire : Daytime average melanopic lux <small>[8-16 days between the visits]</small></li><li>Secondaire : Time spent outdoors <small>[8-16 days between the visits]</small></li><li>Secondaire : Nighttime average melanopic lux <small>[8-16 days between the visits]</small></li><li>Secondaire : Time spent over 250 or other melanopic EDI threshold during daytime <small>[8-16 days between visits]</small></li><li>Secondaire : Time spent under 10 or other melanopic EDI threshold during nighttime <small>[8-16 days between visits]</small></li></ul></section><section><h2>Résultats disponibles <span class="badge source">Registre ClinicalTrials.gov</span></h2><p><span class="manque">Aucun résultat n'est déposé au registre à ce jour. Statut actuel : Recrutement en cours.</span></p></section><section><h2>Données de tolérance <span class="badge source">Registre ClinicalTrials.gov</span></h2><p><span class="manque">Non disponibles : aucun résultat déposé au registre</span></p></section><section><h2>Publications liées <span class="badge source">Registre ClinicalTrials.gov</span></h2><ul><li><span class="manque">Aucune publication liée identifiée</span></li></ul></section><section><h2>Promoteur, financeur et affiliations <span class="badge source">Registre ClinicalTrials.gov</span></h2><div class="acteurs">
+      <div><h3>Promoteur</h3><p class="def">Organisme responsable de l'essai, déclaré au registre.</p>
+        <p><strong>National University of Singapore</strong> (académique ou autre)</p>
+        <p>Collaborateurs déclarés : Singapore National Eye Centre, Singapore Eye Research Institute, National University Hospital, Singapore</p></div>
+      <div><h3>Financeur</h3><p class="def">Organisme qui finance la recherche.</p>
+        <p><span class="manque">Non déclaré séparément dans le registre.</span> Le promoteur n'est pas présenté ici comme financeur : le registre ne le précise pas.</p></div>
+      <div><h3>Affiliations</h3><p class="def">Établissement des responsables de l'étude.</p>
+        <ul><li>Raymond P. Najjar, PhD — investigateur principal — affiliation : National University of Singapore</li></ul></div>
+    </div></section>
+<section><h2>Ce qui manque <span class="badge regle">calculé par l'outil</span></h2><ul><li>résultats (aucun résultat déposé au registre)</li><li>données de tolérance</li><li>publication liée</li></ul></section>
+<section><h2>Limites, intérêt pour la veille marketing, à retenir <span class="badge attente">non produit par l'outil</span></h2><p><span class="manque">Non rédigé automatiquement : les données extraites ne suffisent pas à produire une analyse fiable sans interprétation. Utilisez le bouton « Copier pour Claude / ChatGPT » pour obtenir une proposition, à vérifier.</span></p></section>
+<section><details><summary>Voir le texte copié par le bouton</summary>
+<textarea id="a-copier" readonly>Tu es assistant de veille scientifique sur le glaucome. À partir UNIQUEMENT des informations ci-dessous, rédige en français une fiche de synthèse avec ces rubriques :
+1. Question étudiée
+2. Traitement ou technologie
+3. Type d&#x27;étude
+4. Population et nombre de participants
+5. Comparateur
+6. Critères évalués
+7. Principaux résultats chiffrés (recopie les valeurs exactes et indique leur source)
+8. Données de tolérance
+9. Limites
+10. Intérêt potentiel pour une veille marketing — présenté comme une INTERPRÉTATION, séparé des faits
+11. À retenir (une phrase)
+
+Règles :
+- N&#x27;invente rien. Si une information manque, écris « non rapporté ».
+- Distingue un essai simplement enregistré, un protocole, des résultats déposés dans un registre et une publication de résultats.
+- Si la source est seulement le résumé d&#x27;un article, indique que la synthèse repose uniquement sur ce résumé.
+- Les rôles « suggérés » (traitement étudié / comparateur) sont à vérifier dans le texte source.
+- Ne confonds pas promoteur d&#x27;essai, financeur et affiliation des auteurs.
+- Termine par la liste des points à vérifier.
+
+=== INFORMATIONS ===
+SOURCE : registre ClinicalTrials.gov, essai NCT07364929 — https://clinicaltrials.gov/study/NCT07364929
+NIVEAU DE PREUVE : essai enregistré, AUCUN résultat déposé au registre
+Titre : Altered Non-Visual Photoreception in Patients With Glaucoma: Impacts on Sleep, Alertness, Mood, and Cognition
+Titre officiel : Altered Non-Visual Photoreception in Patients With Glaucoma: Impacts on Sleep, Alertness, Mood, and Cognition
+Phase déclarée : Non applicable (déclaré) · Statut : Recrutement en cours · Type : Interventionnelle
+Promoteur (déclaré) : National University of Singapore (OTHER) · Collaborateurs : Singapore National Eye Centre, Singapore Eye Research Institute, National University Hospital, Singapore
+Financeur : non déclaré séparément dans le registre
+Participants : 120 (prévu) · Conditions : Glaucoma
+Plan : {&#x27;but_principal&#x27;: &#x27;SUPPORTIVE_CARE&#x27;, &#x27;insu&#x27;: &#x27;NONE&#x27;, &#x27;insu_description&#x27;: None, &#x27;insu_pour&#x27;: None, &#x27;modele&#x27;: &#x27;CROSSOVER&#x27;, &#x27;modele_observationnel&#x27;: None, &#x27;repartition&#x27;: &#x27;RANDOMIZED&#x27;}
+Bras (rôle déclaré) :
+  - Patients with glaucoma [EXPERIMENTAL] : Other: Full-spectrum light exposure, Other: Standard indoor light exposure (Control)
+  - Controls (healthy adults) [ACTIVE_COMPARATOR] : Other: Full-spectrum light exposure, Other: Standard indoor light exposure (Control)
+Critères principaux : Subjective Sleep Quality [Baseline (Visit 1)]; Subjective Daytime Sleepiness [Baseline (Visit 1)]; Depressive Symptoms [Baseline (Visit 1)]; Global Cognitive Function [Baseline (Visit 1)]; Global Cognitive Function during light exposure [Immediately after the procedure]; Median Reaction Time [Immediately after the procedure]; Vigilance Lapses [Immediately after the procedure]; Long Reation Time Lapses [Immediately after the procedure]; Anticipatory Responses [Immediately after the procedure]; Sustained Attention Variability [Immediately after the procedure]; Associative Learning [Immediately after the procedure]; Processing Speed [Immediately after the procedure]; Visual Attention Allocation [Immediately after the procedure]; Eye-Movement Behavior [Immediately after the procedure]; Selective Attention [Immediately after the procedure]; Auditory Discrimination Performance [Immediately after the procedure]; Task-Evoked Pupillary Responses [Immediately after the procedure]; Pupillary Responses to Shapes [Immediately after the procedure]; Objective sleepiness [Immediately after the procedure]; Risk Taking Behavior [Immediately after the procedure]; Subjective Sleepiness, Mood, and Wellbeing [Immediately after the procedure]; Sleep Quantity [8-16 days in between the visits]; Sleep Efficiency [8-16 days between the visits]; Phasic Pupil Constriction to Blue Light [Baseline (Visit 1)]; Phasic Pupil Constriction to Red Light [Baseline (Visit 1)]; Maximum Pupil Constriction to Blue Light [Baseline (Visit 1)]; Maximum Pupil Constriction to Red Light [Baseline (Visit 1)]; Pupil Constriction Latency to Blue Light [Baseline (Visit 1)]; Pupil Constriction Latency to Red Light [Baseline (Visit 1)]; Post-illumination Pupillary Responses [Baseline (Visit 1)]
+Critères secondaires : Anticipatory Pupil Size [Immediately after the procedure]; Hit Rate [Immediately after the procedure]; False Alarm Rate [Immediately after the procedure]; Correct Rejection Rate [Immediately after the procedure]; Miss Rate [Immediately after the procedure]; Visual Behavior During Time Estimation Task [Immediately after the procedure]; Secondary Risk Taking Metrcis [Immediately after the procedure]; Reward Seeking Behavior [Immediately after the procedure]; Risk/Reward-Related Visual Behavior [Immediately after the procedure]; Daytime average light levels (lux) [8-16 days between the visits]; Daytime average melanopic lux [8-16 days between the visits]; Time spent outdoors [8-16 days between the visits]; Nighttime average melanopic lux [8-16 days between the visits]; Time spent over 250 or other melanopic EDI threshold during daytime [8-16 days between visits]; Time spent under 10 or other melanopic EDI threshold during nighttime [8-16 days between visits]
+
+DESCRIPTION (registre, texte source) :
+The goal of this study is to understand how light sensitivity in the eye affects sleep, mood, alertness, and cognition in adults with glaucoma compared to healthy individuals aged 45-75 years.
+
+The main questions it aims to answer are:
+
+1. Do patients with glaucoma experience poorer sleep, mood, alertness, and cognitive function than age-matched healthy adults?
+2. Are these changes related to reduced light sensitivity in special retinal cells called intrinsically photosensitive retinal ganglion cells (ipRGCs), lost in glaucoma?
+3. Can exposure to safe, full-spectrum indoor light help improve these functions?
+
+Researchers will compare patients with glaucoma and age-matched healthy controls to see if differences in light sensitivity can explain changes in non-visual light responses (i.e., sleep, mood, alertness, and cognition) and whether full-spectrum light exposure can enhance alertness and wellbeing.
+
+Participants will:
+
+1. Complete eye exams and baseline questionnaires about their sleep, daytime sleepiness, mood, and wellbeing.
+2. Wear a wrist-worn device for 8-16 days to record their sleep patterns and light exposure.
+3. Visit the laboratory for cognitive and attention tests following exposure to two lighting conditions (randomized, cross-over):
+
+   * Standard indoor light (\~300 lux)
+   * Full-spectrum light (\~1000 lux)
+
+This study will help researchers understand how glaucoma affects the brain beyond vision and explore whether light-based interventions can improve quality of life for people living with glaucoma.
+
+RÉSULTATS : aucun résultat déposé au registre.</textarea></details></section>
+<p><small>Fiche générée le 2026-11-13 13:22 par Glaucoma Intelligence. Extraits des sources en langue originale.</small></p>
+</main><script>
+function copierFiche(){
+  var zone=document.getElementById('a-copier'), bouton=document.getElementById('bouton-copier');
+  function fait(){bouton.textContent='Copié ✓ — collez dans Claude ou ChatGPT';setTimeout(function(){bouton.textContent='Copier pour Claude / ChatGPT'},3000);}
+  function secours(){zone.parentElement.open=true;zone.select();try{document.execCommand('copy');fait();}
+    catch(err){bouton.textContent='Sélectionnez le texte ci-dessous puis Ctrl+C';}}
+  if(navigator.clipboard&&window.isSecureContext){navigator.clipboard.writeText(zone.value).then(fait,secours);}else{secours();}
+}
+</script></body></html>
