@@ -1,10 +1,10 @@
 {
- "collecte_le": "2026-11-13",
+ "collecte_le": "2026-11-14",
  "sources": {
   "france": {
    "nom": "BDPM (ANSM · HAS · Assurance maladie)",
    "url": "https://base-donnees-publique.medicaments.gouv.fr",
-   "telecharge_le": "2026-11-13",
+   "telecharge_le": "2026-11-14",
    "fichiers": [
     "CIS_bdpm.txt",
     "CIS_COMPO_bdpm.txt",
@@ -18,35 +18,35 @@
   "ue": {
    "nom": "EMA — rapport « Medicines » (procédure centralisée)",
    "url": "https://www.ema.europa.eu/en/medicines/download-medicine-data",
-   "telecharge_le": "2026-11-13",
+   "telecharge_le": "2026-11-14",
    "meta": {
-    "total_records": 2757,
-    "timestamp": "2026-11-13T06:02:09Z"
+    "total_records": 2765,
+    "timestamp": "2026-11-14T06:03:05Z"
    },
    "ok": true
   },
   "usa": {
    "nom": "openFDA — Drugs@FDA",
    "url": "https://open.fda.gov/apis/drug/drugsfda/",
-   "telecharge_le": "2026-11-13",
+   "telecharge_le": "2026-11-14",
    "ok": true
   },
   "canada": {
    "nom": "Santé Canada — Base de données sur les produits pharmaceutiques (DPD)",
    "url": "https://www.canada.ca/fr/sante-canada/services/medicaments-produits-sante/medicaments/base-donnees-produits-pharmaceutiques.html",
-   "telecharge_le": "2026-11-13",
+   "telecharge_le": "2026-11-14",
    "ok": true
   },
   "espagne": {
    "nom": "AEMPS — CIMA (Espagne)",
    "url": "https://cima.aemps.es/cima/publico/home.html",
-   "telecharge_le": "2026-11-13",
+   "telecharge_le": "2026-11-14",
    "ok": true
   },
   "italie": {
    "nom": "AIFA — listes des médicaments de classe A et H (Italie)",
    "url": "https://www.aifa.gov.it/liste-farmaci-a-h",
-   "telecharge_le": "2026-11-13",
+   "telecharge_le": "2026-11-14",
    "dates_listes": {
     "A": "2026-06-30",
     "H": "2026-06-30"
@@ -56,7 +56,7 @@
   "suisse": {
    "nom": "Swissmedic — liste étendue des médicaments autorisés (Suisse)",
    "url": "https://www.swissmedic.ch/swissmedic/fr/home/services/listen_neu.html",
-   "telecharge_le": "2026-11-13",
+   "telecharge_le": "2026-11-14",
    "ok": true
   },
   "australie": {
@@ -2865,38 +2865,6 @@
      "lien": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=204638"
     },
     {
-     "numero": "ANDA209797",
-     "type": "générique (ANDA)",
-     "sponsor": "GLAND PHARMA LTD",
-     "marques": [
-      "BIMATOPROST"
-     ],
-     "substances": [
-      "BIMATOPROST"
-     ],
-     "date_approbation": null,
-     "statuts_commerciaux": [
-      "None (Tentative Approval)"
-     ],
-     "lien": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=209797"
-    },
-    {
-     "numero": "ANDA203404",
-     "type": "générique (ANDA)",
-     "sponsor": "APOTEX INC",
-     "marques": [
-      "BIMATOPROST"
-     ],
-     "substances": [
-      "BIMATOPROST"
-     ],
-     "date_approbation": null,
-     "statuts_commerciaux": [
-      "None (Tentative Approval)"
-     ],
-     "lien": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=203404"
-    },
-    {
      "numero": "ANDA203056",
      "type": "générique (ANDA)",
      "sponsor": "SANDOZ INC",
@@ -2927,6 +2895,38 @@
       "None (Tentative Approval)"
      ],
      "lien": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=200487"
+    },
+    {
+     "numero": "ANDA209797",
+     "type": "générique (ANDA)",
+     "sponsor": "GLAND PHARMA LTD",
+     "marques": [
+      "BIMATOPROST"
+     ],
+     "substances": [
+      "BIMATOPROST"
+     ],
+     "date_approbation": null,
+     "statuts_commerciaux": [
+      "None (Tentative Approval)"
+     ],
+     "lien": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=209797"
+    },
+    {
+     "numero": "ANDA203404",
+     "type": "générique (ANDA)",
+     "sponsor": "APOTEX INC",
+     "marques": [
+      "BIMATOPROST"
+     ],
+     "substances": [
+      "BIMATOPROST"
+     ],
+     "date_approbation": null,
+     "statuts_commerciaux": [
+      "None (Tentative Approval)"
+     ],
+     "lien": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=203404"
     }
    ],
    "canada": [
@@ -5648,22 +5648,6 @@
      "lien": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=020439"
     },
     {
-     "numero": "ANDA074261",
-     "type": "générique (ANDA)",
-     "sponsor": "SANDOZ",
-     "marques": [
-      "TIMOLOL MALEATE"
-     ],
-     "substances": [
-      "TIMOLOL MALEATE"
-     ],
-     "date_approbation": "1995-04-28",
-     "statuts_commerciaux": [
-      "Prescription"
-     ],
-     "lien": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=074261"
-    },
-    {
      "numero": "ANDA074262",
      "type": "générique (ANDA)",
      "sponsor": "SANDOZ",
@@ -5678,6 +5662,22 @@
       "Prescription"
      ],
      "lien": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=074262"
+    },
+    {
+     "numero": "ANDA074261",
+     "type": "générique (ANDA)",
+     "sponsor": "SANDOZ",
+     "marques": [
+      "TIMOLOL MALEATE"
+     ],
+     "substances": [
+      "TIMOLOL MALEATE"
+     ],
+     "date_approbation": "1995-04-28",
+     "statuts_commerciaux": [
+      "Prescription"
+     ],
+     "lien": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=074261"
     },
     {
      "numero": "ANDA074667",
@@ -5744,22 +5744,6 @@
      "lien": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=074747"
     },
     {
-     "numero": "ANDA074776",
-     "type": "générique (ANDA)",
-     "sponsor": "BAUSCH AND LOMB",
-     "marques": [
-      "TIMOLOL MALEATE"
-     ],
-     "substances": [
-      "TIMOLOL MALEATE"
-     ],
-     "date_approbation": "1997-03-25",
-     "statuts_commerciaux": [
-      "Discontinued"
-     ],
-     "lien": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=074776"
-    },
-    {
      "numero": "ANDA074778",
      "type": "générique (ANDA)",
      "sponsor": "BAUSCH AND LOMB",
@@ -5776,9 +5760,9 @@
      "lien": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=074778"
     },
     {
-     "numero": "ANDA074465",
+     "numero": "ANDA074776",
      "type": "générique (ANDA)",
-     "sponsor": "EPIC PHARMA LLC",
+     "sponsor": "BAUSCH AND LOMB",
      "marques": [
       "TIMOLOL MALEATE"
      ],
@@ -5789,7 +5773,7 @@
      "statuts_commerciaux": [
       "Discontinued"
      ],
-     "lien": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=074465"
+     "lien": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=074776"
     },
     {
      "numero": "ANDA074466",
@@ -5808,7 +5792,7 @@
      "lien": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=074466"
     },
     {
-     "numero": "ANDA074515",
+     "numero": "ANDA074465",
      "type": "générique (ANDA)",
      "sponsor": "EPIC PHARMA LLC",
      "marques": [
@@ -5821,7 +5805,7 @@
      "statuts_commerciaux": [
       "Discontinued"
      ],
-     "lien": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=074515"
+     "lien": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=074465"
     },
     {
      "numero": "ANDA074516",
@@ -5838,6 +5822,22 @@
       "Discontinued"
      ],
      "lien": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=074516"
+    },
+    {
+     "numero": "ANDA074515",
+     "type": "générique (ANDA)",
+     "sponsor": "EPIC PHARMA LLC",
+     "marques": [
+      "TIMOLOL MALEATE"
+     ],
+     "substances": [
+      "TIMOLOL MALEATE"
+     ],
+     "date_approbation": "1997-03-25",
+     "statuts_commerciaux": [
+      "Discontinued"
+     ],
+     "lien": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=074515"
     },
     {
      "numero": "NDA020963",
@@ -7242,22 +7242,6 @@
      "lien": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=020408"
     },
     {
-     "numero": "ANDA078395",
-     "type": "générique (ANDA)",
-     "sponsor": "RUBICON RESEARCH",
-     "marques": [
-      "DORZOLAMIDE HYDROCHLORIDE"
-     ],
-     "substances": [
-      "DORZOLAMIDE HYDROCHLORIDE"
-     ],
-     "date_approbation": "2008-10-28",
-     "statuts_commerciaux": [
-      "Prescription"
-     ],
-     "lien": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=078395"
-    },
-    {
      "numero": "ANDA077846",
      "type": "générique (ANDA)",
      "sponsor": "HIKMA",
@@ -7272,6 +7256,22 @@
       "Discontinued"
      ],
      "lien": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=077846"
+    },
+    {
+     "numero": "ANDA078395",
+     "type": "générique (ANDA)",
+     "sponsor": "RUBICON RESEARCH",
+     "marques": [
+      "DORZOLAMIDE HYDROCHLORIDE"
+     ],
+     "substances": [
+      "DORZOLAMIDE HYDROCHLORIDE"
+     ],
+     "date_approbation": "2008-10-28",
+     "statuts_commerciaux": [
+      "Prescription"
+     ],
+     "lien": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=078395"
     },
     {
      "numero": "ANDA078748",
