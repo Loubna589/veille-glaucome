@@ -130,4 +130,7 @@ def lire_json(reponse, source):
         return reponse.json()
     except (ValueError, json.JSONDecodeError) as erreur:
         journal().error("%s : réponse qui n'est pas du JSON valide : %r", source, (reponse.text or "")[:200])
-        raise ErreurSource(f"{source} : réponse invalide (JSON attendu)", reponse.status_code, reponse) from erreur
+        apercu = (reponse.text or "")[:150].replace("\n", " ") or "corps vide"
+        type_contenu = reponse.headers.get("Content-Type", "?")
+        raise ErreurSource(f"{source} : réponse invalide (JSON attendu) — HTTP {reponse.status_code}, "
+                           f"{type_contenu}, début : {apercu!r}", reponse.status_code, reponse) from erreur
