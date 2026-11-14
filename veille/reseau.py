@@ -136,31 +136,12 @@ def lire_json(reponse, source):
                            f"{type_contenu}, début : {apercu!r}", reponse.status_code, reponse) from erreur
 
 
-# --- GitHub Models -------------------------------------------------------------------------------
-# Deux portes d'entrée officielles. Le 13 et le 14/11/2026, la première a renvoyé « OK » en texte
-# au lieu d'une réponse JSON : on essaie alors la seconde (même jeton GITHUB_TOKEN, même modèle).
-MODELS_PORTES = (
-    ("https://models.github.ai/inference/chat/completions", lambda m: m),
-    ("https://models.inference.ai.azure.com/chat/completions", lambda m: m.split("/", 1)[-1]),
-)
-
-
-def appeler_github_models(corps, jeton, source, *, session=None, timeout=60, tentatives=3):
-    """Envoie une requête chat/completions à GitHub Models et renvoie le JSON. Essaie la porte de secours si besoin."""
-    derniere = None
-    for url, nom_modele in MODELS_PORTES:
-        reponse = requete("POST", url, source, json_corps={**corps, "model": nom_modele(corps["model"])},
-                          timeout=timeout, tentatives=tentatives, session=session,
-                          headers={"Authorization": f"Bearer {jeton}", "Accept": "application/json",
-                                   "Content-Type": "application/json"})
-        try:
-            donnees = lire_json(reponse, source)
-            if isinstance(donnees, dict) and donnees.get("choices"):
-                return donnees
-            derniere = ErreurSource(f"{source} : réponse sans « choices » ({url})", reponse.status_code, reponse)
-        except ErreurSource as erreur:
-            derniere = erreur
-        redirections = " → ".join(str(r.status_code) for r in getattr(reponse, "history", []) or [])
-        journal().warning("%s : %s (url finale %s%s) — essai de la porte suivante", source, derniere,
-                          getattr(reponse, "url", url), f", redirections {redirections}" if redirections else "")
-    raise derniere
+def appeler_chat(url, corps, cle, source, *, session=None, timeout=60, tentatives=3):
+    """Requête chat/completions (format OpenAI : Mistral, Gemini…). Renvoie le JSON, ou ErreurSource."""
+    reponse = requete("POST", url, source, json_corps=corps, timeout=timeout, tentatives=tentatives, session=session,
+                      headers={"Authorization": f"Bearer {cle}", "Accept": "application/json",
+                               "Content-Type": "application/json"})
+    donnees = lire_json(reponse, source)
+    if not (isinstance(donnees, dict) and donnees.get("choices")):
+        raise ErreurSource(f"{source} : réponse sans « choices » : {str(donnees)[:150]!r}", reponse.status_code, reponse)
+    return donnees

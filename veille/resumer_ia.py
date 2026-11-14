@@ -1,4 +1,4 @@
-"""IA traçable : résumé en français + classification dans des catégories fermées (GitHub Models, gratuit).
+"""IA traçable : résumé en français + classification dans des catégories fermées (IA gratuite, Mistral ou Gemini).
 
 Pour chaque étude de la base (essai, article PubMed, publication OpenAlex) qui a un résumé
 dans sa source, on demande à un modèle léger une sortie JSON :
@@ -13,8 +13,8 @@ Traçabilité (table `traitements_ia` de la base SQLite) :
 La sortie est VALIDÉE (JSON, clés attendues, 3 lignes, catégorie dans la liste fermée) ;
 une sortie invalide n'est jamais enregistrée.
 
-Accès : https://models.github.ai/inference/chat/completions avec le jeton GITHUB_TOKEN
-(automatique sur GitHub Actions avec `permissions: models: read`). Sans jeton, l'étape est sautée.
+Accès : service choisi par veille/fournisseur_ia.py selon la clé présente (MISTRAL_API_KEY ou
+GEMINI_API_KEY, dans .env ou les Secrets du dépôt). Sans clé, l'étape est sautée.
 """
 import hashlib
 import json
@@ -22,16 +22,14 @@ import os
 import time
 from pathlib import Path
 
-from veille import base, reseau
+from veille import base, fournisseur_ia, reseau
 
 RACINE = Path(__file__).resolve().parents[1]
 DOSSIER_PROMPTS = RACINE / "config" / "prompts"
 VERSION_PROMPT = os.getenv("VERSION_PROMPT", "resume_classification_v1")
-API = "https://models.github.ai/inference/chat/completions"
-MODELE = os.getenv("MODELE_IA", "openai/gpt-4o-mini")
-MAX_PAR_EXECUTION = 40   # reste sous les limites gratuites de GitHub Models
+MAX_PAR_EXECUTION = 40   # reste sous les limites des offres gratuites
 MAX_ECHECS = 3           # au-delà, on s'arrête (problème d'accès probable)
-PAUSE = 5                # secondes entre deux appels
+PAUSE = 7                # secondes entre deux appels (offre gratuite Gemini : 10 requêtes par minute)
 MENTION = "Généré par IA, non vérifié"
 
 CATEGORIES = {
@@ -101,13 +99,19 @@ def deja_traite(conn, objet_id, emp, version=VERSION_PROMPT):
                         (objet_id, emp, version)).fetchone() is not None
 
 
+def fournisseur():
+    return fournisseur_ia.actif("MODELE_IA")
+
+
 def demander(texte, jeton, session=None):
-    corps = {"model": MODELE, "temperature": 0, "max_tokens": 400, "response_format": {"type": "json_object"},
+    f = fournisseur()
+    corps = {"model": f.modele, "temperature": 0, "max_tokens": 400, "response_format": {"type": "json_object"},
              "messages": [{"role": "system", "content": prompt()}, {"role": "user", "content": texte[:6000]}]}
-    return reseau.appeler_github_models(corps, jeton, "GitHub Models", session=session)["choices"][0]["message"]["content"]
+    return reseau.appeler_chat(f.url, corps, jeton, f"IA ({f.nom})", session=session)["choices"][0]["message"]["content"]
 
 
-def enregistrer(conn, objet_type, objet_id, emp, brut, sortie, modele=MODELE, version=VERSION_PROMPT):
+def enregistrer(conn, objet_type, objet_id, emp, brut, sortie, modele=None, version=VERSION_PROMPT):
+    modele = modele or fournisseur().modele
     conn.execute("INSERT OR IGNORE INTO traitements_ia (objet_type, objet_id, empreinte_source, modele, version_prompt, date, "
                  "sortie, categorie, resume, pourquoi) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)",
                  (objet_type, objet_id, emp, modele, version, time.strftime("%Y-%m-%d"), brut, sortie["categorie"],
@@ -116,7 +120,7 @@ def enregistrer(conn, objet_type, objet_id, emp, brut, sortie, modele=MODELE, ve
 
 def traiter(conn, jeton=None, session=None, maximum=MAX_PAR_EXECUTION, pause=PAUSE):
     """Traite les études pas encore traitées par CETTE version du prompt. Renvoie un bilan."""
-    jeton = jeton or os.getenv("GITHUB_TOKEN")
+    jeton = jeton or fournisseur().cle
     bilan = {"traites": 0, "invalides": 0, "restants": 0, "saute": False, "erreur": None}
     if not jeton:
         bilan["saute"] = True

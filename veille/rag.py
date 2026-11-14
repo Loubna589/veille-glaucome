@@ -1,4 +1,4 @@
-"""Assistant RAG (Retrieval-Augmented Generation) : recherche sémantique → extraits → GitHub Models → réponse citée.
+"""Assistant RAG (Retrieval-Augmented Generation) : recherche sémantique → extraits → IA (Mistral ou Gemini) → réponse citée.
 
 1. la question passe par la recherche hybride (veille/semantique.py) : top k extraits ;
 2. les extraits sont envoyés au modèle avec un prompt VERSIONNÉ (config/prompts/rag_v1.md) :
@@ -9,7 +9,7 @@
 4. chaque échange est journalisé dans SQLite (table echanges_rag) : question, identifiants retrouvés,
    scores, modèle, version du prompt, réponse, citations, statut, durée.
 
-Sans jeton GITHUB_TOKEN (lu dans .env), l'assistant renvoie les sources retrouvées SANS synthèse.
+Sans clé MISTRAL_API_KEY ou GEMINI_API_KEY (lue dans .env), l'assistant renvoie les sources retrouvées SANS synthèse.
 """
 import os
 import re
@@ -17,12 +17,10 @@ import time
 from contextlib import closing
 from pathlib import Path
 
-from veille import base, reseau, semantique
+from veille import base, fournisseur_ia, reseau, semantique
 
 RACINE = Path(__file__).resolve().parents[1]
 VERSION_PROMPT = os.getenv("VERSION_PROMPT_RAG", "rag_v1")
-API = "https://models.github.ai/inference/chat/completions"
-MODELE = os.getenv("MODELE_RAG", "openai/gpt-4o-mini")
 K = 6
 MOTIF_CITATION = re.compile(r"\[(PMID:\d+|NCT\d{8}|OpenAlex:W\d+)\]")
 JE_NE_SAIS_PAS = "je ne sais pas"
@@ -77,10 +75,11 @@ def verifier_citations(reponse, resultats):
 
 
 def demander(question, resultats, jeton, session=None):
-    corps = {"model": MODELE, "temperature": 0, "max_tokens": 700,
+    f = fournisseur_ia.actif("MODELE_RAG")
+    corps = {"model": f.modele, "temperature": 0, "max_tokens": 700,
              "messages": [{"role": "system", "content": prompt()},
                           {"role": "user", "content": f"QUESTION : {question}\n\nEXTRAITS :\n{extraits_texte(resultats)}"}]}
-    return reseau.appeler_github_models(corps, jeton, "GitHub Models (RAG)", session=session)["choices"][0]["message"]["content"].strip()
+    return reseau.appeler_chat(f.url, corps, jeton, f"IA ({f.nom}, assistant)", session=session)["choices"][0]["message"]["content"].strip()
 
 
 class Assistant:
@@ -91,7 +90,7 @@ class Assistant:
             conn.executescript(SCHEMA)
         self.index = index or semantique.Index.charger()
         self.encodeur = encodeur or semantique.Encodeur()
-        self.jeton = jeton if jeton is not None else os.getenv("GITHUB_TOKEN")
+        self.jeton = jeton if jeton is not None else fournisseur_ia.actif("MODELE_RAG").cle
         self.session = session
 
     def repondre(self, question, k=K):
@@ -103,7 +102,7 @@ class Assistant:
         sortie = {"question": question, "question_etendue": etendue, "sources": sources, "modele": None,
                   "version_prompt": VERSION_PROMPT, "reponse": None, "citations": [], "statut": "sans_jeton", "erreur": None}
         if self.jeton:
-            sortie["modele"] = MODELE
+            sortie["modele"] = fournisseur_ia.actif("MODELE_RAG").modele
             try:
                 texte = demander(question, resultats, self.jeton, self.session)
                 statut, citees, inconnues = verifier_citations(texte, resultats)

@@ -5,7 +5,7 @@
     python assistant.py --sauver-demo           → enregistre la réponse RÉELLE à la question de démo
                                                   dans demo/reponse_rag_demo.json (mode hors ligne)
 
-Jeton : GITHUB_TOKEN dans le fichier .env (jamais dans le code, jamais versionné).
+Clé IA : MISTRAL_API_KEY (ou GEMINI_API_KEY) dans le fichier .env (jamais dans le code, jamais versionné).
 Sans jeton : les sources retrouvées s'affichent, sans synthèse.
 """
 import argparse
@@ -65,7 +65,7 @@ def application(assistant):
 
     @app.get("/api/etat")
     def etat():
-        return jsonify({"jeton": bool(assistant.jeton), "modele": __import__("veille.rag").rag.MODELE,
+        return jsonify({"jeton": bool(assistant.jeton), "modele": __import__("veille.fournisseur_ia").fournisseur_ia.actif("MODELE_RAG").modele,
                         "version_prompt": __import__("veille.rag").rag.VERSION_PROMPT, "documents": len(assistant.index.ids),
                         "question_demo": QUESTION_DEMO, "demo_disponible": FICHIER_DEMO.exists()})
 
@@ -88,7 +88,7 @@ def main():
         sortie = assistant.repondre(args.question or QUESTION_DEMO)
         print(f"Statut : {sortie['statut']} · modèle : {sortie['modele'] or '—'} · prompt : {sortie['version_prompt']} "
               f"· {sortie['duree_ms']} ms")
-        print(f"\nRéponse :\n{sortie['reponse'] or '(pas de synthèse : jeton GITHUB_TOKEN absent de .env)'}\n")
+        print(f"\nRéponse :\n{sortie['reponse'] or '(pas de synthèse : clé MISTRAL_API_KEY ou GEMINI_API_KEY absente de .env)'}\n")
         print("Sources retrouvées :")
         for s in sortie["sources"]:
             print(f"  [{s['citation']}] {s['score']:.3f} — {(s['titre'] or '')[:100]}")

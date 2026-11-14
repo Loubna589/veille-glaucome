@@ -1,7 +1,7 @@
 """Étape IA du pipeline : résumé + classification traçables (GitHub Models), puis reconstruction du site.
 
 Lancement :  python resumer_ia.py
-Nécessite GITHUB_TOKEN (automatique sur GitHub Actions avec `permissions: models: read`).
+Nécessite MISTRAL_API_KEY ou GEMINI_API_KEY (.env en local, Secrets du dépôt en ligne).
 Sans jeton, l'étape est sautée sans erreur (et notée « saute » dans le journal des exécutions).
 Détails : veille/resumer_ia.py · prompts versionnés : config/prompts/.
 """
@@ -27,9 +27,9 @@ def main():
                   bilan["traites"], bilan["erreur"]))
     conn.commit()
     if bilan["saute"]:
-        print("  [SAUTÉ] IA : pas de jeton GITHUB_TOKEN (normal sur le PC ; actif sur GitHub Actions)")
+        print("  [SAUTÉ] IA : pas de clé MISTRAL_API_KEY ni GEMINI_API_KEY")
         return 0
-    print(f"  [{statut.upper()}] IA ({resumer_ia.MODELE}, prompt {resumer_ia.VERSION_PROMPT}) : "
+    print(f"  [{statut.upper()}] IA ({resumer_ia.fournisseur().nom} {resumer_ia.fournisseur().modele}, prompt {resumer_ia.VERSION_PROMPT}) : "
           f"{bilan['traites']} traité(s), {bilan['invalides']} sortie(s) invalide(s) rejetée(s), "
           f"{bilan['restants']} restant(s)" + (f" — {bilan['erreur']}" if bilan["erreur"] else ""))
     if bilan["traites"]:

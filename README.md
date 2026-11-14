@@ -17,7 +17,7 @@ La page **Accès au marché** croise ces trois dernières sources pour les molé
 `config/marche.ini` (collecte : `python collecter_marche.py`, lancée aussi par `mise_a_jour.py`).
 
 **Résumés IA** : `python resumer_ia.py` produit, pour chaque nouvelle étude, 3 lignes en français et une ligne
-« Pour un chef de produit », via GitHub Models (gratuit, jeton `GITHUB_TOKEN`, automatique sur GitHub Actions).
+« Pour un chef de produit », via Google Gemini (offre gratuite, clé `GEMINI_API_KEY` dans .env ou les Secrets du dépôt ; Mistral possible avec `MISTRAL_API_KEY`). GitHub Models, utilisé au départ, a fermé le 30/07/2026.
 Chaque résumé est marqué « Résumé généré par IA, à vérifier » ; sans jeton, l'étape est sautée.
 
 ## Site en ligne (GitHub Pages)
@@ -81,7 +81,7 @@ Architecture détaillée : [docs/architecture.md](docs/architecture.md) (schéma
 ```
 Veille-glaucome/
 ├── mise_a_jour.py        ← pipeline : 11 sources publiques → SQLite → export JSON contrôlé → site → alertes
-├── resumer_ia.py         ← IA traçable (GitHub Models) : résumé + catégorie fermée, JSON validé
+├── resumer_ia.py         ← IA traçable (Gemini ou Mistral) : résumé + catégorie fermée, JSON validé
 ├── construire_site.py    ← export JSON (après contrôles qualité) + fiches, depuis la base
 ├── demo_alerte.py        ← démo : simule un changement d'essai et montre l'alerte (sur une copie)
 ├── migrer_vers_sqlite.py ← migration unique de l'ancien historique JSON vers SQLite

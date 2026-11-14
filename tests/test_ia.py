@@ -49,7 +49,7 @@ def test_traitement_trace_et_jamais_refait(conn):
     bilan = resumer_ia.traiter(conn, jeton="jeton-test", session=session, pause=0)
     assert bilan["traites"] == 1
     t = conn.execute("SELECT * FROM traitements_ia").fetchone()
-    assert (t["modele"], t["version_prompt"], t["statut_validation"]) == (resumer_ia.MODELE, resumer_ia.VERSION_PROMPT, "non_verifie")
+    assert (t["modele"], t["version_prompt"], t["statut_validation"]) == (resumer_ia.fournisseur().modele, resumer_ia.VERSION_PROMPT, "non_verifie")
     assert t["categorie"] == "traitement_medicamenteux" and t["date"]
     # Deuxième passage : déjà traité (même texte source, même prompt) → aucun nouvel appel
     assert resumer_ia.traiter(conn, jeton="jeton-test", session=FausseSession(), pause=0)["traites"] == 0
@@ -63,7 +63,8 @@ def test_sortie_invalide_jamais_enregistree(conn):
 
 
 def test_sans_jeton_etape_sautee(conn, monkeypatch):
-    monkeypatch.delenv("GITHUB_TOKEN", raising=False)
+    monkeypatch.delenv("MISTRAL_API_KEY", raising=False)
+    monkeypatch.delenv("GEMINI_API_KEY", raising=False)
     assert resumer_ia.traiter(conn)["saute"] is True
 
 

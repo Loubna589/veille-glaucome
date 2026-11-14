@@ -60,12 +60,20 @@ def test_les_cles_ne_sont_jamais_journalisees():
     assert reseau._masquer({"api_key": "secret", "search": "glaucoma"}) == {"api_key": "***", "search": "glaucoma"}
 
 
-def test_github_models_bascule_sur_la_porte_de_secours(sans_attente):
-    """Cas réel du 13/11/2026 : la première porte répond « OK » en texte ; la seconde donne la vraie réponse."""
-    session = FausseSession(FausseReponse(200, texte="OK\r\n", entetes={"Content-Type": "text/plain"}),
-                            FausseReponse(200, {"choices": [{"message": {"content": "{}"}}]}))
-    donnees = reseau.appeler_github_models({"model": "openai/gpt-4o-mini", "messages": []}, "jeton", "Test", session=session)
-    assert donnees["choices"][0]["message"]["content"] == "{}"
-    assert len(session.appels) == 2
-    assert session.appels[1][1] == "https://models.inference.ai.azure.com/chat/completions"
-    assert session.appels[1][2]["json"]["model"] == "gpt-4o-mini"
+
+def test_appel_chat_refuse_une_reponse_texte(sans_attente):
+    """Cas réel du 13/11/2026 (GitHub Models fermé) : « OK » en texte au lieu d'une réponse JSON."""
+    session = FausseSession(FausseReponse(200, texte="OK\r\n", entetes={"Content-Type": "text/plain"}))
+    with pytest.raises(reseau.ErreurSource, match="JSON attendu.*text/plain"):
+        reseau.appeler_chat("https://exemple.test", {"model": "m", "messages": []}, "cle", "Test", session=session)
+
+
+def test_fournisseur_choisi_selon_la_cle(monkeypatch):
+    from veille import fournisseur_ia
+    monkeypatch.delenv("MISTRAL_API_KEY", raising=False)
+    monkeypatch.delenv("GEMINI_API_KEY", raising=False)
+    assert fournisseur_ia.actif().cle is None
+    monkeypatch.setenv("GEMINI_API_KEY", "g")
+    assert fournisseur_ia.actif().nom == "Gemini"
+    monkeypatch.setenv("MISTRAL_API_KEY", "m")
+    assert (fournisseur_ia.actif().nom, fournisseur_ia.actif().cle) == ("Mistral", "m")

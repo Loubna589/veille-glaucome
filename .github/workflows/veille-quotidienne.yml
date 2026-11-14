@@ -16,7 +16,6 @@ on:
 
 permissions:
   contents: write            # enregistrer la base et les exports dans le dépôt
-  models: read               # IA gratuite via GitHub Models (jeton automatique)
 
 concurrency:
   group: veille-quotidienne  # jamais deux exécutions en même temps
@@ -62,9 +61,10 @@ jobs:
           ALERTES_DESTINATAIRE: ${{ secrets.ALERTES_DESTINATAIRE }}
         run: python mise_a_jour.py
 
-      - name: IA traçable (résumé + classification, GitHub Models)
+      - name: IA traçable (résumé + classification, Mistral ou Gemini, offre gratuite)
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}   # jeton automatique de GitHub, rien à créer
+          MISTRAL_API_KEY: ${{ secrets.MISTRAL_API_KEY }}   # secret facultatif : sans clé, l'étape est sautée
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: python resumer_ia.py
 
       - name: Garder les journaux de l'exécution

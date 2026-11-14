@@ -65,7 +65,7 @@ def test_sans_jeton_sources_seules_et_journal(tmp_path):
 def test_reponse_du_modele_verifiee(tmp_path):
     session = FausseSession(reponse_modele("Un essai évalue ZOLYMBUS sans conservateur [NCT07845357]."))
     sortie = assistant(tmp_path, jeton="jeton-test", session=session).repondre("sans conservateur ?")
-    assert sortie["statut"] == "ok" and sortie["citations"] == ["NCT07845357"] and sortie["modele"] == rag.MODELE
+    assert sortie["statut"] == "ok" and sortie["citations"] == ["NCT07845357"] and sortie["modele"] == rag.fournisseur_ia.actif("MODELE_RAG").modele
     envoye = session.appels[0][2]["json"]["messages"][1]["content"]
     assert "[NCT07845357]" in envoye and "[PMID:42133103]" in envoye   # les extraits sont bien transmis
 

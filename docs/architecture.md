@@ -25,7 +25,7 @@ flowchart LR
 
     API --> P
     P --> DB[("SQLite data/veille.db<br/>articles · essais · versions_essais<br/>evenements · executions · traitements_ia")]
-    DB --> IA["IA GitHub Models<br/>JSON validé · catégories fermées<br/>prompt versionné · non vérifié"]
+    DB --> IA["IA Gemini (gratuit)<br/>JSON validé · catégories fermées<br/>prompt versionné · non vérifié"]
     IA --> DB
     DB --> Q{"Contrôles qualité<br/>champs · dates · doublons"}
     Q -->|valide| J["Export JSON<br/>site/data/*.json"]
@@ -36,7 +36,7 @@ flowchart LR
     subgraph INT["Couche « intelligence »"]
         EM2["Embeddings<br/>multilingual-e5-small ONNX q8<br/>table embeddings"] --> IX["Index FAISS IndexFlatIP<br/>ou numpy (identique)"]
         IX --> RH["Recherche hybride<br/>cosinus + glossaire FR→EN (IDF)<br/>CLI chercher.py · navigateur transformers.js"]
-        RH --> RAG["Assistant RAG (Flask local)<br/>GitHub Models · prompt rag_v1<br/>citations vérifiées · journal echanges_rag"]
+        RH --> RAG["Assistant RAG (Flask local)<br/>Gemini · prompt rag_v1<br/>citations vérifiées · journal echanges_rag"]
         CA["Carte Cytoscape.js<br/>liens déclarés par les sources"]
         PF["Performances<br/>F1 macro · précision@5 · MRR"]
     end
