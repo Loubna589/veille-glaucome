@@ -80,10 +80,7 @@ def demander(question, resultats, jeton, session=None):
     corps = {"model": MODELE, "temperature": 0, "max_tokens": 700,
              "messages": [{"role": "system", "content": prompt()},
                           {"role": "user", "content": f"QUESTION : {question}\n\nEXTRAITS :\n{extraits_texte(resultats)}"}]}
-    reponse = reseau.requete("POST", API, "GitHub Models (RAG)", json_corps=corps, timeout=60, tentatives=3, session=session,
-                             headers={"Authorization": f"Bearer {jeton}", "Accept": "application/vnd.github+json",
-                                      "X-GitHub-Api-Version": "2022-11-28"})
-    return reseau.lire_json(reponse, "GitHub Models (RAG)")["choices"][0]["message"]["content"].strip()
+    return reseau.appeler_github_models(corps, jeton, "GitHub Models (RAG)", session=session)["choices"][0]["message"]["content"].strip()
 
 
 class Assistant:
