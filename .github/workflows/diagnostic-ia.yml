@@ -1,0 +1,22 @@
+# Temporaire : tester Gemini depuis Actions (sera supprimé).
+name: Diagnostic IA
+on: workflow_dispatch
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Appels curl
+        env:
+          K: ${{ secrets.GEMINI_API_KEY }}
+        run: |
+          echo "longueur de la clé : ${#K}"
+          for M in gemini-flash-latest gemini-3.8-flash gemini-flash-lite-latest; do
+            echo "===== $M (OpenAI)"
+            curl -sS -m 90 -w '\n[HTTP %{http_code} en %{time_total} s]\n' https://generativelanguage.googleapis.com/v1beta/openai/chat/completions \
+              -H "Authorization: Bearer $K" -H "Content-Type: application/json" \
+              -d "{\"model\":\"$M\",\"max_tokens\":200,\"reasoning_effort\":\"low\",\"messages\":[{\"role\":\"user\",\"content\":\"Dis bonjour en JSON {\\\"m\\\":...}\"}]}" | head -c 700
+          done
+          echo "===== liste des modèles flash"
+          curl -sS -m 30 "https://generativelanguage.googleapis.com/v1beta/models?key=$K&pageSize=200" | grep -o '"name": "models/[^"]*flash[^"]*"' | head -20
