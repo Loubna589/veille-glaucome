@@ -5,7 +5,7 @@ d'une réponse (constaté dans Actions les 13 et 14/11/2026). On utilise donc un
 parle le même « langage » (chat/completions, format OpenAI) avec une clé GRATUITE :
 
 - MISTRAL_API_KEY : Mistral AI (entreprise française), modèle mistral-small-latest ;
-- GEMINI_API_KEY  : Google Gemini, modèle gemini-2.5-flash (porte compatible OpenAI).
+- GEMINI_API_KEY  : Google Gemini, modèle gemini-flash-latest (toujours la version Flash actuelle ; gemini-2.5-flash a été retiré).
 
 La clé se met dans .env (en local) ou dans les Secrets du dépôt (en ligne), jamais dans le code.
 Sans clé, les étapes IA sont sautées proprement.
@@ -26,7 +26,7 @@ class Fournisseur:
 CATALOGUE = (
     Fournisseur("Mistral", "MISTRAL_API_KEY", "https://api.mistral.ai/v1/chat/completions", "mistral-small-latest"),
     Fournisseur("Gemini", "GEMINI_API_KEY", "https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
-                "gemini-2.5-flash"),
+                "gemini-flash-latest"),
 )
 
 
