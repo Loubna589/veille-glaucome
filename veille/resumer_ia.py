@@ -27,7 +27,7 @@ from veille import base, fournisseur_ia, reseau
 RACINE = Path(__file__).resolve().parents[1]
 DOSSIER_PROMPTS = RACINE / "config" / "prompts"
 VERSION_PROMPT = os.getenv("VERSION_PROMPT", "resume_classification_v1")
-MAX_PAR_EXECUTION = 40   # reste sous les limites des offres gratuites
+MAX_PAR_EXECUTION = 150  # environ 18 min avec la pause ; reste sous le quota gratuit de Gemini Flash-Lite
 MAX_ECHECS = 3           # au-delà, on s'arrête (problème d'accès probable)
 PAUSE = 7                # secondes entre deux appels (offre gratuite Gemini : 10 requêtes par minute)
 MENTION = "Généré par IA, non vérifié"
