@@ -76,7 +76,7 @@ def verifier_citations(reponse, resultats):
 
 def demander(question, resultats, jeton, session=None):
     f = fournisseur_ia.actif("MODELE_RAG")
-    corps = {"model": f.modele, "temperature": 0, "max_tokens": 700,
+    corps = {**f.options(), "model": f.modele, "temperature": 0, "max_tokens": 2000,
              "messages": [{"role": "system", "content": prompt()},
                           {"role": "user", "content": f"QUESTION : {question}\n\nEXTRAITS :\n{extraits_texte(resultats)}"}]}
     return reseau.appeler_chat(f.url, corps, jeton, f"IA ({f.nom}, assistant)", session=session)["choices"][0]["message"]["content"].strip()

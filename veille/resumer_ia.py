@@ -105,9 +105,9 @@ def fournisseur():
 
 def demander(texte, jeton, session=None):
     f = fournisseur()
-    corps = {"model": f.modele, "temperature": 0, "max_tokens": 400, "response_format": {"type": "json_object"},
+    corps = {**f.options(), "model": f.modele, "temperature": 0, "max_tokens": 1500, "response_format": {"type": "json_object"},
              "messages": [{"role": "system", "content": prompt()}, {"role": "user", "content": texte[:6000]}]}
-    return reseau.appeler_chat(f.url, corps, jeton, f"IA ({f.nom})", session=session)["choices"][0]["message"]["content"]
+    return reseau.appeler_chat(f.url, corps, jeton, f"IA ({f.nom})", session=session, timeout=120, tentatives=2)["choices"][0]["message"]["content"]
 
 
 def enregistrer(conn, objet_type, objet_id, emp, brut, sortie, modele=None, version=VERSION_PROMPT):

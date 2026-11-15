@@ -22,6 +22,10 @@ class Fournisseur:
     modele: str
     cle: str | None = None
 
+    def options(self):
+        """Réglages propres au service. Gemini « réfléchit » par défaut, ce qui est lent : on limite la réflexion."""
+        return {"reasoning_effort": "low"} if self.nom == "Gemini" else {}
+
 
 CATALOGUE = (
     Fournisseur("Mistral", "MISTRAL_API_KEY", "https://api.mistral.ai/v1/chat/completions", "mistral-small-latest"),
