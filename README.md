@@ -15,6 +15,9 @@ consultable en local et publié sur **GitHub Pages**. Sources publiques et gratu
 
 La page **Accès au marché** croise ces trois dernières sources pour les molécules de
 `config/marche.ini` (collecte : `python collecter_marche.py`, lancée aussi par `mise_a_jour.py`).
+La même page montre des chiffres de marché publics et gratuits : boîtes remboursées par molécule en France (Open Medic,
+Assurance Maladie) et dépenses Medicare Part D aux États-Unis (`python collecter_chiffres_marche.py`, une fois par jour
+dans GitHub Actions ; seule une nouvelle année publiée est téléchargée).
 
 **Résumés IA** : `python resumer_ia.py` produit, pour chaque nouvelle étude, 3 lignes en français et une ligne
 « Pour un chef de produit », via Google Gemini (offre gratuite, clé `GEMINI_API_KEY` dans .env ou les Secrets du dépôt ; Mistral possible avec `MISTRAL_API_KEY`). GitHub Models, utilisé au départ, a fermé le 30/07/2026.
@@ -86,6 +89,7 @@ Veille-glaucome/
 ├── demo_alerte.py        ← démo : simule un changement d'essai et montre l'alerte (sur une copie)
 ├── migrer_vers_sqlite.py ← migration unique de l'ancien historique JSON vers SQLite
 ├── collecter_marche.py   ← accès au marché (BDPM, EMA, openFDA) en autonome
+├── collecter_chiffres_marche.py ← chiffres de marché publics (Open Medic, Medicare Part D)
 ├── ouvrir_site.bat       ← ouvre le site local (http://127.0.0.1:8766)
 ├── config/               ← réglages sans code (recherches, rubriques, molécules, site)
 │   └── prompts/          ← prompts IA VERSIONNÉS (resume_classification_v1.md…)
