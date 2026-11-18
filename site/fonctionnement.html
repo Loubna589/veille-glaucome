@@ -13,14 +13,50 @@
   <main class="page">
     <header class="hero">
       <h1>Comment ça marche</h1>
-      <p>Chaque jour, un robot (GitHub Actions) lance un programme Python. Il interroge les sources officielles, range tout dans
-        une base de données (SQLite), vérifie la qualité, fait résumer les textes par l'IA <strong>Gemini</strong> (Google, offre gratuite),
-        puis publie ce site. Si un test échoue, rien n'est publié : l'ancienne version reste en ligne.</p>
+      <p>En une phrase : <strong>chaque matin, un robot lit à ma place les sites officiels, garde les nouveautés, les fait résumer
+        par une IA, vérifie le tout, puis met ce site à jour.</strong> Le schéma se lit de gauche à droite, case par case.</p>
     </header>
 
     <figure class="encadre" style="margin:0 0 8px;padding:10px;overflow-x:auto">
       <img src="img/architecture.svg" alt="Schéma : sources officielles, robot quotidien et tests, base de données, IA Gemini, contrôles qualité, site ; sorties : alertes, e-mail de la semaine, fiches concurrents, accès aux articles, chiffres de marché" style="width:100%;min-width:680px;height:auto;display:block">
     </figure>
+
+    <h2 class="titre-section">Le schéma expliqué simplement, case par case</h2>
+    <div class="tuiles-couleur cases-schema">
+      <div class="tuile-couleur c-bleu"><span class="emoji">📚</span><h3>1. Les sources</h3>
+        <p>Les sites officiels où l'information naît : <b>PubMed</b> (articles médicaux), <b>ClinicalTrials.gov</b> (registre des essais),
+          les autorités de santé (ANSM, EMA, FDA…). Que des sources publiques.</p>
+        <p class="a-dire">🎤 « Au lieu d'aller sur 11 sites chaque matin, je laisse le robot le faire. »</p></div>
+      <div class="tuile-couleur c-violet"><span class="emoji">🤖</span><h3>2. Le robot</h3>
+        <p>Un programme (écrit en Python) qui tourne <b>tout seul chaque matin</b> sur les ordinateurs de GitHub, même quand mon PC est éteint.
+          Avant de travailler, il passe 130 tests : si un test échoue, il s'arrête.</p>
+        <p class="a-dire">🎤 « C'est un réveil automatique : tous les jours à 6 h 30, il fait la tournée des sources. »</p></div>
+      <div class="tuile-couleur c-ambre"><span class="emoji">🗄️</span><h3>3. La base de données</h3>
+        <p>Un grand classeur où tout est rangé : chaque essai, chaque article, et <b>l'historique</b> des essais. C'est grâce à lui
+          qu'on sait ce qui a changé depuis hier (alertes).</p>
+        <p class="a-dire">🎤 « Le robot compare avec la veille : c'est comme ça qu'il repère les nouveautés. »</p></div>
+      <div class="tuile-couleur c-orange"><span class="emoji">✨</span><h3>4. L'IA Gemini</h3>
+        <p>L'IA de Google lit les résumés en anglais et écrit <b>3 lignes en français</b>, range l'article dans une catégorie et rédige
+          les 5 points de la semaine. Elle ne travaille qu'à partir des textes qu'on lui donne.</p>
+        <p class="a-dire">🎤 « L'IA fait le travail de lecture ; moi je garde le jugement, et chaque phrase renvoie à sa source. »</p></div>
+      <div class="tuile-couleur c-rouge"><span class="emoji">✅</span><h3>5. Les contrôles</h3>
+        <p>Avant publication, chaque fiche est vérifiée : titre présent, date valable, pas de doublon. Une citation inventée par l'IA est
+          refusée. Ce qui ne passe pas est mis de côté, pas publié.</p>
+        <p class="a-dire">🎤 « Rien n'est publié sans passer les contrôles : l'ancienne version reste en ligne en cas de problème. »</p></div>
+      <div class="tuile-couleur c-vert"><span class="emoji">🌐</span><h3>6. Le site</h3>
+        <p>Le résultat : ce site, mis à jour automatiquement, plus un <b>e-mail chaque semaine</b>. Gratuit, hébergé par GitHub Pages.</p>
+        <p class="a-dire">🎤 « Le matin, je n'ai qu'à ouvrir le site ou lire mon e-mail. »</p></div>
+    </div>
+
+    <details class="encadre" style="margin-top:18px"><summary>Les mots techniques du schéma</summary>
+      <dl class="glossaire">
+        <dt>GitHub</dt><dd>Site où l'on range du code. Il offre aussi des ordinateurs (GitHub Actions) qui lancent le robot, et l'hébergement du site (GitHub Pages).</dd>
+        <dt>Python</dt><dd>Le langage de programmation dans lequel le robot est écrit.</dd>
+        <dt>SQLite</dt><dd>Un type de base de données : un seul fichier, comme un classeur Excel très organisé.</dd>
+        <dt>Test automatique</dt><dd>Une petite vérification que le programme fait sur lui-même (par exemple : « une date invalide est-elle bien refusée ? »).</dd>
+        <dt>Recherche « par le sens »</dt><dd>Chaque texte est transformé en une empreinte de sens : une question en français retrouve un article en anglais qui parle de la même chose, même sans mot commun.</dd>
+      </dl>
+    </details>
 
     <h2 class="titre-section" id="donnees">1. Les données : la base SQLite</h2>
     <p class="sous-titre">Nombre de lignes de chaque table. Une publication vue par plusieurs sources n'est enregistrée qu'une fois (clés PMID, DOI, NCT).</p>

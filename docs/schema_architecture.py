@@ -39,7 +39,7 @@ boite(608, 334, 290, 130, "#8a5300", "5", "Les contrôles qualité", [
     "champs obligatoires, dates valides,", "pas de doublon (PMID, DOI, NCT) ;", "les rejets sont listés, pas publiés"])
 # 6. Site
 boite(938, 92, 274, 372, "#146c43", "6", "Le site (GitHub Pages)", [
-    "Cette semaine (5 points)", "Rechercher (par le sens)", "Poser une question", "Carte des acteurs", "Essais & articles", "  + qualité de l'étude", "  + accès à l'article entier", "Laboratoires · Fiches concurrents", "Autorisations & remboursement", "  + chiffres de marché", "Alertes", "Méthode et limites · À propos"])
+    "Cette semaine (5 points)", "Rechercher (par le sens)", "Assistant (bulle, voix)", "Essais & articles", "  + qualité de l'étude", "  + accès à l'article entier", "Laboratoires (fiches)", "Autorisations & remboursement", "  + chiffres de marché", "Alertes", "Méthode et limites · À propos"])
 fleche(278, 200, 314, 200); fleche(443, 302, 443, 330); fleche(568, 200, 604, 200); fleche(568, 400, 604, 400)
 fleche(753, 302, 753, 330); fleche(898, 400, 934, 400)
 

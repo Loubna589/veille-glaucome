@@ -73,16 +73,15 @@
 <text x="976" y="117" class="ttl" text-anchor="start">Le site (GitHub Pages)</text>
 <text x="952" y="152" class="txt" text-anchor="start">Cette semaine (5 points)</text>
 <text x="952" y="171" class="txt" text-anchor="start">Rechercher (par le sens)</text>
-<text x="952" y="190" class="txt" text-anchor="start">Poser une question</text>
-<text x="952" y="209" class="txt" text-anchor="start">Carte des acteurs</text>
-<text x="952" y="228" class="txt" text-anchor="start">Essais &amp; articles</text>
-<text x="952" y="247" class="txt" text-anchor="start">  + qualité de l'étude</text>
-<text x="952" y="266" class="txt" text-anchor="start">  + accès à l'article entier</text>
-<text x="952" y="285" class="txt" text-anchor="start">Laboratoires · Fiches concurrents</text>
-<text x="952" y="304" class="txt" text-anchor="start">Autorisations &amp; remboursement</text>
-<text x="952" y="323" class="txt" text-anchor="start">  + chiffres de marché</text>
-<text x="952" y="342" class="txt" text-anchor="start">Alertes</text>
-<text x="952" y="361" class="txt" text-anchor="start">Méthode et limites · À propos</text>
+<text x="952" y="190" class="txt" text-anchor="start">Assistant (bulle, voix)</text>
+<text x="952" y="209" class="txt" text-anchor="start">Essais &amp; articles</text>
+<text x="952" y="228" class="txt" text-anchor="start">  + qualité de l'étude</text>
+<text x="952" y="247" class="txt" text-anchor="start">  + accès à l'article entier</text>
+<text x="952" y="266" class="txt" text-anchor="start">Laboratoires (fiches)</text>
+<text x="952" y="285" class="txt" text-anchor="start">Autorisations &amp; remboursement</text>
+<text x="952" y="304" class="txt" text-anchor="start">  + chiffres de marché</text>
+<text x="952" y="323" class="txt" text-anchor="start">Alertes</text>
+<text x="952" y="342" class="txt" text-anchor="start">Méthode et limites · À propos</text>
 <path d="M278,200 L314,200" class="fl"/>
 <path d="M443,302 L443,330" class="fl"/>
 <path d="M568,200 L604,200" class="fl"/>

@@ -70,7 +70,8 @@
       exemple: "Suivez le lien « Méthode et limites » pour le détail des sources." },
   ];
   /* Le fil de la présentation orale : l'ordre des étapes (les autres pages restent dans « Autres pages ») */
-  V.ETAPES = ["accueil", "fonctionnement", "semaine", "etudes", "laboratoires", "marche", "assistant", "methode"];
+  V.ETAPES = ["apropos", "accueil", "fonctionnement", "semaine", "etudes", "laboratoires", "marche", "methode"];
+  V.HORS_MENU = ["assistant", "carte"];  // pages gardées (liens directs) mais retirées du menu à la demande de Loubna
   V.page = function (id) { return V.PAGES.filter(function (p) { return p.id === id; })[0]; };
 
   /* Chargement des données exportées (site/data/*.json, générées depuis la base SQLite).
@@ -134,7 +135,7 @@
         "<span>" + V.esc(p.label) + "</span>" + (etiquette ? '<span class="etiquette">' + V.esc(etiquette) + "</span>" : "") + "</a>";
     }
     var fil = V.ETAPES.map(function (id, i) { return lien(V.page(id), i + 1); });
-    var autres = V.PAGES.filter(function (p) { return V.ETAPES.indexOf(p.id) < 0; }).map(function (p) { return lien(p); });
+    var autres = V.PAGES.filter(function (p) { return V.ETAPES.indexOf(p.id) < 0 && V.HORS_MENU.indexOf(p.id) < 0; }).map(function (p) { return lien(p); });
     var nav = document.getElementById("nav");
     nav.innerHTML = '<a class="lien-evitement" href="#contenu">Aller au contenu</a>' +
       '<nav class="nav" aria-label="Menu principal"><a class="marque" href="' + V.racine + 'index.html">' + V.LOGO +

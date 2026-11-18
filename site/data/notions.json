@@ -1,0 +1,315 @@
+{
+ "avertissement": "Notion de base rédigée pour ce projet pédagogique, à partir des connaissances médicales générales. Elle ne remplace pas l'avis d'un professionnel de santé.",
+ "notions": [
+  {
+   "question": "Quelle est la différence entre un glaucome à angle ouvert et un glaucome à angle fermé ?",
+   "mots": [
+    "angle ferme",
+    "angle ouvert",
+    "fermeture de l angle",
+    "angle etroit",
+    "crise aigue",
+    "glaucome aigu",
+    "difference"
+   ],
+   "reponse": "Dans l'œil, un liquide (l'humeur aqueuse) est fabriqué en permanence. Il s'évacue par un petit filtre situé dans l'« angle », entre l'iris (la partie colorée) et la cornée.\n- Angle ouvert : l'angle reste ouvert, mais le filtre fonctionne de moins en moins bien avec l'âge. La pression dans l'œil monte lentement, sans douleur ni gêne, et la vision se rétrécit petit à petit par les côtés. C'est la forme de loin la plus fréquente en France, d'où l'intérêt du dépistage.\n- Angle fermé : l'iris vient boucher l'angle et le liquide ne s'évacue plus. Cela peut arriver d'un coup (crise aiguë) : œil rouge et très douloureux, vision floue, maux de tête, parfois nausées. C'est une urgence. Elle se traite par laser ou par chirurgie.",
+   "recherche": "glaucome à angle fermé"
+  },
+  {
+   "question": "Qu'est-ce que le glaucome ?",
+   "mots": [
+    "qu est ce que le glaucome",
+    "c est quoi le glaucome",
+    "c est quoi un glaucome",
+    "definition",
+    "glaucome c est",
+    "qu est ce qu un glaucome",
+    "expliquer le glaucome"
+   ],
+   "reponse": "Le glaucome est une maladie qui abîme peu à peu le nerf optique, le « câble » qui relie l'œil au cerveau. Le plus souvent, elle est liée à une pression trop forte à l'intérieur de l'œil.\nElle ne fait pas mal et ne se voit pas au début : la vision se rétrécit lentement par les côtés. Les dégâts ne se réparent pas, mais un traitement (collyres, laser, chirurgie) peut freiner la maladie. C'est l'une des premières causes de cécité dans le monde.",
+   "recherche": "glaucome"
+  },
+  {
+   "question": "Qu'est-ce que la pression intraoculaire ?",
+   "mots": [
+    "pression",
+    "tension oculaire",
+    "tension de l oeil",
+    "pio",
+    "intraoculaire",
+    "mmhg",
+    "tonometr"
+   ],
+   "reponse": "La pression intraoculaire est la pression du liquide à l'intérieur de l'œil, mesurée en millimètres de mercure (mmHg) avec un tonomètre chez l'ophtalmologiste. Elle se situe en général entre 10 et 21 mmHg.\nUne pression trop haute écrase peu à peu le nerf optique. Faire baisser cette pression est aujourd'hui le seul moyen prouvé de freiner le glaucome : c'est le but de tous les traitements (collyres, laser, chirurgie).",
+   "recherche": "pression intraoculaire"
+  },
+  {
+   "question": "Qu'est-ce que l'hypertension oculaire ?",
+   "mots": [
+    "hypertension oculaire",
+    "hypertonie"
+   ],
+   "reponse": "On parle d'hypertension oculaire quand la pression dans l'œil est plus haute que la normale (au-dessus d'environ 21 mmHg), mais que le nerf optique et la vision sont encore intacts.\nCe n'est pas encore un glaucome, mais le risque d'en développer un augmente. L'ophtalmologiste surveille, et traite parfois avec les mêmes collyres que le glaucome. C'est pourquoi beaucoup d'essais portent sur « glaucome et hypertension oculaire ».",
+   "recherche": "ocular hypertension"
+  },
+  {
+   "question": "Quels sont les symptômes du glaucome et comment le dépister ?",
+   "mots": [
+    "symptome",
+    "signe",
+    "depist",
+    "diagnosti",
+    "voir si",
+    "detecter",
+    "champ visuel",
+    "oct"
+   ],
+   "reponse": "Au début, le glaucome le plus fréquent ne donne aucun symptôme : pas de douleur, et le cerveau compense la perte de vision sur les côtés. On s'en rend compte tard, quand une partie de la vision est déjà perdue.\nLe dépistage se fait chez l'ophtalmologiste : mesure de la pression de l'œil, examen du nerf optique (fond d'œil, OCT, une sorte d'échographie par la lumière) et examen du champ visuel. Il est conseillé à partir de 40-45 ans, plus tôt en cas d'antécédents familiaux.",
+   "recherche": "dépistage du glaucome"
+  },
+  {
+   "question": "Qui risque d'avoir un glaucome ?",
+   "mots": [
+    "risque",
+    "cause",
+    "hereditaire",
+    "genetique",
+    "famille",
+    "qui peut",
+    "facteur",
+    "pourquoi on a"
+   ],
+   "reponse": "Les principaux facteurs de risque sont : l'âge (surtout après 40 ans), une pression élevée dans l'œil, un parent proche atteint (le risque est plusieurs fois plus élevé), une forte myopie, une origine africaine ou antillaise (glaucome à angle ouvert plus fréquent et plus précoce), et la prise prolongée de corticoïdes.\nPour le glaucome à angle fermé, l'hypermétropie et une origine asiatique augmentent le risque.",
+   "recherche": "risque génétique glaucome"
+  },
+  {
+   "question": "Combien de personnes ont un glaucome ?",
+   "mots": [
+    "combien",
+    "nombre de",
+    "frequent",
+    "prevalence",
+    "epidemio",
+    "dans le monde",
+    "en france",
+    "chiffre"
+   ],
+   "reponse": "Le glaucome touche environ 80 millions de personnes dans le monde, et ce nombre augmente avec le vieillissement de la population. En France, on estime qu'environ un million de personnes sont concernées, dont une partie ne le sait pas encore, faute de symptômes.\nC'est la deuxième cause de cécité dans le monde après la cataracte, et la première cause de cécité qu'on ne peut pas récupérer.",
+   "recherche": "prévalence glaucome"
+  },
+  {
+   "question": "Comment soigne-t-on le glaucome ?",
+   "mots": [
+    "traitement",
+    "soigner",
+    "soigne",
+    "traiter",
+    "therapie",
+    "prise en charge",
+    "medicament"
+   ],
+   "reponse": "Tous les traitements ont le même but : faire baisser la pression dans l'œil pour protéger le nerf optique. Il y a trois grandes options :\n- les collyres (gouttes dans l'œil), le plus souvent en premier, tous les jours et à vie ;\n- le laser (par exemple la SLT), un geste rapide fait au cabinet ;\n- la chirurgie, quand le reste ne suffit pas (chirurgie classique ou techniques « mini-invasives », plus légères).\nOn ne guérit pas le glaucome : on le stabilise.",
+   "recherche": "traitement du glaucome"
+  },
+  {
+   "question": "Quels sont les différents collyres contre le glaucome ?",
+   "mots": [
+    "collyre",
+    "goutte",
+    "prostaglandine",
+    "latanoprost",
+    "travoprost",
+    "bimatoprost",
+    "tafluprost",
+    "betabloquant",
+    "beta bloquant",
+    "timolol",
+    "dorzolamide",
+    "brinzolamide",
+    "brimonidine",
+    "classe",
+    "famille"
+   ],
+   "reponse": "Les collyres se rangent en grandes familles :\n- les prostaglandines (latanoprost, bimatoprost, travoprost, tafluprost) : souvent en premier, une goutte le soir ;\n- les bêtabloquants (timolol, cartéolol) : diminuent la fabrication du liquide de l'œil ;\n- les inhibiteurs de l'anhydrase carbonique (dorzolamide, brinzolamide) ;\n- les alpha-agonistes (brimonidine, apraclonidine) ;\n- les inhibiteurs de la Rho-kinase (netarsudil), plus récents.\nQuand une famille ne suffit pas, on en associe deux dans le même flacon : c'est une « association fixe » (par exemple dorzolamide + timolol, ou netarsudil + latanoprost).",
+   "recherche": "collyres glaucome"
+  },
+  {
+   "question": "Pourquoi parle-t-on de collyres sans conservateur ?",
+   "mots": [
+    "conservateur",
+    "benzalkonium",
+    "unidose",
+    "secheresse",
+    "surface oculaire",
+    "yeux secs",
+    "toleran"
+   ],
+   "reponse": "Beaucoup de flacons de collyre contiennent un conservateur (souvent le chlorure de benzalkonium) qui empêche les microbes de se développer une fois le flacon ouvert.\nOr un patient glaucomateux met des gouttes tous les jours pendant des années : le conservateur peut irriter l'œil (yeux rouges, secs, qui piquent). Les versions sans conservateur (unidoses ou flacons spéciaux) sont mieux tolérées, ce qui aide les patients à suivre leur traitement. C'est un argument commercial important pour les laboratoires.",
+   "recherche": "sans conservateur"
+  },
+  {
+   "question": "Qu'est-ce que le laser SLT ?",
+   "mots": [
+    "laser",
+    "slt",
+    "trabeculoplastie",
+    "iridotomie"
+   ],
+   "reponse": "La SLT (trabéculoplastie laser sélective) est un laser qui « nettoie » le filtre de l'œil pour que le liquide s'évacue mieux. Elle se fait en quelques minutes au cabinet, sans opération, et fait baisser la pression.\nDes études récentes (comme l'essai LiGHT au Royaume-Uni) montrent qu'elle peut être proposée en premier, à la place des collyres. Pour les laboratoires qui vendent des collyres, c'est donc une concurrence.\nPour le glaucome à angle fermé, on utilise un autre laser, l'iridotomie, qui crée un petit trou dans l'iris.",
+   "recherche": "selective laser trabeculoplasty"
+  },
+  {
+   "question": "Quelles chirurgies existent pour le glaucome ?",
+   "mots": [
+    "chirurgie",
+    "operation",
+    "operer",
+    "migs",
+    "mini invasive",
+    "trabeculectomie",
+    "implant",
+    "stent",
+    "valve",
+    "drain"
+   ],
+   "reponse": "Quand les collyres et le laser ne suffisent pas, on opère pour créer une nouvelle sortie au liquide de l'œil :\n- la trabéculectomie, l'opération classique, très efficace mais plus lourde ;\n- les dispositifs de drainage (valves, tubes) pour les cas difficiles ;\n- les MIGS (chirurgies mini-invasives du glaucome) : de minuscules implants ou gestes, souvent faits pendant l'opération de la cataracte, plus légers mais un peu moins puissants. C'est un domaine où beaucoup d'essais sont en cours.",
+   "recherche": "minimally invasive glaucoma surgery"
+  },
+  {
+   "question": "Peut-on guérir du glaucome ?",
+   "mots": [
+    "guerir",
+    "guerison",
+    "curable",
+    "definitif",
+    "recuperer la vue",
+    "reversible"
+   ],
+   "reponse": "Non. Les fibres du nerf optique détruites ne repoussent pas, donc la vision perdue ne revient pas. En revanche, un traitement bien suivi freine fortement la maladie, et la plupart des patients gardent une vision utile toute leur vie.\nLa recherche explore la « neuroprotection » (protéger le nerf optique directement, au-delà de la pression), mais rien n'est encore prouvé chez l'humain.",
+   "recherche": "neuroprotection"
+  },
+  {
+   "question": "Qu'est-ce que la neuroprotection ?",
+   "mots": [
+    "neuroprotec",
+    "nerf optique",
+    "cellules ganglionnaires",
+    "nicotinamide",
+    "vitamine b3",
+    "regener"
+   ],
+   "reponse": "Les traitements actuels agissent sur la pression de l'œil. La neuroprotection cherche autre chose : protéger directement les cellules du nerf optique (les cellules ganglionnaires de la rétine) pour qu'elles meurent moins vite.\nPlusieurs pistes sont étudiées, par exemple le nicotinamide (vitamine B3) en complément alimentaire. Ce sont encore des essais : aucun traitement neuroprotecteur n'est autorisé à ce jour pour le glaucome.",
+   "recherche": "neuroprotection"
+  },
+  {
+   "question": "Qu'est-ce qu'un essai clinique et ses phases ?",
+   "mots": [
+    "essai clinique",
+    "phase",
+    "etude clinique",
+    "c est quoi un essai",
+    "qu est ce qu un essai"
+   ],
+   "reponse": "Un essai clinique teste un traitement sur des personnes, selon un protocole déclaré à l'avance dans un registre public (ClinicalTrials.gov, d'où les numéros NCT).\n- Phase 1 : quelques personnes, on vérifie surtout que le produit est bien supporté.\n- Phase 2 : on cherche la bonne dose et un premier signe d'efficacité.\n- Phase 3 : des centaines de patients, on compare au traitement de référence. C'est la dernière étape avant de demander l'autorisation.\n- Phase 4 : après la mise sur le marché, on suit le médicament en vie réelle.",
+   "recherche": "essai de phase 3"
+  },
+  {
+   "question": "Que veut dire randomisé, double aveugle ?",
+   "mots": [
+    "randomis",
+    "aveugle",
+    "insu",
+    "placebo",
+    "tire au sort",
+    "tirage au sort"
+   ],
+   "reponse": "Randomisé veut dire que les patients sont tirés au sort entre les groupes (nouveau traitement ou traitement de comparaison). Ainsi, les groupes se ressemblent et la différence observée vient bien du traitement.\nDouble aveugle (ou double insu) veut dire que ni les patients ni les médecins ne savent qui reçoit quoi, pour ne pas influencer les résultats. Un essai randomisé en double aveugle est la façon la plus solide de prouver qu'un traitement marche.",
+   "recherche": "randomized controlled trial"
+  },
+  {
+   "question": "Qu'est-ce que le niveau de preuve d'une étude ?",
+   "mots": [
+    "niveau de preuve",
+    "meta analyse",
+    "revue systematique",
+    "qualite d une etude",
+    "fiable",
+    "pyramide",
+    "cohorte",
+    "etude observationnelle"
+   ],
+   "reponse": "Toutes les études n'ont pas le même poids. On les range sur une « pyramide des preuves » :\n- en haut, les méta-analyses et revues systématiques, qui rassemblent plusieurs études sur la même question ;\n- puis les essais randomisés (patients tirés au sort) ;\n- puis les études comparatives sans tirage au sort, et les études observationnelles (on observe des patients sans leur donner de traitement) ;\n- en bas, les cas cliniques isolés et les avis d'experts.\nSur chaque fiche article, la grille « Qualité de l'étude » place l'article sur cette pyramide.",
+   "recherche": "meta-analysis"
+  },
+  {
+   "question": "Qu'est-ce qu'une AMM ?",
+   "mots": [
+    "amm",
+    "autorisation de mise sur le marche",
+    "autorisation",
+    "ema",
+    "fda",
+    "ansm",
+    "approbation"
+   ],
+   "reponse": "L'AMM (autorisation de mise sur le marché) est le feu vert qu'un médicament doit obtenir avant d'être vendu. Elle est donnée par une autorité de santé après examen des essais cliniques :\n- en France, l'ANSM ;\n- pour toute l'Union européenne, l'EMA (procédure « centralisée ») ;\n- aux États-Unis, la FDA.\nBeaucoup de collyres anciens sont autorisés pays par pays : c'est pourquoi ils n'apparaissent pas tous à l'EMA.",
+   "recherche": "autorisation"
+  },
+  {
+   "question": "Que veulent dire SMR et ASMR ?",
+   "mots": [
+    "smr",
+    "asmr",
+    "service medical rendu",
+    "has",
+    "rembourse",
+    "remboursement",
+    "taux"
+   ],
+   "reponse": "En France, après l'AMM, la HAS (Haute Autorité de santé) évalue le médicament :\n- le SMR (service médical rendu) dit si le médicament est utile : important, modéré, faible ou insuffisant. Il fixe le taux de remboursement (65 %, 30 %, 15 % ou pas de remboursement) ;\n- l'ASMR (amélioration du service médical rendu) dit s'il apporte un progrès par rapport aux traitements existants, de I (progrès majeur) à V (pas de progrès). Elle pèse dans la négociation du prix.",
+   "recherche": "remboursement"
+  },
+  {
+   "question": "Quelle est la différence entre un princeps et un générique ?",
+   "mots": [
+    "generique",
+    "princeps",
+    "brevet",
+    "marque",
+    "biosimilaire",
+    "copie",
+    "nda",
+    "anda"
+   ],
+   "reponse": "Le princeps est le médicament d'origine, mis au point et breveté par un laboratoire (par exemple Xalatan pour le latanoprost). Quand le brevet expire, d'autres laboratoires peuvent vendre des génériques : même substance active, même dose, mais moins chers.\nAux États-Unis, la FDA distingue les médicaments de marque (dossier « NDA ») et les génériques (dossier « ANDA »). Pour un laboratoire, l'arrivée des génériques fait chuter les ventes du princeps.",
+   "recherche": "générique"
+  },
+  {
+   "question": "Que veulent dire PMID, NCT et DOI ?",
+   "mots": [
+    "pmid",
+    "nct",
+    "doi",
+    "identifiant",
+    "pubmed",
+    "clinicaltrials",
+    "registre"
+   ],
+   "reponse": "Ce sont des numéros d'identité :\n- PMID : le numéro d'un article dans PubMed, la grande base d'articles médicaux ;\n- NCT : le numéro d'un essai clinique dans ClinicalTrials.gov, le registre officiel où les essais sont déclarés ;\n- DOI : le numéro permanent d'un article chez son éditeur, qui permet de le retrouver en ligne.\nLe site les garde pour que chaque information puisse être vérifiée à la source.",
+   "recherche": "PubMed"
+  },
+  {
+   "question": "Qu'est-ce que le netarsudil ?",
+   "mots": [
+    "netarsudil",
+    "rhopressa",
+    "rocklatan",
+    "roclanda",
+    "rho kinase",
+    "rock"
+   ],
+   "reponse": "Le netarsudil est un collyre plus récent que les autres, d'une nouvelle famille : les inhibiteurs de la Rho-kinase. Il agit directement sur le filtre de l'œil pour que le liquide s'évacue mieux.\nIl existe seul (Rhopressa aux États-Unis) et associé au latanoprost (Rocklatan aux États-Unis, Roclanda en Europe, commercialisé par Santen). Son effet indésirable le plus fréquent est la rougeur de l'œil (hyperémie).",
+   "recherche": "netarsudil"
+  }
+ ]
+}

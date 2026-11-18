@@ -22,12 +22,13 @@
     "Que dit la recherche sur l'intelligence artificielle pour dépister le glaucome ?",
   ];
   var modeAssistant = null; // null = pas encore testé, true / false ensuite
-  var preparees = null, domaine = null;
+  var preparees = null, domaine = null, notions = null;
   function json(nom) { return fetch(V.racine + "data/" + nom, { cache: "no-cache" }).then(function (r) { return r.ok ? r.json() : null; }).catch(function () { return null; }); }
-  var pretes = Promise.all([json("reponses_preparees.json"), json("domaine.json")]).then(function (r) {
-    preparees = r[0]; domaine = r[1];
+  var pretes = Promise.all([json("reponses_preparees.json"), json("domaine.json"), json("notions.json")]).then(function (r) {
+    preparees = r[0]; domaine = r[1]; notions = r[2];
     if (preparees && preparees.reponses && preparees.reponses.length) {
       EXEMPLES = preparees.reponses.map(function (x) { return x.question; });
+      if (notions && notions.notions) EXEMPLES.unshift(notions.notions[0].question, notions.notions[2].question);
       afficherExemples();
     }
   });
@@ -36,6 +37,32 @@
     if (!preparees || !preparees.reponses) return null;
     var c = cle(question);
     return preparees.reponses.filter(function (x) { return cle(x.question) === c; })[0] || null;
+  }
+  /* Notions de base (site/data/notions.json) : une réponse claire aux questions générales sur le glaucome */
+  function notion(question) {
+    if (!notions || !notions.notions) return null;
+    var q = " " + cle(question) + " ", meilleure = null, max = 0;
+    notions.notions.forEach(function (n) {
+      var poids = 0;
+      n.mots.forEach(function (m) {
+        var c = cle(m);
+        var trouve = c.length <= 4 ? q.indexOf(" " + c + " ") >= 0 : q.indexOf(" " + c) >= 0;
+        if (trouve) poids += c.length;
+      });
+      if (poids > max) { max = poids; meilleure = n; }
+    });
+    return max >= 3 ? meilleure : null;
+  }
+  function texteNotion(n) {
+    var lignes = n.reponse.split("\n"), html = "", liste = false;
+    lignes.forEach(function (l) {
+      var puce = /^- /.test(l);
+      if (puce && !liste) { html += "<ul>"; liste = true; }
+      if (!puce && liste) { html += "</ul>"; liste = false; }
+      html += puce ? "<li>" + V.esc(l.slice(2)) + "</li>" : "<p>" + V.esc(l) + "</p>";
+    });
+    return '<div class="gi-reponse">' + html + (liste ? "</ul>" : "") + "</div>" +
+      '<p class="gi-note">' + V.esc(notions.avertissement) + "</p>";
   }
   function horsSujet(question) {
     if (!domaine) return false;
@@ -170,9 +197,9 @@
     return import(new URL(V.racine + "js/recherche-semantique.js", location.href).href).then(function (mod) {
       return mod.chercher(question, 5, V.racine, function (t) { attente.innerHTML = '<span class="gi-attente">' + V.esc(t) + "</span>"; });
     }).then(function (res) {
-      return rendreSources(res, "Sur le site en ligne, je rédige une réponse seulement pour les questions proposées sous la conversation. " +
-        "Pour votre question, voici les 5 documents de la veille qui s'en rapprochent le plus. Le pourcentage indique à quel point " +
-        "chaque document ressemble à votre question : plus il est élevé, plus il est pertinent.");
+      return rendreSources(res, "Je n'ai pas de réponse rédigée pour cette question précise. Voici les 5 documents de la veille " +
+        "qui s'en rapprochent le plus (le pourcentage dit à quel point chacun ressemble à votre question). " +
+        "Essayez aussi une question plus générale, par exemple « Qu'est-ce que la pression intraoculaire ? ».");
     });
   }
   function repondrePreparee(p) {
@@ -196,6 +223,15 @@
       if (ok) return repondreAssistant(question).catch(function () { modeAssistant = false; return repondreNavigateur(question, attente); });
       var p = reponsePreparee(question);
       if (p) return repondrePreparee(p);
+      var n = notion(question);
+      if (n) {
+        var reponse = texteNotion(n);
+        return import(new URL(V.racine + "js/recherche-semantique.js", location.href).href).then(function (mod) {
+          return mod.chercher(n.recherche + " " + question, 3, V.racine, function () {});
+        }).then(function (res) {
+          return reponse + rendreSources(res, "Pour aller plus loin, 3 documents de la veille sur ce sujet :");
+        }, function () { return reponse; });
+      }
       if (horsSujet(question)) return repondreHorsSujet();
       var labos = labosCites(question);
       return repondreNavigateur(question, attente).then(function (html) {

@@ -138,7 +138,7 @@ a.tuile:hover { transform: translateY(-2px); box-shadow: var(--ombre-forte); bor
 .puce:hover { border-color: var(--turquoise-vif); color: var(--turquoise); background: var(--turquoise-doux); }
 .filtres { padding: 16px 18px; display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 12px 16px; margin-bottom: 18px; }
 .filtres label { display: flex; flex-direction: column; gap: 5px; font-size: .76rem; color: var(--doux); font-weight: 650; letter-spacing: .02em; }
-.filtres input[type="search"], .filtres select { font: inherit; font-size: .92rem; font-weight: 450; padding: 8px 10px; border: 1px solid var(--bord);
+.filtres input[type="search"], .filtres input[type="date"], .filtres select { font: inherit; font-size: .92rem; font-weight: 450; padding: 8px 10px; border: 1px solid var(--bord);
                                                   border-radius: 10px; background: var(--carte-2); color: var(--texte); }
 .filtres .case { flex-direction: row; align-items: center; gap: 8px; font-weight: 500; font-size: .88rem; color: var(--texte); }
 .filtres input[type="checkbox"] { accent-color: var(--turquoise); width: 16px; height: 16px; }
@@ -486,3 +486,5 @@ button.action { font: inherit; text-align: left; cursor: pointer; width: 100%; }
 @media (max-width: 700px) { .fil-etapes { grid-template-columns: 1fr; } .fil-etapes a, .fil-etapes .fil-suiv, .fil-etapes .fil-prec { justify-self: stretch; text-align: center; } .fil-rang { text-align: center; order: -1; } }
 .semaine-pourquoi { background: var(--accent-doux); border-radius: 8px; padding: 6px 10px; margin: 6px 0; font-size: .92rem; }
 .semaine-point .badge { margin-bottom: 4px; }
+.cases-schema p + p, .cases-schema .a-dire { margin-top: 8px; }
+.cases-schema .a-dire { font-size: .86rem; font-style: italic; color: var(--doux); }

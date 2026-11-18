@@ -44,6 +44,8 @@
         <option value="7">ces 7 derniers jours</option>
         <option value="30">ces 30 derniers jours</option>
       </select></label>
+      <label>Publiées du<input type="date" id="f-du"></label>
+      <label>au<input type="date" id="f-au"></label>
       <label class="case"><input type="checkbox" id="f-veto" checked> Inclure les études vétérinaires</label>
     </form>
 
@@ -72,7 +74,7 @@
       remplir("f-labo", [].concat.apply([], toutes.map(function (e) { return (e.labos || []).map(function (l) { return l.nom; }); })), "tous");
 
       // Filtres transmis dans l'adresse (liens depuis l'accueil ou la page Laboratoires)
-      ["rubrique", "source", "niveau", "periode", "labo", "phase", "acces"].forEach(function (p) {
+      ["rubrique", "source", "niveau", "periode", "labo", "phase", "acces", "du", "au"].forEach(function (p) {
         var v = V.param(p);
         if (v) document.getElementById("f-" + p).value = v;
       });
@@ -95,6 +97,10 @@
           if (f("f-acces") && e.acces !== f("f-acces")) return false;   // les essais n'ont pas d'article : exclus
           if (periode === "derniere" && !(e.nouveau || e.modifie)) return false;
           if (periode && periode !== "derniere" && joursDepuis(e.date_detection) > +periode) return false;
+          // « Publiées du … au … » : date déclarée par la source (publication de l'article, mise à jour de l'essai au registre)
+          var jour = (e.date_source || e.date_detection || "").slice(0, 10);
+          if (f("f-du") && (!jour || jour < f("f-du"))) return false;
+          if (f("f-au") && (!jour || jour > f("f-au"))) return false;
           if (texte) {
             var tout = V.norm([e.titre, e.resume, e.id].concat((e.produits || []).map(function (p) { return p.nom; }),
               (e.labos || []).map(function (l) { return l.nom; })).join(" "));
