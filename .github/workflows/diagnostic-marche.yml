@@ -9,39 +9,37 @@ jobs:
     steps:
       - name: Explorer
         run: |
+          pip install -q openpyxl
           python3 - <<'PY'
-          import csv, io, re, time, urllib.request, zipfile, collections
+          import csv, io, re, urllib.request, zipfile, collections
           B = "https://open-data-assurance-maladie.ameli.fr/medicaments/"
           def get(u):
-              r = urllib.request.urlopen(urllib.request.Request(u, headers={"User-Agent": "veille-glaucome"}), timeout=600)
+              r = urllib.request.urlopen(urllib.request.Request(u, headers={"User-Agent": "Mozilla/5.0 veille-glaucome"}), timeout=600)
               return r.read()
-          t0 = time.time()
+          try:
+              h = get("https://www.assurance-maladie.ameli.fr/content/descriptif-des-variables-de-la-serie-open-medic")
+              print("DESC", h[:4], len(h))
+              if h[:2] == b"PK":
+                  import openpyxl
+                  wb = openpyxl.load_workbook(io.BytesIO(h), read_only=True)
+                  for ws in wb.worksheets:
+                      print("FEUILLE", ws.title)
+                      for row in ws.iter_rows(values_only=True):
+                          t = " | ".join(str(c) for c in row if c is not None)
+                          if t and re.search(r"TOP_GEN|GEN_NUM|PSP_SPE|g[ée]n[ée]ri|princeps|^\s*(0|1|2|3|4|15|90|98|99)\b", t, re.I): print("  ", t[:250])
+              else:
+                  print(re.findall(r'href="([^"]+\.xlsx?[^"]*)"', h.decode("utf-8", "replace"))[:10])
+          except Exception as e: print("desc", repr(e))
           page = get(B + "download.php?Dir_Rep=Open_MEDIC_Base_Complete&Annee=2025").decode("utf-8", "replace")
           lien = re.findall(r'href="\./(download_file\.php\?[^"]+)"', page)[0].replace("&amp;", "&")
-          b = get(B + lien); print("zip", len(b), round(time.time() - t0), "s")
-          z = zipfile.ZipFile(io.BytesIO(b))
-          for n in z.namelist():
-              print("FICHIER", n, z.getinfo(n).file_size)
-              with z.open(n) as f:
-                  r = csv.reader(io.TextIOWrapper(f, "latin-1"), delimiter=";")
-                  ent = next(r); print("ENTETE", ent)
-                  agg = collections.Counter(); ex = []; spe = collections.Counter(); gen = collections.Counter()
-                  for l in r:
-                      d = dict(zip(ent, l))
-                      if d.get("ATC4", "").startswith("S01E") or d.get("ATC3", "") == "S01E":
-                          if len(ex) < 5: ex.append(l)
-                          bo = float(d["BOITES"].replace(",", ".") or 0)
-                          agg[(d.get("ATC5"), d.get("L_ATC5"))] += bo; spe[d.get("PSP_SPE")] += bo; gen[(d.get("ATC5"), d.get("TOP_GEN"), d.get("GEN_NUM", "")[:1])] += bo
-              for e in ex: print("EX", e)
-              for k, v in agg.most_common(): print("ATC5", k, int(v))
-              for k, v in spe.most_common(10): print("SPE", k, int(v))
-              for k, v in sorted(gen.items())[:40]: print("GEN", k, int(v))
-          print("fini", round(time.time() - t0), "s")
-          # CMS : tout le fichier, lignes Overall des substances suivies
-          t = get("https://data.cms.gov/sites/default/files/2026-06/98218f98-166c-4723-8438-c344a4ef96a6/DSD_PTD_RY26_P04_V10_DY24_BGM.csv").decode("utf-8", "replace")
-          rows = list(csv.DictReader(io.StringIO(t))); print("CMS", len(rows), list(rows[0])[:8])
-          motif = re.compile(r"latanoprost|bimatoprost|travoprost|tafluprost|timolol|dorzolamide|brinzolamide|brimonidine|netarsudil|omidenepag|apraclonidine|pilocarpine|betaxolol|carteolol|levobunolol", re.I)
-          for x in rows:
-              if x["Mftr_Name"] == "Overall" and motif.search(x["Gnrc_Name"]):
-                  print(" ", x["Brnd_Name"], "|", x["Gnrc_Name"], "|", x["Tot_Mftr"], "|", x.get("Tot_Spndng_2024"), x.get("Tot_Clms_2024"))
+          z = zipfile.ZipFile(io.BytesIO(get(B + lien)))
+          c = collections.Counter()
+          with z.open(z.namelist()[0]) as f:
+              r = csv.reader(io.TextIOWrapper(f, "latin-1"), delimiter=";"); ent = next(r)
+              for l in r:
+                  if l[4] == "S01E": c[(l[8], l[12], l[11])] += float(l[18].replace(",", ".") or 0)
+          vus = collections.Counter()
+          for (a, g, lib), v in c.most_common():
+              if a in ("S01EE01", "S01EE03", "S01EC04", "S01ED51", "S01EA05") and vus[(a, g)] < 4:
+                  vus[(a, g)] += 1; print(a, "TOP_GEN", g, lib, int(v))
           PY
