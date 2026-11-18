@@ -66,10 +66,23 @@
   }
   /* IA en direct (service Cloudflare Worker qui garde la clé Gemini : cloudflare/assistant-worker.js).
      Le navigateur trouve d'abord les 6 documents de la veille les plus proches, l'IA répond en les citant [n]. */
-  function repondreEnDirect(question, attente) {
-    return import(new URL(V.racine + "js/recherche-semantique.js", location.href).href).then(function (mod) {
+  function parMotsCles(question, k) {  // secours si la recherche par le sens ne se charge pas : mots de la question dans titre + résumé
+    var mots = cle(question).split(" ").filter(function (m) { return m.length >= 5; });
+    if (!mots.length || !(V.donnees.etudes || []).length) return [];
+    return V.donnees.etudes.map(function (e) {
+      var t = cle((e.titre || "") + " " + (e.resume || "")), s = 0;
+      mots.forEach(function (m) { if (t.indexOf(m.slice(0, 6)) >= 0) s++; });
+      return { e: e, s: s };
+    }).filter(function (x) { return x.s > 0; }).sort(function (a, b) { return b.s - a.s; }).slice(0, k).map(function (x) {
+      return { id: x.e.id, titre: x.e.titre, texte: (x.e.resume || "").slice(0, 1200), fiche: x.e.fiche, lien: x.e.lien_source };
+    });
+  }
+  function repondreEnDirect(question, attente, n) {
+    return avecDelai(import(new URL(V.racine + "js/recherche-semantique.js", location.href).href).then(function (mod) {
       return mod.chercher(question, 6, V.racine, function (t) { attente.innerHTML = '<span class="gi-attente">' + V.esc(t) + "</span>"; });
-    }).catch(function () { return []; }).then(function (docs) {  // sans recherche par le sens, l'IA répond quand même (sans citer)
+    }), 20000).catch(function () { return parMotsCles(question, 6); }).then(function (docs) {
+      // La notion de base du site (si la question en relève) est donnée à l'IA comme document de référence
+      if (n) docs = [{ id: "notion", titre: "Notion de base du site : " + n.question, texte: n.reponse, fiche: null, lien: null }].concat(docs.slice(0, 5));
       attente.innerHTML = '<span class="gi-attente">L\'IA rédige la réponse…</span>';
       return avecDelai(fetch(enLigne, { method: "POST", headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ question: question, documents: docs.map(function (d) { return { titre: d.titre, texte: d.texte }; }) }) })
@@ -79,7 +92,9 @@
         var html = citationsEnLiens(d.reponse.replace(/\[(\d)\]/g, function (m, n) {
           n = +n; if (n < 1 || n > docs.length) return ""; cites[n] = 1; return "[#" + n + "]"; }));
         html = html.replace(/\[#(\d)\]/g, function (m, n) {
-          var doc = docs[n - 1]; return '<a class="gi-cite" href="' + V.esc(doc.fiche ? V.racine + doc.fiche : doc.lien) + '" target="_blank" rel="noopener" title="' + V.esc(doc.titre) + '">[' + n + "]</a>"; });
+          var doc = docs[n - 1];
+          if (!doc.fiche && !doc.lien) return '<span class="gi-cite" title="' + V.esc(doc.titre) + '">[' + n + "]</span>";
+          return '<a class="gi-cite" href="' + V.esc(doc.fiche ? V.racine + doc.fiche : doc.lien) + '" target="_blank" rel="noopener" title="' + V.esc(doc.titre) + '">[' + n + "]</a>"; });
         var liste = docs.map(function (doc, i) { doc.citation = "[" + (i + 1) + "]" + (cites[i + 1] ? " cité" : ""); return doc; });
         return '<div class="gi-reponse">' + html + "</div>" + (liste.length ? rendreSources(liste,
           "Réponse générée par l'IA (" + V.esc(d.modele) + "), à vérifier avant de la citer. Les numéros renvoient aux documents de la veille ci-dessous.")
@@ -172,9 +187,9 @@
     return (note ? '<p class="gi-note">' + note + "</p>" : "") + "<ol class=\"gi-sources\">" + sources.map(function (s) {
       var cible = s.lien || (s.fiche ? V.racine + s.fiche : "#");
       var acces = V.boutonsAcces && V.etude ? V.boutonsAcces(V.etude(s.id)) : "";
-      return '<li><a href="' + V.esc(cible) + '" target="_blank" rel="noopener">' + V.esc(s.titre || s.id) + "</a>" +
+      return "<li>" + (cible === "#" ? "<span>" + V.esc(s.titre || s.id) + "</span>" : '<a href="' + V.esc(cible) + '" target="_blank" rel="noopener">' + V.esc(s.titre || s.id) + "</a>") +
         (acces ? ' <span class="acces-inline">' + acces + "</span>" : "") + " <small>" +
-        V.esc(s.citation || s.id) + (s.score != null ? " · ressemblance " + Math.round(Math.min(1, s.score) * 100) + " %" : "") + "</small></li>";
+        V.esc(s.citation || (s.id === "notion" ? "" : s.id)) + (s.score != null ? " · ressemblance " + Math.round(Math.min(1, s.score) * 100) + " %" : "") + "</small></li>";
     }).join("") + "</ol>";
   }
   function rejouer() {
@@ -249,7 +264,7 @@
       var p = reponsePreparee(question);
       if (p) return repondrePreparee(p);
       var n = notion(question);
-      if (enLigne) return repondreEnDirect(question, attente).catch(function () { return repondreNotionOuRecherche(question, attente, n); });
+      if (enLigne) return repondreEnDirect(question, attente, n).catch(function () { return repondreNotionOuRecherche(question, attente, n); });
       return repondreNotionOuRecherche(question, attente, n);
     }).then(function (rep) {
       attente.innerHTML = rep;
