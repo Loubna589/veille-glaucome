@@ -46,3 +46,8 @@ def test_lien_openurl_pour_la_bu():
     assert at.lien_openurl(D, "") == ""
     html = at.bloc_html(D, {}, peb="https://bu.exemple/peb", openurl="https://bu.exemple/openurl?vid=V")
     assert "https://bu.exemple/openurl?vid=V&amp;ctx_ver" in html and "formulaire PEB vierge" in html
+
+
+def test_lien_researchgate_par_titre():
+    assert at.lien_researchgate(D) == "https://www.researchgate.net/search/publication?q=Netarsudil%20study"
+    assert "Chercher sur ResearchGate" in at.bloc_html(D, {}, peb="", openurl="")

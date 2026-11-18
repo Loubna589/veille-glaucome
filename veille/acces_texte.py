@@ -50,6 +50,12 @@ def lien_openurl(d, base):
     return base + ("&" if "?" in base else "?") + urlencode([(k, v) for k, v in params if v])
 
 
+def lien_researchgate(d):
+    """Simple lien de RECHERCHE ResearchGate par titre (pas d'API publique : aucune collecte automatique)."""
+    titre = (d.get("titre") or "").strip().rstrip(".")
+    return f"https://www.researchgate.net/search/publication?q={quote(titre)}" if titre else ""
+
+
 def emails_auteurs(affiliations):
     """Adresses écrites dans les affiliations PubMed, dans l'ordre, sans doublon (point final retiré)."""
     vus = []
@@ -128,6 +134,11 @@ def bloc_html(d, oa, peb=None, openurl=None):
         morceaux.append(f'<a class="bouton-acces secondaire" href="{e(mail_auteur(d, emails[0]))}">Demander à l\'auteur</a>'
                         f' <small>e-mail pré-rédigé en anglais à {e(emails[0])} (adresse écrite dans PubMed) : '
                         "votre messagerie s'ouvre, vous relisez et envoyez vous-même.</small>")
+    rg = lien_researchgate(d)
+    if rg:
+        morceaux.append(f'<a class="bouton-acces secondaire" href="{e(rg)}" target="_blank" rel="noopener">Chercher sur ResearchGate</a>'
+                        "<small> recherche l'article par son titre. S'il y est, connectez-vous avec votre compte et cliquez "
+                        "sur « Request full-text » : l'auteur reçoit votre demande.</small>")
     ref = reference_peb(d)
     cible = f' data-url="{e(peb)}"' if peb else ""
     lien_bu = lien_openurl(d, openurl)
