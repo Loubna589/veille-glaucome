@@ -244,8 +244,23 @@
         ", en anglais)</summary><p lang=\"en\">" + V.esc(e.resume) + "</p></details>"
         : '<p class="vide" style="margin-top:6px">Aucun résumé disponible dans la source.</p>') +
       '<div class="actions">' + (e.fiche ? '<a href="' + V.esc(e.fiche) + '">Fiche détaillée →</a>' : "") +
-      (e.lien_bu ? '<a class="bouton-bu" href="' + V.esc(e.lien_bu) + '" target="_blank" rel="noopener" title="Ouvre le catalogue de la BU avec la référence de l\'article : connectez-vous avec l\'ENT puis faites la demande de prêt entre bibliothèques.">📚 Demander à la BU</a>' : "") +
+      V.boutonsAcces(e) +
       '<a href="' + V.esc(e.lien_source) + '" target="_blank" rel="noopener">Voir la source ↗</a></div></article>';
+  };
+  /* Boutons pour lire un article en entier : gratuit, BU (prêt entre bibliothèques), ResearchGate (recherche par titre) */
+  V.etude = function (id) {  // « PMID:123 », « 123 » ou « NCT… » → étude de veille.json (si chargée)
+    if (!V._parId) { V._parId = {}; (V.donnees.etudes || []).forEach(function (e) { V._parId[e.id] = e; }); if (!(V.donnees.etudes || []).length) V._parId = null; }
+    return V._parId ? V._parId[String(id || "").replace(/^PMID:?\s*/i, "")] : null;
+  };
+  V.boutonsAcces = function (e) {
+    if (!e || e.type === "essai") return "";
+    var h = "";
+    if (e.acces === "libre") h += '<a class="bouton-acces-carte libre" href="' + V.esc(e.fiche || e.lien_source) + '">📖 Lire gratuitement</a>';
+    if (e.lien_bu) h += '<a class="bouton-acces-carte" href="' + V.esc(e.lien_bu) + '" target="_blank" rel="noopener" ' +
+      'title="Ouvre le catalogue de la BU avec la référence : connectez-vous avec l\'ENT puis faites la demande de prêt entre bibliothèques.">📚 Demander à la BU</a>';
+    if (e.titre) h += '<a class="bouton-acces-carte" href="https://www.researchgate.net/search/publication?q=' + encodeURIComponent(String(e.titre).replace(/\.$/, "")) +
+      '" target="_blank" rel="noopener" title="Cherche l\'article sur ResearchGate, où les auteurs déposent souvent leur texte.">🔎 ResearchGate</a>';
+    return h;
   };
   /* Bouton « Résumé en français par l'IA » des cartes : le résumé (préparé chaque nuit) s'affiche à la demande */
   document.addEventListener("click", function (ev) {

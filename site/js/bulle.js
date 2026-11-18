@@ -22,10 +22,10 @@
     "Que dit la recherche sur l'intelligence artificielle pour dépister le glaucome ?",
   ];
   var modeAssistant = null; // null = pas encore testé, true / false ensuite
-  var preparees = null, domaine = null, notions = null;
+  var preparees = null, domaine = null, notions = null, enLigne = null;
   function json(nom) { return fetch(V.racine + "data/" + nom, { cache: "no-cache" }).then(function (r) { return r.ok ? r.json() : null; }).catch(function () { return null; }); }
-  var pretes = Promise.all([json("reponses_preparees.json"), json("domaine.json"), json("notions.json")]).then(function (r) {
-    preparees = r[0]; domaine = r[1]; notions = r[2];
+  var pretes = Promise.all([json("reponses_preparees.json"), json("domaine.json"), json("notions.json"), json("assistant_en_ligne.json")]).then(function (r) {
+    preparees = r[0]; domaine = r[1]; notions = r[2]; enLigne = r[3] && r[3].url ? r[3].url : null;
     if (preparees && preparees.reponses && preparees.reponses.length) {
       EXEMPLES = preparees.reponses.map(function (x) { return x.question; });
       if (notions && notions.notions) EXEMPLES.unshift(notions.notions[0].question, notions.notions[2].question);
@@ -63,6 +63,29 @@
     });
     return '<div class="gi-reponse">' + html + (liste ? "</ul>" : "") + "</div>" +
       '<p class="gi-note">' + V.esc(notions.avertissement) + "</p>";
+  }
+  /* IA en direct (service Cloudflare Worker qui garde la clé Gemini : cloudflare/assistant-worker.js).
+     Le navigateur trouve d'abord les 6 documents de la veille les plus proches, l'IA répond en les citant [n]. */
+  function repondreEnDirect(question, attente) {
+    return import(new URL(V.racine + "js/recherche-semantique.js", location.href).href).then(function (mod) {
+      return mod.chercher(question, 6, V.racine, function (t) { attente.innerHTML = '<span class="gi-attente">' + V.esc(t) + "</span>"; });
+    }).catch(function () { return []; }).then(function (docs) {  // sans recherche par le sens, l'IA répond quand même (sans citer)
+      attente.innerHTML = '<span class="gi-attente">L\'IA rédige la réponse…</span>';
+      return avecDelai(fetch(enLigne, { method: "POST", headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ question: question, documents: docs.map(function (d) { return { titre: d.titre, texte: d.texte }; }) }) })
+        .then(function (r) { return r.json(); }), 30000).then(function (d) {
+        if (!d.reponse) throw new Error(d.erreur || "pas de réponse");
+        var cites = {};
+        var html = citationsEnLiens(d.reponse.replace(/\[(\d)\]/g, function (m, n) {
+          n = +n; if (n < 1 || n > docs.length) return ""; cites[n] = 1; return "[#" + n + "]"; }));
+        html = html.replace(/\[#(\d)\]/g, function (m, n) {
+          var doc = docs[n - 1]; return '<a class="gi-cite" href="' + V.esc(doc.fiche ? V.racine + doc.fiche : doc.lien) + '" target="_blank" rel="noopener" title="' + V.esc(doc.titre) + '">[' + n + "]</a>"; });
+        var liste = docs.map(function (doc, i) { doc.citation = "[" + (i + 1) + "]" + (cites[i + 1] ? " cité" : ""); return doc; });
+        return '<div class="gi-reponse">' + html + "</div>" + (liste.length ? rendreSources(liste,
+          "Réponse générée par l'IA (" + V.esc(d.modele) + "), à vérifier avant de la citer. Les numéros renvoient aux documents de la veille ci-dessous.")
+          : '<p class="gi-note">Réponse générée par l\'IA (' + V.esc(d.modele) + "), à vérifier avant de la citer.</p>");
+      });
+    });
   }
   function horsSujet(question) {
     if (!domaine) return false;
@@ -148,7 +171,9 @@
   function rendreSources(sources, note) {
     return (note ? '<p class="gi-note">' + note + "</p>" : "") + "<ol class=\"gi-sources\">" + sources.map(function (s) {
       var cible = s.lien || (s.fiche ? V.racine + s.fiche : "#");
-      return '<li><a href="' + V.esc(cible) + '" target="_blank" rel="noopener">' + V.esc(s.titre || s.id) + "</a> <small>" +
+      var acces = V.boutonsAcces && V.etude ? V.boutonsAcces(V.etude(s.id)) : "";
+      return '<li><a href="' + V.esc(cible) + '" target="_blank" rel="noopener">' + V.esc(s.titre || s.id) + "</a>" +
+        (acces ? ' <span class="acces-inline">' + acces + "</span>" : "") + " <small>" +
         V.esc(s.citation || s.id) + (s.score != null ? " · ressemblance " + Math.round(Math.min(1, s.score) * 100) + " %" : "") + "</small></li>";
     }).join("") + "</ol>";
   }
@@ -224,25 +249,29 @@
       var p = reponsePreparee(question);
       if (p) return repondrePreparee(p);
       var n = notion(question);
-      if (n) {
-        var reponse = texteNotion(n);
-        return import(new URL(V.racine + "js/recherche-semantique.js", location.href).href).then(function (mod) {
-          return mod.chercher(n.recherche + " " + question, 3, V.racine, function () {});
-        }).then(function (res) {
-          return reponse + rendreSources(res, "Pour aller plus loin, 3 documents de la veille sur ce sujet :");
-        }, function () { return reponse; });
-      }
-      if (horsSujet(question)) return repondreHorsSujet();
-      var labos = labosCites(question);
-      return repondreNavigateur(question, attente).then(function (html) {
-        return labos.slice(0, 3).map(carteLabo).join("") + html;
-      }, function (e) { if (labos.length) return labos.slice(0, 3).map(carteLabo).join(""); throw e; });
+      if (enLigne) return repondreEnDirect(question, attente).catch(function () { return repondreNotionOuRecherche(question, attente, n); });
+      return repondreNotionOuRecherche(question, attente, n);
     }).then(function (rep) {
       attente.innerHTML = rep;
       var h2 = historique(); h2.push({ role: "ia", html: rep }); memoriser(h2);
     }).catch(function (e) {
-      attente.innerHTML = '<p class="gi-note">Recherche indisponible (' + V.esc(e.message) + "). Ouvrez la page « Rechercher » ou lancez l'assistant local.</p>";
+      attente.innerHTML = '<p class="gi-note">Recherche indisponible (' + V.esc(e.message) + "). Ouvrez la page « Rechercher ».</p>";
     });
+  }
+  function repondreNotionOuRecherche(question, attente, n) {
+    if (n) {
+      var reponse = texteNotion(n);
+      return import(new URL(V.racine + "js/recherche-semantique.js", location.href).href).then(function (mod) {
+        return mod.chercher(n.recherche + " " + question, 3, V.racine, function () {});
+      }).then(function (res) {
+        return reponse + rendreSources(res, "Pour aller plus loin, 3 documents de la veille sur ce sujet :");
+      }, function () { return reponse; });
+    }
+    if (horsSujet(question)) return repondreHorsSujet();
+    var labos = labosCites(question);
+    return repondreNavigateur(question, attente).then(function (html) {
+      return labos.slice(0, 3).map(carteLabo).join("") + html;
+    }, function (e) { if (labos.length) return labos.slice(0, 3).map(carteLabo).join(""); throw e; });
   }
 
   /* ---------- Ouverture, fermeture, clavier ---------- */

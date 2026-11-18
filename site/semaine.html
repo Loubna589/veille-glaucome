@@ -8,7 +8,7 @@
   <link rel="canonical" href="https://loubna589.github.io/veille-glaucome/semaine.html">
   <meta property="og:title" content="Cette semaine — Glaucoma Intelligence">
   <meta property="og:url" content="https://loubna589.github.io/veille-glaucome/semaine.html">
-  <link rel="stylesheet" href="css/style.css?v=4492b7479c">
+  <link rel="stylesheet" href="css/style.css?v=f01dfc560a">
 </head>
 <body>
   <div id="nav"></div>
@@ -42,19 +42,22 @@
     <div id="archives"></div>
   </main>
   <footer class="pied" id="pied"></footer>
-  <script src="js/app.js?v=2f4846b56d"></script>
+  <script src="js/app.js?v=3e96474149"></script>
   <script>
     Veille.pret(function () {
       var V = Veille, esc = V.esc;
       V.monterNavigation("semaine");
       function date(iso) { return iso ? iso.slice(8, 10) + "/" + iso.slice(5, 7) + "/" + iso.slice(0, 4) : ""; }
-      var titres = {};
+      var titres = {}, parId = {};
+      (V.donnees.etudes || []).forEach(function (e) { parId[e.id] = e; });
       function source(l) {
         var cible = l.fiche ? '<a href="' + esc(l.fiche) + '">' : '<a href="' + esc(l.lien) + '" target="_blank" rel="noopener">';
         var t = l.titre || titres[l.id];
         if (!t) return cible + esc(l.id) + "</a>";
         var genre = /^NCT/.test(l.id) ? "Essai" : "Article";
-        return genre + " : " + cible + esc(t.length > 110 ? t.slice(0, 108) + "…" : t) + "</a>";
+        var etude = parId[String(l.id).replace(/^PMID:/, "")];
+        return genre + " : " + cible + esc(t.length > 110 ? t.slice(0, 108) + "…" : t) + "</a>" +
+          (etude ? ' <span class="acces-inline">' + V.boutonsAcces(etude) + "</span>" : "");
       }
       function points(s) {
         return s.points.map(function (p) {

@@ -6,7 +6,7 @@
   <title>Rechercher — Glaucoma Intelligence</title>
   <meta name="description" content="Recherche sémantique multilingue dans les essais cliniques et publications sur le glaucome, calculée dans le navigateur.">
   <link rel="canonical" href="https://loubna589.github.io/veille-glaucome/recherche.html">
-  <link rel="stylesheet" href="css/style.css?v=4492b7479c">
+  <link rel="stylesheet" href="css/style.css?v=f01dfc560a">
 </head>
 <body>
   <div id="nav"></div>
@@ -29,7 +29,7 @@
     <div id="resultats"></div>
   </main>
   <footer class="pied" id="pied"></footer>
-  <script src="js/app.js?v=2f4846b56d"></script>
+  <script src="js/app.js?v=3e96474149"></script>
   <script>
     // Affiché tout de suite, sans attendre le modèle : résultats de la question d'exemple, calculés par le pipeline
     (function () {
@@ -41,7 +41,7 @@
           return '<article class="carte"><span class="badge">' + (k + 1) + '</span><span class="badge reg">' + V.esc(r.type) + "</span>" +
             '<span class="badge ok">score ' + r.score.toFixed(3) + "</span>" +
             '<h3><a href="' + V.esc(cible) + '"' + (r.fiche ? "" : ' target="_blank" rel="noopener"') + ">" + V.esc(r.titre || r.id) + "</a></h3>" +
-            '<div class="meta"><span>' + V.esc(r.id) + "</span><span>" + V.esc(V.date(r.date)) + "</span></div></article>";
+            '<div class="meta"><span>' + V.esc(V.date(r.date)) + '</span></div><div class="actions">' + V.boutonsAcces(V.etude(r.id)) + "</div></article>";
         }).join("");
       };
       V.charger(["recherche_exemple.json"]).then(function (r) {
@@ -96,7 +96,7 @@
         return `<article class="carte"><span class="badge">${k + 1}</span><span class="badge reg">${V.esc(m.type)}</span>` +
           `<span class="badge ok">score ${r.score.toFixed(3)}</span> <small>= cosinus ${r.dense.toFixed(3)} + ${S.poids_lexical} × lexical ${r.lex.toFixed(2)}</small>` +
           `<h3><a href="${V.esc(cible)}"${m.fiche ? "" : ' target="_blank" rel="noopener"'}>${V.esc(m.titre || r.id)}</a></h3>` +
-          `<div class="meta"><span>${V.esc(r.id)}</span><span>${V.esc(V.date(m.date))}</span></div></article>`;
+          `<div class="meta"><span>${V.esc(V.date(m.date))}</span></div><div class="actions">${V.boutonsAcces(V.etude(r.id))}</div></article>`;
       }).join("");
     }
     try {

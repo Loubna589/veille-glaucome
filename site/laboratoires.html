@@ -8,7 +8,7 @@
   <link rel="canonical" href="https://loubna589.github.io/veille-glaucome/laboratoires.html">
   <meta property="og:title" content="Laboratoires — Glaucoma Intelligence">
   <meta property="og:url" content="https://loubna589.github.io/veille-glaucome/laboratoires.html">
-  <link rel="stylesheet" href="css/style.css?v=4492b7479c">
+  <link rel="stylesheet" href="css/style.css?v=f01dfc560a">
 </head>
 <body>
   <div id="nav"></div>
@@ -21,7 +21,7 @@
     <div id="contenu-fiches"></div>
   </main>
   <footer class="pied" id="pied"></footer>
-  <script src="js/app.js?v=2f4846b56d"></script>
+  <script src="js/app.js?v=3e96474149"></script>
   <script>
     Veille.pret(function () {
       var V = Veille, d = V.donnees, esc = V.esc, M = d.marche || { molecules: {} };
@@ -160,7 +160,8 @@
         var e = parId[ref.id];
         if (!e) return esc(ref.id);
         return '<a href="' + esc(e.fiche || e.lien_source) + '"' + (e.fiche ? "" : ' target="_blank" rel="noopener"') + ">" + esc(e.titre) + "</a>" +
-          (ref.statut ? ' <span class="badge ' + (ref.statut === "confirmé" ? "ok" : "ver") + '">financement ' + esc(ref.statut) + "</span>" : "");
+          (ref.statut ? ' <span class="badge ' + (ref.statut === "confirmé" ? "ok" : "ver") + '">financement ' + esc(ref.statut) + "</span>" : "") +
+          ' <span class="acces-inline">' + V.boutonsAcces(e) + "</span>";
       }
       function role(titre, definition, refs) {
         return "<div><h3>" + titre + " (" + refs.length + ')</h3><p class="def">' + definition + "</p>" +

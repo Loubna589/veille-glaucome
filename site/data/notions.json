@@ -105,7 +105,6 @@
     "soigne",
     "traiter",
     "therapie",
-    "prise en charge",
     "medicament"
    ],
    "reponse": "Tous les traitements ont le même but : faire baisser la pression dans l'œil pour protéger le nerf optique. Il y a trois grandes options :\n- les collyres (gouttes dans l'œil), le plus souvent en premier, tous les jours et à vie ;\n- le laser (par exemple la SLT), un geste rapide fait au cabinet ;\n- la chirurgie, quand le reste ne suffit pas (chirurgie classique ou techniques « mini-invasives », plus légères).\nOn ne guérit pas le glaucome : on le stabilise.",
@@ -310,6 +309,94 @@
    ],
    "reponse": "Le netarsudil est un collyre plus récent que les autres, d'une nouvelle famille : les inhibiteurs de la Rho-kinase. Il agit directement sur le filtre de l'œil pour que le liquide s'évacue mieux.\nIl existe seul (Rhopressa aux États-Unis) et associé au latanoprost (Rocklatan aux États-Unis, Roclanda en Europe, commercialisé par Santen). Son effet indésirable le plus fréquent est la rougeur de l'œil (hyperémie).",
    "recherche": "netarsudil"
+  },
+  {
+   "question": "Quel est l'arbre décisionnel de prise en charge du glaucome ?",
+   "mots": [
+    "arbre",
+    "decisionnel",
+    "decision",
+    "algorithme",
+    "strategie",
+    "prise en charge",
+    "etapes du traitement",
+    "recommandation",
+    "protocole",
+    "conduite a tenir",
+    "premiere intention",
+    "premiere ligne",
+    "deuxieme ligne"
+   ],
+   "reponse": "Voici les grandes étapes, telles que les décrivent les recommandations européennes (European Glaucoma Society) :\n- 1. Confirmer le diagnostic : mesure de la pression, examen du nerf optique (OCT), champ visuel, examen de l'angle (ouvert ou fermé).\n- 2. Fixer une « pression cible » : la pression à atteindre pour que la maladie ne progresse plus. Elle est plus basse si le glaucome est déjà avancé.\n- 3. Premier traitement : le plus souvent un collyre de la famille des prostaglandines (latanoprost…), une goutte le soir. Le laser SLT est une alternative possible dès le départ.\n- 4. Si la pression cible n'est pas atteinte : changer de collyre, ou en ajouter un deuxième (bêtabloquant, inhibiteur de l'anhydrase carbonique, alpha-agoniste, netarsudil). Deux produits peuvent être réunis dans un même flacon (association fixe), plus simple pour le patient.\n- 5. Si les collyres ne suffisent pas ou sont mal tolérés : laser (SLT), puis chirurgie (trabéculectomie, chirurgies mini-invasives, valves).\n- 6. À chaque étape : contrôles réguliers (pression, OCT, champ visuel) pour vérifier que la maladie est stabilisée.\nPour le glaucome à angle fermé, la première étape est différente : on ouvre l'angle (laser iridotomie ou chirurgie de la cataracte).",
+   "recherche": "treatment algorithm first-line glaucoma"
+  },
+  {
+   "question": "Qu'est-ce que la pression cible ?",
+   "mots": [
+    "pression cible",
+    "cible",
+    "objectif de pression",
+    "baisser la pression de"
+   ],
+   "reponse": "La pression cible est la pression de l'œil que le médecin fixe comme objectif pour un patient donné : en dessous, le nerf optique devrait être protégé.\nElle dépend de la gravité du glaucome, de la pression de départ, de l'âge et de la vitesse d'aggravation. Souvent, on vise une baisse d'au moins 20 à 30 % par rapport à la pression de départ, et davantage si le glaucome est avancé. Elle est réévaluée au fil du suivi.",
+   "recherche": "target intraocular pressure"
+  },
+  {
+   "question": "Pourquoi les patients arrêtent-ils leur traitement (observance) ?",
+   "mots": [
+    "observance",
+    "adherence",
+    "oubli",
+    "arreter le traitement",
+    "arretent",
+    "suivre son traitement",
+    "persistance"
+   ],
+   "reponse": "L'observance, c'est le fait de bien suivre son traitement. Dans le glaucome, elle est souvent mauvaise : beaucoup de patients oublient ou arrêtent leurs gouttes.\nLes raisons : la maladie ne fait pas mal et le traitement n'améliore pas la vue (on ne « sent » pas son effet), les gouttes piquent ou rougissent l'œil, il faut parfois plusieurs flacons par jour, et mettre une goutte est difficile pour une personne âgée.\nC'est pourquoi les laboratoires misent sur les associations fixes (un seul flacon), les collyres sans conservateur, une seule goutte par jour, et les implants à libération prolongée.",
+   "recherche": "adherence glaucoma medication"
+  },
+  {
+   "question": "Quels sont les effets indésirables des collyres contre le glaucome ?",
+   "mots": [
+    "effet indesirable",
+    "effets indesirables",
+    "effet secondaire",
+    "effets secondaires",
+    "rougeur",
+    "hyperemie",
+    "tolerance",
+    "cils",
+    "pigmentation"
+   ],
+   "reponse": "Chaque famille a ses effets indésirables typiques :\n- prostaglandines : yeux rouges (hyperémie), cils qui poussent, assombrissement de l'iris ou de la peau des paupières ;\n- bêtabloquants : ralentissement du cœur, gêne respiratoire chez les asthmatiques (ils passent dans le sang) ;\n- inhibiteurs de l'anhydrase carbonique : brûlure à l'instillation, goût amer ;\n- brimonidine : allergie de l'œil, fatigue ;\n- netarsudil : yeux rouges, petits dépôts sur la cornée.\nLe conservateur de certains flacons ajoute irritation et sécheresse de l'œil.",
+   "recherche": "adverse events glaucoma eye drops"
+  },
+  {
+   "question": "Comment suit-on un patient glaucomateux ?",
+   "mots": [
+    "suivi",
+    "surveillance",
+    "controle",
+    "tous les combien",
+    "frequence des consultations",
+    "progression",
+    "aggravation"
+   ],
+   "reponse": "Le glaucome se surveille toute la vie, chez l'ophtalmologiste, en général tous les 3 à 12 mois selon la gravité. À chaque visite : mesure de la pression de l'œil, et régulièrement un champ visuel (pour voir si la vision sur les côtés se réduit) et un OCT (une image très précise du nerf optique).\nSi la maladie progresse malgré le traitement, on baisse la pression cible et on renforce le traitement (autre collyre, laser, chirurgie).",
+   "recherche": "glaucoma progression monitoring"
+  },
+  {
+   "question": "Quels sont les grands laboratoires du glaucome ?",
+   "mots": [
+    "laboratoire",
+    "concurrent",
+    "acteur",
+    "marche",
+    "leader",
+    "entreprise"
+   ],
+   "reponse": "Parmi les acteurs les plus visibles du glaucome : Santen (spécialiste japonais de l'œil), AbbVie (qui a racheté Allergan), Alcon, les Laboratoires Théa (spécialiste français des collyres sans conservateur), Bausch + Lomb, Viatris, ainsi que les laboratoires de génériques (Sandoz, Teva…). Côté chirurgie, des fabricants d'implants comme Glaukos.\nLa page « Laboratoires » montre, pour chacun, ses médicaments autorisés pays par pays (avec leur nom commercial) et ses essais, d'après les sources officielles.",
+   "recherche": "laboratoire"
   }
  ]
 }

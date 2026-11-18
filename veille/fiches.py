@@ -436,8 +436,8 @@ def fiche_article(memoire, essais_memoire, rubriques):
 
     # --- Qualité de l'étude (règles fixes, sans IA), puis lire l'article en entier (texte gratuit déclaré, auteur, BU)
     industriel = any(i.get("type") == "company" for i in oa.get("institutions") or [])
-    blocs.append(qualite_etude.bloc_html(qualite_etude.evaluer(d, financement_industriel=industriel)))
     blocs.append(acces_texte.bloc_html(d, oa))
+    blocs.append(qualite_etude.bloc_html(qualite_etude.evaluer(d, financement_industriel=industriel)))
 
     # --- Question
     contenu = _extraits(parties["question"])
