@@ -13,7 +13,7 @@
  "points": [
   {
    "titre": "Tolérance de l'association fixe nétarsudil/latanoprost",
-   "texte": "Selon le résumé, une analyse post hoc de l'essai MERCURY-3 indique que les patients avec une hyperémie basale ont présenté des taux plus élevés d'événements indésirables sous NET/LAT.",
+   "texte": "Selon le résumé, les patients présentant une hyperémie basale ont eu des taux plus élevés d'événements indésirables sous l'association fixe nétarsudil/latanoprost, et un traitement antérieur complexe était lié à une tolérance moins favorable.",
    "sources": [
     "PMID:43046532"
    ],
@@ -27,7 +27,7 @@
   },
   {
    "titre": "Avantage de la SLT par rapport aux médicaments",
-   "texte": "Une analyse secondaire de l'essai LiGHT montre que le traitement médicamenteux de première intention est associé à une plus grande morbidité de la surface oculaire et oculoplastique que la stratégie par trabéculoplastie au laser sélectif.",
+   "texte": "Une analyse de l'essai LiGHT indique que le traitement médicamenteux de première intention est associé à une plus grande morbidité de la surface oculaire et oculoplastique que la stratégie par trabéculoplastie au laser sélectif.",
    "sources": [
     "PMID:43017931"
    ],
@@ -41,7 +41,7 @@
   },
   {
    "titre": "Nouvel essai sur un complément alimentaire",
-   "texte": "Un nouvel essai clinique, BRIGHT, évalue si un complément alimentaire à base de nicotinamide riboside améliore la fonction rétinienne chez des adultes atteints de glaucome à angle ouvert.",
+   "texte": "Un nouvel essai clinique évalue si un complément alimentaire à base de nicotinamide riboside améliore la fonction des cellules ganglionnaires rétiniennes chez des patients atteints de glaucome à angle ouvert.",
    "sources": [
     "NCT07945340"
    ],
@@ -55,7 +55,7 @@
   },
   {
    "titre": "Performance d'un score de risque génétique",
-   "texte": "Une étude d'association génétique portant sur plus de 6 millions d'individus montre que les personnes du décile supérieur du score de risque polygénique présentent un risque multiplié par environ 10 d'avoir un glaucome à angle ouvert.",
+   "texte": "Des analyses de prédiction des risques indiquent que les individus du décile supérieur du score de risque polygénique présentent un risque multiplié par environ 10 d'avoir un glaucome à angle ouvert.",
    "sources": [
     "PMID:43020385"
    ],
@@ -68,8 +68,8 @@
    ]
   },
   {
-   "titre": "Fin d'un essai comparatif de tonométrie",
-   "texte": "L'essai comparatif mesurant le Tomey FT-1000 et le tonomètre à aplanissement de Goldmann a changé son statut de RECRUITING à COMPLETED avec un recrutement modifié à 40 participants.",
+   "titre": "Changement de statut pour un essai tonométrique",
+   "texte": "L'essai comparatif de tonométrie a changé son statut de recrutement de RECRUITING à COMPLETED et a modifié sa taille de cohorte ainsi que sa date de fin.",
    "sources": [
     "NCT07804277"
    ],
