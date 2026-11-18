@@ -58,8 +58,8 @@ def nombre(texte):
 
 def nom_produit(libelle):
     """« LATANOPROST VIATRIS 0,005% COLLYRE » → « LATANOPROST VIATRIS » (nom avant le premier dosage)."""
-    m = re.match(r"\s*(.*?)(?=\s+\d|\s*\(|$)", libelle or "")
-    return " ".join((m.group(1) if m else libelle or "").split()).upper() or "NON RAPPORTÉ"
+    m = re.match(r"\s*(.*?)(?=\s+\d|\s*\(|\s+COLL|$)", (libelle or "").upper())
+    return " ".join((m.group(1) if m else libelle or "").split()) or "NON RAPPORTÉ"
 
 
 def lien_open_medic(annee):
@@ -74,7 +74,7 @@ def agreger_open_medic(lignes_csv, nb_produits=15):
     lecteur = csv.reader(lignes_csv, delimiter=";")
     entete = [c.strip().upper() for c in next(lecteur)]
     i = {c: k for k, c in enumerate(entete)}
-    for c in ("ATC4", "ATC5", "L_ATC5", "BOITES", "REM"):
+    for c in ("ATC4", "ATC5", "BOITES", "REM"):
         if c not in i:
             raise ValueError(f"Colonne {c} absente du fichier Open Medic : {entete}")
     mol = defaultdict(lambda: {"boites": 0.0, "rem": 0.0, "princeps": 0.0, "generiques": 0.0, "hors_repertoire": 0.0})
@@ -83,7 +83,7 @@ def agreger_open_medic(lignes_csv, nb_produits=15):
         if len(l) < len(entete) or not l[i["ATC4"]].startswith(CLASSE):
             continue
         atc, boites, rem = l[i["ATC5"]], nombre(l[i["BOITES"]]), nombre(l[i["REM"]])
-        libelles[atc] = l[i["L_ATC5"]].strip()
+        libelles[atc] = l[i["L_ATC5"]].strip() if "L_ATC5" in i else atc   # 2015 : pas de libellé
         m = mol[atc]
         m["boites"] += boites
         m["rem"] += rem
@@ -143,8 +143,9 @@ def medicare_lignes(texte_csv):
 def medicare(deja=None):
     """Lignes Medicare des antiglaucomateux. Ne retélécharge que si CMS a publié une nouvelle version."""
     cat = json.loads(telecharger(CMS_CATALOGUE, 180))
-    ds = next(d for d in cat["dataset"] if d.get("title") == CMS_TITRE)
-    csv_url = next(x.get("downloadURL") for x in ds["distribution"] if (x.get("format") or "").upper() == "CSV")
+    ds = next(d for d in cat["dataset"] if (d.get("title") or "").startswith(CMS_TITRE))   # « … : 2024-01-01 »
+    csv_url = next(u for x in ds["distribution"] for u in [x.get("downloadURL") or x.get("accessURL") or ""]
+                   if u.lower().endswith(".csv"))
     if deja and deja.get("fichier") == csv_url:
         return deja
     lignes = medicare_lignes(telecharger(csv_url).decode("utf-8", "replace"))

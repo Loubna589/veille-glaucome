@@ -24,6 +24,7 @@ def test_agregation_open_medic_classe_s01e_seulement():
 def test_nom_produit_et_nombres():
     assert cm.nom_produit("BRINZOLAMIDE/TIM VTS 10/5MG/ML COLL") == "BRINZOLAMIDE/TIM VTS"
     assert cm.nom_produit("AZOPT 10MG/ML COLLYRE FL 5ML (ADP2)") == "AZOPT"
+    assert cm.nom_produit("SIMBRINZA COLLYRE") == "SIMBRINZA" and cm.nom_produit("Dualkopt collyre 1") == "DUALKOPT"
     assert cm.nombre("1 234,56") == 1234.56 and cm.nombre("") == 0
 
 
