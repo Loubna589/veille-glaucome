@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Méthode et limites — Glaucoma Intelligence</title>
+  <meta name="description" content="Méthode de la veille glaucome : sources publiques, fréquence de mise à jour, rôle exact de l'IA, ce qu'elle ne fait pas, biais et limites à connaître.">
+  <link rel="canonical" href="https://loubna589.github.io/veille-glaucome/methode.html">
+  <meta property="og:title" content="Méthode et limites — Glaucoma Intelligence">
+  <meta property="og:url" content="https://loubna589.github.io/veille-glaucome/methode.html">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div id="nav"></div>
+  <main class="page methode">
+    <header class="hero">
+      <h1>Méthode et limites</h1>
+      <p>Ce que fait la veille, ce qu'elle ne fait pas, et ce qu'il faut garder en tête avant d'utiliser un chiffre ou un résumé.
+        Règle de base : <strong>seul ce qu'une source déclare est affiché</strong>, avec un lien vers cette source.</p>
+    </header>
+
+    <nav class="puces" aria-label="Sommaire">
+      <a href="#sources">Sources</a><a href="#frequence">Fréquence</a><a href="#ia">Ce que fait l'IA</a>
+      <a href="#pas-ia">Ce que l'IA ne fait pas</a><a href="#biais">Biais et limites</a><a href="#controles">Contrôles</a>
+    </nav>
+
+    <h2 class="titre-section" id="sources">1. Les sources : publiques et gratuites uniquement</h2>
+    <div class="methode-grille">
+      <div class="encadre"><h3>Recherche scientifique</h3><ul>
+        <li><strong>ClinicalTrials.gov</strong> : essais cliniques dont la pathologie déclarée est le glaucome ou l'hypertension oculaire.</li>
+        <li><strong>PubMed</strong> : articles indexés « glaucome » ou qui en parlent dans le titre ou le résumé.</li>
+        <li><strong>OpenAlex</strong> : publications absentes de PubMed (dont prépublications) et statut d'accès libre.</li>
+        <li><strong>Crossref</strong> : financeurs déclarés des articles.</li></ul></div>
+      <div class="encadre"><h3>Autorisations et remboursement</h3><ul>
+        <li><strong>BDPM</strong> (France : ANSM, HAS, Assurance Maladie), <strong>EMA</strong> (Union européenne), <strong>openFDA</strong> (États-Unis).</li>
+        <li><strong>Santé Canada</strong>, <strong>AEMPS</strong> (Espagne), <strong>AIFA</strong> (Italie), <strong>Swissmedic</strong> (Suisse).</li>
+        <li>Royaume-Uni, Allemagne et Australie (TGA) ne sont pas couverts : la raison est donnée sur la page
+          <a href="marche.html">Autorisations &amp; remboursement</a>.</li></ul></div>
+      <div class="encadre"><h3>Chiffres de marché</h3><ul>
+        <li><strong>Open Medic</strong> (Assurance Maladie) : boîtes d'antiglaucomateux remboursées en ville, depuis 2015.</li>
+        <li><strong>Medicare Part D</strong> (CMS, États-Unis) : dépenses et prescriptions par médicament.</li>
+        <li>Pas de données payantes ou sous licence (IQVIA, Xponent…).</li></ul></div>
+    </div>
+
+    <h2 class="titre-section" id="frequence">2. À quelle fréquence ?</h2>
+    <div class="encadre"><table class="cm-table methode-table">
+      <thead><tr><th>Quoi</th><th>Fréquence</th><th>Remarque</th></tr></thead><tbody>
+      <tr><td>Essais, articles, autorisations</td><td>Chaque jour</td><td>Robot GitHub Actions, même ordinateur éteint. Seules les nouveautés depuis la veille sont téléchargées.</td></tr>
+      <tr><td>Résumés et catégories par l'IA</td><td>Chaque jour</td><td>Pour chaque nouvel article ou essai.</td></tr>
+      <tr><td>« Ce qu'il faut retenir cette semaine »</td><td>Tous les 7 jours</td><td>Sur les 7 derniers jours ; envoyée aussi par e-mail si l'envoi est configuré.</td></tr>
+      <tr><td>Chiffres de marché</td><td>Une fois par an</td><td>Vérifié chaque jour ; une nouvelle année arrive avec environ un an de décalage.</td></tr>
+      <tr><td>Historique</td><td>Depuis le 11/11/2026</td><td>La veille a démarré ce jour-là avec un premier lot récent : ce n'est pas une base exhaustive des années passées.</td></tr>
+      </tbody></table>
+      <p class="cm-aide">Si une source est en panne, les autres continuent et la page <a href="pipeline.html">Pipeline</a> le signale.
+        Si un test automatique échoue, rien n'est publié.</p></div>
+
+    <h2 class="titre-section" id="ia">3. Ce que fait l'IA</h2>
+    <div class="methode-grille">
+      <div class="encadre"><h3>Résumer et classer</h3><p>Pour chaque article ou essai, un modèle de langage gratuit (Gemini Flash-Lite de Google)
+        lit <strong>uniquement le titre et le résumé</strong> et rend : 3 lignes de résumé en français, une catégorie parmi 6 fixées
+        à l'avance et une phrase qui justifie ce choix. La consigne est versionnée, la température est à 0 (réponses stables)
+        et la réponse est contrôlée (format, catégorie autorisée). Le modèle, la version de la consigne et la date sont enregistrés.</p></div>
+      <div class="encadre"><h3>Trouver par le sens</h3><p>La recherche utilise un petit modèle d'« embeddings » (multilingual-e5-small) qui tourne
+        sur la machine, sans service extérieur : il retrouve un article même s'il n'emploie pas vos mots exacts, et une question
+        en français trouve des textes en anglais. Ce modèle ne rédige rien.</p></div>
+      <div class="encadre"><h3>Répondre aux questions</h3><p>L'assistant cherche d'abord les extraits les plus proches, puis l'IA rédige
+        une réponse à partir de ces seuls extraits. Chaque phrase doit citer sa source ; une citation inconnue est signalée,
+        et sans extrait pertinent la réponse est « je ne sais pas ». Sur le site en ligne (sans serveur), les réponses sont préparées chaque jour
+        pour quelques questions types.</p></div>
+      <div class="encadre"><h3>Résumer la semaine</h3><p>Des règles fixes trient les éléments de la semaine, puis l'IA rédige 5 points
+        à partir de ces seuls éléments. Les identifiants cités sont vérifiés ; sinon, les règles écrivent seules.
+        Voir <a href="semaine.html">Cette semaine</a>.</p></div>
+    </div>
+
+    <h2 class="titre-section" id="pas-ia">4. Ce que l'IA ne fait pas</h2>
+    <div class="encadre"><ul class="methode-liste">
+      <li><strong>Elle ne lit pas l'article en entier</strong> : seulement le titre et le résumé publiés. Un résultat absent du résumé lui échappe.</li>
+      <li><strong>Elle ne juge pas la qualité d'une étude</strong> : le niveau de preuve affiché vient du type de publication déclaré par PubMed, pas de l'IA.</li>
+      <li><strong>Elle ne crée aucune donnée</strong> : dates, phases, statuts, laboratoires, prix et liens de la carte viennent tous des sources.</li>
+      <li><strong>Elle n'est pas vérifiée une par une</strong> : les résumés sont marqués « non vérifié ». Pour une décision, relire la source.</li>
+      <li><strong>Elle ne donne aucun avis médical</strong>, ne fait aucune prévision de marché et ne recommande aucun traitement.</li>
+      <li><strong>Elle ne voit pas les données confidentielles</strong> : rien d'interne à une entreprise, uniquement des sources publiques.</li>
+    </ul></div>
+
+    <h2 class="titre-section" id="biais">5. Biais et limites à garder en tête</h2>
+    <div class="methode-grille">
+      <div class="encadre"><h3>Ce qui peut manquer</h3><ul>
+        <li><strong>Biais de publication</strong> : les résultats positifs sont plus souvent publiés que les échecs.</li>
+        <li><strong>Couverture</strong> : surtout des revues en anglais indexées par PubMed ; un essai non enregistré sur ClinicalTrials.gov n'apparaît pas.</li>
+        <li><strong>Mots-clés</strong> : un article mal indexé peut être manqué, un article hors sujet peut entrer.</li>
+        <li><strong>Accès</strong> : environ un article sur trois est payant ; il n'est alors lu qu'à travers son résumé.</li></ul></div>
+      <div class="encadre"><h3>Ce qui peut tromper</h3><ul>
+        <li><strong>Erreurs de l'IA</strong> : un résumé ou une catégorie peut être faux ; la mesure de fiabilité (F1) se fait sur un jeu d'articles jugés à la main.</li>
+        <li><strong>Rôle des produits</strong> (« étudié », « comparateur ») : déduit par des règles, donc « suggéré, à vérifier ».</li>
+        <li><strong>Laboratoires</strong> : les sources écrivent les noms différemment ; le regroupement est automatique. Financer une étude n'est pas la diriger.</li>
+        <li><strong>Prépublications</strong> (OpenAlex) : pas encore évaluées par des pairs, signalées comme telles.</li></ul></div>
+      <div class="encadre"><h3>Ce que les chiffres ne disent pas</h3><ul>
+        <li><strong>Open Medic</strong> : boîtes remboursées en pharmacie de ville seulement (ni hôpital, ni non remboursé).</li>
+        <li><strong>Medicare</strong> : surtout les plus de 65 ans aux États-Unis, dépenses brutes avant remises (pas le chiffre d'affaires).</li>
+        <li><strong>Décalage</strong> : environ un an pour ces deux sources.</li>
+        <li><strong>Réglementaire</strong> : 7 zones seulement ; une molécule absente d'une base n'est pas forcément « non autorisée ».</li></ul></div>
+      <div class="encadre"><h3>Nos propres choix</h3><ul>
+        <li>La liste des molécules suivies et les règles de score de la synthèse reflètent un regard de <strong>laboratoire pharmaceutique</strong>.</li>
+        <li>Un sujet hors de ces règles (ex. chirurgie, organisation des soins) peut être sous-représenté dans les 5 points.</li>
+        <li>Tous ces réglages sont dans des fichiers lisibles (<code>config/</code>) et peuvent être modifiés.</li></ul></div>
+    </div>
+
+    <h2 class="titre-section" id="controles">6. Les contrôles qui protègent la qualité</h2>
+    <div class="encadre"><ul class="methode-liste">
+      <li><strong>Tests automatiques</strong> avant chaque publication : si un seul échoue, rien n'est publié.</li>
+      <li><strong>Contrôle qualité</strong> de chaque étude exportée (champs obligatoires, dates valides, doublons) : les rejets sont listés sur la page <a href="fonctionnement.html#qualite">Comment ça marche</a>.</li>
+      <li><strong>Dédoublonnage</strong> par identifiant (PMID, DOI, NCT) et alertes envoyées une seule fois.</li>
+      <li><strong>Traçabilité</strong> : chaque sortie de l'IA garde le modèle, la version de la consigne et la date ; chaque chiffre garde sa source.</li>
+    </ul></div>
+  </main>
+  <footer class="pied" id="pied"></footer>
+  <script src="js/app.js"></script>
+  <script>Veille.pret(function () { Veille.monterNavigation("methode"); });</script>
+</body>
+</html>

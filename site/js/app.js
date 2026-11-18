@@ -16,6 +16,8 @@
     etudes: '<path d="M7 3h7l5 5v13H7z"/><path d="M14 3v5h5"/><path d="M10 13h6M10 17h6"/>',
     laboratoires: '<path d="M4 21V9l6-4v16"/><path d="M10 21V3l10 5v13"/><path d="M3 21h18M13 10h4M13 14h4"/>',
     marche: '<circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/>',
+    semaine: '<rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4M8 14h3M8 17h6"/>',
+    methode: '<path d="M5 4h11l3 3v13H5z"/><path d="M8 10h8M8 13h8M8 16h5"/><path d="M15 4v4h4"/>',
     alertes: '<path d="M6 16V11a6 6 0 0 1 12 0v5l2 2H4z"/><path d="M10 20a2 2 0 0 0 4 0"/>',
     fonctionnement: '<circle cx="12" cy="12" r="3"/><path d="M12 2v3M12 19v3M4.2 4.2l2.1 2.1M17.7 17.7l2.1 2.1M2 12h3M19 12h3M4.2 19.8l2.1-2.1M17.7 6.3l2.1-2.1"/>',
   };
@@ -31,6 +33,9 @@
     { id: "accueil", href: "index.html", label: "Accueil", icone: "accueil",
       but: "Voir d'un coup d'œil ce que la veille suit aujourd'hui et choisir quoi faire.",
       exemple: "Cliquez sur « Voir ce qui a changé » pour lire les nouveautés de ce matin." },
+    { id: "semaine", href: "semaine.html", label: "Cette semaine", icone: "semaine", etiquette: "IA",
+      but: "Lire en 2 minutes les 5 points à retenir des 7 derniers jours, chacun avec sa source.",
+      exemple: "Cliquez sur un identifiant (NCT…, PMID…) pour ouvrir l'essai ou l'article d'origine." },
     { id: "recherche", href: "recherche.html", label: "Rechercher", icone: "recherche",
       but: "Trouver les essais et articles qui parlent d'un sujet, même s'ils n'emploient pas vos mots exacts.",
       exemple: "Tapez « collyres sans conservateur » : l'essai ZOLYMBUS sort en premier." },
@@ -55,6 +60,9 @@
     { id: "fonctionnement", href: "fonctionnement.html", label: "Comment ça marche", icone: "fonctionnement", etiquette: "jury",
       but: "La partie technique : comment les données sont collectées, contrôlées, analysées par l'IA et évaluées.",
       exemple: "Regardez le schéma, puis le journal de la dernière exécution (une ligne par source)." },
+    { id: "methode", href: "methode.html", label: "Méthode et limites", icone: "methode", etiquette: "jury",
+      but: "Savoir d'où viennent les données, à quelle fréquence, ce que l'IA fait et ne fait pas, et les biais à garder en tête.",
+      exemple: "Lisez « Ce que l'IA ne fait pas » avant de citer un résumé automatique." },
   ];
   V.page = function (id) { return V.PAGES.filter(function (p) { return p.id === id; })[0]; };
 
@@ -120,8 +128,8 @@
     nav.innerHTML = '<a class="lien-evitement" href="#contenu">Aller au contenu</a>' +
       '<nav class="nav" aria-label="Menu principal"><a class="marque" href="' + V.racine + 'index.html">' + V.LOGO +
       "<span><b>Glaucoma Intelligence</b><small>Veille scientifique · glaucome</small></span></a>" +
-      '<div class="nav__liens">' + liens.slice(0, 8).join("") + '</div><div class="nav__groupe">Pour le jury</div>' +
-      '<div class="nav__liens">' + liens.slice(8).join("") + "</div>" +
+      '<div class="nav__liens">' + liens.slice(0, 9).join("") + '</div><div class="nav__groupe">Pour le jury</div>' +
+      '<div class="nav__liens">' + liens.slice(9).join("") + "</div>" +
       '<div class="nav__pied">Données publiques uniquement.<br>Mise à jour chaque matin.</div></nav>';
     var main = document.querySelector("main.page");
     if (main) main.id = "contenu";

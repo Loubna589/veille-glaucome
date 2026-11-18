@@ -9,6 +9,10 @@ on:
     - cron: "30 5 * * *"   # 5 h 30 UTC = 7 h 30 à Paris l'été, 6 h 30 l'hiver
   workflow_dispatch:
     inputs:
+      refaire_synthese:
+        description: "Refaire tout de suite la synthèse de la semaine (et renvoyer l'e-mail)"
+        type: boolean
+        default: false
       casser_test_demo:
         description: "Démo : faire échouer exprès un test (la publication doit être bloquée)"
         type: boolean
@@ -77,6 +81,18 @@ jobs:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: python preparer_reponses.py
 
+      - name: Ce qu'il faut retenir cette semaine (5 points, tous les 7 jours) et e-mail hebdomadaire
+        continue-on-error: true    # l'IA ou l'e-mail en panne ne bloquent pas la veille
+        env:
+          MISTRAL_API_KEY: ${{ secrets.MISTRAL_API_KEY }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          SMTP_HOTE: ${{ secrets.SMTP_HOTE }}
+          SMTP_PORT: ${{ secrets.SMTP_PORT }}
+          SMTP_UTILISATEUR: ${{ secrets.SMTP_UTILISATEUR }}
+          SMTP_MOT_DE_PASSE: ${{ secrets.SMTP_MOT_DE_PASSE }}
+          ALERTES_DESTINATAIRE: ${{ secrets.ALERTES_DESTINATAIRE }}
+        run: python synthese_semaine.py ${{ inputs.refaire_synthese && '--forcer' || '' }} && python construire_site.py
+
       - name: Garder les journaux de l'exécution
         if: always()
         uses: actions/upload-artifact@v4
@@ -89,7 +105,7 @@ jobs:
         run: |
           git config user.name "veille-automatique"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/veille.db data/historique/marche.json data/historique/chiffres_marche.json site alertes.md
+          git add data/veille.db data/historique site alertes.md
           if git diff --cached --quiet; then
             echo "Aucune nouveauté à enregistrer."
           else

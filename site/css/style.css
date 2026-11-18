@@ -368,3 +368,30 @@ table.marche th .drapeau { vertical-align: -3px; }
 .cm-defile, .cm-defile-simple { overflow-x: auto; }
 .cm-defile .cm-table th:nth-child(-n+3), .cm-defile .cm-table td:nth-child(-n+3) { text-align: right; }
 .cm-defile .cm-table th:first-child, .cm-defile .cm-table td:first-child { text-align: left; white-space: nowrap; }
+
+/* ---- Cette semaine (semaine.html, accueil) et Méthode et limites ---- */
+.semaine-points { list-style: none; counter-reset: pt; padding: 0; margin: 8px 0; display: grid; gap: 12px; }
+.semaine-point { counter-increment: pt; position: relative; background: var(--carte); border: 1px solid var(--bord);
+  border-radius: var(--rayon-s); padding: 14px 16px 12px 58px; box-shadow: var(--ombre); }
+.semaine-point::before { content: counter(pt); position: absolute; left: 16px; top: 14px; width: 28px; height: 28px; border-radius: 50%;
+  background: var(--accent); color: var(--carte); font-weight: 700; display: grid; place-items: center; font-size: .9rem; }
+.semaine-point h3 { margin: 2px 0 6px; font-size: 1rem; }
+.semaine-point p { margin: 0 0 6px; }
+.semaine-sources { font-size: .82rem; color: var(--doux); }
+.semaine-archive { margin-bottom: 10px; }
+.semaine-archive summary { cursor: pointer; font-weight: 600; }
+.semaine-accueil { margin: 14px 0 6px; border-left: 4px solid var(--accent); }
+.semaine-accueil__tete { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 4px 12px; }
+.semaine-accueil h2 { margin: 0; font-size: 1.05rem; display: flex; align-items: center; gap: 8px; }
+.semaine-accueil h2 svg { width: 20px; height: 20px; fill: none; stroke: currentColor; stroke-width: 1.8; }
+.semaine-accueil__tete span { color: var(--doux); font-size: .82rem; }
+.semaine-accueil ol { margin: 10px 0 8px; padding-left: 22px; }
+.semaine-accueil li { margin: 3px 0; }
+.semaine-accueil__lien { font-weight: 600; }
+.methode-grille { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(280px, 100%), 1fr)); gap: 14px; }
+.methode-grille .encadre h3 { margin: 0 0 8px; font-size: 1rem; }
+.methode ul { padding-left: 18px; margin: 0; }
+.methode li { margin: 5px 0; }
+.methode-liste li { margin: 8px 0; }
+.methode-table td:nth-child(2) { white-space: nowrap; font-weight: 600; }
+.methode-table td, .methode-table th { text-align: left !important; vertical-align: top; }

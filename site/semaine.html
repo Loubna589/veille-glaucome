@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cette semaine — Glaucoma Intelligence</title>
+  <meta name="description" content="Ce qu'il faut retenir cette semaine dans la veille glaucome : 5 points clés sur les 7 derniers jours, chacun avec sa source (essai clinique ou article).">
+  <link rel="canonical" href="https://loubna589.github.io/veille-glaucome/semaine.html">
+  <meta property="og:title" content="Cette semaine — Glaucoma Intelligence">
+  <meta property="og:url" content="https://loubna589.github.io/veille-glaucome/semaine.html">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div id="nav"></div>
+  <main class="page">
+    <header class="hero">
+      <h1>Ce qu'il faut retenir cette semaine</h1>
+      <p id="periode">Les 5 points clés des 7 derniers jours, chacun relié à sa source.</p>
+    </header>
+
+    <section class="cm-tuiles" id="chiffres" aria-label="Chiffres de la semaine"></section>
+    <ol class="semaine-points" id="points"></ol>
+    <p class="sous-titre" id="mode"></p>
+
+    <h2 class="titre-section">Comment ces 5 points sont choisis</h2>
+    <div class="etapes">
+      <div class="etape"><b>Des règles fixes trient la semaine</b>
+        <span>Nouveaux essais, essais modifiés et articles entrés dans PubMed pendant les 7 jours reçoivent un score : résultats
+          déposés, essai terminé, phase 3, promoteur industriel, produit suivi étudié, essai randomisé, méta-analyse…</span></div>
+      <div class="etape"><b>L'IA rédige à partir de ces seuls éléments</b>
+        <span>Gemini écrit 5 points en français à partir des 25 éléments les mieux notés. Chaque point doit citer ses sources :
+          un point qui cite un identifiant absent de la liste est rejeté.</span></div>
+      <div class="etape"><b>Sinon, les règles écrivent seules</b>
+        <span>Si l'IA est indisponible ou si sa réponse ne passe pas le contrôle, les 5 éléments les mieux notés sont affichés
+          avec la raison de leur sélection. La page dit toujours quel mode a servi.</span></div>
+    </div>
+
+    <h2 class="titre-section">Éléments retenus pour la synthèse</h2>
+    <p class="sous-titre">Les éléments les mieux notés de la semaine, avec la raison du score. C'est la seule matière donnée à l'IA.</p>
+    <details class="encadre"><summary>Voir la sélection</summary><div id="selection"></div></details>
+
+    <h2 class="titre-section">Semaines précédentes</h2>
+    <div id="archives"></div>
+  </main>
+  <footer class="pied" id="pied"></footer>
+  <script src="js/app.js"></script>
+  <script>
+    Veille.pret(function () {
+      var V = Veille, esc = V.esc;
+      V.monterNavigation("semaine");
+      function date(iso) { return iso ? iso.slice(8, 10) + "/" + iso.slice(5, 7) + "/" + iso.slice(0, 4) : ""; }
+      function source(l) {
+        var cible = l.fiche ? '<a href="' + esc(l.fiche) + '">' : '<a href="' + esc(l.lien) + '" target="_blank" rel="noopener">';
+        return cible + esc(l.id) + "</a>";
+      }
+      function points(s) {
+        return s.points.map(function (p) {
+          return '<li class="semaine-point"><h3>' + esc(p.titre) + "</h3><p>" + esc(p.texte) + '</p><p class="semaine-sources">Source' +
+            (p.liens.length > 1 ? "s" : "") + " : " + p.liens.map(source).join(" · ") + "</p></li>";
+        }).join("");
+      }
+      function mode(s) {
+        return s.mode === "ia"
+          ? "Rédigé par l'IA (" + esc(s.modele) + ", consigne " + esc(s.version_prompt) + ") le " + date(s.genere_le) +
+            ", uniquement à partir des éléments sélectionnés ; toutes les citations ont été vérifiées. Résumé automatique : à vérifier avant de le citer."
+          : "Points choisis par des règles fixes, sans IA, le " + date(s.genere_le) + "." + (s.erreur ? " (" + esc(s.erreur) + ")" : "");
+      }
+      V.charger(["semaine.json"]).then(function (r) {
+        var d = r[0], s = d.derniere, c = s.chiffres;
+        document.getElementById("periode").innerHTML = "Du <strong>" + date(s.debut) + "</strong> au <strong>" + date(s.fin) +
+          "</strong>. Une nouvelle synthèse est publiée tous les 7 jours (et envoyée par e-mail si l'envoi est configuré).";
+        document.getElementById("chiffres").innerHTML =
+          '<div class="cm-tuile"><strong>' + c.articles + "</strong><span>articles entrés dans PubMed</span></div>" +
+          '<div class="cm-tuile"><strong>' + c.nouveaux_essais + "</strong><span>nouveaux essais publiés</span></div>" +
+          '<div class="cm-tuile"><strong>' + c.changements_essais + "</strong><span>essais modifiés (statut, date, résultats…)</span></div>";
+        document.getElementById("points").innerHTML = points(s) || '<li class="vide">Aucun élément cette semaine.</li>';
+        document.getElementById("mode").textContent = "";
+        document.getElementById("mode").innerHTML = mode(s);
+        document.getElementById("selection").innerHTML = '<table class="cm-table"><thead><tr><th>Score</th><th>Élément</th><th>Pourquoi</th></tr></thead><tbody>' +
+          s.selection.map(function (e) {
+            return "<tr><td>" + e.score + "</td><td>" + source({ id: e.id, lien: e.lien, fiche: e.fiche }) + " " + esc(e.titre || "") +
+              "</td><td>" + esc(e.raisons.join(", ")) + "</td></tr>";
+          }).join("") + "</tbody></table>";
+        document.getElementById("archives").innerHTML = d.archives.length ? d.archives.map(function (a) {
+          return '<details class="encadre semaine-archive"><summary>Du ' + date(a.debut) + " au " + date(a.fin) + "</summary><ol class=\"semaine-points\">" +
+            points(a) + '</ol><p class="cm-aide">' + mode(a) + "</p></details>";
+        }).join("") : '<p class="vide">La première synthèse est celle-ci : les suivantes s\'ajouteront ici chaque semaine.</p>';
+      }).catch(function () {
+        document.getElementById("points").innerHTML = '<li class="vide">Synthèse indisponible pour le moment.</li>';
+      });
+    });
+  </script>
+</body>
+</html>

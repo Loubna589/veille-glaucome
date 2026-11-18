@@ -27,6 +27,8 @@
         <circle cx="50" cy="50" r="30" fill="none" stroke="#fff" stroke-width="3"/><circle cx="50" cy="50" r="12" fill="#fff"/></svg>
     </header>
 
+    <section class="encadre semaine-accueil" id="semaine" hidden aria-label="Ce qu'il faut retenir cette semaine"></section>
+
     <h2 class="titre-section" style="margin-top:8px">Que voulez-vous faire ?</h2>
     <div class="actions-principales" id="actions"></div>
 
@@ -88,6 +90,17 @@
         return '<a class="action" href="' + a[3] + '"><span class="action__icone">' + V.icone(a[0]) + "</span><b>" + V.esc(a[1]) +
           "</b><span>" + V.esc(a[2]) + "</span><em>" + V.esc(a[4]) + "</em></a>";
       }).join("");
+
+      /* ---------- Ce qu'il faut retenir cette semaine (semaine.json) ---------- */
+      V.charger(["semaine.json"]).then(function (r) {
+        var s = r[0].derniere, z = document.getElementById("semaine");
+        function jj(iso) { return iso.slice(8, 10) + "/" + iso.slice(5, 7); }
+        z.innerHTML = '<div class="semaine-accueil__tete"><h2>' + V.icone("semaine") + " Ce qu'il faut retenir cette semaine</h2><span>du " +
+          jj(s.debut) + " au " + jj(s.fin) + (s.mode === "ia" ? " · rédigé par l'IA, sources vérifiées" : "") + "</span></div><ol>" +
+          s.points.map(function (p) { return "<li>" + V.esc(p.titre) + "</li>"; }).join("") +
+          '</ol><a class="semaine-accueil__lien" href="semaine.html">Lire les 5 points avec leurs sources →</a>';
+        z.hidden = false;
+      }).catch(function () {});
 
       /* ---------- Raccourcis ---------- */
       var puces = [

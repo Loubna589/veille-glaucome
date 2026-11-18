@@ -90,6 +90,7 @@ Veille-glaucome/
 ├── migrer_vers_sqlite.py ← migration unique de l'ancien historique JSON vers SQLite
 ├── collecter_marche.py   ← accès au marché (BDPM, EMA, openFDA) en autonome
 ├── collecter_chiffres_marche.py ← chiffres de marché publics (Open Medic, Medicare Part D)
+├── synthese_semaine.py   ← « Ce qu'il faut retenir cette semaine » (5 points) + e-mail hebdomadaire
 ├── ouvrir_site.bat       ← ouvre le site local (http://127.0.0.1:8766)
 ├── config/               ← réglages sans code (recherches, rubriques, molécules, site)
 │   └── prompts/          ← prompts IA VERSIONNÉS (resume_classification_v1.md…)

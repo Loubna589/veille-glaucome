@@ -10,7 +10,9 @@ Sorties :
 - alertes.md (à la racine du dépôt) : les alertes de la dernière publication, lisibles sur GitHub ;
 - la page « Alertes » du site (site/alertes.html, à partir de site/data/evenements.json) ;
 - e-mail FACULTATIF, seulement si les secrets SMTP_HOTE, SMTP_UTILISATEUR, SMTP_MOT_DE_PASSE et
-  ALERTES_DESTINATAIRE existent. Si l'envoi échoue, les alertes restent « à envoyer » (nouvel essai demain).
+  ALERTES_DESTINATAIRE existent. Par défaut, l'e-mail est HEBDOMADAIRE (synthese_semaine.py, avec les alertes de
+  la semaine) ; la variable MAIL_ALERTES_QUOTIDIEN=1 ajoute un e-mail chaque jour. Si l'envoi quotidien échoue,
+  les alertes restent « à envoyer » (nouvel essai demain).
 """
 import os
 import smtplib
@@ -59,17 +61,21 @@ def texte_markdown(evenements, titre="Alertes de la veille glaucome"):
     return "\n".join(lignes) + "\n"
 
 
-def envoyer_mail(texte, nombre):
+def mail_configure():
+    return all(os.getenv(v) for v in ("SMTP_HOTE", "SMTP_UTILISATEUR", "SMTP_MOT_DE_PASSE", "ALERTES_DESTINATAIRE"))
+
+
+def envoyer_mail(texte, nombre, sujet=None):
     """E-mail facultatif. Renvoie True (envoyé), False (non configuré) ; lève une exception si l'envoi échoue."""
     hote, utilisateur = os.getenv("SMTP_HOTE"), os.getenv("SMTP_UTILISATEUR")
     mot_de_passe, destinataire = os.getenv("SMTP_MOT_DE_PASSE"), os.getenv("ALERTES_DESTINATAIRE")
     if not all((hote, utilisateur, mot_de_passe, destinataire)):
         return False
     message = EmailMessage()
-    message["Subject"] = f"Veille glaucome : {nombre} alerte(s)"
+    message["Subject"] = sujet or f"Veille glaucome : {nombre} alerte(s)"
     message["From"], message["To"] = utilisateur, destinataire
     message.set_content(texte)
-    with smtplib.SMTP(hote, int(os.getenv("SMTP_PORT", "587")), timeout=30) as smtp:
+    with smtplib.SMTP(hote, int(os.getenv("SMTP_PORT") or 587), timeout=30) as smtp:
         smtp.starttls()
         smtp.login(utilisateur, mot_de_passe)
         smtp.send_message(message)
@@ -84,7 +90,8 @@ def publier(conn, fichier=FICHIER_MD, exporter=True):
     texte = texte_markdown(evenements)
     if evenements:
         try:
-            par_mail = envoyer_mail(texte, len(evenements))
+            # Par défaut, un seul e-mail par semaine (synthese_semaine.py) ; MAIL_ALERTES_QUOTIDIEN=1 ajoute un e-mail par jour
+            par_mail = envoyer_mail(texte, len(evenements)) if os.getenv("MAIL_ALERTES_QUOTIDIEN") == "1" else False
         except (OSError, smtplib.SMTPException) as erreur:
             reseau.journal().error("Alertes : e-mail non envoyé (%s) — les alertes seront retentées", erreur)
             par_mail = None

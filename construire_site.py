@@ -41,7 +41,7 @@ def titre_simple(titre):
 
 
 PAGES_PUBLIQUES = ["index.html", "recherche.html", "assistant.html", "carte.html", "etudes.html", "laboratoires.html",
-                   "marche.html", "alertes.html", "fonctionnement.html"]
+                   "marche.html", "alertes.html", "fonctionnement.html", "semaine.html", "methode.html"]
 
 
 def referencement(nb_fiches):
@@ -388,6 +388,10 @@ def main(conn=None):
     # Frise des délais d'accès au marché (uniquement des dates déclarées par les sources)
     from veille import delais
     export.ecrire("delais.json", delais.calculer(donnees["marche"]))
+    semaines = sorted((HIST / "semaines").glob("*.json")) if (HIST / "semaines").exists() else []
+    if semaines:   # « Ce qu'il faut retenir cette semaine » (synthese_semaine.py) : la dernière + les archives
+        toutes = [json.loads(f.read_text(encoding="utf-8")) for f in reversed(semaines)]
+        export.ecrire("semaine.json", {"derniere": toutes[0], "archives": toutes[1:]})
     if (HIST / "chiffres_marche.json").exists():   # chiffres de marché publics (collecter_chiffres_marche.py)
         export.ecrire("chiffres_marche.json", json.loads((HIST / "chiffres_marche.json").read_text(encoding="utf-8")))
 
