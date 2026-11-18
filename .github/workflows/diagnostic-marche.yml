@@ -10,11 +10,21 @@ jobs:
       - name: Explorer
         run: |
           python3 - <<'PY'
-          import urllib.request
+          import gzip, re, urllib.request
+          B = "https://open-data-assurance-maladie.ameli.fr/medicaments/"
           def get(u):
-              r = urllib.request.urlopen(urllib.request.Request(u, headers={"User-Agent": "veille-glaucome"}), timeout=180)
+              r = urllib.request.urlopen(urllib.request.Request(u, headers={"User-Agent": "veille-glaucome"}), timeout=300)
               return r.read()
-          for u in ["https://open-data-assurance-maladie.ameli.fr/medicaments/download2.php?Dir_Rep=2025_CIP13",
-                    "https://open-data-assurance-maladie.ameli.fr/medicaments/download.php?Dir_Rep=Open_MEDIC_Base_Complete&Annee=2025"]:
-              print("=====", u); print(get(u).decode("utf-8", "replace"))
+          for an in [2025, 2019, 2015]:
+              page = get(B + f"download2.php?Dir_Rep={an}_CIP13").decode("utf-8", "replace")
+              liens = re.findall(r'href="\./(download_file\.php\?[^"]+)"', page)
+              print(an, [l.split("/")[-1] for l in liens])
+              for l in liens:
+                  if l.endswith(("_cip13.CSV.gz", "_cip13_spe.CSV.gz")) and (an == 2025 or "spe" not in l):
+                      b = gzip.decompress(get(B + l.replace("&amp;", "&")))
+                      t = b.decode("latin-1").splitlines()
+                      print("  ", l.split("/")[-1], len(b), len(t)); print("   ENTETE", t[0])
+                      s = [x for x in t if "S01E" in x]
+                      print("   S01E", len(s))
+                      for x in s[:6] + [x for x in s if "LATANOPROST" in x.upper()][:6]: print("    ", x[:400])
           PY
