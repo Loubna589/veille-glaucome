@@ -86,7 +86,7 @@
         ["assistant", "Poser une question", "L'assistant répond en quelques phrases, à l'écrit ou à voix haute, puis donne ses sources.", "#", "Ouvrir l'assistant →"],
       ];
       document.getElementById("actions").innerHTML = actions.map(function (a) {
-        return '<a class="action" href="' + a[3] + '"' + (a[3] === "#" ? " data-ouvrir-assistant" : "") + "><span class="action__icone">' + V.icone(a[0]) + "</span><b>" + V.esc(a[1]) +
+        return '<a class="action" href="' + a[3] + '"' + (a[3] === "#" ? " data-ouvrir-assistant" : "") + '><span class="action__icone">' + V.icone(a[0]) + "</span><b>" + V.esc(a[1]) +
           "</b><span>" + V.esc(a[2]) + "</span><em>" + V.esc(a[4]) + "</em></a>";
       }).join("");
 
