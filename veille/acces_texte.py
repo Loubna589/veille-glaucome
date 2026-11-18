@@ -80,6 +80,22 @@ def texte_gratuit(d, oa):
     return None
 
 
+LIBELLES_ACCES = {
+    "libre": "✅ Accès libre et gratuit",
+    "payant": "🔒 Article payant : à demander",
+    "inconnu": "❔ Accès inconnu",
+}
+
+
+def statut_acces(d, oa):
+    """« libre » (version gratuite déclarée), « payant » (OpenAlex déclare l'article fermé) ou « inconnu »."""
+    if texte_gratuit(d, oa):
+        return "libre"
+    if oa.get("statut_acces") == "closed" or oa.get("acces_ouvert") is False:
+        return "payant"
+    return "inconnu"
+
+
 def annee(d):
     m = re.search(r"\d{4}", d.get("date_publication") or "")
     return m.group(0) if m else ""
@@ -123,12 +139,20 @@ def bloc_html(d, oa, peb=None, openurl=None):
     peb = url_peb() if peb is None else peb
     openurl = base_openurl() if openurl is None else openurl
     morceaux = []
+    statut = statut_acces(d, oa)
+    explication = {
+        "libre": "Une version gratuite est déclarée : un clic suffit pour lire l'article.",
+        "payant": "OpenAlex déclare cet article fermé (abonnement) : demandez-le à l'auteur, sur ResearchGate ou à la BU.",
+        "inconnu": "Ni PubMed Central ni OpenAlex ne disent si l'article est gratuit : essayez le lien de l'éditeur, "
+                   "sinon demandez-le à l'auteur, sur ResearchGate ou à la BU.",
+    }[statut]
+    morceaux.append(f'<p class="statut-acces statut-acces--{statut}"><strong>{LIBELLES_ACCES[statut]}</strong><br>'
+                    f"<small>{explication} Certains boutons peuvent manquer : « Texte intégral gratuit » n'apparaît que "
+                    "si une version gratuite est déclarée, le bouton pour écrire à l'auteur que si PubMed donne son e-mail.</small></p>")
     gratuit = texte_gratuit(d, oa)
     if gratuit:
         morceaux.append(f'<a class="bouton-acces" href="{e(gratuit[0])}" target="_blank" rel="noopener">Texte intégral gratuit</a>'
                         f' <small>{e(gratuit[1])}</small>')
-    else:
-        morceaux.append("<p><small>Aucune version gratuite déclarée par PubMed Central ni par OpenAlex.</small></p>")
     emails = emails_auteurs(d.get("affiliations_auteurs"))
     if emails:
         morceaux.append(f'<a class="bouton-acces secondaire" href="{e(mail_auteur(d, emails[0]))}">Demander à l\'auteur</a>'
@@ -175,6 +199,9 @@ STYLE = """
 border-radius:8px;padding:8px 14px;text-decoration:none;cursor:pointer;font:inherit;font-weight:600}
 .bouton-acces.secondaire{background:var(--carte);color:var(--accent);border:1.5px solid var(--accent)}
 .ref-peb{min-height:140px;margin-top:8px}
+.statut-acces{padding:8px 12px;border-radius:8px;border-left:4px solid var(--doux)}
+.statut-acces--libre{border-left-color:#2e9d5b;background:rgba(46,157,91,.10)}
+.statut-acces--payant{border-left-color:#c2553f;background:rgba(194,85,63,.10)}
 .lien-secours{background:none;border:0;padding:0;color:var(--accent);text-decoration:underline;font-weight:400;font-size:.88rem;cursor:pointer}
 @media (prefers-color-scheme:dark){.bouton-acces{color:#10141a}.bouton-acces.secondaire{color:var(--accent)}}
 """

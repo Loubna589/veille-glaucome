@@ -28,7 +28,7 @@ def test_texte_gratuit_pmc_puis_openalex_sinon_rien():
     assert at.texte_gratuit({**D, "pmcid": "PMC123"}, {})[0] == "https://pmc.ncbi.nlm.nih.gov/articles/PMC123/"
     assert at.texte_gratuit(D, {"acces_ouvert": True, "url_pdf": "https://x/p.pdf"})[0] == "https://x/p.pdf"
     assert at.texte_gratuit(D, {"acces_ouvert": False, "statut_acces": "closed", "url_texte": "https://x"}) is None
-    assert "Aucune version gratuite" in at.bloc_html(D, {}, peb="")
+    assert "Accès inconnu" in at.bloc_html(D, {}, peb="") and "Texte intégral gratuit</a>" not in at.bloc_html(D, {}, peb="")
 
 
 def test_bouton_bu_copie_la_reference_et_n_envoie_rien():
@@ -51,3 +51,11 @@ def test_lien_openurl_pour_la_bu():
 def test_lien_researchgate_par_titre():
     assert at.lien_researchgate(D) == "https://www.researchgate.net/search/publication?q=Netarsudil%20study"
     assert "Chercher sur ResearchGate" in at.bloc_html(D, {}, peb="", openurl="")
+
+
+def test_statut_acces():
+    assert at.statut_acces({"pmcid": "PMC1"}, {}) == "libre"
+    assert at.statut_acces({}, {"statut_acces": "closed", "acces_ouvert": False}) == "payant"
+    assert at.statut_acces({}, {}) == "inconnu"
+    assert "Article payant" in at.bloc_html(D, {"statut_acces": "closed"}, peb="", openurl="")
+    assert "Accès inconnu" in at.bloc_html(D, {}, peb="", openurl="")

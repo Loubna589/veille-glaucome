@@ -23,7 +23,7 @@ from pathlib import Path
 # script : on lui indique explicitement le dossier du projet.
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
-from veille import base, etiquettes, export, fiches, laboratoires_marche, resumer_ia, rubriques  # noqa: E402
+from veille import acces_texte, base, etiquettes, export, fiches, laboratoires_marche, resumer_ia, rubriques  # noqa: E402
 from veille.sources import clinicaltrials as ct  # noqa: E402
 
 RACINE = Path(__file__).resolve().parent
@@ -267,6 +267,7 @@ def etude_article(m, regles_rub, regles_et, labos):
         "raison_rubrique": "; ".join(rub[0]["raisons"][:2]),
         "produits": produits, "labos": noms_labos, "resume": d.get("resume"),
         "revue": d.get("revue"), "base": "résumé seulement" if d.get("resume_present") else "métadonnées seulement",
+        "acces": acces_texte.statut_acces(d, a.get("openalex") or {}),
     }
 
 
@@ -288,6 +289,7 @@ def etude_openalex(m, regles_rub, regles_et, labos):
         "rubriques": [r["nom"] for r in rub], "rubrique": rub[0]["nom"], "raison_rubrique": "; ".join(rub[0]["raisons"][:2]),
         "produits": [{"nom": p["produit"], "role": "suggéré, à vérifier"} for p in et.get("produits_suivis") or []],
         "labos": noms_labos, "resume": d.get("resume"), "revue": d.get("revue"),
+        "acces": acces_texte.statut_acces(d, d),
     }
 
 

@@ -320,3 +320,7 @@ table.marche th .drapeau { vertical-align: -3px; }
 }
 @media (max-width: 480px) { #tuiles { grid-template-columns: repeat(2, 1fr); } .tuile b { font-size: 1.5rem; } }
 @media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
+
+.badge.acces-libre { background: rgba(46,157,91,.15); color: #1f7a45; }
+.badge.acces-payant { background: rgba(194,85,63,.13); color: #a2412e; }
+@media (prefers-color-scheme: dark) { .badge.acces-libre { color: #7fd6a0; } .badge.acces-payant { color: #f0a090; } }

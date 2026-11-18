@@ -154,6 +154,8 @@
     return "";
   };
 
+  V.LIBELLES_ACCES = { libre: "✅ Accès libre", payant: "🔒 Payant", inconnu: "❔ Accès inconnu" };
+
   /* Carte d'une étude, utilisée par l'accueil et la page Études */
   V.carte = function (e) {
     var titre = e.fiche
@@ -164,7 +166,8 @@
       '<span class="badge">' + V.esc(e.source) + "</span>" +
       '<span class="badge ' + V.classeNiveau(e.niveau) + '">' + V.esc(e.niveau) + "</span>" +
       (e.phase ? '<span class="badge reg">' + V.esc(e.phase) + "</span>" : "") +
-      (e.statut ? '<span class="badge">' + V.esc(e.statut) + "</span>" : "");
+      (e.statut ? '<span class="badge">' + V.esc(e.statut) + "</span>" : "") +
+      (e.acces ? '<span class="badge acces-' + V.esc(e.acces) + '">' + V.esc(V.LIBELLES_ACCES[e.acces] || e.acces) + "</span>" : "");
     var labos = (e.labos || []).map(function (l) {
       return '<a href="laboratoires.html?labo=' + encodeURIComponent(l.nom) + '">' + V.esc(l.nom) + "</a> <small>(" + V.esc(l.role) + ")</small>";
     }).join(" · ");
