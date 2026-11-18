@@ -47,6 +47,7 @@ details{margin:.5em 0}summary{cursor:pointer;color:var(--accent)}
 border-radius:8px;padding:8px 14px;text-decoration:none;cursor:pointer;font:inherit;font-weight:600}
 .bouton-acces.secondaire{background:var(--carte);color:var(--accent);border:1.5px solid var(--accent)}
 .ref-peb{min-height:140px;margin-top:8px}
+.lien-secours{background:none;border:0;padding:0;color:var(--accent);text-decoration:underline;font-weight:400;font-size:.88rem;cursor:pointer}
 @media (prefers-color-scheme:dark){.bouton-acces{color:#10141a}.bouton-acces.secondaire{color:var(--accent)}}
 
 @media (max-width:600px){.grille{grid-template-columns:1fr}.grille dt{margin-top:6px}header,section{padding:14px}}
@@ -136,7 +137,7 @@ DESCRIPTION (registre, texte source) :
 The majority of young children do not think that visual field (VF) testing of peripheral vision is similar to a game; therefore, it is not surprising that they have difficulty maintaining attention during VF testing and thus the test reliability suffers as a consequence. Poor VF reliability has been a longstanding, major issue since it leads to an increased number of tests and/or longer duration of time needed to determine when there are true vision losses. Providers are less likely to obtain VF tests in children since the results are of doubtful value and challenging to interpret when they are inconsistent. Effectively this means that children with untreated, slowly progressive eye diseases may go undiagnosed and incur greater visual losses. The investigators aim to create a prototype device that the investigators hypothesize will make VF testing more engaging for young children, thus increasing their attention and consistency of their responses to the test stimuli, which in turn should improve VF reliability. The components include a microdisplay video screen (1.5&quot; diameter) as the fixation target (instead of the standard LED light) displaying video clips of popular cartoon characters, and audio clips of impersonated cartoon character voices presented by the test operator to provide instructional feedback based on the child&#x27;s performance during testing. Improved VF reliability from the investigators intervention would translate to improved diagnosis and care for young childrens&#x27; peripheral vision loss through widespread implementation of the investigators innovative, affordable and readily adoptable system at eye care providers&#x27; offices.
 
 RÉSULTATS : aucun résultat déposé au registre.</textarea></details></section>
-<p><small>Fiche générée le 2026-11-18 11:05 par Glaucoma Intelligence. Extraits des sources en langue originale.</small></p>
+<p><small>Fiche générée le 2026-11-18 11:13 par Glaucoma Intelligence. Extraits des sources en langue originale.</small></p>
 </main><script>
 function copierFiche(){
   var zone=document.getElementById('a-copier'), bouton=document.getElementById('bouton-copier');
@@ -147,7 +148,7 @@ function copierFiche(){
 }
 
 function demanderBU(b){
-  var ref=b.parentElement.querySelector('.ref-peb').value, url=b.getAttribute('data-url'), libelle=b.textContent;
+  var ref=(b.parentElement.querySelector('.ref-peb')||b.parentElement.parentElement.querySelector('.ref-peb')).value, url=b.getAttribute('data-url'), libelle=b.textContent;
   function fini(ok){b.textContent=ok?'Référence copiée ✓':'Copiez la référence ci-dessous';
     if(!ok){var t=b.parentElement.querySelector('.ref-peb');t.hidden=false;t.select();}
     if(url){window.open(url,'_blank','noopener');}else{b.textContent+=' — ouvrez l’onglet « Demande PEB » du catalogue de la BU';}

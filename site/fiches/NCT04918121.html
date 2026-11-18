@@ -47,6 +47,7 @@ details{margin:.5em 0}summary{cursor:pointer;color:var(--accent)}
 border-radius:8px;padding:8px 14px;text-decoration:none;cursor:pointer;font:inherit;font-weight:600}
 .bouton-acces.secondaire{background:var(--carte);color:var(--accent);border:1.5px solid var(--accent)}
 .ref-peb{min-height:140px;margin-top:8px}
+.lien-secours{background:none;border:0;padding:0;color:var(--accent);text-decoration:underline;font-weight:400;font-size:.88rem;cursor:pointer}
 @media (prefers-color-scheme:dark){.bouton-acces{color:#10141a}.bouton-acces.secondaire{color:var(--accent)}}
 
 @media (max-width:600px){.grille{grid-template-columns:1fr}.grille dt{margin-top:6px}header,section{padding:14px}}
@@ -149,7 +150,7 @@ DESCRIPTION (registre, texte source) :
 This is a pilot study, which will include approximately five eyes of 5 patients. This study proposes that a sustained release steroid insert (Yutiq)1 be implanted along with a glaucoma drainage device (Ahmed Glaucoma Valve (AGV) Model FP7) when the patient is undergoing glaucoma tube implant surgery or combined glaucoma tube implant and cataract surgery. The primary aim of this study is to assess the safety and efficacy (controlling intraocular pressure) of the Yutiq inserts to reduce post-operative scarring in surgical glaucoma patients. It is expected that post-operative week 12 onwards there will be a clinically and statistically significant lower IOP in the study eyes than eyes in a group undergoing the same surgery without the Yutiq insert. The estimated duration of the present study is 3 years.
 
 RÉSULTATS : aucun résultat déposé au registre.</textarea></details></section>
-<p><small>Fiche générée le 2026-11-18 11:05 par Glaucoma Intelligence. Extraits des sources en langue originale.</small></p>
+<p><small>Fiche générée le 2026-11-18 11:13 par Glaucoma Intelligence. Extraits des sources en langue originale.</small></p>
 </main><script>
 function copierFiche(){
   var zone=document.getElementById('a-copier'), bouton=document.getElementById('bouton-copier');
@@ -160,7 +161,7 @@ function copierFiche(){
 }
 
 function demanderBU(b){
-  var ref=b.parentElement.querySelector('.ref-peb').value, url=b.getAttribute('data-url'), libelle=b.textContent;
+  var ref=(b.parentElement.querySelector('.ref-peb')||b.parentElement.parentElement.querySelector('.ref-peb')).value, url=b.getAttribute('data-url'), libelle=b.textContent;
   function fini(ok){b.textContent=ok?'Référence copiée ✓':'Copiez la référence ci-dessous';
     if(!ok){var t=b.parentElement.querySelector('.ref-peb');t.hidden=false;t.select();}
     if(url){window.open(url,'_blank','noopener');}else{b.textContent+=' — ouvrez l’onglet « Demande PEB » du catalogue de la BU';}

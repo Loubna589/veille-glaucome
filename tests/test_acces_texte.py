@@ -35,3 +35,14 @@ def test_bouton_bu_copie_la_reference_et_n_envoie_rien():
     html = at.bloc_html(D, {}, peb="https://bu.exemple/peb")
     assert 'data-url="https://bu.exemple/peb"' in html and "Type de référence : Article" in html
     assert "<form" not in html
+
+
+def test_lien_openurl_pour_la_bu():
+    from urllib.parse import parse_qsl, urlsplit
+    url = at.lien_openurl(D, "https://bu.exemple/discovery/openurl?institution=X&vid=X:Y")
+    q = parse_qsl(urlsplit(url).query)
+    assert ("rft.atitle", "Netarsudil study") in q and ("rft.jtitle", "Adv Ther") in q and ("rft.date", "2026") in q
+    assert ("rft_id", "info:doi/10.1007/x") in q and ("rft_id", "info:pmid/41915113") in q and ("vid", "X:Y") in q
+    assert at.lien_openurl(D, "") == ""
+    html = at.bloc_html(D, {}, peb="https://bu.exemple/peb", openurl="https://bu.exemple/openurl?vid=V")
+    assert "https://bu.exemple/openurl?vid=V&amp;ctx_ver" in html and "formulaire PEB vierge" in html

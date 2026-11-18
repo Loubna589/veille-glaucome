@@ -47,6 +47,7 @@ details{margin:.5em 0}summary{cursor:pointer;color:var(--accent)}
 border-radius:8px;padding:8px 14px;text-decoration:none;cursor:pointer;font:inherit;font-weight:600}
 .bouton-acces.secondaire{background:var(--carte);color:var(--accent);border:1.5px solid var(--accent)}
 .ref-peb{min-height:140px;margin-top:8px}
+.lien-secours{background:none;border:0;padding:0;color:var(--accent);text-decoration:underline;font-weight:400;font-size:.88rem;cursor:pointer}
 @media (prefers-color-scheme:dark){.bouton-acces{color:#10141a}.bouton-acces.secondaire{color:var(--accent)}}
 
 @media (max-width:600px){.grille{grid-template-columns:1fr}.grille dt{margin-top:6px}header,section{padding:14px}}
@@ -71,7 +72,7 @@ border-radius:8px;padding:8px 14px;text-decoration:none;cursor:pointer;font:inhe
       </dl>
       <p class="rubriques"><strong>Rubrique :</strong> <span class="rubrique">Autres sujets (clinique, épidémiologie…)</span> <small>aucune règle de rubrique ne s'applique</small> <span class="badge regle">classement automatique — règles dans config/rubriques.ini</span></p>
     </header>
-<section><h2>Résumé et classification (IA) <span class="badge verifier">Généré par IA, non vérifié</span></h2><ul><li>Détailler les neuropathies optiques et évaluer la stimulation électrique comme stratégie de traitement.</li><li>Révision de la littérature sur les neuropathies optiques, leurs traitements et la stimulation électrique.</li><li>Résultat non précisé dans le résumé</li></ul><p><strong>Catégorie : Autre</strong> — Il s'agit d'une revue de la littérature sur les neuropathies optiques et les stratégies de traitement.</p><p><small>Modèle gemini-flash-lite-latest · prompt resume_classification_v1 · le 2026-11-15 · statut : non_verifie · à partir du titre et du résumé de la source uniquement.</small></p></section><section class="acces"><h2>Lire l'article en entier</h2><p><a class="bouton-acces" href="https://iopscience.iop.org/article/10.1088/2516-1091/aec075/pdf" target="_blank" rel="noopener">Texte intégral gratuit</a> <small>version en accès libre (OpenAlex)</small></p><p><button type="button" class="bouton-acces secondaire" onclick="demanderBU(this)">Demander à la BU</button><small> copie la référence de l'article, puis ouvre le formulaire de prêt entre bibliothèques : connectez-vous, choisissez « Article », collez et envoyez.</small><textarea class="ref-peb" hidden readonly>Type de référence : Article
+<section><h2>Résumé et classification (IA) <span class="badge verifier">Généré par IA, non vérifié</span></h2><ul><li>Détailler les neuropathies optiques et évaluer la stimulation électrique comme stratégie de traitement.</li><li>Révision de la littérature sur les neuropathies optiques, leurs traitements et la stimulation électrique.</li><li>Résultat non précisé dans le résumé</li></ul><p><strong>Catégorie : Autre</strong> — Il s'agit d'une revue de la littérature sur les neuropathies optiques et les stratégies de traitement.</p><p><small>Modèle gemini-flash-lite-latest · prompt resume_classification_v1 · le 2026-11-15 · statut : non_verifie · à partir du titre et du résumé de la source uniquement.</small></p></section><section class="acces"><h2>Lire l'article en entier</h2><p><a class="bouton-acces" href="https://iopscience.iop.org/article/10.1088/2516-1091/aec075/pdf" target="_blank" rel="noopener">Texte intégral gratuit</a> <small>version en accès libre (OpenAlex)</small></p><p><a class="bouton-acces secondaire" href="https://catalogue-bu.uca.fr/discovery/openurl?institution=33CLERMONT_BCIU&amp;vid=33CLERMONT_BCIU:33CLERMONT_VU1&amp;lang=fr&amp;ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.atitle=Electrical+stimulation+targeting+optic+nerve+regeneration+following+acute+and+chronic+neuropathies.&amp;rft.jtitle=Progress+in+biomedical+engineering+%28Bristol%2C+England%29&amp;rft.date=2026&amp;rft.doi=10.1088%2F2516-1091%2Faec075&amp;rft_id=info%3Adoi%2F10.1088%2F2516-1091%2Faec075&amp;rft.pmid=43008394&amp;rft_id=info%3Apmid%2F43008394" target="_blank" rel="noopener">Demander à la BU</a><small> ouvre le catalogue de la BU avec la référence de cet article : connectez-vous avec l'ENT, choisissez la demande de prêt entre bibliothèques (PEB), relisez et envoyez vous-même.</small></p><p><button type="button" class="lien-secours" onclick="demanderBU(this)" data-url="https://catalogue-bu.uca.fr/discovery/blankIll?vid=33CLERMONT_BCIU:33CLERMONT_VU1&amp;lang=fr">Si la référence n'apparaît pas : copier la référence et ouvrir le formulaire PEB vierge</button><textarea class="ref-peb" hidden readonly>Type de référence : Article
 Titre de l&#x27;article : Electrical stimulation targeting optic nerve regeneration following acute and chronic neuropathies.
 Revue : Progress in biomedical engineering (Bristol, England)
 Année : 2026
@@ -120,7 +121,7 @@ Affiliations (institutions, pas des financeurs) : Western Sydney University (AU,
 
 RÉSUMÉ (texte source) :
 Optic neuropathies such as glaucoma or optic neuritis are conditions whereby the optic nerve is damaged by mechanisms including ischemia, compression, inflammation or immune-mediated processes, leading to progressive degeneration of retinal ganglion cells and subsequent loss of vision. Strategies including medication and surgery help to slow down these diseases but fail to repair the neurons of the optic nerve themselves. In this review, we first detail the range of optic nerve neuropathies and their current front line treatment options, briefly outline various experimental treatment strategies and their limitations, before focusing on electrical stimulation as a treatment strategy, covering the current state of the art and potential routes for further development.</textarea></details></section>
-<p><small>Fiche générée le 2026-11-18 11:05 par Glaucoma Intelligence. Extraits des sources en langue originale.</small></p>
+<p><small>Fiche générée le 2026-11-18 11:13 par Glaucoma Intelligence. Extraits des sources en langue originale.</small></p>
 </main><script>
 function copierFiche(){
   var zone=document.getElementById('a-copier'), bouton=document.getElementById('bouton-copier');
@@ -131,7 +132,7 @@ function copierFiche(){
 }
 
 function demanderBU(b){
-  var ref=b.parentElement.querySelector('.ref-peb').value, url=b.getAttribute('data-url'), libelle=b.textContent;
+  var ref=(b.parentElement.querySelector('.ref-peb')||b.parentElement.parentElement.querySelector('.ref-peb')).value, url=b.getAttribute('data-url'), libelle=b.textContent;
   function fini(ok){b.textContent=ok?'Référence copiée ✓':'Copiez la référence ci-dessous';
     if(!ok){var t=b.parentElement.querySelector('.ref-peb');t.hidden=false;t.select();}
     if(url){window.open(url,'_blank','noopener');}else{b.textContent+=' — ouvrez l’onglet « Demande PEB » du catalogue de la BU';}

@@ -47,6 +47,7 @@ details{margin:.5em 0}summary{cursor:pointer;color:var(--accent)}
 border-radius:8px;padding:8px 14px;text-decoration:none;cursor:pointer;font:inherit;font-weight:600}
 .bouton-acces.secondaire{background:var(--carte);color:var(--accent);border:1.5px solid var(--accent)}
 .ref-peb{min-height:140px;margin-top:8px}
+.lien-secours{background:none;border:0;padding:0;color:var(--accent);text-decoration:underline;font-weight:400;font-size:.88rem;cursor:pointer}
 @media (prefers-color-scheme:dark){.bouton-acces{color:#10141a}.bouton-acces.secondaire{color:var(--accent)}}
 
 @media (max-width:600px){.grille{grid-template-columns:1fr}.grille dt{margin-top:6px}header,section{padding:14px}}
@@ -71,7 +72,7 @@ border-radius:8px;padding:8px 14px;text-decoration:none;cursor:pointer;font:inhe
       </dl>
       <p class="rubriques"><strong>Rubrique :</strong> <span class="rubrique">Autres sujets (clinique, épidémiologie…)</span> <small>aucune règle de rubrique ne s'applique</small> <span class="badge regle">classement automatique — règles dans config/rubriques.ini</span></p>
     </header>
-<section><h2>Résumé et classification (IA) <span class="badge verifier">Généré par IA, non vérifié</span></h2><ul><li>Rapporter des cas de complications rares après une cycloplastie par ultrasons.</li><li>Présentation du cas d'une patiente ayant subi une UCP pour un glaucome aigu par fermeture de l'angle.</li><li>L'étude conclut que l'UCP peut entraîner une ischémie du segment antérieur et une kératopathie neurotrophique.</li></ul><p><strong>Catégorie : Chirurgie / laser</strong> — Ultrasound cycloplasty (UCP) is a minimally invasive, non-incisional glaucoma procedure</p><p><small>Modèle gemini-flash-lite-latest · prompt resume_classification_v1 · le 2026-11-18 · statut : non_verifie · à partir du titre et du résumé de la source uniquement.</small></p></section><section class="acces"><h2>Lire l'article en entier</h2><p><a class="bouton-acces" href="https://doi.org/10.1097/ijg.0000000000002779" target="_blank" rel="noopener">Texte intégral gratuit</a> <small>version en accès libre (OpenAlex)</small></p><p><button type="button" class="bouton-acces secondaire" onclick="demanderBU(this)">Demander à la BU</button><small> copie la référence de l'article, puis ouvre le formulaire de prêt entre bibliothèques : connectez-vous, choisissez « Article », collez et envoyez.</small><textarea class="ref-peb" hidden readonly>Type de référence : Article
+<section><h2>Résumé et classification (IA) <span class="badge verifier">Généré par IA, non vérifié</span></h2><ul><li>Rapporter des cas de complications rares après une cycloplastie par ultrasons.</li><li>Présentation du cas d'une patiente ayant subi une UCP pour un glaucome aigu par fermeture de l'angle.</li><li>L'étude conclut que l'UCP peut entraîner une ischémie du segment antérieur et une kératopathie neurotrophique.</li></ul><p><strong>Catégorie : Chirurgie / laser</strong> — Ultrasound cycloplasty (UCP) is a minimally invasive, non-incisional glaucoma procedure</p><p><small>Modèle gemini-flash-lite-latest · prompt resume_classification_v1 · le 2026-11-18 · statut : non_verifie · à partir du titre et du résumé de la source uniquement.</small></p></section><section class="acces"><h2>Lire l'article en entier</h2><p><a class="bouton-acces" href="https://doi.org/10.1097/ijg.0000000000002779" target="_blank" rel="noopener">Texte intégral gratuit</a> <small>version en accès libre (OpenAlex)</small></p><p><a class="bouton-acces secondaire" href="https://catalogue-bu.uca.fr/discovery/openurl?institution=33CLERMONT_BCIU&amp;vid=33CLERMONT_BCIU:33CLERMONT_VU1&amp;lang=fr&amp;ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.atitle=Anterior+Segment+Ischemia+and+Neurotrophic+Keratopathy+Following+Ultrasound+Cycloplasty+in+Acute+Angle-Closure+Glaucoma.&amp;rft.jtitle=Journal+of+glaucoma&amp;rft.date=2026&amp;rft.doi=10.1097%2FIJG.0000000000002779&amp;rft_id=info%3Adoi%2F10.1097%2FIJG.0000000000002779&amp;rft.pmid=42886583&amp;rft_id=info%3Apmid%2F42886583" target="_blank" rel="noopener">Demander à la BU</a><small> ouvre le catalogue de la BU avec la référence de cet article : connectez-vous avec l'ENT, choisissez la demande de prêt entre bibliothèques (PEB), relisez et envoyez vous-même.</small></p><p><button type="button" class="lien-secours" onclick="demanderBU(this)" data-url="https://catalogue-bu.uca.fr/discovery/blankIll?vid=33CLERMONT_BCIU:33CLERMONT_VU1&amp;lang=fr">Si la référence n'apparaît pas : copier la référence et ouvrir le formulaire PEB vierge</button><textarea class="ref-peb" hidden readonly>Type de référence : Article
 Titre de l&#x27;article : Anterior Segment Ischemia and Neurotrophic Keratopathy Following Ultrasound Cycloplasty in Acute Angle-Closure Glaucoma.
 Revue : Journal of glaucoma
 Année : 2026
@@ -120,7 +121,7 @@ Affiliations (institutions, pas des financeurs) : Shandong Provincial Hospital (
 
 RÉSUMÉ (texte source) :
 Ultrasound cycloplasty (UCP) is a minimally invasive, non-incisional glaucoma procedure that has emerged in recent years and is generally associated with few complications. We report a case of a patient with acute angle-closure glaucoma underwent UCP for IOP control. She developed iris neovascularization and neurotrophic keratopathy（NK）at postoperative week 6, followed by hypopyon, flattening of the anterior chamber, and thinning of the peripheral cornea at postoperative week 11, 12, and 14, respectively. We concluded that UCP can lead to anterior segment ischemia (ASI) and NK, which manifest as iris neovascularization, painless corneal epithelial defects, peripheral corneal thinning, hypopyon, and flattening of the anterior chamber. Preoperative screening for high-risk factors is essential before performing UCP.</textarea></details></section>
-<p><small>Fiche générée le 2026-11-18 11:05 par Glaucoma Intelligence. Extraits des sources en langue originale.</small></p>
+<p><small>Fiche générée le 2026-11-18 11:13 par Glaucoma Intelligence. Extraits des sources en langue originale.</small></p>
 </main><script>
 function copierFiche(){
   var zone=document.getElementById('a-copier'), bouton=document.getElementById('bouton-copier');
@@ -131,7 +132,7 @@ function copierFiche(){
 }
 
 function demanderBU(b){
-  var ref=b.parentElement.querySelector('.ref-peb').value, url=b.getAttribute('data-url'), libelle=b.textContent;
+  var ref=(b.parentElement.querySelector('.ref-peb')||b.parentElement.parentElement.querySelector('.ref-peb')).value, url=b.getAttribute('data-url'), libelle=b.textContent;
   function fini(ok){b.textContent=ok?'Référence copiée ✓':'Copiez la référence ci-dessous';
     if(!ok){var t=b.parentElement.querySelector('.ref-peb');t.hidden=false;t.select();}
     if(url){window.open(url,'_blank','noopener');}else{b.textContent+=' — ouvrez l’onglet « Demande PEB » du catalogue de la BU';}

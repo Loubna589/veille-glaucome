@@ -7,15 +7,16 @@
 2. DEMANDER À L'AUTEUR : un e-mail pré-rédigé (lien mailto) vers l'adresse ÉCRITE dans les affiliations PubMed.
    Pas d'adresse trouvée = pas de bouton ; jamais d'adresse inventée. Rien n'est envoyé par l'outil :
    la messagerie s'ouvre, la personne relit et envoie elle-même.
-3. DEMANDER À LA BU : la référence formatée est copiée, puis le formulaire de prêt entre bibliothèques (PEB) de la
-   BU s'ouvre (adresse dans config/site.ini, rubrique [bu]). La personne se connecte, colle et envoie elle-même :
-   l'outil ne gère aucun identifiant et n'envoie rien.
+3. DEMANDER À LA BU : lien OpenURL vers le catalogue de la BU (Primo VE, config/site.ini [bu]). Le catalogue reçoit
+   la référence (titre, revue, année, DOI, PMID), demande la connexion ENT, puis propose la demande de prêt entre
+   bibliothèques (PEB) déjà remplie. En secours : copie de la référence + formulaire PEB vierge.
+   La personne se connecte, relit et envoie elle-même : l'outil ne gère aucun identifiant et n'envoie rien.
 """
 import configparser
 import html
 import re
 from pathlib import Path
-from urllib.parse import quote
+from urllib.parse import quote, urlencode
 
 CONFIG = Path(__file__).resolve().parents[1] / "config" / "site.ini"
 MOTIF_EMAIL = re.compile(r"[A-Za-z0-9._%+-]+@[A-Za-z0-9-]+(?:\.[A-Za-z0-9-]+)*\.[A-Za-z]{2,}")
@@ -26,6 +27,27 @@ def url_peb(chemin=CONFIG):
     config = configparser.ConfigParser(interpolation=None)
     config.read(chemin, encoding="utf-8")
     return (config.get("bu", "url_peb", fallback="") or "").strip()
+
+
+def base_openurl(chemin=CONFIG):
+    config = configparser.ConfigParser(interpolation=None)
+    config.read(chemin, encoding="utf-8")
+    return (config.get("bu", "url_openurl", fallback="") or "").strip()
+
+
+def lien_openurl(d, base):
+    """Lien OpenURL 1.0 (KEV) vers le catalogue : les champs sont repris tels que PubMed les déclare."""
+    if not base:
+        return ""
+    params = [("ctx_ver", "Z39.88-2004"), ("rft_val_fmt", "info:ofi/fmt:kev:mtx:journal"), ("rft.genre", "article"),
+              ("rft.atitle", d.get("titre") or ""), ("rft.jtitle", d.get("revue") or "")]
+    if annee(d):
+        params.append(("rft.date", annee(d)))
+    if d.get("doi"):
+        params += [("rft.doi", d["doi"]), ("rft_id", f"info:doi/{d['doi']}")]
+    if d.get("pmid"):
+        params += [("rft.pmid", d["pmid"]), ("rft_id", f"info:pmid/{d['pmid']}")]
+    return base + ("&" if "?" in base else "?") + urlencode([(k, v) for k, v in params if v])
 
 
 def emails_auteurs(affiliations):
@@ -89,10 +111,11 @@ def reference_peb(d):
     return "\n".join(l for l in lignes if l)
 
 
-def bloc_html(d, oa, peb=None):
+def bloc_html(d, oa, peb=None, openurl=None):
     """Section « Lire l'article en entier » d'une fiche article."""
     e = html.escape
     peb = url_peb() if peb is None else peb
+    openurl = base_openurl() if openurl is None else openurl
     morceaux = []
     gratuit = texte_gratuit(d, oa)
     if gratuit:
@@ -107,17 +130,26 @@ def bloc_html(d, oa, peb=None):
                         "votre messagerie s'ouvre, vous relisez et envoyez vous-même.</small>")
     ref = reference_peb(d)
     cible = f' data-url="{e(peb)}"' if peb else ""
-    morceaux.append(f'<button type="button" class="bouton-acces secondaire" onclick="demanderBU(this)"{cible}>Demander à la BU</button>'
-                    "<small> copie la référence de l'article, puis ouvre le formulaire de prêt entre bibliothèques : "
-                    "connectez-vous, choisissez « Article », collez et envoyez.</small>"
-                    f'<textarea class="ref-peb" hidden readonly>{e(ref)}</textarea>')
+    lien_bu = lien_openurl(d, openurl)
+    if lien_bu:
+        morceaux.append(f'<a class="bouton-acces secondaire" href="{e(lien_bu)}" target="_blank" rel="noopener">Demander à la BU</a>'
+                        "<small> ouvre le catalogue de la BU avec la référence de cet article : connectez-vous avec l'ENT, "
+                        "choisissez la demande de prêt entre bibliothèques (PEB), relisez et envoyez vous-même.</small>")
+        morceaux.append(f'<button type="button" class="lien-secours" onclick="demanderBU(this)"{cible}>Si la référence n\'apparaît pas : '
+                        "copier la référence et ouvrir le formulaire PEB vierge</button>"
+                        f'<textarea class="ref-peb" hidden readonly>{e(ref)}</textarea>')
+    else:
+        morceaux.append(f'<button type="button" class="bouton-acces secondaire" onclick="demanderBU(this)"{cible}>Demander à la BU</button>'
+                        "<small> copie la référence de l'article, puis ouvre le formulaire de prêt entre bibliothèques : "
+                        "connectez-vous, choisissez « Article », collez et envoyez.</small>"
+                        f'<textarea class="ref-peb" hidden readonly>{e(ref)}</textarea>')
     return ('<section class="acces"><h2>Lire l\'article en entier</h2>'
             + "".join(f"<p>{m}</p>" if not m.startswith("<p>") else m for m in morceaux) + "</section>")
 
 
 SCRIPT = """
 function demanderBU(b){
-  var ref=b.parentElement.querySelector('.ref-peb').value, url=b.getAttribute('data-url'), libelle=b.textContent;
+  var ref=(b.parentElement.querySelector('.ref-peb')||b.parentElement.parentElement.querySelector('.ref-peb')).value, url=b.getAttribute('data-url'), libelle=b.textContent;
   function fini(ok){b.textContent=ok?'Référence copiée ✓':'Copiez la référence ci-dessous';
     if(!ok){var t=b.parentElement.querySelector('.ref-peb');t.hidden=false;t.select();}
     if(url){window.open(url,'_blank','noopener');}else{b.textContent+=' — ouvrez l’onglet « Demande PEB » du catalogue de la BU';}
@@ -132,5 +164,6 @@ STYLE = """
 border-radius:8px;padding:8px 14px;text-decoration:none;cursor:pointer;font:inherit;font-weight:600}
 .bouton-acces.secondaire{background:var(--carte);color:var(--accent);border:1.5px solid var(--accent)}
 .ref-peb{min-height:140px;margin-top:8px}
+.lien-secours{background:none;border:0;padding:0;color:var(--accent);text-decoration:underline;font-weight:400;font-size:.88rem;cursor:pointer}
 @media (prefers-color-scheme:dark){.bouton-acces{color:#10141a}.bouton-acces.secondaire{color:var(--accent)}}
 """
