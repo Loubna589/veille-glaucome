@@ -39,7 +39,7 @@
     <section class="graphiques" aria-label="Graphiques">
       <article class="graphe graphe--large">
         <h2>Publications par mois</h2>
-        <p class="sous-titre">PubMed et publications hors PubMed (OpenAlex), selon la date de la source — 12 derniers mois</p>
+        <p class="sous-titre">Publications PubMed et OpenAlex — 12 derniers mois</p>
         <div class="graphe__zone"><canvas id="g-mois" role="img" aria-label="Nombre de publications par mois"></canvas></div>
       </article>
       <article class="graphe">
@@ -160,7 +160,7 @@
           "</tbody></table>";
       }
       if (!window.Chart) {
-        tableauDeSecours("g-mois", ["Mois", "PubMed", "Hors PubMed"], mois.map(function (c, k) { return [libMois[k], parMois[c].pubmed, parMois[c].autres]; }));
+        tableauDeSecours("g-mois", ["Mois", "PubMed", "OpenAlex"], mois.map(function (c, k) { return [libMois[k], parMois[c].pubmed, parMois[c].autres]; }));
         tableauDeSecours("g-phase", ["Phase", "Essais"], ordrePhases.map(function (p) { return [p, phases[p]]; }));
         tableauDeSecours("g-labos", ["Laboratoire", "Essais promus", "Publications"], labos.map(function (l) { return [l.nom, l.promoteur, l.publications]; }));
       } else {
@@ -181,7 +181,7 @@
           type: "bar",
           data: { labels: libMois, datasets: [
             { label: "PubMed", data: mois.map(function (k) { return parMois[k].pubmed; }), backgroundColor: c("--g1"), borderRadius: 6 },
-            { label: "Hors PubMed (OpenAlex)", data: mois.map(function (k) { return parMois[k].autres; }), backgroundColor: c("--g2"), borderRadius: 6 },
+            { label: "OpenAlex", data: mois.map(function (k) { return parMois[k].autres; }), backgroundColor: c("--g2"), borderRadius: 6 },
           ] },
           options: { scales: { x: { stacked: true, grid: { display: false } }, y: { stacked: true, beginAtZero: true, ticks: { precision: 0 } } },
             plugins: { legend: { position: "bottom" } } },

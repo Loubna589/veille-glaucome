@@ -320,10 +320,10 @@ def etude_openalex(m, regles_rub, regles_et, labos):
                     "role": "affiliation d'auteurs", "industriel": True}
                    for i in d.get("institutions") or [] if i.get("type") == "company"]
     return {
-        "id": d["openalex_id"], "type": "publication", "source": "OpenAlex (absent de PubMed)",
+        "id": d["openalex_id"], "type": "publication", "source": "OpenAlex",
         "titre": d["titre"], "lien_source": f"https://doi.org/{d['doi']}" if d.get("doi") else d["lien"], "fiche": None,
         "date_source": d.get("date_publication"), "date_detection": m["premiere_detection"], "modifications": [],
-        "niveau": "Preprint (non évalué par des pairs)" if d.get("type") == "preprint" else "Publication hors PubMed",
+        "niveau": "Preprint (non évalué par des pairs)" if d.get("type") == "preprint" else "Publication OpenAlex",
         "phase": f"Stade : {et.get('stade', 'non renseigné')}", "statut": None,
         "rubriques": [r["nom"] for r in rub], "rubrique": rub[0]["nom"], "raison_rubrique": "; ".join(rub[0]["raisons"][:2]),
         "produits": [{"nom": p["produit"], "role": "suggéré, à vérifier"} for p in et.get("produits_suivis") or []],
