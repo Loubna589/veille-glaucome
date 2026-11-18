@@ -69,6 +69,8 @@
       but: "Qui a réalisé ce projet, dans quel cadre, et selon quels principes.",
       exemple: "Suivez le lien « Méthode et limites » pour le détail des sources." },
   ];
+  /* Le fil de la présentation orale : l'ordre des étapes (les autres pages restent dans « Autres pages ») */
+  V.ETAPES = ["accueil", "fonctionnement", "semaine", "etudes", "laboratoires", "marche", "assistant", "methode"];
   V.page = function (id) { return V.PAGES.filter(function (p) { return p.id === id; })[0]; };
 
   /* Chargement des données exportées (site/data/*.json, générées depuis la base SQLite).
@@ -125,16 +127,21 @@
   V.icone = function (nom) { return '<svg viewBox="0 0 24 24" aria-hidden="true">' + (I[nom] || "") + "</svg>"; };
 
   V.monterNavigation = function (actuelle) {
-    var liens = V.PAGES.map(function (p) {
-      return '<a href="' + V.racine + p.href + '"' + (p.id === actuelle ? ' aria-current="page"' : "") + ">" + V.icone(p.icone) +
-        "<span>" + V.esc(p.label) + "</span>" + (p.etiquette ? '<span class="etiquette">' + V.esc(p.etiquette) + "</span>" : "") + "</a>";
-    });
+    function lien(p, numero) {
+      var etiquette = p.etiquette && p.etiquette !== "jury" ? p.etiquette : "";
+      return '<a href="' + V.racine + p.href + '"' + (p.id === actuelle ? ' aria-current="page"' : "") + ">" +
+        (numero ? '<span class="nav__num">' + numero + "</span>" : V.icone(p.icone)) +
+        "<span>" + V.esc(p.label) + "</span>" + (etiquette ? '<span class="etiquette">' + V.esc(etiquette) + "</span>" : "") + "</a>";
+    }
+    var fil = V.ETAPES.map(function (id, i) { return lien(V.page(id), i + 1); });
+    var autres = V.PAGES.filter(function (p) { return V.ETAPES.indexOf(p.id) < 0; }).map(function (p) { return lien(p); });
     var nav = document.getElementById("nav");
     nav.innerHTML = '<a class="lien-evitement" href="#contenu">Aller au contenu</a>' +
       '<nav class="nav" aria-label="Menu principal"><a class="marque" href="' + V.racine + 'index.html">' + V.LOGO +
       "<span><b>Glaucoma Intelligence</b><small>Veille scientifique · glaucome</small></span></a>" +
-      '<div class="nav__liens">' + liens.slice(0, 9).join("") + '</div><div class="nav__groupe">Pour le jury</div>' +
-      '<div class="nav__liens">' + liens.slice(9).join("") + "</div>" +
+      '<div class="nav__groupe nav__groupe--haut">Le projet, étape par étape</div>' +
+      '<div class="nav__liens">' + fil.join("") + '</div><div class="nav__groupe">Autres pages</div>' +
+      '<div class="nav__liens">' + autres.join("") + "</div>" +
       '<div class="nav__pied">Sources officielles citées.<br>Mise à jour chaque jour.</div></nav>';
     var main = document.querySelector("main.page");
     if (main) main.id = "contenu";
@@ -150,6 +157,22 @@
       var s = document.createElement("script");
       s.id = "gi-bulle-script"; s.src = V.racine + "js/bulle.js";
       document.body.appendChild(s);
+    }
+    // Barre « Étape précédente / suivante » en bas des pages du fil (pour présenter en cliquant, ou avec les flèches ← →)
+    var rang = V.ETAPES.indexOf(actuelle), main2 = document.querySelector("main.page");
+    if (rang >= 0 && main2 && !document.getElementById("fil-etapes")) {
+      var prec = V.page(V.ETAPES[rang - 1]), suiv = V.page(V.ETAPES[rang + 1]);
+      main2.insertAdjacentHTML("beforeend", '<nav class="fil-etapes" id="fil-etapes" aria-label="Étapes de la présentation">' +
+        (prec ? '<a class="fil-prec" href="' + V.racine + prec.href + '">← ' + (rang) + ". " + V.esc(prec.label) + "</a>" : "<span></span>") +
+        '<span class="fil-rang">Étape ' + (rang + 1) + " sur " + V.ETAPES.length + "</span>" +
+        (suiv ? '<a class="fil-suiv" href="' + V.racine + suiv.href + '">Étape suivante : ' + (rang + 2) + ". " + V.esc(suiv.label) + " →</a>"
+          : '<a class="fil-suiv" href="' + V.racine + 'index.html">Fin · retour à l\'accueil ↺</a>') + "</nav>");
+      document.addEventListener("keydown", function (e) {
+        var t = e.target, saisie = t && (/^(INPUT|TEXTAREA|SELECT)$/.test(t.tagName) || t.isContentEditable);
+        if (saisie || e.altKey || e.ctrlKey || e.metaKey || e.shiftKey) return;
+        if (e.key === "ArrowRight" && suiv) location.href = V.racine + suiv.href;
+        if (e.key === "ArrowLeft" && prec) location.href = V.racine + prec.href;
+      });
     }
     // Pied de page : lit data/meta.json (petit fichier), quelle que soit la page
     var pied = document.getElementById("pied");

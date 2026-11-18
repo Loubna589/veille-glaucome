@@ -471,3 +471,16 @@ button.action { font: inherit; text-align: left; cursor: pointer; width: 100%; }
 .onglets button[aria-selected="true"] b { background: #fff; color: var(--accent); }
 @media (prefers-color-scheme: dark) { .onglets button[aria-selected="true"] { color: #0a1120; } }
 .titre-section small { font-weight: 400; font-size: .8rem; color: var(--doux); margin-left: 6px; }
+.nav__num { width: 22px; height: 22px; flex: none; border-radius: 50%; display: grid; place-items: center; font-size: .75rem; font-weight: 800;
+  background: var(--carte-2); color: var(--accent); border: 1px solid var(--bord); }
+.nav__liens a[aria-current="page"] .nav__num { background: var(--accent); color: #fff; border-color: var(--accent); }
+@media (prefers-color-scheme: dark) { .nav__liens a[aria-current="page"] .nav__num { color: #0a1120; } }
+.nav__groupe--haut { margin-top: 4px; }
+.fil-etapes { display: grid; grid-template-columns: 1fr auto 1fr; align-items: center; gap: 12px; margin: 36px 0 0; padding: 16px 0 0;
+  border-top: 1px solid var(--bord); }
+.fil-etapes a { text-decoration: none; font-weight: 650; padding: 10px 16px; border-radius: 12px; border: 1px solid var(--bord); background: var(--carte); }
+.fil-etapes .fil-suiv { justify-self: end; background: var(--accent); border-color: var(--accent); color: #fff; }
+@media (prefers-color-scheme: dark) { .fil-etapes .fil-suiv { color: #0a1120; } }
+.fil-etapes .fil-prec { justify-self: start; color: var(--texte); }
+.fil-rang { color: var(--doux); font-size: .85rem; }
+@media (max-width: 700px) { .fil-etapes { grid-template-columns: 1fr; } .fil-etapes a, .fil-etapes .fil-suiv, .fil-etapes .fil-prec { justify-self: stretch; text-align: center; } .fil-rang { text-align: center; order: -1; } }
