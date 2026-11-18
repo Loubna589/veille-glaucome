@@ -42,6 +42,13 @@ textarea{width:100%;min-height:260px;font:13px/1.4 ui-monospace,Consolas,monospa
 color:var(--texte);border:1px solid var(--bord);border-radius:6px;padding:8px}
 details{margin:.5em 0}summary{cursor:pointer;color:var(--accent)}
 .retour{font-size:.92rem;margin:0 0 4px}
+
+.acces p{margin:.5em 0}.bouton-acces{display:inline-block;font-weight:600;background:var(--accent);color:#fff;border:0;
+border-radius:8px;padding:8px 14px;text-decoration:none;cursor:pointer;font:inherit;font-weight:600}
+.bouton-acces.secondaire{background:var(--carte);color:var(--accent);border:1.5px solid var(--accent)}
+.ref-peb{min-height:140px;margin-top:8px}
+@media (prefers-color-scheme:dark){.bouton-acces{color:#10141a}.bouton-acces.secondaire{color:var(--accent)}}
+
 @media (max-width:600px){.grille{grid-template-columns:1fr}.grille dt{margin-top:6px}header,section{padding:14px}}
 </style></head>
 <body><main>
@@ -129,7 +136,7 @@ DESCRIPTION (registre, texte source) :
 The majority of young children do not think that visual field (VF) testing of peripheral vision is similar to a game; therefore, it is not surprising that they have difficulty maintaining attention during VF testing and thus the test reliability suffers as a consequence. Poor VF reliability has been a longstanding, major issue since it leads to an increased number of tests and/or longer duration of time needed to determine when there are true vision losses. Providers are less likely to obtain VF tests in children since the results are of doubtful value and challenging to interpret when they are inconsistent. Effectively this means that children with untreated, slowly progressive eye diseases may go undiagnosed and incur greater visual losses. The investigators aim to create a prototype device that the investigators hypothesize will make VF testing more engaging for young children, thus increasing their attention and consistency of their responses to the test stimuli, which in turn should improve VF reliability. The components include a microdisplay video screen (1.5&quot; diameter) as the fixation target (instead of the standard LED light) displaying video clips of popular cartoon characters, and audio clips of impersonated cartoon character voices presented by the test operator to provide instructional feedback based on the child&#x27;s performance during testing. Improved VF reliability from the investigators intervention would translate to improved diagnosis and care for young childrens&#x27; peripheral vision loss through widespread implementation of the investigators innovative, affordable and readily adoptable system at eye care providers&#x27; offices.
 
 RÉSULTATS : aucun résultat déposé au registre.</textarea></details></section>
-<p><small>Fiche générée le 2026-11-18 11:00 par Glaucoma Intelligence. Extraits des sources en langue originale.</small></p>
+<p><small>Fiche générée le 2026-11-18 11:05 par Glaucoma Intelligence. Extraits des sources en langue originale.</small></p>
 </main><script>
 function copierFiche(){
   var zone=document.getElementById('a-copier'), bouton=document.getElementById('bouton-copier');
@@ -137,5 +144,15 @@ function copierFiche(){
   function secours(){zone.parentElement.open=true;zone.select();try{document.execCommand('copy');fait();}
     catch(err){bouton.textContent='Sélectionnez le texte ci-dessous puis Ctrl+C';}}
   if(navigator.clipboard&&window.isSecureContext){navigator.clipboard.writeText(zone.value).then(fait,secours);}else{secours();}
+}
+
+function demanderBU(b){
+  var ref=b.parentElement.querySelector('.ref-peb').value, url=b.getAttribute('data-url'), libelle=b.textContent;
+  function fini(ok){b.textContent=ok?'Référence copiée ✓':'Copiez la référence ci-dessous';
+    if(!ok){var t=b.parentElement.querySelector('.ref-peb');t.hidden=false;t.select();}
+    if(url){window.open(url,'_blank','noopener');}else{b.textContent+=' — ouvrez l’onglet « Demande PEB » du catalogue de la BU';}
+    setTimeout(function(){b.textContent=libelle},6000);}
+  if(navigator.clipboard&&window.isSecureContext){navigator.clipboard.writeText(ref).then(function(){fini(true)},function(){fini(false)});}
+  else{fini(false);}
 }
 </script></body></html>

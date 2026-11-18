@@ -42,6 +42,13 @@ textarea{width:100%;min-height:260px;font:13px/1.4 ui-monospace,Consolas,monospa
 color:var(--texte);border:1px solid var(--bord);border-radius:6px;padding:8px}
 details{margin:.5em 0}summary{cursor:pointer;color:var(--accent)}
 .retour{font-size:.92rem;margin:0 0 4px}
+
+.acces p{margin:.5em 0}.bouton-acces{display:inline-block;font-weight:600;background:var(--accent);color:#fff;border:0;
+border-radius:8px;padding:8px 14px;text-decoration:none;cursor:pointer;font:inherit;font-weight:600}
+.bouton-acces.secondaire{background:var(--carte);color:var(--accent);border:1.5px solid var(--accent)}
+.ref-peb{min-height:140px;margin-top:8px}
+@media (prefers-color-scheme:dark){.bouton-acces{color:#10141a}.bouton-acces.secondaire{color:var(--accent)}}
+
 @media (max-width:600px){.grille{grid-template-columns:1fr}.grille dt{margin-top:6px}header,section{padding:14px}}
 </style></head>
 <body><main>
@@ -133,7 +140,7 @@ Glaucoma is an eye disease causing vision loss if not treated adequately. The pr
 Main aim: to optimize treatment in glaucoma patients by evaluating surgical treatment strategies and guidelines. Objectives: to compare trabeculectomy (gold standard) versus Preserflo microshunt implantation (less invasive surgery) in glaucoma patients in a randomized trial comparing several parameters such as intraocular pressure, number of glaucoma medications, vision and the safety (including complications, corneal endothalial cell loss and need for re-operations) between these two groups.
 
 RÉSULTATS : aucun résultat déposé au registre.</textarea></details></section>
-<p><small>Fiche générée le 2026-11-18 11:00 par Glaucoma Intelligence. Extraits des sources en langue originale.</small></p>
+<p><small>Fiche générée le 2026-11-18 11:05 par Glaucoma Intelligence. Extraits des sources en langue originale.</small></p>
 </main><script>
 function copierFiche(){
   var zone=document.getElementById('a-copier'), bouton=document.getElementById('bouton-copier');
@@ -141,5 +148,15 @@ function copierFiche(){
   function secours(){zone.parentElement.open=true;zone.select();try{document.execCommand('copy');fait();}
     catch(err){bouton.textContent='Sélectionnez le texte ci-dessous puis Ctrl+C';}}
   if(navigator.clipboard&&window.isSecureContext){navigator.clipboard.writeText(zone.value).then(fait,secours);}else{secours();}
+}
+
+function demanderBU(b){
+  var ref=b.parentElement.querySelector('.ref-peb').value, url=b.getAttribute('data-url'), libelle=b.textContent;
+  function fini(ok){b.textContent=ok?'Référence copiée ✓':'Copiez la référence ci-dessous';
+    if(!ok){var t=b.parentElement.querySelector('.ref-peb');t.hidden=false;t.select();}
+    if(url){window.open(url,'_blank','noopener');}else{b.textContent+=' — ouvrez l’onglet « Demande PEB » du catalogue de la BU';}
+    setTimeout(function(){b.textContent=libelle},6000);}
+  if(navigator.clipboard&&window.isSecureContext){navigator.clipboard.writeText(ref).then(function(){fini(true)},function(){fini(false)});}
+  else{fini(false);}
 }
 </script></body></html>

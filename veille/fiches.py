@@ -13,6 +13,7 @@ Principes :
 import html
 import re
 
+from veille import acces_texte
 from veille.sources import clinicaltrials as ct
 
 # ------------------------------------------------------------ vocabulaire
@@ -433,6 +434,9 @@ def fiche_article(memoire, essais_memoire, rubriques):
       <p class="rubriques"><strong>Rubrique :</strong> {rubriques_html(rubriques)}</p>
     </header>"""
 
+    # --- Lire l'article en entier (texte gratuit déclaré, auteur, BU)
+    blocs.append(acces_texte.bloc_html(d, oa))
+
     # --- Question
     contenu = _extraits(parties["question"])
     if not contenu:
@@ -654,6 +658,7 @@ textarea{width:100%;min-height:260px;font:13px/1.4 ui-monospace,Consolas,monospa
 color:var(--texte);border:1px solid var(--bord);border-radius:6px;padding:8px}
 details{margin:.5em 0}summary{cursor:pointer;color:var(--accent)}
 .retour{font-size:.92rem;margin:0 0 4px}
+""" + acces_texte.STYLE + """
 @media (max-width:600px){.grille{grid-template-columns:1fr}.grille dt{margin-top:6px}header,section{padding:14px}}
 """
 
@@ -665,7 +670,7 @@ function copierFiche(){
     catch(err){bouton.textContent='Sélectionnez le texte ci-dessous puis Ctrl+C';}}
   if(navigator.clipboard&&window.isSecureContext){navigator.clipboard.writeText(zone.value).then(fait,secours);}else{secours();}
 }
-"""
+""" + acces_texte.SCRIPT
 
 
 NAVIGATION = ('<a class="bandeau" href="../index.html"><i aria-hidden="true"></i>Glaucoma Intelligence</a>'

@@ -42,6 +42,13 @@ textarea{width:100%;min-height:260px;font:13px/1.4 ui-monospace,Consolas,monospa
 color:var(--texte);border:1px solid var(--bord);border-radius:6px;padding:8px}
 details{margin:.5em 0}summary{cursor:pointer;color:var(--accent)}
 .retour{font-size:.92rem;margin:0 0 4px}
+
+.acces p{margin:.5em 0}.bouton-acces{display:inline-block;font-weight:600;background:var(--accent);color:#fff;border:0;
+border-radius:8px;padding:8px 14px;text-decoration:none;cursor:pointer;font:inherit;font-weight:600}
+.bouton-acces.secondaire{background:var(--carte);color:var(--accent);border:1.5px solid var(--accent)}
+.ref-peb{min-height:140px;margin-top:8px}
+@media (prefers-color-scheme:dark){.bouton-acces{color:#10141a}.bouton-acces.secondaire{color:var(--accent)}}
+
 @media (max-width:600px){.grille{grid-template-columns:1fr}.grille dt{margin-top:6px}header,section{padding:14px}}
 </style></head>
 <body><main>
@@ -140,7 +147,7 @@ DESCRIPTION (registre, texte source) :
 Glaucoma is an irreversible optic neuropathy. It is the second most common cause of blindness worldwide. Glaucoma can be treated with topical medications (eye drops), laser or surgery. Traditional surgery is invasive and has a high complication rate (hypotonia, endophthalmitis, cataracts, etc.). As a result, several types of micro-invasive surgery (MIGS) have been developed to reduce the risks of surgery while maintaining their effectiveness in lowering intraocular pressure (IOP). The ELIOS laser system is the only ophthalmological excimer laser designed for the surgical treatment of glaucoma. The aim of the procedure is to ablate the trabecular meshwork and inner wall of Schlemm´s canal ab interno, with the creation of 10 microchannels of 210 um in the trabeculum using the ELIOS laser with a wavelength of 308 nm, in order to improve trabecular outflow to achieve a reduction in IOP. The ELIOS laser is an example of Microinvasive Glaucoma surgery (MIGS) with published results demonstrating efficacy and safety. The ELIOS laser is already in use in France (AMM / CE mark achieved). Its use as part of a prospective interventional study will enable us to collect data in order to treat patients more effectively and improve the quality of care provided to glaucoma patients.
 
 RÉSULTATS : aucun résultat déposé au registre.</textarea></details></section>
-<p><small>Fiche générée le 2026-11-18 11:00 par Glaucoma Intelligence. Extraits des sources en langue originale.</small></p>
+<p><small>Fiche générée le 2026-11-18 11:05 par Glaucoma Intelligence. Extraits des sources en langue originale.</small></p>
 </main><script>
 function copierFiche(){
   var zone=document.getElementById('a-copier'), bouton=document.getElementById('bouton-copier');
@@ -148,5 +155,15 @@ function copierFiche(){
   function secours(){zone.parentElement.open=true;zone.select();try{document.execCommand('copy');fait();}
     catch(err){bouton.textContent='Sélectionnez le texte ci-dessous puis Ctrl+C';}}
   if(navigator.clipboard&&window.isSecureContext){navigator.clipboard.writeText(zone.value).then(fait,secours);}else{secours();}
+}
+
+function demanderBU(b){
+  var ref=b.parentElement.querySelector('.ref-peb').value, url=b.getAttribute('data-url'), libelle=b.textContent;
+  function fini(ok){b.textContent=ok?'Référence copiée ✓':'Copiez la référence ci-dessous';
+    if(!ok){var t=b.parentElement.querySelector('.ref-peb');t.hidden=false;t.select();}
+    if(url){window.open(url,'_blank','noopener');}else{b.textContent+=' — ouvrez l’onglet « Demande PEB » du catalogue de la BU';}
+    setTimeout(function(){b.textContent=libelle},6000);}
+  if(navigator.clipboard&&window.isSecureContext){navigator.clipboard.writeText(ref).then(function(){fini(true)},function(){fini(false)});}
+  else{fini(false);}
 }
 </script></body></html>

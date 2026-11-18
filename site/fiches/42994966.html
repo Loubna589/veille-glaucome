@@ -42,6 +42,13 @@ textarea{width:100%;min-height:260px;font:13px/1.4 ui-monospace,Consolas,monospa
 color:var(--texte);border:1px solid var(--bord);border-radius:6px;padding:8px}
 details{margin:.5em 0}summary{cursor:pointer;color:var(--accent)}
 .retour{font-size:.92rem;margin:0 0 4px}
+
+.acces p{margin:.5em 0}.bouton-acces{display:inline-block;font-weight:600;background:var(--accent);color:#fff;border:0;
+border-radius:8px;padding:8px 14px;text-decoration:none;cursor:pointer;font:inherit;font-weight:600}
+.bouton-acces.secondaire{background:var(--carte);color:var(--accent);border:1.5px solid var(--accent)}
+.ref-peb{min-height:140px;margin-top:8px}
+@media (prefers-color-scheme:dark){.bouton-acces{color:#10141a}.bouton-acces.secondaire{color:var(--accent)}}
+
 @media (max-width:600px){.grille{grid-template-columns:1fr}.grille dt{margin-top:6px}header,section{padding:14px}}
 </style></head>
 <body><main>
@@ -64,7 +71,13 @@ details{margin:.5em 0}summary{cursor:pointer;color:var(--accent)}
       </dl>
       <p class="rubriques"><strong>Rubrique :</strong> <span class="rubrique">Autres sujets (clinique, épidémiologie…)</span> <small>aucune règle de rubrique ne s'applique</small> <span class="badge regle">classement automatique — règles dans config/rubriques.ini</span></p>
     </header>
-<section><h2>Question étudiée <span class="badge source">Résumé PubMed (texte source)</span></h2><p><span class="manque">Pas de paragraphe « objectif » identifié dans le résumé</span></p></section><section><h2>Traitement ou technologie, et comparateur <span class="badge regle">règle automatique de l'outil</span></h2><ul><li><span class="manque">Aucun produit suivi ni molécule repérés automatiquement</span></li></ul><p class="def">Aucun rôle n'est confirmé : PubMed ne décrit pas les bras d'une étude. Un rôle pourrait être confirmé par le registre d'un essai lié de façon confirmée.</p></section><section><h2>Type d'étude et méthode <span class="badge source">Résumé PubMed (texte source)</span><span class="badge source">PubMed (types de publication)</span></h2><p>Type(s) de publication déclaré(s) par PubMed : <span lang="en">Journal Article</span></p><p><span class="manque">Pas de paragraphe « méthodes » dans le résumé</span></p></section><section><h2>Population et participants (phrases du résumé) <span class="badge source">Résumé PubMed (texte source)</span></h2><p><span class="manque">Nombre de participants non rapporté dans le résumé</span></p></section><section><h2>Résultats disponibles <span class="badge source">Résumé PubMed (texte source)</span></h2><p><span class="manque">Aucune partie « résultats » dans le résumé</span></p></section><section><h2>Données de tolérance (phrases du résumé) <span class="badge source">Résumé PubMed (texte source)</span></h2><p><span class="manque">Aucune donnée de tolérance dans le résumé</span></p></section><section><h2>Essai clinique lié <span class="badge source">PubMed (DataBankList et texte)</span></h2><ul><li><span class="manque">Aucun essai lié identifié</span></li></ul></section><section><h2>Promoteur, financeur et affiliations <span class="badge source">PubMed</span><span class="badge source">OpenAlex</span><span class="badge source">Crossref</span></h2><div class="acteurs">
+<section class="acces"><h2>Lire l'article en entier</h2><p><small>Aucune version gratuite déclarée par PubMed Central ni par OpenAlex.</small></p><p><a class="bouton-acces secondaire" href="mailto:kihopark@snu.ac.kr?subject=Request%20for%20a%20copy%20of%20your%20article%3A%20Axial%20length%20and%20glaucoma%20prevalence%20in%20a%20nationally%20representative%20Korean%20population.&amp;body=Dear%20Author%2C%0A%0AI%20am%20following%20research%20on%20glaucoma%2C%20and%20I%20read%20the%20abstract%20of%20your%20article%20with%20great%20interest%3A%0A%0A%22Axial%20length%20and%20glaucoma%20prevalence%20in%20a%20nationally%20representative%20Korean%20population.%22%0AThe%20British%20journal%20of%20ophthalmology%2C%202026%0ADOI%3A%2010.1136/bjo-2026-331022%0APMID%3A%2042994966%0A%0AUnfortunately%20I%20do%20not%20have%20access%20to%20the%20full%20text.%20Would%20you%20be%20willing%20to%20share%20a%20copy%20for%20my%20personal%20study%20use%20only%3F%20It%20will%20not%20be%20redistributed.%0A%0AThank%20you%20very%20much%20for%20your%20time.%0A%0AKind%20regards%2C%0A%5BYour%20name%5D%0A">Demander à l'auteur</a> <small>e-mail pré-rédigé en anglais à kihopark@snu.ac.kr (adresse écrite dans PubMed) : votre messagerie s'ouvre, vous relisez et envoyez vous-même.</small></p><p><button type="button" class="bouton-acces secondaire" onclick="demanderBU(this)">Demander à la BU</button><small> copie la référence de l'article, puis ouvre le formulaire de prêt entre bibliothèques : connectez-vous, choisissez « Article », collez et envoyez.</small><textarea class="ref-peb" hidden readonly>Type de référence : Article
+Titre de l&#x27;article : Axial length and glaucoma prevalence in a nationally representative Korean population.
+Revue : The British journal of ophthalmology
+Année : 2026
+DOI : 10.1136/bjo-2026-331022
+PMID : 42994966 (https://pubmed.ncbi.nlm.nih.gov/42994966/)
+Format souhaité : numérique</textarea></p></section><section><h2>Question étudiée <span class="badge source">Résumé PubMed (texte source)</span></h2><p><span class="manque">Pas de paragraphe « objectif » identifié dans le résumé</span></p></section><section><h2>Traitement ou technologie, et comparateur <span class="badge regle">règle automatique de l'outil</span></h2><ul><li><span class="manque">Aucun produit suivi ni molécule repérés automatiquement</span></li></ul><p class="def">Aucun rôle n'est confirmé : PubMed ne décrit pas les bras d'une étude. Un rôle pourrait être confirmé par le registre d'un essai lié de façon confirmée.</p></section><section><h2>Type d'étude et méthode <span class="badge source">Résumé PubMed (texte source)</span><span class="badge source">PubMed (types de publication)</span></h2><p>Type(s) de publication déclaré(s) par PubMed : <span lang="en">Journal Article</span></p><p><span class="manque">Pas de paragraphe « méthodes » dans le résumé</span></p></section><section><h2>Population et participants (phrases du résumé) <span class="badge source">Résumé PubMed (texte source)</span></h2><p><span class="manque">Nombre de participants non rapporté dans le résumé</span></p></section><section><h2>Résultats disponibles <span class="badge source">Résumé PubMed (texte source)</span></h2><p><span class="manque">Aucune partie « résultats » dans le résumé</span></p></section><section><h2>Données de tolérance (phrases du résumé) <span class="badge source">Résumé PubMed (texte source)</span></h2><p><span class="manque">Aucune donnée de tolérance dans le résumé</span></p></section><section><h2>Essai clinique lié <span class="badge source">PubMed (DataBankList et texte)</span></h2><ul><li><span class="manque">Aucun essai lié identifié</span></li></ul></section><section><h2>Promoteur, financeur et affiliations <span class="badge source">PubMed</span><span class="badge source">OpenAlex</span><span class="badge source">Crossref</span></h2><div class="acteurs">
       <div><h3>Promoteur d'essai</h3><p class="def">Organisme responsable d'un essai, déclaré au registre.</p><p><span class="manque">Non affiché : aucun essai lié de façon confirmée</span></p></div>
       <div><h3>Financeur</h3><p class="def">Organisme qui a financé la recherche, avec la notice qui le justifie.</p><p><span class="manque">Aucun financeur trouvé (PubMed, OpenAlex, Crossref)</span></p></div>
       <div><h3>Affiliations des auteurs</h3><p class="def">Établissements où travaillent les auteurs (pas un financement).</p><p><small>Institutions normalisées (OpenAlex) :</small></p><ul><li>Eulji University <small>(KR, enseignement/recherche)</small></li><li>Daejeon Eulji Medical Center, Eulji University <small>(KR, santé/hôpital)</small></li><li>Eulji University Uijeongbu Eulji Medical Center <small>(KR, santé/hôpital)</small></li><li>Seoul National University <small>(KR, enseignement/recherche)</small></li><li>Seoul National University Hospital <small>(KR, santé/hôpital)</small></li></ul><details><summary>Affiliations telles que déclarées dans PubMed (5)</summary><ul><li>Department of Ophthalmology, Uijeongbu Eulji Medical Center, Uijeongbu, Republic of Korea.</li><li>Department of Ophthalmology, Eulji University School of Medicine, Daejeon, Republic of Korea.</li><li>Department of Ophthalmology, Seoul National University Hospital, Seoul, Republic of Korea.</li><li>Department of Ophthalmology, Seoul National University College of Medicine, Seoul, Republic of Korea.</li><li>Department of Ophthalmology, Seoul National University Hospital, Seoul, Republic of Korea kihopark@snu.ac.kr.</li></ul></details></div>
@@ -107,7 +120,7 @@ Affiliations (institutions, pas des financeurs) : Eulji University (KR, educatio
 
 RÉSUMÉ (texte source) :
 non disponible</textarea></details></section>
-<p><small>Fiche générée le 2026-11-18 11:00 par Glaucoma Intelligence. Extraits des sources en langue originale.</small></p>
+<p><small>Fiche générée le 2026-11-18 11:05 par Glaucoma Intelligence. Extraits des sources en langue originale.</small></p>
 </main><script>
 function copierFiche(){
   var zone=document.getElementById('a-copier'), bouton=document.getElementById('bouton-copier');
@@ -115,5 +128,15 @@ function copierFiche(){
   function secours(){zone.parentElement.open=true;zone.select();try{document.execCommand('copy');fait();}
     catch(err){bouton.textContent='Sélectionnez le texte ci-dessous puis Ctrl+C';}}
   if(navigator.clipboard&&window.isSecureContext){navigator.clipboard.writeText(zone.value).then(fait,secours);}else{secours();}
+}
+
+function demanderBU(b){
+  var ref=b.parentElement.querySelector('.ref-peb').value, url=b.getAttribute('data-url'), libelle=b.textContent;
+  function fini(ok){b.textContent=ok?'Référence copiée ✓':'Copiez la référence ci-dessous';
+    if(!ok){var t=b.parentElement.querySelector('.ref-peb');t.hidden=false;t.select();}
+    if(url){window.open(url,'_blank','noopener');}else{b.textContent+=' — ouvrez l’onglet « Demande PEB » du catalogue de la BU';}
+    setTimeout(function(){b.textContent=libelle},6000);}
+  if(navigator.clipboard&&window.isSecureContext){navigator.clipboard.writeText(ref).then(function(){fini(true)},function(){fini(false)});}
+  else{fini(false);}
 }
 </script></body></html>
