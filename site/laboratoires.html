@@ -66,10 +66,10 @@
       function produits(labo) {
         var noms = {};
         labo.promoteur.forEach(function (r) {
-          ((parId[r.id] || {}).produits || []).forEach(function (p) { if (/^bras expérimental/.test(p.role)) noms[p.nom] = p.role; });
+          ((parId[r.id] || {}).produits || []).forEach(function (p) { if (/^(bras expérimental|bras traité|comparé à)/.test(p.role)) noms[p.nom] = p.role; });
         });
         var liste = Object.keys(noms);
-        return liste.length ? '<p class="meta" style="margin-bottom:10px"><span>Interventions des bras expérimentaux de ses essais : ' +
+        return liste.length ? '<p class="meta" style="margin-bottom:10px"><span>Traitements testés dans ses essais : ' +
           liste.map(function (n) { return V.esc(n); }).join(" · ") + ' <span class="badge ok">déclaré au registre</span></span></p>' : "";
       }
       function afficher() {

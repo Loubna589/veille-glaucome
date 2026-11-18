@@ -148,14 +148,41 @@ class Laboratoires:
 
 # ------------------------------------------------------------ études
 
+COMPARATEURS = ("ACTIVE_COMPARATOR", "PLACEBO_COMPARATOR", "SHAM_COMPARATOR")
+
+
+def produits_essai(d):
+    """Produits de chaque bras, avec le rôle DÉCLARÉ au registre (type du bras), sans le réinterpréter.
+
+    Quand le registre ne déclare AUCUN bras expérimental (essai face-à-face, ou bras traité contre un groupe sans
+    traitement déclaré « Active Comparator »), « bras comparateur » serait trompeur : on le dit explicitement."""
+    bras = d.get("bras") or []
+    a_experimental = any(b.get("type") == "EXPERIMENTAL" for b in bras)
+    actifs = [b for b in bras if b.get("type") == "ACTIVE_COMPARATOR" and b.get("interventions")]
+    sortie = {}
+    for b in bras:
+        t = b.get("type")
+        if t == "EXPERIMENTAL":
+            role = "bras expérimental (registre)"
+        elif t in COMPARATEURS and a_experimental:
+            role = "bras comparateur (registre)"
+        elif t == "ACTIVE_COMPARATOR" and len(actifs) > 1:
+            role = "comparé à un autre traitement (registre : essai face-à-face, sans bras expérimental)"
+        elif t == "ACTIVE_COMPARATOR":
+            role = "bras traité (registre : « comparateur actif », sans bras expérimental déclaré)"
+        elif t in COMPARATEURS:
+            role = "bras comparateur (registre)"
+        else:
+            role = "bras du registre (type non précisé)"
+        for n in b.get("interventions") or []:
+            sortie.setdefault(n.split(": ", 1)[-1], role)   # un produit présent dans plusieurs bras : premier rôle
+    return [{"nom": nom, "role": role} for nom, role in sortie.items()]
+
+
 def etude_essai(m, regles_rub, labos):
     d = m["donnees"]
     rub = rubriques.classer_essai(d, regles_rub)
-    experimentaux = [n.split(": ", 1)[-1] for b in d.get("bras") or [] if b.get("type") == "EXPERIMENTAL"
-                     for n in b.get("interventions") or []]
-    comparateurs = [n.split(": ", 1)[-1] for b in d.get("bras") or []
-                    if b.get("type") in ("ACTIVE_COMPARATOR", "PLACEBO_COMPARATOR", "SHAM_COMPARATOR")
-                    for n in b.get("interventions") or []]
+    produits = produits_essai(d)
     industriel = d.get("type_promoteur") == "INDUSTRY"
     noms_labos = []
     if d.get("promoteur"):
@@ -174,8 +201,7 @@ def etude_essai(m, regles_rub, labos):
         "rubriques": [r["nom"] for r in rub], "rubrique": rub[0]["nom"],
         "raison_rubrique": "; ".join(rub[0]["raisons"][:2]),
         # Le registre déclare des BRAS (expérimental, comparateur) : on indique le bras, pas un rôle par produit
-        "produits": [{"nom": p, "role": "bras expérimental (registre)"} for p in dict.fromkeys(experimentaux)]
-                    + [{"nom": p, "role": "bras comparateur (registre)"} for p in dict.fromkeys(comparateurs)],
+        "produits": produits,
         "labos": noms_labos, "resume": d.get("resume_source"),
     }
 
