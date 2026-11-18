@@ -9,75 +9,90 @@
  },
  "mode": "ia",
  "modele": "gemini-flash-lite-latest",
- "version_prompt": "semaine_v1",
+ "version_prompt": "semaine_v2",
  "points": [
   {
-   "titre": "Tolérance de l'association fixe nétarsudil/latanoprost",
-   "texte": "Selon le résumé, les patients présentant une hyperémie basale ont eu des taux plus élevés d'événements indésirables sous l'association fixe nétarsudil/latanoprost, et un traitement antérieur complexe était lié à une tolérance moins favorable.",
-   "sources": [
-    "PMID:43046532"
-   ],
-   "liens": [
-    {
-     "id": "PMID:43046532",
-     "lien": "https://pubmed.ncbi.nlm.nih.gov/43046532/",
-     "fiche": "fiches/43046532.html"
-    }
-   ]
-  },
-  {
-   "titre": "Avantage de la SLT par rapport aux médicaments",
-   "texte": "Une analyse de l'essai LiGHT indique que le traitement médicamenteux de première intention est associé à une plus grande morbidité de la surface oculaire et oculoplastique que la stratégie par trabéculoplastie au laser sélectif.",
-   "sources": [
-    "PMID:43017931"
-   ],
-   "liens": [
-    {
-     "id": "PMID:43017931",
-     "lien": "https://pubmed.ncbi.nlm.nih.gov/43017931/",
-     "fiche": "fiches/43017931.html"
-    }
-   ]
-  },
-  {
-   "titre": "Nouvel essai sur un complément alimentaire",
-   "texte": "Un nouvel essai clinique évalue si un complément alimentaire à base de nicotinamide riboside améliore la fonction des cellules ganglionnaires rétiniennes chez des patients atteints de glaucome à angle ouvert.",
-   "sources": [
-    "NCT07945340"
-   ],
-   "liens": [
-    {
-     "id": "NCT07945340",
-     "lien": "https://clinicaltrials.gov/study/NCT07945340",
-     "fiche": null
-    }
-   ]
-  },
-  {
-   "titre": "Performance d'un score de risque génétique",
-   "texte": "Des analyses de prédiction des risques indiquent que les individus du décile supérieur du score de risque polygénique présentent un risque multiplié par environ 10 d'avoir un glaucome à angle ouvert.",
+   "titre": "Risque génétique élevé du glaucome",
+   "texte": "Une étude a analysé plus de 6 millions d'individus pour développer un outil de prédiction des risques génétiques. Les personnes du groupe à haut risque ont un risque multiplié par dix d'avoir un glaucome à angle ouvert.",
+   "pourquoi": "Pour un laboratoire, cela aide à identifier plus facilement les patients cibles pour de nouveaux traitements préventifs.",
    "sources": [
     "PMID:43020385"
    ],
+   "etiquette": "Nouvel article",
    "liens": [
     {
      "id": "PMID:43020385",
      "lien": "https://pubmed.ncbi.nlm.nih.gov/43020385/",
-     "fiche": "fiches/43020385.html"
+     "fiche": "fiches/43020385.html",
+     "titre": "Step change in glaucoma polygenic risk score performance enables clinical utility."
     }
    ]
   },
   {
-   "titre": "Changement de statut pour un essai tonométrique",
-   "texte": "L'essai comparatif de tonométrie a changé son statut de recrutement de RECRUITING à COMPLETED et a modifié sa taille de cohorte ainsi que sa date de fin.",
+   "titre": "Tolérance des collyres mixtes",
+   "texte": "Selon le résumé, une étude a évalué l'association du nétarsudil et du latanoprost chez des patients atteints de glaucome. Les patients ayant déjà les yeux rouges ont eu plus d'effets indésirables avec ce traitement.",
+   "pourquoi": "Pour un laboratoire, ces données sur les effets indésirables aident à mieux positionner les combinaisons de médicaments.",
    "sources": [
-    "NCT07804277"
+    "PMID:43046532"
    ],
+   "etiquette": "Nouvel article",
    "liens": [
     {
-     "id": "NCT07804277",
-     "lien": "https://clinicaltrials.gov/study/NCT07804277",
-     "fiche": null
+     "id": "PMID:43046532",
+     "lien": "https://pubmed.ncbi.nlm.nih.gov/43046532/",
+     "fiche": "fiches/43046532.html",
+     "titre": "Ocular hyperemia with netarsudil/latanoprost fixed combination in glaucoma: an exploratory association analysis of tolerability outcomes by prior topical therapy and baseline ocular hyperemia."
+    }
+   ]
+  },
+  {
+   "titre": "Laser ou médicaments de première intention",
+   "texte": "Une étude a comparé les effets secondaires sur six ans entre un traitement médicamenteux et une méthode par laser appelée trabéculoplastie au laser sélectif (SLT). Le traitement par médicaments cause plus de problèmes de surface oculaire que le laser.",
+   "pourquoi": "Pour un laboratoire, cette concurrence du laser doit être intégrée dans la stratégie de vente des collyres.",
+   "sources": [
+    "PMID:43017931"
+   ],
+   "etiquette": "Nouvel article",
+   "liens": [
+    {
+     "id": "PMID:43017931",
+     "lien": "https://pubmed.ncbi.nlm.nih.gov/43017931/",
+     "fiche": "fiches/43017931.html",
+     "titre": "Oculoplastic and ocular surface morbidity after medication-first therapy versus selective laser trabeculoplasty: A 6-year analysis of the LiGHT trial."
+    }
+   ]
+  },
+  {
+   "titre": "Complément alimentaire et fonction rétinienne",
+   "texte": "Un nouvel essai clinique teste si un complément alimentaire à base de nicotinamide riboside améliore la fonction des cellules de la rétine (tissu sensible au fond de l'œil) chez des adultes atteints de glaucome. Le résultat n'est pas encore précisé dans le résumé.",
+   "pourquoi": "Pour un laboratoire, suivre ces nouvelles approches nutritionnelles permet de repérer de futurs marchés concurrents.",
+   "sources": [
+    "NCT07945340"
+   ],
+   "etiquette": "Nouvel essai",
+   "liens": [
+    {
+     "id": "NCT07945340",
+     "lien": "https://clinicaltrials.gov/study/NCT07945340",
+     "fiche": null,
+     "titre": "Effect of a Nicotinamide Riboside-Based Dietary Supplement on Retinal Function in Glaucoma (BRIGHT)"
+    }
+   ]
+  },
+  {
+   "titre": "Duplication d'images en intelligence artificielle",
+   "texte": "Une étude a vérifié trois bases de données publiques d'images médicales pour le glaucome. Elle a découvert des doublons d'images, ce qui fausse les performances des programmes d'intelligence artificielle.",
+   "pourquoi": "Pour un laboratoire, il faut se méfier de la vraie valeur des outils diagnostiques basés sur ces données.",
+   "sources": [
+    "PMID:43018943"
+   ],
+   "etiquette": "Nouvel article",
+   "liens": [
+    {
+     "id": "PMID:43018943",
+     "lien": "https://pubmed.ncbi.nlm.nih.gov/43018943/",
+     "fiche": "fiches/43018943.html",
+     "titre": "Implications of Image-Level Duplication in Public Glaucoma Datasets."
     }
    ]
   }
