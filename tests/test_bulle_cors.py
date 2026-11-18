@@ -56,6 +56,6 @@ def test_bulle_reconnait_les_memes_citations_que_le_rag():
     """La bulle transforme en liens exactement les citations que veille/rag.py valide."""
     from veille.rag import MOTIF_CITATION
     js = (RACINE / "site" / "js" / "bulle.js").read_text(encoding="utf-8")
-    motif_js = re.search(r"replace\(/(.+?)/g", js).group(1)
+    motif_js = re.search(r"replace\(/(\\\[\(PMID.+?)/g", js).group(1)
     assert motif_js == getattr(MOTIF_CITATION, "pattern", MOTIF_CITATION)
-    assert "8770" in js and "Mode sources seulement" in js
+    assert "8770" in js and "Version en ligne" in js
