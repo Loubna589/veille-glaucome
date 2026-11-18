@@ -16,6 +16,7 @@
     etudes: '<path d="M7 3h7l5 5v13H7z"/><path d="M14 3v5h5"/><path d="M10 13h6M10 17h6"/>',
     laboratoires: '<path d="M4 21V9l6-4v16"/><path d="M10 21V3l10 5v13"/><path d="M3 21h18M13 10h4M13 14h4"/>',
     marche: '<circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/>',
+    apropos: '<circle cx="12" cy="12" r="9"/><path d="M12 11v6"/><circle cx="12" cy="7.5" r=".6" fill="currentColor"/>',
     concurrents: '<path d="M3 21V10l5-3v14"/><path d="M8 21V5l6 3v13"/><path d="M14 21V11l7-3v13"/><path d="M2 21h20"/>',
     semaine: '<rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4M8 14h3M8 17h6"/>',
     methode: '<path d="M5 4h11l3 3v13H5z"/><path d="M8 10h8M8 13h8M8 16h5"/><path d="M15 4v4h4"/>',
@@ -67,6 +68,9 @@
     { id: "methode", href: "methode.html", label: "Méthode et limites", icone: "methode", etiquette: "jury",
       but: "Savoir d'où viennent les données, à quelle fréquence, ce que l'IA fait et ne fait pas, et les biais à garder en tête.",
       exemple: "Lisez « Ce que l'IA ne fait pas » avant de citer un résumé automatique." },
+    { id: "apropos", href: "apropos.html", label: "À propos", icone: "apropos",
+      but: "Qui a réalisé ce projet, dans quel cadre, et selon quels principes.",
+      exemple: "Suivez le lien « Méthode et limites » pour le détail des sources." },
   ];
   V.page = function (id) { return V.PAGES.filter(function (p) { return p.id === id; })[0]; };
 
