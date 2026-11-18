@@ -6,11 +6,13 @@ Lancement :  python synthese_semaine.py            (ne fait rien si une synthès
 Lancé chaque jour par GitHub Actions : la synthèse et l'e-mail partent donc une fois tous les 7 jours.
 Résultat : data/historique/semaines/AAAA-MM-JJ.json (une par semaine, archivées), repris par construire_site.py.
 
-E-mail : seulement si les secrets SMTP_HOTE, SMTP_UTILISATEUR, SMTP_MOT_DE_PASSE et ALERTES_DESTINATAIRE existent
-(Settings > Secrets and variables > Actions du dépôt GitHub). Aucune adresse ni aucun mot de passe dans le code.
+E-mail SANS AUCUN SECRET : le script écrit data/logs/issue_semaine.md ; le workflow en fait une « issue » GitHub
+assignée à la propriétaire du dépôt, et GitHub lui envoie l'e-mail tout seul (adresse de son compte GitHub).
+L'envoi SMTP direct reste possible mais facultatif (secrets SMTP_*), il n'est plus utilisé par défaut.
 """
 import configparser
 import json
+import os
 import smtplib
 import sys
 from datetime import date
@@ -56,11 +58,17 @@ def main(argv):
           + (f" — {s['erreur']}" if s["erreur"] else ""))
     if "--sans-mail" in argv:
         return
+    evs = alertes_semaine(conn, s["debut"], s["fin"])
+    md = alertes.texte_markdown(evs, titre="Alertes de la semaine (essais cliniques)") if evs else ""
+    personne = "@" + os.getenv("GITHUB_REPOSITORY_OWNER") if os.getenv("GITHUB_REPOSITORY_OWNER") else ""
+    sortie = RACINE / "data" / "logs" / "issue_semaine.md"
+    sortie.parent.mkdir(parents=True, exist_ok=True)
+    sortie.write_text(synthese.texte_issue(s, url_site(), md, personne), encoding="utf-8")
+    print(f"Issue de la semaine prête : {sortie.relative_to(RACINE)}")
     if not alertes.mail_configure():
-        print("E-mail hebdomadaire : non configuré (secrets SMTP absents), synthèse publiée sur le site seulement")
+        print("E-mail direct (SMTP) : non configuré ; l'e-mail part via l'issue GitHub")
         return
     texte = synthese.texte_mail(s, url_site())
-    evs = alertes_semaine(conn, s["debut"], s["fin"])
     if evs:
         texte += "\n\n" + alertes.texte_markdown(evs, titre="Alertes de la semaine (essais cliniques)")
     try:

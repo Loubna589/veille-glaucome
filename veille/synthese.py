@@ -254,3 +254,23 @@ def texte_mail(s, url_site):
     lignes += [f"Tout le détail : {url_site}semaine.html", "",
                "Glaucoma Intelligence — projet étudiant, données publiques uniquement."]
     return "\n".join(lignes)
+
+
+def texte_issue(s, url_site, alertes_md="", personne=""):
+    """Version Markdown pour l'issue GitHub hebdomadaire (GitHub envoie lui-même l'e-mail : aucun secret)."""
+    def d(iso):
+        return f"{iso[8:10]}/{iso[5:7]}/{iso[:4]}"
+    c = s["chiffres"]
+    lignes = [f"{personne + ' : ' if personne else ''}voici ce qu'il faut retenir du {d(s['debut'])} au {d(s['fin'])}.", "",
+              f"**{c['articles']}** article(s) entré(s) dans PubMed · **{c['nouveaux_essais']}** nouvel(s) essai(s) · "
+              f"**{c['changements_essais']}** essai(s) modifié(s)", ""]
+    for i, p in enumerate(s["points"], 1):
+        sources = " · ".join(f"[{l['id']}]({l['lien']})" for l in p.get("liens", []))
+        lignes += [f"### {i}. {p['titre']}", p["texte"], f"Source : {sources}", ""]
+    lignes.append("_Rédigé par l'IA à partir des seules sources citées (citations vérifiées, à relire avant de citer)._"
+                  if s["mode"] == "ia" else "_Points sélectionnés par des règles fixes (sans IA)._")
+    if alertes_md:
+        lignes += ["", "---", "", alertes_md.replace("# Alertes de la semaine", "## Alertes de la semaine")]
+    lignes += ["", f"➡️ Tout le détail : {url_site}semaine.html", "",
+               "---", "_Message automatique de Glaucoma Intelligence (une fois par semaine). Fermez l'issue une fois lue._"]
+    return "\n".join(lignes)

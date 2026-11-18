@@ -20,6 +20,7 @@ on:
 
 permissions:
   contents: write            # enregistrer la base et les exports dans le dépôt
+  issues: write              # synthèse hebdomadaire envoyée comme « issue » : GitHub envoie l'e-mail, aucun secret
 
 concurrency:
   group: veille-quotidienne  # jamais deux exécutions en même temps
@@ -92,6 +93,16 @@ jobs:
           SMTP_MOT_DE_PASSE: ${{ secrets.SMTP_MOT_DE_PASSE }}
           ALERTES_DESTINATAIRE: ${{ secrets.ALERTES_DESTINATAIRE }}
         run: python synthese_semaine.py ${{ inputs.refaire_synthese && '--forcer' || '' }} && python construire_site.py
+
+      - name: E-mail de la semaine (issue GitHub assignée à la propriétaire du dépôt, sans aucun secret)
+        if: hashFiles('data/logs/issue_semaine.md') != ''
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh issue create --repo "$GITHUB_REPOSITORY" --assignee "$GITHUB_REPOSITORY_OWNER" \
+            --title "Veille glaucome : ce qu'il faut retenir cette semaine ($(date -u +%d/%m/%Y))" \
+            --body-file data/logs/issue_semaine.md
 
       - name: Garder les journaux de l'exécution
         if: always()

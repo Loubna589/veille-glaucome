@@ -45,3 +45,10 @@ def test_sans_cle_les_regles_ecrivent_5_points_avec_liens():
     assert s["mode"] == "regles" and len(s["points"]) == 5
     assert s["points"][0]["liens"][0]["lien"] == "https://clinicaltrials.gov/study/NCT00000001"
     assert "ce qu'il faut retenir du 12/11/2026 au 18/11/2026" in synthese.texte_mail(s, "https://x/")
+
+
+def test_issue_hebdomadaire_en_markdown_avec_liens():
+    s = synthese.construire(base_test(), jour=date(2026, 11, 18), cle="")
+    md = synthese.texte_issue(s, "https://x/", personne="@moi")
+    assert md.startswith("@moi : voici ce qu'il faut retenir du 12/11/2026 au 18/11/2026")
+    assert "[NCT00000001](https://clinicaltrials.gov/study/NCT00000001)" in md and "https://x/semaine.html" in md
