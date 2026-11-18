@@ -10,21 +10,38 @@ jobs:
       - name: Explorer
         run: |
           python3 - <<'PY'
-          import gzip, re, urllib.request
+          import csv, io, re, time, urllib.request, zipfile, collections
           B = "https://open-data-assurance-maladie.ameli.fr/medicaments/"
           def get(u):
-              r = urllib.request.urlopen(urllib.request.Request(u, headers={"User-Agent": "veille-glaucome"}), timeout=300)
+              r = urllib.request.urlopen(urllib.request.Request(u, headers={"User-Agent": "veille-glaucome"}), timeout=600)
               return r.read()
-          for an in [2025, 2019, 2015]:
-              page = get(B + f"download2.php?Dir_Rep={an}_CIP13").decode("utf-8", "replace")
-              liens = re.findall(r'href="\./(download_file\.php\?[^"]+)"', page)
-              print(an, [l.split("/")[-1] for l in liens])
-              for l in liens:
-                  if l.endswith(("_cip13.CSV.gz", "_cip13_spe.CSV.gz")) and (an == 2025 or "spe" not in l):
-                      b = gzip.decompress(get(B + l.replace("&amp;", "&")))
-                      t = b.decode("latin-1").splitlines()
-                      print("  ", l.split("/")[-1], len(b), len(t)); print("   ENTETE", t[0])
-                      s = [x for x in t if "S01E" in x]
-                      print("   S01E", len(s))
-                      for x in s[:6] + [x for x in s if "LATANOPROST" in x.upper()][:6]: print("    ", x[:400])
+          t0 = time.time()
+          page = get(B + "download.php?Dir_Rep=Open_MEDIC_Base_Complete&Annee=2025").decode("utf-8", "replace")
+          lien = re.findall(r'href="\./(download_file\.php\?[^"]+)"', page)[0].replace("&amp;", "&")
+          b = get(B + lien); print("zip", len(b), round(time.time() - t0), "s")
+          z = zipfile.ZipFile(io.BytesIO(b))
+          for n in z.namelist():
+              print("FICHIER", n, z.getinfo(n).file_size)
+              with z.open(n) as f:
+                  r = csv.reader(io.TextIOWrapper(f, "latin-1"), delimiter=";")
+                  ent = next(r); print("ENTETE", ent)
+                  agg = collections.Counter(); ex = []; spe = collections.Counter(); gen = collections.Counter()
+                  for l in r:
+                      d = dict(zip(ent, l))
+                      if d.get("ATC4", "").startswith("S01E") or d.get("ATC3", "") == "S01E":
+                          if len(ex) < 5: ex.append(l)
+                          bo = float(d["BOITES"].replace(",", ".") or 0)
+                          agg[(d.get("ATC5"), d.get("L_ATC5"))] += bo; spe[d.get("PSP_SPE")] += bo; gen[(d.get("ATC5"), d.get("TOP_GEN"), d.get("GEN_NUM", "")[:1])] += bo
+              for e in ex: print("EX", e)
+              for k, v in agg.most_common(): print("ATC5", k, int(v))
+              for k, v in spe.most_common(10): print("SPE", k, int(v))
+              for k, v in sorted(gen.items())[:40]: print("GEN", k, int(v))
+          print("fini", round(time.time() - t0), "s")
+          # CMS : tout le fichier, lignes Overall des substances suivies
+          t = get("https://data.cms.gov/sites/default/files/2026-06/98218f98-166c-4723-8438-c344a4ef96a6/DSD_PTD_RY26_P04_V10_DY24_BGM.csv").decode("utf-8", "replace")
+          rows = list(csv.DictReader(io.StringIO(t))); print("CMS", len(rows), list(rows[0])[:8])
+          motif = re.compile(r"latanoprost|bimatoprost|travoprost|tafluprost|timolol|dorzolamide|brinzolamide|brimonidine|netarsudil|omidenepag|apraclonidine|pilocarpine|betaxolol|carteolol|levobunolol", re.I)
+          for x in rows:
+              if x["Mftr_Name"] == "Overall" and motif.search(x["Gnrc_Name"]):
+                  print(" ", x["Brnd_Name"], "|", x["Gnrc_Name"], "|", x["Tot_Mftr"], "|", x.get("Tot_Spndng_2024"), x.get("Tot_Clms_2024"))
           PY
