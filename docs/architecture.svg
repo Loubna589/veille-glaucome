@@ -34,7 +34,7 @@
 <text x="338" y="116" class="num" text-anchor="middle">2</text>
 <text x="356" y="117" class="ttl" text-anchor="start">Le robot quotidien</text>
 <text x="332" y="152" class="txt" text-anchor="start">GitHub Actions + Python</text>
-<text x="332" y="171" class="txt" text-anchor="start">1. 130 tests automatiques</text>
+<text x="332" y="171" class="txt" text-anchor="start">1. 132 tests automatiques</text>
 <text x="332" y="190" class="txt" text-anchor="start">2. collecte des nouveautés</text>
 <text x="332" y="209" class="txt" text-anchor="start">3. une source en panne</text>
 <text x="332" y="228" class="txt" text-anchor="start">    n'arrête pas les autres</text>

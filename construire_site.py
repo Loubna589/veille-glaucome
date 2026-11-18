@@ -335,6 +335,21 @@ def etude_openalex(m, regles_rub, regles_et, labos):
 
 # ------------------------------------------------------------ programme
 
+def versionner_ressources(site=SITE):
+    """Ajoute ?v=<empreinte du fichier> aux scripts et à la feuille de style de chaque page : après une mise en ligne,
+    le navigateur charge forcément la nouvelle version au lieu de garder l'ancienne en mémoire (jusqu'à 10 min sur GitHub Pages)."""
+    import hashlib
+    def empreinte(chemin):
+        f = site / chemin
+        return hashlib.sha1(f.read_bytes()).hexdigest()[:10] if f.exists() else None
+    motif = re.compile(r'((?:src|href)=")((?:js|css)/[\w.-]+\.(?:js|css))(?:\?v=\w+)?"')
+    for page in site.glob("*.html"):
+        texte = page.read_text(encoding="utf-8")
+        nouveau = motif.sub(lambda m: f'{m.group(1)}{m.group(2)}?v={empreinte(m.group(2))}"' if empreinte(m.group(2)) else m.group(0), texte)
+        if nouveau != texte:
+            page.write_text(nouveau, encoding="utf-8")
+
+
 def main(conn=None):
     if hasattr(sys.stdout, "reconfigure"):
         sys.stdout.reconfigure(encoding="utf-8")
@@ -489,6 +504,7 @@ def main(conn=None):
 
     referencement(len(essais) + len(articles))
     print(f"Contrôle qualité : {rapport['etudes_exportees']} étude(s) exportée(s), {rapport['etudes_rejetees']} rejetée(s)")
+    versionner_ressources()
     print(f"Site reconstruit : {len(etudes)} études, {len(donnees['laboratoires'])} organismes, "
           f"{len(essais) + len(articles)} fiches → {SITE / 'index.html'} · base : {tables}")
     return 0

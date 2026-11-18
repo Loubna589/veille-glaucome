@@ -6,6 +6,8 @@
   V.donnees = { etudes: [], laboratoires: [], ordre_rubriques: [] };
   // L'assistant (Flask, port 8770) sert le site sous /site/ : les liens doivent alors pointer vers /site/…
   V.racine = location.port === "8770" ? "/site/" : "";
+  // Version des fichiers (ajoutée par construire_site.py) : la bulle est chargée dans la même version que ce script
+  V.version = ((document.currentScript && document.currentScript.src) || "").split("?v=")[1] || "";
 
   /* Icônes (traits simples, 24×24) */
   var I = {
@@ -62,12 +64,12 @@
     { id: "fonctionnement", href: "fonctionnement.html", label: "Comment ça marche", icone: "fonctionnement", etiquette: "jury",
       but: "La partie technique : comment les données sont collectées, contrôlées, analysées par l'IA et évaluées.",
       exemple: "Regardez le schéma, puis le journal de la dernière exécution (une ligne par source)." },
-    { id: "methode", href: "methode.html", label: "Méthode et limites", icone: "methode", etiquette: "jury",
+    { id: "methode", href: "methode.html", label: "Limites", icone: "methode", etiquette: "jury",
       but: "Savoir d'où viennent les données, à quelle fréquence, ce que l'IA fait et ne fait pas, et les biais à garder en tête.",
       exemple: "Lisez « Ce que l'IA ne fait pas » avant de citer un résumé automatique." },
     { id: "apropos", href: "apropos.html", label: "À propos", icone: "apropos",
       but: "Qui a réalisé ce projet, dans quel cadre, et selon quels principes.",
-      exemple: "Suivez le lien « Méthode et limites » pour le détail des sources." },
+      exemple: "Suivez le lien « Limites » pour savoir ce que l'outil ne fait pas." },
   ];
   /* Le fil de la présentation orale : l'ordre des étapes (les autres pages restent dans « Autres pages ») */
   V.ETAPES = ["apropos", "accueil", "fonctionnement", "semaine", "etudes", "laboratoires", "marche", "methode"];
@@ -156,7 +158,7 @@
     // Bulle d'assistant + bouton « retour en haut » sur toutes les pages (sauf l'application assistant elle-même)
     if (location.port !== "8770" && !document.getElementById("gi-bulle-script")) {
       var s = document.createElement("script");
-      s.id = "gi-bulle-script"; s.src = V.racine + "js/bulle.js";
+      s.id = "gi-bulle-script"; s.src = V.racine + "js/bulle.js" + (V.version ? "?v=" + V.version : "");
       document.body.appendChild(s);
     }
     // Barre « Étape précédente / suivante » en bas des pages du fil (pour présenter en cliquant, ou avec les flèches ← →)
@@ -179,7 +181,7 @@
     var pied = document.getElementById("pied");
     if (pied) {
       pied.innerHTML = "<strong>Glaucoma Intelligence</strong> · projet pédagogique · M2 MOD, IAE Clermont Auvergne · " +
-        '<a href="' + V.racine + 'methode.html">Méthode et limites</a> · <a href="' + V.racine + 'apropos.html">À propos</a>.';
+        '<a href="' + V.racine + 'methode.html">Limites</a> · <a href="' + V.racine + 'apropos.html">À propos</a>.';
       V.charger(["meta.json"]).then(function (r) {
         pied.innerHTML += " Dernière mise à jour : <strong>" + V.esc(V.date(r[0].derniere_mise_a_jour)) + "</strong>.";
       }).catch(function () {});

@@ -27,7 +27,7 @@ boite(28, 92, 250, 372, "#0b4f8a", "1", "Les sources officielles", [
     "Chiffres de marché :", "Open Medic (France)", "Medicare Part D (USA)", "", "+ accès libre : PubMed Central"])
 # 2. Robot
 boite(318, 92, 250, 210, "#0b7a73", "2", "Le robot quotidien", [
-    "GitHub Actions + Python", "1. 130 tests automatiques", "2. collecte des nouveautés", "3. une source en panne", "    n'arrête pas les autres", "4. tout est journalisé"])
+    "GitHub Actions + Python", "1. 132 tests automatiques", "2. collecte des nouveautés", "3. une source en panne", "    n'arrête pas les autres", "4. tout est journalisé"])
 # 3. Base
 boite(318, 334, 250, 130, "#3f3c9e", "3", "La base de données", [
     "SQLite : essais, articles,", "versions des essais, alertes,", "journal, sorties de l'IA"])

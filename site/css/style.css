@@ -488,3 +488,4 @@ button.action { font: inherit; text-align: left; cursor: pointer; width: 100%; }
 .semaine-point .badge { margin-bottom: 4px; }
 .cases-schema p + p, .cases-schema .a-dire { margin-top: 8px; }
 .cases-schema .a-dire { font-size: .86rem; font-style: italic; color: var(--doux); }
+.sous-section { font-size: 1.05rem; margin: 22px 0 8px; }

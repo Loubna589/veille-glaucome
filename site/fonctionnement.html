@@ -6,7 +6,7 @@
   <title>Comment ça marche — Glaucoma Intelligence</title>
   <meta name="description" content="La partie technique de Glaucoma Intelligence : sources officielles, base SQLite, contrôles qualité, IA Gemini, journal des exécutions et mesures de performance.">
   <link rel="canonical" href="https://loubna589.github.io/veille-glaucome/fonctionnement.html">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style.css?v=4492b7479c">
 </head>
 <body>
   <div id="nav"></div>
@@ -29,7 +29,7 @@
         <p class="a-dire">🎤 « Au lieu d'aller sur 11 sites chaque matin, je laisse le robot le faire. »</p></div>
       <div class="tuile-couleur c-violet"><span class="emoji">🤖</span><h3>2. Le robot</h3>
         <p>Un programme (écrit en Python) qui tourne <b>tout seul chaque matin</b> sur les ordinateurs de GitHub, même quand mon PC est éteint.
-          Avant de travailler, il passe 130 tests : si un test échoue, il s'arrête.</p>
+          Avant de travailler, il passe 132 tests : si un test échoue, il s'arrête.</p>
         <p class="a-dire">🎤 « C'est un réveil automatique : tous les jours à 6 h 30, il fait la tournée des sources. »</p></div>
       <div class="tuile-couleur c-ambre"><span class="emoji">🗄️</span><h3>3. La base de données</h3>
         <p>Un grand classeur où tout est rangé : chaque essai, chaque article, et <b>l'historique</b> des essais. C'est grâce à lui
@@ -58,14 +58,65 @@
       </dl>
     </details>
 
-    <h2 class="titre-section" id="donnees">1. Les données : la base SQLite</h2>
+    <div class="methode-dans-fonctionnement">
+    <h2 class="titre-vitrine">📡 D'où viennent les données</h2>
+    <div class="tuiles-couleur">
+      <div class="tuile-couleur c-bleu"><span class="emoji">🔬</span><h3>La recherche</h3><ul>
+        <li><strong>ClinicalTrials.gov</strong> : les essais cliniques</li>
+        <li><strong>PubMed</strong> : les articles médicaux</li>
+        <li><strong>OpenAlex</strong> : les articles absents de PubMed</li>
+        <li><strong>Crossref</strong> : qui a financé l'article</li></ul></div>
+      <div class="tuile-couleur c-vert"><span class="emoji">🏛️</span><h3>Les autorités de santé</h3><ul>
+        <li>🇫🇷 <strong>BDPM</strong> · 🇪🇺 <strong>EMA</strong> · 🇺🇸 <strong>FDA</strong></li>
+        <li>🇨🇦 <strong>Santé Canada</strong> · 🇪🇸 <strong>AEMPS</strong></li>
+        <li>🇮🇹 <strong>AIFA</strong> · 🇨🇭 <strong>Swissmedic</strong></li></ul>
+        <p style="margin-top:6px">Autorisations, avis, remboursement et prix.</p></div>
+      <div class="tuile-couleur c-orange"><span class="emoji">📈</span><h3>Le marché</h3><ul>
+        <li><strong>Open Medic</strong> : boîtes remboursées en France</li>
+        <li><strong>Medicare</strong> : dépenses aux États-Unis</li></ul>
+        <p style="margin-top:6px">Les données payantes (IQVIA…) ne sont pas utilisées.</p></div>
+    </div>
+    <div class="bandeau-note">📄 <strong>Articles payants :</strong> environ un sur trois. Le site affiche alors le résumé, gratuit, et des boutons pour
+      demander le texte entier (BU, auteur, ResearchGate).</div>
+    <div class="bandeau-note">🗺️ <strong>Pays non couverts :</strong> Royaume-Uni et Allemagne, car leurs avis ne sont publiés qu'en pages web ou en PDF,
+      ou réservés à des organisations sous licence ; Australie (TGA), car son registre ne se laisse pas interroger automatiquement.</div>
+    <p class="cm-aide">Les sigles sont expliqués dans le <a href="methode.html#glossaire">glossaire</a> en bas de page.</p>
+
+    <h2 class="titre-vitrine">⏱️ Quand c'est mis à jour</h2>
+    <div class="rythme">
+      <div><b>Chaque jour</b><p>Essais, articles, autorisations, résumés par l'IA, alertes.</p></div>
+      <div><b>Chaque semaine</b><p>Les 5 points à retenir, sur le site et par e-mail.</p></div>
+      <div><b>Chaque année</b><p>Les chiffres de marché.</p><small>C'est le rythme de publication de l'Assurance Maladie et de Medicare : impossible d'aller plus vite avec des données gratuites.</small></div>
+    </div>
+
+    <h2 class="titre-vitrine">🤖 L'IA, simplement</h2>
+    <p class="cm-aide" style="margin-top:-6px">L'IA qui écrit est <strong>Gemini</strong>, de Google (offre gratuite).</p>
+    <div class="tuiles-couleur">
+      <div class="tuile-couleur c-orange"><span class="emoji">✍️</span><h3>Elle résume</h3>
+        <p>Pour chaque article : 3 lignes en français et une catégorie (médicament, chirurgie, dispositif, diagnostic…).</p></div>
+      <div class="tuile-couleur c-bleu"><span class="emoji">🔎</span><h3>Elle retrouve par le sens</h3>
+        <p>Un petit modèle installé sur la machine (pas Gemini) relie les textes qui parlent de la même chose : une question en français
+          retrouve un article en anglais, même avec d'autres mots.</p></div>
+      <div class="tuile-couleur c-vert"><span class="emoji">💬</span><h3>Elle répond en citant</h3>
+        <p>L'assistant ne répond qu'avec les articles trouvés et les cite. Sinon, il dit « je ne sais pas ».</p></div>
+      <div class="tuile-couleur c-violet"><span class="emoji">🗓️</span><h3>Elle résume la semaine</h3>
+        <p>Des points sont donnés aux nouveautés : résultats publiés <strong>+6</strong>, essai terminé <strong>+4</strong>, phase 3 <strong>+3</strong>,
+          essai randomisé <strong>+3</strong>, laboratoire promoteur <strong>+2</strong>… L'IA rédige 5 points à partir des mieux notées.</p></div>
+    </div>
+    <div class="bandeau-note">🧾 <strong>Traçabilité</strong> : pour chaque texte écrit par l'IA, on garde quelle IA l'a écrit, avec quelle consigne
+      et quel jour. On sait donc toujours d'où vient un résumé, et on peut le refaire.</div>
+
+    </div>
+
+    <h2 class="titre-section" id="donnees">Pour le jury : les chiffres du moteur</h2>
+    <h3 class="sous-section">1. Les données : la base SQLite</h3>
     <p class="sous-titre">Nombre de lignes de chaque table. Une publication vue par plusieurs sources n'est enregistrée qu'une fois (clés PMID, DOI, NCT).</p>
     <div class="tuiles" id="tables"></div>
 
-    <h2 class="titre-section" id="qualite">2. Les contrôles qualité avant publication</h2>
+    <h3 class="sous-section" id="qualite">2. Les contrôles qualité avant publication</h3>
     <div class="encadre" id="qualite-bloc"></div>
 
-    <h2 class="titre-section" id="performances">3. Les performances mesurées</h2>
+    <h3 class="sous-section" id="performances">3. Les performances mesurées</h3>
     <p class="sous-titre">Calculées sur des jeux jugés à la main : 30 publications pour la classification, 10 questions × 5 résultats pour la recherche.
       Tant que les jugements ne sont pas faits, aucun chiffre n'est affiché.</p>
     <div class="tuiles" id="perf-tuiles"></div>
@@ -73,12 +124,12 @@
     <div class="encadre" id="recherche-perf" style="margin-top:14px"></div>
     <div class="encadre" id="rag" style="margin-top:14px"></div>
 
-    <h2 class="titre-section" id="journal">4. Le journal des exécutions</h2>
+    <h3 class="sous-section" id="journal">4. Le journal des exécutions</h3>
     <p class="sous-titre">Une ligne par source et par passage. Si une source est en panne, l'exécution est « partielle » et les autres continuent.</p>
     <div id="executions"></div>
   </main>
   <footer class="pied" id="pied"></footer>
-  <script src="js/app.js"></script>
+  <script src="js/app.js?v=2f4846b56d"></script>
   <script>
     (function () {
       var V = Veille;
