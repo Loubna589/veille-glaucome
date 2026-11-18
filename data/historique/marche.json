@@ -21,7 +21,7 @@
    "telecharge_le": "2026-11-18",
    "meta": {
     "total_records": 2765,
-    "timestamp": "2026-11-18T06:01:44Z"
+    "timestamp": "2026-11-18T18:03:14Z"
    },
    "ok": true
   },
@@ -5648,22 +5648,6 @@
      "lien": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=020439"
     },
     {
-     "numero": "ANDA074262",
-     "type": "générique (ANDA)",
-     "sponsor": "SANDOZ",
-     "marques": [
-      "TIMOLOL MALEATE"
-     ],
-     "substances": [
-      "TIMOLOL MALEATE"
-     ],
-     "date_approbation": "1995-04-28",
-     "statuts_commerciaux": [
-      "Prescription"
-     ],
-     "lien": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=074262"
-    },
-    {
      "numero": "ANDA074261",
      "type": "générique (ANDA)",
      "sponsor": "SANDOZ",
@@ -5678,6 +5662,22 @@
       "Prescription"
      ],
      "lien": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=074261"
+    },
+    {
+     "numero": "ANDA074262",
+     "type": "générique (ANDA)",
+     "sponsor": "SANDOZ",
+     "marques": [
+      "TIMOLOL MALEATE"
+     ],
+     "substances": [
+      "TIMOLOL MALEATE"
+     ],
+     "date_approbation": "1995-04-28",
+     "statuts_commerciaux": [
+      "Prescription"
+     ],
+     "lien": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=074262"
     },
     {
      "numero": "ANDA074667",
@@ -5744,22 +5744,6 @@
      "lien": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=074747"
     },
     {
-     "numero": "ANDA074778",
-     "type": "générique (ANDA)",
-     "sponsor": "BAUSCH AND LOMB",
-     "marques": [
-      "TIMOLOL MALEATE"
-     ],
-     "substances": [
-      "TIMOLOL MALEATE"
-     ],
-     "date_approbation": "1997-03-25",
-     "statuts_commerciaux": [
-      "Discontinued"
-     ],
-     "lien": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=074778"
-    },
-    {
      "numero": "ANDA074776",
      "type": "générique (ANDA)",
      "sponsor": "BAUSCH AND LOMB",
@@ -5776,9 +5760,9 @@
      "lien": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=074776"
     },
     {
-     "numero": "ANDA074466",
+     "numero": "ANDA074778",
      "type": "générique (ANDA)",
-     "sponsor": "PHARMOBEDIENT",
+     "sponsor": "BAUSCH AND LOMB",
      "marques": [
       "TIMOLOL MALEATE"
      ],
@@ -5789,7 +5773,7 @@
      "statuts_commerciaux": [
       "Discontinued"
      ],
-     "lien": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=074466"
+     "lien": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=074778"
     },
     {
      "numero": "ANDA074465",
@@ -5808,9 +5792,9 @@
      "lien": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=074465"
     },
     {
-     "numero": "ANDA074516",
+     "numero": "ANDA074466",
      "type": "générique (ANDA)",
-     "sponsor": "EPIC PHARMA LLC",
+     "sponsor": "PHARMOBEDIENT",
      "marques": [
       "TIMOLOL MALEATE"
      ],
@@ -5821,7 +5805,7 @@
      "statuts_commerciaux": [
       "Discontinued"
      ],
-     "lien": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=074516"
+     "lien": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=074466"
     },
     {
      "numero": "ANDA074515",
@@ -5838,6 +5822,22 @@
       "Discontinued"
      ],
      "lien": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=074515"
+    },
+    {
+     "numero": "ANDA074516",
+     "type": "générique (ANDA)",
+     "sponsor": "EPIC PHARMA LLC",
+     "marques": [
+      "TIMOLOL MALEATE"
+     ],
+     "substances": [
+      "TIMOLOL MALEATE"
+     ],
+     "date_approbation": "1997-03-25",
+     "statuts_commerciaux": [
+      "Discontinued"
+     ],
+     "lien": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=074516"
     },
     {
      "numero": "NDA020963",

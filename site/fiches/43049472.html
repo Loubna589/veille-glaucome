@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>PMID 43049472 — fiche article</title><style>
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
+:root{--fond:#f4f7fb;--carte:#fff;--texte:#0f1d33;--doux:#52627a;--bord:#e2e8f0;--accent:#0b4f8a;
+--ok:#146c43;--ok-fond:#e3f4ea;--att:#8a5300;--att-fond:#fdf1d8;--ver:#b42318;--ver-fond:#fdeceb;
+--reg:#3f3c9e;--reg-fond:#ecebfb;--src-fond:#f1f5f9;--mark:#fff1a8;--manque:#b42318;--turquoise:#14b8a6;}
+@media (prefers-color-scheme:dark){:root{--fond:#0a1120;--carte:#101a2c;--texte:#e6edf7;--doux:#9db0ca;
+--bord:#1e2b42;--accent:#6fb4ff;--ok:#6fd6a0;--ok-fond:#12301f;--att:#f3c15e;--att-fond:#352a10;--ver:#ff9a8f;
+--ver-fond:#3a1714;--reg:#b4b2ff;--reg-fond:#24234a;--src-fond:#0d1626;--mark:#5a4d10;--manque:#ff9a8f;--turquoise:#2dd4bf;}}
+*{box-sizing:border-box}body{margin:0;background:var(--fond);color:var(--texte);
+font:15.5px/1.6 "Inter",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+:focus-visible{outline:3px solid var(--turquoise);outline-offset:2px;border-radius:6px}
+main{max-width:1000px;margin:0 auto;padding:20px 18px 64px}
+.bandeau{display:flex;align-items:center;gap:10px;font-weight:800;letter-spacing:-.02em;padding:6px 0 14px;color:var(--texte);text-decoration:none}
+.bandeau i{width:30px;height:30px;border-radius:9px;background:linear-gradient(135deg,#0b4f8a,#14b8a6);display:inline-block}
+header,section{background:var(--carte);border:1px solid var(--bord);border-radius:16px;padding:20px 24px;margin:0 0 16px;
+box-shadow:0 1px 2px rgba(15,29,51,.04),0 6px 20px -8px rgba(15,29,51,.12)}
+h1{font-size:1.45rem;line-height:1.3;margin:.2em 0 .5em}h2{font-size:1.1rem;margin:0 0 .6em;color:var(--accent)}
+h3{font-size:1rem;margin:1.1em 0 .4em}.surtitre{color:var(--doux);margin:0;font-size:.9rem}
+a{color:var(--accent)}small,.def{color:var(--doux)}.def{font-size:.88rem;margin:.2em 0 .6em}
+.grille{display:grid;grid-template-columns:max-content 1fr;gap:4px 16px;margin:12px 0 0}
+.grille dt{color:var(--doux)}.grille dd{margin:0}
+.badge{display:inline-block;font-size:.72rem;font-weight:600;padding:2px 8px;border-radius:999px;margin:2px 4px 2px 0;
+vertical-align:middle;background:var(--src-fond);color:var(--doux)}
+.badge.confirme{background:var(--ok-fond);color:var(--ok)}.badge.attente{background:var(--att-fond);color:var(--att)}
+.badge.verifier{background:var(--ver-fond);color:var(--ver)}.badge.regle{background:var(--reg-fond);color:var(--reg)}
+.rubrique{font-weight:600}.manque{color:var(--manque);font-style:italic}
+mark{background:var(--mark);color:inherit;padding:0 2px;border-radius:3px}
+blockquote{margin:.5em 0;padding:.5em .9em;border-left:3px solid var(--bord);background:var(--src-fond);border-radius:0 6px 6px 0}
+pre{white-space:pre-wrap;font-size:.85rem;background:var(--src-fond);padding:10px;border-radius:6px}
+.defile{overflow-x:auto}table{border-collapse:collapse;width:100%;font-size:.92rem;margin:.4em 0}
+th,td{border:1px solid var(--bord);padding:6px 8px;text-align:left;vertical-align:top}th{background:var(--src-fond)}
+.analyse{background:var(--src-fond);padding:6px 10px;border-radius:6px;font-size:.92rem}
+.acteurs{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px}
+.acteurs>div{border:1px solid var(--bord);border-radius:8px;padding:10px 12px}.acteurs h3{margin-top:0}
+.copier{position:sticky;top:0;z-index:2;display:flex;gap:12px;align-items:center;flex-wrap:wrap;
+background:var(--fond);padding:10px 0;margin-bottom:8px}
+button{font:inherit;font-weight:600;background:var(--accent);color:#fff;border:0;border-radius:8px;padding:9px 16px;cursor:pointer}
+@media (prefers-color-scheme:dark){button{color:#10141a}}
+textarea{width:100%;min-height:260px;font:13px/1.4 ui-monospace,Consolas,monospace;background:var(--src-fond);
+color:var(--texte);border:1px solid var(--bord);border-radius:6px;padding:8px}
+details{margin:.5em 0}summary{cursor:pointer;color:var(--accent)}
+.retour{font-size:.92rem;margin:0 0 4px}
+
+.acces p{margin:.5em 0}.bouton-acces{display:inline-block;font-weight:600;background:var(--accent);color:#fff;border:0;
+border-radius:8px;padding:8px 14px;text-decoration:none;cursor:pointer;font:inherit;font-weight:600}
+.bouton-acces.secondaire{background:var(--carte);color:var(--accent);border:1.5px solid var(--accent)}
+.ref-peb{min-height:140px;margin-top:8px}
+.statut-acces{padding:8px 12px;border-radius:8px;border-left:4px solid var(--doux)}
+.statut-acces--libre{border-left-color:#2e9d5b;background:rgba(46,157,91,.10)}
+.statut-acces--payant{border-left-color:#c2553f;background:rgba(194,85,63,.10)}
+.lien-secours{background:none;border:0;padding:0;color:var(--accent);text-decoration:underline;font-weight:400;font-size:.88rem;cursor:pointer}
+@media (prefers-color-scheme:dark){.bouton-acces{color:#10141a}.bouton-acces.secondaire{color:var(--accent)}}
+
+@media (max-width:600px){.grille{grid-template-columns:1fr}.grille dt{margin-top:6px}header,section{padding:14px}}
+</style></head>
+<body><main>
+<a class="bandeau" href="../index.html"><i aria-hidden="true"></i>Glaucoma Intelligence</a><nav class="retour"><a href="../index.html">Accueil</a> · <a href="../etudes.html">← Essais &amp; articles</a> · <a href="../recherche.html">Rechercher</a> · <a href="../carte.html">Carte des acteurs</a> · <a href="../alertes.html">Alertes</a></nav>
+<div class="copier"><button id="bouton-copier" type="button" onclick="copierFiche()">Copier pour Claude / ChatGPT</button>
+<small>Copie une consigne + les faits de cette fiche, à coller dans votre assistant.</small></div>
+
+    <header>
+      <p class="surtitre">Fiche article · PMID 43049472 · <a href="https://pubmed.ncbi.nlm.nih.gov/43049472/" target="_blank" rel="noopener">voir sur PubMed</a>
+         · <a href="https://doi.org/10.1167/tvst.15.11.17" target="_blank" rel="noopener">DOI 10.1167/tvst.15.11.17</a></p>
+      <h1 lang="en">Circumferential Identification of Peripheral Anterior Synechiae by Air-Puff Dynamic Anterior Segment Optical Coherence Tomography.</h1>
+      <p><span class="badge confirme">PUBLICATION — le résumé rapporte des résultats</span> <span class="badge verifier">Synthèse fondée UNIQUEMENT sur le résumé PubMed : le texte intégral n'a pas été lu.</span></p>
+      <dl class="grille">
+        <dt>Revue</dt><dd>Translational vision science &amp; technology</dd>
+        <dt>Entrée dans PubMed</dt><dd>2026-11-18 · publication : 2026-Nov-02</dd>
+        <dt>Type(s) de publication (PubMed)</dt><dd lang="en">Journal Article</dd>
+        <dt>Stade</dt><dd>Non renseigné <small>(pas d'indexation MeSH disponible)</small></dd>
+        <dt>Accès au texte (OpenAlex)</dt><dd>non rapporté</dd>
+        <dt>Détecté par l'outil le</dt><dd>2026-11-18</dd>
+      </dl>
+      <p class="rubriques"><strong>Rubrique :</strong> <span class="rubrique">Diagnostic et IA</span> <small>mot du titre : « Optical Coherence Tomography »</small> <span class="badge regle">classement automatique — règles dans config/rubriques.ini</span></p>
+    </header>
+<section><h2>Résumé et classification (IA) <span class="badge verifier">Généré par IA, non vérifié</span></h2><ul><li>L'objectif de cette étude était d'identifier objectivement et précisément les synéchies antérieures périphériques de manière circonférentielle dans les yeux atteints de glaucome par fermeture de l'angle.</li><li>La méthode a consisté à analyser 143 images de tomographie en cohérence optique du segment antérieur dynamique à jet d'air provenant de 20 yeux pour établir un modèle de régression logistique binaire.</li><li>Le modèle à double paramètre a atteint une aire sous la courbe de 0,913 dans le groupe de test avec une précision globale de 83,7 %.</li></ul><p><strong>Catégorie : Diagnostic / imagerie</strong> — L'étude évalue un système de tomographie en cohérence optique du segment antérieur dynamique à jet d'air pour l'identification des synéchies.</p><p><small>Modèle gemini-flash-lite-latest · prompt resume_classification_v1 · le 2026-11-18 · statut : non_verifie · à partir du titre et du résumé de la source uniquement.</small></p></section><section class="acces"><h2>Lire l'article en entier</h2><p><p class="statut-acces statut-acces--inconnu"><strong>❔ Accès inconnu</strong><br><small>Ni PubMed Central ni OpenAlex ne disent si l'article est gratuit : essayez le lien de l'éditeur, sinon demandez-le à l'auteur, sur ResearchGate ou à la BU. Certains boutons peuvent manquer : « Texte intégral gratuit » n'apparaît que si une version gratuite est déclarée, le bouton pour écrire à l'auteur que si PubMed donne son e-mail.</small></p></p><p><a class="bouton-acces secondaire" href="https://www.researchgate.net/search/publication?q=Circumferential%20Identification%20of%20Peripheral%20Anterior%20Synechiae%20by%20Air-Puff%20Dynamic%20Anterior%20Segment%20Optical%20Coherence%20Tomography" target="_blank" rel="noopener">Chercher sur ResearchGate</a><small> recherche l'article par son titre. S'il y est, connectez-vous avec votre compte et cliquez sur « Request full-text » : l'auteur reçoit votre demande.</small></p><p><a class="bouton-acces secondaire" href="https://catalogue-bu.uca.fr/discovery/openurl?institution=33CLERMONT_BCIU&amp;vid=33CLERMONT_BCIU:33CLERMONT_VU1&amp;lang=fr&amp;ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.atitle=Circumferential+Identification+of+Peripheral+Anterior+Synechiae+by+Air-Puff+Dynamic+Anterior+Segment+Optical+Coherence+Tomography.&amp;rft.jtitle=Translational+vision+science+%26+technology&amp;rft.date=2026&amp;rft.doi=10.1167%2Ftvst.15.11.17&amp;rft_id=info%3Adoi%2F10.1167%2Ftvst.15.11.17&amp;rft.pmid=43049472&amp;rft_id=info%3Apmid%2F43049472" target="_blank" rel="noopener">Demander à la BU</a><small> ouvre le catalogue de la BU avec la référence de cet article : connectez-vous avec l'ENT, choisissez la demande de prêt entre bibliothèques (PEB), relisez et envoyez vous-même.</small></p><p><button type="button" class="lien-secours" onclick="demanderBU(this)" data-url="https://catalogue-bu.uca.fr/discovery/blankIll?vid=33CLERMONT_BCIU:33CLERMONT_VU1&amp;lang=fr">Si la référence n'apparaît pas : copier la référence et ouvrir le formulaire PEB vierge</button><textarea class="ref-peb" hidden readonly>Type de référence : Article
+Titre de l&#x27;article : Circumferential Identification of Peripheral Anterior Synechiae by Air-Puff Dynamic Anterior Segment Optical Coherence Tomography.
+Revue : Translational vision science &amp; technology
+Année : 2026
+DOI : 10.1167/tvst.15.11.17
+PMID : 43049472 (https://pubmed.ncbi.nlm.nih.gov/43049472/)
+Format souhaité : numérique</textarea></p></section><section><h2>Question étudiée <span class="badge source">Résumé PubMed (texte source)</span></h2><blockquote lang="en"><strong>PURPOSE</strong> The purpose of this study was to objectively and accurately identify peripheral anterior synechiae (PAS) circumferentially in eyes with angle-closure glaucoma (ACG).</blockquote></section><section><h2>Traitement ou technologie, et comparateur <span class="badge regle">règle automatique de l'outil</span></h2><ul><li><span class="manque">Aucun produit suivi ni molécule repérés automatiquement</span></li></ul><p class="def">Aucun rôle n'est confirmé : PubMed ne décrit pas les bras d'une étude. Un rôle pourrait être confirmé par le registre d'un essai lié de façon confirmée.</p></section><section><h2>Type d'étude et méthode <span class="badge source">Résumé PubMed (texte source)</span><span class="badge source">PubMed (types de publication)</span></h2><p>Type(s) de publication déclaré(s) par PubMed : <span lang="en">Journal Article</span></p><blockquote lang="en"><strong>METHODS</strong> Anterior chamber angles (ACAs) were classified as PAS or non-PAS (NPAS) groups by indentation gonioscopy. A custom-built air-puff dynamic anterior segment optical coherence tomography (DAS-OCT) system with an innovative <mark>4</mark>-leaf clover-scan pattern acquired <mark>10</mark> frames per ACA along <mark>8</mark> radial directions at <mark>45</mark>-degree intervals within <mark>65</mark> ms. Dynamic parameters including the differences in angle opening distance at <mark>750</mark> µm from the scleral spur (AOD750) and trabecular-iris space area at <mark>750</mark> µm anterior to the scleral spur (TISA750) before and after air-puff stimulation, were extracted to establish a binary logistic regression model. Model performance was evaluated in the testing set.</blockquote></section><section><h2>Population et participants (phrases du résumé) <span class="badge source">Résumé PubMed (texte source)</span></h2><p><span class="manque">Nombre de participants non rapporté dans le résumé</span></p></section><section><h2>Résultats disponibles <span class="badge source">Résumé PubMed (texte source)</span></h2><p class="def">Valeurs chiffrées surlignées telles qu'elles figurent dans le résumé. Elles n'ont pas été vérifiées dans le texte intégral.</p><blockquote lang="en"><strong>RESULTS</strong> Analysis of <mark>68</mark> images from <mark>9</mark> healthy eyes confirmed high measurement repeatability (intraclass correlation coefficient [ICC] <mark>= 0.821</mark> for AOD750dif; <mark>0.775</mark> for TISA750dif). A total of <mark>143</mark> anterior segment OCT (AS-OCT) images from <mark>20</mark> ACG eyes were analyzed, with <mark>100</mark> assigned to the training set and <mark>43</mark> to the testing set. Significant differences in AOD750dif and TISA750dif were identified between the NPAS and PAS groups (P &lt; <mark>0.001</mark>). The dual-parameter model achieved an area under the curve (AUC) of <mark>0.924</mark> in the training set and <mark>0.913</mark> in the testing set, with an overall accuracy of <mark>83.7%</mark>.</blockquote></section><section><h2>Données de tolérance (phrases du résumé) <span class="badge source">Résumé PubMed (texte source)</span></h2><p><span class="manque">Aucune donnée de tolérance dans le résumé</span></p></section><section><h2>Conclusion des auteurs (citée telle quelle, non évaluée par l'outil) <span class="badge source">Résumé PubMed (texte source)</span></h2><blockquote lang="en"><strong>CONCLUSIONS</strong> The air-puff DAS-OCT system enables the noninvasive, dynamic, and circumferential identification of PAS, demonstrating high diagnostic performance.</blockquote></section><section><h2>Essai clinique lié <span class="badge source">PubMed (DataBankList et texte)</span></h2><ul><li><span class="manque">Aucun essai lié identifié</span></li></ul></section><section><h2>Promoteur, financeur et affiliations <span class="badge source">PubMed</span><span class="badge source">OpenAlex</span><span class="badge source">Crossref</span></h2><div class="acteurs">
+      <div><h3>Promoteur d'essai</h3><p class="def">Organisme responsable d'un essai, déclaré au registre.</p><p><span class="manque">Non affiché : aucun essai lié de façon confirmée</span></p></div>
+      <div><h3>Financeur</h3><p class="def">Organisme qui a financé la recherche, avec la notice qui le justifie.</p><p><span class="manque">Aucun financeur trouvé (PubMed, OpenAlex, Crossref)</span></p></div>
+      <div><h3>Affiliations des auteurs</h3><p class="def">Établissements où travaillent les auteurs (pas un financement).</p><details><summary>Affiliations telles que déclarées dans PubMed (2)</summary><ul><li>Eye Hospital and School of Ophthalmology and Optometry, Wenzhou Medical University, Wenzhou, Zhejiang, People's Republic of China.</li><li>National Clinical Research Center for Ocular Diseases, Eye Hospital, Wenzhou Medical University, Wenzhou, People's Republic of China.</li></ul></details></div>
+    </div></section>
+<section><h2>Ce qui manque <span class="badge regle">calculé par l'outil</span></h2><ul><li>population et nombre de participants</li><li>données de tolérance</li><li>financeur</li></ul></section>
+<section><h2>Limites, intérêt pour la veille marketing, à retenir <span class="badge attente">non produit par l'outil</span></h2><p><span class="manque">Non rédigé automatiquement : les données extraites ne suffisent pas à produire une analyse fiable sans interprétation. Utilisez le bouton « Copier pour Claude / ChatGPT » pour obtenir une proposition, à vérifier.</span></p></section>
+<section><details><summary>Voir le texte copié par le bouton</summary>
+<textarea id="a-copier" readonly>Tu es assistant de veille scientifique sur le glaucome. À partir UNIQUEMENT des informations ci-dessous, rédige en français une fiche de synthèse avec ces rubriques :
+1. Question étudiée
+2. Traitement ou technologie
+3. Type d&#x27;étude
+4. Population et nombre de participants
+5. Comparateur
+6. Critères évalués
+7. Principaux résultats chiffrés (recopie les valeurs exactes et indique leur source)
+8. Données de tolérance
+9. Limites
+10. Intérêt potentiel pour une veille marketing — présenté comme une INTERPRÉTATION, séparé des faits
+11. À retenir (une phrase)
+
+Règles :
+- N&#x27;invente rien. Si une information manque, écris « non rapporté ».
+- Distingue un essai simplement enregistré, un protocole, des résultats déposés dans un registre et une publication de résultats.
+- Si la source est seulement le résumé d&#x27;un article, indique que la synthèse repose uniquement sur ce résumé.
+- Les rôles « suggérés » (traitement étudié / comparateur) sont à vérifier dans le texte source.
+- Ne confonds pas promoteur d&#x27;essai, financeur et affiliation des auteurs.
+- Termine par la liste des points à vérifier.
+
+=== INFORMATIONS ===
+SOURCE : PubMed, PMID 43049472 — https://pubmed.ncbi.nlm.nih.gov/43049472/ · DOI https://doi.org/10.1167/tvst.15.11.17
+BASE : résumé PubMed uniquement (texte intégral non lu)
+Titre : Circumferential Identification of Peripheral Anterior Synechiae by Air-Puff Dynamic Anterior Segment Optical Coherence Tomography.
+Revue : Translational vision science &amp; technology · entrée PubMed : 2026-11-18
+Types de publication (PubMed) : Journal Article
+Produits repérés automatiquement (rôles SUGGÉRÉS, à vérifier) : aucun
+Molécules hors liste (repérage automatique, à vérifier) : aucune
+Essai lié : aucun
+Financeurs : aucun trouvé
+Affiliations (institutions, pas des financeurs) : voir PubMed
+
+RÉSUMÉ (texte source) :
+PURPOSE: The purpose of this study was to objectively and accurately identify peripheral anterior synechiae (PAS) circumferentially in eyes with angle-closure glaucoma (ACG).
+METHODS: Anterior chamber angles (ACAs) were classified as PAS or non-PAS (NPAS) groups by indentation gonioscopy. A custom-built air-puff dynamic anterior segment optical coherence tomography (DAS-OCT) system with an innovative 4-leaf clover-scan pattern acquired 10 frames per ACA along 8 radial directions at 45-degree intervals within 65 ms. Dynamic parameters including the differences in angle opening distance at 750 µm from the scleral spur (AOD750) and trabecular-iris space area at 750 µm anterior to the scleral spur (TISA750) before and after air-puff stimulation, were extracted to establish a binary logistic regression model. Model performance was evaluated in the testing set.
+RESULTS: Analysis of 68 images from 9 healthy eyes confirmed high measurement repeatability (intraclass correlation coefficient [ICC] = 0.821 for AOD750dif; 0.775 for TISA750dif). A total of 143 anterior segment OCT (AS-OCT) images from 20 ACG eyes were analyzed, with 100 assigned to the training set and 43 to the testing set. Significant differences in AOD750dif and TISA750dif were identified between the NPAS and PAS groups (P &lt; 0.001). The dual-parameter model achieved an area under the curve (AUC) of 0.924 in the training set and 0.913 in the testing set, with an overall accuracy of 83.7%.
+CONCLUSIONS: The air-puff DAS-OCT system enables the noninvasive, dynamic, and circumferential identification of PAS, demonstrating high diagnostic performance.
+TRANSLATIONAL RELEVANCE: This non-contact imaging technology offers a quantitative alternative to indentation gonioscopy, potentially improving ACG screening efficiency and guiding clinical management.</textarea></details></section>
+<p><small>Fiche générée le 2026-11-18 19:24 par Glaucoma Intelligence. Extraits des sources en langue originale.</small></p>
+</main><script>
+function copierFiche(){
+  var zone=document.getElementById('a-copier'), bouton=document.getElementById('bouton-copier');
+  function fait(){bouton.textContent='Copié ✓ — collez dans Claude ou ChatGPT';setTimeout(function(){bouton.textContent='Copier pour Claude / ChatGPT'},3000);}
+  function secours(){zone.parentElement.open=true;zone.select();try{document.execCommand('copy');fait();}
+    catch(err){bouton.textContent='Sélectionnez le texte ci-dessous puis Ctrl+C';}}
+  if(navigator.clipboard&&window.isSecureContext){navigator.clipboard.writeText(zone.value).then(fait,secours);}else{secours();}
+}
+
+function demanderBU(b){
+  var ref=(b.parentElement.querySelector('.ref-peb')||b.parentElement.parentElement.querySelector('.ref-peb')).value, url=b.getAttribute('data-url'), libelle=b.textContent;
+  function fini(ok){b.textContent=ok?'Référence copiée ✓':'Copiez la référence ci-dessous';
+    if(!ok){var t=b.parentElement.querySelector('.ref-peb');t.hidden=false;t.select();}
+    if(url){window.open(url,'_blank','noopener');}else{b.textContent+=' — ouvrez l’onglet « Demande PEB » du catalogue de la BU';}
+    setTimeout(function(){b.textContent=libelle},6000);}
+  if(navigator.clipboard&&window.isSecureContext){navigator.clipboard.writeText(ref).then(function(){fini(true)},function(){fini(false)});}
+  else{fini(false);}
+}
+</script></body></html>

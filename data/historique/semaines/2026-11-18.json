@@ -3,34 +3,20 @@
  "fin": "2026-11-18",
  "genere_le": "2026-11-18",
  "chiffres": {
-  "articles": 66,
+  "articles": 69,
   "nouveaux_essais": 2,
   "changements_essais": 1
  },
- "mode": "regles",
- "modele": null,
- "version_prompt": null,
+ "mode": "ia",
+ "modele": "gemini-flash-lite-latest",
+ "version_prompt": "semaine_v1",
  "points": [
   {
-   "titre": "Comparative Study of the Tomey FT-1000, and Goldmann Applanation Tonometer (GAT)",
-   "sources": [
-    "NCT07804277"
-   ],
-   "texte": "Changement sur un essai suivi : changement de statut : RECRUITING → COMPLETED ; recrutement modifié : 30 → 40 ; nouvelle date de fin : 2026-09-28 → 2026-10-09 (Sélectionné pour : changement de statut, recrutement modifié, nouvelle date de fin.)",
-   "liens": [
-    {
-     "id": "NCT07804277",
-     "lien": "https://clinicaltrials.gov/study/NCT07804277",
-     "fiche": null
-    }
-   ]
-  },
-  {
-   "titre": "Ocular hyperemia with netarsudil/latanoprost fixed combination in glaucoma: an exploratory association analysis of tolerability outcomes by prior topical therapy and baseline ocular hyperemia.",
+   "titre": "Tolérance de l'association fixe nétarsudil/latanoprost",
+   "texte": "Selon le résumé, une analyse post hoc de l'essai MERCURY-3 indique que les patients avec une hyperémie basale ont présenté des taux plus élevés d'événements indésirables sous NET/LAT.",
    "sources": [
     "PMID:43046532"
    ],
-   "texte": "Évaluer les facteurs associés à l'hyperémie oculaire basale et aux résultats de tolérance de l'association fixe nétarsudil/latanoprost (NET/LAT). Une analyse post hoc de l'essai prospectif MERCURY-3 incluant des adultes atteints de glaucome à angle ouvert ou d'hypertension oculaire randomisés sous NET/LAT ou… (Sélectionné pour : article de la semaine, produit suivi étudié : latanoprost, netarsudil.)",
    "liens": [
     {
      "id": "PMID:43046532",
@@ -40,11 +26,25 @@
    ]
   },
   {
-   "titre": "Effect of a Nicotinamide Riboside-Based Dietary Supplement on Retinal Function in Glaucoma (BRIGHT)",
+   "titre": "Avantage de la SLT par rapport aux médicaments",
+   "texte": "Une analyse secondaire de l'essai LiGHT montre que le traitement médicamenteux de première intention est associé à une plus grande morbidité de la surface oculaire et oculoplastique que la stratégie par trabéculoplastie au laser sélectif.",
+   "sources": [
+    "PMID:43017931"
+   ],
+   "liens": [
+    {
+     "id": "PMID:43017931",
+     "lien": "https://pubmed.ncbi.nlm.nih.gov/43017931/",
+     "fiche": "fiches/43017931.html"
+    }
+   ]
+  },
+  {
+   "titre": "Nouvel essai sur un complément alimentaire",
+   "texte": "Un nouvel essai clinique, BRIGHT, évalue si un complément alimentaire à base de nicotinamide riboside améliore la fonction rétinienne chez des adultes atteints de glaucome à angle ouvert.",
    "sources": [
     "NCT07945340"
    ],
-   "texte": "Evaluer si un complement alimentaire a base de nicotinamide riboside ameliore la fonction des cellules ganglionnaires retiniennes chez des adultes atteints de glaucome a angle ouvert. Un essai clinique comparant le complement a un placebo chez des participants prenant deja des collyres hypotenseurs. (Sélectionné pour : nouvel essai.)",
    "liens": [
     {
      "id": "NCT07945340",
@@ -54,30 +54,30 @@
    ]
   },
   {
-   "titre": "Artificial Intelligence-Based Eye Disease Diagnosis in Hospital Eye Clinics",
+   "titre": "Performance d'un score de risque génétique",
+   "texte": "Une étude d'association génétique portant sur plus de 6 millions d'individus montre que les personnes du décile supérieur du score de risque polygénique présentent un risque multiplié par environ 10 d'avoir un glaucome à angle ouvert.",
    "sources": [
-    "NCT07945366"
+    "PMID:43020385"
    ],
-   "texte": "Évaluer les performances diagnostiques d'un programme d'intelligence artificielle analysant des photographies du fond d'œil. Étude observationnelle menée auprès de patients dans des cliniques ophtalmologiques à Pékin. Résultat non précisé dans le résumé (Sélectionné pour : nouvel essai.)",
    "liens": [
     {
-     "id": "NCT07945366",
-     "lien": "https://clinicaltrials.gov/study/NCT07945366",
-     "fiche": null
+     "id": "PMID:43020385",
+     "lien": "https://pubmed.ncbi.nlm.nih.gov/43020385/",
+     "fiche": "fiches/43020385.html"
     }
    ]
   },
   {
-   "titre": "Pregabalin and α2δ Subunit Modulation: A Systematic Review of Preclinical Evidence for Intraocular Pressure Regulation and Retinal Neuroprotection.",
+   "titre": "Fin d'un essai comparatif de tonométrie",
+   "texte": "L'essai comparatif mesurant le Tomey FT-1000 et le tonomètre à aplanissement de Goldmann a changé son statut de RECRUITING à COMPLETED avec un recrutement modifié à 40 participants.",
    "sources": [
-    "PMID:43030824"
+    "NCT07804277"
    ],
-   "texte": "Évaluer les preuves précliniques concernant la modulation des sous-unités alpha-2-delta par la prégabaline pour la régulation de la pression intraoculaire et la neuroprotection rétinienne. (Sélectionné pour : article de la semaine, produit suivi cité : latanoprost.)",
    "liens": [
     {
-     "id": "PMID:43030824",
-     "lien": "https://pubmed.ncbi.nlm.nih.gov/43030824/",
-     "fiche": "fiches/43030824.html"
+     "id": "NCT07804277",
+     "lien": "https://clinicaltrials.gov/study/NCT07804277",
+     "fiche": null
     }
    ]
   }
