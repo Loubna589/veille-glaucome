@@ -44,7 +44,7 @@
     (function () {
       var V = Veille;
       V.monterNavigation("alertes");
-      var LIB = { nouvel_essai: "Nouvel essai", changement_statut: "Nouveau statut", changement_recrutement: "Nombre de participants modifié",
+      var LIB = { nouvel_essai: "Nouvel essai", changement_statut: "Nouveau statut", changement_recrutement: "Recrutement modifié",
         changement_date_fin: "Nouvelle date de fin", changement_phase: "Nouvelle phase", resultats_deposes: "Résultats publiés" };
       var STATUTS = { RECRUITING: "recrute", NOT_YET_RECRUITING: "pas encore ouvert", ACTIVE_NOT_RECRUITING: "en cours, ne recrute plus",
         ENROLLING_BY_INVITATION: "sur invitation", COMPLETED: "terminé", TERMINATED: "arrêté", WITHDRAWN: "retiré", SUSPENDED: "suspendu",
@@ -57,7 +57,7 @@
             var chg = e.type === "nouvel_essai" ? '<span class="vide">nouvel essai ajouté à la veille</span>' :
               V.esc(val(e.avant)) + " → <strong>" + V.esc(val(e.apres)) + "</strong>";
             return "<tr><td>" + V.esc(V.date(e.date_detection)) + '</td><td><span class="badge ' + (e.type === "nouvel_essai" ? "" : "att") + '">' +
-              V.esc(LIB[e.type] || e.type) + '</span></td><td><a href="fiches/' + V.esc(e.objet_id) + '.html">' + V.esc(e.objet_id) + "</a><br><small>" +
+              V.esc(e.champ === "participants_nombre" ? "Nombre de participants modifié" : (LIB[e.type] || e.type)) + '</span></td><td><a href="fiches/' + V.esc(e.objet_id) + '.html">' + V.esc(e.objet_id) + "</a><br><small>" +
               V.esc((e.titre || "").slice(0, 110)) + "</small></td><td>" + chg + "</td></tr>";
           }).join("") + "</tbody></table></div>";
       }

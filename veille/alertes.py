@@ -54,7 +54,7 @@ def texte_markdown(evenements, titre="Alertes de la veille glaucome"):
     for ev in evenements:
         detail = f" : `{ev['avant']}` → `{ev['apres']}`" if ev.get("champ") and ev["type"] != "nouvel_essai" else ""
         url = lien(ev)
-        lignes.append(f"- **{LIBELLES.get(ev['type'], ev['type'])}** — [{ev['objet_id']}]({url}) "
+        lignes.append(f"- **{'Nombre de participants modifié' if ev.get('champ') == 'participants_nombre' else LIBELLES.get(ev['type'], ev['type'])}** — [{ev['objet_id']}]({url}) "
                       f"{(ev.get('titre') or '')[:110]}{detail} _(détecté le {ev['date_detection']})_")
     return "\n".join(lignes) + "\n"
 
