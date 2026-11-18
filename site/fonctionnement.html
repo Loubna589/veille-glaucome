@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Comment ça marche — Glaucoma Intelligence</title>
-  <meta name="description" content="La partie technique de Glaucoma Intelligence : collecte de 11 sources publiques, base SQLite, contrôles qualité, IA traçable, journal des exécutions et mesures de performance.">
+  <meta name="description" content="La partie technique de Glaucoma Intelligence : sources officielles, base SQLite, contrôles qualité, IA Gemini, journal des exécutions et mesures de performance.">
   <link rel="canonical" href="https://loubna589.github.io/veille-glaucome/fonctionnement.html">
   <link rel="stylesheet" href="css/style.css">
 </head>
@@ -13,13 +13,13 @@
   <main class="page">
     <header class="hero">
       <h1>Comment ça marche</h1>
-      <p>La partie technique, pour le jury : chaque matin, un programme Python sur GitHub Actions interroge 11 sources
-        publiques (4 scientifiques, 7 réglementaires), range tout dans une base SQLite, contrôle la qualité, fait analyser les textes par une IA traçable,
-        puis publie ce site. Tout est journalisé et mesuré.</p>
+      <p>Chaque jour, un robot (GitHub Actions) lance un programme Python. Il interroge les sources officielles, range tout dans
+        une base de données (SQLite), vérifie la qualité, fait résumer les textes par l'IA <strong>Gemini</strong> (Google, offre gratuite),
+        puis publie ce site. Si un test échoue, rien n'est publié : l'ancienne version reste en ligne.</p>
     </header>
 
     <figure class="encadre" style="margin:0 0 8px;padding:10px;overflow-x:auto">
-      <img src="img/architecture.svg" alt="Schéma : 11 sources publiques (4 scientifiques, 7 réglementaires), GitHub Actions et Python, SQLite, IA, contrôles et export JSON, GitHub Pages, alertes, couche intelligence (embeddings, recherche, assistant, carte, performances)" style="width:100%;min-width:680px;height:auto;display:block">
+      <img src="img/architecture.svg" alt="Schéma : sources officielles, robot quotidien et tests, base de données, IA Gemini, contrôles qualité, site ; sorties : alertes, e-mail de la semaine, fiches concurrents, accès aux articles, chiffres de marché" style="width:100%;min-width:680px;height:auto;display:block">
     </figure>
 
     <h2 class="titre-section" id="donnees">1. Les données : la base SQLite</h2>

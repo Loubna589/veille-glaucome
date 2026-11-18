@@ -53,6 +53,23 @@ border-radius:8px;padding:8px 14px;text-decoration:none;cursor:pointer;font:inhe
 .lien-secours{background:none;border:0;padding:0;color:var(--accent);text-decoration:underline;font-weight:400;font-size:.88rem;cursor:pointer}
 @media (prefers-color-scheme:dark){.bouton-acces{color:#10141a}.bouton-acces.secondaire{color:var(--accent)}}
 
+.qualite-etude h2 small{font-weight:400;font-size:.8rem;color:var(--doux);margin-left:6px}
+.qe-grille{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(280px,100%),1fr));gap:18px}
+.qe-force{display:inline-block;font-weight:800;border-radius:999px;padding:4px 14px;margin:0 0 8px;color:#fff;background:#64748b}
+.qe-n1,.qe-n2{background:#146c43}.qe-n3{background:#a16207}.qe-n4{background:#c2410c}.qe-n5{background:#b42318}.qe-n0{background:#4f46e5}
+.pyramide{list-style:none;padding:0;margin:10px 0 0;display:grid;gap:4px;justify-items:center}
+.pyramide li{background:var(--carte-2);border:1px solid var(--bord);border-radius:6px;padding:4px 8px;font-size:.8rem;color:var(--doux);text-align:center}
+.pyramide li b{color:var(--texte);margin-right:4px}
+.pyramide .pyr-1{width:52%}.pyramide .pyr-2{width:64%}.pyramide .pyr-3{width:76%}.pyramide .pyr-4{width:88%}.pyramide .pyr-5{width:100%}
+.pyramide li.actif{background:var(--accent);border-color:var(--accent);color:#fff;font-weight:700}.pyramide li.actif b{color:#fff}
+.qe-criteres{list-style:none;padding:0;margin:0;display:grid;gap:6px}
+.qe-criteres li{display:grid;grid-template-columns:22px 1fr;column-gap:6px;font-size:.9rem}
+.qe-criteres li small{grid-column:2;color:var(--doux)}
+.qe-criteres li span{font-weight:800;text-align:center}
+.qe-criteres li.oui span{color:#146c43}.qe-criteres li.non{opacity:.75}
+.qe-alerte{background:var(--att-fond);border-radius:8px;padding:6px 10px;margin:8px 0 0;font-size:.88rem}
+@media (prefers-color-scheme:dark){.pyramide li.actif{color:#0a1120}.pyramide li.actif b{color:#0a1120}.qe-criteres li.oui span{color:#6fd6a0}}
+
 @media (max-width:600px){.grille{grid-template-columns:1fr}.grille dt{margin-top:6px}header,section{padding:14px}}
 </style></head>
 <body><main>
@@ -179,7 +196,7 @@ DESCRIPTION (registre, texte source) :
 The purpose of this study is to determine if injections of aflibercept into the eye given at the end of the Ahmed tube surgery as well as at postoperative months one and two would improve eye pressure control compared to standard surgery with no aflibercept.
 
 RÉSULTATS : aucun résultat déposé au registre.</textarea></details></section>
-<p><small>Fiche générée le 2026-11-18 21:18 par Glaucoma Intelligence. Extraits des sources en langue originale.</small></p>
+<p><small>Fiche générée le 2026-11-18 21:44 par Glaucoma Intelligence. Extraits des sources en langue originale.</small></p>
 </main><script>
 function copierFiche(){
   var zone=document.getElementById('a-copier'), bouton=document.getElementById('bouton-copier');

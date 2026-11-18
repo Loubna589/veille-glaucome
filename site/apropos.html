@@ -12,30 +12,61 @@
 </head>
 <body>
   <div id="nav"></div>
-  <main class="page methode">
-    <header class="hero">
-      <h1>À propos</h1>
-      <p>Glaucoma Intelligence est un projet de veille réalisé par <strong>Loubna</strong>, dans le cadre du
-        <strong>M2 MOD de l'IAE Clermont Auvergne</strong>.</p>
-    </header>
+  <main class="page">
+    <section class="vitrine">
+      <span class="pastille">Projet pédagogique</span>
+      <h1>Glaucoma Intelligence</h1>
+      <p>Projet de veille réalisé dans le cadre du M2 MOD de l'IAE Clermont Auvergne. Tout ce qui bouge autour du glaucome,
+        rassemblé au même endroit et mis à jour automatiquement.</p>
+      <div class="chiffres-vitrine" id="chiffres"></div>
+    </section>
 
-    <div class="methode-grille">
-      <div class="encadre"><h3>Le projet</h3>
-        <p>Rassembler au même endroit, et mettre à jour automatiquement, ce qui se passe autour du glaucome : essais cliniques,
-          publications, autorisations et remboursement, chiffres de marché et laboratoires concurrents.</p></div>
-      <div class="encadre"><h3>Les principes</h3><ul>
-        <li>Uniquement des sources publiques et gratuites, toujours citées.</li>
-        <li>Rien d'inventé : ce qui n'est pas déclaré par une source reste « non renseigné ».</li>
-        <li>L'IA résume et classe, mais chaque sortie est tracée et signalée comme « non vérifiée ».</li></ul></div>
-      <div class="encadre"><h3>Pour aller plus loin</h3><ul>
-        <li><a href="methode.html">Méthode et limites</a> : sources, fréquence, rôle de l'IA, biais.</li>
-        <li><a href="fonctionnement.html">Comment ça marche</a> : la partie technique.</li>
-        <li><a href="https://github.com/Loubna589/veille-glaucome" target="_blank" rel="noopener">Code source sur GitHub</a>.</li></ul></div>
+    <h2 class="titre-vitrine">Ce que le site rassemble</h2>
+    <div class="tuiles-couleur">
+      <a class="tuile-couleur c-bleu" href="etudes.html"><span class="emoji">🔬</span><h3>Essais cliniques et publications</h3>
+        <p>Les nouveaux essais, leurs changements et les articles scientifiques, résumés en français.</p></a>
+      <a class="tuile-couleur c-orange" href="semaine.html"><span class="emoji">📬</span><h3>Ce qu'il faut retenir cette semaine</h3>
+        <p>5 points clés, chaque semaine, aussi envoyés par e-mail.</p></a>
+      <a class="tuile-couleur c-vert" href="marche.html"><span class="emoji">🌍</span><h3>Autorisations, prix et marché</h3>
+        <p>Qui est autorisé et remboursé, dans quel pays, et combien de boîtes sont vendues.</p></a>
+      <a class="tuile-couleur c-violet" href="concurrents.html"><span class="emoji">🏢</span><h3>Concurrents</h3>
+        <p>Une fiche par laboratoire : ses produits pays par pays, ses essais, ses actualités.</p></a>
     </div>
-    <p class="cm-aide" style="margin-top:16px">Projet pédagogique : ce site n'est ni un avis médical ni un conseil d'investissement.</p>
+
+    <h2 class="titre-vitrine">Nos principes</h2>
+    <div class="tuiles-couleur">
+      <div class="tuile-couleur c-vert"><span class="emoji">🔗</span><h3>Chaque information a sa source</h3>
+        <p>Un clic mène toujours à l'endroit d'où elle vient : registre, article, autorité de santé.</p></div>
+      <div class="tuile-couleur c-ambre"><span class="emoji">🚫</span><h3>Rien n'est deviné</h3>
+        <p>Quand une source ne donne pas une information, le site l'écrit « non renseigné » au lieu de la compléter au hasard.</p></div>
+      <div class="tuile-couleur c-orange"><span class="emoji">🤖</span><h3>L'IA aide, la personne vérifie</h3>
+        <p>Les résumés écrits par l'IA sont marqués « à vérifier », avec le nom de l'IA et la date.</p></div>
+    </div>
+
+    <h2 class="titre-vitrine">Pour aller plus loin</h2>
+    <div class="tuiles-couleur">
+      <a class="tuile-couleur c-bleu" href="methode.html"><span class="emoji">🧭</span><h3>Méthode et limites</h3>
+        <p>D'où viennent les données, ce que fait l'IA, et ce qu'il faut garder en tête.</p></a>
+      <a class="tuile-couleur c-violet" href="fonctionnement.html"><span class="emoji">⚙️</span><h3>Comment ça marche</h3>
+        <p>Comment le site a été construit, avec le schéma complet.</p></a>
+      <a class="tuile-couleur c-vert" href="https://github.com/Loubna589/veille-glaucome" target="_blank" rel="noopener"><span class="emoji">💻</span><h3>Le code</h3>
+        <p>Tout le programme est ouvert sur GitHub : on peut le relire ou le réutiliser.</p></a>
+    </div>
   </main>
   <footer class="pied" id="pied"></footer>
   <script src="js/app.js"></script>
-  <script>Veille.pret(function () { Veille.monterNavigation("apropos"); });</script>
+  <script>
+    Veille.pret(function () {
+      var V = Veille, d = V.donnees;
+      V.monterNavigation("apropos");
+      var essais = d.etudes.filter(function (e) { return e.type === "essai"; }).length;
+      var zones = {};
+      (d.marche && d.marche.laboratoires || []).forEach(function (l) { l.zones.forEach(function (z) { zones[z] = 1; }); });
+      document.getElementById("chiffres").innerHTML = [
+        [essais, "essais cliniques suivis"], [d.etudes.length - essais, "publications"],
+        [(d.concurrents || []).length, "laboratoires"], [Object.keys(zones).length, "pays et zones"]
+      ].map(function (c) { return "<div><b>" + c[0].toLocaleString("fr-FR") + "</b><span>" + c[1] + "</span></div>"; }).join("");
+    });
+  </script>
 </body>
 </html>

@@ -409,3 +409,41 @@ table.marche th .drapeau { vertical-align: -3px; }
 .fiche-actus { padding-left: 18px; }
 .fiche-actus li { margin: 6px 0; }
 .lien-fiche { font-size: .82rem; font-weight: 600; margin-left: 8px; }
+
+/* ---- Pages vitrines : À propos, Méthode et limites ---- */
+.vitrine { position: relative; overflow: hidden; border-radius: var(--rayon); padding: 34px 32px; margin-bottom: 22px; color: #fff;
+  background: linear-gradient(135deg, #0b3a6b 0%, #0b4f8a 45%, #0d9488 100%); box-shadow: var(--ombre-forte); }
+.vitrine h1 { font-size: 2rem; font-weight: 800; margin: 6px 0 8px; color: #fff; }
+.vitrine p { color: rgba(255, 255, 255, .88); max-width: 760px; font-size: 1.05rem; margin: 0; }
+.vitrine .pastille { display: inline-block; background: rgba(255, 255, 255, .16); border: 1px solid rgba(255, 255, 255, .3);
+  border-radius: 999px; padding: 4px 12px; font-size: .78rem; font-weight: 700; letter-spacing: .04em; text-transform: uppercase; }
+.vitrine::after { content: ""; position: absolute; right: -60px; top: -60px; width: 240px; height: 240px; border-radius: 50%;
+  border: 28px solid rgba(255, 255, 255, .08); }
+.chiffres-vitrine { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 12px; margin-top: 22px; }
+.chiffres-vitrine div { background: rgba(255, 255, 255, .12); border-radius: 12px; padding: 12px 14px; }
+.chiffres-vitrine b { display: block; font-size: 1.6rem; font-weight: 800; color: #fff; }
+.chiffres-vitrine span { font-size: .82rem; color: rgba(255, 255, 255, .85); }
+.titre-vitrine { font-size: 1.25rem; font-weight: 800; margin: 30px 0 12px; }
+.tuiles-couleur { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(250px, 100%), 1fr)); gap: 14px; }
+.tuile-couleur { --c: var(--accent); position: relative; background: var(--carte); border: 1px solid var(--bord); border-radius: var(--rayon-s);
+  padding: 16px 16px 14px; box-shadow: var(--ombre); border-top: 5px solid var(--c); color: var(--texte); text-decoration: none; display: block; }
+a.tuile-couleur:hover { box-shadow: var(--ombre-forte); transform: translateY(-1px); }
+.tuile-couleur .emoji { font-size: 1.6rem; line-height: 1; display: block; margin-bottom: 8px; }
+.tuile-couleur h3 { margin: 0 0 6px; font-size: 1rem; color: var(--c); }
+.tuile-couleur p { margin: 0; color: var(--doux); font-size: .9rem; }
+.tuile-couleur ul { margin: 4px 0 0; padding-left: 18px; color: var(--doux); font-size: .9rem; }
+.tuile-couleur li { margin: 3px 0; }
+.c-bleu { --c: #0b4f8a; } .c-vert { --c: #0b7a73; } .c-orange { --c: #c2410c; } .c-violet { --c: #4f46e5; } .c-rouge { --c: #b42318; } .c-ambre { --c: #a16207; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .c-bleu { --c: #6fb4ff; } :root:not([data-theme="light"]) .c-vert { --c: #3dd9c5; }
+  :root:not([data-theme="light"]) .c-orange { --c: #fb8b52; } :root:not([data-theme="light"]) .c-violet { --c: #a5a8ff; }
+  :root:not([data-theme="light"]) .c-rouge { --c: #ff9a8f; } :root:not([data-theme="light"]) .c-ambre { --c: #f3c15e; } }
+.rythme { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(200px, 100%), 1fr)); gap: 12px; }
+.rythme div { background: var(--carte); border: 1px solid var(--bord); border-radius: var(--rayon-s); padding: 14px; box-shadow: var(--ombre); }
+.rythme b { display: inline-block; background: var(--accent-doux); color: var(--accent); border-radius: 999px; padding: 3px 10px; font-size: .8rem; margin-bottom: 8px; }
+.rythme p { margin: 0; font-size: .9rem; color: var(--texte); }
+.rythme small { display: block; color: var(--doux); margin-top: 4px; }
+.glossaire { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(260px, 100%), 1fr)); gap: 8px 16px; margin: 0; }
+.glossaire div { background: var(--carte); border: 1px solid var(--bord); border-radius: 10px; padding: 9px 12px; }
+.glossaire dt { font-weight: 800; color: var(--accent); }
+.glossaire dd { margin: 2px 0 0; font-size: .86rem; color: var(--doux); }
+.bandeau-note { background: var(--accent-doux); border-radius: var(--rayon-s); padding: 12px 16px; margin-top: 14px; font-size: .92rem; }

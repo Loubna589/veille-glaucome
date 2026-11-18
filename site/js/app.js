@@ -138,12 +138,13 @@
       "<span><b>Glaucoma Intelligence</b><small>Veille scientifique · glaucome</small></span></a>" +
       '<div class="nav__liens">' + liens.slice(0, 10).join("") + '</div><div class="nav__groupe">Pour le jury</div>' +
       '<div class="nav__liens">' + liens.slice(10).join("") + "</div>" +
-      '<div class="nav__pied">Données publiques uniquement.<br>Mise à jour chaque matin.</div></nav>';
+      '<div class="nav__pied">Sources officielles citées.<br>Mise à jour chaque jour.</div></nav>';
     var main = document.querySelector("main.page");
     if (main) main.id = "contenu";
     // « À quoi sert cette page » + un exemple concret, juste sous le titre
+    // (désactivé à la demande de Loubna : les pages s'expliquent dans leur titre ; `but` reste utilisé par l'assistant)
     var p = V.page(actuelle), hero = document.querySelector("main.page .hero");
-    if (p && hero && !document.getElementById("aide-page")) {
+    if (false && p && hero && !document.getElementById("aide-page")) {
       hero.insertAdjacentHTML("afterend", '<div class="aide" id="aide-page"><div><strong>À quoi sert cette page ?</strong> ' + V.esc(p.but) +
         '</div><div class="aide__exemple"><strong>Exemple :</strong> ' + V.esc(p.exemple) + "</div></div>");
     }
@@ -156,10 +157,10 @@
     // Pied de page : lit data/meta.json (petit fichier), quelle que soit la page
     var pied = document.getElementById("pied");
     if (pied) {
-      pied.innerHTML = "Glaucoma Intelligence — veille construite uniquement à partir de 11 sources publiques : 4 scientifiques (ClinicalTrials.gov, PubMed, OpenAlex, Crossref) " +
-        "et 7 réglementaires (BDPM/HAS, EMA, openFDA, Santé Canada, AEMPS, AIFA, Swissmedic).";
+      pied.innerHTML = "<strong>Glaucoma Intelligence</strong> · projet pédagogique · M2 MOD, IAE Clermont Auvergne · " +
+        '<a href="' + V.racine + 'methode.html">Méthode et limites</a> · <a href="' + V.racine + 'apropos.html">À propos</a>.';
       V.charger(["meta.json"]).then(function (r) {
-        pied.innerHTML += " Dernière mise à jour : <strong>" + V.esc(V.date(r[0].derniere_mise_a_jour)) + "</strong> · site généré le " + V.esc(r[0].genere_le) + ".";
+        pied.innerHTML += " Dernière mise à jour : <strong>" + V.esc(V.date(r[0].derniere_mise_a_jour)) + "</strong>.";
       }).catch(function () {});
     }
   };
