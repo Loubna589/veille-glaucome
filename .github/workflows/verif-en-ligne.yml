@@ -1,0 +1,24 @@
+name: Vérification du site en ligne (temporaire)
+on: workflow_dispatch
+jobs:
+  verif:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Télécharger les pages en ligne et vérifier leur JavaScript
+        run: |
+          for p in index semaine etudes laboratoires marche fonctionnement methode apropos alertes recherche; do
+            curl -sS -H "Cache-Control: no-cache" "https://loubna589.github.io/veille-glaucome/$p.html?nocache=$RANDOM" -o $p.html
+            python3 - $p.html <<'PY'
+          import re, subprocess, sys
+          t = open(sys.argv[1]).read()
+          ok = True
+          for i, s in enumerate(re.findall(r"<script>(.*?)</script>", t, re.S)):
+              open("s.js", "w").write(s)
+              r = subprocess.run(["node", "--check", "s.js"], capture_output=True, text=True)
+              if r.returncode: ok = False; print("ERREUR", sys.argv[1], r.stderr[-300:])
+          print(sys.argv[1], "OK" if ok else "CASSÉ", len(t), "octets")
+          PY
+          done
+          grep -o "data-ouvrir-assistant\" : \"\") + '>" index.html && echo "VERSION CORRIGÉE EN LIGNE"
+          curl -sSI "https://loubna589.github.io/veille-glaucome/index.html" | grep -i "cache-control\|last-modified\|age:"
+          for j in js/app.js js/bulle.js; do curl -sS "https://loubna589.github.io/veille-glaucome/$j" -o t.js && node --check t.js && echo "$j OK"; done
