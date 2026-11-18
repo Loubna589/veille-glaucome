@@ -95,6 +95,14 @@ def publier(conn, fichier=FICHIER_MD, exporter=True):
         except (OSError, smtplib.SMTPException) as erreur:
             reseau.journal().error("Alertes : e-mail non envoyé (%s) — les alertes seront retentées", erreur)
             par_mail = None
+        if exporter:  # e-mail « un essai a changé d'étape » (au plus un par jour : une exécution par jour)
+            try:
+                from veille import mail_etapes
+                n = mail_etapes.envoyer(evenements)
+                if n:
+                    print(f"Alertes : e-mail « essai qui change d'étape » envoyé ({n} essai(s))")
+            except (OSError, smtplib.SMTPException) as erreur:
+                reseau.journal().error("Alertes : e-mail des étapes non envoyé (%s)", erreur)
         Path(fichier).write_text(texte, encoding="utf-8")
         if par_mail is not None:  # échec d'e-mail : on ne marque pas, pour réessayer à la prochaine exécution
             conn.executemany("UPDATE evenements SET envoye = 1, date_envoi = ? WHERE id = ?",
