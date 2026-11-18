@@ -62,6 +62,18 @@
       c.indexOf("NCT") === 0 ? "https://clinicaltrials.gov/study/" + c : "https://openalex.org/" + c.split(":")[1];
   }
   function citationsEnLiens(texte) {
+    // Listes « * … » ou « - … » du modèle → vraie liste à puces ; citations [PMID:…] / [NCT…] → liens
+    var lignes = String(texte).split(/\n+/), html = "", liste = false;
+    lignes.forEach(function (l) {
+      var puce = /^\s*[*-]\s+/.test(l);
+      if (puce && !liste) { html += "<ul>"; liste = true; }
+      if (!puce && liste) { html += "</ul>"; liste = false; }
+      var t = liensCitations(l.replace(/^\s*[*-]\s+/, ""));
+      if (t.trim()) html += puce ? "<li>" + t + "</li>" : "<p>" + t + "</p>";
+    });
+    return html + (liste ? "</ul>" : "");
+  }
+  function liensCitations(texte) {
     return V.esc(texte).replace(/\[(PMID:\d+|NCT\d{8}|OpenAlex:W\d+)\]/g, function (m, c) {
       return '<a class="gi-cite" href="' + lienCitation(c) + '" target="_blank" rel="noopener">' + c + "</a>";
     });

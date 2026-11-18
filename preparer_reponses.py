@@ -2,7 +2,7 @@
 
 À chaque mise à jour, l'assistant RAG (veille/rag.py, mêmes règles : extraits retrouvés, citations vérifiées,
 journal echanges_rag) répond aux questions de config/questions_preparees.txt avec Gemini. Seules les réponses
-VALIDÉES (statut « ok » ou « je_ne_sais_pas ») sont publiées dans site/data/reponses_preparees.json.
+VALIDÉES (statut « ok ») sont publiées dans site/data/reponses_preparees.json.
 Sans clé IA, rien n'est écrit et l'ancien fichier est conservé.
 """
 import json
@@ -34,7 +34,7 @@ def main():
     for q in questions():
         s = assistant.repondre(q)
         print(f"  {s['statut']:<15} {s['duree_ms']:>6} ms · {q}")
-        if s["statut"] in ("ok", "je_ne_sais_pas") and s.get("reponse"):
+        if s["statut"] == "ok" and s.get("reponse"):   # une suggestion qui répond « je ne sais pas » n'aide personne
             reponses.append({k: s[k] for k in ("question", "reponse", "citations", "sources", "modele", "version_prompt", "statut")})
         time.sleep(4)
     if not reponses:
