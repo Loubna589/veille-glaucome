@@ -18,25 +18,26 @@
       <p id="periode">Les 5 points clés des 7 derniers jours, chacun relié à sa source.</p>
     </header>
 
+    <section class="encadre aujourdhui" id="aujourdhui" hidden></section>
     <section class="cm-tuiles" id="chiffres" aria-label="Chiffres de la semaine"></section>
     <ol class="semaine-points" id="points"></ol>
     <p class="sous-titre" id="mode"></p>
 
     <h2 class="titre-section">Comment ces 5 points sont choisis</h2>
     <div class="etapes">
-      <div class="etape"><b>Des règles fixes trient la semaine</b>
+      <div class="etape"><b>Des règles notent la semaine</b>
         <span>Nouveaux essais, essais modifiés et articles entrés dans PubMed pendant les 7 jours reçoivent un score : résultats
           déposés, essai terminé, phase 3, promoteur industriel, produit suivi étudié, essai randomisé, méta-analyse…</span></div>
-      <div class="etape"><b>L'IA rédige à partir de ces seuls éléments</b>
+      <div class="etape"><b>L'IA rédige les 5 points</b>
         <span>Gemini écrit 5 points en français à partir des 25 éléments les mieux notés. Chaque point doit citer ses sources :
           un point qui cite un identifiant absent de la liste est rejeté.</span></div>
-      <div class="etape"><b>Sinon, les règles écrivent seules</b>
+      <div class="etape"><b>Sinon, les règles seules</b>
         <span>Si l'IA est indisponible ou si sa réponse ne passe pas le contrôle, les 5 éléments les mieux notés sont affichés
           avec la raison de leur sélection. La page dit toujours quel mode a servi.</span></div>
     </div>
 
     <h2 class="titre-section">Éléments retenus pour la synthèse</h2>
-    <p class="sous-titre">Les éléments les mieux notés de la semaine, avec la raison du score. C'est la seule matière donnée à l'IA.</p>
+    <p class="sous-titre">Les mieux notés de la semaine : la seule matière donnée à l'IA.</p>
     <details class="encadre"><summary>Voir la sélection</summary><div id="selection"></div></details>
 
     <h2 class="titre-section">Semaines précédentes</h2>
@@ -49,14 +50,18 @@
       var V = Veille, esc = V.esc;
       V.monterNavigation("semaine");
       function date(iso) { return iso ? iso.slice(8, 10) + "/" + iso.slice(5, 7) + "/" + iso.slice(0, 4) : ""; }
+      var titres = {};
       function source(l) {
         var cible = l.fiche ? '<a href="' + esc(l.fiche) + '">' : '<a href="' + esc(l.lien) + '" target="_blank" rel="noopener">';
-        return cible + esc(l.id) + "</a>";
+        var t = l.titre || titres[l.id];
+        if (!t) return cible + esc(l.id) + "</a>";
+        var genre = /^NCT/.test(l.id) ? "Essai" : "Article";
+        return genre + " : " + cible + esc(t.length > 110 ? t.slice(0, 108) + "…" : t) + "</a>";
       }
       function points(s) {
         return s.points.map(function (p) {
           return '<li class="semaine-point"><h3>' + esc(p.titre) + "</h3><p>" + esc(p.texte) + '</p><p class="semaine-sources">Source' +
-            (p.liens.length > 1 ? "s" : "") + " : " + p.liens.map(source).join(" · ") + "</p></li>";
+            (p.liens.length > 1 ? "s" : "") + " : " + p.liens.map(source).join("<br>") + "</p></li>";
         }).join("");
       }
       function mode(s) {
@@ -65,10 +70,27 @@
             ", uniquement à partir des éléments sélectionnés ; toutes les citations ont été vérifiées. Résumé automatique : à vérifier avant de le citer."
           : "Points choisis par des règles fixes, sans IA, le " + date(s.genere_le) + "." + (s.erreur ? " (" + esc(s.erreur) + ")" : "");
       }
+      /* À retenir aujourd'hui : ce que la mise à jour de ce matin a apporté (règles fixes, sans IA) */
+      (function () {
+        var etudes = (V.donnees.etudes || []), dern = etudes.map(function (e) { return e.date_detection || ""; }).sort().pop();
+        var neufs = etudes.filter(function (e) { return (e.nouveau || e.modifie) && e.date_detection === dern; });
+        if (!dern || !neufs.length) return;
+        var poids = function (e) { return (e.type === "essai" ? 2 : 0) + (e.modifie ? 1 : 0) + (/randomi|méta|meta/i.test(e.niveau + " " + e.titre) ? 1 : 0); };
+        neufs.sort(function (a, b) { return poids(b) - poids(a); });
+        var z = document.getElementById("aujourdhui");
+        z.innerHTML = "<h2>À retenir aujourd'hui <small>" + date(dern) + " · " + neufs.length + " nouveauté(s)</small></h2><ul>" +
+          neufs.slice(0, 5).map(function (e) {
+            var cible = e.fiche ? '<a href="' + esc(e.fiche) + '">' : '<a href="' + esc(e.lien_source) + '" target="_blank" rel="noopener">';
+            return "<li><span class=\"badge neuf\">" + (e.modifie ? "Essai modifié" : e.type === "essai" ? "Nouvel essai" : "Nouvel article") + "</span> " +
+              cible + esc(e.titre) + "</a></li>";
+          }).join("") + "</ul>" + (neufs.length > 5 ? '<p class="cm-aide"><a href="etudes.html">Voir les ' + neufs.length + " nouveautés →</a></p>" : "");
+        z.hidden = false;
+      })();
       V.charger(["semaine.json"]).then(function (r) {
         var d = r[0], s = d.derniere, c = s.chiffres;
+        [s].concat(d.archives || []).forEach(function (x) { (x.selection || []).forEach(function (e) { if (e.titre) titres[e.id] = e.titre; }); });
         document.getElementById("periode").innerHTML = "Du <strong>" + date(s.debut) + "</strong> au <strong>" + date(s.fin) +
-          "</strong>. Une nouvelle synthèse est publiée tous les 7 jours (et envoyée par e-mail si l'envoi est configuré).";
+          "</strong> · nouvelle synthèse tous les 7 jours, aussi envoyée par e-mail.";
         document.getElementById("chiffres").innerHTML =
           '<div class="cm-tuile"><strong>' + c.articles + "</strong><span>articles entrés dans PubMed</span></div>" +
           '<div class="cm-tuile"><strong>' + c.nouveaux_essais + "</strong><span>nouveaux essais publiés</span></div>" +
@@ -78,7 +100,7 @@
         document.getElementById("mode").innerHTML = mode(s);
         document.getElementById("selection").innerHTML = '<table class="cm-table"><thead><tr><th>Score</th><th>Élément</th><th>Pourquoi</th></tr></thead><tbody>' +
           s.selection.map(function (e) {
-            return "<tr><td>" + e.score + "</td><td>" + source({ id: e.id, lien: e.lien, fiche: e.fiche }) + " " + esc(e.titre || "") +
+            return "<tr><td>" + e.score + "</td><td>" + source({ id: e.id, lien: e.lien, fiche: e.fiche, titre: e.titre }) +
               "</td><td>" + esc(e.raisons.join(", ")) + "</td></tr>";
           }).join("") + "</tbody></table>";
         document.getElementById("archives").innerHTML = d.archives.length ? d.archives.map(function (a) {

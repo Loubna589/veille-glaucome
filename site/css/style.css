@@ -453,3 +453,21 @@ a.tuile-couleur:hover { box-shadow: var(--ombre-forte); transform: translateY(-1
 .bandeau-note { background: var(--accent-doux); border-radius: var(--rayon-s); padding: 12px 16px; margin-top: 14px; font-size: .92rem; }
 button.action { font: inherit; text-align: left; cursor: pointer; width: 100%; }
 .action--grand { max-width: 560px; }
+.bouton-ia { font: inherit; font-size: .88rem; font-weight: 650; margin-top: 10px; padding: 7px 14px; border-radius: 999px; cursor: pointer;
+  border: 1px solid var(--accent); background: var(--carte); color: var(--accent); }
+.bouton-ia:hover, .bouton-ia[aria-expanded="true"] { background: var(--accent); color: #fff; }
+@media (prefers-color-scheme: dark) { .bouton-ia:hover, .bouton-ia[aria-expanded="true"] { color: #0a1120; } }
+.actions .bouton-bu { font-weight: 650; padding: 3px 12px; border-radius: 999px; background: var(--att-fond); text-decoration: none; }
+.aujourdhui { border-left: 4px solid var(--accent); margin-bottom: 16px; }
+.aujourdhui h2 { font-size: 1.1rem; margin: 0 0 8px; }
+.aujourdhui h2 small { font-weight: 400; font-size: .82rem; color: var(--doux); margin-left: 6px; }
+.aujourdhui ul { margin: 0; padding-left: 1.1em; display: grid; gap: 6px; }
+.onglets { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 18px; }
+.onglets button { font: inherit; font-weight: 650; padding: 10px 16px; border-radius: 12px; cursor: pointer; border: 1px solid var(--bord);
+  background: var(--carte); color: var(--texte); box-shadow: var(--ombre); }
+.onglets button b { display: inline-grid; place-items: center; width: 22px; height: 22px; border-radius: 50%; margin-right: 6px;
+  background: var(--carte-2); font-size: .8rem; }
+.onglets button[aria-selected="true"] { background: var(--accent); border-color: var(--accent); color: #fff; }
+.onglets button[aria-selected="true"] b { background: #fff; color: var(--accent); }
+@media (prefers-color-scheme: dark) { .onglets button[aria-selected="true"] { color: #0a1120; } }
+.titre-section small { font-weight: 400; font-size: .8rem; color: var(--doux); margin-left: 6px; }

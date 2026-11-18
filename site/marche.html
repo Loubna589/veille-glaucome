@@ -20,13 +20,18 @@
   <main class="page">
     <header class="hero">
       <h1>Autorisations &amp; remboursement</h1>
-      <p>Pour chaque molécule suivie : autorisation, évaluation et remboursement dans 7 zones — France (BDPM : ANSM, HAS,
-        Assurance maladie), Union européenne (EMA), États-Unis (FDA), Canada (Santé Canada), Espagne (AEMPS), Italie (AIFA)
-        et Suisse (Swissmedic). Seul ce que la source déclare est affiché, avec sa date et le laboratoire titulaire.
-        Plus bas, les <a href="#chiffres">chiffres de marché</a> publics : boîtes remboursées en France (Open Medic) et dépenses
-        Medicare aux États-Unis.</p>
+      <p>Un médicament contre le glaucome est-il autorisé, dans quels pays, et est-il remboursé en France ?
+        Tout vient des autorités de santé (ANSM et HAS en France, EMA en Europe, FDA aux États-Unis…).</p>
     </header>
 
+    <nav class="onglets" role="tablist" aria-label="Parties de la page">
+      <button type="button" role="tab" data-onglet="o-tableau" aria-selected="true"><b>1</b> Où est-il autorisé ?</button>
+      <button type="button" role="tab" data-onglet="o-chiffres" aria-selected="false"><b>2</b> Combien se vend-il ?</button>
+      <button type="button" role="tab" data-onglet="o-plus" aria-selected="false"><b>3</b> Pour aller plus loin</button>
+    </nav>
+
+    <section class="onglet" id="o-tableau" role="tabpanel">
+      <p class="sous-titre">Une ligne par molécule, une colonne par pays. Cliquez sur un nom de laboratoire pour ne garder que ses produits.</p>
     <form class="filtres filtres--marche" id="filtres" onsubmit="return false">
       <label>Recherche<input type="search" id="f-texte" placeholder="molécule, médicament, laboratoire…"></label>
       <label>Laboratoire<select id="f-labo"><option value="">Tous les laboratoires</option></select></label>
@@ -34,18 +39,8 @@
     </form>
     <p class="sous-titre" id="filtre-info" aria-live="polite"></p>
 
-    <h2 class="titre-section" style="margin-top:0">Dernières nouveautés</h2>
-    <p class="sous-titre" id="nouveautes-info"></p>
-    <div id="nouveautes"></div>
-
-    <h2 class="titre-section">Délais d'accès au marché</h2>
-    <p class="sous-titre">Pour chaque molécule, les étapes dans l'ordre où elles ont eu lieu, avec le nombre de mois entre deux étapes
-      et le laboratoire concerné. Uniquement des dates déclarées par les sources : une étape sans date reste « non déclarée ».</p>
-    <div id="delais"></div>
-
-    <h2 class="titre-section">Tableau par molécule</h2>
-    <div class="encadre" style="margin-bottom:18px">
-      <strong>Comment lire le tableau</strong>
+    <details class="encadre" style="margin-bottom:18px">
+      <summary><strong>Comment lire le tableau</strong> (sigles SMR, ASMR, NDA…)</summary>
       <ul>
         <li><b>Absent d'une source ne veut pas dire « non autorisé ».</b> L'EMA ne liste que les médicaments autorisés
           par la procédure européenne centralisée ; beaucoup de collyres sont autorisés pays par pays.</li>
@@ -58,8 +53,8 @@
           à V (absence). <b>NDA</b> : médicament de marque ; <b>ANDA</b> : générique (FDA).</li>
         <li>Prix : prix public d'une boîte, honoraire de dispensation du pharmacien compris (BDPM).</li>
       </ul>
-    </div>
-    <p class="compteur" id="sources"></p>
+    </details>
+    <details class="encadre" style="margin-bottom:14px"><summary>Sources officielles utilisées et date du dernier téléchargement</summary><p class="compteur" id="sources"></p></details>
     <div class="tableau-defile">
       <table class="marche" id="tableau">
         <thead><tr id="entetes"></tr></thead>
@@ -67,19 +62,46 @@
       </table>
     </div>
     <p class="sous-titre mention-titulaire">Titulaire actuel déclaré par la source. Il peut différer du titulaire à la date de l'autorisation (rachats, licences).</p>
-    <!-- Chiffres de marché publics (site/js/chiffres_marche.js) : supprimer cette section et la balise script pour les retirer -->
-    <h2 class="titre-section" id="chiffres">Chiffres de marché : boîtes, dépenses, parts de marché</h2>
-    <p class="sous-titre">Ce qui est réellement prescrit et remboursé, d'après des données publiques et gratuites.</p>
+    </section>
+
+    <section class="onglet" id="o-chiffres" role="tabpanel" hidden>
+      <p class="sous-titre" id="chiffres">Ce qui est réellement prescrit et remboursé : boîtes remboursées en France (Open Medic, Assurance maladie)
+        et dépenses Medicare aux États-Unis. Données publiques et gratuites.</p>
     <section id="chiffres-marche" class="chiffres-marche"></section>
 
-    <h2 class="titre-section">Pays non couverts et pourquoi</h2>
+    </section>
+
+    <section class="onglet" id="o-plus" role="tabpanel" hidden>
+    <h2 class="titre-section" style="margin-top:0">Dernières nouveautés <small>autorisations et décisions récentes</small></h2>
+    <p class="sous-titre" id="nouveautes-info"></p>
+    <div id="nouveautes"></div>
+
+    <h2 class="titre-section">Combien de temps entre deux étapes ?</h2>
+    <p class="sous-titre">Pour chaque molécule, les étapes dans l'ordre où elles ont eu lieu, avec le nombre de mois entre deux étapes
+      et le laboratoire concerné. Uniquement des dates déclarées par les sources : une étape sans date reste « non déclarée ».</p>
+    <div id="delais"></div>
+
+      <h2 class="titre-section">Chaque médicament, molécule par molécule</h2>
+      <p class="sous-titre">Le détail de chaque médicament trouvé, avec son laboratoire et le lien vers sa notice officielle.</p>
+    <div id="details"></div>
+      <h2 class="titre-section">Pays non couverts et pourquoi</h2>
     <div class="encadre" id="non-couverts"></div>
 
-    <h2 class="titre-section">Détail par molécule</h2>
-    <p class="sous-titre">Chaque médicament trouvé, avec son laboratoire et le lien vers sa notice dans la source.</p>
-    <div id="details"></div>
+    </section>
   </main>
   <footer class="pied" id="pied"></footer>
+  <script>
+    (function () {
+      var boutons = document.querySelectorAll("[data-onglet]");
+      function montrer(id) {
+        boutons.forEach(function (b) { var ok = b.getAttribute("data-onglet") === id; b.setAttribute("aria-selected", String(ok));
+          document.getElementById(b.getAttribute("data-onglet")).hidden = !ok; });
+        window.dispatchEvent(new Event("resize"));  // les graphiques se redessinent à la bonne largeur
+      }
+      boutons.forEach(function (b) { b.addEventListener("click", function () { montrer(b.getAttribute("data-onglet")); }); });
+      if (location.hash === "#chiffres") montrer("o-chiffres");
+    })();
+  </script>
   <script src="js/app.js"></script>
   <script src="js/chiffres_marche.js" defer></script>
   <script>

@@ -298,7 +298,16 @@ def etude_article(m, regles_rub, regles_et, labos):
         "produits": produits, "labos": noms_labos, "resume": d.get("resume"),
         "revue": d.get("revue"), "base": "résumé seulement" if d.get("resume_present") else "métadonnées seulement",
         "acces": acces_texte.statut_acces(d, a.get("openalex") or {}),
+        "lien_bu": lien_bu(d, acces_texte.statut_acces(d, a.get("openalex") or {})),
     }
+
+
+_BASE_OPENURL = acces_texte.base_openurl()
+
+
+def lien_bu(d, acces):
+    """Lien « Demander à la BU » (catalogue, référence pré-remplie) pour un article qui n'est pas en accès libre."""
+    return acces_texte.lien_openurl(d, _BASE_OPENURL) if acces != "libre" else None
 
 
 def etude_openalex(m, regles_rub, regles_et, labos):
@@ -320,6 +329,7 @@ def etude_openalex(m, regles_rub, regles_et, labos):
         "produits": [{"nom": p["produit"], "role": "suggéré, à vérifier"} for p in et.get("produits_suivis") or []],
         "labos": noms_labos, "resume": d.get("resume"), "revue": d.get("revue"),
         "acces": acces_texte.statut_acces(d, d),
+        "lien_bu": lien_bu(d, acces_texte.statut_acces(d, d)),
     }
 
 

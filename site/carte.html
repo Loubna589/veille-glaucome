@@ -21,10 +21,8 @@
   <main class="page">
     <header class="hero">
       <h1>Carte des acteurs</h1>
-      <p>Essais, traitements, organismes et publications. <strong>Chaque lien vient d'une donnée déclarée par une source</strong>
-        (promoteur et interventions au registre ClinicalTrials.gov, NCT déclaré dans PubMed, financeur confirmé par PubMed ou
-        Crossref, laboratoire titulaire de l'autorisation déclaré par les autorités de santé) — aucun lien n'est déduit par l'outil.
-        <strong>Les laboratoires sont en rouge</strong>, les universités, hôpitaux et financeurs publics en orange. Cliquez sur un nœud pour voir sa fiche.</p>
+      <p>Qui travaille sur quoi : chaque point est un essai, un traitement, un organisme ou un article, et chaque trait relie deux
+        éléments qui sont liés dans une source officielle. <strong>Cliquez sur un point</strong> pour voir le détail.</p>
     </header>
     <form class="filtres" id="filtres" onsubmit="return false">
       <label class="case"><input type="checkbox" value="essai" checked> Essais</label>
@@ -39,7 +37,7 @@
     <p class="compteur" id="compteur"></p>
     <div class="carte-zone">
       <div id="cy" role="img" aria-label="Graphe interactif des essais, traitements et organismes"></div>
-      <aside id="fiche"><p class="vide">Cliquez sur un nœud.</p></aside>
+      <aside id="fiche"><p class="vide">Cliquez sur un point de la carte pour voir le détail ici.</p></aside>
     </div>
   </main>
   <footer class="pied" id="pied"></footer>
@@ -105,27 +103,36 @@
             }
           });
           var visibles = cy.nodes().filter(function (n) { return n.style("display") === "element"; });
-          document.getElementById("compteur").textContent = visibles.length + " nœud(s) affiché(s) sur " + G.statistiques.noeuds +
+          document.getElementById("compteur").textContent = visibles.length + " point(s) affiché(s) sur " + G.statistiques.noeuds +
             " · " + G.statistiques.liens + " liens issus des sources";
         }
         document.getElementById("filtres").addEventListener("input", filtrer);
         filtrer();
 
+        var buDe = {};
+        (V.donnees.etudes || []).forEach(function (e) { if (e.lien_bu) buDe[e.id] = e.lien_bu; });
+        function nom(n) {  // un article se lit par son titre, pas par son numéro PMID
+          var t = n.data("titre");
+          return n.data("type") === "publication" && t ? (t.length > 90 ? t.slice(0, 88) + "…" : t) : n.data("label");
+        }
         cy.on("tap", "node", function (ev) {
-          var d = ev.target.data();
+          var d = ev.target.data(), pub = d.type === "publication" && d.titre;
+          var bu = buDe[(d.id || "").replace(/^pmid:/, "")];
           var voisins = ev.target.connectedEdges().map(function (e) {
             var autre = e.source().id() === d.id ? e.target() : e.source();
-            return "<li>" + V.esc(LIENS[e.data("type")] || e.data("type")) + " : <strong>" + V.esc(autre.data("label")) + "</strong> <small>(" + V.esc(e.data("origine")) + ")</small></li>";
+            return "<li>" + V.esc(LIENS[e.data("type")] || e.data("type")) + " : <strong>" + V.esc(nom(autre)) + "</strong> <small>(" + V.esc(e.data("origine")) + ")</small></li>";
           }).join("");
           document.getElementById("fiche").innerHTML = '<span class="badge" style="background:' + COULEURS[famille(d)] + ';color:#fff">' + NOMS[famille(d)] + "</span>" +
-            "<h2 style=\"font-size:1.05rem;margin:8px 0\">" + V.esc(d.label) + "</h2>" + (d.titre ? "<p>" + V.esc(d.titre) + "</p>" : "") +
+            (pub ? "<h2 style=\"font-size:1.05rem;margin:8px 0\">" + V.esc(d.titre) + "</h2><p><small>" + V.esc(d.label) + "</small></p>"
+              : "<h2 style=\"font-size:1.05rem;margin:8px 0\">" + V.esc(d.label) + "</h2>" + (d.titre ? "<p>" + V.esc(d.titre) + "</p>" : "")) +
             '<p class="meta" style="margin:6px 0">' + (d.statut ? "<span>Statut : " + V.esc(d.statut) + "</span>" : "") +
             (d.phase ? "<span>Phase : " + V.esc(d.phase) + "</span>" : "") + (d.categorie ? "<span>" + V.esc(d.categorie) + "</span>" : "") +
             (d.hors_base ? "<span>essai cité, hors base</span>" : "") + "</p>" +
             "<p><strong>" + ev.target.degree() + " lien(s)</strong></p><ul style=\"padding-left:1.1em;margin:4px 0 10px\">" + voisins + "</ul>" +
             '<div class="actions">' + (d.fiche ? '<a href="' + V.esc(d.fiche) + '">Fiche détaillée →</a>' : "") +
             (d.lien ? '<a href="' + V.esc(d.lien) + '" target="_blank" rel="noopener">Source ↗</a>' : "") +
-            (d.type === "organisme" ? '<a href="laboratoires.html?labo=' + encodeURIComponent(d.label) + '">Page Laboratoires →</a>' : "") + "</div>";
+            (bu ? '<a class="bouton-bu" href="' + V.esc(bu) + '" target="_blank" rel="noopener">📚 Demander à la BU</a>' : "") +
+            (d.type === "organisme" ? '<a href="laboratoires.html?labo=' + encodeURIComponent(d.label) + '">Fiche du laboratoire →</a>' : "") + "</div>";
         });
       }).catch(V.erreurChargement);
     });

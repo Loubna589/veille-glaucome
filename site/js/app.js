@@ -168,7 +168,15 @@
     return "";
   };
 
-  V.LIBELLES_ACCES = { libre: "✅ Accès libre", payant: "🔒 Payant", inconnu: "❔ Accès inconnu" };
+  V.LIBELLES_ACCES = { libre: "✅ Lecture gratuite", payant: "🔒 Article payant", inconnu: "❔ Gratuit ? non indiqué" };
+  V.AIDE_ACCES = { libre: "Le texte complet se lit gratuitement en ligne.",
+    payant: "Le texte complet est sur abonnement : demandez-le à la BU ou à l'auteur.",
+    inconnu: "Les bases consultées ne disent pas si l'article est gratuit : essayez le lien de la source, sinon demandez-le à la BU." };
+  /* Libellés en mots simples (les valeurs internes restent celles des filtres) */
+  var NIVEAUX_SIMPLES = {
+    "Résultats déposés au registre": ["📊 Résultats publiés", "L'équipe a mis les résultats de l'essai sur ClinicalTrials.gov, le site officiel où chaque essai est déclaré."],
+    "Essai enregistré (sans résultats)": ["Essai déclaré, pas encore de résultats", "L'essai est déclaré sur ClinicalTrials.gov, le site officiel des essais, mais ses résultats n'y sont pas encore."]
+  };
 
   /* Carte d'une étude, utilisée par l'accueil et la page Études */
   V.carte = function (e) {
@@ -178,10 +186,11 @@
     var badges = (e.nouveau ? '<span class="badge neuf">Nouveau</span>' : "") +
       (e.modifie ? '<span class="badge neuf">Modifié</span>' : "") +
       '<span class="badge">' + V.esc(e.source) + "</span>" +
-      '<span class="badge ' + V.classeNiveau(e.niveau) + '">' + V.esc(e.niveau) + "</span>" +
-      (e.phase ? '<span class="badge reg">' + V.esc(e.phase) + "</span>" : "") +
+      '<span class="badge ' + V.classeNiveau(e.niveau) + '" title="' + V.esc((NIVEAUX_SIMPLES[e.niveau] || [])[1] || "") + '">' +
+        V.esc((NIVEAUX_SIMPLES[e.niveau] || [e.niveau])[0]) + "</span>" +
+      (e.phase && !/non renseign/i.test(e.phase) ? '<span class="badge reg">' + V.esc(e.phase) + "</span>" : "") +
       (e.statut ? '<span class="badge">' + V.esc(e.statut) + "</span>" : "") +
-      (e.acces ? '<span class="badge acces-' + V.esc(e.acces) + '">' + V.esc(V.LIBELLES_ACCES[e.acces] || e.acces) + "</span>" : "");
+      (e.acces ? '<span class="badge acces-' + V.esc(e.acces) + '" title="' + V.esc(V.AIDE_ACCES[e.acces] || "") + '">' + V.esc(V.LIBELLES_ACCES[e.acces] || e.acces) + "</span>" : "");
     var labos = (e.labos || []).map(function (l) {
       return '<a href="laboratoires.html?labo=' + encodeURIComponent(l.nom) + '">' + V.esc(l.nom) + "</a> <small>(" + V.esc(l.role) + ")</small>";
     }).join(" · ");
@@ -199,7 +208,8 @@
       '<div class="meta"><span>Organismes : ' + (labos || '<span class="vide">aucun</span>') + "</span></div>" +
       '<div class="meta"><span>Rubrique : ' + V.esc(e.rubrique) + ' <span class="badge reg">classement automatique</span> <small>' +
       V.esc(e.raison_rubrique) + "</small></span></div>" +
-      (e.resume_ia ? '<div class="resume-ia"><span class="badge ver">' + V.esc(e.resume_ia.mention || "Généré par IA, non vérifié") +
+      (e.resume_ia ? '<button type="button" class="bouton-ia" aria-expanded="false" data-resume-ia>✨ Résumé en français par l\'IA</button>' +
+        '<div class="resume-ia" hidden><span class="badge ver">' + V.esc(e.resume_ia.mention || "Généré par IA, non vérifié") +
         '</span> <span class="badge reg">' + V.esc(e.resume_ia.categorie_libelle || "") + "</span><ul>" +
         (e.resume_ia.resume || []).map(function (l) { return "<li>" + V.esc(l) + "</li>"; }).join("") + "</ul>" +
         "<small>" + V.esc(e.resume_ia.modele) + " · prompt " + V.esc(e.resume_ia.version_prompt) + " · " +
@@ -208,6 +218,15 @@
         ", en anglais)</summary><p lang=\"en\">" + V.esc(e.resume) + "</p></details>"
         : '<p class="vide" style="margin-top:6px">Aucun résumé disponible dans la source.</p>') +
       '<div class="actions">' + (e.fiche ? '<a href="' + V.esc(e.fiche) + '">Fiche détaillée →</a>' : "") +
+      (e.lien_bu ? '<a class="bouton-bu" href="' + V.esc(e.lien_bu) + '" target="_blank" rel="noopener" title="Ouvre le catalogue de la BU avec la référence de l\'article : connectez-vous avec l\'ENT puis faites la demande de prêt entre bibliothèques.">📚 Demander à la BU</a>' : "") +
       '<a href="' + V.esc(e.lien_source) + '" target="_blank" rel="noopener">Voir la source ↗</a></div></article>';
   };
+  /* Bouton « Résumé en français par l'IA » des cartes : le résumé (préparé chaque nuit) s'affiche à la demande */
+  document.addEventListener("click", function (ev) {
+    var b = ev.target.closest && ev.target.closest("[data-resume-ia]");
+    if (!b) return;
+    var bloc = b.nextElementSibling, ouvert = b.getAttribute("aria-expanded") === "true";
+    bloc.hidden = ouvert; b.setAttribute("aria-expanded", String(!ouvert));
+    b.textContent = ouvert ? "✨ Résumé en français par l'IA" : "Masquer le résumé IA";
+  });
 })();

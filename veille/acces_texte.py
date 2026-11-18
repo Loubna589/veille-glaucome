@@ -83,7 +83,7 @@ def texte_gratuit(d, oa):
 LIBELLES_ACCES = {
     "libre": "✅ Accès libre et gratuit",
     "payant": "🔒 Article payant : à demander",
-    "inconnu": "❔ Accès inconnu",
+    "inconnu": "❔ Gratuit ou payant : non indiqué",
 }
 
 

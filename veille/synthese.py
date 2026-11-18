@@ -233,7 +233,7 @@ def construire(conn, jour=None, cle=None, session=None):
     resultat["points"] = points or points_regles(elements)
     par_id = {e["id"]: e for e in elements}
     for p in resultat["points"]:
-        p["liens"] = [{"id": s, "lien": par_id[s]["lien"], "fiche": par_id[s]["fiche"]} for s in p["sources"] if s in par_id]
+        p["liens"] = [{"id": s, "lien": par_id[s]["lien"], "fiche": par_id[s]["fiche"], "titre": par_id[s].get("titre")} for s in p["sources"] if s in par_id]
     return resultat
 
 
