@@ -1,0 +1,8 @@
+# Questions dont la réponse rédigée est préparée à chaque mise à jour (une par ligne).
+# Sur le site en ligne, l'assistant affiche ces réponses ; pour les autres questions, il affiche les sources.
+Quels traitements du glaucome sans conservateur font l'objet de recherches cliniques ?
+Quels essais étudient le netarsudil ?
+Que dit la recherche sur l'intelligence artificielle pour dépister le glaucome ?
+Quelles nouvelles techniques de chirurgie mini-invasive du glaucome sont étudiées ?
+Quels essais en cours portent sur la neuroprotection dans le glaucome ?
+Quels laboratoires mènent des essais cliniques sur le glaucome ?

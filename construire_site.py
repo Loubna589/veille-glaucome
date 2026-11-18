@@ -148,6 +148,28 @@ class Laboratoires:
 
 # ------------------------------------------------------------ études
 
+# Mots qui signalent une question dans le périmètre de la veille (complétés par le glossaire, les molécules et les labos)
+TERMES_DOMAINE = (
+    "glaucome", "glaucoma", "glaucomateux", "oeil", "œil", "yeux", "oculaire", "ophtalm", "ophthalm", "rétin", "retin",
+    "nerf optique", "pression", "tonus", "angle", "cornée", "cataracte", "vision", "visuel", "aveugl", "cécité",
+    "collyre", "goutte", "médicament", "molécule", "traitement", "thérapie", "chirurgie", "laser", "implant", "stent",
+    "essai", "étude", "recherche clinique", "article", "publication", "résultat", "patient", "laboratoire", "labo",
+    "autorisation", "amm", "remboursement", "prix", "has", "smr", "asmr", "ema", "fda", "concurrent", "marché",
+    "prostaglandine", "bêtabloquant", "beta", "inhibiteur", "conservateur", "migs", "slt", "oct", "dépistage",
+)
+
+
+ZONES = {"france": "France", "ue": "Union européenne", "usa": "États-Unis", "canada": "Canada", "espagne": "Espagne",
+         "italie": "Italie", "suisse": "Suisse", "australie": "Australie"}
+
+
+def fiches_labos(noms, marche):
+    """Pour l'assistant en ligne : ce que les autorités déclarent pour chaque laboratoire (molécules, pays, nombre)."""
+    syn = {l["groupe"]: l for l in (marche or {}).get("laboratoires") or []}
+    return [{"nom": n, "molecules": syn.get(n, {}).get("molecules", []), "produits": syn.get(n, {}).get("produits", 0),
+             "pays": [ZONES.get(z, z) for z in syn.get(n, {}).get("zones", [])]} for n in noms]
+
+
 COMPARATEURS = ("ACTIVE_COMPARATOR", "PLACEBO_COMPARATOR", "SHAM_COMPARATOR")
 
 
@@ -370,6 +392,12 @@ def main(conn=None):
     g = module_graphe.construire(conn, donnees["marche"])
     export.ecrire("graphe.json", {**g, "statistiques": module_graphe.statistiques(g)})
     print(f"Carte : {len(g['noeuds'])} nœuds, {len(g['liens'])} liens")
+    # Vocabulaire du domaine : l'assistant du site s'en sert pour repérer une question sans rapport avec le glaucome
+    from veille import semantique as _sem
+    labos = sorted({n["label"] for n in g["noeuds"] if n.get("famille") == "laboratoire"})
+    export.ecrire("domaine.json", {
+        "termes": sorted(set(TERMES_DOMAINE) | set(_sem.charger_glossaire()) | {m.lower() for m in (donnees["marche"] or {}).get("molecules", {})}),
+        "laboratoires": fiches_labos(labos, donnees["marche"])})
     # Vecteurs pour la recherche sémantique dans le navigateur (quantifiés en int8)
     from veille import semantique
     if (semantique.DOSSIER_INDEX / "vecteurs.npy").exists():

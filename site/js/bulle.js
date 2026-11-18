@@ -4,8 +4,11 @@
    1. si l'assistant local répond (http://127.0.0.1:8770/api/etat, délai court), la question lui est envoyée :
       réponse rédigée, chaque citation [PMID:…] / [NCT…] devient un lien ;
       (sans jeton GitHub, l'assistant renvoie lui-même les sources seules) ;
-   2. sinon (site en ligne, assistant éteint), recherche sémantique dans le navigateur :
-      les 5 sources les plus pertinentes, avec la mention « mode sources seulement ».
+   2. sinon (site en ligne, assistant éteint) :
+      - question préparée (config/questions_preparees.txt) : réponse rédigée par l'IA lors de la dernière mise à jour,
+        citations vérifiées (site/data/reponses_preparees.json) ;
+      - question sans rapport avec le glaucome (aucun mot du domaine, site/data/domaine.json) : on le dit ;
+      - autre question : recherche sémantique dans le navigateur, les 5 documents les plus proches.
    L'historique reste dans la session de l'onglet (sessionStorage). Accessible au clavier ; Échap ferme le panneau. */
 (function () {
   "use strict";
@@ -13,12 +16,46 @@
   if (!V || document.getElementById("gi-bulle")) return;
   var ASSISTANT = "http://127.0.0.1:8770";
   var CLE = "gi-bulle-historique";
-  var EXEMPLES = [
+  var EXEMPLES = [  // remplacées par les questions préparées quand le fichier est disponible
     "Quels traitements du glaucome sans conservateur font l'objet de recherches cliniques ?",
     "Quels essais étudient le netarsudil ?",
     "Que dit la recherche sur l'intelligence artificielle pour dépister le glaucome ?",
   ];
   var modeAssistant = null; // null = pas encore testé, true / false ensuite
+  var preparees = null, domaine = null;
+  function json(nom) { return fetch(V.racine + "data/" + nom, { cache: "no-cache" }).then(function (r) { return r.ok ? r.json() : null; }).catch(function () { return null; }); }
+  var pretes = Promise.all([json("reponses_preparees.json"), json("domaine.json")]).then(function (r) {
+    preparees = r[0]; domaine = r[1];
+    if (preparees && preparees.reponses && preparees.reponses.length) {
+      EXEMPLES = preparees.reponses.map(function (x) { return x.question; });
+      afficherExemples();
+    }
+  });
+  function cle(q) { return V.norm(q).replace(/[^a-z0-9]+/g, " ").trim(); }
+  function reponsePreparee(question) {
+    if (!preparees || !preparees.reponses) return null;
+    var c = cle(question);
+    return preparees.reponses.filter(function (x) { return cle(x.question) === c; })[0] || null;
+  }
+  function horsSujet(question) {
+    if (!domaine) return false;
+    var q = " " + cle(question) + " ";
+    var termes = (domaine.termes || []).map(cle).filter(function (t) { return t.length >= 2; });
+    if (termes.some(function (t) { return q.indexOf(" " + t) >= 0; })) return false;
+    return !labosCites(question).length;
+  }
+  function labosCites(question) {
+    if (!domaine) return [];
+    var q = " " + cle(question) + " ";
+    return (domaine.laboratoires || []).filter(function (l) { var c = cle(l.nom); return c.length >= 4 && q.indexOf(" " + c + " ") >= 0; });
+  }
+  function carteLabo(l) {
+    var lien = V.racine + "laboratoires.html?labo=" + encodeURIComponent(l.nom);
+    var texte = l.produits ? "<b>" + V.esc(l.nom) + "</b> est un laboratoire titulaire de " + l.produits + " autorisation(s) de médicament(s) " +
+      "contre le glaucome (" + V.esc(l.molecules.join(", ").toLowerCase()) + "), déclarée(s) par les autorités de santé : " + V.esc(l.pays.join(", ")) + "."
+      : "<b>" + V.esc(l.nom) + "</b> apparaît dans la veille comme promoteur ou partenaire d'essais cliniques sur le glaucome.";
+    return '<p class="gi-reponse">' + texte + ' <a href="' + V.esc(lien) + '">Voir sa fiche laboratoire →</a></p>';
+  }
 
   function lienCitation(c) {
     return c.indexOf("PMID:") === 0 ? "https://pubmed.ncbi.nlm.nih.gov/" + c.slice(5) + "/" :
@@ -71,7 +108,7 @@
     return (note ? '<p class="gi-note">' + note + "</p>" : "") + "<ol class=\"gi-sources\">" + sources.map(function (s) {
       var cible = s.lien || (s.fiche ? V.racine + s.fiche : "#");
       return '<li><a href="' + V.esc(cible) + '" target="_blank" rel="noopener">' + V.esc(s.titre || s.id) + "</a> <small>" +
-        V.esc(s.citation || s.id) + (s.score != null ? " · " + Number(s.score).toFixed(3) : "") + "</small></li>";
+        V.esc(s.citation || s.id) + (s.score != null ? " · ressemblance " + Math.round(Math.min(1, s.score) * 100) + " %" : "") + "</small></li>";
     }).join("") + "</ol>";
   }
   function rejouer() {
@@ -82,9 +119,10 @@
     }
     h.forEach(function (m) { ajouter(m.role, m.html); });
   }
-  panneau.querySelector("#gi-exemples").innerHTML = EXEMPLES.map(function (q) {
+  function afficherExemples() { panneau.querySelector("#gi-exemples").innerHTML = EXEMPLES.map(function (q) {
     return '<button type="button" class="gi-exemple">' + V.esc(q) + "</button>";
-  }).join("");
+  }).join(""); }
+  afficherExemples();
 
   /* ---------- Bascule : assistant local, sinon recherche dans le navigateur ---------- */
   function avecDelai(promesse, ms) {
@@ -96,7 +134,7 @@
       .catch(function () { return false; })
       .then(function (ok) {
         modeAssistant = ok;
-        panneau.querySelector("#gi-mode").textContent = ok ? "Assistant local connecté" : "Mode sources seulement";
+        panneau.querySelector("#gi-mode").textContent = ok ? "Assistant local connecté (réponses en direct)" : "Version en ligne";
         return ok;
       });
   }
@@ -109,7 +147,7 @@
         return '<div class="gi-reponse">' + citationsEnLiens(d.reponse) + "</div>" +
           rendreSources(d.sources, "Sources retrouvées · modèle " + V.esc(d.modele) + " · prompt " + V.esc(d.version_prompt));
       }
-      return rendreSources(d.sources, d.statut === "sans_jeton" ? "Mode sources seulement : l'assistant n'a pas de jeton GitHub pour rédiger une réponse."
+      return rendreSources(d.sources, d.statut === "sans_jeton" ? "L'assistant local n'a pas de clé IA (GEMINI_API_KEY dans .env) : voici seulement les documents retrouvés."
         : "Réponse non affichée (" + V.esc(d.statut) + ") — voici les sources retrouvées.");
     });
   }
@@ -118,8 +156,19 @@
     return import(new URL(V.racine + "js/recherche-semantique.js", location.href).href).then(function (mod) {
       return mod.chercher(question, 5, V.racine, function (t) { attente.innerHTML = '<span class="gi-attente">' + V.esc(t) + "</span>"; });
     }).then(function (res) {
-      return rendreSources(res, "Mode sources seulement : l'assistant local n'est pas lancé. Voici les 5 sources les plus pertinentes.");
+      return rendreSources(res, "Sur le site en ligne, je rédige une réponse seulement pour les questions proposées sous la conversation. " +
+        "Pour votre question, voici les 5 documents de la veille qui s'en rapprochent le plus. Le pourcentage indique à quel point " +
+        "chaque document ressemble à votre question : plus il est élevé, plus il est pertinent.");
     });
+  }
+  function repondrePreparee(p) {
+    return '<div class="gi-reponse">' + citationsEnLiens(p.reponse) + "</div>" +
+      rendreSources(p.sources.slice(0, 5), "Réponse rédigée par l'IA (" + V.esc(p.modele) + ") lors de la mise à jour du " +
+        V.esc(V.date(preparees.genere_le)) + ", uniquement à partir des documents ci-dessous. Chaque référence citée a été vérifiée automatiquement.");
+  }
+  function repondreHorsSujet() {
+    return '<p>Votre question ne semble pas porter sur le glaucome. Je réponds seulement à partir des essais cliniques, articles, ' +
+      "laboratoires et autorisations sur le glaucome que la veille suit. Essayez par exemple une des questions proposées ci-dessous.</p>";
   }
   function poser(question) {
     question = (question || "").trim();
@@ -128,9 +177,16 @@
     var html = V.esc(question);
     ajouter("moi", html); h.push({ role: "moi", html: html }); memoriser(h);
     var attente = ajouter("ia", '<span class="gi-attente">Je cherche…</span>');
-    testerAssistant().then(function (ok) {
-      return ok ? repondreAssistant(question).catch(function () { modeAssistant = false; return repondreNavigateur(question, attente); })
-        : repondreNavigateur(question, attente);
+    Promise.all([testerAssistant(), pretes]).then(function (r) {
+      var ok = r[0];
+      if (ok) return repondreAssistant(question).catch(function () { modeAssistant = false; return repondreNavigateur(question, attente); });
+      var p = reponsePreparee(question);
+      if (p) return repondrePreparee(p);
+      if (horsSujet(question)) return repondreHorsSujet();
+      var labos = labosCites(question);
+      return repondreNavigateur(question, attente).then(function (html) {
+        return labos.slice(0, 3).map(carteLabo).join("") + html;
+      }, function (e) { if (labos.length) return labos.slice(0, 3).map(carteLabo).join(""); throw e; });
     }).then(function (rep) {
       attente.innerHTML = rep;
       var h2 = historique(); h2.push({ role: "ia", html: rep }); memoriser(h2);
