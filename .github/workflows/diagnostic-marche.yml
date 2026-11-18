@@ -10,27 +10,39 @@ jobs:
       - name: Explorer
         run: |
           python3 - <<'PY'
-          import json, re, urllib.request
-          def get(u, n=None):
-              r = urllib.request.urlopen(urllib.request.Request(u, headers={"User-Agent": "veille-glaucome"}), timeout=60)
-              return r.read(n) if n else r.read()
+          import io, json, zipfile, urllib.request, urllib.parse, csv
+          def get(u):
+              r = urllib.request.urlopen(urllib.request.Request(u, headers={"User-Agent": "veille-glaucome"}), timeout=180)
+              print("GET", u, r.status, r.headers.get("Content-Type"), r.headers.get("Content-Disposition")); return r.read()
+          for rep in ["2025_CIP13", "2025_ATC5"]:
+              try:
+                  b = get("https://open-data-assurance-maladie.ameli.fr/medicaments/download2.php?Dir_Rep=" + rep)
+                  print(len(b), b[:4])
+                  z = zipfile.ZipFile(io.BytesIO(b))
+                  for n in z.namelist():
+                      print("  FICHIER", n, z.getinfo(n).file_size)
+                      t = z.read(n).decode("latin-1")
+                      lignes = t.splitlines()
+                      print("  ENTETE", lignes[0][:600])
+                      s = [l for l in lignes if "S01E" in l]
+                      print("  S01E", len(s))
+                      for l in s[:12]: print("   ", l[:400])
+              except Exception as e: print(rep, repr(e))
           try:
-              d = json.loads(get("https://www.data.gouv.fr/api/1/datasets/?q=open%20medic&page_size=5"))
-              for ds in d["data"]:
-                  print("DS", ds["id"], ds["title"], ds.get("organization", {}).get("name"))
-                  for r in ds["resources"][:40]:
-                      print("   ", r["title"], r.get("format"), r.get("filesize"), r["url"])
-          except Exception as e: print("datagouv", e)
-          try:
-              h = get("https://open-data-assurance-maladie.ameli.fr/medicaments/index.php").decode("utf-8", "replace")
-              print("AMELI", sorted(set(re.findall(r'href="([^"]+)"', h)))[:80])
-          except Exception as e: print("ameli", e)
-          try:
-              cat = json.loads(get("https://data.cms.gov/data.json"))
-              for ds in cat["dataset"]:
-                  if "Part D Spending by Drug" in ds["title"]:
-                      print("CMS", ds["title"], ds.get("modified"))
-                      for x in ds["distribution"][:6]:
-                          print("   ", x.get("title"), x.get("format"), x.get("accessURL") or x.get("downloadURL"))
-          except Exception as e: print("cms", e)
+              b = get("https://open-data-assurance-maladie.ameli.fr/medicaments/download.php?Dir_Rep=Open_MEDIC_Base_Complete&Annee=2025")
+              print("BASE", len(b))
+              z = zipfile.ZipFile(io.BytesIO(b))
+              for n in z.namelist():
+                  print("  FICHIER", n, z.getinfo(n).file_size)
+                  with z.open(n) as f:
+                      for i, l in enumerate(io.TextIOWrapper(f, "latin-1")):
+                          if i < 2: print("  ", l[:500])
+                          if "S01E" in l and i < 10**9:
+                              print("  S01E ex", l[:500]); break
+          except Exception as e: print("base", repr(e))
+          for g in ["Latanoprost", "Netarsudil"]:
+              u = "https://data.cms.gov/data-api/v1/dataset/7e0b4365-fd63-4a29-8f5e-e0ac9f66a81b/data?" + urllib.parse.urlencode({"filter[Gnrc_Name]": g, "size": 20})
+              try:
+                  for x in json.loads(get(u)): print(" CMS", json.dumps(x)[:900])
+              except Exception as e: print("cms", repr(e))
           PY
