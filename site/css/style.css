@@ -288,6 +288,10 @@ table.marche th .drapeau { vertical-align: -3px; }
 .gi-saisie { display: flex; gap: 6px; padding: 10px 12px 12px; background: var(--carte); }
 .gi-saisie input { flex: 1; min-width: 0; font: inherit; font-size: .9rem; padding: 9px 11px; border-radius: 10px; border: 1px solid var(--bord); background: var(--carte-2); color: var(--texte); }
 .gi-saisie button { width: 42px; border: 0; border-radius: 10px; cursor: pointer; color: #fff; background: linear-gradient(135deg, var(--accent), var(--turquoise-vif)); display: grid; place-items: center; }
+.gi-saisie .gi-micro { background: var(--carte-2); color: var(--accent); border: 1px solid var(--bord); }
+.gi-saisie .gi-micro--actif { background: #b42318; color: #fff; border-color: #b42318; animation: gi-pulse 1.2s infinite; }
+@keyframes gi-pulse { 50% { box-shadow: 0 0 0 6px rgba(180,35,24,.25); } }
+@media (prefers-reduced-motion: reduce) { .gi-saisie .gi-micro--actif { animation: none; } }
 .gi-saisie button svg { width: 18px; height: 18px; stroke: currentColor; fill: none; stroke-width: 2.2; }
 @media (max-width: 600px) {
   .gi-panneau { right: 0; bottom: 0; width: 100vw; height: 85vh; border-radius: 18px 18px 0 0; }
@@ -447,3 +451,5 @@ a.tuile-couleur:hover { box-shadow: var(--ombre-forte); transform: translateY(-1
 .glossaire dt { font-weight: 800; color: var(--accent); }
 .glossaire dd { margin: 2px 0 0; font-size: .86rem; color: var(--doux); }
 .bandeau-note { background: var(--accent-doux); border-radius: var(--rayon-s); padding: 12px 16px; margin-top: 14px; font-size: .92rem; }
+button.action { font: inherit; text-align: left; cursor: pointer; width: 100%; }
+.action--grand { max-width: 560px; }

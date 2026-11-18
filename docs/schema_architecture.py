@@ -48,7 +48,7 @@ t(28, 510, "Ce qui en sort, sans intervention", "h2")
 sorties = [
     ("#0b4f8a", "Alertes", ["nouvel essai, changement de", "statut, de date, résultats :", "jamais signalé deux fois"]),
     ("#c2410c", "E-mail de la semaine", ["les 5 points + les alertes,", "tous les 7 jours, par Gmail", "et par une issue GitHub"]),
-    ("#146c43", "Fiches concurrents", ["produits par pays (nom", "commercial, molécule), essais", "en cours, actualités"]),
+    ("#146c43", "Fiches laboratoires", ["produits par pays (nom", "commercial, molécule), essais", "et actualités"]),
     ("#3f3c9e", "Accès aux articles", ["libre ou payant ; boutons :", "texte gratuit, auteur,", "ResearchGate, BU"]),
     ("#0b7a73", "Chiffres de marché", ["boîtes remboursées (France),", "dépenses Medicare (USA),", "mis à jour chaque année"]),
 ]

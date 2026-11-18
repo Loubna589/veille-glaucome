@@ -41,7 +41,7 @@ def titre_simple(titre):
 
 
 PAGES_PUBLIQUES = ["index.html", "recherche.html", "assistant.html", "carte.html", "etudes.html", "laboratoires.html",
-                   "marche.html", "alertes.html", "fonctionnement.html", "semaine.html", "methode.html", "concurrents.html", "apropos.html"]
+                   "marche.html", "alertes.html", "fonctionnement.html", "semaine.html", "methode.html", "apropos.html"]
 
 
 def referencement(nb_fiches):

@@ -97,6 +97,8 @@
     '<div class="gi-exemples" id="gi-exemples"></div>' +
     '<form class="gi-saisie" id="gi-form"><label for="gi-q" class="sr">Votre question</label>' +
     '<input id="gi-q" type="text" maxlength="500" autocomplete="off" placeholder="Posez votre question…">' +
+    '<button type="button" class="gi-micro" id="gi-micro" hidden aria-label="Dicter la question à voix haute" title="Dicter la question">' +
+    '<svg viewBox="0 0 24 24" aria-hidden="true"><rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5 11a7 7 0 0 0 14 0M12 18v3"/></svg></button>' +
     '<button type="submit" aria-label="Envoyer">' + V.icone("recherche") + "</button></form>";
   var haut = document.createElement("button");
   haut.type = "button"; haut.className = "gi-haut"; haut.hidden = true;
@@ -221,6 +223,39 @@
   panneau.querySelector("#gi-form").addEventListener("submit", function (e) { e.preventDefault(); var q = champ.value; champ.value = ""; poser(q); });
   panneau.querySelector("#gi-exemples").addEventListener("click", function (e) {
     var b = e.target.closest(".gi-exemple"); if (b) poser(b.textContent);
+  });
+
+  /* ---------- Dictée vocale (reconnaissance vocale du navigateur : Chrome, Edge, Safari) ---------- */
+  var Reco = window.SpeechRecognition || window.webkitSpeechRecognition;
+  var micro = panneau.querySelector("#gi-micro");
+  if (Reco) {
+    micro.hidden = false;
+    var reco = null;
+    micro.addEventListener("click", function () {
+      if (reco) { reco.stop(); return; }
+      reco = new Reco();
+      reco.lang = "fr-FR"; reco.interimResults = true; reco.maxAlternatives = 1;
+      var avant = champ.placeholder;
+      champ.placeholder = "Je vous écoute… parlez maintenant";
+      micro.classList.add("gi-micro--actif"); micro.setAttribute("aria-label", "Arrêter la dictée");
+      reco.onresult = function (e) {
+        var t = ""; for (var i = 0; i < e.results.length; i++) t += e.results[i][0].transcript;
+        champ.value = t;
+        if (e.results[e.results.length - 1].isFinal) { reco.stop(); var q = champ.value; champ.value = ""; poser(q); }
+      };
+      reco.onerror = function (e) {
+        if (e.error === "not-allowed") ajouter("ia", '<p class="gi-note">Le micro est bloqué : autorisez-le dans la barre d\'adresse du navigateur, puis réessayez.</p>');
+      };
+      reco.onend = function () { reco = null; champ.placeholder = avant; micro.classList.remove("gi-micro--actif"); micro.setAttribute("aria-label", "Dicter la question à voix haute"); };
+      reco.start();
+    });
+  }
+
+  /* Ouverture depuis un bouton de la page (ex. page « Poser une question ») */
+  V.ouvrirAssistant = function (question) { if (panneau.hidden) ouvrir(); if (question) poser(question); };
+  document.addEventListener("click", function (e) {
+    var b = e.target.closest("[data-ouvrir-assistant]");
+    if (b) { e.preventDefault(); V.ouvrirAssistant(b.getAttribute("data-question") || ""); }
   });
 
   /* ---------- Retour en haut ---------- */

@@ -51,11 +51,8 @@
       but: "Parcourir tous les essais cliniques et articles suivis, avec une fiche détaillée pour chacun.",
       exemple: "Choisissez « Détectées : ces 7 derniers jours » pour ne voir que les plus récents." },
     { id: "laboratoires", href: "laboratoires.html", label: "Laboratoires", icone: "laboratoires",
-      but: "Voir, laboratoire par laboratoire, les essais qu'il mène et les articles qu'il finance.",
-      exemple: "Tapez « Alcon » pour voir ses essais et ses publications." },
-    { id: "concurrents", href: "concurrents.html", label: "Fiches concurrents", icone: "concurrents",
-      but: "Voir, pour un laboratoire, ses produits pays par pays (nom commercial, molécule), ses essais en cours et ses actualités.",
-      exemple: "Ouvrez la fiche Santen : Roclanda, Catiolanze, Saflutan… pays par pays, puis ses essais en cours." },
+      but: "Une fiche par laboratoire : médicaments autorisés pays par pays, essais et publications.",
+      exemple: "Ouvrez la fiche Santen : Roclanda, Catiolanze, Saflutan… pays par pays, puis ses essais." },
     { id: "marche", href: "marche.html", label: "Autorisations & remboursement", icone: "marche",
       but: "Savoir si un traitement est autorisé et remboursé en France, en Europe et aux États-Unis.",
       exemple: "Regardez la ligne Roclanda : autorisé par l'EMA en 2021, SMR « faible » en France, remboursé à 15 %." },
@@ -136,8 +133,8 @@
     nav.innerHTML = '<a class="lien-evitement" href="#contenu">Aller au contenu</a>' +
       '<nav class="nav" aria-label="Menu principal"><a class="marque" href="' + V.racine + 'index.html">' + V.LOGO +
       "<span><b>Glaucoma Intelligence</b><small>Veille scientifique · glaucome</small></span></a>" +
-      '<div class="nav__liens">' + liens.slice(0, 10).join("") + '</div><div class="nav__groupe">Pour le jury</div>' +
-      '<div class="nav__liens">' + liens.slice(10).join("") + "</div>" +
+      '<div class="nav__liens">' + liens.slice(0, 9).join("") + '</div><div class="nav__groupe">Pour le jury</div>' +
+      '<div class="nav__liens">' + liens.slice(9).join("") + "</div>" +
       '<div class="nav__pied">Sources officielles citées.<br>Mise à jour chaque jour.</div></nav>';
     var main = document.querySelector("main.page");
     if (main) main.id = "contenu";
