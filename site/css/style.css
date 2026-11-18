@@ -228,7 +228,9 @@ table.marche.petit { box-shadow: none; font-size: .84rem; }
 .drapeau { display: inline-block; width: 20px; height: 15px; vertical-align: -2px; margin-right: 6px; border-radius: 2px;
            box-shadow: 0 0 0 1px rgba(15, 29, 51, .18); object-fit: cover; flex: none; }
 .pays { white-space: nowrap; }
-.labo-nom { border-bottom: 1px dotted var(--doux); cursor: help; }
+.labo-nom { font: inherit; color: var(--accent); background: none; border: 0; padding: 0; cursor: pointer; text-decoration: underline; text-align: left; display: inline;
+            text-decoration-thickness: 1px; text-underline-offset: 2px; }
+.labo-nom:hover { color: var(--turquoise); }
 .labo-nom.actif { background: var(--turquoise-doux); color: var(--turquoise); font-weight: 650; border-radius: 4px; padding: 0 3px; }
 .labo-nom--vide { color: var(--doux); font-style: italic; }
 .filtres--marche { flex-wrap: wrap; align-items: flex-end; }

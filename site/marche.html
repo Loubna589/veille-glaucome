@@ -50,8 +50,8 @@
         <li>Un médicament est rattaché à une ligne si ses substances actives sont <b>exactement</b> celles de la ligne
           (le timolol seul et l'association dorzolamide + timolol sont deux lignes). Usage ophtalmique uniquement.</li>
         <li><b>Laboratoire</b> : le titulaire de l'autorisation (ou le demandeur) tel que <b>chaque source</b> le déclare —
-          jamais déduit d'une autre source. Les noms sont regroupés (Santen Oy, Santen SA → Santen) ; passez la souris
-          sur un nom pour voir le nom exact et le champ d'origine.</li>
+          jamais déduit d'une autre source. Les noms sont regroupés (Santen Oy, Santen SA → Santen). <b>Cliquez sur un nom</b> pour n'afficher que les
+          produits de ce laboratoire ; « (2 produits) » = ce laboratoire détient 2 des produits de la case.</li>
         <li><b>SMR</b> : service médical rendu (HAS). <b>ASMR</b> : amélioration du service médical rendu, de I (majeure)
           à V (absence). <b>NDA</b> : médicament de marque ; <b>ANDA</b> : générique (FDA).</li>
         <li>Prix : prix public d'une boîte, honoraire de dispensation du pharmacien compris (BDPM).</li>
@@ -125,7 +125,8 @@
       function labo(l, note) {
         var titre = infoLabo(l) + (note ? "\n" + note : "");
         if (!l || !l.declare) return '<span class="labo-nom labo-nom--vide" title="' + esc(titre) + '">' + NON_DECL + "</span>";
-        return '<span class="labo-nom' + (l.groupe === filtreLabo ? " actif" : "") + '" title="' + esc(titre) + '">' + esc(l.groupe) + "</span>";
+        return '<button type="button" class="labo-nom' + (l.groupe === filtreLabo ? " actif" : "") + '" data-labo="' + esc(l.groupe) +
+          '" title="' + esc(titre) + '">' + esc(l.groupe) + "</button>";
       }
       /* Plusieurs produits : laboratoires distincts, les plus fréquents d'abord (le laboratoire filtré en tête) */
       function labos(liste, max) {
@@ -142,9 +143,10 @@
         if (!cles.length) return vide(NON_DECL);
         max = max || 3;
         var rendu = cles.slice(0, max).map(function (k) {
-          return '<span class="labo-nom' + (k === filtreLabo ? " actif" : "") + (k === NON_DECL ? " labo-nom--vide" : "") +
-            '" title="' + esc(g[k].exacts.length ? "Nom(s) exact(s) déclaré(s) : " + g[k].exacts.join(" · ") : "Aucun laboratoire déclaré par la source") + '">' +
-            esc(k) + (g[k].n > 1 ? " ×" + g[k].n : "") + "</span>";
+          var n = g[k].n > 1 ? " <small>(" + g[k].n + " produits)</small>" : "";
+          if (k === NON_DECL) return '<span class="labo-nom--vide">' + esc(k) + "</span>" + n;
+          return '<button type="button" class="labo-nom' + (k === filtreLabo ? " actif" : "") + '" data-labo="' + esc(k) +
+            '" title="' + esc("Nom(s) exact(s) déclaré(s) : " + g[k].exacts.join(" · ")) + '">' + esc(k) + "</button>" + n;
         }).join(", ");
         var reste = cles.slice(max);
         return rendu + (reste.length ? ' <small title="' + esc(reste.join(", ")) + '">+ ' + reste.length + " autre(s)</small>" : "");
@@ -153,6 +155,16 @@
         return !filtreLabo || liste.some(function (x) { return (x.laboratoire || x).groupe === filtreLabo; });
       }
       var sel = document.getElementById("f-labo");
+      /* Clic sur un nom de laboratoire : n'afficher que ses produits (re-clic : tous les laboratoires) */
+      document.addEventListener("click", function (ev) {
+        var b = ev.target.closest && ev.target.closest(".labo-nom[data-labo]");
+        if (!b) return;
+        var nom = b.getAttribute("data-labo");
+        sel.value = sel.value === nom ? "" : nom;
+        sel.dispatchEvent(new Event("change", { bubbles: true }));
+        sel.dispatchEvent(new Event("input", { bubbles: true }));
+        sel.scrollIntoView({ behavior: "smooth", block: "center" });
+      });
       (M.laboratoires || []).forEach(function (g) {
         var o = document.createElement("option");
         o.value = g.groupe;
@@ -231,7 +243,7 @@
         function compte(avis) {
           var c = {};
           avis.forEach(function (a) { c[a.valeur] = (c[a.valeur] || 0) + 1; });
-          return Object.keys(c).map(function (k) { return esc(k) + (c[k] > 1 ? " ×" + c[k] : ""); }).join(", ");
+          return Object.keys(c).map(function (k) { return esc(k) + (c[k] > 1 ? " <small>(" + c[k] + " avis)</small>" : ""); }).join(", ");
         }
         return '<dl class="cellule">' +
           "<dt>AMM</dt><dd>" + actives.length + " spécialité(s) active(s), " + commerc.length + " commercialisée(s)" +
