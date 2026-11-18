@@ -25,15 +25,13 @@
 
     <h2 class="titre-section">Comment ces 5 points sont choisis</h2>
     <div class="etapes">
-      <div class="etape"><b>Des règles notent la semaine</b>
-        <span>Nouveaux essais, essais modifiés et articles entrés dans PubMed pendant les 7 jours reçoivent un score : résultats
-          déposés, essai terminé, phase 3, promoteur industriel, produit suivi étudié, essai randomisé, méta-analyse…</span></div>
-      <div class="etape"><b>L'IA rédige les 5 points</b>
-        <span>Gemini écrit 5 points en français à partir des 25 éléments les mieux notés. Chaque point doit citer ses sources :
-          un point qui cite un identifiant absent de la liste est rejeté.</span></div>
-      <div class="etape"><b>Sinon, les règles seules</b>
-        <span>Si l'IA est indisponible ou si sa réponse ne passe pas le contrôle, les 5 éléments les mieux notés sont affichés
-          avec la raison de leur sélection. La page dit toujours quel mode a servi.</span></div>
+      <div class="etape"><b>Chaque nouveauté reçoit des points</b>
+        <span>Ce qui est arrivé pendant les 7 jours (nouveaux essais, essais modifiés, nouveaux articles) est noté par des règles fixes, toujours les mêmes.</span></div>
+      <div class="etape"><b>Ce qui pèse lourd</b>
+        <span>Résultats d'essai publiés <b>+6</b> · essai terminé ou arrêté <b>+4</b> · nouvel essai <b>+3</b> (+3 en phase 3, la dernière avant l'autorisation)
+          · article sur un médicament suivi <b>+3</b> · patients tirés au sort <b>+3</b> · laboratoire promoteur <b>+2</b>.</span></div>
+      <div class="etape"><b>L'IA explique les 5 premiers</b>
+        <span>Gemini les réécrit en mots simples, avec leur source. Une phrase qui cite une source absente est refusée ; sans IA, les règles les affichent seules.</span></div>
     </div>
 
     <h2 class="titre-section">Éléments retenus pour la synthèse</h2>
@@ -60,7 +58,11 @@
       }
       function points(s) {
         return s.points.map(function (p) {
-          return '<li class="semaine-point"><h3>' + esc(p.titre) + "</h3><p>" + esc(p.texte) + '</p><p class="semaine-sources">Source' +
+          var cls = { "Nouvel essai": "neuf", "Résultats publiés": "ok", "Essai mis à jour": "ver", "Nouvel article": "reg" }[p.etiquette] || "reg";
+          return '<li class="semaine-point">' + (p.etiquette ? '<span class="badge ' + cls + '">' + esc(p.etiquette) + "</span>" : "") +
+            "<h3>" + esc(p.titre) + "</h3><p>" + esc(p.texte) + "</p>" +
+            (p.pourquoi ? '<p class="semaine-pourquoi"><strong>Pourquoi c\'est important :</strong> ' + esc(p.pourquoi) + "</p>" : "") +
+            '<p class="semaine-sources">Source' +
             (p.liens.length > 1 ? "s" : "") + " : " + p.liens.map(source).join("<br>") + "</p></li>";
         }).join("");
       }

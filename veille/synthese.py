@@ -16,7 +16,7 @@ from datetime import date, timedelta
 
 from veille import fournisseur_ia, reseau
 
-VERSION_PROMPT = "semaine_v1"
+VERSION_PROMPT = "semaine_v2"
 NB_POINTS = 5
 NB_CANDIDATS = 25
 MOTIF_ID = re.compile(r"\b(NCT\d{8}|PMID:\d+|W\d{6,})\b")
@@ -27,7 +27,8 @@ LIBELLES_CHANGEMENT = {
     "resultats_deposes": "résultats déposés au registre",
 }
 
-PROMPT = """Tu rédiges la synthèse hebdomadaire d'une veille sur le glaucome pour une chef de produit pharmaceutique.
+PROMPT = """Tu rédiges la synthèse hebdomadaire d'une veille sur le glaucome. La lectrice est une étudiante en management,
+PAS une professionnelle de santé : elle doit tout comprendre sans dictionnaire médical.
 On te donne une liste d'ÉLÉMENTS de la semaine (essais cliniques et articles), chacun avec son identifiant entre crochets.
 
 Règles :
@@ -35,11 +36,39 @@ Règles :
   (nouveaux traitements, résultats d'essais, essais qui se terminent ou changent, concurrence, tendances).
 - Utilise UNIQUEMENT les informations des éléments. N'ajoute aucun chiffre, nom ou conclusion qui n'y figure pas.
 - Chaque point cite au moins un identifiant de la liste, écrit exactement comme dans la liste (ex. NCT01234567, PMID:12345678).
-- Phrases simples, en français, sans jargon inutile. Un point = un titre court (8 mots maximum) + 1 à 2 phrases.
+- Français très simple, comme pour expliquer à un ami : phrases courtes (20 mots maximum), voix active.
+  Tout mot médical ou technique est suivi de son explication entre parenthèses, la première fois
+  (ex. « hyperémie (yeux rouges) », « pression intraoculaire (pression à l'intérieur de l'œil) », « randomisé (patients tirés au sort) »).
+  Pas d'abréviation sans explication. Les médicaments s'écrivent avec leur nom normal (netarsudil, latanoprost).
+- Chaque point a :
+  « titre » : 8 mots maximum, compréhensible seul ;
+  « texte » : 2 phrases simples : ce qui a été étudié ou ce qui a changé, puis ce qu'on a trouvé ;
+  « pourquoi » : 1 phrase qui commence par « Pour un laboratoire » ou « Pour les patients » et dit pourquoi c'est utile à savoir.
 - Si un élément est seulement un résumé d'article, dis « selon le résumé » ; ne présente pas un résultat comme établi.
 
 Réponds par un objet JSON, et rien d'autre :
-{"points": [{"titre": "...", "texte": "...", "sources": ["NCT…", "PMID:…"]}]}"""
+{"points": [{"titre": "...", "texte": "...", "pourquoi": "...", "sources": ["NCT…", "PMID:…"]}]}"""
+
+STATUTS_FR = {
+    "NOT_YET_RECRUITING": "pas encore ouvert aux patients", "RECRUITING": "recrute des patients",
+    "ENROLLING_BY_INVITATION": "recrute sur invitation", "ACTIVE_NOT_RECRUITING": "en cours, ne recrute plus",
+    "COMPLETED": "terminé", "SUSPENDED": "suspendu", "TERMINATED": "arrêté avant la fin", "WITHDRAWN": "retiré avant de commencer",
+}
+
+
+COMMENT_CHOISI = ("Comment ces 5 points sont choisis : chaque nouveauté de la semaine reçoit des points selon des règles fixes. "
+                  "Un essai qui publie ses résultats gagne le plus (+6), puis un essai qui se termine (+4), un nouvel essai (+3, "
+                  "et +3 s'il est en phase 3, la dernière étape avant l'autorisation), un article qui étudie un médicament suivi (+3) "
+                  "ou dont les patients sont tirés au sort (+3). L'IA rédige ensuite les 5 mieux notés, en citant ses sources.")
+
+
+def etiquette(e):
+    """Nature de l'élément, fixée par les règles (pas par l'IA)."""
+    if e["type"] == "article":
+        return "Nouvel article"
+    if "nouvel essai" in e["raisons"]:
+        return "Nouvel essai"
+    return "Résultats publiés" if LIBELLES_CHANGEMENT["resultats_deposes"] in e["raisons"] else "Essai mis à jour"
 
 
 def phase_lisible(phases):
@@ -104,7 +133,7 @@ def candidats(conn, debut, fin):
             "SELECT type, objet_id, champ, avant, apres, titre FROM evenements WHERE objet_type = 'essai' "
             "AND type != 'nouvel_essai' AND substr(date_detection, 1, 10) BETWEEN ? AND ?", (debut, fin)):
         c = changements.setdefault(nct, {"titre": titre, "details": [], "score": 0, "raisons": []})
-        c["details"].append(f"{LIBELLES_CHANGEMENT.get(type_, type_)} : {avant or '—'} → {apres or '—'}")
+        c["details"].append(f"{LIBELLES_CHANGEMENT.get(type_, type_)} : {STATUTS_FR.get(avant, avant) or '—'} → {STATUTS_FR.get(apres, apres) or '—'}")
         bonus = 6 if type_ == "resultats_deposes" else 4 if apres in ("COMPLETED", "TERMINATED", "WITHDRAWN") else 2
         c["score"] += bonus
         c["raisons"].append(LIBELLES_CHANGEMENT.get(type_, type_))
@@ -177,8 +206,8 @@ def valider(sortie, elements):
         sources += [s for s in MOTIF_ID.findall(p["texte"]) if s not in sources]
         if not sources or any(s not in ids for s in sources):
             continue
-        texte = re.sub(r"\s*\[?\(?(NCT\d{8}|PMID:\d+|W\d{6,})\)?\]?", "", p["texte"]).strip()
-        bons.append({"titre": str(p["titre"]).strip(), "texte": texte, "sources": sources})
+        sans_id = lambda x: re.sub(r"\s*\[?\(?(NCT\d{8}|PMID:\d+|W\d{6,})\)?\]?", "", str(x or "")).strip()
+        bons.append({"titre": str(p["titre"]).strip(), "texte": sans_id(p["texte"]), "pourquoi": sans_id(p.get("pourquoi")), "sources": sources})
     return bons[:NB_POINTS] if len(bons) >= NB_POINTS else None
 
 
@@ -187,8 +216,8 @@ def points_regles(elements):
     points = []
     for e in elements[:NB_POINTS]:
         debut = " ".join(e.get("resume_fr") or []) or e["texte"]
-        points.append({"titre": e["titre"] or "Sans titre", "sources": [e["id"]],
-                       "texte": (couper(debut) + " " if debut else "") + "(Sélectionné pour : " + ", ".join(e["raisons"]) + ".)"})
+        points.append({"titre": e["titre"] or "Sans titre", "sources": [e["id"]], "texte": couper(debut) if debut else "",
+                       "pourquoi": "Retenu par les règles pour : " + ", ".join(e["raisons"]) + "."})
     return points
 
 
@@ -233,6 +262,8 @@ def construire(conn, jour=None, cle=None, session=None):
     resultat["points"] = points or points_regles(elements)
     par_id = {e["id"]: e for e in elements}
     for p in resultat["points"]:
+        if p["sources"] and p["sources"][0] in par_id:
+            p["etiquette"] = etiquette(par_id[p["sources"][0]])
         p["liens"] = [{"id": s, "lien": par_id[s]["lien"], "fiche": par_id[s]["fiche"], "titre": par_id[s].get("titre")} for s in p["sources"] if s in par_id]
     return resultat
 
@@ -246,12 +277,14 @@ def texte_mail(s, url_site):
               f"{c['articles']} article(s) entré(s) dans PubMed, {c['nouveaux_essais']} nouvel(s) essai(s), "
               f"{c['changements_essais']} essai(s) modifié(s).", ""]
     for i, p in enumerate(s["points"], 1):
-        lignes += [f"{i}. {p['titre']}", f"   {p['texte']}"]
-        lignes += [f"   → {l['id']} : {l['lien']}" for l in p.get("liens", [])]
+        lignes += [f"{i}. [{p.get('etiquette', '')}] {p['titre']}".replace("[] ", ""), f"   {p['texte']}"]
+        if p.get("pourquoi"):
+            lignes.append(f"   Pourquoi c'est important : {p['pourquoi']}")
+        lignes += [f"   → Source : {couper(l.get('titre') or l['id'], 100)} — {l['lien']}" for l in p.get("liens", [])]
         lignes.append("")
     lignes.append("Rédigé par l'IA à partir des seules sources citées (à vérifier)." if s["mode"] == "ia"
                   else "Points sélectionnés par des règles fixes (sans IA).")
-    lignes += [f"Tout le détail : {url_site}semaine.html", "",
+    lignes += ["", COMMENT_CHOISI, "", f"Tout le détail : {url_site}semaine.html", "",
                "Glaucoma Intelligence — projet étudiant, données publiques uniquement."]
     return "\n".join(lignes)
 
@@ -265,10 +298,14 @@ def texte_issue(s, url_site, alertes_md="", personne=""):
               f"**{c['articles']}** article(s) entré(s) dans PubMed · **{c['nouveaux_essais']}** nouvel(s) essai(s) · "
               f"**{c['changements_essais']}** essai(s) modifié(s)", ""]
     for i, p in enumerate(s["points"], 1):
-        sources = " · ".join(f"[{l['id']}]({l['lien']})" for l in p.get("liens", []))
-        lignes += [f"### {i}. {p['titre']}", p["texte"], f"Source : {sources}", ""]
+        sources = " · ".join(f"[{couper(l.get('titre') or l['id'], 100)}]({l['lien']}) ({l['id']})" for l in p.get("liens", []))
+        lignes += [f"### {i}. {p['titre']}", f"**{p['etiquette']}**" if p.get("etiquette") else "", p["texte"]]
+        if p.get("pourquoi"):
+            lignes.append(f"> **Pourquoi c'est important :** {p['pourquoi']}")
+        lignes += ["", f"Source : {sources}", ""]
     lignes.append("_Rédigé par l'IA à partir des seules sources citées (citations vérifiées, à relire avant de citer)._"
                   if s["mode"] == "ia" else "_Points sélectionnés par des règles fixes (sans IA)._")
+    lignes += ["", "_" + COMMENT_CHOISI + "_"]
     if alertes_md:
         lignes += ["", "---", "", alertes_md.replace("# Alertes de la semaine", "## Alertes de la semaine")]
     lignes += ["", f"➡️ Tout le détail : {url_site}semaine.html", "",

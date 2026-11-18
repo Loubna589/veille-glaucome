@@ -51,4 +51,11 @@ def test_issue_hebdomadaire_en_markdown_avec_liens():
     s = synthese.construire(base_test(), jour=date(2026, 11, 18), cle="")
     md = synthese.texte_issue(s, "https://x/", personne="@moi")
     assert md.startswith("@moi : voici ce qu'il faut retenir du 12/11/2026 au 18/11/2026")
-    assert "[NCT00000001](https://clinicaltrials.gov/study/NCT00000001)" in md and "https://x/semaine.html" in md
+    assert "[Essai neuf](https://clinicaltrials.gov/study/NCT00000001)" in md and "https://x/semaine.html" in md
+    assert "**Nouvel essai**" in md and "Pourquoi c'est important" in md and "Comment ces 5 points sont choisis" in md
+
+
+def test_etiquettes_fixees_par_les_regles():
+    s = synthese.construire(base_test(), jour=date(2026, 11, 18), cle="")
+    assert [p["etiquette"] for p in s["points"][:2]] == ["Nouvel essai", "Résultats publiés"]
+    assert "Pourquoi c'est important" in synthese.texte_mail(s, "https://x/")

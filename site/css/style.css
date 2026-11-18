@@ -484,3 +484,5 @@ button.action { font: inherit; text-align: left; cursor: pointer; width: 100%; }
 .fil-etapes .fil-prec { justify-self: start; color: var(--texte); }
 .fil-rang { color: var(--doux); font-size: .85rem; }
 @media (max-width: 700px) { .fil-etapes { grid-template-columns: 1fr; } .fil-etapes a, .fil-etapes .fil-suiv, .fil-etapes .fil-prec { justify-self: stretch; text-align: center; } .fil-rang { text-align: center; order: -1; } }
+.semaine-pourquoi { background: var(--accent-doux); border-radius: 8px; padding: 6px 10px; margin: 6px 0; font-size: .92rem; }
+.semaine-point .badge { margin-bottom: 4px; }
