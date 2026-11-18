@@ -14,6 +14,11 @@ Liens (type → source de la donnée) :
   intervention  essai → traitement     ClinicalTrials.gov (interventions)
   cite_essai    publication → essai    PubMed (DataBankList : NCT déclaré) ou registre (références de l'essai)
   financeur     publication → organisme PubMed (GrantList) ou Crossref (financeur déclaré par l'éditeur)
+  titulaire     traitement → organisme  titulaire de l'autorisation déclaré par l'autorité de chaque pays
+                                       (BDPM, EMA, openFDA, Santé Canada, AEMPS, AIFA, Swissmedic)
+
+Chaque organisme porte `famille` : « laboratoire » (promoteur industriel au registre, ou titulaire d'une
+autorisation) ou « academique » (université, hôpital, financeur public…), pour que la carte les distingue.
 """
 import json
 import re
@@ -38,7 +43,8 @@ def cle_organisme(nom):
     return " ".join(re.sub(r"[^\w&-]", " ", (nom or "").lower()).split())
 
 
-def construire(conn):
+def construire(conn, marche=None):
+    """`marche` : données de la page « Autorisations & remboursement » enrichies par laboratoires_marche.enrichir."""
     noeuds, liens = {}, {}
 
     def noeud(id_, type_, label, **attrs):
@@ -91,12 +97,41 @@ def construire(conn):
             noeud(p, "publication", f"PMID {a['pmid']}", titre=d.get("titre"), fiche=f"fiches/{a['pmid']}.html",
                   lien=f"https://pubmed.ncbi.nlm.nih.gov/{a['pmid']}/")
 
+    ajouter_titulaires(marche, noeuds, liens, noeud, lien)
+
     # On ne garde que les liens dont les deux extrémités existent (ex. PMID déclaré au registre mais absent de la base)
     aretes = [l for l in liens.values() if l["source"] in noeuds and l["target"] in noeuds]
     for l in aretes:
         noeuds[l["source"]]["degre"] += 1
         noeuds[l["target"]]["degre"] += 1
+    for n in noeuds.values():
+        if n["type"] == "organisme":
+            n["famille"] = "laboratoire" if n.get("industriel") else "academique"
     return {"noeuds": list(noeuds.values()), "liens": aretes}
+
+
+def ajouter_titulaires(marche, noeuds, liens, noeud, lien):
+    """Liens molécule → laboratoire titulaire, d'après les autorités de santé de chaque pays."""
+    from veille import laboratoires_marche as lm
+    if not marche:
+        return
+    # Un laboratoire déjà présent comme promoteur d'essai (« Santen Pharmaceutical Co., Ltd. ») reste le même nœud
+    par_cle = {lm.cle(n["label"]): n["id"] for n in noeuds.values() if n["type"] == "organisme" and lm.cle(n["label"])}
+    sources = {}
+    for nom_mol, m in (marche.get("molecules") or {}).items():
+        t = "trt:" + cle_traitement(nom_mol)
+        noeud(t, "traitement", nom_mol, categorie="médicament")
+        for zone in lm.CHAMPS:
+            for x in m.get(zone) or []:
+                lab = x.get("laboratoire") or {}
+                if not lab.get("groupe"):
+                    continue
+                o = par_cle.setdefault(lm.cle(lab["groupe"]), "org:" + cle_organisme(lab["groupe"]))
+                noeud(o, "organisme", lab["groupe"])["industriel"] = True
+                lien(t, o, "titulaire", "")
+                sources.setdefault((t, o), {})[lab["champ"].split(" — ")[0]] = 1
+    for (t, o), noms in sources.items():
+        liens[(t, o, "titulaire")]["origine"] = "titulaire déclaré par : " + ", ".join(noms)
 
 
 def statistiques(graphe):

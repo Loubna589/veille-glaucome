@@ -38,3 +38,22 @@ def test_article_qui_cite_un_essai_hors_base(conn):
     hors_base = [n for n in g["noeuds"] if n["id"] == "NCT09999999"]
     assert hors_base and hors_base[0]["hors_base"] is True
     assert graphe.statistiques(g)["liens_par_type"] == {"cite_essai": 1}
+
+
+def test_laboratoires_titulaires_et_familles(conn):
+    """Les laboratoires viennent aussi des autorités de santé (titulaire), et sont distingués des universités."""
+    from veille import laboratoires_marche
+    base.enregistrer_essai(conn, essai("NCT00000001", promoteur="Santen Pharmaceutical Co., Ltd.", type_promoteur="INDUSTRY",
+                                       collaborateurs=["Université X"]), "2026-11-01")
+    marche = laboratoires_marche.enrichir({"molecules": {"Latanoprost": {
+        "france": [{"titulaire": "SANTEN OY"}, {"titulaire": "LABORATOIRES THEA"}],
+        "usa": [{"sponsor": "Santen Inc"}]}}}, alias={})
+    g = graphe.construire(conn, marche)
+    orgs = {n["label"]: n for n in g["noeuds"] if n["type"] == "organisme"}
+    assert orgs["Université X"]["famille"] == "academique"
+    assert orgs["Santen Pharmaceutical Co., Ltd."]["famille"] == "laboratoire"     # même nœud que le titulaire Santen
+    assert "Santen" not in orgs and orgs["Thea"]["famille"] == "laboratoire"
+    titulaires = [l for l in g["liens"] if l["type"] == "titulaire"]
+    assert len(titulaires) == 2 and all(l["source"] == "trt:latanoprost" for l in titulaires)
+    santen = next(l for l in titulaires if l["target"] == orgs["Santen Pharmaceutical Co., Ltd."]["id"])
+    assert santen["origine"] == "titulaire déclaré par : BDPM, openFDA"

@@ -23,12 +23,14 @@
       <h1>Carte des acteurs</h1>
       <p>Essais, traitements, organismes et publications. <strong>Chaque lien vient d'une donnée déclarée par une source</strong>
         (promoteur et interventions au registre ClinicalTrials.gov, NCT déclaré dans PubMed, financeur confirmé par PubMed ou
-        Crossref) — aucun lien n'est déduit par l'outil. Cliquez sur un nœud pour voir sa fiche.</p>
+        Crossref, laboratoire titulaire de l'autorisation déclaré par les autorités de santé) — aucun lien n'est déduit par l'outil.
+        <strong>Les laboratoires sont en rouge</strong>, les universités, hôpitaux et financeurs publics en orange. Cliquez sur un nœud pour voir sa fiche.</p>
     </header>
     <form class="filtres" id="filtres" onsubmit="return false">
       <label class="case"><input type="checkbox" value="essai" checked> Essais</label>
       <label class="case"><input type="checkbox" value="traitement" checked> Traitements</label>
-      <label class="case"><input type="checkbox" value="organisme" checked> Organismes</label>
+      <label class="case"><input type="checkbox" value="laboratoire" checked> Laboratoires</label>
+      <label class="case"><input type="checkbox" value="academique" checked> Universités, hôpitaux, financeurs</label>
       <label class="case"><input type="checkbox" value="publication" checked> Publications</label>
       <label>Statut des essais<select id="f-statut"><option value="">tous</option></select></label>
       <label>Recherche<input type="search" id="f-texte" placeholder="netarsudil, Santen, NCT…"></label>
@@ -49,9 +51,11 @@
       V.monterNavigation("carte");
       if (!window.cytoscape) { V.erreurChargement(new Error("Cytoscape.js n'a pas pu être chargé (connexion internet nécessaire)")); return; }
       var css = getComputedStyle(document.documentElement), c = function (v) { return css.getPropertyValue(v).trim(); };
-      var COULEURS = { essai: c("--g1"), traitement: c("--g2"), organisme: c("--g4"), publication: c("--g3") };
-      var NOMS = { essai: "Essai", traitement: "Traitement", organisme: "Organisme", publication: "Publication" };
-      var LIENS = { promoteur: "promoteur", collaborateur: "collaborateur", intervention: "intervention", financeur: "financeur", cite_essai: "cite l'essai" };
+      var COULEURS = { essai: c("--g1"), traitement: c("--g2"), laboratoire: c("--g5"), academique: c("--g4"), publication: c("--g3") };
+      var NOMS = { essai: "Essai", traitement: "Traitement", laboratoire: "Laboratoire", academique: "Université, hôpital ou financeur", publication: "Publication" };
+      var LIENS = { promoteur: "promoteur", collaborateur: "collaborateur", intervention: "intervention", financeur: "financeur", cite_essai: "cite l'essai",
+                    titulaire: "laboratoire titulaire" };
+      function famille(d) { return d.famille || d.type; }
       document.getElementById("legende").innerHTML = Object.keys(COULEURS).map(function (t) {
         return '<span><i style="background:' + COULEURS[t] + '"></i>' + NOMS[t] + "</span>";
       }).join("") + "<span>Taille = nombre de liens</span>";
@@ -67,9 +71,9 @@
           elements: G.noeuds.map(function (n) { return { data: Object.assign({}, n) }; })
             .concat(G.liens.map(function (l) { return { data: Object.assign({}, l) }; })),
           style: [
-            { selector: "node", style: { "background-color": function (n) { return COULEURS[n.data("type")]; },
+            { selector: "node", style: { "background-color": function (n) { return COULEURS[famille(n.data())]; },
               width: function (n) { return 10 + 4 * Math.min(n.data("degre"), 12); }, height: function (n) { return 10 + 4 * Math.min(n.data("degre"), 12); },
-              label: function (n) { return n.data("degre") >= 3 ? (n.data("label") || "").slice(0, 28) : ""; },
+              label: function (n) { return n.data("degre") >= 3 || n.data("famille") === "laboratoire" ? (n.data("label") || "").slice(0, 28) : ""; },
               "font-size": 9, color: c("--texte"), "text-valign": "bottom", "text-margin-y": 3 } },
             { selector: "edge", style: { width: 1.2, "line-color": c("--bord"), "curve-style": "haystack", opacity: 0.8 } },
             { selector: "node:selected", style: { "border-width": 3, "border-color": c("--nouveau"), label: "data(label)" } },
@@ -85,7 +89,7 @@
           var statut = document.getElementById("f-statut").value, texte = V.norm(document.getElementById("f-texte").value);
           cy.batch(function () {
             cy.nodes().forEach(function (n) {
-              var d = n.data(), visible = types.indexOf(d.type) >= 0 && (!statut || d.type !== "essai" || d.statut === statut);
+              var d = n.data(), visible = types.indexOf(famille(d)) >= 0 && (!statut || d.type !== "essai" || d.statut === statut);
               n.style("display", visible ? "element" : "none");
             });
             // Un traitement ou un organisme dont tous les voisins sont masqués n'a plus de sens seul : on le masque aussi
@@ -113,7 +117,7 @@
             var autre = e.source().id() === d.id ? e.target() : e.source();
             return "<li>" + V.esc(LIENS[e.data("type")] || e.data("type")) + " : <strong>" + V.esc(autre.data("label")) + "</strong> <small>(" + V.esc(e.data("origine")) + ")</small></li>";
           }).join("");
-          document.getElementById("fiche").innerHTML = '<span class="badge" style="background:' + COULEURS[d.type] + ';color:#fff">' + NOMS[d.type] + "</span>" +
+          document.getElementById("fiche").innerHTML = '<span class="badge" style="background:' + COULEURS[famille(d)] + ';color:#fff">' + NOMS[famille(d)] + "</span>" +
             "<h2 style=\"font-size:1.05rem;margin:8px 0\">" + V.esc(d.label) + "</h2>" + (d.titre ? "<p>" + V.esc(d.titre) + "</p>" : "") +
             '<p class="meta" style="margin:6px 0">' + (d.statut ? "<span>Statut : " + V.esc(d.statut) + "</span>" : "") +
             (d.phase ? "<span>Phase : " + V.esc(d.phase) + "</span>" : "") + (d.categorie ? "<span>" + V.esc(d.categorie) + "</span>" : "") +

@@ -341,7 +341,7 @@ def main(conn=None):
 
     # Cartographie (Cytoscape.js) : uniquement des liens déclarés par les sources
     from veille import graphe as module_graphe
-    g = module_graphe.construire(conn)
+    g = module_graphe.construire(conn, donnees["marche"])
     export.ecrire("graphe.json", {**g, "statistiques": module_graphe.statistiques(g)})
     print(f"Carte : {len(g['noeuds'])} nœuds, {len(g['liens'])} liens")
     # Vecteurs pour la recherche sémantique dans le navigateur (quantifiés en int8)
