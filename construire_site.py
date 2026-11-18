@@ -388,6 +388,8 @@ def main(conn=None):
     # Frise des délais d'accès au marché (uniquement des dates déclarées par les sources)
     from veille import delais
     export.ecrire("delais.json", delais.calculer(donnees["marche"]))
+    if (HIST / "chiffres_marche.json").exists():   # chiffres de marché publics (collecter_chiffres_marche.py)
+        export.ecrire("chiffres_marche.json", json.loads((HIST / "chiffres_marche.json").read_text(encoding="utf-8")))
 
     # Cartographie (Cytoscape.js) : uniquement des liens déclarés par les sources
     from veille import graphe as module_graphe
