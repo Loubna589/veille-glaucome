@@ -16,6 +16,7 @@
     etudes: '<path d="M7 3h7l5 5v13H7z"/><path d="M14 3v5h5"/><path d="M10 13h6M10 17h6"/>',
     laboratoires: '<path d="M4 21V9l6-4v16"/><path d="M10 21V3l10 5v13"/><path d="M3 21h18M13 10h4M13 14h4"/>',
     marche: '<circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/>',
+    concurrents: '<path d="M3 21V10l5-3v14"/><path d="M8 21V5l6 3v13"/><path d="M14 21V11l7-3v13"/><path d="M2 21h20"/>',
     semaine: '<rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4M8 14h3M8 17h6"/>',
     methode: '<path d="M5 4h11l3 3v13H5z"/><path d="M8 10h8M8 13h8M8 16h5"/><path d="M15 4v4h4"/>',
     alertes: '<path d="M6 16V11a6 6 0 0 1 12 0v5l2 2H4z"/><path d="M10 20a2 2 0 0 0 4 0"/>',
@@ -51,6 +52,9 @@
     { id: "laboratoires", href: "laboratoires.html", label: "Laboratoires", icone: "laboratoires",
       but: "Voir, laboratoire par laboratoire, les essais qu'il mène et les articles qu'il finance.",
       exemple: "Tapez « Alcon » pour voir ses essais et ses publications." },
+    { id: "concurrents", href: "concurrents.html", label: "Fiches concurrents", icone: "concurrents",
+      but: "Voir, pour un laboratoire, ses produits pays par pays (nom commercial, molécule), ses essais en cours et ses actualités.",
+      exemple: "Ouvrez la fiche Santen : Roclanda, Catiolanze, Saflutan… pays par pays, puis ses essais en cours." },
     { id: "marche", href: "marche.html", label: "Autorisations & remboursement", icone: "marche",
       but: "Savoir si un traitement est autorisé et remboursé en France, en Europe et aux États-Unis.",
       exemple: "Regardez la ligne Roclanda : autorisé par l'EMA en 2021, SMR « faible » en France, remboursé à 15 %." },
@@ -128,8 +132,8 @@
     nav.innerHTML = '<a class="lien-evitement" href="#contenu">Aller au contenu</a>' +
       '<nav class="nav" aria-label="Menu principal"><a class="marque" href="' + V.racine + 'index.html">' + V.LOGO +
       "<span><b>Glaucoma Intelligence</b><small>Veille scientifique · glaucome</small></span></a>" +
-      '<div class="nav__liens">' + liens.slice(0, 9).join("") + '</div><div class="nav__groupe">Pour le jury</div>' +
-      '<div class="nav__liens">' + liens.slice(9).join("") + "</div>" +
+      '<div class="nav__liens">' + liens.slice(0, 10).join("") + '</div><div class="nav__groupe">Pour le jury</div>' +
+      '<div class="nav__liens">' + liens.slice(10).join("") + "</div>" +
       '<div class="nav__pied">Données publiques uniquement.<br>Mise à jour chaque matin.</div></nav>';
     var main = document.querySelector("main.page");
     if (main) main.id = "contenu";

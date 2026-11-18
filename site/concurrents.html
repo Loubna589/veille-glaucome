@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Fiches concurrents — Glaucoma Intelligence</title>
+  <meta name="description" content="Une fiche par laboratoire du glaucome : produits autorisés pays par pays (nom commercial, molécule), essais en cours et dernières actualités, d'après les sources officielles.">
+  <link rel="canonical" href="https://loubna589.github.io/veille-glaucome/concurrents.html">
+  <meta property="og:title" content="Fiches concurrents — Glaucoma Intelligence">
+  <meta property="og:url" content="https://loubna589.github.io/veille-glaucome/concurrents.html">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div id="nav"></div>
+  <main class="page">
+    <header class="hero">
+      <h1 id="titre">Fiches concurrents</h1>
+      <p id="intro">Une fiche par laboratoire : ses produits autorisés pays par pays (nom commercial et molécule), ses essais en cours
+        et ses dernières actualités. Tout vient des registres et des autorités de santé ; les rachats et filiales ne sont pas déduits.</p>
+    </header>
+    <div id="contenu-fiches"></div>
+  </main>
+  <footer class="pied" id="pied"></footer>
+  <script src="js/app.js"></script>
+  <script>
+    Veille.pret(function () {
+      var V = Veille, d = V.donnees, esc = V.esc, M = d.marche || { molecules: {} };
+      V.monterNavigation("concurrents");
+      var zone = document.getElementById("contenu-fiches");
+      var PAYS = { france: "🇫🇷 France", ue: "🇪🇺 Union européenne", usa: "🇺🇸 États-Unis", canada: "🇨🇦 Canada",
+        espagne: "🇪🇸 Espagne", italie: "🇮🇹 Italie", suisse: "🇨🇭 Suisse", australie: "🇦🇺 Australie" };
+      var ORDRE = ["france", "ue", "usa", "canada", "espagne", "italie", "suisse", "australie"];
+      var EN_COURS = ["Recrutement en cours", "Pas encore en recrutement", "Actif, recrutement terminé", "Recrutement sur invitation"];
+      var parId = {};
+      d.etudes.forEach(function (e) { parId[e.id] = e; });
+      function date(iso) { return iso ? iso.slice(8, 10) + "/" + iso.slice(5, 7) + "/" + iso.slice(0, 4) : "date non déclarée"; }
+      function lienExt(url, texte) { return url ? '<a href="' + esc(url) + '" target="_blank" rel="noopener">' + esc(texte) + "</a>" : esc(texte); }
+
+      /* Un produit d'une zone → ligne commune : nom commercial, statut, type, date, lien */
+      function ligne(zone, x) {
+        switch (zone) {
+          case "france": return { nom: x.nom, statut: (x.statut_amm || "") + (x.commercialisation ? " · " + x.commercialisation : ""),
+            date: x.date_amm, quoi: "AMM", lien: x.cis ? "https://base-donnees-publique.medicaments.gouv.fr/medicament/" + x.cis + "/extrait" : null,
+            rembourse: ((x.presentations || [])[0] || {}).taux_remboursement };
+          case "ue": return { nom: x.nom, statut: x.statut + (x.generique ? " · générique" : ""), date: x.date_autorisation, quoi: "autorisation EMA", lien: x.lien };
+          case "usa": return { nom: (x.marques || []).join(", "), statut: x.type + " · " + (x.statuts_commerciaux || []).join(", "), date: x.date_approbation, quoi: "approbation FDA", lien: x.lien };
+          case "canada": return { nom: x.nom, statut: x.statut, date: x.date_commercialisation, quoi: "commercialisation", lien: x.lien };
+          case "espagne": return { nom: x.nom, statut: (x.commercialise ? "commercialisé" : "non commercialisé") + (x.generique ? " · générique" : ""), date: x.date_autorisation, quoi: "autorisation", lien: x.lien };
+          case "italie": return { nom: x.nom, statut: x.remboursement || x.classe, date: x.date_liste, quoi: "liste AIFA", lien: null };
+          case "suisse": return { nom: x.nom, statut: x.statut, date: x.date_autorisation, quoi: "autorisation", lien: null };
+          default: return { nom: x.nom || x.marque || "", statut: x.statut || "", date: x.date || null, quoi: "", lien: x.lien || null };
+        }
+      }
+      function produits(groupe) {
+        var lignes = [];
+        Object.keys(M.molecules).forEach(function (mol) {
+          ORDRE.forEach(function (z) {
+            (M.molecules[mol][z] || []).forEach(function (x) {
+              if (x.laboratoire && x.laboratoire.groupe === groupe) {
+                var l = ligne(z, x); l.zone = z; l.mol = mol; l.declare = x.laboratoire.declare; lignes.push(l);
+              }
+            });
+          });
+        });
+        return lignes;
+      }
+
+      /* ---------- Liste des fiches ---------- */
+      function liste() {
+        zone.innerHTML = '<form class="filtres" onsubmit="return false"><label>Recherche<input type="search" id="f-texte" placeholder="Santen, Théa, Alcon…"></label></form>' +
+          '<p class="compteur" id="compteur"></p><div class="fiches-grille" id="grille"></div>';
+        function afficher() {
+          var t = V.norm(document.getElementById("f-texte").value);
+          var l = d.concurrents.filter(function (f) { return !t || V.norm(f.nom + " " + f.noms_essais.join(" ")).indexOf(t) >= 0; });
+          document.getElementById("compteur").textContent = l.length + " laboratoire(s)";
+          document.getElementById("grille").innerHTML = l.map(function (f) {
+            var enCours = f.essais.filter(function (id) { return parId[id] && EN_COURS.indexOf(parId[id].statut) >= 0; }).length;
+            return '<a class="fiche-carte" href="concurrents.html?labo=' + encodeURIComponent(f.id) + '"><b>' + esc(f.nom) + "</b><span>" +
+              f.produits + " produit(s) autorisé(s) · " + f.pays.length + " zone(s)<br>" + f.essais.length + " essai(s) dont " + enCours + " en cours · " +
+              f.publications.length + " publication(s)</span>" +
+              (f.molecules.length ? "<small>" + esc(f.molecules.slice(0, 5).join(", ")) + (f.molecules.length > 5 ? "…" : "") + "</small>" : "") + "</a>";
+          }).join("") || '<p class="vide">Aucun laboratoire ne correspond.</p>';
+        }
+        document.getElementById("f-texte").addEventListener("input", afficher);
+        afficher();
+      }
+
+      /* ---------- Une fiche ---------- */
+      function fiche(f) {
+        document.title = f.nom + " — Fiches concurrents";
+        document.getElementById("titre").textContent = f.nom;
+        document.getElementById("intro").innerHTML = '<a href="concurrents.html">← Toutes les fiches</a> · Noms déclarés par les sources' +
+          (f.noms_essais.length ? " (essais : " + esc(f.noms_essais.join(", ")) + ")" : "") + ". Les rachats et filiales ne sont pas déduits.";
+        var P = f.groupe_marche ? produits(f.groupe_marche) : [];
+        var essais = f.essais.map(function (id) { return parId[id]; }).filter(Boolean);
+        var enCours = essais.filter(function (e) { return EN_COURS.indexOf(e.statut) >= 0; });
+        var pubs = f.publications.map(function (id) { return parId[id]; }).filter(Boolean);
+
+        // Produits : une ligne par molécule, une colonne par zone
+        var mols = Array.from(new Set(P.map(function (p) { return p.mol; }))).sort();
+        var zones = ORDRE.filter(function (z) { return P.some(function (p) { return p.zone === z; }); });
+        var tableau = P.length ? '<div class="tableau-defile"><table class="cm-table fiche-table"><thead><tr><th>Molécule</th>' +
+          zones.map(function (z) { return "<th>" + PAYS[z] + "</th>"; }).join("") + "</tr></thead><tbody>" +
+          mols.map(function (m) {
+            return "<tr><td><strong>" + esc(m) + "</strong></td>" + zones.map(function (z) {
+              var ici = P.filter(function (p) { return p.mol === m && p.zone === z; });
+              var noms = {};
+              ici.forEach(function (p) { var n = (p.nom || "").split(/[,*]| \d/)[0].trim().toLowerCase();
+                n = n.replace(/(^|[\s\/-])\S/g, function (c) { return c.toUpperCase(); }); noms[n] = noms[n] || p; });
+              return "<td>" + (ici.length ? Object.keys(noms).map(function (n) {
+                return lienExt(noms[n].lien, n) + (noms[n].rembourse ? " <small>(" + esc(noms[n].rembourse) + ")</small>" : "");
+              }).join("<br>") : '<span class="vide-cellule">—</span>') + "</td>";
+            }).join("") + "</tr>";
+          }).join("") + "</tbody></table></div>" +
+          '<p class="cm-aide">Nom commercial déclaré par chaque autorité (taux de remboursement en France entre parenthèses). « — » : aucun produit de ce laboratoire ' +
+          "trouvé pour cette molécule dans cette source, ce qui ne prouve pas l'absence d'autorisation. Détail complet : " +
+          '<a href="marche.html?labo=' + encodeURIComponent(f.groupe_marche || "") + '">Autorisations &amp; remboursement</a>.</p>'
+          : '<p class="vide">Aucun produit antiglaucomateux de ce laboratoire dans les 7 zones suivies.</p>';
+
+        // Actualités : dates déclarées (autorisations, essais, publications), les plus récentes d'abord
+        var actus = [];
+        // la date AIFA (Italie) est celle de la liste des prix publiée, pas un événement du produit : non reprise
+        P.forEach(function (p) { if (p.date && p.zone !== "italie") actus.push({ date: p.date, texte: PAYS[p.zone] + " : " + p.quoi + " de " + p.nom + " (" + p.mol + ")", lien: p.lien }); });
+        essais.forEach(function (e) {
+          actus.push({ date: e.date_source, texte: "Essai mis à jour au registre (" + e.statut + ") : " + e.titre, lien: e.lien_source });
+        });
+        pubs.forEach(function (e) { actus.push({ date: e.date_source, texte: "Publication : " + e.titre, lien: e.fiche || e.lien_source, interne: !!e.fiche }); });
+        actus = actus.filter(function (a) { return a.date; }).sort(function (a, b) { return b.date.localeCompare(a.date); }).slice(0, 12);
+
+        zone.innerHTML =
+          '<section class="cm-tuiles">' +
+          '<div class="cm-tuile"><strong>' + P.length + "</strong><span>produits autorisés déclarés</span></div>" +
+          '<div class="cm-tuile"><strong>' + zones.length + "</strong><span>zones sur 7 suivies</span></div>" +
+          '<div class="cm-tuile"><strong>' + enCours.length + " / " + essais.length + "</strong><span>essais en cours / au total (promoteur)</span></div>" +
+          '<div class="cm-tuile"><strong>' + pubs.length + "</strong><span>publications financées ou co-signées</span></div></section>" +
+          '<h2 class="titre-section">Produits par pays</h2>' + tableau +
+          '<h2 class="titre-section">Essais en cours</h2>' + (enCours.length ? enCours.map(V.carte).join("") :
+            '<p class="vide">Aucun essai en cours déclaré avec ce laboratoire comme promoteur.</p>') +
+          '<h2 class="titre-section">Dernières actualités</h2>' + (actus.length ? '<ul class="fiche-actus">' + actus.map(function (a) {
+            return "<li><strong>" + date(a.date) + "</strong> " + (a.interne ? '<a href="' + esc(a.lien) + '">' + esc(a.texte) + "</a>" : lienExt(a.lien, a.texte)) + "</li>";
+          }).join("") + "</ul>" : '<p class="vide">Aucune actualité datée.</p>') +
+          '<p class="cm-aide">Dates déclarées par les sources : autorisations et commercialisations, dernière mise à jour des essais au registre, publications.</p>';
+      }
+
+      var demande = V.param("labo");
+      var f = demande && d.concurrents.filter(function (x) { return x.id === demande || V.norm(x.nom) === V.norm(demande); })[0];
+      if (f) fiche(f); else liste();
+    });
+  </script>
+</body>
+</html>

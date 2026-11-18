@@ -41,7 +41,7 @@ def titre_simple(titre):
 
 
 PAGES_PUBLIQUES = ["index.html", "recherche.html", "assistant.html", "carte.html", "etudes.html", "laboratoires.html",
-                   "marche.html", "alertes.html", "fonctionnement.html", "semaine.html", "methode.html"]
+                   "marche.html", "alertes.html", "fonctionnement.html", "semaine.html", "methode.html", "concurrents.html"]
 
 
 def referencement(nb_fiches):
@@ -161,6 +161,36 @@ TERMES_DOMAINE = (
 
 ZONES = {"france": "France", "ue": "Union européenne", "usa": "États-Unis", "canada": "Canada", "espagne": "Espagne",
          "italie": "Italie", "suisse": "Suisse", "australie": "Australie"}
+
+
+def concurrents(laboratoires, marche):
+    """Fiches « concurrent » : un laboratoire INDUSTRIEL, avec ses noms dans les registres d'essais / publications et
+    son groupe dans les données d'autorisation (même clé de nom, ou nom d'essai qui commence par le nom du groupe :
+    « Alcon Research » → « Alcon »). Aucun rachat ni filiale n'est déduit."""
+    cle = laboratoires_marche.cle
+    groupes = {cle(g["groupe"]): g for g in (marche or {}).get("laboratoires") or [] if cle(g["groupe"])}
+    fiches = {}
+    for c, g in groupes.items():
+        fiches[c] = {"nom": g["groupe"], "groupe_marche": g["groupe"], "noms_essais": [], "produits": g["produits"],
+                     "pays": g["zones"], "molecules": g["molecules"]}
+    for l in laboratoires:
+        if not l.get("industriel"):
+            continue
+        c = cle(l["nom"]) or l["nom"].lower()
+        cible = c if c in groupes else next((g for g in groupes if c.startswith(g + " ")), c)
+        f = fiches.setdefault(cible, {"nom": l["nom"], "groupe_marche": None, "noms_essais": [], "produits": 0,
+                                      "pays": [], "molecules": []})
+        f["noms_essais"].append(l["nom"])
+    sortie = []
+    for c, f in fiches.items():
+        noms = set(f["noms_essais"])
+        refs = [l for l in laboratoires if l["nom"] in noms]
+        f["essais"] = sorted({r["id"] for l in refs for r in l["promoteur"]})
+        f["publications"] = sorted({r["id"] for l in refs for r in l["financeur"] + l["affiliation"]})
+        f["id"] = re.sub(r"[^a-z0-9]+", "-", c).strip("-")
+        if f["produits"] or f["essais"] or f["publications"]:
+            sortie.append(f)
+    return sorted(sortie, key=lambda f: (-(f["produits"] + 3 * len(f["essais"])), f["nom"]))
 
 
 def fiches_labos(noms, marche):
@@ -356,6 +386,7 @@ def main(conn=None):
         "marche": laboratoires_marche.enrichir(json.loads((HIST / "marche.json").read_text(encoding="utf-8")))
         if (HIST / "marche.json").exists() else None,
     }
+    donnees["concurrents"] = concurrents(donnees["laboratoires"], donnees["marche"])
     # Export JSON lu par le tableau de bord (GitHub Pages = hébergement statique, pas de SQLite en ligne)
     export.ecrire("veille.json", donnees)
     export.ecrire("meta.json", {"genere_le": donnees["genere_le"], "derniere_mise_a_jour": derniere})  # pied de page

@@ -40,7 +40,8 @@
     Veille.pret(function () {
       var V = Veille, d = V.donnees;
       V.monterNavigation("laboratoires");
-      var parId = {};
+      var parId = {}, ficheDe = {};
+      (d.concurrents || []).forEach(function (f) { f.noms_essais.forEach(function (n) { ficheDe[n] = f.id; }); });
       d.etudes.forEach(function (e) { parId[e.id] = e; });
 
       var demande = V.param("labo");
@@ -82,7 +83,8 @@
         document.getElementById("compteur").textContent = liste.length + " organisme(s)";
         document.getElementById("liste").innerHTML = liste.map(function (l) {
           return '<section class="labo"><h2>' + V.esc(l.nom) +
-            (l.industriel ? ' <span class="badge">industriel</span>' : ' <span class="badge reg">académique ou autre</span>') + "</h2>" +
+            (l.industriel ? ' <span class="badge">industriel</span>' : ' <span class="badge reg">académique ou autre</span>') +
+            (ficheDe[l.nom] ? ' <a class="lien-fiche" href="concurrents.html?labo=' + encodeURIComponent(ficheDe[l.nom]) + '">Fiche concurrent →</a>' : "") + "</h2>" +
             '<p class="variantes">Noms rencontrés : ' + V.esc(l.variantes.join(" · ")) +
             " — regroupement " + V.esc(l.regroupement) + "</p>" + produits(l) +
             '<div class="roles">' +

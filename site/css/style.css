@@ -395,3 +395,17 @@ table.marche th .drapeau { vertical-align: -3px; }
 .methode-liste li { margin: 8px 0; }
 .methode-table td:nth-child(2) { white-space: nowrap; font-weight: 600; }
 .methode-table td, .methode-table th { text-align: left !important; vertical-align: top; }
+
+/* ---- Fiches concurrents ---- */
+.fiches-grille { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(240px, 100%), 1fr)); gap: 12px; }
+.fiche-carte { display: grid; gap: 4px; background: var(--carte); border: 1px solid var(--bord); border-radius: var(--rayon-s);
+  padding: 12px 14px; color: var(--texte); text-decoration: none; box-shadow: var(--ombre); }
+.fiche-carte:hover { border-color: var(--accent); }
+.fiche-carte b { font-size: 1rem; color: var(--accent); }
+.fiche-carte span { font-size: .82rem; color: var(--doux); }
+.fiche-carte small { font-size: .78rem; color: var(--doux); }
+.fiche-table td, .fiche-table th { text-align: left !important; vertical-align: top; min-width: 120px; }
+.vide-cellule { color: var(--doux); }
+.fiche-actus { padding-left: 18px; }
+.fiche-actus li { margin: 6px 0; }
+.lien-fiche { font-size: .82rem; font-weight: 600; margin-left: 8px; }
