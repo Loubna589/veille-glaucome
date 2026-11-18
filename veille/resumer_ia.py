@@ -29,6 +29,8 @@ DOSSIER_PROMPTS = RACINE / "config" / "prompts"
 VERSION_PROMPT = os.getenv("VERSION_PROMPT", "resume_classification_v1")
 MAX_PAR_EXECUTION = 150  # environ 18 min avec la pause ; reste sous le quota gratuit de Gemini Flash-Lite
 MAX_ECHECS = 3           # au-delà, on s'arrête (problème d'accès probable)
+MAX_SATURATIONS = 5      # pauses d'une minute accordées si Gemini est saturé (HTTP 503)
+ATTENTE_SATURATION = 60
 PAUSE = 7                # secondes entre deux appels (offre gratuite Gemini : 10 requêtes par minute)
 MENTION = "Généré par IA, non vérifié"
 
@@ -104,10 +106,22 @@ def fournisseur():
 
 
 def demander(texte, jeton, session=None):
+    """Renvoie (sortie brute, modèle réellement utilisé). Si le modèle est saturé (503), retiré (404) ou trop lent,
+    on essaie les modèles de secours du même service avant d'abandonner."""
     f = fournisseur()
-    corps = {**f.options(), "model": f.modele, "temperature": 0, "max_tokens": 1500, "response_format": {"type": "json_object"},
-             "messages": [{"role": "system", "content": prompt()}, {"role": "user", "content": texte[:6000]}]}
-    return reseau.appeler_chat(f.url, corps, jeton, f"IA ({f.nom})", session=session, timeout=120, tentatives=2)["choices"][0]["message"]["content"]
+    derniere = None
+    for modele in (f.modele, *f.secours):
+        corps = {**f.options(), "model": modele, "temperature": 0, "max_tokens": 1500, "response_format": {"type": "json_object"},
+                 "messages": [{"role": "system", "content": prompt()}, {"role": "user", "content": texte[:6000]}]}
+        try:
+            donnees = reseau.appeler_chat(f.url, corps, jeton, f"IA ({f.nom} {modele})", session=session, timeout=90, tentatives=3)
+            return donnees["choices"][0]["message"]["content"], modele
+        except reseau.ErreurSource as erreur:
+            if erreur.statut not in (None, 404, 500, 502, 503, 504):
+                raise
+            derniere = erreur
+            reseau.journal().warning("IA : %s indisponible (%s), essai du modèle de secours", modele, erreur)
+    raise derniere
 
 
 def enregistrer(conn, objet_type, objet_id, emp, brut, sortie, modele=None, version=VERSION_PROMPT):
@@ -126,10 +140,10 @@ def traiter(conn, jeton=None, session=None, maximum=MAX_PAR_EXECUTION, pause=PAU
         bilan["saute"] = True
         return bilan
     a_faire = [(t, i, txt) for t, i, _, txt in etudes_a_traiter(conn) if not deja_traite(conn, i, empreinte(txt))]
-    echecs = 0
+    echecs = saturations = 0
     for objet_type, objet_id, texte in a_faire[:maximum]:
         try:
-            brut = demander(texte, jeton, session)
+            brut, modele_utilise = demander(texte, jeton, session)
             sortie = valider_sortie(brut)
         except SortieInvalide as erreur:
             bilan["invalides"] += 1
@@ -138,9 +152,13 @@ def traiter(conn, jeton=None, session=None, maximum=MAX_PAR_EXECUTION, pause=PAU
         except reseau.ErreurSource as erreur:
             bilan["erreur"] = str(erreur)
             reseau.journal().error("IA : %s", erreur)
-            break  # 429 ou accès refusé : on reprendra à la prochaine exécution
+            if erreur.statut == 503 and saturations < MAX_SATURATIONS:
+                saturations += 1  # service momentanément saturé : on souffle une minute et on continue
+                time.sleep(pause and ATTENTE_SATURATION)
+                continue
+            break  # 429, accès refusé ou saturation qui dure : on reprendra à la prochaine exécution
         else:
-            enregistrer(conn, objet_type, objet_id, empreinte(texte), brut, sortie)
+            enregistrer(conn, objet_type, objet_id, empreinte(texte), brut, sortie, modele=modele_utilise)
             conn.commit()
             bilan["traites"] += 1
         if echecs >= MAX_ECHECS:

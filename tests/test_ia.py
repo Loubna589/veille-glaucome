@@ -70,3 +70,18 @@ def test_sans_jeton_etape_sautee(conn, monkeypatch):
 
 def test_prompt_versionne_existe():
     assert "categorie" in resumer_ia.prompt() and all(c in resumer_ia.prompt() for c in resumer_ia.CATEGORIES)
+
+
+def test_modele_sature_bascule_sur_le_secours(conn, monkeypatch):
+    """Cas réel des 16 et 17/11/2026 : Gemini Flash-Lite répond 503 « high demand »."""
+    import json as _json
+    from conftest import FausseReponse, FausseSession
+    from veille import reseau
+    monkeypatch.setenv("GEMINI_API_KEY", "g")
+    monkeypatch.delenv("MISTRAL_API_KEY", raising=False)
+    monkeypatch.setattr(reseau, "_dormir", lambda s: None)
+    bon = {"resume": ["a", "b", "c"], "categorie": "autre", "justification": "j"}
+    session = FausseSession(*[FausseReponse(503, {"error": "high demand"})] * 3,
+                            FausseReponse(200, {"choices": [{"message": {"content": _json.dumps(bon)}}]}))
+    brut, modele = resumer_ia.demander("texte", "g", session)
+    assert modele == "gemini-3.1-flash-lite" and _json.loads(brut)["categorie"] == "autre"

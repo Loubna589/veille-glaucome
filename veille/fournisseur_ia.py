@@ -21,6 +21,7 @@ class Fournisseur:
     url: str
     modele: str
     cle: str | None = None
+    secours: tuple = ()     # modèles de repli si le principal est saturé (503) ou retiré (404)
 
     def options(self):
         """Réglages propres au service. Gemini « réfléchit » par défaut, ce qui est lent : on limite la réflexion."""
@@ -30,7 +31,7 @@ class Fournisseur:
 CATALOGUE = (
     Fournisseur("Mistral", "MISTRAL_API_KEY", "https://api.mistral.ai/v1/chat/completions", "mistral-small-latest"),
     Fournisseur("Gemini", "GEMINI_API_KEY", "https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
-                "gemini-flash-lite-latest"),
+                "gemini-flash-lite-latest", secours=("gemini-3.1-flash-lite", "gemini-2.5-flash-lite")),
 )
 
 
@@ -39,6 +40,6 @@ def actif(variable_modele="MODELE_IA"):
     for f in CATALOGUE:
         cle = os.getenv(f.variable)
         if cle:
-            return Fournisseur(f.nom, f.variable, f.url, os.getenv(variable_modele, f.modele), cle)
+            return Fournisseur(f.nom, f.variable, f.url, os.getenv(variable_modele, f.modele), cle, f.secours)
     f = CATALOGUE[0]
-    return Fournisseur(f.nom, f.variable, f.url, os.getenv(variable_modele, f.modele), None)
+    return Fournisseur(f.nom, f.variable, f.url, os.getenv(variable_modele, f.modele), None, f.secours)
