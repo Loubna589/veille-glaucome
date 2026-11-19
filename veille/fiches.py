@@ -395,8 +395,10 @@ def _extraits(liste_parties):
                    for l, t in liste_parties)
 
 
-def signalement_html(d):
-    """Badge d'alerte (article rétracté / erratum publié) et ligne du cadre d'infos, d'après PubMed."""
+def signalement_html(d, oa=None):
+    """Badge d'alerte (article rétracté / erratum publié) et ligne du cadre d'infos, d'après PubMed et OpenAlex."""
+    if (oa or {}).get("retracte") and not d.get("retracte"):  # OpenAlex (is_retracted) le signale, PubMed pas encore
+        d = {**d, "retracte": True, "erratum": d.get("erratum", False)}
     if "retracte" not in d:
         return "", e("non vérifié (article collecté avant l'ajout de ce contrôle)")
     liens_avis = lambda pmids: " · ".join(lien(f"https://pubmed.ncbi.nlm.nih.gov/{p}/", f"avis PubMed {p}") for p in pmids or [])
@@ -434,7 +436,7 @@ def fiche_article(memoire, essais_memoire, rubriques):
 
     acces = oa.get("statut_acces")
     lien_texte = oa.get("url_pdf") or oa.get("url_texte")
-    alerte, ligne_retractation = signalement_html(d)
+    alerte, ligne_retractation = signalement_html(d, oa)
     entete = f"""
     <header>
       <p class="surtitre">Fiche article · PMID {e(d['pmid'])} · {lien(d['lien'], 'voir sur PubMed')}

@@ -73,3 +73,8 @@ def test_controle_des_articles_deja_connus(conn):
     d1 = json.loads(conn.execute("SELECT donnees FROM articles WHERE pmid = '1'").fetchone()[0])
     assert d1["retracte"] is True and d1["avis_retractation"] == ["99"] and d1["titre"] == "T"
     assert retractations.verifier(conn, telecharger=faux)["mis_a_jour"] == 0
+
+
+def test_le_signal_openalex_deja_collecte_est_aussi_affiche():
+    alerte, ligne = fiches.signalement_html({"retracte": False, "erratum": False}, {"retracte": True})
+    assert "Article rétracté" in alerte and ligne == "article rétracté"
