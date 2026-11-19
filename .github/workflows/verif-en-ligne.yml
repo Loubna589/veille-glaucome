@@ -1,0 +1,22 @@
+name: Vérification en ligne (temporaire)
+on: workflow_dispatch
+jobs:
+  verif:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Accueil et page Comparer, avec un vrai appel à l'IA
+        run: |
+          npm init -y >/dev/null && npm i playwright@1.49.1 >/dev/null 2>&1 && npx playwright install --with-deps chromium >/dev/null 2>&1
+          cat > v.js <<'JS'
+          const {chromium}=require('playwright');(async()=>{const b=await chromium.launch();const p=await b.newPage();
+          p.on('pageerror',e=>console.log('ERREUR',e.message));
+          const B='https://loubna589.github.io/veille-glaucome/';
+          await p.goto(B+'index.html?t='+Date.now(),{waitUntil:'networkidle'});await p.waitForTimeout(2000);
+          console.log('ACCUEIL', (await p.textContent('main')).length, await p.$$eval('#nav a',a=>a.map(x=>x.textContent.trim()).join(' | ')));
+          await p.goto(B+'comparer.html?t='+Date.now(),{waitUntil:'networkidle'});await p.waitForSelector('.cmp-tableau',{timeout:30000});
+          console.log('COMPARER', (await p.textContent('.cmp-synthese p')));
+          await p.click('#cmp-ia');await p.waitForSelector('#cmp-ia-reponse .cmp-ia-texte, #cmp-ia-reponse .cmp-note:not(:first-child)',{timeout:60000}).catch(()=>{});
+          await p.waitForTimeout(3000);
+          console.log('IA', (await p.innerText('#cmp-ia-reponse')).slice(0,4000));await b.close();})();
+          JS
+          node v.js
