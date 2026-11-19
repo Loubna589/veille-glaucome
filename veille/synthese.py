@@ -16,7 +16,7 @@ from datetime import date, timedelta
 
 from veille import fournisseur_ia, reseau
 
-VERSION_PROMPT = "semaine_v2"
+VERSION_PROMPT = "semaine_v3"
 NB_POINTS = 5
 NB_CANDIDATS = 25
 MOTIF_ID = re.compile(r"\b(NCT\d{8}|PMID:\d+|W\d{6,})\b")
@@ -32,8 +32,11 @@ PAS une professionnelle de santé : elle doit tout comprendre sans dictionnaire 
 On te donne une liste d'ÉLÉMENTS de la semaine (essais cliniques et articles), chacun avec son identifiant entre crochets.
 
 Règles :
-- Écris EXACTEMENT 5 points, du plus important au moins important pour un laboratoire pharmaceutique
-  (nouveaux traitements, résultats d'essais, essais qui se terminent ou changent, concurrence, tendances).
+- Écris EXACTEMENT 5 points. Chaque élément a un SCORE de pertinence calculé par des règles : choisis en priorité
+  les éléments au score le plus élevé, et classe tes points du score le plus élevé au plus faible.
+- La lectrice suit le marché des TRAITEMENTS du glaucome (médicaments, collyres, laser, chirurgie, essais cliniques,
+  concurrence entre laboratoires). N'écris PAS de point sur un élément sans lien avec un traitement
+  (génétique, épidémiologie, imagerie, diagnostic, étude sur l'animal) tant qu'il reste assez d'éléments liés aux traitements.
 - Utilise UNIQUEMENT les informations des éléments. N'ajoute aucun chiffre, nom ou conclusion qui n'y figure pas.
 - Chaque point cite au moins un identifiant de la liste, écrit exactement comme dans la liste (ex. NCT01234567, PMID:12345678).
 - Français très simple, comme pour expliquer à un ami : phrases courtes (20 mots maximum), voix active.
@@ -59,7 +62,8 @@ STATUTS_FR = {
 COMMENT_CHOISI = ("Comment ces 5 points sont choisis : chaque nouveauté de la semaine reçoit des points selon des règles fixes. "
                   "Un essai qui publie ses résultats gagne le plus (+6), puis un essai qui se termine (+4), un nouvel essai (+3, "
                   "et +3 s'il est en phase 3, la dernière étape avant l'autorisation), un article qui étudie un médicament suivi (+3) "
-                  "ou dont les patients sont tirés au sort (+3). L'IA rédige ensuite les 5 mieux notés, en citant ses sources.")
+                  "ou dont les patients sont tirés au sort (+3). L'IA rédige ensuite 5 points en priorité sur les mieux notés, liés aux traitements, "
+                  "en citant ses sources, et les points sont affichés dans l'ordre du score.")
 
 
 def etiquette(e):
@@ -189,7 +193,7 @@ def compter(conn, debut, fin):
 
 
 def texte_elements(elements):
-    return "\n\n".join(f"[{e['id']}] {e['titre']}\n{e['texte'][:900]}" for e in elements)
+    return "\n\n".join(f"[{e['id']}] (SCORE {e['score']}) {e['titre']}\n{e['texte'][:900]}" for e in elements)
 
 
 def valider(sortie, elements):
@@ -208,7 +212,12 @@ def valider(sortie, elements):
             continue
         sans_id = lambda x: re.sub(r"\s*\[?\(?(NCT\d{8}|PMID:\d+|W\d{6,})\)?\]?", "", str(x or "")).strip()
         bons.append({"titre": str(p["titre"]).strip(), "texte": sans_id(p["texte"]), "pourquoi": sans_id(p.get("pourquoi")), "sources": sources})
-    return bons[:NB_POINTS] if len(bons) >= NB_POINTS else None
+    if len(bons) < NB_POINTS:
+        return None
+    # L'ordre affiché suit le score des règles (l'IA rédige, elle ne décide pas seule de ce qui passe en premier)
+    score = {e["id"]: e.get("score", 0) for e in elements}
+    bons.sort(key=lambda p: -max(score.get(s, 0) for s in p["sources"]))
+    return bons[:NB_POINTS]
 
 
 def points_regles(elements):

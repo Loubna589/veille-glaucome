@@ -59,3 +59,9 @@ def test_etiquettes_fixees_par_les_regles():
     s = synthese.construire(base_test(), jour=date(2026, 11, 18), cle="")
     assert [p["etiquette"] for p in s["points"][:2]] == ["Nouvel essai", "Résultats publiés"]
     assert "Pourquoi c'est important" in synthese.texte_mail(s, "https://x/")
+
+
+def test_les_points_de_l_ia_suivent_l_ordre_du_score():
+    el = [{"id": f"PMID:{i}", "score": i} for i in range(5)]
+    sortie = {"points": [{"titre": f"T{i}", "texte": "x", "sources": [f"PMID:{i}"]} for i in range(5)]}
+    assert [p["titre"] for p in synthese.valider(sortie, el)] == ["T4", "T3", "T2", "T1", "T0"]
