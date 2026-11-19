@@ -19,6 +19,7 @@
     laboratoires: '<path d="M4 21V9l6-4v16"/><path d="M10 21V3l10 5v13"/><path d="M3 21h18M13 10h4M13 14h4"/>',
     marche: '<circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/>',
     apropos: '<circle cx="12" cy="12" r="9"/><path d="M12 11v6"/><circle cx="12" cy="7.5" r=".6" fill="currentColor"/>',
+    comparer: '<path d="M12 3v18M5 7h14"/><path d="M5 7l-3 7a3 3 0 0 0 6 0zM19 7l-3 7a3 3 0 0 0 6 0z"/>',
     concurrents: '<path d="M3 21V10l5-3v14"/><path d="M8 21V5l6 3v13"/><path d="M14 21V11l7-3v13"/><path d="M2 21h20"/>',
     semaine: '<rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4M8 14h3M8 17h6"/>',
     methode: '<path d="M5 4h11l3 3v13H5z"/><path d="M8 10h8M8 13h8M8 16h5"/><path d="M15 4v4h4"/>',
@@ -55,6 +56,9 @@
     { id: "laboratoires", href: "laboratoires.html", label: "Laboratoires", icone: "laboratoires",
       but: "Une fiche par laboratoire : médicaments autorisés pays par pays, essais et publications.",
       exemple: "Ouvrez la fiche Santen : Roclanda, Catiolanze, Saflutan… pays par pays, puis ses essais." },
+    { id: "comparer", href: "comparer.html", label: "Comparer deux produits", icone: "comparer", etiquette: "IA",
+      but: "Mettre face à face les études de deux traitements : forces, limites, et arguments solides pour se différencier.",
+      exemple: "Comparez latanoprost (Xalatan) et bimatoprost (Lumigan), puis lancez la lecture critique par l'IA." },
     { id: "marche", href: "marche.html", label: "Autorisations & remboursement", icone: "marche",
       but: "Savoir si un traitement est autorisé et remboursé en France, en Europe et aux États-Unis.",
       exemple: "Regardez la ligne Roclanda : autorisé par l'EMA en 2021, SMR « faible » en France, remboursé à 15 %." },
@@ -72,7 +76,7 @@
       exemple: "Suivez le lien « Limites » pour savoir ce que l'outil ne fait pas." },
   ];
   /* Le fil de la présentation orale : l'ordre des étapes (les autres pages restent dans « Autres pages ») */
-  V.ETAPES = ["apropos", "accueil", "fonctionnement", "semaine", "etudes", "laboratoires", "marche", "methode"];
+  V.ETAPES = ["apropos", "accueil", "fonctionnement", "semaine", "etudes", "laboratoires", "comparer", "marche", "methode"];
   V.HORS_MENU = ["assistant", "carte"];  // pages gardées (liens directs) mais retirées du menu à la demande de Loubna
   V.page = function (id) { return V.PAGES.filter(function (p) { return p.id === id; })[0]; };
 

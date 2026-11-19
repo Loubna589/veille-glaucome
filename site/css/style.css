@@ -492,3 +492,35 @@ button.action { font: inherit; text-align: left; cursor: pointer; width: 100%; }
 .cases-schema .a-dire { font-size: .86rem; font-style: italic; color: var(--doux); }
 .sous-section { font-size: 1.05rem; margin: 22px 0 8px; }
 .acces-inline { display: inline-flex; flex-wrap: wrap; gap: 6px; margin-left: 4px; font-size: .82rem; }
+
+/* ---------- Page « Comparer deux produits » ---------- */
+.cmp-choix { display: flex; flex-wrap: wrap; gap: 12px 18px; align-items: flex-end; margin-bottom: 18px; }
+.cmp-choix label { display: flex; flex-direction: column; gap: 4px; font-weight: 650; font-size: .9rem; flex: 1 1 260px; min-width: 0; }
+.cmp-choix select { font: inherit; padding: 8px 10px; border-radius: var(--rayon-s); border: 1px solid var(--bord); background: var(--carte); color: var(--texte); max-width: 100%; }
+.cmp-vs { font-weight: 700; color: var(--doux); padding-bottom: 9px; }
+.cmp-note { color: var(--doux); font-size: .88rem; margin: 6px 0; flex-basis: 100%; }
+.cmp-synthese h2 small, .titre-vitrine small { font-weight: 500; color: var(--doux); font-size: .8rem; }
+.cmp-tableau { width: 100%; border-collapse: collapse; margin: 10px 0; font-size: .93rem; }
+.cmp-tableau th, .cmp-tableau td { text-align: left; padding: 7px 8px; border-bottom: 1px solid var(--bord); vertical-align: top; }
+.cmp-tableau thead th { color: var(--accent); }
+.cmp-tableau th small { display: block; font-weight: 400; color: var(--doux); }
+.cmp-gros { font-size: .95rem; padding: 10px 18px; }
+#cmp-ia-reponse, .cmp-reponse { margin-top: 12px; padding: 12px 16px; border-radius: var(--rayon-s); background: var(--accent-doux); }
+.cmp-ia-texte h3 { font-size: .98rem; margin: 10px 0 4px; }
+.cmp-ia-texte ul { margin: 4px 0 8px; padding-left: 1.2em; }
+.cmp-sources { font-size: .85rem; padding-left: 1.4em; }
+.cmp-colonnes { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 18px; margin-top: 18px; }
+.cmp-col h2 { margin-bottom: 2px; }
+.cmp-meta { font-size: .82rem; color: var(--doux); margin: 0; }
+.cmp-role { font-weight: 650; }
+.cmp-etude h3 { margin: 6px 0; }
+.cmp-ia-court { font-size: .9rem; margin: 4px 0 8px; }
+.cmp-fl { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; font-size: .86rem; }
+.cmp-fl ul { margin: 0; padding: 0; list-style: none; }
+.cmp-forces li::before { content: "✓ "; color: var(--ok); font-weight: 700; }
+.cmp-limites li::before { content: "✗ "; color: var(--ver); font-weight: 700; }
+.cmp-actions { margin: 8px 0 0; display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
+.cmp-actions .bouton-ia { margin-top: 0; }
+.cmp-aide { margin-top: 22px; }
+.cmp-aide summary { cursor: pointer; font-weight: 650; }
+@media (max-width: 560px) { .cmp-fl { grid-template-columns: 1fr; } }

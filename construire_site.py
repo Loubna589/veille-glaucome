@@ -23,7 +23,7 @@ from pathlib import Path
 # script : on lui indique explicitement le dossier du projet.
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
-from veille import acces_texte, base, etiquettes, export, fiches, laboratoires_marche, resumer_ia, rubriques  # noqa: E402
+from veille import acces_texte, base, comparaison, etiquettes, export, fiches, laboratoires_marche, resumer_ia, rubriques  # noqa: E402
 from veille.sources import clinicaltrials as ct  # noqa: E402
 
 RACINE = Path(__file__).resolve().parent
@@ -40,7 +40,7 @@ def titre_simple(titre):
     return " ".join(re.sub(r"[^\w]", " ", (titre or "").lower()).split())
 
 
-PAGES_PUBLIQUES = ["index.html", "recherche.html", "assistant.html", "carte.html", "etudes.html", "laboratoires.html",
+PAGES_PUBLIQUES = ["index.html", "recherche.html", "assistant.html", "carte.html", "etudes.html", "laboratoires.html", "comparer.html",
                    "marche.html", "alertes.html", "fonctionnement.html", "semaine.html", "methode.html", "apropos.html"]
 
 
@@ -254,6 +254,7 @@ def etude_essai(m, regles_rub, labos):
         "raison_rubrique": "; ".join(rub[0]["raisons"][:2]),
         # Le registre déclare des BRAS (expérimental, comparateur) : on indique le bras, pas un rôle par produit
         "produits": produits,
+        "solidite": comparaison.solidite_essai(d),
         "labos": noms_labos, "resume": d.get("resume_source"),
     }
 
@@ -299,6 +300,8 @@ def etude_article(m, regles_rub, regles_et, labos):
         "revue": d.get("revue"), "base": "résumé seulement" if d.get("resume_present") else "métadonnées seulement",
         "acces": acces_texte.statut_acces(d, a.get("openalex") or {}),
         "lien_bu": lien_bu(d, acces_texte.statut_acces(d, a.get("openalex") or {})),
+        "solidite": comparaison.solidite_article(
+            d, industriel=any(i.get("type") == "company" for i in (a.get("openalex") or {}).get("institutions") or [])),
     }
 
 
@@ -330,6 +333,9 @@ def etude_openalex(m, regles_rub, regles_et, labos):
         "labos": noms_labos, "resume": d.get("resume"), "revue": d.get("revue"),
         "acces": acces_texte.statut_acces(d, d),
         "lien_bu": lien_bu(d, acces_texte.statut_acces(d, d)),
+        "solidite": comparaison.solidite_article(
+            {**d, "types_publication": ["Preprint"] if d.get("type") == "preprint" else d.get("types_publication")},
+            industriel=any(i.get("type") == "company" for i in d.get("institutions") or [])),
     }
 
 
