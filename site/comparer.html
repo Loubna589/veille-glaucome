@@ -34,7 +34,8 @@
       <ul>
         <li><b>Forces et limites</b> : calculées par des règles fixes, sans IA, à partir du résumé (tirage au sort, insu, nombre de patients,
           groupe de comparaison, plusieurs centres, lien avec un laboratoire). C'est un repère, pas un verdict : un résumé ne dit pas tout.</li>
-        <li><b>« Au centre »</b> : le produit est dans le titre ou dans un bras de l'essai. <b>« Cité »</b> : il n'apparaît que dans le texte.</li>
+        <li><b>« Au centre »</b> : le produit est dans le titre ou dans un bras de l'essai. <b>« Cité »</b> : il n'apparaît que dans le texte.
+          <b>« Dans une association »</b> : l'étude porte sur un collyre qui associe ce produit à un autre (affichée après ses propres études).</li>
         <li><b>Études face à face</b> : elles parlent des deux produits. Ce sont les plus utiles pour se comparer.</li>
         <li><b>Lecture critique par l'IA</b> : Gemini ne lit que les documents montrés ici et doit les citer [1], [2]… Réponse à vérifier.</li>
         <li><b>Place dans le traitement</b> : repère général tiré des recommandations de la Société européenne du glaucome (EGS), à vérifier.</li>
@@ -105,7 +106,10 @@
       }).map(function (e) {
         var auCentre = cite(p, e.titre || "") || (e.produits || []).some(function (x) {
           return cite(p, x.nom) && /étudié|bras/.test(x.role || ""); });
-        return { e: e, centre: auCentre };
+        // Pour une molécule seule : une étude dont le TITRE porte sur une association qui la contient passe après ses propres études
+        var asso = p.classe !== "asso" && P.some(function (q) {
+          return q.classe === "asso" && q.molecules.indexOf(p.molecules[0]) >= 0 && cite(q, e.titre || ""); });
+        return { e: e, centre: auCentre && !asso, asso: asso };
       }).sort(function (a, b) {
         var na = (a.e.solidite || {}).niveau, nb = (b.e.solidite || {}).niveau;
         na = na ? na : 9; nb = nb ? nb : 9;
@@ -146,7 +150,7 @@
         '<p class="cmp-meta"><span class="badge ' + (s.niveau === 1 || s.niveau === 2 ? "ok" : s.niveau === 3 ? "att" : "ver") + '">' +
         esc(s.force || "Non évaluable") + "</span> " + esc(s.type || e.niveau) + " · " + esc(e.source) +
         (e.date_source ? " · " + esc(String(e.date_source).slice(0, 7)) : "") +
-        ' · <span class="cmp-role">' + (x.centre ? "au centre" : "cité") + "</span></p>" +
+        ' · <span class="cmp-role">' + (x.centre ? "au centre" : x.asso ? "dans une association" : "cité") + "</span></p>" +
         '<h3><a href="' + esc(lien) + '">' + esc(e.titre) + "</a></h3>" + ia +
         '<div class="cmp-fl"><ul class="cmp-forces">' + s.forces.map(function (f) { return "<li>" + esc(f) + "</li>"; }).join("") +
         '</ul><ul class="cmp-limites">' + s.limites.map(function (f) { return "<li>" + esc(f) + "</li>"; }).join("") + "</ul></div>" +
@@ -251,7 +255,9 @@
         var z = document.getElementById("cmp-ia-reponse"), D = dernier;
         var vus = {}, docs = [];
         function prendre(liste, p, n) {
-          liste.filter(function (x) { return !vus[x.e.id]; }).slice(0, n).forEach(function (x) { vus[x.e.id] = 1; docs.push(docDe(x, p)); });
+          // études chez l'humain d'abord : une étude sur l'animal ne sert pas d'argument
+          var humain = function (x) { return ((x.e.solidite || {}).niveau || 0) > 0; };
+          liste.filter(function (x) { return !vus[x.e.id]; }).sort(function (u, v) { return humain(v) - humain(u); }).slice(0, n).forEach(function (x) { vus[x.e.id] = 1; docs.push(docDe(x, p)); });
         }
         prendre(D.face, D.a, 1);
         var na0 = docs.length; prendre(D.la, D.a, 3 - na0); var na = docs.length;
