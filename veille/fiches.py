@@ -395,6 +395,23 @@ def _extraits(liste_parties):
                    for l, t in liste_parties)
 
 
+def signalement_html(d):
+    """Badge d'alerte (article rétracté / erratum publié) et ligne du cadre d'infos, d'après PubMed."""
+    if "retracte" not in d:
+        return "", e("non vérifié (article collecté avant l'ajout de ce contrôle)")
+    liens_avis = lambda pmids: " · ".join(lien(f"https://pubmed.ncbi.nlm.nih.gov/{p}/", f"avis PubMed {p}") for p in pmids or [])
+    blocs, ligne = [], []
+    if d.get("retracte"):
+        blocs.append('<p class="signalement retracte"><strong>⛔ Article rétracté</strong> : la revue a retiré cet article. '
+                     'Ses résultats ne doivent plus être utilisés. ' + liens_avis(d.get("avis_retractation")) + "</p>")
+        ligne.append("article rétracté")
+    if d.get("erratum"):
+        blocs.append('<p class="signalement erratum"><strong>⚠️ Erratum publié</strong> : une correction a été publiée '
+                     'pour cet article. ' + liens_avis(d.get("avis_erratum")) + "</p>")
+        ligne.append("erratum publié")
+    return "".join(blocs), e(", ".join(ligne) or "aucun signalé par PubMed")
+
+
 def fiche_article(memoire, essais_memoire, rubriques):
     d = memoire["donnees"]
     annexes = memoire.get("annexes", {})
@@ -417,17 +434,20 @@ def fiche_article(memoire, essais_memoire, rubriques):
 
     acces = oa.get("statut_acces")
     lien_texte = oa.get("url_pdf") or oa.get("url_texte")
+    alerte, ligne_retractation = signalement_html(d)
     entete = f"""
     <header>
       <p class="surtitre">Fiche article · PMID {e(d['pmid'])} · {lien(d['lien'], 'voir sur PubMed')}
         {' · ' + lien('https://doi.org/' + d['doi'], 'DOI ' + d['doi']) if d.get('doi') else ''}</p>
       <h1 lang="en">{e(d['titre'])}</h1>
+      {alerte}
       <p>{niveau} {badge(base, 'verifier')}</p>
       <dl class="grille">
         <dt>Revue</dt><dd>{e(d.get('revue') or 'non rapportée')}</dd>
         <dt>Entrée dans PubMed</dt><dd>{e(d.get('date_entree_pubmed') or '?')} · publication : {e(d.get('date_publication') or '?')}</dd>
         <dt>Type(s) de publication (PubMed)</dt><dd lang="en">{e(', '.join(types) or 'non rapporté')}</dd>
         <dt>Stade</dt><dd>{e(et.get('stade') or 'non calculé')}{' <small>(' + e(et['stade_source']) + ')</small>' if et.get('stade_source') else ''}</dd>
+        <dt>Rétractation / erratum</dt><dd>{ligne_retractation}</dd>
         <dt>Accès au texte (OpenAlex)</dt><dd>{e(STATUTS_ACCES.get(acces, acces or 'non rapporté'))}{' · ' + lien(lien_texte, 'ouvrir le texte') if lien_texte else ''}</dd>
         <dt>Détecté par l'outil le</dt><dd>{e(memoire['premiere_detection'])}</dd>
       </dl>
@@ -577,6 +597,8 @@ def texte_copie_article(memoire):
         "BASE : résumé PubMed uniquement (texte intégral non lu)" if d.get("resume_present") else "BASE : aucun résumé disponible",
         f"Titre : {d['titre']}", f"Revue : {d.get('revue')} · entrée PubMed : {d.get('date_entree_pubmed')}",
         f"Types de publication (PubMed) : {', '.join(d.get('types_publication') or [])}",
+        *(["⚠️ ARTICLE RÉTRACTÉ selon PubMed : ses résultats ne doivent plus être utilisés."] if d.get("retracte") else []),
+        *(["Un erratum (correction) a été publié pour cet article, selon PubMed."] if d.get("erratum") else []),
         "Produits repérés automatiquement (rôles SUGGÉRÉS, à vérifier) : " + (
             "; ".join(f"{p['produit']} = {p['role']}" for p in et.get("produits_suivis") or []) or "aucun"),
         "Molécules hors liste (repérage automatique, à vérifier) : " + (
@@ -641,7 +663,7 @@ a{color:var(--accent)}small,.def{color:var(--doux)}.def{font-size:.88rem;margin:
 .grille dt{color:var(--doux)}.grille dd{margin:0}
 .badge{display:inline-block;font-size:.72rem;font-weight:600;padding:2px 8px;border-radius:999px;margin:2px 4px 2px 0;
 vertical-align:middle;background:var(--src-fond);color:var(--doux)}
-.badge.confirme{background:var(--ok-fond);color:var(--ok)}.badge.attente{background:var(--att-fond);color:var(--att)}
+.badge.confirme{background:var(--ok-fond);color:var(--ok)}.signalement{margin:.6rem 0;padding:.6rem .8rem;border-radius:8px;font-size:.95rem}.signalement.retracte{background:#c0392b;color:#fff}.signalement.retracte a{color:#fff}.signalement.erratum{background:#fdebd0;color:#7e4a0b;border:1px solid #e59a3a}.badge.attente{background:var(--att-fond);color:var(--att)}
 .badge.verifier{background:var(--ver-fond);color:var(--ver)}.badge.regle{background:var(--reg-fond);color:var(--reg)}
 .rubrique{font-weight:600}.manque{color:var(--manque);font-style:italic}
 mark{background:var(--mark);color:inherit;padding:0 2px;border-radius:3px}

@@ -135,6 +135,12 @@ def _date(element):
     return "-".join(morceaux) or None
 
 
+def _avis_lies(citation, type_lien):
+    """PMID des avis liés (rétractation, erratum) déclarés par PubMed dans CommentsCorrectionsList."""
+    return [c.findtext("PMID").strip() for c in citation.findall(f"CommentsCorrectionsList/CommentsCorrections[@RefType='{type_lien}']")
+            if (c.findtext("PMID") or "").strip()]
+
+
 def normaliser(notice):
     citation = notice.find("MedlineCitation")
     article = citation.find("Article")
@@ -177,6 +183,9 @@ def normaliser(notice):
         if num.text
     ]
     titre = _texte(article.find("ArticleTitle"))
+    types = [_texte(t) for t in article.findall("PublicationTypeList/PublicationType")]
+    avis_retractation = _avis_lies(citation, "RetractionIn")
+    avis_erratum = _avis_lies(citation, "ErratumIn")
     nct_texte = sorted(set(MOTIF_NCT.findall(f"{titre or ''} {resume or ''}")) - set(nct_declares))
 
     return {
@@ -189,7 +198,7 @@ def normaliser(notice):
         "date_entree_pubmed": _date(notice.find("PubmedData/History/PubMedPubDate[@PubStatus='entrez']")),
         "date_publication": _date(article.find("Journal/JournalIssue/PubDate"))
                             or article.findtext("Journal/JournalIssue/PubDate/MedlineDate"),
-        "types_publication": [_texte(t) for t in article.findall("PublicationTypeList/PublicationType")] or None,
+        "types_publication": types or None,
         "resume_present": resume is not None,
         "resume": resume,
         # Mots-clés choisis par les auteurs : PubMed les inclut dans les recherches [tiab]
@@ -201,4 +210,10 @@ def normaliser(notice):
         "nct_declares": nct_declares or None,
         "nct_mentionnes_texte": nct_texte or None,
         "mesh": [_texte(m) for m in citation.findall("MeshHeadingList/MeshHeading/DescriptorName")] or None,
+        # Rétractation : type « Retracted Publication » OU lien « RetractionIn » (PubMed ajoute parfois le lien avant le type).
+        # Erratum : lien « ErratumIn » sur l'article corrigé (« Published Erratum » est le type de l'avis lui-même).
+        "retracte": "Retracted Publication" in types or bool(avis_retractation),
+        "avis_retractation": avis_retractation or None,
+        "erratum": bool(avis_erratum),
+        "avis_erratum": avis_erratum or None,
     }

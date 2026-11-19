@@ -66,6 +66,13 @@ jobs:
           ALERTES_DESTINATAIRE: ${{ secrets.ALERTES_DESTINATAIRE }}
         run: python mise_a_jour.py
 
+      - name: Articles rétractés ou corrigés (erratum) parmi les articles déjà connus (PubMed)
+        continue-on-error: true    # un contrôle en plus : une panne de PubMed ne bloque pas la veille
+        env:
+          CONTACT_EMAIL: ${{ secrets.CONTACT_EMAIL }}
+          NCBI_API_KEY: ${{ secrets.NCBI_API_KEY }}
+        run: python verifier_retractations.py && python construire_site.py
+
       - name: Chiffres de marché publics (Open Medic, Medicare Part D)
         continue-on-error: true    # une panne de ces sources ne bloque pas la veille
         run: python collecter_chiffres_marche.py && python construire_site.py
