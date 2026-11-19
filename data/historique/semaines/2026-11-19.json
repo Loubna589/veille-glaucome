@@ -1,0 +1,382 @@
+{
+ "debut": "2026-11-13",
+ "fin": "2026-11-19",
+ "genere_le": "2026-11-19",
+ "chiffres": {
+  "articles": 59,
+  "nouveaux_essais": 2,
+  "changements_essais": 1
+ },
+ "mode": "ia",
+ "modele": "gemini-flash-lite-latest",
+ "version_prompt": "semaine_v3",
+ "points": [
+  {
+   "titre": "Suivi d'un essai clinique sur le tonomètre",
+   "texte": "Un essai clinique sur le tonomètre (appareil pour mesurer la pression à l'intérieur de l'œil) a terminé son recrutement avec 40 patients. La date de fin est maintenant fixée à octobre 2026.",
+   "pourquoi": "Pour un laboratoire, suivre les modifications du calendrier des essais cliniques aide à anticiper la disponibilité future des matériels médicaux.",
+   "sources": [
+    "NCT07804277"
+   ],
+   "etiquette": "Essai mis à jour",
+   "liens": [
+    {
+     "id": "NCT07804277",
+     "lien": "https://clinicaltrials.gov/study/NCT07804277",
+     "fiche": null,
+     "titre": "Comparative Study of the Tomey FT-1000, and Goldmann Applanation Tonometer (GAT)"
+    }
+   ]
+  },
+  {
+   "titre": "Tolérance d'une association de collyres",
+   "texte": "Selon le résumé, une étude a évalué l'hyperémie (yeux rouges) avec l'association fixe nétarsudil/latanoprost (deux médicaments pour baisser la pression). Les patients avec des yeux rouges au départ ont eu plus d'effets indésirables.",
+   "pourquoi": "Pour les patients, cela montre que les traitements antérieurs complexes peuvent rendre le nouveau collyre moins bien toléré.",
+   "sources": [
+    "PMID:43046532"
+   ],
+   "etiquette": "Nouvel article",
+   "liens": [
+    {
+     "id": "PMID:43046532",
+     "lien": "https://pubmed.ncbi.nlm.nih.gov/43046532/",
+     "fiche": "fiches/43046532.html",
+     "titre": "Ocular hyperemia with netarsudil/latanoprost fixed combination in glaucoma: an exploratory association analysis of tolerability outcomes by prior topical therapy and baseline ocular hyperemia."
+    }
+   ]
+  },
+  {
+   "titre": "Nouvel essai sur un complément alimentaire",
+   "texte": "Un nouvel essai clinique teste un complément alimentaire à base de nicotinamide riboside (une vitamine) sur la fonction de la rétine (membrane du fond de l'œil) chez des adultes. L'étude compare ce produit à un placebo (produit neutre) chez des patients qui utilisent déjà des collyres hypotenseurs (qui baissent la pression).",
+   "pourquoi": "Pour un laboratoire, suivre ces essais permet de repérer de nouvelles approches associant compléments alimentaires et traitements classiques.",
+   "sources": [
+    "NCT07945340"
+   ],
+   "etiquette": "Nouvel essai",
+   "liens": [
+    {
+     "id": "NCT07945340",
+     "lien": "https://clinicaltrials.gov/study/NCT07945340",
+     "fiche": null,
+     "titre": "Effect of a Nicotinamide Riboside-Based Dietary Supplement on Retinal Function in Glaucoma (BRIGHT)"
+    }
+   ]
+  },
+  {
+   "titre": "La prégabaline et la pression oculaire",
+   "texte": "Selon le résumé, une revue scientifique a analysé l'effet de la prégabaline (un médicament) sur la pression intraoculaire (pression à l'intérieur de l'œil). La prégabaline appliquée en collyre a réduit la pression de manière dose-dépendante (selon la dose) dans des modèles animaux.",
+   "pourquoi": "Pour un laboratoire, identifier de nouvelles molécules candidates aide à orienter la recherche sur les futurs collyres.",
+   "sources": [
+    "PMID:43030824"
+   ],
+   "etiquette": "Nouvel article",
+   "liens": [
+    {
+     "id": "PMID:43030824",
+     "lien": "https://pubmed.ncbi.nlm.nih.gov/43030824/",
+     "fiche": "fiches/43030824.html",
+     "titre": "Pregabalin and α2δ Subunit Modulation: A Systematic Review of Preclinical Evidence for Intraocular Pressure Regulation and Retinal Neuroprotection."
+    }
+   ]
+  },
+  {
+   "titre": "Chirurgie de la cataracte et glaucome",
+   "texte": "Selon le résumé, une étude a examiné la chirurgie de la cataracte (opération pour remplacer le cristallin opacifié de l'œil) dans le syndrome de pseudoexfoliation (une maladie de l'œil). Cette chirurgie réduit la pression intraoculaire, et son association avec les MIGS (chirurgies mini-invasives du glaucome) apporte des réductions supplémentaires.",
+   "pourquoi": "Pour les patients, combiner la chirurgie de la cataracte et les mini-interventions offre une meilleure baisse de la pression et réduit le nombre de médicaments.",
+   "sources": [
+    "PMID:43023323"
+   ],
+   "etiquette": "Nouvel article",
+   "liens": [
+    {
+     "id": "PMID:43023323",
+     "lien": "https://pubmed.ncbi.nlm.nih.gov/43023323/",
+     "fiche": "fiches/43023323.html",
+     "titre": "Cataract surgery in pseudoexfoliation syndrome: perioperative considerations and glaucoma-related outcomes."
+    }
+   ]
+  }
+ ],
+ "erreur": null,
+ "selection": [
+  {
+   "id": "NCT07804277",
+   "type": "essai",
+   "titre": "Comparative Study of the Tomey FT-1000, and Goldmann Applanation Tonometer (GAT)",
+   "lien": "https://clinicaltrials.gov/study/NCT07804277",
+   "fiche": null,
+   "score": 8,
+   "raisons": [
+    "changement de statut",
+    "recrutement modifié",
+    "nouvelle date de fin"
+   ]
+  },
+  {
+   "id": "PMID:43046532",
+   "type": "article",
+   "titre": "Ocular hyperemia with netarsudil/latanoprost fixed combination in glaucoma: an exploratory association analysis of tolerability outcomes by prior topical therapy and baseline ocular hyperemia.",
+   "lien": "https://pubmed.ncbi.nlm.nih.gov/43046532/",
+   "fiche": "fiches/43046532.html",
+   "score": 4,
+   "raisons": [
+    "article de la semaine",
+    "produit suivi étudié : latanoprost, netarsudil"
+   ]
+  },
+  {
+   "id": "NCT07945340",
+   "type": "essai",
+   "titre": "Effect of a Nicotinamide Riboside-Based Dietary Supplement on Retinal Function in Glaucoma (BRIGHT)",
+   "lien": "https://clinicaltrials.gov/study/NCT07945340",
+   "fiche": null,
+   "score": 3,
+   "raisons": [
+    "nouvel essai"
+   ]
+  },
+  {
+   "id": "NCT07945366",
+   "type": "essai",
+   "titre": "Artificial Intelligence-Based Eye Disease Diagnosis in Hospital Eye Clinics",
+   "lien": "https://clinicaltrials.gov/study/NCT07945366",
+   "fiche": null,
+   "score": 3,
+   "raisons": [
+    "nouvel essai"
+   ]
+  },
+  {
+   "id": "PMID:43030824",
+   "type": "article",
+   "titre": "Pregabalin and α2δ Subunit Modulation: A Systematic Review of Preclinical Evidence for Intraocular Pressure Regulation and Retinal Neuroprotection.",
+   "lien": "https://pubmed.ncbi.nlm.nih.gov/43030824/",
+   "fiche": "fiches/43030824.html",
+   "score": 2,
+   "raisons": [
+    "article de la semaine",
+    "produit suivi cité : latanoprost"
+   ]
+  },
+  {
+   "id": "PMID:43022216",
+   "type": "article",
+   "titre": "Retinal neuroinflammation and neurodegeneration in a mouse model of glaucoma: cilastatin as a protective agent in male and female mice.",
+   "lien": "https://pubmed.ncbi.nlm.nih.gov/43022216/",
+   "fiche": "fiches/43022216.html",
+   "score": 1,
+   "raisons": [
+    "article de la semaine"
+   ]
+  },
+  {
+   "id": "PMID:43022721",
+   "type": "article",
+   "titre": "From homeostasis to neurodegeneration: Müller glia in retinal disease.",
+   "lien": "https://pubmed.ncbi.nlm.nih.gov/43022721/",
+   "fiche": "fiches/43022721.html",
+   "score": 1,
+   "raisons": [
+    "article de la semaine"
+   ]
+  },
+  {
+   "id": "PMID:43023323",
+   "type": "article",
+   "titre": "Cataract surgery in pseudoexfoliation syndrome: perioperative considerations and glaucoma-related outcomes.",
+   "lien": "https://pubmed.ncbi.nlm.nih.gov/43023323/",
+   "fiche": "fiches/43023323.html",
+   "score": 1,
+   "raisons": [
+    "article de la semaine"
+   ]
+  },
+  {
+   "id": "PMID:43023509",
+   "type": "article",
+   "titre": "Beta-Amino Alcohols as Key Frameworks in Drug Discovery: A Review of Medicinal Applications and Biological Profiles.",
+   "lien": "https://pubmed.ncbi.nlm.nih.gov/43023509/",
+   "fiche": "fiches/43023509.html",
+   "score": 1,
+   "raisons": [
+    "article de la semaine"
+   ]
+  },
+  {
+   "id": "PMID:43023978",
+   "type": "article",
+   "titre": "Multiplex Analysis of Cytokine Profiles in the Aqueous Humor of Glaucoma Filtration Surgery Models and Its Effect on Scarring.",
+   "lien": "https://pubmed.ncbi.nlm.nih.gov/43023978/",
+   "fiche": "fiches/43023978.html",
+   "score": 1,
+   "raisons": [
+    "article de la semaine"
+   ]
+  },
+  {
+   "id": "PMID:43024380",
+   "type": "article",
+   "titre": "12-month visual and safety outcomes of the ELIOS procedure with cataract surgery in primary open-angle glaucoma.",
+   "lien": "https://pubmed.ncbi.nlm.nih.gov/43024380/",
+   "fiche": "fiches/43024380.html",
+   "score": 1,
+   "raisons": [
+    "article de la semaine"
+   ]
+  },
+  {
+   "id": "PMID:43025190",
+   "type": "article",
+   "titre": "Correlation between anterior segment optical coherence tomography parameters and visual field results after a single episode of acute angle closure glaucoma.",
+   "lien": "https://pubmed.ncbi.nlm.nih.gov/43025190/",
+   "fiche": "fiches/43025190.html",
+   "score": 1,
+   "raisons": [
+    "article de la semaine"
+   ]
+  },
+  {
+   "id": "PMID:43026467",
+   "type": "article",
+   "titre": "Influence of intraluminal stent placement on 18-month outcomes of Preserflo MicroShunt in Japanese patients with open-angle glaucoma.",
+   "lien": "https://pubmed.ncbi.nlm.nih.gov/43026467/",
+   "fiche": "fiches/43026467.html",
+   "score": 1,
+   "raisons": [
+    "article de la semaine"
+   ]
+  },
+  {
+   "id": "PMID:43026522",
+   "type": "article",
+   "titre": "Agreement of VCDR measurements: ultra-widefield imaging versus standard fundus photography compared to BMO-OCTA.",
+   "lien": "https://pubmed.ncbi.nlm.nih.gov/43026522/",
+   "fiche": "fiches/43026522.html",
+   "score": 1,
+   "raisons": [
+    "article de la semaine"
+   ]
+  },
+  {
+   "id": "PMID:43027806",
+   "type": "article",
+   "titre": "Lens Capsule microRNA Profiling Across the Primary Angle-Closure Disease Spectrum: Association with Anterior Segment Crowding.",
+   "lien": "https://pubmed.ncbi.nlm.nih.gov/43027806/",
+   "fiche": "fiches/43027806.html",
+   "score": 1,
+   "raisons": [
+    "article de la semaine"
+   ]
+  },
+  {
+   "id": "PMID:43027848",
+   "type": "article",
+   "titre": "Protecting Neurons in Retinal and Optic Nerve Diseases: The Role of Ferroptosis-Associated Pathways.",
+   "lien": "https://pubmed.ncbi.nlm.nih.gov/43027848/",
+   "fiche": "fiches/43027848.html",
+   "score": 1,
+   "raisons": [
+    "article de la semaine"
+   ]
+  },
+  {
+   "id": "PMID:43028138",
+   "type": "article",
+   "titre": "Single-Cell RNA Sequencing of Human Lamina Cribrosa Fibroblasts in Glaucoma.",
+   "lien": "https://pubmed.ncbi.nlm.nih.gov/43028138/",
+   "fiche": "fiches/43028138.html",
+   "score": 1,
+   "raisons": [
+    "article de la semaine"
+   ]
+  },
+  {
+   "id": "PMID:43028400",
+   "type": "article",
+   "titre": "Agreement, Reliability, and Feasibility of Melbourne Rapid Fields Tablet Perimetry Compared with Humphrey Field Analyzer in Glaucoma.",
+   "lien": "https://pubmed.ncbi.nlm.nih.gov/43028400/",
+   "fiche": "fiches/43028400.html",
+   "score": 1,
+   "raisons": [
+    "article de la semaine"
+   ]
+  },
+  {
+   "id": "PMID:43028416",
+   "type": "article",
+   "titre": "A Review of Machine Learning Approaches to Eye Disease Detection: Current Trends, Challenges and Future Directions.",
+   "lien": "https://pubmed.ncbi.nlm.nih.gov/43028416/",
+   "fiche": "fiches/43028416.html",
+   "score": 1,
+   "raisons": [
+    "article de la semaine"
+   ]
+  },
+  {
+   "id": "PMID:43031315",
+   "type": "article",
+   "titre": "Changing tonometers, changing intraocular pressure? Rethinking intraocular pressure interpretation in dogs.",
+   "lien": "https://pubmed.ncbi.nlm.nih.gov/43031315/",
+   "fiche": "fiches/43031315.html",
+   "score": 1,
+   "raisons": [
+    "article de la semaine"
+   ]
+  },
+  {
+   "id": "PMID:43032066",
+   "type": "article",
+   "titre": "Integrating quantitative biometrics and automated risk stratification for ophthalmic surgical triage.",
+   "lien": "https://pubmed.ncbi.nlm.nih.gov/43032066/",
+   "fiche": "fiches/43032066.html",
+   "score": 1,
+   "raisons": [
+    "article de la semaine"
+   ]
+  },
+  {
+   "id": "PMID:43032269",
+   "type": "article",
+   "titre": "From Algorithm to Care: AI-Assisted Glaucoma Screening in Real-World Settings.",
+   "lien": "https://pubmed.ncbi.nlm.nih.gov/43032269/",
+   "fiche": "fiches/43032269.html",
+   "score": 1,
+   "raisons": [
+    "article de la semaine"
+   ]
+  },
+  {
+   "id": "PMID:43032668",
+   "type": "article",
+   "titre": "Development of machine learning models to predict chemical-induced ocular irritation.",
+   "lien": "https://pubmed.ncbi.nlm.nih.gov/43032668/",
+   "fiche": "fiches/43032668.html",
+   "score": 1,
+   "raisons": [
+    "article de la semaine"
+   ]
+  },
+  {
+   "id": "PMID:43032750",
+   "type": "article",
+   "titre": "Ophthalmic Artificial Intelligence under the European Union Medical Device Regulation and Artificial Intelligence Act: Reclassification, Compliance, and Clinical Implications.",
+   "lien": "https://pubmed.ncbi.nlm.nih.gov/43032750/",
+   "fiche": "fiches/43032750.html",
+   "score": 1,
+   "raisons": [
+    "article de la semaine"
+   ]
+  },
+  {
+   "id": "PMID:43033038",
+   "type": "article",
+   "titre": "Ocular comorbidities are common in multiple myeloma: results of a large cross-sectional survey.",
+   "lien": "https://pubmed.ncbi.nlm.nih.gov/43033038/",
+   "fiche": "fiches/43033038.html",
+   "score": 1,
+   "raisons": [
+    "article de la semaine"
+   ]
+  }
+ ]
+}
