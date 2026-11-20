@@ -22,24 +22,28 @@ t(28, 66, "Un robot (GitHub Actions) lance le programme Python ; si un test éch
 
 # 1. Sources
 boite(28, 92, 250, 372, "#0b4f8a", "1", "Les sources officielles", [
-    "Science :", "ClinicalTrials.gov (essais)", "PubMed · OpenAlex (articles)", "",
-    "France :", "Base officielle des", "médicaments (ANSM)", "Avis de la HAS (SMR, ASMR)", "",
-    "Contrôle :", "rétractations et erratums", "(revérifiés chaque matin)", "", "+ accès libre : PubMed Central"])
+    "Le robot lit des sites publics", "et gratuits.", "",
+    "ClinicalTrials.gov donne les", "essais cliniques en cours.", "",
+    "PubMed et OpenAlex donnent", "les articles scientifiques.", "",
+    "La base officielle des", "médicaments et la HAS donnent", "les marques vendues en France,", "leur prix et leur remboursement."])
 # 2. Robot
 boite(318, 92, 250, 210, "#0b7a73", "2", "Le robot quotidien", [
-    "Chaque matin, gratuitement :", "1. 149 tests vérifient le code", "2. il récupère les nouveautés", "3. une source en panne", "    n'arrête pas les autres", "4. il note tout ce qu'il fait"])
+    "Chaque matin, un programme", "se lance tout seul chez GitHub.", "Il vérifie d'abord que tout", "marche (149 tests), puis il", "va chercher les nouveautés."])
 # 3. Base
 boite(318, 334, 250, 130, "#3f3c9e", "3", "La base de données", [
-    "Un seul fichier qui range tout :", "essais, articles, alertes,", "et l'historique de chaque essai"])
+    "Tout est rangé dans un seul", "fichier, avec l'historique :", "on voit ce qui a changé."])
 # 4. IA
 boite(608, 92, 290, 210, "#c2410c", "4", "L'IA : Gemini (Google)", [
-    "• résume chaque article en 3 lignes", "• le classe dans une catégorie", "• prépare les réponses de l'assistant", "• écrit les 5 points de la semaine", "Chaque texte de l'IA est daté", "et marqué « à vérifier »."])
+    "L'IA résume chaque article en", "3 lignes de français et le range", "dans une catégorie.", "Elle écrit aussi les 5 points", "de la semaine. Tout ce qu'elle", "écrit est marqué « à vérifier »."])
 # 5. Contrôles
 boite(608, 334, 290, 130, "#8a5300", "5", "Les contrôles qualité", [
-    "pas de fiche incomplète,", "pas de date fausse, pas de doublon ;", "une fiche douteuse n'est pas publiée"])
+    "Une fiche incomplète, en double", "ou avec une date fausse", "n'est pas publiée."])
 # 6. Site
 boite(938, 92, 274, 372, "#146c43", "6", "Le site (GitHub Pages)", [
-    "Cette semaine (5 points)", "Rechercher (par le sens)", "Assistant (bulle, voix)", "Essais & articles", "  + qualité de l'étude", "  + accès à l'article entier", "  + type et classe de traitement", "Comparer deux produits", "  + marques vendues en France", "Alertes", "Limites · À propos"])
+    "Le site se met à jour tout seul,", "gratuitement.", "",
+    "On y lit les 5 points de la", "semaine, on cherche un essai", "ou un article, et on compare", "deux produits.", "",
+    "Un assistant répond aux", "questions en citant ses sources.", "",
+    "Je reçois aussi un e-mail chaque", "semaine et des alertes."])
 fleche(278, 200, 314, 200); fleche(443, 302, 443, 330); fleche(568, 200, 604, 200); fleche(568, 400, 604, 400)
 fleche(753, 302, 753, 330); fleche(898, 400, 934, 400)
 

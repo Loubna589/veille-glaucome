@@ -13,74 +13,74 @@
 <circle cx="48" cy="111" r="11" fill="#fff"/>
 <text x="48" y="116" class="num" text-anchor="middle">1</text>
 <text x="66" y="117" class="ttl" text-anchor="start">Les sources officielles</text>
-<text x="42" y="152" class="txt" text-anchor="start">Science :</text>
-<text x="42" y="171" class="txt" text-anchor="start">ClinicalTrials.gov (essais)</text>
-<text x="42" y="190" class="txt" text-anchor="start">PubMed · OpenAlex (articles)</text>
-<text x="42" y="209" class="txt" text-anchor="start"></text>
-<text x="42" y="228" class="txt" text-anchor="start">France :</text>
-<text x="42" y="247" class="txt" text-anchor="start">Base officielle des</text>
-<text x="42" y="266" class="txt" text-anchor="start">médicaments (ANSM)</text>
-<text x="42" y="285" class="txt" text-anchor="start">Avis de la HAS (SMR, ASMR)</text>
+<text x="42" y="152" class="txt" text-anchor="start">Le robot lit des sites publics</text>
+<text x="42" y="171" class="txt" text-anchor="start">et gratuits.</text>
+<text x="42" y="190" class="txt" text-anchor="start"></text>
+<text x="42" y="209" class="txt" text-anchor="start">ClinicalTrials.gov donne les</text>
+<text x="42" y="228" class="txt" text-anchor="start">essais cliniques en cours.</text>
+<text x="42" y="247" class="txt" text-anchor="start"></text>
+<text x="42" y="266" class="txt" text-anchor="start">PubMed et OpenAlex donnent</text>
+<text x="42" y="285" class="txt" text-anchor="start">les articles scientifiques.</text>
 <text x="42" y="304" class="txt" text-anchor="start"></text>
-<text x="42" y="323" class="txt" text-anchor="start">Contrôle :</text>
-<text x="42" y="342" class="txt" text-anchor="start">rétractations et erratums</text>
-<text x="42" y="361" class="txt" text-anchor="start">(revérifiés chaque matin)</text>
-<text x="42" y="380" class="txt" text-anchor="start"></text>
-<text x="42" y="399" class="txt" text-anchor="start">+ accès libre : PubMed Central</text>
+<text x="42" y="323" class="txt" text-anchor="start">La base officielle des</text>
+<text x="42" y="342" class="txt" text-anchor="start">médicaments et la HAS donnent</text>
+<text x="42" y="361" class="txt" text-anchor="start">les marques vendues en France,</text>
+<text x="42" y="380" class="txt" text-anchor="start">leur prix et leur remboursement.</text>
 <rect x="318" y="92" width="250" height="210" rx="14" fill="#ffffff" stroke="#0b7a73" stroke-width="2"/>
 <rect x="318" y="92" width="250" height="38" rx="14" fill="#0b7a73"/><rect x="318" y="116" width="250" height="14" fill="#0b7a73"/>
 <circle cx="338" cy="111" r="11" fill="#fff"/>
 <text x="338" y="116" class="num" text-anchor="middle">2</text>
 <text x="356" y="117" class="ttl" text-anchor="start">Le robot quotidien</text>
-<text x="332" y="152" class="txt" text-anchor="start">Chaque matin, gratuitement :</text>
-<text x="332" y="171" class="txt" text-anchor="start">1. 149 tests vérifient le code</text>
-<text x="332" y="190" class="txt" text-anchor="start">2. il récupère les nouveautés</text>
-<text x="332" y="209" class="txt" text-anchor="start">3. une source en panne</text>
-<text x="332" y="228" class="txt" text-anchor="start">    n'arrête pas les autres</text>
-<text x="332" y="247" class="txt" text-anchor="start">4. il note tout ce qu'il fait</text>
+<text x="332" y="152" class="txt" text-anchor="start">Chaque matin, un programme</text>
+<text x="332" y="171" class="txt" text-anchor="start">se lance tout seul chez GitHub.</text>
+<text x="332" y="190" class="txt" text-anchor="start">Il vérifie d'abord que tout</text>
+<text x="332" y="209" class="txt" text-anchor="start">marche (149 tests), puis il</text>
+<text x="332" y="228" class="txt" text-anchor="start">va chercher les nouveautés.</text>
 <rect x="318" y="334" width="250" height="130" rx="14" fill="#ffffff" stroke="#3f3c9e" stroke-width="2"/>
 <rect x="318" y="334" width="250" height="38" rx="14" fill="#3f3c9e"/><rect x="318" y="358" width="250" height="14" fill="#3f3c9e"/>
 <circle cx="338" cy="353" r="11" fill="#fff"/>
 <text x="338" y="358" class="num" text-anchor="middle">3</text>
 <text x="356" y="359" class="ttl" text-anchor="start">La base de données</text>
-<text x="332" y="394" class="txt" text-anchor="start">Un seul fichier qui range tout :</text>
-<text x="332" y="413" class="txt" text-anchor="start">essais, articles, alertes,</text>
-<text x="332" y="432" class="txt" text-anchor="start">et l'historique de chaque essai</text>
+<text x="332" y="394" class="txt" text-anchor="start">Tout est rangé dans un seul</text>
+<text x="332" y="413" class="txt" text-anchor="start">fichier, avec l'historique :</text>
+<text x="332" y="432" class="txt" text-anchor="start">on voit ce qui a changé.</text>
 <rect x="608" y="92" width="290" height="210" rx="14" fill="#ffffff" stroke="#c2410c" stroke-width="2"/>
 <rect x="608" y="92" width="290" height="38" rx="14" fill="#c2410c"/><rect x="608" y="116" width="290" height="14" fill="#c2410c"/>
 <circle cx="628" cy="111" r="11" fill="#fff"/>
 <text x="628" y="116" class="num" text-anchor="middle">4</text>
 <text x="646" y="117" class="ttl" text-anchor="start">L'IA : Gemini (Google)</text>
-<text x="622" y="152" class="txt" text-anchor="start">• résume chaque article en 3 lignes</text>
-<text x="622" y="171" class="txt" text-anchor="start">• le classe dans une catégorie</text>
-<text x="622" y="190" class="txt" text-anchor="start">• prépare les réponses de l'assistant</text>
-<text x="622" y="209" class="txt" text-anchor="start">• écrit les 5 points de la semaine</text>
-<text x="622" y="228" class="txt" text-anchor="start">Chaque texte de l'IA est daté</text>
-<text x="622" y="247" class="txt" text-anchor="start">et marqué « à vérifier ».</text>
+<text x="622" y="152" class="txt" text-anchor="start">L'IA résume chaque article en</text>
+<text x="622" y="171" class="txt" text-anchor="start">3 lignes de français et le range</text>
+<text x="622" y="190" class="txt" text-anchor="start">dans une catégorie.</text>
+<text x="622" y="209" class="txt" text-anchor="start">Elle écrit aussi les 5 points</text>
+<text x="622" y="228" class="txt" text-anchor="start">de la semaine. Tout ce qu'elle</text>
+<text x="622" y="247" class="txt" text-anchor="start">écrit est marqué « à vérifier ».</text>
 <rect x="608" y="334" width="290" height="130" rx="14" fill="#ffffff" stroke="#8a5300" stroke-width="2"/>
 <rect x="608" y="334" width="290" height="38" rx="14" fill="#8a5300"/><rect x="608" y="358" width="290" height="14" fill="#8a5300"/>
 <circle cx="628" cy="353" r="11" fill="#fff"/>
 <text x="628" y="358" class="num" text-anchor="middle">5</text>
 <text x="646" y="359" class="ttl" text-anchor="start">Les contrôles qualité</text>
-<text x="622" y="394" class="txt" text-anchor="start">pas de fiche incomplète,</text>
-<text x="622" y="413" class="txt" text-anchor="start">pas de date fausse, pas de doublon ;</text>
-<text x="622" y="432" class="txt" text-anchor="start">une fiche douteuse n'est pas publiée</text>
+<text x="622" y="394" class="txt" text-anchor="start">Une fiche incomplète, en double</text>
+<text x="622" y="413" class="txt" text-anchor="start">ou avec une date fausse</text>
+<text x="622" y="432" class="txt" text-anchor="start">n'est pas publiée.</text>
 <rect x="938" y="92" width="274" height="372" rx="14" fill="#ffffff" stroke="#146c43" stroke-width="2"/>
 <rect x="938" y="92" width="274" height="38" rx="14" fill="#146c43"/><rect x="938" y="116" width="274" height="14" fill="#146c43"/>
 <circle cx="958" cy="111" r="11" fill="#fff"/>
 <text x="958" y="116" class="num" text-anchor="middle">6</text>
 <text x="976" y="117" class="ttl" text-anchor="start">Le site (GitHub Pages)</text>
-<text x="952" y="152" class="txt" text-anchor="start">Cette semaine (5 points)</text>
-<text x="952" y="171" class="txt" text-anchor="start">Rechercher (par le sens)</text>
-<text x="952" y="190" class="txt" text-anchor="start">Assistant (bulle, voix)</text>
-<text x="952" y="209" class="txt" text-anchor="start">Essais &amp; articles</text>
-<text x="952" y="228" class="txt" text-anchor="start">  + qualité de l'étude</text>
-<text x="952" y="247" class="txt" text-anchor="start">  + accès à l'article entier</text>
-<text x="952" y="266" class="txt" text-anchor="start">  + type et classe de traitement</text>
-<text x="952" y="285" class="txt" text-anchor="start">Comparer deux produits</text>
-<text x="952" y="304" class="txt" text-anchor="start">  + marques vendues en France</text>
-<text x="952" y="323" class="txt" text-anchor="start">Alertes</text>
-<text x="952" y="342" class="txt" text-anchor="start">Limites · À propos</text>
+<text x="952" y="152" class="txt" text-anchor="start">Le site se met à jour tout seul,</text>
+<text x="952" y="171" class="txt" text-anchor="start">gratuitement.</text>
+<text x="952" y="190" class="txt" text-anchor="start"></text>
+<text x="952" y="209" class="txt" text-anchor="start">On y lit les 5 points de la</text>
+<text x="952" y="228" class="txt" text-anchor="start">semaine, on cherche un essai</text>
+<text x="952" y="247" class="txt" text-anchor="start">ou un article, et on compare</text>
+<text x="952" y="266" class="txt" text-anchor="start">deux produits.</text>
+<text x="952" y="285" class="txt" text-anchor="start"></text>
+<text x="952" y="304" class="txt" text-anchor="start">Un assistant répond aux</text>
+<text x="952" y="323" class="txt" text-anchor="start">questions en citant ses sources.</text>
+<text x="952" y="342" class="txt" text-anchor="start"></text>
+<text x="952" y="361" class="txt" text-anchor="start">Je reçois aussi un e-mail chaque</text>
+<text x="952" y="380" class="txt" text-anchor="start">semaine et des alertes.</text>
 <path d="M278,200 L314,200" class="fl"/>
 <path d="M443,302 L443,330" class="fl"/>
 <path d="M568,200 L604,200" class="fl"/>

@@ -92,7 +92,7 @@
       remplir("f-statut", toutes.map(function (e) { return e.statut; }), "tous");
       remplir("f-labo", [].concat.apply([], toutes.map(function (e) { return (e.labos || []).map(function (l) { return l.nom; }); })), "tous");
 
-      // Filtres transmis dans l'adresse (liens depuis l'accueil ou la page Laboratoires)
+      // Filtres transmis dans l'adresse (liens depuis l'accueil)
       ["rubrique", "source", "niveau", "type", "periode", "labo", "phase", "acces", "du", "au"].forEach(function (p) {
         var v = V.param(p);
         if (v) document.getElementById("f-" + p).value = v;

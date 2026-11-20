@@ -141,7 +141,6 @@
         document.getElementById("perf-tuiles").innerHTML = [
           [ia ? fmt(ia.f1_macro) : "—", "F1 macro — classification IA"], [regles ? fmt(regles.f1_macro) : "—", "F1 macro — règles"],
           [P.recherche ? fmt(P.recherche.precision_a_5) : "—", "précision@5 — recherche"], [P.recherche ? fmt(P.recherche.mrr) : "—", "MRR — recherche"],
-          [P.verif_marche ? Math.round(P.verif_marche.taux_concordance * 100) + " %" : "—", "concordance des extractions (autorisations)"],
         ].map(function (t) { return '<div class="tuile"><b>' + t[0] + "</b><span>" + t[1] + "</span></div>"; }).join("");
         function attente(j, quoi) { return '<p class="vide">En attente des jugements : ' + j.jugees + " / " + j.lignes + " lignes " + quoi + ".</p>"; }
         function bloc(nom, res) {
@@ -156,11 +155,6 @@
         document.getElementById("recherche-perf").innerHTML = "<strong>Recherche sémantique</strong>" + (P.recherche
           ? "<ul>" + P.recherche.detail.map(function (d) { return "<li>Q" + d.question_id + " — P@5 " + d.precision_a_5.toFixed(1) + " · RR " + d.rr.toFixed(2) + " — " + V.esc(d.question) + "</li>"; }).join("") + "</ul>"
           : attente(P.recherche_jugements, "jugées (eval/questions_recherche.csv)"));
-        document.getElementById("recherche-perf").insertAdjacentHTML("afterend", '<div class="encadre" style="margin-top:14px"><strong>Exactitude des extractions « autorisations & remboursement »</strong>' +
-          (P.verif_marche ? "<p>" + P.verif_marche.exactes + " valeurs exactes sur " + P.verif_marche.valeurs_verifiees + " vérifiées à la main (" +
-            Math.round(P.verif_marche.taux_concordance * 100) + " %).</p><ul>" + Object.keys(P.verif_marche.par_champ).map(function (c) {
-              var x = P.verif_marche.par_champ[c]; return "<li>" + V.esc(c) + " : " + Math.round(x.taux * 100) + " % (" + x.exactes + "/" + x.verifiees + ")</li>"; }).join("") + "</ul>"
-            : attente(P.verif_marche_jugements, "vérifiées (eval/verif_marche.csv : 20 médicaments)")) + "</div>");
         document.getElementById("rag").innerHTML = "<strong>Assistant : statut des réponses</strong>" + (P.rag.length
           ? "<ul>" + P.rag.map(function (x) { return "<li><code>" + V.esc(x.statut) + "</code> : " + x.n + " échange(s)</li>"; }).join("") + "</ul>"
           : '<p class="vide">Aucun échange journalisé.</p>');

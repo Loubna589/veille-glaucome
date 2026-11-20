@@ -58,11 +58,9 @@
       var V = Veille, d = V.donnees;
       V.monterNavigation("apropos");
       var essais = d.etudes.filter(function (e) { return e.type === "essai"; }).length;
-      var zones = {};
-      (d.marche && d.marche.laboratoires || []).forEach(function (l) { l.zones.forEach(function (z) { zones[z] = 1; }); });
       document.getElementById("chiffres").innerHTML = [
         [essais, "essais cliniques suivis"], [d.etudes.length - essais, "publications"],
-        [(d.concurrents || []).length, "laboratoires"], [Object.keys(zones).length, "pays et zones"]
+        [(d.concurrents || []).length, "laboratoires cités"]
       ].map(function (c) { return "<div><b>" + c[0].toLocaleString("fr-FR") + "</b><span>" + c[1] + "</span></div>"; }).join("");
     });
   </script>
