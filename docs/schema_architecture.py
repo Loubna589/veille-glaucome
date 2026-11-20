@@ -33,7 +33,7 @@ boite(318, 334, 250, 130, "#3f3c9e", "3", "La base de données", [
     "Tout est rangé dans un seul", "fichier, avec l'historique :", "on voit ce qui a changé."])
 # 4. IA
 boite(608, 254, 290, 210, "#c2410c", "4", "L'IA : Gemini (Google)", [
-    "L'IA résume chaque article en", "3 lignes de français et le range", "dans une catégorie.", "Elle écrit aussi les 5 points", "de la semaine. Tout ce qu'elle", "écrit est marqué « à vérifier »."])
+    "Gemini a 3 rôles : il résume", "les articles en français, il écrit", "les 5 points de la semaine, et il", "répond aux questions du site.", "", "Il ne collecte rien : c'est le", "robot Python qui va chercher."])
 # 5. Contrôles
 boite(608, 92, 290, 130, "#8a5300", "5", "Les contrôles qualité", [
     "Une fiche incomplète, en double", "ou avec une date fausse", "n'est pas publiée."])
@@ -41,7 +41,7 @@ boite(608, 92, 290, 130, "#8a5300", "5", "Les contrôles qualité", [
 boite(938, 92, 274, 372, "#146c43", "6", "Le site (GitHub Pages)", [
     "Le site se met à jour tout seul,", "gratuitement.", "",
     "On y lit les 5 points de la", "semaine, et on cherche un essai", "ou un article.", "",
-    "Un assistant répond aux", "questions en citant ses sources.", "",
+    "L'assistant pose la question", "à Gemini en passant par", "Cloudflare, qui cache la clé.", "Il répond en citant ses sources.", "",
     "Je reçois aussi un e-mail chaque", "semaine et des alertes."])
 fleche(278, 200, 314, 200); fleche(443, 302, 443, 330); fleche(568, 400, 604, 400)
 fleche(753, 254, 753, 226); fleche(898, 157, 934, 157)

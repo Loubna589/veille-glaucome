@@ -44,12 +44,13 @@
 <circle cx="628" cy="273" r="11" fill="#fff"/>
 <text x="628" y="278" class="num" text-anchor="middle">4</text>
 <text x="646" y="279" class="ttl" text-anchor="start">L'IA : Gemini (Google)</text>
-<text x="622" y="314" class="txt" text-anchor="start">L'IA résume chaque article en</text>
-<text x="622" y="333" class="txt" text-anchor="start">3 lignes de français et le range</text>
-<text x="622" y="352" class="txt" text-anchor="start">dans une catégorie.</text>
-<text x="622" y="371" class="txt" text-anchor="start">Elle écrit aussi les 5 points</text>
-<text x="622" y="390" class="txt" text-anchor="start">de la semaine. Tout ce qu'elle</text>
-<text x="622" y="409" class="txt" text-anchor="start">écrit est marqué « à vérifier ».</text>
+<text x="622" y="314" class="txt" text-anchor="start">Gemini a 3 rôles : il résume</text>
+<text x="622" y="333" class="txt" text-anchor="start">les articles en français, il écrit</text>
+<text x="622" y="352" class="txt" text-anchor="start">les 5 points de la semaine, et il</text>
+<text x="622" y="371" class="txt" text-anchor="start">répond aux questions du site.</text>
+<text x="622" y="390" class="txt" text-anchor="start"></text>
+<text x="622" y="409" class="txt" text-anchor="start">Il ne collecte rien : c'est le</text>
+<text x="622" y="428" class="txt" text-anchor="start">robot Python qui va chercher.</text>
 <rect x="608" y="92" width="290" height="130" rx="14" fill="#ffffff" stroke="#8a5300" stroke-width="2"/>
 <rect x="608" y="92" width="290" height="38" rx="14" fill="#8a5300"/><rect x="608" y="116" width="290" height="14" fill="#8a5300"/>
 <circle cx="628" cy="111" r="11" fill="#fff"/>
@@ -70,11 +71,13 @@
 <text x="952" y="228" class="txt" text-anchor="start">semaine, et on cherche un essai</text>
 <text x="952" y="247" class="txt" text-anchor="start">ou un article.</text>
 <text x="952" y="266" class="txt" text-anchor="start"></text>
-<text x="952" y="285" class="txt" text-anchor="start">Un assistant répond aux</text>
-<text x="952" y="304" class="txt" text-anchor="start">questions en citant ses sources.</text>
-<text x="952" y="323" class="txt" text-anchor="start"></text>
-<text x="952" y="342" class="txt" text-anchor="start">Je reçois aussi un e-mail chaque</text>
-<text x="952" y="361" class="txt" text-anchor="start">semaine et des alertes.</text>
+<text x="952" y="285" class="txt" text-anchor="start">L'assistant pose la question</text>
+<text x="952" y="304" class="txt" text-anchor="start">à Gemini en passant par</text>
+<text x="952" y="323" class="txt" text-anchor="start">Cloudflare, qui cache la clé.</text>
+<text x="952" y="342" class="txt" text-anchor="start">Il répond en citant ses sources.</text>
+<text x="952" y="361" class="txt" text-anchor="start"></text>
+<text x="952" y="380" class="txt" text-anchor="start">Je reçois aussi un e-mail chaque</text>
+<text x="952" y="399" class="txt" text-anchor="start">semaine et des alertes.</text>
 <path d="M278,200 L314,200" class="fl"/>
 <path d="M443,302 L443,330" class="fl"/>
 <path d="M568,400 L604,400" class="fl"/>
