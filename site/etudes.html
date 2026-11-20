@@ -30,6 +30,7 @@
       <label>Source<select id="f-source"></select></label>
       <label>Niveau de preuve<select id="f-niveau"></select></label>
       <label>Type d'étude<select id="f-type"></select></label>
+      <label>Classe de traitement<select id="f-classe"><option value="">toutes</option></select></label>
       <label>Phase ou stade<select id="f-phase"></select></label>
       <label>Statut de l'essai<select id="f-statut"></select></label>
       <label>Organisme<select id="f-labo"></select></label>
@@ -54,7 +55,7 @@
     <div id="liste"></div>
   </main>
   <footer class="pied" id="pied"></footer>
-  <script src="js/app.js?v=6a7e4ec1ab"></script>
+  <script src="js/app.js?v=674389493b"></script>
   <script>
     Veille.pret(function () {
       var V = Veille, d = V.donnees, toutes = d.etudes;
@@ -72,6 +73,22 @@
       remplir("f-niveau", toutes.map(function (e) { return e.niveau; }), "tous");
       remplir("f-phase", toutes.map(function (e) { return e.phase; }), "toutes");
       remplir("f-type", toutes.map(function (e) { return e.solidite && e.solidite.type; }), "tous");
+      // Classes de traitement : une étude en fait partie si elle cite une de ses molécules ou marques (titre, résumé, produits)
+      var CLASSES = [
+        ["Analogues des prostaglandines (latanoprost, bimatoprost…)", /\b(latanoprost|bimatoprost|travoprost|tafluprost|xalatan|monoprost|lumigan|durysta|travatan|idose|saflutan|zioptan|vyzulta|catiolanze)/i],
+        ["Bêtabloquants (timolol…)", /\b(timolol|betaxolol|carteolol|levobunolol|timoptol|timoptic)\b/i],
+        ["Inhibiteurs de l'anhydrase carbonique (dorzolamide…)", /\b(dorzolamide|brinzolamide|acetazolamide|trusopt|azopt)\b/i],
+        ["Alpha-2 agonistes (brimonidine…)", /\b(brimonidine|apraclonidine|alphagan)\b/i],
+        ["Inhibiteurs de la Rho-kinase (netarsudil…)", /\b(netarsudil|ripasudil|rhopressa|rhokiinsa|glanatec|rho[- ]kinase|rock inhibitor)/i],
+        ["Agonistes EP2 (omidenepag)", /\b(omidenepag|eybelis|omlonti)\b/i],
+        ["Myotiques (pilocarpine)", /\bpilocarpine\b/i],
+        ["Associations fixes (Roclanda, Cosopt, Ganfort…)", /\b(roclanda|rocklatan|cosopt|combigan|simbrinza|ganfort|xalacom|duotrav|azarga|fixed[- ]combination|fixed[- ]dose combination)/i],
+        ["Laser (trabéculoplastie, SLT)", /\b(selective laser trabeculoplast|laser trabeculoplast|\bSLT\b)/i]
+      ];
+      function texteClasse(e) { return [e.titre, e.resume, (e.produits || []).map(function (p) { return p.nom; }).join(" ")].join(" "); }
+      document.getElementById("f-classe").innerHTML += CLASSES.map(function (c, i) {
+        var n = toutes.filter(function (e) { return c[1].test(texteClasse(e)); }).length;
+        return '<option value="' + i + '">' + V.esc(c[0]) + " — " + n + "</option>"; }).join("");
       remplir("f-statut", toutes.map(function (e) { return e.statut; }), "tous");
       remplir("f-labo", [].concat.apply([], toutes.map(function (e) { return (e.labos || []).map(function (l) { return l.nom; }); })), "tous");
 
@@ -95,6 +112,7 @@
           if (f("f-niveau") && e.niveau !== f("f-niveau")) return false;
           if (f("f-phase") && e.phase !== f("f-phase")) return false;
           if (f("f-type") && !(e.solidite && e.solidite.type === f("f-type"))) return false;
+          if (f("f-classe") !== "" && !CLASSES[+f("f-classe")][1].test(texteClasse(e))) return false;
           if (f("f-statut") && e.statut !== f("f-statut")) return false;
           if (f("f-labo") && !(e.labos || []).some(function (l) { return l.nom === f("f-labo"); })) return false;
           if (f("f-acces") && e.acces !== f("f-acces")) return false;   // les essais n'ont pas d'article : exclus

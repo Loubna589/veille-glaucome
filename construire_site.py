@@ -40,8 +40,8 @@ def titre_simple(titre):
     return " ".join(re.sub(r"[^\w]", " ", (titre or "").lower()).split())
 
 
-PAGES_PUBLIQUES = ["index.html", "recherche.html", "assistant.html", "carte.html", "etudes.html", "laboratoires.html", "comparer.html",
-                   "marche.html", "alertes.html", "fonctionnement.html", "semaine.html", "methode.html", "apropos.html"]
+PAGES_PUBLIQUES = ["index.html", "recherche.html", "assistant.html", "carte.html", "etudes.html", "comparer.html",
+                   "alertes.html", "fonctionnement.html", "semaine.html", "methode.html", "apropos.html"]
 
 
 def referencement(nb_fiches):

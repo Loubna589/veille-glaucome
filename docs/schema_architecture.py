@@ -23,8 +23,8 @@ t(28, 66, "Un robot (GitHub Actions) lance le programme Python ; si un test éch
 # 1. Sources
 boite(28, 92, 250, 372, "#0b4f8a", "1", "Les sources officielles", [
     "Science :", "ClinicalTrials.gov (essais)", "PubMed · OpenAlex (articles)", "",
-    "Autorités de santé :", "BDPM (France) · EMA (UE)", "FDA (USA) · Santé Canada", "AEMPS (Espagne) · AIFA (Italie)", "Swissmedic (Suisse)", "",
-    "Chiffres de marché :", "Open Medic (France)", "Medicare Part D (USA)", "", "+ accès libre : PubMed Central"])
+    "France :", "Base officielle des", "médicaments (ANSM)", "Avis de la HAS (SMR, ASMR)", "",
+    "Contrôle :", "rétractations et erratums", "(revérifiés chaque matin)", "", "+ accès libre : PubMed Central"])
 # 2. Robot
 boite(318, 92, 250, 210, "#0b7a73", "2", "Le robot quotidien", [
     "Chaque matin, gratuitement :", "1. 149 tests vérifient le code", "2. il récupère les nouveautés", "3. une source en panne", "    n'arrête pas les autres", "4. il note tout ce qu'il fait"])
@@ -39,7 +39,7 @@ boite(608, 334, 290, 130, "#8a5300", "5", "Les contrôles qualité", [
     "pas de fiche incomplète,", "pas de date fausse, pas de doublon ;", "une fiche douteuse n'est pas publiée"])
 # 6. Site
 boite(938, 92, 274, 372, "#146c43", "6", "Le site (GitHub Pages)", [
-    "Cette semaine (5 points)", "Rechercher (par le sens)", "Assistant (bulle, voix)", "Essais & articles", "  + qualité de l'étude", "  + accès à l'article entier", "Laboratoires (fiches)", "Autorisations & remboursement", "  + chiffres de marché", "Alertes", "Comparer deux produits · Limites"])
+    "Cette semaine (5 points)", "Rechercher (par le sens)", "Assistant (bulle, voix)", "Essais & articles", "  + qualité de l'étude", "  + accès à l'article entier", "  + type et classe de traitement", "Comparer deux produits", "  + marques vendues en France", "Alertes", "Limites · À propos"])
 fleche(278, 200, 314, 200); fleche(443, 302, 443, 330); fleche(568, 200, 604, 200); fleche(568, 400, 604, 400)
 fleche(753, 302, 753, 330); fleche(898, 400, 934, 400)
 
@@ -48,9 +48,9 @@ t(28, 510, "Ce qui en sort, sans intervention", "h2")
 sorties = [
     ("#0b4f8a", "Alertes", ["nouvel essai, changement de", "statut, de date, résultats :", "jamais signalé deux fois"]),
     ("#c2410c", "E-mail de la semaine", ["les 5 points + les alertes,", "tous les 7 jours, par Gmail", "et par une issue GitHub"]),
-    ("#146c43", "Fiches laboratoires", ["produits par pays (nom", "commercial, molécule), essais", "et actualités"]),
+    ("#146c43", "Comparer deux produits", ["forces et limites des études,", "lecture critique par l'IA,", "fiche France de chaque marque"]),
     ("#3f3c9e", "Accès aux articles", ["libre ou payant ; boutons :", "texte gratuit, auteur,", "ResearchGate, BU"]),
-    ("#0b7a73", "Chiffres de marché", ["boîtes remboursées (France),", "dépenses Medicare (USA),", "mis à jour chaque année"]),
+    ("#0b7a73", "Rétractations", ["bandeau rouge si une revue", "retire un article ; orange", "si une correction paraît"]),
 ]
 for i, (c, ti, li) in enumerate(sorties):
     x = 28 + i * 240

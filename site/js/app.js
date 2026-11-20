@@ -53,15 +53,9 @@
     { id: "etudes", href: "etudes.html", label: "Essais & articles", icone: "etudes",
       but: "Parcourir tous les essais cliniques et articles suivis, avec une fiche détaillée pour chacun.",
       exemple: "Choisissez « Détectées : ces 7 derniers jours » pour ne voir que les plus récents." },
-    { id: "laboratoires", href: "laboratoires.html", label: "Laboratoires", icone: "laboratoires",
-      but: "Une fiche par laboratoire : médicaments autorisés pays par pays, essais et publications.",
-      exemple: "Ouvrez la fiche Santen : Roclanda, Catiolanze, Saflutan… pays par pays, puis ses essais." },
     { id: "comparer", href: "comparer.html", label: "Comparer deux produits", icone: "comparer", etiquette: "IA",
       but: "Mettre face à face les études de deux traitements : forces, limites, et arguments solides pour se différencier.",
       exemple: "Comparez latanoprost (Xalatan) et bimatoprost (Lumigan), puis lancez la lecture critique par l'IA." },
-    { id: "marche", href: "marche.html", label: "Autorisations & remboursement", icone: "marche",
-      but: "Savoir si un traitement est autorisé et remboursé en France, en Europe et aux États-Unis.",
-      exemple: "Regardez la ligne Roclanda : autorisé par l'EMA en 2021, SMR « faible » en France, remboursé à 15 %." },
     { id: "alertes", href: "alertes.html", label: "Alertes", icone: "alertes",
       but: "Être prévenu quand un essai change : nouveau statut, nouvelle date de fin ou résultats publiés.",
       exemple: "Une alerte « RECRUITING → COMPLETED » signale qu'un essai vient de se terminer." },
@@ -76,7 +70,7 @@
       exemple: "Suivez le lien « Limites » pour savoir ce que l'outil ne fait pas." },
   ];
   /* Le fil de la présentation orale : l'ordre des étapes (les autres pages restent dans « Autres pages ») */
-  V.ETAPES = ["apropos", "accueil", "fonctionnement", "semaine", "etudes", "laboratoires", "comparer", "marche", "methode"];
+  V.ETAPES = ["apropos", "accueil", "fonctionnement", "semaine", "etudes", "comparer", "methode"];
   V.HORS_MENU = ["assistant", "carte"];  // pages gardées (liens directs) mais retirées du menu à la demande de Loubna
   V.page = function (id) { return V.PAGES.filter(function (p) { return p.id === id; })[0]; };
 
@@ -223,7 +217,7 @@
       (e.statut ? '<span class="badge">' + V.esc(e.statut) + "</span>" : "") +
       (e.acces ? '<span class="badge acces-' + V.esc(e.acces) + '" title="' + V.esc(V.AIDE_ACCES[e.acces] || "") + '">' + V.esc(V.LIBELLES_ACCES[e.acces] || e.acces) + "</span>" : "");
     var labos = (e.labos || []).map(function (l) {
-      return '<a href="laboratoires.html?labo=' + encodeURIComponent(l.nom) + '">' + V.esc(l.nom) + "</a> <small>(" + V.esc(l.role) + ")</small>";
+      return '<a href="etudes.html?labo=' + encodeURIComponent(l.nom) + '">' + V.esc(l.nom) + "</a> <small>(" + V.esc(l.role) + ")</small>";
     }).join(" · ");
     var produits = (e.produits || []).slice(0, 5).map(function (p) {
       return V.esc(p.nom) + " <small>— " + V.esc(p.role) + "</small>";

@@ -41,7 +41,7 @@
     </div>
   </main>
   <footer class="pied" id="pied"></footer>
-  <script src="js/app.js?v=6a7e4ec1ab"></script>
+  <script src="js/app.js?v=674389493b"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/cytoscape/3.30.2/cytoscape.min.js"></script>
   <script>
     Veille.pret(function () {
@@ -132,7 +132,7 @@
             '<div class="actions">' + (d.fiche ? '<a href="' + V.esc(d.fiche) + '">Fiche détaillée →</a>' : "") +
             (d.lien ? '<a href="' + V.esc(d.lien) + '" target="_blank" rel="noopener">Source ↗</a>' : "") +
             (bu ? '<a class="bouton-bu" href="' + V.esc(bu) + '" target="_blank" rel="noopener">📚 Demander à la BU</a>' : "") +
-            (d.type === "organisme" ? '<a href="laboratoires.html?labo=' + encodeURIComponent(d.label) + '">Fiche du laboratoire →</a>' : "") + "</div>";
+            (d.type === "organisme" ? '<a href="etudes.html?labo=' + encodeURIComponent(d.label) + '">Ses essais et articles →</a>' : "") + "</div>";
         });
       }).catch(V.erreurChargement);
     });

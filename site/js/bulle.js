@@ -115,11 +115,11 @@
     return (domaine.laboratoires || []).filter(function (l) { var c = cle(l.nom); return c.length >= 4 && q.indexOf(" " + c + " ") >= 0; });
   }
   function carteLabo(l) {
-    var lien = V.racine + "laboratoires.html?labo=" + encodeURIComponent(l.nom);
+    var lien = V.racine + "etudes.html?labo=" + encodeURIComponent(l.nom);
     var texte = l.produits ? "<b>" + V.esc(l.nom) + "</b> est un laboratoire titulaire de " + l.produits + " autorisation(s) de médicament(s) " +
       "contre le glaucome (" + V.esc(l.molecules.join(", ").toLowerCase()) + "), déclarée(s) par les autorités de santé : " + V.esc(l.pays.join(", ")) + "."
       : "<b>" + V.esc(l.nom) + "</b> apparaît dans la veille comme promoteur ou partenaire d'essais cliniques sur le glaucome.";
-    return '<p class="gi-reponse">' + texte + ' <a href="' + V.esc(lien) + '">Voir sa fiche laboratoire →</a></p>';
+    return '<p class="gi-reponse">' + texte + ' <a href="' + V.esc(lien) + '">Voir ses essais et articles →</a></p>';
   }
 
   function lienCitation(c) {
