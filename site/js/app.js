@@ -218,6 +218,7 @@
       '<span class="badge">' + V.esc(e.source) + "</span>" +
       '<span class="badge ' + V.classeNiveau(e.niveau) + '" title="' + V.esc((NIVEAUX_SIMPLES[e.niveau] || [])[1] || "") + '">' +
         V.esc((NIVEAUX_SIMPLES[e.niveau] || [e.niveau])[0]) + "</span>" +
+      (e.solidite && e.solidite.type && e.type !== "essai" ? '<span class="badge type-etude" title="Type d\'étude repéré par des règles fixes (types PubMed, titre, résumé)">' + V.esc(e.solidite.type) + "</span>" : "") +
       (e.phase && !/non renseign/i.test(e.phase) ? '<span class="badge reg">' + V.esc(e.phase) + "</span>" : "") +
       (e.statut ? '<span class="badge">' + V.esc(e.statut) + "</span>" : "") +
       (e.acces ? '<span class="badge acces-' + V.esc(e.acces) + '" title="' + V.esc(V.AIDE_ACCES[e.acces] || "") + '">' + V.esc(V.LIBELLES_ACCES[e.acces] || e.acces) + "</span>" : "");
