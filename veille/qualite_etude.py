@@ -122,7 +122,7 @@ def bloc_html(q):
         alertes.append("⏳ Prépublication : pas encore relue par d'autres chercheurs.")
     if not q["resume_present"]:
         alertes.append("Aucun résumé : grille impossible à remplir.")
-    return (f'<section class="qualite-etude"><h2>Qualité de l\'étude <small>repère calculé par des règles, à partir du résumé</small></h2>'
+    return (f'<section class="qualite-etude" id="qualite-etude"><h2>Qualité de l\'étude <small>repère calculé par des règles, à partir du résumé</small></h2>'
             f'<div class="qe-grille"><div><p class="qe-force qe-n{q["niveau"] if q["niveau"] is not None else "x"}">{e(q["force"])}</p>'
             f'<p><strong>{e(q["libelle"])}</strong><br>{e(q["explication"])}</p>'
             f'<ol class="pyramide">{marche}</ol></div>'
