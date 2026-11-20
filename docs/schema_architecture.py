@@ -24,8 +24,7 @@ t(28, 66, "Un robot (GitHub Actions) lance le programme Python ; si un test éch
 boite(28, 92, 250, 372, "#0b4f8a", "1", "Les sources officielles", [
     "Le robot lit des sites publics", "et gratuits.", "",
     "ClinicalTrials.gov donne les", "essais cliniques en cours.", "",
-    "PubMed et OpenAlex donnent", "les articles scientifiques.", "",
-    "La base officielle des", "médicaments et la HAS donnent", "les marques vendues en France,", "leur prix et leur remboursement."])
+    "PubMed et OpenAlex donnent", "les articles scientifiques."])
 # 2. Robot
 boite(318, 92, 250, 210, "#0b7a73", "2", "Le robot quotidien", [
     "Chaque matin, un programme", "se lance tout seul chez GitHub.", "Il vérifie d'abord que tout", "marche (149 tests), puis il", "va chercher les nouveautés."])
@@ -41,7 +40,7 @@ boite(608, 334, 290, 130, "#8a5300", "5", "Les contrôles qualité", [
 # 6. Site
 boite(938, 92, 274, 372, "#146c43", "6", "Le site (GitHub Pages)", [
     "Le site se met à jour tout seul,", "gratuitement.", "",
-    "On y lit les 5 points de la", "semaine, on cherche un essai", "ou un article, et on compare", "deux produits.", "",
+    "On y lit les 5 points de la", "semaine, et on cherche un essai", "ou un article.", "",
     "Un assistant répond aux", "questions en citant ses sources.", "",
     "Je reçois aussi un e-mail chaque", "semaine et des alertes."])
 fleche(278, 200, 314, 200); fleche(443, 302, 443, 330); fleche(568, 200, 604, 200); fleche(568, 400, 604, 400)
@@ -52,7 +51,7 @@ t(28, 510, "Ce qui en sort, sans intervention", "h2")
 sorties = [
     ("#0b4f8a", "Alertes", ["nouvel essai, changement de", "statut, de date, résultats :", "jamais signalé deux fois"]),
     ("#c2410c", "E-mail de la semaine", ["les 5 points + les alertes,", "tous les 7 jours, par Gmail", "et par une issue GitHub"]),
-    ("#146c43", "Comparer deux produits", ["forces et limites des études,", "lecture critique par l'IA,", "fiche France de chaque marque"]),
+    ("#146c43", "Filtres", ["par classe de traitement", "(prostaglandines, bêta-", "bloquants…) et type d'étude"]),
     ("#3f3c9e", "Accès aux articles", ["libre ou payant ; boutons :", "texte gratuit, auteur,", "ResearchGate, BU"]),
     ("#0b7a73", "Rétractations", ["bandeau rouge si une revue", "retire un article ; orange", "si une correction paraît"]),
 ]

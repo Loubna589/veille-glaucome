@@ -21,11 +21,6 @@
 <text x="42" y="247" class="txt" text-anchor="start"></text>
 <text x="42" y="266" class="txt" text-anchor="start">PubMed et OpenAlex donnent</text>
 <text x="42" y="285" class="txt" text-anchor="start">les articles scientifiques.</text>
-<text x="42" y="304" class="txt" text-anchor="start"></text>
-<text x="42" y="323" class="txt" text-anchor="start">La base officielle des</text>
-<text x="42" y="342" class="txt" text-anchor="start">médicaments et la HAS donnent</text>
-<text x="42" y="361" class="txt" text-anchor="start">les marques vendues en France,</text>
-<text x="42" y="380" class="txt" text-anchor="start">leur prix et leur remboursement.</text>
 <rect x="318" y="92" width="250" height="210" rx="14" fill="#ffffff" stroke="#0b7a73" stroke-width="2"/>
 <rect x="318" y="92" width="250" height="38" rx="14" fill="#0b7a73"/><rect x="318" y="116" width="250" height="14" fill="#0b7a73"/>
 <circle cx="338" cy="111" r="11" fill="#fff"/>
@@ -72,15 +67,14 @@
 <text x="952" y="171" class="txt" text-anchor="start">gratuitement.</text>
 <text x="952" y="190" class="txt" text-anchor="start"></text>
 <text x="952" y="209" class="txt" text-anchor="start">On y lit les 5 points de la</text>
-<text x="952" y="228" class="txt" text-anchor="start">semaine, on cherche un essai</text>
-<text x="952" y="247" class="txt" text-anchor="start">ou un article, et on compare</text>
-<text x="952" y="266" class="txt" text-anchor="start">deux produits.</text>
-<text x="952" y="285" class="txt" text-anchor="start"></text>
-<text x="952" y="304" class="txt" text-anchor="start">Un assistant répond aux</text>
-<text x="952" y="323" class="txt" text-anchor="start">questions en citant ses sources.</text>
-<text x="952" y="342" class="txt" text-anchor="start"></text>
-<text x="952" y="361" class="txt" text-anchor="start">Je reçois aussi un e-mail chaque</text>
-<text x="952" y="380" class="txt" text-anchor="start">semaine et des alertes.</text>
+<text x="952" y="228" class="txt" text-anchor="start">semaine, et on cherche un essai</text>
+<text x="952" y="247" class="txt" text-anchor="start">ou un article.</text>
+<text x="952" y="266" class="txt" text-anchor="start"></text>
+<text x="952" y="285" class="txt" text-anchor="start">Un assistant répond aux</text>
+<text x="952" y="304" class="txt" text-anchor="start">questions en citant ses sources.</text>
+<text x="952" y="323" class="txt" text-anchor="start"></text>
+<text x="952" y="342" class="txt" text-anchor="start">Je reçois aussi un e-mail chaque</text>
+<text x="952" y="361" class="txt" text-anchor="start">semaine et des alertes.</text>
 <path d="M278,200 L314,200" class="fl"/>
 <path d="M443,302 L443,330" class="fl"/>
 <path d="M568,200 L604,200" class="fl"/>
@@ -102,10 +96,10 @@
 <text x="282" y="624" class="txt" text-anchor="start">et par une issue GitHub</text>
 <rect x="508" y="526" width="226" height="128" rx="14" fill="#ffffff" stroke="#146c43" stroke-width="2"/>
 <rect x="508" y="526" width="226" height="38" rx="14" fill="#146c43"/><rect x="508" y="550" width="226" height="14" fill="#146c43"/>
-<text x="522" y="551" class="ttl" text-anchor="start">Comparer deux produits</text>
-<text x="522" y="586" class="txt" text-anchor="start">forces et limites des études,</text>
-<text x="522" y="605" class="txt" text-anchor="start">lecture critique par l'IA,</text>
-<text x="522" y="624" class="txt" text-anchor="start">fiche France de chaque marque</text>
+<text x="522" y="551" class="ttl" text-anchor="start">Filtres</text>
+<text x="522" y="586" class="txt" text-anchor="start">par classe de traitement</text>
+<text x="522" y="605" class="txt" text-anchor="start">(prostaglandines, bêta-</text>
+<text x="522" y="624" class="txt" text-anchor="start">bloquants…) et type d'étude</text>
 <rect x="748" y="526" width="226" height="128" rx="14" fill="#ffffff" stroke="#3f3c9e" stroke-width="2"/>
 <rect x="748" y="526" width="226" height="38" rx="14" fill="#3f3c9e"/><rect x="748" y="550" width="226" height="14" fill="#3f3c9e"/>
 <text x="762" y="551" class="ttl" text-anchor="start">Accès aux articles</text>

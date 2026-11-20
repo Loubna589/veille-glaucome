@@ -53,9 +53,6 @@
     { id: "etudes", href: "etudes.html", label: "Essais & articles", icone: "etudes",
       but: "Parcourir tous les essais cliniques et articles suivis, avec une fiche détaillée pour chacun.",
       exemple: "Choisissez « Détectées : ces 7 derniers jours » pour ne voir que les plus récents." },
-    { id: "comparer", href: "comparer.html", label: "Comparer deux produits", icone: "comparer", etiquette: "IA",
-      but: "Mettre face à face les études de deux traitements : forces, limites, et arguments solides pour se différencier.",
-      exemple: "Comparez latanoprost (Xalatan) et bimatoprost (Lumigan), puis lancez la lecture critique par l'IA." },
     { id: "alertes", href: "alertes.html", label: "Alertes", icone: "alertes",
       but: "Être prévenu quand un essai change : nouveau statut, nouvelle date de fin ou résultats publiés.",
       exemple: "Une alerte « RECRUITING → COMPLETED » signale qu'un essai vient de se terminer." },
@@ -70,7 +67,7 @@
       exemple: "Suivez le lien « Limites » pour savoir ce que l'outil ne fait pas." },
   ];
   /* Le fil de la présentation orale : l'ordre des étapes (les autres pages restent dans « Autres pages ») */
-  V.ETAPES = ["apropos", "accueil", "fonctionnement", "semaine", "etudes", "comparer", "methode"];
+  V.ETAPES = ["apropos", "accueil", "fonctionnement", "semaine", "etudes", "methode"];
   V.HORS_MENU = ["assistant", "carte"];  // pages gardées (liens directs) mais retirées du menu à la demande de Loubna
   V.page = function (id) { return V.PAGES.filter(function (p) { return p.id === id; })[0]; };
 
