@@ -5,11 +5,14 @@
 :root{--fond:#f4f7fb;--carte:#fff;--texte:#0f1d33;--doux:#52627a;--bord:#e2e8f0;--accent:#0b4f8a;
 --ok:#146c43;--ok-fond:#e3f4ea;--att:#8a5300;--att-fond:#fdf1d8;--ver:#b42318;--ver-fond:#fdeceb;
 --reg:#3f3c9e;--reg-fond:#ecebfb;--src-fond:#f1f5f9;--mark:#fff1a8;--manque:#b42318;--turquoise:#14b8a6;}
-@media (prefers-color-scheme:dark){:root{--fond:#0a1120;--carte:#101a2c;--texte:#e6edf7;--doux:#9db0ca;
---bord:#1e2b42;--accent:#6fb4ff;--ok:#6fd6a0;--ok-fond:#12301f;--att:#f3c15e;--att-fond:#352a10;--ver:#ff9a8f;
+@media screen{:root{--fond:#03060c;--carte:#0a1220;--texte:#e8f1fb;--doux:#93a7c2;
+--bord:#17263d;--accent:#4cc9f0;--ok:#6fd6a0;--ok-fond:#12301f;--att:#f3c15e;--att-fond:#352a10;--ver:#ff9a8f;
 --ver-fond:#3a1714;--reg:#b4b2ff;--reg-fond:#24234a;--src-fond:#0d1626;--mark:#5a4d10;--manque:#ff9a8f;--turquoise:#2dd4bf;}}
 *{box-sizing:border-box}body{margin:0;background:var(--fond);color:var(--texte);
 font:15.5px/1.6 "Inter",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+@media screen{body{background-image:radial-gradient(900px 500px at 85% -10%,rgba(76,201,240,.13),transparent 60%),
+linear-gradient(rgba(76,201,240,.045) 1px,transparent 1px),linear-gradient(90deg,rgba(76,201,240,.045) 1px,transparent 1px);
+background-size:auto,32px 32px,32px 32px;background-attachment:fixed;color-scheme:dark}}
 :focus-visible{outline:3px solid var(--turquoise);outline-offset:2px;border-radius:6px}
 main{max-width:1000px;margin:0 auto;padding:20px 18px 64px}
 .bandeau{display:flex;align-items:center;gap:10px;font-weight:800;letter-spacing:-.02em;padding:6px 0 14px;color:var(--texte);text-decoration:none}
@@ -37,7 +40,7 @@ th,td{border:1px solid var(--bord);padding:6px 8px;text-align:left;vertical-alig
 .copier{position:sticky;top:0;z-index:2;display:flex;gap:12px;align-items:center;flex-wrap:wrap;
 background:var(--fond);padding:10px 0;margin-bottom:8px}
 button{font:inherit;font-weight:600;background:var(--accent);color:#fff;border:0;border-radius:8px;padding:9px 16px;cursor:pointer}
-@media (prefers-color-scheme:dark){button{color:#10141a}}
+@media screen{button{color:#10141a}}
 textarea{width:100%;min-height:260px;font:13px/1.4 ui-monospace,Consolas,monospace;background:var(--src-fond);
 color:var(--texte);border:1px solid var(--bord);border-radius:6px;padding:8px}
 details{margin:.5em 0}summary{cursor:pointer;color:var(--accent)}
@@ -143,7 +146,7 @@ Affiliations (institutions, pas des financeurs) : Daffodil International Univers
 
 RÉSUMÉ (texte source) :
 Ocular diseases, including Diabetic Retinopathy (DR), Glaucoma, Pterygium, and Retinal Detachment, require early detection to prevent irreversible blindness. However, manual screening is labor-intensive, and standard deep learning models often fail to capture the complex global spatial relationships necessary for multipathology grading. To address these limitations, we propose a MobileNetV2-Transformer Hybrid (MoViT-Eye) architecture for the automated 5-class classification of fundus images. This framework integrates the efficient local spatial feature extraction of MobileNetV2 with the long-range dependency modeling of Transformers. The study uses 4,906 cleaned images and applies LIME, Grad-CAM++, and Saliency Maps to identify image regions that influence each prediction. These methods generate heatmaps that highlight important clinical features, including microaneurysms and optic disc abnormalities, and support transparent clinical decision-making. The proposed model significantly outperforms existing architectures, achieving an accuracy of 90.36%, a Matthews Correlation Coefficient (MCC) of 0.8643, a Cohen&#x27;s Kappa of 0.8640, and a specificity of 97.29%. The model achieved an Area Under the Curve (AUC) of 98.60% for identifying DR and Retinal Detachment. By combining hybrid feature learning with multi-layered interpretability, this model provides a robust and transparent tool for automated clinical ophthalmic screening.</textarea></details></section>
-<p><small>Fiche générée le 2026-11-19 22:03 par Glaucoma Intelligence. Extraits des sources en langue originale.</small></p>
+<p><small>Fiche générée le 2026-11-20 11:06 par Glaucoma Intelligence. Extraits des sources en langue originale.</small></p>
 </main><script>
 function copierFiche(){
   var zone=document.getElementById('a-copier'), bouton=document.getElementById('bouton-copier');

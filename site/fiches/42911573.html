@@ -5,11 +5,14 @@
 :root{--fond:#f4f7fb;--carte:#fff;--texte:#0f1d33;--doux:#52627a;--bord:#e2e8f0;--accent:#0b4f8a;
 --ok:#146c43;--ok-fond:#e3f4ea;--att:#8a5300;--att-fond:#fdf1d8;--ver:#b42318;--ver-fond:#fdeceb;
 --reg:#3f3c9e;--reg-fond:#ecebfb;--src-fond:#f1f5f9;--mark:#fff1a8;--manque:#b42318;--turquoise:#14b8a6;}
-@media (prefers-color-scheme:dark){:root{--fond:#0a1120;--carte:#101a2c;--texte:#e6edf7;--doux:#9db0ca;
---bord:#1e2b42;--accent:#6fb4ff;--ok:#6fd6a0;--ok-fond:#12301f;--att:#f3c15e;--att-fond:#352a10;--ver:#ff9a8f;
+@media screen{:root{--fond:#03060c;--carte:#0a1220;--texte:#e8f1fb;--doux:#93a7c2;
+--bord:#17263d;--accent:#4cc9f0;--ok:#6fd6a0;--ok-fond:#12301f;--att:#f3c15e;--att-fond:#352a10;--ver:#ff9a8f;
 --ver-fond:#3a1714;--reg:#b4b2ff;--reg-fond:#24234a;--src-fond:#0d1626;--mark:#5a4d10;--manque:#ff9a8f;--turquoise:#2dd4bf;}}
 *{box-sizing:border-box}body{margin:0;background:var(--fond);color:var(--texte);
 font:15.5px/1.6 "Inter",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+@media screen{body{background-image:radial-gradient(900px 500px at 85% -10%,rgba(76,201,240,.13),transparent 60%),
+linear-gradient(rgba(76,201,240,.045) 1px,transparent 1px),linear-gradient(90deg,rgba(76,201,240,.045) 1px,transparent 1px);
+background-size:auto,32px 32px,32px 32px;background-attachment:fixed;color-scheme:dark}}
 :focus-visible{outline:3px solid var(--turquoise);outline-offset:2px;border-radius:6px}
 main{max-width:1000px;margin:0 auto;padding:20px 18px 64px}
 .bandeau{display:flex;align-items:center;gap:10px;font-weight:800;letter-spacing:-.02em;padding:6px 0 14px;color:var(--texte);text-decoration:none}
@@ -37,7 +40,7 @@ th,td{border:1px solid var(--bord);padding:6px 8px;text-align:left;vertical-alig
 .copier{position:sticky;top:0;z-index:2;display:flex;gap:12px;align-items:center;flex-wrap:wrap;
 background:var(--fond);padding:10px 0;margin-bottom:8px}
 button{font:inherit;font-weight:600;background:var(--accent);color:#fff;border:0;border-radius:8px;padding:9px 16px;cursor:pointer}
-@media (prefers-color-scheme:dark){button{color:#10141a}}
+@media screen{button{color:#10141a}}
 textarea{width:100%;min-height:260px;font:13px/1.4 ui-monospace,Consolas,monospace;background:var(--src-fond);
 color:var(--texte);border:1px solid var(--bord);border-radius:6px;padding:8px}
 details{margin:.5em 0}summary{cursor:pointer;color:var(--accent)}
@@ -148,7 +151,7 @@ DESIGN, SETTING, AND PARTICIPANTS: This cohort study was conducted among patient
 MAIN OUTCOMES AND MEASURES: The primary outcomes were the cumulative probability of recurrent visual field progression and hazard ratios (HRs) for factors associated with recurrence.
 RESULTS: A total of 7457 eyes of 5086 patients with open-angle glaucoma or suspected glaucoma were included, with a mean (SD) follow-up of 12.4 (4.6) years. Mean (SD) patient age was 60.5 (13.1) years, and 4468 eyes (59.9%) were from female patients. By self-reported race and ethnicity, 203 eyes (2.7%) were from Asian patients, 1718 (23.0%) from Black patients, 1677 (22.5%) from Hispanic patients, and 5536 (74.2%) from White patients. A total of 1951 eyes (26.2%) developed initial GPA likely progression; 635 eyes had adequate follow-up after first progression and IOP data. Among those, 167 (26.3%) recurred. Kaplan-Meier cumulative recurrence was 13.8% at 3 years (95% CI, 11.6%-17.1%) and 43.5% at 10 years (95% CI, 35.8%-52.1%). In multivariable Cox analysis, faster mean deviation (MD) loss before first progression (HR, 1.73 per 1 decibel [dB]/y; 95% CI, 1.39-2.15), higher mean IOP after the first event (HR, 1.09 per 1 mm Hg; 95% CI, 1.05-1.13), less negative MD at first progression (HR, 1.08 per 1 dB; 95% CI, 1.04-1.12), and older age (HR, 1.11 per 5 years; 95% CI, 1.03-1.19) were independently associated with recurrence. Each 10% greater IOP reduction was associated with lower hazard (HR, 0.89; 95% CI, 0.83-0.94). Among eyes with pre-event MD slopes faster than -1.0 dB/y, recurrence occurred in 42.7% of eyes vs 23.4% in slower-progressing eyes (difference, 19.3%; 95% CI, 8.8%-29.9%).
 CONCLUSIONS AND RELEVANCE: Findings from this cohort study suggest that recurrent visual field progression after a first GPA progression event is common; eyes at highest risk had faster pre-event visual field loss, less advanced damage at first progression, higher postevent IOP, and older age. These results may help target intensified monitoring and IOP lowering toward higher-risk eyes.</textarea></details></section>
-<p><small>Fiche générée le 2026-11-19 22:03 par Glaucoma Intelligence. Extraits des sources en langue originale.</small></p>
+<p><small>Fiche générée le 2026-11-20 11:06 par Glaucoma Intelligence. Extraits des sources en langue originale.</small></p>
 </main><script>
 function copierFiche(){
   var zone=document.getElementById('a-copier'), bouton=document.getElementById('bouton-copier');

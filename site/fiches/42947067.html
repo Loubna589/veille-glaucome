@@ -5,11 +5,14 @@
 :root{--fond:#f4f7fb;--carte:#fff;--texte:#0f1d33;--doux:#52627a;--bord:#e2e8f0;--accent:#0b4f8a;
 --ok:#146c43;--ok-fond:#e3f4ea;--att:#8a5300;--att-fond:#fdf1d8;--ver:#b42318;--ver-fond:#fdeceb;
 --reg:#3f3c9e;--reg-fond:#ecebfb;--src-fond:#f1f5f9;--mark:#fff1a8;--manque:#b42318;--turquoise:#14b8a6;}
-@media (prefers-color-scheme:dark){:root{--fond:#0a1120;--carte:#101a2c;--texte:#e6edf7;--doux:#9db0ca;
---bord:#1e2b42;--accent:#6fb4ff;--ok:#6fd6a0;--ok-fond:#12301f;--att:#f3c15e;--att-fond:#352a10;--ver:#ff9a8f;
+@media screen{:root{--fond:#03060c;--carte:#0a1220;--texte:#e8f1fb;--doux:#93a7c2;
+--bord:#17263d;--accent:#4cc9f0;--ok:#6fd6a0;--ok-fond:#12301f;--att:#f3c15e;--att-fond:#352a10;--ver:#ff9a8f;
 --ver-fond:#3a1714;--reg:#b4b2ff;--reg-fond:#24234a;--src-fond:#0d1626;--mark:#5a4d10;--manque:#ff9a8f;--turquoise:#2dd4bf;}}
 *{box-sizing:border-box}body{margin:0;background:var(--fond);color:var(--texte);
 font:15.5px/1.6 "Inter",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+@media screen{body{background-image:radial-gradient(900px 500px at 85% -10%,rgba(76,201,240,.13),transparent 60%),
+linear-gradient(rgba(76,201,240,.045) 1px,transparent 1px),linear-gradient(90deg,rgba(76,201,240,.045) 1px,transparent 1px);
+background-size:auto,32px 32px,32px 32px;background-attachment:fixed;color-scheme:dark}}
 :focus-visible{outline:3px solid var(--turquoise);outline-offset:2px;border-radius:6px}
 main{max-width:1000px;margin:0 auto;padding:20px 18px 64px}
 .bandeau{display:flex;align-items:center;gap:10px;font-weight:800;letter-spacing:-.02em;padding:6px 0 14px;color:var(--texte);text-decoration:none}
@@ -37,7 +40,7 @@ th,td{border:1px solid var(--bord);padding:6px 8px;text-align:left;vertical-alig
 .copier{position:sticky;top:0;z-index:2;display:flex;gap:12px;align-items:center;flex-wrap:wrap;
 background:var(--fond);padding:10px 0;margin-bottom:8px}
 button{font:inherit;font-weight:600;background:var(--accent);color:#fff;border:0;border-radius:8px;padding:9px 16px;cursor:pointer}
-@media (prefers-color-scheme:dark){button{color:#10141a}}
+@media screen{button{color:#10141a}}
 textarea{width:100%;min-height:260px;font:13px/1.4 ui-monospace,Consolas,monospace;background:var(--src-fond);
 color:var(--texte);border:1px solid var(--bord);border-radius:6px;padding:8px}
 details{margin:.5em 0}summary{cursor:pointer;color:var(--accent)}
@@ -146,7 +149,7 @@ BACKGROUND: This cross-sectional study characterized periocular morphology in lo
 METHODS: This cross-sectional study included 115 patients receiving long-term topical ophthalmic treatment (50 receiving antiglaucoma [AG] treatment, 35 receiving artificial tear [AT] treatment, and 30 receiving both AG and AT treatment) and 50 healthy controls. Levator function (LF), margin reflex distance (MRD1 and MRD2), inferior scleral show, and the lower eyelid pinch test were assessed, while standardized photographs were used to evaluate upper and lower eyelid herniation, upper eyelid atrophy, and malar festoons. Associations between study groups, treatment-related exposures, and periocular outcomes were examined using multivariable linear, binary logistic, and ordinal logistic regression models adjusted for age, sex, and study-specific covariates, with Benjamini-Hochberg false discovery rate correction.
 RESULTS: After adjustment for age and sex, the AG group had lower LF (q = 0.016), whereas all treatment groups showed lower MRD1 values (all q ≤ 0.005) and higher frequency and severity of upper eyelid atrophy (all q &lt; 0.05) than controls. No clear associations were identified between estimated cumulative eyelid-manipulation exposure or eyelid manipulation and the evaluated periocular outcomes after FDR correction. Current prostaglandin analog use was associated with higher odds of upper eyelid atrophy (OR 4.30, 95% CI 1.52-12.13; q = 0.016) together with lower odds of upper (OR 0.21, 95% CI 0.06-0.72; q = 0.029) and lower eyelid herniation (OR 0.13, 95% CI 0.04-0.43; q = 0.004), with an additional association with higher upper eyelid atrophy stage. Preservative-containing treatment was associated with higher odds of lower eyelid herniation (OR 5.46, 95% CI 1.76-16.94; q = 0.018) and its ordinal stage (q = 0.018). These associations remained significant after mutual adjustment for prostaglandin analog and preservative exposure.
 CONCLUSION: Current prostaglandin analog use was associated with a periocular morphologic pattern characterized by increased upper eyelid atrophy and reduced visible upper- and lower-eyelid herniation. Preservative-containing treatment showed an exploratory association with lower eyelid herniation, whereas no clear associations were identified for estimated cumulative eyelid-manipulation exposure or eyelid manipulation. These findings reflect cross-sectional exposure-phenotype associations rather than causal effects.</textarea></details></section>
-<p><small>Fiche générée le 2026-11-19 22:03 par Glaucoma Intelligence. Extraits des sources en langue originale.</small></p>
+<p><small>Fiche générée le 2026-11-20 11:06 par Glaucoma Intelligence. Extraits des sources en langue originale.</small></p>
 </main><script>
 function copierFiche(){
   var zone=document.getElementById('a-copier'), bouton=document.getElementById('bouton-copier');

@@ -2,7 +2,7 @@
    Glaucoma Intelligence — système de design
    Palette : bleu profond + turquoise + neutres · police Inter · mode sombre automatique
    ========================================================================== */
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;700&display=swap");
 
 :root {
   --fond: #f4f7fb; --carte: #ffffff; --carte-2: #f8fafc; --texte: #0f1d33; --doux: #52627a; --bord: #e2e8f0;
@@ -19,7 +19,7 @@
   --largeur-nav: 272px;
   color-scheme: light;
 }
-@media (prefers-color-scheme: dark) {
+@media screen {
   :root:not([data-theme="light"]) {
     --fond: #0a1120; --carte: #101a2c; --carte-2: #0d1626; --texte: #e6edf7; --doux: #9db0ca; --bord: #1e2b42;
     --accent: #6fb4ff; --accent-fort: #a9d3ff; --accent-doux: #12304f;
@@ -131,7 +131,7 @@ a.tuile:hover { transform: translateY(-2px); box-shadow: var(--ombre-forte); bor
 .recherche button, .bouton { font: inherit; font-weight: 650; padding: 11px 20px; border: 0; border-radius: 12px; cursor: pointer;
                              background: linear-gradient(135deg, var(--accent), #0b6c86); color: #fff; }
 .recherche button:hover, .bouton:hover { filter: brightness(1.08); }
-@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .recherche button { background: linear-gradient(135deg, #2563eb, #0d9488); } }
+@media screen { :root:not([data-theme="light"]) .recherche button { background: linear-gradient(135deg, #2563eb, #0d9488); } }
 .puces { display: flex; flex-wrap: wrap; gap: 8px; margin: 14px 0 4px; }
 .puce { font: inherit; text-decoration: none; font-size: .85rem; font-weight: 550; padding: 6px 13px; border-radius: 999px; cursor: pointer;
         border: 1px solid var(--bord); background: var(--carte); color: var(--texte); }
@@ -246,7 +246,7 @@ table.marche.petit { box-shadow: none; font-size: .84rem; }
 .etapes-sans-date { margin-top: 8px; display: flex; flex-wrap: wrap; gap: 6px; }
 .badge--etape { display: inline-block; white-space: normal; text-align: left; line-height: 1.6; }
 table.marche th .drapeau { vertical-align: -3px; }
-@media (prefers-color-scheme: dark) { .drapeau { box-shadow: 0 0 0 1px rgba(255, 255, 255, .25); } }
+@media screen { .drapeau { box-shadow: 0 0 0 1px rgba(255, 255, 255, .25); } }
 
 /* ---------- Bulle d'assistant et retour en haut ---------- */
 .gi-bulle, .gi-haut { position: fixed; right: 22px; z-index: 60; border: 0; cursor: pointer; display: grid; place-items: center; }
@@ -327,11 +327,11 @@ table.marche th .drapeau { vertical-align: -3px; }
 
 .badge.acces-libre { background: rgba(46,157,91,.15); color: #1f7a45; }
 .badge.acces-payant { background: rgba(194,85,63,.13); color: #a2412e; }
-@media (prefers-color-scheme: dark) { .badge.acces-libre { color: #7fd6a0; } .badge.acces-payant { color: #f0a090; } }
+@media screen { .badge.acces-libre { color: #7fd6a0; } .badge.acces-payant { color: #f0a090; } }
 
 /* ---- Chiffres de marché (site/js/chiffres_marche.js) : palette de séries validée (daltonisme) ---- */
 :root { --s1: #2a78d6; --s2: #eb6834; --s3: #1baf7a; --s4: #eda100; --s5: #e87ba4; --s6: #008300; --s7: #6250d6; --s-autres: #9aa3ae; }
-@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+@media screen { :root:not([data-theme="light"]) {
   --s1: #3987e5; --s2: #d95926; --s3: #199e70; --s4: #c98500; --s5: #d55181; --s6: #0ca30c; --s7: #9085e9; --s-autres: #6b7480; } }
 :root[data-theme="dark"] { --s1: #3987e5; --s2: #d95926; --s3: #199e70; --s4: #c98500; --s5: #d55181; --s6: #0ca30c; --s7: #9085e9; --s-autres: #6b7480; }
 .cm-titre { font-size: 1.05rem; margin: 22px 0 4px; }
@@ -438,7 +438,7 @@ a.tuile-couleur:hover { box-shadow: var(--ombre-forte); transform: translateY(-1
 .tuile-couleur ul { margin: 4px 0 0; padding-left: 18px; color: var(--doux); font-size: .9rem; }
 .tuile-couleur li { margin: 3px 0; }
 .c-bleu { --c: #0b4f8a; } .c-vert { --c: #0b7a73; } .c-orange { --c: #c2410c; } .c-violet { --c: #4f46e5; } .c-rouge { --c: #b42318; } .c-ambre { --c: #a16207; }
-@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .c-bleu { --c: #6fb4ff; } :root:not([data-theme="light"]) .c-vert { --c: #3dd9c5; }
+@media screen { :root:not([data-theme="light"]) .c-bleu { --c: #6fb4ff; } :root:not([data-theme="light"]) .c-vert { --c: #3dd9c5; }
   :root:not([data-theme="light"]) .c-orange { --c: #fb8b52; } :root:not([data-theme="light"]) .c-violet { --c: #a5a8ff; }
   :root:not([data-theme="light"]) .c-rouge { --c: #ff9a8f; } :root:not([data-theme="light"]) .c-ambre { --c: #f3c15e; } }
 .rythme { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(200px, 100%), 1fr)); gap: 12px; }
@@ -456,7 +456,7 @@ button.action { font: inherit; text-align: left; cursor: pointer; width: 100%; }
 .bouton-ia { font: inherit; font-size: .88rem; font-weight: 650; margin-top: 10px; padding: 7px 14px; border-radius: 999px; cursor: pointer;
   border: 1px solid var(--accent); background: var(--carte); color: var(--accent); }
 .bouton-ia:hover, .bouton-ia[aria-expanded="true"] { background: var(--accent); color: #fff; }
-@media (prefers-color-scheme: dark) { .bouton-ia:hover, .bouton-ia[aria-expanded="true"] { color: #0a1120; } }
+@media screen { .bouton-ia:hover, .bouton-ia[aria-expanded="true"] { color: #0a1120; } }
 .actions .bouton-acces-carte, .bouton-acces-carte { font-weight: 650; padding: 3px 12px; border-radius: 999px; background: var(--att-fond); color: var(--texte); text-decoration: none; white-space: nowrap; }
 .bouton-acces-carte.libre { background: var(--accent-doux); color: var(--accent); }
 .bouton-bu { font-weight: 650; padding: 3px 12px; border-radius: 999px; background: var(--att-fond); text-decoration: none; }
@@ -471,18 +471,18 @@ button.action { font: inherit; text-align: left; cursor: pointer; width: 100%; }
   background: var(--carte-2); font-size: .8rem; }
 .onglets button[aria-selected="true"] { background: var(--accent); border-color: var(--accent); color: #fff; }
 .onglets button[aria-selected="true"] b { background: #fff; color: var(--accent); }
-@media (prefers-color-scheme: dark) { .onglets button[aria-selected="true"] { color: #0a1120; } }
+@media screen { .onglets button[aria-selected="true"] { color: #0a1120; } }
 .titre-section small { font-weight: 400; font-size: .8rem; color: var(--doux); margin-left: 6px; }
 .nav__num { width: 22px; height: 22px; flex: none; border-radius: 50%; display: grid; place-items: center; font-size: .75rem; font-weight: 800;
   background: var(--carte-2); color: var(--accent); border: 1px solid var(--bord); }
 .nav__liens a[aria-current="page"] .nav__num { background: var(--accent); color: #fff; border-color: var(--accent); }
-@media (prefers-color-scheme: dark) { .nav__liens a[aria-current="page"] .nav__num { color: #0a1120; } }
+@media screen { .nav__liens a[aria-current="page"] .nav__num { color: #0a1120; } }
 .nav__groupe--haut { margin-top: 4px; }
 .fil-etapes { display: grid; grid-template-columns: 1fr auto 1fr; align-items: center; gap: 12px; margin: 36px 0 0; padding: 16px 0 0;
   border-top: 1px solid var(--bord); }
 .fil-etapes a { text-decoration: none; font-weight: 650; padding: 10px 16px; border-radius: 12px; border: 1px solid var(--bord); background: var(--carte); }
 .fil-etapes .fil-suiv { justify-self: end; background: var(--accent); border-color: var(--accent); color: #fff; }
-@media (prefers-color-scheme: dark) { .fil-etapes .fil-suiv { color: #0a1120; } }
+@media screen { .fil-etapes .fil-suiv { color: #0a1120; } }
 .fil-etapes .fil-prec { justify-self: start; color: var(--texte); }
 .fil-rang { color: var(--doux); font-size: .85rem; }
 @media (max-width: 700px) { .fil-etapes { grid-template-columns: 1fr; } .fil-etapes a, .fil-etapes .fil-suiv, .fil-etapes .fil-prec { justify-self: stretch; text-align: center; } .fil-rang { text-align: center; order: -1; } }
@@ -524,3 +524,51 @@ button.action { font: inherit; text-align: left; cursor: pointer; width: 100%; }
 .cmp-aide { margin-top: 22px; }
 .cmp-aide summary { cursor: pointer; font-weight: 650; }
 @media (max-width: 560px) { .cmp-fl { grid-template-columns: 1fr; } }
+
+
+/* ==========================================================================
+   Thème « laboratoire » : fond noir, accents cyan, grille de fond (19/11/2026)
+   Seulement l'apparence : aucune fonctionnalité ne dépend de ce bloc. À l'impression, le thème clair reste.
+   ========================================================================== */
+@media screen {
+  :root:not([data-theme="light"]) {
+    --fond: #03060c; --carte: #0a1220; --carte-2: #070e1a; --texte: #e8f1fb; --doux: #93a7c2; --bord: #17263d;
+    --accent: #4cc9f0; --accent-fort: #9be3ff; --accent-doux: #0b2638;
+    --turquoise: #2de2c9; --turquoise-vif: #2de2c9; --turquoise-doux: #0b2f2c;
+    --mono: "JetBrains Mono", ui-monospace, "Cascadia Code", Consolas, monospace;
+    --lueur: 0 0 0 1px rgba(76, 201, 240, .35), 0 0 22px -4px rgba(76, 201, 240, .45);
+    color-scheme: dark;
+  }
+  body {
+    background-color: var(--fond);
+    background-image:
+      radial-gradient(900px 500px at 85% -10%, rgba(76, 201, 240, .13), transparent 60%),
+      radial-gradient(700px 500px at -10% 110%, rgba(139, 92, 246, .12), transparent 60%),
+      linear-gradient(rgba(76, 201, 240, .045) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(76, 201, 240, .045) 1px, transparent 1px);
+    background-size: auto, auto, 32px 32px, 32px 32px;
+    background-attachment: fixed;
+  }
+  .nav { background: rgba(5, 10, 19, .92); backdrop-filter: blur(8px); border-right-color: var(--bord); }
+  .encadre, .carte, .labo, .graphe, .filtres, .recherche, table.marche, .tuile-couleur {
+    background: linear-gradient(180deg, rgba(14, 24, 41, .92), rgba(8, 15, 27, .92)); border-color: var(--bord); }
+  .carte:hover, .tuile-couleur:hover { border-color: rgba(76, 201, 240, .55); box-shadow: var(--lueur); }
+  .vitrine { background: linear-gradient(135deg, #061a2e 0%, #08243a 45%, #0a2f3a 100%) !important;
+             border: 1px solid rgba(76, 201, 240, .35); box-shadow: 0 0 40px -12px rgba(76, 201, 240, .45); }
+  .vitrine::before { content: ""; position: absolute; inset: 0; pointer-events: none;
+    background-image: linear-gradient(rgba(155, 227, 255, .07) 1px, transparent 1px), linear-gradient(90deg, rgba(155, 227, 255, .07) 1px, transparent 1px);
+    background-size: 24px 24px; mask-image: linear-gradient(90deg, transparent, #000 60%); -webkit-mask-image: linear-gradient(90deg, transparent, #000 60%); }
+  .vitrine h1 { background: linear-gradient(90deg, #ffffff, #9be3ff 60%, #2de2c9); -webkit-background-clip: text; background-clip: text; color: transparent; }
+  .vitrine .pastille, .nav__num, .fil-rang, .chiffres-vitrine b, .badge, .cmp-tableau td {
+    font-family: var(--mono); letter-spacing: 0; }
+  .vitrine .pastille { text-transform: uppercase; font-size: .72rem; color: #9be3ff; border-color: rgba(76, 201, 240, .5); background: rgba(76, 201, 240, .1); }
+  .chiffres-vitrine div { background: rgba(76, 201, 240, .07); border: 1px solid rgba(76, 201, 240, .25); }
+  .chiffres-vitrine b { color: #9be3ff; text-shadow: 0 0 14px rgba(76, 201, 240, .6); }
+  .titre-vitrine { color: var(--texte); }
+  .titre-vitrine::before { content: "▸ "; color: var(--accent); }
+  .nav__liens a[aria-current="page"] { box-shadow: inset 2px 0 0 var(--accent); }
+  .fil-etapes .fil-suiv, .bouton-ia:hover, .bouton-ia[aria-expanded="true"] { box-shadow: var(--lueur); }
+  ::selection { background: rgba(76, 201, 240, .35); }
+  ::-webkit-scrollbar { width: 10px; height: 10px; } ::-webkit-scrollbar-track { background: var(--fond); }
+  ::-webkit-scrollbar-thumb { background: #1c2f4a; border-radius: 6px; border: 2px solid var(--fond); }
+}

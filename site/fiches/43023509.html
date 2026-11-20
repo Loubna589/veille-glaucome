@@ -5,11 +5,14 @@
 :root{--fond:#f4f7fb;--carte:#fff;--texte:#0f1d33;--doux:#52627a;--bord:#e2e8f0;--accent:#0b4f8a;
 --ok:#146c43;--ok-fond:#e3f4ea;--att:#8a5300;--att-fond:#fdf1d8;--ver:#b42318;--ver-fond:#fdeceb;
 --reg:#3f3c9e;--reg-fond:#ecebfb;--src-fond:#f1f5f9;--mark:#fff1a8;--manque:#b42318;--turquoise:#14b8a6;}
-@media (prefers-color-scheme:dark){:root{--fond:#0a1120;--carte:#101a2c;--texte:#e6edf7;--doux:#9db0ca;
---bord:#1e2b42;--accent:#6fb4ff;--ok:#6fd6a0;--ok-fond:#12301f;--att:#f3c15e;--att-fond:#352a10;--ver:#ff9a8f;
+@media screen{:root{--fond:#03060c;--carte:#0a1220;--texte:#e8f1fb;--doux:#93a7c2;
+--bord:#17263d;--accent:#4cc9f0;--ok:#6fd6a0;--ok-fond:#12301f;--att:#f3c15e;--att-fond:#352a10;--ver:#ff9a8f;
 --ver-fond:#3a1714;--reg:#b4b2ff;--reg-fond:#24234a;--src-fond:#0d1626;--mark:#5a4d10;--manque:#ff9a8f;--turquoise:#2dd4bf;}}
 *{box-sizing:border-box}body{margin:0;background:var(--fond);color:var(--texte);
 font:15.5px/1.6 "Inter",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+@media screen{body{background-image:radial-gradient(900px 500px at 85% -10%,rgba(76,201,240,.13),transparent 60%),
+linear-gradient(rgba(76,201,240,.045) 1px,transparent 1px),linear-gradient(90deg,rgba(76,201,240,.045) 1px,transparent 1px);
+background-size:auto,32px 32px,32px 32px;background-attachment:fixed;color-scheme:dark}}
 :focus-visible{outline:3px solid var(--turquoise);outline-offset:2px;border-radius:6px}
 main{max-width:1000px;margin:0 auto;padding:20px 18px 64px}
 .bandeau{display:flex;align-items:center;gap:10px;font-weight:800;letter-spacing:-.02em;padding:6px 0 14px;color:var(--texte);text-decoration:none}
@@ -37,7 +40,7 @@ th,td{border:1px solid var(--bord);padding:6px 8px;text-align:left;vertical-alig
 .copier{position:sticky;top:0;z-index:2;display:flex;gap:12px;align-items:center;flex-wrap:wrap;
 background:var(--fond);padding:10px 0;margin-bottom:8px}
 button{font:inherit;font-weight:600;background:var(--accent);color:#fff;border:0;border-radius:8px;padding:9px 16px;cursor:pointer}
-@media (prefers-color-scheme:dark){button{color:#10141a}}
+@media screen{button{color:#10141a}}
 textarea{width:100%;min-height:260px;font:13px/1.4 ui-monospace,Consolas,monospace;background:var(--src-fond);
 color:var(--texte);border:1px solid var(--bord);border-radius:6px;padding:8px}
 details{margin:.5em 0}summary{cursor:pointer;color:var(--accent)}
@@ -143,7 +146,7 @@ Affiliations (institutions, pas des financeurs) : Urmia University (IR, educatio
 
 RÉSUMÉ (texte source) :
 Beta-Amino alcohols, as pivotal frameworks in organic and medicinal chemistry, play a prominent role in drug design and development. This comprehensive review evaluates the therapeutic potential of β-amino alcohols, highlighting their significance in the management of a broad spectrum of human pathologies, including cancer, bacterial infections, malaria, and viral diseases. Furthermore, the efficacy of these molecules in cardiovascular, respiratory, and ocular disorders is assessed. Alongside their therapeutic applications, the epoxide ring-opening process, the primary and most established synthetic pathway for constructing β-amino alcohol cores, is critically discussed and integrated with structure activity relationship (SAR) insights to demonstrate how specific chemical modifications dictate pharmacological potency. The consolidated findings reveal that β-amino alcohols exert their therapeutic effects through diverse molecular mechanisms. These pathways encompass the suppression of malignant cell proliferation, potent bactericidal activity against resistant Staphylococcus aureus strains, inhibition of Plasmodium species in malaria, targeting the main protease (Mpro) of SARS-CoV-2 for COVID-19 therapeutics, and functioning as dual-binding cholinesterase inhibitors for Alzheimer&#x27;s disease management. Additionally, these derivatives have been reported to modulate adrenergic receptors, highlighting their potential relevance to cardiovascular, respiratory, and ocular therapeutic research, including conditions such as hypertension, asthma, and glaucoma. Overall, this review provides an up-to-date analysis of β-amino alcohol-based therapeutic applications and offers a new perspective on the potential role of these compounds in modern medicinal chemistry, which may contribute to the rational design of novel drug candidates.</textarea></details></section>
-<p><small>Fiche générée le 2026-11-19 22:03 par Glaucoma Intelligence. Extraits des sources en langue originale.</small></p>
+<p><small>Fiche générée le 2026-11-20 11:06 par Glaucoma Intelligence. Extraits des sources en langue originale.</small></p>
 </main><script>
 function copierFiche(){
   var zone=document.getElementById('a-copier'), bouton=document.getElementById('bouton-copier');

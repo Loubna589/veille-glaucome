@@ -5,11 +5,14 @@
 :root{--fond:#f4f7fb;--carte:#fff;--texte:#0f1d33;--doux:#52627a;--bord:#e2e8f0;--accent:#0b4f8a;
 --ok:#146c43;--ok-fond:#e3f4ea;--att:#8a5300;--att-fond:#fdf1d8;--ver:#b42318;--ver-fond:#fdeceb;
 --reg:#3f3c9e;--reg-fond:#ecebfb;--src-fond:#f1f5f9;--mark:#fff1a8;--manque:#b42318;--turquoise:#14b8a6;}
-@media (prefers-color-scheme:dark){:root{--fond:#0a1120;--carte:#101a2c;--texte:#e6edf7;--doux:#9db0ca;
---bord:#1e2b42;--accent:#6fb4ff;--ok:#6fd6a0;--ok-fond:#12301f;--att:#f3c15e;--att-fond:#352a10;--ver:#ff9a8f;
+@media screen{:root{--fond:#03060c;--carte:#0a1220;--texte:#e8f1fb;--doux:#93a7c2;
+--bord:#17263d;--accent:#4cc9f0;--ok:#6fd6a0;--ok-fond:#12301f;--att:#f3c15e;--att-fond:#352a10;--ver:#ff9a8f;
 --ver-fond:#3a1714;--reg:#b4b2ff;--reg-fond:#24234a;--src-fond:#0d1626;--mark:#5a4d10;--manque:#ff9a8f;--turquoise:#2dd4bf;}}
 *{box-sizing:border-box}body{margin:0;background:var(--fond);color:var(--texte);
 font:15.5px/1.6 "Inter",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+@media screen{body{background-image:radial-gradient(900px 500px at 85% -10%,rgba(76,201,240,.13),transparent 60%),
+linear-gradient(rgba(76,201,240,.045) 1px,transparent 1px),linear-gradient(90deg,rgba(76,201,240,.045) 1px,transparent 1px);
+background-size:auto,32px 32px,32px 32px;background-attachment:fixed;color-scheme:dark}}
 :focus-visible{outline:3px solid var(--turquoise);outline-offset:2px;border-radius:6px}
 main{max-width:1000px;margin:0 auto;padding:20px 18px 64px}
 .bandeau{display:flex;align-items:center;gap:10px;font-weight:800;letter-spacing:-.02em;padding:6px 0 14px;color:var(--texte);text-decoration:none}
@@ -37,7 +40,7 @@ th,td{border:1px solid var(--bord);padding:6px 8px;text-align:left;vertical-alig
 .copier{position:sticky;top:0;z-index:2;display:flex;gap:12px;align-items:center;flex-wrap:wrap;
 background:var(--fond);padding:10px 0;margin-bottom:8px}
 button{font:inherit;font-weight:600;background:var(--accent);color:#fff;border:0;border-radius:8px;padding:9px 16px;cursor:pointer}
-@media (prefers-color-scheme:dark){button{color:#10141a}}
+@media screen{button{color:#10141a}}
 textarea{width:100%;min-height:260px;font:13px/1.4 ui-monospace,Consolas,monospace;background:var(--src-fond);
 color:var(--texte);border:1px solid var(--bord);border-radius:6px;padding:8px}
 details{margin:.5em 0}summary{cursor:pointer;color:var(--accent)}
@@ -146,7 +149,7 @@ OBJECTIVE: To evaluate the effects of a perioperative nursing intervention based
 METHODS: This single-center, two-arm, parallel-group randomized controlled study enrolled 198 patients undergoing first trabeculectomy at The First Affiliated Hospital of Suzhou University between February 2024 and December 2025. Participants were randomly allocated 1:1 to routine perioperative ophthalmic nursing or routine care plus a structured Mishel theory-based nursing intervention. Assessments were conducted 1 day before surgery (T0), at discharge (T1), and at 1 month (T2) and 3 months (T3) after surgery. The primary outcome was illness uncertainty measured using the Mishel Uncertainty in Illness Scale. Secondary outcomes included psychological status, discharge readiness, self-management, medication adherence, sleep quality, vision-related quality of life, satisfaction with nursing care, postoperative ophthalmic outcomes, and complications. All randomized participants completed follow-up and were analyzed according to their assigned groups.
 RESULTS: After Holm adjustment, the intervention group had lower illness-uncertainty scores at T1, T2, and T3; lower anxiety scores at T1 and T3 and lower depression scores at T2 and T3; higher discharge-readiness and satisfaction-with-nursing-care at T1; higher self-management and medication-adherence scores and lower sleep-quality scores at T2 and T3; and lower GQL-15 scores at T3. At T3, the model-estimated between-group differences were -8.13 points for illness uncertainty (95% CI, -10.74 to -5.53), 5.64 points for self-management (95% CI, 4.08-7.19), 6.05 points for medication adherence (95% CI, 2.98-9.12), and -3.71 points for GQL-15 (95% CI, -5.41 to -2.00). At discharge, the between-group difference in discharge readiness was 1.23 points (95% CI, 0.99-1.47). No statistically significant between-group differences were detected in postoperative intraocular-pressure trajectories, visual-acuity recovery, medication-free status, postoperative procedures, or complications within 3 months.
 CONCLUSION: In this single-center randomized study, Mishel theory-based perioperative nursing was associated with greater improvements in illness uncertainty and several psychological, behavioral, and recovery-related patient-reported outcomes after trabeculectomy. No statistically significant differences were detected in short-term objective ophthalmic outcomes or postoperative complications.</textarea></details></section>
-<p><small>Fiche générée le 2026-11-19 22:03 par Glaucoma Intelligence. Extraits des sources en langue originale.</small></p>
+<p><small>Fiche générée le 2026-11-20 11:06 par Glaucoma Intelligence. Extraits des sources en langue originale.</small></p>
 </main><script>
 function copierFiche(){
   var zone=document.getElementById('a-copier'), bouton=document.getElementById('bouton-copier');

@@ -5,11 +5,14 @@
 :root{--fond:#f4f7fb;--carte:#fff;--texte:#0f1d33;--doux:#52627a;--bord:#e2e8f0;--accent:#0b4f8a;
 --ok:#146c43;--ok-fond:#e3f4ea;--att:#8a5300;--att-fond:#fdf1d8;--ver:#b42318;--ver-fond:#fdeceb;
 --reg:#3f3c9e;--reg-fond:#ecebfb;--src-fond:#f1f5f9;--mark:#fff1a8;--manque:#b42318;--turquoise:#14b8a6;}
-@media (prefers-color-scheme:dark){:root{--fond:#0a1120;--carte:#101a2c;--texte:#e6edf7;--doux:#9db0ca;
---bord:#1e2b42;--accent:#6fb4ff;--ok:#6fd6a0;--ok-fond:#12301f;--att:#f3c15e;--att-fond:#352a10;--ver:#ff9a8f;
+@media screen{:root{--fond:#03060c;--carte:#0a1220;--texte:#e8f1fb;--doux:#93a7c2;
+--bord:#17263d;--accent:#4cc9f0;--ok:#6fd6a0;--ok-fond:#12301f;--att:#f3c15e;--att-fond:#352a10;--ver:#ff9a8f;
 --ver-fond:#3a1714;--reg:#b4b2ff;--reg-fond:#24234a;--src-fond:#0d1626;--mark:#5a4d10;--manque:#ff9a8f;--turquoise:#2dd4bf;}}
 *{box-sizing:border-box}body{margin:0;background:var(--fond);color:var(--texte);
 font:15.5px/1.6 "Inter",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+@media screen{body{background-image:radial-gradient(900px 500px at 85% -10%,rgba(76,201,240,.13),transparent 60%),
+linear-gradient(rgba(76,201,240,.045) 1px,transparent 1px),linear-gradient(90deg,rgba(76,201,240,.045) 1px,transparent 1px);
+background-size:auto,32px 32px,32px 32px;background-attachment:fixed;color-scheme:dark}}
 :focus-visible{outline:3px solid var(--turquoise);outline-offset:2px;border-radius:6px}
 main{max-width:1000px;margin:0 auto;padding:20px 18px 64px}
 .bandeau{display:flex;align-items:center;gap:10px;font-weight:800;letter-spacing:-.02em;padding:6px 0 14px;color:var(--texte);text-decoration:none}
@@ -37,7 +40,7 @@ th,td{border:1px solid var(--bord);padding:6px 8px;text-align:left;vertical-alig
 .copier{position:sticky;top:0;z-index:2;display:flex;gap:12px;align-items:center;flex-wrap:wrap;
 background:var(--fond);padding:10px 0;margin-bottom:8px}
 button{font:inherit;font-weight:600;background:var(--accent);color:#fff;border:0;border-radius:8px;padding:9px 16px;cursor:pointer}
-@media (prefers-color-scheme:dark){button{color:#10141a}}
+@media screen{button{color:#10141a}}
 textarea{width:100%;min-height:260px;font:13px/1.4 ui-monospace,Consolas,monospace;background:var(--src-fond);
 color:var(--texte);border:1px solid var(--bord);border-radius:6px;padding:8px}
 details{margin:.5em 0}summary{cursor:pointer;color:var(--accent)}
@@ -146,7 +149,7 @@ PURPOSE: To describe the clinical course of patients with retinal vasculitis ove
 METHODS: Retrospective chart review of patients with a minimum follow-up of 30 years at a tertiary eye care institute in India.
 RESULTS: A total of 37 patients were included. The mean follow-up duration was 34.3 ± 2.9 years (range: 30-44 years). The mean age of the patients at presentation was 31.05 ± 15.6 years, and 97% of them were male. In 54% of the patients, the involvement was bilateral. Five patients who initially presented with unilateral involvement subsequently developed involvement in the other eye. Presumed tuberculosis was diagnosed in five patients. None of the remaining patients developed ocular or extraocular manifestations of tuberculosis during the 30-year follow-up. Common investigations done for all patients were antinuclear antibody, Venereal Disease Research Laboratory test, Mantoux test, chest radiography, and serum angiotensin-converting enzyme levels. The use of immunosuppressives was low (2), as was the use of intravitreal anti-Vascular endothelial growth factor (VEGF) (1). The primary modalities of treatment were oral corticosteroids and photocoagulation. The most common complications were glaucoma (35, 56.5%), vitreous hemorrhage (30, 48.4%), and optic neuropathy (10, 16.1%). Recurrence of inflammation was seen in 30.6% of eyes in three decades of follow-up. Nineteen eyes required vitrectomy, and five eyes underwent scleral buckling for retinal detachment. The mean visual acuity in logarithm of the minimum angle of resolution at presentation was 0.8, and at the final visit, after 30 years of follow-up was 0.66. It was observed that 41.9% of eyes had visual improvement, 24.2% of eyes remained visually stable, and vision deteriorated in 33.9% of eyes.
 CONCLUSION: Retinal vasculitis has a chronic and unpredictable course, warranting long-term follow-up to detect late bilateral involvement and recurrence. While recurrence becomes less frequent over time, it may still occur after many years. Most patients continue to have idiopathic disease without subsequent identification of a systemic cause.</textarea></details></section>
-<p><small>Fiche générée le 2026-11-19 22:03 par Glaucoma Intelligence. Extraits des sources en langue originale.</small></p>
+<p><small>Fiche générée le 2026-11-20 11:06 par Glaucoma Intelligence. Extraits des sources en langue originale.</small></p>
 </main><script>
 function copierFiche(){
   var zone=document.getElementById('a-copier'), bouton=document.getElementById('bouton-copier');

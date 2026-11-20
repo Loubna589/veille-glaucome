@@ -5,11 +5,14 @@
 :root{--fond:#f4f7fb;--carte:#fff;--texte:#0f1d33;--doux:#52627a;--bord:#e2e8f0;--accent:#0b4f8a;
 --ok:#146c43;--ok-fond:#e3f4ea;--att:#8a5300;--att-fond:#fdf1d8;--ver:#b42318;--ver-fond:#fdeceb;
 --reg:#3f3c9e;--reg-fond:#ecebfb;--src-fond:#f1f5f9;--mark:#fff1a8;--manque:#b42318;--turquoise:#14b8a6;}
-@media (prefers-color-scheme:dark){:root{--fond:#0a1120;--carte:#101a2c;--texte:#e6edf7;--doux:#9db0ca;
---bord:#1e2b42;--accent:#6fb4ff;--ok:#6fd6a0;--ok-fond:#12301f;--att:#f3c15e;--att-fond:#352a10;--ver:#ff9a8f;
+@media screen{:root{--fond:#03060c;--carte:#0a1220;--texte:#e8f1fb;--doux:#93a7c2;
+--bord:#17263d;--accent:#4cc9f0;--ok:#6fd6a0;--ok-fond:#12301f;--att:#f3c15e;--att-fond:#352a10;--ver:#ff9a8f;
 --ver-fond:#3a1714;--reg:#b4b2ff;--reg-fond:#24234a;--src-fond:#0d1626;--mark:#5a4d10;--manque:#ff9a8f;--turquoise:#2dd4bf;}}
 *{box-sizing:border-box}body{margin:0;background:var(--fond);color:var(--texte);
 font:15.5px/1.6 "Inter",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+@media screen{body{background-image:radial-gradient(900px 500px at 85% -10%,rgba(76,201,240,.13),transparent 60%),
+linear-gradient(rgba(76,201,240,.045) 1px,transparent 1px),linear-gradient(90deg,rgba(76,201,240,.045) 1px,transparent 1px);
+background-size:auto,32px 32px,32px 32px;background-attachment:fixed;color-scheme:dark}}
 :focus-visible{outline:3px solid var(--turquoise);outline-offset:2px;border-radius:6px}
 main{max-width:1000px;margin:0 auto;padding:20px 18px 64px}
 .bandeau{display:flex;align-items:center;gap:10px;font-weight:800;letter-spacing:-.02em;padding:6px 0 14px;color:var(--texte);text-decoration:none}
@@ -37,7 +40,7 @@ th,td{border:1px solid var(--bord);padding:6px 8px;text-align:left;vertical-alig
 .copier{position:sticky;top:0;z-index:2;display:flex;gap:12px;align-items:center;flex-wrap:wrap;
 background:var(--fond);padding:10px 0;margin-bottom:8px}
 button{font:inherit;font-weight:600;background:var(--accent);color:#fff;border:0;border-radius:8px;padding:9px 16px;cursor:pointer}
-@media (prefers-color-scheme:dark){button{color:#10141a}}
+@media screen{button{color:#10141a}}
 textarea{width:100%;min-height:260px;font:13px/1.4 ui-monospace,Consolas,monospace;background:var(--src-fond);
 color:var(--texte);border:1px solid var(--bord);border-radius:6px;padding:8px}
 details{margin:.5em 0}summary{cursor:pointer;color:var(--accent)}
@@ -150,7 +153,7 @@ INTERVENTIONS: Tablet-based administration of the Impact of Vision Impairment CA
 PRIMARY AND SECONDARY OUTCOME MEASURES: Primary outcomes were feasibility (participation, CAT completion rate, time and SEM) and appropriateness (unaided completion rate). Secondary outcomes included organisational readiness (Readiness Thinking Tool), clinician perspectives and change in clinician confidence following education. Barriers and facilitators were identified and mapped to implementation strategies.
 RESULTS: Among 467 eligible patients, 399 (85.4%; 95% CI 81.9% to 88.5%) participated, yielding 826 IVI-CAT administrations with 97% completion (95% CI 95.1% to 97.7%), median duration 3:13 min, 7–8 items per domain and high measurement precision (SEM ≤0.358; reliability ≥0.85). Nearly half of the participants (n=187, 46.9%; 95% CI 41.9% to 51.9%) completed the assessment unaided; 41.9% required full assistance. Key barriers included low digital literacy and clinic workflow constraints, which were mitigated through staff support, patient education, workflow redesign and technical improvements. Clinicians were often unaware of CAT results in the EMR due to the lack of automated alerts. Organisational readiness was strong and supported by leadership. Clinician’s self-reported confidence in addressing related patient questions on how CAT scores will be used improved 1 week posteducation in exploratory analyses (n=19; exact p=0.031, unadjusted for multiple comparisons).
 CONCLUSIONS: Administering CAT-based PROMs in cataract clinics was feasible in a high-volume well-resourced tertiary eye care setting with dedicated staff support. More than half of the patients required assistance to complete the test. Sustained implementation may require ongoing clinician education, in-clinic support, workflow optimisation and technical refinements such as EMR alerts. Staffing requirements also need to be quantified. These preliminary, context-specific findings provide a foundation for subsequent implementation efforts, but their transferability to other ophthalmic settings will require further evaluation.</textarea></details></section>
-<p><small>Fiche générée le 2026-11-19 22:03 par Glaucoma Intelligence. Extraits des sources en langue originale.</small></p>
+<p><small>Fiche générée le 2026-11-20 11:06 par Glaucoma Intelligence. Extraits des sources en langue originale.</small></p>
 </main><script>
 function copierFiche(){
   var zone=document.getElementById('a-copier'), bouton=document.getElementById('bouton-copier');
