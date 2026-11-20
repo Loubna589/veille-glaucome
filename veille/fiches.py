@@ -131,6 +131,31 @@ def _valeur_mesure(v, dispersion_type):
     return " ".join(morceaux)
 
 
+_BASE_BU = acces_texte.base_openurl()
+
+
+def bloc_lire_essai(d):
+    """En haut de la fiche essai : où lire les résultats (registre, gratuit) et l'article publié (PubMed, BU, ResearchGate)."""
+    from urllib.parse import quote
+    if d.get("resultats_deposes"):
+        h = (f'<p class="lire-essai"><a class="bouton-lire" href="{e(d["lien"])}?tab=results" target="_blank" rel="noopener">'
+             f'📊 Lire les résultats sur ClinicalTrials.gov (gratuit)</a> <small>Ce sont des tableaux de chiffres déposés par le promoteur '
+             f'(effet mesuré, effets indésirables). Pour une conclusion rédigée, ouvrir l’article publié ci-dessous s’il existe.</small></p>')
+    else:
+        h = (f'<p class="lire-essai"><a class="bouton-lire" href="{e(d["lien"])}" target="_blank" rel="noopener">'
+             f'📄 Voir l’essai sur ClinicalTrials.gov (gratuit)</a> <small>Pas encore de résultats déposés : le registre montre le protocole et l’avancement.</small></p>')
+    pubs = [c for c in d.get("citations_declarees") or [] if c.get("type") in ("RESULT", "DERIVED") and c.get("pmid")]
+    for c in pubs[:3]:
+        cit = c.get("citation") or ""
+        bu = acces_texte.lien_openurl({"pmid": c["pmid"], "titre": cit[:250]}, _BASE_BU)
+        h += (f'<p class="lire-essai"><b>Article publié à partir de cet essai</b> (PMID {e(c["pmid"])}) : '
+              f'{lien("https://pubmed.ncbi.nlm.nih.gov/" + c["pmid"] + "/", "voir sur PubMed")}'
+              + (f' · <a class="bouton-lire secondaire" href="{e(bu)}" target="_blank" rel="noopener">📚 Demander à la BU</a>' if bu else "")
+              + f' · <a class="bouton-lire secondaire" href="https://www.researchgate.net/search/publication?q={quote(cit[:200])}" target="_blank" rel="noopener">🔎 ResearchGate</a>'
+              + f'<br><small lang="en">{e(cit)}</small></p>')
+    return h
+
+
 def fiche_essai(memoire, articles_memoire, rubriques):
     d = memoire["donnees"]
     nct = d["nct"]
@@ -148,6 +173,7 @@ def fiche_essai(memoire, articles_memoire, rubriques):
       <p class="surtitre">Fiche essai clinique · {e(nct)} · {lien(d['lien'], 'voir sur ClinicalTrials.gov')}</p>
       <h1>{e(d['titre'] or 'Titre non rapporté')}</h1>
       <p>{niveau}</p>
+      {bloc_lire_essai(d)}
       <dl class="grille">
         <dt>Phase (déclarée)</dt><dd>{e(ct.libelle_phase(d))}</dd>
         <dt>Statut</dt><dd>{e(ct.libelle_statut(d))}</dd>
@@ -668,7 +694,7 @@ a{color:var(--accent)}small,.def{color:var(--doux)}.def{font-size:.88rem;margin:
 .grille dt{color:var(--doux)}.grille dd{margin:0}
 .badge{display:inline-block;font-size:.72rem;font-weight:600;padding:2px 8px;border-radius:999px;margin:2px 4px 2px 0;
 vertical-align:middle;background:var(--src-fond);color:var(--doux)}
-.badge.confirme{background:var(--ok-fond);color:var(--ok)}.signalement{margin:.6rem 0;padding:.6rem .8rem;border-radius:8px;font-size:.95rem}.signalement.retracte{background:#c0392b;color:#fff}.signalement.retracte a{color:#fff}.signalement.erratum{background:#fdebd0;color:#7e4a0b;border:1px solid #e59a3a}.badge.attente{background:var(--att-fond);color:var(--att)}
+.badge.confirme{background:var(--ok-fond);color:var(--ok)}.lire-essai{margin:.7rem 0}.lire-essai small{color:var(--doux)}.bouton-lire{display:inline-block;font-weight:650;text-decoration:none;background:var(--accent);color:#fff;padding:7px 14px;border-radius:999px;margin:2px 6px 2px 0}.bouton-lire.secondaire{background:var(--src-fond);color:var(--accent);border:1px solid var(--bord);padding:4px 11px}@media screen{.bouton-lire:not(.secondaire){color:#03060c}}.signalement{margin:.6rem 0;padding:.6rem .8rem;border-radius:8px;font-size:.95rem}.signalement.retracte{background:#c0392b;color:#fff}.signalement.retracte a{color:#fff}.signalement.erratum{background:#fdebd0;color:#7e4a0b;border:1px solid #e59a3a}.badge.attente{background:var(--att-fond);color:var(--att)}
 .badge.verifier{background:var(--ver-fond);color:var(--ver)}.badge.regle{background:var(--reg-fond);color:var(--reg)}
 .rubrique{font-weight:600}.manque{color:var(--manque);font-style:italic}
 mark{background:var(--mark);color:inherit;padding:0 2px;border-radius:3px}
