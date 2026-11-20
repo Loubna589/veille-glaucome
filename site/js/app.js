@@ -258,7 +258,12 @@
     return V._parId ? V._parId[String(id || "").replace(/^PMID:?\s*/i, "")] : null;
   };
   V.boutonsAcces = function (e) {
-    if (!e || e.type === "essai") return "";
+    if (!e) return "";
+    if (e.type === "essai") {   // un essai n'est pas un article : sa fiche et ses résultats sont publics et gratuits sur le registre
+      return '<a class="bouton-acces-carte libre" href="' + V.esc(e.lien_source) + '" target="_blank" rel="noopener" ' +
+        'title="ClinicalTrials.gov est le registre public des essais : protocole, avancement et résultats déposés, en accès libre.">' +
+        (/résultats/i.test(e.niveau || "") ? "📊 Voir les résultats sur le registre (gratuit)" : "📄 Voir l'essai sur le registre (gratuit)") + "</a>";
+    }
     var h = "";
     if (e.acces === "libre") h += '<a class="bouton-acces-carte libre" href="' + V.esc(e.fiche || e.lien_source) + '">📖 Lire gratuitement</a>';
     if (e.lien_bu) h += '<a class="bouton-acces-carte" href="' + V.esc(e.lien_bu) + '" target="_blank" rel="noopener" ' +

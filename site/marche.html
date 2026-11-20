@@ -25,12 +25,37 @@
     </header>
 
     <nav class="onglets" role="tablist" aria-label="Parties de la page">
-      <button type="button" role="tab" data-onglet="o-tableau" aria-selected="true"><b>1</b> Où est-il autorisé ?</button>
+      <button type="button" role="tab" data-onglet="o-france" aria-selected="true"><b>1</b> 🇫🇷 En France</button>
       <button type="button" role="tab" data-onglet="o-chiffres" aria-selected="false"><b>2</b> Combien se vend-il ?</button>
-      <button type="button" role="tab" data-onglet="o-plus" aria-selected="false"><b>3</b> Pour aller plus loin</button>
+      <button type="button" role="tab" data-onglet="o-tableau" aria-selected="false"><b>3</b> Dans le monde</button>
+      <button type="button" role="tab" data-onglet="o-plus" aria-selected="false"><b>4</b> Pour aller plus loin</button>
     </nav>
+    <section class="onglet" id="o-france" role="tabpanel">
+      <div class="encadre fr-intro">
+        <p><b>Comment lire ce tableau :</b> une ligne = un médicament vendu en France, d'après la base officielle des médicaments (ANSM)
+          et les avis de la HAS.</p>
+        <ul>
+          <li><b>AMM</b> (autorisation de mise sur le marché) : le feu vert officiel pour vendre un médicament. Sans AMM, pas de vente.</li>
+          <li><b>SMR</b> (service médical rendu) : la note de la HAS sur l'intérêt du médicament. Il décide s'il est remboursé.</li>
+          <li><b>Remboursement</b> : la part payée par l'Assurance maladie (65 % pour la plupart des collyres du glaucome).</li>
+          <li><b>Type de nom</b> : « Latanoprost Biogaran » porte le nom de la molécule, c'est un générique. Un nom inventé (Xalatan, Monoprost)
+            est un nom de marque : ce peut être le médicament d'origine ou une copie vendue sous un nom commercial.</li>
+        </ul>
+      </div>
+      <form class="filtres fr-filtres" onsubmit="return false">
+        <label>Recherche<input type="search" id="fr-texte" placeholder="marque, molécule ou laboratoire (ex. Théa, Monoprost)"></label>
+        <label>Molécule<select id="fr-molecule"><option value="">toutes</option></select></label>
+        <label class="case"><input type="checkbox" id="fr-commerce" checked> Seulement les médicaments vendus actuellement</label>
+      </form>
+      <p class="compteur" id="fr-compteur"></p>
+      <div class="tableau-defile"><table class="marche fr-tableau" id="fr-tableau">
+        <thead><tr><th>Médicament</th><th>Molécule</th><th>Laboratoire</th><th>Type de nom</th><th>Vendu en France ?</th>
+          <th>Remboursé</th><th>Prix d'une boîte</th><th>Avis HAS (SMR)</th></tr></thead><tbody></tbody></table></div>
+      <p class="sous-titre">Sources : base de données publique des médicaments (ANSM) et avis de la Commission de la transparence (HAS).
+        Cliquez sur un nom pour ouvrir sa fiche officielle.</p>
+    </section>
 
-    <section class="onglet" id="o-tableau" role="tabpanel">
+    <section class="onglet" id="o-tableau" role="tabpanel" hidden>
       <p class="sous-titre">Une ligne par molécule, une colonne par pays. Cliquez sur un nom de laboratoire pour ne garder que ses produits.</p>
     <form class="filtres filtres--marche" id="filtres" onsubmit="return false">
       <label>Recherche<input type="search" id="f-texte" placeholder="molécule, médicament, laboratoire…"></label>
@@ -102,7 +127,7 @@
       if (location.hash === "#chiffres") montrer("o-chiffres");
     })();
   </script>
-  <script src="js/app.js?v=fc13f0f4be"></script>
+  <script src="js/app.js?v=6a7e4ec1ab"></script>
   <script src="js/chiffres_marche.js?v=de55095c28" defer></script>
   <script>
     Veille.pret(function () {
@@ -471,6 +496,50 @@
         afficher();
       });
       if (V.param && V.param("labo")) sel.value = V.param("labo");
+      afficher();
+    });
+  </script>
+  <script>
+    Veille.pret(function () {
+      var V = Veille, M = V.donnees.marche, esc = V.esc;
+      if (!M) return;
+      var lignes = [];
+      Object.keys(M.molecules).forEach(function (mol) {
+        (M.molecules[mol].france || []).forEach(function (f) { lignes.push({ mol: mol, f: f }); });
+      });
+      function nomCourt(nom) { return String(nom).split(",")[0].replace(/\s+\d.*$/, "").trim(); }
+      function generique(l) {
+        var premier = nomCourt(l.f.nom).split(/\s+/)[0].toLowerCase();
+        return (l.f.substances || []).some(function (sub) { return sub.toLowerCase().indexOf(premier) === 0; }) ||
+          /^(timolol|latanoprost|bimatoprost|travoprost|dorzolamide|brinzolamide|brimonidine|tafluprost)/i.test(nomCourt(l.f.nom));
+      }
+      function presentation(l) { return (l.f.presentations || []).filter(function (p) { return /active/i.test(p.statut || ""); })[0] || (l.f.presentations || [])[0] || {}; }
+      function dernierSmr(l) { var s = (l.f.smr || []).slice().sort(function (a, b) { return (b.date || "").localeCompare(a.date || ""); })[0]; return s; }
+      var sel = document.getElementById("fr-molecule");
+      sel.innerHTML += Object.keys(M.molecules).filter(function (m) { return (M.molecules[m].france || []).length; })
+        .map(function (m) { return '<option value="' + esc(m) + '">' + esc(m) + "</option>"; }).join("");
+      function afficher() {
+        var q = V.norm(document.getElementById("fr-texte").value), mol = sel.value, vendu = document.getElementById("fr-commerce").checked;
+        var liste = lignes.filter(function (l) {
+          if (mol && l.mol !== mol) return false;
+          if (vendu && l.f.commercialisation !== "Commercialisée") return false;
+          if (q && V.norm([l.f.nom, l.mol, l.f.titulaire, (l.f.laboratoire || {}).groupe].join(" ")).indexOf(q) < 0) return false;
+          return true;
+        }).sort(function (a, b) { return a.mol.localeCompare(b.mol, "fr") || generique(a) - generique(b) || a.f.nom.localeCompare(b.f.nom, "fr"); });
+        document.getElementById("fr-compteur").textContent = liste.length + " médicament(s)";
+        document.querySelector("#fr-tableau tbody").innerHTML = liste.map(function (l) {
+          var p = presentation(l), smr = dernierSmr(l), g = generique(l);
+          return "<tr><td><a href=\"" + esc(l.f.lien) + '" target="_blank" rel="noopener"><b>' + esc(nomCourt(l.f.nom)) + "</b></a><br><small>" + esc(l.f.forme || "") + "</small></td>" +
+            "<td>" + esc(l.mol) + "</td><td>" + esc((l.f.laboratoire || {}).groupe || l.f.titulaire) + "</td>" +
+            "<td>" + (g ? '<span class="badge">Nom de molécule (générique)</span>' : '<span class="badge type-etude">Nom de marque</span>') + "</td>" +
+            "<td>" + (l.f.commercialisation === "Commercialisée" ? "✅ oui" : "❌ non") + "</td>" +
+            "<td>" + esc(p.taux_remboursement || "non remboursé ou non indiqué") + "</td>" +
+            "<td>" + (p.prix != null ? esc(p.prix.toFixed(2).replace(".", ",")) + " €" : "—") + "</td>" +
+            "<td>" + (smr ? (smr.lien ? '<a href="' + esc(smr.lien) + '" target="_blank" rel="noopener">' + esc(smr.valeur) + "</a>" : esc(smr.valeur)) +
+              " <small>(" + esc(V.date(smr.date)) + ")</small>" : '<span class="vide">aucun avis trouvé</span>') + "</td></tr>";
+        }).join("") || '<tr><td colspan="8" class="vide">Aucun médicament ne correspond.</td></tr>';
+      }
+      ["fr-texte", "fr-molecule", "fr-commerce"].forEach(function (id) { document.getElementById(id).addEventListener("input", afficher); });
       afficher();
     });
   </script>
