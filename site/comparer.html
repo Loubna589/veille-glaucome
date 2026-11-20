@@ -8,7 +8,7 @@
   <link rel="canonical" href="https://loubna589.github.io/veille-glaucome/comparer.html">
   <meta property="og:title" content="Comparer deux produits — Glaucoma Intelligence">
   <meta property="og:url" content="https://loubna589.github.io/veille-glaucome/comparer.html">
-  <link rel="stylesheet" href="css/style.css?v=2a457ebde8">
+  <link rel="stylesheet" href="css/style.css?v=021e8d4c22">
 </head>
 <body>
   <div id="nav"></div>
@@ -88,6 +88,50 @@
         libelle: p[1] + (p[3].length ? " (" + p[3].join(", ") + ")" : "") };
     });
     var parId = {}; P.forEach(function (p) { parId[p.id] = p; });
+    // Marques vendues en France (base officielle des médicaments) : rattachées à leur molécule, avec labo, prix, remboursement, avis HAS
+    var MOL_MARCHE = { "Latanoprost": "latanoprost", "Bimatoprost": "bimatoprost", "Travoprost": "travoprost", "Tafluprost": "tafluprost",
+      "Timolol": "timolol", "Dorzolamide": "dorzolamide", "Brinzolamide": "brinzolamide", "Brimonidine": "brimonidine", "Netarsudil": "netarsudil",
+      "Netarsudil + latanoprost (Roclanda / Rocklatan)": "roclanda", "Latanoprostène bunod": "lbn", "Omidenepag": "omidenepag" };
+    function nomCourt(nom) { return String(nom).split(",")[0].replace(/\s+\d.*$/, "").trim(); }
+    function titre(n) { return n.toLowerCase().replace(/(^|[\s-])(\S)/g, function (m, a, c) { return a + c.toUpperCase(); }); }
+    function ajouterMarques(M) {
+      if (!M || !M.molecules) return;
+      var vus = {};
+      Object.keys(M.molecules).forEach(function (mol) {
+        var base = parId[MOL_MARCHE[mol]]; if (!base) return;
+        (M.molecules[mol].france || []).forEach(function (f) {
+          if (f.commercialisation !== "Commercialisée") return;
+          var court = nomCourt(f.nom), premier = court.split(/\s+/)[0].toLowerCase();
+          if (base.molecules.some(function (m) { return new RegExp("^" + m.replace(/\(\?!ene\)/, "")).test(premier); }) || /^(timolol|latanoprost)/.test(premier)) return; // générique
+          var cle = court.toLowerCase(); if (vus[cle]) return; vus[cle] = 1;
+          var nom = titre(court), labo = (f.laboratoire || {}).groupe || f.titulaire;
+          var p = { id: "fr-" + f.cis, nom: nom, molecules: base.molecules, marques: [nom], classe: base.classe, base: base, fr: f, labo: labo,
+            libelle: nom + " · " + base.nom + " · " + labo };
+          P.push(p); parId[p.id] = p;
+        });
+      });
+    }
+    function presentationFr(f) { return (f.presentations || []).filter(function (p) { return /active/i.test(p.statut || ""); })[0] || (f.presentations || [])[0] || {}; }
+    function dernier_(liste) { return (liste || []).slice().sort(function (a, b) { return (b.date || "").localeCompare(a.date || ""); })[0]; }
+    function blocFrance(a, b) {
+      if (!a.fr && !b.fr) return "";
+      function col(p) {
+        if (!p.fr) return '<span class="vide">molécule (toutes marques)</span>';
+        var pr = presentationFr(p.fr), smr = dernier_(p.fr.smr), asmr = dernier_(p.fr.asmr);
+        return "<b>" + esc(p.labo) + "</b><br>" + esc(p.fr.forme || "") + "<br>Prix : " + (pr.prix != null ? esc(pr.prix.toFixed(2).replace(".", ",")) + " €" : "—") +
+          " · remboursé " + esc(pr.taux_remboursement || "non indiqué") +
+          "<br>SMR : " + (smr ? esc(smr.valeur) + " <small>(" + esc(V.date(smr.date)) + ")</small>" : "aucun avis trouvé") +
+          "<br>ASMR : " + (asmr ? esc(asmr.valeur) + ' <small>(' + esc(V.date(asmr.date)) + ")</small>" + (asmr.libelle ? '<details><summary>Ce que dit la HAS</summary><small>' + esc(asmr.libelle) + "</small></details>" : "") : "aucun avis trouvé") +
+          '<br><a href="' + esc(p.fr.lien) + '" target="_blank" rel="noopener">Fiche officielle ↗</a>';
+      }
+      var meme = a.base && b.base && a.base === b.base || (a.base === b || b.base === a);
+      return '<div class="encadre cmp-synthese"><h2>🇫🇷 En France <small>base officielle des médicaments (ANSM) et avis de la HAS</small></h2>' +
+        '<table class="cmp-tableau"><thead><tr><th></th><th>' + esc(a.nom) + "</th><th>" + esc(b.nom) + "</th></tr></thead><tbody><tr><th>Fiche France</th><td><div class=\"cmp-fr\">" +
+        col(a) + "</div></td><td><div class=\"cmp-fr\">" + col(b) + "</div></td></tr></tbody></table>" +
+        (meme ? "<p><b>Même molécule :</b> les études scientifiques sont donc les mêmes pour les deux. Ce qui les distingue : le laboratoire, la formulation " +
+          "(avec ou sans conservateur, émulsion…), le prix, le remboursement et l'avis de la HAS (ASMR = progrès apporté par rapport aux autres).</p>" : "") +
+        '<p class="cmp-note">SMR : intérêt du médicament, il décide du remboursement. ASMR : progrès par rapport aux traitements existants, de I (majeur) à V (aucun).</p></div>';
+    }
     var enLigne = null;
 
     function rx(t) { return new RegExp(t.indexOf("\\b") >= 0 ? t : "\\b" + t, "i"); }
@@ -125,8 +169,11 @@
         return liste.length ? '<optgroup label="' + esc(titre) + '">' + liste.map(function (p) {
           return '<option value="' + p.id + '"' + (p.id === choix ? " selected" : "") + ">" + esc(p.libelle) + "</option>"; }).join("") + "</optgroup>" : "";
       }
-      sel.innerHTML = exclure ? grp("Même classe que mon produit", memes) + grp("Autres traitements", autres)
-        : Object.keys(CLASSES).map(function (c) { return grp(CLASSES[c].nom, P.filter(function (p) { return p.classe === c; })); }).join("");
+      var marques = function (l) { return l.filter(function (p) { return p.fr; }); }, mols = function (l) { return l.filter(function (p) { return !p.fr; }); };
+      sel.innerHTML = exclure ? grp("Même classe que mon produit", mols(memes)) + grp("Marques vendues en France, même classe", marques(memes)) +
+          grp("Autres traitements", mols(autres)) + grp("Autres marques vendues en France", marques(autres))
+        : Object.keys(CLASSES).map(function (c) { return grp(CLASSES[c].nom, mols(P.filter(function (p) { return p.classe === c; }))); }).join("") +
+          grp("Marques vendues en France", marques(P));
     }
 
     function compte(liste, f) { return liste.filter(f).length; }
@@ -189,7 +236,7 @@
       else if (ra.fortes > rb.fortes) verdict = esc(a.nom) + " a plus d'études solides dans la veille (" + ra.fortes + " contre " + rb.fortes + ").";
       else if (rb.fortes > ra.fortes) verdict = esc(b.nom) + " a plus d'études solides dans la veille (" + rb.fortes + " contre " + ra.fortes + ").";
       else verdict = "Les deux produits ont autant d'études solides dans la veille (" + ra.fortes + ").";
-      var html = '<div class="encadre cmp-synthese"><h2>En un coup d\'œil <small>règles fixes, sans IA</small></h2>' +
+      var html = blocFrance(a, b) + '<div class="encadre cmp-synthese"><h2>En un coup d\'œil <small>règles fixes, sans IA</small></h2>' +
         '<table class="cmp-tableau"><thead><tr><th></th><th>' + esc(a.nom) + "</th><th>" + esc(b.nom) + "</th></tr></thead><tbody>" +
         ligne("Études de la veille", ra.total + " <small>(" + ra.centre + " au centre)</small>", rb.total + " <small>(" + rb.centre + " au centre)</small>") +
         ligne("Études solides", ra.fortes, rb.fortes, "méta-analyses et essais tirés au sort") +
@@ -259,9 +306,19 @@
           var humain = function (x) { return ((x.e.solidite || {}).niveau || 0) > 0; };
           liste.filter(function (x) { return !vus[x.e.id]; }).sort(function (u, v) { return humain(v) - humain(u); }).slice(0, n).forEach(function (x) { vus[x.e.id] = 1; docs.push(docDe(x, p)); });
         }
-        prendre(D.face, D.a, 1);
+        function docFrance(p) {
+          if (!p.fr) return;
+          var pr = presentationFr(p.fr), smr = dernier_(p.fr.smr), asmr = dernier_(p.fr.asmr);
+          docs.push({ titre: "[" + p.nom + "] Fiche France officielle (ANSM, HAS)", e: { lien_source: p.fr.lien },
+            texte: p.nom + " (" + p.base.nom + "), laboratoire " + p.labo + ", " + (p.fr.forme || "") + ". Prix d'une boîte : " + (pr.prix != null ? pr.prix + " €" : "non indiqué") +
+              ", remboursement " + (pr.taux_remboursement || "non indiqué") + ". SMR : " + (smr ? smr.valeur : "non trouvé") + ". ASMR : " +
+              (asmr ? asmr.valeur + ". Avis HAS : " + (asmr.libelle || "") : "non trouvé") });
+        }
+        docFrance(D.a);
+        prendre(D.face, D.a, D.a.fr ? 0 : 1);
         var na0 = docs.length; prendre(D.la, D.a, 3 - na0); var na = docs.length;
-        prendre(D.lb, D.b, 6 - na);
+        docFrance(D.b);
+        prendre(D.lb, D.b, 6 - docs.length);
         var q = "Lecture critique pour un chef de produit. Documents [1-" + na + "] : " + D.a.nom + ". Documents [" + (na + 1) + "-" + docs.length + "] : " +
           D.b.nom + ". En puces courtes : 1) forces des preuves de chaque produit ; 2) biais et limites de chaque produit, et ce qu'un médecin " +
           "pourrait objecter ; 3) quel produit a les preuves les plus fragiles ; 4) deux arguments prudents pour se différencier. Cite [n] partout.";
@@ -283,6 +340,7 @@
 
     V.pret(function () {
       V.monterNavigation("comparer");
+      ajouterMarques(V.donnees.marche);
       var q = new URLSearchParams(location.search), a = parId[q.get("a")] ? q.get("a") : "latanoprost";
       var b = parId[q.get("b")] && q.get("b") !== a ? q.get("b") : (a === "latanoprost" ? "bimatoprost"
         : P.filter(function (p) { return p.id !== a && p.classe === parId[a].classe; }).concat(P.filter(function (p) { return p.id !== a; }))[0].id);
