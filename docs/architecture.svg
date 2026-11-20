@@ -39,25 +39,25 @@
 <text x="332" y="394" class="txt" text-anchor="start">Tout est rangé dans un seul</text>
 <text x="332" y="413" class="txt" text-anchor="start">fichier, avec l'historique :</text>
 <text x="332" y="432" class="txt" text-anchor="start">on voit ce qui a changé.</text>
-<rect x="608" y="92" width="290" height="210" rx="14" fill="#ffffff" stroke="#c2410c" stroke-width="2"/>
-<rect x="608" y="92" width="290" height="38" rx="14" fill="#c2410c"/><rect x="608" y="116" width="290" height="14" fill="#c2410c"/>
+<rect x="608" y="254" width="290" height="210" rx="14" fill="#ffffff" stroke="#c2410c" stroke-width="2"/>
+<rect x="608" y="254" width="290" height="38" rx="14" fill="#c2410c"/><rect x="608" y="278" width="290" height="14" fill="#c2410c"/>
+<circle cx="628" cy="273" r="11" fill="#fff"/>
+<text x="628" y="278" class="num" text-anchor="middle">4</text>
+<text x="646" y="279" class="ttl" text-anchor="start">L'IA : Gemini (Google)</text>
+<text x="622" y="314" class="txt" text-anchor="start">L'IA résume chaque article en</text>
+<text x="622" y="333" class="txt" text-anchor="start">3 lignes de français et le range</text>
+<text x="622" y="352" class="txt" text-anchor="start">dans une catégorie.</text>
+<text x="622" y="371" class="txt" text-anchor="start">Elle écrit aussi les 5 points</text>
+<text x="622" y="390" class="txt" text-anchor="start">de la semaine. Tout ce qu'elle</text>
+<text x="622" y="409" class="txt" text-anchor="start">écrit est marqué « à vérifier ».</text>
+<rect x="608" y="92" width="290" height="130" rx="14" fill="#ffffff" stroke="#8a5300" stroke-width="2"/>
+<rect x="608" y="92" width="290" height="38" rx="14" fill="#8a5300"/><rect x="608" y="116" width="290" height="14" fill="#8a5300"/>
 <circle cx="628" cy="111" r="11" fill="#fff"/>
-<text x="628" y="116" class="num" text-anchor="middle">4</text>
-<text x="646" y="117" class="ttl" text-anchor="start">L'IA : Gemini (Google)</text>
-<text x="622" y="152" class="txt" text-anchor="start">L'IA résume chaque article en</text>
-<text x="622" y="171" class="txt" text-anchor="start">3 lignes de français et le range</text>
-<text x="622" y="190" class="txt" text-anchor="start">dans une catégorie.</text>
-<text x="622" y="209" class="txt" text-anchor="start">Elle écrit aussi les 5 points</text>
-<text x="622" y="228" class="txt" text-anchor="start">de la semaine. Tout ce qu'elle</text>
-<text x="622" y="247" class="txt" text-anchor="start">écrit est marqué « à vérifier ».</text>
-<rect x="608" y="334" width="290" height="130" rx="14" fill="#ffffff" stroke="#8a5300" stroke-width="2"/>
-<rect x="608" y="334" width="290" height="38" rx="14" fill="#8a5300"/><rect x="608" y="358" width="290" height="14" fill="#8a5300"/>
-<circle cx="628" cy="353" r="11" fill="#fff"/>
-<text x="628" y="358" class="num" text-anchor="middle">5</text>
-<text x="646" y="359" class="ttl" text-anchor="start">Les contrôles qualité</text>
-<text x="622" y="394" class="txt" text-anchor="start">Une fiche incomplète, en double</text>
-<text x="622" y="413" class="txt" text-anchor="start">ou avec une date fausse</text>
-<text x="622" y="432" class="txt" text-anchor="start">n'est pas publiée.</text>
+<text x="628" y="116" class="num" text-anchor="middle">5</text>
+<text x="646" y="117" class="ttl" text-anchor="start">Les contrôles qualité</text>
+<text x="622" y="152" class="txt" text-anchor="start">Une fiche incomplète, en double</text>
+<text x="622" y="171" class="txt" text-anchor="start">ou avec une date fausse</text>
+<text x="622" y="190" class="txt" text-anchor="start">n'est pas publiée.</text>
 <rect x="938" y="92" width="274" height="372" rx="14" fill="#ffffff" stroke="#146c43" stroke-width="2"/>
 <rect x="938" y="92" width="274" height="38" rx="14" fill="#146c43"/><rect x="938" y="116" width="274" height="14" fill="#146c43"/>
 <circle cx="958" cy="111" r="11" fill="#fff"/>
@@ -77,10 +77,9 @@
 <text x="952" y="361" class="txt" text-anchor="start">semaine et des alertes.</text>
 <path d="M278,200 L314,200" class="fl"/>
 <path d="M443,302 L443,330" class="fl"/>
-<path d="M568,200 L604,200" class="fl"/>
 <path d="M568,400 L604,400" class="fl"/>
-<path d="M753,302 L753,330" class="fl"/>
-<path d="M898,400 L934,400" class="fl"/>
+<path d="M753,254 L753,226" class="fl"/>
+<path d="M898,157 L934,157" class="fl"/>
 <text x="28" y="510" class="h2" text-anchor="start">Ce qui en sort, sans intervention</text>
 <rect x="28" y="526" width="226" height="128" rx="14" fill="#ffffff" stroke="#0b4f8a" stroke-width="2"/>
 <rect x="28" y="526" width="226" height="38" rx="14" fill="#0b4f8a"/><rect x="28" y="550" width="226" height="14" fill="#0b4f8a"/>

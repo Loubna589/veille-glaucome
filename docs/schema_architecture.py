@@ -32,10 +32,10 @@ boite(318, 92, 250, 210, "#0b7a73", "2", "Le robot quotidien", [
 boite(318, 334, 250, 130, "#3f3c9e", "3", "La base de données", [
     "Tout est rangé dans un seul", "fichier, avec l'historique :", "on voit ce qui a changé."])
 # 4. IA
-boite(608, 92, 290, 210, "#c2410c", "4", "L'IA : Gemini (Google)", [
+boite(608, 254, 290, 210, "#c2410c", "4", "L'IA : Gemini (Google)", [
     "L'IA résume chaque article en", "3 lignes de français et le range", "dans une catégorie.", "Elle écrit aussi les 5 points", "de la semaine. Tout ce qu'elle", "écrit est marqué « à vérifier »."])
 # 5. Contrôles
-boite(608, 334, 290, 130, "#8a5300", "5", "Les contrôles qualité", [
+boite(608, 92, 290, 130, "#8a5300", "5", "Les contrôles qualité", [
     "Une fiche incomplète, en double", "ou avec une date fausse", "n'est pas publiée."])
 # 6. Site
 boite(938, 92, 274, 372, "#146c43", "6", "Le site (GitHub Pages)", [
@@ -43,8 +43,8 @@ boite(938, 92, 274, 372, "#146c43", "6", "Le site (GitHub Pages)", [
     "On y lit les 5 points de la", "semaine, et on cherche un essai", "ou un article.", "",
     "Un assistant répond aux", "questions en citant ses sources.", "",
     "Je reçois aussi un e-mail chaque", "semaine et des alertes."])
-fleche(278, 200, 314, 200); fleche(443, 302, 443, 330); fleche(568, 200, 604, 200); fleche(568, 400, 604, 400)
-fleche(753, 302, 753, 330); fleche(898, 400, 934, 400)
+fleche(278, 200, 314, 200); fleche(443, 302, 443, 330); fleche(568, 400, 604, 400)
+fleche(753, 254, 753, 226); fleche(898, 157, 934, 157)
 
 # Sorties
 t(28, 510, "Ce qui en sort, sans intervention", "h2")
