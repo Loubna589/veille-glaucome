@@ -1,0 +1,17 @@
+name: Vérification en ligne (temporaire)
+on: workflow_dispatch
+jobs:
+  verif:
+    runs-on: ubuntu-latest
+    steps:
+      - run: |
+          npm init -y >/dev/null && npm i playwright@1.49.1 >/dev/null 2>&1 && npx playwright install --with-deps chromium >/dev/null 2>&1
+          cat > v.js <<'JS'
+          const {chromium}=require('playwright');(async()=>{const b=await chromium.launch();
+          for (const pg of ['index.html','comparer.html','semaine.html','fiches/41915113.html']){const p=await b.newPage();
+          p.on('pageerror',e=>console.log('ERREUR',pg,e.message));
+          await p.goto('https://loubna589.github.io/veille-glaucome/'+pg+'?t='+Date.now(),{waitUntil:'networkidle'});await p.waitForTimeout(1500);
+          console.log('PAGE',pg,(await p.textContent('body')).length,await p.evaluate(()=>getComputedStyle(document.body).backgroundColor));await p.close();}
+          await b.close();})();
+          JS
+          node v.js
