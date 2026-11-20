@@ -13,9 +13,9 @@
 <circle cx="48" cy="111" r="11" fill="#fff"/>
 <text x="48" y="116" class="num" text-anchor="middle">1</text>
 <text x="66" y="117" class="ttl" text-anchor="start">Les sources officielles</text>
-<text x="42" y="152" class="gras" text-anchor="start">Recherche :</text>
-<text x="42" y="171" class="txt" text-anchor="start">ClinicalTrials.gov · PubMed</text>
-<text x="42" y="190" class="txt" text-anchor="start">OpenAlex · Crossref</text>
+<text x="42" y="152" class="txt" text-anchor="start">Science :</text>
+<text x="42" y="171" class="txt" text-anchor="start">ClinicalTrials.gov (essais)</text>
+<text x="42" y="190" class="txt" text-anchor="start">PubMed · OpenAlex (articles)</text>
 <text x="42" y="209" class="txt" text-anchor="start"></text>
 <text x="42" y="228" class="gras" text-anchor="start">Autorités de santé :</text>
 <text x="42" y="247" class="txt" text-anchor="start">BDPM (France) · EMA (UE)</text>
@@ -33,20 +33,20 @@
 <circle cx="338" cy="111" r="11" fill="#fff"/>
 <text x="338" y="116" class="num" text-anchor="middle">2</text>
 <text x="356" y="117" class="ttl" text-anchor="start">Le robot quotidien</text>
-<text x="332" y="152" class="txt" text-anchor="start">GitHub Actions + Python</text>
-<text x="332" y="171" class="txt" text-anchor="start">1. 132 tests automatiques</text>
-<text x="332" y="190" class="txt" text-anchor="start">2. collecte des nouveautés</text>
+<text x="332" y="152" class="txt" text-anchor="start">Chaque matin, gratuitement :</text>
+<text x="332" y="171" class="txt" text-anchor="start">1. 149 tests vérifient le code</text>
+<text x="332" y="190" class="txt" text-anchor="start">2. il récupère les nouveautés</text>
 <text x="332" y="209" class="txt" text-anchor="start">3. une source en panne</text>
 <text x="332" y="228" class="txt" text-anchor="start">    n'arrête pas les autres</text>
-<text x="332" y="247" class="txt" text-anchor="start">4. tout est journalisé</text>
+<text x="332" y="247" class="txt" text-anchor="start">4. il note tout ce qu'il fait</text>
 <rect x="318" y="334" width="250" height="130" rx="14" fill="#ffffff" stroke="#3f3c9e" stroke-width="2"/>
 <rect x="318" y="334" width="250" height="38" rx="14" fill="#3f3c9e"/><rect x="318" y="358" width="250" height="14" fill="#3f3c9e"/>
 <circle cx="338" cy="353" r="11" fill="#fff"/>
 <text x="338" y="358" class="num" text-anchor="middle">3</text>
 <text x="356" y="359" class="ttl" text-anchor="start">La base de données</text>
-<text x="332" y="394" class="txt" text-anchor="start">SQLite : essais, articles,</text>
-<text x="332" y="413" class="txt" text-anchor="start">versions des essais, alertes,</text>
-<text x="332" y="432" class="txt" text-anchor="start">journal, sorties de l'IA</text>
+<text x="332" y="394" class="txt" text-anchor="start">Un seul fichier qui range tout :</text>
+<text x="332" y="413" class="txt" text-anchor="start">essais, articles, alertes,</text>
+<text x="332" y="432" class="txt" text-anchor="start">et l'historique de chaque essai</text>
 <rect x="608" y="92" width="290" height="210" rx="14" fill="#ffffff" stroke="#c2410c" stroke-width="2"/>
 <rect x="608" y="92" width="290" height="38" rx="14" fill="#c2410c"/><rect x="608" y="116" width="290" height="14" fill="#c2410c"/>
 <circle cx="628" cy="111" r="11" fill="#fff"/>
@@ -56,16 +56,16 @@
 <text x="622" y="171" class="txt" text-anchor="start">• le classe dans une catégorie</text>
 <text x="622" y="190" class="txt" text-anchor="start">• prépare les réponses de l'assistant</text>
 <text x="622" y="209" class="txt" text-anchor="start">• écrit les 5 points de la semaine</text>
-<text x="622" y="228" class="txt" text-anchor="start">Chaque sortie garde : quelle IA,</text>
-<text x="622" y="247" class="txt" text-anchor="start">quelle consigne, quelle date.</text>
+<text x="622" y="228" class="txt" text-anchor="start">Chaque texte de l'IA est daté</text>
+<text x="622" y="247" class="txt" text-anchor="start">et marqué « à vérifier ».</text>
 <rect x="608" y="334" width="290" height="130" rx="14" fill="#ffffff" stroke="#8a5300" stroke-width="2"/>
 <rect x="608" y="334" width="290" height="38" rx="14" fill="#8a5300"/><rect x="608" y="358" width="290" height="14" fill="#8a5300"/>
 <circle cx="628" cy="353" r="11" fill="#fff"/>
 <text x="628" y="358" class="num" text-anchor="middle">5</text>
 <text x="646" y="359" class="ttl" text-anchor="start">Les contrôles qualité</text>
-<text x="622" y="394" class="txt" text-anchor="start">champs obligatoires, dates valides,</text>
-<text x="622" y="413" class="txt" text-anchor="start">pas de doublon (PMID, DOI, NCT) ;</text>
-<text x="622" y="432" class="txt" text-anchor="start">les rejets sont listés, pas publiés</text>
+<text x="622" y="394" class="txt" text-anchor="start">pas de fiche incomplète,</text>
+<text x="622" y="413" class="txt" text-anchor="start">pas de date fausse, pas de doublon ;</text>
+<text x="622" y="432" class="txt" text-anchor="start">une fiche douteuse n'est pas publiée</text>
 <rect x="938" y="92" width="274" height="372" rx="14" fill="#ffffff" stroke="#146c43" stroke-width="2"/>
 <rect x="938" y="92" width="274" height="38" rx="14" fill="#146c43"/><rect x="938" y="116" width="274" height="14" fill="#146c43"/>
 <circle cx="958" cy="111" r="11" fill="#fff"/>
@@ -81,7 +81,7 @@
 <text x="952" y="285" class="txt" text-anchor="start">Autorisations &amp; remboursement</text>
 <text x="952" y="304" class="txt" text-anchor="start">  + chiffres de marché</text>
 <text x="952" y="323" class="txt" text-anchor="start">Alertes</text>
-<text x="952" y="342" class="txt" text-anchor="start">Méthode et limites · À propos</text>
+<text x="952" y="342" class="txt" text-anchor="start">Comparer deux produits · Limites</text>
 <path d="M278,200 L314,200" class="fl"/>
 <path d="M443,302 L443,330" class="fl"/>
 <path d="M568,200 L604,200" class="fl"/>

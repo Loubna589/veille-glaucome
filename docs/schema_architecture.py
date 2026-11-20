@@ -22,24 +22,24 @@ t(28, 66, "Un robot (GitHub Actions) lance le programme Python ; si un test éch
 
 # 1. Sources
 boite(28, 92, 250, 372, "#0b4f8a", "1", "Les sources officielles", [
-    "Recherche :", "ClinicalTrials.gov · PubMed", "OpenAlex · Crossref", "",
+    "Science :", "ClinicalTrials.gov (essais)", "PubMed · OpenAlex (articles)", "",
     "Autorités de santé :", "BDPM (France) · EMA (UE)", "FDA (USA) · Santé Canada", "AEMPS (Espagne) · AIFA (Italie)", "Swissmedic (Suisse)", "",
     "Chiffres de marché :", "Open Medic (France)", "Medicare Part D (USA)", "", "+ accès libre : PubMed Central"])
 # 2. Robot
 boite(318, 92, 250, 210, "#0b7a73", "2", "Le robot quotidien", [
-    "GitHub Actions + Python", "1. 132 tests automatiques", "2. collecte des nouveautés", "3. une source en panne", "    n'arrête pas les autres", "4. tout est journalisé"])
+    "Chaque matin, gratuitement :", "1. 149 tests vérifient le code", "2. il récupère les nouveautés", "3. une source en panne", "    n'arrête pas les autres", "4. il note tout ce qu'il fait"])
 # 3. Base
 boite(318, 334, 250, 130, "#3f3c9e", "3", "La base de données", [
-    "SQLite : essais, articles,", "versions des essais, alertes,", "journal, sorties de l'IA"])
+    "Un seul fichier qui range tout :", "essais, articles, alertes,", "et l'historique de chaque essai"])
 # 4. IA
 boite(608, 92, 290, 210, "#c2410c", "4", "L'IA : Gemini (Google)", [
-    "• résume chaque article en 3 lignes", "• le classe dans une catégorie", "• prépare les réponses de l'assistant", "• écrit les 5 points de la semaine", "Chaque sortie garde : quelle IA,", "quelle consigne, quelle date."])
+    "• résume chaque article en 3 lignes", "• le classe dans une catégorie", "• prépare les réponses de l'assistant", "• écrit les 5 points de la semaine", "Chaque texte de l'IA est daté", "et marqué « à vérifier »."])
 # 5. Contrôles
 boite(608, 334, 290, 130, "#8a5300", "5", "Les contrôles qualité", [
-    "champs obligatoires, dates valides,", "pas de doublon (PMID, DOI, NCT) ;", "les rejets sont listés, pas publiés"])
+    "pas de fiche incomplète,", "pas de date fausse, pas de doublon ;", "une fiche douteuse n'est pas publiée"])
 # 6. Site
 boite(938, 92, 274, 372, "#146c43", "6", "Le site (GitHub Pages)", [
-    "Cette semaine (5 points)", "Rechercher (par le sens)", "Assistant (bulle, voix)", "Essais & articles", "  + qualité de l'étude", "  + accès à l'article entier", "Laboratoires (fiches)", "Autorisations & remboursement", "  + chiffres de marché", "Alertes", "Méthode et limites · À propos"])
+    "Cette semaine (5 points)", "Rechercher (par le sens)", "Assistant (bulle, voix)", "Essais & articles", "  + qualité de l'étude", "  + accès à l'article entier", "Laboratoires (fiches)", "Autorisations & remboursement", "  + chiffres de marché", "Alertes", "Comparer deux produits · Limites"])
 fleche(278, 200, 314, 200); fleche(443, 302, 443, 330); fleche(568, 200, 604, 200); fleche(568, 400, 604, 400)
 fleche(753, 302, 753, 330); fleche(898, 400, 934, 400)
 
