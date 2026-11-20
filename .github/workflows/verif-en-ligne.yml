@@ -1,0 +1,11 @@
+name: verif-en-ligne
+on: workflow_dispatch
+jobs:
+  v:
+    runs-on: ubuntu-latest
+    steps:
+      - run: |
+          B=https://loubna589.github.io/veille-glaucome
+          echo "methode NICE/MHRA/OpenMedic/BDPM: $(curl -s "$B/methode.html?x=$RANDOM" | grep -c -i 'NICE\|MHRA\|Open Medic\|BDPM\|marché mondial')"
+          echo "glossaire present: $(curl -s "$B/methode.html?x=$RANDOM" | grep -c 'Essai randomisé')"
+          echo "fonctionnement EMA/FDA: $(curl -s "$B/fonctionnement.html?x=$RANDOM" | grep -c 'EMA, FDA')"
