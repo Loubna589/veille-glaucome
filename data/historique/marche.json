@@ -1,10 +1,10 @@
 {
- "collecte_le": "2026-11-19",
+ "collecte_le": "2026-11-20",
  "sources": {
   "france": {
    "nom": "BDPM (ANSM · HAS · Assurance maladie)",
    "url": "https://base-donnees-publique.medicaments.gouv.fr",
-   "telecharge_le": "2026-11-19",
+   "telecharge_le": "2026-11-20",
    "fichiers": [
     "CIS_bdpm.txt",
     "CIS_COMPO_bdpm.txt",
@@ -18,35 +18,35 @@
   "ue": {
    "nom": "EMA — rapport « Medicines » (procédure centralisée)",
    "url": "https://www.ema.europa.eu/en/medicines/download-medicine-data",
-   "telecharge_le": "2026-11-19",
+   "telecharge_le": "2026-11-20",
    "meta": {
     "total_records": 2765,
-    "timestamp": "2026-11-19T06:01:46Z"
+    "timestamp": "2026-11-20T06:01:43Z"
    },
    "ok": true
   },
   "usa": {
    "nom": "openFDA — Drugs@FDA",
    "url": "https://open.fda.gov/apis/drug/drugsfda/",
-   "telecharge_le": "2026-11-19",
+   "telecharge_le": "2026-11-20",
    "ok": true
   },
   "canada": {
    "nom": "Santé Canada — Base de données sur les produits pharmaceutiques (DPD)",
    "url": "https://www.canada.ca/fr/sante-canada/services/medicaments-produits-sante/medicaments/base-donnees-produits-pharmaceutiques.html",
-   "telecharge_le": "2026-11-19",
+   "telecharge_le": "2026-11-20",
    "ok": true
   },
   "espagne": {
    "nom": "AEMPS — CIMA (Espagne)",
    "url": "https://cima.aemps.es/cima/publico/home.html",
-   "telecharge_le": "2026-11-19",
+   "telecharge_le": "2026-11-20",
    "ok": true
   },
   "italie": {
    "nom": "AIFA — listes des médicaments de classe A et H (Italie)",
    "url": "https://www.aifa.gov.it/liste-farmaci-a-h",
-   "telecharge_le": "2026-11-19",
+   "telecharge_le": "2026-11-20",
    "dates_listes": {
     "A": "2026-06-30",
     "H": "2026-06-30"
@@ -56,7 +56,7 @@
   "suisse": {
    "nom": "Swissmedic — liste étendue des médicaments autorisés (Suisse)",
    "url": "https://www.swissmedic.ch/swissmedic/fr/home/services/listen_neu.html",
-   "telecharge_le": "2026-11-19",
+   "telecharge_le": "2026-11-20",
    "ok": true
   },
   "australie": {
@@ -165,7 +165,7 @@
      "cis": "64928570",
      "nom": "LATANOPROST BIOGARAN 0,005 %, collyre en solution",
      "forme": "collyre en solution",
-     "statut_amm": "Autorisation active",
+     "statut_amm": "Autorisation archivée",
      "procedure": "Procédure nationale",
      "commercialisation": "Non commercialisée",
      "date_amm": "2011-09-08",
@@ -727,6 +727,54 @@
      "lien": "https://base-donnees-publique.medicaments.gouv.fr/medicament/60047271/extrait"
     },
     {
+     "cis": "62161131",
+     "nom": "XALATAN 50 microgrammes/mL, collyre en solution en récipient unidose",
+     "forme": "collyre en solution",
+     "statut_amm": "Autorisation active",
+     "procedure": "Procédure décentralisée",
+     "commercialisation": "Commercialisée",
+     "date_amm": "2023-05-26",
+     "numero_ue": null,
+     "titulaire": "VIATRIS MEDICAL",
+     "substances": [
+      "LATANOPROST"
+     ],
+     "presentations": [
+      {
+       "cip13": "3400930274316",
+       "libelle": "30 (3 x 10) récipients unidose polyéthylène basse densité (PEBD)  de 0,2 mL",
+       "statut": "Présentation active",
+       "commercialisation": "Déclaration de commercialisation",
+       "date_commercialisation": "2026-05-05",
+       "taux_remboursement": "65 %",
+       "prix_hors_honoraire": 5.36,
+       "prix": 6.38,
+       "honoraire": 1.02
+      }
+     ],
+     "smr": [
+      {
+       "code_dossier": "CT-21497",
+       "motif": "Inscription (CT)",
+       "date": "2025-09-24",
+       "valeur": "Important",
+       "libelle": "Le service médical rendu par XALATAN 50 µg/mL (latanoprost), collyre en solution en récipient unidose, est important dans les indications de l’AMM.",
+       "lien": "https://www.has-sante.fr/jcms/p_3689904"
+      }
+     ],
+     "asmr": [
+      {
+       "code_dossier": "CT-21497",
+       "motif": "Inscription (CT)",
+       "date": "2025-09-24",
+       "valeur": "V",
+       "libelle": "Cette spécialité est un hybride qui n’apporte pas d’amélioration du service médical rendu (ASMR V) par rapport à la spécialité de référence XALATAN 50 Mug/ml (latanoprost), collyre en solution.",
+       "lien": "https://www.has-sante.fr/jcms/p_3689904"
+      }
+     ],
+     "lien": "https://base-donnees-publique.medicaments.gouv.fr/medicament/62161131/extrait"
+    },
+    {
      "cis": "62203705",
      "nom": "XIOP 50 microgrammes/mL, collyre en solution en récipient unidose",
      "forme": "collyre en solution",
@@ -837,22 +885,6 @@
      "lien": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=091449"
     },
     {
-     "numero": "ANDA077697",
-     "type": "générique (ANDA)",
-     "sponsor": "APOTEX INC",
-     "marques": [
-      "LATANOPROST"
-     ],
-     "substances": [
-      "LATANOPROST"
-     ],
-     "date_approbation": "2011-03-22",
-     "statuts_commerciaux": [
-      "Discontinued"
-     ],
-     "lien": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=077697"
-    },
-    {
      "numero": "ANDA200925",
      "type": "générique (ANDA)",
      "sponsor": "J MOLNER",
@@ -899,6 +931,22 @@
       "Prescription"
      ],
      "lien": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=201006"
+    },
+    {
+     "numero": "ANDA077697",
+     "type": "générique (ANDA)",
+     "sponsor": "APOTEX INC",
+     "marques": [
+      "LATANOPROST"
+     ],
+     "substances": [
+      "LATANOPROST"
+     ],
+     "date_approbation": "2011-03-22",
+     "statuts_commerciaux": [
+      "Discontinued"
+     ],
+     "lien": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=077697"
     },
     {
      "numero": "ANDA090887",
@@ -1219,6 +1267,18 @@
      "lien": "https://health-products.canada.ca/dpd-bdpp/info?lang=fre&code=102373"
     },
     {
+     "nom": "LATANOPROST",
+     "din": "02375508",
+     "titulaire": "LABORATOIRE RIVA INC.",
+     "statut": "Annulé avant commercialisation",
+     "date_commercialisation": null,
+     "date_statut": "2016-06-13",
+     "substances": [
+      "Latanoprost"
+     ],
+     "lien": "https://health-products.canada.ca/dpd-bdpp/info?lang=fre&code=86092"
+    },
+    {
      "nom": "LATANOPROST OPHTHALMIC SOLUTION",
      "din": "02398273",
      "titulaire": "SANDOZ CANADA INCORPORATED",
@@ -1255,30 +1315,6 @@
      "lien": "https://health-products.canada.ca/dpd-bdpp/info?lang=fre&code=90574"
     },
     {
-     "nom": "TARO-LATANOPROST",
-     "din": "02414287",
-     "titulaire": "TARO PHARMACEUTICALS INC",
-     "statut": "Annulé avant commercialisation",
-     "date_commercialisation": null,
-     "date_statut": "2025-01-09",
-     "substances": [
-      "Latanoprost"
-     ],
-     "lien": "https://health-products.canada.ca/dpd-bdpp/info?lang=fre&code=89894"
-    },
-    {
-     "nom": "LATANOPROST",
-     "din": "02375508",
-     "titulaire": "LABORATOIRE RIVA INC.",
-     "statut": "Annulé avant commercialisation",
-     "date_commercialisation": null,
-     "date_statut": "2016-06-13",
-     "substances": [
-      "Latanoprost"
-     ],
-     "lien": "https://health-products.canada.ca/dpd-bdpp/info?lang=fre&code=86092"
-    },
-    {
      "nom": "LATANOPROST",
      "din": "02561972",
      "titulaire": "STERI-MED PHARMA INC.",
@@ -1301,6 +1337,18 @@
       "Latanoprost"
      ],
      "lien": "https://health-products.canada.ca/dpd-bdpp/info?lang=fre&code=88880"
+    },
+    {
+     "nom": "TARO-LATANOPROST",
+     "din": "02414287",
+     "titulaire": "TARO PHARMACEUTICALS INC",
+     "statut": "Annulé avant commercialisation",
+     "date_commercialisation": null,
+     "date_statut": "2025-01-09",
+     "substances": [
+      "Latanoprost"
+     ],
+     "lien": "https://health-products.canada.ca/dpd-bdpp/info?lang=fre&code=89894"
     },
     {
      "nom": "LATANEO PF",
@@ -2209,6 +2257,36 @@
      "lien": "https://base-donnees-publique.medicaments.gouv.fr/medicament/60607955/extrait"
     },
     {
+     "cis": "67865164",
+     "nom": "BIMATOPROST EG 0,1 mg/ml, collyre en solution",
+     "forme": "collyre en solution",
+     "statut_amm": "Autorisation active",
+     "procedure": "Procédure décentralisée",
+     "commercialisation": "Commercialisée",
+     "date_amm": "2016-10-19",
+     "numero_ue": null,
+     "titulaire": "EG LABO - LABORATOIRES EUROGENERICS",
+     "substances": [
+      "BIMATOPROST"
+     ],
+     "presentations": [
+      {
+       "cip13": "3400930073681",
+       "libelle": "1 flacon(s) polyéthylène basse densité (PEBD) de 3 ml avec compte-gouttes",
+       "statut": "Présentation active",
+       "commercialisation": "Déclaration de commercialisation",
+       "date_commercialisation": "2026-04-13",
+       "taux_remboursement": "65 %",
+       "prix_hors_honoraire": 5.56,
+       "prix": 6.58,
+       "honoraire": 1.02
+      }
+     ],
+     "smr": [],
+     "asmr": [],
+     "lien": "https://base-donnees-publique.medicaments.gouv.fr/medicament/67865164/extrait"
+    },
+    {
      "cis": "67042647",
      "nom": "BIMATOPROST EG 0,3 mg/ml, collyre en solution",
      "forme": "collyre en solution",
@@ -2405,6 +2483,36 @@
      "smr": [],
      "asmr": [],
      "lien": "https://base-donnees-publique.medicaments.gouv.fr/medicament/64853413/extrait"
+    },
+    {
+     "cis": "65513239",
+     "nom": "ELUMIBUS 0,1 mg/g, gel ophtalmique en récipient unidose",
+     "forme": "gel",
+     "statut_amm": "Autorisation active",
+     "procedure": "Procédure décentralisée",
+     "commercialisation": "Non commercialisée",
+     "date_amm": "2023-06-02",
+     "numero_ue": null,
+     "titulaire": "THEA",
+     "substances": [
+      "BIMATOPROST"
+     ],
+     "presentations": [
+      {
+       "cip13": "3400930274552",
+       "libelle": "30 (3 x10) récipients unidoses polyéthylène basse densité (PEBD) suremballés/surpochés de 0,3 g",
+       "statut": "Présentation active",
+       "commercialisation": "Déclaration d'arrêt de commercialisation",
+       "date_commercialisation": "2026-09-14",
+       "taux_remboursement": null,
+       "prix_hors_honoraire": null,
+       "prix": null,
+       "honoraire": null
+      }
+     ],
+     "smr": [],
+     "asmr": [],
+     "lien": "https://base-donnees-publique.medicaments.gouv.fr/medicament/65513239/extrait"
     },
     {
      "cis": "69018883",
@@ -2979,18 +3087,6 @@
      "lien": "https://health-products.canada.ca/dpd-bdpp/info?lang=fre&code=102245"
     },
     {
-     "nom": "JAMP BIMATOPROST SOLUTION RC",
-     "din": "02565773",
-     "titulaire": "JAMP PHARMA CORPORATION",
-     "statut": "Commercialisé",
-     "date_commercialisation": "2026-03-16",
-     "date_statut": "2026-03-16",
-     "substances": [
-      "Bimatoprost"
-     ],
-     "lien": "https://health-products.canada.ca/dpd-bdpp/info?lang=fre&code=106835"
-    },
-    {
      "nom": "BIMATOPROST RC",
      "din": "02529580",
      "titulaire": "JUNO PHARMA CANADA INC.",
@@ -3001,6 +3097,18 @@
       "Bimatoprost"
      ],
      "lien": "https://health-products.canada.ca/dpd-bdpp/info?lang=fre&code=101882"
+    },
+    {
+     "nom": "JAMP BIMATOPROST SOLUTION RC",
+     "din": "02565773",
+     "titulaire": "JAMP PHARMA CORPORATION",
+     "statut": "Commercialisé",
+     "date_commercialisation": "2026-03-16",
+     "date_statut": "2026-03-16",
+     "substances": [
+      "Bimatoprost"
+     ],
+     "lien": "https://health-products.canada.ca/dpd-bdpp/info?lang=fre&code=106835"
     },
     {
      "nom": "APO-BIMATOPROST RC",
@@ -3027,6 +3135,18 @@
      "lien": "https://health-products.canada.ca/dpd-bdpp/info?lang=fre&code=106620"
     },
     {
+     "nom": "APO-BIMATOPROST",
+     "din": "02356279",
+     "titulaire": "APOTEX INC",
+     "statut": "Approuvé",
+     "date_commercialisation": null,
+     "date_statut": "2013-11-21",
+     "substances": [
+      "Bimatoprost"
+     ],
+     "lien": "https://health-products.canada.ca/dpd-bdpp/info?lang=fre&code=84143"
+    },
+    {
      "nom": "LUMIGAN PF",
      "din": "02400162",
      "titulaire": "ALLERGAN INC",
@@ -3037,30 +3157,6 @@
       "Bimatoprost"
      ],
      "lien": "https://health-products.canada.ca/dpd-bdpp/info?lang=fre&code=88498"
-    },
-    {
-     "nom": "SANDOZ BIMATOPROST RC",
-     "din": "02425521",
-     "titulaire": "SANDOZ CANADA INCORPORATED",
-     "statut": "Annulé avant commercialisation",
-     "date_commercialisation": null,
-     "date_statut": "2026-07-31",
-     "substances": [
-      "Bimatoprost"
-     ],
-     "lien": "https://health-products.canada.ca/dpd-bdpp/info?lang=fre&code=91017"
-    },
-    {
-     "nom": "ZOLYMBUS",
-     "din": "02571854",
-     "titulaire": "LABORATOIRES THEA",
-     "statut": "Approuvé",
-     "date_commercialisation": null,
-     "date_statut": "2026-09-25",
-     "substances": [
-      "Bimatoprost"
-     ],
-     "lien": "https://health-products.canada.ca/dpd-bdpp/info?lang=fre&code=107386"
     },
     {
      "nom": "AG-BIMATOPROST RC",
@@ -3087,6 +3183,18 @@
      "lien": "https://health-products.canada.ca/dpd-bdpp/info?lang=fre&code=107301"
     },
     {
+     "nom": "SANDOZ BIMATOPROST RC",
+     "din": "02425521",
+     "titulaire": "SANDOZ CANADA INCORPORATED",
+     "statut": "Annulé avant commercialisation",
+     "date_commercialisation": null,
+     "date_statut": "2026-07-31",
+     "substances": [
+      "Bimatoprost"
+     ],
+     "lien": "https://health-products.canada.ca/dpd-bdpp/info?lang=fre&code=91017"
+    },
+    {
      "nom": "JAMP BIMATOPROST",
      "din": "02567385",
      "titulaire": "JAMP PHARMA CORPORATION",
@@ -3099,16 +3207,16 @@
      "lien": "https://health-products.canada.ca/dpd-bdpp/info?lang=fre&code=106980"
     },
     {
-     "nom": "APO-BIMATOPROST",
-     "din": "02356279",
-     "titulaire": "APOTEX INC",
+     "nom": "ZOLYMBUS",
+     "din": "02571854",
+     "titulaire": "LABORATOIRES THEA",
      "statut": "Approuvé",
      "date_commercialisation": null,
-     "date_statut": "2013-11-21",
+     "date_statut": "2026-09-25",
      "substances": [
       "Bimatoprost"
      ],
-     "lien": "https://health-products.canada.ca/dpd-bdpp/info?lang=fre&code=84143"
+     "lien": "https://health-products.canada.ca/dpd-bdpp/info?lang=fre&code=107386"
     }
    ],
    "espagne": [
@@ -3848,7 +3956,7 @@
      "cis": "66811249",
      "nom": "TRAVOPROST SANDOZ 40 microgrammes/mL, collyre en solution",
      "forme": "collyre en solution",
-     "statut_amm": "Autorisation active",
+     "statut_amm": "Autorisation abrogée",
      "procedure": "Procédure décentralisée",
      "commercialisation": "Non commercialisée",
      "date_amm": "2017-05-03",
@@ -4364,6 +4472,18 @@
      "lien": "https://health-products.canada.ca/dpd-bdpp/info?lang=fre&code=90916"
     },
     {
+     "nom": "TRAVOPROST Z",
+     "din": "02572958",
+     "titulaire": "MICRO LABS LIMITED",
+     "statut": "Approuvé",
+     "date_commercialisation": null,
+     "date_statut": "2026-10-22",
+     "substances": [
+      "Travoprost"
+     ],
+     "lien": "https://health-products.canada.ca/dpd-bdpp/info?lang=fre&code=107486"
+    },
+    {
      "nom": "MYLAN-TRAVOPROST Z",
      "din": "02428121",
      "titulaire": "MYLAN PHARMACEUTICALS ULC",
@@ -4386,18 +4506,6 @@
       "Travoprost"
      ],
      "lien": "https://health-products.canada.ca/dpd-bdpp/info?lang=fre&code=97985"
-    },
-    {
-     "nom": "TRAVOPROST Z",
-     "din": "02572958",
-     "titulaire": "MICRO LABS LIMITED",
-     "statut": "Approuvé",
-     "date_commercialisation": null,
-     "date_statut": "2026-10-22",
-     "substances": [
-      "Travoprost"
-     ],
-     "lien": "https://health-products.canada.ca/dpd-bdpp/info?lang=fre&code=107486"
     }
    ],
    "espagne": [
@@ -5081,58 +5189,52 @@
      "lien": "https://base-donnees-publique.medicaments.gouv.fr/medicament/62942532/extrait"
     },
     {
-     "cis": "69512818",
-     "nom": "OPHTIM 0,25 POUR CENT (0,625 mg/0,25 ml), collyre en récipient unidose",
-     "forme": "collyre",
-     "statut_amm": "Autorisation archivée",
-     "procedure": "Procédure nationale",
-     "commercialisation": "Non commercialisée",
-     "date_amm": "1992-08-19",
+     "cis": "64618696",
+     "nom": "GENOPTOL 1 mg/g, gel ophtalmique en récipient unidose",
+     "forme": "gel",
+     "statut_amm": "Autorisation active",
+     "procedure": "Procédure décentralisée",
+     "commercialisation": "Commercialisée",
+     "date_amm": "2023-03-24",
      "numero_ue": null,
-     "titulaire": "THEA",
+     "titulaire": "SIFI (ITALIE)",
      "substances": [
-      "TIMOLOL BASE"
+      "TIMOLOL"
      ],
-     "presentations": [],
-     "smr": [
+     "presentations": [
       {
-       "code_dossier": "CT-13856",
-       "motif": "Renouvellement d'inscription (CT)",
-       "date": "2014-10-01",
-       "valeur": "Important",
-       "libelle": "Le service médical rendu par les spécialités OPHTIM et TIMABAK, collyre en solution et GELTIM LP, gel ophtalmique reste important dans les indications de l’AMM.",
-       "lien": "https://www.has-sante.fr/jcms/c_1776525"
+       "cip13": "3400930271575",
+       "libelle": "30 récipients unidoses polyéthylène basse densité (PEBD) suremballés/surpochés de 0,4 g, (6 sachets de 5)",
+       "statut": "Présentation active",
+       "commercialisation": "Déclaration de commercialisation",
+       "date_commercialisation": "2026-02-12",
+       "taux_remboursement": "65 %",
+       "prix_hors_honoraire": 5.51,
+       "prix": 6.53,
+       "honoraire": 1.02
       }
      ],
-     "asmr": [],
-     "lien": "https://base-donnees-publique.medicaments.gouv.fr/medicament/69512818/extrait"
-    },
-    {
-     "cis": "66198255",
-     "nom": "OPHTIM 0,50 POUR CENT (1,25 mg/0,25 ml), collyre en récipient unidose",
-     "forme": "collyre",
-     "statut_amm": "Autorisation archivée",
-     "procedure": "Procédure nationale",
-     "commercialisation": "Non commercialisée",
-     "date_amm": "1992-08-19",
-     "numero_ue": null,
-     "titulaire": "THEA",
-     "substances": [
-      "TIMOLOL BASE"
-     ],
-     "presentations": [],
      "smr": [
       {
-       "code_dossier": "CT-13856",
-       "motif": "Renouvellement d'inscription (CT)",
-       "date": "2014-10-01",
+       "code_dossier": "CT-20529",
+       "motif": "Inscription (CT)",
+       "date": "2023-11-08",
        "valeur": "Important",
-       "libelle": "Le service médical rendu par les spécialités OPHTIM et TIMABAK, collyre en solution et GELTIM LP, gel ophtalmique reste important dans les indications de l’AMM.",
-       "lien": "https://www.has-sante.fr/jcms/c_1776525"
+       "libelle": "Le service médical rendu par GENOPTOL (timolol), gel ophtalmique en récipient unidose, est important dans l’indication de l’AMM.",
+       "lien": "https://www.has-sante.fr/jcms/p_3474311"
       }
      ],
-     "asmr": [],
-     "lien": "https://base-donnees-publique.medicaments.gouv.fr/medicament/66198255/extrait"
+     "asmr": [
+      {
+       "code_dossier": "CT-20529",
+       "motif": "Inscription (CT)",
+       "date": "2023-11-08",
+       "valeur": "V",
+       "libelle": "Cette spécialité est un hybride qui n’apporte pas d’amélioration du service médical rendu (ASMR V) par rapport à la spécialité de référence déjà inscrite : GELTIM LP (timolol) 1 mg/g, gel ophtalmique en récipient unidose.",
+       "lien": "https://www.has-sante.fr/jcms/p_3474311"
+      }
+     ],
+     "lien": "https://base-donnees-publique.medicaments.gouv.fr/medicament/64618696/extrait"
     },
     {
      "cis": "65813464",
@@ -5648,22 +5750,6 @@
      "lien": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=020439"
     },
     {
-     "numero": "ANDA074262",
-     "type": "générique (ANDA)",
-     "sponsor": "SANDOZ",
-     "marques": [
-      "TIMOLOL MALEATE"
-     ],
-     "substances": [
-      "TIMOLOL MALEATE"
-     ],
-     "date_approbation": "1995-04-28",
-     "statuts_commerciaux": [
-      "Prescription"
-     ],
-     "lien": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=074262"
-    },
-    {
      "numero": "ANDA074261",
      "type": "générique (ANDA)",
      "sponsor": "SANDOZ",
@@ -5678,6 +5764,22 @@
       "Prescription"
      ],
      "lien": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=074261"
+    },
+    {
+     "numero": "ANDA074262",
+     "type": "générique (ANDA)",
+     "sponsor": "SANDOZ",
+     "marques": [
+      "TIMOLOL MALEATE"
+     ],
+     "substances": [
+      "TIMOLOL MALEATE"
+     ],
+     "date_approbation": "1995-04-28",
+     "statuts_commerciaux": [
+      "Prescription"
+     ],
+     "lien": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=074262"
     },
     {
      "numero": "ANDA074667",
@@ -5744,22 +5846,6 @@
      "lien": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=074747"
     },
     {
-     "numero": "ANDA074778",
-     "type": "générique (ANDA)",
-     "sponsor": "BAUSCH AND LOMB",
-     "marques": [
-      "TIMOLOL MALEATE"
-     ],
-     "substances": [
-      "TIMOLOL MALEATE"
-     ],
-     "date_approbation": "1997-03-25",
-     "statuts_commerciaux": [
-      "Discontinued"
-     ],
-     "lien": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=074778"
-    },
-    {
      "numero": "ANDA074776",
      "type": "générique (ANDA)",
      "sponsor": "BAUSCH AND LOMB",
@@ -5776,9 +5862,9 @@
      "lien": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=074776"
     },
     {
-     "numero": "ANDA074466",
+     "numero": "ANDA074778",
      "type": "générique (ANDA)",
-     "sponsor": "PHARMOBEDIENT",
+     "sponsor": "BAUSCH AND LOMB",
      "marques": [
       "TIMOLOL MALEATE"
      ],
@@ -5789,7 +5875,7 @@
      "statuts_commerciaux": [
       "Discontinued"
      ],
-     "lien": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=074466"
+     "lien": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=074778"
     },
     {
      "numero": "ANDA074465",
@@ -5808,9 +5894,9 @@
      "lien": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=074465"
     },
     {
-     "numero": "ANDA074516",
+     "numero": "ANDA074466",
      "type": "générique (ANDA)",
-     "sponsor": "EPIC PHARMA LLC",
+     "sponsor": "PHARMOBEDIENT",
      "marques": [
       "TIMOLOL MALEATE"
      ],
@@ -5821,7 +5907,7 @@
      "statuts_commerciaux": [
       "Discontinued"
      ],
-     "lien": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=074516"
+     "lien": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=074466"
     },
     {
      "numero": "ANDA074515",
@@ -5838,6 +5924,22 @@
       "Discontinued"
      ],
      "lien": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=074515"
+    },
+    {
+     "numero": "ANDA074516",
+     "type": "générique (ANDA)",
+     "sponsor": "EPIC PHARMA LLC",
+     "marques": [
+      "TIMOLOL MALEATE"
+     ],
+     "substances": [
+      "TIMOLOL MALEATE"
+     ],
+     "date_approbation": "1997-03-25",
+     "statuts_commerciaux": [
+      "Discontinued"
+     ],
+     "lien": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=074516"
     },
     {
      "numero": "NDA020963",
@@ -6307,18 +6409,6 @@
     },
     {
      "nom": "MYLAN-TIMOLOL",
-     "din": "00893781",
-     "titulaire": "MYLAN PHARMACEUTICALS ULC",
-     "statut": "Annulé après commercialisation",
-     "date_commercialisation": "1992-12-31",
-     "date_statut": "2012-10-19",
-     "substances": [
-      "Timolol (Maléate de timolol)"
-     ],
-     "lien": "https://health-products.canada.ca/dpd-bdpp/info?lang=fre&code=13095"
-    },
-    {
-     "nom": "MYLAN-TIMOLOL",
      "din": "00893773",
      "titulaire": "MYLAN PHARMACEUTICALS ULC",
      "statut": "Annulé après commercialisation",
@@ -6328,6 +6418,18 @@
       "Timolol (Maléate de timolol)"
      ],
      "lien": "https://health-products.canada.ca/dpd-bdpp/info?lang=fre&code=13177"
+    },
+    {
+     "nom": "MYLAN-TIMOLOL",
+     "din": "00893781",
+     "titulaire": "MYLAN PHARMACEUTICALS ULC",
+     "statut": "Annulé après commercialisation",
+     "date_commercialisation": "1992-12-31",
+     "date_statut": "2012-10-19",
+     "substances": [
+      "Timolol (Maléate de timolol)"
+     ],
+     "lien": "https://health-products.canada.ca/dpd-bdpp/info?lang=fre&code=13095"
     },
     {
      "nom": "NOVO-TIMOL LIQ 0.25%",
@@ -6402,18 +6504,6 @@
      "lien": "https://health-products.canada.ca/dpd-bdpp/info?lang=fre&code=17272"
     },
     {
-     "nom": "SANDOZ TIMOLOL",
-     "din": "02166720",
-     "titulaire": "SANDOZ CANADA INCORPORATED",
-     "statut": "Commercialisé",
-     "date_commercialisation": "1995-12-31",
-     "date_statut": "2011-06-15",
-     "substances": [
-      "Timolol (Maléate de timolol)"
-     ],
-     "lien": "https://health-products.canada.ca/dpd-bdpp/info?lang=fre&code=19242"
-    },
-    {
      "nom": "MED TIMOLOL LIQ OPH 0.25%",
      "din": "02084317",
      "titulaire": "MEDICAN PHARMA INCORPORATED",
@@ -6450,16 +6540,16 @@
      "lien": "https://health-products.canada.ca/dpd-bdpp/info?lang=fre&code=18328"
     },
     {
-     "nom": "TIMOPTIC-XE",
-     "din": "02171880",
-     "titulaire": "PURDUE PHARMA",
-     "statut": "Annulé après commercialisation",
+     "nom": "SANDOZ TIMOLOL",
+     "din": "02166720",
+     "titulaire": "SANDOZ CANADA INCORPORATED",
+     "statut": "Commercialisé",
      "date_commercialisation": "1995-12-31",
-     "date_statut": "2019-10-07",
+     "date_statut": "2011-06-15",
      "substances": [
       "Timolol (Maléate de timolol)"
      ],
-     "lien": "https://health-products.canada.ca/dpd-bdpp/info?lang=fre&code=18777"
+     "lien": "https://health-products.canada.ca/dpd-bdpp/info?lang=fre&code=19242"
     },
     {
      "nom": "SANDOZ TIMOLOL",
@@ -6472,6 +6562,18 @@
       "Timolol (Maléate de timolol)"
      ],
      "lien": "https://health-products.canada.ca/dpd-bdpp/info?lang=fre&code=19252"
+    },
+    {
+     "nom": "TIMOPTIC-XE",
+     "din": "02171880",
+     "titulaire": "PURDUE PHARMA",
+     "statut": "Annulé après commercialisation",
+     "date_commercialisation": "1995-12-31",
+     "date_statut": "2019-10-07",
+     "substances": [
+      "Timolol (Maléate de timolol)"
+     ],
+     "lien": "https://health-products.canada.ca/dpd-bdpp/info?lang=fre&code=18777"
     },
     {
      "nom": "PMS-TIMOLOL",
@@ -7576,6 +7678,18 @@
      "lien": "https://health-products.canada.ca/dpd-bdpp/info?lang=fre&code=88026"
     },
     {
+     "nom": "DORZOLAMIDE",
+     "din": "02364999",
+     "titulaire": "ALCON CANADA INC",
+     "statut": "Annulé avant commercialisation",
+     "date_commercialisation": null,
+     "date_statut": "2017-07-17",
+     "substances": [
+      "Dorzolamide (Chlorhydrate de dorzolamide)"
+     ],
+     "lien": "https://health-products.canada.ca/dpd-bdpp/info?lang=fre&code=84986"
+    },
+    {
      "nom": "APO-DORZOLAMIDE",
      "din": "02296055",
      "titulaire": "APOTEX INC",
@@ -7586,18 +7700,6 @@
       "Dorzolamide (Chlorhydrate de dorzolamide)"
      ],
      "lien": "https://health-products.canada.ca/dpd-bdpp/info?lang=fre&code=78141"
-    },
-    {
-     "nom": "DORZOLAMIDE PF",
-     "din": "02542110",
-     "titulaire": "MICRO LABS LIMITED",
-     "statut": "Approuvé",
-     "date_commercialisation": null,
-     "date_statut": "2023-10-31",
-     "substances": [
-      "Dorzolamide (Chlorhydrate de dorzolamide)"
-     ],
-     "lien": "https://health-products.canada.ca/dpd-bdpp/info?lang=fre&code=103071"
     },
     {
      "nom": "DORZOLAMIDE",
@@ -7612,6 +7714,18 @@
      "lien": "https://health-products.canada.ca/dpd-bdpp/info?lang=fre&code=101741"
     },
     {
+     "nom": "DORZOLAMIDE PF",
+     "din": "02542110",
+     "titulaire": "MICRO LABS LIMITED",
+     "statut": "Approuvé",
+     "date_commercialisation": null,
+     "date_statut": "2023-10-31",
+     "substances": [
+      "Dorzolamide (Chlorhydrate de dorzolamide)"
+     ],
+     "lien": "https://health-products.canada.ca/dpd-bdpp/info?lang=fre&code=103071"
+    },
+    {
      "nom": "COLLYRE DE DORZOLAMIDE BP",
      "din": "02489260",
      "titulaire": "HIKMA CANADA LIMITED",
@@ -7622,18 +7736,6 @@
       "Dorzolamide (Chlorhydrate de dorzolamide)"
      ],
      "lien": "https://health-products.canada.ca/dpd-bdpp/info?lang=fre&code=97934"
-    },
-    {
-     "nom": "DORZOLAMIDE",
-     "din": "02364999",
-     "titulaire": "ALCON CANADA INC",
-     "statut": "Annulé avant commercialisation",
-     "date_commercialisation": null,
-     "date_statut": "2017-07-17",
-     "substances": [
-      "Dorzolamide (Chlorhydrate de dorzolamide)"
-     ],
-     "lien": "https://health-products.canada.ca/dpd-bdpp/info?lang=fre&code=84986"
     }
    ],
    "espagne": [
@@ -8437,24 +8539,6 @@
      "lien": "https://base-donnees-publique.medicaments.gouv.fr/medicament/68700831/extrait"
     },
     {
-     "cis": "67568693",
-     "nom": "BRIMONIDINE CHAUVIN 2 mg/ml, collyre en solution",
-     "forme": "collyre en solution",
-     "statut_amm": "Autorisation archivée",
-     "procedure": "Procédure de reconnaissance mutuelle",
-     "commercialisation": "Non commercialisée",
-     "date_amm": "2009-07-01",
-     "numero_ue": null,
-     "titulaire": "LABORATOIRE CHAUVIN",
-     "substances": [
-      "BRIMONIDINE"
-     ],
-     "presentations": [],
-     "smr": [],
-     "asmr": [],
-     "lien": "https://base-donnees-publique.medicaments.gouv.fr/medicament/67568693/extrait"
-    },
-    {
      "cis": "66289783",
      "nom": "BRIMONIDINE EG 0,2 % (2 mg/ml), collyre en solution",
      "forme": "collyre en solution",
@@ -9184,18 +9268,6 @@
      "lien": "https://health-products.canada.ca/dpd-bdpp/info?lang=fre&code=106520"
     },
     {
-     "nom": "BRIMONIDINE OPHTHALMIC",
-     "din": "02246283",
-     "titulaire": "PHARMEL INC",
-     "statut": "Annulé avant commercialisation",
-     "date_commercialisation": null,
-     "date_statut": "2017-09-12",
-     "substances": [
-      "Tartrate de brimonidine"
-     ],
-     "lien": "https://health-products.canada.ca/dpd-bdpp/info?lang=fre&code=70444"
-    },
-    {
      "nom": "BRIMONIDINE",
      "din": "02249456",
      "titulaire": "PHARMASCIENCE INC",
@@ -9208,16 +9280,16 @@
      "lien": "https://health-products.canada.ca/dpd-bdpp/info?lang=fre&code=73428"
     },
     {
-     "nom": "BRIMONIDINE TARTRATE OPHTHALMIC SOLUTION 0.2%",
-     "din": "02245942",
-     "titulaire": "ALCON CANADA INC",
+     "nom": "BRIMONIDINE OPHTHALMIC",
+     "din": "02246283",
+     "titulaire": "PHARMEL INC",
      "statut": "Annulé avant commercialisation",
      "date_commercialisation": null,
-     "date_statut": "2018-10-12",
+     "date_statut": "2017-09-12",
      "substances": [
       "Tartrate de brimonidine"
      ],
-     "lien": "https://health-products.canada.ca/dpd-bdpp/info?lang=fre&code=70066"
+     "lien": "https://health-products.canada.ca/dpd-bdpp/info?lang=fre&code=70444"
     },
     {
      "nom": "DOM-BRIMONIDINE",
@@ -9230,6 +9302,18 @@
       "Tartrate de brimonidine"
      ],
      "lien": "https://health-products.canada.ca/dpd-bdpp/info?lang=fre&code=70446"
+    },
+    {
+     "nom": "BRIMONIDINE TARTRATE OPHTHALMIC SOLUTION 0.2%",
+     "din": "02245942",
+     "titulaire": "ALCON CANADA INC",
+     "statut": "Annulé avant commercialisation",
+     "date_commercialisation": null,
+     "date_statut": "2018-10-12",
+     "substances": [
+      "Tartrate de brimonidine"
+     ],
+     "lien": "https://health-products.canada.ca/dpd-bdpp/info?lang=fre&code=70066"
     },
     {
      "nom": "BRIMONIDINE",
