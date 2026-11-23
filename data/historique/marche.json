@@ -1,10 +1,10 @@
 {
- "collecte_le": "2026-11-22",
+ "collecte_le": "2026-11-23",
  "sources": {
   "france": {
    "nom": "BDPM (ANSM · HAS · Assurance maladie)",
    "url": "https://base-donnees-publique.medicaments.gouv.fr",
-   "telecharge_le": "2026-11-22",
+   "telecharge_le": "2026-11-23",
    "fichiers": [
     "CIS_bdpm.txt",
     "CIS_COMPO_bdpm.txt",
@@ -18,35 +18,35 @@
   "ue": {
    "nom": "EMA — rapport « Medicines » (procédure centralisée)",
    "url": "https://www.ema.europa.eu/en/medicines/download-medicine-data",
-   "telecharge_le": "2026-11-22",
+   "telecharge_le": "2026-11-23",
    "meta": {
     "total_records": 2765,
-    "timestamp": "2026-11-22T06:01:51Z"
+    "timestamp": "2026-11-23T06:01:31Z"
    },
    "ok": true
   },
   "usa": {
    "nom": "openFDA — Drugs@FDA",
    "url": "https://open.fda.gov/apis/drug/drugsfda/",
-   "telecharge_le": "2026-11-22",
+   "telecharge_le": "2026-11-23",
    "ok": true
   },
   "canada": {
    "nom": "Santé Canada — Base de données sur les produits pharmaceutiques (DPD)",
    "url": "https://www.canada.ca/fr/sante-canada/services/medicaments-produits-sante/medicaments/base-donnees-produits-pharmaceutiques.html",
-   "telecharge_le": "2026-11-22",
+   "telecharge_le": "2026-11-23",
    "ok": true
   },
   "espagne": {
    "nom": "AEMPS — CIMA (Espagne)",
    "url": "https://cima.aemps.es/cima/publico/home.html",
-   "telecharge_le": "2026-11-22",
+   "telecharge_le": "2026-11-23",
    "ok": true
   },
   "italie": {
    "nom": "AIFA — listes des médicaments de classe A et H (Italie)",
    "url": "https://www.aifa.gov.it/liste-farmaci-a-h",
-   "telecharge_le": "2026-11-22",
+   "telecharge_le": "2026-11-23",
    "dates_listes": {
     "A": "2026-06-30",
     "H": "2026-06-30"
@@ -56,7 +56,7 @@
   "suisse": {
    "nom": "Swissmedic — liste étendue des médicaments autorisés (Suisse)",
    "url": "https://www.swissmedic.ch/swissmedic/fr/home/services/listen_neu.html",
-   "telecharge_le": "2026-11-22",
+   "telecharge_le": "2026-11-23",
    "ok": true
   },
   "australie": {
@@ -1123,18 +1123,6 @@
      "lien": "https://health-products.canada.ca/dpd-bdpp/info?lang=fre&code=50823"
     },
     {
-     "nom": "APO-LATANOPROST",
-     "din": "02296527",
-     "titulaire": "APOTEX INC",
-     "statut": "Commercialisé",
-     "date_commercialisation": "2011-10-03",
-     "date_statut": "2018-07-03",
-     "substances": [
-      "Latanoprost"
-     ],
-     "lien": "https://health-products.canada.ca/dpd-bdpp/info?lang=fre&code=78185"
-    },
-    {
      "nom": "MYLAN-LATANOPROST",
      "din": "02373041",
      "titulaire": "MYLAN PHARMACEUTICALS ULC",
@@ -1145,6 +1133,18 @@
       "Latanoprost"
      ],
      "lien": "https://health-products.canada.ca/dpd-bdpp/info?lang=fre&code=85817"
+    },
+    {
+     "nom": "APO-LATANOPROST",
+     "din": "02296527",
+     "titulaire": "APOTEX INC",
+     "statut": "Commercialisé",
+     "date_commercialisation": "2011-10-03",
+     "date_statut": "2018-07-03",
+     "substances": [
+      "Latanoprost"
+     ],
+     "lien": "https://health-products.canada.ca/dpd-bdpp/info?lang=fre&code=78185"
     },
     {
      "nom": "TEVA-LATANOPROST",
@@ -1279,18 +1279,6 @@
      "lien": "https://health-products.canada.ca/dpd-bdpp/info?lang=fre&code=86092"
     },
     {
-     "nom": "BL LATANOPROST",
-     "din": "02404052",
-     "titulaire": "BAUSCH & LOMB INC",
-     "statut": "Annulé avant commercialisation",
-     "date_commercialisation": null,
-     "date_statut": "2024-12-17",
-     "substances": [
-      "Latanoprost"
-     ],
-     "lien": "https://health-products.canada.ca/dpd-bdpp/info?lang=fre&code=88880"
-    },
-    {
      "nom": "LATANOPROST OPHTHALMIC SOLUTION",
      "din": "02398273",
      "titulaire": "SANDOZ CANADA INCORPORATED",
@@ -1301,6 +1289,18 @@
       "Latanoprost"
      ],
      "lien": "https://health-products.canada.ca/dpd-bdpp/info?lang=fre&code=88323"
+    },
+    {
+     "nom": "BL LATANOPROST",
+     "din": "02404052",
+     "titulaire": "BAUSCH & LOMB INC",
+     "statut": "Annulé avant commercialisation",
+     "date_commercialisation": null,
+     "date_statut": "2024-12-17",
+     "substances": [
+      "Latanoprost"
+     ],
+     "lien": "https://health-products.canada.ca/dpd-bdpp/info?lang=fre&code=88880"
     },
     {
      "nom": "MINT-LATANOPROST",
@@ -3087,18 +3087,6 @@
      "lien": "https://health-products.canada.ca/dpd-bdpp/info?lang=fre&code=102245"
     },
     {
-     "nom": "JAMP BIMATOPROST SOLUTION RC",
-     "din": "02565773",
-     "titulaire": "JAMP PHARMA CORPORATION",
-     "statut": "Commercialisé",
-     "date_commercialisation": "2026-03-16",
-     "date_statut": "2026-03-16",
-     "substances": [
-      "Bimatoprost"
-     ],
-     "lien": "https://health-products.canada.ca/dpd-bdpp/info?lang=fre&code=106835"
-    },
-    {
      "nom": "BIMATOPROST RC",
      "din": "02529580",
      "titulaire": "JUNO PHARMA CANADA INC.",
@@ -3109,6 +3097,18 @@
       "Bimatoprost"
      ],
      "lien": "https://health-products.canada.ca/dpd-bdpp/info?lang=fre&code=101882"
+    },
+    {
+     "nom": "JAMP BIMATOPROST SOLUTION RC",
+     "din": "02565773",
+     "titulaire": "JAMP PHARMA CORPORATION",
+     "statut": "Commercialisé",
+     "date_commercialisation": "2026-03-16",
+     "date_statut": "2026-03-16",
+     "substances": [
+      "Bimatoprost"
+     ],
+     "lien": "https://health-products.canada.ca/dpd-bdpp/info?lang=fre&code=106835"
     },
     {
      "nom": "APO-BIMATOPROST RC",
@@ -3159,6 +3159,18 @@
      "lien": "https://health-products.canada.ca/dpd-bdpp/info?lang=fre&code=91017"
     },
     {
+     "nom": "LUMIGAN PF",
+     "din": "02400162",
+     "titulaire": "ALLERGAN INC",
+     "statut": "Annulé avant commercialisation",
+     "date_commercialisation": null,
+     "date_statut": "2023-11-17",
+     "substances": [
+      "Bimatoprost"
+     ],
+     "lien": "https://health-products.canada.ca/dpd-bdpp/info?lang=fre&code=88498"
+    },
+    {
      "nom": "ZOLYMBUS",
      "din": "02571854",
      "titulaire": "LABORATOIRES THEA",
@@ -3183,16 +3195,16 @@
      "lien": "https://health-products.canada.ca/dpd-bdpp/info?lang=fre&code=107224"
     },
     {
-     "nom": "LUMIGAN PF",
-     "din": "02400162",
-     "titulaire": "ALLERGAN INC",
-     "statut": "Annulé avant commercialisation",
+     "nom": "JAMP BIMATOPROST",
+     "din": "02567385",
+     "titulaire": "JAMP PHARMA CORPORATION",
+     "statut": "Approuvé",
      "date_commercialisation": null,
-     "date_statut": "2023-11-17",
+     "date_statut": "2026-04-08",
      "substances": [
       "Bimatoprost"
      ],
-     "lien": "https://health-products.canada.ca/dpd-bdpp/info?lang=fre&code=88498"
+     "lien": "https://health-products.canada.ca/dpd-bdpp/info?lang=fre&code=106980"
     },
     {
      "nom": "BIMATOPROST RC",
@@ -3205,18 +3217,6 @@
       "Bimatoprost"
      ],
      "lien": "https://health-products.canada.ca/dpd-bdpp/info?lang=fre&code=107301"
-    },
-    {
-     "nom": "JAMP BIMATOPROST",
-     "din": "02567385",
-     "titulaire": "JAMP PHARMA CORPORATION",
-     "statut": "Approuvé",
-     "date_commercialisation": null,
-     "date_statut": "2026-04-08",
-     "substances": [
-      "Bimatoprost"
-     ],
-     "lien": "https://health-products.canada.ca/dpd-bdpp/info?lang=fre&code=106980"
     }
    ],
    "espagne": [
@@ -4472,6 +4472,18 @@
      "lien": "https://health-products.canada.ca/dpd-bdpp/info?lang=fre&code=97985"
     },
     {
+     "nom": "PMS-TRAVOPROST Z",
+     "din": "02424479",
+     "titulaire": "PHARMASCIENCE INC",
+     "statut": "Annulé avant commercialisation",
+     "date_commercialisation": null,
+     "date_statut": "2017-08-03",
+     "substances": [
+      "Travoprost"
+     ],
+     "lien": "https://health-products.canada.ca/dpd-bdpp/info?lang=fre&code=90916"
+    },
+    {
      "nom": "TRAVOPROST Z",
      "din": "02572958",
      "titulaire": "MICRO LABS LIMITED",
@@ -4494,18 +4506,6 @@
       "Travoprost"
      ],
      "lien": "https://health-products.canada.ca/dpd-bdpp/info?lang=fre&code=91261"
-    },
-    {
-     "nom": "PMS-TRAVOPROST Z",
-     "din": "02424479",
-     "titulaire": "PHARMASCIENCE INC",
-     "statut": "Annulé avant commercialisation",
-     "date_commercialisation": null,
-     "date_statut": "2017-08-03",
-     "substances": [
-      "Travoprost"
-     ],
-     "lien": "https://health-products.canada.ca/dpd-bdpp/info?lang=fre&code=90916"
     }
    ],
    "espagne": [
@@ -6409,18 +6409,6 @@
     },
     {
      "nom": "MYLAN-TIMOLOL",
-     "din": "00893773",
-     "titulaire": "MYLAN PHARMACEUTICALS ULC",
-     "statut": "Annulé après commercialisation",
-     "date_commercialisation": "1992-12-31",
-     "date_statut": "2012-10-19",
-     "substances": [
-      "Timolol (Maléate de timolol)"
-     ],
-     "lien": "https://health-products.canada.ca/dpd-bdpp/info?lang=fre&code=13177"
-    },
-    {
-     "nom": "MYLAN-TIMOLOL",
      "din": "00893781",
      "titulaire": "MYLAN PHARMACEUTICALS ULC",
      "statut": "Annulé après commercialisation",
@@ -6430,6 +6418,18 @@
       "Timolol (Maléate de timolol)"
      ],
      "lien": "https://health-products.canada.ca/dpd-bdpp/info?lang=fre&code=13095"
+    },
+    {
+     "nom": "MYLAN-TIMOLOL",
+     "din": "00893773",
+     "titulaire": "MYLAN PHARMACEUTICALS ULC",
+     "statut": "Annulé après commercialisation",
+     "date_commercialisation": "1992-12-31",
+     "date_statut": "2012-10-19",
+     "substances": [
+      "Timolol (Maléate de timolol)"
+     ],
+     "lien": "https://health-products.canada.ca/dpd-bdpp/info?lang=fre&code=13177"
     },
     {
      "nom": "NOVO-TIMOL LIQ 0.25%",
@@ -6481,18 +6481,6 @@
     },
     {
      "nom": "ODAN-TIMOLOL",
-     "din": "02010259",
-     "titulaire": "ODAN LABORATORIESLTD",
-     "statut": "Dormant",
-     "date_commercialisation": "1994-12-31",
-     "date_statut": "2017-06-22",
-     "substances": [
-      "Timolol (Maléate de timolol)"
-     ],
-     "lien": "https://health-products.canada.ca/dpd-bdpp/info?lang=fre&code=17212"
-    },
-    {
-     "nom": "ODAN-TIMOLOL",
      "din": "02010240",
      "titulaire": "ODAN LABORATORIESLTD",
      "statut": "Dormant",
@@ -6502,6 +6490,18 @@
       "Timolol (Maléate de timolol)"
      ],
      "lien": "https://health-products.canada.ca/dpd-bdpp/info?lang=fre&code=17214"
+    },
+    {
+     "nom": "ODAN-TIMOLOL",
+     "din": "02010259",
+     "titulaire": "ODAN LABORATORIESLTD",
+     "statut": "Dormant",
+     "date_commercialisation": "1994-12-31",
+     "date_statut": "2017-06-22",
+     "substances": [
+      "Timolol (Maléate de timolol)"
+     ],
+     "lien": "https://health-products.canada.ca/dpd-bdpp/info?lang=fre&code=17212"
     },
     {
      "nom": "SANDOZ TIMOLOL",
@@ -6516,18 +6516,6 @@
      "lien": "https://health-products.canada.ca/dpd-bdpp/info?lang=fre&code=19242"
     },
     {
-     "nom": "MED TIMOLOL LIQ OPH 0.5%",
-     "din": "02084325",
-     "titulaire": "MEDICAN PHARMA INCORPORATED",
-     "statut": "Annulé après commercialisation",
-     "date_commercialisation": "1995-12-31",
-     "date_statut": "2011-03-29",
-     "substances": [
-      "Timolol (Maléate de timolol)"
-     ],
-     "lien": "https://health-products.canada.ca/dpd-bdpp/info?lang=fre&code=18328"
-    },
-    {
      "nom": "SANDOZ TIMOLOL",
      "din": "02166712",
      "titulaire": "SANDOZ CANADA INCORPORATED",
@@ -6540,16 +6528,16 @@
      "lien": "https://health-products.canada.ca/dpd-bdpp/info?lang=fre&code=19252"
     },
     {
-     "nom": "TIMOPTIC-XE",
-     "din": "02171880",
-     "titulaire": "PURDUE PHARMA",
+     "nom": "MED TIMOLOL LIQ OPH 0.5%",
+     "din": "02084325",
+     "titulaire": "MEDICAN PHARMA INCORPORATED",
      "statut": "Annulé après commercialisation",
      "date_commercialisation": "1995-12-31",
-     "date_statut": "2019-10-07",
+     "date_statut": "2011-03-29",
      "substances": [
       "Timolol (Maléate de timolol)"
      ],
-     "lien": "https://health-products.canada.ca/dpd-bdpp/info?lang=fre&code=18777"
+     "lien": "https://health-products.canada.ca/dpd-bdpp/info?lang=fre&code=18328"
     },
     {
      "nom": "MED TIMOLOL LIQ OPH 0.25%",
@@ -6562,6 +6550,18 @@
       "Timolol (Maléate de timolol)"
      ],
      "lien": "https://health-products.canada.ca/dpd-bdpp/info?lang=fre&code=18327"
+    },
+    {
+     "nom": "TIMOPTIC-XE",
+     "din": "02171880",
+     "titulaire": "PURDUE PHARMA",
+     "statut": "Annulé après commercialisation",
+     "date_commercialisation": "1995-12-31",
+     "date_statut": "2019-10-07",
+     "substances": [
+      "Timolol (Maléate de timolol)"
+     ],
+     "lien": "https://health-products.canada.ca/dpd-bdpp/info?lang=fre&code=18777"
     },
     {
      "nom": "TIMOPTIC-XE",
@@ -6745,18 +6745,6 @@
     },
     {
      "nom": "T-LO",
-     "din": "02202492",
-     "titulaire": "SANDOZ CANADA INCORPORATED",
-     "statut": "Approuvé",
-     "date_commercialisation": null,
-     "date_statut": "2017-05-19",
-     "substances": [
-      "Timolol (Maléate de timolol)"
-     ],
-     "lien": "https://health-products.canada.ca/dpd-bdpp/info?lang=fre&code=42972"
-    },
-    {
-     "nom": "T-LO",
      "din": "02202506",
      "titulaire": "SANDOZ CANADA INCORPORATED",
      "statut": "Approuvé",
@@ -6766,6 +6754,18 @@
       "Timolol (Maléate de timolol)"
      ],
      "lien": "https://health-products.canada.ca/dpd-bdpp/info?lang=fre&code=42973"
+    },
+    {
+     "nom": "T-LO",
+     "din": "02202492",
+     "titulaire": "SANDOZ CANADA INCORPORATED",
+     "statut": "Approuvé",
+     "date_commercialisation": null,
+     "date_statut": "2017-05-19",
+     "substances": [
+      "Timolol (Maléate de timolol)"
+     ],
+     "lien": "https://health-products.canada.ca/dpd-bdpp/info?lang=fre&code=42972"
     },
     {
      "nom": "TIMOLOL MALEATE OPHTHALMIC SOLUTION",
@@ -6857,19 +6857,6 @@
      "procedure_ue": false,
      "substances": "timolol",
      "lien": "https://cima.aemps.es/cima/publico/detalle.html?nregistro=56375"
-    },
-    {
-     "nom": "TIMOGEL 1mg/g GEL OFTALMICO",
-     "numero": "63347",
-     "titulaire": "Laboratorios Thea S.A.",
-     "date_autorisation": "2000-09-21",
-     "date_suspension": null,
-     "date_revocation": "2021-11-22",
-     "commercialise": false,
-     "generique": false,
-     "procedure_ue": false,
-     "substances": "timolol",
-     "lien": "https://cima.aemps.es/cima/publico/detalle.html?nregistro=63347"
     },
     {
      "nom": "TIMABAK 2,5 mg/ml COLIRIO EN SOLUCION",
@@ -9292,18 +9279,6 @@
      "lien": "https://health-products.canada.ca/dpd-bdpp/info?lang=fre&code=70446"
     },
     {
-     "nom": "BRIMONIDINE OPHTHALMIC",
-     "din": "02246283",
-     "titulaire": "PHARMEL INC",
-     "statut": "Annulé avant commercialisation",
-     "date_commercialisation": null,
-     "date_statut": "2017-09-12",
-     "substances": [
-      "Tartrate de brimonidine"
-     ],
-     "lien": "https://health-products.canada.ca/dpd-bdpp/info?lang=fre&code=70444"
-    },
-    {
      "nom": "BRIMONIDINE",
      "din": "02249456",
      "titulaire": "PHARMASCIENCE INC",
@@ -9314,6 +9289,18 @@
       "Tartrate de brimonidine"
      ],
      "lien": "https://health-products.canada.ca/dpd-bdpp/info?lang=fre&code=73428"
+    },
+    {
+     "nom": "BRIMONIDINE OPHTHALMIC",
+     "din": "02246283",
+     "titulaire": "PHARMEL INC",
+     "statut": "Annulé avant commercialisation",
+     "date_commercialisation": null,
+     "date_statut": "2017-09-12",
+     "substances": [
+      "Tartrate de brimonidine"
+     ],
+     "lien": "https://health-products.canada.ca/dpd-bdpp/info?lang=fre&code=70444"
     },
     {
      "nom": "BRIMONIDINE",
