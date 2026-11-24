@@ -1,7 +1,7 @@
 # Alertes de la veille glaucome
 
-Publié le 23/11/2026 à 16:23 — 3 alerte(s).
+Publié le 24/11/2026 à 16:11 — 3 alerte(s).
 
-- **Nouvel essai** — [NCT07303257](https://clinicaltrials.gov/study/NCT07303257) Quality of Life After Glaucoma Surgery: Evaluating the Patient Perspective Across Surgical Options _(détecté le 2026-11-23)_
-- **Nouvel essai** — [NCT07082816](https://clinicaltrials.gov/study/NCT07082816) Reformulated PG324 Ophthalmic Solution for Intraocular Pressure Reduction _(détecté le 2026-11-23)_
-- **Changement de recrutement** — [NCT07847073](https://clinicaltrials.gov/study/NCT07847073) Adaptive Optics OCT Evaluation of Rhopressa's Effects on the Retinal Ganglion Cells in Glaucoma Patients : `RECRUITING` → `ENROLLING_BY_INVITATION` _(détecté le 2026-11-23)_
+- **Nouvel essai** — [NCT05876689](https://clinicaltrials.gov/study/NCT05876689) Swept Source OCT Imaging With the DREAM VG-OCT _(détecté le 2026-11-24)_
+- **Nouvel essai** — [NCT06449352](https://clinicaltrials.gov/study/NCT06449352) Effect of Netarsudil vs Brimonidine in NTG Patients on Latanoprost _(détecté le 2026-11-24)_
+- **Changement de date de fin** — [NCT07861243](https://clinicaltrials.gov/study/NCT07861243) Unravelling the Effects of Nicotinamide/Pyrroloquinolone Quinone /Citicoline/Homotaurine Fixed Combination on  : `2025-11-01` → `2026-02-01` _(détecté le 2026-11-24)_
