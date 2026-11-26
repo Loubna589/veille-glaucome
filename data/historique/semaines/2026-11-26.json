@@ -1,0 +1,383 @@
+{
+ "debut": "2026-11-20",
+ "fin": "2026-11-26",
+ "genere_le": "2026-11-26",
+ "chiffres": {
+  "articles": 97,
+  "nouveaux_essais": 0,
+  "changements_essais": 3
+ },
+ "mode": "ia",
+ "modele": "gemini-flash-lite-latest",
+ "version_prompt": "semaine_v3",
+ "points": [
+  {
+   "titre": "Netarsudil et latanoprost pour le glaucome",
+   "texte": "Une étude a évalué une association fixe de netarsudil et de latanoprost par rapport à des larmes artificielles. L'association a amélioré la vision et réduit l'épaisseur de la cornée (couche transparente à l'avant de l'œil).",
+   "pourquoi": "Pour un laboratoire, cela montre l'intérêt des associations de collyres pour traiter le glaucome.",
+   "sources": [
+    "PMID:43091685"
+   ],
+   "etiquette": "Nouvel article",
+   "liens": [
+    {
+     "id": "PMID:43091685",
+     "lien": "https://pubmed.ncbi.nlm.nih.gov/43091685/",
+     "fiche": "fiches/43091685.html",
+     "titre": "Fixed-Dose Netarsudil/Latanoprost Versus Artificial Tears in Pseudophakic Bullous Keratopathy with Glaucoma: A Randomized Trial."
+    }
+   ]
+  },
+  {
+   "titre": "Effet à long terme de l'omidénépag isopropyle",
+   "texte": "Une étude a analysé les effets sur 24 mois de l'omidénépag isopropyle 0,002 % sur la pression intraoculaire (pression à l'intérieur de l'œil). La pression a diminué et est restée stable pendant deux ans.",
+   "pourquoi": "Pour les patients, cela confirme l'efficacité durable de ce traitement sur la pression oculaire.",
+   "sources": [
+    "PMID:43084824"
+   ],
+   "etiquette": "Nouvel article",
+   "liens": [
+    {
+     "id": "PMID:43084824",
+     "lien": "https://pubmed.ncbi.nlm.nih.gov/43084824/",
+     "fiche": "fiches/43084824.html",
+     "titre": "Twenty-Four-Months Effects of Omidenepag Isopropyl 0.002% on Intraocular Pressure and Anterior Segment Parameters in Glaucoma."
+    }
+   ]
+  },
+  {
+   "titre": "Avancées des traitements médicamenteux du glaucome",
+   "texte": "Une revue de la littérature a exploré l'émergence de nouveaux médicaments et de systèmes de diffusion prolongée. Elle met en avant les mécanismes des traitements de nouvelle génération.",
+   "pourquoi": "Pour un laboratoire, c'est l'occasion de suivre les innovations futures dans la fabrication des collyres.",
+   "sources": [
+    "PMID:43085826"
+   ],
+   "etiquette": "Nouvel article",
+   "liens": [
+    {
+     "id": "PMID:43085826",
+     "lien": "https://pubmed.ncbi.nlm.nih.gov/43085826/",
+     "fiche": "fiches/43085826.html",
+     "titre": "Recent Advances in Glaucoma Pharmacotherapy: A State-of-the-Art Review on Next-Generation Compounds and Delivery Technologies."
+    }
+   ]
+  },
+  {
+   "titre": "Chirurgie du glaucome congénital primaire",
+   "texte": "Une étude a comparé l'approche nasale et l'approche temporale pour une sclérectomie profonde (chirurgie pour baisser la pression de l'œil). La réussite de la baisse de pression était similaire dans les deux groupes.",
+   "pourquoi": "Pour les chirurgiens, cela aide à choisir la meilleure technique opératoire pour les enfants.",
+   "sources": [
+    "PMID:43064155"
+   ],
+   "etiquette": "Nouvel article",
+   "liens": [
+    {
+     "id": "PMID:43064155",
+     "lien": "https://pubmed.ncbi.nlm.nih.gov/43064155/",
+     "fiche": "fiches/43064155.html",
+     "titre": "Nasal versus Temporal Deep Sclerectomy in Primary Congenital Glaucoma: Outcomes and Predictors of Survival."
+    }
+   ]
+  },
+  {
+   "titre": "Gestion initiale du glaucome par fermeture de l'angle",
+   "texte": "Une étude a comparé l'iridotomie périphérique au laser (trou au laser dans l'iris) et la phacoémulsification (opération de la cataracte) entre 2010 et 2025. L'utilisation de la chirurgie a augmenté tandis que le laser a diminué.",
+   "pourquoi": "Pour un laboratoire et les cliniciens, cela montre l'évolution des pratiques médicales face à cette maladie.",
+   "sources": [
+    "PMID:43068289"
+   ],
+   "etiquette": "Nouvel article",
+   "liens": [
+    {
+     "id": "PMID:43068289",
+     "lien": "https://pubmed.ncbi.nlm.nih.gov/43068289/",
+     "fiche": "fiches/43068289.html",
+     "titre": "Trends in the Initial Management of Primary Angle-Closure Glaucoma: A 2010-2025 Study of Peripheral Iridotomy versus Phacoemulsification."
+    }
+   ]
+  }
+ ],
+ "erreur": null,
+ "selection": [
+  {
+   "id": "PMID:43091685",
+   "type": "article",
+   "titre": "Fixed-Dose Netarsudil/Latanoprost Versus Artificial Tears in Pseudophakic Bullous Keratopathy with Glaucoma: A Randomized Trial.",
+   "lien": "https://pubmed.ncbi.nlm.nih.gov/43091685/",
+   "fiche": "fiches/43091685.html",
+   "score": 7,
+   "raisons": [
+    "article de la semaine",
+    "produit suivi étudié : latanoprost, netarsudil",
+    "essai randomisé"
+   ]
+  },
+  {
+   "id": "PMID:43084824",
+   "type": "article",
+   "titre": "Twenty-Four-Months Effects of Omidenepag Isopropyl 0.002% on Intraocular Pressure and Anterior Segment Parameters in Glaucoma.",
+   "lien": "https://pubmed.ncbi.nlm.nih.gov/43084824/",
+   "fiche": "fiches/43084824.html",
+   "score": 4,
+   "raisons": [
+    "article de la semaine",
+    "produit suivi étudié : omidenepag"
+   ]
+  },
+  {
+   "id": "PMID:43060893",
+   "type": "article",
+   "titre": "Primary intraocular lens implantation and secondary glaucoma after congenital and infantile cataract surgery: a systematic review of randomized and observational evidence.",
+   "lien": "https://pubmed.ncbi.nlm.nih.gov/43060893/",
+   "fiche": "fiches/43060893.html",
+   "score": 3,
+   "raisons": [
+    "article de la semaine",
+    "méta-analyse ou revue systématique"
+   ]
+  },
+  {
+   "id": "NCT07847073",
+   "type": "essai",
+   "titre": "Adaptive Optics OCT Evaluation of Rhopressa's Effects on the Retinal Ganglion Cells in Glaucoma Patients",
+   "lien": "https://clinicaltrials.gov/study/NCT07847073",
+   "fiche": null,
+   "score": 2,
+   "raisons": [
+    "recrutement modifié"
+   ]
+  },
+  {
+   "id": "NCT07861243",
+   "type": "essai",
+   "titre": "Unravelling the Effects of Nicotinamide/Pyrroloquinolone Quinone /Citicoline/Homotaurine Fixed Combination on Contrast Sensitivity, Quality of Life, and Reading Performance in Glaucoma",
+   "lien": "https://clinicaltrials.gov/study/NCT07861243",
+   "fiche": null,
+   "score": 2,
+   "raisons": [
+    "nouvelle date de fin"
+   ]
+  },
+  {
+   "id": "NCT07945340",
+   "type": "essai",
+   "titre": "Effect of a Nicotinamide Riboside-Based Dietary Supplement on Retinal Function in Glaucoma (BRIGHT)",
+   "lien": "https://clinicaltrials.gov/study/NCT07945340",
+   "fiche": null,
+   "score": 2,
+   "raisons": [
+    "recrutement modifié"
+   ]
+  },
+  {
+   "id": "PMID:43085826",
+   "type": "article",
+   "titre": "Recent Advances in Glaucoma Pharmacotherapy: A State-of-the-Art Review on Next-Generation Compounds and Delivery Technologies.",
+   "lien": "https://pubmed.ncbi.nlm.nih.gov/43085826/",
+   "fiche": "fiches/43085826.html",
+   "score": 2,
+   "raisons": [
+    "article de la semaine",
+    "produit suivi cité : ROCK inhibitor*"
+   ]
+  },
+  {
+   "id": "PMID:43059934",
+   "type": "article",
+   "titre": "Re-evaluating donor-cell identity after hiPSC-RGC transplantation in mouse models of optic neuropathy.",
+   "lien": "https://pubmed.ncbi.nlm.nih.gov/43059934/",
+   "fiche": "fiches/43059934.html",
+   "score": 1,
+   "raisons": [
+    "article de la semaine"
+   ]
+  },
+  {
+   "id": "PMID:43060039",
+   "type": "article",
+   "titre": "Applications of Fairness Training in Artificial Intelligence to Ophthalmic Disease Diagnosis using External Eye Photographs.",
+   "lien": "https://pubmed.ncbi.nlm.nih.gov/43060039/",
+   "fiche": "fiches/43060039.html",
+   "score": 1,
+   "raisons": [
+    "article de la semaine"
+   ]
+  },
+  {
+   "id": "PMID:43060057",
+   "type": "article",
+   "titre": "Lamina Cribrosa Strain as a Glaucoma Prognostic Factor: The STRAIN Study Methodology and Initial Outcomes.",
+   "lien": "https://pubmed.ncbi.nlm.nih.gov/43060057/",
+   "fiche": "fiches/43060057.html",
+   "score": 1,
+   "raisons": [
+    "article de la semaine"
+   ]
+  },
+  {
+   "id": "PMID:43060233",
+   "type": "article",
+   "titre": "Baseline neuroticism and subsequent reporting of doctor- treated glaucoma in the Health and Retirement Study.",
+   "lien": "https://pubmed.ncbi.nlm.nih.gov/43060233/",
+   "fiche": "fiches/43060233.html",
+   "score": 1,
+   "raisons": [
+    "article de la semaine"
+   ]
+  },
+  {
+   "id": "PMID:43061928",
+   "type": "article",
+   "titre": "Systemic Corticosteroid-Related Adverse Outcomes Among Patients With Chronic Rhinosinusitis With Nasal Polyps.",
+   "lien": "https://pubmed.ncbi.nlm.nih.gov/43061928/",
+   "fiche": "fiches/43061928.html",
+   "score": 1,
+   "raisons": [
+    "article de la semaine"
+   ]
+  },
+  {
+   "id": "PMID:43061943",
+   "type": "article",
+   "titre": "Antimuscarinic medication use and risk of glaucoma in patients with overactive bladder: a literature review and disproportionality analysis using individual case safety reports from FAERS.",
+   "lien": "https://pubmed.ncbi.nlm.nih.gov/43061943/",
+   "fiche": "fiches/43061943.html",
+   "score": 1,
+   "raisons": [
+    "article de la semaine"
+   ]
+  },
+  {
+   "id": "PMID:43062149",
+   "type": "article",
+   "titre": "Emerging Trends and Research Hotspots in Nanotechnology for Ophthalmology: A Bibliometric Analysis.",
+   "lien": "https://pubmed.ncbi.nlm.nih.gov/43062149/",
+   "fiche": "fiches/43062149.html",
+   "score": 1,
+   "raisons": [
+    "article de la semaine"
+   ]
+  },
+  {
+   "id": "PMID:43062417",
+   "type": "article",
+   "titre": "Integrative Multi-Omics in Glaucoma: Defining Mechanistic Axes and Enabling Precision Management.",
+   "lien": "https://pubmed.ncbi.nlm.nih.gov/43062417/",
+   "fiche": "fiches/43062417.html",
+   "score": 1,
+   "raisons": [
+    "article de la semaine"
+   ]
+  },
+  {
+   "id": "PMID:43062419",
+   "type": "article",
+   "titre": "The Emory Optic Nerve Head Atlas: Using 3D Anatomical Mapping to Study Optic Neuropathies With an Initial Focus on Glaucoma.",
+   "lien": "https://pubmed.ncbi.nlm.nih.gov/43062419/",
+   "fiche": "fiches/43062419.html",
+   "score": 1,
+   "raisons": [
+    "article de la semaine"
+   ]
+  },
+  {
+   "id": "PMID:43062951",
+   "type": "article",
+   "titre": "Animal models of ocular radiation injury.",
+   "lien": "https://pubmed.ncbi.nlm.nih.gov/43062951/",
+   "fiche": "fiches/43062951.html",
+   "score": 1,
+   "raisons": [
+    "article de la semaine"
+   ]
+  },
+  {
+   "id": "PMID:43064155",
+   "type": "article",
+   "titre": "Nasal versus Temporal Deep Sclerectomy in Primary Congenital Glaucoma: Outcomes and Predictors of Survival.",
+   "lien": "https://pubmed.ncbi.nlm.nih.gov/43064155/",
+   "fiche": "fiches/43064155.html",
+   "score": 1,
+   "raisons": [
+    "article de la semaine"
+   ]
+  },
+  {
+   "id": "PMID:43065001",
+   "type": "article",
+   "titre": "Epidemiological characteristics and clinical outcomes of primary congenital glaucoma in Xinjiang, China.",
+   "lien": "https://pubmed.ncbi.nlm.nih.gov/43065001/",
+   "fiche": "fiches/43065001.html",
+   "score": 1,
+   "raisons": [
+    "article de la semaine"
+   ]
+  },
+  {
+   "id": "PMID:43065011",
+   "type": "article",
+   "titre": "Uveitic glaucoma in a multi-ethnic Malaysian cohort: demography, risk factors and clinical outcomes.",
+   "lien": "https://pubmed.ncbi.nlm.nih.gov/43065011/",
+   "fiche": "fiches/43065011.html",
+   "score": 1,
+   "raisons": [
+    "article de la semaine"
+   ]
+  },
+  {
+   "id": "PMID:43065659",
+   "type": "article",
+   "titre": "Peripheral Blood Transcriptomic Candidates Associated With Pseudoexfoliation Syndrome and Pseudoexfoliation Glaucoma: A Bioinformatics Analysis.",
+   "lien": "https://pubmed.ncbi.nlm.nih.gov/43065659/",
+   "fiche": "fiches/43065659.html",
+   "score": 1,
+   "raisons": [
+    "article de la semaine"
+   ]
+  },
+  {
+   "id": "PMID:43067070",
+   "type": "article",
+   "titre": "Uncovering the genetic architecture of optic nerve integrity estimates through genome-wide association study meta-analyses.",
+   "lien": "https://pubmed.ncbi.nlm.nih.gov/43067070/",
+   "fiche": "fiches/43067070.html",
+   "score": 1,
+   "raisons": [
+    "article de la semaine"
+   ]
+  },
+  {
+   "id": "PMID:43067826",
+   "type": "article",
+   "titre": "Glaucoma-Related Adverse Events After Rhegmatogenous Retinal Detachment Repair by Surgical Technique.",
+   "lien": "https://pubmed.ncbi.nlm.nih.gov/43067826/",
+   "fiche": "fiches/43067826.html",
+   "score": 1,
+   "raisons": [
+    "article de la semaine"
+   ]
+  },
+  {
+   "id": "PMID:43067932",
+   "type": "article",
+   "titre": "Ocular Complications After 1000 Centistoke Silicone Oil Removal in Patients With Previous Rhegmatogenous Retinal Detachment Repair.",
+   "lien": "https://pubmed.ncbi.nlm.nih.gov/43067932/",
+   "fiche": "fiches/43067932.html",
+   "score": 1,
+   "raisons": [
+    "article de la semaine"
+   ]
+  },
+  {
+   "id": "PMID:43068289",
+   "type": "article",
+   "titre": "Trends in the Initial Management of Primary Angle-Closure Glaucoma: A 2010-2025 Study of Peripheral Iridotomy versus Phacoemulsification.",
+   "lien": "https://pubmed.ncbi.nlm.nih.gov/43068289/",
+   "fiche": "fiches/43068289.html",
+   "score": 1,
+   "raisons": [
+    "article de la semaine"
+   ]
+  }
+ ]
+}
