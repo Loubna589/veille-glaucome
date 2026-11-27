@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>NCT07325240 — fiche essai</title><style>
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
+:root{--fond:#f4f7fb;--carte:#fff;--texte:#0f1d33;--doux:#52627a;--bord:#e2e8f0;--accent:#0b4f8a;
+--ok:#146c43;--ok-fond:#e3f4ea;--att:#8a5300;--att-fond:#fdf1d8;--ver:#b42318;--ver-fond:#fdeceb;
+--reg:#3f3c9e;--reg-fond:#ecebfb;--src-fond:#f1f5f9;--mark:#fff1a8;--manque:#b42318;--turquoise:#14b8a6;}
+@media screen{:root{--fond:#03060c;--carte:#0a1220;--texte:#e8f1fb;--doux:#93a7c2;
+--bord:#17263d;--accent:#4cc9f0;--ok:#6fd6a0;--ok-fond:#12301f;--att:#f3c15e;--att-fond:#352a10;--ver:#ff9a8f;
+--ver-fond:#3a1714;--reg:#b4b2ff;--reg-fond:#24234a;--src-fond:#0d1626;--mark:#5a4d10;--manque:#ff9a8f;--turquoise:#2dd4bf;}}
+*{box-sizing:border-box}body{margin:0;background:var(--fond);color:var(--texte);
+font:15.5px/1.6 "Inter",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+@media screen{body{background-image:radial-gradient(900px 500px at 85% -10%,rgba(76,201,240,.13),transparent 60%),
+linear-gradient(rgba(76,201,240,.045) 1px,transparent 1px),linear-gradient(90deg,rgba(76,201,240,.045) 1px,transparent 1px);
+background-size:auto,32px 32px,32px 32px;background-attachment:fixed;color-scheme:dark}}
+:focus-visible{outline:3px solid var(--turquoise);outline-offset:2px;border-radius:6px}
+main{max-width:1000px;margin:0 auto;padding:20px 18px 64px}
+.bandeau{display:flex;align-items:center;gap:10px;font-weight:800;letter-spacing:-.02em;padding:6px 0 14px;color:var(--texte);text-decoration:none}
+.bandeau i{width:30px;height:30px;border-radius:9px;background:linear-gradient(135deg,#0b4f8a,#14b8a6);display:inline-block}
+header,section{background:var(--carte);border:1px solid var(--bord);border-radius:16px;padding:20px 24px;margin:0 0 16px;
+box-shadow:0 1px 2px rgba(15,29,51,.04),0 6px 20px -8px rgba(15,29,51,.12)}
+h1{font-size:1.45rem;line-height:1.3;margin:.2em 0 .5em}h2{font-size:1.1rem;margin:0 0 .6em;color:var(--accent)}
+h3{font-size:1rem;margin:1.1em 0 .4em}.surtitre{color:var(--doux);margin:0;font-size:.9rem}
+a{color:var(--accent)}small,.def{color:var(--doux)}.def{font-size:.88rem;margin:.2em 0 .6em}
+.grille{display:grid;grid-template-columns:max-content 1fr;gap:4px 16px;margin:12px 0 0}
+.grille dt{color:var(--doux)}.grille dd{margin:0}
+.badge{display:inline-block;font-size:.72rem;font-weight:600;padding:2px 8px;border-radius:999px;margin:2px 4px 2px 0;
+vertical-align:middle;background:var(--src-fond);color:var(--doux)}
+.badge.confirme{background:var(--ok-fond);color:var(--ok)}.lire-essai{margin:.7rem 0}.lire-essai small{color:var(--doux)}.bouton-lire{display:inline-block;font-weight:650;text-decoration:none;background:var(--accent);color:#fff;padding:7px 14px;border-radius:999px;margin:2px 6px 2px 0}.bouton-lire.secondaire{background:var(--src-fond);color:var(--accent);border:1px solid var(--bord);padding:4px 11px}@media screen{.bouton-lire:not(.secondaire){color:#03060c}}.signalement{margin:.6rem 0;padding:.6rem .8rem;border-radius:8px;font-size:.95rem}.signalement.retracte{background:#c0392b;color:#fff}.signalement.retracte a{color:#fff}.signalement.erratum{background:#fdebd0;color:#7e4a0b;border:1px solid #e59a3a}.badge.attente{background:var(--att-fond);color:var(--att)}
+.badge.verifier{background:var(--ver-fond);color:var(--ver)}.badge.regle{background:var(--reg-fond);color:var(--reg)}
+.rubrique{font-weight:600}.manque{color:var(--manque);font-style:italic}
+mark{background:var(--mark);color:inherit;padding:0 2px;border-radius:3px}
+blockquote{margin:.5em 0;padding:.5em .9em;border-left:3px solid var(--bord);background:var(--src-fond);border-radius:0 6px 6px 0}
+pre{white-space:pre-wrap;font-size:.85rem;background:var(--src-fond);padding:10px;border-radius:6px}
+.defile{overflow-x:auto}table{border-collapse:collapse;width:100%;font-size:.92rem;margin:.4em 0}
+th,td{border:1px solid var(--bord);padding:6px 8px;text-align:left;vertical-align:top}th{background:var(--src-fond)}
+.analyse{background:var(--src-fond);padding:6px 10px;border-radius:6px;font-size:.92rem}
+.acteurs{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px}
+.acteurs>div{border:1px solid var(--bord);border-radius:8px;padding:10px 12px}.acteurs h3{margin-top:0}
+.copier{position:sticky;top:0;z-index:2;display:flex;gap:12px;align-items:center;flex-wrap:wrap;
+background:var(--fond);padding:10px 0;margin-bottom:8px}
+button{font:inherit;font-weight:600;background:var(--accent);color:#fff;border:0;border-radius:8px;padding:9px 16px;cursor:pointer}
+@media screen{button{color:#10141a}}
+textarea{width:100%;min-height:260px;font:13px/1.4 ui-monospace,Consolas,monospace;background:var(--src-fond);
+color:var(--texte);border:1px solid var(--bord);border-radius:6px;padding:8px}
+details{margin:.5em 0}summary{cursor:pointer;color:var(--accent)}
+.retour{font-size:.92rem;margin:0 0 4px}
+
+.acces p{margin:.5em 0}.bouton-acces{display:inline-block;font-weight:600;background:var(--accent);color:#fff;border:0;
+border-radius:8px;padding:8px 14px;text-decoration:none;cursor:pointer;font:inherit;font-weight:600}
+.bouton-acces.secondaire{background:var(--carte);color:var(--accent);border:1.5px solid var(--accent)}
+.ref-peb{min-height:140px;margin-top:8px}
+.statut-acces{padding:8px 12px;border-radius:8px;border-left:4px solid var(--doux)}
+.statut-acces--libre{border-left-color:#2e9d5b;background:rgba(46,157,91,.10)}
+.statut-acces--payant{border-left-color:#c2553f;background:rgba(194,85,63,.10)}
+.lien-secours{background:none;border:0;padding:0;color:var(--accent);text-decoration:underline;font-weight:400;font-size:.88rem;cursor:pointer}
+@media (prefers-color-scheme:dark){.bouton-acces{color:#10141a}.bouton-acces.secondaire{color:var(--accent)}}
+
+.qualite-etude h2 small{font-weight:400;font-size:.8rem;color:var(--doux);margin-left:6px}
+.qe-grille{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(280px,100%),1fr));gap:18px}
+.qe-force{display:inline-block;font-weight:800;border-radius:999px;padding:4px 14px;margin:0 0 8px;color:#fff;background:#64748b}
+.qe-n1,.qe-n2{background:#146c43}.qe-n3{background:#a16207}.qe-n4{background:#c2410c}.qe-n5{background:#b42318}.qe-n0{background:#4f46e5}
+.pyramide{list-style:none;padding:0;margin:10px 0 0;display:grid;gap:4px;justify-items:center}
+.pyramide li{background:var(--carte-2);border:1px solid var(--bord);border-radius:6px;padding:4px 8px;font-size:.8rem;color:var(--doux);text-align:center}
+.pyramide li b{color:var(--texte);margin-right:4px}
+.pyramide .pyr-1{width:52%}.pyramide .pyr-2{width:64%}.pyramide .pyr-3{width:76%}.pyramide .pyr-4{width:88%}.pyramide .pyr-5{width:100%}
+.pyramide li.actif{background:var(--accent);border-color:var(--accent);color:#fff;font-weight:700}.pyramide li.actif b{color:#fff}
+.qe-criteres{list-style:none;padding:0;margin:0;display:grid;gap:6px}
+.qe-criteres li{display:grid;grid-template-columns:22px 1fr;column-gap:6px;font-size:.9rem}
+.qe-criteres li small{grid-column:2;color:var(--doux)}
+.qe-criteres li span{font-weight:800;text-align:center}
+.qe-criteres li.oui span{color:#146c43}.qe-criteres li.non{opacity:.75}
+.qe-alerte{background:var(--att-fond);border-radius:8px;padding:6px 10px;margin:8px 0 0;font-size:.88rem}
+@media (prefers-color-scheme:dark){.pyramide li.actif{color:#0a1120}.pyramide li.actif b{color:#0a1120}.qe-criteres li.oui span{color:#6fd6a0}}
+
+@media (max-width:600px){.grille{grid-template-columns:1fr}.grille dt{margin-top:6px}header,section{padding:14px}}
+</style></head>
+<body><main>
+<a class="bandeau" href="../index.html"><i aria-hidden="true"></i>Glaucoma Intelligence</a><nav class="retour"><a href="../index.html">Accueil</a> · <a href="../etudes.html">← Essais &amp; articles</a> · <a href="../recherche.html">Rechercher</a> · <a href="../carte.html">Carte des acteurs</a> · <a href="../alertes.html">Alertes</a></nav>
+<div class="copier"><button id="bouton-copier" type="button" onclick="copierFiche()">Copier pour Claude / ChatGPT</button>
+<small>Copie une consigne + les faits de cette fiche, à coller dans votre assistant.</small></div>
+
+    <header>
+      <p class="surtitre">Fiche essai clinique · NCT07325240 · <a href="https://clinicaltrials.gov/study/NCT07325240" target="_blank" rel="noopener">voir sur ClinicalTrials.gov</a></p>
+      <h1>24-hour Effect of Rocklatan Compared With Latanoprost in Open Angle Glaucoma and Ocular Hypertension Patients</h1>
+      <p><span class="badge attente">ESSAI ENREGISTRÉ — AUCUN RÉSULTAT DÉPOSÉ AU REGISTRE</span></p>
+      <p class="lire-essai"><a class="bouton-lire" href="https://clinicaltrials.gov/study/NCT07325240" target="_blank" rel="noopener">📄 Voir l’essai sur ClinicalTrials.gov (gratuit)</a> <small>Pas encore de résultats déposés : le registre montre le protocole et l’avancement.</small></p>
+      <dl class="grille">
+        <dt>Phase (déclarée)</dt><dd>Phase 4</dd>
+        <dt>Statut</dt><dd>Recrutement en cours</dd>
+        <dt>Type d'étude</dt><dd>Interventionnelle</dd>
+        <dt>Participants</dt><dd>30 (prévu)</dd>
+        <dt>Première publication au registre</dt><dd>2026-01-08</dd>
+        <dt>Dernière mise à jour au registre</dt><dd>2026-11-27</dd>
+        <dt>Début · fin principale</dt><dd>2025-11-21 · 2027-07</dd>
+        <dt>Détecté par l'outil le</dt><dd>2026-11-27 · 0 modification(s) repérée(s) depuis</dd>
+      </dl>
+      <p class="rubriques"><strong>Rubrique :</strong> <span class="rubrique">Médicaments</span> <small>bras expérimental de type DRUG déclaré au registre : Netarsudil 0.02%/latanoprost 0.005% fixed dose combination ophthalmic solution</small> <span class="badge regle">classement automatique — règles dans config/rubriques.ini</span></p>
+    </header>
+<section><h2>Résumé et classification (IA) <span class="badge verifier">Généré par IA, non vérifié</span></h2><ul><li>Évaluer l'effet sur la réduction de la pression intraoculaire sur 24 heures d'une association fixe de nétarsudil-latanoprost par rapport au latanoprost seul.</li><li>Étude menée chez des adultes âgés d'au moins 18 ans atteints de glaucome à angle ouvert ou d'hypertension oculaire, comparant un œil à l'autre avec une dose quotidienne le soir.</li><li>Résultat non précisé dans le résumé</li></ul><p><strong>Catégorie : Traitement médicamenteux</strong> — The purpose of this study is to evaluate the effect on 24-hour IOP reduction of netarsudil-latanoprost fixed combination in one eye compared to latanoprost alone</p><p><small>Modèle gemini-flash-lite-latest · prompt resume_classification_v1 · le 2026-11-27 · statut : non_verifie · à partir du titre et du résumé de la source uniquement.</small></p></section><section><h2>Question étudiée <span class="badge source">Registre ClinicalTrials.gov</span></h2><p><strong>Titre officiel :</strong> 24-hour Effect Of Rocklatan Compared With Latanoprost In Open Angle Glaucoma And Ocular Hypertension Patients</p><blockquote lang="en">The purpose of this study is to evaluate the effect on 24-hour IOP reduction of netarsudil-latanoprost fixed combination in one eye compared to latanoprost alone in the contralateral eye, dosed daily, 1 drop at night (QD, PM) in adult subjects, at least 18 years of age, with open angle glaucoma (OAG) or ocular hypertension (OHT).</blockquote></section><section><h2>Traitement ou technologie, et comparateur <span class="badge source">Registre ClinicalTrials.gov</span><span class="badge confirme">rôles CONFIRMÉS : type de bras déclaré au registre</span></h2><div class="defile"><table><thead><tr><th>Bras</th><th>Rôle déclaré</th><th>Interventions</th><th>Description (registre)</th></tr></thead><tbody><tr><td><strong>netarsudil-latanoprost arm</strong></td><td>Expérimental (traitement étudié)</td><td>Drug: Netarsudil 0.02%/latanoprost 0.005% fixed dose combination ophthalmic solution</td><td><small lang="en"></small></td></tr><tr><td><strong>latanoprost arm</strong></td><td>Comparateur actif</td><td>Drug: Latanoprost 0.005% Ophthalmic Solution</td><td><small lang="en"></small></td></tr></tbody></table></div></section><section><h2>Type d'étude <span class="badge source">Registre ClinicalTrials.gov</span></h2><ul><li>Type : Interventionnelle · phase déclarée : Phase 4</li><li>Répartition : randomisée</li><li>Modèle : groupes parallèles</li><li>Insu : double insu <small>(PARTICIPANT, INVESTIGATOR)</small></li><li>But principal : traitement</li></ul></section><section><h2>Population et participants <span class="badge source">Registre ClinicalTrials.gov</span></h2><ul><li>Conditions déclarées : Open Angle Glaucoma, Ocular Hypertension</li><li>Âge : 18 Years → max. non rapporté</li><li>Sexe : tous</li><li>Volontaires sains acceptés : non</li><li>Nombre de participants : <mark>30 (prévu)</mark></li></ul><details><summary>Critères d'inclusion et d'exclusion (texte du registre)</summary><pre lang="en">Inclusion Criteria
+
+* Diagnosis of OHT or mild-to-moderate OAG in both eyes (OAG in one eye and OHT in the fellow eye is acceptable) based on VF, OCT and dilated fundus examination within one year of the screening visit.
+* Both eyes must qualify for the study with an IOP of ≥18 mmHg but ≤34 mmHg on history or at the screening visit
+* Be able and willing to provide signed informed consent and follow study instructions
+* Ability to cooperate with the examinations required for the study and be able to attend all study visits
+* If a contact lens wearer, willing to remove contact lenses at least 24 hours prior to each of the study visits.
+* Best-corrected visual acuity (BCVA) using ETDRS chart of +0.4 logMAR units (Snellen equivalent \~ 20/50) or better in each eye
+
+Exclusion Criteria
+
+Ocular:
+
+* Subjects with narrow angles (3 quadrants with Grade 2 or less according to Shaffer Scale), angle closure or a history of angle closure, or peripheral iridotomy in either eye
+* Severe glaucomatous damage
+* Difference in IOP between eyes \&gt; 5 mmHg (unmedicated) at any baseline time point
+* Use of more than two ocular hypotensive medications within 30 days of screening
+* Chronic or recurrent inflammatory eye diseases in either eye
+* Ocular infection or ocular inflammation in the past 3 months in either eye
+* Ocular trauma other than corneal abrasion within the past 6 months in either eye
+* Clinically significant retinal disease (e.g., severe diabetic retinopathy, exudative or severe non-exudative macular degeneration, macular edema, retinal vein or artery occlusion) in either eye
+* Cornea pathologic changes preventing reliable measurement (e.g., scarring, opacity, edema, keratoconus) in either eye
+* Myopia greater than -8.00D, or hyperopia greater than +2.00D in either eye
+* Central corneal thickness less than 480 μm or greater than 640 μm in either eye
+* Previous intraocular surgery other than routine uncomplicated cataract surgery in either eye
+* Previous glaucoma intraocular surgery or glaucoma laser procedures (except SLT and bilateral iStent implantation performed more than 6 months ago) in either eye
+* Previous corneal refractive surgery in either eye (other than uncomplicated PRK and LASIK)
+* Severe dry eye in either eye
+* Use of ocular medications in either eye within 30 days of screening, with the exception of IOP-lowering medications (which must be washed out according to the provided schedule), and lubricating drops for dry eye (which may be used throughout the study)
+* Known hypersensitivity to any component of the formulation (eg, benzalkonium chloride, etc.), or to topical anesthetic
+
+Systemic:
+
+* Clinically significant systemic diseases which might interfere with the study
+* Participation in any interventional study within 30 days prior to screening visit
+* Changes of systemic medication that could have an effect on IOP within 30 days prior to screening, or anticipated during the study including, β-adrenergic antagonists, α-adrenergic agonists and antagonists, angiotensin converting enzyme (ACE) inhibitors, angiotensin II receptor blockers
+* Recent change in medications that are known to affect IOP within 30 days prior to the screening visit and during the study including: systemic/inhaled steroids, calcium channel blockers, diuretics, and vasodilators
+* Women of childbearing potential who are pregnant, nursing, planning a pregnancy, or not using a medically acceptable form of birth control. An adult woman is considered to be of childbearing potential unless she is one year post-menopausal or three months post-surgical sterilization. All females of childbearing potential must have a negative pregnancy test result at the screening examination and must not intend to become pregnant during the study
+* Subjects with a known hypersensitivity or contraindications to any of the ingredients in the study medications</pre></details></section><section><h2>Critères évalués (tels que déclarés) <span class="badge source">Registre ClinicalTrials.gov</span></h2><ul><li><strong>Principal :</strong> Change in mean Intraocular Pressure (IOP) <small>[Change in mean IOP after 2 weeks of treatment with Latanoprost compared to baseline]</small></li><li><strong>Principal :</strong> Change in mean IOP <small>[Change in mean IOP after 2 weeks of treatment with Rocklatan compared to baseline]</small></li><li><strong>Principal :</strong> Change in mean IOP <small>[Change in mean IOP from baseline after 2 weeks of treatment with latanoprost minus change in mean IOP from baseline after 2 weeks of treatment with Rocklatan]</small></li><li>Secondaire : Change in mean nocturnal IOP <small>[Mean nocturnal IOP will be calculated based on the time points during the sleeping hours (11 PM - 7 AM) after 2 weeks of treatment with Latanoprost compared to baseline]</small></li><li>Secondaire : Change in mean nocturnal IOP <small>[Mean nocturnal IOP will be calculated based on the time points during the sleeping hours (11 PM - 7 AM) after 2 weeks of treatment with Rocklatan compared to baseline]</small></li><li>Secondaire : Change in mean diurnal IOP <small>[Mean diurnal IOP will be calculated based on the time points during the sleeping hours (7 AM - 11 PM) after 2 weeks of treatment with Latanoprost compared to baseline]</small></li><li>Secondaire : Change in mean diurnal IOP <small>[Mean diurnal IOP will be calculated based on the time points during the sleeping hours (7 AM - 11 PM) after 2 weeks of treatment with Rocklatan compared to baseline]</small></li></ul></section><section><h2>Résultats disponibles <span class="badge source">Registre ClinicalTrials.gov</span></h2><p><span class="manque">Aucun résultat n'est déposé au registre à ce jour. Statut actuel : Recrutement en cours.</span></p></section><section><h2>Données de tolérance <span class="badge source">Registre ClinicalTrials.gov</span></h2><p><span class="manque">Non disponibles : aucun résultat déposé au registre</span></p></section><section><h2>Publications liées <span class="badge source">Registre ClinicalTrials.gov</span></h2><ul><li><span class="badge regle">contexte</span> <a href="https://pubmed.ncbi.nlm.nih.gov/548245/" target="_blank" rel="noopener">PMID 548245</a> — citée par le registre comme référence de contexte (pas une publication de l'essai)<br><small lang="en">Nelson W, Tong YL, Lee JK, Halberg F. Methods for cosinor-rhythmometry. Chronobiologia. 1979 Oct-Dec;6(4):305-23. No abstract available.</small></li><li><span class="badge regle">contexte</span> <a href="https://pubmed.ncbi.nlm.nih.gov/32166538/" target="_blank" rel="noopener">PMID 32166538</a> — citée par le registre comme référence de contexte (pas une publication de l'essai)<br><small lang="en">Asrani S, Bacharach J, Holland E, McKee H, Sheng H, Lewis RA, Kopczynski CC, Heah T. Fixed-Dose Combination of Netarsudil and Latanoprost in Ocular Hypertension and Open-Angle Glaucoma: Pooled Efficacy/Safety Analysis of Phase 3 MERCURY-1 and -2. Adv Ther. 2020 Apr;37(4):1620-1631. doi: 10.1007/s12325-020-01277-2. Epub 2020 Mar 12.</small></li><li><span class="badge regle">contexte</span> <a href="https://pubmed.ncbi.nlm.nih.gov/32768361/" target="_blank" rel="noopener">PMID 32768361</a> — citée par le registre comme référence de contexte (pas une publication de l'essai)<br><small lang="en">Brubaker JW, Teymoorian S, Lewis RA, Usner D, McKee HJ, Ramirez N, Kopczynski CC, Heah T. One Year of Netarsudil and Latanoprost Fixed-Dose Combination for Elevated Intraocular Pressure: Phase 3, Randomized MERCURY-1 Study. Ophthalmol Glaucoma. 2020 Sep-Oct;3(5):327-338. doi: 10.1016/j.ogla.2020.05.008. Epub 2020 Jun 4.</small></li><li><span class="badge regle">contexte</span> <a href="https://pubmed.ncbi.nlm.nih.gov/33244711/" target="_blank" rel="noopener">PMID 33244711</a> — citée par le registre comme référence de contexte (pas une publication de l'essai)<br><small lang="en">Peace JH, McKee HJ, Kopczynski CC. A Randomized, Phase 2 Study of 24-h Efficacy and Tolerability of Netarsudil in Ocular Hypertension and Open-Angle Glaucoma. Ophthalmol Ther. 2021 Mar;10(1):89-100. doi: 10.1007/s40123-020-00322-1. Epub 2020 Nov 26.</small></li><li><span class="badge regle">contexte</span> <a href="https://pubmed.ncbi.nlm.nih.gov/18385065/" target="_blank" rel="noopener">PMID 18385065</a> — citée par le registre comme référence de contexte (pas une publication de l'essai)<br><small lang="en">Sit AJ, Nau CB, McLaren JW, Johnson DH, Hodge D. Circadian variation of aqueous dynamics in young healthy adults. Invest Ophthalmol Vis Sci. 2008 Apr;49(4):1473-9. doi: 10.1167/iovs.07-1139.</small></li><li><span class="badge regle">contexte</span> <a href="https://pubmed.ncbi.nlm.nih.gov/24243986/" target="_blank" rel="noopener">PMID 24243986</a> — citée par le registre comme référence de contexte (pas une publication de l'essai)<br><small lang="en">Nau CB, Malihi M, McLaren JW, Hodge DO, Sit AJ. Circadian variation of aqueous humor dynamics in older healthy adults. Invest Ophthalmol Vis Sci. 2013 Nov 15;54(12):7623-9. doi: 10.1167/iovs.12-12690.</small></li><li><span class="badge regle">contexte</span> <a href="https://pubmed.ncbi.nlm.nih.gov/16765686/" target="_blank" rel="noopener">PMID 16765686</a> — citée par le registre comme référence de contexte (pas une publication de l'essai)<br><small lang="en">Sit AJ, Weinreb RN, Crowston JG, Kripke DF, Liu JH. Sustained effect of travoprost on diurnal and nocturnal intraocular pressure. Am J Ophthalmol. 2006 Jun;141(6):1131-3. doi: 10.1016/j.ajo.2006.01.049.</small></li><li><span class="badge regle">contexte</span> <a href="https://pubmed.ncbi.nlm.nih.gov/1748546/" target="_blank" rel="noopener">PMID 1748546</a> — citée par le registre comme référence de contexte (pas une publication de l'essai)<br><small lang="en">Brubaker RF. Flow of aqueous humor in humans [The Friedenwald Lecture]. Invest Ophthalmol Vis Sci. 1991 Dec;32(13):3145-66.</small></li><li><span class="badge regle">contexte</span> <a href="https://pubmed.ncbi.nlm.nih.gov/22918671/" target="_blank" rel="noopener">PMID 22918671</a> — citée par le registre comme référence de contexte (pas une publication de l'essai)<br><small lang="en">Tung JD, Tafreshi A, Weinreb RN, Slight JR, Medeiros FA, Liu JH. Twenty-four-hour effects of bimatoprost 0.01% monotherapy on intraocular pressure and ocular perfusion pressure. BMJ Open. 2012 Aug 23;2(4):e001106. doi: 10.1136/bmjopen-2012-001106. Print 2012.</small></li><li><span class="badge regle">contexte</span> <a href="https://pubmed.ncbi.nlm.nih.gov/20663566/" target="_blank" rel="noopener">PMID 20663566</a> — citée par le registre comme référence de contexte (pas une publication de l'essai)<br><small lang="en">Liu JH, Medeiros FA, Slight JR, Weinreb RN. Diurnal and nocturnal effects of brimonidine monotherapy on intraocular pressure. Ophthalmology. 2010 Nov;117(11):2075-9. doi: 10.1016/j.ophtha.2010.03.026. Epub 2010 Jul 21.</small></li><li><span class="badge regle">contexte</span> <a href="https://pubmed.ncbi.nlm.nih.gov/19157559/" target="_blank" rel="noopener">PMID 19157559</a> — citée par le registre comme référence de contexte (pas une publication de l'essai)<br><small lang="en">Liu JH, Medeiros FA, Slight JR, Weinreb RN. Comparing diurnal and nocturnal effects of brinzolamide and timolol on intraocular pressure in patients receiving latanoprost monotherapy. Ophthalmology. 2009 Mar;116(3):449-54. doi: 10.1016/j.ophtha.2008.09.054. Epub 2009 Jan 20.</small></li><li><span class="badge regle">contexte</span> <a href="https://pubmed.ncbi.nlm.nih.gov/15364220/" target="_blank" rel="noopener">PMID 15364220</a> — citée par le registre comme référence de contexte (pas une publication de l'essai)<br><small lang="en">Liu JH, Kripke DF, Weinreb RN. Comparison of the nocturnal effects of once-daily timolol and latanoprost on intraocular pressure. Am J Ophthalmol. 2004 Sep;138(3):389-95. doi: 10.1016/j.ajo.2004.04.022.</small></li><li><span class="badge regle">contexte</span> <a href="https://pubmed.ncbi.nlm.nih.gov/33524367/" target="_blank" rel="noopener">PMID 33524367</a> — citée par le registre comme référence de contexte (pas une publication de l'essai)<br><small lang="en">Sit AJ, Gupta D, Kazemi A, McKee H, Challa P, Liu KC, Lopez J, Kopczynski C, Heah T. Netarsudil Improves Trabecular Outflow Facility in Patients with Primary Open Angle Glaucoma or Ocular Hypertension: A Phase 2 Study. Am J Ophthalmol. 2021 Jun;226:262-269. doi: 10.1016/j.ajo.2021.01.019. Epub 2021 Jan 29.</small></li><li><span class="badge regle">contexte</span> <a href="https://pubmed.ncbi.nlm.nih.gov/29469601/" target="_blank" rel="noopener">PMID 29469601</a> — citée par le registre comme référence de contexte (pas une publication de l'essai)<br><small lang="en">Kazemi A, McLaren JW, Kopczynski CC, Heah TG, Novack GD, Sit AJ. The Effects of Netarsudil Ophthalmic Solution on Aqueous Humor Dynamics in a Randomized Study in Humans. J Ocul Pharmacol Ther. 2018 Jun;34(5):380-386. doi: 10.1089/jop.2017.0138. Epub 2018 Feb 22.</small></li></ul></section><section><h2>Promoteur, financeur et affiliations <span class="badge source">Registre ClinicalTrials.gov</span></h2><div class="acteurs">
+      <div><h3>Promoteur</h3><p class="def">Organisme responsable de l'essai, déclaré au registre.</p>
+        <p><strong>Mayo Clinic</strong> (académique ou autre)</p>
+        <p>Collaborateurs déclarés : Alcon Research</p></div>
+      <div><h3>Financeur</h3><p class="def">Organisme qui finance la recherche.</p>
+        <p><span class="manque">Non déclaré séparément dans le registre.</span> Le promoteur n'est pas présenté ici comme financeur : le registre ne le précise pas.</p></div>
+      <div><h3>Affiliations</h3><p class="def">Établissement des responsables de l'étude.</p>
+        <ul><li>Arthur J Sit, MD, MS — investigateur principal — affiliation : Mayo Clinic</li></ul></div>
+    </div></section>
+<section><h2>Ce qui manque <span class="badge regle">calculé par l'outil</span></h2><ul><li>résultats (aucun résultat déposé au registre)</li><li>données de tolérance</li></ul></section>
+<section><h2>Limites, intérêt pour la veille marketing, à retenir <span class="badge attente">non produit par l'outil</span></h2><p><span class="manque">Non rédigé automatiquement : les données extraites ne suffisent pas à produire une analyse fiable sans interprétation. Utilisez le bouton « Copier pour Claude / ChatGPT » pour obtenir une proposition, à vérifier.</span></p></section>
+<section><details><summary>Voir le texte copié par le bouton</summary>
+<textarea id="a-copier" readonly>Tu es assistant de veille scientifique sur le glaucome. À partir UNIQUEMENT des informations ci-dessous, rédige en français une fiche de synthèse avec ces rubriques :
+1. Question étudiée
+2. Traitement ou technologie
+3. Type d&#x27;étude
+4. Population et nombre de participants
+5. Comparateur
+6. Critères évalués
+7. Principaux résultats chiffrés (recopie les valeurs exactes et indique leur source)
+8. Données de tolérance
+9. Limites
+10. Intérêt potentiel pour une veille marketing — présenté comme une INTERPRÉTATION, séparé des faits
+11. À retenir (une phrase)
+
+Règles :
+- N&#x27;invente rien. Si une information manque, écris « non rapporté ».
+- Distingue un essai simplement enregistré, un protocole, des résultats déposés dans un registre et une publication de résultats.
+- Si la source est seulement le résumé d&#x27;un article, indique que la synthèse repose uniquement sur ce résumé.
+- Les rôles « suggérés » (traitement étudié / comparateur) sont à vérifier dans le texte source.
+- Ne confonds pas promoteur d&#x27;essai, financeur et affiliation des auteurs.
+- Termine par la liste des points à vérifier.
+
+=== INFORMATIONS ===
+SOURCE : registre ClinicalTrials.gov, essai NCT07325240 — https://clinicaltrials.gov/study/NCT07325240
+NIVEAU DE PREUVE : essai enregistré, AUCUN résultat déposé au registre
+Titre : 24-hour Effect of Rocklatan Compared With Latanoprost in Open Angle Glaucoma and Ocular Hypertension Patients
+Titre officiel : 24-hour Effect Of Rocklatan Compared With Latanoprost In Open Angle Glaucoma And Ocular Hypertension Patients
+Phase déclarée : Phase 4 · Statut : Recrutement en cours · Type : Interventionnelle
+Promoteur (déclaré) : Mayo Clinic (OTHER) · Collaborateurs : Alcon Research
+Financeur : non déclaré séparément dans le registre
+Participants : 30 (prévu) · Conditions : Open Angle Glaucoma, Ocular Hypertension
+Plan : {&#x27;but_principal&#x27;: &#x27;TREATMENT&#x27;, &#x27;insu&#x27;: &#x27;DOUBLE&#x27;, &#x27;insu_description&#x27;: None, &#x27;insu_pour&#x27;: [&#x27;PARTICIPANT&#x27;, &#x27;INVESTIGATOR&#x27;], &#x27;modele&#x27;: &#x27;PARALLEL&#x27;, &#x27;modele_observationnel&#x27;: None, &#x27;repartition&#x27;: &#x27;RANDOMIZED&#x27;}
+Bras (rôle déclaré) :
+  - netarsudil-latanoprost arm [EXPERIMENTAL] : Drug: Netarsudil 0.02%/latanoprost 0.005% fixed dose combination ophthalmic solution
+  - latanoprost arm [ACTIVE_COMPARATOR] : Drug: Latanoprost 0.005% Ophthalmic Solution
+Critères principaux : Change in mean Intraocular Pressure (IOP) [Change in mean IOP after 2 weeks of treatment with Latanoprost compared to baseline]; Change in mean IOP [Change in mean IOP after 2 weeks of treatment with Rocklatan compared to baseline]; Change in mean IOP [Change in mean IOP from baseline after 2 weeks of treatment with latanoprost minus change in mean IOP from baseline after 2 weeks of treatment with Rocklatan]
+Critères secondaires : Change in mean nocturnal IOP [Mean nocturnal IOP will be calculated based on the time points during the sleeping hours (11 PM - 7 AM) after 2 weeks of treatment with Latanoprost compared to baseline]; Change in mean nocturnal IOP [Mean nocturnal IOP will be calculated based on the time points during the sleeping hours (11 PM - 7 AM) after 2 weeks of treatment with Rocklatan compared to baseline]; Change in mean diurnal IOP [Mean diurnal IOP will be calculated based on the time points during the sleeping hours (7 AM - 11 PM) after 2 weeks of treatment with Latanoprost compared to baseline]; Change in mean diurnal IOP [Mean diurnal IOP will be calculated based on the time points during the sleeping hours (7 AM - 11 PM) after 2 weeks of treatment with Rocklatan compared to baseline]
+
+DESCRIPTION (registre, texte source) :
+The purpose of this study is to evaluate the effect on 24-hour IOP reduction of netarsudil-latanoprost fixed combination in one eye compared to latanoprost alone in the contralateral eye, dosed daily, 1 drop at night (QD, PM) in adult subjects, at least 18 years of age, with open angle glaucoma (OAG) or ocular hypertension (OHT).
+
+RÉSULTATS : aucun résultat déposé au registre.</textarea></details></section>
+<p><small>Fiche générée le 2026-11-27 15:32 par Glaucoma Intelligence. Extraits des sources en langue originale.</small></p>
+</main><script>
+function copierFiche(){
+  var zone=document.getElementById('a-copier'), bouton=document.getElementById('bouton-copier');
+  function fait(){bouton.textContent='Copié ✓ — collez dans Claude ou ChatGPT';setTimeout(function(){bouton.textContent='Copier pour Claude / ChatGPT'},3000);}
+  function secours(){zone.parentElement.open=true;zone.select();try{document.execCommand('copy');fait();}
+    catch(err){bouton.textContent='Sélectionnez le texte ci-dessous puis Ctrl+C';}}
+  if(navigator.clipboard&&window.isSecureContext){navigator.clipboard.writeText(zone.value).then(fait,secours);}else{secours();}
+}
+
+function demanderBU(b){
+  var ref=(b.parentElement.querySelector('.ref-peb')||b.parentElement.parentElement.querySelector('.ref-peb')).value, url=b.getAttribute('data-url'), libelle=b.textContent;
+  function fini(ok){b.textContent=ok?'Référence copiée ✓':'Copiez la référence ci-dessous';
+    if(!ok){var t=b.parentElement.querySelector('.ref-peb');t.hidden=false;t.select();}
+    if(url){window.open(url,'_blank','noopener');}else{b.textContent+=' — ouvrez l’onglet « Demande PEB » du catalogue de la BU';}
+    setTimeout(function(){b.textContent=libelle},6000);}
+  if(navigator.clipboard&&window.isSecureContext){navigator.clipboard.writeText(ref).then(function(){fini(true)},function(){fini(false)});}
+  else{fini(false);}
+}
+</script></body></html>
